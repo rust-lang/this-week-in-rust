@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [cargo-msrv](https://github.com/foresterre/cargo-msrv), a cargo subcommand to find out the Minimum Supported Rust Version (MSRV) of your crate.
+
+llogiq is a bit worried about not having received suggestions for two weeks in a row, but still offers you his choice.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -67,7 +69,87 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+364 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-11-06..2023-11-13
+
+* [speed up `x clean`](https://github.com/rust-lang/rust/pull/117723)
+* [llvm-wrapper: remove include of non-existant Vectorize.h](https://github.com/rust-lang/rust/pull/117675)
+* [`rustc_llvm`: Link to libkstat on Solaris/SPARC](https://github.com/rust-lang/rust/pull/114224)
+* [add -Zcross-crate-inline-threshold=yes](https://github.com/rust-lang/rust/pull/117650)
+* [add `std::hash::{DefaultHasher, RandomState}` exports](https://github.com/rust-lang/rust/pull/115694)
+* [add a new `download-ci-llvm = if-unchanged` option and enable it by default for `profile = codegen`](https://github.com/rust-lang/rust/pull/116881)
+* [allow configuring the parent GitHub repository](https://github.com/rust-lang/rust/pull/117122)
+* [build a better MIR body when errors are encountered](https://github.com/rust-lang/rust/pull/117418)
+* [compute layout with spans for better cycle errors in coroutines](https://github.com/rust-lang/rust/pull/117858)
+* [compute polonius loan scopes over the region graph](https://github.com/rust-lang/rust/pull/117560)
+* [coverage: avoid creating malformed macro name spans](https://github.com/rust-lang/rust/pull/117827)
+* [coverage: rename the `run-coverage` test mode to `coverage-run`](https://github.com/rust-lang/rust/pull/117700)
+* [deny more `~const` trait bounds](https://github.com/rust-lang/rust/pull/117817)
+* [extend builtin/auto trait args with error when they have \>1 argument](https://github.com/rust-lang/rust/pull/117645)
+* [format macro const literals with pretty printer](https://github.com/rust-lang/rust/pull/115485)
+* [generator layout: ignore fake borrows](https://github.com/rust-lang/rust/pull/117712)
+* [give a better diagnostic for missing parens in Fn* bounds](https://github.com/rust-lang/rust/pull/117297)
+* [handle the case when the change-id isn't found](https://github.com/rust-lang/rust/pull/117263)
+* [improve diagnostic for const ctors in array repeat expressions](https://github.com/rust-lang/rust/pull/113925)
+* [make `FatalErrorMarker` lower priority than other panics](https://github.com/rust-lang/rust/pull/117557)
+* [on method chain expression failure, look for missing method in earlier segments of the chain](https://github.com/rust-lang/rust/pull/115229)
+* [only instantiate binder during dyn's built-in trait candidate probe once](https://github.com/rust-lang/rust/pull/117610)
+* [only use `normalize_param_env` when normalizing predicate in `check_item_bounds`](https://github.com/rust-lang/rust/pull/117542)
+* [patterns: reject raw pointers that are not just integers](https://github.com/rust-lang/rust/pull/116930)
+* [recover from incorrectly ordered/duplicated function keywords](https://github.com/rust-lang/rust/pull/117282)
+* [reorder checks to make sure potential missing expect on Option/Result…](https://github.com/rust-lang/rust/pull/117695)
+* [restore rustc shim error message](https://github.com/rust-lang/rust/pull/117724)
+* [catch stray `{` in let-chains](https://github.com/rust-lang/rust/pull/117770)
+* [suggest removing `;` for `;` within let-chains](https://github.com/rust-lang/rust/pull/117743)
+* [thir unsafeck fixes](https://github.com/rust-lang/rust/pull/117229)
+* [warn when using an unstable feature with -Ctarget-feature](https://github.com/rust-lang/rust/pull/117616)
+* [when not finding assoc fn on type, look for builder fn](https://github.com/rust-lang/rust/pull/117006)
+* [miri: `data_race`: link to docs for 'unusual' race conditions](https://github.com/rust-lang/miri/pull/3155)
+* [miri: freebsd adding getentropy interception support](https://github.com/rust-lang/miri/pull/3161)
+* [miri: implement round.ps and round.pd SSE4.1 intrinsics](https://github.com/rust-lang/miri/pull/3159)
+* [miri: share getentropy shim across various unixes](https://github.com/rust-lang/miri/pull/3162)
+* [miri: treat thread-local statics on main thread as static roots for leakage analysis](https://github.com/rust-lang/miri/pull/2931)
+* [emit `#[inline]` on `derive(Debug)`](https://github.com/rust-lang/rust/pull/117727)
+* [stabilize `result_option_inspect`](https://github.com/rust-lang/rust/pull/116866)
+* [move `BorrowedBuf` and `BorrowedCursor` from `std:io` to `core::io`](https://github.com/rust-lang/rust/pull/117694)
+* [closure-consuming helper functions for `fmt::Debug` helpers](https://github.com/rust-lang/rust/pull/117730)
+* [don't panic in `<BorrowedCursor as io::Write>::write`](https://github.com/rust-lang/rust/pull/115460)
+* [futures: provide a non-destructive mechanism to determine if a sink/stream are paired](https://github.com/rust-lang/futures-rs/pull/2797)
+* [codegen-cranelift: implement AArch64 intrinsics necessary for simd-json](https://github.com/rust-lang/rustc_codegen_cranelift/pull/1416)
+* [codegen-cranelift: implement AES-NI and SHA256 crypto intrinsics using inline asm](https://github.com/rust-lang/rustc_codegen_cranelift/pull/1425)
+* [codegen-cranelift: implement a lot of SIMD intrinsics](https://github.com/rust-lang/rustc_codegen_cranelift/pull/1417)
+* [codegen\_gcc: do not emit `.eh_frame` section if using -Cpanic=abort](https://github.com/rust-lang/rustc_codegen_gcc/pull/374)
+* [cargo: `query`{`_vec`} use `IndexSummary`](https://github.com/rust-lang/cargo/pull/12970)
+* [cargo: add better error message when it can not find the search section](https://github.com/rust-lang/cargo/pull/12865)
+* [cargo: add cache garbage collection](https://github.com/rust-lang/cargo/pull/12634)
+* [cargo credential: include license files in all published crates](https://github.com/rust-lang/cargo/pull/12953)
+* [cargo: do not allow empty feature name](https://github.com/rust-lang/cargo/pull/12928)
+* [cargo: make browser links out of HTML file paths](https://github.com/rust-lang/cargo/pull/12889)
+* [cargo: filter `cargo-credential-*` dependencies by OS](https://github.com/rust-lang/cargo/pull/12949)
+* [cargo: fix `--quiet` being used with nested subcommands](https://github.com/rust-lang/cargo/pull/12959)
+* [cargo: fix non-deterministic behavior in last-use repopulation](https://github.com/rust-lang/cargo/pull/12958)
+* [cargo: do not panic when failed to parse rustc commit-hash](https://github.com/rust-lang/cargo/pull/12965)
+* [cargo: preserve jobserver file descriptors on rustc invocation in `fix_exec_rustc`](https://github.com/rust-lang/cargo/pull/12951)
+* [cargo: report more detailed semver errors](https://github.com/rust-lang/cargo/pull/12924)
+* [rustdoc: properly elide cross-crate host effect args](https://github.com/rust-lang/rust/pull/117531)
+* [clippy: `arc_with_non_send_sync` Improve suggested resolution](https://github.com/rust-lang/rust-clippy/pull/11772)
+* [clippy: `map_identity`: respect match ergonomics](https://github.com/rust-lang/rust-clippy/pull/11792)
+* [clippy: `mod_module_files` Don't emit lint for mod.rs in tests](https://github.com/rust-lang/rust-clippy/pull/11779)
+* [clippy: add type details to `unnecessary_fallible_conversions` note](https://github.com/rust-lang/rust-clippy/pull/11767)
+* [clippy: destructure `Conf` in `register_lints`](https://github.com/rust-lang/rust-clippy/pull/11790)
+* [clippy: disable `vec_box` when using different allocators](https://github.com/rust-lang/rust-clippy/pull/11780)
+* [clippy: don't check for late-bound vars, check for escaping bound vars](https://github.com/rust-lang/rust-clippy/pull/11760)
+* [clippy: fixes to `manual_let_else`'s divergence check](https://github.com/rust-lang/rust-clippy/pull/11787)
+* [clippy: lint `needless_borrow` and `explicit_auto_deref` on most union field accesses](https://github.com/rust-lang/rust-clippy/pull/11508)
+* [clippy: move `suspicious_doc_comments` to doc pass](https://github.com/rust-lang/rust-clippy/pull/11798)
+* [clippy: replace `if_chain` with let chains](https://github.com/rust-lang/rust-clippy/pull/11750)
+* [rust-analyzer: add config for preferring / ignoring prelude modules when inserting imports](https://github.com/rust-lang/rust-analyzer/pull/15871)
+* [rust-analyzer: preview adt field when hover](https://github.com/rust-lang/rust-analyzer/pull/15847)
+* [rust-analyzer: find `Self` reference](https://github.com/rust-lang/rust-analyzer/pull/15864)
+* [rust-analyzer: ignore `doc(hidden)` attr if no body is present](https://github.com/rust-lang/rust-analyzer/pull/15854)
+* [rust-analyzer: truncate closure capture place for raw pointer](https://github.com/rust-lang/rust-analyzer/pull/15860)
+* [rust-analyzer: improve check for include macro](https://github.com/rust-lang/rust-analyzer/pull/15866)
 
 ### Rust Compiler Performance Triage
 
@@ -237,7 +319,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> I decided to keep learning Rust because I liked the syntax. I liked the speed. I liked the community. I liked it all. It felt like a breath of fresh air: a syntax more intuitive than Python, JavaScript, or C, yet still faster.
+
+– [Goren Barak on their blog](https://digital-goobers.vercel.app/posts/learning-rust)
+
+Thanks to [Goren Barak](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1488) for the self-suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
