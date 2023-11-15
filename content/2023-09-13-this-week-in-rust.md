@@ -324,7 +324,7 @@ Rusty Events between 2023-09-13 - 2023-10-11 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/fvdtgtyfcnbnb/)
 * 2023-10-11| Virtual (Boulder, CO, US) | [Boulder Elixir and Rust](https://www.meetup.com/boulder-elixir-rust/)
     * [**Monthly Meetup**]https://www.meetup.com/boulder-elixir-rust/events/zvxcsryfcnbpb/)
- 
+
 ### Asia
 
 * 2023-10-03 | Taipei, TW | [WebAssembly and Rust Meetup (Wasm Empowering AI)](https://www.meetup.com/wasm-rust-meetup/)
@@ -342,7 +342,7 @@ Rusty Events between 2023-09-13 - 2023-10-11 🦀
     * [**Rust Workshop - 2**](https://www.meetup.com/rust-getting-started/events/295880062/)
 * 2023-09-16 | Brussels, BE | [HSBXL](https://hsbxl.be/events/software-freedom-day/2023-09-16/)
     * [**Software Freedom Day 2023**](https://www.meetup.com/brussels-hackerspace/events/295912633/)
-* 2023-09-19 | Augsburg, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
+* 2023-09-19 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
     * [**Logging and tracing in Rust**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/295504245/)
 * 2023-09-21 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/)
     * [**Rust Aarhus - Rust and Talk at Concordium**](https://www.meetup.com/rust-aarhus/events/294031975/)
@@ -355,7 +355,7 @@ Rusty Events between 2023-09-13 - 2023-10-11 🦀
 * 2023-09-28 | Madrid, ES | [MadRust](https://www.meetup.com/madrust/)
     * [**Primer evento Post COVID: ¡Cervezas MadRust!**](https://www.meetup.com/madrust/events/296063394/)
 * 2023-09-30 | Saint Petersburg, RU | [Rust Saint Petersburg meetups](https://t.me/ruRust_spb)
-    * [**Rust Community Meetup: A tale about how I tried to make my Blitz Basic - Vitaly; How to use nix to build projects on Rust – Danil; Getting to know tower middleware. General overview – Mikhail**](https://rurust-saint-petersburg-m.timepad.ru/event/2561864/) 
+    * [**Rust Community Meetup: A tale about how I tried to make my Blitz Basic - Vitaly; How to use nix to build projects on Rust – Danil; Getting to know tower middleware. General overview – Mikhail**](https://rurust-saint-petersburg-m.timepad.ru/event/2561864/)
 * 2023-10-10 | Berlin, DE | [OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin/)
     * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/295679773/)
 
@@ -417,8 +417,8 @@ Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/r
 
 # Quote of the Week
 
-> It's very much a positive feedback loop: good tooling makes good tooling easier to build, so more of it gets built and the cycle repeats.  
-> `cargo-semver-checks` stands on the shoulders of giants like `rustc` and `rustdoc` and [Trustfall](https://github.com/obi1kenobi/trustfall). Remove any one of them (or even just `rustc`'s high-quality diagnostics!) and `cargo-semver-checks` wouldn't have been a viable project at all. 
+> It's very much a positive feedback loop: good tooling makes good tooling easier to build, so more of it gets built and the cycle repeats.
+> `cargo-semver-checks` stands on the shoulders of giants like `rustc` and `rustdoc` and [Trustfall](https://github.com/obi1kenobi/trustfall). Remove any one of them (or even just `rustc`'s high-quality diagnostics!) and `cargo-semver-checks` wouldn't have been a viable project at all.
 
 – [Predrag Gruevski on /r/rust](https://www.reddit.com/r/rust/comments/16cj1mo/comment/jzjw4vk/?utm_source=share&utm_medium=web2x&context=3)
 
