@@ -200,6 +200,8 @@ Rusty Events between 2023-11-15 - 2023-12-13 🦀
     * [**GPU processing in Rust**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/295504264/)
 * 2023-11-23 | Biel/Bienne, CH | [Rust Bern](https://www.meetup.com/rust-bern/)
     * [**Rust Talks Bern @ Biel: Embedded Edition**](https://www.meetup.com/rust-bern/events/296556498/)
+* 2023-11-30 | Brussels, BE | [Lambda Brussels](https://lambda-brussels.glitch.me/)
+    * [**Lambda Brussels**](https://lambda-brussels.glitch.me/)
 
 ### North America
 
