@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [audio] [RustShip: Corrode.dev and lychee with Matthias Endler](https://ieni.dev/2023/11/%EF%B8%8F-corrode.dev-and-lychee-with-matthias-endler-rustship-5/)
 
 ## Crate of the Week
 
