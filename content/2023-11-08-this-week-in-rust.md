@@ -65,7 +65,7 @@ and just ask the editors to select the category.
 * [video] [10x faster - taking charge of the compiler backend](https://www.youtube.com/watch?v=FCVfofYsWHU)
 * [video] [RISC-V Vector Extension in Rust](https://www.youtube.com/watch?v=jb5-P_r3jmw)
 * [Embedding simple CSV file in Rust application](https://rust.code-maven.com/embedding-simple-csv-file)
- 
+
 ## Crate of the Week
 
 This week's crate is [floem](https://github.com/lapce/floem), a native Rust UI library with fine-grained reactivity.
@@ -301,7 +301,7 @@ Rusty Events between 2023-11-08 - 2023-12-06 🦀
     * [**Rust Meetup in Paris**](https://www.eventbrite.fr/e/rust-meetup-in-paris-tickets-732823744547)
 * 2023-11-09 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/)
     * [**Reading Rust Meetup at Browns**](https://www.meetup.com/reading-rust-workshop/events/296083417/)
-* 2023-11-21 | Augsburg, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
+* 2023-11-21 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
     * [**GPU processing in Rust**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/295504264/)
 * 2023-11-23 | Biel/Bienne, CH | [Rust Bern](https://www.meetup.com/rust-bern/)
     * [**Rust Talks Bern @ Biel: Embedded Edition**](https://www.meetup.com/rust-bern/events/296556498/)
