@@ -71,7 +71,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A week dominated by one particular perf improvement that lead to huge performance gains - an avg of 5% improvement across 121 test cases! The perf improvement comes from adding an `#[inline]` hint to the output from `#[derive(Debug)]` which presumably allows the compiler to more easily do deadcode elimination reducing the binary size and the amount of code that actually needs to be code-gened.
+
+Triage done by **@rylev**.
+Revision range: [7b97a5ca..173b6e68](https://perf.rust-lang.org/?start=7b97a5ca8422d1495a8918106d3249aa405812d4&end=173b6e686b158dbad7d072c64bef3ced2052312b&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.4%  | [0.2%, 0.9%]    | 10    |
+| Regressions ❌ <br /> (secondary)  | 1.9%  | [0.2%, 3.6%]    | 12    |
+| Improvements ✅ <br /> (primary)   | -5.6% | [-49.2%, -0.1%] | 111   |
+| Improvements ✅ <br /> (secondary) | -3.5% | [-25.0%, -0.2%] | 155   |
+| All ❌✅ (primary)                 | -5.1% | [-49.2%, 0.9%]  | 121   |
+
+
+2 Regressions, 2 Improvements, 3 Mixed; 3 of them in rollups
+55 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/e036aa707afc1495783004ee018aada4dfa9d192/triage/2023-11-14.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
