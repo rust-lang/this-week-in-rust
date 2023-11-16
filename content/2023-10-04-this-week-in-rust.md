@@ -331,7 +331,7 @@ Rusty Events between 2023-10-04 - 2023-11-01 🦀
     * [**Rust Meetup #35**](https://www.meetup.com/rust-wroclaw/events/296507983/)
 * 2023-10-25 | Dublin, IE | [Rust Dublin](https://www.meetup.com/rust-dublin/)
     * [**Biome, web development tooling with Rust**](https://www.meetup.com/rust-dublin/events/295179534/)
-* 2023-10-26 | Augsburg, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
+* 2023-10-26 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
     * [**Augsburg Rust Meetup #3**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/296183126/)
 
 ### North America
@@ -383,7 +383,7 @@ Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/r
 
 > I've been writing Rust code everyday for years, and I used to say Rust wasn't great for writing prototypes because if forced you to ask yourself many questions that you may want to avoid at that time.
 >
-> I recently realized this is all wrong: you can write Rust pretty much as fast as you can write code in any other language, with a meaningful difference: with a little discipline it's easy to make the rough edges obvious so you can sort them out later. 
+> I recently realized this is all wrong: you can write Rust pretty much as fast as you can write code in any other language, with a meaningful difference: with a little discipline it's easy to make the rough edges obvious so you can sort them out later.
 
 – [/u/moiaussi4213 on /r/rust](https://www.reddit.com/r/rust/comments/16yljmi/realization_rust_lets_you_comfortably_leave/)
 

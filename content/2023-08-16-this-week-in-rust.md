@@ -219,7 +219,7 @@ Revision range: [443c3161..e8459109](https://perf.rust-lang.org/?start=443c3161d
 0 Regressions, 1 Improvements, 4 Mixed; 1 of them in rollups
 49 artifact comparisons made in total
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-08-14.md) 
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2023-08-14.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -301,7 +301,7 @@ Rusty Events between 2023-08-16 - 2023-09-13 🦀
 
 ### Europe
 
-* 2023-08-16 | Augsburg, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
+* 2023-08-16 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
     * [**Native Graph Algorithms in Rust**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/295191245/)
 * 2023-08-17 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/)
     * [**Reading Rust Meetup at Browns**](https://www.meetup.com/reading-rust-workshop/events/294201562/)
