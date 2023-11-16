@@ -28,16 +28,36 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Faster compilation with the parallel front-end in nightly](https://blog.rust-lang.org/2023/11/09/parallel-rustc.html)
+* [November 2023 Leadership Council Update](https://blog.rust-lang.org/inside-rust/2023/11/13/leadership-council-update.html)
+* [Our Vision for the Rust Specification](https://blog.rust-lang.org/inside-rust/2023/11/15/spec-vision.html)
 
 ### Foundation
+* [The Rust Foundation to Develop Training and Certification Program](https://foundation.rust-lang.org/news/the-rust-foundation-to-develop-training-and-certification-program/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Slint 1.3 Released with Revamped Native Styles and JavaScript API](https://slint.dev/blog/slint-1.3-released)
+* [rustc_codegen_gcc: Progress Report #27](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-27)
+* [rust-analyzer changelog #207](https://rust-analyzer.github.io/thisweek/2023/11/13/changelog-207.html)
 
 ### Observations/Thoughts
+* [Why Rust in Production?](https://corrode.dev/why-rust/)
+* [Building a Web App in Rust](https://www.yieldcode.blog/post/building-a-webapp-in-rust/)
+* [Rust without crates.io](https://thomask.sdf.org/blog/2023/11/14/rust-without-crates-io.html)
+* [How I Improved My Rust Compile Times by 75%](https://benw.is/posts/how-i-improved-my-rust-compile-times-by-seventy-five-percent)
+* [Iterator as an Alias](https://blog.yoshuawuyts.com/iterator-as-an-alias/)
+* [What is a team?](https://blog.yoshuawuyts.com/what-is-a-team/)
 
 ### Rust Walkthroughs
+* [Building and Deploying A Static Site Generator](https://www.shuttle.rs/blog/2023/11/15/ssg-in-rust)
+* [Tracking the current active process in Windows with Rust](https://hellocode.co/blog/post/tracking-active-process-windows-rust/)
+* [Edge IoT with Rust on ESP: MQTT Subscriber](https://apollolabsblog.hashnode.dev/edge-iot-with-rust-on-esp-mqtt-subscriber)
+* [Building a Central Authentication Server with Rust, PostgreSQL, Kafka and gRPC](https://medium.com/@adefemiadeoye/building-a-central-authentication-server-with-rust-postgresql-kafka-and-grpc-f1b44de099ea)
+* [video] [An Introduction to Veilid, by Christien Rioux](https://www.youtube.com/watch?v=h288gZTjJOM)
+* [video] [Code in Rust with RustRover, by Vitaly Bragilevsky](https://www.youtube.com/watch?v=pnFS0YIKUJ8)
+* [video] [Create a Dummy GitHub CLI in Rust!](https://www.youtube.com/watch?v=pyeUkQg8z9A)
 
 ### Research
 
