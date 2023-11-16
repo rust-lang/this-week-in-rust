@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 * [rustc_codegen_gcc: Progress Report #27](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-27)
 * [rust-analyzer changelog #207](https://rust-analyzer.github.io/thisweek/2023/11/13/changelog-207.html)
 
+- [`breadcrumbs 0.1.4`](https://crates.io/crates/breadcrumbs) released - now the smallest logging library on crates.io, supporting `#[no_std]` and concurrency.
+
 ### Observations/Thoughts
 * [Why Rust in Production?](https://corrode.dev/why-rust/)
 * [Building a Web App in Rust](https://www.yieldcode.blog/post/building-a-webapp-in-rust/)
