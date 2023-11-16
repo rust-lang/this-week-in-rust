@@ -35,14 +35,11 @@ and just ask the editors to select the category.
 ### Foundation
 * [The Rust Foundation to Develop Training and Certification Program](https://foundation.rust-lang.org/news/the-rust-foundation-to-develop-training-and-certification-program/)
 
-### Newsletters
-
 ### Project/Tooling Updates
 * [Slint 1.3 Released with Revamped Native Styles and JavaScript API](https://slint.dev/blog/slint-1.3-released)
 * [rustc_codegen_gcc: Progress Report #27](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-27)
 * [rust-analyzer changelog #207](https://rust-analyzer.github.io/thisweek/2023/11/13/changelog-207.html)
-
-- [`breadcrumbs 0.1.4`](https://crates.io/crates/breadcrumbs) released - now the smallest logging library on crates.io, supporting `#[no_std]` and concurrency.
+* [breadcrumbs 0.1.4](https://crates.io/crates/breadcrumbs)
 
 ### Observations/Thoughts
 * [Why Rust in Production?](https://corrode.dev/why-rust/)
@@ -57,13 +54,10 @@ and just ask the editors to select the category.
 * [Tracking the current active process in Windows with Rust](https://hellocode.co/blog/post/tracking-active-process-windows-rust/)
 * [Edge IoT with Rust on ESP: MQTT Subscriber](https://apollolabsblog.hashnode.dev/edge-iot-with-rust-on-esp-mqtt-subscriber)
 * [Building a Central Authentication Server with Rust, PostgreSQL, Kafka and gRPC](https://medium.com/@adefemiadeoye/building-a-central-authentication-server-with-rust-postgresql-kafka-and-grpc-f1b44de099ea)
+* [I Got a Milk-V Duo (and It’s Running Rust)](https://barretts.club/posts/i-got-a-milkv-duo/)
 * [video] [An Introduction to Veilid, by Christien Rioux](https://www.youtube.com/watch?v=h288gZTjJOM)
 * [video] [Code in Rust with RustRover, by Vitaly Bragilevsky](https://www.youtube.com/watch?v=pnFS0YIKUJ8)
 * [video] [Create a Dummy GitHub CLI in Rust!](https://www.youtube.com/watch?v=pyeUkQg8z9A)
-
-* [I Got a Milk-V Duo (and It’s Running Rust)](https://barretts.club/posts/i-got-a-milkv-duo/)
-
-### Research
 
 ### Miscellaneous
 * [audio] [RustShip: Corrode.dev and lychee with Matthias Endler](https://ieni.dev/2023/11/%EF%B8%8F-corrode.dev-and-lychee-with-matthias-endler-rustship-5/)
@@ -343,7 +337,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/163w6fl/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
