@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [A JVM in Rust part 8 - Retrospective](https://andreabergia.com/blog/2023/11/a-jvm-in-rust-part-8-retrospective/)
+
 ### Rust Walkthroughs
 
 ### Research
