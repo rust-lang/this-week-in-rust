@@ -61,6 +61,8 @@ and just ask the editors to select the category.
 * [video] [Code in Rust with RustRover, by Vitaly Bragilevsky](https://www.youtube.com/watch?v=pnFS0YIKUJ8)
 * [video] [Create a Dummy GitHub CLI in Rust!](https://www.youtube.com/watch?v=pyeUkQg8z9A)
 
+* [I Got a Milk-V Duo (and It’s Running Rust)](https://barretts.club/posts/i-got-a-milkv-duo/)
+
 ### Research
 
 ### Miscellaneous
