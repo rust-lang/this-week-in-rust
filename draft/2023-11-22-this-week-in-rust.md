@@ -36,7 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
-
+* [Containerize Rust applications on Ubuntu & Alpine, with GitHub Actions](https://medium.com/@vapor.schitcrafter/containerise-rust-applications-on-ubuntu-alpine-with-github-actions-or-docker-builders-9378a02b98fd)
 ### Rust Walkthroughs
 
 ### Research
