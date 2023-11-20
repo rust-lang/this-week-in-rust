@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [video] [Rust 1.74.0: All 45 changes...](https://youtu.be/MOzuShpnUm8)
+
 ### Rust Walkthroughs
 
 ### Research
