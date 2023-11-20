@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+- [First version of the Code Maven Static Site Generator](https://ssg.code-maven.com/first-version)
 
 ### Observations/Thoughts
 
