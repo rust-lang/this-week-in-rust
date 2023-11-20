@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+- [Embedding simple CSV file and processing in a functional way](https://rust.code-maven.com/embedding-simple-csv-file-functional)
 
 ## Crate of the Week
 
