@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [video] [Tokenizing and parsing a programming language in Rust, by Adam Chalmers](https://www.youtube.com/watch?v=LUcI6KkM-PE)
 
 ### Research
 
