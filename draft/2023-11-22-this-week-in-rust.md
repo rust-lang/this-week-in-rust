@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [ppen-ai-safe: a typesafe OpenAI API client written in Rust](https://youtu.be/x11tBhokFNc)
 
 ### Observations/Thoughts
 
