@@ -28,7 +28,7 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-- [Rust Specification](https://blog.rust-lang.org/inside-rust/2023/11/15/spec-vision.html)
+
 ### Foundation
 
 ### Newsletters
