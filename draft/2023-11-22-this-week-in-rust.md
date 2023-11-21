@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Meilisearch releases v1.5 - faster indexing, on-demand snapshots, and Puffin reports](https://blog.meilisearch.com/meilisearch-1-5/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
