@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Nutype v0.4.0 - newtype with constraints](https://github.com/greyblake/nutype/releases/tag/v0.4.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
