@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Ferrostar: Building a Cross-Platform Navigation SDK in Rust (Part 1)](https://stadiamaps.com/news/ferrostar-building-a-cross-platform-navigation-sdk-in-rust-part-1/)
+
 ### Rust Walkthroughs
 
 ### Research
