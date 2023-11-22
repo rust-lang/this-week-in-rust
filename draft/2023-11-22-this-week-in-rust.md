@@ -60,6 +60,11 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+* [ Hyperswitch - [REFACTOR]: [Zen] MCA metadata validation ](https://github.com/juspay/hyperswitch/issues/2913)
+* [ Hyperswitch - [FEATURE] Standardize state field in billing and shipping address ](https://github.com/juspay/hyperswitch/issues/2939).
+* [ Hyperswitch - [BUG]: MCA metadata deserialization failures should be 4xx ](https://github.com/juspay/hyperswitch/issues/2899).
+* [ Hyperswitch - [Feature]: [NMI] Sync with Hyperswitch Reference](https://github.com/juspay/hyperswitch/issues/2905).
+* [ Hyperswitch - [Feature]: [Zen] Sync with Hyperswitch Reference](https://github.com/juspay/hyperswitch/issues/2908).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
