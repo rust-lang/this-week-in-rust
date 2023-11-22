@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Writing an async runtime generic library](https://www.sea-ql.org/blog/2023-11-22-async-runtime-generic/)
+
 ### Rust Walkthroughs
 
 ### Research
