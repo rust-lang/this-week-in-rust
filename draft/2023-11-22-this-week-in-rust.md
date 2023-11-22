@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [GlueSQL v0.15 - Python, Redis and CSV support](https://github.com/gluesql/gluesql/releases/tag/v0.15.0)
 
 ### Observations/Thoughts
 
