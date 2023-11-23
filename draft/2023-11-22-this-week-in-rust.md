@@ -82,6 +82,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [ Hyperswitch - [REFACTOR]: [Zen] MCA metadata validation ](https://github.com/juspay/hyperswitch/issues/2913)
+* [ Hyperswitch - [FEATURE] Standardize state field in billing and shipping address ](https://github.com/juspay/hyperswitch/issues/2939)
+* [ Hyperswitch - [BUG]: MCA metadata deserialization failures should be 4xx ](https://github.com/juspay/hyperswitch/issues/2899)
+* [ Hyperswitch - [Feature]: [NMI] Sync with Hyperswitch Reference](https://github.com/juspay/hyperswitch/issues/2905)
+* [ Hyperswitch - [Feature]: [Zen] Sync with Hyperswitch Reference](https://github.com/juspay/hyperswitch/issues/2908)
 * [Ockam - `Cargo.toml` feature management should allow building individual crates with default feature set](https://github.com/build-trust/ockam/issues/5491)
 * [Ockam - Improve error handling of multiple `ockam tcp-outlet create` calls](https://github.com/build-trust/ockam/issues/5897)
 * [Ockam - Library - Slim down the `NodeManagerWorker` for `node / tcp`](https://github.com/build-trust/ockam/issues/6708)
