@@ -39,8 +39,8 @@ and just ask the editors to select the category.
 * [Rocket v0.5: Stable, Async, Sentinels, Streams, SSE, Forms, WebSockets, & So Much More](https://rocket.rs/v0.5/news/2023-11-17-version-0.5/)
 * [GlueSQL v0.15 - Python, Redis and CSV support](https://github.com/gluesql/gluesql/releases/tag/v0.15.0)
 * [Meilisearch releases v1.5 - faster indexing, on-demand snapshots, and Puffin reports](https://blog.meilisearch.com/meilisearch-1-5/)
-
 * [Nutype v0.4.0 - newtype with constraints](https://github.com/greyblake/nutype/releases/tag/v0.4.0)
+* [Announcing open-ai-safe: a typesafe OpenAI API Rust client](https://youtu.be/x11tBhokFNc)
 
 ### Observations/Thoughts
 * [Building Segmented Logs in Rust: From Theory to Production!](https://arindas.github.io/blog/segmented-log-rust/)
