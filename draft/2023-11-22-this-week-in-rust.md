@@ -43,7 +43,6 @@ and just ask the editors to select the category.
 * [Announcing open-ai-safe: a typesafe OpenAI API Rust client](https://youtu.be/x11tBhokFNc)
 
 ### Observations/Thoughts
-* [Building Segmented Logs in Rust: From Theory to Production!](https://arindas.github.io/blog/segmented-log-rust/)
 * [A JVM in Rust part 8 - Retrospective](https://andreabergia.com/blog/2023/11/a-jvm-in-rust-part-8-retrospective/)
 * [Rust 1.74.0: All 45 changes in 19 minutes!](https://www.youtube.com/watch?v=MOzuShpnUm8)
 * [Fun with lexical analysis and Rust](https://blog.blotato.com/fun-with-lexical-analysis-rust/)
@@ -54,9 +53,9 @@ and just ask the editors to select the category.
 * [Edge IoT with Rust on ESP: MQTT Publisher](https://apollolabsblog.hashnode.dev/edge-iot-with-rust-on-esp-mqtt-publisher)
 * [Checking semver in the presence of doc(hidden) items](https://predr.ag/blog/checking-semver-for-doc-hidden-items/)
 * [Push Ifs Up And Fors Down](https://matklad.github.io/2023/11/15/push-ifs-up-and-fors-down.html)
-
+* [Checking semver in the presence of doc(hidden) items](https://predr.ag/blog/checking-semver-for-doc-hidden-items/)
+* [Building Segmented Logs in Rust: From Theory to Production!](https://arindas.github.io/blog/segmented-log-rust/)
 * [Writing an async runtime generic library](https://www.sea-ql.org/blog/2023-11-22-async-runtime-generic/)
-
 * [Ferrostar: Building a Cross-Platform Navigation SDK in Rust (Part 1)](https://stadiamaps.com/news/ferrostar-building-a-cross-platform-navigation-sdk-in-rust-part-1/)
 
 ### Rust Walkthroughs
