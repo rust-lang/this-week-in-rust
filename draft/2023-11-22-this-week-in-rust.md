@@ -30,10 +30,6 @@ and just ask the editors to select the category.
 ### Official
 * [Announcing Rust 1.74.0](https://blog.rust-lang.org/2023/11/16/Rust-1.74.0.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [hyper v1](https://seanmonstar.com/blog/hyper-v1/)
 * [Rocket v0.5: Stable, Async, Sentinels, Streams, SSE, Forms, WebSockets, & So Much More](https://rocket.rs/v0.5/news/2023-11-17-version-0.5/)
@@ -60,8 +56,6 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [This is how I made the runtime this website runs on!](https://aandreba.com/article/this-is-how-i-made-the-runtime-this-website-runs-on)
 * [video] [Tokenizing and parsing a programming language in Rust, by Adam Chalmers](https://www.youtube.com/watch?v=LUcI6KkM-PE)
-
-### Research
 
 ### Miscellaneous
 * [Building a Better Foundation for Rocket's Future](https://rocket.rs/v0.5/news/2023-11-17-rwf2-prelaunch/)
