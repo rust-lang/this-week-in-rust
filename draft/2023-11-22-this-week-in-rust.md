@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 * [Checking semver in the presence of doc(hidden) items](https://predr.ag/blog/checking-semver-for-doc-hidden-items/)
 * [Push Ifs Up And Fors Down](https://matklad.github.io/2023/11/15/push-ifs-up-and-fors-down.html)
 
+* [Writing an async runtime generic library](https://www.sea-ql.org/blog/2023-11-22-async-runtime-generic/)
+
 ### Rust Walkthroughs
 * [This is how I made the runtime this website runs on!](https://aandreba.com/article/this-is-how-i-made-the-runtime-this-website-runs-on)
 
