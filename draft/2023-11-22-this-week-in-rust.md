@@ -57,6 +57,8 @@ and just ask the editors to select the category.
 
 * [Writing an async runtime generic library](https://www.sea-ql.org/blog/2023-11-22-async-runtime-generic/)
 
+* [Ferrostar: Building a Cross-Platform Navigation SDK in Rust (Part 1)](https://stadiamaps.com/news/ferrostar-building-a-cross-platform-navigation-sdk-in-rust-part-1/)
+
 ### Rust Walkthroughs
 * [This is how I made the runtime this website runs on!](https://aandreba.com/article/this-is-how-i-made-the-runtime-this-website-runs-on)
 
