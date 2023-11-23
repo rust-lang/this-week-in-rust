@@ -28,23 +28,42 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.74.0](https://blog.rust-lang.org/2023/11/16/Rust-1.74.0.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [hyper v1](https://seanmonstar.com/blog/hyper-v1/)
+* [Rocket v0.5: Stable, Async, Sentinels, Streams, SSE, Forms, WebSockets, & So Much More](https://rocket.rs/v0.5/news/2023-11-17-version-0.5/)
 * [GlueSQL v0.15 - Python, Redis and CSV support](https://github.com/gluesql/gluesql/releases/tag/v0.15.0)
-
 * [Meilisearch releases v1.5 - faster indexing, on-demand snapshots, and Puffin reports](https://blog.meilisearch.com/meilisearch-1-5/)
 
 ### Observations/Thoughts
+* [Building Segmented Logs in Rust: From Theory to Production!](https://arindas.github.io/blog/segmented-log-rust/)
+* [A JVM in Rust part 8 - Retrospective](https://andreabergia.com/blog/2023/11/a-jvm-in-rust-part-8-retrospective/)
+* [Rust 1.74.0: All 45 changes in 19 minutes!](https://www.youtube.com/watch?v=MOzuShpnUm8)
+* [Fun with lexical analysis and Rust](https://blog.blotato.com/fun-with-lexical-analysis-rust/)
+* [Wasmtime and Cranelift in 2023](https://bytecodealliance.org/articles/wasmtime-and-cranelift-in-2023)
+* [Signals vs. Servers](https://blog.adamchalmers.com/signals-vs-servers/)
+* [Function interposition in Rust with upgrayedd](https://blog.yossarian.net/2023/11/19/Function-interposition-in-Rust-with-upgrayedd)
+* [A close encounter with false sharing](https://morestina.net/blog/1976/a-close-encounter-with-false-sharing)
+* [Edge IoT with Rust on ESP: MQTT Publisher](https://apollolabsblog.hashnode.dev/edge-iot-with-rust-on-esp-mqtt-publisher)
+* [Checking semver in the presence of doc(hidden) items](https://predr.ag/blog/checking-semver-for-doc-hidden-items/)
+* [Push Ifs Up And Fors Down](https://matklad.github.io/2023/11/15/push-ifs-up-and-fors-down.html)
 
 ### Rust Walkthroughs
+* [This is how I made the runtime this website runs on!](https://aandreba.com/article/this-is-how-i-made-the-runtime-this-website-runs-on)
 
 ### Research
 
 ### Miscellaneous
+* [Building a Better Foundation for Rocket's Future](https://rocket.rs/v0.5/news/2023-11-17-rwf2-prelaunch/)
+* [audio] [Rust Digger with Gabor Szabo](https://rustacean-station.org/episode/gabor-szabo/)
+* [video] [Making the (partial) Rust BitTorrent client more reasonable](https://www.youtube.com/watch?v=r0srf3kfZbs)
+* [video] [Rust Release Train 1.74](https://www.youtube.com/watch?v=Ciuhriopc00)
+* [video] [EuroRust 2023](https://www.youtube.com/playlist?list=PLH6-VpZ3SvUUKFSEPEWiHQi4JqebBj9Tq)
 
 ## Crate of the Week
 
