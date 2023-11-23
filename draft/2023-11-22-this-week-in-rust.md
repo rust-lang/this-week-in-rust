@@ -289,7 +289,7 @@ Rusty Events between 2023-11-22 - 2023-12-20 🦀
     * [**Rust Talks Bern @ Biel: Embedded Edition**](https://www.meetup.com/rust-bern/events/296556498/)
 * 2023-11-28 | London, UK | [Rust London User Group](https://www.meetup.com/rust-london-user-group/)
     * [**LDN Talks November 2023 with Helsing.ai**](https://www.meetup.com/rust-london-user-group/events/297257712/)
-* 2023-11-30 | Brussels, BE | [Lambda Brussels](https://lambda-brussels.glitch.me/)
+* 2023-11-30 | Brussels, BE | [Belgium Rust user group](https://www.meetup.com/fr-FR/belgium-rust-user-group/events/297538601/)
     * [**Lambda Brussels**](https://lambda-brussels.glitch.me/)
 * 2023-11-30 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/)
     * [**Rust metup #42 sponsored by Nine A/S**](https://www.meetup.com/copenhagen-rust-community/events/297405705/)
