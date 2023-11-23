@@ -61,6 +61,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [This is how I made the runtime this website runs on!](https://aandreba.com/article/this-is-how-i-made-the-runtime-this-website-runs-on)
+* [video] [Tokenizing and parsing a programming language in Rust, by Adam Chalmers](https://www.youtube.com/watch?v=LUcI6KkM-PE)
 
 ### Research
 
