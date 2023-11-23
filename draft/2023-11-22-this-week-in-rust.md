@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 * [GlueSQL v0.15 - Python, Redis and CSV support](https://github.com/gluesql/gluesql/releases/tag/v0.15.0)
 * [Meilisearch releases v1.5 - faster indexing, on-demand snapshots, and Puffin reports](https://blog.meilisearch.com/meilisearch-1-5/)
 
+* [Nutype v0.4.0 - newtype with constraints](https://github.com/greyblake/nutype/releases/tag/v0.4.0)
+
 ### Observations/Thoughts
 * [Building Segmented Logs in Rust: From Theory to Production!](https://arindas.github.io/blog/segmented-log-rust/)
 * [A JVM in Rust part 8 - Retrospective](https://andreabergia.com/blog/2023/11/a-jvm-in-rust-part-8-retrospective/)
