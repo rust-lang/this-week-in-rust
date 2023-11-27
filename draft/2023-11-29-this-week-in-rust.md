@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Bionic GPT - Chat GPT replacement built in Rust](https://github.com/bionic-gpt/bionic-gpt)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
