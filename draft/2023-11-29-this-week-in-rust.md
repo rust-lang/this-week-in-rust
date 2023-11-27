@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [Rust Course (Part 2) - YouTube](https://www.youtube.com/watch?v=Yj2aANykEgM) (Bahasa Indonesia).
+
 ### Research
 
 ### Miscellaneous
