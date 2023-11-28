@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Create a Lambda in Rust using Terraform](https://maahl.net/blog/rust-aws-lambda/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
