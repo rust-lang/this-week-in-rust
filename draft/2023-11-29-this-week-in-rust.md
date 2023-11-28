@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Introducing SALT: A Rust error tutor, seeking participants in a study of errors!](https://marketplace.visualstudio.com/items?itemName=kale-lab.salt)
 
 ### Observations/Thoughts
 
