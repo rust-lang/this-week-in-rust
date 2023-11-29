@@ -34,7 +34,10 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Announcing axum 0.7.0](https://tokio.rs/blog/2023-11-27-announcing-axum-0-7-0)
 * [Announcing general availability of the AWS SDK for Rust](https://aws.amazon.com/blogs/developer/announcing-general-availability-of-the-aws-sdk-for-rust/)
+* [ripgrep 14.0.0](https://github.com/BurntSushi/ripgrep/releases/tag/14.0.0)
+* [Improved Multithreading in wgpu - Arcanization Lands on Trunk](https://gfx-rs.github.io/2023/11/24/arcanization.html)
 * [Introducing SALT: A Rust error tutor, seeking participants in a study of errors!](https://marketplace.visualstudio.com/items?itemName=kale-lab.salt)
 * [Bionic GPT - Chat GPT replacement built in Rust](https://github.com/bionic-gpt/bionic-gpt)
 * [cargo-run-bin: Why does everyone install crates globally?](https://dustinblackman.com/posts/why-does-everyone-install-crates-globally/)
@@ -42,15 +45,22 @@ and just ask the editors to select the category.
 * [Oatmeal: Terminal UI to chat with large language models (LLM) using different model backends, and integrations with your favourite editors!](https://dustinblackman.com/posts/oatmeal/)
 
 ### Observations/Thoughts
+* [Project Goals](https://smallcultfollowing.com/babysteps/blog/2023/11/28/project-goals/)
+* [poll_next](https://without.boats/blog/poll-next/)
+* [video] [but what is 'a lifetime?](https://www.youtube.com/watch?v=gRAVZv7V91Q)
+* [audio] [Recruiting in Rust with Cedric Sellmann](https://rustacean-station.org/episode/cedric-sellmann/)
 
 ### Rust Walkthroughs
+* [Designing a SIMD Algorithm from Scratch](https://mcyoung.xyz/2023/11/27/simd-base64/)
+* [Why Enums in Rust feel so much better](https://www.shuttle.rs/blog/2023/11/23/enums-in-rust)
+* [How I Use Declarative Macros in Rust](https://flinect.com/blog/quick-tips-rust-declarative-macros)
+* [Embassy on ESP: Getting Started](https://apollolabsblog.hashnode.dev/embassy-on-esp-getting-started)
 * [Intro to LLVM and MLIR with Rust and Melior](https://edgarluque.com/blog/mlir-with-rust/)
-
-- [Rust Course (Part 2) - YouTube](https://www.youtube.com/watch?v=Yj2aANykEgM) (Bahasa Indonesia).
-
- * [Investigating crazy compile times](https://blog.adamchalmers.com/crazy-compile-time/)
+* [Rust Course (Part 2) - YouTube](https://www.youtube.com/watch?v=Yj2aANykEgM) (Bahasa Indonesia).
+* [Investigating crazy compile times](https://blog.adamchalmers.com/crazy-compile-time/)
 
 ### Research
+* [Refinement Proofs in Rust Using Ghost Locks](https://arxiv.org/abs/2311.14452)
 
 ### Miscellaneous
 * [Read arbitrary YAML files in Rust](https://rust.code-maven.com/read-arbitrary-yaml)
