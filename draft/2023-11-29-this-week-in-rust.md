@@ -35,7 +35,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Announcing general availability of the AWS SDK for Rust](https://aws.amazon.com/blogs/developer/announcing-general-availability-of-the-aws-sdk-for-rust/)
-
+* [Introducing SALT: A Rust error tutor, seeking participants in a study of errors!](https://marketplace.visualstudio.com/items?itemName=kale-lab.salt)
 * [Bionic GPT - Chat GPT replacement built in Rust](https://github.com/bionic-gpt/bionic-gpt)
 * [cargo-run-bin: Why does everyone install crates globally?](https://dustinblackman.com/posts/why-does-everyone-install-crates-globally/)
 * [CXX-Qt: On the Road to Stability, improved signals support and more in release 0.6](https://www.kdab.com/cxx-qt-0-6/)
