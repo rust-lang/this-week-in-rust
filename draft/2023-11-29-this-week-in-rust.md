@@ -60,7 +60,13 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+* [ Hyperswitch - [REFACTOR]: [Nuvei] MCA metadata validation ](https://github.com/juspay/hyperswitch/issues/2910).
+* [ Hyperswitch - [Features]: [Noon] Sync with Hyperswitch Reference ](https://github.com/juspay/hyperswitch/issues/2904).
+* [ Hyperswitch - [Features]: [Payme] Sync with Hyperswitch Reference ](https://github.com/juspay/hyperswitch/issues/2906).
+* [ Hyperswitch - [BUG]: MCA metadata deserialization failures should be 4xx ](https://github.com/juspay/hyperswitch/issues/2899).
+* [ Hyperswitch - [REFACTOR]: [Stripe] Error Message For Connector Implementation ](https://github.com/juspay/hyperswitch/issues/2910).
 
+  
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
