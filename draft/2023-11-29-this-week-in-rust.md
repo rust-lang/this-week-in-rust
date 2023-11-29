@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [Read arbitrary YAML files in Rust](https://rust.code-maven.com/read-arbitrary-yaml)
 
+* [Create a Lambda in Rust using Terraform](https://maahl.net/blog/rust-aws-lambda/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
