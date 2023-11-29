@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Research
 
+* [Semantic fuzzing of the Rust compiler and interpreter](https://ethz.ch/content/dam/ethz/special-interest/infk/inst-pls/plf-dam/documents/StudentProjects/MasterTheses/2023-Andy-Thesis.pdf)
+
 ### Miscellaneous
 
 ## Crate of the Week
