@@ -35,7 +35,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-- [Oatmeal: Terminal UI to chat with large language models (LLM) using different model backends, and integrations with your favourite editors!](https://dustinblackman.com/posts/oatmeal/)
+* [Oatmeal: Terminal UI to chat with large language models (LLM) using different model backends, and integrations with your favourite editors!](https://dustinblackman.com/posts/oatmeal/)
 
 ### Observations/Thoughts
 
