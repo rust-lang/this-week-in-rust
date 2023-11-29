@@ -36,10 +36,13 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [Bionic GPT - Chat GPT replacement built in Rust](https://github.com/bionic-gpt/bionic-gpt)
+* [CXX-Qt: On the Road to Stability, improved signals support and more in release 0.6](https://www.kdab.com/cxx-qt-0-6/)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+
+- [Rust Course (Part 2) - YouTube](https://www.youtube.com/watch?v=Yj2aANykEgM) (Bahasa Indonesia).
 
 ### Research
 
