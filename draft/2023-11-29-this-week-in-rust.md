@@ -62,6 +62,8 @@ and just ask the editors to select the category.
 ### Research
 * [Refinement Proofs in Rust Using Ghost Locks](https://arxiv.org/abs/2311.14452)
 
+* [Semantic fuzzing of the Rust compiler and interpreter](https://ethz.ch/content/dam/ethz/special-interest/infk/inst-pls/plf-dam/documents/StudentProjects/MasterTheses/2023-Andy-Thesis.pdf)
+
 ### Miscellaneous
 * [Read arbitrary YAML files in Rust](https://rust.code-maven.com/read-arbitrary-yaml)
 
