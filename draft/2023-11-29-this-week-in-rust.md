@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 
 - [Rust Course (Part 2) - YouTube](https://www.youtube.com/watch?v=Yj2aANykEgM) (Bahasa Indonesia).
 
+ * [Investigating crazy compile times](https://blog.adamchalmers.com/crazy-compile-time/)
+
 ### Research
 
 ### Miscellaneous
