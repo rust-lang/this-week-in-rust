@@ -27,12 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [Announcing axum 0.7.0](https://tokio.rs/blog/2023-11-27-announcing-axum-0-7-0)
 * [Announcing general availability of the AWS SDK for Rust](https://aws.amazon.com/blogs/developer/announcing-general-availability-of-the-aws-sdk-for-rust/)
@@ -61,12 +55,10 @@ and just ask the editors to select the category.
 
 ### Research
 * [Refinement Proofs in Rust Using Ghost Locks](https://arxiv.org/abs/2311.14452)
-
 * [Semantic fuzzing of the Rust compiler and interpreter](https://ethz.ch/content/dam/ethz/special-interest/infk/inst-pls/plf-dam/documents/StudentProjects/MasterTheses/2023-Andy-Thesis.pdf)
 
 ### Miscellaneous
 * [Read arbitrary YAML files in Rust](https://rust.code-maven.com/read-arbitrary-yaml)
-
 * [Create a Lambda in Rust using Terraform](https://maahl.net/blog/rust-aws-lambda/)
 
 ## Crate of the Week
@@ -372,7 +364,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/182f6dv/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
