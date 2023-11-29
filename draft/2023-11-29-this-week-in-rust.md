@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Announcing general availability of the AWS SDK for Rust](https://aws.amazon.com/blogs/developer/announcing-general-availability-of-the-aws-sdk-for-rust/)
 
 * [Bionic GPT - Chat GPT replacement built in Rust](https://github.com/bionic-gpt/bionic-gpt)
 * [cargo-run-bin: Why does everyone install crates globally?](https://dustinblackman.com/posts/why-does-everyone-install-crates-globally/)
