@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 * [Bionic GPT - Chat GPT replacement built in Rust](https://github.com/bionic-gpt/bionic-gpt)
 * [cargo-run-bin: Why does everyone install crates globally?](https://dustinblackman.com/posts/why-does-everyone-install-crates-globally/)
 * [CXX-Qt: On the Road to Stability, improved signals support and more in release 0.6](https://www.kdab.com/cxx-qt-0-6/)
+* [Oatmeal: Terminal UI to chat with large language models (LLM) using different model backends, and integrations with your favourite editors!](https://dustinblackman.com/posts/oatmeal/)
 
 ### Observations/Thoughts
 
