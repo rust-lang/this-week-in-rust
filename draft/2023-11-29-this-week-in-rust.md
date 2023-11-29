@@ -39,7 +39,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
- - [Investigating crazy compile times](https://blog.adamchalmers.com/crazy-compile-time/)
+ * [Investigating crazy compile times](https://blog.adamchalmers.com/crazy-compile-time/)
 
 ### Research
 
