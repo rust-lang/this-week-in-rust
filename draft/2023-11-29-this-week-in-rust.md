@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Read arbitrary YAML files in Rust](https://rust.code-maven.com/read-arbitrary-yaml)
 
 ## Crate of the Week
 
