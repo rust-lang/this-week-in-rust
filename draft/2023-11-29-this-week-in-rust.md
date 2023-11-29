@@ -84,8 +84,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Ockam - Library - Slim down the `NodeManagerWorker` for `node / node status`](https://github.com/build-trust/ockam/issues/6707)
+* [Ockam - Command - refactor to use typed interfaces to implement commands for `kafka services`](https://github.com/build-trust/ockam/issues/6706)
+* [Ockam - Library - Validate CBOR structs according to the cddl schema for `nodes/models/transport` and `nodes/models/workers`](https://github.com/build-trust/ockam/issues/6694)
+* [r3bl-open-core - [tuify] API change the return type of `select_from_list()` 3](https://github.com/r3bl-org/r3bl-open-core/issues/200)
+* [r3bl-open-core - Improve "Bug report" issue template](https://github.com/r3bl-org/r3bl-open-core/issues/248)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
