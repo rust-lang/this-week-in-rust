@@ -71,7 +71,17 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A good week, despite a few PRs that pnkfelix opted not to mark as triaged. In
+particular, a broad set of primary benchmarks improved, due to improvements to
+resolve (PR #118188) and a one-pass rewrite of exhaustiveness (PR #117611).
+
+Triage done by **@pnkfelix**.
+Revision range: [4f3da903..df0295f0](https://perf.rust-lang.org/?start=4f3da903a43f22ea33d2ca4435a24b42fc1f842a&end=df0295f07175acc7325ce3ca4152eb05752af1f2&absolute=false&stat=instructions%3Au)
+
+1 Regressions, 5 Improvements, 5 Mixed; 2 of them in rollups
+84 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/20911b7f28a4b88d36ecd5b13414f26feac49d4d/triage/2023-11-28.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
