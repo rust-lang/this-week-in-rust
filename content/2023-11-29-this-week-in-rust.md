@@ -50,8 +50,8 @@ and just ask the editors to select the category.
 * [How I Use Declarative Macros in Rust](https://flinect.com/blog/quick-tips-rust-declarative-macros)
 * [Embassy on ESP: Getting Started](https://apollolabsblog.hashnode.dev/embassy-on-esp-getting-started)
 * [Intro to LLVM and MLIR with Rust and Melior](https://edgarluque.com/blog/mlir-with-rust/)
-* [Rust Course (Part 2) - YouTube](https://www.youtube.com/watch?v=Yj2aANykEgM) (Bahasa Indonesia).
 * [Investigating crazy compile times](https://blog.adamchalmers.com/crazy-compile-time/)
+* [video] [Rust Course (Part 2)](https://www.youtube.com/watch?v=Yj2aANykEgM) (Bahasa Indonesia).
 
 ### Research
 * [Refinement Proofs in Rust Using Ghost Locks](https://arxiv.org/abs/2311.14452)
