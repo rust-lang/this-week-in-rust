@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [“Rustifying” serverless: Boost AWS Lambda performance with Rust - AWS re:Invent talk](https://www.youtube.com/watch?v=Mdh_2PXe9i8)
 
 ### Research
 
