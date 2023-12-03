@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Getting started with Loco, the one-person web framework for Rust](https://rust.code-maven.com/getting-started-with-loco)
 
 ## Crate of the Week
 
