@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Read simple JSON and deserialize into a struct](https://rust.code-maven.com/read-simple-json)
 
 ## Crate of the Week
 
