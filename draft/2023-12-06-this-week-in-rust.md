@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Set up a Zettelkasten with Tp-Note (in Rust)](https://blog.getreu.net/20230904-tp-note-news11/)
 
 ### Observations/Thoughts
 
