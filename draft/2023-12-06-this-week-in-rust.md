@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [Speeding up Rust code with benchmarks and flamegraphs](https://www.youtube.com/watch?v=2IHPvPmzS8g)
+
 ### Research
 
 ### Miscellaneous
