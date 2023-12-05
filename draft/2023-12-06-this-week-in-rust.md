@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Trippy (Network diagnostic tool) - 0.9.0 release](https://github.com/fujiapple852/trippy/releases/tag/0.9.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
