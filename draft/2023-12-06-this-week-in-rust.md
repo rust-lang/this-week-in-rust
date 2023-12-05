@@ -71,7 +71,26 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A small number of perf changes that unfortunately led to quite a few perf regressions. A large chunk of those regressions were in rustdoc and were considered acceptable since rustdoc is now doing strictly more work. Some other regressions have already been fixed and will hopefully soon be merged. The last of the regressions are still under investigation, but hopefully they will be resolved soon.
+
+Triage done by **@rylev**.
+Revision range: [df0295f0..9358642e](https://perf.rust-lang.org/?start=df0295f07175acc7325ce3ca4152eb05752af1f2&end=9358642e3b8560eee89e6f40aa996c8394a3db31&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 3.0%  | [0.2%, 12.3%]  | 53    |
+| Regressions ❌ <br /> (secondary)  | 4.1%  | [0.2%, 11.6%]  | 102   |
+| Improvements ✅ <br /> (primary)   | -0.3% | [-0.5%, -0.1%] | 65    |
+| Improvements ✅ <br /> (secondary) | -0.6% | [-1.2%, -0.2%] | 25    |
+| All ❌✅ (primary)                 | 1.1%  | [-0.5%, 12.3%] | 118   |
+
+
+4 Regressions, 1 Improvements, 1 Mixed; 1 of them in rollups
+60 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/9086dc608bbb15310b2063ab690be021339e3850/triage/2023-12-05.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
