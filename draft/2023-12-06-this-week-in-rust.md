@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Making a secure Axum route](https://blog.sedrik.se/posts/secure-axum)
+
 ### Research
 
 ### Miscellaneous
