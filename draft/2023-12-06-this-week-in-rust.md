@@ -81,7 +81,11 @@ are the RFCs that were approved for implementation this week:
 <!-- Approved RFCs go here, use this format: * [Topic](URL) -->
 <!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
 <!-- * []() -->
-
+* [Hyperswitch - [REFACTOR]: [Nuvei] MCA metadata validation](https://github.com/juspay/hyperswitch/issues/2910)
+* [Hyperswitch - [Feature] : [Noon] Sync with Hyperswitch Reference](https://github.com/juspay/hyperswitch/issues/2904)
+* [Hyperswitch - [Feature] : [Payme] Sync with Hyperswitch Reference](https://github.com/juspay/hyperswitch/issues/2906)
+* [Hyperswitch - [BUG]     : MCA metadata deserialization failures should be 4xx](https://github.com/juspay/hyperswitch/issues/2899)
+* [Hyperswitch - [Feature] : [Zen] Sync with Hyperswitch Reference](https://github.com/juspay/hyperswitch/issues/2908)
 <!--
 ### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
 <!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
