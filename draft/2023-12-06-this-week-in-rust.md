@@ -36,12 +36,24 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Why does everyone install crates globally?](https://dustinblackman.com/posts/why-does-everyone-install-crates-globally/)
+* [Rust temporary lifetimes and "super let"](https://blog.m-ou.se/super-let/)
+* [Behind the Scenes of Rust String Formatting: format_args!()](https://blog.m-ou.se/format-args/)
+* [Profiling Rust programs the easy way](https://ntietz.com/blog/profiling-rust-programs-the-easy-way/)
+* [Three problems of pinning](https://without.boats/blog/three-problems-of-pinning/)
+* [Rust std fs slower than Python!? No, it's hardware!](https://xuanwo.io/2023/04-rust-std-fs-slower-than-python/)
+* [Leafpipe - Turning lots and lots of audio/visual into pretty stimuli](https://half-shot.uk/blog/leafpipe/)
+* [Why Type Safety is Important](https://www.shuttle.rs/blog/2023/11/29/type-safety)
 
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+* [Building a Hypercube Interpolator (in Rust)](https://jlogan03.github.io/interpn/)
+* [Embassy on ESP: GPIO](https://apollolabsblog.hashnode.dev/embassy-on-esp-gpio)
+* [video] [Speeding Up Rust Code](https://www.youtube.com/watch?v=2IHPvPmzS8g)
+* [video] [Axum 0.6 to 0.7 in 5 quick steps](https://www.youtube.com/watch?v=MvWCX5ckuDE)
 
 ## Crate of the Week
 
