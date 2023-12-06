@@ -36,7 +36,6 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
-* [Why does everyone install crates globally?](https://dustinblackman.com/posts/why-does-everyone-install-crates-globally/)
 * [Rust temporary lifetimes and "super let"](https://blog.m-ou.se/super-let/)
 * [Behind the Scenes of Rust String Formatting: format_args!()](https://blog.m-ou.se/format-args/)
 * [Profiling Rust programs the easy way](https://ntietz.com/blog/profiling-rust-programs-the-easy-way/)
