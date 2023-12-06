@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Diverging Functions - functions that never return](https://rust.code-maven.com/diverging-functions)
 
 ## Crate of the Week
 
