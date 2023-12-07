@@ -69,8 +69,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Ockam - Library - Validate CBOR structs according to the cddl schema for `nodes/models` misc](https://github.com/build-trust/ockam/issues/6690)
+* [Ockam - Command - refactor to use typed interfaces to implement commands for `nodes`](https://github.com/build-trust/ockam/issues/6701)
+* [Ockam - Library - Slim down the `NodeManagerWorker` for `node / node status`](https://github.com/build-trust/ockam/issues/6707)
+* [zerocopy - Test the output of zerocopy-derive](https://github.com/google/zerocopy/issues/367)
+* [zerocopy - Use cargo-semver-checks to make sure `derive` feature doesn't change API surface](https://github.com/google/zerocopy/issues/422)
+* [zerocopy - Verify that `all-jobs-succeeded` CI job depends on all other jobs](https://github.com/google/zerocopy/issues/444)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
