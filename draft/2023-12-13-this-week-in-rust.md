@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Practical Client-side Rust for Android, iOS, and Web](https://www.mux.com/blog/practical-client-side-rust-for-android-ios-and-web)
+
 ### Research
 
 ### Miscellaneous
