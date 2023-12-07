@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Diverging Functions - functions that never return](https://rust.code-maven.com/diverging-functions)
 * [Getting started with Loco, the one-person web framework for Rust](https://rust.code-maven.com/getting-started-with-loco)
 * [Building a Hypercube Interpolator (in Rust)](https://jlogan03.github.io/interpn/)
 * [Embassy on ESP: GPIO](https://apollolabsblog.hashnode.dev/embassy-on-esp-gpio)
