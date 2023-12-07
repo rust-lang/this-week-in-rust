@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 
 * [video] [Speeding up Rust code with benchmarks and flamegraphs](https://www.youtube.com/watch?v=2IHPvPmzS8g)
 
+* [Making a secure Axum route](https://blog.sedrik.se/posts/secure-axum)
+
 ### Research
 
 ### Miscellaneous
