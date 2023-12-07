@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [SemanticDiff 0.8.8 adds support for Rust](https://semanticdiff.com/blog/semanticdiff-0.8.8/)
 
 ## Crate of the Week
 
