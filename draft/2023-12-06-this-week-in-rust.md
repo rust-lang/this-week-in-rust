@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 * [Why Type Safety is Important](https://www.shuttle.rs/blog/2023/11/29/type-safety)
 
 ### Rust Walkthroughs
+* [“Rustifying” serverless: Boost AWS Lambda performance with Rust - AWS re:Invent talk](https://www.youtube.com/watch?v=Mdh_2PXe9i8)
 
 ### Research
 
