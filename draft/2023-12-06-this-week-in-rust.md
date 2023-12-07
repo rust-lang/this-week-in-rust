@@ -78,6 +78,11 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [zerocopy - Test the output of zerocopy-derive](https://github.com/google/zerocopy/issues/367)
 * [zerocopy - Use cargo-semver-checks to make sure `derive` feature doesn't change API surface](https://github.com/google/zerocopy/issues/422)
 * [zerocopy - Verify that `all-jobs-succeeded` CI job depends on all other jobs](https://github.com/google/zerocopy/issues/444)
+* [Hyperswitch - Refactor - Nuvei - MCA metadata validation](https://github.com/juspay/hyperswitch/issues/2910)
+* [Hyperswitch - Feature - Noon -  Sync with Hyperswitch Reference](https://github.com/juspay/hyperswitch/issues/2904)
+* [Hyperswitch - Feature - Payme - Sync with Hyperswitch Reference](https://github.com/juspay/hyperswitch/issues/2906)
+* [Hyperswitch - Bug - MCA metadata deserialization failures should be 4xx](https://github.com/juspay/hyperswitch/issues/2899)
+* [Hyperswitch - Feature - Zen - Sync with Hyperswitch Reference](https://github.com/juspay/hyperswitch/issues/2908)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -204,6 +209,14 @@ Revision range: [df0295f0..9358642e](https://perf.rust-lang.org/?start=df0295f07
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
+<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
+<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
+<!-- * []() -->
+<!--
+### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
+<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
+<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
+-->
 * *No RFCs were approved this week.*
 
 ### Final Comment Period
