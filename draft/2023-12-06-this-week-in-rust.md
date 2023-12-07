@@ -210,7 +210,7 @@ Rusty Events between 2023-12-06 - 2024-01-03 🦀
 * 2023-12-13 | Chicago, IL, US | [Deep Dish Rust](https://www.meetup.com/deep-dish-rust/)
     * [**Rust Hack Night**](https://www.meetup.com/deep-dish-rust/events/297671182/)
 * 2023-12-14 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/)
-      * [**Sending Data with Channels w/Herbert Wolverson**](https://www.meetup.com/utah-rust/events/297720170/)
+    * [**Sending Data with Channels w/Herbert Wolverson**](https://www.meetup.com/utah-rust/events/297720170/)
 * 2023-12-14 | Mountain View, CA, US | [Mountain View Rust Meetup](https://www.meetup.com/mv-rust-meetup/)
     * [**Rust Meetup at Hacker Dojo**](https://www.meetup.com/mv-rust-meetup/events/297628069/)
 * 2023-12-15 | Somerville, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
