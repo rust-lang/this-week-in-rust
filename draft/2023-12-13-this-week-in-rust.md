@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Exploring the AWS Lambda SDK in Rust](https://gruebelinchen.wordpress.com/2023/12/07/exploring-the-aws-lambda-sdk-in-rust/)
+
 ### Research
 
 ### Miscellaneous
