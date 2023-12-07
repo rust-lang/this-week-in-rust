@@ -27,14 +27,7 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
-
 * [Trippy (Network diagnostic tool) - 0.9.0 release](https://github.com/fujiapple852/trippy/releases/tag/0.9.0)
 
 ### Observations/Thoughts
@@ -48,19 +41,14 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [“Rustifying” serverless: Boost AWS Lambda performance with Rust - AWS re:Invent talk](https://www.youtube.com/watch?v=Mdh_2PXe9i8)
-
 * [video] [Speeding up Rust code with benchmarks and flamegraphs](https://www.youtube.com/watch?v=2IHPvPmzS8g)
-
 * [Making a secure Axum route](https://blog.sedrik.se/posts/secure-axum)
-
-### Research
 
 ### Miscellaneous
 * [Diverging Functions - functions that never return](https://rust.code-maven.com/diverging-functions)
 * [Getting started with Loco, the one-person web framework for Rust](https://rust.code-maven.com/getting-started-with-loco)
 * [Building a Hypercube Interpolator (in Rust)](https://jlogan03.github.io/interpn/)
 * [Embassy on ESP: GPIO](https://apollolabsblog.hashnode.dev/embassy-on-esp-gpio)
-* [video] [Speeding Up Rust Code](https://www.youtube.com/watch?v=2IHPvPmzS8g)
 * [video] [Axum 0.6 to 0.7 in 5 quick steps](https://www.youtube.com/watch?v=MvWCX5ckuDE)
 
 ## Crate of the Week
@@ -382,7 +370,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/182f6dv/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
