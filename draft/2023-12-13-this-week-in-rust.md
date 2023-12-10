@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Watchexec Library 3.0 and CLI 1.24](https://cohost.org/watchexec/post/3818997-watchexec-library-3)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
