@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Contributing to Rust as a novice](https://ochagavia.nl/blog/someone-interviewed-me/)
+
 ### Rust Walkthroughs
 
 ### Research
