@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing mfio - Completion I/O for Everyone](https://blaz.is/blog/post/mfio-release/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
