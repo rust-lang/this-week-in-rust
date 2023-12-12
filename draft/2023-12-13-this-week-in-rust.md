@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+[Rust and ThreadX - experiments with an RTOS written in C, a former certified software component](https://ferrous-systems.com/blog/rust-and-threadx/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
