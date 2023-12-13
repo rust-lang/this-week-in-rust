@@ -161,6 +161,8 @@ Rusty Events between 2023-12-13 - 2024-01-10 🦀
     * [**Rust Hack and Learn**](https://www.meetup.com/opentechschool-berlin/events/295679827/) | [**Mirror**](https://berline.rs/)
 * 2023-12-19 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/297128156/)
+* 2023-12-19 | Virtual (Linz, AT) [Rust Linz](https://www.meetup.com/rust-linz/)
+    * [**Ivan Cernja (TBD) & "Creating Data Structures in Rust"**](https://www.meetup.com/rust-linz/events/297909995/)
 * 2023-12-20 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
     * [**Adventures in egui app dev**](https://www.meetup.com/vancouver-rust/events/292763506/)
 * 2023-12-26 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
