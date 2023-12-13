@@ -42,7 +42,8 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-
+* [Turbofish ::<>](https://rust.code-maven.com/turbofish)
+  
 ## Crate of the Week
 
 <!-- COTW goes here -->
