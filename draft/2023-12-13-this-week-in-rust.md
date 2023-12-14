@@ -87,6 +87,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Ockam - Make install.sh not fail when the latest version is already installed](https://github.com/build-trust/ockam/issues/7118)
 * [zerocopy - Use cargo-semver-checks to make sure `derive` feature doesn't change API surface](https://github.com/google/zerocopy/issues/422)
 * [zerocopy - Verify that `all-jobs-succeeded` CI job depends on all other jobs](https://github.com/google/zerocopy/issues/444)
+* [Hyperswitch - [REFACTOR]: [Nuvei] MCA metadata validation](https://github.com/juspay/hyperswitch/issues/2910)
+* [Hyperswitch - [Feature] : [Noon] Sync with Hyperswitch Reference](https://github.com/juspay/hyperswitch/issues/2904)
+* [Hyperswitch - [BUG]     : MCA metadata deserialization failures should be 4xx](https://github.com/juspay/hyperswitch/issues/2899)
+* [Hyperswitch - [Feature] : [Zen] Sync with Hyperswitch Reference](https://github.com/juspay/hyperswitch/issues/2908)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
