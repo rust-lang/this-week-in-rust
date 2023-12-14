@@ -65,6 +65,8 @@ and just ask the editors to select the category.
 * [Getting Started with Axum - Rust's Most Popular Web Framework](https://www.shuttle.rs/blog/2023/12/06/using-axum-rust)
 * [video] [Advent of Code 2023](https://www.youtube.com/playlist?list=PLWtPciJ1UMuD3_8Pb-EqrFhkYpastR2cn)
 
+* [Exploring the AWS Lambda SDK in Rust](https://gruebelinchen.wordpress.com/2023/12/07/exploring-the-aws-lambda-sdk-in-rust/)
+
 ### Research
 
 ### Miscellaneous
