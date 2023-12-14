@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 * [Rust and ThreadX](https://ferrous-systems.com/blog/rust-and-threadx/)
 * [audio] [Exploring Rust's impact on efficiency and cost-savings, with Stefan Baumgartner](https://rustacean-station.org/episode/stefan-baumgartner-rust-efficiency/)
 
+* [Nine Rules for SIMD Acceleration of Your Rust Code (Part 1): General Lessons from Boosting Data Ingestion in the range-set-blaze Crate by 7x](https://towardsdatascience.com/nine-rules-for-simd-acceleration-of-your-rust-code-part-1-c16fe639ce21)
+
 ### Rust Walkthroughs
 * [Common Mistakes with Rust Async](https://www.qovery.com/blog/common-mistakes-with-rust-async/)
 * [Embassy on ESP: UART Transmitter](https://apollolabsblog.hashnode.dev/embassy-on-esp-uart-transmitter)
