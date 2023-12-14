@@ -59,8 +59,14 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [greptimedb - API improvement for pretty print sql query result in http output 1](https://github.com/GreptimeTeam/greptimedb/issues/2877)
+* [greptimedb - Unify builders' patterns](https://github.com/GreptimeTeam/greptimedb/issues/2853)
+* [tokio - Run loom tests in oss-fuzz 4](https://github.com/tokio-rs/tokio/issues/6208)
+* [Ockam - Library - Validate CBOR structs according to the cddl schema for `kafka/protocol_aware` and `nodes/services`](https://github.com/build-trust/ockam/issues/6689)
+* [Ockam - Command - refactor to use typed interfaces to implement commands for `relays`](https://github.com/build-trust/ockam/issues/6704)
+* [Ockam - Make install.sh not fail when the latest version is already installed](https://github.com/build-trust/ockam/issues/7118)
+* [zerocopy - Use cargo-semver-checks to make sure `derive` feature doesn't change API surface](https://github.com/google/zerocopy/issues/422)
+* [zerocopy - Verify that `all-jobs-succeeded` CI job depends on all other jobs](https://github.com/google/zerocopy/issues/444)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
