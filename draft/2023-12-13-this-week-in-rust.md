@@ -67,6 +67,8 @@ and just ask the editors to select the category.
 
 * [Exploring the AWS Lambda SDK in Rust](https://gruebelinchen.wordpress.com/2023/12/07/exploring-the-aws-lambda-sdk-in-rust/)
 
+* [Practical Client-side Rust for Android, iOS, and Web](https://www.mux.com/blog/practical-client-side-rust-for-android-ios-and-web)
+
 ### Research
 
 ### Miscellaneous
