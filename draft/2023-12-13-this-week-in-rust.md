@@ -61,6 +61,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [Rust Meetup and user groups](https://rust.code-maven.com/meetups)
+* [Adopting Rust: the missing playbook for managers and CTOs](https://mainmatter.com/blog/2023/12/13/rust-adoption-playbook-for-ctos-and-engineering-managers/)
 
 ## Crate of the Week
 
