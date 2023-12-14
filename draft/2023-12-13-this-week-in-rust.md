@@ -71,8 +71,8 @@ and just ask the editors to select the category.
 * [Turbofish ::<>](https://rust.code-maven.com/turbofish)
 * [Rust Meetup and user groups](https://rust.code-maven.com/meetups)
 * [Adopting Rust: the missing playbook for managers and CTOs](https://mainmatter.com/blog/2023/12/13/rust-adoption-playbook-for-ctos-and-engineering-managers/)
-
-[Rust and ThreadX - experiments with an RTOS written in C, a former certified software component](https://ferrous-systems.com/blog/rust-and-threadx/)
+* [Rust and ThreadX - experiments with an RTOS written in C, a former certified software component](https://ferrous-systems.com/blog/rust-and-threadx/)
+* [SemanticDiff 0.8.8 adds support for Rust](https://semanticdiff.com/blog/semanticdiff-0.8.8/)
 
 ## Crate of the Week
 
