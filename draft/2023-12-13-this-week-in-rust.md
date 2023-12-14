@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 * [Watchexec Library 3.0 and CLI 1.24](https://cohost.org/watchexec/post/3818997-watchexec-library-3)
 
+* [\[series\] Spotify-Inspired: Elevating Meilisearch with Hybrid Search and Rust](https://blog.kerollmops.com/spotify-inspired-elevating-meilisearch-with-hybrid-search-and-rust)
+
 ### Observations/Thoughts
 * [Being Rusty: Discovering Rust's design axioms](https://smallcultfollowing.com/babysteps/blog/2023/12/07/rust-design-axioms/)
 * [Non-Send Futures When?](https://matklad.github.io/2023/12/10/nsfw.html)
@@ -377,7 +379,7 @@ Rusty Events between 2023-12-13 - 2024-01-10 🦀
     * [**Minneapolis Rust Meetup Happy Hour**](https://www.meetup.com/minneapolis-rust-meetup/events/297760172/)
 * 2023-12-12 | Seattle, WA, US | [Cap Hill Rust Coding/Hacking/Learning](https://www.meetup.com/cap-hill-rust/)
     * [**Rusty Coding/Hacking/Learning Night**](https://www.meetup.com/cap-hill-rust/events/296564619/)
-* 2023-12-12 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/)  
+* 2023-12-12 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/)
     * [**Rust NYC Monthly Mixer: Share, Show, & Tell! 🦀**](https://www.meetup.com/rust-nyc/events/297659937/)
 * 2023-12-13 | Chicago, IL, US | [Deep Dish Rust](https://www.meetup.com/deep-dish-rust/)
     * [**Rust Hack Night**](https://www.meetup.com/deep-dish-rust/events/297671182/)
