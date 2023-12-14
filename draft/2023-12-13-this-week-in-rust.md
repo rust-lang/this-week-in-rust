@@ -47,16 +47,14 @@ and just ask the editors to select the category.
 * [\[series\] Spotify-Inspired: Elevating Meilisearch with Hybrid Search and Rust](https://blog.kerollmops.com/spotify-inspired-elevating-meilisearch-with-hybrid-search-and-rust)
 
 ### Observations/Thoughts
+* [Rust Is Beyond Object-Oriented, Part 3: Inheritance](https://www.thecodedmessage.com/posts/oop-3-inheritance/)
 * [Being Rusty: Discovering Rust's design axioms](https://smallcultfollowing.com/babysteps/blog/2023/12/07/rust-design-axioms/)
 * [Non-Send Futures When?](https://matklad.github.io/2023/12/10/nsfw.html)
 * [`for await` and the battle of buffered streams](https://tmandry.gitlab.io/blog/posts/for-await-buffered-streams/)
 * [poll_progress](https://without.boats/blog/poll-progress/)
-* [Rust Is Beyond Object-Oriented, Part 3: Inheritance](https://www.thecodedmessage.com/posts/oop-3-inheritance/)
 * [Rust and ThreadX](https://ferrous-systems.com/blog/rust-and-threadx/)
 * [audio] [Exploring Rust's impact on efficiency and cost-savings, with Stefan Baumgartner](https://rustacean-station.org/episode/stefan-baumgartner-rust-efficiency/)
-
 * [Nine Rules for SIMD Acceleration of Your Rust Code (Part 1): General Lessons from Boosting Data Ingestion in the range-set-blaze Crate by 7x](https://towardsdatascience.com/nine-rules-for-simd-acceleration-of-your-rust-code-part-1-c16fe639ce21)
-
 * [Contributing to Rust as a novice](https://ochagavia.nl/blog/someone-interviewed-me/)
 
 ### Rust Walkthroughs
