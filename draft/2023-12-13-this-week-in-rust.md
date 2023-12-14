@@ -66,6 +66,8 @@ and just ask the editors to select the category.
 * [Rust Meetup and user groups](https://rust.code-maven.com/meetups)
 * [Adopting Rust: the missing playbook for managers and CTOs](https://mainmatter.com/blog/2023/12/13/rust-adoption-playbook-for-ctos-and-engineering-managers/)
 
+[Rust and ThreadX - experiments with an RTOS written in C, a former certified software component](https://ferrous-systems.com/blog/rust-and-threadx/)
+
 ## Crate of the Week
 
 This week's crate is [io-adapters](https://github.com/SUPERCILEX/io-adapters), a crate tha lets you convert between different writeable APIs (`io` vs. `fmt`).
