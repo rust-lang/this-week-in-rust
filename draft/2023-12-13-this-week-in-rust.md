@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #211](https://rust-analyzer.github.io/thisweek/2023/12/11/changelog-211.html)
 * [PC Music Generator](https://hjvt.dev/posts/5)
 
+* [Announcing mfio - Completion I/O for Everyone](https://blaz.is/blog/post/mfio-release/)
+
 ### Observations/Thoughts
 * [Being Rusty: Discovering Rust's design axioms](https://smallcultfollowing.com/babysteps/blog/2023/12/07/rust-design-axioms/)
 * [Non-Send Futures When?](https://matklad.github.io/2023/12/10/nsfw.html)
