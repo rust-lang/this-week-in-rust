@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 * [Announcing mfio - Completion I/O for Everyone](https://blaz.is/blog/post/mfio-release/)
 
+* [Watchexec Library 3.0 and CLI 1.24](https://cohost.org/watchexec/post/3818997-watchexec-library-3)
+
 ### Observations/Thoughts
 * [Being Rusty: Discovering Rust's design axioms](https://smallcultfollowing.com/babysteps/blog/2023/12/07/rust-design-axioms/)
 * [Non-Send Futures When?](https://matklad.github.io/2023/12/10/nsfw.html)
