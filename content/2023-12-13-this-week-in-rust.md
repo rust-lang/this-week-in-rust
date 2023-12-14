@@ -31,20 +31,15 @@ and just ask the editors to select the category.
 * [Announcing Rust 1.74.1](https://blog.rust-lang.org/2023/12/07/Rust-1.74.1.html)
 * [Cargo cache cleaning](https://blog.rust-lang.org/2023/12/11/cargo-cache-cleaning.html)
 
-### Foundation
-
 ### Newsletters
 * [This Month in Rust OSDev: November 2023](https://rust-osdev.com/this-month/2023-11/)
 
 ### Project/Tooling Updates
 * [rust-analyzer changelog #211](https://rust-analyzer.github.io/thisweek/2023/12/11/changelog-211.html)
 * [PC Music Generator](https://hjvt.dev/posts/5)
-
 * [Announcing mfio - Completion I/O for Everyone](https://blaz.is/blog/post/mfio-release/)
-
 * [Watchexec Library 3.0 and CLI 1.24](https://cohost.org/watchexec/post/3818997-watchexec-library-3)
-
-* [\[series\] Spotify-Inspired: Elevating Meilisearch with Hybrid Search and Rust](https://blog.kerollmops.com/spotify-inspired-elevating-meilisearch-with-hybrid-search-and-rust)
+* [series] [Spotify-Inspired: Elevating Meilisearch with Hybrid Search and Rust](https://blog.kerollmops.com/spotify-inspired-elevating-meilisearch-with-hybrid-search-and-rust)
 
 ### Observations/Thoughts
 * [Rust Is Beyond Object-Oriented, Part 3: Inheritance](https://www.thecodedmessage.com/posts/oop-3-inheritance/)
@@ -52,10 +47,10 @@ and just ask the editors to select the category.
 * [Non-Send Futures When?](https://matklad.github.io/2023/12/10/nsfw.html)
 * [`for await` and the battle of buffered streams](https://tmandry.gitlab.io/blog/posts/for-await-buffered-streams/)
 * [poll_progress](https://without.boats/blog/poll-progress/)
-* [Rust and ThreadX](https://ferrous-systems.com/blog/rust-and-threadx/)
-* [audio] [Exploring Rust's impact on efficiency and cost-savings, with Stefan Baumgartner](https://rustacean-station.org/episode/stefan-baumgartner-rust-efficiency/)
+* [Rust and ThreadX - experiments with an RTOS written in C, a former certified software component](https://ferrous-systems.com/blog/rust-and-threadx/)
 * [Nine Rules for SIMD Acceleration of Your Rust Code (Part 1): General Lessons from Boosting Data Ingestion in the range-set-blaze Crate by 7x](https://towardsdatascience.com/nine-rules-for-simd-acceleration-of-your-rust-code-part-1-c16fe639ce21)
 * [Contributing to Rust as a novice](https://ochagavia.nl/blog/someone-interviewed-me/)
+* [audio] [Exploring Rust's impact on efficiency and cost-savings, with Stefan Baumgartner](https://rustacean-station.org/episode/stefan-baumgartner-rust-efficiency/)
 
 ### Rust Walkthroughs
 * [Common Mistakes with Rust Async](https://www.qovery.com/blog/common-mistakes-with-rust-async/)
@@ -63,19 +58,14 @@ and just ask the editors to select the category.
 * [Writing a CLI Tool in Rust with Clap](https://www.shuttle.rs/blog/2023/12/08/clap-rust)
 * [Memory and Iteration](https://yetanotherrustblog.net/memory-and-iteration/)
 * [Getting Started with Axum - Rust's Most Popular Web Framework](https://www.shuttle.rs/blog/2023/12/06/using-axum-rust)
-* [video] [Advent of Code 2023](https://www.youtube.com/playlist?list=PLWtPciJ1UMuD3_8Pb-EqrFhkYpastR2cn)
-
 * [Exploring the AWS Lambda SDK in Rust](https://gruebelinchen.wordpress.com/2023/12/07/exploring-the-aws-lambda-sdk-in-rust/)
-
 * [Practical Client-side Rust for Android, iOS, and Web](https://www.mux.com/blog/practical-client-side-rust-for-android-ios-and-web)
-
-### Research
+* [video] [Advent of Code 2023](https://www.youtube.com/playlist?list=PLWtPciJ1UMuD3_8Pb-EqrFhkYpastR2cn)
 
 ### Miscellaneous
 * [Turbofish ::<>](https://rust.code-maven.com/turbofish)
 * [Rust Meetup and user groups](https://rust.code-maven.com/meetups)
 * [Adopting Rust: the missing playbook for managers and CTOs](https://mainmatter.com/blog/2023/12/13/rust-adoption-playbook-for-ctos-and-engineering-managers/)
-* [Rust and ThreadX - experiments with an RTOS written in C, a former certified software component](https://ferrous-systems.com/blog/rust-and-threadx/)
 * [SemanticDiff 0.8.8 adds support for Rust](https://semanticdiff.com/blog/semanticdiff-0.8.8/)
 
 ## Crate of the Week
@@ -314,14 +304,6 @@ Rusty Events between 2023-12-13 - 2024-01-10 🦀
 
 ### Virtual
 
-* 2023-12-06 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/)
-    * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/297172140)
-* 2023-12-10 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff)
-    * [**Rust & C++ Christmas Game Jam Finale**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/296583652/)
-* 2023-12-12 | Virtual | [Mainmatter](https://mainmatter.com)
-    * [**Workshop: Telemetry for Rust applications**](https://rust-telemetry-workshop.mainmatter.com)
-* 2023-12-12 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
-    * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/297532862/)
 * 2023-12-14 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
     * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/296833674/)
 * 2023-12-14 | Virtual (Nuremberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
@@ -335,7 +317,7 @@ Rusty Events between 2023-12-13 - 2024-01-10 🦀
 * 2023-12-19 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/297128156/)
 * 2023-12-19 | Virtual (Linz, AT) [Rust Linz](https://www.meetup.com/rust-linz/)
-    * [**Ivan Cernja (TBD) & "Creating Data Structures in Rust"**](https://www.meetup.com/rust-linz/events/297909995/)
+    * [**Rust Meetup Linz - 35th Edition**](https://www.meetup.com/rust-linz/events/297909995/)
 * 2023-12-20 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
     * [**Adventures in egui app dev**](https://www.meetup.com/vancouver-rust/events/292763506/)
 * 2023-12-26 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
@@ -347,21 +329,11 @@ Rusty Events between 2023-12-13 - 2024-01-10 🦀
 
 ### Asia
 
-* 2023-12-10 | Tokyo, JP | [Tokyo Rust Meetup](https://www.meetup.com/tokyo-rust-meetup/)
-    * [**Fun with Labels, Macros, and Unsafe Rust**](https://www.meetup.com/tokyo-rust-meetup/events/297674153)
 * 2023-12-16 | Delhi, IN | [Rust Delhi](https://www.meetup.com/rustdelhi/)
     * [**Meetup #4**](https://www.meetup.com/rustdelhi/events/297652586/)
 
 ### Europe
 
-* 2023-12-06 | Cologne, DE | [Rust Cologne](https://www.meetup.com/rustcologne/events)
-    * [**Advent Of Rust**](https://www.meetup.com/rustcologne/events/297100007/)
-* 2023-12-07 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/)
-    * [**Rust and Talk at Danske Commodities**](https://www.meetup.com/rust-aarhus/events/296223513/)
-* 2023-12-07 | Lille, FR | [Rust Lille](https://www.meetup.com/meetup-group-zgphbyet/)
-    * [**Rust Lille #5**](https://www.meetup.com/meetup-group-zgphbyet/events/297477578/)
-* 2023-12-07 | London, UK | [Rust London User Group](https://www.meetup.com/rust-london-user-group/)
-    * [**Rust London Christmas Party with Realm (RSVP on Eventbrite)**](https://www.meetup.com/rust-london-user-group/events/297703135/)
 * 2023-12-14 | Augsburg, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
     * [**Augsburg Rust Meetup #4**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/297025700/)
 * 2023-12-14 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel/)
@@ -372,17 +344,11 @@ Rusty Events between 2023-12-13 - 2024-01-10 🦀
     * [**Nix Your Bugs & Rust Your Engines #1**](https://rheinneckar.events/events/298e520c-89ca-4754-96f8-e252b96b7a46)
 * 2023-12-19 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
     * [**Tauri, an Electron-alternative**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/295504276/)
+* 2023-12-27 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/)
+    * [**Rust hacknight #1: CLIs, TUIs and plushies**](https://www.meetup.com/copenhagen-rust-community/events/297894275/)
 
 ### North America
 
-* 2023-12-07 | Seattle, WA, US | [Seattle Rust User Group](https://www.meetup.com/seattle-rust-user-group/)
-    * [**Seattle Rust User Group Meetup**](https://www.meetup.com/seattle-rust-user-group/events/297533440/)
-* 2023-12-11 | Minneapolis, MN, US | [Minneapolis Rust Meetup](https://www.meetup.com/minneapolis-rust-meetup/)
-    * [**Minneapolis Rust Meetup Happy Hour**](https://www.meetup.com/minneapolis-rust-meetup/events/297760172/)
-* 2023-12-12 | Seattle, WA, US | [Cap Hill Rust Coding/Hacking/Learning](https://www.meetup.com/cap-hill-rust/)
-    * [**Rusty Coding/Hacking/Learning Night**](https://www.meetup.com/cap-hill-rust/events/296564619/)
-* 2023-12-12 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/)
-    * [**Rust NYC Monthly Mixer: Share, Show, & Tell! 🦀**](https://www.meetup.com/rust-nyc/events/297659937/)
 * 2023-12-13 | Chicago, IL, US | [Deep Dish Rust](https://www.meetup.com/deep-dish-rust/)
     * [**Rust Hack Night**](https://www.meetup.com/deep-dish-rust/events/297671182/)
 * 2023-12-14 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/)
@@ -395,11 +361,8 @@ Rusty Events between 2023-12-13 - 2024-01-10 🦀
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/vwljctyfcqbzb/)
 * 2023-12-27 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/)
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/xvkdgtyfcqbkc/)
-
-### Oceania
-
-* 2023-12-11 | Perth, WA, AU | [Rust Perth Meetup Group](https://www.meetup.com/perth-rust-meetup-group/)
-    * [**Rust End of Year Event**](https://www.meetup.com/perth-rust-meetup-group/events/297191089/)
+* 2024-01-09 | Minneapolis, MN, US | [Minneapolis Rust Meetup](https://www.meetup.com/minneapolis-rust-meetup/)
+    * [**Minneapolis Rust Meetup Happy Hour**](https://www.meetup.com/minneapolis-rust-meetup/events/297760207/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -419,7 +382,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/182f6dv/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -431,4 +394,4 @@ Sadly, the week went by without a nominated quote.
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/18i1sov/this_week_in_rust_525/)</small>
