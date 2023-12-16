@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [series] [Multithreading and Memory-Mapping: Refining ANN Performance with Arroy](https://blog.kerollmops.com/multithreading-and-memory-mapping-refining-ann-performance-with-arroy)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
