@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Getting started with Tiny HTTP building a web application in Rust](https://rust.code-maven.com/tiny-http)
 
 ## Crate of the Week
 
