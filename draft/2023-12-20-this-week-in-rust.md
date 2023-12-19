@@ -29,6 +29,9 @@ and just ask the editors to select the category.
 
 ### Official
 
+Rust user Survey 2023 is out! [Blog post](https://blog.rust-lang.org/2023/12/18/survey-launch.html)
+and [link to the survey](https://www.surveyhero.com/c/4vxempzc).
+
 ### Foundation
 
 ### Newsletters
