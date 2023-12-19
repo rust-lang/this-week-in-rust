@@ -71,7 +71,22 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A lot of noise in the results this week; there was an lull in the noise
+recently, so our auto-inferred noise threshold went down, and thus five PR's
+were artificially flagged this week (and three supposed improvements were just
+reverting to the mean). Beyond that, we had three nice improvements: the first
+to debug builds in #117962 (by ceasing emission of expensive+unused
+`.debug_pubnames` and `.debug_pubtypes`), a second to diesel and serde in
+#119048 (by avoiding some unnecessary work), and a third to several benchmarks
+in #117749 (by adding some caching of an internal compiler structure).
+
+Triage done by **@pnkfelix**.
+Revision range: [57010939..bf9229a2](https://perf.rust-lang.org/?start=57010939ed1d00076b4af0ed06a81ec69ea5e4a8&end=bf9229a2e366b4c311f059014a4aa08af16de5d8&absolute=false&stat=instructions%3Au)
+
+6 Regressions, 9 Improvements, 3 Mixed; 5 of them in rollups
+67 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/b9ecf1aba002cd6b33d06f784e088839636d7e92/triage/2023-12-18.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
