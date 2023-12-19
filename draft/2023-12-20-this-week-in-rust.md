@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Default arguments for functions in Rust using macros](https://rust.code-maven.com/default-arguments-for-functions)
 
 ## Crate of the Week
 
