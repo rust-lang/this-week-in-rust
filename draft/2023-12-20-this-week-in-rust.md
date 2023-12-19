@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Generic types for function parameters in Rust 🦀](https://rust.code-maven.com/generic-types-for-simple-function)
 
 ### Research
 
