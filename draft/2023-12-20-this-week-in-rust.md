@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Benchmarking Rust Compiler Settings with Criterion: Controlling Criterion with Scripts and Environment Variables](https://medium.com/towards-data-science/benchmarking-rust-compiler-settings-with-criterion-62db50cd62fb)
+
 ### Research
 
 ### Miscellaneous
