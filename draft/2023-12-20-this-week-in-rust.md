@@ -28,20 +28,38 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Launching the 2023 State of Rust Survey](https://blog.rust-lang.org/2023/12/18/survey-launch.html)
+* [A Call for Proposals for the Rust 2024 Edition](https://blog.rust-lang.org/2023/12/15/2024-Edition-CFP.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [ratatui - v0.25.0](https://ratatui.rs/highlights/v025/)
+* [Introducing Gooey: My take on a Rusty GUI framework](https://ecton.dev/introducing-gooey/)
+* [Two New Open Source Rust Crates Create Easier Cedar Policy Management](https://aws.amazon.com/blogs/opensource/easier-cedar-policy-management/)
 
 ### Observations/Thoughts
+* [Rust is growing](https://flawless.dev/essays/rust-is-growing/)
+* [A curiously recurring lifetime issue](https://blog.dureuill.net/articles/recurring-lifetime/)
+* [The rabbit hole of unsafe Rust bugs](https://notgull.net/cautionary-unsafe-tale/)
+* [Faster Rust Toolchains for Android](https://android-developers.googleblog.com/2023/12/faster-rust-toolchains-for-android.html)
 
 ### Rust Walkthroughs
+* [Rust: Traits](https://priver.dev/blog/rust/traits/)
+* [Write a Toy VPN in Rust](https://write.yiransheng.com/vpn)
+* [Getting Started with Actix Web in Rust](https://www.shuttle.rs/blog/2023/12/15/using-actix-rust)
+* [Getting Started with Rocket in Rust](https://www.shuttle.rs/blog/2023/12/13/using-rocket-rust)
 
 ### Research
 
 ### Miscellaneous
+* [Embedded Rust Education: 2023 Reflections & 2024 Visions](https://apollolabsblog.hashnode.dev/embedded-rust-education-2023-reflections-2024-visions)
+* [Multithreading and Memory-Mapping: Refining ANN Performance with Arroy](https://blog.kerollmops.com/multithreading-and-memory-mapping-refining-ann-performance-with-arroy)
+* [The Most Common Rust Compiler Errors as Encountered in RustRover: Part 1](https://blog.jetbrains.com/rust/2023/12/14/the-most-common-rust-compiler-errors-as-encountered-in-rustrover-part-1/)
+* [audio] [Rust in Production Ep 1 - InfluxData's Paul Dix](https://www.youtube.com/watch?v=DutVRGs9oZc)
+* [audio] [Episode 160: Rust & Safety at Adobe with Sean Parent](https://adspthepodcast.com/2023/12/15/Episode-160.html)
 
 ## Crate of the Week
 
