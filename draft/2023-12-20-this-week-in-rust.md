@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Introducing Gooey: My take on a Rusty GUI framework](https://ecton.dev/introducing-gooey/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
