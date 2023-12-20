@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [What I Learned Making an embedded-hal Driver in Rust (for the MAX6675 Thermocouple Digitizer)](https://barretts.club/posts/max6675-hal/)
+
 ### Rust Walkthroughs
 
 ### Research
