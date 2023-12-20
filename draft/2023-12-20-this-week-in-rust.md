@@ -58,8 +58,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Ockam - Fix documentation warnings](https://github.com/build-trust/ockam/issues/7145)
+* [Ockam - Library - Validate CBOR structs according to the cddl schema for `nodes/models/secure_channel`](https://github.com/build-trust/ockam/issues/6692)
+* [Ockam - Implement events in `SqlxDatabase`](https://github.com/build-trust/ockam/issues/7116)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
