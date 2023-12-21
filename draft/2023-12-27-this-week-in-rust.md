@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+ * [2023: Slint in Review](https://slint.dev/blog/2023-in-review)
 
 ### Observations/Thoughts
 
