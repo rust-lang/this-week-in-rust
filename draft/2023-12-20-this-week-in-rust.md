@@ -31,6 +31,9 @@ and just ask the editors to select the category.
 * [Launching the 2023 State of Rust Survey](https://blog.rust-lang.org/2023/12/18/survey-launch.html)
 * [A Call for Proposals for the Rust 2024 Edition](https://blog.rust-lang.org/2023/12/15/2024-Edition-CFP.html)
 
+Rust user Survey 2023 is out! [Blog post](https://blog.rust-lang.org/2023/12/18/survey-launch.html)
+and [link to the survey](https://www.surveyhero.com/c/4vxempzc).
+
 ### Foundation
 
 ### Newsletters
