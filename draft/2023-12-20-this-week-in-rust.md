@@ -68,7 +68,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [constcat](https://crates.io/crates/constcat), a `std::concat!`-replacement with support for const variables and expressions.
+
+Thanks to [Ross MacArthur](https://users.rust-lang.org/t/crate-of-the-week/2704/1272) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -90,7 +92,107 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+386 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-12-13..2023-12-20
+
+* [enable stack probes on aarch64 for LLVM 18](https://github.com/rust-lang/rust/pull/118491)
+* [add new tier 3 aarch64-apple-watchos target](https://github.com/rust-lang/rust/pull/119074)
+* [add hexagon support](https://github.com/rust-lang/compiler-builtins/pull/556)
+* [add the function body span to StableMIR](https://github.com/rust-lang/rust/pull/119100)
+* [allow `async_fn_in_trait` traits with Send variant](https://github.com/rust-lang/impl-trait-utils/pull/6)
+* [cherry-pick "M68k: Fix ODR violation in GISel code (#72797)"](https://github.com/rust-lang/llvm-project/pull/159)
+* [AIX: fix XCOFF metadata](https://github.com/rust-lang/rust/pull/118905)
+* [`-Ztrait-solver=next` to `-Znext-solver`](https://github.com/rust-lang/rust/pull/118937)
+* [actually parse async gen blocks correctly](https://github.com/rust-lang/rust/pull/118891)
+* [add a method to StableMIR to check if a type is a CStr](https://github.com/rust-lang/rust/pull/119000)
+* [add more suggestions to unexpected cfg names and values](https://github.com/rust-lang/rust/pull/118213)
+* [add support for `--env` on `tracked_env::var`](https://github.com/rust-lang/rust/pull/118830)
+* [add unstable `-Zdefault-hidden-visibility` cmdline flag for `rustc`](https://github.com/rust-lang/rust/pull/118417)
+* [annotate panic reasons during enum layout](https://github.com/rust-lang/rust/pull/118974)
+* [attempt to try to resolve blocking concerns](https://github.com/rust-lang/rust/pull/117050) (RFC [#3086](https://rust-lang.github.io/rfcs/3086-macro-metavar-expr.html))
+* [avoid overflow in GVN constant indexing](https://github.com/rust-lang/rust/pull/119052)
+* [cache param env canonicalization](https://github.com/rust-lang/rust/pull/117749)
+* [check `FnPtr`/`FnDef` built-in fn traits correctly with effects](https://github.com/rust-lang/rust/pull/119023)
+* [check generic params after sigature for main-fn-ty](https://github.com/rust-lang/rust/pull/119047)
+* [collect lang items from AST, get rid of `GenericBound::LangItemTrait`](https://github.com/rust-lang/rust/pull/118396)
+* [coroutine variant fields can be uninitialized](https://github.com/rust-lang/rust/pull/118871)
+* [coverage: skip instrumenting a function if no spans were extracted from MIR](https://github.com/rust-lang/rust/pull/118852)
+* [deny `~const` trait bounds in inherent impl headers](https://github.com/rust-lang/rust/pull/119059)
+* [desugar `yield` in `async gen` correctly, ensure `gen` always returns unit](https://github.com/rust-lang/rust/pull/119061)
+* [don't merge cfg and doc(cfg) attributes for re-exports](https://github.com/rust-lang/rust/pull/113091)
+* [erase late bound regions from `Instance::fn_sig()` and add a few more details to StableMIR APIs](https://github.com/rust-lang/rust/pull/118927)
+* [fix ICE `ProjectionKinds Deref and Field were mismatched`](https://github.com/rust-lang/rust/pull/118584)
+* [fix LLD thread flags in bootstrap on Windows](https://github.com/rust-lang/rust/pull/118906)
+* [fix `waker_getters` tracking issue number](https://github.com/rust-lang/rust/pull/118873)
+* [fix alignment passed down to LLVM for `simd_masked_load`](https://github.com/rust-lang/rust/pull/118864)
+* [fix dynamic size/align computation logic for packed types with dyn trait tail](https://github.com/rust-lang/rust/pull/118538)
+* [fix overlapping spans in delimited meta-vars](https://github.com/rust-lang/rust/pull/118928)
+* [ICE 110453: fixed with errors](https://github.com/rust-lang/glacier/pull/1702)
+* [llvm-wrapper: adapt for LLVM API changes](https://github.com/rust-lang/rust/pull/118941)
+* [make `IMPLIED_BOUNDS_ENTAILMENT` into a hard error from a lint](https://github.com/rust-lang/rust/pull/117984)
+* [make exhaustiveness usable outside of rustc](https://github.com/rust-lang/rust/pull/118842)
+* [match lowering: Remove the `make_target_blocks` hack](https://github.com/rust-lang/rust/pull/119112)
+* [more expressions correctly are marked to end with curly braces](https://github.com/rust-lang/rust/pull/118880)
+* [nudge the user to kill programs using excessive CPU](https://github.com/rust-lang/rust-playground/pull/1020)
+* [opportunistically resolve region var in canonicalizer (instead of resolving root var)](https://github.com/rust-lang/rust/pull/118964)
+* [properly reject `default` on free const items](https://github.com/rust-lang/rust/pull/117818)
+* [remove unnecessary constness from ProjectionCandidate](https://github.com/rust-lang/rust/pull/119022)
+* [replace some instances of `FxHashMap`/`FxHashSet` with stable alternatives (mostly in `rustc_hir` and `rustc_ast_lowering`)](https://github.com/rust-lang/rust/pull/119093)
+* [resolve: replace visibility table in resolver outputs with query feeding](https://github.com/rust-lang/rust/pull/118657)
+* [skip rpit constraint checker if borrowck return type error](https://github.com/rust-lang/rust/pull/117884)
+* [some cleanup and improvement for invalid ref casting impl](https://github.com/rust-lang/rust/pull/118909)
+* [tweak `short_ty_string` to reduce number of files](https://github.com/rust-lang/rust/pull/118389)
+* [unconditionally register alias-relate in projection goal](https://github.com/rust-lang/rust/pull/118914)
+* [update FreeBSD CI image](https://github.com/rust-lang/stdarch/pull/1507)
+* [uplift `TypeAndMut` and `ClosureKind` to `rustc_type_ir`](https://github.com/rust-lang/rust/pull/118888)
+* [use `if cfg!` instead of `#[cfg]`](https://github.com/rust-lang/rust/pull/118993)
+* [use the LLVM option NoTrapAfterNoreturn](https://github.com/rust-lang/rust/pull/110494)
+* [miri: visit the AllocIds and BorTags in borrow state FrameExtra](https://github.com/rust-lang/miri/pull/3229)
+* [miri run: default to edition 2021](https://github.com/rust-lang/miri/pull/3221)
+* [miri: make mmap not use expose semantics](https://github.com/rust-lang/miri/pull/3220)
+* [fast path for `declared_generic_bounds_from_env`](https://github.com/rust-lang/rust/pull/119084)
+* [stabilize `type_name_of_val`](https://github.com/rust-lang/rust/pull/118234)
+* [stabilize `ptr::{from_ref, from_mut}`](https://github.com/rust-lang/rust/pull/117824)
+* [add `core::intrinsics::simd`](https://github.com/rust-lang/rust/pull/118853)
+* [add a column number to `dbg!()`](https://github.com/rust-lang/rust/pull/114962)
+* [add more niches to `rawvec`](https://github.com/rust-lang/rust/pull/106790)
+* [add ASCII whitespace trimming functions to `&str`](https://github.com/rust-lang/rust/pull/118523)
+* [fix cases where std accidentally relied on inline(never)](https://github.com/rust-lang/rust/pull/118770)
+* [Windows: allow `File::create` to work on hidden files](https://github.com/rust-lang/rust/pull/116438)
+* [std: add xcoff in object's feature list](https://github.com/rust-lang/rust/pull/118851)
+* [codegen: panic when trying to compute size/align of extern type](https://github.com/rust-lang/rust/pull/118534)
+* [codegen\_gcc: simd: implement missing intrinsics from simd/generic-arithmetic-pass.rs](https://github.com/rust-lang/rustc_codegen_gcc/pull/382)
+* [codegen\_llvm: set `DW_AT_accessibility`](https://github.com/rust-lang/rust/pull/115165)
+* [cargo: clean up package metadata](https://github.com/rust-lang/cargo/pull/13184)
+* [cargo: do not allow empty name in package ID spec](https://github.com/rust-lang/cargo/pull/13152)
+* [cargo: fill in more empty name holes](https://github.com/rust-lang/cargo/pull/13164)
+* [cargo: hold the mutate exclusive lock when vendoring](https://github.com/rust-lang/cargo/pull/12509)
+* [rustdoc: use Map instead of Object for source files and search index](https://github.com/rust-lang/rust/pull/118910)
+* [rustdoc: allow resizing the sidebar / hiding the top bar](https://github.com/rust-lang/rust/pull/115660)
+* [rustdoc-search: fix a race condition in search index loading](https://github.com/rust-lang/rust/pull/118961)
+* [rustdoc-search: use set ops for ranking and filtering](https://github.com/rust-lang/rust/pull/118402)
+* [bindgen: use `\r\n` on windows](https://github.com/rust-lang/rust-bindgen/pull/2698)
+* [bindgen: better working destructors on windows](https://github.com/rust-lang/rust-bindgen/pull/2663)
+* [clippy: add new `unconditional_recursion` lint](https://github.com/rust-lang/rust-clippy/pull/11938)
+* [clippy: new Lint: `result_filter_map` / Mirror of `option_filter_map`](https://github.com/rust-lang/rust-clippy/pull/11869)
+* [clippy: don't visit nested bodies in `is_const_evaluatable`](https://github.com/rust-lang/rust-clippy/pull/11977)
+* [clippy: `redundant_pattern_matching`: lint `if let true`, `while let true`, `matches!(.., true)`](https://github.com/rust-lang/rust-clippy/pull/11974)
+* [clippy: do not lint `assertions_on_constants` for `const _: () = assert!(expr)`](https://github.com/rust-lang/rust-clippy/pull/11966)
+* [clippy: `doc_markdown` Recognize words followed by empty parentheses `()` for quoting](https://github.com/rust-lang/rust-clippy/pull/11956)
+* [clippy: fix binder handling in `unnecessary_to_owned`](https://github.com/rust-lang/rust-clippy/pull/11953)
+* [rust-analyzer: deduplicate annotations](https://github.com/rust-lang/rust-analyzer/pull/16163)
+* [rust-analyzer: optimizing Performance with `Promise.all` 🏎](https://github.com/rust-lang/rust-analyzer/pull/16162)
+* [rust-analyzer: desugar doc correctly for mbe](https://github.com/rust-lang/rust-analyzer/pull/16158)
+* [rust-analyzer: dont assume ascii in `remove_markdown`](https://github.com/rust-lang/rust-analyzer/pull/16155)
+* [rust-analyzer: resolve alias before resolving enum variant](https://github.com/rust-lang/rust-analyzer/pull/16152)
+* [rust-analyzer: add minimal support for the 2024 edition](https://github.com/rust-lang/rust-analyzer/pull/16151)
+* [rust-analyzer: move out `WithFixture` into dev-dep only crate](https://github.com/rust-lang/rust-analyzer/pull/16150)
+* [rust-analyzer: fix false positive type mismatch in const reference patterns](https://github.com/rust-lang/rust-analyzer/pull/16131)
+* [rust-analyzer: syntax fixup now removes subtrees with fake spans](https://github.com/rust-lang/rust-analyzer/pull/16130)
+* [rust-analyzer: update builtin attrs from rustc](https://github.com/rust-lang/rust-analyzer/pull/16115)
+* [rust-analyzer: fix fragment parser replacing matches with dummies on incomplete parses](https://github.com/rust-lang/rust-analyzer/pull/16061)
+* [rust-analyzer: fix incorrectly replacing references in macro invocation in "Convert to named struct" assist](https://github.com/rust-lang/rust-analyzer/pull/15887)
 
 ### Rust Compiler Performance Triage
 
@@ -240,7 +342,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> The Tianyi-33 satellite is a 50kg class space science experimental satellite equipped with an operating system independently developed by Beijing University of Posts and Telecommunications—the Rust-based dual-kernel real-time operating system **RROS**. RROS will carry out general tasks represented by tensorflow/k8s and real-time tasks represented by real-time file systems and real-time network transmission on the satellite. It will ensure the normal execution of upper-layer applications and scientific research tasks, such as time-delay measurement between satellite and ground, live video broadcasting, onboard web chat services, pseudo-SSH experiments, etc. This marks the world’s first official application of a Rust-written dual-kernel operating system in a satellite scenario.
+
+– [Qichen on the RROS web page](https://bupt-os.github.io/website/news/2023_12_9/satellite_launch/)
+
+Thanks to [Brian Kung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1496) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
