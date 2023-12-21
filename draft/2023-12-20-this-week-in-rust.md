@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 * [Nine Rules for SIMD Acceleration of your Rust Code (Part 2): General Lessons from Boosting Data Ingestion in the range-set-blaze Crate by 7x](https://medium.com/towards-data-science/nine-rules-for-simd-acceleration-of-your-rust-code-part-2-6a104b3be6f3)
 
 ### Rust Walkthroughs
+* [Generic types for function parameters in Rust 🦀](https://rust.code-maven.com/generic-types-for-simple-function)
 
 * [Benchmarking Rust Compiler Settings with Criterion: Controlling Criterion with Scripts and Environment Variables](https://medium.com/towards-data-science/benchmarking-rust-compiler-settings-with-criterion-62db50cd62fb)
 
