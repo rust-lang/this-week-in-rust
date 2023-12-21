@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 
 * [Nine Rules for SIMD Acceleration of your Rust Code (Part 2): General Lessons from Boosting Data Ingestion in the range-set-blaze Crate by 7x](https://medium.com/towards-data-science/nine-rules-for-simd-acceleration-of-your-rust-code-part-2-6a104b3be6f3)
 
+* [What I Learned Making an embedded-hal Driver in Rust (for the MAX6675 Thermocouple Digitizer)](https://barretts.club/posts/max6675-hal/)
+
 ### Rust Walkthroughs
 * [Generic types for function parameters in Rust 🦀](https://rust.code-maven.com/generic-types-for-simple-function)
 
