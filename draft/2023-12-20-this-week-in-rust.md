@@ -34,6 +34,10 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Committing to Rust for kernel code](https://lwn.net/Articles/952029/)
+* [A Rust implementation of Android's Binder](https://lwn.net/Articles/953116/)
+* [Preventing atomic-context violations in Rust code with klint](https://lwn.net/Articles/951550/)
+* [Rust for Linux — in space](https://lwn.net/Articles/954974/)
 
 ### Observations/Thoughts
 
