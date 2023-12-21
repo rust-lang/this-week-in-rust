@@ -34,15 +34,33 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Fornjot 0.48.0 - open source b-rep CAD kernel written in Rust](https://www.fornjot.app/blog/release/0.48.0/)
+* [Committing to Rust for kernel code](https://lwn.net/Articles/952029/)
+* [A Rust implementation of Android's Binder](https://lwn.net/Articles/953116/)
+* [Preventing atomic-context violations in Rust code with klint](https://lwn.net/Articles/951550/)
+* [Rust for Linux — in space](https://lwn.net/Articles/954974/)
+
+* [series] [Multithreading and Memory-Mapping: Refining ANN Performance with Arroy](https://blog.kerollmops.com/multithreading-and-memory-mapping-refining-ann-performance-with-arroy)
+
+* [Introducing FireDBG - a Time Travel Visual Debugger for Rust](https://firedbg.sea-ql.org/blog/2023-12-12-introducing-firedbg/)
+
+- [Ratatui 0.25.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v025/)
 
 ### Observations/Thoughts
+* [The Most Common Rust Compiler Errors as Encountered in RustRover: Part 1](https://blog.jetbrains.com/rust/2023/12/14/the-most-common-rust-compiler-errors-as-encountered-in-rustrover-part-1/)
+
+* [Nine Rules for SIMD Acceleration of your Rust Code (Part 2): General Lessons from Boosting Data Ingestion in the range-set-blaze Crate by 7x](https://medium.com/towards-data-science/nine-rules-for-simd-acceleration-of-your-rust-code-part-2-6a104b3be6f3)
 
 ### Rust Walkthroughs
+* [Generic types for function parameters in Rust 🦀](https://rust.code-maven.com/generic-types-for-simple-function)
+
+* [Benchmarking Rust Compiler Settings with Criterion: Controlling Criterion with Scripts and Environment Variables](https://medium.com/towards-data-science/benchmarking-rust-compiler-settings-with-criterion-62db50cd62fb)
 
 ### Research
 
 ### Miscellaneous
 * [Default arguments for functions in Rust using macros](https://rust.code-maven.com/default-arguments-for-functions)
+* [Getting started with Tiny HTTP building a web application in Rust](https://rust.code-maven.com/tiny-http)
 
 ## Crate of the Week
 
@@ -72,22 +90,29 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A lot of noise in the results this week; there was an lull in the noise
+recently, so our auto-inferred noise threshold went down, and thus five PR's
+were artificially flagged this week (and three supposed improvements were just
+reverting to the mean). Beyond that, we had three nice improvements: the first
+to debug builds in #117962 (by ceasing emission of expensive+unused
+`.debug_pubnames` and `.debug_pubtypes`), a second to diesel and serde in
+#119048 (by avoiding some unnecessary work), and a third to several benchmarks
+in #117749 (by adding some caching of an internal compiler structure).
+
+Triage done by **@pnkfelix**.
+Revision range: [57010939..bf9229a2](https://perf.rust-lang.org/?start=57010939ed1d00076b4af0ed06a81ec69ea5e4a8&end=bf9229a2e366b4c311f059014a4aa08af16de5d8&absolute=false&stat=instructions%3Au)
+
+6 Regressions, 9 Improvements, 3 Mixed; 5 of them in rollups
+67 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/b9ecf1aba002cd6b33d06f784e088839636d7e92/triage/2023-12-18.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -96,40 +121,28 @@ which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [disposition: postpone] [RFC: Precise Pre-release Deps](https://github.com/rust-lang/rfcs/pull/3263)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [disposition: merge] [Support async recursive calls (as long as they have indirection)](https://github.com/rust-lang/rust/pull/117703)
+* [disposition: merge] [make soft_unstable show up in future breakage reports](https://github.com/rust-lang/rust/pull/116274)
+* [disposition: merge] [Tracking Issue for ip_in_core](https://github.com/rust-lang/rust/issues/108443)
 
 ### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
+* *No Language Reference RFCs entered Final Comment Period this week.*
 
 ### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
+* *No Unsafe Code Guideline RFCs entered Final Comment Period this week.*
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+* [RFC: patchable-function-entry](https://github.com/rust-lang/rfcs/pull/3543)
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+* *No RFCs issued a call for testing this week.*
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
