@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 * [Preventing atomic-context violations in Rust code with klint](https://lwn.net/Articles/951550/)
 * [Rust for Linux — in space](https://lwn.net/Articles/954974/)
 
+* [series] [Multithreading and Memory-Mapping: Refining ANN Performance with Arroy](https://blog.kerollmops.com/multithreading-and-memory-mapping-refining-ann-performance-with-arroy)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
