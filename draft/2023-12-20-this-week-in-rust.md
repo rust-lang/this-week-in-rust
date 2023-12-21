@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 - [Ratatui 0.25.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v025/)
 
 ### Observations/Thoughts
+* [The Most Common Rust Compiler Errors as Encountered in RustRover: Part 1](https://blog.jetbrains.com/rust/2023/12/14/the-most-common-rust-compiler-errors-as-encountered-in-rustrover-part-1/)
 
 * [Nine Rules for SIMD Acceleration of your Rust Code (Part 2): General Lessons from Boosting Data Ingestion in the range-set-blaze Crate by 7x](https://medium.com/towards-data-science/nine-rules-for-simd-acceleration-of-your-rust-code-part-2-6a104b3be6f3)
 
