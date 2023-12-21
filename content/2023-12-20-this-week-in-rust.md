@@ -28,7 +28,7 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-* [Blog: Launching the 2023 State of Rust Survey](https://blog.rust-lang.org/2023/12/18/survey-launch.html) [Survey](https://www.surveyhero.com/c/4vxempzc)
+* [Blog: Launching the 2023 State of Rust Survey](https://blog.rust-lang.org/2023/12/18/survey-launch.html) | [Direct Link to Survey](https://www.surveyhero.com/c/4vxempzc)
 * [A Call for Proposals for the Rust 2024 Edition](https://blog.rust-lang.org/2023/12/15/2024-Edition-CFP.html)
 
 ### Project/Tooling Updates
