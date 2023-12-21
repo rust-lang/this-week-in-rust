@@ -28,15 +28,8 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-* [Launching the 2023 State of Rust Survey](https://blog.rust-lang.org/2023/12/18/survey-launch.html)
+* [Blog: Launching the 2023 State of Rust Survey](https://blog.rust-lang.org/2023/12/18/survey-launch.html) [Survey](https://www.surveyhero.com/c/4vxempzc)
 * [A Call for Proposals for the Rust 2024 Edition](https://blog.rust-lang.org/2023/12/15/2024-Edition-CFP.html)
-
-Rust user Survey 2023 is out! [Blog post](https://blog.rust-lang.org/2023/12/18/survey-launch.html)
-and [link to the survey](https://www.surveyhero.com/c/4vxempzc).
-
-### Foundation
-
-### Newsletters
 
 ### Project/Tooling Updates
 * [ratatui: a Rust library for cooking up terminal user interfaces - v0.25.0](https://ratatui.rs/highlights/v025/)
@@ -44,6 +37,10 @@ and [link to the survey](https://www.surveyhero.com/c/4vxempzc).
 * [Two New Open Source Rust Crates Create Easier Cedar Policy Management](https://aws.amazon.com/blogs/opensource/easier-cedar-policy-management/)
 * [Introducing FireDBG - a Time Travel Visual Debugger for Rust](https://firedbg.sea-ql.org/blog/2023-12-12-introducing-firedbg/)
 * [Fornjot 0.48.0 - open source b-rep CAD kernel written in Rust](https://www.fornjot.app/blog/release/0.48.0/)
+* [Committing to Rust for kernel code](https://lwn.net/Articles/952029/)
+* [A Rust implementation of Android's Binder](https://lwn.net/Articles/953116/)
+* [Preventing atomic-context violations in Rust code with klint](https://lwn.net/Articles/951550/)
+* [Rust for Linux — in space](https://lwn.net/Articles/954974/)
 
 ### Observations/Thoughts
 * [Rust is growing](https://flawless.dev/essays/rust-is-growing/)
@@ -55,24 +52,19 @@ and [link to the survey](https://www.surveyhero.com/c/4vxempzc).
 * [What I Learned Making an embedded-hal Driver in Rust (for the MAX6675 Thermocouple Digitizer)](https://barretts.club/posts/max6675-hal/)
 
 ### Rust Walkthroughs
+* [Rust: Traits](https://priver.dev/blog/rust/traits/)
 * [Write a Toy VPN in Rust](https://write.yiransheng.com/vpn)
 * [Getting Started with Actix Web in Rust](https://www.shuttle.rs/blog/2023/12/15/using-actix-rust)
 * [Getting Started with Rocket in Rust](https://www.shuttle.rs/blog/2023/12/13/using-rocket-rust)
 * [Generic types for function parameters in Rust 🦀](https://rust.code-maven.com/generic-types-for-simple-function)
 * [Benchmarking Rust Compiler Settings with Criterion: Controlling Criterion with Scripts and Environment Variables](https://medium.com/towards-data-science/benchmarking-rust-compiler-settings-with-criterion-62db50cd62fb)
-* [Rust: Traits](https://priver.dev/blog/rust/traits/)
-* [Committing to Rust for kernel code](https://lwn.net/Articles/952029/)
-* [A Rust implementation of Android's Binder](https://lwn.net/Articles/953116/)
-* [Preventing atomic-context violations in Rust code with klint](https://lwn.net/Articles/951550/)
-* [Rust for Linux — in space](https://lwn.net/Articles/954974/)
-* [series] [Multithreading and Memory-Mapping: Refining ANN Performance with Arroy](https://blog.kerollmops.com/multithreading-and-memory-mapping-refining-ann-performance-with-arroy)
+* [series] [Multithreading and Memory-Mapping: Refining ANN Performance with Arroy](https://blog.kerollmops.com/multithreading-and-memory-mapping-refining-ann-performance-with-arroy)  
+* [series] [Getting started with Tiny HTTP building a web application in Rust](https://rust.code-maven.com/tiny-http)
 
 ### Miscellaneous
 * [Embedded Rust Education: 2023 Reflections & 2024 Visions](https://apollolabsblog.hashnode.dev/embedded-rust-education-2023-reflections-2024-visions)
-* [Multithreading and Memory-Mapping: Refining ANN Performance with Arroy](https://blog.kerollmops.com/multithreading-and-memory-mapping-refining-ann-performance-with-arroy)
 * [The Most Common Rust Compiler Errors as Encountered in RustRover: Part 1](https://blog.jetbrains.com/rust/2023/12/14/the-most-common-rust-compiler-errors-as-encountered-in-rustrover-part-1/)
 * [Default arguments for functions in Rust using macros](https://rust.code-maven.com/default-arguments-for-functions)
-* [Getting started with Tiny HTTP building a web application in Rust](https://rust.code-maven.com/tiny-http)
 * [audio] [Rust in Production Ep 1 - InfluxData's Paul Dix](https://www.youtube.com/watch?v=DutVRGs9oZc)
 * [audio] [Episode 160: Rust & Safety at Adobe with Sean Parent](https://adspthepodcast.com/2023/12/15/Episode-160.html)
 
@@ -216,8 +208,8 @@ recently, so our auto-inferred noise threshold went down, and thus five PR's
 were artificially flagged this week (and three supposed improvements were just
 reverting to the mean). Beyond that, we had three nice improvements: the first
 to debug builds in #117962 (by ceasing emission of expensive+unused
-`.debug_pubnames` and `.debug_pubtypes`), a second to diesel and serde in
-#119048 (by avoiding some unnecessary work), and a third to several benchmarks
+`.debug_pubnames` and `.debug_pubtypes`), a second to diesel and serde
+in #119048 (by avoiding some unnecessary work), and a third to several benchmarks
 in #117749 (by adding some caching of an internal compiler structure).
 
 Triage done by **@pnkfelix**.
@@ -342,7 +334,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/182f6dv/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -358,4 +350,4 @@ Thanks to [Brian Kung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/18ndmbb/this_week_in_rust_526/)</small>
