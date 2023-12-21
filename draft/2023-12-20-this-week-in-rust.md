@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 * [series] [Multithreading and Memory-Mapping: Refining ANN Performance with Arroy](https://blog.kerollmops.com/multithreading-and-memory-mapping-refining-ann-performance-with-arroy)
 
+* [Introducing FireDBG - a Time Travel Visual Debugger for Rust](https://firedbg.sea-ql.org/blog/2023-12-12-introducing-firedbg/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
