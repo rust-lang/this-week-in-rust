@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 * [Introducing FireDBG - a Time Travel Visual Debugger for Rust](https://firedbg.sea-ql.org/blog/2023-12-12-introducing-firedbg/)
 
+- [Ratatui 0.25.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v025/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
