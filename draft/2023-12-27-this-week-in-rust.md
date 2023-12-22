@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+ - [video] [Error handling in Rust](https://www.youtube.com/watch?v=IdnjG5N2l4M)
+
 ### Research
 
 ### Miscellaneous
