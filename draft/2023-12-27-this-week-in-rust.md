@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Can CppRef<T> be ergonomic?](https://medium.com/@adetaylor/can-cppref-t-be-ergonomic-c9cb1365bda1)
+
 ### Rust Walkthroughs
 
 ### Research
