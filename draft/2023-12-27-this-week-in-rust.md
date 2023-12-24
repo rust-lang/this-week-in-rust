@@ -42,7 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-* [An anonymous survey about mutable statics](https://www.surveyhero.com/c/static-mut)
+* [an anonymous survey about mutable statics](https://www.surveyhero.com/c/static-mut)
 
 ## Crate of the Week
 
