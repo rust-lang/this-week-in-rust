@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Rocket: Web-based Hello World! with tests](https://rust.code-maven.com/rocket-hello-world)
 
 ## Crate of the Week
 
