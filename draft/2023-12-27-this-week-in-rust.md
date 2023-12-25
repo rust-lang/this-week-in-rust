@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Web development in Rust](https://rust.code-maven.com/web)
 
 ## Crate of the Week
 
