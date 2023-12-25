@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+[My path to becoming a Rustacean](https://thedataquarry.com/posts/path-to-becoming-a-rustacean/)
 
 ### Rust Walkthroughs
 
