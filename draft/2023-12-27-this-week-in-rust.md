@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rust 1.74.1 & Rust News](https://youtu.be/_UItLy_nLf8)
+
 ### Rust Walkthroughs
 
 ### Research
