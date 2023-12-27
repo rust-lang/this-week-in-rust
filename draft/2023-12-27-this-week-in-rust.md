@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Encrypted Portals between Macs – built in Rust and Swift (sorta similar to ngrok and tailscale)](https://github.com/build-trust/ockam/blob/develop/examples/app/portals/README.md)
+
 ### Research
 
 ### Miscellaneous
