@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [rouille](https://crates.io/crates/rouille), a small synchronous web framework.
+
+Thanks to [Peter Puetz](https://users.rust-lang.org/t/crate-of-the-week/2704/1275 for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -77,7 +79,81 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+268 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-12-20..2023-12-27
+
+* [add support for `for await` loops](https://github.com/rust-lang/rust/pull/118847)
+* [add illumos aarch64 target for rust](https://github.com/rust-lang/rust/pull/112936)
+* [add support for hexagon-unknown-none-elf as target](https://github.com/rust-lang/rust/pull/117601)
+* [-Znext-solver: adapt overflow rules to avoid breakage](https://github.com/rust-lang/rust/pull/119071)
+* [`rustc_codegen_ssa`: Don't drop `IncorrectCguReuseType` , make `rustc_expected_cgu_reuse` attr work](https://github.com/rust-lang/rust/pull/118973)
+* [`subtype_predicate`: remove unnecessary probe](https://github.com/rust-lang/rust/pull/119107)
+* [add check for possible `CStr` literals in pre-2021](https://github.com/rust-lang/rust/pull/118691)
+* [add method to get instance instantiation arguments](https://github.com/rust-lang/rust/pull/119141)
+* [add missing feature gate for sanitizer CFI cfgs](https://github.com/rust-lang/rust/pull/119235)
+* [avoid redundant Option for `cross_crate_inlinable`](https://github.com/rust-lang/rust/pull/119225)
+* [coverage: check for `async fn` explicitly, without needing a heuristic](https://github.com/rust-lang/rust/pull/119155)
+* [do not allow ABI mismatches inside `repr(C)` types](https://github.com/rust-lang/rust/pull/119037)
+* [do not fetch HIR in `inferred_outlives_of`](https://github.com/rust-lang/rust/pull/119261)
+* [emit better suggestions for `&T == T` and `T == &T`](https://github.com/rust-lang/rust/pull/118431)
+* [emits error if has bound regions](https://github.com/rust-lang/rust/pull/119215)
+* [encode `CoroutineKind` directly](https://github.com/rust-lang/rust/pull/119173)
+* [exhaustiveness: improve complexity on some wide matches](https://github.com/rust-lang/rust/pull/118796)
+* [exhaustiveness: keep the original `thir::Pat` around](https://github.com/rust-lang/rust/pull/119233)
+* [exhaustiveness: reveal empty opaques in depth](https://github.com/rust-lang/rust/pull/119218)
+* [exhaustiveness: reveal opaque types properly](https://github.com/rust-lang/rust/pull/116821)
+* [fallback `default` to `None` during ast-lowering for lifetime binder](https://github.com/rust-lang/rust/pull/119042)
+* [fix ICE when using raw ptr in a pattern](https://github.com/rust-lang/rust/pull/119274)
+* [fix crash due to `CrateItem::kind()` not handling constructors](https://github.com/rust-lang/rust/pull/119135)
+* [give temporaries in if let guards correct scopes](https://github.com/rust-lang/rust/pull/119122)
+* [make `soft_unstable` show up in future breakage reports](https://github.com/rust-lang/rust/pull/116274)
+* [make closures carry their own ClosureKind](https://github.com/rust-lang/rust/pull/119258)
+* [mark `ty::Const::Error` when meet unsupport ty for const generic params](https://github.com/rust-lang/rust/pull/117176)
+* [pass `DeadItem` and lint as consistent group in dead-code](https://github.com/rust-lang/rust/pull/119297)
+* [remove `DiagCtxt` API duplication](https://github.com/rust-lang/rust/pull/119146)
+* [remove metadata decoding `DefPathHash` cache](https://github.com/rust-lang/rust/pull/119265)
+* [resolve: eagerly feed closure visibilities](https://github.com/rust-lang/rust/pull/119136)
+* [resolve: feed visibilities for unresolved trait impl items](https://github.com/rust-lang/rust/pull/119134)
+* [resolve: stop feeding visibilities for import list stems](https://github.com/rust-lang/rust/pull/119168)
+* [rework `-Zverbose`](https://github.com/rust-lang/rust/pull/119129)
+* [simple modification of `non_lifetime_binders`'s diagnostic information to adapt to type binders](https://github.com/rust-lang/rust/pull/119154)
+* [skip duplicate stable crate ID encoding into metadata](https://github.com/rust-lang/rust/pull/119238)
+* [split coroutine desugaring kind from source](https://github.com/rust-lang/rust/pull/119198)
+* [subtree sync for `rustc_codegen_cranelift`](https://github.com/rust-lang/rust/pull/119278)
+* [suggest `=` to `==` in more cases, even in the face of reference mismatch](https://github.com/rust-lang/rust/pull/119328)
+* [add function ABI and type layout to StableMIR](https://github.com/rust-lang/rust/pull/119094)
+* [separate MIR lints from validation](https://github.com/rust-lang/rust/pull/119077)
+* [miri: implement and test `simd_masked_load` and `simd_masked_store`](https://github.com/rust-lang/miri/pull/3237)
+* [improve coding efficiency for `RawDefId`](https://github.com/rust-lang/rust/pull/119226)
+* [use `Vec` for region constraints instead of `BTreeMap`](https://github.com/rust-lang/rust/pull/118824)
+* [stabilize `file_create_new`](https://github.com/rust-lang/rust/pull/119153)
+* [stabilize `ip_in_core` feature](https://github.com/rust-lang/rust/pull/119276)
+* [add more niches to rawvec](https://github.com/rust-lang/rust/pull/106790)
+* [add `IntoAsyncIterator`](https://github.com/rust-lang/rust/pull/119222)
+* [add `hint::assert_unchecked`](https://github.com/rust-lang/rust/pull/119133)
+* [cargo: extend the build directive syntax with `cargo:`:](https://github.com/rust-lang/cargo/pull/12201)
+* [cargo: hold the mutate exclusive lock when vendoring](https://github.com/rust-lang/cargo/pull/12509)
+* [cargo: refactor: centralize git checkouts and db paths](https://github.com/rust-lang/cargo/pull/13187)
+* [cargo: refactor: custom error types for `cargo-util-schemas`](https://github.com/rust-lang/cargo/pull/13186)
+* [cargo: rework `--check-cfg` generation comment](https://github.com/rust-lang/cargo/pull/13195)
+* [rustdoc: Add `is_object_safe` information for traits in JSON output](https://github.com/rust-lang/rust/pull/119246)
+* [rustdoc: fix display of warning block if it is first element of the top doc block](https://github.com/rust-lang/rust/pull/119283)
+* [clippy: `question_mark`: also trigger on `return` statements](https://github.com/rust-lang/rust-clippy/pull/11994)
+* [clippy: check whether out of bound when access a known length array with a constant index](https://github.com/rust-lang/rust-clippy/pull/11998)
+* [clippy: do not consider `async { (impl IntoFuture).await }` as redundant](https://github.com/rust-lang/rust-clippy/pull/11967)
+* [clippy: extend `UNNECESSARY_TO_OWNED` to handle `split`](https://github.com/rust-lang/rust-clippy/pull/11871)
+* [clippy: move `uninhabited_references` to `nursery`](https://github.com/rust-lang/rust-clippy/pull/11997)
+* [clippy: new lints `iter_filter_is_some` and `iter_filter_is_ok`](https://github.com/rust-lang/rust-clippy/pull/12004)
+* [clippy: stop `bool_comparison`'s suggestion from consuming parentheses](https://github.com/rust-lang/rust-clippy/pull/11991)
+* [rust-analyzer: complete exported macros in `#[macro_use($0)]`](https://github.com/rust-lang/rust-analyzer/pull/16137)
+* [rust-analyzer: implement a rust-analyzer span backed proc-macro server mode](https://github.com/rust-lang/rust-analyzer/pull/16088)
+* [rust-analyzer: auto remove unnecessary braces after remove unused imports](https://github.com/rust-lang/rust-analyzer/pull/16066)
+* [rust-analyzer: correctly set and mark the proc-macro spans](https://github.com/rust-lang/rust-analyzer/pull/16175)
+* [rust-analyzer: fix completions analysis not caching all nodes in Semantics](https://github.com/rust-lang/rust-analyzer/pull/16184)
+* [rust-analyzer: fix span marking for builtin fn macros](https://github.com/rust-lang/rust-analyzer/pull/16178)
+* [rust-analyzer: fully remove dummy spans](https://github.com/rust-lang/rust-analyzer/pull/16167)
+* [rust-analyzer: remove wrong comma after remove unnecessary braces](https://github.com/rust-lang/rust-analyzer/pull/16185)
 
 ### Rust Compiler Performance Triage
 
@@ -201,7 +277,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Rust can be rather more verbose than C; there are a lot of invariants that have to be expressed in the code. But that is countered by the need for far less error-handling code; it turns out to be a wash, with the size of the two implementations being about the same.
+
+– [Alice Ryhl at the Linux Plumbers Conference as quoted by Jonathan Corbet, LWN](https://lwn.net/Articles/953116)
+
+Thanks to [Ivan Fraixedes](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1498) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
