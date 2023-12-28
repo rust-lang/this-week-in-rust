@@ -75,8 +75,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [greptimedb - Add more tables into `information_schema` for better compatibility](https://github.com/GreptimeTeam/greptimedb/issues/2931)
+* [Ockam - Check that the bootstrap_server command argument is a valid host:port](https://github.com/build-trust/ockam/issues/7254)
+* [Ockam - Refactor to use typed interfaces](https://github.com/build-trust/ockam/issues/6702)
+* [Ockam - Check structs comply with the cddl schema](https://github.com/build-trust/ockam/issues/6684)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
