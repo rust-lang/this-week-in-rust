@@ -28,16 +28,25 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing `async fn` and return-position `impl Trait` in traits](https://blog.rust-lang.org/2023/12/21/async-fn-rpit-in-traits.html)
+* [Rustc Trait System Refactor Initiative Update: A call for testing](https://blog.rust-lang.org/inside-rust/2023/12/22/trait-system-refactor-initiative.html)
 
 ### Foundation
+* [Improving Supply Chain Security for Rust Through Artifact Signing](https://foundation.rust-lang.org/news/2023-12-21-improving-supply-chain-security/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Introducing Loco: The Rails of Rust](https://www.shuttle.rs/blog/2023/12/20/loco-rust-rails)
 
 ### Observations/Thoughts
+* [Memory Safety is a Red Herring](https://steveklabnik.com/writing/memory-safety-is-a-red-herring)
+* [The Most Common Rust Compiler Errors as Encountered in RustRover: Part 2](https://blog.jetbrains.com/rust/2023/12/20/the-most-common-rust-compiler-errors-as-encountered-in-rustrover-part-2/)
 
 ### Rust Walkthroughs
+* [The dark side of inlining and monomorphization](https://nickb.dev/blog/the-dark-side-of-inlining-and-monomorphization/)
+* [The Heart of a Language Server](https://rust-analyzer.github.io/blog/2023/12/26/the-heart-of-a-language-server.html)
+* [Rust: Multi threading](https://priver.dev/blog/rust/multi-threading/)
 
 ### Research
 
