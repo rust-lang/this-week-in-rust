@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [video] [Rust 1.75.0: 54 highlights in 20 minutes!](https://youtu.be/Z8xig7wEV68)
+
 ### Rust Walkthroughs
 
 ### Research
