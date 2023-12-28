@@ -28,7 +28,7 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-* [Blog: Launching the 2023 State of Rust Survey](https://blog.rust-lang.org/2023/12/18/survey-launch.html) [Survey](https://www.surveyhero.com/c/4vxempzc)
+* [Blog: Launching the 2023 State of Rust Survey](https://blog.rust-lang.org/2023/12/18/survey-launch.html) | [Direct Link to Survey](https://www.surveyhero.com/c/4vxempzc)
 * [A Call for Proposals for the Rust 2024 Edition](https://blog.rust-lang.org/2023/12/15/2024-Edition-CFP.html)
 
 ### Project/Tooling Updates
@@ -63,7 +63,6 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [Embedded Rust Education: 2023 Reflections & 2024 Visions](https://apollolabsblog.hashnode.dev/embedded-rust-education-2023-reflections-2024-visions)
-* [The Most Common Rust Compiler Errors as Encountered in RustRover: Part 1](https://blog.jetbrains.com/rust/2023/12/14/the-most-common-rust-compiler-errors-as-encountered-in-rustrover-part-1/)
 * [Default arguments for functions in Rust using macros](https://rust.code-maven.com/default-arguments-for-functions)
 * [audio] [Rust in Production Ep 1 - InfluxData's Paul Dix](https://www.youtube.com/watch?v=DutVRGs9oZc)
 * [audio] [Episode 160: Rust & Safety at Adobe with Sean Parent](https://adspthepodcast.com/2023/12/15/Episode-160.html)
