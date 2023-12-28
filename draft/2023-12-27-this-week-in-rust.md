@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 * [The Heart of a Language Server](https://rust-analyzer.github.io/blog/2023/12/26/the-heart-of-a-language-server.html)
 * [Rust: Multi threading](https://priver.dev/blog/rust/multi-threading/)
 
+* [series] [Meilisearch Expands Search Power with Arroy's Filtered Disk ANN](https://blog.kerollmops.com/meilisearch-expands-search-power-with-arroy-s-filtered-disk-ann)
+
 ### Research
 
 ### Miscellaneous
@@ -80,7 +82,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### CFP - Speakers
 
-Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker. 
+Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
 <!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 
