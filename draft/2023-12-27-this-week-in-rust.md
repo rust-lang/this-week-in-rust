@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [2023: Slint in Review](https://slint.dev/blog/2023-in-review)
 * [Introducing Loco: The Rails of Rust](https://www.shuttle.rs/blog/2023/12/20/loco-rust-rails)
 
 ### Observations/Thoughts
