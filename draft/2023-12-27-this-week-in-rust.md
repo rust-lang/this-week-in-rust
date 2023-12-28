@@ -172,7 +172,30 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Some of the recent noise swings have been appearing again this week, but luckily
+less often than before. There were a few actual regressions, but most of them
+were localized to a single stress test. On the other hand, there were a few very
+nice wins across the board, especially for check and incremental builds, primarily
+thanks to [#118824](https://github.com/rust-lang/rust/pull/118824) and
+[#119265](https://github.com/rust-lang/rust/pull/119265).
+
+Triage done by **@kobzol**.
+Revision range: [bf9229a2e366b4c311f059014a4aa08af16de5d8..1ab783112ab4e4807304dbd249b39771246013ef](https://perf.rust-lang.org/?start=bf9229a2e366b4c311f059014a4aa08af16de5d8&end=1ab783112ab4e4807304dbd249b39771246013ef&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.6%  | [0.6%, 0.6%]   | 1     |
+| Regressions ❌ <br /> (secondary)  | 2.5%  | [0.3%, 4.2%]   | 10    |
+| Improvements ✅ <br /> (primary)   | -0.8% | [-3.3%, -0.1%] | 180   |
+| Improvements ✅ <br /> (secondary) | -1.2% | [-5.5%, -0.2%] | 109   |
+| All ❌✅ (primary)                 | -0.8% | [-3.3%, 0.6%]  | 181   |
+
+5 Regressions, 7 Improvements, 2 Mixed; 1 of them in rollups
+58 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/73d96e7ca26ef9ddfc1c32c7701e1f1159512c49/triage/2023-12-26.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
