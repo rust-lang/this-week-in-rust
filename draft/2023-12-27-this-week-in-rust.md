@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 
 * [series] [Meilisearch Expands Search Power with Arroy's Filtered Disk ANN](https://blog.kerollmops.com/meilisearch-expands-search-power-with-arroy-s-filtered-disk-ann)
 
+* [Encrypted Portals between Macs – built in Rust and Swift (sorta similar to ngrok and tailscale)](https://github.com/build-trust/ockam/blob/develop/examples/app/portals/README.md)
+
 ### Research
 
 ### Miscellaneous
