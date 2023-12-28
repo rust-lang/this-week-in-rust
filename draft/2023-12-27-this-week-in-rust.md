@@ -57,6 +57,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [An anonymous survey about mutable statics](https://www.surveyhero.com/c/static-mut)
 * [Web development in Rust](https://rust.code-maven.com/web)
 * [Rocket: Web-based Hello World! with tests](https://rust.code-maven.com/rocket-hello-world)
 
