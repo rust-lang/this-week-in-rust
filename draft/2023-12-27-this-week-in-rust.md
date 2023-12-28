@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 - [My reference was dropped, why is the compiler complaining about multiple borrows?](https://ntietz.com/blog/my-reference-was-dropped-why-is-the-compiler-complaining-about-multiple-borrows/)
 
+* [Can CppRef be ergonomic?](https://medium.com/@adetaylor/can-cppref-t-be-ergonomic-c9cb1365bda1)
+
 ### Rust Walkthroughs
 * [The dark side of inlining and monomorphization](https://nickb.dev/blog/the-dark-side-of-inlining-and-monomorphization/)
 * [The Heart of a Language Server](https://rust-analyzer.github.io/blog/2023/12/26/the-heart-of-a-language-server.html)
