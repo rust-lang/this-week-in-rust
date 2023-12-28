@@ -63,7 +63,7 @@ and just ask the editors to select the category.
 
 This week's crate is [rouille](https://crates.io/crates/rouille), a small synchronous web framework.
 
-Thanks to [Peter Puetz](https://users.rust-lang.org/t/crate-of-the-week/2704/1275 for the suggestion!
+Thanks to [Peter Puetz](https://users.rust-lang.org/t/crate-of-the-week/2704/1275) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
