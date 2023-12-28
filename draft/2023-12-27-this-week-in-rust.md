@@ -57,6 +57,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Web development in Rust](https://rust.code-maven.com/web)
 * [Rocket: Web-based Hello World! with tests](https://rust.code-maven.com/rocket-hello-world)
 
 ## Crate of the Week
