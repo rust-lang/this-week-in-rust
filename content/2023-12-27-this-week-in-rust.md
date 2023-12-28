@@ -34,8 +34,6 @@ and just ask the editors to select the category.
 ### Foundation
 * [Improving Supply Chain Security for Rust Through Artifact Signing](https://foundation.rust-lang.org/news/2023-12-21-improving-supply-chain-security/)
 
-### Newsletters
-
 ### Project/Tooling Updates
 * [2023: Slint in Review](https://slint.dev/blog/2023-in-review)
 * [Introducing Loco: The Rails of Rust](https://www.shuttle.rs/blog/2023/12/20/loco-rust-rails)
@@ -44,11 +42,9 @@ and just ask the editors to select the category.
 * [My path to becoming a Rustacean](https://thedataquarry.com/posts/path-to-becoming-a-rustacean/)
 * [Memory Safety is a Red Herring](https://steveklabnik.com/writing/memory-safety-is-a-red-herring)
 * [The Most Common Rust Compiler Errors as Encountered in RustRover: Part 2](https://blog.jetbrains.com/rust/2023/12/20/the-most-common-rust-compiler-errors-as-encountered-in-rustrover-part-2/)
-* [Video] [Rust 1.74.1 & Rust News](https://youtu.be/_UItLy_nLf8)
-
-- [My reference was dropped, why is the compiler complaining about multiple borrows?](https://ntietz.com/blog/my-reference-was-dropped-why-is-the-compiler-complaining-about-multiple-borrows/)
-
+* [My reference was dropped, why is the compiler complaining about multiple borrows?](https://ntietz.com/blog/my-reference-was-dropped-why-is-the-compiler-complaining-about-multiple-borrows/)
 * [Can CppRef be ergonomic?](https://medium.com/@adetaylor/can-cppref-t-be-ergonomic-c9cb1365bda1)
+* [video] [Rust 1.74.1 & Rust News](https://youtu.be/_UItLy_nLf8)
 
 ### Rust Walkthroughs
 * [The dark side of inlining and monomorphization](https://nickb.dev/blog/the-dark-side-of-inlining-and-monomorphization/)
@@ -56,10 +52,7 @@ and just ask the editors to select the category.
 * [Rust: Multi threading](https://priver.dev/blog/rust/multi-threading/)
 * [series] [Meilisearch Expands Search Power with Arroy's Filtered Disk ANN](https://blog.kerollmops.com/meilisearch-expands-search-power-with-arroy-s-filtered-disk-ann)
 * [Encrypted Portals between Macs – built in Rust and Swift (sorta similar to ngrok and tailscale)](https://github.com/build-trust/ockam/blob/develop/examples/app/portals/README.md)
-
- - [video] [Error handling in Rust](https://www.youtube.com/watch?v=IdnjG5N2l4M)
-
-### Research
+* [video] [Error handling in Rust](https://www.youtube.com/watch?v=IdnjG5N2l4M)
 
 ### Miscellaneous
 * [An anonymous survey about mutable statics](https://www.surveyhero.com/c/static-mut)
@@ -98,7 +91,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-<!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
+* _No new calls for speakers this week_
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the submission website either through a PR to TWiR or on the [Rust-lang forums].[link TBD]
 
@@ -315,7 +308,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/18qhi3s/hey_rustaceans_got_a_question_ask_here_522023/)
 
 # Quote of the Week
 
@@ -331,4 +324,4 @@ Thanks to [Ivan Fraixedes](https://users.rust-lang.org/t/twir-quote-of-the-week/
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/18sjuxk/this_week_in_rust_527/)</small>
