@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Test command line application written in Rust](https://rust.code-maven.com/test-command-line-application)
 
 ## Crate of the Week
 
