@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Printing errors in Rust](https://heikoseeberger.de/2024-01-01-printing-errors/)
+
 ### Rust Walkthroughs
 
 ### Research
