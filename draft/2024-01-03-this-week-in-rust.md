@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Prompt - read input from Standard Input (STDIN) in Rust](https://rust.code-maven.com/prompt)
 
 ## Crate of the Week
 
