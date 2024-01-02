@@ -81,7 +81,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Overall, this week had very few regressions and a moderate amount of improvements. The two biggest improvements came in how metadata was being encoded including a change to only store StableCrateId once in DefPathTable which yielded a 0.3% average improvement across 79 different benchmarks.
+
+Triage done by **@rylev**.
+Revision range: [1ab783112..67b6975](https://perf.rust-lang.org/?start=1ab783112ab4e4807304dbd249b39771246013ef&end=67b6975051b83ef2bd28f06e8467470d570aceb3&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.7%  | [0.3%, 1.5%]    | 8     |
+| Regressions ❌ <br /> (secondary)  | 0.8%  | [0.2%, 1.3%]    | 23    |
+| Improvements ✅ <br /> (primary)   | -0.6% | [-2.6%, -0.2%]  | 121   |
+| Improvements ✅ <br /> (secondary) | -5.2% | [-62.5%, -0.2%] | 53    |
+| All ❌✅ (primary)                 | -0.5% | [-2.6%, 1.5%]   | 129   |
+
+
+2 Regressions, 3 Improvements, 1 Mixed; 0 of them in rollups
+46 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/fef95a1961b31e35d91f1ccde0a9783a1ac1d130/triage/2024-01-02.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
