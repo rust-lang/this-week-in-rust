@@ -139,6 +139,8 @@ Rusty Events between 2024-01-03 - 2024-01-31 🦀
     * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/297687491/)
 * 2024-01-16 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/297128172/)
+* 2024-01-21 | Virtual | [Rust Maven](https://meet-os.com/)
+    * [Web development with Rocket](https://meet-os.com/e/1)
 
 ### Europe
 
