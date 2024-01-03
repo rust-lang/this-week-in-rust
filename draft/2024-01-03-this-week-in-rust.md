@@ -71,7 +71,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### CFP - Speakers
 
-Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
+Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker. 
 
 <!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 
@@ -130,7 +130,6 @@ which are reaching a decision. Express your opinions now.
 <!-- * [new|updated] []() -->
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
-
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
@@ -154,47 +153,47 @@ Rusty Events between 2024-01-03 - 2024-01-31 🦀
 ### Virtual
 
 * 2023-12-28 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
-  * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/297687485/)
+    * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/297687485/)
 * 2024-01-03 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/)
-  * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/wqzhftygccbfb)
+    * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/wqzhftygccbfb)
 * 2024-01-09 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
-  * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/fvdtgtygccbmb/)
+    * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/fvdtgtygccbmb/)
 * 2024-01-11 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
-  * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/297687491/)
+    * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/297687491/)
 * 2024-01-16 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
-  * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/297128172/)
+    * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/297128172/)
 
 ### Europe
 
 * 2023-12-27 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/)
-  * [**Rust hacknight #1: CLIs, TUIs and plushies**](https://www.meetup.com/copenhagen-rust-community/events/297894275/)
+    * [**Rust hacknight #1: CLIs, TUIs and plushies**](https://www.meetup.com/copenhagen-rust-community/events/297894275/)
 * 2023-12-28 | Vienna, AT | [Rust Vienna](https://www.meetup.com/rust-vienna/)
-  * [**Rust Dojo 3: Holiday Edition**](https://www.meetup.com/rust-vienna/events/297826979/)
+    * [**Rust Dojo 3: Holiday Edition**](https://www.meetup.com/rust-vienna/events/297826979/)
 * 2024-01-11 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/)
-  * [**Reading Rust Meetup at Browns**](https://www.meetup.com/reading-rust-workshop/events/296020357/)
+    * [**Reading Rust Meetup at Browns**](https://www.meetup.com/reading-rust-workshop/events/296020357/)
 * 2024-01-11 | Wrocław, PL | [Rust Wrocław](https://www.meetup.com/rust-wroclaw/)
-  * [**Rust Meetup #36**](https://www.meetup.com/rust-wroclaw/events/298029291/)
+    * [**Rust Meetup #36**](https://www.meetup.com/rust-wroclaw/events/298029291/)
 * 2024-01-13 | Helsinki, FI | [Finland Rust-lang Group](https://www.meetup.com/finland-rust-meetup/)
-  * [**January Meetup**](https://www.meetup.com/finland-rust-meetup/events/297811750/)
+    * [**January Meetup**](https://www.meetup.com/finland-rust-meetup/events/297811750/)
 
 ### North America
 
 * 2023-12-27 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/)
-  * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/xvkdgtyfcqbkc/)
+    * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/xvkdgtyfcqbkc/)
 * 2024-01-06 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
-  * [**Beacon Hill Rust Lunch**](https://www.meetup.com/bostonrust/events/297633937/)
+    * [**Beacon Hill Rust Lunch**](https://www.meetup.com/bostonrust/events/297633937/)
 * 2024-01-08 | Chicago, IL, US | [Deep Dish Rust](https://www.meetup.com/deep-dish-rust/)
-  * [**Rust Hack Night**](https://www.meetup.com/deep-dish-rust/events/298003192/)
+    * [**Rust Hack Night**](https://www.meetup.com/deep-dish-rust/events/298003192/)
 * 2024-01-09 | Seattle, WA, US | [Cap Hill Rust Coding/Hacking/Learning](https://www.meetup.com/cap-hill-rust/)
-  * [**Rusty Coding/Hacking/Learning Night**](https://www.meetup.com/cap-hill-rust/events/296564978/)
+    * [**Rusty Coding/Hacking/Learning Night**](https://www.meetup.com/cap-hill-rust/events/296564978/)
 * 2024-01-09 | Minneapolis, MN, US | [Minneapolis Rust Meetup](https://www.meetup.com/minneapolis-rust-meetup/)
-  * [**Minneapolis Rust Meetup Happy Hour**](https://www.meetup.com/minneapolis-rust-meetup/events/297760207/)
+    * [**Minneapolis Rust Meetup Happy Hour**](https://www.meetup.com/minneapolis-rust-meetup/events/297760207/)
 * 2024-01-14 | Cambridge, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
-  * [**Alewife Rust Lunch**](https://www.meetup.com/bostonrust/events/297634920/)
+    * [**Alewife Rust Lunch**](https://www.meetup.com/bostonrust/events/297634920/)
 * 2024-01-16 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group)
-  * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/297452643/)
+    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/297452643/)
 * 2024-01-17 | Chicago, IL, US | [Deep Dish Rust](https://www.meetup.com/deep-dish-rust/)
-  * [**Rust Happy Hour**](https://www.meetup.com/deep-dish-rust/events/298003233/)
+    * [**Rust Happy Hour**](https://www.meetup.com/deep-dish-rust/events/298003233/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
