@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Arrays: index out of bounds error? Not always!](https://www.greyblake.com/blog/index-out-of-bounds-not-always-a-rust-surprise/)
 
 ### Rust Walkthroughs
 
@@ -69,7 +70,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### CFP - Speakers
 
-Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker. 
+Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
 <!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 
@@ -189,7 +190,7 @@ Rusty Events between 2024-01-10 - 2024-02-07 🦀
     * [**Rust Meetup #36**](https://www.meetup.com/rust-wroclaw/events/298029291/)
 * 2024-01-13 | Tampere, FI | [Finland Rust-lang Group](https://www.meetup.com/finland-rust-meetup/)
     * [**January Meetup**](https://www.meetup.com/finland-rust-meetup/events/297811750/)
-* 2024-01-16 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/) 
+* 2024-01-16 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
     * [**Async in Rust**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/297376712/)
 * 2024-01-17 | Praha / Prague, CZ | [Rust Prague](https://www.meetup.com/rust-prague/)
     * [**Rust Meetup Renewed**](https://www.meetup.com/rust-prague/events/298005196/)
