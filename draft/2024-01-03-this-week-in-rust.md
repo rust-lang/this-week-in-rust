@@ -58,6 +58,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Test command line application written in Rust](https://rust.code-maven.com/test-command-line-application)
 * [Open Source Applications written in Rust](https://rust.code-maven.com/applications)
 * [Prompt - read input from Standard Input (STDIN) in Rust](https://rust.code-maven.com/prompt)
 * [video] [Rust Release Train 1.75](https://www.youtube.com/watch?v=wDzyLFT3AwY)
