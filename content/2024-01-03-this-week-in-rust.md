@@ -90,14 +90,6 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
-### CFP - Speakers
-
-Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker. 
-
-<!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-
-If you are an event organizer hoping to expand the reach of your event, please submit a link to the submission website either through a PR to TWiR or on the [Rust-lang forums].[link TBD]
-
 ## Updates from the Rust Project
 
 194 pull requests were [merged in the last week][merged]
