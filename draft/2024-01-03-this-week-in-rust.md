@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 * [Iggy.rs - building message streaming in Rust](https://blog.iggy.rs/posts/building-message-streaming-in-rust/)
 * [Getting Started with Loco in Rust: Part 1](https://www.shuttle.rs/blog/2023/12/28/using-loco-rust-rails)
 
+* [Printing errors in Rust](https://heikoseeberger.de/2024-01-01-printing-errors/)
+
 ### Rust Walkthroughs
 
 ### Research
