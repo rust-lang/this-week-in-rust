@@ -45,7 +45,6 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 * [A few fast solutions for Advent of Code 2023](https://jordankaye.dev/posts/aoc-2023/)
 * [An Update on Writing Memory Safety Bugs](https://orodu.net/2023/12/27/rust-abstractions.html)
-* [Testing Your Embedded Rust](https://barretts.club/posts/embedded-tests/)
 * [avatar.png](https://tuckersiemens.com/posts/avatar-png/)
 * [Arc vs String, is Arc really faster?](https://blocklisted.github.io/blog/arc_str_vs_string_is_it_really_faster/)
 * [Iggy.rs - building message streaming in Rust](https://blog.iggy.rs/posts/building-message-streaming-in-rust/)
