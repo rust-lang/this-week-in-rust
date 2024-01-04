@@ -64,6 +64,8 @@ and just ask the editors to select the category.
 * [video] [Rust Release Train 1.75](https://www.youtube.com/watch?v=wDzyLFT3AwY)
 * [video] [Rust 1.75.0: 54 highlights in 20 minutes](https://www.youtube.com/watch?v=Z8xig7wEV68)
 
+* [Testing Your Embedded Rust (feat. embedded-hal-mock and explosions)](https://barretts.club/posts/embedded-tests/)
+
 ## Crate of the Week
 
 This week's crate is [fast\_pool](https://crates.io/crates/fast_pool), a fast async pool based on the flume channel crate.
