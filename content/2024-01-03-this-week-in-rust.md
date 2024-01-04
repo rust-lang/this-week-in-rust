@@ -41,7 +41,6 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 * [A few fast solutions for Advent of Code 2023](https://jordankaye.dev/posts/aoc-2023/)
 * [An Update on Writing Memory Safety Bugs](https://orodu.net/2023/12/27/rust-abstractions.html)
-* [Testing Your Embedded Rust](https://barretts.club/posts/embedded-tests/)
 * [avatar.png](https://tuckersiemens.com/posts/avatar-png/)
 * [Arc vs String, is Arc really faster?](https://blocklisted.github.io/blog/arc_str_vs_string_is_it_really_faster/)
 * [Iggy.rs - building message streaming in Rust](https://blog.iggy.rs/posts/building-message-streaming-in-rust/)
@@ -79,10 +78,13 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
-* [Hyperswitch - [FEATURE]: Implement Code cov for local system using makefile](https://github.com/juspay/hyperswitch/issues/1622)
-* [Hyperswitch - [FEATURE]: Setup code coverage for local tests & CI](https://github.com/juspay/hyperswitch/issues/1587)
-* [Hyperswitch - [FEATURE]: Add domain type for client secret](https://github.com/juspay/hyperswitch/issues/1357)
-* [Hyperswitch - [FEATURE]: Have get_required_value to use ValidationError in OptionExt](https://github.com/juspay/hyperswitch/issues/860)
+* [Hyperswitch - Implement Code cov for local system using makefile](https://github.com/juspay/hyperswitch/issues/1622)
+* [Hyperswitch - Setup code coverage for local tests & CI](https://github.com/juspay/hyperswitch/issues/1587)
+* [Hyperswitch - Add domain type for client secret](https://github.com/juspay/hyperswitch/issues/1357)
+* [Hyperswitch - Have get_required_value to use ValidationError in OptionExt](https://github.com/juspay/hyperswitch/issues/860)
+* [Ockam - Use GitHub API to check if the CLI is outdated](https://github.com/build-trust/ockam/issues/7312)
+* [Ockam - refactor to use typed interfaces to implement commands for `kafka services`](https://github.com/build-trust/ockam/issues/6706)
+* [Ockam - Validate CBOR structs according to the cddl schema for `cloud/space` and `cloud/subscription`](https://github.com/build-trust/ockam/issues/6687)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
