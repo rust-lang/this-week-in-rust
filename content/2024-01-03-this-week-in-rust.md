@@ -239,6 +239,8 @@ Rusty Events between 2024-01-03 - 2024-01-31 🦀
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/297128172/)
 * 2024-01-17 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/292763502/)
+* 2024-01-18 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/)
+    * [**Rust Hack and Learn**](https://meet.jit.si/RustHackAndLearnBerlin)
 * 2024-01-21 | Virtual | [Rust Maven](https://meet-os.com/group/1)
     * [**Web development with Rocket - In English**](https://meet-os.com/event/1)
 * 2024-01-23 | Virtual (Halifax, NS, CA) | [Rust Halifax](https://www.meetup.com/rust-tell-halifax/)
