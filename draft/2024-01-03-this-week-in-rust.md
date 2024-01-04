@@ -61,7 +61,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [fast\_pool](https://crates.io/crates/fast_pool), a fast async pool based on the flume channel crate.
+
+Thanks to [zhuxiujia](https://users.rust-lang.org/t/crate-of-the-week/2704/1276) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -97,7 +99,61 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+194 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2023-12-27..2024-01-02
+
+* [`rustc_lint`: Enforce `rustc::potential_query_instability` lint](https://github.com/rust-lang/rust/pull/119251)
+* [`rustc_lint`: Prevent triplication of various lints](https://github.com/rust-lang/rust/pull/119388)
+* [`unused_bindings`: also walk bindings created by if-let guards](https://github.com/rust-lang/rust/pull/119402)
+* [change `rustc_codegen_ssa`'s `atomic_cmpxchg` interface to return a pair of values](https://github.com/rust-lang/rust/pull/118705)
+* [coverage: avoid a possible query stability hazard in `CoverageCounters`](https://github.com/rust-lang/rust/pull/119401)
+* [coverage: prepare mappings separately from injecting statements](https://github.com/rust-lang/rust/pull/119438)
+* [coverage: unexpand spans with `find_ancestor_inside_same_ctxt`](https://github.com/rust-lang/rust/pull/119336)
+* [don't drop a hir node after lowering](https://github.com/rust-lang/rust/pull/119284)
+* [don't suggest writing a bodyless arm if the pattern can never be a never pattern](https://github.com/rust-lang/rust/pull/119380)
+* [don't validate / lint MIR before each pass](https://github.com/rust-lang/rust/pull/119377)
+* [enable profiler in dist-powerpc-linux](https://github.com/rust-lang/rust/pull/119404)
+* [fix infinite loop in `<BoundConstness as Display>`](https://github.com/rust-lang/rust/pull/119447)
+* [fix invalid check-cfg Cargo feature diagnostic help](https://github.com/rust-lang/rust/pull/119425)
+* [fix parenthesization of subexprs containing statement boundary](https://github.com/rust-lang/rust/pull/119105)
+* [fix: correct the args for `disambiguate the associated function` diagnostic](https://github.com/rust-lang/rust/pull/118911)
+* [fix: diagnostic for casting reference to slice](https://github.com/rust-lang/rust/pull/119175)
+* [introduce `const Trait` (always-const trait bounds)](https://github.com/rust-lang/rust/pull/119099)
+* [simplify `Parser::ident_or_error`](https://github.com/rust-lang/rust/pull/119359)
+* [simplify bootstrap `--check-cfg` arguments](https://github.com/rust-lang/rust/pull/119441)
+* [solaris support on bootstrap lock](https://github.com/rust-lang/rust/pull/119413)
+* [subtree sync for `rustc_codegen_cranelift`](https://github.com/rust-lang/rust/pull/119470)
+* [suggest `=>` → `>=` in comparisons](https://github.com/rust-lang/rust/pull/117303)
+* [utilize the unused `llvm-tools` option](https://github.com/rust-lang/rust/pull/119378)
+* [miri: fix integer overflow ICEs from `round_up_to_next_multiple_of`](https://github.com/rust-lang/miri/pull/3246)
+* [miri: NaN non-determinism for intrinsics and libm functions](https://github.com/rust-lang/miri/pull/3244)
+* [miri: support for tempfile crate on UNIX hosts](https://github.com/rust-lang/miri/pull/3240)
+* [implement constant propagation on top of MIR SSA analysis](https://github.com/rust-lang/rust/pull/116012)
+* [only store StableCrateId once in DefPathTable](https://github.com/rust-lang/rust/pull/119259)
+* [shrink span encoding further](https://github.com/rust-lang/rust/pull/119367)
+* [openbsd: `available_parallelism`: use the right API](https://github.com/rust-lang/rust/pull/119436)
+* [cargo: `cargo add` - fix for adding features from repository with multiple packages](https://github.com/rust-lang/cargo/pull/13213)
+* [cargo: `cargo fix`: always inherit the jobserver](https://github.com/rust-lang/cargo/pull/13225)
+* [cargo: fix `fix::fix_in_dependency` to not rely on rustc](https://github.com/rust-lang/cargo/pull/13220)
+* [cargo: rustfix: support inserting new lines](https://github.com/rust-lang/cargo/pull/13226)
+* [rustdoc-search: count path edits with separate edit limit](https://github.com/rust-lang/rust/pull/119331)
+* [rustdoc: treat query string `+` as space](https://github.com/rust-lang/rust/pull/119327)
+* [clippy: check for redundant `matches!` with `Ready`, `Pending`, `V4`, `V6`](https://github.com/rust-lang/rust-clippy/pull/12029)
+* [clippy: `[doc_markdown]`: Add "WebGL2", "WebGPU" to default `doc_valid_idents`](https://github.com/rust-lang/rust-clippy/pull/12018)
+* [clippy: add external macro checks to `iter_without_into_iter` and `into_iter_without_iter`](https://github.com/rust-lang/rust-clippy/pull/12054)
+* [clippy: don't lint `default_numeric_fallback` on return and local assigned macro calls with type stated](https://github.com/rust-lang/rust-clippy/pull/11957)
+* [clippy: extend `unconditional_recursion` to check for ToString implementations](https://github.com/rust-lang/rust-clippy/pull/11980)
+* [clippy: add `manual_is_variant_and` lint](https://github.com/rust-lang/rust-clippy/pull/11865)
+* [clippy: add new lint `pub_underscore_fields`](https://github.com/rust-lang/rust-clippy/pull/10283)
+* [clippy: suggest `str.lines` when splitting at hard-coded newlines](https://github.com/rust-lang/rust-clippy/pull/11987)
+* [clippy: make `mutex_atomic` more type aware](https://github.com/rust-lang/rust-clippy/pull/12008)
+* [clippy: new lint: `empty_enum_variants_with_brackets`](https://github.com/rust-lang/rust-clippy/pull/12047)
+* [clippy: new lint: `thread_local_initializer_can_be_made_const`](https://github.com/rust-lang/rust-clippy/pull/12026)
+* [clippy: new lint: `eager_transmute`](https://github.com/rust-lang/rust-clippy/pull/11981)
+* [clippy: remove mitigations for incorrect node args](https://github.com/rust-lang/rust-clippy/pull/12041)
+* [rust-analyzer: fix SyntaxContextID using incorrect self IDs](https://github.com/rust-lang/rust-analyzer/pull/16224)
+* [rust-analyzer: fix out-of-bounds panic in some macros due to unhandled `self_ref`](https://github.com/rust-lang/rust-analyzer/pull/16221)
 
 ### Rust Compiler Performance Triage
 
@@ -265,7 +321,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Some people don't believe in life after death... Rust doesn't believe in magic after compilation.
+
+– [Stephan Sokolow on rust-users](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1504)
+
+Thanks to [Todd Fleming](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1505) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
