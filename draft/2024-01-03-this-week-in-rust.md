@@ -28,20 +28,36 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.75.0](https://blog.rust-lang.org/2023/12/28/Rust-1.75.0.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Rustdoc JSON in 2023](https://alona.page/posts/rustdoc-json-2023/)
+* [2023 in Review: Establishing Rust as a Godot 4 language](https://godot-rust.github.io/dev/godot-rust-2023-review/)
+* [Rust9x update: Rust 1.76.0-beta](https://seri.tools/blog/rust9x-1-76/)
+* [Announcing smol-macros, smol-hyper and smol-axum](https://notgull.net/new-smol-rs-subcrates/)
+* [Rust Language Bootstrap Team Progress Report 2023](https://onurozkan.dev/read/rust-language-bootstrap-team-progress-report-2023/)
+* [gitoxide: The year in retrospective, and what's to come](https://github.com/Byron/gitoxide/discussions/1223)
 
 ### Observations/Thoughts
+* [A few fast solutions for Advent of Code 2023](https://jordankaye.dev/posts/aoc-2023/)
+* [An Update on Writing Memory Safety Bugs](https://orodu.net/2023/12/27/rust-abstractions.html)
+* [Testing Your Embedded Rust](https://barretts.club/posts/embedded-tests/)
+* [avatar.png](https://tuckersiemens.com/posts/avatar-png/)
+* [Arc vs String, is Arc really faster?](https://blocklisted.github.io/blog/arc_str_vs_string_is_it_really_faster/)
+* [Iggy.rs - building message streaming in Rust](https://blog.iggy.rs/posts/building-message-streaming-in-rust/)
+* [Getting Started with Loco in Rust: Part 1](https://www.shuttle.rs/blog/2023/12/28/using-loco-rust-rails)
 
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+* [video] [Rust Release Train 1.75](https://www.youtube.com/watch?v=wDzyLFT3AwY)
+* [video] [Rust 1.75.0: 54 highlights in 20 minutes](https://www.youtube.com/watch?v=Z8xig7wEV68)
 
 ## Crate of the Week
 
