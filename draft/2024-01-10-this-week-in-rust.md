@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Elevate your CLI experience: Nushell](https://practicalrs.com/articles/elevate-your-cli-experience-nushell/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
