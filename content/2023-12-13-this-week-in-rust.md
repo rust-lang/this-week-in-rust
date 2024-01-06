@@ -70,7 +70,7 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-This week's crate is [io-adapters](https://github.com/SUPERCILEX/io-adapters), a crate tha lets you convert between different writeable APIs (`io` vs. `fmt`).
+This week's crate is [io-adapters](https://github.com/SUPERCILEX/io-adapters), a crate that lets you convert between different writeable APIs (`io` vs. `fmt`).
 
 Thanks to [Alex Saveau](https://users.rust-lang.org/t/crate-of-the-week/2704/1271) for the self-suggestion!
 
