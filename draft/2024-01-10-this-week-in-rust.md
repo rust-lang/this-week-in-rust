@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [3 ways to handle number overflow or underflow in Rust](https://rust.code-maven.com/how-to-handle-overflow)
 
 ## Crate of the Week
 
