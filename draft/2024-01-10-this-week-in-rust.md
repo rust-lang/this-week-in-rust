@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+[Let's make an information display in rust](https://blog.stillinbeta.com/2024-01-01-overengineered-household-display.html)
+
 ### Research
 
 ### Miscellaneous
