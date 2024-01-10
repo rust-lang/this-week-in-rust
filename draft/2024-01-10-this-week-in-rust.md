@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 ### Research
+* [Why stdout is faster than stderr?](https://blog.orhun.dev/stdout-vs-stderr/)
 
 ### Miscellaneous
 
