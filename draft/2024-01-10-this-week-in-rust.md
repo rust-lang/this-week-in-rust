@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 * [Arrays: index out of bounds error? Not always!](https://www.greyblake.com/blog/index-out-of-bounds-not-always-a-rust-surprise/)
 
 ### Rust Walkthroughs
+* [Doing First Grade Math in Rust's Type System](https://fprasx.github.io/articles/type-system-arithmetic/)
 
 ### Research
 
