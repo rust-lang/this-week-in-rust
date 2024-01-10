@@ -51,11 +51,11 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Getting Started with Tracing in Rust](https://www.shuttle.rs/blog/2024/01/09/getting-started-tracing-rust)
+* [video] [you need to build a RUST desktop app!!](https://www.youtube.com/watch?v=7aFgeUG9TK4)
 
 ### Research
 
 ### Miscellaneous
-* [Video] [you need to build a RUST desktop app!!](https://m.youtube.com/watch?v=7aFgeUG9TK4)
 * [video] [Top 10 Games from Bevy Jam 4](https://www.youtube.com/watch?v=FVhOkpIytJc)
 
 ## Crate of the Week
