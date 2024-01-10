@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 ### Miscellaneous
 
 * [Video] [you need to build a RUST desktop app!!](https://m.youtube.com/watch?v=7aFgeUG9TK4)
+* [unwrap, one way to handle errors in Rust](https://rust.code-maven.com/unwrap)
 
 ## Crate of the Week
 
