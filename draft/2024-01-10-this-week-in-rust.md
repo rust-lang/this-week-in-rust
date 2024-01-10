@@ -43,8 +43,8 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-
 * [Video] [you need to build a RUST desktop app!!](https://m.youtube.com/watch?v=7aFgeUG9TK4)
+* [Rocket - multi-counter using cookies](https://rust.code-maven.com/rocket-multi-counter-using-cookies)
 
 ## Crate of the Week
 
