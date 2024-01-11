@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 * [Arrays: index out of bounds error? Not always!](https://www.greyblake.com/blog/index-out-of-bounds-not-always-a-rust-surprise/)
 
+* [Inception style builds with private GitHub dependencies](https://heikoseeberger.de/2024-01-06-inception-style-build/)
+
 ### Rust Walkthroughs
 
 ### Research
