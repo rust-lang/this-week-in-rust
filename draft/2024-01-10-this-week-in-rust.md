@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [3 ways to handle number overflow or underflow in Rust](https://rust.code-maven.com/how-to-handle-overflow)
 
 * [Video] [you need to build a RUST desktop app!!](https://m.youtube.com/watch?v=7aFgeUG9TK4)
 
