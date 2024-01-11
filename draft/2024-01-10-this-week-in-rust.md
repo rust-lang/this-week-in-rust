@@ -37,12 +37,12 @@ and just ask the editors to select the category.
 * [This Month in Rust OSDev: December 2023](https://rust-osdev.com/this-month/2023-12/)
 
 ### Project/Tooling Updates
-* [embedded-hal v1.0 now released!](https://blog.rust-embedded.org/embedded-hal-v1/)
 * [Maestro - Introduction](https://blog.lenot.re/a/introduction)
 * [Polars](https://pola.rs/posts/polars_in_aggregrate-0.20/)
 * [rust-analyzer changelog #215](https://rust-analyzer.github.io/thisweek/2024/01/08/changelog-215.html)
 * [argmin 0.9.0 - a Rust crate for numerical optimization](https://argmin-rs.org/blog/version-v0-9-0/)
 * [Continuous benchmarking for rustls](https://ochagavia.nl/blog/continuous-benchmarking-for-rustls/)
+* [embedded-hal v1.0 now released!](https://blog.rust-embedded.org/embedded-hal-v1/)
 
 ### Observations/Thoughts
 * [Arrays: index out of bounds error? Not always!](https://www.greyblake.com/blog/index-out-of-bounds-not-always-a-rust-surprise/)
