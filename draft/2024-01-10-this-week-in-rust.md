@@ -157,6 +157,8 @@ Rusty Events between 2024-01-10 - 2024-02-07 🦀
     * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/297687491/)
 * 2024-01-11 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/295679708/)
+* 2024-01-11 | Virtual (San Diego, CA, US) | [San Diego Rust](https://www.meetup.com/san-diego-rust/)
+    * [**San Diego Rust January 2024 Tele-Meetup**](https://www.meetup.com/san-diego-rust/events/298441403/)
 * 2024-01-16 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/297128172/)
 * 2024-01-17 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
@@ -187,6 +189,8 @@ Rusty Events between 2024-01-10 - 2024-02-07 🦀
     * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587?aff=ebdsoporgprofile)
 * 2024-02-07 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/wqzhftygcdbkb/)
+* 2024-02-08 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
+    * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298251149/)
 
 ### Europe
 
@@ -200,12 +204,16 @@ Rusty Events between 2024-01-10 - 2024-02-07 🦀
     * [**January Meetup**](https://www.meetup.com/finland-rust-meetup/events/297811750/)
 * 2024-01-16 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
     * [**Async in Rust**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/297376712/)
+* 2024-01-17 | Girona, ES | [Rust Girona](https://www.meetup.com/rust-girona/)
+    * [**Que és Rust i els seus beneficis / What's Rust and its advantages**](https://www.meetup.com/rust-girona/events/294080437/)
 * 2024-01-17 | Praha / Prague, CZ | [Rust Prague](https://www.meetup.com/rust-prague/)
-    * [**Rust Meetup Renewed**](https://www.meetup.com/rust-prague/events/298005196/)
+    * [**Rust Meetup Reloaded 2024**](https://www.meetup.com/rust-prague/events/298005196/) 
 * 2024-01-17 | Zurich, CH | [Rust Zurich](https://www.meetup.com/rust-zurich/)
     * [**How to Community - January Meetup**](https://www.meetup.com/rust-zurich/events/298066842/)
 * 2024-01-23 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/)
     * [**Hack and Learn**](https://www.meetup.com/rust-aarhus/events/297463730/)
+* 2024-01-23 | Paris, FR | [Rust Paris](https://mobilizon.fr/@rust_paris)
+    * [**Paris Rust Meetup #64**](https://mobilizon.fr/events/0fce31cd-3578-43f2-abf4-ffecd8d16da2)
 * 2024-02-01 | Barcelona, ES | [BcnRust](https://www.meetup.com/es-ES/bcnrust/)
     * [**12th BcnRust Meetup**](https://www.meetup.com/es-ES/bcnrust/events/297439924/)
 * 2024-02-03 | Brussels, BE | [FOSDEM '24](https://fosdem.org/2024/)
@@ -213,6 +221,8 @@ Rusty Events between 2024-01-10 - 2024-02-07 🦀
 
 ### North America
 
+* 2024-01-11 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/)
+    * [**Arena Allocation: Another approach to managing lifetimes w/Taylor Allred**](https://www.meetup.com/utah-rust/events/298448713/)
 * 2024-01-14 | Cambridge, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
     * [**Alewife Rust Lunch**](https://www.meetup.com/bostonrust/events/297634920/)
 * 2024-01-16 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group)
@@ -225,6 +235,9 @@ Rusty Events between 2024-01-10 - 2024-02-07 🦀
     * [**North End Rust Lunch**](https://www.meetup.com/bostonrust/events/297634962/)
 * 2024-01-24 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/)
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/xvkdgtygccbgc/)
+* 2024-01-27-28 | Calgary, AB, CA | [Rust Calgary](https://www.eventbrite.ca/o/rust-calgary-63449860593)
+    * [**Harnessing Rust for Real-World Problems hackathon: Day 1**](https://www.eventbrite.ca/e/harnessing-rust-for-real-world-problems-hackathon-day-1-tickets-794992302377?aff=ebdsoporgprofile)
+    * [**Harnessing Rust for Real-World Problems hackathon: Day 2**](https://www.eventbrite.ca/e/harnessing-rust-for-real-world-problems-hackathon-day-2-tickets-794994147897?aff=ebdsoporgprofile)  
 * 2024-01-30 | Cambridge, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
     * [**Harvard Square Rust Lunch**](https://www.meetup.com/bostonrust/events/297634994/)
 * 2024-02-07 | Brookline, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
@@ -234,6 +247,8 @@ Rusty Events between 2024-01-10 - 2024-02-07 🦀
 
 * 2024-01-16 | Christchurch, NZ | [Christchurch Rust Meetup Group](https://www.meetup.com/christchurch-rustlang-meetup-group/)
     * [**Christchurch Rust meetup meeting**](https://www.meetup.com/christchurch-rustlang-meetup-group/events/298382221/)
+* 2024-02-06 | Perth, WA, AU | [Perth Rust Meetup Group](https://www.meetup.com/perth-rust-meetup-group/)
+    * [**Rust Feb 2024 Meetup**](https://www.meetup.com/perth-rust-meetup-group/events/297330668/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
