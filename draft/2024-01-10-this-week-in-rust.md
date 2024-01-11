@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 * [Inception style builds with private GitHub dependencies](https://heikoseeberger.de/2024-01-06-inception-style-build/)
 
 ### Rust Walkthroughs
+* [Doing First Grade Math in Rust's Type System](https://fprasx.github.io/articles/type-system-arithmetic/)
 
 [Let's make an information display in rust](https://blog.stillinbeta.com/2024-01-01-overengineered-household-display.html)
 
