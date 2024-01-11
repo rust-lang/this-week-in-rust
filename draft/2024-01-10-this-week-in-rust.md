@@ -92,7 +92,18 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Not a particularly notable week. Large swings aren't spurious but also are
+driven by changes in high-level behavior (diagnostics going from zero to one
+emission primarily), which causes a lot more work to happen. This isn't really
+representative of the underlying rustc performance changing though.
+
+Triage done by **@simulacrum**.
+Revision range: [67b6975..76101ee](https://perf.rust-lang.org/?start=67b6975051b83ef2bd28f06e8467470d570aceb3&end=76101eecbe9aa80753664bbe637ad06d1925f315&absolute=false&stat=instructions%3Au)
+
+4 Regressions, 4 Improvements, 6 Mixed; 1 of them in rollups
+33 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2024-01-08.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
