@@ -12,6 +12,8 @@ Want to get involved? [We love contributions](https://github.com/rust-lang/rust/
 *This Week in Rust* is openly developed [on GitHub](https://github.com/rust-lang/this-week-in-rust) and archives can be viewed at [this-week-in-rust.org](https://this-week-in-rust.org/).
 If you find any errors in this week's issue, [please submit a PR](https://github.com/rust-lang/this-week-in-rust/pulls).
 
+Note: The 
+
 ## Updates from Rust Community
 
 <!--
@@ -48,19 +50,16 @@ and just ask the editors to select the category.
 * [Arrays: index out of bounds error? Not always!](https://www.greyblake.com/blog/index-out-of-bounds-not-always-a-rust-surprise/)
 * [What I'd like to see for Async Rust in 2024](https://smallcultfollowing.com/babysteps/blog/2024/01/03/async-rust-2024/)
 * [Securing the Web: Rustls on track to outperform OpenSSL](https://www.memorysafety.org/blog/rustls-performance/)
+* [Inception style builds with private GitHub dependencies](https://heikoseeberger.de/2024-01-06-inception-style-build/)
+* [Verifying Rust Zeroize with Assembly...including portable SIMD](https://cipherstash.com/blog/verifying-rust-zeroize-with-assembly-including-portable-simd)
+* [Why stdout is faster than stderr?](https://blog.orhun.dev/stdout-vs-stderr/)
 * [audio] [Rust Audio Programming with Ian Hobson](https://thewolfsound.com/talk016/)
 * [audio] [Polars with Ritchie Vink](https://rustacean-station.org/episode/ritchie-vink/)
 
-* [Inception style builds with private GitHub dependencies](https://heikoseeberger.de/2024-01-06-inception-style-build/)
-
 ### Rust Walkthroughs
 * [Getting Started with Tracing in Rust](https://www.shuttle.rs/blog/2024/01/09/getting-started-tracing-rust)
-* [video] [you need to build a RUST desktop app!!](https://www.youtube.com/watch?v=7aFgeUG9TK4)
 * [Doing First Grade Math in Rust's Type System](https://fprasx.github.io/articles/type-system-arithmetic/)
 * [Let's make an information display in rust](https://blog.stillinbeta.com/2024-01-01-overengineered-household-display.html)
-
-### Research
-* [Why stdout is faster than stderr?](https://blog.orhun.dev/stdout-vs-stderr/)
 
 ### Miscellaneous
 * [3 ways to handle number overflow or underflow in Rust](https://rust.code-maven.com/how-to-handle-overflow)
@@ -88,13 +87,14 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
-* [Hyperswitch - [FEATURE]: Make cache configuration configurable at runtime](https://github.com/juspay/hyperswitch/issues/3276)
-* [Hyperswitch - [FEATURE]: Implement Code cov for local system using makefile](https://github.com/juspay/hyperswitch/issues/1622)
-* [Hyperswitch - [FEATURE]: Setup code coverage for local tests & CI](https://github.com/juspay/hyperswitch/issues/1587)
-* [Hyperswitch - [FEATURE]: Add domain type for client secret](https://github.com/juspay/hyperswitch/issues/1357)
-* [Hyperswitch - [FEATURE]: Have get_required_value to use ValidationError in OptionExt](https://github.com/juspay/hyperswitch/issues/860)
+* [Ockam - refactor to use typed interfaces to implement commands for `kafka services`](https://github.com/build-trust/ockam/issues/6706)
+* [Ockam - refactor to use typed interfaces to implement commands for `workers`](https://github.com/build-trust/ockam/issues/6702)
+* [Ockam - Validate CBOR structs according to the cddl schema for `nodes/models/transport` and `nodes/models/workers`](https://github.com/build-trust/ockam/issues/6694)
+* [Hyperswitch - Make cache configuration configurable at runtime](https://github.com/juspay/hyperswitch/issues/3276)
+* [Hyperswitch - Implement Code cov for local system using makefile](https://github.com/juspay/hyperswitch/issues/1622)
+* [Hyperswitch - Setup code coverage for local tests & CI](https://github.com/juspay/hyperswitch/issues/1587)
+* [Hyperswitch - Add domain type for client secret](https://github.com/juspay/hyperswitch/issues/1357)
+* [Hyperswitch - Have get_required_value to use ValidationError in OptionExt](https://github.com/juspay/hyperswitch/issues/860)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -104,9 +104,9 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-<!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
+* *No calls for submissions sent this week.*
 
-If you are an event organizer hoping to expand the reach of your event, please submit a link to the submission website either through a PR to TWiR or on the [Rust-lang forums].[link TBD]
+If you are an event organizer hoping to expand the reach of your event, please submit a link to the submission website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust).
 
 ## Updates from the Rust Project
 
@@ -260,12 +260,10 @@ are the RFCs that were approved for implementation this week:
 * *No RFCs were approved this week.*
 
 ### Final Comment Period
-
 Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
 which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
-
 * [disposition: merge] [RFC: constants in patterns](https://github.com/rust-lang/rfcs/pull/3535)
 * [disposition: merge] [Add RFC combining Infra and Release teams](https://github.com/rust-lang/rfcs/pull/3533)
 * [disposition: merge] [RFC: Precise Pre-release `cargo update`](https://github.com/rust-lang/rfcs/pull/3493)
@@ -425,7 +423,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/18t4wtx/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -443,4 +441,4 @@ Thanks to [Jan Riemer](https://users.rust-lang.org/t/twir-quote-of-the-week/328/
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/193toyr/this_week_in_rust_529/)</small>
