@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Adventures in Binary Serialisation](https://blog.maguire.tech/posts/explorations/binary-serialisation/)
 
 ### Rust Walkthroughs
 
