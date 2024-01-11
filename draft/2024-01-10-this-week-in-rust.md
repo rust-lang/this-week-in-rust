@@ -250,15 +250,7 @@ Revision range: [67b6975..76101ee](https://perf.rust-lang.org/?start=67b6975051b
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -267,40 +259,39 @@ which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [disposition: merge] [RFC: constants in patterns](https://github.com/rust-lang/rfcs/pull/3535)
+* [disposition: merge] [Add RFC combining Infra and Release teams](https://github.com/rust-lang/rfcs/pull/3533)
+* [disposition: merge] [RFC: Precise Pre-release `cargo update`](https://github.com/rust-lang/rfcs/pull/3493)
+* [disposition: postpone] [[Draft] RFC: Patch dependencies using unidiff patchfiles](https://github.com/rust-lang/rfcs/pull/3177)
 
 #### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [disposition: merge] [error on incorrect implied bounds in wfcheck except for Bevy dependents](https://github.com/rust-lang/rust/pull/118553)
+* [disposition: merge] [Stabilize `slice_first_last_chunk`](https://github.com/rust-lang/rust/pull/117561)
+* [disposition: merge] [Warn on references casting to bigger memory layout](https://github.com/rust-lang/rust/pull/118983)
+* [disposition: merge] [const-eval interning: get rid of type-driven traversal](https://github.com/rust-lang/rust/pull/119044)
+* [disposition: merge] [Tracking Issue for `round_ties_even`](https://github.com/rust-lang/rust/issues/96710)
+* [disposition: merge] [Stabilize single-field offset_of](https://github.com/rust-lang/rust/pull/118799)
+* [disposition: merge] [revert stabilization of const_intrinsic_copy](https://github.com/rust-lang/rust/pull/117905)
+* [disposition: merge] [[rustdoc] Allows links in headings](https://github.com/rust-lang/rust/pull/117662)
+* [disposition: merge] [Use version-sorting for all sorting](https://github.com/rust-lang/rust/pull/115046)
+* [disposition: merge] [Deny braced macro invocations in let-else](https://github.com/rust-lang/rust/pull/119062)
 
 ### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
+* *No Language Reference RFCs entered Final Comment Period this week.*
 
 ### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
+* *No Unsafe Code Guideline RFCs entered Final Comment Period this week.*
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+* [RFC: Allow symbol re-export in cdylib crate from linked staticlib](https://github.com/rust-lang/rfcs/pull/3556)
+* [RFC: cargo-sbom](https://github.com/rust-lang/rfcs/pull/3553)
 
 ### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+* *No RFCs issued a call for testing this week.*
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
