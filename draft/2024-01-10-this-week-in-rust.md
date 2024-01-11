@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [embedded-hal v1.0 now released!](https://blog.rust-embedded.org/embedded-hal-v1/)
 
 ### Observations/Thoughts
 * [Arrays: index out of bounds error? Not always!](https://www.greyblake.com/blog/index-out-of-bounds-not-always-a-rust-surprise/)
