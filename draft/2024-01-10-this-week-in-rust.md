@@ -60,6 +60,7 @@ and just ask the editors to select the category.
 * [Let's make an information display in rust](https://blog.stillinbeta.com/2024-01-01-overengineered-household-display.html)
 
 ### Research
+* [Why stdout is faster than stderr?](https://blog.orhun.dev/stdout-vs-stderr/)
 
 ### Miscellaneous
 * [3 ways to handle number overflow or underflow in Rust](https://rust.code-maven.com/how-to-handle-overflow)
