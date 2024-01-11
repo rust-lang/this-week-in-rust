@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+[argmin 0.9.0 - a Rust crate for numerical optimization](https://argmin-rs.org/blog/version-v0-9-0/)
 
 * [Continuous benchmarking for rustls](https://ochagavia.nl/blog/continuous-benchmarking-for-rustls/)
 
