@@ -65,6 +65,7 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [3 ways to handle number overflow or underflow in Rust](https://rust.code-maven.com/how-to-handle-overflow)
 * [Rocket - multi-counter using cookies](https://rust.code-maven.com/rocket-multi-counter-using-cookies)
+* [unwrap, one way to handle errors in Rust](https://rust.code-maven.com/unwrap)
 * [video] [Top 10 Games from Bevy Jam 4](https://www.youtube.com/watch?v=FVhOkpIytJc)
 * [video] [you need to build a RUST desktop app!!](https://m.youtube.com/watch?v=7aFgeUG9TK4)
 
