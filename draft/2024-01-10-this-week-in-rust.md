@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 * [Arrays: index out of bounds error? Not always!](https://www.greyblake.com/blog/index-out-of-bounds-not-always-a-rust-surprise/)
+* [Verifying Rust Zeroize with Assembly...including portable SIMD](https://cipherstash.com/blog/verifying-rust-zeroize-with-assembly-including-portable-simd)
 
 ### Rust Walkthroughs
 
