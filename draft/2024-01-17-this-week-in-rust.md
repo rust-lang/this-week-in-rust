@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Adventures in Binary Serialisation](https://blog.maguire.tech/posts/explorations/binary-serialisation/)
+* [Creating 2 'Simple' Allocators](https://blog.maguire.tech/posts/explorations/allocators/)
 
 ### Research
 
