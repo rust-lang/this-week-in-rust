@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Clap - subcommands for command line applications in Rust](https://rust.code-maven.com/clap-subcommand)
 
 ## Crate of the Week
 
