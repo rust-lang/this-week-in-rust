@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+[Meilisearch 1.6 - AI search & 2x faster indexing](https://blog.meilisearch.com/meilisearch-1-6/)
 
 ### Observations/Thoughts
 
