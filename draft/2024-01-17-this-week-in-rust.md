@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [SurrealDB in-memory with SQL demo in Rust](https://rust.code-maven.com/surrealdb-in-memory-with-sql-demo)
 
 ## Crate of the Week
 
