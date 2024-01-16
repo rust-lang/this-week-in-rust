@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [esp-rs quarterly planning: Q1 2024](https://beta7.io/posts/esp-rs-quarterly-planning-q1-2024/)
 
 ### Observations/Thoughts
 
