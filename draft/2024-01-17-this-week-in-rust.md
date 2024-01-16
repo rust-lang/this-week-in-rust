@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Multi-counter with embedded SurrealDB database](https://rust.code-maven.com/surrealdb-cli-multi-counter)
 
 ## Crate of the Week
 
