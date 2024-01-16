@@ -35,6 +35,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [esp-rs quarterly planning: Q1 2024](https://beta7.io/posts/esp-rs-quarterly-planning-q1-2024/)
+* [Meilisearch 1.6 - AI search & 2x faster indexing](https://blog.meilisearch.com/meilisearch-1-6/)
 
 ### Observations/Thoughts
 
