@@ -34,15 +34,21 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-[Meilisearch 1.6 - AI search & 2x faster indexing](https://blog.meilisearch.com/meilisearch-1-6/)
+* [esp-rs quarterly planning: Q1 2024](https://beta7.io/posts/esp-rs-quarterly-planning-q1-2024/)
+* [Meilisearch 1.6 - AI search & 2x faster indexing](https://blog.meilisearch.com/meilisearch-1-6/)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Adventures in Binary Serialisation](https://blog.maguire.tech/posts/explorations/binary-serialisation/)
+* [Creating 2 'Simple' Allocators](https://blog.maguire.tech/posts/explorations/allocators/)
+* [Rust macros and Lambda boilerplate](https://medium.com/@sam.van.overmeire/rust-macros-taking-care-of-some-lambda-boilerplate-96244d9e1924)
 
 ### Research
 
 ### Miscellaneous
+* [Clap - subcommands for command line applications in Rust](https://rust.code-maven.com/clap-subcommand)
+* [SurrealDB in-memory with SQL demo in Rust](https://rust.code-maven.com/surrealdb-in-memory-with-sql-demo)
 
 ## Crate of the Week
 
