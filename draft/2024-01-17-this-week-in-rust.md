@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [Clap - subcommands for command line applications in Rust](https://rust.code-maven.com/clap-subcommand)
 * [SurrealDB in-memory with SQL demo in Rust](https://rust.code-maven.com/surrealdb-in-memory-with-sql-demo)
+* [Multi-counter with embedded SurrealDB database](https://rust.code-maven.com/surrealdb-cli-multi-counter)
 
 ## Crate of the Week
 
