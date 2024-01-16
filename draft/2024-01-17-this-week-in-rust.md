@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 * [esp-rs quarterly planning: Q1 2024](https://beta7.io/posts/esp-rs-quarterly-planning-q1-2024/)
 
 ### Observations/Thoughts
+* [How much does Rust's bounds checking actually cost?](https://blog.readyset.io/bounds-checks/)
 
 ### Rust Walkthroughs
 
