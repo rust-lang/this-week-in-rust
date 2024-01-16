@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [fish](https://github.com/fish-shell/fish-shell), a *f*riendly *i*nteractive *sh*ell that used to be written in C++, but was recently rewritten in Rust (though admittedly they'll have to do some work until it hits your distro's repos).
+
+Despite a lamentable lack of suggestions, llogiq is reasonably satisfied with his choice.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -77,7 +79,84 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+418 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2024-01-09..2024-01-16
+
+* [GNU/Hurd: unconditionally use inline stack probes](https://github.com/rust-lang/rust/pull/119758)
+* [`rustc_codegen_ssa`: Enforce `rustc::potential_query_instability` lint](https://github.com/rust-lang/rust/pull/119409)
+* [`~const` trait and projection bounds do not imply their non-const counterparts](https://github.com/rust-lang/rust/pull/119721)
+* [add assume into `NonZeroIntX::get`](https://github.com/rust-lang/rust/pull/119452)
+* [add explicit `none()` value variant in check-cfg](https://github.com/rust-lang/rust/pull/119473)
+* [add more information to `visit_projection_elem`](https://github.com/rust-lang/rust/pull/119877)
+* [allow `~const` on associated type bounds again](https://github.com/rust-lang/rust/pull/119894)
+* [avoid silencing relevant follow-up errors](https://github.com/rust-lang/rust/pull/117449)
+* [check rust lints when an unknown lint is detected](https://github.com/rust-lang/rust/pull/119819)
+* [coverage: add enums to accommodate other kinds of coverage mappings](https://github.com/rust-lang/rust/pull/119842)
+* [coverage: simplify building the coverage graph with `CoverageSuccessors`](https://github.com/rust-lang/rust/pull/119508)
+* [delegation implementation: step 1](https://github.com/rust-lang/rust/pull/118947)
+* [disallow reference to `static mut` and adding `static_mut_ref` lint](https://github.com/rust-lang/rust/pull/117556)
+* [don't ICE when noting GAT bounds in `report_no_match_method_error`](https://github.com/rust-lang/rust/pull/119944)
+* [don't reexport `atomic::ordering` via `rustc_data_structures,` use std import](https://github.com/rust-lang/rust/pull/119527)
+* [exclude well known names from showing a suggestion in check-cfg](https://github.com/rust-lang/rust/pull/118924)
+* [exhaustiveness: abort on type error](https://github.com/rust-lang/rust/pull/119715)
+* [exhaustiveness: track overlapping ranges precisely](https://github.com/rust-lang/rust/pull/119396)
+* [exhaustiveness: use an `Option` instead of allocating fictitious patterns](https://github.com/rust-lang/rust/pull/119688)
+* [fix ICE when suggesting dereferencing binop operands](https://github.com/rust-lang/rust/pull/119361)
+* [fix `all_trait*` methods to return all traits available in StableMIR](https://github.com/rust-lang/rust/pull/119790)
+* [fix `allow_internal_unstable` for `(min_)specialization`](https://github.com/rust-lang/rust/pull/119963)
+* [fix `is_global` special address handling](https://github.com/rust-lang/rust/pull/119006)
+* [fix `unused_parens` issue when cast is followed LT](https://github.com/rust-lang/rust/pull/117321)
+* [fix an ICE that occurs after an error has already been reported](https://github.com/rust-lang/rust/pull/119772)
+* [new flag to emit all the delayed bugs as errors (add `-Zeagerly-emit-delayed-bugs`)](https://github.com/rust-lang/rust/pull/119872)
+* [making `User<T>` and `User<[T]> Send`](https://github.com/rust-lang/rust/pull/118241)
+* [merge dead bb pruning and unreachable bb deduplication](https://github.com/rust-lang/rust/pull/119699)
+* [never patterns: Check bindings wrt never patterns](https://github.com/rust-lang/rust/pull/119610)
+* [pass LLVM error message back to pass wrapper](https://github.com/rust-lang/rust/pull/119637)
+* [register even erroneous impls](https://github.com/rust-lang/rust/pull/119868)
+* [remove `-Zdont-buffer-diagnostics`](https://github.com/rust-lang/rust/pull/119723)
+* [stop mentioning internal lang items in `no_std` binary errors](https://github.com/rust-lang/rust/pull/116343)
+* [store the segment name when resolution fails](https://github.com/rust-lang/rust/pull/119925)
+* [suggest upgrading compiler for gated features](https://github.com/rust-lang/rust/pull/119088)
+* [suggest quoting unquoted idents in attrs](https://github.com/rust-lang/rust/pull/119341)
+* [support async recursive calls (as long as they have indirection)](https://github.com/rust-lang/rust/pull/117703)
+* [taint `_` placeholder types in trait impl method signatures](https://github.com/rust-lang/rust/pull/119896)
+* [unify query canonicalization mode](https://github.com/rust-lang/rust/pull/118968)
+* [remove a large amount of leb128-coded integers](https://github.com/rust-lang/rust/pull/119791)
+* [varargs support for system ABI](https://github.com/rust-lang/rust/pull/119587)
+* [stabilize `mutex_unpoison` feature](https://github.com/rust-lang/rust/pull/119804)
+* [A more efficient slice comparison implementation for T: !BytewiseEq](https://github.com/rust-lang/rust/pull/116846)
+* [tune the inlinability of `unwrap`](https://github.com/rust-lang/rust/pull/119878)
+* [cargo metadata: Stabilize id format as PackageIDSpec](https://github.com/rust-lang/cargo/pull/12914)
+* [cargo resolver: do not panic when sorting empty summaries](https://github.com/rust-lang/cargo/pull/13287)
+* [cargo: add guidance on setting homepage in manifest](https://github.com/rust-lang/cargo/pull/13293)
+* [cargo: add unstable `--output-format` option to `cargo rustdoc`](https://github.com/rust-lang/cargo/pull/12252)
+* [cargo: crates-io: set `Content-Type: application/json` only for requests with a body payload](https://github.com/rust-lang/cargo/pull/13264)
+* [cargo: add `rustc` style errors for manifest parsing](https://github.com/rust-lang/cargo/pull/13172)
+* [cargo: only inherit workspace package table if the new package is a member](https://github.com/rust-lang/cargo/pull/13261)
+* [cargo: implementation of shallow libgit2 fetches behind an unstable flag](https://github.com/rust-lang/cargo/pull/13252)
+* [cargo: introduce `-Zprecise-pre-release` unstable flag](https://github.com/rust-lang/cargo/pull/13296)
+* [cargo: strip debuginfo when debuginfo is not requested](https://github.com/rust-lang/cargo/pull/13257)
+* [rustdoc-search: reuse individual types in function signatures](https://github.com/rust-lang/rust/pull/119756)
+* [clippy: `from_over_into`: suggest a correct conversion to ()](https://github.com/rust-lang/rust-clippy/pull/12141)
+* [clippy: `useless_asref`: check that the clone receiver is the parameter](https://github.com/rust-lang/rust-clippy/pull/12136)
+* [clippy: correctly suggest `std` or `core` path depending if this is a `no_std` crate](https://github.com/rust-lang/rust-clippy/pull/12149)
+* [clippy: extend `useless_asref` lint on `map(clone)`](https://github.com/rust-lang/rust-clippy/pull/12105)
+* [clippy: fix false positive in `PartialEq` check in `unconditional_recursion` lint](https://github.com/rust-lang/rust-clippy/pull/12137)
+* [clippy: fix suggestion for `map_clone` lint on types implementing `Copy`](https://github.com/rust-lang/rust-clippy/pull/12129)
+* [clippy: make `HirEqInterExpr::eq_block` take comments into account while checking if two blocks are equal](https://github.com/rust-lang/rust-clippy/pull/12074)
+* [rust-analyzer: add `notable_trait` predicate to `CompletionRelevance`](https://github.com/rust-lang/rust-analyzer/pull/16274)
+* [rust-analyzer: assist to merge nested if](https://github.com/rust-lang/rust-analyzer/pull/16209)
+* [rust-analyzer: acknowledge `pub(crate)` imports in import suggestions](https://github.com/rust-lang/rust-analyzer/pull/16265)
+* [rust-analyzer: differentiate between vfs config load and file changed events](https://github.com/rust-lang/rust-analyzer/pull/16319)
+* [rust-analyzer: fix `ast::Path::segments` implementation](https://github.com/rust-lang/rust-analyzer/pull/16275)
+* [rust-analyzer: fix incorrect parsing error on method call on range](https://github.com/rust-lang/rust-analyzer/pull/16310)
+* [rust-analyzer: fix nested includes resolving from the wrong base file](https://github.com/rust-lang/rust-analyzer/pull/16348)
+* [rust-analyzer: fix rust-analyzer-proc-macro-srv failing to spawn on windows](https://github.com/rust-lang/rust-analyzer/pull/16312)
+* [rust-analyzer: preserve comments for extracted block expression in `'extract_function'`](https://github.com/rust-lang/rust-analyzer/pull/16333)
+* [rust-analyzer: remove sysroot-abi feature flag from proc-macro-test](https://github.com/rust-lang/rust-analyzer/pull/16271)
+* [rust-analyzer: replace SourceRootCrates hashset output with slice for deterministic order](https://github.com/rust-lang/rust-analyzer/pull/16339)
+* [rust-analyzer: resolve panic in `generate_delegate_methods`](https://github.com/rust-lang/rust-analyzer/pull/16277)
 
 ### Rust Compiler Performance Triage
 
@@ -269,7 +348,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Congrats to the #Rustlang and #Rust-for-#Linux community: the #LinuxKernel now contains the first useful thing built using Rust!
+
+– [Thorsten Leemhuis on FOSStodon](https://fosstodon.org/@kernellogger/111741507899977461)
+
+As with the crate of the week, this week saw a total lack of suggestions, so llogiq would like to offer you this piece of good news from the Linux side of things.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
