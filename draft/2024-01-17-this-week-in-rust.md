@@ -36,8 +36,19 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [esp-rs quarterly planning: Q1 2024](https://beta7.io/posts/esp-rs-quarterly-planning-q1-2024/)
 * [Meilisearch 1.6 - AI search & 2x faster indexing](https://blog.meilisearch.com/meilisearch-1-6/)
+* [capnproto-rust: 0.19 - ergonomic setters and faster reflection](https://dwrensha.github.io/capnproto-rust/2024/01/14/0.19-release.html)
+* [hyper - 2023 in review](https://seanmonstar.com/blog/2023-in-review/)
 
 ### Observations/Thoughts
+* [A universal lowering strategy for control effects in Rust](https://www.abubalay.com/blog/2024/01/14/rust-effect-lowering)
+* [Passing nothing is surprisingly difficult](https://davidben.net/2024/01/15/empty-slices.html)
+* [Building 2 'Simple' Allocators](https://blog.maguire.tech/posts/explorations/allocators/)
+* [The memory remains: Permanent memory with systemd and a Rust allocator](https://darkcoding.net/software/rust-systemd-memory-remains/)
+* [Higlights of 2023 for cargo-semver-checks](https://predr.ag/blog/highlights-of-2023-for-cargo-semver-checks/)
+* [The bane of my existence: Supporting both async and sync code in Rust](https://nullderef.com/blog/rust-async-sync/)
+* [A Guide to Rust ORMs in 2024](https://www.shuttle.rs/blog/2024/01/16/best-orm-rust)
+* [Semantic search powered by WASM and WebGPU](https://aminediro.com/posts/semsearch_wasm/)
+* [Embassy on ESP: UART Echo](https://apollolabsblog.hashnode.dev/embassy-on-esp-uart-echo)
 
 ### Rust Walkthroughs
 * [Adventures in Binary Serialisation](https://blog.maguire.tech/posts/explorations/binary-serialisation/)
@@ -50,6 +61,12 @@ and just ask the editors to select the category.
 * [Clap - subcommands for command line applications in Rust](https://rust.code-maven.com/clap-subcommand)
 * [SurrealDB in-memory with SQL demo in Rust](https://rust.code-maven.com/surrealdb-in-memory-with-sql-demo)
 * [Multi-counter with embedded SurrealDB database](https://rust.code-maven.com/surrealdb-cli-multi-counter)
+* [Xilem 2024 plans](https://linebender.org/blog/xilem-2024/)
+* [Rustaceans, say goodbye to lifetime errors: announcing nolife 0.3](https://blog.dureuill.net/articles/nolife/)
+* [Auto-generating API service using Rust, to TypeScript & Dart](https://www.polydelic.com/media/autogenerating-a-rust-api-to-typescript-and-dart)
+* [From the rust community on Reddit: Rust in Aviation](https://www.reddit.com/r/rust/comments/192q0vs/rust_in_aviation/)
+* [audio] [Apollo - Rust in Production Podcast](https://corrode.dev/podcast/s01e03-apollo/)
+* [audio] [Prossimo with Josh Aas](https://rustacean-station.org/episode/josh-aas/)
 
 ## Crate of the Week
 
