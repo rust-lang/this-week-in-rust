@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 * [Adventures in Binary Serialisation](https://blog.maguire.tech/posts/explorations/binary-serialisation/)
 * [Creating 2 'Simple' Allocators](https://blog.maguire.tech/posts/explorations/allocators/)
 * [Rust macros and Lambda boilerplate](https://medium.com/@sam.van.overmeire/rust-macros-taking-care-of-some-lambda-boilerplate-96244d9e1924)
+* [Let's make an information display in rust Part 2: The Frontend](https://blog.stillinbeta.com/2024-01-06-let's-make-an-information-display-part-2.html)
 
 ### Research
 
