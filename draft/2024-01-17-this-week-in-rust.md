@@ -295,6 +295,8 @@ Rusty Events between 2024-01-17 - 2024-02-14 🦀
     * [**Paris Rust Meetup #64**](https://mobilizon.fr/events/0fce31cd-3578-43f2-abf4-ffecd8d16da2)
 * 2024-01-24 | Zagreb, HR | [impl Zagreb for Rust](https://www.meetup.com/Zagreb-Rust-Meetup/)
     * [**Rust Meetup 2024/01: WebGPU intro using Rust**](https://www.meetup.com/zagreb-rust-meetup/events/298540606/)
+* 2024-01-25 | Augsburg, DE | [Rust Meetup Augsburg](https://www.meetup.com/de-DE/rust-meetup-augsburg/)
+    * [**Augsburg Rust Meetup #5: Async Part2 and Async in action**](https://www.meetup.com/de-DE/rust-meetup-augsburg/events/298008068/)
 * 2024-02-01 | Barcelona, ES | [BcnRust](https://www.meetup.com/es-ES/bcnrust/)
     * [**12th BcnRust Meetup**](https://www.meetup.com/es-ES/bcnrust/events/297439924/)
 * 2024-02-03 | Brussels, BE | [FOSDEM '24](https://fosdem.org/2024/)
