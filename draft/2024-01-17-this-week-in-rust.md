@@ -42,7 +42,6 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 * [A universal lowering strategy for control effects in Rust](https://www.abubalay.com/blog/2024/01/14/rust-effect-lowering)
 * [Passing nothing is surprisingly difficult](https://davidben.net/2024/01/15/empty-slices.html)
-* [Building 2 'Simple' Allocators](https://blog.maguire.tech/posts/explorations/allocators/)
 * [The memory remains: Permanent memory with systemd and a Rust allocator](https://darkcoding.net/software/rust-systemd-memory-remains/)
 * [Higlights of 2023 for cargo-semver-checks](https://predr.ag/blog/highlights-of-2023-for-cargo-semver-checks/)
 * [The bane of my existence: Supporting both async and sync code in Rust](https://nullderef.com/blog/rust-async-sync/)
