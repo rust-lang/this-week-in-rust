@@ -299,7 +299,7 @@ Rusty Events between 2024-01-17 - 2024-02-14 🦀
     * [**12th BcnRust Meetup**](https://www.meetup.com/es-ES/bcnrust/events/297439924/)
 * 2024-02-03 | Brussels, BE | [FOSDEM '24](https://fosdem.org/2024/)
     * [**FOSDEM '24 Conference: Rust devroom - talks**](https://fosdem.org/2024/schedule/track/rust/) | [**Rust Aarhus FOSDEM Meetup**](https://www.meetup.com/rust-aarhus/events/295946777/)
-* 2024-02-06 | Bremen, De | [Rust Meetup Bremen](https://www.linkedin.com/company/rust-meetup-bremen/)
+* 2024-02-06 | Bremen, DE | [Rust Meetup Bremen](https://www.linkedin.com/company/rust-meetup-bremen/)
     * [**Rust Meetup Bremen [1]**](https://www.linkedin.com/events/rustmeetupbremen-17153350929486868481/)
 
 ### North America
