@@ -27,12 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [esp-rs quarterly planning: Q1 2024](https://beta7.io/posts/esp-rs-quarterly-planning-q1-2024/)
 * [Meilisearch 1.6 - AI search & 2x faster indexing](https://blog.meilisearch.com/meilisearch-1-6/)
@@ -54,8 +48,6 @@ and just ask the editors to select the category.
 * [Creating 2 'Simple' Allocators](https://blog.maguire.tech/posts/explorations/allocators/)
 * [Rust macros and Lambda boilerplate](https://medium.com/@sam.van.overmeire/rust-macros-taking-care-of-some-lambda-boilerplate-96244d9e1924)
 * [Let's make an information display in rust Part 2: The Frontend](https://blog.stillinbeta.com/2024-01-06-let's-make-an-information-display-part-2.html)
-
-### Research
 
 ### Miscellaneous
 * [Clap - subcommands for command line applications in Rust](https://rust.code-maven.com/clap-subcommand)
@@ -87,25 +79,21 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [ZeroCopy - Use cargo-semver-checks to make sure `derive` feature doesn't change API surface 2](https://github.com/google/zerocopy/issues/422)
+* [Ockam - `remove_address_record` function is called two times per Address during Processor shutdown](https://github.com/build-trust/ockam/issues/7401)
+* [Ockam - Command - refactor to use typed interfaces to implement commands for `kafka services`](https://github.com/build-trust/ockam/issues/6706)
+* [Ockam - Library - Validate CBOR structs according to the cddl schema for `nodes/models/services`](https://github.com/build-trust/ockam/issues/6693)
 * [Hyperswitch - [FEATURE]: Make cache configuration configurable at runtime](https://github.com/juspay/hyperswitch/issues/3276)
 * [Hyperswitch - [FEATURE]: Implement Code cov for local system using makefile](https://github.com/juspay/hyperswitch/issues/1622)
 * [Hyperswitch - [FEATURE]: Setup code coverage for local tests & CI](https://github.com/juspay/hyperswitch/issues/1587)
 * [Hyperswitch - [FEATURE]: Add domain type for client secret](https://github.com/juspay/hyperswitch/issues/1357)
 * [Hyperswitch - [FEATURE]: Have get_required_value to use ValidationError in OptionExt](https://github.com/juspay/hyperswitch/issues/860)
+* [Fluvio - connector: fluvio-http-source, add an option to read data from a websocket](https://github.com/infinyon/fluvio/issues/3829)
+* [Fluvio - MQTT Connector: Prefix auto generated Client ID to prevent connection drops](https://github.com/infinyon/fluvio/issues/3825)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
-
-### CFP - Speakers
-
-Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker. 
-
-<!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-
-If you are an event organizer hoping to expand the reach of your event, please submit a link to the submission website either through a PR to TWiR or on the [Rust-lang forums].[link TBD]
 
 ## Updates from the Rust Project
 
@@ -369,7 +357,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/18t4wtx/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -385,4 +373,4 @@ As with the crate of the week, this week saw a total lack of suggestions, so llo
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/199ctmk/this_week_in_rust_530/)</small>
