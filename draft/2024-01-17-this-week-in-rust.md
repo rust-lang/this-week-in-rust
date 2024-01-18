@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 * [Meilisearch 1.6 - AI search & 2x faster indexing](https://blog.meilisearch.com/meilisearch-1-6/)
 * [capnproto-rust: 0.19 - ergonomic setters and faster reflection](https://dwrensha.github.io/capnproto-rust/2024/01/14/0.19-release.html)
 * [hyper - 2023 in review](https://seanmonstar.com/blog/2023-in-review/)
+* [Fluvio Open Source Update: Single binary deployable locally and managed using Fluvio Version Manager](https://www.fluvio.io/docs/)
 
 ### Observations/Thoughts
 * [A universal lowering strategy for control effects in Rust](https://www.abubalay.com/blog/2024/01/14/rust-effect-lowering)
