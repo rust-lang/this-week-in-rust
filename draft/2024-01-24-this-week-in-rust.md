@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Supporting LoRa on the SparkFun expLoRaBLE Thing Plus with Rust](https://www.alistair23.me/2023/08/09/lora-on-sparkfun-board/)
 
 ### Observations/Thoughts
 
