@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [pq-sys 0.5.0](https://blog.weiznich.de/blog/pq-sys-05/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
