@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [How to work with !Sized types in Rust](https://sgued.fr/blog/heapless-howto/)
+
 ### Research
 
 ### Miscellaneous
