@@ -81,7 +81,32 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This week saw a bunch of regressions caused by correctness fixes and in general doing more work
+in the compiler. These were offset by many improvements (especially around hashing in the compiler)
+that improved performance by ~2% across a large number of benchmarks. Don't get too excited about the
+large 45+% wins though, these were only for tiny benchmarks like helloworld. They were caused by a
+[change in Cargo](https://github.com/rust-lang/cargo/pull/13257) which introduces stripping of debug
+symbols from Rust release binaries by default, and in turn also improves compilation time for small
+crates.
+
+Triage done by **@kobzol**.
+Revision range: [f9c2421a..d6b151fc](https://perf.rust-lang.org/?start=f9c2421a2a6e34f3756900dd7d600704c08bfccb&end=d6b151fc77e213bf637db0f12c1965ace3ffe255&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.7%  | [0.2%, 1.5%]    | 11    |
+| Regressions ❌ <br /> (secondary)  | 2.2%  | [0.2%, 9.9%]    | 26    |
+| Improvements ✅ <br /> (primary)   | -3.2% | [-47.5%, -0.2%] | 191   |
+| Improvements ✅ <br /> (secondary) | -7.9% | [-46.5%, -0.1%] | 123   |
+| All ❌✅ (primary)                 | -3.0% | [-47.5%, 1.5%]  | 202   |
+
+
+4 Regressions, 4 Improvements, 9 Mixed; 4 of them in rollups
+48 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/dc3605e34203a3513f589868a161b8818b30adca/triage/2024-01-23.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
