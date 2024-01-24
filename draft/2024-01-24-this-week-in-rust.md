@@ -38,11 +38,12 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
+* [Rocket - logging in the web application](https://rust.code-maven.com/rocket-logging)
+* 
 ### Research
 
 ### Miscellaneous
-* [Rocket - logging in the web application](https://rust.code-maven.com/rocket-logging)
+
 
 ## Crate of the Week
 
