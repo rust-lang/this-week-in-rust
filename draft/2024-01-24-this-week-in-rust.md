@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Testing with tempfiles and environment variables](https://rust.code-maven.com/testing-with-environment-variables)
 
 ## Crate of the Week
 
