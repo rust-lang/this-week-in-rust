@@ -60,8 +60,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Ockam - Have a single `SqlxDatabase` instance per process](https://github.com/build-trust/ockam/issues/7313)
+* [Ockam - Improve database migrations to pair sql and rust migration code](https://github.com/build-trust/ockam/issues/7311)
+* [Ockam - Make install.sh not fail during upgrade process](https://github.com/build-trust/ockam/issues/7118)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
