@@ -65,14 +65,14 @@ and just ask the editors to select the category.
 * [Supporting LoRa on the SparkFun expLoRaBLE Thing Plus with Rust](https://www.alistair23.me/2023/08/09/lora-on-sparkfun-board/)
 * [How to work with !Sized types in Rust](https://sgued.fr/blog/heapless-howto/)
 * [Rocket - logging in the web application](https://rust.code-maven.com/rocket-logging)
+* [Rocket - access custom configuration in the routes](https://rust.code-maven.com/rocket-access-custom-configuration)
+* [Testing with tempfiles and environment variables](https://rust.code-maven.com/testing-with-environment-variables)
 
 ### Research
 * [Profiling Programming Language Learning](https://arxiv.org/abs/2401.01257)
 * [Rust-lancet: Automated Ownership-Rule-Violation Fixing with Behavior Preservation](https://songlh.github.io/paper/lancet.pdf)
 
 ### Miscellaneous
-* [Rocket - access custom configuration in the routes](https://rust.code-maven.com/rocket-access-custom-configuration)
-
 
 ## Crate of the Week
 
