@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Rocket - access custom configuration in the routes](https://rust.code-maven.com/rocket-access-custom-configuration)
 
 ## Crate of the Week
 
