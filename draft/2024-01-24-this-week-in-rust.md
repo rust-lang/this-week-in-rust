@@ -63,14 +63,15 @@ and just ask the editors to select the category.
 * [Billion-row challenge: Rust walkthrough](https://aminediro.com/posts/billion_row/)
 * [Embassy on ESP: Timers](https://apollolabsblog.hashnode.dev/embassy-on-esp-timers)
 * [Supporting LoRa on the SparkFun expLoRaBLE Thing Plus with Rust](https://www.alistair23.me/2023/08/09/lora-on-sparkfun-board/)
-
-- [How to work with !Sized types in Rust](https://sgued.fr/blog/heapless-howto/)
+* [How to work with !Sized types in Rust](https://sgued.fr/blog/heapless-howto/)
+* [Rocket - logging in the web application](https://rust.code-maven.com/rocket-logging)
 
 ### Research
 * [Profiling Programming Language Learning](https://arxiv.org/abs/2401.01257)
 * [Rust-lancet: Automated Ownership-Rule-Violation Fixing with Behavior Preservation](https://songlh.github.io/paper/lancet.pdf)
 
 ### Miscellaneous
+
 
 ## Crate of the Week
 
