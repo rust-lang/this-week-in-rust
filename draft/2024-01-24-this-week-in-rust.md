@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 * [Roadmap for the Xilem backend in 2024](https://linebender.org/blog/xilem-backend-roadmap/#2)
 * [rust-analyzer changelog #217](https://rust-analyzer.github.io/thisweek/2024/01/22/changelog-217.html)
 
+* [pq-sys 0.5.0](https://blog.weiznich.de/blog/pq-sys-05/)
+
 ### Observations/Thoughts
 * [Making Rust binaries smaller by default](https://kobzol.github.io/rust/cargo/2024/01/23/making-rust-binaries-smaller-by-default.html)
 * [My Best and Worst Deadlock in Rust](https://www.snoyman.com/blog/2024/01/best-worst-deadlock-rust/)
