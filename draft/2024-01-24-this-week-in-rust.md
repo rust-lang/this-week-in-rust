@@ -35,7 +35,6 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [Supporting LoRa on the SparkFun expLoRaBLE Thing Plus with Rust](https://www.alistair23.me/2023/08/09/lora-on-sparkfun-board/)
 * [Ruffle 2023 in review](https://ruffle.rs/blog/2024/01/14/2023-in-review)
 * [Four challenges cargo-semver-checks has yet to tackle](https://predr.ag/blog/four-challenges-cargo-semver-checks-has-yet-to-tackle/)
 * [rustc_codegen_gcc: Progress Report #29](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-29)
