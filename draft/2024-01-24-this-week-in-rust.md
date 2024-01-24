@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Rust on Espressif chips - January 24 2024](https://mabez.dev/blog/posts/esp-rust-24-01-2024/)
 
 ### Observations/Thoughts
 
