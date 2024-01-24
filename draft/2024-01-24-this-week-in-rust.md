@@ -93,9 +93,16 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
+<!-- * [ - ]() -->
 * [Ockam - Have a single `SqlxDatabase` instance per process](https://github.com/build-trust/ockam/issues/7313)
 * [Ockam - Improve database migrations to pair sql and rust migration code](https://github.com/build-trust/ockam/issues/7311)
 * [Ockam - Make install.sh not fail during upgrade process](https://github.com/build-trust/ockam/issues/7118)
+* [Hyperswitch - [FEATURE]: Make cache configuration configurable at runtime](https://github.com/juspay/hyperswitch/issues/3276)
+* [Hyperswitch - [FEATURE]: Implement Code cov for local system using makefile](https://github.com/juspay/hyperswitch/issues/1622)
+* [Hyperswitch - [FEATURE]: Setup code coverage for local tests & CI](https://github.com/juspay/hyperswitch/issues/1587)
+* [Hyperswitch - [FEATURE]: Add domain type for client secret](https://github.com/juspay/hyperswitch/issues/1357)
+* [Hyperswitch - [FEATURE]: Have get_required_value to use ValidationError in OptionExt](https://github.com/juspay/hyperswitch/issues/860)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
