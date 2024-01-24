@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #217](https://rust-analyzer.github.io/thisweek/2024/01/22/changelog-217.html)
 * [pq-sys 0.5.0](https://blog.weiznich.de/blog/pq-sys-05/)
 
+* [What's new in SeaORM 0.12.x](https://www.sea-ql.org/blog/2024-01-23-whats-new-in-seaorm-0.12.x/)
+
 ### Observations/Thoughts
 * [Making Rust binaries smaller by default](https://kobzol.github.io/rust/cargo/2024/01/23/making-rust-binaries-smaller-by-default.html)
 * [My Best and Worst Deadlock in Rust](https://www.snoyman.com/blog/2024/01/best-worst-deadlock-rust/)
