@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Rocket - logging in the web application](https://rust.code-maven.com/rocket-logging)
 
 ## Crate of the Week
 
