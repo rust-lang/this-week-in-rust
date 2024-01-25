@@ -67,6 +67,7 @@ and just ask the editors to select the category.
 * [Rocket - logging in the web application](https://rust.code-maven.com/rocket-logging)
 * [Rocket - access custom configuration in the routes](https://rust.code-maven.com/rocket-access-custom-configuration)
 * [Testing with tempfiles and environment variables](https://rust.code-maven.com/testing-with-environment-variables)
+* [Rust Memory Leak Diagnosing Guides using Flame Graphs](https://www.greptime.com/blogs/2024-01-18-memory-leak)
 
 ### Research
 * [Profiling Programming Language Learning](https://arxiv.org/abs/2401.01257)
