@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 * [pq-sys 0.5.0](https://blog.weiznich.de/blog/pq-sys-05/)
 * [What's new in SeaORM 0.12.x](https://www.sea-ql.org/blog/2024-01-23-whats-new-in-seaorm-0.12.x/)
 * [Rust on Espressif chips - January 24 2024](https://mabez.dev/blog/posts/esp-rust-24-01-2024/)
+* [Meilisearch updates — January 2024](https://blog.meilisearch.com/meilisearch-january-updates/)
 
 ### Observations/Thoughts
 * [Making Rust binaries smaller by default](https://kobzol.github.io/rust/cargo/2024/01/23/making-rust-binaries-smaller-by-default.html)
