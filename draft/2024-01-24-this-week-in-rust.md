@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 * [Why SQL hang for exactly 940s? TCP and Async Rust!](https://xuanwo.io/2024/01-why-sql-hang-for-exactly-940s/)
 * [Making Async Rust Reliable](https://tmandry.gitlab.io/blog/posts/making-async-reliable/)
 * [Identifying Rust’s collect::() memory leak footgun](https://blog.polybdenum.com/2024/01/17/identifying-the-collect-vec-memory-leak-footgun.html)
+* [Why SQL hang for exactly 940s? TCP and Async Rust!](https://xuanwo.io/2024/01-why-sql-hang-for-exactly-940s/)
 * [video] [embassy is now on crates.io](https://www.youtube.com/watch?v=o7okEkXPuIA)
 * [video] [Rust full stack web frameworks have a bright future](https://www.youtube.com/watch?v=tq3-M7QJiWg)
 * [video] [Rust Halifax - Rust & Tell #1](https://www.youtube.com/watch?v=MH-7xnv9CMI)
