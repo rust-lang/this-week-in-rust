@@ -27,12 +27,8 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
 ### Foundation
 * [Q4 2023 Recap from Rebecca Rumbul](https://foundation.rust-lang.org/news/q4-2023-recap-from-rebecca-rumbul/)
-
-### Newsletters
 
 ### Project/Tooling Updates
 * [Ruffle 2023 in review](https://ruffle.rs/blog/2024/01/14/2023-in-review)
@@ -71,8 +67,6 @@ and just ask the editors to select the category.
 ### Research
 * [Profiling Programming Language Learning](https://arxiv.org/abs/2401.01257)
 * [Rust-lancet: Automated Ownership-Rule-Violation Fixing with Behavior Preservation](https://songlh.github.io/paper/lancet.pdf)
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -403,7 +397,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/18t4wtx/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -423,4 +417,4 @@ Thanks to [PrototypeNM1](https://users.rust-lang.org/t/twir-quote-of-the-week/32
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/19f2pos/this_week_in_rust_531/)</small>
