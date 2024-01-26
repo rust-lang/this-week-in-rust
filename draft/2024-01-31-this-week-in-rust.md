@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+[High performance vector graphic video games](https://simbleau.github.io/rust/graphics/2023/11/20/using-vello-for-video-games.html)
 
 ### Rust Walkthroughs
 
