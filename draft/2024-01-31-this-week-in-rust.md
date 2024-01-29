@@ -34,6 +34,9 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Rust and C filesystem APIs](https://lwn.net/Articles/958072/)
+* [Progress toward a GCC-based Rust compiler](https://lwn.net/Articles/954787/)
+* [Some recent and notable changes to Rust](https://lwn.net/Articles/954033/)
 
 ### Observations/Thoughts
 
