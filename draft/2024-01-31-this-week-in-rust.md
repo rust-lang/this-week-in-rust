@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+ * [Function Contracts for Kani](https://model-checking.github.io/kani-verifier-blog/2024/01/29/function-contracts.html)
 
 ### Observations/Thoughts
 
