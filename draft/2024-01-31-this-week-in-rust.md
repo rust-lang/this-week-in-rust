@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [video] [Nine Rules for Data Structures in Rust](https://www.youtube.com/watch?v=09vg_GMftE8&t=9s)
+
 ### Rust Walkthroughs
 
 ### Research
