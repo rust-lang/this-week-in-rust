@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Meilisearch updates — January 2024](https://blog.meilisearch.com/meilisearch-january-updates/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
