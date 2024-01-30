@@ -213,6 +213,8 @@ Rusty Events between 2024-01-31 - 2024-02-28 🦀
     * [**Rust for the Web — Mainmatter x Shuttle Takeover**](https://www.meetup.com/rust-london-user-group/events/298413388/)
 * 2024-02-08 | Bern, CH | [Rust Bern](https://www.meetup.com/rust-bern/)
     * [**Rust Bern Meetup #1 2024 🦀**](https://www.meetup.com/rust-bern/events/298488858/)
+* 2024-02-21 | Lyon, FR | [Rust Lyon](https://www.meetup.com/fr-FR/rust-lyon/)
+    * [**Rust Lyon Meetup #8**](https://www.meetup.com/fr-FR/rust-lyon/events/298775631/)
 
 ### North America
 
