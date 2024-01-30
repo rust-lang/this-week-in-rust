@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Rust macros taking care of even more Lambda boilerplate](https://medium.com/@sam.van.overmeire/rust-macros-taking-care-of-even-more-lambda-boilerplate-0c5cb6c4b63c)
 
 ### Research
 
