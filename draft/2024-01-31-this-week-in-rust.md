@@ -60,8 +60,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [GreptimeTeam - Fix a minor bug in `join_path` for more elegant code](https://github.com/GreptimeTeam/greptimedb/issues/3212)
+* [GreptimeTeam - Add tests for `MetaPeerClientRef` to enhance GreptimeDB's stability](https://github.com/GreptimeTeam/greptimedb/issues/3044)
+* [Ockam - Syntax highlighting for fenced code blocks, in command help output, on Linux works](https://github.com/build-trust/ockam/issues/7471)
+* [Ockam - Output for `ockam project ticket` is improved and information is not opaque](https://github.com/build-trust/ockam/issues/7478)
+* [Ockam - Output for both `ockam project ticket` and `ockam project enroll` is improved, with support for `--output json`](https://github.com/build-trust/ockam/issues/7473)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -71,7 +74,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker. 
 
-<!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
+*No Calls for papers were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the submission website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust).
 
