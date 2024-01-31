@@ -34,14 +34,27 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Palette 0.7.4](https://ogeon.github.io/2024/01/28/palette-0.7.4.html)
+* [Fyrox Game Engine 0.33](https://fyrox.rs/blog/post/fyrox-game-engine-0-33/)
+* [Two months in Servo: better inline layout, stable Rust, and more!](https://servo.org/blog/2024/01/26/two-months-in-servo/)
 
 ### Observations/Thoughts
+* [How to benchmark Rust code with Criterion](https://bencher.dev/learn/benchmarking/rust/criterion/)
+* [Playing with Nom and parser combinators](https://andreabergia.com/blog/2024/01/playing-with-nom-and-parser-combinators/)
+* [Where Does the Time Go? Rust's Problem with Slow Compiles](https://thenewstack.io/where-does-the-time-go-rusts-problem-with-slow-compiles/)
+* [ESP32 Embedded Rust at the HAL: I2C Scanner](https://apollolabsblog.hashnode.dev/esp32-embedded-rust-at-the-hal-i2c-scanner)
+* [We build X.509 chains so you don’t have to](https://blog.trailofbits.com/2024/01/25/we-build-x-509-chains-so-you-dont-have-to/)
+* [Process spawning performance in Rust](https://kobzol.github.io/rust/2024/01/28/process-spawning-performance-in-rust.html)
+* [Introducing Foundations - our open source Rust service foundation library](https://blog.cloudflare.com/introducing-foundations-our-open-source-rust-service-foundation-library)
 
 ### Rust Walkthroughs
+* [WebSockets - The Beginner’s Guide](https://vaktibabat.github.io/posts/websockets/)
+* [Writing Cronjobs in Rust](https://www.shuttle.rs/blog/2024/01/24/writing-cronjobs-rust)
 
 ### Research
 
 ### Miscellaneous
+* [audio] [Arroyo - Micah Wylde, Co-Founder and CEO](https://corrode.dev/podcast/s01e04-arroyo)
 
 ## Crate of the Week
 
