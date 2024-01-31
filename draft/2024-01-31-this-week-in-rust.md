@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Debugging Tokio Instrumentation](https://hegdenu.net/posts/debugging-tokio-instrumentation/)
+
 ### Research
 
 ### Miscellaneous
