@@ -207,6 +207,8 @@ Rusty Events between 2024-01-31 - 2024-02-28 🦀
     * [**FOSDEM '24 Conference: Rust devroom - talks**](https://fosdem.org/2024/schedule/track/rust/) | [**Rust Aarhus FOSDEM Meetup**](https://www.meetup.com/rust-aarhus/events/295946777/)
 * 2024-02-03 | Nürnberg, BY, DE | [Paessler Rust Camp 2024](https://www.meetup.com/paessler-rust-camp-2024/)
     * [**Paessler Rust Camp 2024**](https://www.meetup.com/paessler-rust-camp-2024/events/298603948)
+* 2024-02-05 | Brussels, BE | [Belgium Rust user group](https://www.meetup.com/fr-FR/belgium-rust-user-group/)
+    * [**Post-FOSDEM Rust meetup @ Vrije Universiteit Brussel**](https://www.meetup.com/fr-FR/belgium-rust-user-group/events/298754029/)
 * 2024-02-06 | Bremen, DE | [Rust Meetup Bremen](https://www.linkedin.com/company/rust-meetup-bremen/)
     * [**Rust Meetup Bremen [1]**](https://www.linkedin.com/events/rustmeetupbremen-17153350929486868481/)
 * 2024-02-07 | London, UK | [Rust London User Group](https://www.meetup.com/rust-london-user-group/)
