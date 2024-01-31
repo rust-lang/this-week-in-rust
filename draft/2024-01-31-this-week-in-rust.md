@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Visualizing Dynamic Programming with FireDBG](https://firedbg.sea-ql.org/blog/2024-01-31-visual-dynamic-program/)
+
 ### Rust Walkthroughs
 
 ### Research
