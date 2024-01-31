@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Quickwit 0.7 Released: Elasticsearch API compatibility and 30% performance gains](https://quickwit.io/blog/quickwit-0.7)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
