@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [This Week in Fluvio #58 - Fluvio Open Source Streaming System can be deployed locally as a single binary](https://www.fluvio.io/news/this-week-in-fluvio-0058/)
 
 ### Observations/Thoughts
 
