@@ -63,6 +63,11 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
 
+* [Hyperswitch - [FIX]: Add a configuration validation for workers](https://github.com/juspay/hyperswitch/issues/3510)
+* [Hyperswitch - [FEATURE]: Create a delete endpoing for Config Table](https://github.com/juspay/hyperswitch/issues/3488)
+* [Hyperswitch - [FEATURE]: Setup code coverage for local tests & CI](https://github.com/juspay/hyperswitch/issues/1587)
+* [Hyperswitch - [FEATURE]: Have get_required_value to use ValidationError in OptionExt](https://github.com/juspay/hyperswitch/issues/860)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
