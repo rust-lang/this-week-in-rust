@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 * [Slint 1.4 Released with additional Look and Improved APIs](https://slint.dev/blog/slint-1.4-released)
 * [This Week in Fluvio #58 - Fluvio Open Source Streaming System can be deployed locally as a single binary](https://www.fluvio.io/news/this-week-in-fluvio-0058/)
 
+* [Quickwit 0.7 Released: Elasticsearch API compatibility and 30% performance gains](https://quickwit.io/blog/quickwit-0.7)
+
 ### Observations/Thoughts
 * [How to benchmark Rust code with Criterion](https://bencher.dev/learn/benchmarking/rust/criterion/)
 * [Playing with Nom and parser combinators](https://andreabergia.com/blog/2024/01/playing-with-nom-and-parser-combinators/)
