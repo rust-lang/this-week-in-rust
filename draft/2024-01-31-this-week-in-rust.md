@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 * [Ownership and data flow in GPUI](https://zed.dev/blog/gpui-ownership)
 * [Function Contracts for Kani](https://model-checking.github.io/kani-verifier-blog/2024/01/29/function-contracts.html)
 
+* [Slint 1.4 Released with additional Look and Improved APIs](https://slint.dev/blog/slint-1.4-released)
+
 ### Observations/Thoughts
 * [How to benchmark Rust code with Criterion](https://bencher.dev/learn/benchmarking/rust/criterion/)
 * [Playing with Nom and parser combinators](https://andreabergia.com/blog/2024/01/playing-with-nom-and-parser-combinators/)
