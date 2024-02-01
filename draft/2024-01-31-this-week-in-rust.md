@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 * [Two months in Servo: better inline layout, stable Rust, and more!](https://servo.org/blog/2024/01/26/two-months-in-servo/)
 
 ### Observations/Thoughts
+
 * [How to benchmark Rust code with Criterion](https://bencher.dev/learn/benchmarking/rust/criterion/)
 * [Playing with Nom and parser combinators](https://andreabergia.com/blog/2024/01/playing-with-nom-and-parser-combinators/)
 * [Where Does the Time Go? Rust's Problem with Slow Compiles](https://thenewstack.io/where-does-the-time-go-rusts-problem-with-slow-compiles/)
@@ -46,6 +47,7 @@ and just ask the editors to select the category.
 * [We build X.509 chains so you don’t have to](https://blog.trailofbits.com/2024/01/25/we-build-x-509-chains-so-you-dont-have-to/)
 * [Process spawning performance in Rust](https://kobzol.github.io/rust/2024/01/28/process-spawning-performance-in-rust.html)
 * [Introducing Foundations - our open source Rust service foundation library](https://blog.cloudflare.com/introducing-foundations-our-open-source-rust-service-foundation-library)
+* [High performance vector graphic video games](https://simbleau.github.io/rust/graphics/2023/11/20/using-vello-for-video-games.html)
 
 ### Rust Walkthroughs
 * [Rust Memory Leak Diagnosing Guides using Flame Graphs](https://www.greptime.com/blogs/2024-01-18-memory-leak)
