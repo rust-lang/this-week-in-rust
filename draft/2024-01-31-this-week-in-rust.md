@@ -65,6 +65,8 @@ and just ask the editors to select the category.
 
 * [Debugging Tokio Instrumentation](https://hegdenu.net/posts/debugging-tokio-instrumentation/)
 
+* [Playing with Nom and parser combinators](https://andreabergia.com/blog/2024/01/playing-with-nom-and-parser-combinators/)
+
 ### Research
 
 ### Miscellaneous
