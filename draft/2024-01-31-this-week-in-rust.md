@@ -194,7 +194,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This was a very quiet week with only one PR having any real impact on overall compiler performance. The removal of the internal `StructuralEq` trait saw a roughly 0.4% improvement on average across nearly 50 real-world benchmarks. 
+
+Triage done by **@rylev**.
+Revision range: [d6b151fc7..5c9c3c7](https://perf.rust-lang.org/?start=d6b151fc77e213bf637db0f12c1965ace3ffe255&end=5c9c3c7871d603ba13d38372830eca0c9013e575&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.5%  | [0.3%, 0.7%]   | 5     |
+| Regressions ❌ <br /> (secondary)  | 0.5%  | [0.2%, 1.4%]   | 10    |
+| Improvements ✅ <br /> (primary)   | -0.5% | [-1.5%, -0.2%] | 48    |
+| Improvements ✅ <br /> (secondary) | -2.3% | [-7.7%, -0.4%] | 36    |
+| All ❌✅ (primary)                 | -0.4% | [-1.5%, 0.7%]  | 53    |
+
+
+0 Regressions, 4 Improvements, 4 Mixed; 3 of them in rollups
+37 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/54a18b2515048a5695aa61e79cbf12b5ed9a118d/triage/2024-01-30.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
