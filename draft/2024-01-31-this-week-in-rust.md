@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 * [Fyrox Game Engine 0.33](https://fyrox.rs/blog/post/fyrox-game-engine-0-33/)
 * [Two months in Servo: better inline layout, stable Rust, and more!](https://servo.org/blog/2024/01/26/two-months-in-servo/)
 
+* [Ownership and data flow in GPUI](https://zed.dev/blog/gpui-ownership)
+
 ### Observations/Thoughts
 
 * [How to benchmark Rust code with Criterion](https://bencher.dev/learn/benchmarking/rust/criterion/)
@@ -92,7 +94,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### CFP - Speakers
 
-Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker. 
+Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
 *No Calls for papers were submitted this week.*
 
