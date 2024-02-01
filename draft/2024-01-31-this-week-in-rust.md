@@ -56,6 +56,8 @@ and just ask the editors to select the category.
 * [Some recent and notable changes to Rust](https://lwn.net/Articles/954033/)
 * [video] [Nine Rules for Data Structures in Rust](https://www.youtube.com/watch?v=09vg_GMftE8&t=9s)
 
+* [Visualizing Dynamic Programming with FireDBG](https://firedbg.sea-ql.org/blog/2024-01-31-visual-dynamic-program/)
+
 ### Rust Walkthroughs
 * [Rust Memory Leak Diagnosing Guides using Flame Graphs](https://www.greptime.com/blogs/2024-01-18-memory-leak)
 * [WebSockets - The Beginner’s Guide](https://vaktibabat.github.io/posts/websockets/)
