@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 * [Introducing Foundations - our open source Rust service foundation library](https://blog.cloudflare.com/introducing-foundations-our-open-source-rust-service-foundation-library)
 
 ### Rust Walkthroughs
+* [Rust Memory Leak Diagnosing Guides using Flame Graphs](https://www.greptime.com/blogs/2024-01-18-memory-leak)
 * [WebSockets - The Beginner’s Guide](https://vaktibabat.github.io/posts/websockets/)
 * [Writing Cronjobs in Rust](https://www.shuttle.rs/blog/2024/01/24/writing-cronjobs-rust)
 
