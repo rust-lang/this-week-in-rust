@@ -52,7 +52,6 @@ and just ask the editors to select the category.
 * [Introducing Foundations - our open source Rust service foundation library](https://blog.cloudflare.com/introducing-foundations-our-open-source-rust-service-foundation-library)
 * [High performance vector graphic video games](https://simbleau.github.io/rust/graphics/2023/11/20/using-vello-for-video-games.html)
 * [Some recent and notable changes to Rust](https://lwn.net/Articles/954033/)
-
 * [video] [Nine Rules for Data Structures in Rust](https://www.youtube.com/watch?v=09vg_GMftE8&t=9s)
 
 ### Rust Walkthroughs
@@ -60,6 +59,7 @@ and just ask the editors to select the category.
 * [WebSockets - The Beginner’s Guide](https://vaktibabat.github.io/posts/websockets/)
 * [Writing Cronjobs in Rust](https://www.shuttle.rs/blog/2024/01/24/writing-cronjobs-rust)
 * [Fearless concurrency with Rust, cats, and a few Raspberry PIs](https://manuel.bernhardt.io/posts/2024-01-26-rust-fearless-concurrency-cats-raspberry-pi/)
+* [Rust macros taking care of even more Lambda boilerplate](https://medium.com/@sam.van.overmeire/rust-macros-taking-care-of-even-more-lambda-boilerplate-0c5cb6c4b63c)
 
 ### Research
 
