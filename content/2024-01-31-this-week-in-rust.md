@@ -27,12 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [Rust and C filesystem APIs (Rust-for-Linux project)](https://lwn.net/Articles/958072/)
 * [Progress toward a GCC-based Rust compiler](https://lwn.net/Articles/954787/)
@@ -43,7 +37,6 @@ and just ask the editors to select the category.
 * [Function Contracts for Kani](https://model-checking.github.io/kani-verifier-blog/2024/01/29/function-contracts.html)
 * [Slint 1.4 Released with additional Look and Improved APIs](https://slint.dev/blog/slint-1.4-released)
 * [This Week in Fluvio #58 - Fluvio Open Source Streaming System can be deployed locally as a single binary](https://www.fluvio.io/news/this-week-in-fluvio-0058/)
-
 * [Quickwit 0.7 Released: Elasticsearch API compatibility and 30% performance gains](https://quickwit.io/blog/quickwit-0.7)
 
 ### Observations/Thoughts
@@ -56,9 +49,8 @@ and just ask the editors to select the category.
 * [Introducing Foundations - our open source Rust service foundation library](https://blog.cloudflare.com/introducing-foundations-our-open-source-rust-service-foundation-library)
 * [High performance vector graphic video games](https://simbleau.github.io/rust/graphics/2023/11/20/using-vello-for-video-games.html)
 * [Some recent and notable changes to Rust](https://lwn.net/Articles/954033/)
-* [video] [Nine Rules for Data Structures in Rust](https://www.youtube.com/watch?v=09vg_GMftE8&t=9s)
-
 * [Visualizing Dynamic Programming with FireDBG](https://firedbg.sea-ql.org/blog/2024-01-31-visual-dynamic-program/)
+* [video] [Nine Rules for Data Structures in Rust](https://www.youtube.com/watch?v=09vg_GMftE8&t=9s)
 
 ### Rust Walkthroughs
 * [Rust Memory Leak Diagnosing Guides using Flame Graphs](https://www.greptime.com/blogs/2024-01-18-memory-leak)
@@ -67,8 +59,6 @@ and just ask the editors to select the category.
 * [Fearless concurrency with Rust, cats, and a few Raspberry PIs](https://manuel.bernhardt.io/posts/2024-01-26-rust-fearless-concurrency-cats-raspberry-pi/)
 * [Rust macros taking care of even more Lambda boilerplate](https://medium.com/@sam.van.overmeire/rust-macros-taking-care-of-even-more-lambda-boilerplate-0c5cb6c4b63c)
 * [Debugging Tokio Instrumentation](https://hegdenu.net/posts/debugging-tokio-instrumentation/)
-
-### Research
 
 ### Miscellaneous
 * [audio] [Arroyo - Micah Wylde, Co-Founder and CEO](https://corrode.dev/podcast/s01e04-arroyo)
@@ -97,7 +87,6 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Ockam - Syntax highlighting for fenced code blocks, in command help output, on Linux works](https://github.com/build-trust/ockam/issues/7471)
 * [Ockam - Output for `ockam project ticket` is improved and information is not opaque](https://github.com/build-trust/ockam/issues/7478)
 * [Ockam - Output for both `ockam project ticket` and `ockam project enroll` is improved, with support for `--output json`](https://github.com/build-trust/ockam/issues/7473)
-
 * [Hyperswitch - [FIX]: Add a configuration validation for workers](https://github.com/juspay/hyperswitch/issues/3510)
 * [Hyperswitch - [FEATURE]: Create a delete endpoing for Config Table](https://github.com/juspay/hyperswitch/issues/3488)
 * [Hyperswitch - [FEATURE]: Setup code coverage for local tests & CI](https://github.com/juspay/hyperswitch/issues/1587)
@@ -403,7 +392,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/18t4wtx/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -419,4 +408,4 @@ Thanks to [Brian Kung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1ag0grd/this_week_in_rust_532/)</small>
