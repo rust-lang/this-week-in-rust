@@ -54,6 +54,8 @@ and just ask the editors to select the category.
 * [WebSockets - The Beginner’s Guide](https://vaktibabat.github.io/posts/websockets/)
 * [Writing Cronjobs in Rust](https://www.shuttle.rs/blog/2024/01/24/writing-cronjobs-rust)
 
+* [Fearless concurrency with Rust, cats, and a few Raspberry PIs](https://manuel.bernhardt.io/posts/2024-01-26-rust-fearless-concurrency-cats-raspberry-pi/)
+
 ### Research
 
 ### Miscellaneous
