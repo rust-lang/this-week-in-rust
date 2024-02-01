@@ -66,10 +66,7 @@ and just ask the editors to select the category.
 * [Writing Cronjobs in Rust](https://www.shuttle.rs/blog/2024/01/24/writing-cronjobs-rust)
 * [Fearless concurrency with Rust, cats, and a few Raspberry PIs](https://manuel.bernhardt.io/posts/2024-01-26-rust-fearless-concurrency-cats-raspberry-pi/)
 * [Rust macros taking care of even more Lambda boilerplate](https://medium.com/@sam.van.overmeire/rust-macros-taking-care-of-even-more-lambda-boilerplate-0c5cb6c4b63c)
-
 * [Debugging Tokio Instrumentation](https://hegdenu.net/posts/debugging-tokio-instrumentation/)
-
-* [Playing with Nom and parser combinators](https://andreabergia.com/blog/2024/01/playing-with-nom-and-parser-combinators/)
 
 ### Research
 
