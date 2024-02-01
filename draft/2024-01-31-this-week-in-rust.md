@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 * [Fyrox Game Engine 0.33](https://fyrox.rs/blog/post/fyrox-game-engine-0-33/)
 * [Two months in Servo: better inline layout, stable Rust, and more!](https://servo.org/blog/2024/01/26/two-months-in-servo/)
 * [Ownership and data flow in GPUI](https://zed.dev/blog/gpui-ownership)
+* [Function Contracts for Kani](https://model-checking.github.io/kani-verifier-blog/2024/01/29/function-contracts.html)
 
 ### Observations/Thoughts
 * [How to benchmark Rust code with Criterion](https://bencher.dev/learn/benchmarking/rust/criterion/)
