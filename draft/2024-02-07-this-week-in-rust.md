@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+[video] - [Async + FFI - not exactly a love story](https://www.youtube.com/watch?v=z3tpB94VKwU)
+
 ### Rust Walkthroughs
 
 ### Research
