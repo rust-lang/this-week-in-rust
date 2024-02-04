@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [video] [Traits and operators](https://www.youtube.com/watch?v=q6T5MsVmz7g)
 
 ### Research
 
