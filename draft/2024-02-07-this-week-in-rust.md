@@ -74,6 +74,8 @@ Are you a new or experienced speaker looking for a place to share something cool
 <!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
+* [**RustNL**](https://cryptpad.fr/form/#/2/form/view/WtBXS48XjwAvYXIjhgEY6yJ0EOpULX+zByvkHds2oUA/) | 2024-02-19 | Delft, The Netherlands | 2024-05-07 - 2024-05-08
+
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the submission website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust).
 
 ## Updates from the Rust Project
