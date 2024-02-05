@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [RustFest 2024 Announcement](https://rustfest.ch/posts/2024-02-01/announcement/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
