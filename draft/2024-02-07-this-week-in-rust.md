@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Write a simple netcat client and server in Rust](https://developerlife.com/2024/01/13/write-simple-netcat-in-rust/)
+
 ### Research
 
 ### Miscellaneous
