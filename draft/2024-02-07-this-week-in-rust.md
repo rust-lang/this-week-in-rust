@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Non-Affine Types, ManuallyDrop and Invariant Lifetimes in Rust - Part One](https://asyncmove.com/blog/2024/02/non-affine-types-manuallydrop-and-invariant-lifetimes-in-rust-part-one/)
+
 ### Rust Walkthroughs
 
 ### Research
