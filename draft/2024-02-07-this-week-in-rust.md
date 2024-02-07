@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rust web frameworks have subpar error reporting](https://www.lpalmieri.com/posts/rust-web-frameworks-have-subpar-error-reporting/)
+
 ### Rust Walkthroughs
 
 ### Research
