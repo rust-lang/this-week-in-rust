@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [video] [FOSDEM 2024 - Proving Performance](https://youtu.be/P87C4jNakGs)
+
 ### Research
 
 ### Miscellaneous
