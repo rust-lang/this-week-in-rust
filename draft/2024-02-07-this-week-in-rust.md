@@ -60,8 +60,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Fluvio - Build a new python wrapping for the fluvio client crate](https://github.com/infinyon/fluvio/issues/3842)
+* [Fluvio - MQTT Connector: Prefix auto generated Client ID to prevent connection drops](https://github.com/infinyon/fluvio/issues/3825)
+* [Ockam - Implement events in `SqlxDatabase`](https://github.com/build-trust/ockam/issues/7116)
+* [Ockam - Output for both `ockam project ticket` and `ockam project enroll` is improved, with support for `--output json`](https://github.com/build-trust/ockam/issues/7473)
+* [Ockam - Output for ockam project ticket is improved and information is not opaque ](https://github.com/build-trust/ockam/issues/7478)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
