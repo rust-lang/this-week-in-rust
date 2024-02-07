@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [All EuroRust 2023 talks ordered by the view count](https://techtalksweekly.substack.com/p/all-eurorust-2023-talks-ordered-by)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
