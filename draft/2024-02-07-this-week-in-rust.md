@@ -43,7 +43,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
-* [Processing trillions of tokens with Rust (case study)](https://mainmatter.com/cases/aleph-alpha/)
+* [Preprocessing trillions of tokens with Rust (case study)](https://mainmatter.com/cases/aleph-alpha/)
 
 ## Crate of the Week
 
