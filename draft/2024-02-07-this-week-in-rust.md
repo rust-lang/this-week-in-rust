@@ -63,6 +63,7 @@ and just ask the editors to select the category.
 * [Garbage Collection Without Unsafe Code](https://fitzgeraldnick.com/2024/02/06/safe-gc.html)
 * [Fragment specifiers in Rust Macros](https://anoopelias.github.io/posts/fragment-specifiers-in-rust-macros/)
 * [Writing a REST API in Rust](https://www.shuttle.rs/blog/2024/01/31/write-a-rest-api-rust)
+* [video] [Traits and operators](https://www.youtube.com/watch?v=q6T5MsVmz7g)
 
 ### Research
 
