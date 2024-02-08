@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 * [Polars — Why we have rewritten the string data type](https://pola.rs/posts/polars-string-type/)
 * [rust-analyzer changelog #219](https://rust-analyzer.github.io/thisweek/2024/02/05/changelog-219.html)
 
+- [Ratatui 0.26.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v026/)
+
 ### Observations/Thoughts
 * [Will it block?](https://blog.yoshuawuyts.com/what-is-blocking/)
 * [Embedded Rust in Production ..?](https://blog.lohr.dev/embedded-rust)
