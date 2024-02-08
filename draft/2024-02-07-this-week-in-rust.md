@@ -36,12 +36,10 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [Ratatui 0.26.0](https://ratatui.rs/highlights/v026/)
 * [Announcing the Tauri v2 Beta Release](https://beta.tauri.app/blog/tauri-2-0-0-beta/)
 * [Polars — Why we have rewritten the string data type](https://pola.rs/posts/polars-string-type/)
 * [rust-analyzer changelog #219](https://rust-analyzer.github.io/thisweek/2024/02/05/changelog-219.html)
-
-- [Ratatui 0.26.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v026/)
+* [Ratatui 0.26.0 - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v026/)
 
 ### Observations/Thoughts
 * [Will it block?](https://blog.yoshuawuyts.com/what-is-blocking/)
@@ -52,12 +50,10 @@ and just ask the editors to select the category.
 * [video] [Proving Performance - FOSDEM 2024 - Rust Dev Room](https://www.youtube.com/watch?v=P87C4jNakGs)
 * [video] [Stefan Baumgartner - Trials, Traits, and Tribulations](https://www.youtube.com/watch?v=DH9HIBbpktY)
 * [video] [Rainer Stropek - Memory Management in Rust](https://www.youtube.com/watch?v=5yy64sy2oSM)
-* [video] [Shachar Langbeheim - async & FFI - not exactly a love story](https://www.youtube.com/watch?v=z3tpB94VKwU)
+* [video] [Shachar Langbeheim - Async & FFI - not exactly a love story](https://www.youtube.com/watch?v=z3tpB94VKwU)
 * [video] [Massimiliano Mantione - Object Oriented Programming, and Rust](https://www.youtube.com/watch?v=XkCHjuF5Qps)
 * [audio] [Unlocking Rust's power through mentorship and knowledge spreading, with Tim McNamara](https://rustacean-station.org/episode/tim-mcnamara/)
 * [audio] [Asciinema with Marcin Kulik](https://rustacean-station.org/episode/marcin-kulik/)
-
-[video] - [Async + FFI - not exactly a love story](https://www.youtube.com/watch?v=z3tpB94VKwU)
 
 ### Rust Walkthroughs
 * [Garbage Collection Without Unsafe Code](https://fitzgeraldnick.com/2024/02/06/safe-gc.html)
@@ -106,6 +102,7 @@ Are you a new or experienced speaker looking for a place to share something cool
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
 * [RustNL 2024](https://2024.rustnl.org/) [CFP](https://cryptpad.fr/form/#/2/form/view/WtBXS48XjwAvYXIjhgEY6yJ0EOpULX+zByvkHds2oUA/) closes 2024-02-19 | Delft, The Netherlands | Event date: 2024-05-07 & 2024-05-08
+* [NDC Techtown](https://ndctechtown.com/call-for-papers) CFP closes 2024-04-14 | Kongsberg, Norway | Event date: 2024-09-09 to 2024-09-12
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the submission website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust).
 
