@@ -65,6 +65,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [RustFest 2024 Announcement](https://rustfest.ch/posts/2024-02-01/announcement/)
+
 ## Crate of the Week
 
 This week's crate is [embedded-cli-rs](https://github.com/funbiscuit/embedded-cli-rs), a library that makes it easy to create CLIs on embedded devices.
