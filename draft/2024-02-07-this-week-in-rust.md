@@ -55,6 +55,8 @@ and just ask the editors to select the category.
 * [audio] [Unlocking Rust's power through mentorship and knowledge spreading, with Tim McNamara](https://rustacean-station.org/episode/tim-mcnamara/)
 * [audio] [Asciinema with Marcin Kulik](https://rustacean-station.org/episode/marcin-kulik/)
 
+* [Non-Affine Types, ManuallyDrop and Invariant Lifetimes in Rust - Part One](https://asyncmove.com/blog/2024/02/non-affine-types-manuallydrop-and-invariant-lifetimes-in-rust-part-one/)
+
 ### Rust Walkthroughs
 * [AsyncWrite and a Tale of Four Implementations](https://medium.com/@razieh.behjati/asyncwrite-and-a-tale-of-four-implementations-e63aef8397f7)
 * [Garbage Collection Without Unsafe Code](https://fitzgeraldnick.com/2024/02/06/safe-gc.html)
