@@ -57,6 +57,8 @@ and just ask the editors to select the category.
 
 * [Non-Affine Types, ManuallyDrop and Invariant Lifetimes in Rust - Part One](https://asyncmove.com/blog/2024/02/non-affine-types-manuallydrop-and-invariant-lifetimes-in-rust-part-one/)
 
+* [Nine Rules for Accessing Cloud Files from Your Rust Code: Practical lessons from upgrading Bed-Reader, a bioinformatics library](https://towardsdatascience.com/nine-rules-for-accessing-cloud-files-from-your-rust-code-d456c1e2ceb4)
+
 ### Rust Walkthroughs
 * [AsyncWrite and a Tale of Four Implementations](https://medium.com/@razieh.behjati/asyncwrite-and-a-tale-of-four-implementations-e63aef8397f7)
 * [Garbage Collection Without Unsafe Code](https://fitzgeraldnick.com/2024/02/06/safe-gc.html)
