@@ -33,8 +33,6 @@ and just ask the editors to select the category.
 ### Foundation
 * [Google Contributes $1M to Rust Foundation to Support C++/Rust "Interop Initiative"](https://foundation.rust-lang.org/news/google-contributes-1m-to-rust-foundation-to-support-c-rust-interop-initiative/)
 
-### Newsletters
-
 ### Project/Tooling Updates
 * [Announcing the Tauri v2 Beta Release](https://beta.tauri.app/blog/tauri-2-0-0-beta/)
 * [Polars — Why we have rewritten the string data type](https://pola.rs/posts/polars-string-type/)
@@ -54,11 +52,8 @@ and just ask the editors to select the category.
 * [video] [Massimiliano Mantione - Object Oriented Programming, and Rust](https://www.youtube.com/watch?v=XkCHjuF5Qps)
 * [audio] [Unlocking Rust's power through mentorship and knowledge spreading, with Tim McNamara](https://rustacean-station.org/episode/tim-mcnamara/)
 * [audio] [Asciinema with Marcin Kulik](https://rustacean-station.org/episode/marcin-kulik/)
-
 * [Non-Affine Types, ManuallyDrop and Invariant Lifetimes in Rust - Part One](https://asyncmove.com/blog/2024/02/non-affine-types-manuallydrop-and-invariant-lifetimes-in-rust-part-one/)
-
 * [Nine Rules for Accessing Cloud Files from Your Rust Code: Practical lessons from upgrading Bed-Reader, a bioinformatics library](https://towardsdatascience.com/nine-rules-for-accessing-cloud-files-from-your-rust-code-d456c1e2ceb4)
-
 * [Rust web frameworks have subpar error reporting](https://www.lpalmieri.com/posts/rust-web-frameworks-have-subpar-error-reporting/)
 
 ### Rust Walkthroughs
@@ -67,16 +62,11 @@ and just ask the editors to select the category.
 * [Fragment specifiers in Rust Macros](https://anoopelias.github.io/posts/fragment-specifiers-in-rust-macros/)
 * [Writing a REST API in Rust](https://www.shuttle.rs/blog/2024/01/31/write-a-rest-api-rust)
 * [video] [Traits and operators](https://www.youtube.com/watch?v=q6T5MsVmz7g)
-
 * [Write a simple netcat client and server in Rust](https://developerlife.com/2024/01/13/write-simple-netcat-in-rust/)
-
-### Research
 
 ### Miscellaneous
 * [RustFest 2024 Announcement](https://rustfest.ch/posts/2024-02-01/announcement/)
-
 * [Preprocessing trillions of tokens with Rust (case study)](https://mainmatter.com/cases/aleph-alpha/)
-
 * [All EuroRust 2023 talks ordered by the view count](https://techtalksweekly.substack.com/p/all-eurorust-2023-talks-ordered-by)
 
 ## Crate of the Week
@@ -103,7 +93,6 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Ockam - Implement events in `SqlxDatabase`](https://github.com/build-trust/ockam/issues/7116)
 * [Ockam - Output for both `ockam project ticket` and `ockam project enroll` is improved, with support for `--output json`](https://github.com/build-trust/ockam/issues/7473)
 * [Ockam - Output for ockam project ticket is improved and information is not opaque ](https://github.com/build-trust/ockam/issues/7478)
-
 * [Hyperswitch - [FEATURE]: Setup code coverage for local tests & CI](https://github.com/juspay/hyperswitch/issues/1587)
 * [Hyperswitch - [FEATURE]: Have get_required_value to use ValidationError in OptionExt](https://github.com/juspay/hyperswitch/issues/860)
 
@@ -359,7 +348,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/18t4wtx/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
