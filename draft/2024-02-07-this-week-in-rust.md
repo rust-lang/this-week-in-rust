@@ -57,6 +57,8 @@ and just ask the editors to select the category.
 * [audio] [Unlocking Rust's power through mentorship and knowledge spreading, with Tim McNamara](https://rustacean-station.org/episode/tim-mcnamara/)
 * [audio] [Asciinema with Marcin Kulik](https://rustacean-station.org/episode/marcin-kulik/)
 
+[video] - [Async + FFI - not exactly a love story](https://www.youtube.com/watch?v=z3tpB94VKwU)
+
 ### Rust Walkthroughs
 * [Garbage Collection Without Unsafe Code](https://fitzgeraldnick.com/2024/02/06/safe-gc.html)
 * [Fragment specifiers in Rust Macros](https://anoopelias.github.io/posts/fragment-specifiers-in-rust-macros/)
