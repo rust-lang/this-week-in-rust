@@ -77,6 +77,8 @@ and just ask the editors to select the category.
 
 * [Preprocessing trillions of tokens with Rust (case study)](https://mainmatter.com/cases/aleph-alpha/)
 
+* [All EuroRust 2023 talks ordered by the view count](https://techtalksweekly.substack.com/p/all-eurorust-2023-talks-ordered-by)
+
 ## Crate of the Week
 
 This week's crate is [embedded-cli-rs](https://github.com/funbiscuit/embedded-cli-rs), a library that makes it easy to create CLIs on embedded devices.
