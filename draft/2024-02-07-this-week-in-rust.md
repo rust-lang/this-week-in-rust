@@ -64,6 +64,8 @@ and just ask the editors to select the category.
 * [Writing a REST API in Rust](https://www.shuttle.rs/blog/2024/01/31/write-a-rest-api-rust)
 * [video] [Traits and operators](https://www.youtube.com/watch?v=q6T5MsVmz7g)
 
+* [Write a simple netcat client and server in Rust](https://developerlife.com/2024/01/13/write-simple-netcat-in-rust/)
+
 ### Research
 
 ### Miscellaneous
