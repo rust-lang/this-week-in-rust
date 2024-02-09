@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Porting libyaml to Safe Rust: Some Thoughts](https://simonask.github.io/libyaml-safer/)
+
 ### Rust Walkthroughs
 
 ### Research
