@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Rust for hardware vendors](https://tweedegolf.nl/en/blog/113/rust-for-hardware-vendors)
 
 ## Crate of the Week
 
