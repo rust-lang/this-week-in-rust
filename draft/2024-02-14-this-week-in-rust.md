@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Which red is your function?](https://gist.github.com/JarredAllen/6cd2fd5faead573d1120a96135ed3346)
 
 ### Rust Walkthroughs
 
