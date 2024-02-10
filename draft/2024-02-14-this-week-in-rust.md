@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Rust/C++ Interop Part 1 - Just the Basics](https://tylerjw.dev/posts/rust-cpp-interop/)
+* [Rust/C++ Interop Part 2 - CMake](https://tylerjw.dev/posts/rust-cmake-interop-cmake/)
 
 ### Research
 
