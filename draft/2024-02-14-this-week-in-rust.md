@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+[Speeding up data analysis with Rayon and Rust](https://thedataquarry.com/posts/intro-to-rayon/)
+
 ### Research
 
 ### Miscellaneous
