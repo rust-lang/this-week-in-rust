@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [video] [Google Oauth with GraphQL API written in Rust](https://youtu.be/34ybD8Bgr7Q?si=4i_5MaKpB9A-vkbj) - part 1. Registration mutation.
+
 ### Research
 
 ### Miscellaneous
