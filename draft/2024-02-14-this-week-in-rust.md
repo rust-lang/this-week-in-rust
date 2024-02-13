@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rerun 0.13 - real-time kHz time series in a multimodal visualizer](https://www.rerun.io/blog/fast-plots)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
@@ -69,7 +71,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### CFP - Speakers
 
-Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker. 
+Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
 <!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
