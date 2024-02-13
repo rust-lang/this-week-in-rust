@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Why Rust? It's the safe choice](https://maticrobots.com/blog/why-rust-its-the-safe-choice/)
 
 ### Rust Walkthroughs
 
