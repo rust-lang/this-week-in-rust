@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Calling Rust FFI libraries from Go](https://blog.arcjet.com/calling-rust-ffi-libraries-from-go/)
+
 ### Research
 
 ### Miscellaneous
