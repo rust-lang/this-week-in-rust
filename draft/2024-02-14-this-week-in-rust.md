@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [egui 0.26 - Text selection in labels](https://github.com/emilk/egui/releases/tag/0.26.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
