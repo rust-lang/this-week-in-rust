@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Chasing a bug in a SAT solver](https://ochagavia.nl/blog/chasing-a-bug-in-a-sat-solver/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
