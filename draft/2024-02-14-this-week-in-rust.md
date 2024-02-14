@@ -39,7 +39,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
-* [Write a simple tcp chat server in Rust](https://developerlife.com/2024/01/13/write-simple-chat-server-in-rust/)
+* [Write a simple TCP chat server in Rust](https://developerlife.com/2024/01/13/write-simple-chat-server-in-rust/)
 
 ### Research
 
