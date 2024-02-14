@@ -325,6 +325,8 @@ Rusty Events between 2024-02-14 - 2024-03-13 🦀
     * [**Rust Lyon Meetup #8**](https://www.meetup.com/fr-FR/rust-lyon/events/298775631/)
 * 2024-02-22 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/)
     * [**Rust and Talk at Partisia**](https://www.meetup.com/rust-aarhus/events/298689622/)
+* 2024-02-29 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin/)
+    * [**Rust and Talk Berlin**](https://www.meetup.com/rust-berlin/events/299190389/)
 
 ### North America
 
