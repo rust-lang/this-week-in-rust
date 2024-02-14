@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Hello, Selium! Yet another streaming platform, but easier](https://www.selium.com/news/hello-selium)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
