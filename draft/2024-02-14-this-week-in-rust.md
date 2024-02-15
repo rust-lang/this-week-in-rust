@@ -35,8 +35,10 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-- [zbus 4.0 — release notes](https://github.com/dbus2/zbus/releases/tag/zbus-4.0.0)
+- [zbus 4.0][zbus4] released. [zbus][zbus] is a pure Rust D-Bus crate. The new version brings a more ergonomic and safer API.
 
+[zbus4]: https://github.com/dbus2/zbus/releases/tag/zbus-4.0.0
+[zbus]: https://github.com/dbus2/zbus
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
