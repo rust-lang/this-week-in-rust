@@ -79,6 +79,8 @@ and just ask the editors to select the category.
 * [video] [RustConf 2023](https://www.youtube.com/playlist?list=PL85XCvVPmGQgR1aCC-b0xx7sidGfopjCj)
 * [video] [Decrusting the tracing crate](https://www.youtube.com/watch?v=21rtHinFA40)
 
+* [Chasing a bug in a SAT solver](https://ochagavia.nl/blog/chasing-a-bug-in-a-sat-solver/)
+
 ## Crate of the Week
 
 This week's crate is [microflow](https://github.com/matteocarnelos/microflow-rs), a robust and efficient TinyML inference engine for embedded systems.
