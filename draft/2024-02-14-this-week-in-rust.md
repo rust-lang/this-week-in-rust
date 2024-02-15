@@ -271,7 +271,7 @@ If you are a feature implementer and would like your RFC to appear on the above 
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
 
-Rusty Events between 2024-02-14 - 2024-03-13 💕 🦀 💕
+### Rusty Events between 2024-02-14 - 2024-03-13 💕 🦀 💕
 
 ### Virtual
 
