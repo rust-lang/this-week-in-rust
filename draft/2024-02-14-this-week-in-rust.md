@@ -36,9 +36,10 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [This Month in Rust OSDev: January 2024](https://rust-osdev.com/this-month/2024-01/)
-
 * [zbus 4.0 released]. zbus is a pure Rust D-Bus crate. The new version brings a more ergonomic and safer API. Crates: [zbus4](https://github.com/dbus2/zbus/releases/tag/zbus-4.0.0) | [zbus](https://github.com/dbus2/zbus)
+* [This Month in Rust OSDev: January 2024](https://rust-osdev.com/this-month/2024-01/)
+* [Rerun 0.13 - real-time kHz time series in a multimodal visualizer](https://www.rerun.io/blog/fast-plots)
+
 ### Observations/Thoughts
 * [Which red is your function?](https://gist.github.com/JarredAllen/6cd2fd5faead573d1120a96135ed3346)
 * [Porting libyaml to Safe Rust: Some Thoughts](https://simonask.github.io/libyaml-safer/)
@@ -104,7 +105,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### CFP - Speakers
 
-Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker. 
+Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
 
 <!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
