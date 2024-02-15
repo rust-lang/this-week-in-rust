@@ -65,6 +65,8 @@ and just ask the editors to select the category.
 
 * [Speeding up data analysis with Rayon and Rust](https://thedataquarry.com/posts/intro-to-rayon/)
 
+* [video] [Google Oauth with GraphQL API written in Rust](https://www.youtube.com/watch?v=34ybD8Bgr7Q) - part 1. Registration mutation.
+
 ### Research
 
 ### Miscellaneous
