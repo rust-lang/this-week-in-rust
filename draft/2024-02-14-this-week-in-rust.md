@@ -56,10 +56,7 @@ and just ask the editors to select the category.
 * [Error management in Rust, and libs that support it](https://blog.frankel.ch/error-management-rust-libs/)
 * [Finishing Turborepo's migration from Go to Rust](https://vercel.com/blog/finishing-turborepos-migration-from-go-to-rust)
 * [Rust: Reading  a file line by line while being mindful of RAM usage](https://medium.com/@thomas.simmer/rust-read-a-file-line-by-line-while-taking-care-of-ram-usage-216b8344771c)
-
 * [video] [Rust 1.76.0: 73 highlights in 24 minutes!](https://youtu.be/gcB86MA9tuY)
-
-* [Porting libyaml to Safe Rust: Some Thoughts](https://simonask.github.io/libyaml-safer/)
 
 ### Rust Walkthroughs
 
