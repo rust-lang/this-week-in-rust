@@ -65,7 +65,6 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [RustFest 2024 Announcement](https://rustfest.ch/posts/2024-02-01/announcement/)
-* [Preprocessing trillions of tokens with Rust (case study)](https://mainmatter.com/cases/aleph-alpha/)
 * [All EuroRust 2023 talks ordered by the view count](https://techtalksweekly.substack.com/p/all-eurorust-2023-talks-ordered-by)
 
 ## Crate of the Week
