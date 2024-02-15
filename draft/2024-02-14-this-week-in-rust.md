@@ -62,9 +62,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Rust/C++ Interop Part 1 - Just the Basics](https://tylerjw.dev/posts/rust-cpp-interop/)
 * [Rust/C++ Interop Part 2 - CMake](https://tylerjw.dev/posts/rust-cmake-interop-cmake/)
-
 * [Speeding up data analysis with Rayon and Rust](https://thedataquarry.com/posts/intro-to-rayon/)
-
 * [video] [Google Oauth with GraphQL API written in Rust](https://www.youtube.com/watch?v=34ybD8Bgr7Q) - part 1. Registration mutation.
 
 ### Research
@@ -107,12 +105,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker. 
 
+
 <!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
+* [Devoxx PL 2024](https://devoxxpl24.cfp.dev/) | CFP closes 2024-03-01 | Krakow, Poland | Event date:  2024-06-19 - 2024-06-21
 * [RustFest Zürich 2024](https://rustfest.ch/cfp/) CFP closes 2024-03-31 | Zürich, Switzerland | Event date: 2024-06-19 - 2024-06-24
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the submission website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust).
+
 
 ## Updates from the Rust Project
 
