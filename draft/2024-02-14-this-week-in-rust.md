@@ -71,6 +71,8 @@ and just ask the editors to select the category.
 
 * [Calling Rust FFI libraries from Go](https://blog.arcjet.com/calling-rust-ffi-libraries-from-go/)
 
+* [Write a simple TCP chat server in Rust](https://developerlife.com/2024/01/13/write-simple-chat-server-in-rust/)
+
 ### Research
 
 ### Miscellaneous
