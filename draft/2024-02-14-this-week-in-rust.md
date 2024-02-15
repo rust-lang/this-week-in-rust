@@ -66,6 +66,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [The book "Asynchronous Programming in Rust" is released](https://www.packtpub.com/en-us/product/asynchronous-programming-in-rust-9781805128137)
 * [January 2024 Rust Jobs Report](https://filtra.io/rust-jan-24)
 * [audio] [How To Secure Your Audio Code Using Rust With Chase Kanipe](https://thewolfsound.com/talk019/)
 * [audio] [Tweede Golf - Rust in Production Podcast](https://corrode.dev/podcast/s01e05-tweede-golf/)
