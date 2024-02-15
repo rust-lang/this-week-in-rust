@@ -59,6 +59,8 @@ and just ask the editors to select the category.
 
 * [video] [Rust 1.76.0: 73 highlights in 24 minutes!](https://youtu.be/gcB86MA9tuY)
 
+* [Porting libyaml to Safe Rust: Some Thoughts](https://simonask.github.io/libyaml-safer/)
+
 ### Rust Walkthroughs
 
 ### Research
