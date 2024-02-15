@@ -28,21 +28,20 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+
 * [Announcing Rust 1.76.0](https://blog.rust-lang.org/2024/02/08/Rust-1.76.0.html)
 * [This Development-cycle in Cargo: 1.77](https://blog.rust-lang.org/inside-rust/2024/02/13/this-development-cycle-in-cargo-1-77.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
-* [zbus 4.0 released]. zbus is a pure Rust D-Bus crate. The new version brings a more ergonomic and safer API. Crates: [zbus4](https://github.com/dbus2/zbus/releases/tag/zbus-4.0.0) | [zbus](https://github.com/dbus2/zbus)
+
+* [zbus 4.0 released. zbus is a pure Rust D-Bus crate. The new version brings a more ergonomic and safer API](https://github.com/dbus2/zbus). Release: [zbus4](https://github.com/dbus2/zbus/releases/tag/zbus-4.0.0)
 * [This Month in Rust OSDev: January 2024](https://rust-osdev.com/this-month/2024-01/)
 * [Rerun 0.13 - real-time kHz time series in a multimodal visualizer](https://www.rerun.io/blog/fast-plots)
 * [egui 0.26 - Text selection in labels](https://github.com/emilk/egui/releases/tag/0.26.0)
 * [Hello, Selium! Yet another streaming platform, but easier](https://www.selium.com/news/hello-selium)
 
 ### Observations/Thoughts
+
 * [Which red is your function?](https://gist.github.com/JarredAllen/6cd2fd5faead573d1120a96135ed3346)
 * [Porting libyaml to Safe Rust: Some Thoughts](https://simonask.github.io/libyaml-safer/)
 * [Design safe collection API with compile-time reference stability in Rust](https://blog.cocl2.com/posts/rust-ref-stable-collection/)
@@ -65,6 +64,7 @@ and just ask the editors to select the category.
 * [video] [Rust 1.76.0: 73 highlights in 24 minutes!](https://youtu.be/gcB86MA9tuY)
 
 ### Rust Walkthroughs
+
 * [Rust/C++ Interop Part 1 - Just the Basics](https://tylerjw.dev/posts/rust-cpp-interop/)
 * [Rust/C++ Interop Part 2 - CMake](https://tylerjw.dev/posts/rust-cmake-interop-cmake/)
 * [Speeding up data analysis with Rayon and Rust](https://thedataquarry.com/posts/intro-to-rayon/)
@@ -72,9 +72,8 @@ and just ask the editors to select the category.
 * [Write a simple TCP chat server in Rust](https://developerlife.com/2024/01/13/write-simple-chat-server-in-rust/)
 * [video] [Google Oauth with GraphQL API written in Rust](https://www.youtube.com/watch?v=34ybD8Bgr7Q) - part 1. Registration mutation.
 
-### Research
-
 ### Miscellaneous
+
 * [The book "Asynchronous Programming in Rust" is released](https://www.packtpub.com/en-us/product/asynchronous-programming-in-rust-9781805128137)
 * [January 2024 Rust Jobs Report](https://filtra.io/rust-jan-24)
 * [Chasing a bug in a SAT solver](https://ochagavia.nl/blog/chasing-a-bug-in-a-sat-solver/)
@@ -83,7 +82,6 @@ and just ask the editors to select the category.
 * [audio] [Tweede Golf - Rust in Production Podcast](https://corrode.dev/podcast/s01e05-tweede-golf/)
 * [video] [RustConf 2023](https://www.youtube.com/playlist?list=PL85XCvVPmGQgR1aCC-b0xx7sidGfopjCj)
 * [video] [Decrusting the tracing crate](https://www.youtube.com/watch?v=21rtHinFA40)
-
 
 ## Crate of the Week
 
@@ -116,7 +114,6 @@ If you are a Rust project owner and are looking for contributors, please submit 
 ### CFP - Speakers
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
-
 
 <!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
@@ -339,7 +336,9 @@ If you are a feature implementer and would like your RFC to appear on the above 
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
 
-### Rusty Events between 2024-02-14 - 2024-03-13 💕 🦀 💕
+## Upcoming Events
+
+Rusty Events between 2024-02-14 - 2024-03-13 💕 🦀 💕
 
 ### Virtual
 
@@ -446,7 +445,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/18t4wtx/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
