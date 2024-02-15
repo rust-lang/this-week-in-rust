@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 * [Rerun 0.13 - real-time kHz time series in a multimodal visualizer](https://www.rerun.io/blog/fast-plots)
 * [egui 0.26 - Text selection in labels](https://github.com/emilk/egui/releases/tag/0.26.0)
 
+* [Hello, Selium! Yet another streaming platform, but easier](https://www.selium.com/news/hello-selium)
+
 ### Observations/Thoughts
 * [Which red is your function?](https://gist.github.com/JarredAllen/6cd2fd5faead573d1120a96135ed3346)
 * [Porting libyaml to Safe Rust: Some Thoughts](https://simonask.github.io/libyaml-safer/)
