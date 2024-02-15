@@ -28,20 +28,44 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.76.0](https://blog.rust-lang.org/2024/02/08/Rust-1.76.0.html)
+* [This Development-cycle in Cargo: 1.77](https://blog.rust-lang.org/inside-rust/2024/02/13/this-development-cycle-in-cargo-1-77.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [This Month in Rust OSDev: January 2024](https://rust-osdev.com/this-month/2024-01/)
 
 ### Observations/Thoughts
+* [Porting libyaml to Safe Rust: Some Thoughts](https://simonask.github.io/libyaml-safer/)
+* [Design safe collection API with compile-time reference stability in Rust](https://blog.cocl2.com/posts/rust-ref-stable-collection/)
+* [Cross compiling Rust to win32](https://neugierig.org/software/blog/2024/02/cross-compile.html)
+* [Modular: Mojo vs. Rust: is Mojo 🔥 faster than Rust 🦀 ?](https://www.modular.com/blog/mojo-vs-rust-is-mojo-faster-than-rust)
+* [Extending Rust's Effect System](https://blog.yoshuawuyts.com/extending-rusts-effect-system/)
+* [Allocation-free decoding with traits and high-ranked trait bounds](https://ferrous-systems.com/blog/rustls-borrow-checker-p2/)
+* [Cross-Compiling Your Project in Rust](https://www.tangramvision.com/blog/cross-compiling-your-project-in-rust)
+* [Kind: Our Rust library that provides zero-cost, type-safe identifiers](https://www.wingback.com/blog/kind-library-that-provides-zero-cost-type-safe-identifiers)
+* [Performance Roulette: The Luck of Code Alignment](https://www.bazhenov.me/posts/2024-02-performance-roulette/)
+* [Too dangerous for C++](https://blog.dureuill.net/articles/too-dangerous-cpp/)
+* [Building an Uptime Monitor in Rust](https://www.shuttle.rs/blog/2024/02/08/uptime-monitoring-rust)
+* [Box Plots at the Olympics](https://datacrayon.com/data-analysis-with-rust-notebooks/box-plots-at-the-olympics/)
+* [Rust in Production: Interview with FOSSA](https://serokell.io/blog/rust-in-production-fossa)
+* [Performance Pitfalls of Async Function Pointers (and Why It Might Not Matter)](https://www.byronwasti.com/async-func-pointers/)
+* [Error management in Rust, and libs that support it](https://blog.frankel.ch/error-management-rust-libs/)
+* [Finishing Turborepo's migration from Go to Rust](https://vercel.com/blog/finishing-turborepos-migration-from-go-to-rust)
+* [Rust: Reading  a file line by line while being mindful of RAM usage](https://medium.com/@thomas.simmer/rust-read-a-file-line-by-line-while-taking-care-of-ram-usage-216b8344771c)
 
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+* [audio] [How To Secure Your Audio Code Using Rust With Chase Kanipe](https://thewolfsound.com/talk019/)
+* [audio] [Tweede Golf - Rust in Production Podcast](https://corrode.dev/podcast/s01e05-tweede-golf/)
+* [video] [RustConf 2023](https://www.youtube.com/playlist?list=PL85XCvVPmGQgR1aCC-b0xx7sidGfopjCj)
+* [video] [Decrusting the tracing crate](https://www.youtube.com/watch?v=21rtHinFA40)
 
 ## Crate of the Week
 
