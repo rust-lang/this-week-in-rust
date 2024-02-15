@@ -42,7 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-* [The book "Asynchronous Programming in Rust" is released](https://www.amazon.com/Asynchronous-Programming-Rust-asynchronous-programming/dp/1805128132/)
+* [The book "Asynchronous Programming in Rust" is released](https://www.packtpub.com/en-us/product/asynchronous-programming-in-rust-9781805128137)
 
 ## Crate of the Week
 
