@@ -40,7 +40,6 @@ and just ask the editors to select the category.
 * [This Month in Rust OSDev: January 2024](https://rust-osdev.com/this-month/2024-01/)
 * [Rerun 0.13 - real-time kHz time series in a multimodal visualizer](https://www.rerun.io/blog/fast-plots)
 * [egui 0.26 - Text selection in labels](https://github.com/emilk/egui/releases/tag/0.26.0)
-
 * [Hello, Selium! Yet another streaming platform, but easier](https://www.selium.com/news/hello-selium)
 
 ### Observations/Thoughts
@@ -69,11 +68,9 @@ and just ask the editors to select the category.
 * [Rust/C++ Interop Part 1 - Just the Basics](https://tylerjw.dev/posts/rust-cpp-interop/)
 * [Rust/C++ Interop Part 2 - CMake](https://tylerjw.dev/posts/rust-cmake-interop-cmake/)
 * [Speeding up data analysis with Rayon and Rust](https://thedataquarry.com/posts/intro-to-rayon/)
-* [video] [Google Oauth with GraphQL API written in Rust](https://www.youtube.com/watch?v=34ybD8Bgr7Q) - part 1. Registration mutation.
-
 * [Calling Rust FFI libraries from Go](https://blog.arcjet.com/calling-rust-ffi-libraries-from-go/)
-
 * [Write a simple TCP chat server in Rust](https://developerlife.com/2024/01/13/write-simple-chat-server-in-rust/)
+* [video] [Google Oauth with GraphQL API written in Rust](https://www.youtube.com/watch?v=34ybD8Bgr7Q) - part 1. Registration mutation.
 
 ### Research
 
