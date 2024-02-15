@@ -39,7 +39,6 @@ and just ask the editors to select the category.
 * [zbus 4.0 released]. zbus is a pure Rust D-Bus crate. The new version brings a more ergonomic and safer API. Crates: [zbus4](https://github.com/dbus2/zbus/releases/tag/zbus-4.0.0) | [zbus](https://github.com/dbus2/zbus)
 * [This Month in Rust OSDev: January 2024](https://rust-osdev.com/this-month/2024-01/)
 * [Rerun 0.13 - real-time kHz time series in a multimodal visualizer](https://www.rerun.io/blog/fast-plots)
-
 * [egui 0.26 - Text selection in labels](https://github.com/emilk/egui/releases/tag/0.26.0)
 
 ### Observations/Thoughts
@@ -74,12 +73,13 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [The book "Asynchronous Programming in Rust" is released](https://www.packtpub.com/en-us/product/asynchronous-programming-in-rust-9781805128137)
 * [January 2024 Rust Jobs Report](https://filtra.io/rust-jan-24)
+* [Chasing a bug in a SAT solver](https://ochagavia.nl/blog/chasing-a-bug-in-a-sat-solver/)
+* [Rust for hardware vendors](https://tweedegolf.nl/en/blog/113/rust-for-hardware-vendors)
 * [audio] [How To Secure Your Audio Code Using Rust With Chase Kanipe](https://thewolfsound.com/talk019/)
 * [audio] [Tweede Golf - Rust in Production Podcast](https://corrode.dev/podcast/s01e05-tweede-golf/)
 * [video] [RustConf 2023](https://www.youtube.com/playlist?list=PL85XCvVPmGQgR1aCC-b0xx7sidGfopjCj)
 * [video] [Decrusting the tracing crate](https://www.youtube.com/watch?v=21rtHinFA40)
 
-* [Chasing a bug in a SAT solver](https://ochagavia.nl/blog/chasing-a-bug-in-a-sat-solver/)
 
 ## Crate of the Week
 
