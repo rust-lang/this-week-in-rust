@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [This Month in Rust OSDev: January 2024](https://rust-osdev.com/this-month/2024-01/)
 
+* [zbus 4.0 released]. zbus is a pure Rust D-Bus crate. The new version brings a more ergonomic and safer API. Crates: [zbus4](https://github.com/dbus2/zbus/releases/tag/zbus-4.0.0) | [zbus](https://github.com/dbus2/zbus)
 ### Observations/Thoughts
 * [Which red is your function?](https://gist.github.com/JarredAllen/6cd2fd5faead573d1120a96135ed3346)
 * [Porting libyaml to Safe Rust: Some Thoughts](https://simonask.github.io/libyaml-safer/)
