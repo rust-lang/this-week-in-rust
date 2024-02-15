@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 * [This Month in Rust OSDev: January 2024](https://rust-osdev.com/this-month/2024-01/)
 
 ### Observations/Thoughts
+* [Which red is your function?](https://gist.github.com/JarredAllen/6cd2fd5faead573d1120a96135ed3346)
 * [Porting libyaml to Safe Rust: Some Thoughts](https://simonask.github.io/libyaml-safer/)
 * [Design safe collection API with compile-time reference stability in Rust](https://blog.cocl2.com/posts/rust-ref-stable-collection/)
 * [Cross compiling Rust to win32](https://neugierig.org/software/blog/2024/02/cross-compile.html)
