@@ -28,21 +28,62 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.76.0](https://blog.rust-lang.org/2024/02/08/Rust-1.76.0.html)
+* [This Development-cycle in Cargo: 1.77](https://blog.rust-lang.org/inside-rust/2024/02/13/this-development-cycle-in-cargo-1-77.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [zbus 4.0 released]. zbus is a pure Rust D-Bus crate. The new version brings a more ergonomic and safer API. Crates: [zbus4](https://github.com/dbus2/zbus/releases/tag/zbus-4.0.0) | [zbus](https://github.com/dbus2/zbus)
+* [This Month in Rust OSDev: January 2024](https://rust-osdev.com/this-month/2024-01/)
+* [Rerun 0.13 - real-time kHz time series in a multimodal visualizer](https://www.rerun.io/blog/fast-plots)
+* [egui 0.26 - Text selection in labels](https://github.com/emilk/egui/releases/tag/0.26.0)
+* [Hello, Selium! Yet another streaming platform, but easier](https://www.selium.com/news/hello-selium)
 
 ### Observations/Thoughts
+* [Which red is your function?](https://gist.github.com/JarredAllen/6cd2fd5faead573d1120a96135ed3346)
+* [Porting libyaml to Safe Rust: Some Thoughts](https://simonask.github.io/libyaml-safer/)
 * [Design safe collection API with compile-time reference stability in Rust](https://blog.cocl2.com/posts/rust-ref-stable-collection/)
+* [Cross compiling Rust to win32](https://neugierig.org/software/blog/2024/02/cross-compile.html)
+* [Modular: Mojo vs. Rust: is Mojo 🔥 faster than Rust 🦀 ?](https://www.modular.com/blog/mojo-vs-rust-is-mojo-faster-than-rust)
+* [Extending Rust's Effect System](https://blog.yoshuawuyts.com/extending-rusts-effect-system/)
+* [Allocation-free decoding with traits and high-ranked trait bounds](https://ferrous-systems.com/blog/rustls-borrow-checker-p2/)
+* [Cross-Compiling Your Project in Rust](https://www.tangramvision.com/blog/cross-compiling-your-project-in-rust)
+* [Kind: Our Rust library that provides zero-cost, type-safe identifiers](https://www.wingback.com/blog/kind-library-that-provides-zero-cost-type-safe-identifiers)
+* [Performance Roulette: The Luck of Code Alignment](https://www.bazhenov.me/posts/2024-02-performance-roulette/)
+* [Too dangerous for C++](https://blog.dureuill.net/articles/too-dangerous-cpp/)
+* [Building an Uptime Monitor in Rust](https://www.shuttle.rs/blog/2024/02/08/uptime-monitoring-rust)
+* [Box Plots at the Olympics](https://datacrayon.com/data-analysis-with-rust-notebooks/box-plots-at-the-olympics/)
+* [Rust in Production: Interview with FOSSA](https://serokell.io/blog/rust-in-production-fossa)
+* [Performance Pitfalls of Async Function Pointers (and Why It Might Not Matter)](https://www.byronwasti.com/async-func-pointers/)
+* [Error management in Rust, and libs that support it](https://blog.frankel.ch/error-management-rust-libs/)
+* [Finishing Turborepo's migration from Go to Rust](https://vercel.com/blog/finishing-turborepos-migration-from-go-to-rust)
+* [Rust: Reading a file line by line while being mindful of RAM usage](https://medium.com/@thomas.simmer/rust-read-a-file-line-by-line-while-taking-care-of-ram-usage-216b8344771c)
+* [Why Rust? It's the safe choice](https://maticrobots.com/blog/why-rust-its-the-safe-choice/)
+* [video] [Rust 1.76.0: 73 highlights in 24 minutes!](https://youtu.be/gcB86MA9tuY)
 
 ### Rust Walkthroughs
+* [Rust/C++ Interop Part 1 - Just the Basics](https://tylerjw.dev/posts/rust-cpp-interop/)
+* [Rust/C++ Interop Part 2 - CMake](https://tylerjw.dev/posts/rust-cmake-interop-cmake/)
+* [Speeding up data analysis with Rayon and Rust](https://thedataquarry.com/posts/intro-to-rayon/)
+* [Calling Rust FFI libraries from Go](https://blog.arcjet.com/calling-rust-ffi-libraries-from-go/)
+* [Write a simple TCP chat server in Rust](https://developerlife.com/2024/01/13/write-simple-chat-server-in-rust/)
+* [video] [Google Oauth with GraphQL API written in Rust](https://www.youtube.com/watch?v=34ybD8Bgr7Q) - part 1. Registration mutation.
 
 ### Research
 
 ### Miscellaneous
+* [The book "Asynchronous Programming in Rust" is released](https://www.packtpub.com/en-us/product/asynchronous-programming-in-rust-9781805128137)
+* [January 2024 Rust Jobs Report](https://filtra.io/rust-jan-24)
+* [Chasing a bug in a SAT solver](https://ochagavia.nl/blog/chasing-a-bug-in-a-sat-solver/)
+* [Rust for hardware vendors](https://tweedegolf.nl/en/blog/113/rust-for-hardware-vendors)
+* [audio] [How To Secure Your Audio Code Using Rust With Chase Kanipe](https://thewolfsound.com/talk019/)
+* [audio] [Tweede Golf - Rust in Production Podcast](https://corrode.dev/podcast/s01e05-tweede-golf/)
+* [video] [RustConf 2023](https://www.youtube.com/playlist?list=PL85XCvVPmGQgR1aCC-b0xx7sidGfopjCj)
+* [video] [Decrusting the tracing crate](https://www.youtube.com/watch?v=21rtHinFA40)
+
 
 ## Crate of the Week
 
@@ -65,6 +106,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+* [Hyperswitch - [FEATURE]: Setup code coverage for local tests & CI](https://github.com/juspay/hyperswitch/issues/1587)
+* [Hyperswitch - [FEATURE]: Have get_required_value to use ValidationError in OptionExt](https://github.com/juspay/hyperswitch/issues/860)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -72,14 +115,17 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### CFP - Speakers
 
-Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker. 
+Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
+
 
 <!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
+* [Devoxx PL 2024](https://devoxxpl24.cfp.dev/) | CFP closes 2024-03-01 | Krakow, Poland | Event date:  2024-06-19 - 2024-06-21
 * [RustFest Zürich 2024](https://rustfest.ch/cfp/) CFP closes 2024-03-31 | Zürich, Switzerland | Event date: 2024-06-19 - 2024-06-24
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the submission website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust).
+
 
 ## Updates from the Rust Project
 
@@ -230,7 +276,28 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Relatively balanced results this week, with more improvements than regressions. Some of the
+larger regressions are not relevant, however there was a real large regression on `doc` builds, that was
+caused by a correctness fix (`rustdoc` was doing the wrong thing before).
+
+Triage done by **@kobzol**.
+Revision range: [0984becf..74c3f5a1](https://perf.rust-lang.org/?start=0984becf01112cbd3583c796541760b65340c8db&end=74c3f5a146860c94ff4d179fc3bfa34f879adf41&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 2.1%  | [0.2%, 12.0%]  | 44    |
+| Regressions ❌ <br /> (secondary)  | 5.2%  | [0.2%, 20.1%]  | 76    |
+| Improvements ✅ <br /> (primary)   | -0.7% | [-2.4%, -0.2%] | 139   |
+| Improvements ✅ <br /> (secondary) | -1.3% | [-3.3%, -0.3%] | 86    |
+| All ❌✅ (primary)                 | -0.1% | [-2.4%, 12.0%] | 183   |
+
+
+6 Regressions, 5 Improvements, 8 Mixed; 5 of them in rollups
+53 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/44d19b96ed49ebefa5aaffb842bf2e92b759beb2/triage/2024-02-13.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -272,30 +339,20 @@ If you are a feature implementer and would like your RFC to appear on the above 
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
 
-## Upcoming Events
-
-Rusty Events between 2024-02-14 - 2024-03-13 🦀
+### Rusty Events between 2024-02-14 - 2024-03-13 💕 🦀 💕
 
 ### Virtual
 
-* 2024-02-07 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/)
-    * [**Indy.rs - Ezra Singh - How Rust Saved My Eyes**](https://www.meetup.com/indyrs/events/298641965/)
-* 2024-02-08 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
-    * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298251149/)
-* 2024-02-08 | Virtual (Nürnberg, DE) | [Rust Nüremberg](https://www.meetup.com/rust-noris/)
-    * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/297945246/)
-* 2024-02-10 | Virtual (Krakow, PL) | [Stacja IT Kraków](https://www.meetup.com/stacja-it-krakow/)
-    * [**Rust – budowanie narzędzi działających w linii komend**](https://www.meetup.com/stacja-it-krakow/events/298303129/)
-* 2024-02-10 | Virtual (Wrocław, PL) | [Stacja IT Wrocław](https://www.meetup.com/stacja-it-wroclaw/)
-    * [**Rust – budowanie narzędzi działających w linii komend**](https://www.meetup.com/stacja-it-wroclaw/events/298303130/)
-* 2024-02-13 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
-    * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/298341575/)
 * 2024-02-15 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
-    * [**Rust Hack n Learn**](https://meet.jit.si/RustHackAndLearnBerlin) | [**Mirror: Rust Hack n Learn**](https://www.meetup.com/rust-berlin/events/298457899/)
+    * [**Rust Hack and Learn**](https://meet.jit.si/RustHackAndLearnBerlin) | [**Mirror: Rust Hack n Learn**](https://www.meetup.com/rust-berlin/events/298457899/)
 * 2024-02-15 | Virtual + In person (Praha, CZ) | [Rust Czech Republic](https://www.meetup.com/rust-czech-republic/)
     * [**Introduction and Rust in production**](https://www.meetup.com/rust-czech-republic/events/298605120/)
-* 2024-02-19 | Virtual (Melbourne, VIC, AU) | [Rust Melbourne](https://www.meetup.com/rust-melbourne/)
-    * [**February 2024 Rust Melbourne Meetup**](https://www.meetup.com/rust-melbourne/events/298877455/)
+* 2024-02-19 | Virtual (Melbourne, VIC, AU)| [Rust Melbourne](https://www.meetup.com/rust-melbourne/)
+    * [**(Hybrid - in person & online) February 2024 Rust Melbourne Meetup - Day 1**](https://www.meetup.com/rust-melbourne/events/298877455/)
+* 2024-02-20 | Virtual (Melbourne, VIC, AU) | [Rust Melbourne](https://www.meetup.com/rust-melbourne/)
+    * [**(Hybrid - in person & online) February 2024 Rust Melbourne Meetup - Day 2**](https://www.meetup.com/rust-melbourne/events/298877469/)
+* 2024-02-20 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
+    * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/297128189/)
 * 2024-02-20 | Virtual | [Rust for Lunch](https://lunch.rs/about/)
     * [**Lunch**](https://lunch.rs/meetups/2024-02-20/)
 * 2024-02-21 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
@@ -304,24 +361,30 @@ Rusty Events between 2024-02-14 - 2024-03-13 🦀
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/292763497/)
 * 2024-02-22 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
     * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298251150/)
+* 2024-02-27 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
+    * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/299068302/)
+* 2024-02-29 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
+    * [**Rust Hack and Learn**](https://meet.jit.si/RustHackAndLearnBerlin) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298457901/) | [**Mirror: Berline.rs page**](https://berline.rs/2024/02/29/rust-hack-and-learn.html)
+* 2024-02-29 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
+    * [**Surfing the Rusty Wireless Waves with the ESP32-C3 Board**](https://www.meetup.com/charlottesville-rust-meetup/events/298372724/)
+* 2024-03-06 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/)
+    * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/299047891/)
+* 2024-03-07 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
+    * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298368787/)
+* 2024-03-12 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
+    * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/298341582/)
+* 2024-03-12 | Hybrid (Virtual + In-person) Munich, DE | [Rust Munich](https://www.meetup.com/rust-munich/)
+    * [**Rust Munich 2024 / 1 - hybrid**](https://www.meetup.com/rust-munich/events/298507657/)
 
 ### Asia
 
-* 2024-02-10 | Hyderabad, IN | [Rust Language Hyderabad](https://www.meetup.com/rust-hyderabad/)
-    * [**Rust Language Develope BootCamp**](https://www.meetup.com/rust-hyderabad/events/298687498/)
+* 2024-02-17 | New Delhi, IN | [Rust Delhi](https://www.meetup.com/rustdelhi/)
+    * [**Meetup #5**](https://www.meetup.com/rustdelhi/events/298864671/)
 
 ### Europe
 
-* 2024-02-07 | Cologne, DE | [Rust Cologne](https://www.meetup.com/rustcologne/)
-    * [**Embedded Abstractions**](https://www.meetup.com/rustcologne/events/298913201/) | [**Event page**](https://rust.cologne/2024/02/07/embedded-hal.html)
-* 2024-02-07 | London, UK | [Rust London User Group](https://www.meetup.com/rust-london-user-group/)
-    * [**Rust for the Web — Mainmatter x Shuttle Takeover**](https://www.meetup.com/rust-london-user-group/events/298413388/)
-* 2024-02-08 | Bern, CH | [Rust Bern](https://www.meetup.com/rust-bern/)
-    * [**Rust Bern Meetup #1 2024 🦀**](https://www.meetup.com/rust-bern/events/298488858/)
-* 2024-02-08 | Oslo, NO | [Rust Oslo](https://www.meetup.com/Rust-Oslo/)
-    * [**Rust-based banter**](https://www.meetup.com/rust-oslo/events/298861296/)
-* 2024-02-13 | Trondheim, NO | [Rust Trondheim](https://www.meetup.com/rust-trondheim/)
-    * [**Building Games with Rust: Dive into the Bevy Framework**](https://www.meetup.com/rust-trondheim/events/298838682/)
+* 2024-02-15 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/)
+    * [**Rust Hacknight #2: Compilers**](https://www.meetup.com/copenhagen-rust-community/events/298999792/)
 * 2024-02-15 | Praha, CZ - Virtual + In-person | [Rust Czech Republic](https://www.meetup.com/rust-czech-republic/)
     * [**Introduction and Rust in production**](https://www.meetup.com/rust-czech-republic/events/298605120/)
 * 2024-02-21 | Lyon, FR | [Rust Lyon](https://www.meetup.com/fr-FR/rust-lyon/)
@@ -329,39 +392,41 @@ Rusty Events between 2024-02-14 - 2024-03-13 🦀
 * 2024-02-22 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/)
     * [**Rust and Talk at Partisia**](https://www.meetup.com/rust-aarhus/events/298689622/)
 * 2024-02-29 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin/)
-    * [**Rust and Talk Berlin**](https://www.meetup.com/rust-berlin/events/299190389/)
+    * [**Rust and Tell - Season start 2024**](https://www.meetup.com/rust-berlin/events/299190389/)
+* 2024-03-12 | Munich, DE + Virtual | [Rust Munich](https://www.meetup.com/rust-munich/)
+    * [**Rust Munich 2024 / 1 - hybrid**](https://www.meetup.com/rust-munich/events/298507657/)
 
 ### North America
 
-* 2024-02-07 | Brookline, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
-    * [**Coolidge Corner Brookline Rust Lunch, Feb 7**](https://www.meetup.com/bostonrust/events/297635028/)
-* 2024-02-08 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/)
-    * [**BEAST: Recreating a classic DOS terminal game in Rust**](https://www.meetup.com/utah-rust/events/298888955/)
-* 2024-02-12 | Minneapolis, MN, US | [Minneapolis Rust Meetup](https://www.meetup.com/minneapolis-rust-meetup/)
-    * [**Minneapolis Rust: Open Source Contrib Hackathon & Happy Hour**](https://www.meetup.com/minneapolis-rust-meetup/events/297760219/)
-* 2024-02-13 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/)
-    * [**Rust NYC Monthly Mixer**](https://www.meetup.com/rust-nyc/events/298593474/)
-* 2024-02-13 | Seattle, WA, US | [Cap Hill Rust Coding/Hacking/Learning](https://www.meetup.com/cap-hill-rust/)
-    * [**Rusty Coding/Hacking/Learning Night**](https://www.meetup.com/cap-hill-rust/events/296564994/)
 * 2024-02-15 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
     * [**Back Bay Rust Lunch, Feb 15**](https://www.meetup.com/bostonrust/events/297635043/)
 * 2024-02-15 | Seattle, WA, US | [Seattle Rust User Group](https://www.meetup.com/seattle-rust-user-group/)
     * [**Seattle Rust User Group Meetup**](https://www.meetup.com/seattle-rust-user-group/events/298631774/)
+* 2024-02-20 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/)
+    * [**Rust NYC Monthly Mixer (Moved to Feb 20th)**](https://www.meetup.com/rust-nyc/events/298593474/)
 * 2024-02-20 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/298603354/)
+* 2024-02-21 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
+    * [**Evening Boston Rust Meetup at Microsoft, February 21**](https://www.meetup.com/bostonrust/events/299054786/)
 * 2024-02-22 | Mountain View, CA, US | [Mountain View Rust Meetup](https://www.meetup.com/mv-rust-meetup/)
     * [**Rust Meetup at Hacker Dojo**](https://www.meetup.com/mv-rust-meetup/events/299043763/)
 * 2024-02-28 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/)
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/297380841/)
+* 2024-03-07 | Mountain View, CA, US | [Mountain View Rust Meetup](https://www.meetup.com/mv-rust-meetup/)
+    * [**Rust Meetup at Hacker Dojo**](https://www.meetup.com/mv-rust-meetup/events/299043793/)
 
 ### Oceania
 
 * 2024-02-19 | Melbourne, VIC, AU + Virtual | [Rust Melbourne](https://www.meetup.com/rust-melbourne/)
-    * [**February 2024 Rust Melbourne Meetup**](https://www.meetup.com/rust-melbourne/events/298877455/)
+    * [**(Hybrid - in person & online) February 2024 Rust Melbourne Meetup - Day 1**](https://www.meetup.com/rust-melbourne/events/298877455/)
+* 2024-02-20 | Melbourne, VIC, AU + Virtual | [Rust Melbourne](https://www.meetup.com/rust-melbourne/)
+    * [**(Hybrid - in person & online) February 2024 Rust Melbourne Meetup - Day 2**](https://www.meetup.com/rust-melbourne/events/298877469/)
 * 2024-02-27 | Canberra, ACT, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/)
     * [**February Meetup**](https://www.meetup.com/rust-canberra/events/297650401/)
 * 2024-02-27 | Sydney, NSW, AU | [Rust Sydney](https://www.meetup.com/rust-sydney/)
     * [**🦀 spire ⚡ & Quick**](https://www.meetup.com/rust-sydney/events/298892952/)
+* 2024-03-05 | Auckland, NZ | [Rust AKL](https://www.meetup.com/rust-akl/)
+    * [**Rust AKL: Introduction to Embedded Rust + The State of Rust UI**](https://www.meetup.com/rust-akl/events/299158887/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
