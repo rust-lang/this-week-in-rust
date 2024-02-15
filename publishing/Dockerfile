@@ -4,6 +4,7 @@ FROM --platform=linux/amd64 python:3.8.16-slim
 WORKDIR /usr/twir
 
 RUN apt update
+RUN apt-get update && apt-get install -y build-essential
 RUN apt install -y curl
 
 # pelican+friends
