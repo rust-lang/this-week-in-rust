@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [argmin_testfunctions 0.2.0: test functions for optimization problems in Rust and Python](https://argmin-rs.org/blog/argmin-testfunctions-v0-2-0/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
