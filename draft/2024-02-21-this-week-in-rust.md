@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Rust/C++ Interop Part 3 - Cxx](https://tylerjw.dev/posts/rust-cmake-interop-part-3-cxx/)
 
 ### Research
 
