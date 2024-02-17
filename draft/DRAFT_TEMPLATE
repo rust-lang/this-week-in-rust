@@ -51,6 +51,25 @@ and just ask the editors to select the category.
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
+## Call for Testing
+
+An important step for RFC implementation is for people to experiment with the
+implementation and give feedback, especially before stabilization.  The following
+RFCs would benefit from user testing before moving forward:
+
+<!-- Calls for Testing go here, use this format:
+    * [<RFC Topic>](<RFC URL>)
+        * [Tracking Issue](<Tracking Issue URL>)
+        * [Testing steps](<Testing Steps URL>)
+-->
+<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
+<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+
+If you are a feature implementer and would like your RFC to appear on the above list, add the
+[`call-for-testing`](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing) label
+to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s)
+of the featuren need testing.
+
 ## Call for Participation; projects and speakers
 
 ### CFP - Projects
@@ -127,23 +146,6 @@ which are reaching a decision. Express your opinions now.
 <!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
 <!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
 <!-- * [new|updated] []() -->
-
-### [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
-An important step for RFC implementation is for people to experiment with the
-implementation and give feedback, especially before stabilization.  The following
-RFCs would benefit from user testing before moving forward:
-
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
-
-If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
-label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
-need testing.
 
 ## Upcoming Events
 
