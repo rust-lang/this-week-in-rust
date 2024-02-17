@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [vscode-rustup](https://github.com/emberian/vscode-rustup) is released, with a status bar item to view/set workspace overrides and periodic background checks for new toolchains, so you don't miss any of those delicious delicious updates.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
