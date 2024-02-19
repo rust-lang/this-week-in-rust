@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
++ [FR] [Les closures en Rust] [https://lafor.ge/closure/]
 
 ### Research
 
