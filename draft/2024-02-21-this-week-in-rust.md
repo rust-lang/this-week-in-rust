@@ -35,8 +35,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-[Rust Client for Timeplus Proton SQL Streaming](https://www.timeplus.com/post/rust-client-for-proton?utm_source=rustnewsletter&utm_medium=referral&utm_campaign=rustclient)
-
+[Rust Client for Timeplus Proton SQL Streaming](https://www.timeplus.com/post/rust-client-for-proton)
 
 ### Observations/Thoughts
 
