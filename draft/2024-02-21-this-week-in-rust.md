@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Writing down my mental model of unsafe](https://gist.github.com/ia0/820ab50d4c5f0f5e3aeb841cef8e6792)
+
 ### Rust Walkthroughs
 
 ### Research
