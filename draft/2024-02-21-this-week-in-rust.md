@@ -63,6 +63,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
 
+* [ Hyperswitch - [FEATURE] : add `offset` field to disputes list](https://github.com/juspay/hyperswitch/issues/3749)
+* [ Hyperswitch - [FEATURE]: add`offset` field to mandates list](https://github.com/juspay/hyperswitch/issues/3748)
+* [ Hyperswitch - [FEATURE]: add pagination support for customers list](https://github.com/juspay/hyperswitch/issues/3746)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
