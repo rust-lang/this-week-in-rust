@@ -60,8 +60,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [Ockam - Syntax highlighting for fenced code blocks, in command help output, on Linux works](https://github.com/build-trust/ockam/issues/7471)
+* [Ockam - Shut down Worker/Processor if initialization failed](https://github.com/build-trust/ockam/issues/7575)
+* [Ockam - Output for ockam project ticket is improved and information is not opaque](https://github.com/build-trust/ockam/issues/7478)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
