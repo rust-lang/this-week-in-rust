@@ -183,7 +183,9 @@ Rusty Events between 2024-02-21 - 2024-03-20 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/298341582/)
 * 2024-03-12 | Hybrid (Virtual + In-person) Munich, DE | [Rust Munich](https://www.meetup.com/rust-munich/)
     * [**Rust Munich 2024 / 1 - hybrid**](https://www.meetup.com/rust-munich/events/298507657/)
-
+* 2024-03-26 | Virtual + In Person (Barcelona, ES) | [BcnRust](https://www.meetup.com/es-ES/bcnrust/)
+    * [**13th BcnRust Meetup**](https://www.meetup.com/es-ES/bcnrust/events/299223178/) - [Stream](https://www.youtube.com/@bcnrust)
+ 
 ### Asia
 
 * 2024-02-17 | New Delhi, IN | [Rust Delhi](https://www.meetup.com/rustdelhi/)
@@ -203,6 +205,8 @@ Rusty Events between 2024-02-21 - 2024-03-20 🦀
     * [**Rust and Tell - Season start 2024**](https://www.meetup.com/rust-berlin/events/299190389/)
 * 2024-03-12 | Munich, DE + Virtual | [Rust Munich](https://www.meetup.com/rust-munich/)
     * [**Rust Munich 2024 / 1 - hybrid**](https://www.meetup.com/rust-munich/events/298507657/)
+* 2024-03-26 | Hybrid (Barcelona, ES) | [BcnRust](https://www.meetup.com/es-ES/bcnrust/)
+    * [**13th BcnRust Meetup**](https://www.meetup.com/es-ES/bcnrust/events/299223178/)
 
 ### North America
 
