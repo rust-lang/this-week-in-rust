@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 - [vscode-rustup released: interface with rustup as a VSCode extension](https://github.com/emberian/vscode-rustup)
 
+- [OpenPGP-card-tools 0.10.0 released. The project provides the `oct` commandline tool for inspecting, configuring and using OpenPGP card devices such as Nitrokey or Yubikey.](https://codeberg.org/openpgp-card/openpgp-card-tools)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
