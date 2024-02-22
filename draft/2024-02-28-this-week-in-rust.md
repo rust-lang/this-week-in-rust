@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 ### Research
+* [ Stochastic-rs: High-performance crate to generate stochastic processes to train neural networks mainly for mathematical finance or any other related research fields ](https://github.com/dancixx/stochastic-rs)
 
 ### Miscellaneous
 
