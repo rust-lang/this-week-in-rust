@@ -31,6 +31,8 @@ and just ask the editors to select the category.
 * [2023 Annual Rust Survey Results](https://blog.rust-lang.org/2024/02/19/2023-Rust-Annual-Survey-2023-results.html)* [Rust participates in Google Summer of Code 2024](https://blog.rust-lang.org/2024/02/21/Rust-participates-in-GSoC-2024.html)
 * [Leadership Council March Representative Selections](https://blog.rust-lang.org/inside-rust/2024/02/19/leadership-council-repr-selection.html)
 
+* [The Rust project survey results for the year 2023](https://blog.rust-lang.org/2024/02/19/2023-Rust-Annual-Survey-2023-results.html)
+
 ### Foundation
 * [Save the Date: RustConf 2024 – September 10-13](https://foundation.rust-lang.org/news/save-the-date-rustconf-2024-september-10-13/)
 * [Second Security Initiative Report Details Rust Security Advancements](https://foundation.rust-lang.org/news/second-security-initiative-report-details-rust-security-advancements/)
@@ -41,29 +43,47 @@ and just ask the editors to select the category.
 * [Bevy 0.13](https://bevyengine.org/news/bevy-0-13/)
 * [Bevy XPBD 0.4: Collider Agnosticism, Layer Rework, and Bevy 0.13](https://joonaa.dev/blog/05/bevy-xpbd-0-4-0)
 * [uv: Python packaging in Rust](https://astral.sh/blog/uv)
-* [git-cliff: What's new in 2.0.0?](https://git-cliff.org/blog/2.0.0/)
+* [git-cliff: What's new in 2.0.0? (highly customizable changelog generator)](https://git-cliff.org/blog/2.0.0/)
 * [rustc_codegen_gcc: Progress Report #30](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-30)
 * [RustRover Q4 2023 Feature Updates Retrospective](https://blog.jetbrains.com/rust/2024/02/14/q4-2023-features-retrospective/)
 * [rust-analyzer changelog #221](https://rust-analyzer.github.io/thisweek/2024/02/19/changelog-221.html)
+- [Anouncing Stabby 3.0](https://www.reddit.com/r/rust/comments/1amjknw/anouncing_stabby_300_and_rustconf_video_available/)
+
+* [argmin_testfunctions 0.2.0: test functions for optimization problems in Rust and Python](https://argmin-rs.org/blog/argmin-testfunctions-v0-2-0/)
+
+- [vscode-rustup released: interface with rustup as a VSCode extension](https://github.com/emberian/vscode-rustup)
+
+- [OpenPGP-card-tools 0.10.0 released. The project provides the `oct` commandline tool for inspecting, configuring and using OpenPGP card devices such as Nitrokey or Yubikey.](https://codeberg.org/openpgp-card/openpgp-card-tools)
+
+[Rust Client for Timeplus Proton SQL Streaming](https://www.timeplus.com/post/rust-client-for-proton)
 
 ### Observations/Thoughts
 * [FuturesUnordered and the order of futures](https://without.boats/blog/futures-unordered/)
 * [Rust Tooling: 8 tools that will increase your productivity](https://www.shuttle.rs/blog/2024/02/15/best-rust-tooling)
+* [Writing down my mental model of unsafe](https://gist.github.com/ia0/820ab50d4c5f0f5e3aeb841cef8e6792)
+* [How can Rust be so fast in the TechEmpower Web Framework Benchmarks?](https://kerkour.com/rust-fast-techempower-web-framework-benchmarks)
 
 ### Rust Walkthroughs
 * [From 1s to 4ms](https://registerspill.thorstenball.com/p/from-1s-to-4ms)
 * [Translating OpenStreetMap data to HTML5 Canvas with Rust and WebAssembly](https://mary.codes/blog/programming/translating_openstreetmaps_to_HTML5_canvas_rust_wasm/)
 * [macros_rule!](https://auroranssolis.github.io/rust/2024/02/14/macros-rule.html)
 * [Implementing JWT Authentication in Rust](https://www.shuttle.rs/blog/2024/02/21/using-jwt-auth-rust)
++ [FR] [Les closures en Rust](https://lafor.ge/closure/)
+* [Deploying Axum to Lambda and ECS, using Lambda Web Adapter](https://medium.com/@sam.van.overmeire/deploying-axum-to-lambda-and-ecs-using-lambda-web-adapter-2273bd56bb81)
+* [Rust/C++ Interop Part 3 - Cxx](https://tylerjw.dev/posts/rust-cmake-interop-part-3-cxx/)
 * [video] [Safe Rust AIN'T SAFE!? (cve-rs)](https://www.youtube.com/watch?v=vfMpIsJwpjU)
+
 
 ### Research
 
 ### Miscellaneous
+* [video] [Release-plz: releasing crates like it's 2023 (RustLab 2023)](https://www.youtube.com/watch?v=kXPBVGDkQSs)
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [kind](https://github.com/wingbackapp/kind/), a helper crate for typed UUIDs.
+
+Thanks to [Denys Séguret](https://users.rust-lang.org/t/crate-of-the-week/2704/1290) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -81,6 +101,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
 
+* [ Hyperswitch - [FEATURE] : add `offset` field to disputes list](https://github.com/juspay/hyperswitch/issues/3749)
+* [ Hyperswitch - [FEATURE]: add`offset` field to mandates list](https://github.com/juspay/hyperswitch/issues/3748)
+* [ Hyperswitch - [FEATURE]: add pagination support for customers list](https://github.com/juspay/hyperswitch/issues/3746)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
@@ -96,11 +120,117 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+508 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2024-02-13..2024-02-20
+
+* [implicitly enable evex512 if avx512 is enabled](https://github.com/rust-lang/rust/pull/121088)
+* [`const_mut_refs`: allow mutable pointers to statics](https://github.com/rust-lang/rust/pull/120932)
+* [`macro_rules`: Preserve all metavariable spans in a global side table](https://github.com/rust-lang/rust/pull/119673)
+* [add APIs for fetching foreign items](https://github.com/rust-lang/rust/pull/120982)
+* [add `rust.frame-pointers` config option](https://github.com/rust-lang/rust/pull/121203)
+* [add more checks for `unnamed_fields` during HIR analysis](https://github.com/rust-lang/rust/pull/121198)
+* [allow AST and HIR visitors to return `ControlFlow`](https://github.com/rust-lang/rust/pull/121256)
+* [allow mutable references in const values when they point to no memory](https://github.com/rust-lang/rust/pull/121179)
+* [always evaluate free constants and statics, even if previous errors occurred](https://github.com/rust-lang/rust/pull/121087)
+* [avoid an ICE in diagnostics](https://github.com/rust-lang/rust/pull/121020)
+* [be less confident when `dyn` suggestion is not checked for object safety](https://github.com/rust-lang/rust/pull/120530)
+* [check normalized call signature for WF in mir typeck](https://github.com/rust-lang/rust/pull/118882)
+* [consider principal trait ref's auto-trait super-traits in dyn upcasting](https://github.com/rust-lang/rust/pull/119338)
+* [continue compilation after `check_mod_type_wf` errors](https://github.com/rust-lang/rust/pull/120847)
+* [continue compilation even if inherent impl checks fail](https://github.com/rust-lang/rust/pull/121113)
+* [continue reporting remaining errors instead of silently dropping them](https://github.com/rust-lang/rust/pull/121032)
+* [detect when method call on argument could be removed to fulfill failed trait bound](https://github.com/rust-lang/rust/pull/121100)
+* [fix an ICE in the recursion lint](https://github.com/rust-lang/rust/pull/121181)
+* [ignore unsized types when trying to determine the size of the original type](https://github.com/rust-lang/rust/pull/121104)
+* [make `ConstPropLint` lint run on promoteds](https://github.com/rust-lang/rust/pull/119432)
+* [make `async Fn` trait kind errors better](https://github.com/rust-lang/rust/pull/121119)
+* [properly deal with weak alias types as self types of impls](https://github.com/rust-lang/rust/pull/120780)
+* [rename `ConstPropLint` to `KnownPanicsLint`](https://github.com/rust-lang/rust/pull/121286)
+* [store static initializers in metadata instead of the MIR of statics](https://github.com/rust-lang/rust/pull/116564)
+* [suggest `into_iter()` when `Iterator` method called on `impl IntoIterator`](https://github.com/rust-lang/rust/pull/119928)
+* [trigger `unsafe_code` lint on invocations of `global_asm`](https://github.com/rust-lang/rust/pull/121318)
+* [use fulfillment in next trait solver coherence](https://github.com/rust-lang/rust/pull/121193)
+* [miri: implement x86 AVX intrinsics](https://github.com/rust-lang/miri/pull/3192)
+* [optimize `delayed_bug` handling](https://github.com/rust-lang/rust/pull/121015)
+* [optimize away poison guards when std is built with panic=abort](https://github.com/rust-lang/rust/pull/100603)
+* [overhaul `Diagnostic` and `DiagnosticBuilder`](https://github.com/rust-lang/rust/pull/120576)
+* [implement `Instant` for UEFI](https://github.com/rust-lang/rust/pull/120889)
+* [implement `Default` for `AsciiChar`](https://github.com/rust-lang/rust/pull/121024)
+* [store `core::str::CharSearcher::utf8_size` as u8](https://github.com/rust-lang/rust/pull/119808)
+* [make `File::read_to_end` less special](https://github.com/rust-lang/rust/pull/120538)
+* [implement `NonZero` traits generically](https://github.com/rust-lang/rust/pull/121241)
+* [make `NonZero::get` generic](https://github.com/rust-lang/rust/pull/120563)
+* [make `io::BorrowedCursor::advance` safe](https://github.com/rust-lang/rust/pull/120741)
+* [make `is_nonoverlapping #[inline]`](https://github.com/rust-lang/rust/pull/121311)
+* [specialize flattening iterators with only one inner item](https://github.com/rust-lang/rust/pull/121204)
+* [specialize some methods of `io::Chain`](https://github.com/rust-lang/rust/pull/105917)
+* [rename `MaybeUninit::write_slice`](https://github.com/rust-lang/rust/pull/116385)
+* [don't use `mem::zeroed` in `vec::IntoIter`](https://github.com/rust-lang/rust/pull/120952)
+* [optimize `VecDeque::drain` for (half-)open ranges](https://github.com/rust-lang/rust/pull/118264)
+* [fix BTreeMap's `Cursor::remove_{next,prev}`](https://github.com/rust-lang/rust/pull/120505)
+* [add `Future` and `IntoFuture` to the 2024 prelude](https://github.com/rust-lang/rust/pull/121041)
+* [hashbrown: inline tweaks to `HashTable`](https://github.com/rust-lang/hashbrown/pull/505)
+* [hashbrown: make `HashSet::insert` return OccupiedEntry](https://github.com/rust-lang/hashbrown/pull/495)
+* [codegen\_gcc: correctly handle `--use-system-gcc`](https://github.com/rust-lang/rustc_codegen_gcc/pull/429)
+* [codegen\_gcc: implement dummy emit=llvm-ir](https://github.com/rust-lang/rustc_codegen_gcc/pull/437)
+* [codegen\_gcc: use the default rust mangling](https://github.com/rust-lang/rustc_codegen_gcc/pull/440)
+* [codegen\_cranelift: fix `simd_select_bitmask` on big-endian systems](https://github.com/rust-lang/rustc_codegen_cranelift/pull/1457)
+* [codegen\_cranelift: fix download hash check on big-endian systems](https://github.com/rust-lang/rustc_codegen_cranelift/pull/1458)
+* [cargo add: Ensure users know a feature is being created](https://github.com/rust-lang/cargo/pull/13434)
+* [cargo add: Remove inconsistent period](https://github.com/rust-lang/cargo/pull/13446)
+* [cargo test: Suggest `--` for libtest arguments](https://github.com/rust-lang/cargo/pull/13448)
+* [cargo: respect `rust-version` when generating lockfile](https://github.com/rust-lang/cargo/pull/12861)
+* [rustdoc: correctly handle long crate names on mobile](https://github.com/rust-lang/rust/pull/120526)
+* [rustdoc: cross-crate re-exports: correctly render late-bound params in source order even if early-bound params are present](https://github.com/rust-lang/rust/pull/121022)
+* [rustdoc: fix handling of `doc_auto_cfg` feature for cfg attributes on glob reexport](https://github.com/rust-lang/rust/pull/120548)
+* [rustfmt: fix error trying to format unnormalized UTF8](https://github.com/rust-lang/rustfmt/pull/6073)
+* [format `async` trait bounds in rustfmt](https://github.com/rust-lang/rust/pull/121035)
+* [add clippy into the known `cfg` list](https://github.com/rust-lang/rust/pull/121137)
+* [clippy: add new lint `deprecated_clippy_cfg_attr`](https://github.com/rust-lang/rust-clippy/pull/12292)
+* [clippy: `case_sensitive_file_extension_comparisons`: Don't trigger on digits-only extensions](https://github.com/rust-lang/rust-clippy/pull/12293)
+* [clippy: `implied_bounds_in_impls`: avoid linting on overlapping associated tys](https://github.com/rust-lang/rust-clippy/pull/11881)
+* [clippy: `incompatible_msrv`: allow expressions that come from desugaring](https://github.com/rust-lang/rust-clippy/pull/12275)
+* [clippy: `new_without_default`: Now emits on const fns](https://github.com/rust-lang/rust-clippy/pull/10903)
+* [clippy: allow negative literals in `redundant_guards`](https://github.com/rust-lang/rust-clippy/pull/11641)
+* [clippy: check trait items in `min_ident_chars`](https://github.com/rust-lang/rust-clippy/pull/12294)
+* [clippy: default test output conflict handling to error](https://github.com/rust-lang/rust-clippy/pull/12314)
+* [clippy: ensure ASM syntax detect `global_asm!` and `asm!` only on x86 architectures](https://github.com/rust-lang/rust-clippy/pull/12305)
+* [clippy: add check for identical guards in lint `match_same_arms`](https://github.com/rust-lang/rust-clippy/pull/12059)
+* [clippy: make `#[allow]` work on field for `pub_underscore_fields`](https://github.com/rust-lang/rust-clippy/pull/12309)
+* [clippy: ignore imported items in `min_ident_chars`](https://github.com/rust-lang/rust-clippy/pull/12285)
+* [rust-analyzer: activate on top level `Cargo.toml` and `rust-project.json` files](https://github.com/rust-lang/rust-analyzer/pull/16550)
+* [rust-analyzer: deduplicate references when some of them are in macro expansions](https://github.com/rust-lang/rust-analyzer/pull/16358)
+* [rust-analyzer: create alias when renaming an import](https://github.com/rust-lang/rust-analyzer/pull/16489)
+* [rust-analyzer: add non-exhaustive-let diagnostic](https://github.com/rust-lang/rust-analyzer/pull/16303)
+* [rust-analyzer: add unresolved-ident diagnostic](https://github.com/rust-lang/rust-analyzer/pull/16589)
+* [rust-analyzer: support multiple tab stops for completions in VSCode](https://github.com/rust-lang/rust-analyzer/pull/16475)
+* [rust-analyzer: add basic support for `become` expr/tail calls](https://github.com/rust-lang/rust-analyzer/pull/15003)
+* [rust-analyzer: don't add `\` before `{`](https://github.com/rust-lang/rust-analyzer/pull/16618)
+* [rust-analyzer: don't show type mismatches for `{unknown}` to non-`{unknown}` mismatches](https://github.com/rust-lang/rust-analyzer/pull/16583)
+* [rust-analyzer: fix "needless return" diagnostic for trailing item declarations](https://github.com/rust-lang/rust-analyzer/pull/16574)
+* [rust-analyzer: fix build scripts not being rebuilt in some occasions](https://github.com/rust-lang/rust-analyzer/pull/16247)
+* [rust-analyzer: fix false positives for "unnecessary else" diagnostic](https://github.com/rust-lang/rust-analyzer/pull/16590)
+* [rust-analyzer: fix snippets being placed leftwards of where they should be](https://github.com/rust-lang/rust-analyzer/pull/16579)
+* [rust-analyzer: improve recover on `=` for record field initializer and pattern](https://github.com/rust-lang/rust-analyzer/pull/16553)
+* [rust-analyzer: only complete traits in `impl .. for`](https://github.com/rust-lang/rust-analyzer/pull/16544)
+* [rust-analyzer: place snippets correctly in multi-edit assists](https://github.com/rust-lang/rust-analyzer/pull/16569)
+* [rust-analyzer: server hanging up on build script task](https://github.com/rust-lang/rust-analyzer/pull/16616)
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+
+Relatively few PRs affecting performance, but massive improvements thanks to the
+update to LLVM 18 (PR #12005), as well as the merging of two related compiler
+queries (PR #120919) and other small improvements from a rollup (PR #121055).
+
+Triage done by **@pnkfelix**.
+Revision range: [74c3f5a1..5af21304](https://perf.rust-lang.org/?start=74c3f5a146860c94ff4d179fc3bfa34f879adf41&end=5af2130440c198afefbe5b8099342057cf272ef4&absolute=false&stat=instructions%3Au)
+
+3 Regressions, 1 Improvements, 6 Mixed; 1 of them in rollups
+65 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/d18e18944c4ab14988ca5219b17530454d133474/triage/2024-02-20.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -169,18 +299,6 @@ Rusty Events between 2024-02-21 - 2024-03-20 🦀
 
 ### Virtual
 
-* 2024-02-15 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
-    * [**Rust Hack and Learn**](https://meet.jit.si/RustHackAndLearnBerlin) | [**Mirror: Rust Hack n Learn**](https://www.meetup.com/rust-berlin/events/298457899/)
-* 2024-02-15 | Virtual + In person (Praha, CZ) | [Rust Czech Republic](https://www.meetup.com/rust-czech-republic/)
-    * [**Introduction and Rust in production**](https://www.meetup.com/rust-czech-republic/events/298605120/)
-* 2024-02-19 | Virtual (Melbourne, VIC, AU)| [Rust Melbourne](https://www.meetup.com/rust-melbourne/)
-    * [**(Hybrid - in person & online) February 2024 Rust Melbourne Meetup - Day 1**](https://www.meetup.com/rust-melbourne/events/298877455/)
-* 2024-02-20 | Virtual (Melbourne, VIC, AU) | [Rust Melbourne](https://www.meetup.com/rust-melbourne/)
-    * [**(Hybrid - in person & online) February 2024 Rust Melbourne Meetup - Day 2**](https://www.meetup.com/rust-melbourne/events/298877469/)
-* 2024-02-20 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
-    * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/297128189/)
-* 2024-02-20 | Virtual | [Rust for Lunch](https://lunch.rs/about/)
-    * [**Lunch**](https://lunch.rs/meetups/2024-02-20/)
 * 2024-02-21 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
     * [**Rust for Rustaceans Book Club: Chapter 2 - Types**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/298991687/)
 * 2024-02-21 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
@@ -201,20 +319,15 @@ Rusty Events between 2024-02-21 - 2024-03-20 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/298341582/)
 * 2024-03-12 | Hybrid (Virtual + In-person) Munich, DE | [Rust Munich](https://www.meetup.com/rust-munich/)
     * [**Rust Munich 2024 / 1 - hybrid**](https://www.meetup.com/rust-munich/events/298507657/)
+* 2024-03-14 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin/)
+    * [**Web Frontend Co-Learning (online)**](https://www.meetup.com/opentechschool-berlin/events/298406445/)
+* 2024-03-21 | Seattle, WA, US | [Seattle Rust User Group](https://www.meetup.com/seattle-rust-user-group/)
+    * [**Seattle Rust User Group Meetup**](https://www.meetup.com/seattle-rust-user-group/events/298631832/)
 * 2024-03-26 | Virtual + In Person (Barcelona, ES) | [BcnRust](https://www.meetup.com/es-ES/bcnrust/)
     * [**13th BcnRust Meetup**](https://www.meetup.com/es-ES/bcnrust/events/299223178/) - [Stream](https://www.youtube.com/@bcnrust)
- 
-### Asia
-
-* 2024-02-17 | New Delhi, IN | [Rust Delhi](https://www.meetup.com/rustdelhi/)
-    * [**Meetup #5**](https://www.meetup.com/rustdelhi/events/298864671/)
 
 ### Europe
 
-* 2024-02-15 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/)
-    * [**Rust Hacknight #2: Compilers**](https://www.meetup.com/copenhagen-rust-community/events/298999792/)
-* 2024-02-15 | Praha, CZ - Virtual + In-person | [Rust Czech Republic](https://www.meetup.com/rust-czech-republic/)
-    * [**Introduction and Rust in production**](https://www.meetup.com/rust-czech-republic/events/298605120/)
 * 2024-02-21 | Lyon, FR | [Rust Lyon](https://www.meetup.com/fr-FR/rust-lyon/)
     * [**Rust Lyon Meetup #8**](https://www.meetup.com/fr-FR/rust-lyon/events/298775631/)
 * 2024-02-22 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/)
@@ -223,19 +336,17 @@ Rusty Events between 2024-02-21 - 2024-03-20 🦀
     * [**Rust and Tell - Season start 2024**](https://www.meetup.com/rust-berlin/events/299190389/)
 * 2024-03-12 | Munich, DE + Virtual | [Rust Munich](https://www.meetup.com/rust-munich/)
     * [**Rust Munich 2024 / 1 - hybrid**](https://www.meetup.com/rust-munich/events/298507657/)
-* 2024-03-26 | Hybrid (Barcelona, ES) | [BcnRust](https://www.meetup.com/es-ES/bcnrust/)
+* 2024-03-19 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/)
+    * [**Hack Night**](https://www.meetup.com/rust-aarhus/events/299028814/)
+* 2024-03-20 | Girona, ES | [Rust Girona](https://www.meetup.com/rust-girona/)
+    * [**Introduction to programming Microcontrollers with Rust**](https://www.meetup.com/rust-girona/events/299172343/)
+* 2024-03-26 | Barcelona, ES + Virtual | [BcnRust](https://www.meetup.com/es-ES/bcnrust/)
     * [**13th BcnRust Meetup**](https://www.meetup.com/es-ES/bcnrust/events/299223178/)
+* 2024-03-26, 2024-03-28 | London, UK | [Rust Nation UK](https://www.rustnationuk.com/)
+    * [**Rust Nation 2024**](https://www.rustnationuk.com/)
 
 ### North America
 
-* 2024-02-15 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
-    * [**Back Bay Rust Lunch, Feb 15**](https://www.meetup.com/bostonrust/events/297635043/)
-* 2024-02-15 | Seattle, WA, US | [Seattle Rust User Group](https://www.meetup.com/seattle-rust-user-group/)
-    * [**Seattle Rust User Group Meetup**](https://www.meetup.com/seattle-rust-user-group/events/298631774/)
-* 2024-02-20 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/)
-    * [**Rust NYC Monthly Mixer (Moved to Feb 20th)**](https://www.meetup.com/rust-nyc/events/298593474/)
-* 2024-02-20 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
-    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/298603354/)
 * 2024-02-21 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
     * [**Evening Boston Rust Meetup at Microsoft, February 21**](https://www.meetup.com/bostonrust/events/299054786/)
 * 2024-02-22 | Mountain View, CA, US | [Mountain View Rust Meetup](https://www.meetup.com/mv-rust-meetup/)
@@ -247,14 +358,12 @@ Rusty Events between 2024-02-21 - 2024-03-20 🦀
 
 ### Oceania
 
-* 2024-02-19 | Melbourne, VIC, AU + Virtual | [Rust Melbourne](https://www.meetup.com/rust-melbourne/)
-    * [**(Hybrid - in person & online) February 2024 Rust Melbourne Meetup - Day 1**](https://www.meetup.com/rust-melbourne/events/298877455/)
-* 2024-02-20 | Melbourne, VIC, AU + Virtual | [Rust Melbourne](https://www.meetup.com/rust-melbourne/)
-    * [**(Hybrid - in person & online) February 2024 Rust Melbourne Meetup - Day 2**](https://www.meetup.com/rust-melbourne/events/298877469/)
 * 2024-02-27 | Canberra, ACT, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/)
     * [**February Meetup**](https://www.meetup.com/rust-canberra/events/297650401/)
 * 2024-02-27 | Sydney, NSW, AU | [Rust Sydney](https://www.meetup.com/rust-sydney/)
     * [**🦀 spire ⚡ & Quick**](https://www.meetup.com/rust-sydney/events/298892952/)
+* 2024-02-29 | Brisbane, QLD, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane/)
+    * [**February Meetup**](https://www.meetup.com/rust-brisbane/events/299304438/)
 * 2024-03-05 | Auckland, NZ | [Rust AKL](https://www.meetup.com/rust-akl/)
     * [**Rust AKL: Introduction to Embedded Rust + The State of Rust UI**](https://www.meetup.com/rust-akl/events/299158887/)
 
@@ -280,7 +389,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Shared mutable state is evil, and you can solve it by forbidding mutation, or by forbidding sharing. Rust supports both.
+
+– [kornel on Lobste.rs](https://lobste.rs/s/fud3fk/from_1s_4ms#c_relksr)
+
+Thanks to [Aleksey Kladov](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1535) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
