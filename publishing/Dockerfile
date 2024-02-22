@@ -4,7 +4,7 @@ FROM --platform=linux/amd64 python:3.8.16-slim
 WORKDIR /usr/twir
 
 RUN apt update
-RUN apt install -y curl
+RUN apt install -y curl build-essential
 
 # pelican+friends
 ENV LANG='en_US.UTF-8'
