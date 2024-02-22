@@ -36,6 +36,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 - [Anouncing Stabby 3.0](https://www.reddit.com/r/rust/comments/1amjknw/anouncing_stabby_300_and_rustconf_video_available/)
 
+* [argmin_testfunctions 0.2.0: test functions for optimization problems in Rust and Python](https://argmin-rs.org/blog/argmin-testfunctions-v0-2-0/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
