@@ -29,6 +29,8 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [The Rust project survey results for the year 2023](https://blog.rust-lang.org/2024/02/19/2023-Rust-Annual-Survey-2023-results.html)
+
 ### Foundation
 
 ### Newsletters
