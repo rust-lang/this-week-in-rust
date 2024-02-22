@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 - [git-cliff 2.0.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/2.0.0)
 
+[Rust Client for Timeplus Proton SQL Streaming](https://www.timeplus.com/post/rust-client-for-proton)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
