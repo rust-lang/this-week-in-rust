@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 - [OpenPGP-card-tools 0.10.0 released. The project provides the `oct` commandline tool for inspecting, configuring and using OpenPGP card devices such as Nitrokey or Yubikey.](https://codeberg.org/openpgp-card/openpgp-card-tools)
 
+- [git-cliff 2.0.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/2.0.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
