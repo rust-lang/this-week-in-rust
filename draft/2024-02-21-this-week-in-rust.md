@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [video] [Release-plz: releasing crates like it's 2023 (RustLab 2023)](https://www.youtube.com/watch?v=kXPBVGDkQSs)
 
 ## Crate of the Week
 
