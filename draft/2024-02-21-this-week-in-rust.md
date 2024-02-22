@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 
 * [argmin_testfunctions 0.2.0: test functions for optimization problems in Rust and Python](https://argmin-rs.org/blog/argmin-testfunctions-v0-2-0/)
 
+- [vscode-rustup released: interface with rustup as a VSCode extension](https://github.com/emberian/vscode-rustup)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
