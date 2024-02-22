@@ -101,7 +101,18 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+
+Relatively few PRs affecting performance, but massive improvements thanks to the
+update to LLVM 18 (PR #12005), as well as the merging of two related compiler
+queries (PR #120919) and other small improvements from a rollup (PR #121055).
+
+Triage done by **@pnkfelix**.
+Revision range: [74c3f5a1..5af21304](https://perf.rust-lang.org/?start=74c3f5a146860c94ff4d179fc3bfa34f879adf41&end=5af2130440c198afefbe5b8099342057cf272ef4&absolute=false&stat=instructions%3Au)
+
+3 Regressions, 1 Improvements, 6 Mixed; 1 of them in rollups
+65 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/d18e18944c4ab14988ca5219b17530454d133474/triage/2024-02-20.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
