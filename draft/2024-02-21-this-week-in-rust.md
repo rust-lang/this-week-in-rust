@@ -34,15 +34,22 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+- [Anouncing Stabby 3.0](https://www.reddit.com/r/rust/comments/1amjknw/anouncing_stabby_300_and_rustconf_video_available/)
+
+* [argmin_testfunctions 0.2.0: test functions for optimization problems in Rust and Python](https://argmin-rs.org/blog/argmin-testfunctions-v0-2-0/)
+
+- [vscode-rustup released: interface with rustup as a VSCode extension](https://github.com/emberian/vscode-rustup)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
 * [Deploying Axum to Lambda and ECS, using Lambda Web Adapter](https://medium.com/@sam.van.overmeire/deploying-axum-to-lambda-and-ecs-using-lambda-web-adapter-2273bd56bb81)
+* [Rust/C++ Interop Part 3 - Cxx](https://tylerjw.dev/posts/rust-cmake-interop-part-3-cxx/)
 
 ### Research
 
 ### Miscellaneous
+* [video] [Release-plz: releasing crates like it's 2023 (RustLab 2023)](https://www.youtube.com/watch?v=kXPBVGDkQSs)
 
 ## Crate of the Week
 
@@ -152,18 +159,6 @@ Rusty Events between 2024-02-21 - 2024-03-20 🦀
 
 ### Virtual
 
-* 2024-02-15 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
-    * [**Rust Hack and Learn**](https://meet.jit.si/RustHackAndLearnBerlin) | [**Mirror: Rust Hack n Learn**](https://www.meetup.com/rust-berlin/events/298457899/)
-* 2024-02-15 | Virtual + In person (Praha, CZ) | [Rust Czech Republic](https://www.meetup.com/rust-czech-republic/)
-    * [**Introduction and Rust in production**](https://www.meetup.com/rust-czech-republic/events/298605120/)
-* 2024-02-19 | Virtual (Melbourne, VIC, AU)| [Rust Melbourne](https://www.meetup.com/rust-melbourne/)
-    * [**(Hybrid - in person & online) February 2024 Rust Melbourne Meetup - Day 1**](https://www.meetup.com/rust-melbourne/events/298877455/)
-* 2024-02-20 | Virtual (Melbourne, VIC, AU) | [Rust Melbourne](https://www.meetup.com/rust-melbourne/)
-    * [**(Hybrid - in person & online) February 2024 Rust Melbourne Meetup - Day 2**](https://www.meetup.com/rust-melbourne/events/298877469/)
-* 2024-02-20 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
-    * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/297128189/)
-* 2024-02-20 | Virtual | [Rust for Lunch](https://lunch.rs/about/)
-    * [**Lunch**](https://lunch.rs/meetups/2024-02-20/)
 * 2024-02-21 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
     * [**Rust for Rustaceans Book Club: Chapter 2 - Types**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/298991687/)
 * 2024-02-21 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
@@ -184,18 +179,15 @@ Rusty Events between 2024-02-21 - 2024-03-20 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/298341582/)
 * 2024-03-12 | Hybrid (Virtual + In-person) Munich, DE | [Rust Munich](https://www.meetup.com/rust-munich/)
     * [**Rust Munich 2024 / 1 - hybrid**](https://www.meetup.com/rust-munich/events/298507657/)
-
-### Asia
-
-* 2024-02-17 | New Delhi, IN | [Rust Delhi](https://www.meetup.com/rustdelhi/)
-    * [**Meetup #5**](https://www.meetup.com/rustdelhi/events/298864671/)
+* 2024-03-14 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://www.meetup.com/opentechschool-berlin/)
+    * [**Web Frontend Co-Learning (online)**](https://www.meetup.com/opentechschool-berlin/events/298406445/)
+* 2024-03-21 | Seattle, WA, US | [Seattle Rust User Group](https://www.meetup.com/seattle-rust-user-group/)
+    * [**Seattle Rust User Group Meetup**](https://www.meetup.com/seattle-rust-user-group/events/298631832/)
+* 2024-03-26 | Virtual + In Person (Barcelona, ES) | [BcnRust](https://www.meetup.com/es-ES/bcnrust/)
+    * [**13th BcnRust Meetup**](https://www.meetup.com/es-ES/bcnrust/events/299223178/) - [Stream](https://www.youtube.com/@bcnrust)
 
 ### Europe
 
-* 2024-02-15 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/)
-    * [**Rust Hacknight #2: Compilers**](https://www.meetup.com/copenhagen-rust-community/events/298999792/)
-* 2024-02-15 | Praha, CZ - Virtual + In-person | [Rust Czech Republic](https://www.meetup.com/rust-czech-republic/)
-    * [**Introduction and Rust in production**](https://www.meetup.com/rust-czech-republic/events/298605120/)
 * 2024-02-21 | Lyon, FR | [Rust Lyon](https://www.meetup.com/fr-FR/rust-lyon/)
     * [**Rust Lyon Meetup #8**](https://www.meetup.com/fr-FR/rust-lyon/events/298775631/)
 * 2024-02-22 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/)
@@ -204,17 +196,17 @@ Rusty Events between 2024-02-21 - 2024-03-20 🦀
     * [**Rust and Tell - Season start 2024**](https://www.meetup.com/rust-berlin/events/299190389/)
 * 2024-03-12 | Munich, DE + Virtual | [Rust Munich](https://www.meetup.com/rust-munich/)
     * [**Rust Munich 2024 / 1 - hybrid**](https://www.meetup.com/rust-munich/events/298507657/)
+* 2024-03-19 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/)
+    * [**Hack Night**](https://www.meetup.com/rust-aarhus/events/299028814/)
+* 2024-03-20 | Girona, ES | [Rust Girona](https://www.meetup.com/rust-girona/)
+    * [**Introduction to programming Microcontrollers with Rust**](https://www.meetup.com/rust-girona/events/299172343/)
+* 2024-03-26 | Barcelona, ES + Virtual | [BcnRust](https://www.meetup.com/es-ES/bcnrust/)
+    * [**13th BcnRust Meetup**](https://www.meetup.com/es-ES/bcnrust/events/299223178/)
+* 2024-03-26, 2024-03-28 | London, UK | [Rust Nation UK](https://www.rustnationuk.com/)
+    * [**Rust Nation 2024**](https://www.rustnationuk.com/)
 
 ### North America
 
-* 2024-02-15 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
-    * [**Back Bay Rust Lunch, Feb 15**](https://www.meetup.com/bostonrust/events/297635043/)
-* 2024-02-15 | Seattle, WA, US | [Seattle Rust User Group](https://www.meetup.com/seattle-rust-user-group/)
-    * [**Seattle Rust User Group Meetup**](https://www.meetup.com/seattle-rust-user-group/events/298631774/)
-* 2024-02-20 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/)
-    * [**Rust NYC Monthly Mixer (Moved to Feb 20th)**](https://www.meetup.com/rust-nyc/events/298593474/)
-* 2024-02-20 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/)
-    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/298603354/)
 * 2024-02-21 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
     * [**Evening Boston Rust Meetup at Microsoft, February 21**](https://www.meetup.com/bostonrust/events/299054786/)
 * 2024-02-22 | Mountain View, CA, US | [Mountain View Rust Meetup](https://www.meetup.com/mv-rust-meetup/)
@@ -226,14 +218,12 @@ Rusty Events between 2024-02-21 - 2024-03-20 🦀
 
 ### Oceania
 
-* 2024-02-19 | Melbourne, VIC, AU + Virtual | [Rust Melbourne](https://www.meetup.com/rust-melbourne/)
-    * [**(Hybrid - in person & online) February 2024 Rust Melbourne Meetup - Day 1**](https://www.meetup.com/rust-melbourne/events/298877455/)
-* 2024-02-20 | Melbourne, VIC, AU + Virtual | [Rust Melbourne](https://www.meetup.com/rust-melbourne/)
-    * [**(Hybrid - in person & online) February 2024 Rust Melbourne Meetup - Day 2**](https://www.meetup.com/rust-melbourne/events/298877469/)
 * 2024-02-27 | Canberra, ACT, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/)
     * [**February Meetup**](https://www.meetup.com/rust-canberra/events/297650401/)
 * 2024-02-27 | Sydney, NSW, AU | [Rust Sydney](https://www.meetup.com/rust-sydney/)
     * [**🦀 spire ⚡ & Quick**](https://www.meetup.com/rust-sydney/events/298892952/)
+* 2024-02-29 | Brisbane, QLD, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane/)
+    * [**February Meetup**](https://www.meetup.com/rust-brisbane/events/299304438/)
 * 2024-03-05 | Auckland, NZ | [Rust AKL](https://www.meetup.com/rust-akl/)
     * [**Rust AKL: Introduction to Embedded Rust + The State of Rust UI**](https://www.meetup.com/rust-akl/events/299158887/)
 
