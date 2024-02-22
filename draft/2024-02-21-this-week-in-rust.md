@@ -36,8 +36,6 @@ and just ask the editors to select the category.
 * [Save the Date: RustConf 2024 – September 10-13](https://foundation.rust-lang.org/news/save-the-date-rustconf-2024-september-10-13/)
 * [Second Security Initiative Report Details Rust Security Advancements](https://foundation.rust-lang.org/news/second-security-initiative-report-details-rust-security-advancements/)
 
-### Newsletters
-
 ### Project/Tooling Updates
 * [Bevy 0.13](https://bevyengine.org/news/bevy-0-13/)
 * [Bevy XPBD 0.4: Collider Agnosticism, Layer Rework, and Bevy 0.13](https://joonaa.dev/blog/05/bevy-xpbd-0-4-0)
@@ -46,15 +44,11 @@ and just ask the editors to select the category.
 * [rustc_codegen_gcc: Progress Report #30](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-30)
 * [RustRover Q4 2023 Feature Updates Retrospective](https://blog.jetbrains.com/rust/2024/02/14/q4-2023-features-retrospective/)
 * [rust-analyzer changelog #221](https://rust-analyzer.github.io/thisweek/2024/02/19/changelog-221.html)
-- [Anouncing Stabby 3.0](https://www.reddit.com/r/rust/comments/1amjknw/anouncing_stabby_300_and_rustconf_video_available/)
-
+* [Anouncing Stabby 3.0](https://www.reddit.com/r/rust/comments/1amjknw/anouncing_stabby_300_and_rustconf_video_available/)
 * [argmin_testfunctions 0.2.0: test functions for optimization problems in Rust and Python](https://argmin-rs.org/blog/argmin-testfunctions-v0-2-0/)
-
-- [vscode-rustup released: interface with rustup as a VSCode extension](https://github.com/emberian/vscode-rustup)
-
-- [OpenPGP-card-tools 0.10.0 released. The project provides the `oct` commandline tool for inspecting, configuring and using OpenPGP card devices such as Nitrokey or Yubikey.](https://codeberg.org/openpgp-card/openpgp-card-tools)
-
-[Rust Client for Timeplus Proton SQL Streaming](https://www.timeplus.com/post/rust-client-for-proton)
+* [vscode-rustup released: interface with rustup as a VSCode extension](https://github.com/emberian/vscode-rustup)
+* [OpenPGP-card-tools 0.10.0 released. The project provides the `oct` commandline tool for inspecting, configuring and using OpenPGP card devices such as Nitrokey or Yubikey.](https://codeberg.org/openpgp-card/openpgp-card-tools)
+* [Rust Client for Timeplus Proton SQL Streaming](https://www.timeplus.com/post/rust-client-for-proton)
 
 ### Observations/Thoughts
 * [FuturesUnordered and the order of futures](https://without.boats/blog/futures-unordered/)
@@ -67,13 +61,10 @@ and just ask the editors to select the category.
 * [Translating OpenStreetMap data to HTML5 Canvas with Rust and WebAssembly](https://mary.codes/blog/programming/translating_openstreetmaps_to_HTML5_canvas_rust_wasm/)
 * [macros_rule!](https://auroranssolis.github.io/rust/2024/02/14/macros-rule.html)
 * [Implementing JWT Authentication in Rust](https://www.shuttle.rs/blog/2024/02/21/using-jwt-auth-rust)
-+ [FR] [Les closures en Rust](https://lafor.ge/closure/)
 * [Deploying Axum to Lambda and ECS, using Lambda Web Adapter](https://medium.com/@sam.van.overmeire/deploying-axum-to-lambda-and-ecs-using-lambda-web-adapter-2273bd56bb81)
 * [Rust/C++ Interop Part 3 - Cxx](https://tylerjw.dev/posts/rust-cmake-interop-part-3-cxx/)
+* [FR] [Les closures en Rust](https://lafor.ge/closure/)
 * [video] [Safe Rust AIN'T SAFE!? (cve-rs)](https://www.youtube.com/watch?v=vfMpIsJwpjU)
-
-
-### Research
 
 ### Miscellaneous
 * [video] [Release-plz: releasing crates like it's 2023 (RustLab 2023)](https://www.youtube.com/watch?v=kXPBVGDkQSs)
@@ -112,10 +103,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Ockam - Syntax highlighting for fenced code blocks, in command help output, on Linux works](https://github.com/build-trust/ockam/issues/7471)
 * [Ockam - Shut down Worker/Processor if initialization failed](https://github.com/build-trust/ockam/issues/7575)
 * [Ockam - Output for ockam project ticket is improved and information is not opaque](https://github.com/build-trust/ockam/issues/7478)
-
-* [ Hyperswitch - [FEATURE] : add `offset` field to disputes list](https://github.com/juspay/hyperswitch/issues/3749)
-* [ Hyperswitch - [FEATURE]: add`offset` field to mandates list](https://github.com/juspay/hyperswitch/issues/3748)
-* [ Hyperswitch - [FEATURE]: add pagination support for customers list](https://github.com/juspay/hyperswitch/issues/3746)
+* [Hyperswitch - [FEATURE] : add `offset` field to disputes list](https://github.com/juspay/hyperswitch/issues/3749)
+* [Hyperswitch - [FEATURE]: add`offset` field to mandates list](https://github.com/juspay/hyperswitch/issues/3748)
+* [Hyperswitch - [FEATURE]: add pagination support for customers list](https://github.com/juspay/hyperswitch/issues/3746)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -123,7 +113,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### CFP - Speakers
 
-Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker. 
+Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
 <!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
@@ -367,7 +357,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1arr8xi/official_rrust_whos_hiring_thread_for_jobseekers)
 
 # Quote of the Week
 
@@ -383,4 +373,4 @@ Thanks to [Aleksey Kladov](https://users.rust-lang.org/t/twir-quote-of-the-week/
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1awt7gm/this_week_in_rust_535/)</small>
