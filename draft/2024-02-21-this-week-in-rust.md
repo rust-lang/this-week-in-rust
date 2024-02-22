@@ -28,14 +28,24 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-
-* [The Rust project survey results for the year 2023](https://blog.rust-lang.org/2024/02/19/2023-Rust-Annual-Survey-2023-results.html)
+* [2023 Annual Rust Survey Results](https://blog.rust-lang.org/2024/02/19/2023-Rust-Annual-Survey-2023-results.html)
+* [Rust participates in Google Summer of Code 2024](https://blog.rust-lang.org/2024/02/21/Rust-participates-in-GSoC-2024.html)
+* [Leadership Council March Representative Selections](https://blog.rust-lang.org/inside-rust/2024/02/19/leadership-council-repr-selection.html)
 
 ### Foundation
+* [Save the Date: RustConf 2024 – September 10-13](https://foundation.rust-lang.org/news/save-the-date-rustconf-2024-september-10-13/)
+* [Second Security Initiative Report Details Rust Security Advancements](https://foundation.rust-lang.org/news/second-security-initiative-report-details-rust-security-advancements/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Bevy 0.13](https://bevyengine.org/news/bevy-0-13/)
+* [Bevy XPBD 0.4: Collider Agnosticism, Layer Rework, and Bevy 0.13](https://joonaa.dev/blog/05/bevy-xpbd-0-4-0)
+* [uv: Python packaging in Rust](https://astral.sh/blog/uv)
+* [git-cliff: What's new in 2.0.0? (highly customizable changelog generator)](https://git-cliff.org/blog/2.0.0/)
+* [rustc_codegen_gcc: Progress Report #30](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-30)
+* [RustRover Q4 2023 Feature Updates Retrospective](https://blog.jetbrains.com/rust/2024/02/14/q4-2023-features-retrospective/)
+* [rust-analyzer changelog #221](https://rust-analyzer.github.io/thisweek/2024/02/19/changelog-221.html)
 - [Anouncing Stabby 3.0](https://www.reddit.com/r/rust/comments/1amjknw/anouncing_stabby_300_and_rustconf_video_available/)
 
 * [argmin_testfunctions 0.2.0: test functions for optimization problems in Rust and Python](https://argmin-rs.org/blog/argmin-testfunctions-v0-2-0/)
@@ -44,18 +54,24 @@ and just ask the editors to select the category.
 
 - [OpenPGP-card-tools 0.10.0 released. The project provides the `oct` commandline tool for inspecting, configuring and using OpenPGP card devices such as Nitrokey or Yubikey.](https://codeberg.org/openpgp-card/openpgp-card-tools)
 
-- [git-cliff 2.0.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/2.0.0)
-
 [Rust Client for Timeplus Proton SQL Streaming](https://www.timeplus.com/post/rust-client-for-proton)
 
 ### Observations/Thoughts
+* [FuturesUnordered and the order of futures](https://without.boats/blog/futures-unordered/)
+* [Rust Tooling: 8 tools that will increase your productivity](https://www.shuttle.rs/blog/2024/02/15/best-rust-tooling)
 * [Writing down my mental model of unsafe](https://gist.github.com/ia0/820ab50d4c5f0f5e3aeb841cef8e6792)
 * [How can Rust be so fast in the TechEmpower Web Framework Benchmarks?](https://kerkour.com/rust-fast-techempower-web-framework-benchmarks)
 
 ### Rust Walkthroughs
+* [From 1s to 4ms](https://registerspill.thorstenball.com/p/from-1s-to-4ms)
+* [Translating OpenStreetMap data to HTML5 Canvas with Rust and WebAssembly](https://mary.codes/blog/programming/translating_openstreetmaps_to_HTML5_canvas_rust_wasm/)
+* [macros_rule!](https://auroranssolis.github.io/rust/2024/02/14/macros-rule.html)
+* [Implementing JWT Authentication in Rust](https://www.shuttle.rs/blog/2024/02/21/using-jwt-auth-rust)
 + [FR] [Les closures en Rust](https://lafor.ge/closure/)
 * [Deploying Axum to Lambda and ECS, using Lambda Web Adapter](https://medium.com/@sam.van.overmeire/deploying-axum-to-lambda-and-ecs-using-lambda-web-adapter-2273bd56bb81)
 * [Rust/C++ Interop Part 3 - Cxx](https://tylerjw.dev/posts/rust-cmake-interop-part-3-cxx/)
+* [video] [Safe Rust AIN'T SAFE!? (cve-rs)](https://www.youtube.com/watch?v=vfMpIsJwpjU)
+
 
 ### Research
 
