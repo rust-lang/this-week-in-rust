@@ -28,10 +28,9 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-* [2023 Annual Rust Survey Results](https://blog.rust-lang.org/2024/02/19/2023-Rust-Annual-Survey-2023-results.html)* [Rust participates in Google Summer of Code 2024](https://blog.rust-lang.org/2024/02/21/Rust-participates-in-GSoC-2024.html)
+* [2023 Annual Rust Survey Results](https://blog.rust-lang.org/2024/02/19/2023-Rust-Annual-Survey-2023-results.html)
+* [Rust participates in Google Summer of Code 2024](https://blog.rust-lang.org/2024/02/21/Rust-participates-in-GSoC-2024.html)
 * [Leadership Council March Representative Selections](https://blog.rust-lang.org/inside-rust/2024/02/19/leadership-council-repr-selection.html)
-
-* [The Rust project survey results for the year 2023](https://blog.rust-lang.org/2024/02/19/2023-Rust-Annual-Survey-2023-results.html)
 
 ### Foundation
 * [Save the Date: RustConf 2024 – September 10-13](https://foundation.rust-lang.org/news/save-the-date-rustconf-2024-september-10-13/)
