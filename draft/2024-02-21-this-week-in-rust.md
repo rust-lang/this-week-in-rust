@@ -49,7 +49,7 @@ and just ask the editors to select the category.
 [Rust Client for Timeplus Proton SQL Streaming](https://www.timeplus.com/post/rust-client-for-proton)
 
 ### Observations/Thoughts
-
+* [Writing down my mental model of unsafe](https://gist.github.com/ia0/820ab50d4c5f0f5e3aeb841cef8e6792)
 * [How can Rust be so fast in the TechEmpower Web Framework Benchmarks?](https://kerkour.com/rust-fast-techempower-web-framework-benchmarks)
 
 ### Rust Walkthroughs
