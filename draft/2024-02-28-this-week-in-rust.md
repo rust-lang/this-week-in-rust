@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+- [runi, a CLI tool for generating 𝓊𝓃𝒾𝒸ℴ𝒹ℯ ꜰᴏɴᴛꜱ](https://crates.io/crates/runi) 
 
 ### Observations/Thoughts
 
