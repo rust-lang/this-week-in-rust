@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Practical guide to Error Handling in Rust](https://dev-state.com/posts/error_handling/)
+
 ### Research
 
 ### Miscellaneous
