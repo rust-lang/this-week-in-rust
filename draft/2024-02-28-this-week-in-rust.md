@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [How Rust Could Change Robotics](https://filtra.io/rust-amp-feb-24)
 
 ## Crate of the Week
 
