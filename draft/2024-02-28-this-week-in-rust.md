@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Matching and iterators in Rust](https://www.jacobelder.com/2024/02/26/rust-matching-and-iterators.html)
 
 ### Research
 
