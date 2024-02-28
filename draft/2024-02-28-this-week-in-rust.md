@@ -14,26 +14,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
-<!--
-
-Dear community contributors:
-Please read README.md for guidance on submissions.
-Each submitted link should be of the form:
-
-* [Title of the Linked Page](https://example.com/my_article)
-
-If you don't know which category to use, feel free to submit a PR anyway
-and just ask the editors to select the category.
-
--->
-
-
-### Official
-
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [This month in Servo: gamepad support, font fallback, Space Jam, and more!](https://servo.org/blog/2024/02/28/gamepads-font-fallback-space-jam/)
 * [Announcing Jco 1.0](https://bytecodealliance.org/articles/jco-1.0)
@@ -51,29 +31,24 @@ and just ask the editors to select the category.
 * [ESP Embedded Rust: Ping CLI App Part 2](https://apollolabsblog.hashnode.dev/esp-embedded-rust-ping-cli-app-part-2)
 * [Convert a String to int in Rust](https://crustc.com/string-to-int-in-rust/)
 * [Mastering `ManuallyDrop<T>` - A Guide to Explicit Resource Management in Rust](https://asyncmove.com/blog/2024/02/mastering-manuallydropt-a-guide-to-explicit-resource-management-in-rust/)
-
 * [Rust, but async](https://hegdenu.net/posts/rust-but-async/)
 
 ### Rust Walkthroughs
-* [HEB][video] [Rust Course](https://www.youtube.com/playlist?list=PLm2NBp4tb5F3QZNMW6bEt3IoAQAu2LAPs)
 * [Matching and iterators in Rust](https://www.jacobelder.com/2024/02/26/rust-matching-and-iterators.html)
-
 * [Practical guide to Error Handling in Rust](https://dev-state.com/posts/error_handling/)
 * [Building an Async Runtime with mio](https://tweedegolf.nl/en/blog/114/building-an-async-runtime-with-mio)
-
-### Research
+* [HE] [video] [Rust Course](https://www.youtube.com/playlist?list=PLm2NBp4tb5F3QZNMW6bEt3IoAQAu2LAPs)
 
 ### Miscellaneous
-* [Firmware for an ESP32 to read from a noise sensor in Rust](https://www.youtube.com/watch?v=VH4z60akQuM)
 * [Guide to using TensorFlow in Rust](https://blog.logrocket.com/guide-using-tensorflow-rust/)
 * [A Twist on Wadler's Printer](https://justinpombrio.net/2024/02/23/a-twist-on-Wadlers-printer.html)
 * [Implementing API Rate Limiting in Rust](https://www.shuttle.rs/blog/2024/02/22/api-rate-limiting-rust)
 * [How to benchmark Rust code with Iai](https://bencher.dev/learn/benchmarking/rust/iai/)
+* [How Rust Could Change Robotics](https://filtra.io/rust-amp-feb-24)
+* [Sequential-storage: efficiently store data in flash](https://tweedegolf.nl/en/blog/115/sequential-storage-efficiently-store-data-in-flash)
 * [audio] [Sentry - Rust in Production Podcast](https://corrode.dev/podcast/s01e06-sentry/)
 * [video] [A First Look at Lifetimes in Rust](https://www.youtube.com/watch?v=-gkvOoxgp8E)
-* [How Rust Could Change Robotics](https://filtra.io/rust-amp-feb-24)
-
-* [Sequential-storage: efficiently store data in flash](https://tweedegolf.nl/en/blog/115/sequential-storage-efficiently-store-data-in-flash)
+* [video] [Firmware for an ESP32 to read from a noise sensor in Rust](https://www.youtube.com/watch?v=VH4z60akQuM)
 
 ## Crate of the Week
 
@@ -119,9 +94,6 @@ If you are a Rust project owner and are looking for contributors, please submit 
 ### CFP - Speakers
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
-
-<!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the submission website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust).
 
@@ -356,17 +328,8 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 ## Jobs
-<!--
 
-Rust Jobs:
-
-TWiR has stopped featuring individual job postings. You can read more about this change here:
-
-https://github.com/rust-lang/this-week-in-rust/issues/3412
-
--->
-
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1arr8xi/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -382,4 +345,4 @@ Thanks to [Zeroexcuses](https://users.rust-lang.org/t/twir-quote-of-the-week/328
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1b2n4bw/this_week_in_rust_536/)</small>
