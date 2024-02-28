@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rust, but async](https://hegdenu.net/posts/rust-but-async/)
+
 ### Rust Walkthroughs
 
 ### Research
