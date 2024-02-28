@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Rerun 0.14.0 - "Unlimited" point clouds & lines, quality of life improvements, bugfixes](https://github.com/rerun-io/rerun/releases/tag/0.14.0)
 
 ### Observations/Thoughts
 
