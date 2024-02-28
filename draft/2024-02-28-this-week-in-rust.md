@@ -186,6 +186,8 @@ Rusty Events between 2024-02-28 - 2024-03-27 🦀
     * [**Rust and Talk at Partisia**](https://www.meetup.com/rust-aarhus/events/298689622/)
 * 2024-02-29 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust and Tell - Season start 2024**](https://www.meetup.com/rust-berlin/events/299190389/)
+* 2024-03-06 | Zürich, CH | [Rust Zürisee](https://www.meetup.com/de-DE/rust-zurich/)
+    * [**How to (partial) Migration - March Meetup**](https://www.meetup.com/rust-zurich/events/299380190/)
 * 2024-03-12 | Munich, DE + Virtual | [Rust Munich](https://www.meetup.com/rust-munich/)
     * [**Rust Munich 2024 / 1 - hybrid**](https://www.meetup.com/rust-munich/events/298507657/)
 * 2024-03-19 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/)
