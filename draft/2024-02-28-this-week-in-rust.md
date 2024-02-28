@@ -27,6 +27,7 @@ and just ask the editors to select the category.
 
 -->
 
+
 ### Official
 
 ### Foundation
@@ -34,14 +35,33 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [This month in Servo: gamepad support, font fallback, Space Jam, and more!](https://servo.org/blog/2024/02/28/gamepads-font-fallback-space-jam/)
+* [Announcing Jco 1.0](https://bytecodealliance.org/articles/jco-1.0)
+* [This month in Pavex, #9](https://www.lpalmieri.com/posts/this-month-in-pavex-09/)
 
 ### Observations/Thoughts
+* [Text labels rendering on a map with Rust - research and design](https://maximkaaa.github.io/galileo/blog/posts/text_rendering_design/)
+* [Rust developers fear language is getting too complex and prefer bug fixes to new features](https://devclass.com/2024/02/20/rust-developers-fear-language-is-getting-too-complex-and-prefer-bug-fixes-to-new-features/)
+* [Lessons learnt from building a distributed system in Rust](https://www.codethink.co.uk/articles/2024/distributed_system_rust/)
+* [How Rust Could Change Robotics](https://filtra.io/rust-amp-feb-24)
+* [Asynchronous clean-up](https://without.boats/blog/asynchronous-clean-up/)
+* [Edge IoT with Rust on ESP: Ping!](https://apollolabsblog.hashnode.dev/edge-iot-with-rust-on-esp-ping)
+* [ESP Embedded Rust: Command Line Interface](https://apollolabsblog.hashnode.dev/esp-embedded-rust-command-line-interface)
+* [ESP Embedded Rust: Ping CLI App Part 2](https://apollolabsblog.hashnode.dev/esp-embedded-rust-ping-cli-app-part-2)
+* [Convert a String to int in Rust](https://crustc.com/string-to-int-in-rust/)
 
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+* [Firmware for an ESP32 to read from a noise sensor in Rust](https://www.youtube.com/watch?v=VH4z60akQuM)
+* [Guide to using TensorFlow in Rust](https://blog.logrocket.com/guide-using-tensorflow-rust/)
+* [A Twist on Wadler's Printer](https://justinpombrio.net/2024/02/23/a-twist-on-Wadlers-printer.html)
+* [Implementing API Rate Limiting in Rust](https://www.shuttle.rs/blog/2024/02/22/api-rate-limiting-rust)
+* [How to benchmark Rust code with Iai](https://bencher.dev/learn/benchmarking/rust/iai/)
+* [audio] [Sentry - Rust in Production Podcast](https://corrode.dev/podcast/s01e06-sentry/)
+* [video] [A First Look at Lifetimes in Rust](https://www.youtube.com/watch?v=-gkvOoxgp8E)
 
 ## Crate of the Week
 
