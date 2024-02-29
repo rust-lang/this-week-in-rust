@@ -405,7 +405,7 @@ Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/r
 >
 > It's not "C++ but better".
 >
-> It's Haskell standing on Lisp's shoulders, hiding in C's coat to sneak into PRDCTN. (The fancy nightclub where all the popular language's hang out)
+> It's Haskell standing on Lisp's shoulders, hiding in C's coat to sneak into PRDCTN. (The fancy nightclub where all the popular languages hang out)
 
 – [tris on his "No Boilerplate" Youtube channel](https://www.youtube.com/watch?v=voRBS0r4EyI&t=317)
 
