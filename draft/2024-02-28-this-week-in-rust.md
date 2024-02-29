@@ -54,7 +54,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [web-audio-api-rs](https://github.com/orottier/web-audio-api-rs), a Rust implementation of the Web Audio API for use *outside* the browser.
+
+Thanks to [Otto Rottier](https://users.rust-lang.org/t/crate-of-the-week/2704/1292) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -100,7 +102,90 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+430 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2024-02-20..2024-02-27
+
+* [Avoid non-local definitions in functions](https://github.com/rust-lang/rust/pull/120393) (RFC [#3373](https://rust-lang.github.io/rfcs/3373-avoid-nonlocal-definitions-in-fns.html))
+* [wasm: store rlib metadata in wasm object files](https://github.com/rust-lang/rust/pull/120588)
+* [account for RPITIT in E0310 explicit lifetime constraint suggestion](https://github.com/rust-lang/rust/pull/121435)
+* [actually use the right closure kind when checking async Fn goals](https://github.com/rust-lang/rust/pull/121617)
+* [add `#[rustc_no_mir_inline]` for standard library UB checks](https://github.com/rust-lang/rust/pull/121114)
+* [allow for a missing `adt_def` in `NamePrivacyVisitor`](https://github.com/rust-lang/rust/pull/121482)
+* [avoid generalization inside of aliases](https://github.com/rust-lang/rust/pull/119106)
+* [by changing some attributes to `only_local,` reducing encoding attributes in the crate metadate](https://github.com/rust-lang/rust/pull/121493)
+* [do not const prop unions](https://github.com/rust-lang/rust/pull/121628)
+* [don't ICE on anonymous `struct` in `enum` variant](https://github.com/rust-lang/rust/pull/121470)
+* [expand weak alias types before collecting constrained/referenced late bound regions + refactorings](https://github.com/rust-lang/rust/pull/121344)
+* [fix panic when compiling `Rocket`](https://github.com/rust-lang/rust/pull/121427)
+* [make intrinsic fallback bodies cross-crate inlineable](https://github.com/rust-lang/rust/pull/121309)
+* [make it possible for outside crates to inspect a `mir::ConstValue` with the interpreter](https://github.com/rust-lang/rust/pull/121396)
+* [make non-PartialEq-typed consts as patterns a hard error](https://github.com/rust-lang/rust/pull/120805)
+* [mark `min_exhaustive_patterns` as complete](https://github.com/rust-lang/rust/pull/120742)
+* [match lowering: Introduce a `TestCase enum` to replace most matching on `PatKind`](https://github.com/rust-lang/rust/pull/121393)
+* [match lowering: eagerly simplify match pairs](https://github.com/rust-lang/rust/pull/120904)
+* [match lowering: simplify empty candidate selection](https://github.com/rust-lang/rust/pull/121172)
+* [match lowering: test one or pattern at a time](https://github.com/rust-lang/rust/pull/121175)
+* [Fix liveness analysis in the presence of never patterns](https://github.com/rust-lang/rust/pull/121391)
+* [no need to `validate_alias_bound_self_from_param_env` in `assemble_alias_bound_candidates`](https://github.com/rust-lang/rust/pull/120598)
+* [prevent cycle in implied predicates computation](https://github.com/rust-lang/rust/pull/121409)
+* [promotion: don't promote `int::MIN / -1`](https://github.com/rust-lang/rust/pull/121515)
+* [properly emit `expected ;` on `#[attr] expr`](https://github.com/rust-lang/rust/pull/121651)
+* [provide suggestions through `rustc_confusables` annotations](https://github.com/rust-lang/rust/pull/120730)
+* [refactor trait implementations in `core::convert::num`](https://github.com/rust-lang/rust/pull/121277)
+* [split Diagnostics for Uncommon Codepoints: Add Individual Identifier Types](https://github.com/rust-lang/rust/pull/120840)
+* [support async trait bounds in macros](https://github.com/rust-lang/rust/pull/121044)
+* [unify dylib loading between proc macros and codegen backends](https://github.com/rust-lang/rust/pull/121392)
+* [when encountering `<&T as Clone>::clone(x)` because `T: Clone`, suggest `#[derive(Clone)]`](https://github.com/rust-lang/rust/pull/121471)
+* [miri: /miri many-seeds: support `MIRI_SEED_END` to control the end of the seed range](https://github.com/rust-lang/miri/pull/3328)
+* [miri: add "cargo miri clean" command](https://github.com/rust-lang/miri/pull/3312)
+* [miri: windows miri-script execution ergonomics](https://github.com/rust-lang/miri/pull/3316)
+* [use `br` instead of a conditional when switching on a constant boolean](https://github.com/rust-lang/rust/pull/120650)
+* [stabilize `cfg_target_abi`](https://github.com/rust-lang/rust/pull/119590)
+* [improve UEFI stdio](https://github.com/rust-lang/rust/pull/117174)
+* [windows: use ProcessPrng for random keys](https://github.com/rust-lang/rust/pull/121337)
+* [require `simd_insert, simd_extract` indices to be constants](https://github.com/rust-lang/rust/pull/121225)
+* [make `Barrier::new()` const](https://github.com/rust-lang/rust/pull/119536)
+* [implement `MappedMutexGuard`, `MappedRwLockReadGuard`, and `MappedRwLockWriteGuard`](https://github.com/rust-lang/rust/pull/117107)
+* [add "algebraic" fast-math intrinsics, based on fast-math ops that cannot return poison](https://github.com/rust-lang/rust/pull/120718)
+* [remove useless `'static` bounds on `Box` allocator](https://github.com/rust-lang/rust/pull/118634)
+* [mpsc: fix race between block initialization and receiver disconnection](https://github.com/rust-lang/rust/pull/121646)
+* [futures: add `'static` bound to `waker_ref`](https://github.com/rust-lang/futures-rs/pull/2830)
+* [cargo add: Improve error when adding registry packages while vendored](https://github.com/rust-lang/cargo/pull/13281)
+* [cargo: Control clap colors through config](https://github.com/rust-lang/cargo/pull/13463)
+* [cargo: Respect `CARGO_TERM_COLOR` in '--list' and '-Zhelp'](https://github.com/rust-lang/cargo/pull/13479)
+* [cargo: error messages when collecting workspace members now mention the workspace root location](https://github.com/rust-lang/cargo/pull/13480)
+* [cargo: support `target.<triple>.rustdocflags` officially](https://github.com/rust-lang/cargo/pull/13197)
+* [rustdoc: include crate name in links for local primitives](https://github.com/rust-lang/rust/pull/121490)
+* [clippy: `box_default`: preserve required path segments](https://github.com/rust-lang/rust-clippy/pull/12355)
+* [clippy: `read_line_without_trim`: detect string literal comparison and `.ends_with()` calls](https://github.com/rust-lang/rust-clippy/pull/11136)
+* [clippy: add `unnecessary_clippy_cfg` lint](https://github.com/rust-lang/rust-clippy/pull/12303)
+* [clippy: add new `multiple_bound_locations` lint](https://github.com/rust-lang/rust-clippy/pull/12259)
+* [clippy: add new `unnecessary_get_then_check` lint](https://github.com/rust-lang/rust-clippy/pull/12339)
+* [clippy: allow `unused_imports,` and `unused_import_braces` on `use`](https://github.com/rust-lang/rust-clippy/pull/12333)
+* [clippy: don't lint `infinite_loop` in external or proc macros](https://github.com/rust-lang/rust-clippy/pull/12317)
+* [clippy: make `redundant_guards` take constness into account](https://github.com/rust-lang/rust-clippy/pull/12336)
+* [clippy: `unused_unit`: be careful with expressions with attributes](https://github.com/rust-lang/rust-clippy/pull/12322)
+* [clippy: new lint: `empty docs`](https://github.com/rust-lang/rust-clippy/pull/12342)
+* [clippy: extend `unnecessary_to_owned` to handle `Borrow` trait in map types](https://github.com/rust-lang/rust-clippy/pull/12324)
+* [clippy: fix sign-handling bugs and false negatives in `cast_sign_loss`](https://github.com/rust-lang/rust-clippy/pull/12126)
+* [clippy: fix suggestion error in `useless_vec`](https://github.com/rust-lang/rust-clippy/pull/12116)
+* [clippy: fix `no_effect_underscore_binding` firing on ignored parameters of async fns](https://github.com/rust-lang/rust-clippy/pull/12323)
+* [clippy: look for `implied_bounds_in_impls` in more positions](https://github.com/rust-lang/rust-clippy/pull/12308)
+* [clippy: take lifetime extension into account in `ref_as_ptr`](https://github.com/rust-lang/rust-clippy/pull/12260)
+* [rust-analyzer: add assist for filling fields by replacing ellipsis in record syntax](https://github.com/rust-lang/rust-analyzer/pull/16651)
+* [rust-analyzer: add short flag -V for consistency with other rust tooling](https://github.com/rust-lang/rust-analyzer/pull/16654)
+* [rust-analyzer: add "make tuple" tactic to term search](https://github.com/rust-lang/rust-analyzer/pull/16687)
+* [rust-analyzer: `replace_filter_map_next_with_find_map` shouldn't work for dyn trait](https://github.com/rust-lang/rust-analyzer/pull/16647)
+* [rust-analyzer: don't panic on synthetic syntax in inference diagnostics](https://github.com/rust-lang/rust-analyzer/pull/16684)
+* [rust-analyzer: fix completions panicking with certain macro setups](https://github.com/rust-lang/rust-analyzer/pull/16691)
+* [rust-analyzer: fix deadlock in `recreate_crate_graph <-> file_line_index`](https://github.com/rust-lang/rust-analyzer/pull/16645)
+* [rust-analyzer: fix modules in blocks not resolving in ide layer](https://github.com/rust-lang/rust-analyzer/pull/16679)
+* [rust-analyzer: fix proc-macro server not accounting for string delimiters correctly](https://github.com/rust-lang/rust-analyzer/pull/16637)
+* [rust-analyzer: fix recompiles due to `RUSTC_BOOTSTRAP`](https://github.com/rust-lang/rust-analyzer/pull/16621)
+* [rust-analyzer: panic when inlining callsites inside macros' parameters](https://github.com/rust-lang/rust-analyzer/pull/16678)
+* [rust-analyzer: merge `BorrowKind::Unique` into `BorrowKind::Mut`](https://github.com/rust-lang/rust-analyzer/pull/16669)
+* [rust-analyzer: speed up Method Completions By Taking Advantage of Orphan Rules](https://github.com/rust-lang/rust-analyzer/pull/16555)
 
 ### Rust Compiler Performance Triage
 
@@ -260,7 +345,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> That would take 18 million terabytes of RAM. You don't have that much memory.
+
+– [Alice Ryhl answering "What is MAX array size" on rust-users](https://users.rust-lang.org/t/what-is-max-array-size/107058/4)
+
+Thanks to [Zeroexcuses](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1536) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
