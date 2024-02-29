@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [[FR] [video] Rust Lyon Meetup #8 - Impl Snake for Micro:bit — Cyril MARPAUD](https://www.youtube.com/watch?v=8_Pj6q_mVQw)
+
 ### Research
 
 ### Miscellaneous
