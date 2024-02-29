@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Sequential-storage: efficiently store data in flash](https://tweedegolf.nl/en/blog/115/sequential-storage-efficiently-store-data-in-flash)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
