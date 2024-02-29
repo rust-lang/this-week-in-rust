@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [How Rust Could Change Robotics](https://filtra.io/rust-amp-feb-24)
 
 * [Sequential-storage: efficiently store data in flash](https://tweedegolf.nl/en/blog/115/sequential-storage-efficiently-store-data-in-flash)
 
