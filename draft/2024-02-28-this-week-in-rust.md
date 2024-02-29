@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 * [Mastering `ManuallyDrop<T>` - A Guide to Explicit Resource Management in Rust](https://asyncmove.com/blog/2024/02/mastering-manuallydropt-a-guide-to-explicit-resource-management-in-rust/)
 
 ### Rust Walkthroughs
+* [Matching and iterators in Rust](https://www.jacobelder.com/2024/02/26/rust-matching-and-iterators.html)
 
 * [Practical guide to Error Handling in Rust](https://dev-state.com/posts/error_handling/)
 * [Building an Async Runtime with mio](https://tweedegolf.nl/en/blog/114/building-an-async-runtime-with-mio)
