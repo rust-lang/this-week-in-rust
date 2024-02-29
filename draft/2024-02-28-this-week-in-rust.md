@@ -85,6 +85,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [ Hyperswitch - [FEATURE] : add `offset` field to disputes list](https://github.com/juspay/hyperswitch/issues/3749)
+* [ Hyperswitch - [FEATURE]: add`offset` field to mandates list](https://github.com/juspay/hyperswitch/issues/3748)
 * [Ockam - `ockam node create --identity X` should fail if `X` doesn't exist](https://github.com/build-trust/ockam/issues/7625)
 * [Ockam - Output for `ockam project ticket` is improved and information is not opaque](https://github.com/build-trust/ockam/issues/7478)
 * [Ockam - Output for both `ockam project ticket` and `ockam project enroll` is improved, with support for `--output json`](https://github.com/build-trust/ockam/issues/7473)
