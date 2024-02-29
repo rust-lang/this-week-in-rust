@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 * [Mastering `ManuallyDrop<T>` - A Guide to Explicit Resource Management in Rust](https://asyncmove.com/blog/2024/02/mastering-manuallydropt-a-guide-to-explicit-resource-management-in-rust/)
 
+* [Rust, but async](https://hegdenu.net/posts/rust-but-async/)
+
 ### Rust Walkthroughs
 * [HEB][video] [Rust Course](https://www.youtube.com/playlist?list=PLm2NBp4tb5F3QZNMW6bEt3IoAQAu2LAPs)
 * [Matching and iterators in Rust](https://www.jacobelder.com/2024/02/26/rust-matching-and-iterators.html)
