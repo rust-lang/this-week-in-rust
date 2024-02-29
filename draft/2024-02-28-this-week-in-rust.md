@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [argmin 0.10.0 - a Rust crate for numerical optimization](https://argmin-rs.org/blog/version-v0-10-0/)
 
 ### Observations/Thoughts
 * [Mastering `ManuallyDrop<T>` - A Guide to Explicit Resource Management in Rust](https://asyncmove.com/blog/2024/02/mastering-manuallydropt-a-guide-to-explicit-resource-management-in-rust/)
