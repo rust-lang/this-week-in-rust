@@ -44,7 +44,6 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [A Twist on Wadler's Printer](https://justinpombrio.net/2024/02/23/a-twist-on-Wadlers-printer.html)
 * [Implementing API Rate Limiting in Rust](https://www.shuttle.rs/blog/2024/02/22/api-rate-limiting-rust)
 * [How to benchmark Rust code with Iai](https://bencher.dev/learn/benchmarking/rust/iai/)
-* [How Rust Could Change Robotics](https://filtra.io/rust-amp-feb-24)
 * [Sequential-storage: efficiently store data in flash](https://tweedegolf.nl/en/blog/115/sequential-storage-efficiently-store-data-in-flash)
 * [audio] [Sentry - Rust in Production Podcast](https://corrode.dev/podcast/s01e06-sentry/)
 * [video] [A First Look at Lifetimes in Rust](https://www.youtube.com/watch?v=-gkvOoxgp8E)
