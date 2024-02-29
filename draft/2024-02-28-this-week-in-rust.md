@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Practical guide to Error Handling in Rust](https://dev-state.com/posts/error_handling/)
 * [Building an Async Runtime with mio](https://tweedegolf.nl/en/blog/114/building-an-async-runtime-with-mio)
 
 ### Research
