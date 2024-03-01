@@ -174,6 +174,8 @@ Rusty Events between 2024-03-06 - 2024-04-03 🦀
     * [**Hack Night**](https://www.meetup.com/rust-aarhus/events/299028814/)
 * 2024-03-20 | Girona, ES | [Rust Girona](https://www.meetup.com/rust-girona/)
     * [**Introduction to programming Microcontrollers with Rust**](https://www.meetup.com/rust-girona/events/299172343/)
+* 2024-03-20 | Lyon, FR | [Rust Lyon](https://www.meetup.com/fr-FR/rust-lyon/)
+    * [**Rust Lyon Meetup #9**](https://www.meetup.com/fr-FR/rust-lyon/events/299527560/)
 * 2024-03-26 | Barcelona, ES + Virtual | [BcnRust](https://www.meetup.com/es-ES/bcnrust/)
     * [**13th BcnRust Meetup**](https://www.meetup.com/es-ES/bcnrust/events/299223178/)
 * 2024-03-26, 2024-03-28 | London, UK | [Rust Nation UK](https://www.rustnationuk.com/)
