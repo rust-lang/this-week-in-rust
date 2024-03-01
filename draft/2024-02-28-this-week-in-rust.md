@@ -72,6 +72,7 @@ and just ask the editors to select the category.
 * [audio] [Sentry - Rust in Production Podcast](https://corrode.dev/podcast/s01e06-sentry/)
 * [video] [A First Look at Lifetimes in Rust](https://www.youtube.com/watch?v=-gkvOoxgp8E)
 * [How Rust Could Change Robotics](https://filtra.io/rust-amp-feb-24)
+* [Launching RustRover: JetBrains’ Investment in Rust - with Vitaly Bragilevsky](https://mainmatter.com/blog/2024/02/29/launching-rustrover/)
 
 * [Sequential-storage: efficiently store data in flash](https://tweedegolf.nl/en/blog/115/sequential-storage-efficiently-store-data-in-flash)
 
@@ -122,6 +123,7 @@ Are you a new or experienced speaker looking for a place to share something cool
 
 <!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+[EuroRust 2024](https://www.papercall.io/eurorust-2024)| CFP closes 2024-06-03 | Vienna, Austria & online | Event on 2024-10-10
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the submission website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust).
 
