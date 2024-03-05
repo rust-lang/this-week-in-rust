@@ -91,6 +91,8 @@ Are you a new or experienced speaker looking for a place to share something cool
 <!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
+* [Oxidize 2024](https://oxidizeconf.com/) [CFP](https://pretalx.com/oxidize-berlin-2024/cfp) closes 2024-03-24 | Berlin, Germany | Event date: 2024-05-28 - 2024-05-30
+
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the submission website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust).
 
 ## Updates from the Rust Project
