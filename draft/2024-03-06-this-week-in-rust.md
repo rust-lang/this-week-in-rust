@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Miscellaneous
 
 * [Czech Rust community index](https://rustlang.cz/)
+* [audio] [RustShip: Rust in Art with Lisa Passing](https://ieni.dev/2024/03/%EF%B8%8F-rust-in-art-with-lisa-passing-rustship-6/)
 
 ## Crate of the Week
 
