@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Czech Rust community index](https://rustlang.cz/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
