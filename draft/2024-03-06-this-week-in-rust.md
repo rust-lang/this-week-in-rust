@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [sshd-openpgp-auth version 0.3.0](https://crates.io/crates/sshd-openpgp-auth) and [ssh-openpgp-auth version 0.2.2](https://crates.io/crates/ssh-openpgp-auth) as updates to the tooling providing [OpenPGP based authentication for SSH host keys](https://codeberg.org/wiktor/ssh-openpgp-auth)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
