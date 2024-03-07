@@ -49,6 +49,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Czech Rust community index](https://rustlang.cz/)
 * [Launching RustRover: JetBrains’ Investment in Rust](https://mainmatter.com/blog/2024/02/29/launching-rustrover/)
 * [audio] [RustShip: Rust in Art with Lisa Passing](https://ieni.dev/2024/03/%EF%B8%8F-rust-in-art-with-lisa-passing-rustship-6/)
+* [Rust Multi-crate project in a monorepo](https://rust.code-maven.com/multi-crate-project)
 
 ## Crate of the Week
 
