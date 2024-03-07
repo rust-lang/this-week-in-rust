@@ -61,13 +61,16 @@ and just ask the editors to select the category.
 * [Real-time Streaming Analytics with Fluvio, DeepCausality, and Rust](https://infinyon.com/blog/2024/02/fluvio-deep-causality-rs/)
 * [video] [Modern All Rust Stack - Dioxus, Axum, Warp, SurrealDB](https://www.youtube.com/watch?v=Pr6T0Phjvgc)
 * [video] [Serverless Data Pipelines in Rust by Michele Vigilante](https://www.youtube.com/watch?v=PK_FKzgPDWg)
+* [[FR] [video] Rust Lyon Meetup #8 - Impl Snake for Micro:bit — Cyril MARPAUD](https://www.youtube.com/watch?v=8_Pj6q_mVQw)
 
 ### Research
 
 ### Miscellaneous
 
 * [Czech Rust community index](https://rustlang.cz/)
+* [Launching RustRover: JetBrains’ Investment in Rust](https://mainmatter.com/blog/2024/02/29/launching-rustrover/)
 * [audio] [RustShip: Rust in Art with Lisa Passing](https://ieni.dev/2024/03/%EF%B8%8F-rust-in-art-with-lisa-passing-rustship-6/)
+
 
 ## Crate of the Week
 
@@ -99,14 +102,16 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
-
-* [Space Acres by Subspace - [8 different issues with USDC rewards for contributors] ranging from UX improvements to tray support and MacOS packaging](https://github.com/orgs/subspace/projects/26/views/1?filterQuery=usdc)
-
-If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
-
-[guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
+* [Ockam - Output for both `ockam project ticket` and `ockam project enroll` is improved, with support for `--output json`](https://github.com/build-trust/ockam/issues/7473)
+* [Ockam - Syntax highlighting for fenced code blocks, in command help output, on Linux works](https://github.com/build-trust/ockam/issues/7471)
+* [Ockam - Command - refactor to use typed interfaces to implement commands for `kafka services`](https://github.com/build-trust/ockam/issues/6706)
+* [ZeroCopy - Don't generate warning when deriving on deprecated type](https://github.com/google/zerocopy/issues/553)
+* [ZeroCopy - github.com/google/zerocopy](https://github.com/google/zerocopy/issues/367)
+* [ZeroCopy - Test the output of zerocopy-derive](https://github.com/google/zerocopy/issues/367)
+* [ZeroCopy - [CI] Check semver compatibility with all target platforms, not just the host platform](https://github.com/google/zerocopy/issues/357)
+* [ZeroCopy - Inline many trait methods (in zerocopy and in derive-generated code)](https://github.com/google/zerocopy/issues/7)
+* [Fluvio - fvm switch fails on some systems with running local cluster](https://github.com/infinyon/fluvio/issues/3765)
+* [Fluvio - Add new command fluvio cluster resume](https://github.com/infinyon/fluvio/issues/3810)
 
 ### CFP - Speakers
 
@@ -115,8 +120,9 @@ Are you a new or experienced speaker looking for a place to share something cool
 <!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
-* [RustConf 2024](https://foundation.rust-lang.org/news/the-rustconf-2024-call-for-talk-proposals-is-open/) | CFP closes 2024-04-25 | Montreal, Canada | 2024-09-10
 * [Oxidize 2024](https://oxidizeconf.com/) [CFP](https://pretalx.com/oxidize-berlin-2024/cfp) closes 2024-03-24 | Berlin, Germany | Event date: 2024-05-28 - 2024-05-30
+* [RustConf 2024](https://foundation.rust-lang.org/news/the-rustconf-2024-call-for-talk-proposals-is-open/) | CFP closes 2024-04-25 | Montreal, Canada | 2024-09-10
+* [EuroRust 2024](https://www.papercall.io/eurorust-2024)| CFP closes 2024-06-03 | Vienna, Austria & online | Event on 2024-10-10
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the submission website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust).
 
