@@ -28,18 +28,37 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Clippy: Deprecating `feature = "cargo-clippy"`](https://blog.rust-lang.org/2024/02/28/Clippy-deprecating-feature-cargo-clippy.html)
+* [Updated baseline standards for Windows targets](https://blog.rust-lang.org/2024/02/26/Windows-7.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
-- [Fluvio v0.11.5 Release Updates](https://www.fluvio.io/news/this-week-in-fluvio-0059/)
+* [Replacing PyO3's API without breaking everything downstream](https://polar.sh/davidhewitt/posts/replacing-pyo3-api-pt1)
+* [rust-analyzer changelog #223](https://rust-analyzer.github.io/thisweek/2024/03/04/changelog-223.html)
+* [rust-gcc February 2024 Monthly report](https://rust-gcc.github.io/2024/03/05/2024-02-monthly-report.html)
+* [godot-rust February 2024 dev update](https://godot-rust.github.io/dev/february-2024-update/)
+* [Fluvio v0.11.5 Release Updates](https://www.fluvio.io/news/this-week-in-fluvio-0059/)
 
 ### Observations/Thoughts
+* [Borrow checking without lifetimes](https://smallcultfollowing.com/babysteps/blog/2024/03/04/borrow-checking-without-lifetimes/)
+* [How to speed up the Rust compiler in March 2024](https://nnethercote.github.io/2024/03/06/how-to-speed-up-the-rust-compiler-in-march-2024.html)
+* [Code review in the Rust compiler](https://nnethercote.github.io/2024/03/05/code-review-in-the-rust-compiler.html)
+* [Rust `thread_local!`s are surprisingly expensive](https://swatinem.de/blog/slow-thread-local/)
+* [Designing an Async Runtime for WASI 0.2](https://blog.yoshuawuyts.com/building-an-async-runtime-for-wasi/)
+
 
 ### Rust Walkthroughs
-- [Real-time Streaming Analytics with Fluvio, DeepCausality, and Rust](https://infinyon.com/blog/2024/02/fluvio-deep-causality-rs/)
+* [Storing borrowed data in trait objects](https://ferrous-systems.com/blog/rustls-borrow-checker-p3/)
+* [Rust's early vs. late lifetime binding](https://blog.the-pans.com/rusts-early-vs-late-lifetime-binding/)
+* [How moving from Pandas to Polars made me write better code without writing better code](https://dev.to/check/how-moving-from-pandas-to-polars-made-me-write-better-code-without-writing-better-code-52bl)
+* [A Full Stack SaaS Template with Loco](https://www.shuttle.rs/blog/2024/02/29/fullstack-loco-rust)
+* [Async Rust in a Nutshell](https://www.shuttle.rs/blog/2024/02/29/async-rust)
+* [Real-time Streaming Analytics with Fluvio, DeepCausality, and Rust](https://infinyon.com/blog/2024/02/fluvio-deep-causality-rs/)
+* [video] [Modern All Rust Stack - Dioxus, Axum, Warp, SurrealDB](https://www.youtube.com/watch?v=Pr6T0Phjvgc)
+* [video] [Serverless Data Pipelines in Rust by Michele Vigilante](https://www.youtube.com/watch?v=PK_FKzgPDWg)
 
 ### Research
 
@@ -93,6 +112,7 @@ Are you a new or experienced speaker looking for a place to share something cool
 <!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
+* [RustConf 2024](https://foundation.rust-lang.org/news/the-rustconf-2024-call-for-talk-proposals-is-open/) | CFP closes 2024-04-25 | Montreal, Canada | 2024-09-10
 * [Oxidize 2024](https://oxidizeconf.com/) [CFP](https://pretalx.com/oxidize-berlin-2024/cfp) closes 2024-03-24 | Berlin, Germany | Event date: 2024-05-28 - 2024-05-30
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the submission website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust).
