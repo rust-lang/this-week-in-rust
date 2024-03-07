@@ -14,26 +14,9 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## Updates from Rust Community
 
-<!--
-
-Dear community contributors:
-Please read README.md for guidance on submissions.
-Each submitted link should be of the form:
-
-* [Title of the Linked Page](https://example.com/my_article)
-
-If you don't know which category to use, feel free to submit a PR anyway
-and just ask the editors to select the category.
-
--->
-
 ### Official
 * [Clippy: Deprecating `feature = "cargo-clippy"`](https://blog.rust-lang.org/2024/02/28/Clippy-deprecating-feature-cargo-clippy.html)
 * [Updated baseline standards for Windows targets](https://blog.rust-lang.org/2024/02/26/Windows-7.html)
-
-### Foundation
-
-### Newsletters
 
 ### Project/Tooling Updates
 * [Replacing PyO3's API without breaking everything downstream](https://polar.sh/davidhewitt/posts/replacing-pyo3-api-pt1)
@@ -41,7 +24,6 @@ and just ask the editors to select the category.
 * [rust-gcc February 2024 Monthly report](https://rust-gcc.github.io/2024/03/05/2024-02-monthly-report.html)
 * [godot-rust February 2024 dev update](https://godot-rust.github.io/dev/february-2024-update/)
 * [Fluvio v0.11.5 Release Updates](https://www.fluvio.io/news/this-week-in-fluvio-0059/)
-
 * [sshd-openpgp-auth version 0.3.0](https://crates.io/crates/sshd-openpgp-auth) and [ssh-openpgp-auth version 0.2.2](https://crates.io/crates/ssh-openpgp-auth) as updates to the tooling providing [OpenPGP based authentication for SSH host keys](https://codeberg.org/wiktor/ssh-openpgp-auth)
 
 ### Observations/Thoughts
@@ -50,7 +32,6 @@ and just ask the editors to select the category.
 * [Code review in the Rust compiler](https://nnethercote.github.io/2024/03/05/code-review-in-the-rust-compiler.html)
 * [Rust `thread_local!`s are surprisingly expensive](https://swatinem.de/blog/slow-thread-local/)
 * [Designing an Async Runtime for WASI 0.2](https://blog.yoshuawuyts.com/building-an-async-runtime-for-wasi/)
-
 
 ### Rust Walkthroughs
 * [Storing borrowed data in trait objects](https://ferrous-systems.com/blog/rustls-borrow-checker-p3/)
@@ -63,14 +44,11 @@ and just ask the editors to select the category.
 * [video] [Serverless Data Pipelines in Rust by Michele Vigilante](https://www.youtube.com/watch?v=PK_FKzgPDWg)
 * [[FR] [video] Rust Lyon Meetup #8 - Impl Snake for Micro:bit — Cyril MARPAUD](https://www.youtube.com/watch?v=8_Pj6q_mVQw)
 
-### Research
-
 ### Miscellaneous
 
 * [Czech Rust community index](https://rustlang.cz/)
 * [Launching RustRover: JetBrains’ Investment in Rust](https://mainmatter.com/blog/2024/02/29/launching-rustrover/)
 * [audio] [RustShip: Rust in Art with Lisa Passing](https://ieni.dev/2024/03/%EF%B8%8F-rust-in-art-with-lisa-passing-rustship-6/)
-
 
 ## Crate of the Week
 
@@ -116,9 +94,6 @@ Some of these tasks may also have mentors available, visit the task page for mor
 ### CFP - Speakers
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
-
-<!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
 * [Oxidize 2024](https://oxidizeconf.com/) [CFP](https://pretalx.com/oxidize-berlin-2024/cfp) closes 2024-03-24 | Berlin, Germany | Event date: 2024-05-28 - 2024-05-30
 * [RustConf 2024](https://foundation.rust-lang.org/news/the-rustconf-2024-call-for-talk-proposals-is-open/) | CFP closes 2024-04-25 | Montreal, Canada | 2024-09-10
