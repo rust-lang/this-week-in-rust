@@ -3,8 +3,8 @@ FROM --platform=linux/amd64 python:3.8.16-slim
 # Must run from base TWIR directory... makefile takes care of this.
 WORKDIR /usr/twir
 
-RUN apt update
-RUN apt install -y curl build-essential
+RUN apt-get update
+RUN apt-get install -y curl build-essential
 
 # pelican+friends
 ENV LANG='en_US.UTF-8'
