@@ -34,10 +34,12 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+- [Fluvio v0.11.5 Release Updates](https://www.fluvio.io/news/this-week-in-fluvio-0059/)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [Real-time Streaming Analytics with Fluvio, DeepCausality, and Rust](https://infinyon.com/blog/2024/02/fluvio-deep-causality-rs/)
 
 ### Research
 
