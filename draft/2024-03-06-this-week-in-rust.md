@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 * [godot-rust February 2024 dev update](https://godot-rust.github.io/dev/february-2024-update/)
 * [Fluvio v0.11.5 Release Updates](https://www.fluvio.io/news/this-week-in-fluvio-0059/)
 
+* [sshd-openpgp-auth version 0.3.0](https://crates.io/crates/sshd-openpgp-auth) and [ssh-openpgp-auth version 0.2.2](https://crates.io/crates/ssh-openpgp-auth) as updates to the tooling providing [OpenPGP based authentication for SSH host keys](https://codeberg.org/wiktor/ssh-openpgp-auth)
+
 ### Observations/Thoughts
 * [Borrow checking without lifetimes](https://smallcultfollowing.com/babysteps/blog/2024/03/04/borrow-checking-without-lifetimes/)
 * [How to speed up the Rust compiler in March 2024](https://nnethercote.github.io/2024/03/06/how-to-speed-up-the-rust-compiler-in-march-2024.html)
