@@ -84,7 +84,6 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Ockam - Syntax highlighting for fenced code blocks, in command help output, on Linux works](https://github.com/build-trust/ockam/issues/7471)
 * [Ockam - Command - refactor to use typed interfaces to implement commands for `kafka services`](https://github.com/build-trust/ockam/issues/6706)
 * [ZeroCopy - Don't generate warning when deriving on deprecated type](https://github.com/google/zerocopy/issues/553)
-* [ZeroCopy - github.com/google/zerocopy](https://github.com/google/zerocopy/issues/367)
 * [ZeroCopy - Test the output of zerocopy-derive](https://github.com/google/zerocopy/issues/367)
 * [ZeroCopy - [CI] Check semver compatibility with all target platforms, not just the host platform](https://github.com/google/zerocopy/issues/357)
 * [ZeroCopy - Inline many trait methods (in zerocopy and in derive-generated code)](https://github.com/google/zerocopy/issues/7)
