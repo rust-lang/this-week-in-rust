@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [February 2024 Rust Jobs Report](https://filtra.io/rust-feb-24)
 
 ## Crate of the Week
 
