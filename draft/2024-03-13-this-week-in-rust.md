@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Cargo wizard: automate Cargo project configuration](https://kobzol.github.io/rust/cargo/2024/03/10/rust-cargo-wizard.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
