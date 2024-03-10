@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Mental model for unsafe (complete rewrite)](https://ia0.github.io/unsafe-mental-model/)
+
 ### Rust Walkthroughs
 
 ### Research
