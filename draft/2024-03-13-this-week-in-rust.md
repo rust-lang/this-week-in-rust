@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [video] [Project Syn - Simon Gerber - Rust Zürisee March 2024](https://www.youtube.com/watch?list=PL85XCvVPmGQipj690WrVgsnU4K4x7qFGy&v=N7GMHcX-WdA)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
