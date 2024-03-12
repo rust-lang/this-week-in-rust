@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* Rust Iterators Beyond the Basics ([part 1](https://jb.gg/rit-p1), [part 2](https://jb.gg/rit-p2), [part 3](https://jb.gg/rit-p3))
 
 ### Research
 
