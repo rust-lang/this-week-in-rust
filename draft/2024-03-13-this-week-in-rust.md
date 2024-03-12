@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [video] [SemVer in Rust: Breakage, Tooling, and Edge Cases — FOSDEM 2024 Rust Dev Room](https://www.youtube.com/watch?v=VArNQtYBC6Y)
 
 ### Research
 
