@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Meilisearch 1.7 — New OpenAI models & GPU support for Hugging Face embeddings](https://blog.meilisearch.com/meilisearch-1-7/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
