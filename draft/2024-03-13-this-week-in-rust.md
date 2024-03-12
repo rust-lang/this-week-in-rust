@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [How to Use Rust Procedural Macros to Replace Panic with syn’s Fold](https://www.infoq.com/articles/rust-procedural-macros-replace-panic/)
 
 ### Research
 
