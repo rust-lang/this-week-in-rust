@@ -80,6 +80,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
 
+* [Space Acres by Subspace - [8 different issues with USDC rewards for contributors] ranging from UX improvements to tray support and MacOS packaging](https://github.com/orgs/subspace/projects/26/views/1?filterQuery=usdc)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
