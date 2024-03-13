@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing Relm4 0.7 and 0.8](https://relm4.org/blog/posts/announcing_relm4_v0.7/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
