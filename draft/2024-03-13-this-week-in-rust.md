@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [10 years in Open Source](https://ochagavia.nl/blog/10-years-in-open-source/)
+
 ### Rust Walkthroughs
 
 ### Research
