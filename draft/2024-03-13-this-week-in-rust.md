@@ -59,7 +59,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [How to Use Rust Procedural Macros to Replace Panic with syn’s Fold](https://www.infoq.com/articles/rust-procedural-macros-replace-panic/)
-* Rust Iterators Beyond the Basics ([part 1](https://jb.gg/rit-p1), [part 2](https://jb.gg/rit-p2), [part 3](https://jb.gg/rit-p3))
+* Rust Iterators Beyond the Basics ([part 1](https://blog.jetbrains.com/rust/2024/03/12/rust-iterators-beyond-the-basics-part-i-building-blocks/), [part 2](https://blog.jetbrains.com/rust/2024/03/12/rust-iterators-beyond-the-basics-part-ii-key-aspects/), [part 3](https://blog.jetbrains.com/rust/2024/03/12/rust-iterators-beyond-the-basics-part-iii-tips-and-tricks/))
 * [Rust Multi-crate project in a monorepo](https://rust.code-maven.com/multi-crate-project)
 * [Using Stripe Payments with Rust](https://www.shuttle.rs/blog/2024/03/07/stripe-payments-rust)
 * [Problems around modelling an asynchronous API for database transaction in Rust](https://blog.weiznich.de/blog/async-transaction-problem/)
