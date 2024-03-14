@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Problems around modelling an asynchronous API for database transaction in Rust](https://blog.weiznich.de/blog/async-transaction-problem/)
+
 ### Rust Walkthroughs
 * [Rust Multi-crate project in a monorepo](https://rust.code-maven.com/multi-crate-project)
  
