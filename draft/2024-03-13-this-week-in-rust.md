@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 * [Problems around modelling an asynchronous API for database transaction in Rust](https://blog.weiznich.de/blog/async-transaction-problem/)
 
 ### Rust Walkthroughs
+- [video] [SemVer in Rust: Breakage, Tooling, and Edge Cases — FOSDEM 2024 Rust Dev Room](https://www.youtube.com/watch?v=VArNQtYBC6Y)
 
 * Rust Iterators Beyond the Basics ([part 1](https://jb.gg/rit-p1), [part 2](https://jb.gg/rit-p2), [part 3](https://jb.gg/rit-p3))
 * [Rust Multi-crate project in a monorepo](https://rust.code-maven.com/multi-crate-project)
