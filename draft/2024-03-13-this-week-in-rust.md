@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+
+* [From medical doctor to rust developer](https://surrealdb.com/blog/from-medical-doctor-to-rust-developer--interview-with-our-new-senior-clinical-research-fellow)
 * [February 2024 Rust Jobs Report](https://filtra.io/rust-feb-24)
 
 ## Crate of the Week
