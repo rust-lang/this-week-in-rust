@@ -97,6 +97,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Bambora](https://github.com/juspay/hyperswitch/issues/4054)
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Mollie](https://github.com/juspay/hyperswitch/issues/4055)
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Braintree](https://github.com/juspay/hyperswitch/issues/4058)
+* [GreptimeDB - Painless integrating with Grafana via Prometheus plugin](https://github.com/GreptimeTeam/greptimedb/issues/3492)
+* [GreptimeDB - Add strict mode to validate protocol strings](https://github.com/GreptimeTeam/greptimedb/issues/3435)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
