@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [GreptimeDB v0.7 is ready for cloud-native monitoring](https://greptime.com/blogs/2024-03-07-greptimedb-v0.7)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
