@@ -85,7 +85,8 @@ An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-* *No RFCs issued a call for testing this week.*
+* [Tracking Issue for `min_exhaustive_patterns`](https://github.com/rust-lang/rust/issues/119612)
+    * [Testing Steps](https://github.com/rust-lang/rust/issues/119612#issuecomment-1967092452)
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
