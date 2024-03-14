@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 
 * [Mental model for unsafe (complete rewrite)](https://ia0.github.io/unsafe-mental-model/)
 * [Problems around modelling an asynchronous API for database transaction in Rust](https://blog.weiznich.de/blog/async-transaction-problem/)
+* [10 years in Open Source](https://ochagavia.nl/blog/10-years-in-open-source/)
 
 ### Rust Walkthroughs
 
