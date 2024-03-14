@@ -31,8 +31,6 @@ and just ask the editors to select the category.
 * [Announcing Rustup 1.27.0](https://blog.rust-lang.org/2024/03/11/Rustup-1.27.0.html)
 * [crates.io: Download changes](https://blog.rust-lang.org/2024/03/11/crates-io-download-changes.html)
 
-### Foundation
-
 ### Newsletters
 * [This Month in Rust OSDev: February 2024](https://rust-osdev.com/this-month/2024-02/)
 
@@ -66,8 +64,6 @@ and just ask the editors to select the category.
 * [Embedded Rust Bluetooth on ESP: BLE Scanner](https://apollolabsblog.hashnode.dev/embedded-rust-bluetooth-on-esp-ble-scanner)
 * [video] [Implementing (parts of) git from scratch in Rust](https://www.youtube.com/watch?v=u0VotuGzD_w)
 * [video] [The Billion Rows Challenge in Rust - an intro to Rust for data engineering](https://www.youtube.com/watch?v=-1VGwmFKKf8)
-
-### Research
 
 ### Miscellaneous
 * [Rust impact on engineering management](https://bastienvigneron.medium.com/rust-impact-on-engineering-management-59647e5d0265)
@@ -111,6 +107,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Braintree](https://github.com/juspay/hyperswitch/issues/4058)
 * [GreptimeDB - Painless integrating with Grafana via Prometheus plugin](https://github.com/GreptimeTeam/greptimedb/issues/3492)
 * [GreptimeDB - Add strict mode to validate protocol strings](https://github.com/GreptimeTeam/greptimedb/issues/3435)
+* [Fluvio - fvm switch fails on some systems with running local cluster](https://github.com/infinyon/fluvio/issues/3765)
+* [Fluvio - Add new command fluvio cluster resume](https://github.com/infinyon/fluvio/issues/3810) (intermediate/expert difficulty)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -118,13 +116,13 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### CFP - Speakers
 
-Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
+Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker. They are ordered below by when the CFP closes.
 
-* [Scientific Computing in Rust 2024](https://scientificcomputing.rs/)| CFP closes 2024-06-14 | online | Event date: 2024-07-17 to 2024-07-19
-
-<!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-* [RustFest Zürich 2024](https://rustfest.ch/cfp/) CFP open - closes 2024-03-31 | Zürich, Switzerland | Event date: 2024-06-19 - 2024-06-24
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+* [RustFest Zürich 2024](https://rustfest.ch/cfp/) | Closes 2024-03-31 | Zürich, Switzerland | Event date: 2024-06-19 - 2024-06-24
+* [Oxidize 2024](https://pretalx.com/oxidize-berlin-2024/cfp) | Closes 2024-03-24 | Berlin, Germany | Event date: 2024-05-28 - 2024-05-30
+* [RustConf 2024](https://foundation.rust-lang.org/news/the-rustconf-2024-call-for-talk-proposals-is-open/) | CFP closes 2024-04-25 | Montreal, Canada | Event date: 2024-09-10
+* [EuroRust 2024](https://www.papercall.io/eurorust-2024)| Closes 2024-06-03 | Vienna, Austria & online | Event on 2024-10-10
+* [Scientific Computing in Rust 2024](https://scientificcomputing.rs/)| Closes 2024-06-14 | online | Event date: 2024-07-17 - 2024-07-19
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the submission website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust).
 
