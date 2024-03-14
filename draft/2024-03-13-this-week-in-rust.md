@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 * [Meilisearch 1.7 — New OpenAI models & GPU support for Hugging Face embeddings](https://blog.meilisearch.com/meilisearch-1-7/)
 * [Cargo wizard: automate Cargo project configuration](https://kobzol.github.io/rust/cargo/2024/03/10/rust-cargo-wizard.html)
 * [GreptimeDB v0.7 is ready for cloud-native monitoring](https://greptime.com/blogs/2024-03-07-greptimedb-v0.7)
+* [video] [Project Syn - Simon Gerber - Rust Zürisee March 2024](https://www.youtube.com/watch?list=PL85XCvVPmGQipj690WrVgsnU4K4x7qFGy&v=N7GMHcX-WdA)
 
 ### Observations/Thoughts
 
