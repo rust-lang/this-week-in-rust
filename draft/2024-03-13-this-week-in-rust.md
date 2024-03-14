@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Rust Flashcards - 557 cards to learn Rust from first principles](https://github.com/ad-si/Rust-Flashcards)
 
 ### Observations/Thoughts
 
@@ -42,8 +43,6 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-
-- [Rust Flashcards - 557 cards to learn Rust from first principles](https://github.com/ad-si/Rust-Flashcards)
 
 ## Crate of the Week
 
