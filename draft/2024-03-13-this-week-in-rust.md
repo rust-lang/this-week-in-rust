@@ -97,6 +97,7 @@ Are you a new or experienced speaker looking for a place to share something cool
 * [Scientific Computing in Rust 2024](https://scientificcomputing.rs/)| CFP closes 2024-06-14 | online | Event date: 2024-07-17 to 2024-07-19
 
 <!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
+* [RustFest Zürich 2024](https://rustfest.ch/cfp/) CFP open - closes 2024-03-31 | Zürich, Switzerland | Event date: 2024-06-19 - 2024-06-24
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the submission website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust).
