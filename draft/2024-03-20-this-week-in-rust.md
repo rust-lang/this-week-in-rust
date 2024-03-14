@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [testresult 0.4.0 released. The crate provides the `TestResult` type for concise and precise test failures.](https://crates.io/crates/testresult)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
