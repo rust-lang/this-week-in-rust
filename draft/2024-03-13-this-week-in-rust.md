@@ -91,6 +91,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+* [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Bambora](https://github.com/juspay/hyperswitch/issues/4054)
+* [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Mollie](https://github.com/juspay/hyperswitch/issues/4055)
+* [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Braintree](https://github.com/juspay/hyperswitch/issues/4058)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
