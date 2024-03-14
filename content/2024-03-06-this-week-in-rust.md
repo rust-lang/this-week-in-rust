@@ -137,7 +137,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [match lowering: Lower bindings in a predictable order](https://github.com/rust-lang/rust/pull/121716)
 * [match lowering: Separate the `bool` case from other integers in `TestKind`](https://github.com/rust-lang/rust/pull/121750)
 * [match lowering: pre-simplify or-patterns too](https://github.com/rust-lang/rust/pull/121715)
-* [never say "`Trait is implemented for `{type error}`"`](https://github.com/rust-lang/rust/pull/121803)
+* [never say `"`Trait is implemented for {type error}`"`](https://github.com/rust-lang/rust/pull/121803)
 * [normalizes-to: handle negative impls](https://github.com/rust-lang/rust/pull/121853)
 * [opportunistically resolve regions when processing region outlives obligations](https://github.com/rust-lang/rust/pull/121743)
 * [pattern analysis: Don't panic when encountering unexpected constructor](https://github.com/rust-lang/rust/pull/121735)

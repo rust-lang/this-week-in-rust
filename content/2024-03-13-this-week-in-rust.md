@@ -57,7 +57,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [How to Use Rust Procedural Macros to Replace Panic with syn’s Fold](https://www.infoq.com/articles/rust-procedural-macros-replace-panic/)
-* Rust Iterators Beyond the Basics ([part 1](https://blog.jetbrains.com/rust/2024/03/12/rust-iterators-beyond-the-basics-part-i-building-blocks/), [part 2](https://blog.jetbrains.com/rust/2024/03/12/rust-iterators-beyond-the-basics-part-ii-key-aspects/), [part 3](https://blog.jetbrains.com/rust/2024/03/12/rust-iterators-beyond-the-basics-part-iii-tips-and-tricks/))
+* [Rust Iterators Beyond the Basics - part 1](https://blog.jetbrains.com/rust/2024/03/12/rust-iterators-beyond-the-basics-part-i-building-blocks/)
 * [Rust Multi-crate project in a monorepo](https://rust.code-maven.com/multi-crate-project)
 * [Using Stripe Payments with Rust](https://www.shuttle.rs/blog/2024/03/07/stripe-payments-rust)
 * [Problems around modelling an asynchronous API for database transaction in Rust](https://blog.weiznich.de/blog/async-transaction-problem/)
@@ -101,15 +101,14 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Bambora](https://github.com/juspay/hyperswitch/issues/4054)
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Mollie](https://github.com/juspay/hyperswitch/issues/4055)
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Braintree](https://github.com/juspay/hyperswitch/issues/4058)
 * [GreptimeDB - Painless integrating with Grafana via Prometheus plugin](https://github.com/GreptimeTeam/greptimedb/issues/3492)
 * [GreptimeDB - Add strict mode to validate protocol strings](https://github.com/GreptimeTeam/greptimedb/issues/3435)
 * [Fluvio - fvm switch fails on some systems with running local cluster](https://github.com/infinyon/fluvio/issues/3765)
-* [Fluvio - Add new command fluvio cluster resume](https://github.com/infinyon/fluvio/issues/3810) (intermediate/expert difficulty)
+* [Fluvio - Add new command fluvio cluster resume](https://github.com/infinyon/fluvio/issues/3810)
+* [quinn - Add CI for mobile platforms (iOS & Android)](https://github.com/quinn-rs/quinn/issues/1778)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
