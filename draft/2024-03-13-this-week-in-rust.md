@@ -40,7 +40,8 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
+* [Rust Multi-crate project in a monorepo](https://rust.code-maven.com/multi-crate-project)
+ 
 ### Research
 
 ### Miscellaneous
