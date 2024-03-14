@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Revolutionizing PostgreSQL Database Comparison: Introducing pgdatadiff in Rust — Unleash Speed, Safety, and Scalability](https://medium.com/@p.tournaris/revolutionizing-postgresql-database-comparison-introducing-pgdatadiff-in-rust-unleash-speed-e232a8bef31b)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
