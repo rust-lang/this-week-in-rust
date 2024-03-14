@@ -226,7 +226,19 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A mixed week, with a vast number of improvements (in large part due to PR
+#122010, which undoes a prior regression; PR #120985, a host LLVM update).
+But also three admittedly small-ish regressions which seemed unanticipated and
+were still large enough that I did not feel comfortable rubber-stamping them
+with a perf-regression-triaged marking.
+
+Triage done by **@pnkfelix**.
+Revision range: [41d97c8a..e919669d](https://perf.rust-lang.org/?start=41d97c8a5dea2731b0e56fe97cd7cb79e21cff79&end=e919669d42dfb8950866d4cb268c5359eb3f7c54&absolute=false&stat=instructions%3Au)
+
+2 Regressions, 5 Improvements, 9 Mixed; 5 of them in rollups
+54 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/69fb50d19f3d9bb28a903ddcee7326eef6a11518/triage/2024-03-11.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
