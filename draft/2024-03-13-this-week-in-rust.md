@@ -34,9 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [Rust Flashcards - 557 cards to learn Rust from first principles](https://github.com/ad-si/Rust-Flashcards)
 
-* [Announcing Relm4 0.7 and 0.8](https://relm4.org/blog/posts/announcing_relm4_v0.7/)
 * [Meilisearch 1.7 — New OpenAI models & GPU support for Hugging Face embeddings](https://blog.meilisearch.com/meilisearch-1-7/)
 * [Cargo wizard: automate Cargo project configuration](https://kobzol.github.io/rust/cargo/2024/03/10/rust-cargo-wizard.html)
 * [GreptimeDB v0.7 is ready for cloud-native monitoring](https://greptime.com/blogs/2024-03-07-greptimedb-v0.7)
@@ -46,7 +44,6 @@ and just ask the editors to select the category.
 
 * [Mental model for unsafe (complete rewrite)](https://ia0.github.io/unsafe-mental-model/)
 * [Problems around modelling an asynchronous API for database transaction in Rust](https://blog.weiznich.de/blog/async-transaction-problem/)
-* [10 years in Open Source](https://ochagavia.nl/blog/10-years-in-open-source/)
 
 ### Rust Walkthroughs
 
@@ -97,6 +94,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Bambora](https://github.com/juspay/hyperswitch/issues/4054)
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Mollie](https://github.com/juspay/hyperswitch/issues/4055)
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Braintree](https://github.com/juspay/hyperswitch/issues/4058)
+* [GreptimeDB - Painless integrating with Grafana via Prometheus plugin](https://github.com/GreptimeTeam/greptimedb/issues/3492)
+* [GreptimeDB - Add strict mode to validate protocol strings](https://github.com/GreptimeTeam/greptimedb/issues/3435)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
