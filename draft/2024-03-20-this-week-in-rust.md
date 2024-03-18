@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Declaring Holy Cyber War on Web Scrapers Using Rust](https://medium.com/p/564df967511a)
 
 ## Crate of the Week
 
