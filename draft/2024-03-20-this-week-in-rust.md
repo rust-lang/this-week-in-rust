@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Research
 
+* [Rust Tools Survey (by JetBrains)](https://surveys.jetbrains.com/s3/s1-Rust-Tools-Survey)
+
 ### Miscellaneous
 
 ## Crate of the Week
