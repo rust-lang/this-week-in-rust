@@ -11,3 +11,10 @@ class Event():
     self.recurring = recurring
     self.inPast = inPast
     self.maybeSpam = maybeSpam
+
+  def to_markdown_string(self) -> str:
+    if self.virtual:
+      return f'* {self.date} | Virtual ({self.location}) | [{self.organizerName}](TODO: ORGANISER URL HERE)\n\t*[**{self.name}**]({self.url})'
+    else:
+      return f'* {self.date} | {self.location} | [{self.organizerName}](TODO: ORGANISER URL HERE)\n\t*[**{self.name}**]({self.url})'
+    
