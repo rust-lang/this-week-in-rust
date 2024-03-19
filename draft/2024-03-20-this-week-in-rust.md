@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [SemVer in Rust: Breakage, Tooling, and Edge Cases — FOSDEM 2024 annotated talk](https://predr.ag/blog/semver-in-rust-tooling-breakage-and-edge-cases/)
+
 ### Rust Walkthroughs
 
 ### Research
