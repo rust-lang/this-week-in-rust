@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Go's Errors: How I Learned to Love Rust](https://barretts.club/posts/go-errors/)
+
 ### Rust Walkthroughs
 
 ### Research
