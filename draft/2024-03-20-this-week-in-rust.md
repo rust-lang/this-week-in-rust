@@ -56,6 +56,8 @@ and just ask the editors to select the category.
 * [Lambda on hard mode: Inside Modal's web infrastructure](https://modal.com/blog/serverless-http)
 * [Embedded Rust Bluetooth on ESP: BLE Advertiser](https://apollolabsblog.hashnode.dev/embedded-rust-bluetooth-on-esp-ble-advertiser)
 
+* [What part of Rust compilation is the bottleneck?](https://kobzol.github.io/rust/rustc/2024/03/15/rustc-what-takes-so-long.html)
+
 ### Rust Walkthroughs
 
 * [A Short Introduction to Rust and the Bevy Game Engine](https://wiki.wptcsu.com/en/cpt/howto/game-dev/rust-bevy-workshop)
