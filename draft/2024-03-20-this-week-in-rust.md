@@ -69,6 +69,7 @@ and just ask the editors to select the category.
 ### Miscellaneous
 
 * [The book "Code Like a Pro in Rust" is released](https://www.manning.com/books/code-like-a-pro-in-rust)
+* [Red Hat's Long, Rust'ed Road Ahead For Nova As Nouveau Driver Successor](https://www.phoronix.com/news/Red-Hat-Nova-Rust-Abstractions)
 
 ## Crate of the Week
 
