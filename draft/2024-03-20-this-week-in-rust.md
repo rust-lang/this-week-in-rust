@@ -34,7 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [`yaml-rust2`: A successor to the unmaintained `yaml-rust`](https://github.com/Ethiraric/yaml-rust2/blob/master/documents/2024-03-15-FirstRelease.md)
+* [`yaml-rust2`: A successor to `yaml-rust`](https://github.com/Ethiraric/yaml-rust2/blob/master/documents/2024-03-15-FirstRelease.md)
 
 ### Observations/Thoughts
 
