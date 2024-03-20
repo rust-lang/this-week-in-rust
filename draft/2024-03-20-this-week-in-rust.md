@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [RustNL 2024 schedule announced](https://2024.rustnl.org/schedule/)
 
 ## Crate of the Week
 
