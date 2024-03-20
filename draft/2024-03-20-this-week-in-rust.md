@@ -91,6 +91,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
 
+* [Space Acres - Packaging for MacOS](https://github.com/subspace/space-acres/issues/7)
+* [Space Acres - Implement Loading Progress](https://github.com/subspace/space-acres/issues/133)
+* [Space Acres - Show more lines of logs when the app is "Stopped with error"](https://github.com/subspace/space-acres/issues/58)
+* [Space Acres - Tray Icon Support](https://github.com/subspace/space-acres/issues/18)
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Braintree](https://github.com/juspay/hyperswitch/issues/4058)
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Fiserv](https://github.com/juspay/hyperswitch/issues/4059)
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Globepay](https://github.com/juspay/hyperswitch/issues/4060)
