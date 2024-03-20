@@ -32,10 +32,25 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #15](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-15)
+* [This Week in Bevy: Foundations, Meetups, and more Bevy Cheatbook updates](https://thisweekinbevy.com/issue/2024-03-18-foundations-meetups-and-more-bevy-cheatbook-updates)
 
 ### Project/Tooling Updates
+* [rustc_codegen_gcc: Progress Report #31](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-31)
+* [Slint 1.5: Embracing Android, Improving Live-Preview, and introducing Pythonic Slint](https://slint.dev/blog/slint-1.5-released)
+* [yaml-rust2's first real release](https://github.com/Ethiraric/yaml-rust2/blob/master/documents/2024-03-15-FirstRelease.md)
 
 ### Observations/Thoughts
+* [Strongly-typed IDs in SurrealDB](https://jlewis.sh/post/strongly-typed-ids-in-surrealdb)
+* [Iterators and traversables](https://without.boats/blog/iterators-and-traversables/)
+* [Using PostHog with Rust](https://www.shuttle.rs/blog/2024/03/14/using-posthog-rust)
+* [Using Rust on ESP32 from Windows](https://kopf1988.medium.com/using-rust-on-esp32-from-windows-b6814fd09928)
+* [Compiling Rust to WASI](https://benw.is/posts/compiling-rust-to-wasi)
+* [Achieving awful compression with digits of pi](https://ntietz.com/blog/why-we-cant-compress-messages-with-pi/)
+* [Zig, Rust, and other languages](https://notes.eatonphil.com/2024-03-15-zig-rust-and-other-languages.html)
+* [What part of Rust compilation is the bottleneck?](https://kobzol.github.io/rust/rustc/2024/03/15/rustc-what-takes-so-long.html)
+* [Lambda on hard mode: Inside Modal's web infrastructure](https://modal.com/blog/serverless-http)
+* [Embedded Rust Bluetooth on ESP: BLE Advertiser](https://apollolabsblog.hashnode.dev/embedded-rust-bluetooth-on-esp-ble-advertiser)
 
 ### Rust Walkthroughs
 
