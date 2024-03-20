@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 * [Slint 1.5: Embracing Android, Improving Live-Preview, and introducing Pythonic Slint](https://slint.dev/blog/slint-1.5-released)
 * [yaml-rust2's first real release](https://github.com/Ethiraric/yaml-rust2/blob/master/documents/2024-03-15-FirstRelease.md)
 
+- [testresult 0.4.0 released. The crate provides the `TestResult` type for concise and precise test failures.](https://crates.io/crates/testresult)
+
 ### Observations/Thoughts
 * [Strongly-typed IDs in SurrealDB](https://jlewis.sh/post/strongly-typed-ids-in-surrealdb)
 * [Iterators and traversables](https://without.boats/blog/iterators-and-traversables/)
