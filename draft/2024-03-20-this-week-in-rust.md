@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Diplomat - Idiomatic Multi-Language APIs - Robert Bastian - Rust Zürisee March 2024](https://www.youtube.com/watch?list=PL85XCvVPmGQipj690WrVgsnU4K4x7qFGy&v=q5gh-XX1_Ws)
 
 ## Crate of the Week
 
