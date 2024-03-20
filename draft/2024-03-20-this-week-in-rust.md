@@ -69,6 +69,7 @@ and just ask the editors to select the category.
 ### Miscellaneous
 
 * [The book "Code Like a Pro in Rust" is released](https://www.manning.com/books/code-like-a-pro-in-rust)
+* [video] [Strings and memory in Rust](https://www.youtube.com/watch?v=UqVgTafRCCU)
 
 ## Crate of the Week
 
