@@ -100,14 +100,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
 * [Rama — add Form support (IntroResponse + FromRequest)](https://github.com/plabayo/rama/issues/68)
 * [Rama — rename \*Filter matchers to \*Matcher](https://github.com/plabayo/rama/issues/91)
 * [Rama — Provide support for boxed custom matchers in layer enums](https://github.com/plabayo/rama/issues/92)
 * [Rama — use workspace dependencies for common workspace dep versionning](https://github.com/plabayo/rama/issues/89)
 * [Rama — add open-telemetry middleware and extended prometheus support](https://github.com/plabayo/rama/issues/23)
-
 * [Space Acres - Packaging for MacOS](https://github.com/subspace/space-acres/issues/7)
 * [Space Acres - Implement Loading Progress](https://github.com/subspace/space-acres/issues/133)
 * [Space Acres - Show more lines of logs when the app is "Stopped with error"](https://github.com/subspace/space-acres/issues/58)
@@ -115,6 +112,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Braintree](https://github.com/juspay/hyperswitch/issues/4058)
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Fiserv](https://github.com/juspay/hyperswitch/issues/4059)
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Globepay](https://github.com/juspay/hyperswitch/issues/4060)
+* [ZeroCopy - Fix cfgs in rustdoc](https://github.com/google/zerocopy/issues/1055)
+* [ZeroCopy - Audit uses of "C-like" and prefer "fieldless"](https://github.com/google/zerocopy/issues/985)
+* [ZeroCopy - in zerocopy-derive UI tests, detect whether we're building with `RUSTFLAGS='-Wwarnings'`](https://github.com/google/zerocopy/issues/953)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
