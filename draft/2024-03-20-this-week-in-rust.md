@@ -56,6 +56,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [A Short Introduction to Rust and the Bevy Game Engine](https://wiki.wptcsu.com/en/cpt/howto/game-dev/rust-bevy-workshop)
+
 ### Research
 
 ### Miscellaneous
