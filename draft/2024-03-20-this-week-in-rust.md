@@ -64,6 +64,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [The book "Code Like a Pro in Rust" is released](https://www.manning.com/books/code-like-a-pro-in-rust)
+
 ## Crate of the Week
 
 This week's crate is [heck](https://docs.rs/heck), a `no_std` crate to perform case conversions.
