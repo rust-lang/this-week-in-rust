@@ -90,6 +90,11 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+* [Rama — add Form support (IntroResponse + FromRequest)](https://github.com/plabayo/rama/issues/68)
+* [Rama — rename \*Filter matchers to \*Matcher](https://github.com/plabayo/rama/issues/91)
+* [Rama — Provide support for boxed custom matchers in layer enums](https://github.com/plabayo/rama/issues/92)
+* [Rama — use workspace dependencies for common workspace dep versionning](https://github.com/plabayo/rama/issues/89)
+* [Rama — add open-telemetry middleware and extended prometheus support](https://github.com/plabayo/rama/issues/23)
 
 * [Space Acres - Packaging for MacOS](https://github.com/subspace/space-acres/issues/7)
 * [Space Acres - Implement Loading Progress](https://github.com/subspace/space-acres/issues/133)
