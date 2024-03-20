@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 - [testresult 0.4.0 released. The crate provides the `TestResult` type for concise and precise test failures.](https://crates.io/crates/testresult)
 
+* [Revolutionizing PostgreSQL Database Comparison: Introducing pgdatadiff in Rust — Unleash Speed, Safety, and Scalability](https://medium.com/@p.tournaris/revolutionizing-postgresql-database-comparison-introducing-pgdatadiff-in-rust-unleash-speed-e232a8bef31b)
+
 ### Observations/Thoughts
 * [Strongly-typed IDs in SurrealDB](https://jlewis.sh/post/strongly-typed-ids-in-surrealdb)
 * [Iterators and traversables](https://without.boats/blog/iterators-and-traversables/)
