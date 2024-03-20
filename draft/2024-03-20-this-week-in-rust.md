@@ -223,7 +223,32 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Even though the summary might not look like it, this was actually a relatively quiet week,
+with a few small regressions. The large regression that is also shown in the summary table was
+caused by extending the verification of incremental compilation results.
+However, this verification is not actually fully enabled by default, so these regressions are mostly
+only visible in our benchmarking suite, which enables the verification to achieve more deterministic
+benchmarking results. One small regression was also caused by enabling frame pointers for the Rust
+standard library, which should improve profiling of Rust programs.
+
+Triage done by **@kobzol**.
+Revision
+range: [e919669d..21d94a3d](https://perf.rust-lang.org/?start=e919669d42dfb8950866d4cb268c5359eb3f7c54&end=21d94a3d2c63cacf8eaf9d0ca770c0b450c558d4&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+|         (instructions:u)          | mean  |     range      | count |
+|:---------------------------------:|:-----:|:--------------:|:-----:|
+|  Regressions ❌ <br /> (primary)   | 2.5%  |  [0.4%, 7.8%]  |  207  |
+| Regressions ❌ <br /> (secondary)  | 2.9%  |  [0.2%, 8.3%]  |  128  |
+|  Improvements ✅ <br /> (primary)  |   -   |       -        |   0   |
+| Improvements ✅ <br /> (secondary) | -1.0% | [-1.3%, -0.4%] |   4   |
+|         All ❌✅ (primary)          | 2.5%  |  [0.4%, 7.8%]  |  207  |
+
+4 Regressions, 1 Improvements, 6 Mixed; 4 of them in rollups
+67 artifact comparisons made in total
+
+[Full report here](https://github.com/Kobzol/rustc-perf/blob/9b4df43b82c5d0fd214d6fae1b8ba4f5e3fdfec1/triage/2024-03-19.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
