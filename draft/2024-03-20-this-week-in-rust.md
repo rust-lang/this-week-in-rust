@@ -64,6 +64,8 @@ and just ask the editors to select the category.
 
 ### Research
 
+* [Rust Tools Survey (by JetBrains)](https://surveys.jetbrains.com/s3/s1-Rust-Tools-Survey)
+
 ### Miscellaneous
 
 * [The book "Code Like a Pro in Rust" is released](https://www.manning.com/books/code-like-a-pro-in-rust)
