@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Go's Errors: How I Learned to Love Rust](https://barretts.club/posts/go-errors/)
 * [Strongly-typed IDs in SurrealDB](https://jlewis.sh/post/strongly-typed-ids-in-surrealdb)
 * [Iterators and traversables](https://without.boats/blog/iterators-and-traversables/)
 * [Using PostHog with Rust](https://www.shuttle.rs/blog/2024/03/14/using-posthog-rust)
