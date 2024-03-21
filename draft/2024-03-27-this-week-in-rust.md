@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Fornjot v0.49.0 released - open source b-rep CAD kernel in Rust](https://www.fornjot.app/blog/release/0.49.0/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
