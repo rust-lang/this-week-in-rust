@@ -27,10 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
 ### Newsletters
 
 * [The Embedded Rustacean Issue #15](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-15)
@@ -58,6 +54,7 @@ and just ask the editors to select the category.
 * [What part of Rust compilation is the bottleneck?](https://kobzol.github.io/rust/rustc/2024/03/15/rustc-what-takes-so-long.html)
 * [Lambda on hard mode: Inside Modal's web infrastructure](https://modal.com/blog/serverless-http)
 * [Embedded Rust Bluetooth on ESP: BLE Advertiser](https://apollolabsblog.hashnode.dev/embedded-rust-bluetooth-on-esp-ble-advertiser)
+* [video] [Diplomat - Idiomatic Multi-Language APIs - Robert Bastian - Rust Zürisee March 2024](https://www.youtube.com/watch?list=PL85XCvVPmGQipj690WrVgsnU4K4x7qFGy&v=q5gh-XX1_Ws)
 
 ### Rust Walkthroughs
 
@@ -69,8 +66,6 @@ and just ask the editors to select the category.
 * [Rust Tools Survey (by JetBrains)](https://surveys.jetbrains.com/s3/s1-Rust-Tools-Survey)
 
 ### Miscellaneous
-* [Diplomat - Idiomatic Multi-Language APIs - Robert Bastian - Rust Zürisee March 2024](https://www.youtube.com/watch?list=PL85XCvVPmGQipj690WrVgsnU4K4x7qFGy&v=q5gh-XX1_Ws)
-
 * [RustNL 2024 schedule announced](https://2024.rustnl.org/schedule/)
 * [Fighting back: Turning the Tables on Web Scrapers Using Rust](https://medium.com/p/564df967511a)
 * [The book "Code Like a Pro in Rust" is released](https://www.manning.com/books/code-like-a-pro-in-rust)
@@ -439,8 +434,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
-
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1arr8xi/official_rrust_whos_hiring_thread_for_jobseekers/)
 # Quote of the Week
 
 > In 10 years we went from “Rust will never replace C and C++” to “New C/C++ should not be written anymore, and you should use Rust”. Good job.
@@ -455,4 +449,4 @@ Thanks to [Dennis Luxen](https://users.rust-lang.org/t/twir-quote-of-the-week/32
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1bju0xl/this_week_in_rust_539/)</small>
