@@ -67,6 +67,7 @@ and just ask the editors to select the category.
 * [Rust Tools Survey (by JetBrains)](https://surveys.jetbrains.com/s3/s1-Rust-Tools-Survey)
 
 ### Miscellaneous
+* [Diplomat - Idiomatic Multi-Language APIs - Robert Bastian - Rust Zürisee March 2024](https://www.youtube.com/watch?list=PL85XCvVPmGQipj690WrVgsnU4K4x7qFGy&v=q5gh-XX1_Ws)
 
 * [RustNL 2024 schedule announced](https://2024.rustnl.org/schedule/)
 * [Fighting back: Turning the Tables on Web Scrapers Using Rust](https://medium.com/p/564df967511a)
