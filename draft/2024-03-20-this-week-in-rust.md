@@ -60,6 +60,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 * [A Short Introduction to Rust and the Bevy Game Engine](https://wiki.wptcsu.com/en/cpt/howto/game-dev/rust-bevy-workshop)
+* [video] [Strings and memory reallocation in Rust](https://www.youtube.com/watch?v=UqVgTafRCCU)
 
 ### Research
 
@@ -67,9 +68,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [Fighting back: Turning the Tables on Web Scrapers Using Rust](https://medium.com/p/564df967511a)
-
 * [The book "Code Like a Pro in Rust" is released](https://www.manning.com/books/code-like-a-pro-in-rust)
-* [video] [Strings and memory reallocation in Rust](https://www.youtube.com/watch?v=UqVgTafRCCU)
+* [Red Hat's Long, Rust'ed Road Ahead For Nova As Nouveau Driver Successor](https://www.phoronix.com/news/Red-Hat-Nova-Rust-Abstractions)
 
 ## Crate of the Week
 
