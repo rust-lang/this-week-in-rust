@@ -67,6 +67,8 @@ and just ask the editors to select the category.
 * [Rust Tools Survey (by JetBrains)](https://surveys.jetbrains.com/s3/s1-Rust-Tools-Survey)
 
 ### Miscellaneous
+
+* [RustNL 2024 schedule announced](https://2024.rustnl.org/schedule/)
 * [Fighting back: Turning the Tables on Web Scrapers Using Rust](https://medium.com/p/564df967511a)
 * [The book "Code Like a Pro in Rust" is released](https://www.manning.com/books/code-like-a-pro-in-rust)
 * [Red Hat's Long, Rust'ed Road Ahead For Nova As Nouveau Driver Successor](https://www.phoronix.com/news/Red-Hat-Nova-Rust-Abstractions)
