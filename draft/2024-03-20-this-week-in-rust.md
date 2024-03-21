@@ -32,19 +32,20 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+
 * [The Embedded Rustacean Issue #15](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-15)
 * [This Week in Bevy: Foundations, Meetups, and more Bevy Cheatbook updates](https://thisweekinbevy.com/issue/2024-03-18-foundations-meetups-and-more-bevy-cheatbook-updates)
 
 ### Project/Tooling Updates
+
 * [rustc_codegen_gcc: Progress Report #31](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-31)
 * [Slint 1.5: Embracing Android, Improving Live-Preview, and introducing Pythonic Slint](https://slint.dev/blog/slint-1.5-released)
 * [yaml-rust2's first real release](https://github.com/Ethiraric/yaml-rust2/blob/master/documents/2024-03-15-FirstRelease.md)
-
-- [testresult 0.4.0 released. The crate provides the `TestResult` type for concise and precise test failures.](https://crates.io/crates/testresult)
-
+* [testresult 0.4.0 released. The crate provides the `TestResult` type for concise and precise test failures.](https://crates.io/crates/testresult)
 * [Revolutionizing PostgreSQL Database Comparison: Introducing pgdatadiff in Rust — Unleash Speed, Safety, and Scalability](https://medium.com/@p.tournaris/revolutionizing-postgresql-database-comparison-introducing-pgdatadiff-in-rust-unleash-speed-e232a8bef31b)
 
 ### Observations/Thoughts
+
 * [Strongly-typed IDs in SurrealDB](https://jlewis.sh/post/strongly-typed-ids-in-surrealdb)
 * [Iterators and traversables](https://without.boats/blog/iterators-and-traversables/)
 * [Using PostHog with Rust](https://www.shuttle.rs/blog/2024/03/14/using-posthog-rust)
@@ -56,18 +57,17 @@ and just ask the editors to select the category.
 * [Lambda on hard mode: Inside Modal's web infrastructure](https://modal.com/blog/serverless-http)
 * [Embedded Rust Bluetooth on ESP: BLE Advertiser](https://apollolabsblog.hashnode.dev/embedded-rust-bluetooth-on-esp-ble-advertiser)
 
-* [What part of Rust compilation is the bottleneck?](https://kobzol.github.io/rust/rustc/2024/03/15/rustc-what-takes-so-long.html)
-
 ### Rust Walkthroughs
 
 * [A Short Introduction to Rust and the Bevy Game Engine](https://wiki.wptcsu.com/en/cpt/howto/game-dev/rust-bevy-workshop)
+* [video] [Strings and memory reallocation in Rust](https://www.youtube.com/watch?v=UqVgTafRCCU)
 
 ### Research
 
 * [Rust Tools Survey (by JetBrains)](https://surveys.jetbrains.com/s3/s1-Rust-Tools-Survey)
 
 ### Miscellaneous
-
+* [Fighting back: Turning the Tables on Web Scrapers Using Rust](https://medium.com/p/564df967511a)
 * [The book "Code Like a Pro in Rust" is released](https://www.manning.com/books/code-like-a-pro-in-rust)
 * [Red Hat's Long, Rust'ed Road Ahead For Nova As Nouveau Driver Successor](https://www.phoronix.com/news/Red-Hat-Nova-Rust-Abstractions)
 
@@ -101,14 +101,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
 * [Rama — add Form support (IntroResponse + FromRequest)](https://github.com/plabayo/rama/issues/68)
 * [Rama — rename \*Filter matchers to \*Matcher](https://github.com/plabayo/rama/issues/91)
 * [Rama — Provide support for boxed custom matchers in layer enums](https://github.com/plabayo/rama/issues/92)
 * [Rama — use workspace dependencies for common workspace dep versionning](https://github.com/plabayo/rama/issues/89)
 * [Rama — add open-telemetry middleware and extended prometheus support](https://github.com/plabayo/rama/issues/23)
-
 * [Space Acres - Packaging for MacOS](https://github.com/subspace/space-acres/issues/7)
 * [Space Acres - Implement Loading Progress](https://github.com/subspace/space-acres/issues/133)
 * [Space Acres - Show more lines of logs when the app is "Stopped with error"](https://github.com/subspace/space-acres/issues/58)
@@ -116,6 +113,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Braintree](https://github.com/juspay/hyperswitch/issues/4058)
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Fiserv](https://github.com/juspay/hyperswitch/issues/4059)
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Globepay](https://github.com/juspay/hyperswitch/issues/4060)
+* [ZeroCopy - Fix cfgs in rustdoc](https://github.com/google/zerocopy/issues/1055)
+* [ZeroCopy - Audit uses of "C-like" and prefer "fieldless"](https://github.com/google/zerocopy/issues/985)
+* [ZeroCopy - in zerocopy-derive UI tests, detect whether we're building with `RUSTFLAGS='-Wwarnings'`](https://github.com/google/zerocopy/issues/953)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
