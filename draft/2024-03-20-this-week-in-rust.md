@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [SemVer in Rust: Breakage, Tooling, and Edge Cases — FOSDEM 2024 annotated talk](https://predr.ag/blog/semver-in-rust-tooling-breakage-and-edge-cases/)
 * [Go's Errors: How I Learned to Love Rust](https://barretts.club/posts/go-errors/)
 * [Strongly-typed IDs in SurrealDB](https://jlewis.sh/post/strongly-typed-ids-in-surrealdb)
 * [Iterators and traversables](https://without.boats/blog/iterators-and-traversables/)
