@@ -69,6 +69,7 @@ and just ask the editors to select the category.
 * [Fighting back: Turning the Tables on Web Scrapers Using Rust](https://medium.com/p/564df967511a)
 
 * [The book "Code Like a Pro in Rust" is released](https://www.manning.com/books/code-like-a-pro-in-rust)
+* [video] [Strings and memory reallocation in Rust](https://www.youtube.com/watch?v=UqVgTafRCCU)
 
 ## Crate of the Week
 
