@@ -3,81 +3,118 @@
 # call event sink with our collected events
 # print to console / output to file formatted markdown
 
-"""
-Example Markdown format:
-* 2024-03-06 | Virtual (Dublin, IE) | [Rust Dublin](https://www.meetup.com/rust-dublin/)
-    * [**An intro to `nom`, parsing made easy for Rustaceans**](https://www.meetup.com/rust-dublin/events/299358988/)
-* 2024-03-06 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/)
-    * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/299047891/)
-* 2024-03-07 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
-    * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298368787/)
-
-Sorted by:
- - Date
- - City (location)
-"""
-
+from typing import List
+from event import Event
 from test_events import get_test_events
+from datetime import date, timedelta
+from country_code_to_continent import country_code_to_continent
 
 def main():
     event_list = get_test_events()
-    sort_and_filter_events(event_list)
+    # Sort Events within date range.
+    # Sorted into virtual or by continent.
+    # Ordered by date, then city.
+    # NOTE format for start_date is YYYY, MM, DD without unnecessary 0's.
+    # TODO code user input for window start date for parameter.
+    event_list = sort_and_filter_events(event_list, date.today())
+
+    # Output Sorted Event List
+    for continent in event_list:
+        if len(continent) == 0:
+            continue
+        else:
+            country_code = continent[0].location[-2:]
+            # Output Section Header
+            if continent[0].virtual:
+                print(f'### Virtual:\n')
+            else:
+                print(f'### {country_code_to_continent(country_code)}:\n')
+            
+            # Output event details
+            for event in continent:
+                if event.duplicate:
+                    print("** NOTE POTENTIAL DUPLICATE: **")
+                print(event.to_markdown_string())
+            print()
+
+
+def sort_and_filter_events(event_list, start_date) -> List[Event]:
+    # Remove Events that are outside current date window.
     for event in event_list:
-        print(event.to_markdown_string())
-
-
-def sort_and_filter_events(event_list):
+        if not (start_date <= event.date <= start_date + timedelta(weeks=5)):
+            event_list.remove(event)
+    
     # Sort Events by date and location.
     sort_events(event_list)
 
-    # Sort Events by Virtual/In-Person.
-    sort_virtual(event_list)
+    # Flag potential duplicate events.
+    potential_duplicate(event_list)
 
-    # TODO Filter out Potential Spam Events.
-    # TODO Filter out duplicates.
+    # Return 2D list of Events sorted by Virtual/Continent.
+    return sort_virtual_continent(event_list)
 
 
 def sort_events(event_list):
-    # Sorts event_list date and location.
-    for i in range(len(event_list)):
-        # Assigns a current event to be sorted and removes it from list.
+    for i in range(1, len(event_list)):
+        # Assigns current event to sort.
         current_event = event_list[i]
-        event_list.remove(event_list[i])
-        #TODO put filter in here for dates not in current window.
-        for j in range(len(event_list)):
-            if current_event.date < event_list[j].date:
-                # If current event date is earlier than comparison, inserts back into list.
-                event_list.insert(j, current_event)
-                break
-            elif current_event.date == event_list[j].date:
-                # If current event date is equal to comparison, compares location.
-                if current_event.location[0] < event_list[j].location[0]:
-                    # If current event location is alphabetically higher, inserts back into list.
-                    event_list.insert(j, current_event)
-                    break
-        if current_event not in event_list:
-            # If current event has not already been inserted, appends to the end of the list.
-            event_list.append(current_event)
+
+        # Initialise comparison index
+        j = i - 1
+        while j >= 0 and event_list[j].date > current_event.date:
+            # Shifts all events with lower dates to the left.
+            event_list[j+1] = event_list[j]
+            j -= 1
+
+        if event_list[j].date == current_event.date:
+            # If current event date is equal to comparison date, compares location.
+            while j >= 0 and current_event.location[0:3] < event_list[j].location[0:3]:
+                # Shifts events with a location alphabetically higher to the left.
+                event_list[j+1] = event_list[j]
+                j -= 1
+
+        # Places current event in correct index.
+        event_list[j+1] = current_event
 
 
-def sort_virtual(event_list):
-    # Orders event_list into virtual, then in-person events.
-    virtual_events = []
+def sort_virtual_continent(event_list) -> List[Event]:
+    # Return 2D list of events separated in virtual and by continent.
+    # Index Key: [[0=Virtual], [1=Africa], [2=Asia],
+    #             [3=Europe], [4=North America],
+    #             [5=Oceania], [6=South America]]
+    separated_event_list = [[], [], [], [], [], []]
 
     for event in event_list:
-        # Filters and removes any virtual events from event_list.
+        # Separates Events by Virtual or by Continent
         if event.virtual:
-            virtual_events.append(event)
-            event_list.remove(event)
-    
-    for i in range(len(virtual_events)-1, -1, -1):
-        # Inserts virtual events back at the top of event_list.
-        event_list.insert(0, virtual_events[i])
+            separated_event_list[0].append(event)
+        else:
+            continent = country_code_to_continent(event.location[-2:])
+            if continent == "Africa":
+                separated_event_list[1].append(event)
+            elif continent == "Asia":
+                separated_event_list[2].append(event)
+            elif continent == "Europe":
+                separated_event_list[3].append(event)
+            elif continent == "North America":
+                separated_event_list[4].append(event)
+            elif continent == "Oceania":
+                separated_event_list[5].append(event)
+            elif continent == "South America":
+                separated_event_list[6].append(event)
+
+    return separated_event_list
 
 
-def filter_potential_spam():
-    # Filters out potential spam events.
-    pass
+def potential_duplicate(event_list):
+    # Identifies possible duplicate Events within Event List.
+    for i in range(len(event_list)):
+        for j in range(i+1, len(event_list)):
+            if event_list[i].date == event_list[j].date:
+                if event_list[i].url == event_list[j].url:
+                    if event_list[i].name == event_list[j].name:
+                        if event_list[i].organizerName == event_list[j].organizerName:
+                            event_list[i].duplicate = True
 
 
 if __name__ == "__main__":
