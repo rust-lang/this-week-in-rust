@@ -1,6 +1,6 @@
 
 class Event():
-  def __init__(self, name, location, date, url, virtual, organizerName, maybeSpam, popularity=None, recurring=None, inPast=None) -> None:
+  def __init__(self, name, location, date, url, virtual, organizerName, maybeSpam, popularity=None, recurring=None, inPast=None, duplicate=False) -> None:
     self.name = name
     self.location = location
     self.date = date
@@ -10,7 +10,7 @@ class Event():
     self.popularity = popularity
     self.recurring = recurring
     self.inPast = inPast
-    self.maybeSpam = maybeSpam
+    self.duplicate = duplicate
 
   def to_markdown_string(self) -> str:
     if self.virtual:
