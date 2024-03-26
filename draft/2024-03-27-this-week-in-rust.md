@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [video] [Extreme Clippy for a new Crate](https://youtu.be/dEkr5c5Kul8)
 
 ### Research
 
