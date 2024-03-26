@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+ * [How to use Rust on Debian (and Ubuntu, etc.) - rustp vs apt](https://diziet.dreamwidth.org/18122.html)
+
 ### Rust Walkthroughs
 
 ### Research
