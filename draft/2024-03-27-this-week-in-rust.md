@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Unimock 0.6: Mutation patterns](https://audunhalland.github.io/blog/unimock-0-6/)
 
 ### Observations/Thoughts
 
