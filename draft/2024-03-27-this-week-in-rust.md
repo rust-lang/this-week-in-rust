@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Restarting development of the Rust Digger: 20,000 new crates in 8 months](https://rust-digger.code-maven.com/news/restarting)
 
 ## Crate of the Week
 
