@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Making Nix Usable With Rust](https://filtra.io/rust-flox-mar-24)
 
 ## Crate of the Week
 
