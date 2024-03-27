@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Rust Development Classes: learn Rust by doing](https://rust-classes.com)
 
 ## Crate of the Week
 
