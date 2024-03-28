@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 * [reqwest v0.12](https://seanmonstar.com/blog/reqwest-v012/)
 * [Fornjot v0.49.0 released - open source b-rep CAD kernel in Rust](https://www.fornjot.app/blog/release/0.49.0/)
 
+* [Quickwit 0.8: Indexing and Search at Petabyte Scale](https://quickwit.io/blog/quickwit-0.8)
+
 ### Observations/Thoughts
 * [Why choose async/await over threads?](https://notgull.net/why-not-threads/)
 * [Rustls: Continuous Benchmarking Case Study](https://bencher.dev/learn/case-study/rustls/)
