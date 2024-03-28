@@ -222,7 +222,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+An overall fairly quiet week with the unfortunate one exception of large instruction count and binary size regressions caused by changes in const evaluation. This was largely balanced out (at least in instruction count) by a group of small improvements, but the compiler did end up 0.2% slower on average across 97 benchmarks.
+
+Triage done by **@rylev**.
+Revision range: [21d94a3..73476d](https://perf.rust-lang.org/?start=21d94a3d2c63cacf8eaf9d0ca770c0b450c558d4&end=73476d49904751f8d90ce904e16dfbc278083d2c&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 1.0%  | [0.2%, 3.2%]   | 56    |
+| Regressions ❌ <br /> (secondary)  | 0.6%  | [0.1%, 1.9%]   | 38    |
+| Improvements ✅ <br /> (primary)   | -0.8% | [-1.5%, -0.2%] | 41    |
+| Improvements ✅ <br /> (secondary) | -1.2% | [-5.2%, -0.4%] | 13    |
+| All ❌✅ (primary)                 | 0.2%  | [-1.5%, 3.2%]  | 97    |
+
+
+4 Regressions, 6 Improvements, 2 Mixed; 4 of them in rollups
+63 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/a71e92ee7d976f7cb9bf51cc08b5680340ccd5d0/triage/2024-03-26.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
