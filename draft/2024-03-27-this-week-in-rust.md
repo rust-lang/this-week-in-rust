@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 * [video] [The magic of Rust's type system](https://www.youtube.com/watch?v=NDIU1GSBrVI)
 
 ### Rust Walkthroughs
+* [Safe and Secure Coding in Rust: A Comparative Analysis of Rust and C/C++](https://luk6xff.github.io/other/safe_secure_rust_book)
 * [It's a library AND a binary](https://blog.axo.dev/2024/03/its-a-lib-and-a-bin)
 * [Everything you need to know about testing in Rust](https://www.shuttle.rs/blog/2024/03/21/testing-in-rust)
 * [Building a Notification Service in Rust with AWS SNS](https://www.shuttle.rs/blog/2024/03/20/notification-service-rust)
