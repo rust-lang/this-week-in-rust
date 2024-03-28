@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 * [audio] [Hyper 1.0 with Sean McArthur](https://rustacean-station.org/episode/sean-mcarthur/)
 * [video] [The magic of Rust's type system](https://www.youtube.com/watch?v=NDIU1GSBrVI)
 
+ * [How to use Rust on Debian (and Ubuntu, etc.) - rustp vs apt](https://diziet.dreamwidth.org/18122.html)
+
 ### Rust Walkthroughs
 * [Safe and Secure Coding in Rust: A Comparative Analysis of Rust and C/C++](https://luk6xff.github.io/other/safe_secure_rust_book)
 * [It's a library AND a binary](https://blog.axo.dev/2024/03/its-a-lib-and-a-bin)
