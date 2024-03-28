@@ -63,6 +63,7 @@ and just ask the editors to select the category.
 * [Embedded Rust Bluetooth on ESP: BLE Server](https://apollolabsblog.hashnode.dev/embedded-rust-bluetooth-on-esp-ble-server)
 * [video] [Extreme Clippy for a new Crate](https://youtu.be/dEkr5c5Kul8)
 * [series] [How Meilisearch Updates a Millions Vector Embeddings Database in Under a Minute](https://blog.kerollmops.com/how-meilisearch-updates-a-millions-vector-embeddings-database-in-under-a-minute)
+* [Modelling Universal Domain Types in Rust](https://mmapped.blog/posts/25-domain-types.html)
 
 ### Research
 
