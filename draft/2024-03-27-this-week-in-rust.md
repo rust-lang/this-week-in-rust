@@ -42,7 +42,6 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #226](https://rust-analyzer.github.io/thisweek/2024/03/25/changelog-226.html)
 * [reqwest v0.12](https://seanmonstar.com/blog/reqwest-v012/)
 * [Fornjot v0.49.0 released - open source b-rep CAD kernel in Rust](https://www.fornjot.app/blog/release/0.49.0/)
-
 * [Quickwit 0.8: Indexing and Search at Petabyte Scale](https://quickwit.io/blog/quickwit-0.8)
 
 ### Observations/Thoughts
@@ -63,12 +62,12 @@ and just ask the editors to select the category.
 * [Building a Notification Service in Rust with AWS SNS](https://www.shuttle.rs/blog/2024/03/20/notification-service-rust)
 * [Embedded Rust Bluetooth on ESP: BLE Server](https://apollolabsblog.hashnode.dev/embedded-rust-bluetooth-on-esp-ble-server)
 * [video] [Extreme Clippy for a new Crate](https://youtu.be/dEkr5c5Kul8)
-
 * [series] [How Meilisearch Updates a Millions Vector Embeddings Database in Under a Minute](https://blog.kerollmops.com/how-meilisearch-updates-a-millions-vector-embeddings-database-in-under-a-minute)
 
 ### Research
 
 ### Miscellaneous
+* [Making Nix Usable With Rust](https://filtra.io/rust-flox-mar-24)
 * [Rust Development Classes: learn Rust by doing](https://rust-classes.com/)
 
 ## Crate of the Week
