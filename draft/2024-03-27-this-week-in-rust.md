@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #226](https://rust-analyzer.github.io/thisweek/2024/03/25/changelog-226.html)
 * [reqwest v0.12](https://seanmonstar.com/blog/reqwest-v012/)
 
+* [Fornjot v0.49.0 released - open source b-rep CAD kernel in Rust](https://www.fornjot.app/blog/release/0.49.0/)
+
 ### Observations/Thoughts
 * [Why choose async/await over threads?](https://notgull.net/why-not-threads/)
 * [Rustls: Continuous Benchmarking Case Study](https://bencher.dev/learn/case-study/rustls/)
