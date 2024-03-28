@@ -32,10 +32,6 @@ and just ask the editors to select the category.
 * [2024 Edition Update](https://blog.rust-lang.org/inside-rust/2024/03/22/2024-edition-update.html)
 * [This Development-cycle in Cargo: 1.78](https://blog.rust-lang.org/inside-rust/2024/03/26/this-development-cycle-in-cargo-1.78.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [Unimock 0.6: Mutation patterns](https://audunhalland.github.io/blog/unimock-0-6/)
 * [cargo-autoinherit: DRY up your workspace dependencies](https://mainmatter.com/blog/2024/03/18/cargo-autoinherit/)
@@ -50,10 +46,9 @@ and just ask the editors to select the category.
 * [How I reduced (incremental) Rust compile times by up to 40%](https://www.coderemote.dev/blog/faster-rust-compiler-macro-expansion-caching/)
 * [How I learned to stop worrying and love the global state](https://symbolica.io/posts/global_state/)
 * [On Tech Debt: My Rust Library is now a CDO](https://lucumr.pocoo.org/2024/3/26/rust-cdo/)
+* [How to use Rust on Debian (and Ubuntu, etc.) - rustp vs apt](https://diziet.dreamwidth.org/18122.html)
 * [audio] [Hyper 1.0 with Sean McArthur](https://rustacean-station.org/episode/sean-mcarthur/)
 * [video] [The magic of Rust's type system](https://www.youtube.com/watch?v=NDIU1GSBrVI)
-
- * [How to use Rust on Debian (and Ubuntu, etc.) - rustp vs apt](https://diziet.dreamwidth.org/18122.html)
 
 ### Rust Walkthroughs
 * [Safe and Secure Coding in Rust: A Comparative Analysis of Rust and C/C++](https://luk6xff.github.io/other/safe_secure_rust_book)
@@ -61,10 +56,8 @@ and just ask the editors to select the category.
 * [Everything you need to know about testing in Rust](https://www.shuttle.rs/blog/2024/03/21/testing-in-rust)
 * [Building a Notification Service in Rust with AWS SNS](https://www.shuttle.rs/blog/2024/03/20/notification-service-rust)
 * [Embedded Rust Bluetooth on ESP: BLE Server](https://apollolabsblog.hashnode.dev/embedded-rust-bluetooth-on-esp-ble-server)
-* [video] [Extreme Clippy for a new Crate](https://youtu.be/dEkr5c5Kul8)
 * [series] [How Meilisearch Updates a Millions Vector Embeddings Database in Under a Minute](https://blog.kerollmops.com/how-meilisearch-updates-a-millions-vector-embeddings-database-in-under-a-minute)
-
-### Research
+* [video] [Extreme Clippy for a new Crate](https://youtu.be/dEkr5c5Kul8)
 
 ### Miscellaneous
 * [Making Nix Usable With Rust](https://filtra.io/rust-flox-mar-24)
@@ -106,7 +99,6 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Braintree](https://github.com/juspay/hyperswitch/issues/4058)
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Fiserv](https://github.com/juspay/hyperswitch/issues/4059)
 * [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Globepay](https://github.com/juspay/hyperswitch/issues/4060)
-
 * [Rama — add Form support (IntroResponse + FromRequest)](https://github.com/plabayo/rama/issues/68)
 * [Rama — Provide “and(matcher)” and “or(matcher)” methods to enum matchers](https://github.com/plabayo/rama/issues/93)
 * [Rama — Provide support for boxed custom matchers in layer enums](https://github.com/plabayo/rama/issues/92)
@@ -415,7 +407,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1bpg8b8/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -431,4 +423,4 @@ Thanks to [Anton Fetisov](https://users.rust-lang.org/t/twir-quote-of-the-week/3
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1bpicom/this_week_in_rust_540/)</small>
