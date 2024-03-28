@@ -57,6 +57,7 @@ and just ask the editors to select the category.
 * [Everything you need to know about testing in Rust](https://www.shuttle.rs/blog/2024/03/21/testing-in-rust)
 * [Building a Notification Service in Rust with AWS SNS](https://www.shuttle.rs/blog/2024/03/20/notification-service-rust)
 * [Embedded Rust Bluetooth on ESP: BLE Server](https://apollolabsblog.hashnode.dev/embedded-rust-bluetooth-on-esp-ble-server)
+* [video] [Extreme Clippy for a new Crate](https://youtu.be/dEkr5c5Kul8)
 
 ### Research
 
