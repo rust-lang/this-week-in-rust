@@ -46,7 +46,7 @@ and just ask the editors to select the category.
 * [How I reduced (incremental) Rust compile times by up to 40%](https://www.coderemote.dev/blog/faster-rust-compiler-macro-expansion-caching/)
 * [How I learned to stop worrying and love the global state](https://symbolica.io/posts/global_state/)
 * [On Tech Debt: My Rust Library is now a CDO](https://lucumr.pocoo.org/2024/3/26/rust-cdo/)
-* [How to use Rust on Debian (and Ubuntu, etc.) - rustp vs apt](https://diziet.dreamwidth.org/18122.html)
+* [How to use Rust on Debian (and Ubuntu, etc.)](https://diziet.dreamwidth.org/18122.html)
 * [audio] [Hyper 1.0 with Sean McArthur](https://rustacean-station.org/episode/sean-mcarthur/)
 * [video] [The magic of Rust's type system](https://www.youtube.com/watch?v=NDIU1GSBrVI)
 
