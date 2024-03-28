@@ -96,6 +96,11 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
 
+* [Rama — add Form support (IntroResponse + FromRequest)](https://github.com/plabayo/rama/issues/68)
+* [Rama — Provide “and(matcher)” and “or(matcher)” methods to enum matchers](https://github.com/plabayo/rama/issues/93)
+* [Rama — Provide support for boxed custom matchers in layer enums](https://github.com/plabayo/rama/issues/92)
+* [Rama — add open-telemetry middleware and extended prometheus support](https://github.com/plabayo/rama/issues/23)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
