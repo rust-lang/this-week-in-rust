@@ -62,14 +62,14 @@ and just ask the editors to select the category.
 * [Building a Notification Service in Rust with AWS SNS](https://www.shuttle.rs/blog/2024/03/20/notification-service-rust)
 * [Embedded Rust Bluetooth on ESP: BLE Server](https://apollolabsblog.hashnode.dev/embedded-rust-bluetooth-on-esp-ble-server)
 * [video] [Extreme Clippy for a new Crate](https://youtu.be/dEkr5c5Kul8)
-
 * [series] [How Meilisearch Updates a Millions Vector Embeddings Database in Under a Minute](https://blog.kerollmops.com/how-meilisearch-updates-a-millions-vector-embeddings-database-in-under-a-minute)
 
 ### Research
 
 ### Miscellaneous
-* [Restarting development of the Rust Digger: 20,000 new crates in 8 months](https://rust-digger.code-maven.com/news/restarting)
+* [Making Nix Usable With Rust](https://filtra.io/rust-flox-mar-24)
 * [Rust Development Classes: learn Rust by doing](https://rust-classes.com/)
+* [Restarting development of the Rust Digger: 20,000 new crates in 8 months](https://rust-digger.code-maven.com/news/restarting)
 
 ## Crate of the Week
 
@@ -103,6 +103,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+* [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Braintree](https://github.com/juspay/hyperswitch/issues/4058)
+* [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Fiserv](https://github.com/juspay/hyperswitch/issues/4059)
+* [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Globepay](https://github.com/juspay/hyperswitch/issues/4060)
 
 * [Rama — add Form support (IntroResponse + FromRequest)](https://github.com/plabayo/rama/issues/68)
 * [Rama — Provide “and(matcher)” and “or(matcher)” methods to enum matchers](https://github.com/plabayo/rama/issues/93)
@@ -344,6 +347,8 @@ Rusty Events between 2024-03-27 - 2024-04-24 🦀
     * [**Rust Nation 2024 - Conference (Mar 26-28)**](https://www.rustnationuk.com/)
 * 2024-03-28 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust and Tell**](https://www.meetup.com/rust-berlin/events/299288961/)
+* 2024-04-10 | Manchester, UK | [Manchseter Rust Meetup](https://www.meetup.com/rust-manchester/)
+    * [**Rust Manchester April 2024**](https://www.meetup.com/rust-manchester/events/299887934/)
 * 2024-04-10 | Cambridge, UK | [Cambridge Rust Meetup](https://www.meetup.com/cambridge-rust-meetup/)
     * [**Rust Meetup Reboot 3**](https://www.meetup.com/cambridge-rust-meetup/events/299730322/)
 * 2024-04-10 | Manchester, UK | [Rust Manchester](https://www.meetup.com/rust-manchester/)
