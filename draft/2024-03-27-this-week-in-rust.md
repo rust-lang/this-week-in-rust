@@ -344,6 +344,8 @@ Rusty Events between 2024-03-27 - 2024-04-24 🦀
     * [**Rust Nation 2024 - Conference (Mar 26-28)**](https://www.rustnationuk.com/)
 * 2024-03-28 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust and Tell**](https://www.meetup.com/rust-berlin/events/299288961/)
+* 2024-04-10 | Manchester, UK | [Manchseter Rust Meetup](https://www.meetup.com/rust-manchester/)
+    * [**Rust Manchester April 2024**](https://www.meetup.com/rust-manchester/events/299887934/)
 * 2024-04-10 | Cambridge, UK | [Cambridge Rust Meetup](https://www.meetup.com/cambridge-rust-meetup/)
     * [**Rust Meetup Reboot 3**](https://www.meetup.com/cambridge-rust-meetup/events/299730322/)
 * 2024-04-10 | Manchester, UK | [Rust Manchester](https://www.meetup.com/rust-manchester/)
