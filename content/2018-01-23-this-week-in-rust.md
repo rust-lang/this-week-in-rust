@@ -164,7 +164,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> Rust is difficult because most programmers abuse shared mutable state and Rust makes you sacrifice your first-born to be able to to do it.
+> Rust is difficult because most programmers abuse shared mutable state and Rust makes you sacrifice your first-born to be able to do it.
 
 — [u/_errata_ on reddit](https://www.reddit.com/r/rust/comments/7rza1q/why_is_rust_difficult/dt11dqx/).
 

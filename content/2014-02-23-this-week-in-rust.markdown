@@ -145,7 +145,7 @@ in [#1699](https://github.com/mozilla/servo/pull/1699)
 [#1706](https://github.com/mozilla/servo/pull/1706)
 - Adam Sinnett corrected the parent type names of Text, Comment, and PI
 types in [#1702](https://github.com/mozilla/servo/pull/1702)
-- Patrick Walton added some inlining that sped up flow contruction even
+- Patrick Walton added some inlining that sped up flow construction even
 more in [#1602](https://github.com/mozilla/servo/pull/1602)
 
 ## New contributors
