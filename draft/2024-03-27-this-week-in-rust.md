@@ -69,6 +69,7 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [Making Nix Usable With Rust](https://filtra.io/rust-flox-mar-24)
 * [Rust Development Classes: learn Rust by doing](https://rust-classes.com/)
+* [Restarting development of the Rust Digger: 20,000 new crates in 8 months](https://rust-digger.code-maven.com/news/restarting)
 
 ## Crate of the Week
 
