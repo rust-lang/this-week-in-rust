@@ -47,7 +47,7 @@ Now you can follow breaking changes *[as they happen][BitRust2]*!
 * [dropck: must assume `Box<Trait + 'a>` has a destructor of
   interest](https://github.com/rust-lang/rust/pull/25212).  Because
   these types may have destructors, so the compiler must assume that
-  any contained regions strictly outlive the the type, per [RFC
+  any contained regions strictly outlive the type, per [RFC
   769](https://github.com/rust-lang/rfcs/blob/master/text/0769-sound-generic-drop.md#the-drop-check-rule).
 
 # Other Changes

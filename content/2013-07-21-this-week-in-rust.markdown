@@ -86,7 +86,7 @@ Issue churn this week was -15. A total of 59 PRs were merged.
   codegen](https://github.com/mozilla/rust/pull/7851).
 - A `no_implicit_prelude` attribute [has been
   added](https://github.com/mozilla/rust/pull/7844), which prevents prelude
-  injection in the module heirarchy starting at the item which that attribute
+  injection in the module hierarchy starting at the item which that attribute
   is added to.
 - C-style enum variants are [now
   allowed](https://github.com/mozilla/rust/pull/7827) in `[T, ..n]`

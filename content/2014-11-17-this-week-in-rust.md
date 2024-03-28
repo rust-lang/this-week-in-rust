@@ -90,7 +90,7 @@ contributions](https://github.com/mozilla/rust/wiki/Note-guide-for-new-contribut
 # Approved RFC's
 
 * [RFC 369: Numerics reform][num]. Conservatively dismantle the
-  numeric trait heirarchy for later reconsideration. [PR][num-pr].
+  numeric trait hierarchy for later reconsideration. [PR][num-pr].
 * [RFC 380: Stabilize std::fmt][fmt]. Primarily stabilizes the user-facing
   formatting syntax, while leaving the library APIs
   unstable. [PR][fmt-pr].

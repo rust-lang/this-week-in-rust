@@ -46,7 +46,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 * [Announcing the Tokio doc blitz effort, we need your help](https://tokio.rs/blog/2018-10-doc-blitz/)!
-* [Rust Web Survey from from Networking Services WG](https://docs.google.com/forms/d/e/1FAIpQLSf9KCUs-8G87pHB08lM8-iXcDSY_VttOI0PvkKseHaZseCGGA/viewform).
+* [Rust Web Survey from Networking Services WG](https://docs.google.com/forms/d/e/1FAIpQLSf9KCUs-8G87pHB08lM8-iXcDSY_VttOI0PvkKseHaZseCGGA/viewform).
 * [The imag project calls for contributors](https://imag-pim.org/blog/2018/10/10/call-for-participation-1/).
 * [macro_railroad: Update the parser for syn-0.15](https://github.com/lukaslueg/macro_railroad/issues/17). macro_railroad is a library to generate syntax diagrams for Rust macros.
 

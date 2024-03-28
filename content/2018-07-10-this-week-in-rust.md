@@ -145,7 +145,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 
 # Quote of the Week
 
-> actix-web has removed all unsound use of unsafe in its codebase. It’s down to less than 15 occurences of unsafe from 100+.
+> actix-web has removed all unsound use of unsafe in its codebase. It’s down to less than 15 occurrences of unsafe from 100+.
 
 – [u/_ar7 celebrating this commendable achievement](https://www.reddit.com/r/rust/comments/8wlkbe/actixweb_has_removed_all_unsound_use_of_unsafe_in/).
 
