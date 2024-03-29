@@ -38,7 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
+* [Modelling Universal Domain Types in Rust](https://mmapped.blog/posts/25-domain-types.html)
 ### Research
 
 ### Miscellaneous
