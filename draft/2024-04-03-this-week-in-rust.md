@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [BugStalker v0.1.3 released - first release of rust debugger](https://github.com/godzie44/BugStalker/)
 
 ### Observations/Thoughts
 
