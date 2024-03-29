@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [Easy Mode Rust](https://llogiq.github.io/2024/03/28/easy.html)
 
 ### Research
 
