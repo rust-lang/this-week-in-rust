@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+- [Fast Development In Rust, Part 2](https://blog.sdf.com/p/fast-development-in-rust-part-2)
 
 ### Rust Walkthroughs
 
