@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [`ethercrab` 0.4.0: Pure Rust EtherCAT, now with Distributed Clocks](https://wapl.es/ethercrab-0-4-io-uring-derives-ethercat-distributed-clocks/)
 
 ### Observations/Thoughts
 
