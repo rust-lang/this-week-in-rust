@@ -10,13 +10,21 @@ from datetime import date, timedelta
 from country_code_to_continent import country_code_to_continent
 
 def main():
+    # Get Events list.
     event_list = get_test_events()
+
+    # Format date and location data.
+    format_data(event_list)
+
+    # Get closest Wednesday for date range.
+    start_date = date.today()
+    while start_date.weekday() != 2:
+        start_date = start_date + timedelta(days=1)
+
     # Sort Events within date range.
     # Sorted into virtual or by continent.
     # Ordered by date, then city.
-    # NOTE format for start_date is YYYY, MM, DD without unnecessary 0's.
-    # TODO code user input for window start date for parameter.
-    event_list = sort_and_filter_events(event_list, date.today())
+    event_list = sort_and_filter_events(event_list, start_date)
 
     # Output Sorted Event List
     for continent in event_list:
@@ -36,6 +44,13 @@ def main():
                     print("** NOTE POTENTIAL DUPLICATE: **")
                 print(event.to_markdown_string())
             print()
+
+
+def format_data(event_list):
+    # Formats date and location data into specified format.
+    for event in event_list:
+        event.format_date()
+        event.format_location()
 
 
 def sort_and_filter_events(event_list, start_date) -> List[Event]:
