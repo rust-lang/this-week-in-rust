@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+- [audio] [cargo-semver-checks with Predrag Gruevski — Rustacean Station](https://rustacean-station.org/episode/predrag-gruevski/)
 
 ### Rust Walkthroughs
 
