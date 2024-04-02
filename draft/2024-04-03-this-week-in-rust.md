@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Rust Unit and Integration Testing in RustRover](https://blog.jetbrains.com/rust/2024/04/02/rust-unit-and-integration-testing-in-rustrover/)
+
 ### Research
 
 ### Miscellaneous
