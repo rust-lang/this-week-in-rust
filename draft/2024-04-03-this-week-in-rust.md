@@ -84,6 +84,9 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
+- mirrord - [Capability to modify the local listen address for mirrord](https://github.com/metalbear-co/mirrord/issues/2319)
+- mirrord - [Fix all check-rust-docs warnings](https://github.com/metalbear-co/mirrord/issues/1399)
+
 ### CFP - Speakers
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
