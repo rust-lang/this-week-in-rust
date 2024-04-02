@@ -79,6 +79,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [greptimedb - Support specifying time ranges in the `COPY FROM` statement to avoid importing unwanted data](https://github.com/GreptimeTeam/greptimedb/issues/3511)
 * [greptimedb - Support converting UNIX epoch numbers to specified timezone in `to_timezone` function](https://github.com/GreptimeTeam/greptimedb/issues/3477)
+* [mirrord - Capability to modify the local listen address](https://github.com/metalbear-co/mirrord/issues/2319)
+* [mirrord - Fix all check-rust-docs warnings](https://github.com/metalbear-co/mirrord/issues/1399)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
