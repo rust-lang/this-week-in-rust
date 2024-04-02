@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [cargo-unfmt](https://crates.io/crates/cargo-unfmt), a formatter that formats your code into block-justified text, which sacrifices some readability for esthetics.
+
+Thanks to [Felix Prasanna](https://users.rust-lang.org/t/crate-of-the-week/2704/1301) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -95,7 +97,106 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+431 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2024-03-26..2024-04-02
+
+* [CFI: (actually) check that methods are object-safe before projecting their receivers to `dyn Trait` in CFI](https://github.com/rust-lang/rust/pull/123066)
+* [CFI: abstract Closures and Coroutines](https://github.com/rust-lang/rust/pull/123106)
+* [CFI: fix drop and `drop_in_place`](https://github.com/rust-lang/rust/pull/123075)
+* [CFI: fix methods as function pointer cast](https://github.com/rust-lang/rust/pull/123071)
+* [CFI: support calling methods on supertraits](https://github.com/rust-lang/rust/pull/123012)
+* [add a `CurrentGcx` type to let the deadlock handler access `TyCtxt`](https://github.com/rust-lang/rust/pull/115220)
+* [add basic trait impls for `f16` and `f128`](https://github.com/rust-lang/rust/pull/123085)
+* [add detection of (`Partial`)`Ord` methods in the `ambiguous_wide_pointer_comparisons` lint](https://github.com/rust-lang/rust/pull/121268)
+* [add rust-lldb pretty printing for Path and PathBuf](https://github.com/rust-lang/rust/pull/120557)
+* [assert that ADTs have the right number of args](https://github.com/rust-lang/rust/pull/123214)
+* [codegen const panic messages as function calls](https://github.com/rust-lang/rust/pull/122671)
+* [coverage: re-enable `UnreachablePropagation` for coverage builds](https://github.com/rust-lang/rust/pull/122860)
+* [delegation: fix ICE on wrong `Self` instantiation](https://github.com/rust-lang/rust/pull/123101)
+* [delegation: fix ICE on wrong `self` resolution](https://github.com/rust-lang/rust/pull/123091)
+* [do not attempt to write `ty::Err` on binding that isn't from current HIR Owner](https://github.com/rust-lang/rust/pull/123202)
+* [don't check match scrutinee of postfix match for unused parens](https://github.com/rust-lang/rust/pull/123096)
+* [don't inherit codegen attrs from parent static](https://github.com/rust-lang/rust/pull/123310)
+* [eagerly instantiate closure/coroutine-like bounds with placeholders to deal with binders correctly](https://github.com/rust-lang/rust/pull/122267)
+* [eliminate `UbChecks` for non-standard libraries](https://github.com/rust-lang/rust/pull/122975)
+* [ensure std is prepared for cross-targets](https://github.com/rust-lang/rust/pull/122205)
+* [fix diagnostics for async block cloning](https://github.com/rust-lang/rust/pull/122589)
+* [fixup parsing of `rustc_never_type_options` attribute](https://github.com/rust-lang/rust/pull/123320)
+* [function ABI is irrelevant for reachability](https://github.com/rust-lang/rust/pull/123063)
+* [improve example on inserting to a sorted vector to avoid shifting equal elements](https://github.com/rust-lang/rust/pull/122945)
+* [in `ConstructCoroutineInClosureShim`, pass receiver by mut ref, not mut pointer](https://github.com/rust-lang/rust/pull/123049)
+* [load missing type of impl associated constant from trait definition](https://github.com/rust-lang/rust/pull/123130)
+* [make `TyCtxt::coroutine_layout` take coroutine's kind parameter](https://github.com/rust-lang/rust/pull/123021)
+* [match ergonomics 2024: implement mutable by-reference bindings](https://github.com/rust-lang/rust/pull/123080)
+* [match lowering: build the `Place` instead of keeping a `PlaceBuilder` around](https://github.com/rust-lang/rust/pull/122439)
+* [match lowering: consistently merge simple or-patterns](https://github.com/rust-lang/rust/pull/123067)
+* [match lowering: handle or-patterns one layer at a time](https://github.com/rust-lang/rust/pull/122046)
+* [match lowering: sort `Eq` candidates in the failure case too](https://github.com/rust-lang/rust/pull/122459)
+* [pattern analysis: Require `enum` indices to be contiguous](https://github.com/rust-lang/rust/pull/123242)
+* [replace regions in const canonical vars' types with `'static` in next-solver canonicalizer](https://github.com/rust-lang/rust/pull/123170)
+* [require Debug for `Pointee::Metadata`](https://github.com/rust-lang/rust/pull/123181)
+* [require `DerefMut` and `DerefPure` on `deref!()` patterns when appropriate](https://github.com/rust-lang/rust/pull/122835)
+* [rework opaque type region inference](https://github.com/rust-lang/rust/pull/116891)
+* [simplify proc macro bridge state](https://github.com/rust-lang/rust/pull/122939)
+* [simplify trim-paths feature by merging all debuginfo options together](https://github.com/rust-lang/rust/pull/122450)
+* [store segment and module in `UnresolvedImportError`](https://github.com/rust-lang/rust/pull/122766)
+* [suggest associated type bounds on problematic associated equality bounds](https://github.com/rust-lang/rust/pull/122120)
+* [suggest correct path in `include_bytes!`](https://github.com/rust-lang/rust/pull/121833)
+* [use the `Align` type when parsing alignment attributes](https://github.com/rust-lang/rust/pull/122972)
+* [warn against implementing Freeze](https://github.com/rust-lang/rust/pull/123268)
+* [enable cargo miri test doctests](https://github.com/rust-lang/rust/pull/123055)
+* [miri: avoid mutating the global environment](https://github.com/rust-lang/miri/pull/3421)
+* [miri: cotrol stacked borrows consistency check with its own feature flag](https://github.com/rust-lang/miri/pull/3434)
+* [miri: experiment with macOS M1 runners](https://github.com/rust-lang/miri/pull/3433)
+* [miri: extern-so: give the version script a better name; show errors from failing to build the C lib](https://github.com/rust-lang/miri/pull/3437)
+* [miri: speed up Windows CI](https://github.com/rust-lang/miri/pull/3436)
+* [miri: tree Borrows: Make tree root always be initialized](https://github.com/rust-lang/miri/pull/3415)
+* [don't emit load metadata in debug mode](https://github.com/rust-lang/rust/pull/122849)
+* [avoid some unnecessary query invocations](https://github.com/rust-lang/rust/pull/121387)
+* [stop doing expensive work in `opt_suggest_box_span` eagerly](https://github.com/rust-lang/rust/pull/123006)
+* [stabilize `ptr.is_aligned,` move `ptr.is_aligned_to` to a new feature gate](https://github.com/rust-lang/rust/pull/121948)
+* [stabilize `unchecked_{add,sub,mul}`](https://github.com/rust-lang/rust/pull/122520)
+* [make `{integer}::from_str_radix` constant](https://github.com/rust-lang/rust/pull/99322)
+* [optimize `core::char::CaseMappingIter`](https://github.com/rust-lang/rust/pull/122616)
+* [implement `Vec::pop_if`](https://github.com/rust-lang/rust/pull/123107)
+* [remove len argument from `RawVec::reserve_for_push`](https://github.com/rust-lang/rust/pull/122976)
+* [less generic code for Vec allocations](https://github.com/rust-lang/rust/pull/122396)
+* [`UnixStream`: override `read_buf`](https://github.com/rust-lang/rust/pull/123084)
+* [`num::NonZero::get` can be 1 transmute instead of 2](https://github.com/rust-lang/rust/pull/123139)
+* [fix error message for `env!` when env var is not valid Unicode](https://github.com/rust-lang/rust/pull/122663)
+* [futures: make access inner of `futures::io::{BufReader,BufWriter}` not require inner trait bound](https://github.com/rust-lang/futures-rs/pull/2848)
+* [regex-syntax: accept `{,n}` as an equivalent to `{0,n}`](https://github.com/rust-lang/regex/pull/1086)
+* [cargo add: Preserve comments when updating simple deps](https://github.com/rust-lang/cargo/pull/13655)
+* [cargo generate-lockfile: hold lock before querying index](https://github.com/rust-lang/cargo/pull/13657)
+* [cargo toml: Warn on unused workspace.dependencies keys on virtual workspaces](https://github.com/rust-lang/cargo/pull/13664)
+* [cargo fix: bash completion fallback in `nounset` mode](https://github.com/rust-lang/cargo/pull/13686)
+* [clippy: `large_stack_frames`: print total size and largest component](https://github.com/rust-lang/rust-clippy/pull/12582)
+* [clippy: `type_id_on_box`: lint on any `Box<dyn _>`](https://github.com/rust-lang/rust-clippy/pull/11350)
+* [clippy: accept `String` in `span_lint*` functions directly to avoid unnecessary clones](https://github.com/rust-lang/rust-clippy/pull/12453)
+* [clippy: allow `filter_map_identity` when the closure is typed](https://github.com/rust-lang/rust-clippy/pull/12562)
+* [clippy: allow `manual_unwrap_or_default` in const function](https://github.com/rust-lang/rust-clippy/pull/12570)
+* [clippy: don't emit `duplicated_attribute` lint on "complex" `cfg`s](https://github.com/rust-lang/rust-clippy/pull/12555)
+* [clippy: elide unit variables linted by `let_unit` and use `()` directly instead](https://github.com/rust-lang/rust-clippy/pull/12603)
+* [clippy: fix `manual_unwrap_or_default` suggestion ignoring side-effects](https://github.com/rust-lang/rust-clippy/pull/12579)
+* [clippy: fix suggestion for `len_zero` with macros](https://github.com/rust-lang/rust-clippy/pull/11996)
+* [clippy: make sure checked type implements `Try` trait when linting `question_mark`](https://github.com/rust-lang/rust-clippy/pull/12563)
+* [clippy: move `box_default` to style, do not suggest turbofishes](https://github.com/rust-lang/rust-clippy/pull/12601)
+* [clippy: move `mixed_attributes_style` to style](https://github.com/rust-lang/rust-clippy/pull/12572)
+* [clippy: new lint `legacy_numeric_constants`](https://github.com/rust-lang/rust-clippy/pull/12312)
+* [clippy: restrict `manual_clamp` to const case, bring it out of nursery](https://github.com/rust-lang/rust-clippy/pull/12543)
+* [rust-analyzer: add `rust-analyzer.cargo.allTargets` to configure passing `--all-targets` to cargo invocations](https://github.com/rust-lang/rust-analyzer/pull/16924)
+* [rust-analyzer: implement resolving and lowering of Lifetimes (no inference yet)](https://github.com/rust-lang/rust-analyzer/pull/16805)
+* [rust-analyzer: fix crate IDs when multiple workspaces are loaded](https://github.com/rust-lang/rust-analyzer/pull/16961)
+* [rust-analyzer: ADT hover considering only type or const len not lifetimes](https://github.com/rust-lang/rust-analyzer/pull/16967)
+* [rust-analyzer: check for client support of relative glob patterns before using them](https://github.com/rust-lang/rust-analyzer/pull/16957)
+* [rust-analyzer: lifetime length are not added in count of params in highlight](https://github.com/rust-lang/rust-analyzer/pull/16960)
+* [rust-analyzer: revert debug extension priorities](https://github.com/rust-lang/rust-analyzer/pull/16964)
+* [rust-analyzer: silence mismatches involving unresolved projections](https://github.com/rust-lang/rust-analyzer/pull/16968)
+* [rust-analyzer: use lldb when debugging with C++ extension on MacOS](https://github.com/rust-lang/rust-analyzer/pull/16965)
+* [rust-analyzer: pattern analysis: Use contiguous indices for `enum` variants](https://github.com/rust-lang/rust-analyzer/pull/16979)
+* [rust-analyzer: prompt the user to reload the window when enabling test explorer](https://github.com/rust-lang/rust-analyzer/pull/16975)
+* [rust-analyzer: resolve tests per file instead of per crate in test explorer](https://github.com/rust-lang/rust-analyzer/pull/16971)
 
 ### Rust Compiler Performance Triage
 
@@ -262,7 +363,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Panstromek: I remember reading somewhere (probably here) that borrow checking has `O(n^3)` asymptotic complexity, relative to the size of the function.
+>
+> Nadrieril: Compared to match exhaustiveness which is NP-hard and trait solving which is undecidable, a polynomial complexity feels refreshingly sane.
+
+– [Panstromek and Nadrieril on zulip](https://rust-lang.zulipchat.com/#narrow/stream/131828-t-compiler/topic/Is.20Borrow.20Checking.20Cubic.3F/near/429533622)
+
+Thanks to [Kevin Reid](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1553) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
