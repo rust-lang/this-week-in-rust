@@ -28,20 +28,44 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.77.1](https://blog.rust-lang.org/2024/03/28/Rust-1.77.1.html)
+* [Changes to `u128`/`i128` layout in 1.77 and 1.78](https://blog.rust-lang.org/2024/03/30/i128-layout-update.html)
 
 ### Foundation
 
 ### Newsletters
+* [This Week In Bevy: 2d Lighting, Particle Systems, Meshlets, and more](https://thisweekinbevy.com/issue/2024-04-01-2d-lighting-particle-systems-meshlets-and-more)
 
 ### Project/Tooling Updates
+* [Dioxus 0.5: Signal Rewrite, Remove lifetimes, CSS Hotreloading, and more!](https://dioxuslabs.com/blog/release-050)
+* [EtherCrab 0.4: Distributed Clocks, io_uring, Derives, Oh My](https://wapl.es/ethercrab-0-4-io-uring-derives-ethercat-distributed-clocks/)
 
 ### Observations/Thoughts
+* [On Reusing Arc and Rc in Rust](https://radekmie.dev/blog/on-reusing-arc-and-rc-in-rust/)
+* [Who killed the network switch?](https://cliffle.com/blog/who-killed-the-network-switch/)
+* [Xr0 Makes C Safer than Rust](https://xr0.dev/safer)
+* [Easy Mode Rust](https://llogiq.github.io/2024/03/28/easy.html)
+* [Bashing Bevy To Bait Internet Strangers Into Improving My Code](https://oneirical.github.io/bevyrage/)
+* [Conway's Game of Life Through Time](https://silasmarvin.dev/conways-game-of-life-through-time)
+* [Functions Everywhere, Only Once: Writing Functions for the Everywhere Computer](https://fission.codes/blog/functions-everywhere-only-once/)
+* [Rust Bytes: Is Rust the Future of JavaScript Tooling?](https://weeklyrust.substack.com/p/rust-bytes-is-rust-the-future-of)
+* [Explaining the internals of async-task from the ground up](https://notgull.net/async-task-explained-part1/)
+* [Programming ESP32 with Rust: OTA firmware update](https://quan.hoabinh.vn/post/2024/3/programming-esp32-with-rust-ota-firmware-update)
 
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+* [Building a Managed Postgres Service in Rust: Part 1](https://tembo.io/blog/managed-postgres-rust)
+* [Beware of the DashMap deadlock](https://dev.to/acter/beware-of-the-dashmap-deadlock-lij)
+* [Embedded Rust Bluetooth on ESP: BLE Client](https://apollolabsblog.hashnode.dev/embedded-rust-bluetooth-on-esp-ble-client)
+* [Rust Unit and Integration Testing in RustRover](https://blog.jetbrains.com/rust/2024/04/02/rust-unit-and-integration-testing-in-rustrover/)
+* [audio] [cargo-semver-checks with Predrag Gruevski](https://rustacean-station.org/episode/predrag-gruevski/)
+* [video] [Data Types - Part 3 of Idiomatic Rust in Simple Steps](https://www.youtube.com/watch?v=NSiZdNjkzBk)
+* [video] [Deconstructing WebAssembly Components by Ryan Levick @ Wasm I/O 2024](https://www.youtube.com/watch?v=zqfF7Ssa2QI)
+* [video] [Extreme Clippy for new Rust crates](https://www.youtube.com/watch?v=dEkr5c5Kul8)
+* [video] [playlist] [Bevy GameDev Meetup #2 - March 2024](https://www.youtube.com/playlist?list=PLbvvWoCXmXkJRb8fPcVV1hAhaZHaGC56v)
 
 ## Crate of the Week
 
