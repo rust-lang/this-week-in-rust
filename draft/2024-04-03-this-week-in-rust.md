@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Leaky Abstractions and a Rusty Pin](https://medium.com/itnext/leaky-abstractions-and-a-rusty-pin-fbf3b84eea1f)
 
 ### Rust Walkthroughs
 
