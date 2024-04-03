@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+[Building Stock Market Engine from scratch in Rust (I)](https://medium.com/@harshiljani2002/building-stock-market-engine-from-scratch-in-rust-i-9be7c110e137)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
