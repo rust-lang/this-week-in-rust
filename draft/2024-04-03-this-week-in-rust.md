@@ -36,17 +36,16 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [nethsm 0.1.0 - first release for this high level library for the Nitrokey NetHSM](https://gitlab.archlinux.org/archlinux/signstar/-/tree/main/nethsm)
 * [BugStalker v0.1.3 released - first release of rust debugger](https://github.com/godzie44/BugStalker/)
-
 * [git-cliff 2.2.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/2.2.0)
+* [`ethercrab` 0.4.0: Pure Rust EtherCAT, now with Distributed Clocks](https://wapl.es/ethercrab-0-4-io-uring-derives-ethercat-distributed-clocks/)
 
 ### Observations/Thoughts
 * [Fast Development In Rust, Part 2](https://blog.sdf.com/p/fast-development-in-rust-part-2)
 
 ### Rust Walkthroughs
-* [Easy Mode Rust](https://llogiq.github.io/2024/03/28/easy.html)
 * [Modelling Universal Domain Types in Rust](https://mmapped.blog/posts/25-domain-types.html)
 * [Functions Everywhere, Only Once: Writing Functions for the Everywhere Computer](https://fission.codes/blog/functions-everywhere-only-once/)
-
+* [Easy Mode Rust](https://llogiq.github.io/2024/03/28/easy.html)
 * [video] [developerlife.com - Get started with unit testing in Rust](https://www.youtube.com/watch?v=Xt495QLrFFk&list=PLofhE49PEwmwLR_4Noa0dFOSPmSpIg_l8)
 
 ### Research
