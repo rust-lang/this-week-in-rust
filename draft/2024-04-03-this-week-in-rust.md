@@ -55,6 +55,7 @@ and just ask the editors to select the category.
 * [Explaining the internals of async-task from the ground up](https://notgull.net/async-task-explained-part1/)
 * [Programming ESP32 with Rust: OTA firmware update](https://quan.hoabinh.vn/post/2024/3/programming-esp32-with-rust-ota-firmware-update)
 * [Fast Development In Rust, Part 2](https://blog.sdf.com/p/fast-development-in-rust-part-2)
+* [Leaky Abstractions and a Rusty Pin](https://medium.com/itnext/leaky-abstractions-and-a-rusty-pin-fbf3b84eea1f)
 
 ### Rust Walkthroughs
 * [Modelling Universal Domain Types in Rust](https://mmapped.blog/posts/25-domain-types.html)
