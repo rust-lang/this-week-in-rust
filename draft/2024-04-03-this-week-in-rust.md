@@ -73,6 +73,8 @@ and just ask the editors to select the category.
 * [video] [Extreme Clippy for new Rust crates](https://www.youtube.com/watch?v=dEkr5c5Kul8)
 * [video] [playlist] [Bevy GameDev Meetup #2 - March 2024](https://www.youtube.com/playlist?list=PLbvvWoCXmXkJRb8fPcVV1hAhaZHaGC56v)
 
+[Building Stock Market Engine from scratch in Rust (I)](https://medium.com/@harshiljani2002/building-stock-market-engine-from-scratch-in-rust-i-9be7c110e137)
+
 ## Crate of the Week
 
 This week's crate is [cargo-unfmt](https://crates.io/crates/cargo-unfmt), a formatter that formats your code into block-justified text, which sacrifices some readability for esthetics.
