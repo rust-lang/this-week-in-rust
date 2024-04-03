@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [nethsm 0.1.0 - first release for this high level library for the Nitrokey NetHSM](https://gitlab.archlinux.org/archlinux/signstar/-/tree/main/nethsm)
 
 ### Observations/Thoughts
 
