@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Modelling Universal Domain Types in Rust](https://mmapped.blog/posts/25-domain-types.html)
 * [Functions Everywhere, Only Once: Writing Functions for the Everywhere Computer](https://fission.codes/blog/functions-everywhere-only-once/)
 
 ### Research
