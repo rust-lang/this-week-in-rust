@@ -38,9 +38,10 @@ and just ask the editors to select the category.
 * [BugStalker v0.1.3 released - first release of rust debugger](https://github.com/godzie44/BugStalker/)
 
 ### Observations/Thoughts
-- [Fast Development In Rust, Part 2](https://blog.sdf.com/p/fast-development-in-rust-part-2)
+* [Fast Development In Rust, Part 2](https://blog.sdf.com/p/fast-development-in-rust-part-2)
 
 ### Rust Walkthroughs
+* [Easy Mode Rust](https://llogiq.github.io/2024/03/28/easy.html)
 * [Modelling Universal Domain Types in Rust](https://mmapped.blog/posts/25-domain-types.html)
 * [Functions Everywhere, Only Once: Writing Functions for the Everywhere Computer](https://fission.codes/blog/functions-everywhere-only-once/)
 
