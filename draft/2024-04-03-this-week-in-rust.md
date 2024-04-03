@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 * [Easy Mode Rust](https://llogiq.github.io/2024/03/28/easy.html)
 * [video] [developerlife.com - Get started with unit testing in Rust](https://www.youtube.com/watch?v=Xt495QLrFFk&list=PLofhE49PEwmwLR_4Noa0dFOSPmSpIg_l8)
 
+* [Rust Unit and Integration Testing in RustRover](https://blog.jetbrains.com/rust/2024/04/02/rust-unit-and-integration-testing-in-rustrover/)
+
 ### Research
 
 ### Miscellaneous
