@@ -110,6 +110,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [greptimedb - Support converting UNIX epoch numbers to specified timezone in `to_timezone` function](https://github.com/GreptimeTeam/greptimedb/issues/3477)
 * [mirrord - Capability to modify the local listen address](https://github.com/metalbear-co/mirrord/issues/2319)
 * [mirrord - Fix all check-rust-docs warnings](https://github.com/metalbear-co/mirrord/issues/1399)
+* [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Braintree](https://github.com/juspay/hyperswitch/issues/4058)
+* [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Fiserv](https://github.com/juspay/hyperswitch/issues/4059)
+* [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Globepay](https://github.com/juspay/hyperswitch/issues/4060)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
