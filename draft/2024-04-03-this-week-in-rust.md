@@ -40,15 +40,16 @@ and just ask the editors to select the category.
 * [`ethercrab` 0.4.0: Pure Rust EtherCAT, now with Distributed Clocks](https://wapl.es/ethercrab-0-4-io-uring-derives-ethercat-distributed-clocks/)
 
 ### Observations/Thoughts
+* [podcast] [cargo-semver-checks with Predrag Gruevski — Rustacean Station](https://rustacean-station.org/episode/predrag-gruevski/)
 * [Fast Development In Rust, Part 2](https://blog.sdf.com/p/fast-development-in-rust-part-2)
 
 ### Rust Walkthroughs
 * [Modelling Universal Domain Types in Rust](https://mmapped.blog/posts/25-domain-types.html)
 * [Functions Everywhere, Only Once: Writing Functions for the Everywhere Computer](https://fission.codes/blog/functions-everywhere-only-once/)
 * [Easy Mode Rust](https://llogiq.github.io/2024/03/28/easy.html)
+* [Rust Unit and Integration Testing in RustRover](https://blog.jetbrains.com/rust/2024/04/02/rust-unit-and-integration-testing-in-rustrover/)
 * [video] [developerlife.com - Get started with unit testing in Rust](https://www.youtube.com/watch?v=Xt495QLrFFk&list=PLofhE49PEwmwLR_4Noa0dFOSPmSpIg_l8)
 
-* [Rust Unit and Integration Testing in RustRover](https://blog.jetbrains.com/rust/2024/04/02/rust-unit-and-integration-testing-in-rustrover/)
 
 ### Research
 
