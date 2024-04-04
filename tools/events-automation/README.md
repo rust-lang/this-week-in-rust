@@ -17,12 +17,13 @@
 Event(name="Test Event", location="Melbourne, VIC, AU", date=date.today(), url="website3.com", virtual=True, organizerName="Test Organizer", organizerUrl="testorg.com")
 ```
 
-### Within Scope of Event Sink:
+### Event Sink:
+**Within Scope**:
 - The event sink will take a list of event objects (see `test_events.py` for example data), format the date and location data (if not done already), filter out events that are outside of the pre-determined 'date window' for the current TWiR issue then sort the events by date and then location alphabetically. After this process the list is then split via virtual or continent, and any potential duplicate events within the list are flagged (through comparison of event data). Finally, the event sink will output the details of the finalised list of events in a pre-determined markdown format, complete with virtual/continent headers.
 - Note that potential duplicate events will be flagged with a `** NOTE POTENTIAL DUPLICATE: **` warning immediately preceding the event information.
 
 
-### Out of Scope:
+**Out of Scope**:
 - The purpose of the event sink is to cross-reference and curate data from various sources. It shouldn't be responsible for gathering or adding required fields of data into the Event class. Any edge cases should be managed by the event sources.
 
 ### How to Add a New Event Source Module:
