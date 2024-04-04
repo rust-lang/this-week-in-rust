@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Embedding the Servo Web Engine in Qt](https://www.kdab.com/embedding-servo-in-qt/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
