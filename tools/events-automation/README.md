@@ -1,7 +1,7 @@
 ### Event Class:
 **Required Variables**
 - name (string): Title of the event.
-- location (string): Location of the event either in full detail (e.g. `"111 test st, city, country, postcode"`) to be formatted by `geopy` module and `format_location()` in event sink, or in `"city, state/territory, country"` format with state/territory details included if the location is in Australia, Canada or United States. See code sample included below for an example of location formatting.
+- location (string): Location of the event either in full detail (e.g. `"111 test st, city, country, postcode"`) to be formatted by [geopy](https://geopy.readthedocs.io/en/stable/#) module and `format_location()` in event sink, or in `"city, state/territory, country"` format with state/territory details included if the location is in Australia, Canada or United States. See code sample included below for an example of location formatting.
     - Note: If location string is in `"city, state, country"` format, for both state/territory and country ISO alpha-2 codes must be used (e.g. AU for Australia, CA for California).
 - date (date or datetime): Date of event in the locations local time (NOT the local time of where the program is being run).
 - url (string): Unique URL for event page details.
@@ -33,7 +33,6 @@ Event(name="Test Event", location="Melbourne, VIC, AU", date=date.today(), url="
 ### Requirements to run this code:
 - Event sink requires Python installation.
 - For specific module requirements: `pip install -r requirements.txt`
-- See https://geopy.readthedocs.io/en/stable/# for `geopy` module documentation.
 
 ### Expected Output:
 Example Output from `test_events.py` data:
