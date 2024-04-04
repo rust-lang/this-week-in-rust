@@ -62,6 +62,7 @@ and just ask the editors to select the category.
 * [video] [developerlife.com - Get started with unit testing in Rust](https://www.youtube.com/watch?v=Xt495QLrFFk&list=PLofhE49PEwmwLR_4Noa0dFOSPmSpIg_l8)
 
 ### Research
+* [Rust Digger: More than 14% of crates configure rustfmt. 35 Have both rustfmt.toml and .rustfmt.toml](https://rust-digger.code-maven.com/news/rustfmt-stats)
 
 ### Miscellaneous
 * [Building a Managed Postgres Service in Rust: Part 1](https://tembo.io/blog/managed-postgres-rust)
