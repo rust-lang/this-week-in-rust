@@ -65,14 +65,13 @@ and just ask the editors to select the category.
 * [Building a Managed Postgres Service in Rust: Part 1](https://tembo.io/blog/managed-postgres-rust)
 * [Beware of the DashMap deadlock](https://dev.to/acter/beware-of-the-dashmap-deadlock-lij)
 * [Embedded Rust Bluetooth on ESP: BLE Client](https://apollolabsblog.hashnode.dev/embedded-rust-bluetooth-on-esp-ble-client)
+* [Building Stock Market Engine from scratch in Rust (I)](https://medium.com/@harshiljani2002/building-stock-market-engine-from-scratch-in-rust-i-9be7c110e137)
 * [Rust Unit and Integration Testing in RustRover](https://blog.jetbrains.com/rust/2024/04/02/rust-unit-and-integration-testing-in-rustrover/)
 * [podcast] [cargo-semver-checks with Predrag Gruevski — Rustacean Station](https://rustacean-station.org/episode/predrag-gruevski/)
 * [video] [Data Types - Part 3 of Idiomatic Rust in Simple Steps](https://www.youtube.com/watch?v=NSiZdNjkzBk)
 * [video] [Deconstructing WebAssembly Components by Ryan Levick @ Wasm I/O 2024](https://www.youtube.com/watch?v=zqfF7Ssa2QI)
 * [video] [Extreme Clippy for new Rust crates](https://www.youtube.com/watch?v=dEkr5c5Kul8)
 * [video] [playlist] [Bevy GameDev Meetup #2 - March 2024](https://www.youtube.com/playlist?list=PLbvvWoCXmXkJRb8fPcVV1hAhaZHaGC56v)
-
-[Building Stock Market Engine from scratch in Rust (I)](https://medium.com/@harshiljani2002/building-stock-market-engine-from-scratch-in-rust-i-9be7c110e137)
 
 ## Crate of the Week
 
