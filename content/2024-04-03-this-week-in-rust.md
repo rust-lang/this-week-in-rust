@@ -31,8 +31,6 @@ and just ask the editors to select the category.
 * [Announcing Rust 1.77.1](https://blog.rust-lang.org/2024/03/28/Rust-1.77.1.html)
 * [Changes to `u128`/`i128` layout in 1.77 and 1.78](https://blog.rust-lang.org/2024/03/30/i128-layout-update.html)
 
-### Foundation
-
 ### Newsletters
 * [This Week In Bevy: 2d Lighting, Particle Systems, Meshlets, and more](https://thisweekinbevy.com/issue/2024-04-01-2d-lighting-particle-systems-meshlets-and-more)
 
@@ -323,8 +321,6 @@ Rusty Events between 2024-04-03 - 2024-05-01 🦀
 
 ### Europe
 
-* 2024-04-10 | Manchester, UK | [Manchseter Rust Meetup](https://www.meetup.com/rust-manchester/)
-    * [**Rust Manchester April 2024**](https://www.meetup.com/rust-manchester/events/299887934/)
 * 2024-04-10 | Cambridge, UK | [Cambridge Rust Meetup](https://www.meetup.com/cambridge-rust-meetup/)
     * [**Rust Meetup Reboot 3**](https://www.meetup.com/cambridge-rust-meetup/events/299730322/)
 * 2024-04-10 | Cologne/Köln, DE | [Rust Cologne](https://www.meetup.com/rustcologne/)
@@ -410,7 +406,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1bpg8b8/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -428,4 +424,4 @@ Thanks to [Kevin Reid](https://users.rust-lang.org/t/twir-quote-of-the-week/328/
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1bveowo/this_week_in_rust_541/)</small>
