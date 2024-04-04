@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [video] [Exploring Fiberplane's 3-Year Rust Journey - with Benno van den Berg](https://youtu.be/wCASwxfPBGM)
+
 ### Rust Walkthroughs
 
 ### Research
