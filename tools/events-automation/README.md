@@ -33,7 +33,6 @@ Event(name="Test Event", location="Melbourne, VIC, AU", date=date.today(), url="
 - Event sink requires Python installation.
 - For specific module requirements: `pip install -r requirements.txt`
 - See https://geopy.readthedocs.io/en/stable/# for `geopy` module documentation.
-- TODO: Create requirements folder with geopy module, etc.
 
 ### Expected Output:
 Example Output from `test_events.py` data:
