@@ -61,6 +61,7 @@ and just ask the editors to select the category.
 * [video] [developerlife.com - Get started with unit testing in Rust](https://www.youtube.com/watch?v=Xt495QLrFFk&list=PLofhE49PEwmwLR_4Noa0dFOSPmSpIg_l8)
 
 ### Research
+* [Rust Digger: More than 14% of crates configure rustfmt. 35 Have both rustfmt.toml and .rustfmt.toml](https://rust-digger.code-maven.com/news/rustfmt-stats)
 
 ### Miscellaneous
 * [Building a Managed Postgres Service in Rust: Part 1](https://tembo.io/blog/managed-postgres-rust)
@@ -109,6 +110,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [greptimedb - Support converting UNIX epoch numbers to specified timezone in `to_timezone` function](https://github.com/GreptimeTeam/greptimedb/issues/3477)
 * [mirrord - Capability to modify the local listen address](https://github.com/metalbear-co/mirrord/issues/2319)
 * [mirrord - Fix all check-rust-docs warnings](https://github.com/metalbear-co/mirrord/issues/1399)
+* [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Braintree](https://github.com/juspay/hyperswitch/issues/4058)
+* [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Fiserv](https://github.com/juspay/hyperswitch/issues/4059)
+* [Hyperswitch - [REFACTOR]: Remove Default Case Handling - Globepay](https://github.com/juspay/hyperswitch/issues/4060)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -295,6 +299,8 @@ Rusty Events between 2024-04-03 - 2024-05-01 🦀
     * [**Rust Hack and Learn**](https://meet.jit.si/RustHackAndLearnBerlin) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298477689/)
 * 2024-04-11 | Virtual (Nürnberg, DE) | [Rust Nüremberg](https://www.meetup.com/rust-noris/)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/297945256/)
+* 2024-04-15 & 2024-04-16 | Virtual | [Mainmatter](https://mainmatter.com/)
+    * [**Remote Workshop: Testing for Rust projects – going beyond the basics**](https://ti.to/mainmatter/rust-testing-april-2024)
 * 2024-04-16 | Virtual (Dublin, IE) | [Rust Dublin](https://www.meetup.com/rust-dublin/)
     * [**A reverse proxy with Tower and Hyperv1**](https://www.meetup.com/rust-dublin/events/300144192/)
 * 2024-04-16 | Virtual (Washinigton, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
