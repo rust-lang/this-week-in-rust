@@ -48,7 +48,7 @@ constantly backlogged. Issue churn was -26, yay!
   as it is impossible to create a valid C string with interior
   `NUL`s](https://github.com/mozilla/rust/pull/8532).
 
-## Library improvments, bugfixes, and cleanup
+## Library improvements, bugfixes, and cleanup
 
 - [`ifmt!`, the new formatter, has been
   finished](https://github.com/mozilla/rust/pull/8446). Yay!

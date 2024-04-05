@@ -42,7 +42,7 @@ Issue churn was +4 this week. A total of 63 PRs were merged (again).
 - `PortSet` [has been removed](https://github.com/mozilla/rust/pull/8164) from
   std, as the new scheduler does not support it.
 - A bunch of old task APIs [have been
-  removed](https://github.com/mozilla/rust/pull/8139), aslo in preparation for
+  removed](https://github.com/mozilla/rust/pull/8139), also in preparation for
   the new schduler.
 - `is_utf8` now [rejects overlong
   encodings](https://github.com/mozilla/rust/pull/8133).
