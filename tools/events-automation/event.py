@@ -30,7 +30,7 @@ class Event():
   def format_location(self):
     # Formats location data into (city, +/-state, country).
     geocoder = Nominatim(user_agent="TWiR")
-    locationData = str(geocoder.geocode(self.location, language="en").split(","))
+    locationData = str(geocoder.geocode(self.location, language="en")).split(",")
 
     if len(locationData) > 3:
       city, state, country = locationData[2].strip(), locationData[3].strip(), locationData[-1].strip()
