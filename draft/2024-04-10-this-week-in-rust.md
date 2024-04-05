@@ -39,6 +39,10 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [developerlife.com - Build a color gradient animation for a spinner component, for CLI, in Rust](https://www.youtube.com/watch?v=_QjsGDds270)
+* [video] [developerlife.com - Build a spinner component, for CLI, in Rust](https://www.youtube.com/watch?v=fcb6rstRniI)
+* [video] [developerlife.com - Build an async readline, and spinner in Rust, for interactive CLI](https://www.youtube.com/playlist?list=PLofhE49PEwmwelPkhfiqdFQ9IXnmGdnSE)
+
 ### Research
 
 ### Miscellaneous
