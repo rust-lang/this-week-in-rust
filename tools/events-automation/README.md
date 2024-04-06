@@ -22,7 +22,6 @@ Event(name="Test Event", location="Melbourne, VIC, AU", date=date.today(), url="
 - The event sink will take a list of event objects (see `test_events.py` for example data), format the date and location data (if not done already), filter out events that are outside of the pre-determined 'date window' for the current TWiR issue then sort the events by date and then location alphabetically. After this process the list is then split via virtual or continent, and any potential duplicate events within the list are flagged (through comparison of event data). Finally, the event sink will output the details of the finalised list of events in a pre-determined markdown format, complete with virtual/continent headers.
 - Note that potential duplicate events will be flagged with a `** NOTE POTENTIAL DUPLICATE: **` warning immediately preceding the event information.
 
-
 **Out of Scope**:
 - The purpose of the event sink is to cross-reference and curate data from various sources. It shouldn't be responsible for gathering or adding required fields of data into the Event class. Any edge cases should be managed by the event sources.
 
@@ -33,6 +32,20 @@ Event(name="Test Event", location="Melbourne, VIC, AU", date=date.today(), url="
 ### Requirements to run this code:
 - Event sink requires Python installation.
 - For specific module requirements: `pip install -r requirements.txt`
+
+### How to use this code:
+- In order to use the Event Sink code please ensure that all requirements listed above have been met/installed on your device.
+- Check that all Event Source module function calls are included in `event_list` (function calls should concatenate into a single list of event objects).
+
+### Architecture of the Event Sink:
+- `main()`: Gathers a list of events from imported Event Source modules, formats the event date and location data, identifies a start date for the date-window filter, creates a 2D sorted list of events from `sort_and_filter_events()`, outputs to screen Event details in markdown format with section headers and duplicate warnings.
+- `format_data(event_list)`: Formats event date and location data into pre-determined format (as described above) using Event Class functions `format_date()` and `format_location()`.
+    - `format_date()`: Identifies if date variable is a datetime object and if so, converts to date object.
+    - `format_location()`: Identifies if location data is already formatted. If not, parses location data through geopy module, extracts the required information, then formats the data.
+- `sort_and_filter_events(event_list, start_date)`: Removes all events that are outside of the determined date window (start_date + 5 weeks), sorts the list of events first by date then by location, identifies potential duplicate events to be manually checked on completion, separates events by virtual/continent into a 2D list that is returned to `main()`. 
+- `sort_events(event_list)`: Uses an insertion sort algorithm to sort the list of events by date, then by location.
+- `potential_duplicate(event_list)`: Flags potential duplicate events by comparing date, url, name, and organizerName variables (in that order).
+- `sort_virtual_continent(event_list)`: Separates the event list into a 2D list by virtual/continent. See function code comments for index key.
 
 ### Expected Output:
 Example Output from `test_events.py` data:
