@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Rust Meetup and user groups (updated)](https://rust.code-maven.com/user-groups)
 
 ## Crate of the Week
 
