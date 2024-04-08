@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Ratatui Received Funding: What's Next?](https://blog.orhun.dev/open-source-funding-with-ratatui/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
