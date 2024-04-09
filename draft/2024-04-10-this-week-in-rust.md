@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rerun 0.15 - Layout from code](https://www.rerun.io/blog/blueprint-part-one)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
