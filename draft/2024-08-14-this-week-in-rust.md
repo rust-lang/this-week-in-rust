@@ -30,20 +30,39 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.80.1](https://blog.rust-lang.org/2024/08/08/Rust-1.80.1.html)
+* [Rust Project goals for 2024](https://blog.rust-lang.org/2024/08/12/Project-goals.html)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust OSDev: July 2024](https://rust-osdev.com/this-month/2024-07/)
 
 ### Project/Tooling Updates
+* [Bevy's Fourth Birthday](https://bevyengine.org/news/bevys-fourth-birthday/)
+* [Intoducing Tonbo](https://tonbo.io/blog/introducing-tonbo)
+* [This Month in Xilem, July 2024](https://linebender.org/blog/tmix-07/)
+* [derive_more v1.0.0 - Finally a stable release](https://github.com/JelteF/derive_more/releases/tag/v1.0.0)
+* [Rust GPU Transitions to Community Ownership](https://rust-gpu.github.io/blog/transition-announcement/)
+* [rust-analyzer changelog #246](https://rust-analyzer.github.io/thisweek/2024/08/12/changelog-246.html)
 
 ### Observations/Thoughts
+* [I compared 14 hashing algorithms on Rust using Criterion](https://blog.goose.love/posts/rosetta-hashing/)
+* [Rust's Mutex, Atomics and UnsafeCell – Spooky Action at a Distance?](https://leon.schuermann.io/blog/2024-08-07_rust-mutex-atomics-unsafecell_spooky-action-at-a-distance.html)
+* [How I Created 175 Fonts Using Rust](https://chevyray.dev/blog/creating-175-fonts/)
+* [video] [The Best Games from Bevy Jam 5](https://www.youtube.com/watch?v=_H87sL5ieOc)
+* [audio] [I Was Wrong About Rust Build Times](https://sdr-podcast.com/episodes/wrong-build-times/)
+* [audio] [Rust in Production Podcast Season 2 Finale](https://corrode.dev/podcast/s02e08-season-finale/)
+* [audio] [Exploring Fiberplane's 3-Year Rust Journey, with Benno van den Berg](https://rustacean-station.org/episode/benno-van-den-berg/)
 
 ### Rust Walkthroughs
+* [The weird of function-local types in Rust](https://elastio.github.io/bon/blog/the-weird-of-function-local-types-in-rust)
 
 ### Research
+* [Don’t Write, but Return: Replacing Output Parameters with Algebraic Data Types in C-to-Rust Translation](https://dl.acm.org/doi/10.1145/3656406)
 
 ### Miscellaneous
+* [RP2350 Launch Blog](https://thejpster.org.uk/blog/blog-2024-08-08/)
 
 ## Crate of the Week
 
