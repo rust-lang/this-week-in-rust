@@ -30,29 +30,43 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.84.0](https://blog.rust-lang.org/2025/01/09/Rust-1.84.0.html)
+* [This Month in Our Test Infra: December 2024](https://blog.rust-lang.org/inside-rust/2025/01/10/test-infra-dec-2024.html)
 
 ### Foundation
+* [Announcing Rust Global 2025: London](https://foundation.rust-lang.org/news/announcing-rust-global-2025-london/)
 
 ### Newsletters
+* [This Month in Rust OSDev: December 2024](https://rust-osdev.com/this-month/2024-12/)
 * [Rust Trends Issue #57](https://rust-trends.com/newsletter/start-2025-with-rust-honeypots-free-cloud-deployments-and-software-reliability/)
 
 ### Project/Tooling Updates
 * [cargo.nvim - A Neovim plugin for Rust's Cargo commands](https://github.com/nwiizo/cargo.nvim)
 * [Context-Generic Programming Updates: v0.3.0 Release and New Chapters](https://contextgeneric.dev/blog/v0-3-0-release/)
+* [The RTen machine learning runtime - a 2024 retrospective](https://robertknight.me.uk/posts/rten-2024/)
 
 ### Observations/Thoughts
+* [The gen auto-trait problem](https://blog.yoshuawuyts.com/gen-auto-trait-problem/)
 * [Async Rust is about concurrency, not (just) performance](https://kobzol.github.io/rust/2025/01/15/async-rust-is-about-concurrency.html)
+* [The Emotional Appeal of Rust](https://www.shuttle.dev/blog/2025/01/14/the-appeal-of-rust)
+* [audio] [Brave with Anton Lazarev](https://corrode.dev/podcast/s03e07-brave/)
+* [audio] [Lychee with Matthias Endler](https://rustacean-station.org/episode/matthias-endler/)
+
 
 ### Rust Walkthroughs
 * [Creating an embedded device driver in Rust](https://blog.mjolner.tech/device-driver-rust/)
 * [Const Evaluation in Rust For Hex Strings Validation](https://asyncmove.com/blog/2025/01/compile-time-hex-string-validation-in-rust-using-const-evaluation/)
 * [Concurrent and parallel future execution in Rust](https://heikoseeberger.de/2025-01-15-concurrent-parallel-futures/)
+* [video] [Intro to Embassy: embedded development with async Rust](https://www.youtube.com/watch?v=pDd5mXBF4tY)
+* [video] [Comprehending Proc Macros](https://www.youtube.com/watch?v=SMCRQj9Hbx8)
 * [video] [CppCon - C++/Rust Interop: Using Bridges in Practice](https://tylerjw.dev/posts/20240920-cppcon-cpp-rust-interop/)
 
 ### Research
 
 ### Miscellaneous
 * [December 2024 Rust Jobs Report](https://filtra.io/rust/jobs-report/dec-24)
+* [Tracing Large Memory Allocations in Rust with BPFtrace](https://readyset.io/blog/tracing-large-memory-allocations-in-rust-with-bpftrace)
+* [On LLMs and Code Optimization](https://wiredream.com/llm-optimizing-digit-diff/)
 * [Nand2Tetris - Project 7 (VM Translator Part 1)](https://gurudas.dev/blog/2025/01/01/nand-to-tetris-2024-project-7/)
 
 ## Crate of the Week
