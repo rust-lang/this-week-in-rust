@@ -30,16 +30,25 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Rust 2024 in beta channel | Rust Blog](https://blog.rust-lang.org/2025/01/22/rust-2024-beta.html)
+* [December Project Goals Update | Rust Blog](https://blog.rust-lang.org/2025/01/23/Project-Goals-Dec-Update.html)
 
 ### Foundation
+* [Rust Language Trademark Policy Updates, Explained](https://rustfoundation.org/media/rust-language-trademark-policy-updates-explained/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Defmt is going to 1.0](https://ferrous-systems.com/blog/defmt-1-0/)
+* [rust-analyzer hangelog #270](https://rust-analyzer.github.io/thisweek/2025/01/27/changelog-270.html)
 
 ### Observations/Thoughts
+* [Musings on iterator trait names](https://blog.yoshuawuyts.com/musings-on-iterator-trait-names/)
+* [audio] [Rahul Kumar: Why verify Rust's standard library?](https://timclicks.dev/podcast/rahul-kumar-why-verify-rusts-stdlib)
+* [audio] [Volvo with Julius Gustavsson](https://corrode.dev/podcast/s03e08-volvo/)
 
 ### Rust Walkthroughs
+* [Tips for Faster Rust CI Builds | corrode Rust Consulting](https://corrode.dev/blog/tips-for-faster-ci-builds/)
 
 ### Research
 
