@@ -30,16 +30,31 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Guest Blog: Attending CISA’s Open Source Software Security Summit](https://foundation.rust-lang.org/news/attending-cisas-open-source-software-security-summit/)
 
 ### Newsletters
+* [This Month in Rust OSDev: March 2024](https://rust-osdev.com/this-month/2024-03/)
 
 ### Project/Tooling Updates
+* [lilos v1.0 released](https://cliffle.com/blog/lilos-1-0/)
 
 ### Observations/Thoughts
+* [The Rust Calling Convention We Deserve](https://mcyoung.xyz/2024/04/17/calling-convention/)
+* [Sized, DynSized, and Unsized](https://smallcultfollowing.com/babysteps/blog/2024/04/23/dynsized-unsized/)
+* [Coroutines and effects](https://without.boats/blog/coroutines-and-effects/)
+* [Porting a cross-platform GUI application to Rust](https://hacks.mozilla.org/2024/04/porting-a-cross-platform-gui-application-to-rust/)
+* [Adventures In Rust: Bringing Exchange Support To Thunderbird](https://blog.thunderbird.net/2024/04/adventures-in-rust-bringing-exchange-support-to-thunderbird/)
 
 ### Rust Walkthroughs
 
+* [Building with AWS S3 using Rust](https://www.shuttle.rs/blog/2024/04/17/using-aws-s3-rust)
+* [Rust tokio task cancellation patterns](https://cybernetist.com/2024/04/19/rust-tokio-task-cancellation-patterns/)
+* [video] [Trent Billington - Bevy ECS - Power tool for data oriented applications](https://www.youtube.com/watch?v=ocacUsyJXpg)
+* [video] [Building a procedural art generator](https://www.youtube.com/watch?v=BxxUPdiBjkc)
+* [audio] [Isograph with Robert Balicki](https://rustacean-station.org/episode/robert-balicki/)
+
 ### Research
+* [A Study of Undefined Behavior Across Foreign Function Boundaries in Rust Libraries](https://arxiv.org/abs/2404.11671)
 
 ### Miscellaneous
 
