@@ -30,18 +30,36 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.79.0](https://blog.rust-lang.org/2024/06/13/Rust-1.79.0.html)
+* [This Development-cycle in Cargo: 1.80](https://blog.rust-lang.org/inside-rust/2024/06/19/this-development-cycle-in-cargo-1.80.html)
 
 ### Foundation
+* [Announcing the Safety-Critical Rust Consortium](https://foundation.rust-lang.org/news/announcing-the-safety-critical-rust-consortium/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #238](https://rust-analyzer.github.io/thisweek/2024/06/17/changelog-238.html)
+* [Enhancing Code Completion for Rust in Cody](https://sourcegraph.com/blog/enhancing-code-completion-for-rust-in-cody)
 
 ### Observations/Thoughts
+* [Path Generics in Rust: A Sketch Proposal for Simplicity and Generality](https://cfallin.org/blog/2024/06/12/rust-path-generics/)
+* [Dioxus Labs + “High-level Rust”](https://dioxus.notion.site/Dioxus-Labs-High-level-Rust-5fe1f1c9c8334815ad488410d948f05e)
+* [Making Your First Real-World Rust Project a Success](https://corrode.dev/blog/successful-rust-business-adoption-checklist/)
+* [video] [Compiler-Driven Development in Rust](https://www.youtube.com/watch?v=Kdpfhj3VM04)
+* [audio] [What's New in Rust 1.72 and 1.73](https://rustacean-station.org/episode/rust-1.72-1.73/)
+* [audio] [Matic with Eric Seppanen](https://corrode.dev/podcast/s02e04-matic/)
 
 ### Rust Walkthroughs
+* [IPC in Rust - a Ping Pong Comparison](https://3tilley.github.io/posts/simple-ipc-ping-pong/)
+* [I ported h2spec to Rust (also: codegen!)](https://fasterthanli.me/videos/h2spec-to-rust)
+* [Parsing Python ASTs 20x Faster with Rust](https://www.gauge.sh/blog/parsing-python-asts-20x-faster-with-rust)
+* [Making a const version of Rust's array::from_fn - How hard can it be?](https://gendignoux.com/blog/2024/06/17/const-array-from-fn.html)
+* [Using Tauri to build a cross-platform security app](https://www.firezone.dev/blog/using-tauri)
 
 ### Research
+* [SquirrelFS: using the Rust compiler to check file-system crash consistency](https://arxiv.org/abs/2406.09649)
+* [Trusting code in the wild: Exploring contributor reputation measures to review dependencies in the Rust ecosystem](https://arxiv.org/abs/2406.10317)
 
 ### Miscellaneous
 
