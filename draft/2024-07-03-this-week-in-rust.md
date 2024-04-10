@@ -30,16 +30,28 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Types Team Update and Roadmap](https://blog.rust-lang.org/2024/06/26/types-team-update.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Rustlings Rewrite](https://mo8it.com/blog/rustlings-rewrite/)
+* [iroh 0.19.0 - Make it your own](https://iroh.computer/blog/iroh-0-19-make-it-your-own)
+* [Announcing Polars 1.0](https://pola.rs/posts/announcing-polars-1/)
+* [rust-analyzer changelog #240](https://rust-analyzer.github.io/thisweek/2024/07/01/changelog-240.html)
 
 ### Observations/Thoughts
+* [Ergonomic Self-Referential Types for Rust](https://blog.yoshuawuyts.com/self-referential-types/)
+* [More thoughts on claiming](https://smallcultfollowing.com/babysteps/blog/2024/06/26/claim-followup-1/)
+* [Async closures](https://hackmd.io/@compiler-errors/async-closures)
+* [Rust has three reference types!](https://ssbr.xyz/blog/rust-has-three-reference-types/)
+* [audio] [OxidOS with Alexandru Radovici](https://corrode.dev/podcast/s02e05-oxidos/)
 
 ### Rust Walkthroughs
+* [Resolving Rust Symbols](https://blog.shrirambalaji.com/posts/resolving-rust-symbols/)
+* [#![doc = include_str!()] with intra-doc links](https://linebender.org/blog/doc-include/)
 
 ### Research
 
