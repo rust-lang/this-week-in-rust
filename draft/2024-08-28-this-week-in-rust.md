@@ -30,20 +30,39 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [2024 Leadership Council Survey](https://blog.rust-lang.org/2024/08/26/council-survey.html)
+* [Embedded Working Group Community Micro Survey](https://blog.rust-lang.org/inside-rust/2024/08/22/embedded-wg-micro-survey.html)
 
 ### Foundation
+* [What's in Store at RustConf 2024](https://foundation.rust-lang.org/news/what-s-in-store-at-rustconf-2024/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [git-cliff: What's new in 2.5.0?](https://git-cliff.org/blog/2.5.0/)
+* [Ferrocene 24.08.0 now available!](https://ferrous-systems.com/blog/ferrocene-24-08-0/)
+* [Go wild: Wildcard support in Rules and a new open-source wildcard crate](https://blog.cloudflare.com/wildcard-rules/)
+* [Why am I writing a Rust compiler in C?](https://notgull.net/announcing-dozer/)
+* [Current zlib-rs performance](https://tweedegolf.nl/en/blog/134/current-zlib-rs-performance)
 
 ### Observations/Thoughts
+* [Rust dylib rabbit holes](https://davidlattimore.github.io/posts/2024/08/27/rust-dylib-rabbit-holes.html)
+* [I sped up serde_json strings by 20%](https://purplesyringa.moe/blog/i-sped-up-serde-json-strings-by-20-percent/)
+* [Using StringView / German Style Strings to Make Queries Faster: Part 1 - Reading Parquet](https://www.influxdata.com/blog/faster-queries-with-stringview-part-one-influxdb/)
+* [Rust as My First Language](https://www.shuttle.rs/blog/2024/08/23/rust-as-my-first-language)
+* [Doctests - How were they improved?](https://blog.guillaume-gomez.fr/articles/2024-08-17+Doctests+-+How+were+they+improved%3F)
+* [MiniJinja: Learnings from Building a Template Engine in Rust](https://lucumr.pocoo.org/2024/8/27/minijinja/)
 
 ### Rust Walkthroughs
+* [Let the API protect you](https://www.snoyman.com/blog/2024/08/let-the-api-protect-you/)
+* [Packaging a Rust Program for Fedora](https://jrfernandez.com/packaging-rust-program-for-fedora)
+* [Building a Bevy Plugin for Rolling Dice](https://blog.erikhorton.com/2024/08/25/building-a-bevy-plugin-for-rolling-dice.html)
+* [video] [Implementing a Lox interpreter in Rust](https://www.youtube.com/watch?v=mNOLaw-_Buc)
 
 ### Research
 
 ### Miscellaneous
+* [Can DARPA’s TRACTOR Pull C to Rust for Memory-Safe Overhaul?](https://thenewstack.io/can-darpas-tractor-pull-c-to-rust-for-memory-safe-overhaul/)
 
 ## Crate of the Week
 
