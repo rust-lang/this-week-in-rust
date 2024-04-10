@@ -30,16 +30,33 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing four new members of the compiler team](https://blog.rust-lang.org/inside-rust/2024/11/12/compiler-team-new-members.html)
 
 ### Foundation
+* [Announcing the Rust Foundation’s Newest Project Director: Carol Nichols](https://foundation.rust-lang.org/news/announcing-the-rust-foundation-s-newest-project-director-carol-nichols/)
 
 ### Newsletters
+* [This Month in Rust OSDev: October 2024](https://rust-osdev.com/this-month/2024-10/)
 
 ### Project/Tooling Updates
+* [hyper in curl Needs a Champion](https://seanmonstar.com/blog/hyper-in-curl-needs-a-champion/)
+* [godot-rust November 2024 dev update](https://godot-rust.github.io/dev/november-2024-update/)
+* [Security in hickory-dns](https://ferrous-systems.com/blog/hickory-dns-client/)
+* [Virtual Geometry in Bevy 0.15](https://jms55.github.io/posts/2024-11-14-virtual-geometry-bevy-0-15/)
 
 ### Observations/Thoughts
+* [A rustc soundness bug in the wild](https://specy.app/blog/posts/a-rustc-soundness-bug-in-the-wild)
+* [video] [EuroRust 2024 Videos](https://www.youtube.com/playlist?list=PL85XCvVPmGQgc53QJmJXfj7485oyadCgv)
+* [video] [RustConf 2024 Videos](https://www.youtube.com/playlist?list=PL2b0df3jKKiTWZeF7cip6ZUsaVXxWioRi)
+* [audio] [Compile Time Crimes](https://sdr-podcast.com/episodes/compile-time-crimes/)
+* [audio] [Oxide with Steve Klabnik](https://corrode.dev/podcast/s03e03-oxide/)
 
 ### Rust Walkthroughs
+* [Futexes at Home](https://specificprotagonist.net/jvm-futex.html)
+* [Build your own SQLite, Part 3: SQL parsing 101](https://blog.sylver.dev/build-your-own-sqlite-part-3-sql-parsing-101)
+* [dtype_dispatch: a most beautiful hack](https://graphallthethings.com/posts/dtype-dispatch)
+* [Zed Rope Optimizations, Part 1](https://zed.dev/blog/zed-decoded-rope-optimizations-part-1)
+* [Sending Events to Bevy from anywhere](https://rustunit.com/blog/2024/11-15-bevy-channel-trigger/)
 
 ### Research
 
