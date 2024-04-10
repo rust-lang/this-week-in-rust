@@ -30,16 +30,31 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.83.0](https://blog.rust-lang.org/2024/11/28/Rust-1.83.0.html)
+* [ Rustc Trait System Refactor Initiative Update: Stabilizing `-Znext-solver=coherence` ](https://blog.rust-lang.org/inside-rust/2024/12/04/trait-system-refactor-initiative.html)
+* [The wasm32-wasip2 Target Has Reached Tier 2 Support](https://blog.rust-lang.org/2024/11/26/wasip2-tier-2.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Measuring and Improving rustls's Multithreaded Performance](https://rustls.dev/perf/2024-11-28-threading/)
+* [Bevy 0.15](https://bevyengine.org/news/bevy-0-15/)
+* [Leptos 0.7.0](https://github.com/leptos-rs/leptos/releases/tag/v0.7.0)
+* [Advent of Rust 2024](https://www.rustfinity.com/advent-of-rust)
+* [Introducing Uniffi for React Native: Rust-Powered Turbo Modules](https://hacks.mozilla.org/2024/12/introducing-uniffi-for-react-native-rust-powered-turbo-modules/)
+* [Revisiting Hubris appconfigs](https://cliffle.com/blog/exhubris/)
 
 ### Observations/Thoughts
+* [audio] [GitButler with Scott Chacon and Kiril Videlov](https://corrode.dev/podcast/s03e04-gitbutler/)
+* [audio] [A different serde](https://sdr-podcast.com/episodes/a-different-serde/)
 
 ### Rust Walkthroughs
+* [Optimization adventures: making a parallel Rust workload even faster with data-oriented design (and other tricks)](https://gendignoux.com/blog/2024/12/02/rust-data-oriented-design.html)
+* [Designing a const `array::from_fn` in stable Rust](https://13ros27.github.io/blog/const-array-from-fn/)
+* [Implementing async APIs for microcontroller peripherals](https://beaurivage.io/atsamd-hal-async/)
+* [Rust 🦀 on the RP2040](https://baileytownsend.dev/articles/getting-started-with-rust-an-rp2040)
 
 ### Research
 
