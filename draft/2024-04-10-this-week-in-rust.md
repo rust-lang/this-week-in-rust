@@ -221,6 +221,9 @@ Rusty Events between 2024-04-10 - 2024-05-08 🦀
     * [**Fullstack Rust - Workshop #2**](https://www.meetup.com/rust-basel/events/299933581/)
 * 2024-05-06 | Delft, NL | [GOSIM](https://www.gosim.org/)
     * [**GOSIM Europe 2024**](https://europe2024.gosim.org/)
+* 2024-05-07 & 2024-05-08 | Delft, NL | [RustNL](https://rustnl.org/)
+    * [**RustNL 2024**](https://2024.rustnl.org/)
+
 
 ### North America
 
