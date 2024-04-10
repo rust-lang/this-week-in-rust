@@ -102,8 +102,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 A quiet week; all the outright regressions were already triaged (the one biggish one was #122077, which is justified as an important bug fix). There was a very nice set of improvements from PR #122070, which cleverly avoids a lot of unnecessary allocator calls when building an incremental dep graph by reusing the old edges from the previous graph.
 
 Triage done by **@pnkfelix**.
-Revision range: [3d5528c2..86b603cd](https://perf.rust-lang.org/?start=3d5528c287860b918e178a34f04ff903325571b3&\
-end=86b603cd792b3f6172ba4f676d7b586c1af7630a&absolute=false&stat=instructions%3Au)
+Revision range: [3d5528c2..86b603cd](https://perf.rust-lang.org/?start=3d5528c287860b918e178a34f04ff903325571b3&end=86b603cd792b3f6172ba4f676d7b586c1af7630a&absolute=false&stat=instructions%3Au)
 
 3 Regressions, 3 Improvements, 7 Mixed; 1 of them in rollups
 78 artifact comparisons made in total
