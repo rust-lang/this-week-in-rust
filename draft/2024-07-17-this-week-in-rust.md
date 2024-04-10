@@ -34,14 +34,27 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust OSDev: June 2024](https://rust-osdev.com/this-month/2024-06/)
 
 ### Project/Tooling Updates
+* [Zed: Linux when? Linux now.](https://zed.dev/blog/zed-on-linux)
 
 ### Observations/Thoughts
+* [The missing parts in Cargo](https://weihanglo.tw/posts/2024/the-missing-parts-in-cargo/)
+* [How HappyLock Works](https://www.botahamec.dev/blog/how-happylock-works.html)
+* [video] [My favorite Rust design pattern](https://www.youtube.com/watch?v=qrf52BVaZM8)
+* [audio] [Fusion Engineering with Jakub Valtar](https://corrode.dev/podcast/s02e06-fusion-engineering/)
+* [audio] [On the Road: RustNL & Oxidize](https://jamesmunns.com/podcast/017-on-the-road/)
 
 ### Rust Walkthroughs
+* [Global Registration](https://donsz.nl/blog/global-registration/)
+* [Gray-Scott with Rust](https://grayscott-with-rust-grasland-5e6591fc7054976525da4f6c87122ea76c.pages.in2p3.fr/)
+* [How to make Rust Desktop App with Egui and ChatGPT](https://www.onlycoiners.com/user/steadylearner/blog/how-to-make-rust-desktop-app-with-egui-and-chatgpt)
+* [Writing eBPF Tracepoint Program with Rust Aya: Tips and Example](https://yuki-nakamura.com/2024/07/06/writing-ebpf-tracepoint-program-with-rust-aya-tips-and-example/)
 
 ### Research
+* [An Empirical Study of Rust-for-Linux: The Success, Dissatisfaction, and Compromise](https://www.usenix.org/conference/atc24/presentation/li-hongyu)
+* [Bringing Rust to Safety-Critical Systems in Space](https://arxiv.org/abs/2405.18135)
 
 ### Miscellaneous
 
