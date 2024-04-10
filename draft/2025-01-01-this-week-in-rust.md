@@ -32,12 +32,20 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [2024 in Review: Rust Foundation Annual Report Preview](https://foundation.rust-lang.org/news/rust-foundation-in-review-2024-annual-report-preview/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Announcing axum 0.8.0](https://tokio.rs/blog/2025-01-01-announcing-axum-0-8-0)
+* [Fish 4.0: The Fish Of Theseus](https://fishshell.com/blog/rustport/)
+* [Rust and libcosmic in Bottles Next](https://usebottles.com/posts/2024-12-27-rust-libcosmic-next/)
 
 ### Observations/Thoughts
+* [Catching up with async Rust](https://fasterthanli.me/articles/catching-up-with-async-rust)
+* [video] [12 months with the Bevy Game Engine - This Year in Bevy 2024](https://www.youtube.com/watch?v=f4rKy-IDeVA)
+* [audio] [Reliable software: An interview with Jon Gjengset](https://timclicks.dev/podcast/reliable-software-an-interview-with-jon-gjengset)
+* [audio] [Rust in Google with Lars Bergstrom](https://rustacean-station.org/episode/lars-bergstrom/)
 
 ### Rust Walkthroughs
 
