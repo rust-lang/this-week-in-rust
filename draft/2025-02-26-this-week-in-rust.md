@@ -30,16 +30,27 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [February 2025 Project Director Update](https://blog.rust-lang.org/inside-rust/2025/02/24/project-director-update.html)
+* [Announcing Rust 1.85.0 and Rust 2024](https://blog.rust-lang.org/2025/02/20/Rust-1.85.0.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [zlib-rs is faster than C](https://trifectatech.org/blog/zlib-rs-is-faster-than-c/)
+* [This month in Servo: new webview API, relative colors, canvas buffs, and more!](https://servo.org/blog/2025/02/19/this-month-in-servo/)
+* [esp-hal 1.0.0 beta announcement](https://developer.espressif.com/blog/2025/02/rust-esp-hal-beta/)
 
 ### Observations/Thoughts
+* [View types redux and abstract fields](https://smallcultfollowing.com/babysteps/blog/2025/02/25/view-types-redux/)
+* [Rust edition 2024 annotated](https://bertptrs.nl/2025/02/23/rust-edition-2024-annotated.html)
+* [A Rustacean's Guide to Embedded World 2025](https://onevariable.com/blog/ew25-guide/)
+* [Demystifying monads in Rust through property-based testing](https://sunshowers.io/posts/monads-through-pbt/)
+* [Tokio + prctl = nasty bug](https://kobzol.github.io/rust/2025/02/23/tokio-plus-prctl-equals-nasty-bug.html)
 
 ### Rust Walkthroughs
+* [Using pgVector with SeaORM in Rust](https://cosminsanda.com/posts/using-pgvector-with-seaorm-in-rust/)
 
 ### Research
 
