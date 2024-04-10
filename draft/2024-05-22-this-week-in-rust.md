@@ -28,16 +28,29 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Faster linking times on nightly on Linux using `rust-lld`](https://blog.rust-lang.org/2024/05/17/enabling-rust-lld-on-linux.html)
 
 ### Foundation
+* [ Announcing the First Set of RustConf 2024 Talks & Keynotes](https://foundation.rust-lang.org/news/announcing-the-first-set-of-rustconf-2024-talks-keynotes/)
+* [Unsafe Rust in the Wild: Notes on the Current State of Unsafe Rust](https://foundation.rust-lang.org/news/unsafe-rust-in-the-wild-notes-on-the-current-state-of-unsafe-rust/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [100 Exercises To Learn Rust](https://rust-exercises.com/)
+* [RustRover Is Released and Includes a Free Non-Commercial Option](https://blog.jetbrains.com/rust/2024/05/21/rustrover-is-released-and-includes-a-free-non-commercial-option/)
 
 ### Observations/Thoughts
+* [Some notes on Rust, mutable aliasing and formal verification](https://graydon2.dreamwidth.org/312681.html)
+* [Rust's iterators optimize nicely—and contain a footgun](https://ntietz.com/blog/rusts-iterators-optimize-footgun/)
+* [Towards fast `thread_local!` context](https://swatinem.de/blog/thread-local-context/)
+* [video] [What's New in Rust 1.72-1.78 Rustacean Station marathon](https://www.youtube.com/watch?v=VpSXTJXX1YA)
+* [audio] [AMP - Rust in Production Podcast](https://corrode.dev/podcast/s02e02-amp/)
+* [audio] [Rama with Glen De Cauwsemaecker](https://rustacean-station.org/episode/glen-de-cauwsemaecker/)
 
 ### Rust Walkthroughs
+* [Using Rust Macros for Custom VTables](https://lucumr.pocoo.org/2024/5/16/macro-vtable-magic/)
+* [NULL BITMAP Builds a Database #1: The Log is Literally the Database](https://buttondown.email/jaffray/archive/null-bitmap-builds-a-database-1-the-log-is/)
 
 ### Research
 
