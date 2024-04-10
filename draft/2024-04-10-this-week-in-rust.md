@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Rust indexed - Rust mdbooks search](https://rust-indexed.com/)
+
 ### Research
 
 ### Miscellaneous
