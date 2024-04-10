@@ -30,19 +30,38 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [crates.io: development update](https://blog.rust-lang.org/2025/02/05/crates-io-development-update.html)
 
 ### Foundation
+* [Nell Shamrell-Harrington Elected as Rust Foundation Board of Directors Chair](https://rustfoundation.org/media/nell-shamrell-harrington-elected-as-rust-foundation-board-of-directors-chair/)
 
 ### Newsletters
+* [This Month in Rust OSDev: January 2025](https://rust-osdev.com/this-month/2025-01/)
 
 ### Project/Tooling Updates
-
+* [Fyrox Game Engine 0.36](https://fyrox.rs/blog/post/fyrox-game-engine-0-36/)
 * [Nutype 0.6.0 - newtype with guarantees supports const functions now](https://github.com/greyblake/nutype/releases/tag/v0.6.0)
+* [Refined: simple refinement types for Rust](https://jordankaye.dev/posts/refined/)
 
 ### Observations/Thoughts
-* [Solving the ABA Problem in Rust: Tagged Pointers with Versioning](https://minikin.me/blog/solving-the-aba-problem-in-rust-tagged-pointers)
+* [A survey of every iterator variant](https://blog.yoshuawuyts.com/a-survey-of-every-iterator-variant)
+* [Updating a large codebase to Rust 2024](https://codeandbitters.com/rust-2024-upgrade/)
+* [How I learned to stop worrying and love the LLM](https://smallcultfollowing.com/babysteps/blog/2025/02/10/love-the-llm/)
+* [The Three Basic Rules of Safety Hygiene](https://jack.wrenn.fyi/blog/safety-hygiene/)
+
+* [videa] [FOSDEM 2025 - Rust for Linux](https://fosdem.org/2025/schedule/event/fosdem-2025-6507-rust-for-linux/)
+* [video] [Bevy Meetup#1 - Alice - What the f*** is reflection?](https://www.youtube.com/watch?v=vxPKWb0dSqQ)
+* [video] [The case for sans-io](https://www.youtube.com/watch?v=RYHYiXMJdZI)
 
 ### Rust Walkthroughs
+* [First Steps in Game Development With Rust and Bevy](https://blog.jetbrains.com/rust/2025/02/04/first-steps-in-game-development-with-rust-and-bevy/)
+* [Provisioning TLS Certificates in Rust With ACME](https://www.shuttle.dev/blog/2025/02/06/provisioning-tls-certificates-with-acme-in-rust)
+* [Tip of the day #4: Type annotations on Rust match patterns](https://gaultier.github.io/blog/tip_of_the_day_4.html)
+* [From hours to 360ms: over-engineering a puzzle solution](https://blog.danielh.cc/blog/puzzle)
+* [Writing a Simple Driver in Rust](https://scorpiosoftware.net/2025/02/08/writing-a-simple-driver-in-rust/)
+* [Solving the ABA Problem in Rust with Tagged Pointers](https://minikin.me/blog/solving-the-aba-problem-in-rust-tagged-pointers)
+* [Mix in Rust with Java (or Kotlin!)](https://tweedegolf.nl/en/blog/147/mix-in-rust-with-java-or-kotlin)
+* [How to write DRY code in Rust](https://baarse.substack.com/p/how-to-write-dry-code-in-rust)
 
 ### Research
 
