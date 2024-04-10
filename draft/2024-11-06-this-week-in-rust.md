@@ -30,26 +30,52 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [October project goals update](https://blog.rust-lang.org/2024/10/31/project-goals-oct-update.html)
+* [Next Steps on the Rust Trademark Policy](https://blog.rust-lang.org/2024/11/06/trademark-update.html)
+* [This Development-cycle in Cargo: 1.83](https://blog.rust-lang.org/inside-rust/2024/10/31/this-development-cycle-in-cargo-1.83.html)
+* [Re-organising the compiler team and recognising our team members](https://blog.rust-lang.org/inside-rust/2024/11/01/compiler-team-reorg.html)
+* [This Month in Our Test Infra: October 2024](https://blog.rust-lang.org/inside-rust/2024/11/04/test-infra-oct-2024-2.html)
+* [Call for proposals: Rust 2025h1 project goals](https://blog.rust-lang.org/inside-rust/2024/11/04/project-goals-2025h1-call-for-proposals.html)
+
 
 ### Foundation
+* [Q3 2024 Recap from Rebecca Rumbul](https://foundation.rust-lang.org/news/q3-2024-recap-from-rebecca-rumbul/)
+* [Rust Foundation Member Announcement: CodeDay, OpenSource Science(OS-Sci), & PROMOTIC](https://foundation.rust-lang.org/news/rust-foundation-member-announcement-codeday-opensource-science-os-sci-promotic/)
 
 ### Newsletters
 * [The Embedded Rustacean Issue #31](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-31)
 
 ### Project/Tooling Updates
-
+* [Ractor Quickstart](https://slawlor.github.io/ractor/quickstart/)
 * [Announcing Sycamore v0.9.0](https://sycamore.dev/post/announcing-v0-9-0)
+* [CXX-Qt 0.7 Release](https://www.kdab.com/cxx-qt-0-7/)
 
 ### Observations/Thoughts
-
+* [MinPin: yet another pin proposal](https://smallcultfollowing.com/babysteps/blog/2024/11/05/minpin/)
 * [Reached the recursion limit... at build time?](https://blog.veeso.dev/blog/en/reached-the-recursion-limit-at-build-time/)
+* [Async Rust is not safe with io_uring](https://tonbo.io/blog/async-rust-is-not-safe-with-io-uring)
+* [Macros, Safety, and SOA](https://tim-harding.github.io/blog/soa-rs/)
+* [how big is your future?](https://hegdenu.net/posts/how-big-is-your-future/)
+* [A comparison of Rust’s borrow checker to the one in C#](https://em-tg.github.io/csborrow/)
+* [audio] [InfinyOn with Deb Roy Chowdhury](https://corrode.dev/podcast/s03e02-infinyon/)
 
 ### Rust Walkthroughs
 * [Difference Between iter() and into_iter() in Rust](https://crustc.com/difference-iter-and-into_iter/)
+* [Rust's Sneaky Deadlock With `if let` Blocks](https://brooksblog.bearblog.dev/rusts-sneaky-deadlock-with-if-let-blocks/)
+* [Why I love Rust for tokenising and parsing](https://xnacly.me/posts/2024/rust-pldev/)
+* ["German string" optimizations in Spellbook](https://the-mikedavis.github.io/posts/german-string-optimizations-in-spellbook/)
+* [Rust's Most Subtle Syntax](https://zkrising.com/writing/rusts-most-subtle-syntax/)
+* [Parsing arguments in Rust with no dependencies](https://www.ntietz.com/blog/parsing-arguments-rust-no-deps/)
+* [Simple way to make i18n support in Rust with with examples and tests](https://www.onlycoiners.com/user/onlycoiners/blog/simple-way-to-make-i18n-support-in-rust-with-with-examples-a)
+* [video] [Rust Collections & Iterators Demystified 🪄](https://www.youtube.com/watch?v=oiWATcjyUEI)
 
 ### Research
+* [Charon: An Analysis Framework for Rust](https://arxiv.org/abs/2410.18042)
+* [Crux, a Precise Verifier for Rust and Other Languages](https://arxiv.org/abs/2410.18280)
 
 ### Miscellaneous
+* [Feds: Critical Software Must Drop C/C++ by 2026 or Face Risk](https://thenewstack.io/feds-critical-software-must-drop-c-c-by-2026-or-face-risk/)
+* [audio] [Let's talk about Rust with John Arundel](https://gopodcast.dev/episodes/046-lets-talk-about-rust-with-john-arundel)
 
 ## Crate of the Week
 
