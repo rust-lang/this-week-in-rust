@@ -28,20 +28,63 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.77.2](https://blog.rust-lang.org/2024/04/09/Rust-1.77.2.html)
+* [Security advisory for the standard library (CVE-2024-24576)](https://blog.rust-lang.org/2024/04/09/cve-2024-24576.html)
+* [Changes to Rust's WASI targets](https://blog.rust-lang.org/2024/04/09/updates-to-rusts-wasi-targets.html)
 
 ### Foundation
 
 ### Newsletters
 
+### Rust Nation UK
+* [Hannah Aubrey - A Web of Rust: The Future of the Internet Depends on Trust](https://www.youtube.com/watch?v=mM8TiAoPdQQ)
+* [JD Nose - Rust Infrastructure: What it takes to keep Rust running](https://www.youtube.com/watch?v=GnLZMJ2r7sk)
+* [Amanieu D'Antras - The path to a stable ABI for Rust](https://www.youtube.com/watch?v=MY5kYqWeV1Q)
+* [Luca Palmieri - Pavex: re-imaging API development in Rust](https://www.youtube.com/watch?v=cMea6IMRk2s)
+* [Lachezar Lechev - Typed for Safety](https://www.youtube.com/watch?v=pnloY3pDgk4)
+* [Marco Concetto Rudilosso - Building a profiler for web assembly](https://www.youtube.com/watch?v=sMN9q4RkcuI)
+* [Jon Gjengset - Towards Impeccable Rust](https://www.youtube.com/watch?v=qfknfCsICUM)
+* [Nicholas Yang - Porting Turborepo From Go To Rust](https://www.youtube.com/watch?v=RILymfTIcoo)
+* [David Haig - What’s that behind your ear? An open source hearing aid in Rust.](https://www.youtube.com/watch?v=GKMIYXK1I74)
+* [Frédéric Ameye - Renault want to sell cars with rust!](https://www.youtube.com/watch?v=Z1xMvm3eS4k)
+* [Nikita Lapkov - Type-safe and fault-tolerant mesh services with Rust](https://www.youtube.com/watch?v=8rZJY9ps4ZE)
+* [Andre Bogus - Easy Mode Rust](https://www.youtube.com/watch?v=33FG6O3qejM)
+* [Lars Bergstrom - Beyond Safety and Speed: How Rust Fuels Team Productivity](https://www.youtube.com/watch?v=QrrH2lcl9ew)
+* [Tim McNamara - Unwrapping unsafe](https://www.youtube.com/watch?v=mdaWeql7C3k)
+* [Nicholas Matsakis - Rust 2024 and beyond](https://www.youtube.com/watch?v=04gTQmLETFI)
+
 ### Project/Tooling Updates
+* [Shipping Jco 1.0, WASI 0.2](https://blog.yoshuawuyts.com/jco-1-0-wasi-0-2/)
+* [This month in Pavex, #10](https://www.lpalmieri.com/posts/this-month-in-pavex-10/)
+* ["Containerize" individual functions in Rust with extrasafe](https://harrystern.net/extrasafe-user-namespaces.html)
+* [rust-analyzer changelog #228](https://rust-analyzer.github.io/thisweek/2024/04/08/changelog-228.html)
+* [Rerun 0.15.0 - Blueprints from Python · rerun-io/rerun](https://github.com/rerun-io/rerun/releases/tag/0.15.0)
+* [Bevy 0.13.2, Curves, Gizmos, and Games](https://thisweekinbevy.com/issue/2024-04-08-bevy-0-13-2-curves-gizmos-and-games)
 
 ### Observations/Thoughts
+* [Ownership in Rust](https://smallcultfollowing.com/babysteps/blog/2024/04/05/ownership-in-rust/)
+* [Thoughts on the xz backdoor: an lzma-rs perspective](https://gendignoux.com/blog/2024/04/08/xz-backdoor.html)
+* [hyper HTTP/2 Continuation Flood](https://seanmonstar.com/blog/hyper-http2-continuation-flood/)
+* [audio] [Launching RustRover: JetBrains' Investment in Rust](https://rustacean-station.org/episode/vitaly-bragilevsky/)
+* [audio] [Pavex with Luca Palmieri](https://rustacean-station.org/episode/luca-palmieri-pavex/)
+* [video] [Decrusting the tokio crate](https://www.youtube.com/watch?v=o2ob8zkeq2s)
+* [video] [Rust 1.77.0: 70 highlights in 30 minutes](https://www.youtube.com/watch?v=A6NJfq5pPaw)
+* [video] [Simulate the three body problem in #rustlang](https://www.youtube.com/watch?v=SNnXP4TBc7g)
 
 ### Rust Walkthroughs
+* [Working with OpenAPI using Rust](https://www.shuttle.rs/blog/2024/04/04/using-openapi-rust)
+* [Zed Decoded: Async Rust](https://zed.dev/blog/zed-decoded-async-rust)
+* [Writing a Unix-like OS in Rust](https://vmm.dev/en/rust/osinrust.md)
+* [Fivefold Slower Compared to Go? Optimizing Rust's Protobuf Decoding Performance](https://www.greptime.com/blogs/2024-04-09-rust-protobuf-performance)
+* [Write Cleaner, More Maintainable Rust Code with PhantomData](https://aayushyavajpayee.substack.com/p/coming-soon)
 
 ### Research
+* ["Against the Void": An Interview and Survey Study on How Rust Developers Use Unsafe Code](https://arxiv.org/abs/2404.02230)
+* [Sound Borrow-Checking for Rust via Symbolic Semantics](https://arxiv.org/abs/2404.02680)
 
 ### Miscellaneous
+* [Embedding the Servo Web Engine in Qt](https://www.kdab.com/embedding-servo-in-qt/)
+* [A memory model for Rust code in the kernel](https://lwn.net/SubscriberLink/967049/0ffb9b9ed8940013/)
 
 ## Crate of the Week
 
