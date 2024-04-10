@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [This month in Pavex, #10: new middleware types, mutable references, RustNation UK](https://www.lpalmieri.com/posts/this-month-in-pavex-10/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
