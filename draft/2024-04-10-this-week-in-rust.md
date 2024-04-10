@@ -219,6 +219,8 @@ Rusty Events between 2024-04-10 - 2024-05-08 🦀
     * [**Rust and Tell**](https://www.meetup.com/rust-berlin/events/299288960/)
 * 2024-04-27 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel/)
     * [**Fullstack Rust - Workshop #2**](https://www.meetup.com/rust-basel/events/299933581/)
+* 2024-05-06 | Delft, NL | [GOSIM](https://www.gosim.org/)
+    * [**GOSIM Europe 2024**](https://europe2024.gosim.org/)
 
 ### North America
 
