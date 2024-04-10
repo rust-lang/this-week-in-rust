@@ -32,16 +32,23 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Latest Rust Foundation Report Details Technical Accomplishments](https://foundation.rust-lang.org/news/latest-rust-foundation-report-details-technical-accomplishments/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [This Month in Xilem, August 2024](https://linebender.org/blog/tmix-08/)
 
 ### Observations/Thoughts
+* [I landed my dream job making a Rust game engine. Now what?](https://bevyengine.org/news/dream-job/)
+* [audio] [Talking to Microcontrollers with Postcard-RPC](https://sdr-podcast.com/episodes/postcard-rpc/)
 
 ### Rust Walkthroughs
+* [Understanding Memory Ordering in Rust](https://emschwartz.me/understanding-memory-ordering-in-rust/)
 
 ### Research
+* [Towards Modified Condition/Decision Coverage of Rust](https://arxiv.org/abs/2409.08708)
+* [Blindsided by Rust's Subtyping and Variance](https://nullderef.com/blog/rust-variance/)
 
 ### Miscellaneous
 
