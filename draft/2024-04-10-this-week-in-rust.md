@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Improve performance of you Rust functions by const currying](https://blog.cocl2.com/posts/const-currying-rs/)
 
 ### Rust Walkthroughs
 
