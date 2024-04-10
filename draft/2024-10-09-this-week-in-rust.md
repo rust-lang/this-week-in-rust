@@ -32,12 +32,25 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Thanks For Joining Us at RustConf 2024](https://foundation.rust-lang.org/news/thanks-for-joining-us-at-rustconf-2024/)
 
 ### Newsletters
+* [This Month in Rust OSDev: September 2024](https://rust-osdev.com/this-month/2024-09/)
 
 ### Project/Tooling Updates
+* [Announcing zerocopy 0.8!](https://github.com/google/zerocopy/discussions/1680)
+* [Introduction to durable execution](https://flawless.dev/docs/)
+* [Pursuit of Performance on Building a JavaScript Compiler](https://oxc.rs/docs/learn/performance.html)
+* [gitoxide September 2024](https://github.com/Byron/gitoxide/discussions/1614)
+* [Tauri 2.0 Stable Release](https://v2.tauri.app/blog/tauri-20/)
 
 ### Observations/Thoughts
+* [regalloc III](https://d-sonuga.netlify.app/gsoc/regalloc-iii/)
+* [On Ousterhout's Dichotomy](https://matklad.github.io/2024/10/06/ousterhouts-dichotomy.html)
+* [Rust is rolling off the Volvo assembly line](https://tweedegolf.nl/en/blog/137/rust-is-rolling-off-the-volvo-assembly-line)
+* [Three Kinds Of Unwrap](https://zkrising.com/writing/three-unwraps/)
+* [video] [A Legendary Web Framework is Reborn... In Rust](https://www.youtube.com/watch?v=7utPutDORb4)
+* [audio] [Fixing build times with rubicon](https://sdr-podcast.com/episodes/dynamic-linking/)
 
 ### Rust Walkthroughs
 
