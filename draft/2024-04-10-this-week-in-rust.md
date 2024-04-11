@@ -95,6 +95,7 @@ and just ask the editors to select the category.
 * [Rust Meetup and user groups (updated)](https://rust.code-maven.com/user-groups)
 * [Embedding the Servo Web Engine in Qt](https://www.kdab.com/embedding-servo-in-qt/)
 * [A memory model for Rust code in the kernel](https://lwn.net/SubscriberLink/967049/0ffb9b9ed8940013/)
+* [Building Stock Market Engine from scratch in Rust (II)](https://medium.com/@harshiljani2002/building-stock-market-engine-from-scratch-in-rust-ii-0c7b5d8a60b6)
 * [Ratatui Received Funding: What's Next?](https://blog.orhun.dev/open-source-funding-with-ratatui/)
 
 ## Crate of the Week
