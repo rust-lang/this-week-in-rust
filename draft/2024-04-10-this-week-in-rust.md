@@ -60,10 +60,10 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #228](https://rust-analyzer.github.io/thisweek/2024/04/08/changelog-228.html)
 * [Rerun 0.15.0 - Blueprints from Python · rerun-io/rerun](https://github.com/rerun-io/rerun/releases/tag/0.15.0)
 * [Bevy 0.13.2, Curves, Gizmos, and Games](https://thisweekinbevy.com/issue/2024-04-08-bevy-0-13-2-curves-gizmos-and-games)
-
 * [What's new in SeaORM 1.0-rc.x](https://www.sea-ql.org/blog/2024-04-08-whats-new-in-seaorm-1.0-rc.x/)
 
 ### Observations/Thoughts
+* [Improve performance of you Rust functions by const currying](https://blog.cocl2.com/posts/const-currying-rs/)
 * [Ownership in Rust](https://smallcultfollowing.com/babysteps/blog/2024/04/05/ownership-in-rust/)
 * [Thoughts on the xz backdoor: an lzma-rs perspective](https://gendignoux.com/blog/2024/04/08/xz-backdoor.html)
 * [hyper HTTP/2 Continuation Flood](https://seanmonstar.com/blog/hyper-http2-continuation-flood/)
