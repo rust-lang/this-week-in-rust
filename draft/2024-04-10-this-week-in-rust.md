@@ -81,6 +81,10 @@ and just ask the editors to select the category.
 * [Fivefold Slower Compared to Go? Optimizing Rust's Protobuf Decoding Performance](https://www.greptime.com/blogs/2024-04-09-rust-protobuf-performance)
 * [Write Cleaner, More Maintainable Rust Code with PhantomData](https://aayushyavajpayee.substack.com/p/coming-soon)
 
+* [video] [developerlife.com - Build a color gradient animation for a spinner component, for CLI, in Rust](https://www.youtube.com/watch?v=_QjsGDds270)
+* [video] [developerlife.com - Build a spinner component, for CLI, in Rust](https://www.youtube.com/watch?v=fcb6rstRniI)
+* [video] [developerlife.com - Build an async readline, and spinner in Rust, for interactive CLI](https://www.youtube.com/playlist?list=PLofhE49PEwmwelPkhfiqdFQ9IXnmGdnSE)
+
 ### Research
 * ["Against the Void": An Interview and Survey Study on How Rust Developers Use Unsafe Code](https://arxiv.org/abs/2404.02230)
 * [Sound Borrow-Checking for Rust via Symbolic Semantics](https://arxiv.org/abs/2404.02680)
