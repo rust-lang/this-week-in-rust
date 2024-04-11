@@ -92,9 +92,6 @@ and just ask the editors to select the category.
 * [Rust Meetup and user groups (updated)](https://rust.code-maven.com/user-groups)
 * [Embedding the Servo Web Engine in Qt](https://www.kdab.com/embedding-servo-in-qt/)
 * [A memory model for Rust code in the kernel](https://lwn.net/SubscriberLink/967049/0ffb9b9ed8940013/)
-
-* [Embedding the Servo Web Engine in Qt](https://www.kdab.com/embedding-servo-in-qt/)
-
 * [Ratatui Received Funding: What's Next?](https://blog.orhun.dev/open-source-funding-with-ratatui/)
 
 ## Crate of the Week
