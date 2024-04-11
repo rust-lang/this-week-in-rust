@@ -72,6 +72,8 @@ and just ask the editors to select the category.
 * [video] [Rust 1.77.0: 70 highlights in 30 minutes](https://www.youtube.com/watch?v=A6NJfq5pPaw)
 * [video] [Simulate the three body problem in #rustlang](https://www.youtube.com/watch?v=SNnXP4TBc7g)
 
+* [video] [Exploring Fiberplane's 3-Year Rust Journey - with Benno van den Berg](https://www.youtube.com/watch?v=wCASwxfPBGM)
+
 ### Rust Walkthroughs
 * [Working with OpenAPI using Rust](https://www.shuttle.rs/blog/2024/04/04/using-openapi-rust)
 * [Zed Decoded: Async Rust](https://zed.dev/blog/zed-decoded-async-rust)
