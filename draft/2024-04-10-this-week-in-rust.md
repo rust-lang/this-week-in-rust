@@ -71,7 +71,6 @@ and just ask the editors to select the category.
 * [video] [Decrusting the tokio crate](https://www.youtube.com/watch?v=o2ob8zkeq2s)
 * [video] [Rust 1.77.0: 70 highlights in 30 minutes](https://www.youtube.com/watch?v=A6NJfq5pPaw)
 * [video] [Simulate the three body problem in #rustlang](https://www.youtube.com/watch?v=SNnXP4TBc7g)
-
 * [video] [Exploring Fiberplane's 3-Year Rust Journey - with Benno van den Berg](https://www.youtube.com/watch?v=wCASwxfPBGM)
 
 ### Rust Walkthroughs
@@ -80,7 +79,7 @@ and just ask the editors to select the category.
 * [Writing a Unix-like OS in Rust](https://vmm.dev/en/rust/osinrust.md)
 * [Fivefold Slower Compared to Go? Optimizing Rust's Protobuf Decoding Performance](https://www.greptime.com/blogs/2024-04-09-rust-protobuf-performance)
 * [Write Cleaner, More Maintainable Rust Code with PhantomData](https://aayushyavajpayee.substack.com/p/coming-soon)
-
+* [video] [Extreme Clippy for an existing Rust Crate](https://www.youtube.com/watch?v=jO-oQH_gK4M)
 * [video] [developerlife.com - Build a color gradient animation for a spinner component, for CLI, in Rust](https://www.youtube.com/watch?v=_QjsGDds270)
 * [video] [developerlife.com - Build a spinner component, for CLI, in Rust](https://www.youtube.com/watch?v=fcb6rstRniI)
 * [video] [developerlife.com - Build an async readline, and spinner in Rust, for interactive CLI](https://www.youtube.com/playlist?list=PLofhE49PEwmwelPkhfiqdFQ9IXnmGdnSE)
