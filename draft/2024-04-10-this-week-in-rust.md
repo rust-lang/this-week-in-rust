@@ -95,6 +95,8 @@ and just ask the editors to select the category.
 
 * [Embedding the Servo Web Engine in Qt](https://www.kdab.com/embedding-servo-in-qt/)
 
+* [Ratatui Received Funding: What's Next?](https://blog.orhun.dev/open-source-funding-with-ratatui/)
+
 ## Crate of the Week
 
 This week's crate is [archspec-rs](https://github.com/prefix-dev/archspec-rs), a library to track system architecture aspects.
