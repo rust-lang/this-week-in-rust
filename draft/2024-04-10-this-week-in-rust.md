@@ -396,10 +396,10 @@ Rusty Events between 2024-04-10 - 2024-05-08 🦀
     * [**Rust Salzburg meetup**]: 6:30pm - CCC Salzburg, 1. OG, ArgeKultur, Ulrike-Gschwandtner-Straße 5, 5020 Salzburg
 * 2024-05-01 | Utrecht, NL | [NL-RSE Community](https://nl-rse.org/events/2024-05-01-meetup)
     * [**NL-RSE RUST meetup**](https://www.eventbrite.nl/e/nl-rse-rust-meetup-tickets-871056271757)
-* 2024-05-06 | Delft, NL | [Rust NL](https://www.meetup.com/rust-nederland/)
-    * [**Rust @ GOSIM Europe**](https://www.meetup.com/rust-nederland/events/300327309/)
-* 2024-05-07 - 2024-05-08 | Delft, NL | [Rust NL](https://www.meetup.com/rust-nederland/)
-    * [**RustNL 2024 (May 7 & 8) - Announcement**](https://www.meetup.com/rust-nederland/events/298652987/)
+* 2024-05-06 | Delft, NL | [GOSIM](https://www.gosim.org/)
+    * [**GOSIM Europe 2024**](https://europe2024.gosim.org/)
+* 2024-05-07 & 2024-05-08 | Delft, NL | [RustNL](https://rustnl.org/)
+    * [**RustNL 2024**](https://2024.rustnl.org/)
 
 ### North America
 
