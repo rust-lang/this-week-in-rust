@@ -91,6 +91,7 @@ and just ask the editors to select the category.
 * [Sound Borrow-Checking for Rust via Symbolic Semantics](https://arxiv.org/abs/2404.02680)
 
 ### Miscellaneous
+* [March 2024 Rust Jobs Report](https://filtra.io/rust-mar-24)
 * [Rust Meetup and user groups (updated)](https://rust.code-maven.com/user-groups)
 * [Embedding the Servo Web Engine in Qt](https://www.kdab.com/embedding-servo-in-qt/)
 * [A memory model for Rust code in the kernel](https://lwn.net/SubscriberLink/967049/0ffb9b9ed8940013/)
