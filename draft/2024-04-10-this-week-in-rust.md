@@ -94,6 +94,8 @@ and just ask the editors to select the category.
 * [Embedding the Servo Web Engine in Qt](https://www.kdab.com/embedding-servo-in-qt/)
 * [A memory model for Rust code in the kernel](https://lwn.net/SubscriberLink/967049/0ffb9b9ed8940013/)
 
+* [Embedding the Servo Web Engine in Qt](https://www.kdab.com/embedding-servo-in-qt/)
+
 ## Crate of the Week
 
 This week's crate is [archspec-rs](https://github.com/prefix-dev/archspec-rs), a library to track system architecture aspects.
