@@ -32,10 +32,6 @@ and just ask the editors to select the category.
 * [Security advisory for the standard library (CVE-2024-24576)](https://blog.rust-lang.org/2024/04/09/cve-2024-24576.html)
 * [Changes to Rust's WASI targets](https://blog.rust-lang.org/2024/04/09/updates-to-rusts-wasi-targets.html)
 
-### Foundation
-
-### Newsletters
-
 ### Rust Nation UK
 * [Hannah Aubrey - A Web of Rust: The Future of the Internet Depends on Trust](https://www.youtube.com/watch?v=mM8TiAoPdQQ)
 * [JD Nose - Rust Infrastructure: What it takes to keep Rust running](https://www.youtube.com/watch?v=GnLZMJ2r7sk)
@@ -461,7 +457,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1bpg8b8/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
