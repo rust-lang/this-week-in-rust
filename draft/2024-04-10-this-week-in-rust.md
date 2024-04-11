@@ -61,6 +61,8 @@ and just ask the editors to select the category.
 * [Rerun 0.15.0 - Blueprints from Python · rerun-io/rerun](https://github.com/rerun-io/rerun/releases/tag/0.15.0)
 * [Bevy 0.13.2, Curves, Gizmos, and Games](https://thisweekinbevy.com/issue/2024-04-08-bevy-0-13-2-curves-gizmos-and-games)
 
+* [What's new in SeaORM 1.0-rc.x](https://www.sea-ql.org/blog/2024-04-08-whats-new-in-seaorm-1.0-rc.x/)
+
 ### Observations/Thoughts
 * [Ownership in Rust](https://smallcultfollowing.com/babysteps/blog/2024/04/05/ownership-in-rust/)
 * [Thoughts on the xz backdoor: an lzma-rs perspective](https://gendignoux.com/blog/2024/04/08/xz-backdoor.html)
