@@ -77,6 +77,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [mirrord - Fix all check-rust-docs warnings 2](https://github.com/metalbear-co/mirrord/issues/1399)
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
 
