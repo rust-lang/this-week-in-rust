@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Nutype 0.4.2 - newtype with guarantees](https://github.com/greyblake/nutype/releases/tag/v0.4.2)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
@@ -155,7 +157,7 @@ Rusty Events between 2024-04-17 - 2024-05-15 🦀
     * [**Rust Hack and Learn**](https://meet.jit.si/RustHackAndLearnBerlin) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298477689/)
 * 2024-04-11 | Virtual (Nürnberg, DE) | [Rust Nüremberg](https://www.meetup.com/rust-noris/)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/297945256/)
-* 2024-04-11 | Virtual (San Diego, CA, US) | [San Diego Rust](https://www.meetup.com/san-diego-rust/)   
+* 2024-04-11 | Virtual (San Diego, CA, US) | [San Diego Rust](https://www.meetup.com/san-diego-rust/)
     * [**San Diego Rust April 2024 Tele-Meetup**](https://www.meetup.com/san-diego-rust/events/300307878/)
 * 2024-04-15 & 2024-04-16 | Virtual | [Mainmatter](https://mainmatter.com/)
     * [**Remote Workshop: Testing for Rust projects – going beyond the basics**](https://ti.to/mainmatter/rust-testing-april-2024)
@@ -171,7 +173,7 @@ Rusty Events between 2024-04-17 - 2024-05-15 🦀
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/298542323/)
 * 2024-04-18 | Virtual (Charlottesville, VA, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
     * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298368799/)
-* 2024-04-21 | Virtual (Israel) | [Rust in Israel](https://rust.org.il/) 
+* 2024-04-21 | Virtual (Israel) | [Rust in Israel](https://rust.org.il/)
     * [**Using AstroNvim for Rust development (in Hebrew)**](https://www.meetup.com/code-mavens/events/300265648/)
 * 2024-04-25 | Virtual + In Person (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust Hack and Learn**](https://meet.jit.si/RustHackAndLearnBerlin) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298477692/)
