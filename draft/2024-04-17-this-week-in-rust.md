@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing the first audited Rust implementation of CGGMP21, the state-of-the-art ECDSA threshold protocol](https://www.dfns.co/article/cggmp21-in-rust-at-last)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
