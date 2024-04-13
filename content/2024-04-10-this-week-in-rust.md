@@ -59,7 +59,7 @@ and just ask the editors to select the category.
 * [What's new in SeaORM 1.0-rc.x](https://www.sea-ql.org/blog/2024-04-08-whats-new-in-seaorm-1.0-rc.x/)
 
 ### Observations/Thoughts
-* [Improve performance of you Rust functions by const currying](https://blog.cocl2.com/posts/const-currying-rs/)
+* [Improve performance of your Rust functions by const currying](https://blog.cocl2.com/posts/const-currying-rs/)
 * [Ownership in Rust](https://smallcultfollowing.com/babysteps/blog/2024/04/05/ownership-in-rust/)
 * [Thoughts on the xz backdoor: an lzma-rs perspective](https://gendignoux.com/blog/2024/04/08/xz-backdoor.html)
 * [hyper HTTP/2 Continuation Flood](https://seanmonstar.com/blog/hyper-http2-continuation-flood/)
