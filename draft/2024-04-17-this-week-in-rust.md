@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [venndb 0.2.0 - optional filters](https://github.com/plabayo/venndb/releases/tag/0.2.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
