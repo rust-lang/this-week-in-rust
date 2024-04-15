@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [medium-to-markdown v0.1.1 : Convert your medium blogs easily into markdown files](https://github.com/Harshil-Jani/medium-to-markdown)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
