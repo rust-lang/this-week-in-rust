@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* `[ZH][EN]` [Announcing async-openai-wasm, and thoughts on wasmization and streams](https://ideas.reify.ing/en/blog/announcing-async-openai-wasm/): Async Rust library for interacting with OpenAI's APIs on WASM and how I did it.
 
 ### Observations/Thoughts
 
