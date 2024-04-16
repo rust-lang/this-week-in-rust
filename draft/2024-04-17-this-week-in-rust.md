@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Zellij v0.40: welcome-screen, filepicker, plugin pipes and aliases](https://zellij.dev/news/welcome-screen-pipes-filepicker/)
 
 ### Observations/Thoughts
 
