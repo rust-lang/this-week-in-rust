@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [ruserf 0.1.0 is released! - A decentralized solution for service discovery and orchestration.](https://github.com/al8n/ruserf)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
