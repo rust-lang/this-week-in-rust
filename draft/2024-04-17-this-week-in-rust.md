@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [r3bl_terminal_async - New crate to build CLIs with non-blocking readline, spinners, and concurrent output](https://docs.rs/r3bl_terminal_async/0.3.0/r3bl_terminal_async/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
