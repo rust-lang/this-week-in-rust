@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [video] [Marco Ieni - How Rust makes open-source easier (Rust Nation UK)](https://www.youtube.com/watch?v=HzTZoh7WaGo)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
