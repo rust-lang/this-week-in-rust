@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [audio] [Release-plz with Marco Ieni](https://rustacean-station.org/episode/marco-ieni/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
