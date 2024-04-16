@@ -58,7 +58,6 @@ and just ask the editors to select the category.
 * [Why is there no realloc that takes the number of bytes to copy?](https://shift.click/blog/missing-alloc-api/)
 * [Some useful types for database-using Rust web apps](https://boinkor.net/2024/04/some-useful-types-for-database-using-rust-web-apps/)
 * [My logging recipe for server side Rust](https://www.matildasmeds.com/posts/rust-logging-recipe/)
-* [Thoughts on the xz backdoor: an lzma-rs perspective](https://gendignoux.com/blog/2024/04/08/xz-backdoor.html)
 
 ### Rust Walkthroughs
 
