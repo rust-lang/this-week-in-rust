@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 ### Research
+* [Rust Digger: 7.53% of crates have both 'edition' and 'rust-version', 11.21% have neither](https://rust-digger.code-maven.com/news/msrv-stats)
 
 ### Miscellaneous
 
