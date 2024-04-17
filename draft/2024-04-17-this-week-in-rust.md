@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 * [video] [developerlife.com - Rust testing deep dive with r3bl_terminal_async crate](https://www.youtube.com/watch?v=4iM9t5dgvU4)
 
 ### Research
+* [Rust Digger: 7.53% of crates have both 'edition' and 'rust-version', 11.21% have neither](https://rust-digger.code-maven.com/news/msrv-stats)
 
 ### Miscellaneous
 
