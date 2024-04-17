@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [video] [Marco Ieni - How Rust makes open-source easier (Rust Nation UK)](https://www.youtube.com/watch?v=HzTZoh7WaGo)
 * [audio] [Release-plz with Marco Ieni](https://rustacean-station.org/episode/marco-ieni/)
 
 ## Crate of the Week
