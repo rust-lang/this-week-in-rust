@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Getting started with SurrealDB using Docker and a Rust client](https://rust.code-maven.com/surrealdb-with-docker)
 
 ## Crate of the Week
 
