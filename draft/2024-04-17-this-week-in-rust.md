@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Nutype 0.4.2 - newtype with guarantees](https://github.com/greyblake/nutype/releases/tag/v0.4.2)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
@@ -157,7 +159,7 @@ Rusty Events between 2024-04-17 - 2024-05-15 🦀
     * [**Camigo (Peter Kehl)**](https://www.meetup.com/vancouver-rust/events/298542323/)
 * 2024-04-18 | Virtual (Charlottesville, VA, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
     * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298368799/)
-* 2024-04-21 | Virtual (Israel) | [Rust in Israel](https://rust.org.il/) 
+* 2024-04-21 | Virtual (Israel) | [Rust in Israel](https://rust.org.il/)
     * [**Using AstroNvim for Rust development (in Hebrew)**](https://www.meetup.com/code-mavens/events/300265648/)
 * 2024-04-23 | Trondheim, NO | [Rust Trondheim](https://www.meetup.com/rust-trondheim/)
     * [**Show and Tell in April**](https://www.meetup.com/rust-trondheim/events/300469130/)
