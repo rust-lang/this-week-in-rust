@@ -68,6 +68,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Getting started with SurrealDB using Docker and a Rust client](https://rust.code-maven.com/surrealdb-with-docker)
 * [video] [developerlife.com - Rust testing deep dive with r3bl_terminal_async crate](https://www.youtube.com/watch?v=4iM9t5dgvU4)
 
 ### Research
