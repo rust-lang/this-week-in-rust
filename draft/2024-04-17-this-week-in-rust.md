@@ -29,11 +29,29 @@ and just ask the editors to select the category.
 
 ### Official
 
+### Rust Nation UK
+* [Tim McNamara - 4 levels of error handling](https://www.youtube.com/watch?v=hQWZGOuDYTE)
+* [Mithun Hunsur - Ambient: A Rust and WebAssembly Runtime for Cross-Platform Multiplayer Games](https://www.youtube.com/watch?v=tSnKx2irwzE)
+* [Alice Ryhl - What it takes to keep Tokio running](https://www.youtube.com/watch?v=Lc3aw_NIOt0)
+* [Chris Biscardi - Bevy: A case study in ergonomic Rust](https://www.youtube.com/watch?v=CnoDOc6ML0Y&t=51s)
+* [Pietro Albini - How Ferrocene qualified the Rust Compiler](https://www.youtube.com/watch?v=_ITnWoPvMKA)
+* [Ben Wishovich - Full Stack Rust - Building Rust Websites with Leptos](https://www.youtube.com/watch?v=JJV5crU405s)
+* [Natalie Serebryakova - Rustic Persistence: Automating PVC Lifecycles with Rust in Kubernetes](https://www.youtube.com/watch?v=n-ESPxF11tM)
+* [Daniel McKenna - Creating a Text-To-Speech System in Rust](https://www.youtube.com/watch?v=HiqId_9pysM)
+* [Konstantin Grechishchev - Java and Rust Integration](https://www.youtube.com/watch?v=fYaaBoKbDQs)
+* [Heiko Seeberger - EventSourced – async_fn_in_trait in anger](https://www.youtube.com/watch?v=z40rgjZqrs4)
+* [Tim Janus - Let's get interdisciplinary: Rust Design Patterns for Chemical Plants](https://www.youtube.com/watch?v=aK5lHOJxl98)
+* [Marco Ieni - How Rust makes open-source easier](https://www.youtube.com/watch?v=HzTZoh7WaGo)
+
 ### Foundation
 
 ### Newsletters
+* [New Meshes, New Examples, and Compute Shaders](https://thisweekinbevy.com/issue/2024-04-15-new-meshes-new-examples-and-compute-shaders)
 
 ### Project/Tooling Updates
+* [futures-concurrency v7.6.0: Portable Concurrent Async Iteration](https://github.com/yoshuawuyts/futures-concurrency/releases/tag/v7.6.0)
+* [Ratatui v0.26.2](https://ratatui.rs/highlights/v0262/)
+* [Rust on Espressif chips](https://mabez.dev/blog/posts/esp-rust-12-04-2024/)
 * `[ZH][EN]` [Announcing async-openai-wasm, and thoughts on wasmization and streams](https://ideas.reify.ing/en/blog/announcing-async-openai-wasm/): Async Rust library for interacting with OpenAI's APIs on WASM and how I did it.
 
 - [Ratatui 0.26.2 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v0262/)
@@ -43,6 +61,10 @@ and just ask the editors to select the category.
 * [venndb 0.2.1 - any filters](https://github.com/plabayo/venndb/releases/tag/0.2.1)
 
 ### Observations/Thoughts
+* [Climbing a (binary) Tree - Noise On The Net](https://noiseonthenet.space/noise/2024/04/climbing-a-binary-tree/)
+* [Why is there no realloc that takes the number of bytes to copy?](https://shift.click/blog/missing-alloc-api/)
+* [Some useful types for database-using Rust web apps](https://boinkor.net/2024/04/some-useful-types-for-database-using-rust-web-apps/)
+* [My logging recipe for server side Rust](https://www.matildasmeds.com/posts/rust-logging-recipe/)
 
 ### Rust Walkthroughs
 
@@ -52,6 +74,8 @@ and just ask the editors to select the category.
 * [Rust Digger: 7.53% of crates have both 'edition' and 'rust-version', 11.21% have neither](https://rust-digger.code-maven.com/news/msrv-stats)
 
 ### Miscellaneous
+* [Iced Tutorial 0.12](https://leafheap.com/articles/iced-tutorial-version-0-12)
+* [video] [Infinite Pong in the Bevy Game Engine - Let's Code!](https://www.youtube.com/watch?v=vwUz95Oo8IA)
 
 * [video] [Marco Ieni - How Rust makes open-source easier (Rust Nation UK)](https://www.youtube.com/watch?v=HzTZoh7WaGo)
 * [audio] [Release-plz with Marco Ieni](https://rustacean-station.org/episode/marco-ieni/)
