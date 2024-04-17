@@ -195,6 +195,8 @@ Rusty Events between 2024-04-17 - 2024-05-15 🦀
 
 * 2024-04-16 | Tokyo, JP | [Tokyo Rust Meetup](https://www.meetup.com/tokyo-rust-meetup/)
     * [**The Good, the Bad, and the Async (RSVP by 15 Apr)**](https://www.meetup.com/tokyo-rust-meetup/events/300305613/)
+ * 2024-04-20 | Kuala Lumpur, MY | [GoLang Malaysia](https://t.me/golangmalaysia)
+    * [**Rust Talk & Workshop - Parallel Programming April 2024**](https://forms.gle/JgoT84iUQn4T3j29A) | [Event updates Telegram](https://t.me/+dF46Fly4A_BjOTJl) | [Event group chat](https://t.me/golangmalaysia)
 
 ### Europe
 
