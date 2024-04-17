@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [developerlife.com - Rust testing deep dive with r3bl_terminal_async crate](https://www.youtube.com/watch?v=4iM9t5dgvU4)
+
 ### Research
 
 ### Miscellaneous
