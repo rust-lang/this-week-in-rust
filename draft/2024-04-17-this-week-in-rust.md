@@ -83,7 +83,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [venndb](https://crates.io/crates/venndb), an append-only memory DB whose tables can be build via a derive macro.
+
+Thanks to [Glen De Cauwsemaecker](https://users.rust-lang.org/t/crate-of-the-week/2704/1303) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -129,7 +131,105 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+430 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2024-04-09..2024-04-16
+
+* [add support for Arm64EC inline assembly (as unstable)](https://github.com/rust-lang/rust/pull/123507)
+* [`statx` probe: `ENOSYS` might come from a faulty FUSE driver](https://github.com/rust-lang/rust/pull/123928)
+* [account for trait/impl difference when suggesting changing argument from ref to mut ref](https://github.com/rust-lang/rust/pull/123523)
+* [add `REDUNDANT_LIFETIMES` lint to detect lifetimes which are semantically redundant](https://github.com/rust-lang/rust/pull/118391)
+* [add `unsafe` to two functions with safety invariants](https://github.com/rust-lang/rust/pull/123867)
+* [add const generics support for pattern types](https://github.com/rust-lang/rust/pull/123689)
+* [add support to intrinsics fallback body](https://github.com/rust-lang/rust/pull/123659)
+* [async closure coroutine by move body MirPass refactoring](https://github.com/rust-lang/rust/pull/123668)
+* [avoid a panic in `set_output_capture` in the default panic handler](https://github.com/rust-lang/rust/pull/122882)
+* [be more specific when flagging imports as redundant due to the extern prelude](https://github.com/rust-lang/rust/pull/122954)
+* [call `lower_const_param` instead of duplicating the code](https://github.com/rust-lang/rust/pull/123738)
+* [call the panic hook for non-unwind panics in proc-macros](https://github.com/rust-lang/rust/pull/123825)
+* [detect borrow checker errors where `.clone()` would be an appropriate user action](https://github.com/rust-lang/rust/pull/122603)
+* [disable Ctrl-C handling on WASM](https://github.com/rust-lang/rust/pull/123788)
+* [discard overflow obligations in `impl_may_apply`](https://github.com/rust-lang/rust/pull/123618)
+* [do not add prolog for variadic naked functions](https://github.com/rust-lang/rust/pull/123249)
+* [do not allocate for ZST ThinBox (attempt 2 using `const_allocate`)](https://github.com/rust-lang/rust/pull/123254)
+* [don't delay a bug if we suggest adding a semicolon to the RHS of an assign operator](https://github.com/rust-lang/rust/pull/123736)
+* [don't do coroutine-closure-specific upvar analysis if tainted by errors](https://github.com/rust-lang/rust/pull/123834)
+* [don't even parse an intrinsic unless the feature gate is enabled](https://github.com/rust-lang/rust/pull/123603)
+* [don't leak unnameable types in `-> _` recover](https://github.com/rust-lang/rust/pull/123931)
+* [don't rely on upvars being assigned just because coroutine-closure kind is assigned](https://github.com/rust-lang/rust/pull/123662)
+* [fix UB in LLVM FFI when passing zero or \>1 bundle](https://github.com/rust-lang/rust/pull/123941)
+* [fix invalid silencing of parsing error](https://github.com/rust-lang/rust/pull/123223)
+* [fix various bugs in `ty_kind_suggestion`](https://github.com/rust-lang/rust/pull/123924)
+* [generic associated consts: Check regions earlier when comparing impl with trait item def](https://github.com/rust-lang/rust/pull/123898)
+* [improve diagnostic by suggesting to remove visibility qualifier](https://github.com/rust-lang/rust/pull/123841)
+* [just use `type_dependent_def_id` to figure out what the method is for an expr](https://github.com/rust-lang/rust/pull/123989)
+* [linker flavors next steps: linker features](https://github.com/rust-lang/rust/pull/123656)
+* [linker: avoid some allocations in search directory iteration](https://github.com/rust-lang/rust/pull/123827)
+* [linker: remove laziness and caching from native search directory walks](https://github.com/rust-lang/rust/pull/123854)
+* [make `PlaceRef` and `OperandValue::Ref` share a common `PlaceValue` type](https://github.com/rust-lang/rust/pull/123775)
+* [make the computation of `coroutine_captures_by_ref_ty` more sophisticated](https://github.com/rust-lang/rust/pull/123660)
+* [only assert for child/parent projection compatibility AFTER checking that theyre coming from the same place](https://github.com/rust-lang/rust/pull/123701)
+* [only collect mono items from reachable blocks](https://github.com/rust-lang/rust/pull/123272)
+* [openBSD fix long socket addresses](https://github.com/rust-lang/rust/pull/123779)
+* [panic on overflow in `BorrowedCursor::advance`](https://github.com/rust-lang/rust/pull/123806)
+* [propagate temporary lifetime extension into if and match](https://github.com/rust-lang/rust/pull/121346)
+* [provide suggestion to dereference closure tail if appropriate](https://github.com/rust-lang/rust/pull/122213)
+* [refactor `panic_unwind/seh.rs` pointer use](https://github.com/rust-lang/rust/pull/123490)
+* [remove `From` impls for unstable types that break inference](https://github.com/rust-lang/rust/pull/123830)
+* [rework ptr-to-ref conversion suggestion for method calls](https://github.com/rust-lang/rust/pull/123007)
+* [set target-abi module flag for RISC-V targets](https://github.com/rust-lang/rust/pull/123612)
+* [skip `unused_parens` report for `Paren(Path(..))` in macro](https://github.com/rust-lang/rust/pull/123314)
+* [stop making any assumption about the projections applied to the upvars in the `ByMoveBody` pass](https://github.com/rust-lang/rust/pull/123658)
+* [stop using `HirId` for fn-like parents since closures are not `OwnerNode`s](https://github.com/rust-lang/rust/pull/123804)
+* [stop using `PolyTraitRef` for closure/coroutine predicates already instantiated w placeholders](https://github.com/rust-lang/rust/pull/123900)
+* [store all args in the unsupported Command implementation](https://github.com/rust-lang/rust/pull/123633)
+* [suppress `let else` suggestion for uninitialized refutable `let`s](https://github.com/rust-lang/rust/pull/123847)
+* [tweak value suggestions in `borrowck` and `hir_analysis`](https://github.com/rust-lang/rust/pull/123704)
+* [typeck: fix `?` suggestion span](https://github.com/rust-lang/rust/pull/123654)
+* [use `fn` ptr signature instead of `{closure@..}` in infer error](https://github.com/rust-lang/rust/pull/123703)
+* [use `suggest_impl_trait` in return type suggestion on type error](https://github.com/rust-lang/rust/pull/123761)
+* [miri: `MIRI_REPLACE_LIBRS_IF_NOT_TEST`: also apply to crates.io crates](https://github.com/rust-lang/miri/pull/3457)
+* [miri: add some basic support for GetFullPathNameW](https://github.com/rust-lang/miri/pull/3466)
+* [miri: fix error display for './miri run --dep'](https://github.com/rust-lang/miri/pull/3465)
+* [miri: handle Miri sysroot entirely outside the Miri driver](https://github.com/rust-lang/miri/pull/3411)
+* [miri: make `split_simd_to_128bit_chunks` take only one operand](https://github.com/rust-lang/miri/pull/3462)
+* [miri on Windows: run .CRT$XLB linker section on thread-end](https://github.com/rust-lang/rust/pull/123937)
+* [miri: windows: add basic support for FormatMessageW](https://github.com/rust-lang/miri/pull/3464)
+* [stabilize --json `unused-externs(-silent)`](https://github.com/rust-lang/rust/pull/115717)
+* [stabilize `(const_)slice_ptr_len` and `(const_)slice_ptr_is_empty_nonnull`](https://github.com/rust-lang/rust/pull/123868)
+* [stabilize `cstr_count_bytes`](https://github.com/rust-lang/rust/pull/123661)
+* [implement `FromIterator` for `(impl Default + Extend, impl Default + Extend)`](https://github.com/rust-lang/rust/pull/107462)
+* [re-enable `has_thread_local` for i686-msvc](https://github.com/rust-lang/rust/pull/123257)
+* [`std::net`: TcpListener shrinks the backlog argument to 32 for Haiku](https://github.com/rust-lang/rust/pull/123857)
+* [show `mode_t` as octal in `std::fs` Debug impls](https://github.com/rust-lang/rust/pull/122812)
+* [add `A: 'static` bound for `Arc/Rc::pin_in`](https://github.com/rust-lang/rust/pull/120092)
+* [`f16` and `f128` step 4: basic library support](https://github.com/rust-lang/rust/pull/122470)
+* [add a `Debug` impl and some basic functions to `f16` and `f128`](https://github.com/rust-lang/rust/pull/123783)
+* [specialize many implementations of `Read::read_buf_exact`](https://github.com/rust-lang/rust/pull/122393)
+* [windows: set main thread name without re-encoding](https://github.com/rust-lang/rust/pull/123534)
+* [cargo: make sure to also wrap the initial `-vV` invocation](https://github.com/rust-lang/cargo/pull/13659)
+* [cargo resolve: Respect '--ignore-rust-version'](https://github.com/rust-lang/cargo/pull/13738)
+* [cargo resolve: Fallback to 'rustc -V' for MSRV resolving](https://github.com/rust-lang/cargo/pull/13743)
+* [cargo fix: dont apply same suggestion twice](https://github.com/rust-lang/cargo/pull/13728)
+* [cargo package: Normalize paths in `Cargo.toml`](https://github.com/rust-lang/cargo/pull/13729)
+* [cargo test: don't compress test registry crates](https://github.com/rust-lang/cargo/pull/13744)
+* [rustdoc: correctly handle inlining of doc hidden foreign items](https://github.com/rust-lang/rust/pull/123459)
+* [rustdoc: check redundant explicit links with correct itemid](https://github.com/rust-lang/rust/pull/123905)
+* [rustdoc: point at span in `include_str!`-ed md file](https://github.com/rust-lang/rust/pull/123204)
+* [rustdoc: reduce per-page HTML overhead](https://github.com/rust-lang/rust/pull/123706)
+* [clippy: `module_name_repetition` Recognize common prepositions](https://github.com/rust-lang/rust-clippy/pull/12573)
+* [clippy: fix: incorrect suggestions when `.then` and `.then_some` is used](https://github.com/rust-lang/rust-clippy/pull/12094)
+* [clippy: pin `remark-lint-maximum-line-length` version](https://github.com/rust-lang/rust-clippy/pull/12668)
+* [clippy: turn `duplicated_attributes` into a late lint](https://github.com/rust-lang/rust-clippy/pull/12646)
+* [clippy: use `check_attributes` in doc lints](https://github.com/rust-lang/rust-clippy/pull/12635)
+* [rust-analyzer: add static and const highlighting token types](https://github.com/rust-lang/rust-analyzer/pull/17074)
+* [rust-analyzer: better inline preview for postfix completion](https://github.com/rust-lang/rust-analyzer/pull/17073)
+* [rust-analyzer: wrap/Unwrap `cfg_attr`](https://github.com/rust-lang/rust-analyzer/pull/16813)
+* [rust-analyzer: VFS should not confuse paths with source roots that have the same prefix](https://github.com/rust-lang/rust-analyzer/pull/17019)
+* [rust-analyzer: fix `impl Trait<Self>` causing stack overflows](https://github.com/rust-lang/rust-analyzer/pull/16877)
+* [rust-analyzer: fix inlay hint resolution being broken](https://github.com/rust-lang/rust-analyzer/pull/17063)
+* [rust-analyzer: fix: support auto-closing for triple backticks](https://github.com/rust-lang/rust-analyzer/pull/17051)
+* [rust-analyzer: run cargo test per workspace in the test explorer](https://github.com/rust-lang/rust-analyzer/pull/17056)
 
 ### Rust Compiler Performance Triage
 
@@ -335,7 +435,15 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> There is absolutely no way I can imagine that `Option` is causing that error. That'd be like turning on the "Hide Taskbar" setting causing your GPU to catch fire.
+>
+> [...]
+>
+> If it's not any of those, consider an exorcist because your machine *might* be haunted.
+
+– [Daniel Keep on rust-users](https://users.rust-lang.org/t/access-is-denied-os-error-5/109515/2)
+
+Thanks to [Hayden Brown](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1561) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
