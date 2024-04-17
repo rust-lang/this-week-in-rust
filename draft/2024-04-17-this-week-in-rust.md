@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* `[ZH][EN]` [Announcing async-openai-wasm, and thoughts on wasmization and streams](https://ideas.reify.ing/en/blog/announcing-async-openai-wasm/): Async Rust library for interacting with OpenAI's APIs on WASM and how I did it.
 
 - [Ratatui 0.26.2 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v0262/)
 * [Introducing Dust DDS – A native Rust implementation of the Data Distribution Service (DDS) middleware](https://www.s2e-systems.com/2024/04/12/introducing_dust_dds/)
