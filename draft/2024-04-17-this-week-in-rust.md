@@ -52,13 +52,11 @@ and just ask the editors to select the category.
 * [futures-concurrency v7.6.0: Portable Concurrent Async Iteration](https://github.com/yoshuawuyts/futures-concurrency/releases/tag/v7.6.0)
 * [Ratatui v0.26.2](https://ratatui.rs/highlights/v0262/)
 * [Rust on Espressif chips](https://mabez.dev/blog/posts/esp-rust-12-04-2024/)
-* `[ZH][EN]` [Announcing async-openai-wasm, and thoughts on wasmization and streams](https://ideas.reify.ing/en/blog/announcing-async-openai-wasm/): Async Rust library for interacting with OpenAI's APIs on WASM and how I did it.
-
-- [Ratatui 0.26.2 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v0262/)
 * [Introducing Dust DDS – A native Rust implementation of the Data Distribution Service (DDS) middleware](https://www.s2e-systems.com/2024/04/12/introducing_dust_dds/)
 * [Announcing the first audited Rust implementation of CGGMP21, the state-of-the-art ECDSA threshold protocol](https://www.dfns.co/article/cggmp21-in-rust-at-last)
 * [Nutype 0.4.2 - newtype with guarantees](https://github.com/greyblake/nutype/releases/tag/v0.4.2)
 * [venndb 0.2.1 - any filters](https://github.com/plabayo/venndb/releases/tag/0.2.1)
+* [ZH|EN] [Announcing async-openai-wasm, and thoughts on wasmization and streams](https://ideas.reify.ing/en/blog/announcing-async-openai-wasm/)
 
 ### Observations/Thoughts
 * [Climbing a (binary) Tree - Noise On The Net](https://noiseonthenet.space/noise/2024/04/climbing-a-binary-tree/)
@@ -67,7 +65,6 @@ and just ask the editors to select the category.
 * [My logging recipe for server side Rust](https://www.matildasmeds.com/posts/rust-logging-recipe/)
 
 ### Rust Walkthroughs
-
 * [Getting started with SurrealDB using Docker and a Rust client](https://rust.code-maven.com/surrealdb-with-docker)
 * [video] [developerlife.com - Rust testing deep dive with r3bl_terminal_async crate](https://www.youtube.com/watch?v=4iM9t5dgvU4)
 
@@ -77,8 +74,6 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [Iced Tutorial 0.12](https://leafheap.com/articles/iced-tutorial-version-0-12)
 * [video] [Infinite Pong in the Bevy Game Engine - Let's Code!](https://www.youtube.com/watch?v=vwUz95Oo8IA)
-
-* [video] [Marco Ieni - How Rust makes open-source easier (Rust Nation UK)](https://www.youtube.com/watch?v=HzTZoh7WaGo)
 * [audio] [Release-plz with Marco Ieni](https://rustacean-station.org/episode/marco-ieni/)
 
 ## Crate of the Week
@@ -323,7 +318,7 @@ Rusty Events between 2024-04-17 - 2024-05-15 🦀
     * [**Buffalo Rust User Group**](https://www.meetup.com/buffalo-rust-meetup/events/300100279/)
 * 2024-05-09 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust Hack and Learn**](https://meet.jit.si/RustHackAndLearnBerlin) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298477697/)
-* 2024-05-09 | Virtual (Israel) | [Rust in Israel](https://rust.org.il/) 
+* 2024-05-09 | Virtual (Israel) | [Rust in Israel](https://rust.org.il/)
     * [**Rust at Microsoft, Tel Aviv - Are we embedded yet?**](https://www.meetup.com/code-mavens/events/300144781/)
 * 2024-05-09 | Virtual (Nuremberg/Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/297945257/)
@@ -433,7 +428,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1bpg8b8/official_rrust_whos_hiring_thread_for_jobseekers)
 
 # Quote of the Week
 
@@ -453,4 +448,4 @@ Thanks to [Hayden Brown](https://users.rust-lang.org/t/twir-quote-of-the-week/32
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1c6o935/this_week_in_rust_543)</small>
