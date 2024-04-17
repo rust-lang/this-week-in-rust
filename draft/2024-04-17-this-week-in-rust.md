@@ -35,6 +35,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Introducing Dust DDS – A native Rust implementation of the Data Distribution Service (DDS) middleware](https://www.s2e-systems.com/2024/04/12/introducing_dust_dds/)
 * [Announcing the first audited Rust implementation of CGGMP21, the state-of-the-art ECDSA threshold protocol](https://www.dfns.co/article/cggmp21-in-rust-at-last)
 * [Nutype 0.4.2 - newtype with guarantees](https://github.com/greyblake/nutype/releases/tag/v0.4.2)
 
