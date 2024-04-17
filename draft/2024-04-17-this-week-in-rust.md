@@ -61,18 +61,12 @@ and just ask the editors to select the category.
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
-## [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+## Call for Testing
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+* *No calls for testing were issued this week.*
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
@@ -136,15 +130,7 @@ range: [86b603cd..ccfcd950b](https://perf.rust-lang.org/?start=86b603cd792b3f617
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -152,28 +138,26 @@ Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final
 which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+* [disposition: merge] [Move the Crates.io Team under the Dev Tools team](https://github.com/rust-lang/rfcs/pull/3595)
+* [disposition: merge] [Arbitrary self types v2](https://github.com/rust-lang/rfcs/pull/3519)
+* [disposition: merge] [RFC: Syntax for embedding cargo-script manifests](https://github.com/rust-lang/rfcs/pull/3503)
+* [disposition: merge] [rust-lang org GitHub access policy](https://github.com/rust-lang/rfcs/pull/2872)
 
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+#### Tracking Issues & PRs
+##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* [disposition: merge] [Enforce closure args + return type are WF](https://github.com/rust-lang/rust/pull/123531)
+* [disposition: merge] [Tracking Issue for `io_error_downcast`](https://github.com/rust-lang/rust/issues/99262)
+* [disposition: merge] [More DefineOpaqueTypes::Yes](https://github.com/rust-lang/rust/pull/123794)
+* [disposition: merge] [Tracking Issue for `std::path::absolute`](https://github.com/rust-lang/rust/issues/92750)
+* [disposition: merge] [Tracking Issue for `utf8_chunks`](https://github.com/rust-lang/rust/issues/99543)
+* [disposition: merge] [restrict promotion of `const fn` calls](https://github.com/rust-lang/rust/pull/121557)
+* [disposition: merge] [Fix trait solver overflow with `non_local_definitions` lint](https://github.com/rust-lang/rust/pull/123594)
+* [disposition: merge] [Use fulfillment in method probe, not evaluation ](https://github.com/rust-lang/rust/pull/122317)
+* [disposition: merge] [rustdoc-search: single result for items with multiple paths](https://github.com/rust-lang/rust/pull/119912)
+* [disposition: merge] [Ignore `-C strip` on MSVC](https://github.com/rust-lang/rust/pull/115120)
 
-#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
-
-### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
-
-### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
-
-### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+#### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+* *No New or Updated RFCs were created this week.*
 
 ## Upcoming Events
 
