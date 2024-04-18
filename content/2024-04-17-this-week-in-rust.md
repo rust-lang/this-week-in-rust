@@ -27,8 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
 ### Rust Nation UK
 * [Tim McNamara - 4 levels of error handling](https://www.youtube.com/watch?v=hQWZGOuDYTE)
 * [Mithun Hunsur - Ambient: A Rust and WebAssembly Runtime for Cross-Platform Multiplayer Games](https://www.youtube.com/watch?v=tSnKx2irwzE)
@@ -42,8 +40,6 @@ and just ask the editors to select the category.
 * [Heiko Seeberger - EventSourced – async_fn_in_trait in anger](https://www.youtube.com/watch?v=z40rgjZqrs4)
 * [Tim Janus - Let's get interdisciplinary: Rust Design Patterns for Chemical Plants](https://www.youtube.com/watch?v=aK5lHOJxl98)
 * [Marco Ieni - How Rust makes open-source easier](https://www.youtube.com/watch?v=HzTZoh7WaGo)
-
-### Foundation
 
 ### Newsletters
 * [New Meshes, New Examples, and Compute Shaders](https://thisweekinbevy.com/issue/2024-04-15-new-meshes-new-examples-and-compute-shaders)
