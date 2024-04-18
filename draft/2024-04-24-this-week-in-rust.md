@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Zed: adding language extension support using Wasmtime and Tree-sitter](https://zed.dev/blog/language-extensions-part-1)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
