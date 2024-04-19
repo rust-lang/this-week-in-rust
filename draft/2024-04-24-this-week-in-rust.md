@@ -34,7 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
+- [Tantivy 0.22: Performance improvements, new aggregations and stability fixes](https://quickwit.io/blog/tantivy-0.22)
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
