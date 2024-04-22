@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing r3bl_terminal_async - build async interactive CLIs in Rust](https://developerlife.com/2024/04/21/build-async-interactive-cli-apps-in-rust/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
