@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [video] [Demo + architecture overview of Ferrostar, a cross-platform turn-by-turn navigation SDK with a Rust core](https://www.youtube.com/watch?v=8PuWu_Pi2sk)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
