@@ -99,7 +99,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A week dominated by small mixed changes to perf with improvements slightly outweighing regressions. There were no pure regressions, and many of the mixed perf results were deemed worth it for their potential improvements to runtime performance through further optimization from LLVM.
+
+Triage done by **@rylev**.
+Revision range: [ccfcd950..a77f76e2](https://perf.rust-lang.org/?start=ccfcd950b333fed046275dd8d54fe736ca498aa7&end=a77f76e26302e9a084fb321817675b1dfc1dcd63&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.4%  | [0.2%, 1.8%]   | 57    |
+| Regressions ❌ <br /> (secondary)  | 0.4%  | [0.2%, 1.9%]   | 26    |
+| Improvements ✅ <br /> (primary)   | -0.8% | [-3.4%, -0.2%] | 50    |
+| Improvements ✅ <br /> (secondary) | -0.6% | [-1.9%, -0.1%] | 32    |
+| All ❌✅ (primary)                 | -0.2% | [-3.4%, 1.8%]  | 107   |
+
+
+0 Regressions, 5 Improvements, 6 Mixed; 2 of them in rollups
+62 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/e29814aa8d206406ae2711773bd882b39598a9d8/triage/2024-04-23.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
