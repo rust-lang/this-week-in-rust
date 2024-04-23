@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 ### Research
+* [Rust Digger: Does size matter? The biggest crate is 450MB; More than 100 crates are over 50MB](https://rust-digger.code-maven.com/news//biggest-crates-is-450-megabyte)
 
 ### Miscellaneous
 
