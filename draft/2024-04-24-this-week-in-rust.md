@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Why SQLite Performance Tuning made Bencher 1200x Faster](https://bencher.dev/learn/engineering/sqlite-performance-tuning/)
+
 ### Research
 
 ### Miscellaneous
