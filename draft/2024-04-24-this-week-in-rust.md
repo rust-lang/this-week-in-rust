@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [drop, the destructor of Rust structs](https://rust.code-maven.com/drop-the-destructor-of-rust-structs)
 
 ## Crate of the Week
 
