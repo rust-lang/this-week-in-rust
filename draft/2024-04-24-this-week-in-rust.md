@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [RustFest Zürich 🇨🇭 Talks announced](https://rustfest.ch/posts/2024-04-23/the-cfp-has-concluded/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
