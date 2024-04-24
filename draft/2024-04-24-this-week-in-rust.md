@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [GitHub Sponsor Rust developer David Tolnay](https://dev.to/szabgab/github-sponsor-rust-developer-david-tolnay-53kc)
 
 ## Crate of the Week
 
