@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [medium-to-markdown v0.1.1 : Convert your medium blogs easily into markdown files](https://medium.com/@harshiljani2002/a-parser-in-rust-to-convert-your-medium-blogs-to-markdown-84173a6c1300)
 
 ### Observations/Thoughts
 
