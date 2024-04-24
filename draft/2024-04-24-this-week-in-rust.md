@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Fluvio v0.11.6 release and project updates](https://www.fluvio.io/news/this-week-in-fluvio-0060/)
 
 ### Observations/Thoughts
 
