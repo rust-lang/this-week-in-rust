@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing skipdb - embedded, in-memory, zero-copy, ACID, MVCC database](https://github.com/al8n/skipdb/tree/main/skipdb)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
