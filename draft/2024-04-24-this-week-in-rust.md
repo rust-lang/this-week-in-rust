@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 * [video] [Build with Naz - Published crate r3bl_terminal_async for building async interactive CLIs in Rust](https://www.youtube.com/watch?v=X5wDVaZENOo)
 
 ### Research
+* [Rust Digger: Does size matter? The biggest crate is 450MB; More than 100 crates are over 50MB](https://rust-digger.code-maven.com/news/biggest-crates-is-450-megabyte)
 
 ### Miscellaneous
 - [Learn how to write TCP servers using Rust's std::net module](https://app.codecrafters.io/concepts/rust-tcp-server)
