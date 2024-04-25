@@ -27,8 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
 ### Foundation
 * [Guest Blog: Attending CISA’s Open Source Software Security Summit](https://foundation.rust-lang.org/news/attending-cisas-open-source-software-security-summit/)
 
@@ -42,7 +40,6 @@ and just ask the editors to select the category.
 * [venndb 0.4.0 - custom validators](https://github.com/plabayo/venndb/releases/tag/0.4.0)
 * [Tantivy 0.22: Performance improvements, new aggregations and stability fixes](https://quickwit.io/blog/tantivy-0.22)
 * [Announcing r3bl_terminal_async - build async interactive CLIs in Rust](https://developerlife.com/2024/04/21/build-async-interactive-cli-apps-in-rust/)
-
 * [video] [Demo + architecture overview of Ferrostar, a cross-platform turn-by-turn navigation SDK with a Rust core](https://www.youtube.com/watch?v=8PuWu_Pi2sk)
 
 ### Observations/Thoughts
@@ -56,9 +53,9 @@ and just ask the editors to select the category.
 
 * [Why SQLite Performance Tuning made Bencher 1200x Faster](https://bencher.dev/learn/engineering/sqlite-performance-tuning/)
 * [drop, the destructor of Rust structs](https://rust.code-maven.com/drop-the-destructor-of-rust-structs)
-* [video] [Build with Naz - Published crate r3bl_terminal_async for building async interactive CLIs in Rust](https://www.youtube.com/watch?v=X5wDVaZENOo)
 * [Building with AWS S3 using Rust](https://www.shuttle.rs/blog/2024/04/17/using-aws-s3-rust)
 * [Rust tokio task cancellation patterns](https://cybernetist.com/2024/04/19/rust-tokio-task-cancellation-patterns/)
+* [video] [Build with Naz - Published crate r3bl_terminal_async for building async interactive CLIs in Rust](https://www.youtube.com/watch?v=X5wDVaZENOo)
 * [video] [Trent Billington - Bevy ECS - Power tool for data oriented applications](https://www.youtube.com/watch?v=ocacUsyJXpg)
 * [video] [Building a procedural art generator](https://www.youtube.com/watch?v=BxxUPdiBjkc)
 * [audio] [Isograph with Robert Balicki](https://rustacean-station.org/episode/robert-balicki/)
@@ -69,9 +66,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [GitHub Sponsor Rust developer David Tolnay](https://dev.to/szabgab/github-sponsor-rust-developer-david-tolnay-53kc)
-- [Learn how to write TCP servers using Rust's std::net module](https://app.codecrafters.io/concepts/rust-tcp-server)
-
-* [RustFest Zürich 🇨🇭 Talks announced](https://rustfest.ch/posts/2024-04-23/the-cfp-has-concluded/)
+* [Learn how to write TCP servers using Rust's std::net module](https://app.codecrafters.io/concepts/rust-tcp-server)
+* [RustFest Zürich 🇨 Talks announced](https://rustfest.ch/posts/2024-04-23/the-cfp-has-concluded/)
 
 ## Crate of the Week
 
@@ -107,7 +103,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [fluvio - MQTT Connector: Prefix auto generated Client ID to prevent connection drops](https://github.com/infinyon/fluvio/issues/3825)
 * [fluvio - Remove localhost from fluvio in favor of 127.0.0.1](https://github.com/infinyon/fluvio/issues/3866)
 
-If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines]. 
+If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
@@ -457,7 +453,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1bpg8b8/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -473,4 +469,4 @@ Thanks to [BD103](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1563)
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1ccwpku/this_week_in_rust_544/)</small>
