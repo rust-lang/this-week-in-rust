@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+- [Learn how to write TCP servers using Rust's std::net module](https://app.codecrafters.io/concepts/rust-tcp-server)
 
 ## Crate of the Week
 
