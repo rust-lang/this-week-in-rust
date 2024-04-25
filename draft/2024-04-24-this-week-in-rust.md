@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 * [Tantivy 0.22: Performance improvements, new aggregations and stability fixes](https://quickwit.io/blog/tantivy-0.22)
 * [Announcing r3bl_terminal_async - build async interactive CLIs in Rust](https://developerlife.com/2024/04/21/build-async-interactive-cli-apps-in-rust/)
 
+* [video] [Demo + architecture overview of Ferrostar, a cross-platform turn-by-turn navigation SDK with a Rust core](https://www.youtube.com/watch?v=8PuWu_Pi2sk)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
