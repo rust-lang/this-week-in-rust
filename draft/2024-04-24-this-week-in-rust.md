@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 * [Rust Digger: Does size matter? The biggest crate is 450MB; More than 100 crates are over 50MB](https://rust-digger.code-maven.com/news/biggest-crates-is-450-megabyte)
 
 ### Miscellaneous
+* [GitHub Sponsor Rust developer David Tolnay](https://dev.to/szabgab/github-sponsor-rust-developer-david-tolnay-53kc)
 - [Learn how to write TCP servers using Rust's std::net module](https://app.codecrafters.io/concepts/rust-tcp-server)
 
 ## Crate of the Week
