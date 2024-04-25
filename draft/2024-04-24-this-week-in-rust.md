@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [medium-to-markdown v0.1.1 : Convert your medium blogs easily into markdown files](https://medium.com/@harshiljani2002/a-parser-in-rust-to-convert-your-medium-blogs-to-markdown-84173a6c1300)
 * [Fluvio v0.11.6 release and project updates](https://www.fluvio.io/news/this-week-in-fluvio-0060/)
 * [venndb 0.4.0 - custom validators](https://github.com/plabayo/venndb/releases/tag/0.4.0)
 * [Tantivy 0.22: Performance improvements, new aggregations and stability fixes](https://quickwit.io/blog/tantivy-0.22)
