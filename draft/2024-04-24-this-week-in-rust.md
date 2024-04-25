@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Why SQLite Performance Tuning made Bencher 1200x Faster](https://bencher.dev/learn/engineering/sqlite-performance-tuning/)
 * [video] [Build with Naz - Published crate r3bl_terminal_async for building async interactive CLIs in Rust](https://www.youtube.com/watch?v=X5wDVaZENOo)
 
 ### Research
