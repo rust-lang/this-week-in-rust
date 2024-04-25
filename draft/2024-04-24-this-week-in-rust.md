@@ -171,7 +171,7 @@ Rusty Events between 2024-04-24 - 2024-05-22 🦀
     * [**Rust at Microsoft, Tel Aviv - Are we embedded yet?**](https://www.meetup.com/code-mavens/events/300144781/)
 * 2024-05-09 | Virtual (Nuremberg/Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/297945257/)
-* 2024-05-14| Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
+* 2024-05-14 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/298341699/)
 * 2024-05-14 | Virtual (Halifax, NS, CA) | [Rust Halifax](https://www.meetup.com/rust-tell-halifax/)
     * [**Rust&Tell - Halifax**](https://www.meetup.com/rust-tell-halifax/events/300437775/)
