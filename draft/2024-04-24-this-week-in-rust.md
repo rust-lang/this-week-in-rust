@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 * [GitHub Sponsor Rust developer David Tolnay](https://dev.to/szabgab/github-sponsor-rust-developer-david-tolnay-53kc)
 - [Learn how to write TCP servers using Rust's std::net module](https://app.codecrafters.io/concepts/rust-tcp-server)
 
+* [RustFest Zürich 🇨🇭 Talks announced](https://rustfest.ch/posts/2024-04-23/the-cfp-has-concluded/)
+
 ## Crate of the Week
 
 This week's crate is [scandir](https://crates.io/crates/scandir), a high-performance file tree scanner.
