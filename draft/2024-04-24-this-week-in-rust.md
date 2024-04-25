@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Fluvio v0.11.6 release and project updates](https://www.fluvio.io/news/this-week-in-fluvio-0060/)
 * [venndb 0.4.0 - custom validators](https://github.com/plabayo/venndb/releases/tag/0.4.0)
 * [Tantivy 0.22: Performance improvements, new aggregations and stability fixes](https://quickwit.io/blog/tantivy-0.22)
 * [Announcing r3bl_terminal_async - build async interactive CLIs in Rust](https://developerlife.com/2024/04/21/build-async-interactive-cli-apps-in-rust/)
