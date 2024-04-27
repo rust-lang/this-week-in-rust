@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 [Writing ergonomic async assertions in Rust](https://www.niklaslong.ch/deadline/)
+* [Rust binaries stability](https://mirekdlugosz.com/blog/2024/rust-binaries-stability/)
 
 ### Rust Walkthroughs
 
