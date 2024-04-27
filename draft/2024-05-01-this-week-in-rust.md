@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [series] [Working with Rust Result](https://sanj.ink/posts/2024-01-24-working-with-rust-result.html)
+
 ### Research
 
 ### Miscellaneous
