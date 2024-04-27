@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 [Writing ergonomic async assertions in Rust](https://www.niklaslong.ch/deadline/)
 
+* [audio] [Ratatui with Orhun Parmaksiz :: Rustacean Station](https://rustacean-station.org/episode/orhun-parmaksiz/)
+
 ### Rust Walkthroughs
 
 ### Research
