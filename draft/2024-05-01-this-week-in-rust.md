@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 [Writing ergonomic async assertions in Rust](https://www.niklaslong.ch/deadline/)
 
 ### Rust Walkthroughs
+* [video] [Build with Naz - Rust polymorphism, dyn, impl, using existing traits, testing, reuse](https://www.youtube.com/watch?v=kYTgGtJjSro)
 
 ### Research
 
