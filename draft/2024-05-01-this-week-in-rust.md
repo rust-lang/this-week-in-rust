@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [r3bl_trerminal_async v0.5.1 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v051-2024-04-28)
+
 ### Observations/Thoughts
 
 [Writing ergonomic async assertions in Rust](https://www.niklaslong.ch/deadline/)
