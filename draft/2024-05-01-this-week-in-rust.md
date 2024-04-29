@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [developerlife.com - Rust Polymorphism, dyn, impl, using existing traits, trait objects for testing and extensibility](https://developerlife.com/2024/04/28/rust-polymorphism-dyn-impl-trait-objects-for-testing-and-extensibiity/)
+
 ### Research
 
 ### Miscellaneous
