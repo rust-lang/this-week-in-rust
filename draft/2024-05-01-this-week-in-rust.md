@@ -185,6 +185,8 @@ Rusty Events between 2024-05-01 - 2024-05-29 🦀
     * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298312423/)
 * 2024-05-21 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
     * [**Mid-month Rustful—forensic parsing via Artemis**](https://www.meetup.com/rustdc/events/299346490/)
+* 2024-05-30 | Virtual + In Person (Barcelona, ES) | [Mainmatter](https://mainmatter.com/) & [BcnRust](https://www.meetup.com/es-ES/bcnrust/)
+    * [**Rust for the web, Barcelona 2024**](https://www.meetup.com/es-ES/bcnrust/events/300765894/) 
 
 ### Africa
 
@@ -238,6 +240,8 @@ Rusty Events between 2024-05-01 - 2024-05-29 🦀
     * [**Save the date - Mai Meetup**](https://www.meetup.com/rust-zurich/events/300513957/)
 * 2024-05-23 | Bern, CH | [Rust Bern](https://www.meetup.com/de-DE/rust-bern/)
     * [**2024 Rust Talks Bern #2**](https://www.meetup.com/rust-bern/events/300286917/)
+* 2024-05-30 | Hybrid (Barcelona, ES) | [Mainmatter](https://mainmatter.com/) & [BcnRust](https://www.meetup.com/es-ES/bcnrust/)
+    * [**Rust for the web, Barcelona 2024**](https://www.meetup.com/es-ES/bcnrust/events/300765894/) 
 
 ### North America
 
