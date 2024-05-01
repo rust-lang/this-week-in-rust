@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [minbpe-rs v0.1.0: Port of Andrej Karpathy's `minbpe` to Rust](https://github.com/gnp/minbpe-rs)
+
 ### Observations/Thoughts
 
 [Writing ergonomic async assertions in Rust](https://www.niklaslong.ch/deadline/)
