@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Performance optimization with flamegraph and Divan](https://hegdenu.net/posts/performance-optimization-flamegraph-divan/)
+
 ### Research
 
 ### Miscellaneous
