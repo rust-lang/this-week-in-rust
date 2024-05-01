@@ -236,6 +236,8 @@ Rusty Events between 2024-05-01 - 2024-05-29 🦀
     * [**Hack Night**](https://www.meetup.com/rust-aarhus/events/300307155/)
 * 2024-05-21 | Zurich, CH | [Rust Zurich](https://www.meetup.com/rust-zurich/)
     * [**Save the date - Mai Meetup**](https://www.meetup.com/rust-zurich/events/300513957/)
+* 2024-05-23 | Bern, CH | [Rust Bern](https://www.meetup.com/de-DE/rust-bern/)
+    * [**2024 Rust Talks Bern #2**](https://www.meetup.com/rust-bern/events/300286917/)
 
 ### North America
 
