@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [An almost infinite Fibonacci Iterator](https://rust.code-maven.com/fibonacci-iterator)
 
 ## Crate of the Week
 
