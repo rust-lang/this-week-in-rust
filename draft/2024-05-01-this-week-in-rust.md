@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 ### Research
+* [Rust Digger: There are 4,907 interesting Crate homepages](https://rust-digger.code-maven.com/news/interesting-homepages)
 
 ### Miscellaneous
 
