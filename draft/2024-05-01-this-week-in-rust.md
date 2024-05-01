@@ -33,17 +33,30 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [Motion Blur, Visualizations, and beautiful renders](https://thisweekinbevy.com/issue/2024-04-29-motion-blur-visualizations-and-beautiful-renders)
+
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
 
-[Writing ergonomic async assertions in Rust](https://www.niklaslong.ch/deadline/)
+* [Writing ergonomic async assertions in Rust](https://www.niklaslong.ch/deadline/)
+* [Leaving Rust gamedev after 3 years](https://loglog.games/blog/leaving-rust-gamedev/)
+* [Tasks are the wrong abstraction](https://blog.yoshuawuyts.com/tasks-are-the-wrong-abstraction/)
+* [Go or Rust? Just Listen to the Bots](https://cybernetist.com/2024/04/25/go-or-rust-just-listen-to-the-bots/)
+* [Cracking the Cryptic (with Z3 and Rust)](https://hugopeters.me/posts/21/)
+* [So, you want to write an unsafe crate](https://blog.dureuill.net/articles/nolife-0-4/)
+* [Designing an efficient memory layout in Rust with unsafe & unions, or, an overlong guide in avoiding dynamic dispatch](https://alonely0.github.io/blog/unions/)
+* [Event driven Microservices using Kafka and Rust](https://www.shuttle.rs/blog/2024/04/25/event-driven-services-using-kafka-rust)
 
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+
+* [Giving Rust a chance for in-kernel codecs](https://lwn.net/SubscriberLink/970565/ac5ffc2e9ad20f1e/)
+* [Zed Decoded: Rope & SumTree](https://zed.dev/blog/zed-decoded-rope-sumtree)
+* [video] [From C to Rust: Bringing Rust Abstractions to Embedded Linux](https://www.youtube.com/watch?v=hmQr4fq6sH0)
 
 ## Crate of the Week
 
