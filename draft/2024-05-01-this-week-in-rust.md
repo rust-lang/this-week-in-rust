@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[Message retention and replay with Selium](https://selium.com/news/introducing-selium-log)
+
 ### Observations/Thoughts
 
 [Writing ergonomic async assertions in Rust](https://www.niklaslong.ch/deadline/)
