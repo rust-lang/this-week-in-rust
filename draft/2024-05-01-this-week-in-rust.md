@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [GitHub Sponsor Rust developer Andrew Gallant (BurntSushi)](https://dev.to/szabgab/github-sponsor-rust-developer-andrew-gallant-burntsushi-31lh)
 
 ## Crate of the Week
 
