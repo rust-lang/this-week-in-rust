@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 [Writing ergonomic async assertions in Rust](https://www.niklaslong.ch/deadline/)
 
+* [The Mediocre Programmer's Guide to Rust](https://www.hezmatt.org/~mpalmer/blog/2024/05/01/the-mediocre-programmers-guide-to-rust.html)
+
 ### Rust Walkthroughs
 
 ### Research
