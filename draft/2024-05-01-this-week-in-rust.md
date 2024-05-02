@@ -34,8 +34,8 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
 * [r3bl_trerminal_async v0.5.1 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v051-2024-04-28)
+* [minbpe-rs v0.1.0: Port of Andrej Karpathy's `minbpe` to Rust](https://github.com/gnp/minbpe-rs)
 
 ### Observations/Thoughts
 
