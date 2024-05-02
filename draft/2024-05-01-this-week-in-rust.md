@@ -59,6 +59,8 @@ and just ask the editors to select the category.
 * [Boosting Dev Experience with Serverless Rust in RustRover](https://blog.jetbrains.com/rust/2024/04/26/boosting-dev-experience-with-serverless-rust-in-rustrover/)
 * [developerlife.com - Rust Polymorphism, dyn, impl, using existing traits, trait objects for testing and extensibility](https://developerlife.com/2024/04/28/rust-polymorphism-dyn-impl-trait-objects-for-testing-and-extensibiity/)
 
+* [Performance optimization with flamegraph and Divan](https://hegdenu.net/posts/performance-optimization-flamegraph-divan/)
+
 ### Research
 
 ### Miscellaneous
