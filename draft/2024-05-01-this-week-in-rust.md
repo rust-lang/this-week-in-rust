@@ -64,6 +64,7 @@ and just ask the editors to select the category.
 * [GitHub Sponsor Rust developer Andrew Gallant (BurntSushi)](https://dev.to/szabgab/github-sponsor-rust-developer-andrew-gallant-burntsushi-31lh)
 * [Giving Rust a chance for in-kernel codecs](https://lwn.net/SubscriberLink/970565/ac5ffc2e9ad20f1e/)
 * [Zed Decoded: Rope & SumTree](https://zed.dev/blog/zed-decoded-rope-sumtree)
+* [An almost infinite Fibonacci Iterator](https://rust.code-maven.com/fibonacci-iterator)
 * [video] [From C to Rust: Bringing Rust Abstractions to Embedded Linux](https://www.youtube.com/watch?v=hmQr4fq6sH0)
 
 ## Crate of the Week
