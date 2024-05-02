@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 * [r3bl_trerminal_async v0.5.1 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v051-2024-04-28)
 * [minbpe-rs v0.1.0: Port of Andrej Karpathy's `minbpe` to Rust](https://github.com/gnp/minbpe-rs)
 
+[Message retention and replay with Selium](https://selium.com/news/introducing-selium-log)
+
 ### Observations/Thoughts
 * [Leaving Rust gamedev after 3 years](https://loglog.games/blog/leaving-rust-gamedev/)
 * [Tasks are the wrong abstraction](https://blog.yoshuawuyts.com/tasks-are-the-wrong-abstraction/)
