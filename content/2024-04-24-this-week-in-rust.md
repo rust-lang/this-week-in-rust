@@ -270,21 +270,6 @@ Revision range: [ccfcd950..a77f76e2](https://perf.rust-lang.org/?start=ccfcd950b
 
 [Full report here](https://github.com/rust-lang/rustc-perf/blob/e29814aa8d206406ae2711773bd882b39598a9d8/triage/2024-04-23.md)
 
-## Call for Testing
-An important step for RFC implementation is for people to experiment with the
-implementation and give feedback, especially before stabilization.  The following
-RFCs would benefit from user testing before moving forward:
-
-* *No calls for testing were issued this week.*
-
-### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
-
-### [Rust](https://github.com/rust-lang/rust/labels/call-for-testing)
-
-If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
-label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
-need testing.
-
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
