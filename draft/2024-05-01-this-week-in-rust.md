@@ -37,9 +37,9 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
-[Writing ergonomic async assertions in Rust](https://www.niklaslong.ch/deadline/)
+* [Writing ergonomic async assertions in Rust](https://www.niklaslong.ch/deadline/)
 * [Making an HTML parsing script a hundred times faster with Rayon](https://medium.com/@sam.van.overmeire/making-an-html-parsing-script-a-hundred-times-faster-with-rayon-5ed952c9011c)
-
+* [Rust binaries stability](https://mirekdlugosz.com/blog/2024/rust-binaries-stability/)
 * [audio] [Ratatui with Orhun Parmaksiz :: Rustacean Station](https://rustacean-station.org/episode/orhun-parmaksiz/)
 
 ### Rust Walkthroughs
