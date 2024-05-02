@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 [Writing ergonomic async assertions in Rust](https://www.niklaslong.ch/deadline/)
 * [Making an HTML parsing script a hundred times faster with Rayon](https://medium.com/@sam.van.overmeire/making-an-html-parsing-script-a-hundred-times-faster-with-rayon-5ed952c9011c)
 
+* [audio] [Ratatui with Orhun Parmaksiz :: Rustacean Station](https://rustacean-station.org/episode/orhun-parmaksiz/)
+
 ### Rust Walkthroughs
 
 * [Zed Decoded: Rope & SumTree](https://zed.dev/blog/zed-decoded-rope-sumtree)
