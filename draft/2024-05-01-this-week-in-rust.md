@@ -33,23 +33,28 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [Motion Blur, Visualizations, and beautiful renders](https://thisweekinbevy.com/issue/2024-04-29-motion-blur-visualizations-and-beautiful-renders)
+
 ### Project/Tooling Updates
 * [r3bl_trerminal_async v0.5.1 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v051-2024-04-28)
 * [minbpe-rs v0.1.0: Port of Andrej Karpathy's `minbpe` to Rust](https://github.com/gnp/minbpe-rs)
 
 ### Observations/Thoughts
-
+* [Leaving Rust gamedev after 3 years](https://loglog.games/blog/leaving-rust-gamedev/)
+* [Tasks are the wrong abstraction](https://blog.yoshuawuyts.com/tasks-are-the-wrong-abstraction/)
+* [Go or Rust? Just Listen to the Bots](https://cybernetist.com/2024/04/25/go-or-rust-just-listen-to-the-bots/)
+* [Cracking the Cryptic (with Z3 and Rust)](https://hugopeters.me/posts/21/)
+* [So, you want to write an unsafe crate](https://blog.dureuill.net/articles/nolife-0-4/)
+* [Designing an efficient memory layout in Rust with unsafe & unions, or, an overlong guide in avoiding dynamic dispatch](https://alonely0.github.io/blog/unions/)
+* [Event driven Microservices using Kafka and Rust](https://www.shuttle.rs/blog/2024/04/25/event-driven-services-using-kafka-rust)
 * [Writing ergonomic async assertions in Rust](https://www.niklaslong.ch/deadline/)
 * [Making an HTML parsing script a hundred times faster with Rayon](https://medium.com/@sam.van.overmeire/making-an-html-parsing-script-a-hundred-times-faster-with-rayon-5ed952c9011c)
 * [Rust binaries stability](https://mirekdlugosz.com/blog/2024/rust-binaries-stability/)
 * [audio] [Ratatui with Orhun Parmaksiz :: Rustacean Station](https://rustacean-station.org/episode/orhun-parmaksiz/)
-
 * [The Mediocre Programmer's Guide to Rust](https://www.hezmatt.org/~mpalmer/blog/2024/05/01/the-mediocre-programmers-guide-to-rust.html)
 
 ### Rust Walkthroughs
-* [Zed Decoded: Rope & SumTree](https://zed.dev/blog/zed-decoded-rope-sumtree)
 * [Boosting Dev Experience with Serverless Rust in RustRover](https://blog.jetbrains.com/rust/2024/04/26/boosting-dev-experience-with-serverless-rust-in-rustrover/)
-
 * [developerlife.com - Rust Polymorphism, dyn, impl, using existing traits, trait objects for testing and extensibility](https://developerlife.com/2024/04/28/rust-polymorphism-dyn-impl-trait-objects-for-testing-and-extensibiity/)
 
 ### Research
@@ -57,6 +62,9 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [Writing A Wasm Runtime In Rust](https://skanehira.github.io/writing-a-wasm-runtime-in-rust/)
 * [GitHub Sponsor Rust developer Andrew Gallant (BurntSushi)](https://dev.to/szabgab/github-sponsor-rust-developer-andrew-gallant-burntsushi-31lh)
+* [Giving Rust a chance for in-kernel codecs](https://lwn.net/SubscriberLink/970565/ac5ffc2e9ad20f1e/)
+* [Zed Decoded: Rope & SumTree](https://zed.dev/blog/zed-decoded-rope-sumtree)
+* [video] [From C to Rust: Bringing Rust Abstractions to Embedded Linux](https://www.youtube.com/watch?v=hmQr4fq6sH0)
 
 ## Crate of the Week
 
