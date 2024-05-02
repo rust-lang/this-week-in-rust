@@ -45,7 +45,6 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Zed Decoded: Rope & SumTree](https://zed.dev/blog/zed-decoded-rope-sumtree)
 * [Boosting Dev Experience with Serverless Rust in RustRover](https://blog.jetbrains.com/rust/2024/04/26/boosting-dev-experience-with-serverless-rust-in-rustrover/)
-* [video] [Build with Naz - Rust polymorphism, dyn, impl, using existing traits, testing, reuse](https://www.youtube.com/watch?v=kYTgGtJjSro)
 
 * [developerlife.com - Rust Polymorphism, dyn, impl, using existing traits, trait objects for testing and extensibility](https://developerlife.com/2024/04/28/rust-polymorphism-dyn-impl-trait-objects-for-testing-and-extensibiity/)
 
