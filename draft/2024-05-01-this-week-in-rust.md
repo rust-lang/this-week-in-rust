@@ -63,18 +63,12 @@ and just ask the editors to select the category.
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
-## [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+## Call for Testing
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+* *No calls for testing were issued this week.*
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
@@ -128,15 +122,7 @@ Revision range: [a77f76e2..c65b2dc9](https://perf.rust-lang.org/?start=a77f76e26
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
+* [experimental project goal program for 2024 H2](https://github.com/rust-lang/rfcs/pull/3614)
 
 ### Final Comment Period
 
@@ -144,28 +130,26 @@ Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final
 which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+* [disposition: merge] [Precise capturing](https://github.com/rust-lang/rfcs/pull/3617)
+* [disposition: merge] [Unsafe Extern Blocks](https://github.com/rust-lang/rfcs/pull/3484)
+* [disposition: merge] [MaybeDangling](https://github.com/rust-lang/rfcs/pull/3336)
 
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+#### Tracking Issues & PRs
+##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* [disposition: merge] [Add `Option::take_if`](https://github.com/rust-lang/rust/issues/98934)
+* [disposition: merge] [elaborate obligations in coherence](https://github.com/rust-lang/rust/pull/124532)
+* [disposition: merge] [Allow coercing functions whose signature differs in opaque types in their defining scope into a shared function pointer type](https://github.com/rust-lang/rust/pull/124297)
+* [disposition: merge] [Let's `#[expect]` some lints: `Stabilize lint_reasons` (RFC 2383)](https://github.com/rust-lang/rust/pull/120924)
+* [disposition: merge] [Tracking Issue for ASCII trim functions on byte slices](https://github.com/rust-lang/rust/issues/94035)
+* [disposition: merge] [Add `IntoIterator` for `Box<[T]>` + edition 2024-specific lints](https://github.com/rust-lang/rust/pull/124097)
+* [disposition: merge] [Add `Box<[T; N]>: IntoIterator` without any method dispatch hacks](https://github.com/rust-lang/rust/pull/124108)
+* [disposition: merge] [rustdoc-search: search for references](https://github.com/rust-lang/rust/pull/124148)
+* [disposition: close] [Extra trait bound makes function body fail to typecheck](https://github.com/rust-lang/rust/issues/82219)
+* [disposition: merge] [Make casts of pointers to trait objects stricter](https://github.com/rust-lang/rust/pull/120248)
+* [disposition: merge] [Tracking Issue for split_at_checked](https://github.com/rust-lang/rust/issues/119128)
 
-#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
-
-### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
-
-### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
-
-### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+#### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+* [new] [Precise capturing](https://github.com/rust-lang/rfcs/pull/3617)
 
 ## Upcoming Events
 
