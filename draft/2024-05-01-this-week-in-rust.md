@@ -47,7 +47,7 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-This week's crate is [efs](Chttps://codeberg.org/RatCornu/efs), a no-std ext2 filesystem implementation with plans to add other file systems in the future.
+This week's crate is [efs](https://codeberg.org/RatCornu/efs), a no-std ext2 filesystem implementation with plans to add other file systems in the future.
 
 Another week completely devoid of suggestions, but llogiq stays hopeful he won't have to dig for next week's crate all by himself.
 
