@@ -62,6 +62,7 @@ and just ask the editors to select the category.
 * [Performance optimization with flamegraph and Divan](https://hegdenu.net/posts/performance-optimization-flamegraph-divan/)
 
 ### Research
+* [Rust Digger: There are 4,907 interesting Crate homepages](https://rust-digger.code-maven.com/news/interesting-homepages)
 
 ### Miscellaneous
 * [Writing A Wasm Runtime In Rust](https://skanehira.github.io/writing-a-wasm-runtime-in-rust/)
