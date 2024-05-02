@@ -54,9 +54,7 @@ and just ask the editors to select the category.
 * [The Mediocre Programmer's Guide to Rust](https://www.hezmatt.org/~mpalmer/blog/2024/05/01/the-mediocre-programmers-guide-to-rust.html)
 
 ### Rust Walkthroughs
-* [Zed Decoded: Rope & SumTree](https://zed.dev/blog/zed-decoded-rope-sumtree)
 * [Boosting Dev Experience with Serverless Rust in RustRover](https://blog.jetbrains.com/rust/2024/04/26/boosting-dev-experience-with-serverless-rust-in-rustrover/)
-
 * [developerlife.com - Rust Polymorphism, dyn, impl, using existing traits, trait objects for testing and extensibility](https://developerlife.com/2024/04/28/rust-polymorphism-dyn-impl-trait-objects-for-testing-and-extensibiity/)
 
 ### Research
@@ -64,7 +62,6 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [Writing A Wasm Runtime In Rust](https://skanehira.github.io/writing-a-wasm-runtime-in-rust/)
 * [GitHub Sponsor Rust developer Andrew Gallant (BurntSushi)](https://dev.to/szabgab/github-sponsor-rust-developer-andrew-gallant-burntsushi-31lh)
-
 * [Giving Rust a chance for in-kernel codecs](https://lwn.net/SubscriberLink/970565/ac5ffc2e9ad20f1e/)
 * [Zed Decoded: Rope & SumTree](https://zed.dev/blog/zed-decoded-rope-sumtree)
 * [video] [From C to Rust: Bringing Rust Abstractions to Embedded Linux](https://www.youtube.com/watch?v=hmQr4fq6sH0)
