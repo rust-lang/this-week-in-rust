@@ -57,7 +57,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [efs](https://codeberg.org/RatCornu/efs), a no-std ext2 filesystem implementation with plans to add other file systems in the future.
+
+Another week completely devoid of suggestions, but llogiq stays hopeful he won't have to dig for next week's crate all by himself.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -101,7 +103,101 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+409 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2024-04-23..2024-04-30
+
+* [abort a process when FD ownership is violated](https://github.com/rust-lang/rust/pull/124210)
+* [add support for run-make-support unit tests to be run with bootstrap](https://github.com/rust-lang/rust/pull/124321)
+* [ast: generalize item kind visiting](https://github.com/rust-lang/rust/pull/124382)
+* [coverage: avoid hard-coded values when visiting logical ops](https://github.com/rust-lang/rust/pull/124508)
+* [coverage: replace boolean options with a `CoverageLevel enum`](https://github.com/rust-lang/rust/pull/124507)
+* [debuginfo: stabilize `-Z debug-macros`, `-Z collapse-macro-debuginfo` and `#[collapse_debuginfo]`](https://github.com/rust-lang/rust/pull/120845)
+* [delegation: support renaming, and async, const, extern "ABI" and C-variadic functions](https://github.com/rust-lang/rust/pull/122500)
+* [deny gen keyword in `edition_2024_compat` lints](https://github.com/rust-lang/rust/pull/123680)
+* [deref patterns: lower deref patterns to MIR](https://github.com/rust-lang/rust/pull/122598)
+* [detect borrow error involving sub-slices and suggest `split_at_mut`](https://github.com/rust-lang/rust/pull/124313)
+* [disallow ambiguous attributes on expressions](https://github.com/rust-lang/rust/pull/124099)
+* [do not ICE on invalid consts when walking mono-reachable blocks](https://github.com/rust-lang/rust/pull/124425)
+* [don't ICE when `codegen_select_candidate` returns ambiguity in new solver](https://github.com/rust-lang/rust/pull/124374)
+* [don't fatal when calling `expect_one_of` when recovering arg in `parse_seq`](https://github.com/rust-lang/rust/pull/124169)
+* [enforce closure args + return type are WF](https://github.com/rust-lang/rust/pull/123531)
+* [fix ICE on invalid const param types](https://github.com/rust-lang/rust/pull/124394)
+* [fix ICE when ADT tail has type error](https://github.com/rust-lang/rust/pull/124057)
+* [fix weak memory bug in TLS on Windows](https://github.com/rust-lang/rust/pull/124281)
+* [improve diagnostic for unknown `--print` request](https://github.com/rust-lang/rust/pull/124333)
+* [improve handling of expr→field errors](https://github.com/rust-lang/rust/pull/124200)
+* [mark unions non-const-propagatable in `KnownPanicsLint` without calling layout](https://github.com/rust-lang/rust/pull/124504)
+* [pretty-print parenthesis around binary in postfix match](https://github.com/rust-lang/rust/pull/124269)
+* [provide more context and suggestions in borrowck errors involving closures](https://github.com/rust-lang/rust/pull/124136)
+* [record certainty of `evaluate_added_goals_and_make_canonical_response` call in candidate](https://github.com/rust-lang/rust/pull/124444)
+* [remove special-casing for `SimplifiedType` for next solver](https://github.com/rust-lang/rust/pull/124379)
+* [rename `inhibit_union_abi_opt()` to `inhibits_union_abi_opt()`](https://github.com/rust-lang/rust/pull/124463)
+* [renamed `DerivedObligation` to `WellFormedDeriveObligation`](https://github.com/rust-lang/rust/pull/124381)
+* [require explicitly marking closures as coroutines](https://github.com/rust-lang/rust/pull/123792)
+* [restrict promotion of `const fn` calls](https://github.com/rust-lang/rust/pull/121557)
+* [set writable and `dead_on_unwind` attributes for sret arguments](https://github.com/rust-lang/rust/pull/121298)
+* [strengthen tracking issue policy with consequences](https://github.com/rust-lang/rust/pull/124334)
+* [suggest ref mut for pattern matching assignment](https://github.com/rust-lang/rust/pull/119650)
+* [suggest using type args directly instead of equality constraint](https://github.com/rust-lang/rust/pull/122591)
+* [use fulfillment in method probe, not evaluation](https://github.com/rust-lang/rust/pull/122317)
+* [use probes more aggressively in new solver](https://github.com/rust-lang/rust/pull/124415)
+* [weak lang items are not allowed to be `#[track_caller]`](https://github.com/rust-lang/rust/pull/124067)
+* [miri: detect wrong vtables in wide pointers](https://github.com/rust-lang/rust/pull/124220)
+* [miri: `unix_sigpipe`: don't inline DEFAULT, just use it from rustc](https://github.com/rust-lang/miri/pull/3510)
+* [miri: add `-Zmiri-env-set` to set environment variables without modifying the host environment](https://github.com/rust-lang/miri/pull/3493)
+* [miri env: split up Windows and Unix environment variable handling](https://github.com/rust-lang/miri/pull/3517)
+* [miri: file descriptors: make write take &mut self](https://github.com/rust-lang/miri/pull/3524)
+* [miri: implement LLVM x86 AVX2 intrinsics](https://github.com/rust-lang/miri/pull/3492)
+* [miri: make miri-script a workspace root](https://github.com/rust-lang/miri/pull/3512)
+* [miri: use the interpreted program's TZ variable in `localtime_r`](https://github.com/rust-lang/miri/pull/3523)
+* [miri: windows: basic support for GetUserProfileDirectoryW](https://github.com/rust-lang/miri/pull/3502)
+* [stabilise `inline_const`](https://github.com/rust-lang/rust/pull/104087)
+* [stabilize `Utf8Chunks`](https://github.com/rust-lang/rust/pull/123909)
+* [stabilize `non_null_convenience`](https://github.com/rust-lang/rust/pull/124498)
+* [stabilize `std::path::absolute`](https://github.com/rust-lang/rust/pull/124335)
+* [stabilize `io_error_downcast`](https://github.com/rust-lang/rust/pull/124076)
+* [deLLVMize some intrinsics (use `u32` instead of `Self` in some integer intrinsics)](https://github.com/rust-lang/rust/pull/124003)
+* [stop using LLVM `struct` types for alloca](https://github.com/rust-lang/rust/pull/122053)
+* [`thread_local`: be excruciatingly explicit in dtor code](https://github.com/rust-lang/rust/pull/124387)
+* [fix `offset_of!` returning a temporary](https://github.com/rust-lang/rust/pull/124484)
+* [relax `A: Clone` bound for `rc::Weak::into_raw_and_alloc`](https://github.com/rust-lang/rust/pull/124432)
+* [`PathBuf`: replace transmuting by accessor functions](https://github.com/rust-lang/rust/pull/124410)
+* [codegen\_gcc: some fixes for aarch64](https://github.com/rust-lang/rustc_codegen_gcc/pull/504)
+* [codegen\_gcc: some more fixes and workarounds for Aarch64](https://github.com/rust-lang/rustc_codegen_gcc/pull/508)
+* [cargo: alias: Aliases without subcommands should not panic](https://github.com/rust-lang/cargo/pull/13819)
+* [cargo: lints: Don't always inherit workspace lints](https://github.com/rust-lang/cargo/pull/13812)
+* [cargo install: Don't respect MSRV for non-local installs](https://github.com/rust-lang/cargo/pull/13790)
+* [cargo toml: Be more forceful with underscore/dash redundancy](https://github.com/rust-lang/cargo/pull/13798)
+* [cargo toml: Don't double-warn when underscore is used in workspace dep](https://github.com/rust-lang/cargo/pull/13800)
+* [cargo toml: Remove underscore field support in 2024](https://github.com/rust-lang/cargo/pull/13804)
+* [cargo toml: Warn, rather than fail publish, if a target is excluded](https://github.com/rust-lang/cargo/pull/13713)
+* [cargo toml: remove support for inheriting badges](https://github.com/rust-lang/cargo/pull/13788)
+* [cargo: note where lint was set](https://github.com/rust-lang/cargo/pull/13801)
+* [cargo: cleanup linting system](https://github.com/rust-lang/cargo/pull/13797)
+* [cargo: fix target entry in .gitignore](https://github.com/rust-lang/cargo/pull/13817)
+* [cargo: fix warning suppression for config.toml vs config compat symlinks](https://github.com/rust-lang/cargo/pull/13793)
+* [bindgen: add dynamic loading of variable](https://github.com/rust-lang/rust-bindgen/pull/2812)
+* [bindgen: remove which dependency](https://github.com/rust-lang/rust-bindgen/pull/2809)
+* [bindgen: simplify Rust to Clang target conversion](https://github.com/rust-lang/rust-bindgen/pull/2808)
+* [clippy: `single_match`(`_else`) may be machine applicable](https://github.com/rust-lang/rust-clippy/pull/12726)
+* [clippy: `non_canonical_partial_ord_impl`: Fix emitting warnings which conflict with `needless_return`](https://github.com/rust-lang/rust-clippy/pull/12702)
+* [clippy: `type_complexity`: Fix duplicate errors](https://github.com/rust-lang/rust-clippy/pull/12736)
+* [clippy: check if closure as method arg has read access in `collection_is_never_read`](https://github.com/rust-lang/rust-clippy/pull/12694)
+* [clippy: configurably allow `useless_vec` in tests](https://github.com/rust-lang/rust-clippy/pull/12725)
+* [clippy: fix `large_stack_arrays` linting in `vec` macro](https://github.com/rust-lang/rust-clippy/pull/12624)
+* [clippy: fix false positive in `cast_possible_truncation`](https://github.com/rust-lang/rust-clippy/pull/12722)
+* [clippy: suppress `readonly_write_lock` for underscore-prefixed bindings](https://github.com/rust-lang/rust-clippy/pull/12734)
+* [rust-analyzer: different error code of "no such field" error based on variant type](https://github.com/rust-lang/rust-analyzer/pull/17131)
+* [rust-analyzer: don't retry position relient requests and version resolve data](https://github.com/rust-lang/rust-analyzer/pull/17157)
+* [rust-analyzer: fix attributes on generic parameters colliding in item tree](https://github.com/rust-lang/rust-analyzer/pull/17151)
+* [rust-analyzer: fix doc comment desugaring for proc-macros](https://github.com/rust-lang/rust-analyzer/pull/17153)
+* [rust-analyzer: fix expression scopes not being calculated for inline consts](https://github.com/rust-lang/rust-analyzer/pull/17135)
+* [rust-analyzer: fix source roots not always being created when necessary](https://github.com/rust-lang/rust-analyzer/pull/17145)
+* [rust-analyzer: make `cargo run` always available for binaries](https://github.com/rust-lang/rust-analyzer/pull/16972)
+* [rust-analyzer: manual: remove suggestion of rust-project.json example](https://github.com/rust-lang/rust-analyzer/pull/17144)
+* [rust-analyzer: support hovering limits for adts](https://github.com/rust-lang/rust-analyzer/pull/17021)
+* [rustfmt: fix wrong indentation on inner attribute](https://github.com/rust-lang/rustfmt/pull/6148)
 
 ### Rust Compiler Performance Triage
 
@@ -293,7 +389,16 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> "I'll never!"
+> "No, never is in the 2024 Edition."
+> "But never can't be this year, it's never!"
+> "Well we're trying to make it happen now!"
+> "But never isn't now?" "I mean technically, now never is the unit."
+> "But how do you have an entire unit if it never happens?"
+
+– [Jubilee on Zulip](https://rust-lang.zulipchat.com/#narrow/stream/268952-edition/topic/should.20have.20been.202025.20edition/near/435845944)
+
+Thanks to [Jacob Pratt](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1565) for the suggestion! 
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
