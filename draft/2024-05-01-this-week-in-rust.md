@@ -43,8 +43,8 @@ and just ask the editors to select the category.
 * [audio] [Ratatui with Orhun Parmaksiz :: Rustacean Station](https://rustacean-station.org/episode/orhun-parmaksiz/)
 
 ### Rust Walkthroughs
-
 * [Zed Decoded: Rope & SumTree](https://zed.dev/blog/zed-decoded-rope-sumtree)
+* [Boosting Dev Experience with Serverless Rust in RustRover](https://blog.jetbrains.com/rust/2024/04/26/boosting-dev-experience-with-serverless-rust-in-rustrover/)
 
 ### Research
 
