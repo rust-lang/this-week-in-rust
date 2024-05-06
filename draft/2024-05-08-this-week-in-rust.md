@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Download Accelerator - Async Rust Edition](https://ochagavia.nl/blog/download-accelerator-async-rust-edition/)
+
 ### Rust Walkthroughs
 
 ### Research
