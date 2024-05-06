@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [ZH | EN] [Writing a GPT Plugin in Rust, and Lost Gems](https://ideas.reify.ing/en/blog/gpt-plugin-rust-and-lost-gems/)
+
 ### Research
 
 ### Miscellaneous
