@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Building a Redis / Kafka Data Sink in Rust](https://www.sea-ql.org/blog/2024-05-05-redis-kafka-data-sink/)
+
 ### Research
 
 ### Miscellaneous
