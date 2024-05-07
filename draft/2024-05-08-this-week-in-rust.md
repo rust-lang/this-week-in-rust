@@ -36,10 +36,17 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [Meilisearch releases v1.8](https://blog.meilisearch.com/meilisearch-1-8/) - ([Rust SDK](https://github.com/meilisearch/meilisearch-rust))
+* [r3bl_terminal_async v0.5.2 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v052-2020-05-06)
 
 ### Observations/Thoughts
 
+* [Download Accelerator - Async Rust Edition](https://ochagavia.nl/blog/download-accelerator-async-rust-edition/)
+
 ### Rust Walkthroughs
+* [How to rewrite a C++ codebase successfully](https://gaultier.github.io/blog/how_to_rewrite_a_cpp_codebase_successfully.html)
+* [Building a Redis / Kafka Data Sink in Rust](https://www.sea-ql.org/blog/2024-05-05-redis-kafka-data-sink/)
+* [ZH | EN] [Writing a GPT Plugin in Rust, and Lost Gems](https://ideas.reify.ing/en/blog/gpt-plugin-rust-and-lost-gems/)
+* [What is in a Rust Allocator?](https://blog.sulami.xyz/posts/what-is-in-a-rust-allocator/)
 
 ### Research
 
