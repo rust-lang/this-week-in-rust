@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 * [Download Accelerator - Async Rust Edition](https://ochagavia.nl/blog/download-accelerator-async-rust-edition/)
 
 ### Rust Walkthroughs
+- [How to rewrite a C++ codebase successfully](https://gaultier.github.io/blog/how_to_rewrite_a_cpp_codebase_successfully.html)
 
 * [Building a Redis / Kafka Data Sink in Rust](https://www.sea-ql.org/blog/2024-05-05-redis-kafka-data-sink/)
 * [ZH | EN] [Writing a GPT Plugin in Rust, and Lost Gems](https://ideas.reify.ing/en/blog/gpt-plugin-rust-and-lost-gems/)
