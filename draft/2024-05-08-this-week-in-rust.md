@@ -45,7 +45,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [derive\_more](https://docs.rs/derive_more), a crate for deriving a whole lot of traits
+
+Thanks to [teor](https://users.rust-lang.org/t/crate-of-the-week/2704/1306) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -95,7 +97,103 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+426 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2024-04-30..2024-05-07
+
+* [AST pretty: Use `builtin_syntax` for type ascription](https://github.com/rust-lang/rust/pull/124637)
+* [`const_eval_select`: add tracking issue](https://github.com/rust-lang/rust/pull/124626)
+* [`default_alloc_error_hook`: explain difference to default `__rdl_oom` in alloc](https://github.com/rust-lang/rust/pull/124059)
+* [account for immutably borrowed locals in MIR copy-prop and GVN](https://github.com/rust-lang/rust/pull/123602)
+* [add `normalize()` in run-make `Diff` type](https://github.com/rust-lang/rust/pull/124561)
+* [add `rustfmt` cfg to well known cfgs list](https://github.com/rust-lang/rust/pull/124742)
+* [add a lint against never type fallback affecting unsafe code](https://github.com/rust-lang/rust/pull/123939)
+* [add support for inputing via stdin with run-make-support](https://github.com/rust-lang/rust/pull/124612)
+* [adjust `#[macro_export]`/doctest help suggestion for `non_local_defs` lint](https://github.com/rust-lang/rust/pull/124568)
+* [always print nice 'std not found' error when std is not found](https://github.com/rust-lang/rust/pull/124582)
+* [borrowck: prepopulate opaque storage more eagerly](https://github.com/rust-lang/rust/pull/124809)
+* [consider inner modules to be local in the `non_local_definitions` lint](https://github.com/rust-lang/rust/pull/124539)
+* [deref patterns: impl `DerefPure` for more std types](https://github.com/rust-lang/rust/pull/123480)
+* [don't consider candidates with no failing where clauses when refining obligation causes in new solver](https://github.com/rust-lang/rust/pull/124771)
+* [enable `--check-cfg` by default in UI tests](https://github.com/rust-lang/rust/pull/124345)
+* [enable reusing CI Docker cache when running CI images locally](https://github.com/rust-lang/rust/pull/124663)
+* [fix `NormalizesTo` proof tree issue](https://github.com/rust-lang/rust/pull/124566)
+* [fix unwinding on 32-bit watchOS ARM](https://github.com/rust-lang/rust/pull/124494)
+* [fix unwinding on 32-bit watchOS ARM (v2)](https://github.com/rust-lang/rust/pull/124748)
+* [generalize `adjust_from_tcx` for `Allocation`](https://github.com/rust-lang/rust/pull/124492)
+* [implement `do_not_recommend` in the new solver](https://github.com/rust-lang/rust/pull/124717)
+* [implement `ptr_as_ref_unchecked`](https://github.com/rust-lang/rust/pull/122492)
+* [improve check-cfg CLI errors with more structured diagnostics](https://github.com/rust-lang/rust/pull/124679)
+* [interpret, miri: uniform treatments of intrinsics/functions with and without return block](https://github.com/rust-lang/rust/pull/124715)
+* [interpret: drop: always evaluate place](https://github.com/rust-lang/rust/pull/124720)
+* [interpret: hide some reexports in rustdoc](https://github.com/rust-lang/rust/pull/124627)
+* [lazily normalize inside trait ref during orphan check & consider ty params in rigid alias types to be uncovered](https://github.com/rust-lang/rust/pull/117164)
+* [let miri and const eval execute intrinsics' fallback bodies](https://github.com/rust-lang/rust/pull/124293)
+* [only consider ambiguous goals when finding best obligation for ambiguities](https://github.com/rust-lang/rust/pull/124690)
+* [prefer lower vtable candidates in select in new solver](https://github.com/rust-lang/rust/pull/124724)
+* [record impl args in the proof tree](https://github.com/rust-lang/rust/pull/124718)
+* [record impl args in the proof tree in new solver](https://github.com/rust-lang/rust/pull/124759)
+* [remove redundant union check in `KnownPanicsLint` const prop](https://github.com/rust-lang/rust/pull/124550)
+* [rewrite select (in the new solver) to use a `ProofTreeVisitor`](https://github.com/rust-lang/rust/pull/124529)
+* [shallow resolve in orphan check](https://github.com/rust-lang/rust/pull/124623)
+* [split mcdc code to a sub module of coverageinfo](https://github.com/rust-lang/rust/pull/124399)
+* [stop `llvm.expect`ing assert terminators](https://github.com/rust-lang/rust/pull/124606)
+* [support `Result<T, E>` across FFI when niche optimization can be used](https://github.com/rust-lang/rust/pull/122253)
+* [tweak `consts_may_unify`](https://github.com/rust-lang/rust/pull/124610)
+* [use `ObligationCtxt` in favor of `TraitEngine` in many more places](https://github.com/rust-lang/rust/pull/124588)
+* [use `super_fold` in `RegionsToStatic` visitor](https://github.com/rust-lang/rust/pull/124808)
+* [use `tcx.types.unit` instead of `Ty::new_unit(tcx)`](https://github.com/rust-lang/rust/pull/124624)
+* [use a proof tree visitor to refine the `Obligation` for error reporting in new solver](https://github.com/rust-lang/rust/pull/124418)
+* [miri: /miri run: support -v flag to print what it is doing](https://github.com/rust-lang/miri/pull/3545)
+* [miri: don’t print `Preparing a sysroot` when `-q`/`--quiet` is passed](https://github.com/rust-lang/miri/pull/3531)
+* [miri: macos: use getentropy from libc](https://github.com/rust-lang/miri/pull/3551)
+* [miri: make file descriptors into refcount references](https://github.com/rust-lang/miri/pull/3533)
+* [miri: make many-seeds a mode of ./miri run rather than a separate command](https://github.com/rust-lang/miri/pull/3548)
+* [miri: only show the 'basic API common for this target' message when this is a missing foreign function](https://github.com/rust-lang/miri/pull/3562)
+* [miri: pthread shims: reorganize field offset handling, and add sanity checks](https://github.com/rust-lang/miri/pull/3564)
+* [miri: solaris: make pre-main code work](https://github.com/rust-lang/miri/pull/3570)
+* [miri: sync: better error in invalid synchronization primitive ID](https://github.com/rust-lang/miri/pull/3560)
+* [miri: tls dtors: treat all unixes uniformly](https://github.com/rust-lang/miri/pull/3550)
+* [miri: tree Borrows: first apply transition, then check protector with new 'initialized'](https://github.com/rust-lang/miri/pull/3532)
+* [miri: unix/thread: properly use `pthread_t` for thread IDs](https://github.com/rust-lang/miri/pull/3568)
+* [some hir cleanups](https://github.com/rust-lang/rust/pull/124401)
+* [stabilize `exclusive_range_pattern`](https://github.com/rust-lang/rust/pull/124459)
+* [stabilize `exclusive_range_pattern` (v2)](https://github.com/rust-lang/rust/pull/124749)
+* [stabilize `split_at_checked`](https://github.com/rust-lang/rust/pull/124678)
+* [improve several `Read` implementations](https://github.com/rust-lang/rust/pull/122441)
+* [add constants for f16 and f128](https://github.com/rust-lang/rust/pull/123850)
+* [compiler builtins for `f16`/`f128` float conversions](https://github.com/rust-lang/compiler-builtins/pull/593)
+* [cargo lint: Warn not Error on unsupported lint tool](https://github.com/rust-lang/cargo/pull/13833)
+* [cargo lints: Prevent inheritance from bring exposed for published packages](https://github.com/rust-lang/cargo/pull/13852)
+* [cargo lints: Remove ability to specify `-` in lint name](https://github.com/rust-lang/cargo/pull/13837)
+* [cargo resolver: Treat unset MSRV as compatible](https://github.com/rust-lang/cargo/pull/13791)
+* [cargo toml: Don't lose 'public' when inheriting a dep](https://github.com/rust-lang/cargo/pull/13836)
+* [cargo toml: On 2024 Edition, disallow ignored `default-features` when inheriting](https://github.com/rust-lang/cargo/pull/13839)
+* [cargo toml: Remove unstable rejrected frontmatter syntax for cargo script](https://github.com/rust-lang/cargo/pull/13861)
+* [cargo toml: Validate `crates_types/proc-macro` for bin like others](https://github.com/rust-lang/cargo/pull/13841)
+* [cargo toml: Avoid inferring when targets are known](https://github.com/rust-lang/cargo/pull/13849)
+* [cargo clean package perf improvements](https://github.com/rust-lang/cargo/pull/13818)
+* [cargo: error when unstable lints are specified but not enabled](https://github.com/rust-lang/cargo/pull/13805)
+* [cargo: populate git information when building Cargo from Rust's source tarball](https://github.com/rust-lang/cargo/pull/13832)
+* [cargo: stabilize `-Zcheck-cfg` as always enabled](https://github.com/rust-lang/cargo/pull/13571)
+* [cargo: workaround copying file returning EAGAIN on ZFS on mac OS](https://github.com/rust-lang/cargo/pull/13845)
+* [rustdoc-search: search for references](https://github.com/rust-lang/rust/pull/124148)
+* [clippy: allow more attributes in `clippy::useless_attribute`](https://github.com/rust-lang/rust-clippy/pull/12755)
+* [clippy: don't lint `assigning_clones` on nested late init locals](https://github.com/rust-lang/rust-clippy/pull/12742)
+* [clippy: don't suggest `Box::default()` in functions with differing generics](https://github.com/rust-lang/rust-clippy/pull/12687)
+* [clippy: fix `FormatArgs` storage when `-Zthreads` \> 1](https://github.com/rust-lang/rust-clippy/pull/12567)
+* [clippy: fix `for x in y unsafe { }`](https://github.com/rust-lang/rust-clippy/pull/12515)
+* [clippy: fix suggestion error for `manual_is_ascii_check` with missing type](https://github.com/rust-lang/rust-clippy/pull/11988)
+* [clippy: suggest collapsing nested or patterns if the MSRV allows it](https://github.com/rust-lang/rust-clippy/pull/12745)
+* [clippy: type safe CLI implementation for clippy-dev](https://github.com/rust-lang/rust-clippy/pull/12747)
+* [rust-analyzer: make generate function assist generate a function as a constructor if the generated function has the name "new" and is an asscociated function](https://github.com/rust-lang/rust-analyzer/pull/17138)
+* [rust-analyzer: fix Run lens showing when lenses are disabled](https://github.com/rust-lang/rust-analyzer/pull/17177)
+* [rust-analyzer: fix impl trait params not being counted properly](https://github.com/rust-lang/rust-analyzer/pull/17176)
+* [rust-analyzer: correctly handle `no_core`/`no_std` for preludes](https://github.com/rust-lang/rust-analyzer/pull/17172)
+* [rust-analyzer: discard path when the path is invalid](https://github.com/rust-lang/rust-analyzer/pull/17161)
+* [rust-analyzer: fix implicit ty args being lowered where they shouldn't](https://github.com/rust-lang/rust-analyzer/pull/17175)
+* [rust-analyzer: implement creating generics for impl traits in associated types](https://github.com/rust-lang/rust-analyzer/pull/17160)
+* [rust-analyzer: lifetime's Bound Var Debrujin Index in Dyn Traits](https://github.com/rust-lang/rust-analyzer/pull/17190)
 
 ### Rust Compiler Performance Triage
 
@@ -287,7 +385,20 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Rust and its borrow checker are like proper form when lifting boxes. While you might have been lifting boxes "the natural way" for decades without a problem, and its an initial embuggerance to think and perform proper lifting form, it is learnable, efficient, and prevents some important problems.
+>
+> Or more succinctly:  
+> C/C++: It'll screw your back(end).
+
+And the reply:
+
+> 1. there’s a largish group of men who would feel their masculinity attacked if you implied they should learn it
+> 2. while it's learnable finding usefully targeted educational resources are hard to come by
+> 3. proper form while lifting boxes are a really terrible way to model graphs
+
+– [Brett Witty and Leon on Mastodon](https://mstdn.social/@brettwitty/111734369720814683)
+
+Thanks to [Brett Witty](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1566) for the self-suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
