@@ -35,7 +35,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [Meilisearch releases v1.8](https://blog.meilisearch.com/meilisearch-1-8/) - ([Rust SDK](https://github.com/meilisearch/meilisearch-rust))
+* [Meilisearch releases v1.8](https://blog.meilisearch.com/meilisearch-1-8/)
 * [r3bl_terminal_async v0.5.2 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v052-2020-05-06)
 
 ### Observations/Thoughts
