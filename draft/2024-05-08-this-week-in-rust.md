@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 * [What is in a Rust Allocator?](https://blog.sulami.xyz/posts/what-is-in-a-rust-allocator/)
 
 ### Research
+* [Rust Digger: 47,764 (32.92%) of the crates include a Cargo.lock file](https://rust-digger.code-maven.com/news/cargo-lock-and-main-rs)
 
 ### Miscellaneous
 
