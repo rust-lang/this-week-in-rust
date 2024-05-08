@@ -33,6 +33,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [RustFest.ch - All talks announced](https://rustfest.ch/posts/2024-05-07/all-talks-announced/)
+
 ### Project/Tooling Updates
 
 * [Meilisearch releases v1.8](https://blog.meilisearch.com/meilisearch-1-8/) - ([Rust SDK](https://github.com/meilisearch/meilisearch-rust))
