@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 
 * [Meilisearch releases v1.8](https://blog.meilisearch.com/meilisearch-1-8/) - ([Rust SDK](https://github.com/meilisearch/meilisearch-rust))
 * [r3bl_terminal_async v0.5.2 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v052-2020-05-06)
+* [Zed Decoded: Linux when?](https://zed.dev/blog/zed-decoded-linux-when)
 
 ### Observations/Thoughts
 
