@@ -70,6 +70,7 @@ and just ask the editors to select the category.
 * [video] [Make a port scanner in #rustlang with Tokio and learn async Rust](https://www.youtube.com/watch?v=J3C6sNK2wnk)
 
 ### Research
+* [Rust Digger: 47,764 (32.92%) of the crates include a Cargo.lock file](https://rust-digger.code-maven.com/news/cargo-lock-and-main-rs)
 * [VERT: Verified Equivalent Rust Transpilation with Few-Shot Learning](https://arxiv.org/abs/2404.18852)
 
 ### Miscellaneous
