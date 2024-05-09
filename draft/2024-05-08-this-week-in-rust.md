@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 * [This Month in Rust OSDev: April 2024](https://rust-osdev.com/this-month/2024-04/)
 * [This Month in Rust GameDev #50 - April 2024](https://gamedev.rs/news/050/)
 
+* [RustFest.ch - All talks announced](https://rustfest.ch/posts/2024-05-07/all-talks-announced/)
+
 ### Project/Tooling Updates
 * [image v0.25: performance improvements, production-ready WebP](https://www.reddit.com/r/rust/comments/1cj94va/image_v025_performance_improvements/)
 * [Changelog #232](https://rust-analyzer.github.io/thisweek/2024/05/06/changelog-232.html)
