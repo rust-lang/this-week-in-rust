@@ -46,7 +46,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [image v0.25: performance improvements, production-ready WebP](https://www.reddit.com/r/rust/comments/1cj94va/image_v025_performance_improvements/)
-* [Changelog #232](https://rust-analyzer.github.io/thisweek/2024/05/06/changelog-232.html)
+* [rust-analyzer changelog #232](https://rust-analyzer.github.io/thisweek/2024/05/06/changelog-232.html)
 * [rustc_codegen_gcc: Progress Report #32](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-32)
 * [Introducing graphql-lint and gqlint](https://grafbase.com/changelog/graphql-lint)
 * [Meilisearch releases v1.8](https://blog.meilisearch.com/meilisearch-1-8/)
