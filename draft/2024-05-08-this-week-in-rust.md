@@ -73,6 +73,7 @@ and just ask the editors to select the category.
 * [VERT: Verified Equivalent Rust Transpilation with Few-Shot Learning](https://arxiv.org/abs/2404.18852)
 
 ### Miscellaneous
+* [Elapsed time logger](https://rust.code-maven.com/elapsed-time-logger)
 
 ## Crate of the Week
 
