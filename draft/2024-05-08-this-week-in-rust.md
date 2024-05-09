@@ -28,28 +28,51 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.78.0](https://blog.rust-lang.org/2024/05/02/Rust-1.78.0.html)
+* [Announcing Rustup 1.27.1](https://blog.rust-lang.org/2024/05/06/Rustup-1.27.1.html)
+* [Automatic checking of cfgs at compile-time](https://blog.rust-lang.org/2024/05/06/check-cfg.html)
+* [Announcing Google Summer of Code 2024 selected projects](https://blog.rust-lang.org/2024/05/01/gsoc-2024-selected-projects.html)
+* [Rust participates in OSPP 2024](https://blog.rust-lang.org/2024/05/07/OSPP-2024.html)
+* [This Development-cycle in Cargo: 1.79](https://blog.rust-lang.org/inside-rust/2024/05/07/this-development-cycle-in-cargo-1.79.html)
+* [Rust Project Goals Submission Period](https://blog.rust-lang.org/inside-rust/2024/05/07/announcing-project-goals.html)
 
 ### Foundation
+* [$1M Microsoft Donation to Fund Key Rust Foundation & Project Priorities](https://foundation.rust-lang.org/news/1m-microsoft-donation-to-fund-key-rust-foundation-project-priorities/)
 
 ### Newsletters
+* [This Month in Rust OSDev: April 2024](https://rust-osdev.com/this-month/2024-04/)
+* [This Month in Rust GameDev #50 - April 2024](https://gamedev.rs/news/050/)
 
 ### Project/Tooling Updates
 
+* [Zed Decoded: Linux when? - Zed Blog](https://zed.dev/blog/zed-decoded-linux-when)
+* [image v0.25: performance improvements, production-ready WebP](https://www.reddit.com/r/rust/comments/1cj94va/image_v025_performance_improvements/)
+* [Changelog #232](https://rust-analyzer.github.io/thisweek/2024/05/06/changelog-232.html)
+* [rustc_codegen_gcc: Progress Report #32](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-32)
+* [Introducing graphql-lint and gqlint](https://grafbase.com/changelog/graphql-lint)
 * [Meilisearch releases v1.8](https://blog.meilisearch.com/meilisearch-1-8/) - ([Rust SDK](https://github.com/meilisearch/meilisearch-rust))
 * [r3bl_terminal_async v0.5.2 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v052-2020-05-06)
 * [Zed Decoded: Linux when?](https://zed.dev/blog/zed-decoded-linux-when)
 
 ### Observations/Thoughts
-
+* [Pair Your Compilers At The ABI Café - Faultlore](https://faultlore.com/blah/abi-puns/)
+* [Unwind considered harmful?](https://smallcultfollowing.com/babysteps/blog/2024/05/02/unwind-considered-harmful/)
+* [Async Rust Complexity](https://v5.chriskrycho.com/journal/async-rust-complexity/)
 * [Download Accelerator - Async Rust Edition](https://ochagavia.nl/blog/download-accelerator-async-rust-edition/)
+* [video] [David Lattimore - A Linker in the Wild](https://www.youtube.com/watch?v=WSHt3-gwVxc)
+* [audio] [curl - Daniel Stenberg, Open Source Maintainer and Public Speaker](https://corrode.dev/podcast/s02e01-curl/)
 
 ### Rust Walkthroughs
 * [How to rewrite a C++ codebase successfully](https://gaultier.github.io/blog/how_to_rewrite_a_cpp_codebase_successfully.html)
 * [Building a Redis / Kafka Data Sink in Rust](https://www.sea-ql.org/blog/2024-05-05-redis-kafka-data-sink/)
 * [ZH | EN] [Writing a GPT Plugin in Rust, and Lost Gems](https://ideas.reify.ing/en/blog/gpt-plugin-rust-and-lost-gems/)
 * [What is in a Rust Allocator?](https://blog.sulami.xyz/posts/what-is-in-a-rust-allocator/)
+* [How hard can generating 1024-bit primes really be?](https://glitchcomet.com/articles/1024-bit-primes/)
+* [STM32F4 Embedded Rust at the PAC: System Clock Configuration](https://blog.theembeddedrustacean.com/stm32f4-embedded-rust-at-the-pac-system-clock-configuration)
+* [video] [Make a port scanner in #rustlang with Tokio and learn async Rust](https://www.youtube.com/watch?v=J3C6sNK2wnk)
 
 ### Research
+* [VERT: Verified Equivalent Rust Transpilation with Few-Shot Learning](https://arxiv.org/abs/2404.18852)
 
 ### Miscellaneous
 
