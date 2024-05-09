@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Maelstrom: A Hermetic, Clustered Test Runner for Rust (and It’s Fast)](https://www.reddit.com/r/rust/comments/1chrshl/maelstrom_a_hermetic_clustered_test_runner_for/)
 
 ### Observations/Thoughts
 
