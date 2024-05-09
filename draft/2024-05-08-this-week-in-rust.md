@@ -44,8 +44,6 @@ and just ask the editors to select the category.
 * [This Month in Rust GameDev #50 - April 2024](https://gamedev.rs/news/050/)
 
 ### Project/Tooling Updates
-
-* [Zed Decoded: Linux when? - Zed Blog](https://zed.dev/blog/zed-decoded-linux-when)
 * [image v0.25: performance improvements, production-ready WebP](https://www.reddit.com/r/rust/comments/1cj94va/image_v025_performance_improvements/)
 * [Changelog #232](https://rust-analyzer.github.io/thisweek/2024/05/06/changelog-232.html)
 * [rustc_codegen_gcc: Progress Report #32](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-32)
