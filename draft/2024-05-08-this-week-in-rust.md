@@ -208,7 +208,18 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+
+Largely uneventful week; the most notable shifts were considered false-alarms
+that arose from changes related to cfg-checking (either cargo enabling it, or
+adding cfg's like `rustfmt` to the "well-known cfgs list").
+
+Triage done by **@pnkfelix**.
+Revision range: [c65b2dc9..69f53f5e](https://perf.rust-lang.org/?start=c65b2dc935c27c0c8c3997c6e8d8894718a2cb1a&end=69f53f5e5583381267298ac182eb02c7f1b5c1cd&absolute=false&stat=instructions%3Au)
+
+3 Regressions, 2 Improvements, 3 Mixed; 5 of them in rollups
+54 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/6774c877ace0a2d9138b2b06ef0aabf6c2317a43/triage/2024-05-06.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
