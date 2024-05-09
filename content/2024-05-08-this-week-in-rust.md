@@ -42,7 +42,6 @@ and just ask the editors to select the category.
 ### Newsletters
 * [This Month in Rust OSDev: April 2024](https://rust-osdev.com/this-month/2024-04/)
 * [This Month in Rust GameDev #50 - April 2024](https://gamedev.rs/news/050/)
-
 * [RustFest.ch - All talks announced](https://rustfest.ch/posts/2024-05-07/all-talks-announced/)
 
 ### Project/Tooling Updates
@@ -233,7 +232,6 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [rust-analyzer: lifetime's Bound Var Debrujin Index in Dyn Traits](https://github.com/rust-lang/rust-analyzer/pull/17190)
 
 ### Rust Compiler Performance Triage
-
 
 Largely uneventful week; the most notable shifts were considered false-alarms
 that arose from changes related to cfg-checking (either cargo enabling it, or
@@ -448,7 +446,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1cixuzr/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -473,4 +471,4 @@ Thanks to [Brett Witty](https://users.rust-lang.org/t/twir-quote-of-the-week/328
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1cnn8dh/this_week_in_rust_546/)</small>
