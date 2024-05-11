@@ -4,16 +4,14 @@ from state_territory_to_abbrev import au_state_territory_to_abbrev, us_state_to_
 from country_to_abbrev import country_to_abbrev
 
 class Event():
-  def __init__(self, name, location, date, url, virtual, organizerName, maybeSpam, popularity=None, recurring=None, inPast=None, duplicate=False) -> None:
+  def __init__(self, name, location, date, url, virtual, organizerName, maybeSpam, organizerUrl, duplicate=False) -> None:
     self.name = name
     self.location = location
     self.date = date
     self.url = url
     self.virtual = virtual
     self.organizerName = organizerName
-    self.popularity = popularity
-    self.recurring = recurring
-    self.inPast = inPast
+    self.organizerUrl = organizerUrl
     self.duplicate = duplicate
 
   def to_markdown_string(self) -> str:
