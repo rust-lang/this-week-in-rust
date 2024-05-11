@@ -4,7 +4,7 @@ from state_territory_to_abbrev import au_state_territory_to_abbrev, us_state_to_
 from country_to_abbrev import country_to_abbrev
 
 class Event():
-  def __init__(self, name, location, date, url, virtual, organizerName, maybeSpam, organizerUrl, duplicate=False) -> None:
+  def __init__(self, name, location, date, url, virtual, organizerName, organizerUrl, duplicate=False) -> None:
     self.name = name
     self.location = location
     self.date = date
