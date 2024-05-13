@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Rust for embedded Linux kernels](https://lwn.net/Articles/970216/)
 
 ### Observations/Thoughts
 
