@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Existential types in Rust](https://lwn.net/Articles/970186/)
 
 ### Rust Walkthroughs
 
