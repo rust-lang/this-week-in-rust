@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [r3bl_cmdr version v0.0.12 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v0012-2024-05-12)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
