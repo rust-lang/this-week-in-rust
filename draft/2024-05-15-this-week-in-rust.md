@@ -28,20 +28,37 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [May 2024 Leadership Council Update](https://blog.rust-lang.org/inside-rust/2024/05/14/leadership-council-update.html)
 
 ### Foundation
 
 ### Newsletters
+* [ClearCoat, new examples, and game updates](https://thisweekinbevy.com/issue/2024-05-13-clearcoat-new-examples-and-game-updates)
 
 ### Project/Tooling Updates
+* [kira - release v0.9.0](https://github.com/tesselode/kira/releases/tag/v0.9.0)
+* [Cushy v0.3: New widgets, offscreen capture, Plotters and Tokio integrations, and more](https://ecton.dev/cushy-v0-3/)
+* [bbolt-rs v1.3.8](https://github.com/ambaxter/bbolt-rs/blob/v1.3.8/docs/announcement.md)
 
 ### Observations/Thoughts
+* [Long-term Rust Project Maintenance](https://corrode.dev/blog/long-term-rust-maintenance/)
+* [Methods Should Be Object Safe](https://nora.codes/post/methods-should-be-object-safe/)
+* [References are like jumps](https://without.boats/blog/references-are-like-jumps/)
+* [Rust 1.78: Performance Impact of the 128-bit Memory Alignment Fix](https://codspeed.io/blog/rust-1-78-performance-impact-of-the-128-bit-memory-alignment-fix)
+* [HowTo: Egui with webworkers](https://voelklmichael.github.io/Blog/2024/05/12/egui-wasm-threads.html)
+* [Using build.rs to integrate rust applications with system libraries like a pro](https://neosmart.net/blog/using-build-rs-to-integrate-rust-applications-with-system-libraries-like-a-pro/)
+* [Rust actors + ArcMutex: handle with care](https://dgroshev.com/blog/rust-actors-mutex/)
+* [Rust through the ages](https://www.ncameron.org/blog/rust-through-the-ages/)
+* [Mixing rayon and tokio for fun and (hair) loss](https://blog.dureuill.net/articles/dont-mix-rayon-tokio/)
+* [Long-running backend async tasks in tauri v2](https://sneakycrow.dev/blog/2024-05-12-running-async-tasks-in-tauri-v2)
+* [Blazingly Fast Linked Lists](https://dygalo.dev/blog/blazingly-fast-linked-lists/)
 
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+* [VS Code Extensions and WebAssembly](https://code.visualstudio.com/blogs/2024/05/08/wasm)
 
 ## Crate of the Week
 
