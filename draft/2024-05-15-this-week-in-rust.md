@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Cushy v0.3 (GUI crate): New widgets, offscreen capture, Plotters and Tokio integrations, and more](https://ecton.dev/cushy-v0-3/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
