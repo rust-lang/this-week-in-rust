@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [Error Handling for Large Rust Projects - A Deep Dive into GreptimeDB's Practices](https://greptime.com/blogs/2024-05-07-error-rust)
+
 ### Rust Walkthroughs
 
 ### Research
@@ -83,6 +85,16 @@ Some of these tasks may also have mentors available, visit the task page for mor
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
+
+Here are the GreptimeDB and OSPP issues for community contributors (students). Mentors and bonuses will be provided for contributors who are selected:
+
+* [Adding JSON Type to GreptimeDB](https://github.com/GreptimeTeam/greptimedb/issues/3686)
+
+* [Resource Constrained Framework for Embedded Environments](https://github.com/GreptimeTeam/greptimedb/issues/3685)
+
+* [Design and implement an evaluation program similar to TPC-DS/TPC-H for time-series scenarios](https://github.com/GreptimeTeam/greptime-bench)
+
+Please register through this website: https://summer-ospp.ac.cn/org/orgdetail/32cda81d-a705-4ab7-8b13-7c27a86ac19a?lang=en
 
 ### CFP - Speakers
 
