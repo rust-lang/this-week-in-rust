@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Iroh 0.16 - A Better `Client`](https://iroh.computer/blog/iroh-0-16-a-better-client)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
