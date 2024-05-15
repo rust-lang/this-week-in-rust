@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [Build with Naz : tokio tracing & OTel and how to use it in Rust](https://youtu.be/Wf8JrLgBuKI)
+
 ### Research
 
 ### Miscellaneous
