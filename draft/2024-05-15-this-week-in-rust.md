@@ -210,7 +210,8 @@ Rusty Events between 2024-05-15 - 2024-06-12 🦀
 * 2024-05-11 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**May 2024 Rustacean meetup**](https://hasgeek.com/rustbangalore/may-2024-rustacean-meetup/)
 * 2024-05-14 | Tokyo, JP | [Tokyo Rust Meetup](https://www.meetup.com/tokyo-rust-meetup/)
-    * [**Wrapping C++ in Rust**](https://www.meetup.com/tokyo-rust-meetup/events/300879432/)
+* 2024-05-22 | Singapore, SG | [SG Rust Meetup](https://www.meetup.com/rust-singapore/)
+    * [**SG Rustaceans! Updated - SG Rust Meetup at CraftsforGreen Whole Studio**](https://www.meetup.com/rust-singapore/events/300988123/)
 
 ### Europe
 
