@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 * [Mixing rayon and tokio for fun and (hair) loss](https://blog.dureuill.net/articles/dont-mix-rayon-tokio/)
 * [Long-running backend async tasks in tauri v2](https://sneakycrow.dev/blog/2024-05-12-running-async-tasks-in-tauri-v2)
 * [Blazingly Fast Linked Lists](https://dygalo.dev/blog/blazingly-fast-linked-lists/)
+* [Existential types in Rust](https://lwn.net/Articles/970186/)
 
 ### Rust Walkthroughs
 * [Let's build a Load Balancer in Rust - Part 1](https://marcobacis.com/blog/load-balancer-rust-1/)
