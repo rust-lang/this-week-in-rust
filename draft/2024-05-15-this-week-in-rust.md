@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 * [bbolt-rs v1.3.8](https://github.com/ambaxter/bbolt-rs/blob/v1.3.8/docs/announcement.md)
 * [Maelstrom: A Hermetic, Clustered Test Runner for Rust (and It’s Fast)](https://www.reddit.com/r/rust/comments/1chrshl/maelstrom_a_hermetic_clustered_test_runner_for/)
 
+* [r3bl_cmdr version v0.0.12 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v0012-2024-05-12)
+
 ### Observations/Thoughts
 * [Long-term Rust Project Maintenance](https://corrode.dev/blog/long-term-rust-maintenance/)
 * [Methods Should Be Object Safe](https://nora.codes/post/methods-should-be-object-safe/)
