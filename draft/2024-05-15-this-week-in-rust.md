@@ -86,15 +86,12 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
-Here are the GreptimeDB and OSPP issues for community contributors (students). Mentors and bonuses will be provided for contributors who are selected:
 
-* [Adding JSON Type to GreptimeDB](https://github.com/GreptimeTeam/greptimedb/issues/3686)
+* [greptimedb - Adding JSON Type to GreptimeDB](https://github.com/GreptimeTeam/greptimedb/issues/3686)*
+* [greptimedb - Resource Constrained Framework for Embedded Environments](https://github.com/GreptimeTeam/greptimedb/issues/3685)*
+* [GreptimeTeam - Design and implement an evaluation program similar to TPC-DS/TPC-H for time-series scenarios](https://github.com/GreptimeTeam/greptime-bench)*
 
-* [Resource Constrained Framework for Embedded Environments](https://github.com/GreptimeTeam/greptimedb/issues/3685)
-
-* [Design and implement an evaluation program similar to TPC-DS/TPC-H for time-series scenarios](https://github.com/GreptimeTeam/greptime-bench)
-
-Please register through this website: https://summer-ospp.ac.cn/org/orgdetail/32cda81d-a705-4ab7-8b13-7c27a86ac19a?lang=en
+> * Issues open for student applications via OSPP. Selected students will be assigned a mentor(s), and may receive bonuses. Please register through the [OSPP link](https://summer-ospp.ac.cn/org/orgdetail/32cda81d-a705-4ab7-8b13-7c27a86ac19a?lang=en).
 
 ### CFP - Speakers
 
