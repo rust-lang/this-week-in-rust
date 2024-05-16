@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 * [r3bl_cmdr version v0.0.12 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v0012-2024-05-12)
 
+* [Cushy v0.3 (GUI crate): New widgets, offscreen capture, Plotters and Tokio integrations, and more](https://ecton.dev/cushy-v0-3/)
+
 ### Observations/Thoughts
 * [Long-term Rust Project Maintenance](https://corrode.dev/blog/long-term-rust-maintenance/)
 * [Methods Should Be Object Safe](https://nora.codes/post/methods-should-be-object-safe/)
