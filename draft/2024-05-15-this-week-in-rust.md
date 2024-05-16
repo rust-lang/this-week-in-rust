@@ -88,8 +88,8 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-* [EuroRust 2024](https://www.papercall.io/eurorust-2024)| Closes 2024-06-03 | Vienna, Austria & online | Event date: 2024-10-10
-* [Scientific Computing in Rust 2024](https://scientificcomputing.rs/)| Closes 2024-06-14 | online | Event date: 2024-07-17 - 2024-07-19
+* [EuroRust 2024](https://www.papercall.io/eurorust-2024) | Closes 2024-06-03 | Vienna, Austria & online | Event date: 2024-10-10
+* [Scientific Computing in Rust 2024](https://scientificcomputing.rs/) | Closes 2024-06-14 | online | Event date: 2024-07-17 - 2024-07-19
 * [Conf42 Rustlang 2024](https://www.papercall.io/conf42-rustlang-2024) | Closes 2024-07-22 | online | Event date: 2024-08-22
 * [Rust Argentina June 2024](https://sessionize.com/rust-argentina-june/) | Closes 2024-05-31 | Buenos Aires, AR | Event date: 2024-06-04
 
