@@ -99,7 +99,28 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A pretty quiet week with only a few PRs being flagged for analysis.
+More improvements than regressions this week, and also several nice
+binary size reductions caused by generating less LLVM IR.
+
+Triage done by **@kobzol**.
+Revision range: [69f53f5e..9105c57b](https://perf.rust-lang.org/?start=69f53f5e5583381267298ac182eb02c7f1b5c1cd&end=9105c57b7f6623310e33f3ee7e48a3114e5190a7&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.4%  | [0.2%, 0.9%]   | 8     |
+| Regressions ❌ <br /> (secondary)  | 0.9%  | [0.2%, 2.4%]   | 18    |
+| Improvements ✅ <br /> (primary)   | -1.1% | [-2.3%, -0.2%] | 51    |
+| Improvements ✅ <br /> (secondary) | -0.6% | [-1.4%, -0.3%] | 19    |
+| All ❌✅ (primary)                 | -0.9% | [-2.3%, 0.9%]  | 59    |
+
+
+1 Regression, 0 Improvements, 3 Mixed; 0 of them in rollups
+75 artifact comparisons made in total
+
+[Full report here](https://github.com/Kobzol/rustc-perf/blob/0ab8cfe4bdc3044f8e610349d90c1708675b1ccf/triage/2024-05-14.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
