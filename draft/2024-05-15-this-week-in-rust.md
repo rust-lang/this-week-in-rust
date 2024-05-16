@@ -58,6 +58,8 @@ and just ask the editors to select the category.
 * [Blazingly Fast Linked Lists](https://dygalo.dev/blog/blazingly-fast-linked-lists/)
 * [Existential types in Rust](https://lwn.net/Articles/970186/)
 
+* [Error Handling for Large Rust Projects - A Deep Dive into GreptimeDB's Practices](https://greptime.com/blogs/2024-05-07-error-rust)
+
 ### Rust Walkthroughs
 * [Let's build a Load Balancer in Rust - Part 1](https://marcobacis.com/blog/load-balancer-rust-1/)
 
@@ -110,6 +112,13 @@ Some of these tasks may also have mentors available, visit the task page for mor
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
+
+
+* [greptimedb - Adding JSON Type to GreptimeDB](https://github.com/GreptimeTeam/greptimedb/issues/3686)*
+* [greptimedb - Resource Constrained Framework for Embedded Environments](https://github.com/GreptimeTeam/greptimedb/issues/3685)*
+* [GreptimeTeam - Design and implement an evaluation program similar to TPC-DS/TPC-H for time-series scenarios](https://github.com/GreptimeTeam/greptime-bench)*
+
+> * Issues open for student applications via OSPP. Selected students will be assigned a mentor(s), and may receive bonuses. Please register through the [OSPP link](https://summer-ospp.ac.cn/org/orgdetail/32cda81d-a705-4ab7-8b13-7c27a86ac19a?lang=en).
 
 ### CFP - Speakers
 
