@@ -37,7 +37,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
-- [Error Handling for Large Rust Projects - A Deep Dive into GreptimeDB's Practices](https://greptime.com/blogs/2024-05-07-error-rust)
+* [Error Handling for Large Rust Projects - A Deep Dive into GreptimeDB's Practices](https://greptime.com/blogs/2024-05-07-error-rust)
 
 ### Rust Walkthroughs
 
