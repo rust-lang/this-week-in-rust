@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 * [ClearCoat, new examples, and game updates](https://thisweekinbevy.com/issue/2024-05-13-clearcoat-new-examples-and-game-updates)
 
 ### Project/Tooling Updates
+* [Rust for embedded Linux kernels](https://lwn.net/Articles/970216/)
 * [kira - release v0.9.0](https://github.com/tesselode/kira/releases/tag/v0.9.0)
 * [Cushy v0.3: New widgets, offscreen capture, Plotters and Tokio integrations, and more](https://ecton.dev/cushy-v0-3/)
 * [bbolt-rs v1.3.8](https://github.com/ambaxter/bbolt-rs/blob/v1.3.8/docs/announcement.md)
@@ -55,7 +56,6 @@ and just ask the editors to select the category.
 * [Blazingly Fast Linked Lists](https://dygalo.dev/blog/blazingly-fast-linked-lists/)
 
 ### Rust Walkthroughs
-
 * [Let's build a Load Balancer in Rust - Part 1](https://marcobacis.com/blog/load-balancer-rust-1/)
 
 ### Research
