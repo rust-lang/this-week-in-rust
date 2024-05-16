@@ -192,7 +192,7 @@ Rusty Events between 2024-05-15 - 2024-06-12 🦀
 * 2024-05-28 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
     * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/300533392/)
 * 2024-05-28 & 2024-05-28 | Virtual | [Mainmatter](https://mainmatter.com/)
-    * [**Remote Workshop: Telemetry for Rust APIs – you can't fix what you can't see**](https://ti.to/mainmatter/rust-telemetry-may-2024)
+    * [**Remote Workshop: Telemetry for Rust APIs – you can't fix what you can't see (fee)**](https://ti.to/mainmatter/rust-telemetry-may-2024)
 * 2024-05-30 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
     * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298542326/)
 * 2024-06-04 | Virtual (Buffalo, NY) | [Buffalo Rust Meetup](https://www.meetup.com/buffalo-rust-meetup/)
