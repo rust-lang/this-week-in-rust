@@ -59,6 +59,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [April 2024 Rust Jobs Report](https://filtra.io/rust-apr-24)
 * [VS Code Extensions and WebAssembly](https://code.visualstudio.com/blogs/2024/05/08/wasm)
 
 ## Crate of the Week
