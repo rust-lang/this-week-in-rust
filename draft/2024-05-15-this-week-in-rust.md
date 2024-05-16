@@ -30,8 +30,6 @@ and just ask the editors to select the category.
 ### Official
 * [May 2024 Leadership Council Update](https://blog.rust-lang.org/inside-rust/2024/05/14/leadership-council-update.html)
 
-### Foundation
-
 ### Newsletters
 * [ClearCoat, new examples, and game updates](https://thisweekinbevy.com/issue/2024-05-13-clearcoat-new-examples-and-game-updates)
 
@@ -42,7 +40,6 @@ and just ask the editors to select the category.
 * [bbolt-rs v1.3.8](https://github.com/ambaxter/bbolt-rs/blob/v1.3.8/docs/announcement.md)
 * [Maelstrom: A Hermetic, Clustered Test Runner for Rust (and It’s Fast)](https://www.reddit.com/r/rust/comments/1chrshl/maelstrom_a_hermetic_clustered_test_runner_for/)
 * [r3bl_cmdr version v0.0.12 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v0012-2024-05-12)
-
 * [Iroh 0.16 - A Better `Client`](https://iroh.computer/blog/iroh-0-16-a-better-client)
 
 ### Observations/Thoughts
@@ -62,10 +59,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Let's build a Load Balancer in Rust - Part 1](https://marcobacis.com/blog/load-balancer-rust-1/)
-
 * [video] [Build with Naz : tokio tracing & OTel and how to use it in Rust](https://www.youtube.com/watch?v=Wf8JrLgBuKI)
-
-### Research
 
 ### Miscellaneous
 * [April 2024 Rust Jobs Report](https://filtra.io/rust-apr-24)
@@ -110,26 +104,24 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [greptimedb - Add more tests for Copy From](https://github.com/GreptimeTeam/greptimedb/issues/3265)
 * [greptimedb - Checksum for manifests](https://github.com/GreptimeTeam/greptimedb/issues/3004)
+* [greptimedb - Adding JSON Type to GreptimeDB](https://github.com/GreptimeTeam/greptimedb/issues/3686)*
+* [greptimedb - Resource Constrained Framework for Embedded Environments](https://github.com/GreptimeTeam/greptimedb/issues/3685)*
+* [GreptimeTeam - Design and implement an evaluation program similar to TPC-DS/TPC-H for time-series scenarios](https://github.com/GreptimeTeam/greptime-bench)*
+
+> * "*" = Issues open for student applications via OSPP. Selected students will be assigned a mentor(s), and may receive bonuses. Please register through the [OSPP link](https://summer-ospp.ac.cn/org/orgdetail/32cda81d-a705-4ab7-8b13-7c27a86ac19a?lang=en).
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
-
-* [greptimedb - Adding JSON Type to GreptimeDB](https://github.com/GreptimeTeam/greptimedb/issues/3686)*
-* [greptimedb - Resource Constrained Framework for Embedded Environments](https://github.com/GreptimeTeam/greptimedb/issues/3685)*
-* [GreptimeTeam - Design and implement an evaluation program similar to TPC-DS/TPC-H for time-series scenarios](https://github.com/GreptimeTeam/greptime-bench)*
-
-> * Issues open for student applications via OSPP. Selected students will be assigned a mentor(s), and may receive bonuses. Please register through the [OSPP link](https://summer-ospp.ac.cn/org/orgdetail/32cda81d-a705-4ab7-8b13-7c27a86ac19a?lang=en).
-
 ### CFP - Speakers
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
+* [Rust Argentina June 2024](https://sessionize.com/rust-argentina-june/) | Closes 2024-05-31 | Buenos Aires, AR | Event date: 2024-06-04
 * [EuroRust 2024](https://www.papercall.io/eurorust-2024) | Closes 2024-06-03 | Vienna, Austria & online | Event date: 2024-10-10
 * [Scientific Computing in Rust 2024](https://scientificcomputing.rs/) | Closes 2024-06-14 | online | Event date: 2024-07-17 - 2024-07-19
 * [Conf42 Rustlang 2024](https://www.papercall.io/conf42-rustlang-2024) | Closes 2024-07-22 | online | Event date: 2024-08-22
-* [Rust Argentina June 2024](https://sessionize.com/rust-argentina-june/) | Closes 2024-05-31 | Buenos Aires, AR | Event date: 2024-06-04
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the submission website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust).
 
@@ -394,7 +386,6 @@ Rusty Events between 2024-05-15 - 2024-06-12 🦀
 * 2024-05-28 | Sydney, NSW, AU | [Rust Sydney](https://www.meetup.com/rust-sydney/)
     * [**a demo 🤯 & a lightning ⚡show ✨**](https://www.meetup.com/rust-sydney/events/300854266/)
 
-
 ### South America
 
 * 2024-06-06 | Buenos Aires, AR | [Rust en Español | Rust Argentina](https://www.meetup.com/rust-argentina/)
@@ -418,7 +409,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1cixuzr/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
