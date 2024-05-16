@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 * [kira - release v0.9.0](https://github.com/tesselode/kira/releases/tag/v0.9.0)
 * [Cushy v0.3: New widgets, offscreen capture, Plotters and Tokio integrations, and more](https://ecton.dev/cushy-v0-3/)
 * [bbolt-rs v1.3.8](https://github.com/ambaxter/bbolt-rs/blob/v1.3.8/docs/announcement.md)
+* [Maelstrom: A Hermetic, Clustered Test Runner for Rust (and It’s Fast)](https://www.reddit.com/r/rust/comments/1chrshl/maelstrom_a_hermetic_clustered_test_runner_for/)
 
 ### Observations/Thoughts
 * [Long-term Rust Project Maintenance](https://corrode.dev/blog/long-term-rust-maintenance/)
