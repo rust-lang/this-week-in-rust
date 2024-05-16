@@ -63,6 +63,8 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Let's build a Load Balancer in Rust - Part 1](https://marcobacis.com/blog/load-balancer-rust-1/)
 
+* [video] [Build with Naz : tokio tracing & OTel and how to use it in Rust](https://www.youtube.com/watch?v=Wf8JrLgBuKI)
+
 ### Research
 
 ### Miscellaneous
