@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [video] [Rust 1.78.0: Last Rust News Video...ever?](https://youtu.be/VoPbpn4u93I)
+
 ### Rust Walkthroughs
 
 ### Research
