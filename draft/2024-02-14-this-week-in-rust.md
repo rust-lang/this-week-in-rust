@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 
 ## Call for Participation; projects and speakers
 
+* [Rust Ukraine 2024](https://docs.google.com/presentation/d/1q9QQW4lmfRr3xBx3bfiNyzyXwwDanRXR/edit#slide=id.p1) [CFP](https://docs.google.com/forms/d/e/1FAIpQLSc9S_95oaCsFyrULF4iBQOIiTcMlOpG07izgquYLBCKFAYTKQ/viewform) closes 2024-07-06 | Online + Ukraine, Kyiv | Event date: 2024-07-27
+
 ### CFP - Projects
 
 Always wanted to contribute to open-source projects but did not know where to start?
