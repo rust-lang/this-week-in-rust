@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Mysqlclient-sys 0.3.0: Bundled builds and updated bindings](https://blog.weiznich.de/blog/mysqlclient-sys-03/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
