@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [The rainbow bridge between sync and async Rust](https://www.sea-ql.org/blog/2024-05-20-async-rainbow-bridge/)
+
 ### Research
 
 ### Miscellaneous
