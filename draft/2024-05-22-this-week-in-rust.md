@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [developerlife.com - Effective async Rust, non-blocking, concurrent, parallel, event loops, cancellation safety](https://developerlife.com/2024/05/19/effective-async-rust/)
+
 ### Research
 
 ### Miscellaneous
