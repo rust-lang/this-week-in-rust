@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [video] [Devoxx UK - Rust 101: Understand the Hype](https://www.youtube.com/watch?v=DO4jJ1O3Cq4)
+
 ### Rust Walkthroughs
 
 ### Research
