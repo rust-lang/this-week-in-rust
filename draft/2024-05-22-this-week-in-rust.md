@@ -183,6 +183,8 @@ Rusty Events between 2024-05-22 - 2024-06-19 🦀
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/299047896/)
 * 2024-06-06 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust Hack and Learn**](https://meet.jit.si/RustHackAndLearnBerlin) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298477702/)
+* 2024-06-06 | Virtual (Israel) | [Rust Maven](https://rust.code-maven.com/)
+    * [**Rust Maven Workshop: Your first contribution to an Open Source Rust project**](https://www.meetup.com/code-mavens/events/301156302/)
 * 2024-06-11 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/298341709/)
 
