@@ -99,7 +99,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Fairly quiet week with the except of a very large improvement coming from the switch to `rust-lld` on nightly Linux. This can have very large impacts on benchmarks where linking dominates the build time (e.g., `hello-world`). Aside from that change, there were a few small regressions that were either deemed worth it or are still being investigated.
+
+Triage done by **@rylev**.
+Revision range: [9105c57b..1d0e4afd](https://perf.rust-lang.org/?start=9105c57b7f6623310e33f3ee7e48a3114e5190a7&end=1d0e4afd4cac09078e12a232508c3e9f8d42535d&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean   | range           | count |
+|:----------------------------------:|:------:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.7%   | [0.1%, 2.5%]    | 30    |
+| Regressions ❌ <br /> (secondary)  | 0.5%   | [0.2%, 0.8%]    | 5     |
+| Improvements ✅ <br /> (primary)   | -30.4% | [-71.7%, -0.4%] | 35    |
+| Improvements ✅ <br /> (secondary) | -25.6% | [-70.9%, -0.5%] | 75    |
+| All ❌✅ (primary)                 | -16.1% | [-71.7%, 2.5%]  | 65    |
+
+
+4 Regressions, 1 Improvement, 4 Mixed; 2 of them in rollups
+66 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/1b1a6f2d8c94fa29891fb1a91ebd46c0c7070b33/triage/2024-05-21.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
