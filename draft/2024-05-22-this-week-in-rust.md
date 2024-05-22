@@ -149,8 +149,6 @@ which are reaching a decision. Express your opinions now.
 
 Rusty Events between 2024-05-22 - 2024-06-19 🦀
 
-# TODO
-
 ### Virtual
 
 * 2024-05-23 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
