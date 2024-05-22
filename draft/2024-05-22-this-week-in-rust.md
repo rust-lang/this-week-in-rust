@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Free Rust ebooks for Amazon Kindle](https://rust-ebooks.code-maven.com/)
 
 ## Crate of the Week
 
