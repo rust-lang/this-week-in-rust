@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [r3bl_terminal_async v0.5.3 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v053-2024-05-22)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
