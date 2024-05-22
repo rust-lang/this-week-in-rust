@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Maelstrom v0.9.0: Added local-only tests, LPT scheduling, and more](https://github.com/maelstrom-software/maelstrom/releases/tag/v0.9.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
