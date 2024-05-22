@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [Why We Forked Quinn](https://iroh.computer/blog/why-we-forked-quinn)
+
 ### Rust Walkthroughs
 
 ### Research
