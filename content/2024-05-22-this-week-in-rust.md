@@ -48,9 +48,9 @@ and just ask the editors to select the category.
 * [Towards fast `thread_local!` context](https://swatinem.de/blog/thread-local-context/)
 * [Rust's iterators optimize nicely—and contain a footgun](https://ntietz.com/blog/rusts-iterators-optimize-footgun/)
 * [Why We Forked Quinn](https://iroh.computer/blog/why-we-forked-quinn)
-* [video] [What's New in Rust 1.72-1.78 Rustacean Station marathon](https://www.youtube.com/watch?v=VpSXTJXX1YA)
 * [audio] [AMP - Rust in Production Podcast](https://corrode.dev/podcast/s02e02-amp/)
 * [audio] [Rama with Glen De Cauwsemaecker](https://rustacean-station.org/episode/glen-de-cauwsemaecker/)
+* [video] [What's New in Rust 1.72-1.78 Rustacean Station marathon](https://www.youtube.com/watch?v=VpSXTJXX1YA)
 * [video] [Rust 1.78.0: Last Rust News Video...ever?](https://www.youtube.com/watch?v=VoPbpn4u93I)
 * [video] [Devoxx UK - Rust 101: Understand the Hype](https://www.youtube.com/watch?v=DO4jJ1O3Cq4)
 
