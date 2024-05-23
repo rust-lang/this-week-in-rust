@@ -60,6 +60,8 @@ and just ask the editors to select the category.
 
 - [Rust's iterators optimize nicely—and contain a footgun](https://ntietz.com/blog/rusts-iterators-optimize-footgun/)
 
+- [Why We Forked Quinn](https://iroh.computer/blog/why-we-forked-quinn)
+
 ### Rust Walkthroughs
 * [Using Rust Macros for Custom VTables](https://lucumr.pocoo.org/2024/5/16/macro-vtable-magic/)
 * [NULL BITMAP Builds a Database #1: The Log is Literally the Database](https://buttondown.email/jaffray/archive/null-bitmap-builds-a-database-1-the-log-is/)
