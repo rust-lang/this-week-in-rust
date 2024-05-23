@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 - [Ratatui 0.26.3 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v0263/)
 
+* [Maelstrom v0.9.0: Added local-only tests, LPT scheduling, and more](https://github.com/maelstrom-software/maelstrom/releases/tag/v0.9.0)
+
 ### Observations/Thoughts
 * [Some notes on Rust, mutable aliasing and formal verification](https://graydon2.dreamwidth.org/312681.html)
 * [Rust's iterators optimize nicely—and contain a footgun](https://ntietz.com/blog/rusts-iterators-optimize-footgun/)
