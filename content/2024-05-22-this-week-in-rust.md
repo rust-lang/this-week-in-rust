@@ -102,9 +102,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
-* [hyperswitch - [FEATURE] : add pagination support for customers list] (https://github.com/juspay/hyperswitch/issues/3746) 
-* [hyperswitch - [FEATURE] : [GlobalPayments] Currency Unit Conversion] (https://github.com/juspay/hyperswitch/issues/2227) 
-* [hyperswitch - [FEATURE] : Add support for sending additional metadata in the MessagingInterface] (https://github.com/juspay/hyperswitch/issues/4472) 
+* [hyperswitch - [FEATURE]: add pagination support for customers list](https://github.com/juspay/hyperswitch/issues/3746) 
+* [hyperswitch - [FEATURE]: [GlobalPayments] Currency Unit Conversion](https://github.com/juspay/hyperswitch/issues/2227) 
+* [hyperswitch - [FEATURE]: Add support for sending additional metadata in the MessagingInterface](https://github.com/juspay/hyperswitch/issues/4472) 
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
@@ -312,7 +312,7 @@ Rusty Events between 2024-05-22 - 2024-06-19 🦀
 * 2024-05-29 | Virtual | [Training 4 Programmers LLC](https://www.eventbrite.com/o/training-4-programmers-llc-80387368983)
     * [**Enums, Structs, and Traits - Essential Building Blocks of Rust Programming**](https://www.eventbrite.com/e/enums-structs-and-traits-essential-building-blocks-of-rust-programming-tickets-904696681127)
 * 2024-05-30 | Virtual + In Person (Barcelona, ES) | [Mainmatter](https://mainmatter.com/) & [BcnRust](https://www.meetup.com/es-ES/bcnrust/)
-    * [**Rust for the web, Barcelona 2024**](https://www.meetup.com/es-ES/bcnrust/events/300765894/) 
+    * [**Rust for the web, Barcelona 2024**](https://www.meetup.com/es-ES/bcnrust/events/300765894/)
 * 2024-05-30 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
     * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298542326/)
 * 2024-06-04 | Virtual | [Women in Rust](https://www.meetup.com/women-in-rust/)
@@ -369,7 +369,7 @@ Rusty Events between 2024-05-22 - 2024-06-19 🦀
 * 2024-05-30 | Amsterdam, NL | [Rust Developers Amsterdam Group](https://www.meetup.com/rust-amsterdam-group/)
     * [**Rust Developer Meetup @ Avalor AI**](https://www.meetup.com/rust-amsterdam-group/events/301065548/)
 * 2024-05-30 | Barcelona, ES | [Mainmatter](https://mainmatter.com/) & [BcnRust](https://www.meetup.com/es-ES/bcnrust/)
-    * [**Rust for the web, Barcelona 2024**](https://www.meetup.com/es-ES/bcnrust/events/300765894/) 
+    * [**Rust for the web, Barcelona 2024**](https://www.meetup.com/es-ES/bcnrust/events/300765894/)
 * 2024-05-30 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust and Tell - Title**](https://www.meetup.com/rust-berlin/events/299288963/)
 * 2024-05-30 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community)
