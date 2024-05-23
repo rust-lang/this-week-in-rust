@@ -129,7 +129,7 @@ which are reaching a decision. Express your opinions now.
 * [disposition: merge] [Tracking Issue for `slice_flatten`](https://github.com/rust-lang/rust/issues/95629)
 * [disposition: merge] [Edition 2024: Make `!` fall back to `!`](https://github.com/rust-lang/rust/pull/123508)
 * [disposition: merge] [Stabilize div_duration](https://github.com/rust-lang/rust/pull/124667)
-* [disposition: merge] [Panic if `PathBuf::set`_extension would add a path separator](https://github.com/rust-lang/rust/pull/125070)
+* [disposition: merge] [Panic if `PathBuf::set_extension` would add a path separator](https://github.com/rust-lang/rust/pull/125070)
 * [disposition: merge] [Support C23's Variadics Without a Named Parameter](https://github.com/rust-lang/rust/pull/124048)
 * [disposition: merge] [Stabilize `LazyCell` and `LazyLock`](https://github.com/rust-lang/rust/pull/121377)
 * [disposition: merge] [Turn remaining non-structural-const-in-pattern lints into hard errors](https://github.com/rust-lang/rust/pull/124661)
