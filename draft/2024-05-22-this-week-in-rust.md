@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 * [audio] [AMP - Rust in Production Podcast](https://corrode.dev/podcast/s02e02-amp/)
 * [audio] [Rama with Glen De Cauwsemaecker](https://rustacean-station.org/episode/glen-de-cauwsemaecker/)
 
+* [video] [Rust 1.78.0: Last Rust News Video...ever?](https://www.youtube.com/watch?v=VoPbpn4u93I)
+
 ### Rust Walkthroughs
 * [Using Rust Macros for Custom VTables](https://lucumr.pocoo.org/2024/5/16/macro-vtable-magic/)
 * [NULL BITMAP Builds a Database #1: The Log is Literally the Database](https://buttondown.email/jaffray/archive/null-bitmap-builds-a-database-1-the-log-is/)
