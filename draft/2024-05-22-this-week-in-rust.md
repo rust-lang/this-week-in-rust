@@ -58,6 +58,8 @@ and just ask the editors to select the category.
 
 * [The rainbow bridge between sync and async Rust](https://www.sea-ql.org/blog/2024-05-20-async-rainbow-bridge/)
 
+* [developerlife.com - Effective async Rust, non-blocking, concurrent, parallel, event loops, cancellation safety](https://developerlife.com/2024/05/19/effective-async-rust/)
+
 ### Research
 
 ### Miscellaneous
