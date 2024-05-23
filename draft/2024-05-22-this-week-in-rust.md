@@ -46,7 +46,7 @@ and just ask the editors to select the category.
 
 * [Maelstrom v0.9.0: Added local-only tests, LPT scheduling, and more](https://github.com/maelstrom-software/maelstrom/releases/tag/v0.9.0)
 
-* [r3bl_terminal_async v0.5.3 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v053-2024-05-22)
+* [r3bl\_terminal\_async v0.5.3 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v053-2024-05-22)
 
 ### Observations/Thoughts
 * [Some notes on Rust, mutable aliasing and formal verification](https://graydon2.dreamwidth.org/312681.html)
