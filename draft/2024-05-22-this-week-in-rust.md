@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 
 * [video] [Rust 1.78.0: Last Rust News Video...ever?](https://www.youtube.com/watch?v=VoPbpn4u93I)
 
+* [video] [Devoxx UK - Rust 101: Understand the Hype](https://www.youtube.com/watch?v=DO4jJ1O3Cq4)
+
 ### Rust Walkthroughs
 * [Using Rust Macros for Custom VTables](https://lucumr.pocoo.org/2024/5/16/macro-vtable-magic/)
 * [NULL BITMAP Builds a Database #1: The Log is Literally the Database](https://buttondown.email/jaffray/archive/null-bitmap-builds-a-database-1-the-log-is/)
