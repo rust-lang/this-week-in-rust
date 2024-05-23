@@ -105,6 +105,12 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
+[hyperswitch - [FEATURE] : add pagination support for customers list] (https://github.com/juspay/hyperswitch/issues/3746) 
+
+[hyperswitch - [FEATURE] : [GlobalPayments] Currency Unit Conversion] (https://github.com/juspay/hyperswitch/issues/2227) 
+
+[hyperswitch - [FEATURE] : Add support for sending additional metadata in the MessagingInterface] (https://github.com/juspay/hyperswitch/issues/4472) 
+
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
