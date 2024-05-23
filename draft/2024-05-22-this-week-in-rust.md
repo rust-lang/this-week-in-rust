@@ -34,47 +34,32 @@ and just ask the editors to select the category.
 * [ Announcing the First Set of RustConf 2024 Talks & Keynotes](https://foundation.rust-lang.org/news/announcing-the-first-set-of-rustconf-2024-talks-keynotes/)
 * [Unsafe Rust in the Wild: Notes on the Current State of Unsafe Rust](https://foundation.rust-lang.org/news/unsafe-rust-in-the-wild-notes-on-the-current-state-of-unsafe-rust/)
 
-### Newsletters
-
 ### Project/Tooling Updates
 * [100 Exercises To Learn Rust](https://rust-exercises.com/)
 * [RustRover Is Released and Includes a Free Non-Commercial Option](https://blog.jetbrains.com/rust/2024/05/21/rustrover-is-released-and-includes-a-free-non-commercial-option/)
-
 * [Mysqlclient-sys 0.3.0: Bundled builds and updated bindings](https://blog.weiznich.de/blog/mysqlclient-sys-03/)
-
-- [Ratatui 0.26.3 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v0263/)
-
+* [Ratatui 0.26.3 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v0263/)
 * [Maelstrom v0.9.0: Added local-only tests, LPT scheduling, and more](https://github.com/maelstrom-software/maelstrom/releases/tag/v0.9.0)
-
 * [r3bl_terminal_async v0.5.3 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v053-2024-05-22)
 
 ### Observations/Thoughts
 * [Some notes on Rust, mutable aliasing and formal verification](https://graydon2.dreamwidth.org/312681.html)
 * [Rust's iterators optimize nicely—and contain a footgun](https://ntietz.com/blog/rusts-iterators-optimize-footgun/)
 * [Towards fast `thread_local!` context](https://swatinem.de/blog/thread-local-context/)
+* [Rust's iterators optimize nicely—and contain a footgun](https://ntietz.com/blog/rusts-iterators-optimize-footgun/)
+* [Why We Forked Quinn](https://iroh.computer/blog/why-we-forked-quinn)
 * [video] [What's New in Rust 1.72-1.78 Rustacean Station marathon](https://www.youtube.com/watch?v=VpSXTJXX1YA)
 * [audio] [AMP - Rust in Production Podcast](https://corrode.dev/podcast/s02e02-amp/)
 * [audio] [Rama with Glen De Cauwsemaecker](https://rustacean-station.org/episode/glen-de-cauwsemaecker/)
-
 * [video] [Rust 1.78.0: Last Rust News Video...ever?](https://www.youtube.com/watch?v=VoPbpn4u93I)
-
 * [video] [Devoxx UK - Rust 101: Understand the Hype](https://www.youtube.com/watch?v=DO4jJ1O3Cq4)
-
-- [Rust's iterators optimize nicely—and contain a footgun](https://ntietz.com/blog/rusts-iterators-optimize-footgun/)
-
-- [Why We Forked Quinn](https://iroh.computer/blog/why-we-forked-quinn)
 
 ### Rust Walkthroughs
 * [Using Rust Macros for Custom VTables](https://lucumr.pocoo.org/2024/5/16/macro-vtable-magic/)
 * [NULL BITMAP Builds a Database #1: The Log is Literally the Database](https://buttondown.email/jaffray/archive/null-bitmap-builds-a-database-1-the-log-is/)
-
 * [The rainbow bridge between sync and async Rust](https://www.sea-ql.org/blog/2024-05-20-async-rainbow-bridge/)
-
 * [developerlife.com - Effective async Rust, non-blocking, concurrent, parallel, event loops, cancellation safety](https://developerlife.com/2024/05/19/effective-async-rust/)
-
 * [Let's build a Load Balancer in Rust - Part 2](https://marcobacis.com/blog/load-balancer-rust-2/)
-
-### Research
 
 ### Miscellaneous
 * [Free Rust ebooks for Amazon Kindle](https://rust-ebooks.code-maven.com/)
@@ -118,12 +103,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
 <!-- * [ - ]() -->
-[hyperswitch - [FEATURE] : add pagination support for customers list] (https://github.com/juspay/hyperswitch/issues/3746) 
-
-[hyperswitch - [FEATURE] : [GlobalPayments] Currency Unit Conversion] (https://github.com/juspay/hyperswitch/issues/2227) 
-
-[hyperswitch - [FEATURE] : Add support for sending additional metadata in the MessagingInterface] (https://github.com/juspay/hyperswitch/issues/4472) 
-
+* [hyperswitch - [FEATURE] : add pagination support for customers list] (https://github.com/juspay/hyperswitch/issues/3746) 
+* [hyperswitch - [FEATURE] : [GlobalPayments] Currency Unit Conversion] (https://github.com/juspay/hyperswitch/issues/2227) 
+* [hyperswitch - [FEATURE] : Add support for sending additional metadata in the MessagingInterface] (https://github.com/juspay/hyperswitch/issues/4472) 
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines].
 
