@@ -70,6 +70,8 @@ and just ask the editors to select the category.
 
 * [developerlife.com - Effective async Rust, non-blocking, concurrent, parallel, event loops, cancellation safety](https://developerlife.com/2024/05/19/effective-async-rust/)
 
+* [Let's build a Load Balancer in Rust - Part 2](https://marcobacis.com/blog/load-balancer-rust-2/)
+
 ### Research
 
 ### Miscellaneous
