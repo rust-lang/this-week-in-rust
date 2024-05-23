@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 * [100 Exercises To Learn Rust](https://rust-exercises.com/)
 * [RustRover Is Released and Includes a Free Non-Commercial Option](https://blog.jetbrains.com/rust/2024/05/21/rustrover-is-released-and-includes-a-free-non-commercial-option/)
 
+* [Mysqlclient-sys 0.3.0: Bundled builds and updated bindings](https://blog.weiznich.de/blog/mysqlclient-sys-03/)
+
 ### Observations/Thoughts
 * [Some notes on Rust, mutable aliasing and formal verification](https://graydon2.dreamwidth.org/312681.html)
 * [Rust's iterators optimize nicely—and contain a footgun](https://ntietz.com/blog/rusts-iterators-optimize-footgun/)
