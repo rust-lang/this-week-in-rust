@@ -56,6 +56,8 @@ and just ask the editors to select the category.
 * [Using Rust Macros for Custom VTables](https://lucumr.pocoo.org/2024/5/16/macro-vtable-magic/)
 * [NULL BITMAP Builds a Database #1: The Log is Literally the Database](https://buttondown.email/jaffray/archive/null-bitmap-builds-a-database-1-the-log-is/)
 
+* [The rainbow bridge between sync and async Rust](https://www.sea-ql.org/blog/2024-05-20-async-rainbow-bridge/)
+
 ### Research
 
 ### Miscellaneous
