@@ -60,8 +60,6 @@ and just ask the editors to select the category.
 
 * [video] [Devoxx UK - Rust 101: Understand the Hype](https://www.youtube.com/watch?v=DO4jJ1O3Cq4)
 
-- [Rust's iterators optimize nicely—and contain a footgun](https://ntietz.com/blog/rusts-iterators-optimize-footgun/)
-
 - [Why We Forked Quinn](https://iroh.computer/blog/why-we-forked-quinn)
 
 ### Rust Walkthroughs
