@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 * [Mysqlclient-sys 0.3.0: Bundled builds and updated bindings](https://blog.weiznich.de/blog/mysqlclient-sys-03/)
 
+- [Ratatui 0.26.3 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v0263/)
+
 ### Observations/Thoughts
 * [Some notes on Rust, mutable aliasing and formal verification](https://graydon2.dreamwidth.org/312681.html)
 * [Rust's iterators optimize nicely—and contain a footgun](https://ntietz.com/blog/rusts-iterators-optimize-footgun/)
