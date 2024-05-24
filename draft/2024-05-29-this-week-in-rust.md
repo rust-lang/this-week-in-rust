@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Rebuilding Consumer Social In Rust](https://filtra.io/rust-amo-may-24)
 
 ## Crate of the Week
 
