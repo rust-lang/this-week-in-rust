@@ -40,11 +40,10 @@ and just ask the editors to select the category.
 * [Mysqlclient-sys 0.3.0: Bundled builds and updated bindings](https://blog.weiznich.de/blog/mysqlclient-sys-03/)
 * [Ratatui 0.26.3 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v0263/)
 * [Maelstrom v0.9.0: Added local-only tests, LPT scheduling, and more](https://github.com/maelstrom-software/maelstrom/releases/tag/v0.9.0)
-* [r3bl_terminal_async v0.5.3 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v053-2024-05-22)
+* [r3bl\_terminal\_async v0.5.3 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v053-2024-05-22)
 
 ### Observations/Thoughts
 * [Some notes on Rust, mutable aliasing and formal verification](https://graydon2.dreamwidth.org/312681.html)
-* [Rust's iterators optimize nicely—and contain a footgun](https://ntietz.com/blog/rusts-iterators-optimize-footgun/)
 * [Towards fast `thread_local!` context](https://swatinem.de/blog/thread-local-context/)
 * [Rust's iterators optimize nicely—and contain a footgun](https://ntietz.com/blog/rusts-iterators-optimize-footgun/)
 * [Why We Forked Quinn](https://iroh.computer/blog/why-we-forked-quinn)
