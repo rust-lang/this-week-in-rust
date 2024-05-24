@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Way of Rhea, a puzzle game written in Rust shipped.](https://store.steampowered.com/app/1110620/Way_of_Rhea/?utm_source=wr).
 
 ## Crate of the Week
 
