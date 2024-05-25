@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [iroh@0.17.0 - Everything is a little better](https://iroh.computer/blog/iroh-0-17-0-everything-is-a-little-better)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
