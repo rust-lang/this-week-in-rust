@@ -113,6 +113,26 @@ Most blog posts about Rust belong in **Rust Walkthroughs** if they show how some
 
 If a set of related links is published (e.g. from a large Rust conference), the editors may choose to invent a new category just for that issue.
 
+## Call for Participation guidelines
+
+The Call for Participation section covers both projects looking for contributors and events recruiting speakers. 
+
+### CFP - Projects 
+
+The project section will include good issues for someone looking to get into Rust, or for someone who wants to find a new project to contribute to. Guidelines:
+
+* Ensure that your project has at least one [Open Source Initiative](https://opensource.org/)-approved license.
+* Ensure that the issue tracker for your project is publicly accessible.
+* Create a new issue in your issue tracker and clearly describe the task, and include the difficulty level (easy/medium/hard/tedious), either as a tag/label or somewhere in the title/description.
+* Include a link to your contribution guidelines in the task, and call out any specific requirements for contributors (e.g., copyright waiver).
+* The issue will be omitted if it has been completed and/or closed since it was submitted to the forums.
+
+### CFP - Speakers
+
+The speakers section will include CFPs links for events that either heavily feature Rust content, or have a specific Rust track. It's not appropriate for general tech conferences, unless there is a large enough coding or Rust section to appeal to the TWiR audience. 
+
+Generally speaking (excepting the rolling 30 day window), if it would be listed in the Events section of TWiR, it will be right for this section as well. 
+
 # Publishing 
 
 The editors have a detailed guide for publishing that is stored elsewhere, but this content is retained here as well.
