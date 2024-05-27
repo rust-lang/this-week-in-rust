@@ -127,9 +127,9 @@ The project section will include good issues for someone looking to get into Rus
 * Include a link to your contribution guidelines in the task, and call out any specific requirements for contributors (e.g., copyright waiver).
 * The issue will be omitted if it has been completed and/or closed since it was submitted to the forums.
 
-### CFP - Speakers
+### CFP - Events
 
-The speakers section will include CFPs links for events that either heavily feature Rust content, or have a specific Rust track. It's not appropriate for general tech conferences, unless there is a large enough coding or Rust section to appeal to the TWiR audience. 
+The CFP events section will include CFP links for events that either heavily feature Rust content, or have a specific Rust track. It's not appropriate for general tech conferences, unless there is a large enough coding or Rust section to appeal to the TWiR audience. 
 
 Generally speaking (excepting the rolling 30 day window), if it would be listed in the Events section of TWiR, it will be right for this section as well. 
 

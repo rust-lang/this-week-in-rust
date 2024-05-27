@@ -85,7 +85,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [guidelines]:https://github.com/rust-lang/this-week-in-rust?tab=readme-ov-file#call-for-participation-guidelines
 
-### CFP - Speakers
+### CFP - Events
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
