@@ -36,6 +36,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [venndb@0.5.0 - support multi dimensional filter options to be filtered in group](https://github.com/plabayo/venndb/releases/tag/0.5.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
