@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [video] [Programming Education: Tailoring Tools and Techniques for Rust (Will Crichton in the RustRover livestream series)](https://www.youtube.com/watch?v=u85bozA3bv0)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
