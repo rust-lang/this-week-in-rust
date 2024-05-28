@@ -178,6 +178,8 @@ Rusty Events between 2024-05-29 - 2024-06-26 🦀
     * [**Rust Maven Workshop: Your first contribution to an Open Source Rust project**](https://www.meetup.com/code-mavens/events/301156302/)
 * 2024-06-06 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust Hack and Learn**](https://meet.jit.si/RustHackAndLearnBerlin) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298477702/)
+* 2024-06-09 | Virtual | [Code Mavens](https://www.meetup.com/code-mavens/)
+    * [**Rust Maven Workshop: GitHub pages for Rust developers (English)**](https://www.meetup.com/code-mavens/events/301215326/)
 * 2024-06-11 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/298341709/)
 * 2024-06-13 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
