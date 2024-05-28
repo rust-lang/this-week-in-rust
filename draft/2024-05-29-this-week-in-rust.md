@@ -87,6 +87,24 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ### CFP - Events
 
+* [**Rust Meetup in Paris**](link-to-your-event-page) | Add_CFP_close_date_here | Paris, France | Add_event_date_here
+
+Hey Rustaceans!
+
+We are organizing a Rust meetup in Paris on the evening of Add_date_here at Add_time_here.
+
+We are looking for amazing speakers to present at the meetup and share their knowledge or tips with the community. You can choose the topic you want, what you think interesting based on your own experience or examples you bumped into. There are just a few requirements in terms of format:
+
+-> 15-20mn real-life presentation with slides + 5-10mn of Q&A (no remote for now sorry)
+
+-> Need to prepare yourself a few supporting slides on PowerPoint/GoogleSlides/Keynote (e.g. typically code screenshots)
+
+-> Slides must be in English
+
+-> Slides must be ready 10 days before the meetup and sent to the organization team. So before Add_event_date_minus_10_days.
+
+🦀 Who is in?? The event is all free of course, pizzas and beers included 🦀
+
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
 <!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
