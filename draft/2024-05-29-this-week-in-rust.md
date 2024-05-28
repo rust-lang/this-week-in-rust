@@ -36,7 +36,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-- [Announcing Wasmi v0.32: New WebAssembly Execution Engine - Faster Than Ever](https://wasmi-labs.github.io/blog/)
+- [Announcing Wasmi v0.32: New WebAssembly Execution Engine - Faster Than Ever](https://wasmi-labs.github.io/blog/posts/wasmi-v0.32/)
 
 ### Observations/Thoughts
 
