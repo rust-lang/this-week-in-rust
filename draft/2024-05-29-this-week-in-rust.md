@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Send & Mutex - Misconceptions about Send](https://cryptical.xyz/rust/send-mutex)
+
 ### Rust Walkthroughs
 
 ### Research
