@@ -73,6 +73,8 @@ need testing.
 
 ### CFP - Projects
 
+test
+
 Always wanted to contribute to open-source projects but did not know where to start?
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
