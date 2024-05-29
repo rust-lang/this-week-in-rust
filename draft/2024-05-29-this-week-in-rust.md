@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Fyrox Game Engine 0.34](https://fyrox.rs/blog/post/fyrox-game-engine-0-34/)
+* [Wasmi's New Execution Engine - Faster Than Ever](https://wasmi-labs.github.io/blog/posts/wasmi-v0.32/)
 
 ### Observations/Thoughts
 * [Visions of the future: formal verification in Rust](https://xav.io/blog/rust-formal-verification/)
@@ -46,7 +47,6 @@ and just ask the editors to select the category.
 * [Building Agentic RAG with Rust, Qdrant & OpenAI](https://www.shuttle.rs/blog/2024/05/23/building-agentic-rag-rust-qdrant)
 * [Making a Secure Chat in Rust](https://vaktibabat.github.io/posts/Making_A_Secure_Chat_Rust_Crypto/)
 * [Parsing structured environment variables in Rust](https://blog.frankel.ch/structured-env-vars-rust/)
-* [Wasmi's New Execution Engine - Faster Than Ever](https://wasmi-labs.github.io/blog/posts/wasmi-v0.32/)
 * [Types and self-documenting code in Rust](https://ceronman.com/2024/05/28/types-and-self-documenting-code-in-rust/)
 * [Iggy.rs — one year of building the message streaming](https://blog.iggy.rs/posts/one-year-of-building-the-message-streaming/)
 * [When allocating unused memory boosts performance by 2x](https://quickwit.io/blog/performance-investigation)
