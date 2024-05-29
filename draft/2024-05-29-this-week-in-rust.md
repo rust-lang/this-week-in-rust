@@ -40,7 +40,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
-- [Getting Started with Loco & SeaORM](https://www.sea-ql.org/blog/2024-05-28-getting-started-with-loco-seaorm/)
+* [Getting Started with Loco & SeaORM](https://www.sea-ql.org/blog/2024-05-28-getting-started-with-loco-seaorm/)
 
 ### Research
 
