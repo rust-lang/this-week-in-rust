@@ -29,20 +29,37 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Welcome James Munns to the Leadership Council](https://blog.rust-lang.org/inside-rust/2024/05/28/launching-pad-representative.html)
 
 ### Foundation
 
 ### Newsletters
+* [Cyberpunk UI, Minecraft simulation, and volumetric destruction](https://thisweekinbevy.com/issue/2024-05-27-cyberpunk-ui-minecraft-simulation-and-volumetric-destruction)
 
 ### Project/Tooling Updates
+* [Fyrox Game Engine 0.34](https://fyrox.rs/blog/post/fyrox-game-engine-0-34/)
 
 ### Observations/Thoughts
+* [Visions of the future: formal verification in Rust](https://xav.io/blog/rust-formal-verification/)
+* [Avoiding Over-Reliance on `mpsc` channels in Rust](https://blog.digital-horror.com/blog/how-to-avoid-over-reliance-on-mpsc/)
+* [How We Migrated Our Static Analyzer From Java To Rust](https://www.datadoghq.com/blog/engineering/how-we-migrated-our-static-analyzer-from-java-to-rust/)
+* [Building Agentic RAG with Rust, Qdrant & OpenAI](https://www.shuttle.rs/blog/2024/05/23/building-agentic-rag-rust-qdrant)
+* [Making a Secure Chat in Rust](https://vaktibabat.github.io/posts/Making_A_Secure_Chat_Rust_Crypto/)
+* [Parsing structured environment variables in Rust](https://blog.frankel.ch/structured-env-vars-rust/)
+* [Wasmi's New Execution Engine - Faster Than Ever](https://wasmi-labs.github.io/blog/posts/wasmi-v0.32/)
+* [Types and self-documenting code in Rust](https://ceronman.com/2024/05/28/types-and-self-documenting-code-in-rust/)
+* [Iggy.rs — one year of building the message streaming](https://blog.iggy.rs/posts/one-year-of-building-the-message-streaming/)
+* [When allocating unused memory boosts performance by 2x](https://quickwit.io/blog/performance-investigation)
+* [Atomic Polling Intervals for Highly Concurrent Workloads](https://www.byronwasti.com/polling-atomics/)
+* [Taming Floating-Point Sums](https://orlp.net/blog/taming-float-sums/)
 
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+* [Report on variadic generics discussion at RustNL.](https://poignardazur.github.io/2024/05/25/report-on-rustnl-variadics/)
+* [How to use ChatGPT with Rust](https://www.onlycoiners.com/user/steadylearner/blog/how-to-use-chatgpt-with-rust)
 
 ## Crate of the Week
 
