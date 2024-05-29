@@ -3,11 +3,11 @@
 # call event sink with our collected events
 # print to console / output to file formatted markdown
 
-from typing import List
-from event import Event
 from test_events import get_test_events
 from datetime import date, timedelta
 from country_code_to_continent import country_code_to_continent
+
+# TODO: Flagged events list handling.
 
 def main():
     # Get Events list from Event Sources.
@@ -26,27 +26,22 @@ def main():
     potential_duplicate(event_list)
     
     # Sort into virtual or by continent.
-    event_list = sort_virtual_continent(event_list)
+    event_list = group_virtual_continent(event_list)
 
-    # Output Sorted Event List
+    # Output Sorted Event List.
     output_to_screen(event_list)
 
 
 def output_to_screen(event_list):
     # Prints sorted Event List to terminal screen.
-    for continent in event_list:
-        if len(continent) == 0:
+    for key, value in event_list.items():
+        if len(value) == 0:
             continue
         else:
-            country_code = continent[0].location[-2:]
-            # Output Section Header
-            if continent[0].virtual:
-                print(f'### Virtual:\n')
-            else:
-                print(f'### {country_code_to_continent(country_code)}:\n')
+            print(f'### {key}:\n')
             
             # Output event details
-            for event in continent:
+            for event in value:
                 if event.duplicate:
                     print("** NOTE POTENTIAL DUPLICATE: **")
                 print(event.to_markdown_string())
@@ -72,32 +67,15 @@ def date_window_filter(event_list):
             event_list.remove(event)
 
 
-def sort_virtual_continent(event_list) -> List[Event]:
-    # Return 2D list of events separated in virtual and by continent.
-    # Index Key: [[0=Virtual], [1=Africa], [2=Asia],
-    #             [3=Europe], [4=North America],
-    #             [5=Oceania], [6=South America]]
-    separated_event_list = [[], [], [], [], [], []]
+def group_virtual_continent(event_list):
+    # Return dictionary of events separated in virtual and by continent.
+    separated_event_list = {}
 
     for event in event_list:
         # Separates Events by Virtual or by Continent
-        if event.virtual:
-            separated_event_list[0].append(event)
-        else:
-            continent = country_code_to_continent(event.location[-2:])
-            if continent == "Africa":
-                separated_event_list[1].append(event)
-            elif continent == "Asia":
-                separated_event_list[2].append(event)
-            elif continent == "Europe":
-                separated_event_list[3].append(event)
-            elif continent == "North America":
-                separated_event_list[4].append(event)
-            elif continent == "Oceania":
-                separated_event_list[5].append(event)
-            elif continent == "South America":
-                separated_event_list[6].append(event)
-
+        key = "Virtual" if event.virtual else country_code_to_continent(event.location[-2:])
+        separated_event_list.setdefault(key, []).append(event)
+    
     return separated_event_list
 
 

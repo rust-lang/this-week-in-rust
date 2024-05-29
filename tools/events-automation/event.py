@@ -1,7 +1,6 @@
 import datetime
 from geopy.geocoders import Nominatim
 from state_territory_to_abbrev import au_state_territory_to_abbrev, us_state_to_abbrev, ca_state_territory_to_abbrev
-from country_to_abbrev import country_to_abbrev
 
 class Event():
   def __init__(self, name, location, date, url, virtual, organizerName, organizerUrl, duplicate=False) -> None:
@@ -16,9 +15,9 @@ class Event():
 
   def to_markdown_string(self) -> str:
     if self.virtual:
-      return f'* {self.date} | Virtual ({self.location}) | [{self.organizerName}](TODO: ORGANISER URL HERE)\n\t*[**{self.name}**]({self.url})'
+      return f'* {self.date} | Virtual ({self.location}) | [{self.organizerName}]({self.organizerUrl})\n\t*[**{self.name}**]({self.url})'
     else:
-      return f'* {self.date} | {self.location} | [{self.organizerName}](TODO: ORGANISER URL HERE)\n\t*[**{self.name}**]({self.url})'
+      return f'* {self.date} | {self.location} | [{self.organizerName}]({self.organizerUrl})\n\t*[**{self.name}**]({self.url})'
     
   def format_date(self):
       # Formats datetime data into date.
@@ -28,18 +27,19 @@ class Event():
   def format_location(self):
     # Formats location data into (city, +/-state, country).
     geocoder = Nominatim(user_agent="TWiR")
-    locationData = str(geocoder.geocode(self.location, language="en")).split(",")
+    locationData = geocoder.geocode(self.location, language="en", addressdetails=True).raw["address"]
 
-    if len(locationData) > 3:
-      city, state, country = locationData[2].strip(), locationData[3].strip(), locationData[-1].strip()
-      country = country_to_abbrev(country)
-      if country in ["AU", "CA", "US"]:
-        if country == "AU":
-          state = au_state_territory_to_abbrev(state)
-        elif country == "CA":
-          state = ca_state_territory_to_abbrev(state)
-        elif country == "US":
-          state = us_state_to_abbrev(state)
-        self.location = f'{city}, {state}, {country}'
-      else:
-        self.location = f'{city}, {country}'
+    country_code, city = locationData["country_code"].upper(), locationData["city"]
+    if country_code in ["AU", "CA", "US"]:
+      state = locationData["state"]
+      if country_code == "AU":
+        state_abbrev = au_state_territory_to_abbrev(state)
+      elif country_code == "CA":
+        state_abbrev = ca_state_territory_to_abbrev(state)
+      elif country_code == "US":
+        state_abbrev = us_state_to_abbrev(state)
+      self.location = f'{city}, {state_abbrev}, {country_code}'
+    else:
+      self.location = f'{city}, {country_code}'
+
+
