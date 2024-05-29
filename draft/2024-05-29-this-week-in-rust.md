@@ -118,7 +118,16 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A relatively quiet week, with few large changes, the largest driven by further
+increasing the scope of unsafe precondition checking.
+
+Triage done by **@simulacrum**.
+Revision range: [1d0e4afd..a59072ec](https://perf.rust-lang.org/?start=1d0e4afd4cac09078e12a232508c3e9f8d42535d&end=a59072ec4fb6824213df5e9de8cae4812fd4fe97&absolute=false&stat=instructions%3Au)
+
+2 Regressions, 3 Improvements, 5 Mixed; 3 of them in rollups
+51 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2024-05-27.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
