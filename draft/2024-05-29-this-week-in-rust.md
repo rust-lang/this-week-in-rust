@@ -98,8 +98,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](link to issue) -->
-<!-- * [ - ]() -->
+* [zerocopy - CI cache not including installed Cargo tools?](https://github.com/google/zerocopy/issues/1312)
+* [zerocopy - Debug GitHub Actions issue](https://github.com/google/zerocopy/issues/1276)
+* [zerocopy - Cargo doc step `jq` error](https://github.com/google/zerocopy/issues/1228)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (Formerly twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -109,8 +110,11 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-<!-- CFPs go here, use this format: * [**event name**](link to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+* [Rust Argentina June 2024](https://sessionize.com/rust-argentina-june/) | Closes 2024-05-31 | Buenos Aires, AR | Event date: 2024-06-04
+* [EuroRust 2024](https://www.papercall.io/eurorust-2024) | Closes 2024-06-03 | Vienna, Austria & online | Event date: 2024-10-10
+* [Scientific Computing in Rust 2024](https://scientificcomputing.rs/) | Closes 2024-06-14 | online | Event date: 2024-07-17 - 2024-07-19
+* [Rust Ukraine 2024](https://docs.google.com/forms/d/e/1FAIpQLSc9S_95oaCsFyrULF4iBQOIiTcMlOpG07izgquYLBCKFAYTKQ/viewform) | Closes 2024-07-06 | Online + Ukraine, Kyiv | Event date: 2024-07-27
+* [Conf42 Rustlang 2024](https://www.papercall.io/conf42-rustlang-2024) | Closes 2024-07-22 | online | Event date: 2024-08-22
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (Formerly twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
