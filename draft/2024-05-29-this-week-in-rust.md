@@ -58,6 +58,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Rebuilding Consumer Social In Rust](https://filtra.io/rust-amo-may-24)
 * [Report on variadic generics discussion at RustNL.](https://poignardazur.github.io/2024/05/25/report-on-rustnl-variadics/)
 * [How to use ChatGPT with Rust](https://www.onlycoiners.com/user/steadylearner/blog/how-to-use-chatgpt-with-rust)
 
