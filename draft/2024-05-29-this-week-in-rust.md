@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Fyrox Game Engine 0.34](https://fyrox.rs/blog/post/fyrox-game-engine-0-34/)
 
+- [iroh@0.17.0 - Everything is a little better](https://iroh.computer/blog/iroh-0-17-0-everything-is-a-little-better)
+
 ### Observations/Thoughts
 * [Visions of the future: formal verification in Rust](https://xav.io/blog/rust-formal-verification/)
 * [Avoiding Over-Reliance on `mpsc` channels in Rust](https://blog.digital-horror.com/blog/how-to-avoid-over-reliance-on-mpsc/)
