@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 - [iroh@0.17.0 - Everything is a little better](https://iroh.computer/blog/iroh-0-17-0-everything-is-a-little-better)
 
+- [venndb@0.5.0 - support multi dimensional filter options to be filtered in group](https://github.com/plabayo/venndb/releases/tag/0.5.0)
+
 ### Observations/Thoughts
 * [Visions of the future: formal verification in Rust](https://xav.io/blog/rust-formal-verification/)
 * [Avoiding Over-Reliance on `mpsc` channels in Rust](https://blog.digital-horror.com/blog/how-to-avoid-over-reliance-on-mpsc/)
