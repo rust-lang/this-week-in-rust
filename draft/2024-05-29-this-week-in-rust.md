@@ -68,6 +68,8 @@ and just ask the editors to select the category.
 * [Report on variadic generics discussion at RustNL.](https://poignardazur.github.io/2024/05/25/report-on-rustnl-variadics/)
 * [How to use ChatGPT with Rust](https://www.onlycoiners.com/user/steadylearner/blog/how-to-use-chatgpt-with-rust)
 
+* [video] [Programming Education: Tailoring Tools and Techniques for Rust (Will Crichton in the RustRover livestream series)](https://www.youtube.com/watch?v=u85bozA3bv0)
+
 ## Crate of the Week
 
 This week's crate is [pulso](https://github.com/guapodero/pulso), a simple metrics collector for TCP/IP.
