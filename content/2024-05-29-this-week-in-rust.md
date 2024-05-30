@@ -421,4 +421,4 @@ Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1d4apvl/this_week_in_rust_549)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1d4aysp/this_week_in_rust_549/)</small>
