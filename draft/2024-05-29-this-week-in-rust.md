@@ -57,6 +57,8 @@ and just ask the editors to select the category.
 * [Atomic Polling Intervals for Highly Concurrent Workloads](https://www.byronwasti.com/polling-atomics/)
 * [Taming Floating-Point Sums](https://orlp.net/blog/taming-float-sums/)
 
+* [Send & Mutex - Misconceptions about Send](https://cryptical.xyz/rust/send-mutex)
+
 ### Rust Walkthroughs
 
 ### Research
