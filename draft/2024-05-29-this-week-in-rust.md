@@ -61,6 +61,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Build with Naz : Linux io_uring and tokio-uring exploration with Rust](https://developerlife.com/2024/05/25/tokio-uring-exploration-rust/)
 * [Getting Started with Loco & SeaORM](https://www.sea-ql.org/blog/2024-05-28-getting-started-with-loco-seaorm/)
 
 ### Research
