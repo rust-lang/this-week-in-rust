@@ -31,18 +31,14 @@ and just ask the editors to select the category.
 ### Official
 * [Welcome James Munns to the Leadership Council](https://blog.rust-lang.org/inside-rust/2024/05/28/launching-pad-representative.html)
 
-### Foundation
-
 ### Newsletters
 * [Cyberpunk UI, Minecraft simulation, and volumetric destruction](https://thisweekinbevy.com/issue/2024-05-27-cyberpunk-ui-minecraft-simulation-and-volumetric-destruction)
 
 ### Project/Tooling Updates
 * [Fyrox Game Engine 0.34](https://fyrox.rs/blog/post/fyrox-game-engine-0-34/)
 * [Wasmi's New Execution Engine - Faster Than Ever](https://wasmi-labs.github.io/blog/posts/wasmi-v0.32/)
-
-- [iroh@0.17.0 - Everything is a little better](https://iroh.computer/blog/iroh-0-17-0-everything-is-a-little-better)
-
-- [venndb@0.5.0 - support multi dimensional filter options to be filtered in group](https://github.com/plabayo/venndb/releases/tag/0.5.0)
+* [iroh@0.17.0 - Everything is a little better](https://iroh.computer/blog/iroh-0-17-0-everything-is-a-little-better)
+* [venndb@0.5.0 - support multi dimensional filter options to be filtered in group](https://github.com/plabayo/venndb/releases/tag/0.5.0)
 
 ### Observations/Thoughts
 * [Diesel: Continuous Benchmarking Case Study](https://bencher.dev/learn/case-study/diesel/)
@@ -57,7 +53,6 @@ and just ask the editors to select the category.
 * [When allocating unused memory boosts performance by 2x](https://quickwit.io/blog/performance-investigation)
 * [Atomic Polling Intervals for Highly Concurrent Workloads](https://www.byronwasti.com/polling-atomics/)
 * [Taming Floating-Point Sums](https://orlp.net/blog/taming-float-sums/)
-
 * [Send & Mutex - Misconceptions about Send](https://cryptical.xyz/rust/send-mutex)
 
 ### Rust Walkthroughs
@@ -65,13 +60,10 @@ and just ask the editors to select the category.
 * [Build with Naz : Linux io_uring and tokio-uring exploration with Rust](https://developerlife.com/2024/05/25/tokio-uring-exploration-rust/)
 * [Getting Started with Loco & SeaORM](https://www.sea-ql.org/blog/2024-05-28-getting-started-with-loco-seaorm/)
 
-### Research
-
 ### Miscellaneous
 * [Rebuilding Consumer Social In Rust](https://filtra.io/rust-amo-may-24)
 * [Report on variadic generics discussion at RustNL.](https://poignardazur.github.io/2024/05/25/report-on-rustnl-variadics/)
 * [How to use ChatGPT with Rust](https://www.onlycoiners.com/user/steadylearner/blog/how-to-use-chatgpt-with-rust)
-
 * [video] [Programming Education: Tailoring Tools and Techniques for Rust (Will Crichton in the RustRover livestream series)](https://www.youtube.com/watch?v=u85bozA3bv0)
 
 ## Crate of the Week
@@ -308,7 +300,7 @@ Rusty Events between 2024-05-29 - 2024-06-26 🦀
 * 2024-05-29 | Virtual | [Training 4 Programmers LLC](https://www.eventbrite.com/o/training-4-programmers-llc-80387368983)
     * [**Enums, Structs, and Traits - Essential Building Blocks of Rust Programming**](https://www.eventbrite.com/e/enums-structs-and-traits-essential-building-blocks-of-rust-programming-tickets-904696681127)
 * 2024-05-30 | Virtual + In Person (Barcelona, ES) | [Mainmatter](https://mainmatter.com/) & [BcnRust](https://www.meetup.com/es-ES/bcnrust/)
-    * [**Rust for the web, Barcelona 2024**](https://www.meetup.com/es-ES/bcnrust/events/300765894/) 
+    * [**Rust for the web, Barcelona 2024**](https://www.meetup.com/es-ES/bcnrust/events/300765894/)
 * 2024-05-30 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
     * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298542326/)
 * 2024-06-04 | Virtual | [Women in Rust](https://www.meetup.com/women-in-rust/)
@@ -352,7 +344,7 @@ Rusty Events between 2024-05-29 - 2024-06-26 🦀
 * 2024-05-30 | Amsterdam, NL | [Rust Developers Amsterdam Group](https://www.meetup.com/rust-amsterdam-group/)
     * [**Rust Developer Meetup @ Avalor AI**](https://www.meetup.com/rust-amsterdam-group/events/301065548/)
 * 2024-05-30 | Barcelona, ES | [Mainmatter](https://mainmatter.com/) & [BcnRust](https://www.meetup.com/es-ES/bcnrust/)
-    * [**Rust for the web, Barcelona 2024**](https://www.meetup.com/es-ES/bcnrust/events/300765894/) 
+    * [**Rust for the web, Barcelona 2024**](https://www.meetup.com/es-ES/bcnrust/events/300765894/)
 * 2024-05-30 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust and Tell - Title**](https://www.meetup.com/rust-berlin/events/299288963/)
 * 2024-05-30 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community)
@@ -413,7 +405,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1cixuzr/official_rrust_whos_hiring_thread_for_jobseekers)
 
 # Quote of the Week
 
@@ -429,4 +421,4 @@ Thanks to [Stephan Sokolow](https://users.rust-lang.org/t/twir-quote-of-the-week
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1d4apvl/this_week_in_rust_549)</small>
