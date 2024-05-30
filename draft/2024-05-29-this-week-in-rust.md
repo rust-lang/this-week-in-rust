@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 - [venndb@0.5.0 - support multi dimensional filter options to be filtered in group](https://github.com/plabayo/venndb/releases/tag/0.5.0)
 
 ### Observations/Thoughts
+* [Diesel: Continuous Benchmarking Case Study](https://bencher.dev/learn/case-study/diesel/)
 * [Visions of the future: formal verification in Rust](https://xav.io/blog/rust-formal-verification/)
 * [Avoiding Over-Reliance on `mpsc` channels in Rust](https://blog.digital-horror.com/blog/how-to-avoid-over-reliance-on-mpsc/)
 * [How We Migrated Our Static Analyzer From Java To Rust](https://www.datadoghq.com/blog/engineering/how-we-migrated-our-static-analyzer-from-java-to-rust/)
