@@ -253,3 +253,4 @@ COUNTRY_CODE_TO_CONTINENT = {
 def country_code_to_continent(country_code):
     # Returns the continent a country code belongs to.
     return COUNTRY_CODE_TO_CONTINENT[country_code]
+
