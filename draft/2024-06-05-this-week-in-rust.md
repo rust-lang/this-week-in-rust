@@ -42,7 +42,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-* [Way of Rhea, a puzzle game being developed in Rust since 2018 shipped.](https://store.steampowered.com/app/1110620/Way_of_Rhea/).
+* [Highlights from "I spent 6 years developing a puzzle game in Rust and it just shipped, AMA"](https://gamesbymason.com/2024/06/01/wor-ama/)
 
 ## Crate of the Week
 
