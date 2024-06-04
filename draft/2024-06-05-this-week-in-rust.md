@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Pigg 0.1.0](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.1.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
