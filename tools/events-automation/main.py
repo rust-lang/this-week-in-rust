@@ -25,7 +25,7 @@ def main():
     # Flag potential duplicate events.
     potential_duplicate(event_list)
     
-    # Sort into virtual or by continent.
+    # Group by virtual or by continent.
     event_list = group_virtual_continent(event_list)
 
     # Output Sorted Event List.
