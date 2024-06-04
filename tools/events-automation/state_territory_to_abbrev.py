@@ -78,6 +78,7 @@ CA_STATE_TERRITORY_TO_ABBREV = {
 }
 
 AU_STATE_TERRITORY_TO_ABBREV = {
+  "Australian Capital Territory": "ACT",
   "New South Wales": "NSW",
   "Northern Territory": "NT",
   "Queensland": "QLD",
