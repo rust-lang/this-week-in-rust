@@ -33,19 +33,26 @@ def main():
 
 
 def output_to_screen(event_list):
-    # Prints sorted Event List to terminal screen.
-    for key, value in event_list.items():
-        if len(value) == 0:
-            continue
-        else:
-            print(f'### {key}:\n')
-            
-            # Output event details
-            for event in value:
-                if event.duplicate:
-                    print("** NOTE POTENTIAL DUPLICATE: **")
-                print(event.to_markdown_string())
-            print()
+    # Outputs sorted Event List to terminal screen.
+    # Output Virtual Events:
+    if "Virtual" in event_list:
+        print("### Virtual:\n")
+        output_event_details(event_list["Virtual"])
+        del event_list["Virtual"]
+
+    # Output Non-Virtual Events:
+    for key, value in dict(sorted(event_list.items())).items():
+        print(f'### {key}:\n')
+        output_event_details(value)
+
+
+def output_event_details(event_group):
+    # Outputs event details
+    for event in event_group:
+        if event.duplicate:
+            print("** NOTE POTENTIAL DUPLICATE: **")
+        print(event.to_markdown_string())
+    print()
 
 
 def format_data(event_list):
@@ -83,12 +90,12 @@ def potential_duplicate(event_list):
     # Identifies possible duplicate Events within Event List.
     for i in range(len(event_list)):
         for j in range(i+1, len(event_list)):
-            if event_list[i].date == event_list[j].date:
-                if event_list[i].url == event_list[j].url:
-                    if event_list[i].name == event_list[j].name:
-                        if event_list[i].organizerName == event_list[j].organizerName:
-                            if event_list[i].location == event_list[j].location:
-                                event_list[i].duplicate = True
+            if event_list[i].date == event_list[j].date and \
+               event_list[i].url == event_list[j].url and \
+               event_list[i].name == event_list[j].name and \
+               event_list[i].organizerName == event_list[j].organizerName and \
+               event_list[i].location == event_list[j].location:
+                event_list[i].duplicate = True
 
 
 if __name__ == "__main__":
