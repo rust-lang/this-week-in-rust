@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Recordings of RustNL 2024 published](https://www.youtube.com/playlist?list=PL8Q1w7Ff68DBZZbJt3ie5MUoJV5v2HeA7)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
