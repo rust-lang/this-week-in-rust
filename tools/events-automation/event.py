@@ -31,8 +31,10 @@ class Event():
 
     country_code, city = locationData["country_code"].upper(), locationData.get("city", locationData.get("town", locationData.get("village", "**NO CITY DATA**")))
     if country_code in ["AU", "CA", "US"]:
-      state = locationData["state"]
-      if country_code == "AU":
+      state = locationData.get("state", locationData.get("territory", "**NO STATE DATA**"))
+      if state == "**NO STATE DATA**":
+        state_abbrev = state
+      elif country_code == "AU":
         state_abbrev = au_state_territory_to_abbrev(state)
       elif country_code == "CA":
         state_abbrev = ca_state_territory_to_abbrev(state)
