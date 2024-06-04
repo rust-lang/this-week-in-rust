@@ -26,10 +26,10 @@ class Event():
 
   def format_location(self):
     # Formats location data into (city, +/-state, country).
-    geocoder = Nominatim(user_agent="TWiR")
+    geocoder = Nominatim(user_agent="TWiR", timeout=5)
     locationData = geocoder.geocode(self.location, language="en", addressdetails=True).raw["address"]
 
-    country_code, city = locationData["country_code"].upper(), locationData["city"]
+    country_code, city = locationData["country_code"].upper(), locationData.get("city", locationData.get("town", locationData.get("village", "**NO CITY DATA**")))
     if country_code in ["AU", "CA", "US"]:
       state = locationData["state"]
       if country_code == "AU":

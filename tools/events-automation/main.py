@@ -87,7 +87,8 @@ def potential_duplicate(event_list):
                 if event_list[i].url == event_list[j].url:
                     if event_list[i].name == event_list[j].name:
                         if event_list[i].organizerName == event_list[j].organizerName:
-                            event_list[i].duplicate = True
+                            if event_list[i].location == event_list[j].location:
+                                event_list[i].duplicate = True
 
 
 if __name__ == "__main__":
