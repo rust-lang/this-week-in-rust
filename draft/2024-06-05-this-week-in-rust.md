@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+- [On Dependency Usage in Rust | lander's posts](https://landaire.net/on-dependency-usage-in-rust/)
 
 ### Rust Walkthroughs
 
