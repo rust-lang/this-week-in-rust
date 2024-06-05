@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Build with Naz : Rust typestate pattern](https://developerlife.com:3000/2024/05/28/typestate-pattern-rust/)
+
 ### Research
 
 ### Miscellaneous
