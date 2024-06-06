@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Highlights from "I spent 6 years developing a puzzle game in Rust and it just shipped, AMA"](https://gamesbymason.com/2024/06/01/wor-ama/)
 
 ## Crate of the Week
 
