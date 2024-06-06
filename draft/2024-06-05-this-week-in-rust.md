@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Build with Naz : Rust typestate pattern](https://developerlife.com/2024/05/28/typestate-pattern-rust/)
 * [Let's build a Load Balancer in Rust - Part 3](https://marcobacis.com/blog/load-balancer-rust-3/)
 * [The Ultimate Guide to Rust Newtypes](https://www.howtocodeit.com/articles/ultimate-guide-rust-newtypes)
 
