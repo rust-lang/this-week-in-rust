@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rust is for the Engine, Not the Game](https://barretts.club/posts/rust-for-the-engine/)
+
 ### Rust Walkthroughs
 
 ### Research
