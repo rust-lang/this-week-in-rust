@@ -58,9 +58,11 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [layoutparser-ort](https://docs.rs/layoutparser-ort), a simplified port of LayoutParser for ML-based document layout element detection.
 
-[Please submit your suggestions and votes for next week][submit_crate]!
+Despite there being no suggestions, llogiq is reasonably happy with his choice. Are you?
+
+[No matter what your answer is, please submit your suggestions and votes for next week][submit_crate]!
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
@@ -110,7 +112,92 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+308 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2024-05-28..2024-06-04
+
+* [`-Znext-solver`: eagerly normalize when adding goals](https://github.com/rust-lang/rust/pull/125343)
+* [`fn_arg_sanity_check`: fix panic message](https://github.com/rust-lang/rust/pull/125695)
+* [add `--print=check-cfg` to get the expected configs](https://github.com/rust-lang/rust/pull/124320)
+* [add `-Zfixed-x18`](https://github.com/rust-lang/rust/pull/124655)
+* [also InstSimplify `&raw*`](https://github.com/rust-lang/rust/pull/125796)
+* [also resolve the type of constants, even if we already turned it into an error constant](https://github.com/rust-lang/rust/pull/125807)
+* [avoid unwrap diag.code directly in `note_and_explain_type_err`](https://github.com/rust-lang/rust/pull/125774)
+* [check index `value <= 0xFFFF_FF00`](https://github.com/rust-lang/rust/pull/125821)
+* [coverage: avoid overflow when the MC/DC condition limit is exceeded](https://github.com/rust-lang/rust/pull/125700)
+* [coverage: optionally instrument the RHS of lazy logical operators](https://github.com/rust-lang/rust/pull/125756)
+* [coverage: rename MC/DC `conditions_num` to `num_conditions`](https://github.com/rust-lang/rust/pull/125754)
+* [create const block DefIds in typeck instead of ast lowering](https://github.com/rust-lang/rust/pull/124650)
+* [do not equate `Const`'s ty in `super_combine_const`](https://github.com/rust-lang/rust/pull/125671)
+* [do not suggest unresolvable builder methods](https://github.com/rust-lang/rust/pull/125397)
+* [a small diagnostic improvement for `dropping_copy_types`](https://github.com/rust-lang/rust/pull/125433)
+* [don't recompute `tail` in `lower_stmts`](https://github.com/rust-lang/rust/pull/125790)
+* [don't suggest turning non-char-literal exprs of ty `char` into string literals](https://github.com/rust-lang/rust/pull/125640)
+* [enable DestinationPropagation by default](https://github.com/rust-lang/rust/pull/115105)
+* [fold item bounds before proving them in `check_type_bounds` in new solver](https://github.com/rust-lang/rust/pull/125786)
+* [implement `needs_async_drop` in rustc and optimize async drop glue](https://github.com/rust-lang/rust/pull/124662)
+* [improve diagnostic output of `non_local_definitions` lint](https://github.com/rust-lang/rust/pull/125089)
+* [make `ProofTreeBuilder` actually generic over `Interner`](https://github.com/rust-lang/rust/pull/125598)
+* [make `body_owned_by` return the `Body` instead of just the `BodyId`](https://github.com/rust-lang/rust/pull/125711)
+* [make `repr(packed)` vectors work with SIMD intrinsics](https://github.com/rust-lang/rust/pull/125311)
+* [make lint: `lint_dropping_references lint_forgetting_copy_types lint_forgetting_references` give suggestion if possible](https://github.com/rust-lang/rust/pull/125531)
+* [omit `non-needs_drop drop_in_place` in vtables](https://github.com/rust-lang/rust/pull/122662)
+* [opt-in to `FulfillmentError` generation to avoid doing extra work in the new solver](https://github.com/rust-lang/rust/pull/125864)
+* [reintroduce name resolution check for trying to access locals from an inline const](https://github.com/rust-lang/rust/pull/125705)
+* [reject `CVarArgs` in `parse_ty_for_where_clause`](https://github.com/rust-lang/rust/pull/125863)
+* [show files produced by `--emit foo` in json artifact notifications](https://github.com/rust-lang/rust/pull/122597)
+* [silence some resolve errors when there have been glob import errors](https://github.com/rust-lang/rust/pull/125381)
+* [stop using `translate_args` in the new solver](https://github.com/rust-lang/rust/pull/125776)
+* [support mdBook preprocessors for TRPL in rustbook](https://github.com/rust-lang/rust/pull/125408)
+* [test codegen for `repr(packed,simd)` → `repr(simd)`](https://github.com/rust-lang/rust/pull/125904)
+* [tweak relations to no longer rely on `TypeTrace`](https://github.com/rust-lang/rust/pull/125664)
+* [unroll first iteration of `checked_ilog` loop](https://github.com/rust-lang/rust/pull/124294)
+* [uplift `{Closure,Coroutine,CoroutineClosure}Args` and friends to `rustc_type_ir`](https://github.com/rust-lang/rust/pull/125775)
+* [use parenthetical notation for `Fn` traits](https://github.com/rust-lang/rust/pull/125778)
+* [add some more specific checks to the MIR validator](https://github.com/rust-lang/rust/pull/125851)
+* [miri: avoid making a full copy of all new allocations](https://github.com/rust-lang/rust/pull/125633)
+* [miri: fix "local crate" detection](https://github.com/rust-lang/miri/pull/3644)
+* [don't inhibit random field reordering on `repr(packed(1))`](https://github.com/rust-lang/rust/pull/125360)
+* [avoid checking the edition as much as possible](https://github.com/rust-lang/rust/pull/125828)
+* [increase vtable layout size](https://github.com/rust-lang/rust/pull/123572)
+* [stabilise `IpvNAddr::`{`BITS`, `to_bits`, `from_bits`} (`ip_bits`)](https://github.com/rust-lang/rust/pull/125551)
+* [stabilize `custom_code_classes_in_docs` feature](https://github.com/rust-lang/rust/pull/124577)
+* [stablize `const_binary_heap_constructor`](https://github.com/rust-lang/rust/pull/125211)
+* [make `std::env::`{`set_var`, `remove_var`} unsafe in edition 2024](https://github.com/rust-lang/rust/pull/124636)
+* [implement feature `integer_sign_cast`](https://github.com/rust-lang/rust/pull/125884)
+* [NVPTX: avoid `PassMode::Direct` for args in C abi](https://github.com/rust-lang/rust/pull/117671)
+* [genericize `ptr::from_raw_parts`](https://github.com/rust-lang/rust/pull/125701)
+* [`std::pal::unix::thread` fetching min stack size on netbsd](https://github.com/rust-lang/rust/pull/125577)
+* [add an intrinsic for `ptr::metadata`](https://github.com/rust-lang/rust/pull/124251)
+* [change `f32::midpoint` to upcast to f64](https://github.com/rust-lang/rust/pull/121062)
+* [rustc-hash: replace hash with faster and better finalized hash](https://github.com/rust-lang/rustc-hash/pull/37)
+* [cargo test: Auto-redact elapsed time](https://github.com/rust-lang/cargo/pull/13973)
+* [cargo add: Avoid escaping double-quotes by using string literals](https://github.com/rust-lang/cargo/pull/14006)
+* [cargo config: Ensure `--config net.git-fetch-with-cli=true` is respected](https://github.com/rust-lang/cargo/pull/13992)
+* [cargo new: Dont say were adding to a workspace when a regular package is in root](https://github.com/rust-lang/cargo/pull/13987)
+* [cargo toml: Ensure targets are in a deterministic order](https://github.com/rust-lang/cargo/pull/13989)
+* [cargo vendor: Ensure sort happens for vendor](https://github.com/rust-lang/cargo/pull/14004)
+* [cargo: allows the default git/gitoxide configuration to be obtained from the ENV and config](https://github.com/rust-lang/cargo/pull/13687)
+* [cargo: adjust custom err from cert-check due to libgit2 1.8 change](https://github.com/rust-lang/cargo/pull/13970)
+* [cargo: skip deserialization of unrelated fields with overlapping name](https://github.com/rust-lang/cargo/pull/14000)
+* [clippy: `many_single_char_names`: deduplicate diagnostics](https://github.com/rust-lang/rust-clippy/pull/12859)
+* [clippy: add `needless_character_iteration` lint](https://github.com/rust-lang/rust-clippy/pull/12815)
+* [clippy: deprecate `maybe_misused_cfg` and `mismatched_target_os`](https://github.com/rust-lang/rust-clippy/pull/12875)
+* [clippy: disable `indexing_slicing` for custom `Index` impls](https://github.com/rust-lang/rust-clippy/pull/12488)
+* [clippy: fix `redundant_closure` suggesting incorrect code with `F: Fn()`](https://github.com/rust-lang/rust-clippy/pull/12865)
+* [clippy: let `non_canonical_impls` skip proc marco](https://github.com/rust-lang/rust-clippy/pull/12857)
+* [clippy: ignore array from `deref_addrof` lint](https://github.com/rust-lang/rust-clippy/pull/12864)
+* [clippy: make `str_to_string` machine-applicable](https://github.com/rust-lang/rust-clippy/pull/12871)
+* [rust-analyzer: add `Function::fn_ptr_type(…)` for obtaining name-erased function type](https://github.com/rust-lang/rust-analyzer/pull/17312)
+* [rust-analyzer: don't mark `#[rustc_deprecated_safe_2024]` functions as unsafe](https://github.com/rust-lang/rust-analyzer/pull/17329)
+* [rust-analyzer: enable completions within derive helper attributes](https://github.com/rust-lang/rust-analyzer/pull/17328)
+* [rust-analyzer: fix container search failing for tokens originating within derive attributes](https://github.com/rust-lang/rust-analyzer/pull/17326)
+* [rust-analyzer: fix diagnostics clearing when flychecks run per-workspace](https://github.com/rust-lang/rust-analyzer/pull/17302)
+* [rust-analyzer: only generate snippets for `extract_expressions_from_format_string` if snippets are supported](https://github.com/rust-lang/rust-analyzer/pull/17333)
+* [rustfmt: collapse nested if detected by clippy](https://github.com/rust-lang/rustfmt/pull/6169)
+* [rustfmt: rustfmt should not remove inner attributes from inline const blocks](https://github.com/rust-lang/rustfmt/pull/6173)
+* [rustfmt: rust rewrite `check_diff` (Skeleton)](https://github.com/rust-lang/rustfmt/pull/6166)
+* [rustfmt: use `with_capacity` in `rewrite_path`](https://github.com/rust-lang/rustfmt/pull/6174)
 
 ### Rust Compiler Performance Triage
 
@@ -293,7 +380,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Every PR is Special™
+
+– [Hieyou Xu describing being on t-compiler review rotation](https://jieyouxu.github.io/blog/review-rotation/)
+
+Sadly, there was no suggestion, so llogiq came up with something hopefully suitable.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
