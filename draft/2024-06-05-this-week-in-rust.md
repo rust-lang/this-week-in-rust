@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [Highlights from "I spent 6 years developing a puzzle game in Rust and it just shipped, AMA"](https://gamesbymason.com/2024/06/01/wor-ama/)
 
+* [Recordings of RustNL 2024 published](https://www.youtube.com/playlist?list=PL8Q1w7Ff68DBZZbJt3ie5MUoJV5v2HeA7)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
