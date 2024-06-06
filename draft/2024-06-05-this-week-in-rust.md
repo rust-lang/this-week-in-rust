@@ -30,23 +30,54 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Welcoming Rust-C++ Interoperability Engineer Jon Bauman to the Rust Foundation Team](https://foundation.rust-lang.org/news/welcoming-rust-c-interoperability-engineer-jon-bauman-to-the-rust-foundation-team/)
+
+### RustNL 2024
+* [Visual Application Design for Rust - Rik Arends](https://www.youtube.com/watch?v=NPP2_6KMA60)
+* [ThRust in Space: Initial Momentum - Michaël Melchiore](https://www.youtube.com/watch?v=O09rje6yC90)
+* [Arc in the Linux Kernel - Alice Ryhl](https://www.youtube.com/watch?v=gr9v0FFXaZ8)
+* [Making Connections - Mara Bos](https://www.youtube.com/watch?v=aENHzYAFkeE)
+* [Replacing OpenSSL One Step at a Time - Joe Birr-Pixton](https://www.youtube.com/watch?v=10ymtv1J7Os)
+* [Fortifying Rust's FFI with Enscapsulated Functions - Leon Schuermann](https://www.youtube.com/watch?v=O4sVw4YQB)
+* [Oxidizing Education - Henk Oordt](https://www.youtube.com/watch?v=KwZM0lSTvyk)
+* [Postcard: An Unreasonably Effective Tool for Machine to Machine Communication - James Munns](https://www.youtube.com/watch?v=HtBFvTH5ZKE)
+* [Introducing June - Sophia Turner](https://www.youtube.com/watch?v=c1isq1Bdmic)
+* [Robius: Immersive and Seamless Multiplatform App Development in Rust - Kevin Boos](https://www.youtube.com/watch?v=Dg4hlfettn8)
+* [Compression Carcinized: Implementing zlib in Rust - Folkert de Vries](https://www.youtube.com/watch?v=mvzHQdCLkOY)
+* [K23: A Secure Research OS Running WASM - Jonas Kruckenberg](https://www.youtube.com/watch?v=GjDwj7RWOgs)
+* [Async Rust in Embedded Systems with Embassy - Dario Nieuwenhuis](https://www.youtube.com/watch?v=H7NtzyP9q8E)
+* [Xilem: Let's Build High Performance Rust UI - Raph Levien](https://www.youtube.com/watch?v=OvfNipIcRiQ)
+* [Rust Poisoning My Wrist for Fun - Ulf Lilleengen](https://www.youtube.com/watch?v=u6q9l89EOXI)
+* [Type Theory for Busy Engineers - Niko Matsakis](https://www.youtube.com/watch?v=9qLACD9Bfbk)
 
 ### Newsletters
+* [This Month in Rust GameDev #51 - May 2024](https://gamedev.rs/news/051/)
 
 ### Project/Tooling Updates
+* [Enter paradis — A new chapter in Rust's parallelism story](https://andreaslongva.com/blog/enter-paradis/)
+* [Tiny Glade, VJ performances, and 2d lighting](https://thisweekinbevy.com/issue/2024-06-03-tiny-glade-vj-performances-and-2d-lighting)
+* [Diesel 2.2.0](https://diesel.rs/news/2_2_0_release.html)
 
 * [Pigg 0.1.0](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.1.0)
 - [git-cliff 2.3.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/2.3.0)
-* [Diesel 2.2.0](https://diesel.rs/news/2_2_0_release.html)
 
 ### Observations/Thoughts
-- [On Dependency Usage in Rust | lander's posts](https://landaire.net/on-dependency-usage-in-rust/)
+* [The borrow checker within](https://smallcultfollowing.com/babysteps/blog/2024/06/02/the-borrow-checker-within/)
+* [Don't Worry About Lifetimes](https://corrode.dev/blog/lifetimes/)
+* [rust is not about memory safety](https://o-santi.github.io/blog/rust-is-not-about-memory-safety/)
+* [On Dependency Usage in Rust](https://landaire.net/on-dependency-usage-in-rust/)
+* [Context Managers: Undroppable Types for Free](https://blog.yoshuawuyts.com/achieving-undroppable-types-by-leveraging-context-managers/)
+* [Rust and dynamically-sized thin pointers](https://john-millikin.com/rust-and-dynamically-sized-thin-pointers)
+* [audio] [Thunderbird - Brendan Abolivier, Software Engineer](https://corrode.dev/podcast/s02e03-thunderbird/)
 
 * [Rust is for the Engine, Not the Game](https://barretts.club/posts/rust-for-the-engine/)
 
 ### Rust Walkthroughs
-
 * [Build with Naz : Rust typestate pattern](https://developerlife.com/2024/05/28/typestate-pattern-rust/)
+* [How to build a plugin system in Rust](https://www.arroyo.dev/blog/rust-plugin-systems)
+* [Forming Clouds](https://isaacdaou.st/blog/forming-clouds/)
+* [Rust error handling: Option & Result](https://bitfieldconsulting.com/posts/rust-errors-option-result)
+
 * [Let's build a Load Balancer in Rust - Part 3](https://marcobacis.com/blog/load-balancer-rust-3/)
 * [The Ultimate Guide to Rust Newtypes](https://www.howtocodeit.com/articles/ultimate-guide-rust-newtypes)
 
@@ -54,8 +85,6 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [Highlights from "I spent 6 years developing a puzzle game in Rust and it just shipped, AMA"](https://gamesbymason.com/2024/06/01/wor-ama/)
-
-* [Recordings of RustNL 2024 published](https://www.youtube.com/playlist?list=PL8Q1w7Ff68DBZZbJt3ie5MUoJV5v2HeA7)
 
 ## Crate of the Week
 
