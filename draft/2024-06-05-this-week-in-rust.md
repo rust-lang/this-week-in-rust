@@ -43,7 +43,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
-[The Ultimate Guide to Rust Newtypes](https://www.howtocodeit.com/articles/ultimate-guide-rust-newtypes)
+* [Let's build a Load Balancer in Rust - Part 3](https://marcobacis.com/blog/load-balancer-rust-3/)
+* [The Ultimate Guide to Rust Newtypes](https://www.howtocodeit.com/articles/ultimate-guide-rust-newtypes)
 
 ### Research
 
