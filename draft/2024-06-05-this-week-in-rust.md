@@ -35,6 +35,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Pigg 0.1.0](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.1.0)
 - [git-cliff 2.3.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/2.3.0)
 * [Diesel 2.2.0](https://diesel.rs/news/2_2_0_release.html)
 
