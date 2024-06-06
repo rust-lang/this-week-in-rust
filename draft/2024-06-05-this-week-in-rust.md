@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 * [Diesel 2.2.0](https://diesel.rs/news/2_2_0_release.html)
 
 ### Observations/Thoughts
+- [On Dependency Usage in Rust | lander's posts](https://landaire.net/on-dependency-usage-in-rust/)
 
 * [Rust is for the Engine, Not the Game](https://barretts.club/posts/rust-for-the-engine/)
 
