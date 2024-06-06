@@ -111,7 +111,21 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+
+A quiet week; we did have one quite serious regression (#115105, "enable
+DestinationPropagation by default"), but it was shortly reverted (#125794).
+The only other PR identified as potentially problematic was rollup
+[PR #125824](https://github.com/rust-lang/rust/pull/125824), but even
+that is relatively limited in its effect.
+
+Triage done by **@pnkfelix**.
+Revision range: [a59072ec..1d52972d](https://perf.rust-lang.org/?start=a59072ec4fb6824213df5e9de8cae4812fd4fe97&end=1d52972dd8592edf4026aa577c8ce69acc0ac2d1&absolute=false&stat=instructions%3Au)
+
+3 Regressions, 5 Improvements, 6 Mixed; 4 of them in rollups
+57 artifact comparisons made in total
+
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/fba75cc08937425ab274959581401b862a0b3068/triage/2024-06-03.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
