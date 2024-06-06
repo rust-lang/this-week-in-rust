@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Diesel 2.2.0](https://diesel.rs/news/2_2_0_release.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
