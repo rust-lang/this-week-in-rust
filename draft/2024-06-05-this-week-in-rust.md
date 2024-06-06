@@ -27,8 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
 ### Foundation
 * [Welcoming Rust-C++ Interoperability Engineer Jon Bauman to the Rust Foundation Team](https://foundation.rust-lang.org/news/welcoming-rust-c-interoperability-engineer-jon-bauman-to-the-rust-foundation-team/)
 
@@ -57,9 +55,8 @@ and just ask the editors to select the category.
 * [Enter paradis — A new chapter in Rust's parallelism story](https://andreaslongva.com/blog/enter-paradis/)
 * [Tiny Glade, VJ performances, and 2d lighting](https://thisweekinbevy.com/issue/2024-06-03-tiny-glade-vj-performances-and-2d-lighting)
 * [Diesel 2.2.0](https://diesel.rs/news/2_2_0_release.html)
-
 * [Pigg 0.1.0](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.1.0)
-- [git-cliff 2.3.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/2.3.0)
+* [git-cliff 2.3.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/2.3.0)
 
 ### Observations/Thoughts
 * [The borrow checker within](https://smallcultfollowing.com/babysteps/blog/2024/06/02/the-borrow-checker-within/)
@@ -68,20 +65,16 @@ and just ask the editors to select the category.
 * [On Dependency Usage in Rust](https://landaire.net/on-dependency-usage-in-rust/)
 * [Context Managers: Undroppable Types for Free](https://blog.yoshuawuyts.com/achieving-undroppable-types-by-leveraging-context-managers/)
 * [Rust and dynamically-sized thin pointers](https://john-millikin.com/rust-and-dynamically-sized-thin-pointers)
-* [audio] [Thunderbird - Brendan Abolivier, Software Engineer](https://corrode.dev/podcast/s02e03-thunderbird/)
-
 * [Rust is for the Engine, Not the Game](https://barretts.club/posts/rust-for-the-engine/)
+* [audio] [Thunderbird - Brendan Abolivier, Software Engineer](https://corrode.dev/podcast/s02e03-thunderbird/)
 
 ### Rust Walkthroughs
 * [Build with Naz : Rust typestate pattern](https://developerlife.com/2024/05/28/typestate-pattern-rust/)
 * [How to build a plugin system in Rust](https://www.arroyo.dev/blog/rust-plugin-systems)
 * [Forming Clouds](https://isaacdaou.st/blog/forming-clouds/)
 * [Rust error handling: Option & Result](https://bitfieldconsulting.com/posts/rust-errors-option-result)
-
 * [Let's build a Load Balancer in Rust - Part 3](https://marcobacis.com/blog/load-balancer-rust-3/)
 * [The Ultimate Guide to Rust Newtypes](https://www.howtocodeit.com/articles/ultimate-guide-rust-newtypes)
-
-### Research
 
 ### Miscellaneous
 * [Highlights from "I spent 6 years developing a puzzle game in Rust and it just shipped, AMA"](https://gamesbymason.com/2024/06/01/wor-ama/)
@@ -405,7 +398,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1cixuzr/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -421,4 +414,4 @@ Sadly, there was no suggestion, so llogiq came up with something hopefully suita
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1d97pjo/this_week_in_rust_550/)</small>
