@@ -236,6 +236,10 @@ Rusty Events between 2024-06-12 - 2024-07-10 🦀
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/301066942/)
 * 2024-06-27 | Nashville, TN, US | [Music City Rust Developers](https://www.meetup.com/music-city-rust-developers/)
     * [**Music City Rust Developers: Holding Pattern**](https://www.meetup.com/music-city-rust-developers/events/301411746/)
+ 
+### Asia
+* 2024-06-30 | Kyoto, JP | [Kyoto Rust](https://www.meetup.com/kyoto-rust/)
+    * [**Rust Talk: Cross Platform Apps**](https://www.meetup.com/kyoto-rust/events/301499550/)
 
 ### Oceania
 
