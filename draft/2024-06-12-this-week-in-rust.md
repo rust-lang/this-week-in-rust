@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+- [The Rust to .NET compiler (backend) can now properly compile the "guessing game" from the Rust book](https://www.reddit.com/r/rust/comments/1db8vmg/media_the_rust_to_net_compiler_backend_can_now/)
 
 ### Observations/Thoughts
 
