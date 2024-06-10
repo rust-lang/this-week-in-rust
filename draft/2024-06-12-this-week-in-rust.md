@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [series] [Master Hexagonal Architecture in Rust: Anatomy of a Bad Rust Application](https://www.howtocodeit.com/articles/master-hexagonal-architecture-rust)
 
 ### Research
 
