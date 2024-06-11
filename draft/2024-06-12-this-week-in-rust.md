@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [video] [Full-stack development of a B2B payment infrastructure with Rust - with Florent Bécart](https://youtu.be/RA-r4F4ZmXM)
 
 ### Rust Walkthroughs
 
