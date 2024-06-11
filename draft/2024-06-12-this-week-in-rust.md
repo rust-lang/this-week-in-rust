@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Build with Naz - Rust error handling with miette](https://developerlife.com/2024/06/10/rust-miette-error-handling/)
+
 ### Research
 
 ### Miscellaneous
