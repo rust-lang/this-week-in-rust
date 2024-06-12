@@ -38,7 +38,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
+- [From Sender to Receiver: Rust’s Approach to Local File Transfers](https://medium.com/@otukof/from-sender-to-receiver-rusts-approach-to-local-file-transfers-e6a778020d90)
 ### Research
 
 ### Miscellaneous
