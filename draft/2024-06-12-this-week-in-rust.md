@@ -32,10 +32,21 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [ThisWeekInBevy: Bevy0.14-rc.2, Powerglove, and Soup](https://thisweekinbevy.com/issue/2024-06-10-bevy-014-rc2-powerglove-and-soup)
+* [This Month in Rust OSDev: May 2024](https://rust-osdev.com/this-month/2024-05/)
 
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [How I spent 2 years building my own game engine (Rust, WASM, WebGPU)](https://legendofworlds.com/blog/4)
+* [The Inconceivable Types of Rust: How to Make Self-Borrows Safe](https://blog.polybdenum.com/2024/06/07/the-inconceivable-types-of-rust-how-to-make-self-borrows-safe.html)
+* [Making robots plan faster with SIMD and Rust](https://www.claytonwramsey.com/blog/captree)
+* [Learning Rust: Bare Threading](https://levelup.gitconnected.com/learning-rust-bare-threading-1defb65038c9)
+* [999 crates of Rust on the wall](https://lawngno.me/blog/2024/06/10/divine-provenance.html)
+* [How-to compile rust faster](https://blog.rust.careers/post/compile_rust_faster/)
+* [Tock binary size](https://tweedegolf.nl/en/blog/126/tock-binary-size)
+* [Virtual Geometry in Bevy 0.14](https://jms55.github.io/posts/2024-06-09-virtual-geometry-bevy-0-14/)
+* [Building Plain Old Data from Scratch](https://onevariable.com/blog/pods-from-scratch/)
 
 ### Rust Walkthroughs
 
