@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 * [This Month in Rust OSDev: May 2024](https://rust-osdev.com/this-month/2024-05/)
 
 ### Project/Tooling Updates
+* [The Rust to .NET compiler (backend) can now properly compile the "guessing game" from the Rust book](https://www.reddit.com/r/rust/comments/1db8vmg/media_the_rust_to_net_compiler_backend_can_now/)
 
 * [Cattaca 1.0.0](https://github.com/sdball/cattaca/releases/tag/v1.0.0)
 
