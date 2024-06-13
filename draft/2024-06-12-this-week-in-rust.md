@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 * [video] [Full-stack development of a B2B payment infrastructure with Rust - with Florent Bécart](https://www.youtube.com/watch?v=RA-r4F4ZmXM)
 
 ### Rust Walkthroughs
+* [From Sender to Receiver: Rust’s Approach to Local File Transfers](https://medium.com/@otukof/from-sender-to-receiver-rusts-approach-to-local-file-transfers-e6a778020d90)
 * [series] [Master Hexagonal Architecture in Rust: Anatomy of a Bad Rust Application](https://www.howtocodeit.com/articles/master-hexagonal-architecture-rust)
 * [Build with Naz - Rust error handling with miette](https://developerlife.com/2024/06/10/rust-miette-error-handling/)
 
