@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 * [Virtual Geometry in Bevy 0.14](https://jms55.github.io/posts/2024-06-09-virtual-geometry-bevy-0-14/)
 * [Building Plain Old Data from Scratch](https://onevariable.com/blog/pods-from-scratch/)
 
+* [Latency at the edge with Rust/WebAssembly and Postgres: Part 1](https://exograph.dev/blog/wasm-pg-explorations-1), [Part 2](https://exograph.dev/blog/wasm-pg-explorations-2)
+
 ### Rust Walkthroughs
 
 ### Research
