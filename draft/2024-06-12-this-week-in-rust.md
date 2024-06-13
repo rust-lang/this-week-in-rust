@@ -37,7 +37,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
-[Latency at the edge with Rust/WebAssembly and Postgres: Part 1](https://exograph.dev/blog/wasm-pg-explorations-1), [Part 2](https://exograph.dev/blog/wasm-pg-explorations-2)
+* [Latency at the edge with Rust/WebAssembly and Postgres: Part 1](https://exograph.dev/blog/wasm-pg-explorations-1), [Part 2](https://exograph.dev/blog/wasm-pg-explorations-2)
 
 ### Rust Walkthroughs
 
