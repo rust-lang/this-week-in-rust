@@ -35,7 +35,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-- [Cattaca 1.0.0](https://github.com/sdball/cattaca/releases/tag/v1.0.0)
+* [Cattaca 1.0.0](https://github.com/sdball/cattaca/releases/tag/v1.0.0)
 
 ### Observations/Thoughts
 
