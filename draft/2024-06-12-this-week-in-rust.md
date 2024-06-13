@@ -35,7 +35,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-- [BugStalker v0.2.0 - rust debugger](https://www.reddit.com/r/rust/comments/1d6d3be/bugstalker_020_debugger_for_rust_programs/)
+* [BugStalker v0.2.0 - rust debugger](https://www.reddit.com/r/rust/comments/1d6d3be/bugstalker_020_debugger_for_rust_programs/)
 
 ### Observations/Thoughts
 
