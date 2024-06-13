@@ -37,9 +37,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [The Rust to .NET compiler (backend) can now properly compile the "guessing game" from the Rust book](https://www.reddit.com/r/rust/comments/1db8vmg/media_the_rust_to_net_compiler_backend_can_now/)
-
 * [Cattaca 1.0.0](https://github.com/sdball/cattaca/releases/tag/v1.0.0)
-
 * [BugStalker v0.2.0 - rust debugger](https://www.reddit.com/r/rust/comments/1d6d3be/bugstalker_020_debugger_for_rust_programs/)
 
 ### Observations/Thoughts
@@ -52,8 +50,8 @@ and just ask the editors to select the category.
 * [Tock binary size](https://tweedegolf.nl/en/blog/126/tock-binary-size)
 * [Virtual Geometry in Bevy 0.14](https://jms55.github.io/posts/2024-06-09-virtual-geometry-bevy-0-14/)
 * [Building Plain Old Data from Scratch](https://onevariable.com/blog/pods-from-scratch/)
-
 * [Latency at the edge with Rust/WebAssembly and Postgres: Part 1](https://exograph.dev/blog/wasm-pg-explorations-1), [Part 2](https://exograph.dev/blog/wasm-pg-explorations-2)
+* [video] [Full-stack development of a B2B payment infrastructure with Rust - with Florent Bécart](https://www.youtube.com/watch?v=RA-r4F4ZmXM)
 
 ### Rust Walkthroughs
 * [series] [Master Hexagonal Architecture in Rust: Anatomy of a Bad Rust Application](https://www.howtocodeit.com/articles/master-hexagonal-architecture-rust)
