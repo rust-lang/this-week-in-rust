@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 * [Cattaca 1.0.0](https://github.com/sdball/cattaca/releases/tag/v1.0.0)
 
+* [BugStalker v0.2.0 - rust debugger](https://www.reddit.com/r/rust/comments/1d6d3be/bugstalker_020_debugger_for_rust_programs/)
+
 ### Observations/Thoughts
 * [How I spent 2 years building my own game engine (Rust, WASM, WebGPU)](https://legendofworlds.com/blog/4)
 * [The Inconceivable Types of Rust: How to Make Self-Borrows Safe](https://blog.polybdenum.com/2024/06/07/the-inconceivable-types-of-rust-how-to-make-self-borrows-safe.html)
