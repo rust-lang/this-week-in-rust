@@ -27,10 +27,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
 ### Newsletters
 * [ThisWeekInBevy: Bevy0.14-rc.2, Powerglove, and Soup](https://thisweekinbevy.com/issue/2024-06-10-bevy-014-rc2-powerglove-and-soup)
 * [This Month in Rust OSDev: May 2024](https://rust-osdev.com/this-month/2024-05/)
@@ -58,8 +54,6 @@ and just ask the editors to select the category.
 * [How to build a Custom Benchmarking Harness in Rust](https://bencher.dev/learn/benchmarking/rust/custom-harness/)
 * [From Sender to Receiver: Rust’s Approach to Local File Transfers](https://medium.com/@otukof/from-sender-to-receiver-rusts-approach-to-local-file-transfers-e6a778020d90)
 * [Build with Naz - Rust error handling with miette](https://developerlife.com/2024/06/10/rust-miette-error-handling/)
-
-### Research
 
 ### Miscellaneous
 * [May 2024 Rust Jobs Report](https://filtra.io/rust-may-24)
@@ -399,7 +393,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1cixuzr/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
