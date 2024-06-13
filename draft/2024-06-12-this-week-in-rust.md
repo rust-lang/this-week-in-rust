@@ -55,12 +55,12 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [series] [Master Hexagonal Architecture in Rust: Anatomy of a Bad Rust Application](https://www.howtocodeit.com/articles/master-hexagonal-architecture-rust)
-
 * [Build with Naz - Rust error handling with miette](https://developerlife.com/2024/06/10/rust-miette-error-handling/)
 
 ### Research
 
 ### Miscellaneous
+* [May 2024 Rust Jobs Report](https://filtra.io/rust-may-24)
 * [Virtual Rust Events ](https://events.code-maven.com/)
 
 ## Crate of the Week
