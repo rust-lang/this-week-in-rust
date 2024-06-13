@@ -56,6 +56,7 @@ and just ask the editors to select the category.
 * [Latency at the edge with Rust/WebAssembly and Postgres: Part 1](https://exograph.dev/blog/wasm-pg-explorations-1), [Part 2](https://exograph.dev/blog/wasm-pg-explorations-2)
 
 ### Rust Walkthroughs
+* [series] [Master Hexagonal Architecture in Rust: Anatomy of a Bad Rust Application](https://www.howtocodeit.com/articles/master-hexagonal-architecture-rust)
 
 ### Research
 
