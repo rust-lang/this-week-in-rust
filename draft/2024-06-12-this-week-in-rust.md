@@ -59,6 +59,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Virtual Rust Events ](https://events.code-maven.com/)
 
 ## Crate of the Week
 
