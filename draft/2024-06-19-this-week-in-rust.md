@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+- [Apache Datafusion-Comet](https://github.com/apache/datafusion-comet) a rust based apache spark accelerator. It is under active development and also it is able to achieve 1.5x performance improvements in apache spark TPC-H queries. The goal of the project is to provide 2-4x performance improvement on commodity hardware.
 
 ### Observations/Thoughts
 
