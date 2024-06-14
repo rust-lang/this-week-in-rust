@@ -186,6 +186,8 @@ Rusty Events between 2024-06-19 - 2024-07-17 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/299346976/)
 * 2024-07-10 | Virtual | [Centre for eResearch](https://www.eventbrite.co.nz/o/centre-for-eresearch-75893560993)
     * [**Research Computing With The Rust Programming Language**](https://www.eventbrite.com/e/research-computing-with-the-rust-programming-language-tickets-908002037537?aff=ebdssbdestsearch&keep_tld=1)
+* 2024-07-11 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
+    * [**Reading JSON files in Rust (English)**](https://www.meetup.com/code-mavens/events/301636580/)
 
 ### Asia
 * 2024-06-22 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
