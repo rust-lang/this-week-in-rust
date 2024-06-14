@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [video] [Rust 1.79.0: Top 10 Most Interesting Things](https://youtu.be/u5WD5Ta09vs)
+
 ### Rust Walkthroughs
 
 ### Research
