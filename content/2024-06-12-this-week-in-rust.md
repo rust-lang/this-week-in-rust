@@ -63,7 +63,7 @@ and just ask the editors to select the category.
 
 This week's crate is [hydra](https://github.com/dtzxporter/hydra), an actor framework inspired by Erlang/Elixir.
 
-Thanks to [https://users.rust-lang.org/t/crate-of-the-week/2704/1313](DTZxPorter) for the self-suggestion!
+Thanks to [DTZxPorter](https://users.rust-lang.org/t/crate-of-the-week/2704/1313) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
