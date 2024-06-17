@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Optimizing Rust code with Flamegraph and DHAT – a practical example with Dust DDS](https://www.s2e-systems.com/2024/06/13/optimizing_rust_code/)
 
 ### Rust Walkthroughs
 
@@ -192,7 +193,7 @@ Rusty Events between 2024-06-19 - 2024-07-17 🦀
     * [**June 2024 Rustacean meetup**](https://hasgeek.com/rustbangalore/june-2024-rustacean-meetup/)
 * 2024-06-30 | Kyoto, JP | [Kyoto Rust](https://www.meetup.com/kyoto-rust/)
     * [**Rust Talk: Cross Platform Apps**](https://www.meetup.com/kyoto-rust/events/301499550/)
-    
+
 ### Europe
 
 * 2024-06-12 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/)
