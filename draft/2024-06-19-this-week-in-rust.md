@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [series] [Master Hexagonal Architecture in Rust: Separation of Concerns, Rust-Style](https://www.howtocodeit.com/articles/master-hexagonal-architecture-rust#separation-of-concerns-rust-style)
+- [Rust Ownership Explained: Merging Linked Lists](https://www.howtocodeit.com/articles/rust-ownership-explained-linked-lists)
 
 ### Research
 
