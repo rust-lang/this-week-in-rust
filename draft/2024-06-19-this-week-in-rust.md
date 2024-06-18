@@ -39,6 +39,9 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [Exograph at the Edge with Cloudflare Workers](https://exograph.dev/blog/cloudflare-workers)
+- [GraphQL Server in the Browser using WebAssembly](https://exograph.dev/blog/playground)
+
 ### Rust Walkthroughs
 
 ### Research
