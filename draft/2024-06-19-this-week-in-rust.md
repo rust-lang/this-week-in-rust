@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Zero to Performance Hero: How to Benchmark and Profile Your eBPF Code in Rust](https://www.infoq.com/articles/benchmark-profile-ebpf-code/)
 
 ### Research
 
