@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Future's liveness problem](https://skepfyr.me/blog/futures-liveness-problem/)
 
 ### Rust Walkthroughs
 
