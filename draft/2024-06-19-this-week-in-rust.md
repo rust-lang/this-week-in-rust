@@ -192,6 +192,8 @@ Rusty Events between 2024-06-19 - 2024-07-17 🦀
 ### Asia
 * 2024-06-22 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**June 2024 Rustacean meetup**](https://hasgeek.com/rustbangalore/june-2024-rustacean-meetup/)
+* 2024-06-23 | Tel Aviv, Israel | [Rust in Israel](https://www.meetup.com/rust-in-israel/)
+    * [**Rust at Microsoft Tel Aviv in June 2024**](https://www.meetup.com/rust-in-israel/events/301670916/)
 * 2024-06-30 | Kyoto, JP | [Kyoto Rust](https://www.meetup.com/kyoto-rust/)
     * [**Rust Talk: Cross Platform Apps**](https://www.meetup.com/kyoto-rust/events/301499550/)
     
