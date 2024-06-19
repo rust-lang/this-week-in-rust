@@ -174,6 +174,8 @@ Rusty Events between 2024-06-19 - 2024-07-17 🦀
     * [**Using the Liquid template system in Rust (English)**](https://www.meetup.com/code-mavens/events/301487547/)
 * 2024-06-27 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
     * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298897826/)
+* 2024-06-30 | Virtual | [Leptos Monthly Meetup](https://github.com/leptos-community/meetups/blob/main/meeting_06_agenda_Jun30_2024.md)
+    * [**Leptos Monthly Meetup - June 30, 2024**](https://github.com/leptos-community/meetups/blob/main/meeting_06_agenda_Jun30_2024.md)
 * 2024-07-02 | Virtual (Buffalo, NY) | [Buffalo Rust Meetup](https://www.meetup.com/buffalo-rust-meetup/)
     * [**Buffalo Rust User Group**](https://www.meetup.com/buffalo-rust-meetup/events/300191673/)
 * 2024-07-03 | Virtual | [Training 4 Programmers LLC](https://www.eventbrite.com/o/training-4-programmers-llc-80387368983)
