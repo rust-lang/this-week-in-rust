@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Fluvio Distributed Streaming Engine Release 0.11.9](https://www.fluvio.io/news/this-week-in-fluvio-0062/)
 
 ### Observations/Thoughts
 
