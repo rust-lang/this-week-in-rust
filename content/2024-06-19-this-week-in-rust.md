@@ -421,4 +421,4 @@ Thanks to [Brian Kung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1dk69nb/this_week_in_rust_552/)</small>
