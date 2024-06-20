@@ -153,14 +153,6 @@ which are reaching a decision. Express your opinions now.
 Rusty Events between 2024-06-26 - 2024-07-24 🦀
 
 ### Virtual
-* 2024-06-19 | Hybrid - Virtual and In-person (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
-    * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/298631733/)
-* 2024-06-20 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
-    * [**Rust Hack and Learn**](https://meet.jit.si/RustHackAndLearnBerlin) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298477705/)
-* 2024-06-25 | Virtual (Dallas, TX, US) | [Dallas Rust User Group](https://www.meetup.com/dallasrust/)
-    * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/mvdtgtygcjbhc/)
-* 2024-06-25 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
-    * [**Using the Liquid template system in Rust (English)**](https://www.meetup.com/code-mavens/events/301487547/)
 * 2024-06-27 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
     * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298897826/)
 * 2024-07-02 | Virtual (Buffalo, NY) | [Buffalo Rust Meetup](https://www.meetup.com/buffalo-rust-meetup/)
@@ -193,22 +185,10 @@ Rusty Events between 2024-06-26 - 2024-07-24 🦀
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/298631734/)
 
 ### Asia
-* 2024-06-22 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
-    * [**June 2024 Rustacean meetup**](https://hasgeek.com/rustbangalore/june-2024-rustacean-meetup/)
-* 2024-06-22 | Delhi, IN | [PyDelhi - Python Delhi User Group!](https://www.meetup.com/pydelhi/)
-    * [**PyRustLin: PyDelhi x Rust Delhi x ILUG-D Meetup**](https://www.meetup.com/pydelhi/events/301520830/)
-* 2024-06-23 | Tel Aviv, Israel | [Rust in Israel](https://www.meetup.com/rust-in-israel/)
-    * [**Rust at Microsoft Tel Aviv in June 2024**](https://www.meetup.com/rust-in-israel/events/301670916/)
 * 2024-06-30 | Kyoto, JP | [Kyoto Rust](https://www.meetup.com/kyoto-rust/)
     * [**Rust Talk: Cross Platform Apps**](https://www.meetup.com/kyoto-rust/events/301499550/)
 
 ### Europe
-* 2024-06-19 - 2024-06-24 | Zürich, CH | [RustFest Zürich](https://rustfest.ch/)
-    * [**RustFest Zürich 2024**](https://rustfest.ch/)
-* 2024-06-20 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/)
-    * [**Talk Night at Trifork**](https://www.meetup.com/rust-aarhus/events/300865116/)
-* 2024-06-25 | Gdańsk, PL | [Rust Gdansk](https://www.meetup.com/rust-gdansk/)
-    * [**Rust Gdansk Meetup #3**](https://www.meetup.com/rust-gdansk/events/301014697/)
 * 2024-06-27 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust and Tell - Title**](https://www.meetup.com/rust-berlin/events/299288965/)
 * 2024-06-27 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community)
@@ -223,14 +203,6 @@ Rusty Events between 2024-06-26 - 2024-07-24 🦀
     * [**Nix Your Bugs & Rust Your Engines #4**](https://www.meetup.com/hackschool-rhein-neckar/events/301504325/)
 
 ### North America
-* 2024-06-19 | Hybrid - Vancouver, BC, CA | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
-    * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/298631733/)
-* 2024-06-20 | Seattle, WA, US | [Seattle Rust User Group](https://www.meetup.com/seattle-rust-user-group/)
-    * [**Seattle Rust User Group Meetup**](https://www.meetup.com/seattle-rust-user-group/events/299509396/)
-* 2024-06-22 | Los Angeles, CA, US | [LA Bitcoin Devs](https://www.meetup.com/bitdevsla/)
-    * [**Shaan Batra on Learning Rust the Bitcoin Way and Socratic Seminar #46**](https://www.meetup.com/bitdevsla/events/301011049/)
-* 2024-06-24 | Somerville, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
-    * [**Harvard Square Rust Lunch, June 24**](https://www.meetup.com/bostonrust/events/301549722/)
 * 2024-06-26 | Austin, TX, US | [Rust ATC](https://www.meetup.com/rust-atx/)
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/301066942/)
 * 2024-06-27 | Mountain View, CA, US | [Mountain View Rust Meetup](https://www.meetup.com/mv-rust-meetup/)
@@ -251,10 +223,7 @@ Rusty Events between 2024-06-26 - 2024-07-24 🦀
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/298631734/)
 
 ### Oceania
-* 2024-06-20 | Auckland, NZ | [Rust AKL](https://www.meetup.com/rust-akl/)
-    * [**Rust AKL: Full Stack Rust + Writing a compiler for fun and (no) profit**](https://www.meetup.com/rust-akl/events/301193761/)
-* 2024-06-25 | Canberra, ACt, AU | [Canberra Rust User Group (CRUG)](https://www.meetup.com/rust-canberra/)
-    * [**June Meetup**](https://www.meetup.com/rust-canberra/events/300749371/)
+
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
