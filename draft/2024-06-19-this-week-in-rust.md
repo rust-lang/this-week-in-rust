@@ -58,6 +58,8 @@ and just ask the editors to select the category.
 * [Making a const version of Rust's array::from_fn - How hard can it be?](https://gendignoux.com/blog/2024/06/17/const-array-from-fn.html)
 * [Using Tauri to build a cross-platform security app](https://www.firezone.dev/blog/using-tauri)
 
+* [Generate and package Rust client SDKs with Buf](https://buf.build/blog/bsr-generated-sdks-for-rust)
+
 ### Research
 * [SquirrelFS: using the Rust compiler to check file-system crash consistency](https://arxiv.org/abs/2406.09649)
 * [Trusting code in the wild: Exploring contributor reputation measures to review dependencies in the Rust ecosystem](https://arxiv.org/abs/2406.10317)
