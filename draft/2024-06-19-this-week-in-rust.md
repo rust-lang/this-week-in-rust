@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 * [Announcing the Safety-Critical Rust Consortium](https://foundation.rust-lang.org/news/announcing-the-safety-critical-rust-consortium/)
 
 ### Newsletters
+* [This Week in Bevy: Meshlets, Stable Interpolation, and Generalized ECS Reactivity with Observers!](https://thisweekinbevy.com/issue/2024-06-17-meshlets-stable-interpolation-and-generalized-ecs-reactivity-with-observers)
 
 ### Project/Tooling Updates
 * [rust-analyzer changelog #238](https://rust-analyzer.github.io/thisweek/2024/06/17/changelog-238.html)
