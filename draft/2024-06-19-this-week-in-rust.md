@@ -48,10 +48,10 @@ and just ask the editors to select the category.
 * [Path Generics in Rust: A Sketch Proposal for Simplicity and Generality](https://cfallin.org/blog/2024/06/12/rust-path-generics/)
 * [Dioxus Labs + “High-level Rust”](https://dioxus.notion.site/Dioxus-Labs-High-level-Rust-5fe1f1c9c8334815ad488410d948f05e)
 * [Making Your First Real-World Rust Project a Success](https://corrode.dev/blog/successful-rust-business-adoption-checklist/)
+* [Optimizing Rust code with Flamegraph and DHAT – a practical example with Dust DDS](https://www.s2e-systems.com/2024/06/13/optimizing_rust_code/)
 * [video] [Compiler-Driven Development in Rust](https://www.youtube.com/watch?v=Kdpfhj3VM04)
 * [audio] [What's New in Rust 1.72 and 1.73](https://rustacean-station.org/episode/rust-1.72-1.73/)
 * [audio] [Matic with Eric Seppanen](https://corrode.dev/podcast/s02e04-matic/)
-
 * [video] [Rust 1.79.0: Top 10 Most Interesting Things](https://youtu.be/u5WD5Ta09vs)
 
 ### Rust Walkthroughs
@@ -60,7 +60,6 @@ and just ask the editors to select the category.
 * [Parsing Python ASTs 20x Faster with Rust](https://www.gauge.sh/blog/parsing-python-asts-20x-faster-with-rust)
 * [Making a const version of Rust's array::from_fn - How hard can it be?](https://gendignoux.com/blog/2024/06/17/const-array-from-fn.html)
 * [Using Tauri to build a cross-platform security app](https://www.firezone.dev/blog/using-tauri)
-
 * [Generate and package Rust client SDKs with Buf](https://buf.build/blog/bsr-generated-sdks-for-rust)
 
 ### Research
@@ -222,7 +221,7 @@ Rusty Events between 2024-06-19 - 2024-07-17 🦀
     * [**Rust at Microsoft Tel Aviv in June 2024**](https://www.meetup.com/rust-in-israel/events/301670916/)
 * 2024-06-30 | Kyoto, JP | [Kyoto Rust](https://www.meetup.com/kyoto-rust/)
     * [**Rust Talk: Cross Platform Apps**](https://www.meetup.com/kyoto-rust/events/301499550/)
-    
+
 ### Europe
 
 * 2024-06-18 | Frankfurt/Main, DE | [Rust Frankfurt Meetup](https://www.meetup.com/rust-frankfurt)
