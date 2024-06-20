@@ -56,6 +56,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Rust Ownership Explained: Merging Linked Lists](https://www.howtocodeit.com/articles/rust-ownership-explained-linked-lists)
+* [Zero to Performance Hero: How to Benchmark and Profile Your eBPF Code in Rust](https://www.infoq.com/articles/benchmark-profile-ebpf-code/)
 * [IPC in Rust - a Ping Pong Comparison](https://3tilley.github.io/posts/simple-ipc-ping-pong/)
 * [I ported h2spec to Rust (also: codegen!)](https://fasterthanli.me/videos/h2spec-to-rust)
 * [Parsing Python ASTs 20x Faster with Rust](https://www.gauge.sh/blog/parsing-python-asts-20x-faster-with-rust)
