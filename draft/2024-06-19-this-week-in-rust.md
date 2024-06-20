@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [rust-analyzer changelog #238](https://rust-analyzer.github.io/thisweek/2024/06/17/changelog-238.html)
 * [Enhancing Code Completion for Rust in Cody](https://sourcegraph.com/blog/enhancing-code-completion-for-rust-in-cody)
+* [Apache Datafusion-Comet- Rust-Based Apache Spark accelerator - 1.5x performance improvements in apache spark TPC-H queries, and other commodity hardware](https://github.com/apache/datafusion-comet)
 * [Fluvio Distributed Streaming Engine Release 0.11.9](https://www.fluvio.io/news/this-week-in-fluvio-0062/)
 
 ### Observations/Thoughts
