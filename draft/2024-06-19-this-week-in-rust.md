@@ -30,18 +30,37 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.79.0](https://blog.rust-lang.org/2024/06/13/Rust-1.79.0.html)
+* [This Development-cycle in Cargo: 1.80](https://blog.rust-lang.org/inside-rust/2024/06/19/this-development-cycle-in-cargo-1.80.html)
 
 ### Foundation
+* [Announcing the Safety-Critical Rust Consortium](https://foundation.rust-lang.org/news/announcing-the-safety-critical-rust-consortium/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #238](https://rust-analyzer.github.io/thisweek/2024/06/17/changelog-238.html)
+* [Enhancing Code Completion for Rust in Cody](https://sourcegraph.com/blog/enhancing-code-completion-for-rust-in-cody)
+* [Fluvio Distributed Streaming Engine Release 0.11.9](https://www.fluvio.io/news/this-week-in-fluvio-0062/)
 
 ### Observations/Thoughts
+* [Path Generics in Rust: A Sketch Proposal for Simplicity and Generality](https://cfallin.org/blog/2024/06/12/rust-path-generics/)
+* [Dioxus Labs + “High-level Rust”](https://dioxus.notion.site/Dioxus-Labs-High-level-Rust-5fe1f1c9c8334815ad488410d948f05e)
+* [Making Your First Real-World Rust Project a Success](https://corrode.dev/blog/successful-rust-business-adoption-checklist/)
+* [video] [Compiler-Driven Development in Rust](https://www.youtube.com/watch?v=Kdpfhj3VM04)
+* [audio] [What's New in Rust 1.72 and 1.73](https://rustacean-station.org/episode/rust-1.72-1.73/)
+* [audio] [Matic with Eric Seppanen](https://corrode.dev/podcast/s02e04-matic/)
 
 ### Rust Walkthroughs
+* [IPC in Rust - a Ping Pong Comparison](https://3tilley.github.io/posts/simple-ipc-ping-pong/)
+* [I ported h2spec to Rust (also: codegen!)](https://fasterthanli.me/videos/h2spec-to-rust)
+* [Parsing Python ASTs 20x Faster with Rust](https://www.gauge.sh/blog/parsing-python-asts-20x-faster-with-rust)
+* [Making a const version of Rust's array::from_fn - How hard can it be?](https://gendignoux.com/blog/2024/06/17/const-array-from-fn.html)
+* [Using Tauri to build a cross-platform security app](https://www.firezone.dev/blog/using-tauri)
 
 ### Research
+* [SquirrelFS: using the Rust compiler to check file-system crash consistency](https://arxiv.org/abs/2406.09649)
+* [Trusting code in the wild: Exploring contributor reputation measures to review dependencies in the Rust ecosystem](https://arxiv.org/abs/2406.10317)
 
 ### Miscellaneous
 
@@ -78,8 +97,8 @@ Always wanted to contribute to open-source projects but did not know where to st
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
-
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+* [Dusk - Archival Nodes APIs Infrastructure RFP](https://docs.dusk.network/grants/rfps/archival_node)
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
@@ -91,8 +110,8 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-<!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+* [Rust Ukraine 2024](https://docs.google.com/forms/d/e/1FAIpQLSc9S_95oaCsFyrULF4iBQOIiTcMlOpG07izgquYLBCKFAYTKQ/viewform) | Closes 2024-07-06 | Online + Ukraine, Kyiv | Event date: 2024-07-27
+* [Conf42 Rustlang 2024](https://www.papercall.io/conf42-rustlang-2024) | Closes 2024-07-22 | online | Event date: 2024-08-22
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (Formerly twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -188,19 +207,21 @@ Rusty Events between 2024-06-19 - 2024-07-17 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/299346976/)
 * 2024-07-10 | Virtual | [Centre for eResearch](https://www.eventbrite.co.nz/o/centre-for-eresearch-75893560993)
     * [**Research Computing With The Rust Programming Language**](https://www.eventbrite.com/e/research-computing-with-the-rust-programming-language-tickets-908002037537?aff=ebdssbdestsearch&keep_tld=1)
+* 2024-07-11 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
+    * [**Reading JSON files in Rust (English)**](https://www.meetup.com/code-mavens/events/301636580/)
 * 2024-07-16 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
     * [**Web development in Rust using Rocket - part 2 (English)**](https://www.meetup.com/code-mavens/events/301736709/)
 
 ### Asia
 * 2024-06-22 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**June 2024 Rustacean meetup**](https://hasgeek.com/rustbangalore/june-2024-rustacean-meetup/)
+* 2024-06-23 | Tel Aviv, Israel | [Rust in Israel](https://www.meetup.com/rust-in-israel/)
+    * [**Rust at Microsoft Tel Aviv in June 2024**](https://www.meetup.com/rust-in-israel/events/301670916/)
 * 2024-06-30 | Kyoto, JP | [Kyoto Rust](https://www.meetup.com/kyoto-rust/)
     * [**Rust Talk: Cross Platform Apps**](https://www.meetup.com/kyoto-rust/events/301499550/)
     
 ### Europe
 
-* 2024-06-12 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/)
-    * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/301012491/)
 * 2024-06-18 | Frankfurt/Main, DE | [Rust Frankfurt Meetup](https://www.meetup.com/rust-frankfurt)
     * [**Rust Frankfurt is Back!**](https://www.meetup.com/rust-frankfurt/events/301441434/)
 * 2024-06-19 - 2024-06-24 | Zürich, CH | [RustFest Zürich](https://rustfest.ch/)
@@ -213,6 +234,8 @@ Rusty Events between 2024-06-19 - 2024-07-17 🦀
     * [**Rust and Tell - Title**](https://www.meetup.com/rust-berlin/events/299288965/)
 * 2024-06-27 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community)
     * [**Rust meetup #48 sponsored by Google!**](https://www.meetup.com/copenhagen-rust-community/events/300458252/)
+* 2024-07-10 | Reading, UK | [Reading Rust Workshop](https://rustworkshop.co/meetup/)
+    * [**Reading Rust Meetup - July**](https://www.meetup.com/reading-rust-workshop/events/301359031/)
 
 ### North America
 
