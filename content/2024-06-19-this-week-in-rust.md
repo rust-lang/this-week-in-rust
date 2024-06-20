@@ -238,10 +238,6 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [rust-analyzer: fix pat fragment parsers choking on `<eoi>`](https://github.com/rust-lang/rust-analyzer/pull/17442)
 * [rust-analyzer: properly prime all crate def maps in `parallel_prime_caches`](https://github.com/rust-lang/rust-analyzer/pull/17439)
 
-### Rust Compiler Performance Triage
-
-<!-- Perf results go here -->
-
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
