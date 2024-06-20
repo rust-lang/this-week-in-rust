@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [rust-analyzer changelog #238](https://rust-analyzer.github.io/thisweek/2024/06/17/changelog-238.html)
 * [Enhancing Code Completion for Rust in Cody](https://sourcegraph.com/blog/enhancing-code-completion-for-rust-in-cody)
+* [Fluvio Distributed Streaming Engine Release 0.11.9](https://www.fluvio.io/news/this-week-in-fluvio-0062/)
 
 ### Observations/Thoughts
 * [Path Generics in Rust: A Sketch Proposal for Simplicity and Generality](https://cfallin.org/blog/2024/06/12/rust-path-generics/)
@@ -206,6 +207,8 @@ Rusty Events between 2024-06-19 - 2024-07-17 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/299346976/)
 * 2024-07-10 | Virtual | [Centre for eResearch](https://www.eventbrite.co.nz/o/centre-for-eresearch-75893560993)
     * [**Research Computing With The Rust Programming Language**](https://www.eventbrite.com/e/research-computing-with-the-rust-programming-language-tickets-908002037537?aff=ebdssbdestsearch&keep_tld=1)
+* 2024-07-11 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
+    * [**Reading JSON files in Rust (English)**](https://www.meetup.com/code-mavens/events/301636580/)
 
 ### Asia
 * 2024-06-22 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
@@ -215,8 +218,6 @@ Rusty Events between 2024-06-19 - 2024-07-17 🦀
     
 ### Europe
 
-* 2024-06-12 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/)
-    * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/301012491/)
 * 2024-06-18 | Frankfurt/Main, DE | [Rust Frankfurt Meetup](https://www.meetup.com/rust-frankfurt)
     * [**Rust Frankfurt is Back!**](https://www.meetup.com/rust-frankfurt/events/301441434/)
 * 2024-06-19 - 2024-06-24 | Zürich, CH | [RustFest Zürich](https://rustfest.ch/)
@@ -229,6 +230,8 @@ Rusty Events between 2024-06-19 - 2024-07-17 🦀
     * [**Rust and Tell - Title**](https://www.meetup.com/rust-berlin/events/299288965/)
 * 2024-06-27 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community)
     * [**Rust meetup #48 sponsored by Google!**](https://www.meetup.com/copenhagen-rust-community/events/300458252/)
+* 2024-07-10 | Reading, UK | [Reading Rust Workshop](https://rustworkshop.co/meetup/)
+    * [**Reading Rust Meetup - July**](https://www.meetup.com/reading-rust-workshop/events/301359031/)
 
 ### North America
 
