@@ -76,6 +76,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [Rust social status update 2024.06](https://rust.code-maven.com/rust-update-2024-06-17)
+* [Learning Material for Idiomatic Rust](https://corrode.dev/blog/idiomatic-rust-resources/)
 
 ## Crate of the Week
 
