@@ -55,6 +55,9 @@ and just ask the editors to select the category.
 * [audio] [Matic with Eric Seppanen](https://corrode.dev/podcast/s02e04-matic/)
 * [video] [Rust 1.79.0: Top 10 Most Interesting Things](https://youtu.be/u5WD5Ta09vs)
 
+* [Exograph at the Edge with Cloudflare Workers](https://exograph.dev/blog/cloudflare-workers)
+* [GraphQL Server in the Browser using WebAssembly](https://exograph.dev/blog/playground)
+
 ### Rust Walkthroughs
 * [Rust Ownership Explained: Merging Linked Lists](https://www.howtocodeit.com/articles/rust-ownership-explained-linked-lists)
 * [Zero to Performance Hero: How to Benchmark and Profile Your eBPF Code in Rust](https://www.infoq.com/articles/benchmark-profile-ebpf-code/)
