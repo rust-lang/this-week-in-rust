@@ -55,12 +55,14 @@ and just ask the editors to select the category.
 * [video] [Rust 1.79.0: Top 10 Most Interesting Things](https://youtu.be/u5WD5Ta09vs)
 
 ### Rust Walkthroughs
+* [Rust Ownership Explained: Merging Linked Lists](https://www.howtocodeit.com/articles/rust-ownership-explained-linked-lists)
 * [IPC in Rust - a Ping Pong Comparison](https://3tilley.github.io/posts/simple-ipc-ping-pong/)
 * [I ported h2spec to Rust (also: codegen!)](https://fasterthanli.me/videos/h2spec-to-rust)
 * [Parsing Python ASTs 20x Faster with Rust](https://www.gauge.sh/blog/parsing-python-asts-20x-faster-with-rust)
 * [Making a const version of Rust's array::from_fn - How hard can it be?](https://gendignoux.com/blog/2024/06/17/const-array-from-fn.html)
 * [Using Tauri to build a cross-platform security app](https://www.firezone.dev/blog/using-tauri)
 * [Generate and package Rust client SDKs with Buf](https://buf.build/blog/bsr-generated-sdks-for-rust)
+* [series] [Master Hexagonal Architecture in Rust (part 2): Separation of Concerns, Rust-Style](https://www.howtocodeit.com/articles/master-hexagonal-architecture-rust#separation-of-concerns-rust-style)
 
 ### Research
 * [SquirrelFS: using the Rust compiler to check file-system crash consistency](https://arxiv.org/abs/2406.09649)
