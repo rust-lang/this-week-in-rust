@@ -197,8 +197,6 @@ Rusty Events between 2024-06-19 - 2024-07-17 🦀
     
 ### Europe
 
-* 2024-07-10 | Reading, UK | [Reading Rust Workshop](https://rustworkshop.co/meetup/)
-    * [**Reading Rust Meetup - July**](https://www.meetup.com/reading-rust-workshop/events/301359031/)
 * 2024-06-18 | Frankfurt/Main, DE | [Rust Frankfurt Meetup](https://www.meetup.com/rust-frankfurt)
     * [**Rust Frankfurt is Back!**](https://www.meetup.com/rust-frankfurt/events/301441434/)
 * 2024-06-19 - 2024-06-24 | Zürich, CH | [RustFest Zürich](https://rustfest.ch/)
@@ -211,6 +209,8 @@ Rusty Events between 2024-06-19 - 2024-07-17 🦀
     * [**Rust and Tell - Title**](https://www.meetup.com/rust-berlin/events/299288965/)
 * 2024-06-27 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community)
     * [**Rust meetup #48 sponsored by Google!**](https://www.meetup.com/copenhagen-rust-community/events/300458252/)
+* 2024-07-10 | Reading, UK | [Reading Rust Workshop](https://rustworkshop.co/meetup/)
+    * [**Reading Rust Meetup - July**](https://www.meetup.com/reading-rust-workshop/events/301359031/)
 
 ### North America
 
