@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 * [Path Generics in Rust: A Sketch Proposal for Simplicity and Generality](https://cfallin.org/blog/2024/06/12/rust-path-generics/)
 * [Dioxus Labs + “High-level Rust”](https://dioxus.notion.site/Dioxus-Labs-High-level-Rust-5fe1f1c9c8334815ad488410d948f05e)
 * [Making Your First Real-World Rust Project a Success](https://corrode.dev/blog/successful-rust-business-adoption-checklist/)
+* [Future's liveness problem](https://skepfyr.me/blog/futures-liveness-problem/)
 * [Optimizing Rust code with Flamegraph and DHAT – a practical example with Dust DDS](https://www.s2e-systems.com/2024/06/13/optimizing_rust_code/)
 * [video] [Compiler-Driven Development in Rust](https://www.youtube.com/watch?v=Kdpfhj3VM04)
 * [audio] [What's New in Rust 1.72 and 1.73](https://rustacean-station.org/episode/rust-1.72-1.73/)
