@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 * [audio] [What's New in Rust 1.72 and 1.73](https://rustacean-station.org/episode/rust-1.72-1.73/)
 * [audio] [Matic with Eric Seppanen](https://corrode.dev/podcast/s02e04-matic/)
 
+* [video] [Rust 1.79.0: Top 10 Most Interesting Things](https://youtu.be/u5WD5Ta09vs)
+
 ### Rust Walkthroughs
 * [IPC in Rust - a Ping Pong Comparison](https://3tilley.github.io/posts/simple-ipc-ping-pong/)
 * [I ported h2spec to Rust (also: codegen!)](https://fasterthanli.me/videos/h2spec-to-rust)
