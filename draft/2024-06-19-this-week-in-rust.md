@@ -74,6 +74,7 @@ and just ask the editors to select the category.
 * [Trusting code in the wild: Exploring contributor reputation measures to review dependencies in the Rust ecosystem](https://arxiv.org/abs/2406.10317)
 
 ### Miscellaneous
+* [Rust social status update 2024.06](https://rust.code-maven.com/rust-update-2024-06-17)
 
 ## Crate of the Week
 
