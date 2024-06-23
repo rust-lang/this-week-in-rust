@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [Running a TLC5940 with an ESP32 using the RMT peripheral](https://wapl.es/esp32-tlc5940-rmt/)
+
 ### Research
 
 ### Miscellaneous
