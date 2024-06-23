@@ -176,7 +176,7 @@ Rusty Events between 2024-06-26 - 2024-07-24 🦀
 * 2024-07-11 | Hybrid - Virtual and In-person (Mexico City, DF, MX) | [Rust MX](https://www.meetup.com/rust-mx/)
     * [**Programación de sistemas con Rust**](https://www.meetup.com/rust-mx/events/301740677/)
 * 2024-07-11 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
-    * [**Rust Nürnberg online**](hhttps://www.meetup.com/rust-noris/events/298076822/)
+    * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/298076822/)
 * 2024-07-11 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
     * [**Reading JSON files in Rust (English)**](https://www.meetup.com/code-mavens/events/301636580/)
 * 2024-07-16 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
