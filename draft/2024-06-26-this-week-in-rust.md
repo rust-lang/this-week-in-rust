@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Tokio Waker Instrumentation](https://hegdenu.net/posts/tokio-waker-instrumentation/)
 
 ### Research
 
