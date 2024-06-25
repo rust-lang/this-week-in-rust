@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* Release [v0.2.0](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.2.0) of "piggui" the rust GUI to control and view Raspberry Pi GPIO hardware. Now with a moving waveform display of inputs and outputs.
 
 ### Observations/Thoughts
 
