@@ -85,6 +85,11 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (Formerly twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
+Here are Greptime issues for community contributors:
+
+* [Fix `information_schema.region_peers` returns same `region_id`](https://github.com/GreptimeTeam/greptimedb/issues/4157)
+We 'store' region_id in information_schema.region_peers. However, it seems only one region_id is returned even with multiple region peers. Find out if there is a bug in assembling the return value of information_schema.region_peers and fix it.
+
 [guidelines]:https://github.com/rust-lang/this-week-in-rust?tab=readme-ov-file#call-for-participation-guidelines
 
 ### CFP - Events
