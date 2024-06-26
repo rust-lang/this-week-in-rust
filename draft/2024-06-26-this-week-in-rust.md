@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Untangling the Rust HTTP ecosystem](https://kerkour.com/rust-http-ecosystem-2024)
+
 ### Research
 
 ### Miscellaneous
