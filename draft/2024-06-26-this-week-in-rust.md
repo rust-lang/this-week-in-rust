@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+*[Announcing Summer of Rust 2024](https://kerkour.com/summer-of-rust-2024)
+
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
