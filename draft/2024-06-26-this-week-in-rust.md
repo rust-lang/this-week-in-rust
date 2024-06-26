@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Rust patterns: Micro SDKs](https://kerkour.com/rust-patterns-micro-sdks)
+
 ### Research
 
 ### Miscellaneous
