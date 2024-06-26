@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [series] [The Definitive Guide to Error Handling in Rust (part 1): Dynamic Errors](https://www.howtocodeit.com/articles/the-definitive-guide-to-rust-error-handling)
 
 ### Research
 
