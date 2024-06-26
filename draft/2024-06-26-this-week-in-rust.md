@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rust's concurrency model vs Go's concurrency model: stackless vs stackfull coroutines](https://kerkour.com/rust-vs-go-concurrency-models-stackfull-vs-stackless-coroutines)
+
 ### Rust Walkthroughs
 
 ### Research
