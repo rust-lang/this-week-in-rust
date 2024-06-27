@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 * [Godot-Rust - June 2024 update](https://godot-rust.github.io/dev/june-2024-update/)
 * [piggui v0.2.0](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.2.0) 
 
+- [git-cliff 2.4.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/2.4.0)
+
 ### Observations/Thoughts
 * [Claiming, auto and otherwise](https://smallcultfollowing.com/babysteps/blog/2024/06/21/claim-auto-and-otherwise/)
 * [Ownership](https://without.boats/blog/ownership/)
