@@ -108,7 +108,18 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Mostly a number of improvements driven by [MIR inliner improvements], with a small number
+benchmarks having a significant regression due to improvements in
+[sort algorithms], which are runtime improvements at the cost of usually slight or
+neutral compile time regressions, with outliers in a few cases.
+
+[MIR inliner improvements]: https://github.com/rust-lang/rust/pull/126578
+[sort algorithms]: https://github.com/rust-lang/rust/pull/124032
+
+Triage done by **@simulacrum**.
+Revision range: [c2932aaf..c3d7fb39](https://perf.rust-lang.org/?start=c2932aaf9d20acbc9259c762f1a06f8767c6f13f&end=c3d7fb398569407350abe044e786bc7890c90397&absolute=false&stat=instructions%3Au)
+
+[See full report for details](https://github.com/rust-lang/rustc-perf/blob/master/triage/2024-06-23.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
