@@ -63,6 +63,8 @@ and just ask the editors to select the category.
 
 * [Rust patterns: Micro SDKs](https://kerkour.com/rust-patterns-micro-sdks)
 
+* [Untangling the Rust HTTP ecosystem](https://kerkour.com/rust-http-ecosystem-2024)
+
 ### Research
 * [When Is Parallelism Fearless and Zero-Cost with Rust?](https://dl.acm.org/doi/10.1145/3626183.3659966)
 
