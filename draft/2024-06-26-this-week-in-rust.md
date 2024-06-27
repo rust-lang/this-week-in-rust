@@ -36,19 +36,31 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* Release [v0.2.0](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.2.0) of "piggui" the rust GUI to control and view Raspberry Pi GPIO hardware. 
-
-- [Ratatui 0.27.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v027/)
+* [ratatui - v0.27.0](https://ratatui.rs/highlights/v027/)
+* [Introduction - ChoRus](https://lsd-ucsc.github.io/ChoRus/)
+* [uuid now properly supports version 7 counters](https://kodraus.github.io/rust/2024/06/24/uuid-v7-counters.html)
+* [Godot-Rust - June 2024 update](https://godot-rust.github.io/dev/june-2024-update/)
+* [piggui v0.2.0](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.2.0) 
 
 ### Observations/Thoughts
+* [Claiming, auto and otherwise](https://smallcultfollowing.com/babysteps/blog/2024/06/21/claim-auto-and-otherwise/)
+* [Ownership](https://without.boats/blog/ownership/)
+* [Puzzle: Sharing declarative args between top level and subcommand using Clap](https://gribnau.dev/posts/puzzle-sharing-declarative-args-between-top-level-and-subcommand/)
+* [Will Rust be alive in 10 years?](https://tweedegolf.nl/en/blog/128/rust-in-ten-years)
+* [Why WebAssembly came to the Backend (Wasm in the wild part 3)](https://www.jakobmeier.ch/wasm-road-2)
+* [in-place construction seems surprisingly simple?](https://blog.yoshuawuyts.com/in-place-construction-seems-surprisingly-simple/)
+* [Igneous Linearizer](https://domain-j.com/Igneous-Linearizer/uuid/9e30337c-b890-4fd9-a0bd-51a7aa6e65b0)
+* [Life in the FastLanes](https://blog.spiraldb.com/life-in-the-fastlanes/)
 
 ### Rust Walkthroughs
+* [Master Rust by Playing Video Games!](https://jonte-osterberg.medium.com/master-rust-by-playing-video-games-cf5f7d8b1e28)
 * [Tokio Waker Instrumentation](https://hegdenu.net/posts/tokio-waker-instrumentation/)
 * [Build with Naz : Comprehensive guide to nom parsing](https://developerlife.com/2023/02/20/guide-to-nom-parsing/)
 * [Running a TLC5940 with an ESP32 using the RMT peripheral](https://wapl.es/esp32-tlc5940-rmt/)
 * [Rust Data-Structures: What is a CIDR trie and how can it help you?](https://d34dl0ck.me/rust-bites-cidr-trie/index.html)
 
 ### Research
+* [When Is Parallelism Fearless and Zero-Cost with Rust?](https://dl.acm.org/doi/10.1145/3626183.3659966)
 
 ### Miscellaneous
 * [An Interview with Luca Palmieri of Mainmatter](https://filtra.io/rust-mainmatter-jun-24)
