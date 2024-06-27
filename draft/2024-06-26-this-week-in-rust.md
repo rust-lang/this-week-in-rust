@@ -61,6 +61,8 @@ and just ask the editors to select the category.
 * [Running a TLC5940 with an ESP32 using the RMT peripheral](https://wapl.es/esp32-tlc5940-rmt/)
 * [Rust Data-Structures: What is a CIDR trie and how can it help you?](https://d34dl0ck.me/rust-bites-cidr-trie/index.html)
 
+* [Rust patterns: Micro SDKs](https://kerkour.com/rust-patterns-micro-sdks)
+
 ### Research
 * [When Is Parallelism Fearless and Zero-Cost with Rust?](https://dl.acm.org/doi/10.1145/3626183.3659966)
 
