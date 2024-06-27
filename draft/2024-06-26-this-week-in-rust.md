@@ -36,15 +36,22 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* Release [v0.2.0](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.2.0) of "piggui" the rust GUI to control and view Raspberry Pi GPIO hardware. 
+
+- [Ratatui 0.27.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v027/)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Tokio Waker Instrumentation](https://hegdenu.net/posts/tokio-waker-instrumentation/)
+* [Build with Naz : Comprehensive guide to nom parsing](https://developerlife.com/2023/02/20/guide-to-nom-parsing/)
+* [Running a TLC5940 with an ESP32 using the RMT peripheral](https://wapl.es/esp32-tlc5940-rmt/)
 * [Rust Data-Structures: What is a CIDR trie and how can it help you?](https://d34dl0ck.me/rust-bites-cidr-trie/index.html)
 
 ### Research
 
 ### Miscellaneous
+* [An Interview with Luca Palmieri of Mainmatter](https://filtra.io/rust-mainmatter-jun-24)
 
 ## Crate of the Week
 
@@ -54,18 +61,19 @@ and just ask the editors to select the category.
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
-## [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+## Calls for Testing
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+* *No calls for testing were issued this week.*
+
+### [Rust](https://github.com/rust-lang/rust/labels/call-for-testing)
+* *No calls for testing were issued this week.*
+
+### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
+* *No calls for testing were issued this week.*
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
@@ -103,22 +111,25 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Mostly a number of improvements driven by [MIR inliner improvements], with a small number
+benchmarks having a significant regression due to improvements in
+[sort algorithms], which are runtime improvements at the cost of usually slight or
+neutral compile time regressions, with outliers in a few cases.
+
+[MIR inliner improvements]: https://github.com/rust-lang/rust/pull/126578
+[sort algorithms]: https://github.com/rust-lang/rust/pull/124032
+
+Triage done by **@simulacrum**.
+Revision range: [c2932aaf..c3d7fb39](https://perf.rust-lang.org/?start=c2932aaf9d20acbc9259c762f1a06f8767c6f13f&end=c3d7fb398569407350abe044e786bc7890c90397&absolute=false&stat=instructions%3Au)
+
+[See full report for details](https://github.com/rust-lang/rustc-perf/blob/master/triage/2024-06-23.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
-
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
+* [Change crates.io policy to not offer crate transfer mediation](https://github.com/rust-lang/rfcs/pull/3646)
+* [UnsafePinned: allow aliasing of pinned mutable references](https://github.com/rust-lang/rfcs/pull/3467)
 
 ### Final Comment Period
 
@@ -126,28 +137,39 @@ Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final
 which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+* [disposition: merge] [RFC: Return Type Notation](https://github.com/rust-lang/rfcs/pull/3654)
+* [disposition: merge] [Add a general mechanism of setting RUSTFLAGS in Cargo for the root crate only](https://github.com/rust-lang/rfcs/pull/3310)
+* [disposition: close] [Allow specifying dependencies for individual artifacts](https://github.com/rust-lang/rfcs/pull/2887)
 
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+#### Tracking Issues & PRs
+##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* [disposition: merge] [`#![crate_name = EXPR]` semantically allows `EXPR` to be a macro call but otherwise mostly ignores it](https://github.com/rust-lang/rust/issues/122001)
+* [disposition: merge] [Add nightly style guide section for `precise_capturing` `use<>` syntax](https://github.com/rust-lang/rust/pull/126753)
+* [disposition: merge] [Tracking issue for PanicInfo::message](https://github.com/rust-lang/rust/issues/66745)
+* [disposition: merge] [Tracking issue for Cell::update](https://github.com/rust-lang/rust/issues/50186)
+* [disposition: \<unspecified\>] [Tracking issue for core::arch::{x86, x86_64}::has_cpuid](https://github.com/rust-lang/rust/issues/60123)
+* [disposition: merge] [Syntax for precise capturing: `impl Trait + use<..>`](https://github.com/rust-lang/rust/issues/125836)
+* [disposition: merge] [Remove the `box_pointers` lint.](https://github.com/rust-lang/rust/pull/126018)
+* [disposition: merge] [Re-implement a type-size based limit](https://github.com/rust-lang/rust/pull/125507)
+* [disposition: merge] [Tracking Issue for `duration_abs_diff`](https://github.com/rust-lang/rust/issues/117618)
+* [disposition: merge] [Check alias args for WF even if they have escaping bound vars](https://github.com/rust-lang/rust/pull/123737)
 
-#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+##### [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* *No Cargo Tracking Issues or PRs entered Final Comment Period this week.*
 
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+##### [Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc+)
+* *No Language Team Tracking Issues or PRs entered Final Comment Period this week.*
 
-### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
+##### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* *No Language Reference Tracking Issues or PRs entered Final Comment Period this week.*
 
-### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
+##### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* *No Unsafe Code Guideline Tracking Issues or PRs entered Final Comment Period this week.*
 
-### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+#### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+* [new] [Cargo structured syntax for feature dependencies on crates](https://github.com/rust-lang/rfcs/pull/3663)
+* [new] [Mergeable rustdoc cross-crate info](https://github.com/rust-lang/rfcs/pull/3662)
+* [new] [Add "crates.io: Crate Deletions" RFC](https://github.com/rust-lang/rfcs/pull/3660)
 
 ## Upcoming Events
 
@@ -177,7 +199,7 @@ Rusty Events between 2024-06-26 - 2024-07-24 🦀
 * 2024-07-11 | Hybrid - Virtual and In-person (Mexico City, DF, MX) | [Rust MX](https://www.meetup.com/rust-mx/)
     * [**Programación de sistemas con Rust**](https://www.meetup.com/rust-mx/events/301740677/)
 * 2024-07-11 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
-    * [**Rust Nürnberg online**](hhttps://www.meetup.com/rust-noris/events/298076822/)
+    * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/298076822/)
 * 2024-07-11 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
     * [**Reading JSON files in Rust (English)**](https://www.meetup.com/code-mavens/events/301636580/)
 * 2024-07-16 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
