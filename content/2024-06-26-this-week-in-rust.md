@@ -29,20 +29,13 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [ratatui - v0.27.0](https://ratatui.rs/highlights/v027/)
 * [Introduction - ChoRus](https://lsd-ucsc.github.io/ChoRus/)
 * [uuid now properly supports version 7 counters](https://kodraus.github.io/rust/2024/06/24/uuid-v7-counters.html)
 * [Godot-Rust - June 2024 update](https://godot-rust.github.io/dev/june-2024-update/)
 * [piggui v0.2.0](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.2.0) 
-
-- [git-cliff 2.4.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/2.4.0)
+* [git-cliff 2.4.0 is released!](https://git-cliff.org/blog/2.4.0)
 
 ### Observations/Thoughts
 * [Claiming, auto and otherwise](https://smallcultfollowing.com/babysteps/blog/2024/06/21/claim-auto-and-otherwise/)
@@ -53,7 +46,6 @@ and just ask the editors to select the category.
 * [in-place construction seems surprisingly simple?](https://blog.yoshuawuyts.com/in-place-construction-seems-surprisingly-simple/)
 * [Igneous Linearizer](https://domain-j.com/Igneous-Linearizer/uuid/9e30337c-b890-4fd9-a0bd-51a7aa6e65b0)
 * [Life in the FastLanes](https://blog.spiraldb.com/life-in-the-fastlanes/)
-
 * [Rust's concurrency model vs Go's concurrency model: stackless vs stackfull coroutines](https://kerkour.com/rust-vs-go-concurrency-models-stackfull-vs-stackless-coroutines)
 
 ### Rust Walkthroughs
@@ -62,8 +54,8 @@ and just ask the editors to select the category.
 * [Build with Naz : Comprehensive guide to nom parsing](https://developerlife.com/2023/02/20/guide-to-nom-parsing/)
 * [Running a TLC5940 with an ESP32 using the RMT peripheral](https://wapl.es/esp32-tlc5940-rmt/)
 * [Rust Data-Structures: What is a CIDR trie and how can it help you?](https://d34dl0ck.me/rust-bites-cidr-trie/index.html)
-
 * [Rust patterns: Micro SDKs](https://kerkour.com/rust-patterns-micro-sdks)
+* [series] [The Definitive Guide to Error Handling in Rust (part 1): Dynamic Errors](https://www.howtocodeit.com/articles/the-definitive-guide-to-rust-error-handling)
 
 ### Research
 * [When Is Parallelism Fearless and Zero-Cost with Rust?](https://dl.acm.org/doi/10.1145/3626183.3659966)
@@ -108,10 +100,6 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-<!-- * [ - ]() -->
-<!-- or if none - *No Calls for participation were submitted this week.* -->
-
 * [cargo-generate - RFC on reading toml values into placeholders](https://github.com/cargo-generate/cargo-generate/issues/770)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (Formerly twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
@@ -122,8 +110,8 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-<!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+* [Rust Ukraine 2024](https://docs.google.com/forms/d/e/1FAIpQLSc9S_95oaCsFyrULF4iBQOIiTcMlOpG07izgquYLBCKFAYTKQ/viewform) | Closes 2024-07-06 | Online + Ukraine, Kyiv | Event date: 2024-07-27
+* [Conf42 Rustlang 2024](https://www.papercall.io/conf42-rustlang-2024) | Closes 2024-07-22 | online | Event date: 2024-08-22
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (Formerly twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -401,7 +389,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1cixuzr/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
