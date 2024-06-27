@@ -44,9 +44,9 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Tokio Waker Instrumentation](https://hegdenu.net/posts/tokio-waker-instrumentation/)
-
 * [Build with Naz : Comprehensive guide to nom parsing](https://developerlife.com/2023/02/20/guide-to-nom-parsing/)
-- [Running a TLC5940 with an ESP32 using the RMT peripheral](https://wapl.es/esp32-tlc5940-rmt/)
+* [Running a TLC5940 with an ESP32 using the RMT peripheral](https://wapl.es/esp32-tlc5940-rmt/)
+* [Rust Data-Structures: What is a CIDR trie and how can it help you?](https://d34dl0ck.me/rust-bites-cidr-trie/index.html)
 
 ### Research
 
@@ -180,7 +180,7 @@ Rusty Events between 2024-06-26 - 2024-07-24 🦀
     * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298897826/)
 * 2024-07-02 | Virtual (Buffalo, NY) | [Buffalo Rust Meetup](https://www.meetup.com/buffalo-rust-meetup/)
     * [**Buffalo Rust User Group**](https://www.meetup.com/buffalo-rust-meetup/events/300191673/)
-* 2024-07-02 | Hybrid - Virtual and In-person (Los Angeles, CA, US) | [Rust Los Angeles](https://www.meetup.com/rust-los-angeles/)    
+* 2024-07-02 | Hybrid - Virtual and In-person (Los Angeles, CA, US) | [Rust Los Angeles](https://www.meetup.com/rust-los-angeles/)
     * [**Rust LA Reboot**](https://www.meetup.com/rust-los-angeles/events/301645611/)
 * 2024-07-03 | Virtual | [Training 4 Programmers LLC](https://www.eventbrite.com/o/training-4-programmers-llc-80387368983)
     * [**Build Web Apps with Rust and Leptos**](https://www.eventbrite.com/e/build-web-apps-with-rust-and-leptos-tickets-904804503627?aff=odcleoeventsincollection)
@@ -234,7 +234,7 @@ Rusty Events between 2024-06-26 - 2024-07-24 🦀
     * [**Music City Rust Developers: Holding Pattern**](https://www.meetup.com/music-city-rust-developers/events/301411746/)
 * 2024-06-27 | St. Louis, MO, US | [STl Rust](https://www.meetup.com/stl-rust/)
     * [**Meet and Greet Hacker session**](https://www.meetup.com/stl-rust/events/301321974/)
-* 2024-07-02 | Hybrid - Los Angeles, CA, US | [Rust Los Angeles](https://www.meetup.com/rust-los-angeles/)    
+* 2024-07-02 | Hybrid - Los Angeles, CA, US | [Rust Los Angeles](https://www.meetup.com/rust-los-angeles/)
     * [**Rust LA Reboot**](https://www.meetup.com/rust-los-angeles/events/301645611/)
 * 2024-07-05 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
     * [**Boston University Rust Lunch, July 5**](https://www.meetup.com/bostonrust/events/301549737/)
