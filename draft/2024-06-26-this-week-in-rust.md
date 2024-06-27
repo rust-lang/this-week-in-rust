@@ -41,11 +41,13 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Build with Naz : Comprehensive guide to nom parsing](https://developerlife.com/2023/02/20/guide-to-nom-parsing/)
 - [Running a TLC5940 with an ESP32 using the RMT peripheral](https://wapl.es/esp32-tlc5940-rmt/)
 
 ### Research
 
 ### Miscellaneous
+* [An Interview with Luca Palmieri of Mainmatter](https://filtra.io/rust-mainmatter-jun-24)
 
 ## Crate of the Week
 
@@ -178,7 +180,7 @@ Rusty Events between 2024-06-26 - 2024-07-24 🦀
 * 2024-07-11 | Hybrid - Virtual and In-person (Mexico City, DF, MX) | [Rust MX](https://www.meetup.com/rust-mx/)
     * [**Programación de sistemas con Rust**](https://www.meetup.com/rust-mx/events/301740677/)
 * 2024-07-11 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
-    * [**Rust Nürnberg online**](hhttps://www.meetup.com/rust-noris/events/298076822/)
+    * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/298076822/)
 * 2024-07-11 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
     * [**Reading JSON files in Rust (English)**](https://www.meetup.com/code-mavens/events/301636580/)
 * 2024-07-16 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
