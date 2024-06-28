@@ -37,6 +37,9 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [what-the-time 1.0.0](https://github.com/sdball/what-the-time/releases/tag/v1.0.0): calculate
+  time diffs between JSON log lines
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
