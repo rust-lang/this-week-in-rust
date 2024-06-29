@@ -37,9 +37,14 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [r3bl_cmdr v0.0.14 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v0014-2024-06-29)
+* [r3bl_tui v0.5.6 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v056-2024-06-29)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+
+* [Build with Naz : Markdown parser in Rust and nom from r3bl_tui](https://developerlife.com/2024/06/28/md-parser-rust-from-r3bl-tui/)
 
 ### Research
 
