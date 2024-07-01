@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [series] [Master Hexagonal Architecture in Rust (part 3): `Service`, the heart of hexagonal architecture](https://www.howtocodeit.com/articles/master-hexagonal-architecture-rust#service-the-heart-of-hexagonal-architecture)
 
 ### Research
 
