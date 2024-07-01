@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Rust interop guide](https://tweedegolf.nl/en/interop)
+
 ### Research
 
 ### Miscellaneous
