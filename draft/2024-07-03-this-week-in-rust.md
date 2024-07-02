@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Adding compile-time safety to the AWS SDK with syn's Visit trait](https://medium.com/@sam.van.overmeire/adding-compile-time-safety-to-the-aws-sdk-with-syns-visit-trait-57bfbbac8677)
 
 ### Research
 
