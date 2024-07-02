@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Meilisearch releases v1.9](https://blog.meilisearch.com/meilisearch-1-9/) - ([Rust SDK](https://github.com/meilisearch/meilisearch-rust))
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
