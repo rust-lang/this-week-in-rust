@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Mutant-Kraken: A Mutation Testing Tool For Kotlin Built in Rust Released!](https://github.com/JosueMolinaMorales/mutant-kraken)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
