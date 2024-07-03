@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+ * [derive-deftly (the template-based derive macro facility) is nearing 1.x - call for review/testing](https://diziet.dreamwidth.org/18695.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
