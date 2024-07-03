@@ -213,6 +213,8 @@ Rusty Events between 2024-07-03 - 2024-07-31 🦀
     * [**Nix Your Bugs & Rust Your Engines #4**](https://www.meetup.com/hackschool-rhein-neckar/events/301504325/)
 * 2024-07-23| Hybrid - Virtual and In-Person (München/Munich, DE) | [Rust Munich](https://www.meetup.com/rust-munich/)
     * [**Rust Munich 2024 / 2 - hybrid**](https://www.meetup.com/rust-munich/events/298507657/)
+* 2024-07-27 | Augsburg, DE | [Rust Meetup Augsburg](https://www.meetup.com/de-DE/rust-meetup-augsburg/)
+    * [**Augsburg Rust Meetup #8: Einführung in Machine Learning mit Rust**](https://www.meetup.com/rust-meetup-augsburg/events/301642385/)
 
 ### North America
 * 2024-06-26 | Austin, TX, US | [Rust ATC](https://www.meetup.com/rust-atx/)
