@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [It's time to abolish the builder pattern in Rust](https://kerkour.com/rust-abolish-the-builder-pattern)
+
 ### Rust Walkthroughs
 
 ### Research
