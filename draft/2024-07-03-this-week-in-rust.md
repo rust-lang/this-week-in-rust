@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Rust patterns: Don't put any code in mod.rs or lib.rs files](https://kerkour.com/rust-patterns-dont-put-code-in-lib-mod-files)
+
 ### Research
 
 ### Miscellaneous
