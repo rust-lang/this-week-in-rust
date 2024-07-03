@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rust has a supply chain security problem](https://kerkour.com/rust-supply-chain-security-standard-library)
+
 ### Rust Walkthroughs
 
 ### Research
