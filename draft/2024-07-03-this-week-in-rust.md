@@ -118,6 +118,8 @@ Revision range: [c3d7fb39..cf2df68d](https://perf.rust-lang.org/?start=c3d7fb398
 4 Regressions, 3 Improvements, 11 Mixed; 7 of them in rollups
 59 artifact comparisons made in total
 
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/903bfae931250761eadc291a8fe34c7c52003f82/triage/2024-07-02.md)
+
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
