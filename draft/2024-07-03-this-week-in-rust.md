@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [sans-IO: The secret to effective Rust for network services](https://www.firezone.dev/blog/sans-io)
+
 ### Rust Walkthroughs
 
 ### Research
