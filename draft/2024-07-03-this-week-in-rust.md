@@ -153,12 +153,6 @@ which are reaching a decision. Express your opinions now.
 Rusty Events between 2024-07-03 - 2024-07-31 🦀
 
 ### Virtual
-* 2024-06-27 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
-    * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298897826/)
-* 2024-07-02 | Virtual (Buffalo, NY) | [Buffalo Rust Meetup](https://www.meetup.com/buffalo-rust-meetup/)
-    * [**Buffalo Rust User Group**](https://www.meetup.com/buffalo-rust-meetup/events/300191673/)
-* 2024-07-02 | Hybrid - Virtual and In-person (Los Angeles, CA, US) | [Rust Los Angeles](https://www.meetup.com/rust-los-angeles/)
-    * [**Rust LA Reboot**](https://www.meetup.com/rust-los-angeles/events/301645611/)
 * 2024-07-03 | Virtual | [Training 4 Programmers LLC](https://www.eventbrite.com/o/training-4-programmers-llc-80387368983)
     * [**Build Web Apps with Rust and Leptos**](https://www.eventbrite.com/e/build-web-apps-with-rust-and-leptos-tickets-904804503627?aff=odcleoeventsincollection)
 * 2024-07-03 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/)
@@ -191,18 +185,18 @@ Rusty Events between 2024-07-03 - 2024-07-31 🦀
     * [**Rust Munich 2024 / 2 - hybrid**](https://www.meetup.com/rust-munich/events/298507657/)
 * 2024-07-24 | Virtual | [Women in Rust](https://www.meetup.com/women-in-rust/)
     * [**Lunch & Learn: Exploring Rust API Use Cases**](https://www.eventbrite.com/e/lunch-learn-exploring-rust-api-use-cases-tickets-928424531767)
+* 2024-07-25 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
+    * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298897865/)
+* 2024-07-27 | Hybrid - Virtual and In-Person (Kyiv, UA) | [UA Rust](https://uarust.com/)
+    * [**UARust Conference 2024**](https://uarust.com/)
+* 2024-07-30 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
+    * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/301585665/)
 
 ### Asia
-* 2024-06-30 | Kyoto, JP | [Kyoto Rust](https://www.meetup.com/kyoto-rust/)
-    * [**Rust Talk: Cross Platform Apps**](https://www.meetup.com/kyoto-rust/events/301499550/)
 * 2024-07-03 | Tokyo, JP | [Tokyo Rust Meetup](https://www.meetup.com/ja-JP/tokyo-rust-meetup/)
     * [**I Was Understanding WASM All Wrong!**](https://www.meetup.com/ja-JP/tokyo-rust-meetup/events/301807832/)
 
 ### Europe
-* 2024-06-27 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin/)
-    * [**Rust and Tell - Title**](https://www.meetup.com/rust-berlin/events/299288965/)
-* 2024-06-27 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community)
-    * [**Rust meetup #48 sponsored by Google!**](https://www.meetup.com/copenhagen-rust-community/events/300458252/)
 * 2024-07-10 | Reading, UK | [Reading Rust Workshop](https://rustworkshop.co/meetup/)
     * [**Reading Rust Meetup - July**](https://www.meetup.com/reading-rust-workshop/events/301359031/)
 * 2024-07-11 | Prague, CZ | [Rust Prague](https://www.meetup.com/rust-prague/)
@@ -213,18 +207,12 @@ Rusty Events between 2024-07-03 - 2024-07-31 🦀
     * [**Nix Your Bugs & Rust Your Engines #4**](https://www.meetup.com/hackschool-rhein-neckar/events/301504325/)
 * 2024-07-23| Hybrid - Virtual and In-Person (München/Munich, DE) | [Rust Munich](https://www.meetup.com/rust-munich/)
     * [**Rust Munich 2024 / 2 - hybrid**](https://www.meetup.com/rust-munich/events/298507657/)
+* 2024-07-25 | Berlin, DE | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
+    * [**Rust and Tell - Title**](https://www.meetup.com/rust-berlin/events/299288967/)
+* 2024-07-30 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel)
+    * [**Rust Meetup #9**](https://www.meetup.com/rust-basel/events/301459503/)
 
 ### North America
-* 2024-06-26 | Austin, TX, US | [Rust ATC](https://www.meetup.com/rust-atx/)
-    * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/301066942/)
-* 2024-06-27 | Mountain View, CA, US | [Mountain View Rust Meetup](https://www.meetup.com/mv-rust-meetup/)
-    * [**Rust Meetup at Hacker Dojo**](https://www.meetup.com/mv-rust-meetup/events/301613483/)
-* 2024-06-27 | Nashville, TN, US | [Music City Rust Developers](https://www.meetup.com/music-city-rust-developers/)
-    * [**Music City Rust Developers: Holding Pattern**](https://www.meetup.com/music-city-rust-developers/events/301411746/)
-* 2024-06-27 | St. Louis, MO, US | [STl Rust](https://www.meetup.com/stl-rust/)
-    * [**Meet and Greet Hacker session**](https://www.meetup.com/stl-rust/events/301321974/)
-* 2024-07-02 | Hybrid - Los Angeles, CA, US | [Rust Los Angeles](https://www.meetup.com/rust-los-angeles/)
-    * [**Rust LA Reboot**](https://www.meetup.com/rust-los-angeles/events/301645611/)
 * 2024-07-05 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
     * [**Boston University Rust Lunch, July 5**](https://www.meetup.com/bostonrust/events/301549737/)
 * 2024-07-11 | Hybrid - Mexico City, DF, MX | [Rust MX](https://www.meetup.com/rust-mx/)
@@ -235,11 +223,12 @@ Rusty Events between 2024-07-03 - 2024-07-31 🦀
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/298631734/)
 * 2024-07-18 | Nashville, TN, US | [Music City Rust Developers](https://www.meetup.com/music-city-rust-developers/)
     * [**Music City Rust Developers : holding pattern**](https://www.meetup.com/music-city-rust-developers/events/301411794/)
+* 2024-07-18 | Seattle, WA, US | [Seattle Rust User Group](https://www.meetup.com/seattle-rust-user-group/events/)
+    * [**Seattle Rust User Group Meetup**](https://www.meetup.com/seattle-rust-user-group/events/301883176/)
 * 2024-07-24 | Austin, TX, US | [Rust ATC](https://www.meetup.com/rust-atx/)
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/xvkdgtygckbgc/)
-
-
-### Oceania
+* 2024-07-27 | Hybrid - Virtual and In-Person (Kyiv, UA) | [UA Rust](https://uarust.com/)
+    * [**UARust Conference 2024**](https://uarust.com/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
