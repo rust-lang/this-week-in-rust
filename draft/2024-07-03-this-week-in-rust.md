@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Rustlings version 6](https://mo8it.com/blog/rustlings-rewrite/)
 
 ### Observations/Thoughts
 
