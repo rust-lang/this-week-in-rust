@@ -102,7 +102,21 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+# 2024-07-02 Triage Log
+
+We saw a large set of primary benchmarks regress, mostly due to PR
+#120924 (`lint_reasons` and `#[expect]`) and PR #120639 (new effects
+desugaring). Separate from those, there are a couple rollup PRs
+(#127076, #127096) with some regressions that were limited to
+relatively few benchmarks; pnkfelix was unable to isolate a injecting
+PR that can be identified as a root cause (outside assistance
+welcome!).
+
+Triage done by **@pnkfelix**.
+Revision range: [c3d7fb39..cf2df68d](https://perf.rust-lang.org/?start=c3d7fb398569407350abe044e786bc7890c90397&end=cf2df68d1f5e56803c97d91e2b1a9f1c9923c533&absolute=false&stat=instructions%3Au)
+
+4 Regressions, 3 Improvements, 11 Mixed; 7 of them in rollups
+59 artifact comparisons made in total
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
