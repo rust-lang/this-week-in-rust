@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Rust Patterns: Make a reference &'static with Box::leak](https://kerkour.com/rust-box-leak-static-reference)
+
 ### Research
 
 ### Miscellaneous
