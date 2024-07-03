@@ -244,7 +244,7 @@ which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 * [disposition: merge] [RFC: Return Type Notation](https://github.com/rust-lang/rfcs/pull/3654)
-* [disposition: merge] [Add a general mechanism of setting RUSTFLAGS in Cargo for the root crate only](https://github.com/rust-lang/rfcs/pull/3310)
+* [disposition: close] [Add a general mechanism of setting RUSTFLAGS in Cargo for the root crate only](https://github.com/rust-lang/rfcs/pull/3310)
 * [disposition: close] [Allow specifying dependencies for individual artifacts](https://github.com/rust-lang/rfcs/pull/2887)
 
 #### Tracking Issues & PRs
@@ -253,7 +253,7 @@ which are reaching a decision. Express your opinions now.
 * [disposition: merge] [Add nightly style guide section for `precise_capturing` `use<>` syntax](https://github.com/rust-lang/rust/pull/126753)
 * [disposition: merge] [Tracking issue for PanicInfo::message](https://github.com/rust-lang/rust/issues/66745)
 * [disposition: merge] [Tracking issue for Cell::update](https://github.com/rust-lang/rust/issues/50186)
-* [disposition: \<unspecified\>] [Tracking issue for core::arch::{x86, x86_64}::has_cpuid](https://github.com/rust-lang/rust/issues/60123)
+* [disposition: close] [Tracking issue for core::arch::{x86, x86_64}::has_cpuid](https://github.com/rust-lang/rust/issues/60123)
 * [disposition: merge] [Syntax for precise capturing: `impl Trait + use<..>`](https://github.com/rust-lang/rust/issues/125836)
 * [disposition: merge] [Remove the `box_pointers` lint.](https://github.com/rust-lang/rust/pull/126018)
 * [disposition: merge] [Re-implement a type-size based limit](https://github.com/rust-lang/rust/pull/125507)
