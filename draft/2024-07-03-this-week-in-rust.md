@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Demystifying the Rust HTTP ecosystem](https://kerkour.com/rust-http-ecosystem-2024)
+
 ### Rust Walkthroughs
 
 ### Research
