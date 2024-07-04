@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 * [what-the-time 1.0.0](https://github.com/sdball/what-the-time/releases/tag/v1.0.0): calculate
   time diffs between JSON log lines
 
+* [Meilisearch releases v1.9](https://blog.meilisearch.com/meilisearch-1-9/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
