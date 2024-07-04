@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Mix in Rust](https://tweedegolf.nl/en/blog/123/mix-in-rust)
 
 ### Research
 
