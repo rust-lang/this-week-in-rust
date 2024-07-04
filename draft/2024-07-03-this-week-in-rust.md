@@ -55,6 +55,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [video] [Zelda Hessler discusses the AWS SDK for Rust](https://www.youtube.com/watch?v=-PTSJbUZ_Jo)
 
 * [FizzBuzz Multithreaded - synchronization with rendezvous channels](https://firedbg.sea-ql.org/blog/2024-06-30-fizzbuzz-multithread/)
 
