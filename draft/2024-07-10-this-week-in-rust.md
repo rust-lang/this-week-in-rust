@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Bevy 0.14](https://bevyengine.org/news/bevy-0-14/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
