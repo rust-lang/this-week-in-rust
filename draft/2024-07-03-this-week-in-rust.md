@@ -57,6 +57,8 @@ and just ask the editors to select the category.
 * [Rust has three reference types!](https://ssbr.xyz/blog/rust-has-three-reference-types/)
 * [audio] [OxidOS with Alexandru Radovici](https://corrode.dev/podcast/s02e05-oxidos/)
 
+- [sans-IO: The secret to effective Rust for network services](https://www.firezone.dev/blog/sans-io)
+
 ### Rust Walkthroughs
 * [Resolving Rust Symbols](https://blog.shrirambalaji.com/posts/resolving-rust-symbols/)
 * [#![doc = include_str!()] with intra-doc links](https://linebender.org/blog/doc-include/)
