@@ -41,8 +41,6 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
-- [Marquee Selection in Bevy](https://medium.com/@jessebracho/marquee-selection-in-bevy-3bc8bbd99ef3)
-
 ### Research
 
 ### Miscellaneous
