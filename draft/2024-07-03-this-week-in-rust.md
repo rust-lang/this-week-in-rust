@@ -30,29 +30,38 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Types Team Update and Roadmap](https://blog.rust-lang.org/2024/06/26/types-team-update.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Rustlings Rewrite](https://mo8it.com/blog/rustlings-rewrite/)
+* [iroh 0.19.0 - Make it your own](https://iroh.computer/blog/iroh-0-19-make-it-your-own)
+* [Announcing Polars 1.0](https://pola.rs/posts/announcing-polars-1/)
+* [rust-analyzer changelog #240](https://rust-analyzer.github.io/thisweek/2024/07/01/changelog-240.html)
 * [r3bl_cmdr v0.0.14 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v0014-2024-06-29)
 * [r3bl_tui v0.5.6 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v056-2024-06-29)
 * [Danube - Pub/Sub messaging broker](https://dev-state.com/posts/danube_intro/) - Intro to Danube - a distributed Pub/Sub message broker developed in Rust.
 * [what-the-time 1.0.0](https://github.com/sdball/what-the-time/releases/tag/v1.0.0): calculate
   time diffs between JSON log lines
 * [Meilisearch releases v1.9](https://blog.meilisearch.com/meilisearch-1-9/)
-* [Rustlings version 6](https://mo8it.com/blog/rustlings-rewrite/)
 
 ### Observations/Thoughts
+* [Ergonomic Self-Referential Types for Rust](https://blog.yoshuawuyts.com/self-referential-types/)
+* [More thoughts on claiming](https://smallcultfollowing.com/babysteps/blog/2024/06/26/claim-followup-1/)
+* [Async closures](https://hackmd.io/@compiler-errors/async-closures)
+* [Rust has three reference types!](https://ssbr.xyz/blog/rust-has-three-reference-types/)
+* [audio] [OxidOS with Alexandru Radovici](https://corrode.dev/podcast/s02e05-oxidos/)
 
 ### Rust Walkthroughs
+* [Resolving Rust Symbols](https://blog.shrirambalaji.com/posts/resolving-rust-symbols/)
+* [#![doc = include_str!()] with intra-doc links](https://linebender.org/blog/doc-include/)
 - [The Minimal Rust-Wasm Setup](https://dzfrias.dev/blog/rust-wasm-minimal-setup/)
 * [Build with Naz : Markdown parser in Rust and nom from r3bl_tui](https://developerlife.com/2024/06/28/md-parser-rust-from-r3bl-tui/)
 * [Adding compile-time safety to the AWS SDK with syn's Visit trait](https://medium.com/@sam.van.overmeire/adding-compile-time-safety-to-the-aws-sdk-with-syns-visit-trait-57bfbbac8677)
-
 * [Adding GraphQL Support to Loco with Seaography](https://www.sea-ql.org/blog/2024-07-01-graphql-support-with-loco-seaography/)
-
 * [Rust patterns: Don't put any code in mod.rs or lib.rs files](https://kerkour.com/rust-patterns-dont-put-code-in-lib-mod-files)
 
 ### Research
