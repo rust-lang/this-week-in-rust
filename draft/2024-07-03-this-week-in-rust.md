@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [FizzBuzz Multithreaded - synchronization with rendezvous channels](https://firedbg.sea-ql.org/blog/2024-06-30-fizzbuzz-multithread/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
