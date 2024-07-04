@@ -48,6 +48,8 @@ and just ask the editors to select the category.
   time diffs between JSON log lines
 * [Meilisearch releases v1.9](https://blog.meilisearch.com/meilisearch-1-9/)
 
+ * [derive-deftly (the template-based derive macro facility) is nearing 1.x - call for review/testing](https://diziet.dreamwidth.org/18695.html)
+
 ### Observations/Thoughts
 * [Ergonomic Self-Referential Types for Rust](https://blog.yoshuawuyts.com/self-referential-types/)
 * [More thoughts on claiming](https://smallcultfollowing.com/babysteps/blog/2024/06/26/claim-followup-1/)
