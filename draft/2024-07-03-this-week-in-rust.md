@@ -54,6 +54,8 @@ and just ask the editors to select the category.
 
 * [Adding GraphQL Support to Loco with Seaography](https://www.sea-ql.org/blog/2024-07-01-graphql-support-with-loco-seaography/)
 
+* [Rust patterns: Don't put any code in mod.rs or lib.rs files](https://kerkour.com/rust-patterns-dont-put-code-in-lib-mod-files)
+
 ### Research
 
 ### Miscellaneous
