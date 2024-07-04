@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Rust for filesystems](https://lwn.net/Articles/978738/)
 
 ### Observations/Thoughts
 
