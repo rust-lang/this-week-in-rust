@@ -36,9 +36,9 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
 * [r3bl_cmdr v0.0.14 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v0014-2024-06-29)
 * [r3bl_tui v0.5.6 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v056-2024-06-29)
+* [Danube - Pub/Sub messaging broker](https://dev-state.com/posts/danube_intro/) - Intro to Danube - a distributed Pub/Sub message broker developed in Rust.
 
 ### Observations/Thoughts
 
