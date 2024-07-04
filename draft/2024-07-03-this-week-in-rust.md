@@ -40,6 +40,9 @@ and just ask the editors to select the category.
 * [r3bl_tui v0.5.6 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v056-2024-06-29)
 * [Danube - Pub/Sub messaging broker](https://dev-state.com/posts/danube_intro/) - Intro to Danube - a distributed Pub/Sub message broker developed in Rust.
 
+* [what-the-time 1.0.0](https://github.com/sdball/what-the-time/releases/tag/v1.0.0): calculate
+  time diffs between JSON log lines
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
