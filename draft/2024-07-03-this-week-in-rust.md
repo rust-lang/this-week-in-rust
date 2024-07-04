@@ -36,15 +36,27 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [r3bl_cmdr v0.0.14 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v0014-2024-06-29)
+* [r3bl_tui v0.5.6 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v056-2024-06-29)
+* [Danube - Pub/Sub messaging broker](https://dev-state.com/posts/danube_intro/) - Intro to Danube - a distributed Pub/Sub message broker developed in Rust.
+
+* [what-the-time 1.0.0](https://github.com/sdball/what-the-time/releases/tag/v1.0.0): calculate
+  time diffs between JSON log lines
+
+* [Meilisearch releases v1.9](https://blog.meilisearch.com/meilisearch-1-9/)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [The Minimal Rust-Wasm Setup](https://dzfrias.dev/blog/rust-wasm-minimal-setup/)
+* [Build with Naz : Markdown parser in Rust and nom from r3bl_tui](https://developerlife.com/2024/06/28/md-parser-rust-from-r3bl-tui/)
 * [Adding compile-time safety to the AWS SDK with syn's Visit trait](https://medium.com/@sam.van.overmeire/adding-compile-time-safety-to-the-aws-sdk-with-syns-visit-trait-57bfbbac8677)
 
 ### Research
 
 ### Miscellaneous
+
+* [FizzBuzz Multithreaded - synchronization with rendezvous channels](https://firedbg.sea-ql.org/blog/2024-06-30-fizzbuzz-multithread/)
 
 ## Crate of the Week
 
@@ -54,18 +66,19 @@ and just ask the editors to select the category.
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
-## [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+## Calls for Testing
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+* *No calls for testing were issued this week.*
+
+### [Rust](https://github.com/rust-lang/rust/labels/call-for-testing)
+* *No calls for testing were issued this week.*
+
+### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
+* *No calls for testing were issued this week.*
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
@@ -83,6 +96,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+
+* [diesel- Add support for currently unsupported range operators and methods](https://github.com/diesel-rs/diesel/issues/4092)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (Formerly twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -109,16 +124,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
-
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
+* [RFC: Unblock Cargo feature metadata](https://github.com/rust-lang/rfcs/pull/3416)
 
 ### Final Comment Period
 
@@ -126,28 +132,32 @@ Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final
 which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+* [disposition: merge] [RFC: #[derive(SmartPointer)]](https://github.com/rust-lang/rfcs/pull/3621)
 
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+#### Tracking Issues & PRs
+##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* [disposition: merge] [Tracking issue for const char conversions](https://github.com/rust-lang/rust/issues/89259)
+* [disposition: merge] [Don't make statement nonterminals match pattern nonterminals](https://github.com/rust-lang/rust/pull/120221)
+* [disposition: merge] [Allow `#[deny]` inside `#[forbid]` as a no-op](https://github.com/rust-lang/rust/pull/121560)
+* [disposition: merge] [Tracking issue for function attribute `#[coverage]`](https://github.com/rust-lang/rust/issues/84605)
+* [disposition: merge] [Bump `elided_lifetimes_in_associated_constant` to deny](https://github.com/rust-lang/rust/pull/124211)
+* [disposition: merge] [Tracking Issue for `const_cstr_from_ptr`](https://github.com/rust-lang/rust/issues/113219)
+* [disposition: merge] [Deny keyword lifetimes pre-expansion](https://github.com/rust-lang/rust/pull/126762)
 
-#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+##### [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* *No Cargo Tracking Issues or PRs entered Final Comment Period this week.*
 
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+##### [Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc+)
+* *No Language Team Tracking Issues or PRs entered Final Comment Period this week.*
 
-### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
+##### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* *No Language Reference Tracking Issues or PRs entered Final Comment Period this week.*
 
-### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
+##### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* *No Unsafe Code Guideline Tracking Issues or PRs entered Final Comment Period this week.*
 
-### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+#### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+* [new] [Async closures](https://github.com/rust-lang/rfcs/pull/3668)
 
 ## Upcoming Events
 
