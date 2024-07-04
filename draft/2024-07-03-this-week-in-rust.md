@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 - [The Minimal Rust-Wasm Setup](https://dzfrias.dev/blog/rust-wasm-minimal-setup/)
 * [Build with Naz : Markdown parser in Rust and nom from r3bl_tui](https://developerlife.com/2024/06/28/md-parser-rust-from-r3bl-tui/)
+* [Adding compile-time safety to the AWS SDK with syn's Visit trait](https://medium.com/@sam.van.overmeire/adding-compile-time-safety-to-the-aws-sdk-with-syns-visit-trait-57bfbbac8677)
 
 ### Research
 
