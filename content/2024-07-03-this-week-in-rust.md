@@ -32,10 +32,6 @@ and just ask the editors to select the category.
 ### Official
 * [Types Team Update and Roadmap](https://blog.rust-lang.org/2024/06/26/types-team-update.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [Rustlings Rewrite](https://mo8it.com/blog/rustlings-rewrite/)
 * [iroh 0.19.0 - Make it your own](https://iroh.computer/blog/iroh-0-19-make-it-your-own)
@@ -43,37 +39,31 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #240](https://rust-analyzer.github.io/thisweek/2024/07/01/changelog-240.html)
 * [r3bl_cmdr v0.0.14 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v0014-2024-06-29)
 * [r3bl_tui v0.5.6 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v056-2024-06-29)
-* [Danube - Pub/Sub messaging broker](https://dev-state.com/posts/danube_intro/) - Intro to Danube - a distributed Pub/Sub message broker developed in Rust.
-* [what-the-time 1.0.0](https://github.com/sdball/what-the-time/releases/tag/v1.0.0): calculate
-  time diffs between JSON log lines
+* [Danube - Pub/Sub messaging broker](https://dev-state.com/posts/danube_intro/)
+* [what-the-time 1.0.0](https://github.com/sdball/what-the-time/releases/tag/v1.0.0)
 * [Meilisearch releases v1.9](https://blog.meilisearch.com/meilisearch-1-9/)
-
- * [derive-deftly (the template-based derive macro facility) is nearing 1.x - call for review/testing](https://diziet.dreamwidth.org/18695.html)
+* [derive-deftly (the template-based derive macro facility) is nearing 1.x - call for review/testing](https://diziet.dreamwidth.org/18695.html)
 
 ### Observations/Thoughts
 * [Ergonomic Self-Referential Types for Rust](https://blog.yoshuawuyts.com/self-referential-types/)
 * [More thoughts on claiming](https://smallcultfollowing.com/babysteps/blog/2024/06/26/claim-followup-1/)
 * [Async closures](https://hackmd.io/@compiler-errors/async-closures)
 * [Rust has three reference types!](https://ssbr.xyz/blog/rust-has-three-reference-types/)
+* [sans-IO: The secret to effective Rust for network services](https://www.firezone.dev/blog/sans-io)
 * [audio] [OxidOS with Alexandru Radovici](https://corrode.dev/podcast/s02e05-oxidos/)
-
-- [sans-IO: The secret to effective Rust for network services](https://www.firezone.dev/blog/sans-io)
 
 ### Rust Walkthroughs
 * [Resolving Rust Symbols](https://blog.shrirambalaji.com/posts/resolving-rust-symbols/)
 * [#![doc = include_str!()] with intra-doc links](https://linebender.org/blog/doc-include/)
-- [The Minimal Rust-Wasm Setup](https://dzfrias.dev/blog/rust-wasm-minimal-setup/)
+* [The Minimal Rust-Wasm Setup](https://dzfrias.dev/blog/rust-wasm-minimal-setup/)
 * [Build with Naz : Markdown parser in Rust and nom from r3bl_tui](https://developerlife.com/2024/06/28/md-parser-rust-from-r3bl-tui/)
 * [Adding compile-time safety to the AWS SDK with syn's Visit trait](https://medium.com/@sam.van.overmeire/adding-compile-time-safety-to-the-aws-sdk-with-syns-visit-trait-57bfbbac8677)
 * [Adding GraphQL Support to Loco with Seaography](https://www.sea-ql.org/blog/2024-07-01-graphql-support-with-loco-seaography/)
 * [Rust patterns: Don't put any code in mod.rs or lib.rs files](https://kerkour.com/rust-patterns-dont-put-code-in-lib-mod-files)
 
-### Research
-
 ### Miscellaneous
-* [video] [Zelda Hessler discusses the AWS SDK for Rust](https://www.youtube.com/watch?v=-PTSJbUZ_Jo)
-
 * [FizzBuzz Multithreaded - synchronization with rendezvous channels](https://firedbg.sea-ql.org/blog/2024-06-30-fizzbuzz-multithread/)
+* [video] [Zelda Hessler discusses the AWS SDK for Rust](https://www.youtube.com/watch?v=-PTSJbUZ_Jo)
 
 ## Crate of the Week
 
@@ -112,10 +102,6 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-<!-- * [ - ]() -->
-<!-- or if none - *No Calls for participation were submitted this week.* -->
-
 * [diesel- Add support for currently unsupported range operators and methods](https://github.com/diesel-rs/diesel/issues/4092)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (Formerly twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
@@ -126,8 +112,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-<!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+*No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (Formerly twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -224,13 +209,8 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 # 2024-07-02 Triage Log
 
-We saw a large set of primary benchmarks regress, mostly due to PR
-#120924 (`lint_reasons` and `#[expect]`) and PR #120639 (new effects
-desugaring). Separate from those, there are a couple rollup PRs
-(#127076, #127096) with some regressions that were limited to
-relatively few benchmarks; pnkfelix was unable to isolate a injecting
-PR that can be identified as a root cause (outside assistance
-welcome!).
+We saw a large set of primary benchmarks regress, mostly due to PR #120924 (`lint_reasons` and `#[expect]`) and PR #120639 (new effects
+desugaring). Separate from those, there are a couple rollup PRs (#127076, #127096) with some regressions that were limited to relatively few benchmarks; pnkfelix was unable to isolate a injecting PR that can be identified as a root cause (outside assistance welcome!).
 
 Triage done by **@pnkfelix**.
 Revision range: [c3d7fb39..cf2df68d](https://perf.rust-lang.org/?start=c3d7fb398569407350abe044e786bc7890c90397&end=cf2df68d1f5e56803c97d91e2b1a9f1c9923c533&absolute=false&stat=instructions%3Au)
@@ -381,7 +361,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1cixuzr/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -397,4 +377,4 @@ Thanks to [scottmcm](https://users.rust-lang.org/t/twir-quote-of-the-week/328/15
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1duvbdp/this_week_in_rust_554_this_week_in_rust/)</small>
