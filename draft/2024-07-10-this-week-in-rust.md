@@ -36,6 +36,8 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Maelstrom v0.10.0: A Hermetic, Fast, Clustered Test Runner: Added Support for Python Tests, Other Container Image Repositores, and more](https://github.com/maelstrom-software/maelstrom/releases/tag/v0.10.0)
+
 
 ### Observations/Thoughts
 
