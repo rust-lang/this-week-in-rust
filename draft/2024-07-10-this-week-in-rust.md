@@ -161,6 +161,8 @@ Rusty Events between 2024-07-10 - 2024-08-07 🦀
     * [**Rust Hack and Learn**](https://meet.jit.si/RustHackAndLearnBerlin) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298488820/)
 * 2024-07-06 | Virtual (Kampala, UG) | [Rust Circle Kampala](https://www.eventbrite.com/o/rust-circle-kampala-65249289033)
     * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587)
+* 2024-07-08 | Virtual (Dubai) | [Shardeum Launches $500,000 and $200,000 Boosts on Immunefi](https://medium.com/immunefi/shardeum-launches-500-000-and-200-000-boosts-on-immunefi-57279d387fa5)
+    *  [Core Boost](https://immunefi.com/boost/shardeum-core-boost/) + [Ancillaries (more rusty)](https://immunefi.com/boost/shardeum-ancillaries-boost/)
 * 2024-07-09 | Virtual | [Rust for Lunch](https://lunch.rs/)
     * [**July 2024 Rust for Lunch**](https://lunch.rs/meetups/2024-07-09/)
 * 2024-07-09 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
