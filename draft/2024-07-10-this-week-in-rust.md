@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rerun 0.17 - better blueprints with defaults and overrides for any data](https://rerun.io/blog/blueprint-overrides)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
