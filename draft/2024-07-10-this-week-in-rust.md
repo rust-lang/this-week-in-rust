@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Nutype v0.4.3 - now supports generic newtypes!](https://github.com/greyblake/nutype/releases/tag/v0.4.3)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
