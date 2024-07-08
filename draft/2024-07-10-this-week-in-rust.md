@@ -189,6 +189,8 @@ Rusty Events between 2024-07-10 - 2024-08-07 🦀
     * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298897865/)
 * 2024-07-27 | Hybrid - Virtual and In-Person (Kyiv, UA) | [UA Rust](https://uarust.com/)
     * [**UARust Conference 2024**](https://uarust.com/)
+* 2024-07-27 | Virtual | [Leptos Monthly Meetup](https://lu.ma/user/leptos)
+    * [**Leptos Monthly Meetup: Pavex with Luca Palmieri**](https://lu.ma/3ouqapsr)
 * 2024-07-30 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
     * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/301585665/)
 
