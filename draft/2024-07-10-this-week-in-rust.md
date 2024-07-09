@@ -57,6 +57,8 @@ and just ask the editors to select the category.
 * [Writing Production Rust Macros with `macro_rules!`](https://www.howtocodeit.com/articles/writing-production-rust-macros-with-macro-rules)
 * [Mix in Rust](https://tweedegolf.nl/en/blog/123/mix-in-rust)
 
+* [Demystifying Rust's HTTP ecosystem: Here is how the different crates fit together](https://kerkour.com/rust-http-ecosystem-2024)
+
 ### Research
 
 ### Miscellaneous
