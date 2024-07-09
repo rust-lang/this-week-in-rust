@@ -34,10 +34,23 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [Bevy 0.14's Release, Cosmic Text, and water reflections](https://thisweekinbevy.com/issue/2024-07-08-bevy-014s-release-cosmic-text-and-water-reflections)
 
 ### Project/Tooling Updates
+* [Bevy 0.14](https://bevyengine.org/news/bevy-0-14/)
+* [Introducing Avian Physics 0.1](https://joonaa.dev/blog/06/avian-0-1)
+* [iroh 0.20.0](https://iroh.computer/blog/iroh-0-20-more-ways-to-connect)
+* [Release Nutype 0.4.3](https://github.com/greyblake/nutype/releases/tag/v0.4.3)
 
 ### Observations/Thoughts
+* [Rustic Witcher: Reimagining data anonymization](https://engineering.theblueground.com/rustic-witcher-reimagining-data-anonymization/)
+* [Memory Safety in C++ vs Rust vs Zig](https://medium.com/@shyamsundarb/memory-safety-in-c-vs-rust-vs-zig-f78fa903f41e)
+* [Using unsafe in our Rust interpreters: easy, debatably ethical performance](https://octavelarose.github.io/2024/07/08/unsafeing.html)
+* [How to configure CPU cores to be used in a Tokio application with core_affinity](https://blog.veeso.dev/blog/en/how-to-configure-cpu-cores-to-be-used-on-a-tokio-with-core--affinity/)
+* [Further simplifying self-referential types for Rust](https://blog.yoshuawuyts.com/self-referential-types-2/)
+* [Network Manager and Rust's zbus](https://rbs.io/2024/07/network-manager-and-rusts-zbus/)
+* [PyO3: From Python to Rust and Back Again](https://www.youtube.com/watch?v=UmL_CA-v3O8)
+* [Properly Testing Concurrent Data Structures](https://matklad.github.io/2024/07/05/properly-testing-concurrent-data-structures.html)
 
 ### Rust Walkthroughs
 
