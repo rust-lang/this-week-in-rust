@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [Resolving Rust Symbols: Compilation, Linkers & Visualizing Symbols](https://blog.shrirambalaji.com/posts/resolving-rust-symbols/)
+
 ### Research
 
 ### Miscellaneous
