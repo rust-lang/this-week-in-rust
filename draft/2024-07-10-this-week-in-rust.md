@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 * [Properly Testing Concurrent Data Structures](https://matklad.github.io/2024/07/05/properly-testing-concurrent-data-structures.html)
 
 ### Rust Walkthroughs
+* [Writing Production Rust Macros with `macro_rules!`](https://www.howtocodeit.com/articles/writing-production-rust-macros-with-macro-rules)
 * [Mix in Rust](https://tweedegolf.nl/en/blog/123/mix-in-rust)
 
 ### Research
