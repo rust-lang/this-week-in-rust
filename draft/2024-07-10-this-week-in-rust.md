@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Demystifying Rust's HTTP ecosystem: Here is how the different crates fit together](https://kerkour.com/rust-http-ecosystem-2024)
+
 ### Research
 
 ### Miscellaneous
