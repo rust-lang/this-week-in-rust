@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 * [iroh 0.20.0](https://iroh.computer/blog/iroh-0-20-more-ways-to-connect)
 * [Release Nutype 0.4.3](https://github.com/greyblake/nutype/releases/tag/v0.4.3)
 
+* [Rerun 0.17 - better blueprints with defaults and overrides for any data](https://rerun.io/blog/blueprint-overrides)
+
 ### Observations/Thoughts
 * [Rustic Witcher: Reimagining data anonymization](https://engineering.theblueground.com/rustic-witcher-reimagining-data-anonymization/)
 * [Memory Safety in C++ vs Rust vs Zig](https://medium.com/@shyamsundarb/memory-safety-in-c-vs-rust-vs-zig-f78fa903f41e)
