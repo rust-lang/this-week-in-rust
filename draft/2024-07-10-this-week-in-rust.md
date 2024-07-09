@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 * [Bevy 0.14's Release, Cosmic Text, and water reflections](https://thisweekinbevy.com/issue/2024-07-08-bevy-014s-release-cosmic-text-and-water-reflections)
 
 ### Project/Tooling Updates
+* [Rust for filesystems](https://lwn.net/Articles/978738/)
 * [Bevy 0.14](https://bevyengine.org/news/bevy-0-14/)
 * [Introducing Avian Physics 0.1](https://joonaa.dev/blog/06/avian-0-1)
 * [iroh 0.20.0](https://iroh.computer/blog/iroh-0-20-more-ways-to-connect)
