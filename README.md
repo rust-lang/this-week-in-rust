@@ -6,7 +6,7 @@ Content for [this-week-in-rust.org](http://this-week-in-rust.org). Made availabl
 All code Copyright 2014 Ember Arlynx, made available under [the MIT
 license](http://mit-license.org/).
 
-## TWiR Editors
+# TWiR Editors
 
 * [nellshamrell](https://github.com/nellshamrell)
 * [llogiq](https://github.com/llogiq)
@@ -20,7 +20,7 @@ license](http://mit-license.org/).
 * [mariannegoldin](https://github.com/mariannegoldin)
 * [bennyvasquez](https://github.com/bennyvasquez)
 
-### Language Reviewers
+## Language Reviewers
 
 * [yuk1ty](https://github.com/yuk1ty) - Japanese
 * [rpruizc](https://github.com/rpruizc) - Spanish
@@ -36,7 +36,7 @@ draft.
 
 Alternately, tweet us [@thisweekinrust](https://twitter.com/thisweekinrust).
 
-### What do we look for when considering whether to include something in This Week in Rust?
+## What do we look for when considering whether to include something in This Week in Rust?
 
 This Week in Rust is intended to highlight the incredible work of the Rust Community. 
 
@@ -63,7 +63,7 @@ What we are generally NOT looking for includes:
 * Anything behind a paywall (this includes Medium's paid article / members-only mechanism)
 * Anything that requires information to be shared/captured (like an email address) in order to access
 
-**Projects/Tooling Updates**
+## Projects/Tooling Updates
 
 There are further guidelines for the Projects/Tooling Updates Section
 
@@ -113,15 +113,44 @@ Most blog posts about Rust belong in **Rust Walkthroughs** if they show how some
 
 If a set of related links is published (e.g. from a large Rust conference), the editors may choose to invent a new category just for that issue.
 
+## Call for Participation guidelines
+
+The Call for Participation section covers both projects looking for contributors and events recruiting speakers. 
+
+### CFP - Projects 
+
+The project section will include good issues for someone looking to get into Rust, or for someone who wants to find a new project to contribute to. Guidelines:
+
+* Ensure that your project has at least one [Open Source Initiative](https://opensource.org/)-approved license.
+* Ensure that the issue tracker for your project is publicly accessible.
+* Create a new issue in your issue tracker and clearly describe the task, and include the difficulty level (easy/medium/hard/tedious), either as a tag/label or somewhere in the title/description.
+* Include a link to your contribution guidelines in the task, and call out any specific requirements for contributors (e.g., copyright waiver).
+* The issue will be omitted if it has been completed and/or closed since it was submitted to the forums.
+
+### CFP - Events
+
+The CFP events section will include CFP links for events that either heavily feature Rust content, or have a specific Rust track. It's not appropriate for general tech conferences, unless there is a large enough coding or Rust section to appeal to the TWiR audience. 
+
+Generally speaking (excepting the rolling 30 day window), if it would be listed in the Events section of TWiR, it will be right for this section as well. 
+
+# Publishing 
+
+The editors have a detailed guide for publishing that is stored elsewhere, but this content is retained here as well.
+
 ## How I get PR lists:
 
 ```
 git log --author=bors --since='MM/DD/YYYY 12:00PM' --until='MM/DD/YYYY 12:00PM' --pretty=oneline > ~/entropy/twir.txt
-# edit in vim to get rid of everything but PR number, copy into clipboard
-for pr in $(xsel -ob); do firefox https://github.com/mozilla/rust/pull/$pr; sleep 0.07; done
-# wait a long time...
-# write TWIR
 ```
+
+edit in vim to get rid of everything but PR number, copy into clipboard
+
+```
+for pr in $(xsel -ob); do firefox https://github.com/mozilla/rust/pull/$pr; sleep 0.07; done
+```
+
+wait a long time...
+write TWIR
 
 Alternatively use GitHub search:
 
@@ -154,7 +183,7 @@ you intend to build the website or email newsletter.
   make build && make generate-website && make host-content
   ```
 * View the website locally at default http://localhost:8000, or specific posts
-  at http://localhost:8000/blog/{YEAR}/{MONTH}/{DAY}/{ISSUE}/.
+  at http://localhost:8000/blog/{YEAR}/{MONTH}/{DAY}/{ISSUE}/
 
 Note: If looking to test the website's search functionality locally, you will need to adjust the [`TESTING_LOCALLY`](https://github.com/rust-lang/this-week-in-rust/blob/dc127f17fcabbf0f058eb3d5a3febba434ddca83/pelicanconf.py#L7)
 variable to `True`.
@@ -172,4 +201,4 @@ variable to `True`.
   make build && make generate-email && make host-content
   ```
 * View the email newsletter formatting of specific posts at
-  http://localhost:8000/blog/{YEAR}/{MONTH}/{DAY}/{ISSUE}/.
+  http://localhost:8000/blog/{YEAR}/{MONTH}/{DAY}/{ISSUE}/

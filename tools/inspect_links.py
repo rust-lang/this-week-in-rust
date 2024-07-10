@@ -150,7 +150,7 @@ def scrub_parameters(url, query):
     if not filtered_dict:
         return ''
 
-    # Re-encode remaining URL paramaters
+    # Re-encode remaining URL parameters
     return urllib.parse.urlencode(filtered_dict, doseq=True)
 
 
