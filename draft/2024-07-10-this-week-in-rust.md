@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 * [Network Manager and Rust's zbus](https://rbs.io/2024/07/network-manager-and-rusts-zbus/)
 * [PyO3: From Python to Rust and Back Again](https://www.youtube.com/watch?v=UmL_CA-v3O8)
 * [Properly Testing Concurrent Data Structures](https://matklad.github.io/2024/07/05/properly-testing-concurrent-data-structures.html)
+* [A Unified Typesystem](https://gist.github.com/Aras14HD/f96cebf827975ba51852b1b981c389ab)
 
 ### Rust Walkthroughs
 * [Writing Production Rust Macros with `macro_rules!`](https://www.howtocodeit.com/articles/writing-production-rust-macros-with-macro-rules)
