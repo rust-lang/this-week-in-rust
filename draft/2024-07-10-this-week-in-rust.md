@@ -64,7 +64,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-
+* [video] [Jan Hohenheim discusses Rust, Rust GameDev Newsletter & The Bevy Engine](https://www.youtube.com/watch?v=pLcIY0TlOLk)
 ## Crate of the Week
 
 <!-- COTW goes here -->
