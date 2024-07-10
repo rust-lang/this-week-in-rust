@@ -59,6 +59,7 @@ US_STATE_TO_ABBREV = {
     "Puerto Rico": "PR",
     "United States Minor Outlying Islands": "UM",
     "U.S. Virgin Islands": "VI",
+    "**NO STATE DATA**": "**NO STATE DATA**",
 }
 
 CA_STATE_TERRITORY_TO_ABBREV = {
@@ -75,6 +76,7 @@ CA_STATE_TERRITORY_TO_ABBREV = {
   "Quebec": "QC",
   "Saskatchewan": "SK",
   "Yukon": "YT",
+  "**NO STATE DATA**": "**NO STATE DATA**",
 }
 
 AU_STATE_TERRITORY_TO_ABBREV = {
@@ -86,6 +88,7 @@ AU_STATE_TERRITORY_TO_ABBREV = {
   "Tasmania": "TAS",
   "Victoria": "VIC",
   "Western Australia": "WA",
+  "**NO STATE DATA**": "**NO STATE DATA**",
 }
 
 def us_state_to_abbrev(state):
