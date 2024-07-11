@@ -29,10 +29,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
 ### Newsletters
 * [Bevy 0.14's Release, Cosmic Text, and water reflections](https://thisweekinbevy.com/issue/2024-07-08-bevy-014s-release-cosmic-text-and-water-reflections)
 
@@ -59,12 +55,8 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Writing Production Rust Macros with `macro_rules!`](https://www.howtocodeit.com/articles/writing-production-rust-macros-with-macro-rules)
 * [Mix in Rust](https://tweedegolf.nl/en/blog/123/mix-in-rust)
-
 * [Demystifying Rust's HTTP ecosystem: Here is how the different crates fit together](https://kerkour.com/rust-http-ecosystem-2024)
-
 * [Build with Naz : Rust async in practice tokio::select! & cancellation safety](https://developerlife.com/2024/07/10/rust-async-cancellation-safety-tokio/)
-
-### Research
 
 ### Miscellaneous
 * [June 2024 Rust Jobs Report](https://filtra.io/rust-jun-24)
