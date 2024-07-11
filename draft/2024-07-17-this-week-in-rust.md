@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [audio] [RustShip: Rust on AWS Lambda with Luciano Mammino](https://ieni.dev/2024/07/%EF%B8%8F-rust-on-aws-lambda-with-luciano-mammino-rustship-8/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
