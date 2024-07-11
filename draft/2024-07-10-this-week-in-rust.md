@@ -68,6 +68,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [June 2024 Rust Jobs Report](https://filtra.io/rust-jun-24)
+* [video] [Jan Hohenheim discusses Rust, Rust GameDev Newsletter & The Bevy Engine](https://www.youtube.com/watch?v=pLcIY0TlOLk)
 
 ## Crate of the Week
 
