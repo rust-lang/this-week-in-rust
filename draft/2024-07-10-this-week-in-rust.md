@@ -218,6 +218,8 @@ Rusty Events between 2024-07-10 - 2024-08-07 🦀
     * [**Leptos Monthly Meetup: Pavex with Luca Palmieri**](https://lu.ma/3ouqapsr)
 * 2024-07-30 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
     * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/301585665/)
+* 2024-07-31 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
+    * [**Command Line Tools: Implementing wc in Rust (English)**](https://www.meetup.com/code-mavens/events/302151487/)
 * 2024-08-01 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust Hack and Learn**](https://meet.jit.si/RustHackAndLearnBerlin) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298633265/)
 * 2024-08-06 | Virtual | [Women in Rust](https://www.meetup.com/women-in-rust/)
