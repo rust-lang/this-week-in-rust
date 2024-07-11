@@ -181,7 +181,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [jsondocck: add `$FILE` built-in variable](https://github.com/rust-lang/rust/pull/127309)
 * [jsondocck: use correct index for error message](https://github.com/rust-lang/rust/pull/127287)
 * [clippy: `almost_complete_range`: Delay suggestion creation](https://github.com/rust-lang/rust-clippy/pull/13042)
-* [clippy: `doc_markdown`: detect escaped ``  `` when checking unmatched](https://github.com/rust-lang/rust-clippy/pull/13010)
+* [clippy: `doc_markdown`: detect escaped ```  ``` when checking unmatched](https://github.com/rust-lang/rust-clippy/pull/13010)
 * [clippy: `missing_const_for_fn`: fix FP when arg ty is impl trait alias ty](https://github.com/rust-lang/rust-clippy/pull/13045)
 * [clippy: `missing_const_for_fn`: fix suggestions for fn with abi that requires `const_extern_fn` feature](https://github.com/rust-lang/rust-clippy/pull/13037)
 * [clippy: `needless_return`: Support `#[expect]` on the return statement](https://github.com/rust-lang/rust-clippy/pull/13027)
