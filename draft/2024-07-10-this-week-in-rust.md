@@ -62,6 +62,8 @@ and just ask the editors to select the category.
 
 * [Demystifying Rust's HTTP ecosystem: Here is how the different crates fit together](https://kerkour.com/rust-http-ecosystem-2024)
 
+* [Build with Naz : Rust async in practice tokio::select! & cancellation safety](https://developerlife.com/2024/07/10/rust-async-cancellation-safety-tokio/)
+
 ### Research
 
 ### Miscellaneous
