@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [How Binance built a 100PB log service with the Rust search engine Quickwit](https://quickwit.io/blog/quickwit-binance-story)
+
 ### Rust Walkthroughs
 
 ### Research
