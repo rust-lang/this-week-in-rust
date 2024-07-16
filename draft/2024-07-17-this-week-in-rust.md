@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [📦 Cratery, a lightweight private cargo registry with batteries included, built for organisations, is now open-source](https://github.com/cenotelie/cratery)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
