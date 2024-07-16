@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Surprises with Rust's `as` (and Python division)](https://annahope.me/blog/rust-as/)
+
 ### Research
 
 ### Miscellaneous
