@@ -58,6 +58,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [audio] [RustShip: Rust on AWS Lambda with Luciano Mammino](https://ieni.dev/2024/07/%EF%B8%8F-rust-on-aws-lambda-with-luciano-mammino-rustship-8/)
+
 ## Crate of the Week
 
 This week's crate is [cargo-wizard](https://github.com/Kobzol/cargo-wizard), a cargo subcommand that applies profile and config templates to your Cargo project to configure it for maximum performance, fast compile times or minimal binary size.
