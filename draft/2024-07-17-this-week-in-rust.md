@@ -61,6 +61,8 @@ and just ask the editors to select the category.
 
 * [Surprises with Rust's `as` (and Python division)](https://annahope.me/blog/rust-as/)
 
+* [Build with Naz : Box and Pin exploration in Rust](https://developerlife.com/2024/07/16/pin-box-dynamic-duo)
+
 ### Research
 * [An Empirical Study of Rust-for-Linux: The Success, Dissatisfaction, and Compromise](https://www.usenix.org/conference/atc24/presentation/li-hongyu)
 * [Bringing Rust to Safety-Critical Systems in Space](https://arxiv.org/abs/2405.18135)
