@@ -192,7 +192,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Fairly quite week with the only pure regressions being small and coming from correctness fixes. The biggest single change came from turning off the `-Zenforce-type-length-limit` check which had positive impacts across many different benchmarks since the compiler is doing strictly less work.
+
+Triage done by **@rylev**.
+Revision range: [a2d58197..5572759b](https://perf.rust-lang.org/?start=a2d58197a766085856504328948c89a33a6a36e8&end=5572759b8d7012fa34eba47f4885c76fa06d9251&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.3%  | [0.2%, 0.7%]    | 12    |
+| Regressions ❌ <br /> (secondary)  | 0.4%  | [0.2%, 0.9%]    | 45    |
+| Improvements ✅ <br /> (primary)   | -0.7% | [-1.5%, -0.2%]  | 37    |
+| Improvements ✅ <br /> (secondary) | -3.3% | [-13.5%, -0.4%] | 21    |
+| All ❌✅ (primary)                 | -0.4% | [-1.5%, 0.7%]   | 49    |
+
+
+2 Regressions, 3 Improvements, 2 Mixed; 1 of them in rollups
+56 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/d86903679ac12804e7b15d9007e2539c0b541dc6/triage/2024-07-16.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
