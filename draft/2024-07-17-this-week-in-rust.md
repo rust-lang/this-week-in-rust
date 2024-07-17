@@ -59,6 +59,8 @@ and just ask the editors to select the category.
 * [How to make Rust Desktop App with Egui and ChatGPT](https://www.onlycoiners.com/user/steadylearner/blog/how-to-make-rust-desktop-app-with-egui-and-chatgpt)
 * [Writing eBPF Tracepoint Program with Rust Aya: Tips and Example](https://yuki-nakamura.com/2024/07/06/writing-ebpf-tracepoint-program-with-rust-aya-tips-and-example/)
 
+* [Surprises with Rust's `as` (and Python division)](https://annahope.me/blog/rust-as/)
+
 ### Research
 * [An Empirical Study of Rust-for-Linux: The Success, Dissatisfaction, and Compromise](https://www.usenix.org/conference/atc24/presentation/li-hongyu)
 * [Bringing Rust to Safety-Critical Systems in Space](https://arxiv.org/abs/2405.18135)
