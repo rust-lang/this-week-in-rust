@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [How to organize large Rust codebases](https://kerkour.com/rust-how-to-organize-large-workspaces)
+
 ### Research
 
 ### Miscellaneous
