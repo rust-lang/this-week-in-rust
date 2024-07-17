@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Build with Naz : Box and Pin exploration in Rust](https://developerlife.com/2024/07/16/pin-box-dynamic-duo)
+
 ### Research
 
 ### Miscellaneous
