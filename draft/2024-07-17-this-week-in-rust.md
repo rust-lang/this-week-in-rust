@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 * [audio] [Fusion Engineering with Jakub Valtar](https://corrode.dev/podcast/s02e06-fusion-engineering/)
 * [audio] [On the Road: RustNL & Oxidize](https://jamesmunns.com/podcast/017-on-the-road/)
 
+* [Implementing a generic range parser in Rust](https://blog.veeso.dev/blog/en/implementing-a-generic-range-parser-in-rust/)
+
 ### Rust Walkthroughs
 * [Global Registration](https://donsz.nl/blog/global-registration/)
 * [Gray-Scott with Rust](https://grayscott-with-rust-grasland-5e6591fc7054976525da4f6c87122ea76c.pages.in2p3.fr/)
