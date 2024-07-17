@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 * [r3bl_terminal_async v0.5.4 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#r3bl_terminal_async)
 * [r3bl_test_fixtures v0.0.1 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#r3bl_test_fixtures)
 
+* [📦 Cratery, a lightweight private cargo registry with batteries included, built for organisations, is now open-source](https://github.com/cenotelie/cratery)
+
 ### Observations/Thoughts
 * [The missing parts in Cargo](https://weihanglo.tw/posts/2024/the-missing-parts-in-cargo/)
 * [How HappyLock Works](https://www.botahamec.dev/blog/how-happylock-works.html)
