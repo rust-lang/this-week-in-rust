@@ -32,6 +32,7 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Rust Foundation Fellowship Grants Program 2024](https://foundation.rust-lang.org/grants/fellowships/)
 
 ### Newsletters
 
