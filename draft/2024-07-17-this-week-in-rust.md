@@ -65,6 +65,8 @@ and just ask the editors to select the category.
 
 * [How to organize large Rust codebases](https://kerkour.com/rust-how-to-organize-large-workspaces)
 
+* [Playing guitar tablatures in Rust](https://agourlay.github.io/ruxguitar-tablature-player/)
+
 ### Research
 * [An Empirical Study of Rust-for-Linux: The Success, Dissatisfaction, and Compromise](https://www.usenix.org/conference/atc24/presentation/li-hongyu)
 * [Bringing Rust to Safety-Critical Systems in Space](https://arxiv.org/abs/2405.18135)
