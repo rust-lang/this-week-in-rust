@@ -29,42 +29,31 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
 ### Newsletters
 * [This Month in Rust OSDev: June 2024](https://rust-osdev.com/this-month/2024-06/)
 
 ### Project/Tooling Updates
 * [Zed: Linux when? Linux now.](https://zed.dev/blog/zed-on-linux)
-
 * [r3bl_terminal_async v0.5.4 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#r3bl_terminal_async)
 * [r3bl_test_fixtures v0.0.1 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#r3bl_test_fixtures)
-
 * [📦 Cratery, a lightweight private cargo registry with batteries included, built for organisations, is now open-source](https://github.com/cenotelie/cratery)
 
 ### Observations/Thoughts
 * [The missing parts in Cargo](https://weihanglo.tw/posts/2024/the-missing-parts-in-cargo/)
 * [How HappyLock Works](https://www.botahamec.dev/blog/how-happylock-works.html)
+* [Implementing a generic range parser in Rust](https://blog.veeso.dev/blog/en/implementing-a-generic-range-parser-in-rust/)
 * [video] [My favorite Rust design pattern](https://www.youtube.com/watch?v=qrf52BVaZM8)
 * [audio] [Fusion Engineering with Jakub Valtar](https://corrode.dev/podcast/s02e06-fusion-engineering/)
 * [audio] [On the Road: RustNL & Oxidize](https://jamesmunns.com/podcast/017-on-the-road/)
-
-* [Implementing a generic range parser in Rust](https://blog.veeso.dev/blog/en/implementing-a-generic-range-parser-in-rust/)
 
 ### Rust Walkthroughs
 * [Global Registration](https://donsz.nl/blog/global-registration/)
 * [Gray-Scott with Rust](https://grayscott-with-rust-grasland-5e6591fc7054976525da4f6c87122ea76c.pages.in2p3.fr/)
 * [How to make Rust Desktop App with Egui and ChatGPT](https://www.onlycoiners.com/user/steadylearner/blog/how-to-make-rust-desktop-app-with-egui-and-chatgpt)
 * [Writing eBPF Tracepoint Program with Rust Aya: Tips and Example](https://yuki-nakamura.com/2024/07/06/writing-ebpf-tracepoint-program-with-rust-aya-tips-and-example/)
-
 * [Surprises with Rust's `as` (and Python division)](https://annahope.me/blog/rust-as/)
-
 * [Build with Naz : Box and Pin exploration in Rust](https://developerlife.com/2024/07/16/pin-box-dynamic-duo)
-
 * [How to organize large Rust codebases](https://kerkour.com/rust-how-to-organize-large-workspaces)
-
 * [Playing guitar tablatures in Rust](https://agourlay.github.io/ruxguitar-tablature-player/)
 
 ### Research
@@ -72,7 +61,6 @@ and just ask the editors to select the category.
 * [Bringing Rust to Safety-Critical Systems in Space](https://arxiv.org/abs/2405.18135)
 
 ### Miscellaneous
-
 * [audio] [RustShip: Rust on AWS Lambda with Luciano Mammino](https://ieni.dev/2024/07/%EF%B8%8F-rust-on-aws-lambda-with-luciano-mammino-rustship-8/)
 
 ## Crate of the Week
@@ -399,7 +387,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1dvlhl6/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -415,4 +403,4 @@ Thanks to [Brian Kung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1e63esr/this_week_in_rust_556/)</small>
