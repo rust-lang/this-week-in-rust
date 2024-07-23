@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Plugins With Rust and WASI Preview 2](https://benw.is/posts/plugins-with-rust-and-wasi)
 
 ### Research
 
