@@ -35,7 +35,7 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
-[Query.rs](https://query.rs) - A search engine for Rust
+[Query.rs](https://query.rs/) - A search engine for Rust
 
 ### Project/Tooling Updates
 
