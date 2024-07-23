@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Building Search In Rust](https://filtra.io/rust-meilisearch-jul-24)
 
 ## Crate of the Week
 
