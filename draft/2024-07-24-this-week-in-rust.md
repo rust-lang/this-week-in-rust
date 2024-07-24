@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Async Rust: The new billion-dollar mistake?](https://kerkour.com/rust-async-billion-dollar-mistake)
+
 ### Rust Walkthroughs
 
 ### Research
