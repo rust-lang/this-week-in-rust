@@ -34,12 +34,27 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [thisweekinbevy - Bevy Jam 5, Radiance Cascades, and Calculators in many ui kits](https://thisweekinbevy.com/issue/2024-07-22-bevy-jam-5-radiance-cascades-and-calculators-in-many-ui-kits)
 
 ### Project/Tooling Updates
+* [Slint 1.7 Released with New Widgets, Multi-Window Support, and Live-Preview Redesign](https://slint.dev/blog/slint-1.7-released)
+* [Diesel Async 0.5](https://blog.weiznich.de/blog/diesel-async-0-5/)
+* [iroh 0.21.0 - Fix, clean & polish](https://iroh.computer/blog/iroh-0-21-fix-clean-polish)
+* [gitoxide [June 2024]](https://github.com/Byron/gitoxide/discussions/1459)
+* [Iced v0.12 Tutorial - Asynchronous actions with Commands](https://leafheap.com/articles/iced-v0-12-tutorial-asynchronous-actions-with-commands)
 
 ### Observations/Thoughts
+* [without.boats - Pin](https://without.boats/blog/pin/)
+* [without.boats - Pinned places](https://without.boats/blog/pinned-places/)
+* [RocksDB: Not A Good Choice for a High-Performance Streaming Platform](https://www.feldera.com/blog/rocksdb-not-a-good-choice-for-high-performance-streaming/)
+* [A type system for RCL: Implementing a typechecker in Rust](https://ruudvanasseldonk.com/2024/implementing-a-typechecker-for-rcl-in-rust)
+* [Beating the compiler](https://www.mattkeeter.com/blog/2024-07-12-interpreter/)
+* [Deconstructing the Role-Playing Video Game](https://olano.dev/blog/deconstructing-the-role-playing-videogame/)
+* [the spatula](https://www.thespatula.io/rust/rust_websocket/)
+* [Named Arguments In Rust, If You Want Them](https://rtpg.co/2024/07/22/rust-named-arguments/)
 
 ### Rust Walkthroughs
+* [Build your own SQLite, Part 1: Listing tables](https://blog.sylver.dev/build-your-own-sqlite-part-1-listing-tables)
 
 ### Research
 
