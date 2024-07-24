@@ -1,6 +1,6 @@
-Title: This Week in Rust 556
-Number: 556
-Date: 2024-07-17
+Title: This Week in Rust 557
+Number: 557
+Date: 2024-07-24
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -150,25 +150,19 @@ which are reaching a decision. Express your opinions now.
 
 ## Upcoming Events
 
-Rusty Events between 2024-07-17 - 2024-08-14 🦀
+Rusty Events between 2024-07-24 - 2024-08-21 🦀
 
 ### Virtual
-* 2024-07-10 | Virtual | [Centre for eResearch](https://www.eventbrite.co.nz/o/centre-for-eresearch-75893560993)
-    * [**Research Computing With The Rust Programming Language**](https://www.eventbrite.com/e/research-computing-with-the-rust-programming-language-tickets-908002037537?aff=ebdssbdestsearch&keep_tld=1)
-* 2024-07-11 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
-    * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298897842/)
-* 2024-07-11 | Hybrid - Virtual and In-person (Mexico City, DF, MX) | [Rust MX](https://www.meetup.com/rust-mx/)
-    * [**Programación de sistemas con Rust**](https://www.meetup.com/rust-mx/events/301740677/)
-* 2024-07-11 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
-    * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/298076822/)
-* 2024-07-11 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
-    * [**Reading JSON files in Rust (English)**](https://www.meetup.com/code-mavens/events/301636580/)
-* 2024-07-11 | Virtual (IL) | [Rust in Israel](https://www.meetup.com/rust-in-israel/)
-    * [**Getting started with Rust (Virtual) - מבוא לתכנות ראסט - בזום**](https://www.meetup.com/rust-in-israel/events/301872689/)
+* 2024-07-17| Virtual (Cardiff, UK)| [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/302139632/)
+* [**Rust for Rustaceans Book Club: Chapter 10: Concurrency (and Parallelism)**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/301314544/)
 * 2024-07-17 | Hybrid - Virtual and In-person (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/298631734/)
 * 2024-07-18 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust Hack and Learn**](https://meet.jit.si/RustHackAndLearnBerlin) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298488824/)
+* 2024-07-18 | Virtual (IL) | [Rust in Israel](https://www.meetup.com/rust-in-israel/)
+    * [**Threads Rust (Virtual) - תהליכונים בראסט - מפגש בזום**](https://www.meetup.com/rust-in-israel/events/302219468/)
+* 2024-07-18 | Virtual (Rotterdam, NL)| [Bevy Game Development](https://www.meetup.com/bevy-game-development/)
+    * [**Bevy Meetup #5**](https://www.meetup.com/bevy-game-development/events/301711262/)
 * 2024-07-23 | Hybrid - Virtual and In-Person (München/Munich, DE) | [Rust Munich](https://www.meetup.com/rust-munich/)
     * [**Rust Munich 2024 / 2 - hybrid**](https://www.meetup.com/rust-munich/events/301062840/)
 * 2024-07-24 | Virtual | [Women in Rust](https://www.meetup.com/women-in-rust/)
@@ -182,7 +176,7 @@ Rusty Events between 2024-07-17 - 2024-08-14 🦀
 * 2024-07-30 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
     * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/301585665/)
 * 2024-07-31 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
-    * [**Command Line Tools: Implementing wc in Rust (English)**](https://www.meetup.com/code-mavens/events/302151487/)
+    * [**Command Line Tools: Implementing wc in Rust (English, Virtual)**](https://www.meetup.com/code-mavens/events/302151487/)
 * 2024-08-01 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust Hack and Learn**](https://meet.jit.si/RustHackAndLearnBerlin) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298633265/)
 * 2024-08-06 | Virtual | [Women in Rust](https://www.meetup.com/women-in-rust/)
@@ -193,6 +187,12 @@ Rusty Events between 2024-07-17 - 2024-08-14 🦀
     * [**Web development in Rust using Rocket - part 2 (English)**](https://www.meetup.com/code-mavens/events/301736709/)
 * 2024-08-07 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/300328027/)
+* 2024-08-08 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
+    * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298897918/)
+* 2024-08-08 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
+    * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/300787793/)
+* 2024-08-13 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
+    * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/299346978/)
 
 ### Africa
 * 2024-08-02 | Kampala, UG | [Rust Circle Kampala](https://www.eventbrite.com/o/rust-circle-kampala-65249289033)
@@ -203,16 +203,12 @@ Rusty Events between 2024-07-17 - 2024-08-14 🦀
     * [**July 2024 Rustacean meetup 🤝 C4GT**](https://hasgeek.com/rustbangalore/july-2024-rustacean-meetup-c4gt/)
 
 ### Europe
-* 2024-07-10 | Reading, UK | [Reading Rust Workshop](https://rustworkshop.co/meetup/)
-    * [**Reading Rust Meetup - July**](https://www.meetup.com/reading-rust-workshop/events/301359031/)
-* 2024-07-11 | Prague, CZ | [Rust Prague](https://www.meetup.com/rust-prague/)
-    * [**Rust Meetup Prague (July 2024)**](https://www.meetup.com/rust-prague/events/301227195)
-* 2024-07-16 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig)
-    * [**Building a REST API in Rust using Axum, SQLx and SQLite**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/301716171/)
-* 2024-07-16 | Mannheim, DE | [Hackschool - Rhein-Neckar](https://www.meetup.com/hackschool-rhein-neckar)
-    * [**Nix Your Bugs & Rust Your Engines #4**](https://www.meetup.com/hackschool-rhein-neckar/events/301504325/)
+* 2024-07-17 | Cambridge, UK | [Cambridge Rust Meetup](https://www.meetup.com/cambridge-rust-meetup/)
+    * [**Monthly Rust Meetup**](https://www.meetup.com/cambridge-rust-meetup/events/302024746/)
 * 2024-07-18 | Bern, CH | [Rust Bern](https://www.meetup.com/de-DE/rust-bern/)
     * [**Rust Bern Meetup #3 2024**](https://www.meetup.com/rust-bern/events/301952761/)
+* 2024-07-23 | Manchester, UK | [Rust Manchester](https://www.meetup.com/rust-manchester/)
+    * [**Rust Manchester July Code Night**](https://www.meetup.com/rust-manchester/events/301461206/)
 * 2024-07-23 | Hybrid - Virtual and In-Person (München/Munich, DE) | [Rust Munich](https://www.meetup.com/rust-munich/)
     * [**Rust Munich 2024 / 2 - hybrid**](https://www.meetup.com/rust-munich/events/298507657/)
 * 2024-07-25 | Augsburg, DE | [Rust Meetup Augsburg](https://www.meetup.com/de-DE/rust-meetup-augsburg/)
@@ -223,14 +219,10 @@ Rusty Events between 2024-07-17 - 2024-08-14 🦀
     * [**UARust Conference 2024**](https://uarust.com/)
 * 2024-07-30 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel)
     * [**Rust Meetup #9**](https://www.meetup.com/rust-basel/events/301459503/)
+* 2024-08-14 | Reading, UK | [Reading Rust Workshop](https://rustworkshop.co/meetup/)
+    * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/302153005/)
 
 ### North America
-* 2024-07-11 | Hybrid - Mexico City, DF, MX | [Rust MX](https://www.meetup.com/rust-mx/)
-    * [**Programación de sistemas con Rust**](https://www.meetup.com/rust-mx/events/301740677/)
-* 2024-07-11 | Mountain View, CA, US | [Mountain View Rust Meetup](https://www.meetup.com/mv-rust-meetup/)
-    * [**Rust Meetup at Hacker Dojo**](https://www.meetup.com/mv-rust-meetup/events/301613495/)
-* 2024-07-13 | Cambridge, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
-    * [**Lechmere Rust Lunch, July 13**](https://www.meetup.com/bostonrust/events/301549799/)
 * 2024-07-17 | Hybrid - Vancouver, BC, CA | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/298631734/)
 * 2024-07-18 | Nashville, TN, US | [Music City Rust Developers](https://www.meetup.com/music-city-rust-developers/)
@@ -245,6 +237,14 @@ Rusty Events between 2024-07-17 - 2024-08-14 🦀
     * [**Rust Meetup at Hacker Dojo**](https://www.meetup.com/mv-rust-meetup/events/302066981/)
 * 2024-07-29 | Cambridge, MA, US| [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
     * [**Alewife Rust Lunch, July 29**](https://www.meetup.com/bostonrust/events/301550289/)
+* 2024-08-01 | St. Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust/)
+    * [**Lifetimes**](https://www.meetup.com/stl-rust/events/301697569/)
+* 2024-08-08 | Mountain View, CA, US | [Mountain View Rust Meetup](https://www.meetup.com/mv-rust-meetup/)
+    * [**Rust Meetup at Hacker Dojo**](https://www.meetup.com/mv-rust-meetup/events/302067008/)
+
+# Oceania
+* 2024-08-01 | Brisbane, QLD, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane/)
+    * [**August Meetup**](https://www.meetup.com/rust-brisbane/events/302244260/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
