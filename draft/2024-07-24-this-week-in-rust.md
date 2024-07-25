@@ -29,8 +29,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
 ### Foundation
 * [Rust Foundation Fellowship Grants Program 2024](https://foundation.rust-lang.org/grants/fellowships/)
 
@@ -55,16 +53,12 @@ and just ask the editors to select the category.
 * [the spatula](https://www.thespatula.io/rust/rust_websocket/)
 * [Named Arguments In Rust, If You Want Them](https://rtpg.co/2024/07/22/rust-named-arguments/)
 * [WebAssembly on the server: Compiling Rust to WASM and executing it from Go](https://blog.arcjet.com/webassembly-on-the-server-compiling-rust-to-wasm-and-executing-it-from-go/)
-
 * [Async Rust: The new billion-dollar mistake?](https://kerkour.com/rust-async-billion-dollar-mistake)
-
 * [Nine Rust Cargo.toml Wats and Wat Nots: Master Cargo.toml formatting rules and avoid frustration](https://towardsdatascience.com/nine-rust-cargo-toml-wats-and-wat-nots-1e5e02e41648)
 
 ### Rust Walkthroughs
 * [Plugins With Rust and WASI Preview 2](https://benw.is/posts/plugins-with-rust-and-wasi)
 * [Build your own SQLite, Part 1: Listing tables](https://blog.sylver.dev/build-your-own-sqlite-part-1-listing-tables)
-
-### Research
 
 ### Miscellaneous
 * [Building Search In Rust](https://filtra.io/rust-meilisearch-jul-24)
@@ -403,7 +397,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1dvlhl6/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -419,4 +413,4 @@ Despite a woeful dearth of suggestions, llogiq is content with his choice.
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1ebhawb/this_week_in_rust_557/)</small>
