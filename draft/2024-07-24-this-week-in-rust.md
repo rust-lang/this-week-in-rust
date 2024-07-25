@@ -58,6 +58,8 @@ and just ask the editors to select the category.
 
 * [Async Rust: The new billion-dollar mistake?](https://kerkour.com/rust-async-billion-dollar-mistake)
 
+* [Nine Rust Cargo.toml Wats and Wat Nots: Master Cargo.toml formatting rules and avoid frustration](https://towardsdatascience.com/nine-rust-cargo-toml-wats-and-wat-nots-1e5e02e41648)
+
 ### Rust Walkthroughs
 * [Plugins With Rust and WASI Preview 2](https://benw.is/posts/plugins-with-rust-and-wasi)
 * [Build your own SQLite, Part 1: Listing tables](https://blog.sylver.dev/build-your-own-sqlite-part-1-listing-tables)
