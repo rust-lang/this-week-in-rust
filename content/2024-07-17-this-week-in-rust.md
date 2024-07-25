@@ -236,6 +236,7 @@ Revision range: [a2d58197..5572759b](https://perf.rust-lang.org/?start=a2d58197a
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
+
 * [Match ergonomics 2024](https://github.com/rust-lang/rfcs/pull/3627)
 * [Return type notation (RTN)](https://github.com/rust-lang/rfcs/pull/3654)
 * [#[derive(SmartPointer)]](https://github.com/rust-lang/rfcs/pull/3621)
