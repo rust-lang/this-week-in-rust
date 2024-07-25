@@ -50,7 +50,7 @@ and just ask the editors to select the category.
 * [A type system for RCL: Implementing a typechecker in Rust](https://ruudvanasseldonk.com/2024/implementing-a-typechecker-for-rcl-in-rust)
 * [Beating the compiler](https://www.mattkeeter.com/blog/2024-07-12-interpreter/)
 * [Deconstructing the Role-Playing Video Game](https://olano.dev/blog/deconstructing-the-role-playing-videogame/)
-* [the spatula](https://www.thespatula.io/rust/rust_websocket/)
+* [Implementing WebSockets](https://www.thespatula.io/rust/rust_websocket/)
 * [Named Arguments In Rust, If You Want Them](https://rtpg.co/2024/07/22/rust-named-arguments/)
 * [WebAssembly on the server: Compiling Rust to WASM and executing it from Go](https://blog.arcjet.com/webassembly-on-the-server-compiling-rust-to-wasm-and-executing-it-from-go/)
 * [Async Rust: The new billion-dollar mistake?](https://kerkour.com/rust-async-billion-dollar-mistake)
