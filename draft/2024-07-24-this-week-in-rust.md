@@ -32,6 +32,7 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Rust Foundation Fellowship Grants Program 2024](https://foundation.rust-lang.org/grants/fellowships/)
 
 ### Newsletters
 * [thisweekinbevy - Bevy Jam 5, Radiance Cascades, and Calculators in many ui kits](https://thisweekinbevy.com/issue/2024-07-22-bevy-jam-5-radiance-cascades-and-calculators-in-many-ui-kits)
