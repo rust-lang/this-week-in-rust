@@ -118,7 +118,7 @@ Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final
 which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
-* [disposition: <not specified>] [RFC for project goals](https://github.com/rust-lang/rfcs/pull/3672)
+* [disposition: not specified] [RFC for project goals](https://github.com/rust-lang/rfcs/pull/3672)
 * [disposition: merge] [Promote aarch64-apple-darwin to Tier 1](https://github.com/rust-lang/rfcs/pull/3671)
 * [disposition: merge] [add float semantics RFC](https://github.com/rust-lang/rfcs/pull/3514)
 
