@@ -38,10 +38,9 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [WebAssembly on the server: Compiling Rust to WASM and executing it from Go](https://blog.arcjet.com/webassembly-on-the-server-compiling-rust-to-wasm-and-executing-it-from-go/)
 
 ### Rust Walkthroughs
-
-* [WebAssembly on the server: Compiling Rust to WASM and executing it from Go](https://blog.arcjet.com/webassembly-on-the-server-compiling-rust-to-wasm-and-executing-it-from-go/)
 
 ### Research
 
