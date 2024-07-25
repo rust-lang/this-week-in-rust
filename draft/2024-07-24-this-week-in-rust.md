@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 * [Deconstructing the Role-Playing Video Game](https://olano.dev/blog/deconstructing-the-role-playing-videogame/)
 * [the spatula](https://www.thespatula.io/rust/rust_websocket/)
 * [Named Arguments In Rust, If You Want Them](https://rtpg.co/2024/07/22/rust-named-arguments/)
+* [WebAssembly on the server: Compiling Rust to WASM and executing it from Go](https://blog.arcjet.com/webassembly-on-the-server-compiling-rust-to-wasm-and-executing-it-from-go/)
 
 ### Rust Walkthroughs
 * [Plugins With Rust and WASI Preview 2](https://benw.is/posts/plugins-with-rust-and-wasi)
