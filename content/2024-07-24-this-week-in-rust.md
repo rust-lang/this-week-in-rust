@@ -62,7 +62,6 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [Building Search In Rust](https://filtra.io/rust-meilisearch-jul-24)
-
 * [Oxidize 2024 talks are now available on YouTube](https://www.youtube.com/playlist?list=PLilpJp3WAOveS7dwg0YNvSTfkRt9hDHrS)
 
 ## Crate of the Week
