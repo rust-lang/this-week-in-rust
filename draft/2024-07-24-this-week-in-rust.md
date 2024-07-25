@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 * [iroh 0.21.0 - Fix, clean & polish](https://iroh.computer/blog/iroh-0-21-fix-clean-polish)
 * [gitoxide [June 2024]](https://github.com/Byron/gitoxide/discussions/1459)
 * [Iced v0.12 Tutorial - Asynchronous actions with Commands](https://leafheap.com/articles/iced-v0-12-tutorial-asynchronous-actions-with-commands)
+* [Query.rs - A search engine for Rust](https://query.rs/)
 
 ### Observations/Thoughts
 * [without.boats - Pin](https://without.boats/blog/pin/)
