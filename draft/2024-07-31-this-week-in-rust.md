@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rustic Witcher goes open source](https://github.com/bluegroundltd/rustic-witcher)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
