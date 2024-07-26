@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Rust wins the SIGPLAN Programming Language Software Award 2024](https://sigplan.org/Awards/Software/#2024_The_Rust_Programming_Language)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
