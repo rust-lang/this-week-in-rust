@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [How to do named function arguments in Rust. Introducing `bon` crate](https://elastio.github.io/bon/blog/how-to-do-named-function-arguments-in-rust)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
