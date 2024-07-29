@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Debugging distributed database mysteries with Rust, packet capture and Polars](https://questdb.io/blog/debugging-distributed-database-mysteries-with-rust-pcap-and-polars/)
+
 ### Research
 
 ### Miscellaneous
