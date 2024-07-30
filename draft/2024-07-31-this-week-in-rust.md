@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Maelstrom 0.11.0: Fast, Clustered, Test Runner -- Now With a New UI](https://maelstrom-software.com/blog/0.11.0/)
 
 ### Observations/Thoughts
 
