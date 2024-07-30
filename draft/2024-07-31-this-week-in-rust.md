@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [audio] [Rob Ede Interview – Actix Web, Life as an Open Source Maintainer, Supply-chain Security](https://timclicks.dev/podcast/rob-ede/)
+
 ### Rust Walkthroughs
 
 ### Research
