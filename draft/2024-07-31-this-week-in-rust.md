@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [pixi - system package manager written in Rust now also supports WASM](https://prefix.dev/blog/pixi_wasm)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
