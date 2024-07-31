@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Once Upon a Lazy Init](https://codeandbitters.com/once-upon-a-lazy-init/)
 
 ### Rust Walkthroughs
 
