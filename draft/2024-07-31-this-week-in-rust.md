@@ -102,7 +102,19 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+There were some notable regressions this week. Some of them are being
+addressed via follow-up PRs (such as the change to whitespace
+diagnostic reporting), and some via reverts (such as the dead code
+analysis that tried to flag pub structs without pub constructors). A
+few regressions have not yet been addressed. See report for details.
+
+Triage done by **@pnkfelix**.
+Revision range: [9629b90b..7e3a9718](https://perf.rust-lang.org/?start=9629b90b3f7dd8f5626ec9d3b42556f39f09e214&end=7e3a971870f23c94f7aceb53b490fb37333150ff&absolute=false&stat=instructions%3Au)
+
+5 Regressions, 6 Improvements, 6 Mixed; 8 of them in rollups
+65 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/8ed563018f2e2d84a0f04cfad08151e412a6e4bb/triage/2024-07-30.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
