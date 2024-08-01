@@ -51,6 +51,7 @@ and just ask the editors to select the category.
 * [Don't Use Preludes And Globs](https://corrode.dev/blog/dont-use-preludes-and-globs/)
 * [Async Rust Challenges in Iroh](https://iroh.computer/blog/async-rust-challenges-in-iroh)
 * [`repr(C)`: Clear, Simple and (Sometimes) Wrong](https://jack.wrenn.fyi/blog/repr-c-limitations/)
+* [Once Upon a Lazy Init](https://codeandbitters.com/once-upon-a-lazy-init/)
 * [video] [Rust can Compete with Python](https://www.youtube.com/watch?v=OQTwvycftJU)
 * [video] [Rust's second most complicated feature explained](https://www.youtube.com/watch?v=6fwDwJodJrg)
 * [audio] [Rob Ede – Actix Web, Life as an Open Source Maintainer, Supply-chain Security](https://timclicks.dev/podcast/rob-ede/)
