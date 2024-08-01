@@ -75,6 +75,8 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [Translating All C TO Rust (TRACTOR)](https://sam.gov/opp/1e45d648886b4e9ca91890285af77eb7/view)
 
+* [Rust wins the SIGPLAN Programming Language Software Award 2024](https://sigplan.org/Awards/Software/#2024_The_Rust_Programming_Language)
+
 ## Crate of the Week
 
 This week's crates are [static-keys](https://crates.io/crates/static-keys), a nightly-only mechanism to speed up checks of rarely changed features and [bon](https://elastio.github.io/bon/docs/guide/overview), yet another crate to autogenerate builders from functions, methods and structs.
