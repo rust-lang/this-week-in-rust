@@ -63,6 +63,8 @@ and just ask the editors to select the category.
 * [Making games play themselves with Rust Part 2: Parsing the Game State](https://aaron404.github.io/blog/dnd-pt2/)
 * [Why you should use Rust on the backend](https://www.shuttle.rs/blog/2024/07/31/rust-on-the-backend)
 
+* [Debugging distributed database mysteries with Rust, packet capture and Polars](https://questdb.io/blog/debugging-distributed-database-mysteries-with-rust-pcap-and-polars/)
+
 ### Research
 
 ### Miscellaneous
