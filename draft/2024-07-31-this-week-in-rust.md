@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 * [rust-analyzer changelog #244](https://rust-analyzer.github.io/thisweek/2024/07/29/changelog-244.html)
 * [SBOM support in Rust](https://ferrous-systems.com/blog/stackable-client/)
 
+* [pixi - system package manager written in Rust now also supports WASM](https://prefix.dev/blog/pixi_wasm)
+
 ### Observations/Thoughts
 * [Don't Use Preludes And Globs](https://corrode.dev/blog/dont-use-preludes-and-globs/)
 * [Async Rust Challenges in Iroh](https://iroh.computer/blog/async-rust-challenges-in-iroh)
