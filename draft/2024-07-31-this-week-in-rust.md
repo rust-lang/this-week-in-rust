@@ -30,20 +30,40 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [crates.io: development update](https://blog.rust-lang.org/2024/07/29/crates-io-development-update.html)
+* [Announcing Rust 1.80.0](https://blog.rust-lang.org/2024/07/25/Rust-1.80.0.html)
 
 ### Foundation
+* [Q2 2024 Recap from Rebecca Rumbul](https://foundation.rust-lang.org/news/q2-2024-recap-from-rebecca-rumbul/)
+* [Welcoming Infrastructure Engineer, Marco Ieni to the Rust Foundation Team](https://foundation.rust-lang.org/news/welcoming-infrastructure-engineer-marco-ieni-to-the-rust-foundation-team/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [This month in Servo: console logging, parallel tables, OpenXR, and more!](https://servo.org/blog/2024/07/31/this-month-in-servo/)
+* [Copper is Out!](https://www.copper-robotics.com/whats-new/copper-is-out)
+* [rust-analyzer changelog #244](https://rust-analyzer.github.io/thisweek/2024/07/29/changelog-244.html)
+* [SBOM support in Rust](https://ferrous-systems.com/blog/stackable-client/)
 
 ### Observations/Thoughts
+* [Don't Use Preludes And Globs](https://corrode.dev/blog/dont-use-preludes-and-globs/)
+* [Async Rust Challenges in Iroh](https://iroh.computer/blog/async-rust-challenges-in-iroh)
+* [`repr(C)`: Clear, Simple and (Sometimes) Wrong](https://jack.wrenn.fyi/blog/repr-c-limitations/)
+* [video] [Rust can Compete with Python](https://www.youtube.com/watch?v=OQTwvycftJU)
+* [video] [Rust's second most complicated feature explained](https://www.youtube.com/watch?v=6fwDwJodJrg)
+* [audio] [Rob Ede – Actix Web, Life as an Open Source Maintainer, Supply-chain Security](https://timclicks.dev/podcast/rob-ede/)
+* [audio] [System76 with Jeremy Soller](https://corrode.dev/podcast/s02e07-system76/)
+* [audio] [Full-stack development of a B2B payment infrastructure in Rust, with Florent Bécart](https://rustacean-station.org/episode/florent-becart/)
 
 ### Rust Walkthroughs
+* [Crafting Interpreters with Rust: On Garbage Collection](https://www.tunglevo.com/note/crafting-interpreters-with-rust-on-garbage-collection/)
+* [Making games play themselves with Rust Part 2: Parsing the Game State](https://aaron404.github.io/blog/dnd-pt2/)
+* [Why you should use Rust on the backend](https://www.shuttle.rs/blog/2024/07/31/rust-on-the-backend)
 
 ### Research
 
 ### Miscellaneous
+* [Translating All C TO Rust (TRACTOR)](https://sam.gov/opp/1e45d648886b4e9ca91890285af77eb7/view)
 
 ## Crate of the Week
 
