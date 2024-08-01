@@ -39,7 +39,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
-* [video] [Rust 1.80.0: Top 10 Most Interesting Things & Blog Highlights](https://youtu.be/iwV-T5yHJQw)
+* [video] [Rust 1.80.0: Top 10 Most Interesting Things & Blog Highlights](https://www.youtube.com/watch?v=iwV-T5yHJQw)
 
 ### Rust Walkthroughs
 
