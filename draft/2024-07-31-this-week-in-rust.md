@@ -44,10 +44,9 @@ and just ask the editors to select the category.
 * [Copper is Out!](https://www.copper-robotics.com/whats-new/copper-is-out)
 * [rust-analyzer changelog #244](https://rust-analyzer.github.io/thisweek/2024/07/29/changelog-244.html)
 * [SBOM support in Rust](https://ferrous-systems.com/blog/stackable-client/)
-
 * [pixi - system package manager written in Rust now also supports WASM](https://prefix.dev/blog/pixi_wasm)
-
 * [How to do named function arguments in Rust. Introducing `bon` crate](https://elastio.github.io/bon/blog/how-to-do-named-function-arguments-in-rust)
+* [Maelstrom 0.11.0: Fast, Clustered, Test Runner -- Now With a New UI](https://maelstrom-software.com/blog/0.11.0/)
 
 ### Observations/Thoughts
 * [Don't Use Preludes And Globs](https://corrode.dev/blog/dont-use-preludes-and-globs/)
