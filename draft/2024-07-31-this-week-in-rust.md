@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 * [pixi - system package manager written in Rust now also supports WASM](https://prefix.dev/blog/pixi_wasm)
 
+* [How to do named function arguments in Rust. Introducing `bon` crate](https://elastio.github.io/bon/blog/how-to-do-named-function-arguments-in-rust)
+
 ### Observations/Thoughts
 * [Don't Use Preludes And Globs](https://corrode.dev/blog/dont-use-preludes-and-globs/)
 * [Async Rust Challenges in Iroh](https://iroh.computer/blog/async-rust-challenges-in-iroh)
