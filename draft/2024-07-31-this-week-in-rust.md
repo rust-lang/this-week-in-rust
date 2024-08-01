@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 * [How to do named function arguments in Rust. Introducing `bon` crate](https://elastio.github.io/bon/blog/how-to-do-named-function-arguments-in-rust)
 
+* [Rustic Witcher goes open source](https://github.com/bluegroundltd/rustic-witcher)
+
 ### Observations/Thoughts
 * [Don't Use Preludes And Globs](https://corrode.dev/blog/dont-use-preludes-and-globs/)
 * [Async Rust Challenges in Iroh](https://iroh.computer/blog/async-rust-challenges-in-iroh)
