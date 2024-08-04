@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Efficient Logging - Speeding up production code by logging more efficiently](https://antoniosbarotsis.github.io/posts/efficient-logging/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
