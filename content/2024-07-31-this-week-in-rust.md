@@ -37,8 +37,6 @@ and just ask the editors to select the category.
 * [Q2 2024 Recap from Rebecca Rumbul](https://foundation.rust-lang.org/news/q2-2024-recap-from-rebecca-rumbul/)
 * [Welcoming Infrastructure Engineer, Marco Ieni to the Rust Foundation Team](https://foundation.rust-lang.org/news/welcoming-infrastructure-engineer-marco-ieni-to-the-rust-foundation-team/)
 
-### Newsletters
-
 ### Project/Tooling Updates
 * [This month in Servo: console logging, parallel tables, OpenXR, and more!](https://servo.org/blog/2024/07/31/this-month-in-servo/)
 * [Copper is Out!](https://www.copper-robotics.com/whats-new/copper-is-out)
@@ -47,7 +45,6 @@ and just ask the editors to select the category.
 * [pixi - system package manager written in Rust now also supports WASM](https://prefix.dev/blog/pixi_wasm)
 * [How to do named function arguments in Rust. Introducing `bon` crate](https://elastio.github.io/bon/blog/how-to-do-named-function-arguments-in-rust)
 * [Maelstrom 0.11.0: Fast, Clustered, Test Runner -- Now With a New UI](https://maelstrom-software.com/blog/0.11.0/)
-
 * [Rustic Witcher goes open source](https://github.com/bluegroundltd/rustic-witcher)
 
 ### Observations/Thoughts
@@ -66,14 +63,10 @@ and just ask the editors to select the category.
 * [Crafting Interpreters with Rust: On Garbage Collection](https://www.tunglevo.com/note/crafting-interpreters-with-rust-on-garbage-collection/)
 * [Making games play themselves with Rust Part 2: Parsing the Game State](https://aaron404.github.io/blog/dnd-pt2/)
 * [Why you should use Rust on the backend](https://www.shuttle.rs/blog/2024/07/31/rust-on-the-backend)
-
 * [Debugging distributed database mysteries with Rust, packet capture and Polars](https://questdb.io/blog/debugging-distributed-database-mysteries-with-rust-pcap-and-polars/)
-
-### Research
 
 ### Miscellaneous
 * [Translating All C TO Rust (TRACTOR)](https://sam.gov/opp/1e45d648886b4e9ca91890285af77eb7/view)
-
 * [Rust wins the SIGPLAN Programming Language Software Award 2024](https://sigplan.org/Awards/Software/#2024_The_Rust_Programming_Language)
 
 ## Crate of the Week
@@ -391,7 +384,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1ecdzp2/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
