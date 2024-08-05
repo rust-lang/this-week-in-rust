@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Research
 
+I recommend a [new article](https://medium.com/@xorio42/the-hitchhikers-guide-to-building-a-distributed-filesystem-in-rust-the-continuation-part-2-ad1fd8bc9cf8) from a [series](https://medium.com/@xorio42/list/distributed-filesystem-written-in-rust-317d40f38304) on how to build a distributed filesystem.
+
 ### Miscellaneous
 
 ## Crate of the Week
