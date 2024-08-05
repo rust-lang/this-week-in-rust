@@ -95,7 +95,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [syncoxiders - Sync chunks in parallel](https://github.com/radumarias/syncoxiders/issues/9)
 * [syncoxiders - Integrate SurrealDB to store metadata](https://github.com/radumarias/syncoxiders/issues/13)
 * [syncoxiders - Migrate scripts tests to integration tests](https://github.com/radumarias/syncoxiders/issues/6)
-* [rencfs-desktop - Use SurrealDB](https://github.com/radumarias/rencfs-desktop/issues/3)
+* [rencfs-desktop - Implement daemon](https://github.com/radumarias/rencfs-desktop/issues/4)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (Formerly twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
