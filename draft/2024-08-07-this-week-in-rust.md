@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [Tracing Tokio Resources](https://hegdenu.net/posts/tracing-tokio-resources/)
+
 ### Research
 
 ### Miscellaneous
