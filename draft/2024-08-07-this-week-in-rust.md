@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Ratatui 0.28.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v028/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
