@@ -124,7 +124,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This week saw several large improvements caused mostly by the [update to LLVM 19](https://github.com/rust-lang/rust/pull/127513). There were some regressions in several pull requests, but most of them were immediately fixed in a follow-up PR.
+
+Triage done by **@kobzol**.
+Revision range: [7e3a9718..8c7e0e16](https://perf.rust-lang.org/?start=7e3a971870f23c94f7aceb53b490fb37333150ff&end=8c7e0e160831866bc1a40691a39455aac21271c0&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 1.0%  | [0.2%, 3.8%]    | 91    |
+| Regressions ❌ <br /> (secondary)  | 1.9%  | [0.2%, 19.2%]   | 104   |
+| Improvements ✅ <br /> (primary)   | -4.4% | [-15.8%, -0.3%] | 120   |
+| Improvements ✅ <br /> (secondary) | -3.3% | [-10.4%, -0.2%] | 70    |
+| All ❌✅ (primary)                 | -2.1% | [-15.8%, 3.8%]  | 211   |
+
+
+6 Regressions, 3 Improvements, 5 Mixed; 4 of them in rollups
+51 artifact comparisons made in total
+
+[Full report here](https://github.com/Kobzol/rustc-perf/blob/1b5a3bf24549eea0a1a53a3de40a107ef35746fb/triage/2024-08-06.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
