@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Pigg 0.3.3](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.3.3) the GUI for RPi GPIO interaction released, with Remote GPIO feature!
 
+* [Announcing SeaORM 1.0](https://www.sea-ql.org/blog/2024-08-04-sea-orm-1.0/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
