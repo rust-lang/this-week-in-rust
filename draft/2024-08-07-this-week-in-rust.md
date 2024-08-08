@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Phantom Menace: memory leak that wasn't there](https://flakm.com/posts/phantom_leak/)
 
 * [Efficient Logging - Speeding up production code by logging more efficiently](https://antoniosbarotsis.github.io/posts/efficient-logging/)
 
