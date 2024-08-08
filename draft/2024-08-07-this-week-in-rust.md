@@ -34,17 +34,25 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [thisweekinbevy - 0.14.1, tracking change detection, and more rendering examples](https://thisweekinbevy.com/issue/2024-08-05-0141-tracking-change-detection-and-more-rendering-examples)
 
 ### Project/Tooling Updates
+* [Tauri 2.0 Release Candidate](https://v2.tauri.app/blog/tauri-2-0-0-release-candidate/)
+* [CGlue 0.3 Future and Beyond](https://blaz.is/blog/post/cglue-0-3/)
+* [ratatui - v0.28.0](https://ratatui.rs/highlights/v028/)
 * [Pigg 0.3.3](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.3.3) the GUI for RPi GPIO interaction released, with Remote GPIO feature!
-
 * [Announcing SeaORM 1.0](https://www.sea-ql.org/blog/2024-08-04-sea-orm-1.0/)
 
-- [Ratatui 0.28.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v028/)
-
 ### Observations/Thoughts
-
-* [Update on my work on the `#[diagnostic]` namespace](https://blog.weiznich.de/blog/diagnostic-namespace-do-not-recommend/)
+* [Trying and mostly failing to optimize frustum culling in a WebGL + TS + Rust engine](https://blog.paavo.me/demo-engine-part-1/)
+* [Panic! At The Async Runtime Shutdown](https://www.mattkeeter.com/blog/2024-08-01-panic/)
+* [Debugging a rustc segfault on illumos](https://sunshowers.io/posts/rustc-segfault-illumos/)
+* [Tracing my way with tracing-rs](https://j.njsm.de/blog/tracing-rs/)
+* [The Hitchhiker’s Guide to Building a Distributed Filesystem in Rust. The very beginning…](https://systemweakness.com/hitchhikers-guide-to-building-a-distributed-filesystem-in-rust-the-very-beginning-2c02eb7313e7)
+* [Best Rust books for 2024](https://bitfieldconsulting.com/posts/best-rust-books)
+* [Phantom Menace: memory leak that wasn't there](https://flakm.com/posts/phantom_leak/)
+* [Developing a cryptographically secure bootloader for RISC-V in Rust](https://www.codethink.co.uk/articles/2024/secure_bootloader/)
+* [Extending the #[diagnostic] tool attribute namespace](https://blog.weiznich.de/blog/diagnostic-namespace-do-not-recommend/)
 
 ### Rust Walkthroughs
 
@@ -55,8 +63,7 @@ and just ask the editors to select the category.
 * [The Hitchhiker’s Guide to Building a Distributed Filesystem in Rust.](https://medium.com/@xorio42/the-hitchhikers-guide-to-building-a-distributed-filesystem-in-rust-the-continuation-part-2-ad1fd8bc9cf8) 
 
 ### Miscellaneous
-* [Phantom Menace: memory leak that wasn't there](https://flakm.com/posts/phantom_leak/)
-
+* [Rustic: Enhanced Org Babel integration](https://psibi.in/posts/2024-08-04-rustic-babel.html)
 * [Efficient Logging - Speeding up production code by logging more efficiently](https://antoniosbarotsis.github.io/posts/efficient-logging/)
 
 ## Crate of the Week
