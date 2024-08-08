@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 * [Announcing SeaORM 1.0](https://www.sea-ql.org/blog/2024-08-04-sea-orm-1.0/)
 
+- [Ratatui 0.28.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v028/)
+
 ### Observations/Thoughts
 
 * [Update on my work on the `#[diagnostic]` namespace](https://blog.weiznich.de/blog/diagnostic-namespace-do-not-recommend/)
