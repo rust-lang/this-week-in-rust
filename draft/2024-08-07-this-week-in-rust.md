@@ -39,7 +39,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
-* [Update on my work on the `#[diagnostic]` namespace](https://blog.weiznich.de/blog/diagnostic-namespace-do-not-recommend/?utm_source=twir)
+* [Update on my work on the `#[diagnostic]` namespace](https://blog.weiznich.de/blog/diagnostic-namespace-do-not-recommend/)
 
 ### Rust Walkthroughs
 
