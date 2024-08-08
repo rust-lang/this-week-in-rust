@@ -42,7 +42,6 @@ and just ask the editors to select the category.
 * [ratatui - v0.28.0](https://ratatui.rs/highlights/v028/)
 * [Pigg 0.3.3](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.3.3) the GUI for RPi GPIO interaction released, with Remote GPIO feature!
 * [Announcing SeaORM 1.0](https://www.sea-ql.org/blog/2024-08-04-sea-orm-1.0/)
-* [Ratatui 0.28.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v028/)
 
 ### Observations/Thoughts
 * [Trying and mostly failing to optimize frustum culling in a WebGL + TS + Rust engine](https://blog.paavo.me/demo-engine-part-1/)
@@ -55,8 +54,6 @@ and just ask the editors to select the category.
 * [Developing a cryptographically secure bootloader for RISC-V in Rust](https://www.codethink.co.uk/articles/2024/secure_bootloader/)
 * [Extending the #[diagnostic] tool attribute namespace](https://blog.weiznich.de/blog/diagnostic-namespace-do-not-recommend/)
 
-* [Update on my work on the `#[diagnostic]` namespace](https://blog.weiznich.de/blog/diagnostic-namespace-do-not-recommend/)
-
 ### Rust Walkthroughs
 
 - [Tracing Tokio Resources](https://hegdenu.net/posts/tracing-tokio-resources/)
@@ -67,7 +64,6 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [Rustic: Enhanced Org Babel integration](https://psibi.in/posts/2024-08-04-rustic-babel.html)
-* [Phantom Menace: memory leak that wasn't there](https://flakm.com/posts/phantom_leak/)
 * [Efficient Logging - Speeding up production code by logging more efficiently](https://antoniosbarotsis.github.io/posts/efficient-logging/)
 
 ## Crate of the Week
