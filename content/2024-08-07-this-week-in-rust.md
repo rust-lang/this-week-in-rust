@@ -29,10 +29,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
 ### Newsletters
 * [thisweekinbevy - 0.14.1, tracking change detection, and more rendering examples](https://thisweekinbevy.com/issue/2024-08-05-0141-tracking-change-detection-and-more-rendering-examples)
 
@@ -42,15 +38,14 @@ and just ask the editors to select the category.
 * [ratatui - v0.28.0](https://ratatui.rs/highlights/v028/)
 * [Pigg 0.3.3](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.3.3) the GUI for RPi GPIO interaction released, with Remote GPIO feature!
 * [Announcing SeaORM 1.0](https://www.sea-ql.org/blog/2024-08-04-sea-orm-1.0/)
-
-- [Danube - Queuing and Pub/Sub message patterns](https://dev-state.com/posts/danube_pubsub/)
+* [Danube - Queuing and Pub/Sub message patterns](https://dev-state.com/posts/danube_pubsub/)
 
 ### Observations/Thoughts
 * [Trying and mostly failing to optimize frustum culling in a WebGL + TS + Rust engine](https://blog.paavo.me/demo-engine-part-1/)
 * [Panic! At The Async Runtime Shutdown](https://www.mattkeeter.com/blog/2024-08-01-panic/)
 * [Debugging a rustc segfault on illumos](https://sunshowers.io/posts/rustc-segfault-illumos/)
 * [Tracing my way with tracing-rs](https://j.njsm.de/blog/tracing-rs/)
-* [The Hitchhiker’s Guide to Building a Distributed Filesystem in Rust. The very beginning…](https://systemweakness.com/hitchhikers-guide-to-building-a-distributed-filesystem-in-rust-the-very-beginning-2c02eb7313e7)
+* [Series] [The Hitchhiker’s Guide to Building a Distributed Filesystem in Rust.](https://systemweakness.com/hitchhikers-guide-to-building-a-distributed-filesystem-in-rust-the-very-beginning-2c02eb7313e7)
 * [Best Rust books for 2024](https://bitfieldconsulting.com/posts/best-rust-books)
 * [Phantom Menace: memory leak that wasn't there](https://flakm.com/posts/phantom_leak/)
 * [Developing a cryptographically secure bootloader for RISC-V in Rust](https://www.codethink.co.uk/articles/2024/secure_bootloader/)
@@ -61,7 +56,6 @@ and just ask the editors to select the category.
 * [Series] [Mastering Dependency Injection in Rust: Crafting a Custom Container](https://chesedo.me/blog/manual-dependency-injection-rust/)
 
 ### Research
-
 * [The Hitchhiker’s Guide to Building a Distributed Filesystem in Rust.](https://medium.com/@xorio42/the-hitchhikers-guide-to-building-a-distributed-filesystem-in-rust-the-continuation-part-2-ad1fd8bc9cf8) 
 
 ### Miscellaneous
@@ -105,10 +99,6 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-<!-- * [ - ]() -->
-<!-- or if none - *No Calls for participation were submitted this week.* -->
-
 * [rencfs - Abstract file access layer](https://github.com/radumarias/rencfs/issues/111)
 * [rencfs - Add RustCrypto as a feature](https://github.com/radumarias/rencfs/issues/104)
 * [rencfs - File and fs API](https://github.com/radumarias/rencfs/issues/97)
@@ -122,6 +112,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [syncoxiders - Integrate SurrealDB to store metadata](https://github.com/radumarias/syncoxiders/issues/13)
 * [syncoxiders - Migrate scripts tests to integration tests](https://github.com/radumarias/syncoxiders/issues/6)
 * [rencfs-desktop - Implement daemon](https://github.com/radumarias/rencfs-desktop/issues/4)
+* [](https://www.github.com/tokio-rs/tokio/issues/6741)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (Formerly twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -131,8 +122,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-<!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+*No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -423,7 +413,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1ecdzp2/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -439,4 +429,4 @@ Thanks to [Jonas Fassbender](https://users.rust-lang.org/t/twir-quote-of-the-wee
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1enceo0/this_week_in_rust_559_this_week_in_rust/)</small>
