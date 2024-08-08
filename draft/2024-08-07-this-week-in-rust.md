@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [Tracing Tokio Resources](https://hegdenu.net/posts/tracing-tokio-resources/)
+
 ### Research
 
 * [The Hitchhiker’s Guide to Building a Distributed Filesystem in Rust.](https://medium.com/@xorio42/the-hitchhikers-guide-to-building-a-distributed-filesystem-in-rust-the-continuation-part-2-ad1fd8bc9cf8) 
