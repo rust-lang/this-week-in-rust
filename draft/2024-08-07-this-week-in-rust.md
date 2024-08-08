@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 * [Pigg 0.3.3](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.3.3) the GUI for RPi GPIO interaction released, with Remote GPIO feature!
 * [Announcing SeaORM 1.0](https://www.sea-ql.org/blog/2024-08-04-sea-orm-1.0/)
 
+- [Danube - Queuing and Pub/Sub message patterns](https://dev-state.com/posts/danube_pubsub/)
+
 ### Observations/Thoughts
 * [Trying and mostly failing to optimize frustum culling in a WebGL + TS + Rust engine](https://blog.paavo.me/demo-engine-part-1/)
 * [Panic! At The Async Runtime Shutdown](https://www.mattkeeter.com/blog/2024-08-01-panic/)
