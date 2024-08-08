@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Danube - Queuing and Pub/Sub message patterns](https://dev-state.com/posts/danube_pubsub/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
