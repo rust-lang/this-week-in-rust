@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Efficient Logging - Speeding up production code by logging more efficiently](https://antoniosbarotsis.github.io/posts/efficient-logging/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
@@ -83,7 +85,21 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
-If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
+* [rencfs - Abstract file access layer](https://github.com/radumarias/rencfs/issues/111)
+* [rencfs - Add RustCrypto as a feature](https://github.com/radumarias/rencfs/issues/104)
+* [rencfs - File and fs API](https://github.com/radumarias/rencfs/issues/97)
+* [rencfs - io API](https://github.com/radumarias/rencfs/issues/90)
+* [rfs - Coordinator node API](https://github.com/radumarias/rfs/issues/19))
+* [rfs - Data node API](https://github.com/radumarias/rfs/issues/20)
+* [rfs - File upload and changes](https://github.com/radumarias/rfs/issues/18)
+* [rfs - Communication between Coordinator and Data nodes](https://github.com/radumarias/rfs/issues/15)
+* [syncoxiders - Two-way sync](https://github.com/radumarias/syncoxiders/issues/10)
+* [syncoxiders - Sync chunks in parallel](https://github.com/radumarias/syncoxiders/issues/9)
+* [syncoxiders - Integrate SurrealDB to store metadata](https://github.com/radumarias/syncoxiders/issues/13)
+* [syncoxiders - Migrate scripts tests to integration tests](https://github.com/radumarias/syncoxiders/issues/6)
+* [rencfs-desktop - Implement daemon](https://github.com/radumarias/rencfs-desktop/issues/4)
+
+If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (Formerly twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 [guidelines]:https://github.com/rust-lang/this-week-in-rust?tab=readme-ov-file#call-for-participation-guidelines
 
