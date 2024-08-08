@@ -55,8 +55,8 @@ and just ask the editors to select the category.
 * [Extending the #[diagnostic] tool attribute namespace](https://blog.weiznich.de/blog/diagnostic-namespace-do-not-recommend/)
 
 ### Rust Walkthroughs
-
-- [Tracing Tokio Resources](https://hegdenu.net/posts/tracing-tokio-resources/)
+* [Tracing Tokio Resources](https://hegdenu.net/posts/tracing-tokio-resources/)
+* [Series] [Mastering Dependency Injection in Rust: Crafting a Custom Container](https://chesedo.me/blog/manual-dependency-injection-rust/)
 
 ### Research
 
