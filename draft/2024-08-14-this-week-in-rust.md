@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [derive_more 1.0.0 - Finally a stable release](https://github.com/JelteF/derive_more/releases/tag/v1.0.0)
 
 ### Observations/Thoughts
 
