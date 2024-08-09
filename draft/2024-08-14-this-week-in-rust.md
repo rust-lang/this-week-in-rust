@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Aura 4.0: Port from Haskell to Rust complete](https://github.com/fosskers/aura/releases/tag/v4.0.0) ([Migration Guide](https://fosskers.github.io/aura/migration.html), [Why Rust?](https://fosskers.github.io/aura/faq.html#why-did-you-rewrite-aura-in-rust))
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
