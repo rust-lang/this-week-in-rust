@@ -85,6 +85,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 * [Diesel - Add support for currently unsupported array functions](https://github.com/diesel-rs/diesel/issues/4153)
 * [Diesel - Provide a r2d2::CustomizeConnection for testing](https://github.com/diesel-rs/diesel/issues/4152)
+* [Mysqlclient-sys - Add support for mysql-client 9.0](https://github.com/sgrif/mysqlclient-sys/issues/53)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 [guidelines]:https://github.com/rust-lang/this-week-in-rust?tab=readme-ov-file#call-for-participation-guidelines
