@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [GraphQL based Admin Dashboard with Loco and Seaography](https://www.sea-ql.org/blog/2024-08-08-graphql-admin-dashboard-with-loco-seaography/)
+
 ### Research
 
 ### Miscellaneous
