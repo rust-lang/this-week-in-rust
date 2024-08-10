@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [The weird of function-local types in Rust](https://elastio.github.io/bon/blog/the-weird-of-function-local-types-in-rust)
+
 ### Rust Walkthroughs
 
 ### Research
