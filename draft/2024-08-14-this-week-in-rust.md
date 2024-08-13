@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-
+[video] [John Nunley discusses Rust, Open source, smol-rs and Async Programming](https://www.youtube.com/watch?v=EnWbnJXkOsg)
 ## Crate of the Week
 
 <!-- COTW goes here -->
