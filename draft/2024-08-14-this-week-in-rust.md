@@ -43,8 +43,9 @@ and just ask the editors to select the category.
 
 ### Research
 
-* longer article [The Hitchhiker’s Guide to Building an Encrypted Filesystem in Rust](https://medium.com/@xorio42/the-hitchhikers-guide-to-building-an-encrypted-filesystem-in-rust-4d678c57d65c)
 * one pager [The Hitchhiker’s Guide to Building an Encrypted Filesystem in Rust](https://drive.google.com/file/d/1IMs0GJdQvQ3oT5nUU2pL865zTsWPeQfr/view?usp=drivesdk)
+* series [The Hitchhiker’s Guide to Building an Encrypted Filesystem in Rust](https://medium.com/@xorio42/list/828492b94c23)
+* one pager [The Hitchhiker’s Guide to Building a Distributed Filesystem in Rust](https://drive.google.com/file/d/1aNXvklrP5a4zhoN7n2hnJ31FOKYuq4Nk/view?usp=drivesdk)
 
 ### Miscellaneous
 
