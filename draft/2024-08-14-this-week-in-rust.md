@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Audio] [Systems Software for Linux with Rust – Interview with Zeeshan Ali Khan](https://timclicks.dev/podcast/systems-software-for-linux-with-rust-interview-with-zeeshan-ali-khan/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
