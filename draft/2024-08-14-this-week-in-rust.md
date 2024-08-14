@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [SBOM support in Rust](https://ferrous-systems.com/blog/stackable-client/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
