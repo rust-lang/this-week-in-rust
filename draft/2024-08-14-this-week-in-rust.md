@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+[Fear Not the Association of Types: a walkthrough of associated types](https://gavinleroy.com/writings/i-heart-assoc-types.html)
 
 ### Rust Walkthroughs
 
