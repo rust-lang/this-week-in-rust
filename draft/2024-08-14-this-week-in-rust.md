@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+- [Audio] [Supercharging Python Tooling – An Interview with Charlie Marsh](https://timclicks.dev/podcast/supercharging-python-tooling-an-interview-with-charlie-marsh/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
