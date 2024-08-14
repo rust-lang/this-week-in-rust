@@ -102,7 +102,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A big week for compiler performance brought on mostly by statically linking the std library into `rustc_driver` instead of dynamic linking. This overshadows all other improvements and regressions that were seen this week.
+
+Triage done by **@rylev**.
+Revision range: [8c7e0e16..9cb1998e](https://perf.rust-lang.org/?start=8c7e0e160831866bc1a40691a39455aac21271c0&end=9cb1998ea15e179482504e07cad8fa121e169a32&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | -     | -              | 0     |
+| Regressions ❌ <br /> (secondary)  | -     | -              | 0     |
+| Improvements ✅ <br /> (primary)   | -1.3% | [-2.9%, -0.2%] | 217   |
+| Improvements ✅ <br /> (secondary) | -1.4% | [-4.9%, -0.2%] | 196   |
+| All ❌✅ (primary)                 | -1.3% | [-2.9%, -0.2%] | 217   |
+
+
+2 Regressions, 2 Improvements, 2 Mixed; 1 of them in rollups
+35 artifact comparisons made in total
+
+[Full report here](https://github.com/Kobzol/rustc-perf/blob/3f0fc031a10c9decbfac4d1753452da2b10a03e1/triage/2024-08-13.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
