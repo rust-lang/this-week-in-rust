@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [Programming vs Software Engineering (Rust vs Go)](https://kerkour.com/programming-vs-software-engineering-rust-vs-go)
+
 ### Rust Walkthroughs
 
 ### Research
