@@ -205,6 +205,8 @@ Rusty Events between 2024-08-14 - 2024-09-11 🦀
     * [**Rust Manchester Talks August**](https://www.meetup.com/rust-manchester/events/302419276/)
 * 2024-08-26 | Mainz, DE | [Fachschaft Mathematik+Informatik der JGU Mainz](https://rheinneckar.events/@fsmathe_informatik_mainz@rheinmain.social)
     * [**Ferienkurs Rust**](https://rheinneckar.events/events/3f76f860-75c1-4f3a-810f-03fc0cecb691)
+* 2024-08-28 | Frankfurt (Main), DE | [Rust Rhein Main](https://www.meetup.com/rust-rhein-main)
+    * [**Rust Frankfurt WebAssembly**](https://www.meetup.com/rust-rhein-main/events/302738445/)
 * 2024-08-29 | Berlin, DE | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust and Tell - Title**](https://www.meetup.com/rust-berlin/events/299421378/)
 
