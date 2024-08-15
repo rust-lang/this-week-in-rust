@@ -30,12 +30,21 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.80.1](https://blog.rust-lang.org/2024/08/08/Rust-1.80.1.html)
+* [Rust Project goals for 2024](https://blog.rust-lang.org/2024/08/12/Project-goals.html)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust OSDev: July 2024](https://rust-osdev.com/this-month/2024-07/)
 
 ### Project/Tooling Updates
+* [Bevy's Fourth Birthday](https://bevyengine.org/news/bevys-fourth-birthday/)
+* [Intoducing Tonbo](https://tonbo.io/blog/introducing-tonbo)
+* [This Month in Xilem, July 2024](https://linebender.org/blog/tmix-07/)
+* [derive_more v1.0.0 - Finally a stable release](https://github.com/JelteF/derive_more/releases/tag/v1.0.0)
+* [Rust GPU Transitions to Community Ownership](https://rust-gpu.github.io/blog/transition-announcement/)
+* [rust-analyzer changelog #246](https://rust-analyzer.github.io/thisweek/2024/08/12/changelog-246.html)
 
 * [Ringboard: a new clipboard manager for Linux](https://alexsaveau.dev/blog/projects/performance/clipboard/ringboard/ringboard)
 * [derive_more 1.0.0 - Finally a stable release](https://github.com/JelteF/derive_more/releases/tag/v1.0.0)
@@ -44,25 +53,33 @@ and just ask the editors to select the category.
 * [`r3bl_tui` v0.5.7 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v057-2024-08-13)
 
 ### Observations/Thoughts
-[Fear Not the Association of Types: a walkthrough of associated types](https://gavinleroy.com/writings/i-heart-assoc-types.html)
-
+* [I compared 14 hashing algorithms on Rust using Criterion](https://blog.goose.love/posts/rosetta-hashing/)
+* [Rust's Mutex, Atomics and UnsafeCell – Spooky Action at a Distance?](https://leon.schuermann.io/blog/2024-08-07_rust-mutex-atomics-unsafecell_spooky-action-at-a-distance.html)
+* [How I Created 175 Fonts Using Rust](https://chevyray.dev/blog/creating-175-fonts/)
 * [The weird of function-local types in Rust](https://elastio.github.io/bon/blog/the-weird-of-function-local-types-in-rust)
+* [Fear Not the Association of Types: a walkthrough of associated types](https://gavinleroy.com/writings/i-heart-assoc-types.html)
+* [video] [The Best Games from Bevy Jam 5](https://www.youtube.com/watch?v=_H87sL5ieOc)
+* [audio] [I Was Wrong About Rust Build Times](https://sdr-podcast.com/episodes/wrong-build-times/)
+* [audio] [Rust in Production Podcast Season 2 Finale](https://corrode.dev/podcast/s02e08-season-finale/)
+* [audio] [Exploring Fiberplane's 3-Year Rust Journey, with Benno van den Berg](https://rustacean-station.org/episode/benno-van-den-berg/)
 
 ### Rust Walkthroughs
+* [The weird of function-local types in Rust](https://elastio.github.io/bon/blog/the-weird-of-function-local-types-in-rust)
 
 * [GraphQL based Admin Dashboard with Loco and Seaography](https://www.sea-ql.org/blog/2024-08-08-graphql-admin-dashboard-with-loco-seaography/)
 
 ### Research
+* [Don’t Write, but Return: Replacing Output Parameters with Algebraic Data Types in C-to-Rust Translation](https://dl.acm.org/doi/10.1145/3656406)
 
 * one pager [The Hitchhiker’s Guide to Building an Encrypted Filesystem in Rust](https://drive.google.com/file/d/1IMs0GJdQvQ3oT5nUU2pL865zTsWPeQfr/view?usp=drivesdk)
 * series [The Hitchhiker’s Guide to Building an Encrypted Filesystem in Rust](https://medium.com/@xorio42/list/828492b94c23)
 * one pager [The Hitchhiker’s Guide to Building a Distributed Filesystem in Rust](https://drive.google.com/file/d/1aNXvklrP5a4zhoN7n2hnJ31FOKYuq4Nk/view?usp=drivesdk)
 
 ### Miscellaneous
+* [RP2350 Launch Blog](https://thejpster.org.uk/blog/blog-2024-08-08/)
 * [July 2024 Rust Jobs Report](https://filtra.io/rust-jul-24)
 * [video] [John Nunley discusses Rust, Open source, smol-rs and Async Programming](https://www.youtube.com/watch?v=EnWbnJXkOsg)
-
-- [Audio] [Supercharging Python Tooling – An Interview with Charlie Marsh](https://timclicks.dev/podcast/supercharging-python-tooling-an-interview-with-charlie-marsh/)
+* [Audio] [Supercharging Python Tooling – An Interview with Charlie Marsh](https://timclicks.dev/podcast/supercharging-python-tooling-an-interview-with-charlie-marsh/)
 
 ## Crate of the Week
 
