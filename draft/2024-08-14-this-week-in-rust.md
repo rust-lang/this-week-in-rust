@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 * [Ringboard: a new clipboard manager for Linux](https://alexsaveau.dev/blog/projects/performance/clipboard/ringboard/ringboard)
 * [derive_more 1.0.0 - Finally a stable release](https://github.com/JelteF/derive_more/releases/tag/v1.0.0)
 * [Aura 4.0: Port from Haskell to Rust complete](https://github.com/fosskers/aura/releases/tag/v4.0.0) ([Migration Guide](https://fosskers.github.io/aura/migration.html), [Why Rust?](https://fosskers.github.io/aura/faq.html#why-did-you-rewrite-aura-in-rust))
+* [`r3bl_terminal_async` v0.5.6 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v056-2024-08-13)
+* [`r3bl_tui` v0.5.7 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v057-2024-08-13)
 
 ### Observations/Thoughts
 
