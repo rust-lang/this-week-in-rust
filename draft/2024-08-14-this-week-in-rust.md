@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [The weird of function-local types in Rust](https://elastio.github.io/bon/blog/the-weird-of-function-local-types-in-rust)
+
 ### Rust Walkthroughs
 
 * [GraphQL based Admin Dashboard with Loco and Seaography](https://www.sea-ql.org/blog/2024-08-08-graphql-admin-dashboard-with-loco-seaography/)
