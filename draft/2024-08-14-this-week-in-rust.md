@@ -46,10 +46,18 @@ and just ask the editors to select the category.
 * [Rust GPU Transitions to Community Ownership](https://rust-gpu.github.io/blog/transition-announcement/)
 * [rust-analyzer changelog #246](https://rust-analyzer.github.io/thisweek/2024/08/12/changelog-246.html)
 
+* [Ringboard: a new clipboard manager for Linux](https://alexsaveau.dev/blog/projects/performance/clipboard/ringboard/ringboard)
+* [derive_more 1.0.0 - Finally a stable release](https://github.com/JelteF/derive_more/releases/tag/v1.0.0)
+* [Aura 4.0: Port from Haskell to Rust complete](https://github.com/fosskers/aura/releases/tag/v4.0.0) ([Migration Guide](https://fosskers.github.io/aura/migration.html), [Why Rust?](https://fosskers.github.io/aura/faq.html#why-did-you-rewrite-aura-in-rust))
+* [`r3bl_terminal_async` v0.5.6 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v056-2024-08-13)
+* [`r3bl_tui` v0.5.7 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v057-2024-08-13)
+
 ### Observations/Thoughts
 * [I compared 14 hashing algorithms on Rust using Criterion](https://blog.goose.love/posts/rosetta-hashing/)
 * [Rust's Mutex, Atomics and UnsafeCell – Spooky Action at a Distance?](https://leon.schuermann.io/blog/2024-08-07_rust-mutex-atomics-unsafecell_spooky-action-at-a-distance.html)
 * [How I Created 175 Fonts Using Rust](https://chevyray.dev/blog/creating-175-fonts/)
+* [The weird of function-local types in Rust](https://elastio.github.io/bon/blog/the-weird-of-function-local-types-in-rust)
+* [Fear Not the Association of Types: a walkthrough of associated types](https://gavinleroy.com/writings/i-heart-assoc-types.html)
 * [video] [The Best Games from Bevy Jam 5](https://www.youtube.com/watch?v=_H87sL5ieOc)
 * [audio] [I Was Wrong About Rust Build Times](https://sdr-podcast.com/episodes/wrong-build-times/)
 * [audio] [Rust in Production Podcast Season 2 Finale](https://corrode.dev/podcast/s02e08-season-finale/)
@@ -58,11 +66,20 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [The weird of function-local types in Rust](https://elastio.github.io/bon/blog/the-weird-of-function-local-types-in-rust)
 
+* [GraphQL based Admin Dashboard with Loco and Seaography](https://www.sea-ql.org/blog/2024-08-08-graphql-admin-dashboard-with-loco-seaography/)
+
 ### Research
 * [Don’t Write, but Return: Replacing Output Parameters with Algebraic Data Types in C-to-Rust Translation](https://dl.acm.org/doi/10.1145/3656406)
 
+* one pager [The Hitchhiker’s Guide to Building an Encrypted Filesystem in Rust](https://drive.google.com/file/d/1IMs0GJdQvQ3oT5nUU2pL865zTsWPeQfr/view?usp=drivesdk)
+* series [The Hitchhiker’s Guide to Building an Encrypted Filesystem in Rust](https://medium.com/@xorio42/list/828492b94c23)
+* one pager [The Hitchhiker’s Guide to Building a Distributed Filesystem in Rust](https://drive.google.com/file/d/1aNXvklrP5a4zhoN7n2hnJ31FOKYuq4Nk/view?usp=drivesdk)
+
 ### Miscellaneous
 * [RP2350 Launch Blog](https://thejpster.org.uk/blog/blog-2024-08-08/)
+* [July 2024 Rust Jobs Report](https://filtra.io/rust-jul-24)
+* [video] [John Nunley discusses Rust, Open source, smol-rs and Async Programming](https://www.youtube.com/watch?v=EnWbnJXkOsg)
+* [Audio] [Supercharging Python Tooling – An Interview with Charlie Marsh](https://timclicks.dev/podcast/supercharging-python-tooling-an-interview-with-charlie-marsh/)
 
 ## Crate of the Week
 
@@ -72,18 +89,20 @@ and just ask the editors to select the category.
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
-## [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+## Calls for Testing
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+* [RFC: Make Cargo respect minimum supported Rust version (MSRV) when selecting dependencies](https://github.com/rust-lang/rfcs/pull/3537)
+  - [Testing Steps](https://github.com/rust-lang/cargo/issues/13873)
+
+### [Rust](https://github.com/rust-lang/rust/labels/call-for-testing)
+* *No calls for testing were issued this week.*
+
+### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
+* *No calls for testing were issued this week.*
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
@@ -101,6 +120,13 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+
+* [Diesel - Add support for currently unsupported array functions](https://github.com/diesel-rs/diesel/issues/4153)
+* [Diesel - Provide a r2d2::CustomizeConnection for testing](https://github.com/diesel-rs/diesel/issues/4152)
+* [Mysqlclient-sys - Add support for mysql-client 9.0](https://github.com/sgrif/mysqlclient-sys/issues/53)
+* [rencfs-desktop - Use SurrealDB](https://github.com/radumarias/rencfs-desktop/issues/3)
+* [rencfs-desktop - Implement daemon](https://github.com/radumarias/rencfs-desktop/issues/4)
+* [rencfs-desktop - Implement functionality](https://github.com/radumarias/rencfs-desktop/issues/9)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -121,22 +147,33 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A big week for compiler performance brought on mostly by statically linking the std library into `rustc_driver` instead of dynamic linking. This overshadows all other improvements and regressions that were seen this week.
+
+Triage done by **@rylev**.
+Revision range: [8c7e0e16..9cb1998e](https://perf.rust-lang.org/?start=8c7e0e160831866bc1a40691a39455aac21271c0&end=9cb1998ea15e179482504e07cad8fa121e169a32&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | -     | -              | 0     |
+| Regressions ❌ <br /> (secondary)  | -     | -              | 0     |
+| Improvements ✅ <br /> (primary)   | -1.3% | [-2.9%, -0.2%] | 217   |
+| Improvements ✅ <br /> (secondary) | -1.4% | [-4.9%, -0.2%] | 196   |
+| All ❌✅ (primary)                 | -1.3% | [-2.9%, -0.2%] | 217   |
+
+
+2 Regressions, 2 Improvements, 2 Mixed; 1 of them in rollups
+35 artifact comparisons made in total
+
+[Full report here](https://github.com/Kobzol/rustc-perf/blob/3f0fc031a10c9decbfac4d1753452da2b10a03e1/triage/2024-08-13.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -144,28 +181,30 @@ Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final
 which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+* *No RFCs entered Final Comment Period this week.*
 
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+#### Tracking Issues & PRs
+##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* [disposition: merge] [Tracking Issue for `iter::repeat_n()` (`feature(iter_repeat_n)`)](https://github.com/rust-lang/rust/issues/104434)
+* [disposition: merge] [Tracking Issue for CharIndices::offset function](https://github.com/rust-lang/rust/issues/83871)
+* [disposition: merge] [Stabilize `unsafe_attributes`](https://github.com/rust-lang/rust/pull/128771)
+* [disposition: merge] [Stabilize opaque type precise capturing (RFC 3617)](https://github.com/rust-lang/rust/pull/127672)
+* [disposition: merge] [CloneToUninit impls](https://github.com/rust-lang/rust/pull/126877)
 
-#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+##### [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* *No Cargo Tracking Issues or PRs entered Final Comment Period this week.*
 
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+##### [Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc+)
+* *No Language Team Tracking Issues or PRs entered Final Comment Period this week.*
 
-### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
+##### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* *No Language Reference RFCs entered Final Comment Period this week.*
 
-### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
+##### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* *No Unsafe Code Guideline Tracking Issues or PRs entered Final Comment Period this week.*
 
-### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+#### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+* *No New or Updated RFCs were created this week.*
 
 ## Upcoming Events
 
@@ -224,6 +263,8 @@ Rusty Events between 2024-08-14 - 2024-09-11 🦀
     * [**Rust Manchester Talks August**](https://www.meetup.com/rust-manchester/events/302419276/)
 * 2024-08-26 | Mainz, DE | [Fachschaft Mathematik+Informatik der JGU Mainz](https://rheinneckar.events/@fsmathe_informatik_mainz@rheinmain.social)
     * [**Ferienkurs Rust**](https://rheinneckar.events/events/3f76f860-75c1-4f3a-810f-03fc0cecb691)
+* 2024-08-28 | Frankfurt (Main), DE | [Rust Rhein Main](https://www.meetup.com/rust-rhein-main)
+    * [**Rust Frankfurt WebAssembly**](https://www.meetup.com/rust-rhein-main/events/302738445/)
 * 2024-08-29 | Berlin, DE | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust and Tell - Title**](https://www.meetup.com/rust-berlin/events/299421378/)
 
