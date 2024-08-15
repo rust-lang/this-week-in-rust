@@ -66,7 +66,6 @@ and just ask the editors to select the category.
 ### Research
 * [Don’t Write, but Return: Replacing Output Parameters with Algebraic Data Types in C-to-Rust Translation](https://dl.acm.org/doi/10.1145/3656406)
 * [The Hitchhiker’s Guide to Building an Encrypted Filesystem in Rust - one pager](https://drive.google.com/file/d/1IMs0GJdQvQ3oT5nUU2pL865zTsWPeQfr/view?usp=drivesdk)
-* [The Hitchhiker’s Guide to Building an Encrypted Filesystem in Rust - series](https://medium.com/@xorio42/list/828492b94c23)
 * [The Hitchhiker’s Guide to Building a Distributed Filesystem in Rust - one pager](https://drive.google.com/file/d/1aNXvklrP5a4zhoN7n2hnJ31FOKYuq4Nk/view?usp=drivesdk)
 
 ### Miscellaneous
