@@ -57,6 +57,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [July 2024 Rust Jobs Report](https://filtra.io/rust-jul-24)
+* [video] [John Nunley discusses Rust, Open source, smol-rs and Async Programming](https://www.youtube.com/watch?v=EnWbnJXkOsg)
 
 ## Crate of the Week
 
