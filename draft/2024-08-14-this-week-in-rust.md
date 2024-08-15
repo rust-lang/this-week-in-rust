@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 
 * [Ringboard: a new clipboard manager for Linux](https://alexsaveau.dev/blog/projects/performance/clipboard/ringboard/ringboard)
 * [derive_more 1.0.0 - Finally a stable release](https://github.com/JelteF/derive_more/releases/tag/v1.0.0)
+* [Aura 4.0: Port from Haskell to Rust complete](https://github.com/fosskers/aura/releases/tag/v4.0.0) ([Migration Guide](https://fosskers.github.io/aura/migration.html), [Why Rust?](https://fosskers.github.io/aura/faq.html#why-did-you-rewrite-aura-in-rust))
 
 ### Observations/Thoughts
 
