@@ -83,6 +83,8 @@ and just ask the editors to select the category.
 * [video] [John Nunley discusses Rust, Open source, smol-rs and Async Programming](https://www.youtube.com/watch?v=EnWbnJXkOsg)
 * [Audio] [Supercharging Python Tooling – An Interview with Charlie Marsh](https://timclicks.dev/podcast/supercharging-python-tooling-an-interview-with-charlie-marsh/)
 
+* [Audio] [Systems Software for Linux with Rust – Interview with Zeeshan Ali Khan](https://timclicks.dev/podcast/systems-software-for-linux-with-rust-interview-with-zeeshan-ali-khan/)
+
 ## Crate of the Week
 
 This week's crate is [rencfs](https://github.com/radumarias/rencfs), a FUSE-based encrypted filesystem for Linux.
