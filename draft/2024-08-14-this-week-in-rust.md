@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 * [`r3bl_tui` v0.5.7 released](https://github.com/r3bl-org/r3bl-open-core/blob/main/CHANGELOG.md#v057-2024-08-13)
 
 ### Observations/Thoughts
+[Fear Not the Association of Types: a walkthrough of associated types](https://gavinleroy.com/writings/i-heart-assoc-types.html)
 
 * [The weird of function-local types in Rust](https://elastio.github.io/bon/blog/the-weird-of-function-local-types-in-rust)
 
