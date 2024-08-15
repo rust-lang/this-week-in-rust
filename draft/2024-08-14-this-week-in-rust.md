@@ -61,6 +61,8 @@ and just ask the editors to select the category.
 * [July 2024 Rust Jobs Report](https://filtra.io/rust-jul-24)
 * [video] [John Nunley discusses Rust, Open source, smol-rs and Async Programming](https://www.youtube.com/watch?v=EnWbnJXkOsg)
 
+- [Audio] [Supercharging Python Tooling – An Interview with Charlie Marsh](https://timclicks.dev/podcast/supercharging-python-tooling-an-interview-with-charlie-marsh/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
