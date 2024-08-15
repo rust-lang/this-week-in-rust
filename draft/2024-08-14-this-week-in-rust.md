@@ -36,7 +36,9 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+
 * [Ringboard: a new clipboard manager for Linux](https://alexsaveau.dev/blog/projects/performance/clipboard/ringboard/ringboard)
+* [derive_more 1.0.0 - Finally a stable release](https://github.com/JelteF/derive_more/releases/tag/v1.0.0)
 
 ### Observations/Thoughts
 
