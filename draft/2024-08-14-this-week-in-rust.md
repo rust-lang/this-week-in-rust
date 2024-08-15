@@ -63,6 +63,8 @@ and just ask the editors to select the category.
 * [audio] [Rust in Production Podcast Season 2 Finale](https://corrode.dev/podcast/s02e08-season-finale/)
 * [audio] [Exploring Fiberplane's 3-Year Rust Journey, with Benno van den Berg](https://rustacean-station.org/episode/benno-van-den-berg/)
 
+- [Programming vs Software Engineering (Rust vs Go)](https://kerkour.com/programming-vs-software-engineering-rust-vs-go)
+
 ### Rust Walkthroughs
 * [The weird of function-local types in Rust](https://elastio.github.io/bon/blog/the-weird-of-function-local-types-in-rust)
 
