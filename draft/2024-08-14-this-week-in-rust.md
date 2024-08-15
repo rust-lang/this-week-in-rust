@@ -51,6 +51,10 @@ and just ask the editors to select the category.
 
 ### Research
 
+* one pager [The Hitchhiker’s Guide to Building an Encrypted Filesystem in Rust](https://drive.google.com/file/d/1IMs0GJdQvQ3oT5nUU2pL865zTsWPeQfr/view?usp=drivesdk)
+* series [The Hitchhiker’s Guide to Building an Encrypted Filesystem in Rust](https://medium.com/@xorio42/list/828492b94c23)
+* one pager [The Hitchhiker’s Guide to Building a Distributed Filesystem in Rust](https://drive.google.com/file/d/1aNXvklrP5a4zhoN7n2hnJ31FOKYuq4Nk/view?usp=drivesdk)
+
 ### Miscellaneous
 * [July 2024 Rust Jobs Report](https://filtra.io/rust-jul-24)
 
@@ -95,6 +99,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Diesel - Add support for currently unsupported array functions](https://github.com/diesel-rs/diesel/issues/4153)
 * [Diesel - Provide a r2d2::CustomizeConnection for testing](https://github.com/diesel-rs/diesel/issues/4152)
 * [Mysqlclient-sys - Add support for mysql-client 9.0](https://github.com/sgrif/mysqlclient-sys/issues/53)
+* [rencfs-desktop - Use SurrealDB](https://github.com/radumarias/rencfs-desktop/issues/3)
+* [rencfs-desktop - Implement daemon](https://github.com/radumarias/rencfs-desktop/issues/4)
+* [rencfs-desktop - Implement functionality](https://github.com/radumarias/rencfs-desktop/issues/9)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
