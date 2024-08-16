@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+[Crafting a Blockchain in Go and Rust: A Comparative Journey — Private keys, Public Keys and Signatures [Part 1]](https://medium.com/the-polyglot-programmer/crafting-a-blockchain-in-go-and-rust-a-comparative-journey-private-keys-public-keys-and-739ebb326e78)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
