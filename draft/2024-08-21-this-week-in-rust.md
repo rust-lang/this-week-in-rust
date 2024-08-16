@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rust GUI library via Flutter, done simple](https://cjycode.com/posts/rust-ui-flutter/)
+
 ### Rust Walkthroughs
 
 ### Research
