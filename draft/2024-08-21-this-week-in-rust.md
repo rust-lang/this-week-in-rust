@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [4 Years of Bevy](https://bd103.github.io/blog/2024-08-18-4-years-of-bevy)
+
 ### Rust Walkthroughs
 
 ### Research
