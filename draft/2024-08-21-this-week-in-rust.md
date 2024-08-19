@@ -102,7 +102,19 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A fairly noisy week (though most of that has been dropped from this report).
+Overall we saw several improvements, and ended the week on a net positive.
+Memory usage is down around 1.5-3% over the course of the week, primarily due
+to [RawVec polymorphization](https://github.com/rust-lang/rust/pull/126793) and
+[CloneToUninit impl expansion](https://github.com/rust-lang/rust/pull/126877).
+
+Triage done by **@simulacrum**.
+Revision range: [9cb1998e..4fe1e2bd](https://perf.rust-lang.org/?start=9cb1998ea15e179482504e07cad8fa121e169a32&end=4fe1e2bd5bf5a6f1cb245f161a5e9d315766f103&absolute=false&stat=instructions%3Au)
+
+1 Regressions, 1 Improvements, 3 Mixed; 1 of them in rollups
+53 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2024-08-19.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
