@@ -189,6 +189,8 @@ Rusty Events between 2024-08-21 - 2024-09-18 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/299346981/)
 * 2024-09-10 - 2024-09-13 | Hybrid: Virtual and In-Person (Montreal, QC, CA)| [Rust Conf](https://rustconf.com/)
     * [**Rust Conf 2024**](https://foundation.rust-lang.org/events/rustconf-2024/)
+* 2024-09-18 | Virtual + Vienna, AT | [Linux Plumbers Conference](https://lpc.events)
+    * [**Rust Microconference in LPC 2024 (Sep 18-20)**](https://lpc.events/event/18/sessions/186/)
 
 ### Africa
 * 2024-09-06 | Kampala, UG | [Rust Circle Kampala](https://www.eventbrite.com/o/rust-circle-kampala-65249289033/)
@@ -225,6 +227,8 @@ Rusty Events between 2024-08-21 - 2024-09-18 🦀
     * [**Rust and Tell - Title**](https://www.meetup.com/rust-berlin/events/299421378/)
 * 2024-09-11 | Reading, UK | [Reading Rust Workshop](https://rustworkshop.co/meetup/)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/302833564/)
+* 2024-09-18 | Vienna, AT + Virtual | [Linux Plumbers Conference](https://lpc.events)
+    * [**Rust Microconference in LPC 2024 (Sep 18-20)**](https://lpc.events/event/18/sessions/186/)
 
 
 ### North America
