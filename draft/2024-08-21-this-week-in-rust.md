@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Fixing Incorrect Tracing Parent Spans with Futures and JoinSet in Rust](https://chesedo.me/blog/rust-tracing-incorrect-parent-spans-async-futures-joinset/)
+
 ### Rust Walkthroughs
 
 ### Research
