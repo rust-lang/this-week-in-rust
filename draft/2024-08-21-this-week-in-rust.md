@@ -197,6 +197,8 @@ Rusty Events between 2024-08-21 - 2024-09-18 🦀
 ### Asia
 * 2024-08-24 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**August 2024 Rustacean meetup**](https://hasgeek.com/rustbangalore/august-2024-rustacean-meetup/)
+* 2024-09-09 | Ramat Gan, IL | [Coralogix](https://coralogix.com/)
+    * [**Rust as Scale**](https://coralogix.com/rust-coralogix-meetup/)
 
 ### Europe
 * 2024-08-14 | Köln/Cologne, DE | [Rust Cologne](https://www.meetup.com/rustcologne/)
