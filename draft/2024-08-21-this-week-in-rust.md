@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+[Using Diesel with custom array data types in Postgres.](https://github.com/marvin-hansen/bazel-diesel-postgres)
+
 ### Research
 
 ### Miscellaneous
