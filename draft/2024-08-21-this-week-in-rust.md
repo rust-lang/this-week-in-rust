@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Rust GUI library via Flutter, done simple](https://cjycode.com/posts/rust-ui-flutter/)
+
 ### Research
 
 ### Miscellaneous
