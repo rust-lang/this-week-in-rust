@@ -30,6 +30,8 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [This Development-cycle in Cargo: 1.81](https://blog.rust-lang.org/inside-rust/2024/08/15/this-development-cycle-in-cargo-1.81.html)
+* [Async Closures MVP: Call for Testing!](https://blog.rust-lang.org/inside-rust/2024/08/09/async-closures-call-for-testing.html)
 
 ### Foundation
 
@@ -42,6 +44,10 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Expanding on withoutboat’s pinned places](https://poignardazur.github.io/2024/08/16/pinned-places/)
+* [Introducing datafusion-uwheel, A Native DataFusion Optimizer for Time-based Analytics](https://uwheel.rs/post/datafusion_uwheel/)
+* [What is a place expression?](https://www.ralfj.de/blog/2024/08/14/places.html)
+* [Arenas](https://donsz.nl/blog/arenas/)
 * [4 Years of Bevy](https://bd103.github.io/blog/2024-08-18-4-years-of-bevy)
 
 ### Rust Walkthroughs
@@ -52,6 +58,11 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+
+* [The amazing Rust podcasts that have emerged in 2024](https://tim.mcnamara.nz/post/758930152514306048/the-amazing-rust-podcasts-that-have-emerged-in)
+* [FreeBSD considers Rust in the base system](https://lwn.net/SubscriberLink/985210/f3c3beb9ef9c550e/)
+* [Incorporating Lua with Livtet](https://www.jacky.wtf/essays/2024/using-lua-with-livtet/)
+* [video] [Systems Software for Linux with Rust – Interview with Zeeshan Ali Khan](https://www.youtube.com/watch?v=atE94jvfVuA)
 * [Building A Spreadsheet in Rust, WASM, and WebGL](https://filtra.io/rust-quadratic-aug-24)
 
 ## Crate of the Week
