@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 * [Rust GUI library via Flutter, done simple](https://cjycode.com/posts/rust-ui-flutter/)
+* [Series][Mastering Dependency Injection in Rust: Using a macro part 1](https://chesedo.me/blog/despatma-a-minimal-macro-for-dependency-injection/)
 
 ### Research
 
