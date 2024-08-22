@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Building A Spreadsheet in Rust, WASM, and WebGL](https://filtra.io/rust-quadratic-aug-24)
 
 ## Crate of the Week
 
