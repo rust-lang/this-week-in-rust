@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rerun 0.18 - Exploiting column chunks for faster ingestion and lower memory use](https://rerun.io/blog/column-chunks)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
