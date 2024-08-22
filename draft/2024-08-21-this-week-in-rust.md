@@ -37,15 +37,19 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rerun 0.18 - Exploiting column chunks for faster ingestion and lower memory use](https://rerun.io/blog/column-chunks)
 * [`srgn 0.13`: new grep-like search mode for source code](https://github.com/alexpovel/srgn/releases/tag/srgn-v0.13.0)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
 
+* [Rust GUI library via Flutter, done simple](https://cjycode.com/posts/rust-ui-flutter/)
+
 ### Research
 
 ### Miscellaneous
+* [Building A Spreadsheet in Rust, WASM, and WebGL](https://filtra.io/rust-quadratic-aug-24)
 
 ## Crate of the Week
 
@@ -173,7 +177,7 @@ Rusty Events between 2024-08-21 - 2024-09-18 🦀
     * [**Live coding - A distance #1**](https://www.meetup.com/bordeaux-rust/events/302570681/)
 * 2024-08-27 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
     * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/301585668/)
-* 2024-08-27 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
+* 2024-08-27 | Virtual (Tel Aviv, IL) | [Rust in Israel](https://www.meetup.com/rust-in-israel/)
     * [**Declarative macros in Rust (Virtual) - מקרוים בראסט**](https://www.meetup.com/rust-in-israel/events/302327956/)
 * 2024-08-28 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
     * [**Command Line Tools: Implementing wc in Rust (English, Virtual)**](https://www.meetup.com/code-mavens/events/302151487/)
@@ -191,6 +195,8 @@ Rusty Events between 2024-08-21 - 2024-09-18 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/299346981/)
 * 2024-09-10 - 2024-09-13 | Hybrid: Virtual and In-Person (Montreal, QC, CA)| [Rust Conf](https://rustconf.com/)
     * [**Rust Conf 2024**](https://foundation.rust-lang.org/events/rustconf-2024/)
+* 2024-09-18 | Virtual + Vienna, AT | [Linux Plumbers Conference](https://lpc.events)
+    * [**Rust Microconference in LPC 2024 (Sep 18-20)**](https://lpc.events/event/18/sessions/186/)
 
 ### Africa
 * 2024-09-06 | Kampala, UG | [Rust Circle Kampala](https://www.eventbrite.com/o/rust-circle-kampala-65249289033/)
@@ -199,6 +205,8 @@ Rusty Events between 2024-08-21 - 2024-09-18 🦀
 ### Asia
 * 2024-08-24 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**August 2024 Rustacean meetup**](https://hasgeek.com/rustbangalore/august-2024-rustacean-meetup/)
+* 2024-09-09 | Ramat Gan, IL | [Coralogix](https://coralogix.com/)
+    * [**Rust as Scale**](https://coralogix.com/rust-coralogix-meetup/)
 
 ### Europe
 * 2024-08-14 | Köln/Cologne, DE | [Rust Cologne](https://www.meetup.com/rustcologne/)
@@ -225,6 +233,8 @@ Rusty Events between 2024-08-21 - 2024-09-18 🦀
     * [**Rust and Tell - Title**](https://www.meetup.com/rust-berlin/events/299421378/)
 * 2024-09-11 | Reading, UK | [Reading Rust Workshop](https://rustworkshop.co/meetup/)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/302833564/)
+* 2024-09-18 | Vienna, AT + Virtual | [Linux Plumbers Conference](https://lpc.events)
+    * [**Rust Microconference in LPC 2024 (Sep 18-20)**](https://lpc.events/event/18/sessions/186/)
 
 
 ### North America
