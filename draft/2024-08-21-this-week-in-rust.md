@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [Rerun 0.18 - Exploiting column chunks for faster ingestion and lower memory use](https://rerun.io/blog/column-chunks)
+* [`srgn 0.13`: new grep-like search mode for source code](https://github.com/alexpovel/srgn/releases/tag/srgn-v0.13.0)
 
 ### Observations/Thoughts
 
