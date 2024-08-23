@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 * [What is a place expression?](https://www.ralfj.de/blog/2024/08/14/places.html)
 * [Arenas](https://donsz.nl/blog/arenas/)
 * [4 Years of Bevy](https://bd103.github.io/blog/2024-08-18-4-years-of-bevy)
+* [Fixing Incorrect Tracing Parent Spans with Futures and JoinSet in Rust](https://chesedo.me/blog/rust-tracing-incorrect-parent-spans-async-futures-joinset/)
 
 ### Rust Walkthroughs
 
