@@ -30,12 +30,9 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+
 * [This Development-cycle in Cargo: 1.81](https://blog.rust-lang.org/inside-rust/2024/08/15/this-development-cycle-in-cargo-1.81.html)
 * [Async Closures MVP: Call for Testing!](https://blog.rust-lang.org/inside-rust/2024/08/09/async-closures-call-for-testing.html)
-
-### Foundation
-
-### Newsletters
 
 ### Project/Tooling Updates
 
@@ -54,9 +51,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 * [Rust GUI library via Flutter, done simple](https://cjycode.com/posts/rust-ui-flutter/)
-* [Series][Mastering Dependency Injection in Rust: Using a macro part 1](https://chesedo.me/blog/despatma-a-minimal-macro-for-dependency-injection/)
-
-### Research
+* [Series] [Mastering Dependency Injection in Rust: Using a macro part 1](https://chesedo.me/blog/despatma-a-minimal-macro-for-dependency-injection/)
 
 ### Miscellaneous
 
@@ -403,7 +398,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1ecdzp2/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -423,4 +418,4 @@ Thanks to [Jonas Fassbender](https://users.rust-lang.org/t/twir-quote-of-the-wee
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1eyyz3c/this_week_in_rust_561/)</small>
