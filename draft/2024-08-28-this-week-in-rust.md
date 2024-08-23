@@ -31,6 +31,8 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Invitation to take the](https://blog.rust-lang.org/inside-rust/2024/08/22/embedded-wg-micro-survey.html) [Embedded Working Group Community Micro Survey](https://www.surveyhero.com/c/uenp3ydt)
+
 ### Foundation
 
 ### Newsletters
