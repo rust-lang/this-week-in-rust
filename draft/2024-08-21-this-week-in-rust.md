@@ -68,7 +68,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [discret](https://github.com/discretlib/discret), a graphQL-based peer-to-peer implementation library.
+
+Thanks to [adsalais](https://users.rust-lang.org/t/crate-of-the-week/2704/1332) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -121,7 +123,106 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+426 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2024-08-13..2024-08-20
+
+* [add powerpc-unknown-linux-muslspe compile target](https://github.com/rust-lang/rust/pull/127905)
+* [`-Znext-solver` caching](https://github.com/rust-lang/rust/pull/128828)
+* [`ParamEnvAnd::fully_perform`: we have an `ocx`, use it](https://github.com/rust-lang/rust/pull/129078)
+* [`derive(SmartPointer)`: register helper attributes](https://github.com/rust-lang/rust/pull/128925)
+* [alloc: add ToString specialization for `&&str`](https://github.com/rust-lang/rust/pull/128759)
+* [allow to customize `// TODO`: comment for deprecated safe autofix](https://github.com/rust-lang/rust/pull/127857)
+* [check that `#[may_dangle]` is properly applied](https://github.com/rust-lang/rust/pull/129235)
+* [cloneToUninit impls](https://github.com/rust-lang/rust/pull/126877)
+* [delete debuginfo test suite infra for gdb without Rust support and lldb with Rust support](https://github.com/rust-lang/rust/pull/129218)
+* [detect incompatible CI rustc options more precisely](https://github.com/rust-lang/rust/pull/129052)
+* [detect multiple crate versions on method not found](https://github.com/rust-lang/rust/pull/128786)
+* [emit a warning instead of an error if `--generate-link-to-definition` is used with other output formats than HTML](https://github.com/rust-lang/rust/pull/129050)
+* [emit an error for invalid use of the linkage attribute](https://github.com/rust-lang/rust/pull/128989)
+* [fix `is_val_statically_known` for floats](https://github.com/rust-lang/rust/pull/129173)
+* [fix order of normalization and recursion in const folding](https://github.com/rust-lang/rust/pull/129208)
+* [fix problems with assoc expr token collection](https://github.com/rust-lang/rust/pull/128725)
+* [fix projections when parent capture is by-ref but child capture is by-value in the `ByMoveBody` pass](https://github.com/rust-lang/rust/pull/129101)
+* [fix wrong argument for `get_fn_decl`](https://github.com/rust-lang/rust/pull/129223)
+* [fix wrong source location for some incorrect macro definitions](https://github.com/rust-lang/rust/pull/129154)
+* [include a copy of `compiler-rt` source in the `download-ci-llvm` tarball](https://github.com/rust-lang/rust/pull/129116)
+* [infer async closure args from `Fn` bound even if there is no corresponding `Future` bound on return](https://github.com/rust-lang/rust/pull/129072)
+* [only try to modify file times of a writable file on Windows](https://github.com/rust-lang/rust/pull/128977)
+* [prevent double panic in query system, improve diagnostics](https://github.com/rust-lang/rust/pull/129271)
+* [print more verbose error for commands that capture output](https://github.com/rust-lang/rust/pull/129096)
+* [record the correct target type when coercing fn items/closures to pointers](https://github.com/rust-lang/rust/pull/129059)
+* [refactor `powerpc64` call ABI handling](https://github.com/rust-lang/rust/pull/128643)
+* [remove `print::Pat` from the printing of `WitnessPat`](https://github.com/rust-lang/rust/pull/128965)
+* [remove redundant type ops: `Eq`/`Subtype`](https://github.com/rust-lang/rust/pull/129106)
+* [return correct `HirId` when finding body owner in diagnostics](https://github.com/rust-lang/rust/pull/129168)
+* [rework MIR inlining debuginfo so function parameters show up in debuggers](https://github.com/rust-lang/rust/pull/128861)
+* [safe transmute: check lifetimes](https://github.com/rust-lang/rust/pull/129217)
+* [special-case alias ty during the delayed bug emission in `try_from_lit`](https://github.com/rust-lang/rust/pull/129042)
+* [suggest adding Result return type for associated method in E0277](https://github.com/rust-lang/rust/pull/128084)
+* [support reading thin archives in ArArchiveBuilder](https://github.com/rust-lang/rust/pull/128936)
+* [switch to using the v2 resolver in most workspaces](https://github.com/rust-lang/rust/pull/128722)
+* [unconditionally allow shadow call-stack sanitizer for AArch64](https://github.com/rust-lang/rust/pull/128348)
+* [use `FnSig` instead of raw `FnDecl` for `ForeignItemKind::Fn`, fix ICE for `Fn` trait error on safe foreign fn](https://github.com/rust-lang/rust/pull/128792)
+* [use `ar_archive_writer` for writing COFF import libs on all backends](https://github.com/rust-lang/rust/pull/129164)
+* [use the `enum2$` Natvis visualiser for repr128 C-style enums](https://github.com/rust-lang/rust/pull/128037)
+* [when deduplicating unreachable blocks, erase the source information](https://github.com/rust-lang/rust/pull/128628)
+* [added "copy" to Debug fmt for copy operands](https://github.com/rust-lang/rust/pull/122551)
+* [miri: FD: remove big surrounding RefCell, simplify socketpair](https://github.com/rust-lang/miri/pull/3809)
+* [miri: `tls_leak_main_thread_allowed`: make test check `target_thread_local`](https://github.com/rust-lang/miri/pull/3822)
+* [miri: add 'project' process guidlines for larger contributions](https://github.com/rust-lang/miri/pull/3807)
+* [miri: add epoll EPOLLHUP flag support](https://github.com/rust-lang/miri/pull/3814)
+* [miri: add epollerr support](https://github.com/rust-lang/miri/pull/3820)
+* [miri: borrow tracking: remove the concept of a call ID](https://github.com/rust-lang/miri/pull/3802)
+* [miri: epoll `test_socketpair_read`: explicitly check real and Miri behavior](https://github.com/rust-lang/miri/pull/3825)
+* [miri: epoll: iterate through output buffer then fetch an event from ready list](https://github.com/rust-lang/miri/pull/3818)
+* [miri: implement epoll shim](https://github.com/rust-lang/miri/pull/3712)
+* [miri: implement pipe and pipe2](https://github.com/rust-lang/miri/pull/3815)
+* [miri: make unused states of Reserved unrepresentable](https://github.com/rust-lang/miri/pull/3754)
+* [miri: set EINVAL for `epoll_wait` maxevent value 0](https://github.com/rust-lang/miri/pull/3824)
+* [shrink `TyKind::FnPtr`](https://github.com/rust-lang/rust/pull/128812)
+* [stabilize `Ready::into_inner()`](https://github.com/rust-lang/rust/pull/116528)
+* [stabilize `asm_const`](https://github.com/rust-lang/rust/pull/128570)
+* [stabilize `is_none_or`](https://github.com/rust-lang/rust/pull/129086)
+* [stabilize `raw_ref_op` (RFC 2582)](https://github.com/rust-lang/rust/pull/127679)
+* [stabilize `std::thread::Builder::spawn_unchecked`](https://github.com/rust-lang/rust/pull/129161)
+* [stabilize `unsafe_attributes`](https://github.com/rust-lang/rust/pull/128771)
+* [`CommandExt::before_exec`: deprecate safety in edition 2024](https://github.com/rust-lang/rust/pull/125970)
+* [`std::fs: get_mode` implementation for all unix](https://github.com/rust-lang/rust/pull/128962)
+* [add `#[must_use]` attribute to `Coroutine` trait](https://github.com/rust-lang/rust/pull/129034)
+* [implement DoubleEnded and ExactSize for `Take<Repeat>` and `Take<RepeatWith>`](https://github.com/rust-lang/rust/pull/106943)
+* [hash Ipv*Addr as an integer](https://github.com/rust-lang/rust/pull/128946)
+* [optimize integer `pow` by removing the exit branch](https://github.com/rust-lang/rust/pull/122884)
+* [std: refactor UNIX random data generation](https://github.com/rust-lang/rust/pull/128655)
+* [add windows-targets crate to std's sysroot](https://github.com/rust-lang/rust/pull/128873)
+* [cargo: add `--lockfile-path` flag](https://github.com/rust-lang/cargo/pull/14326)
+* [cargo: correct diagnostic for `TomlDebugInfo`](https://github.com/rust-lang/cargo/pull/14413)
+* [cargo: doc: convert comments to rustdoc in workspace](https://github.com/rust-lang/cargo/pull/14397)
+* [cargo: fix MSRV for workspace .package and .dependencies](https://github.com/rust-lang/cargo/pull/14400)
+* [cargo: fix: remove list owners feature of info subcommand](https://github.com/rust-lang/cargo/pull/14418)
+* [cargo: implement path-bases (RFC 3529) 1/n: path dep and patch support](https://github.com/rust-lang/cargo/pull/14360)
+* [rustdoc: greatly speed up doctests by compiling compatible doctests in one file](https://github.com/rust-lang/rust/pull/126245)
+* [rustdoc: remove useless attributes in merged doctest generated code](https://github.com/rust-lang/rust/pull/129192)
+* [rustdoc: add possibility to generate rustdoc JSON output to stdout](https://github.com/rust-lang/rust/pull/128963)
+* [rustdoc-json: use FxHashMap from `rustdoc_json_types`](https://github.com/rust-lang/rust/pull/129124)
+* [rustfmt: ensure that `fn config_path` returns canonicalized paths](https://github.com/rust-lang/rustfmt/pull/6272)
+* [clippy: disable `assigning_clones` for tests](https://github.com/rust-lang/rust-clippy/pull/13273)
+* [clippy: fix false positive in `explicit_iter_loop` with msrv](https://github.com/rust-lang/rust-clippy/pull/13288)
+* [clippy: improve `collapsible_match` error message syntax](https://github.com/rust-lang/rust-clippy/pull/13284)
+* [clippy: remove `find_format_arg_expr` AST fallback](https://github.com/rust-lang/rust-clippy/pull/13248)
+* [clippy: trigger `string_slice` if expression is reference to `&str`](https://github.com/rust-lang/rust-clippy/pull/13281)
+* [rust-analyzer: add scip/lsif flag to exclude vendored libaries](https://github.com/rust-lang/rust-analyzer/pull/17900)
+* [rust-analyzer: `min_exhaustive_patterns`](https://github.com/rust-lang/rust-analyzer/pull/17853)
+* [rust-analyzer: implement lifetime inferring](https://github.com/rust-lang/rust-analyzer/pull/17595)
+* [rust-analyzer: make rust-analyzer work partially when offline](https://github.com/rust-lang/rust-analyzer/pull/17915)
+* [rust-analyzer: fix panics for semantic highlighting at startup](https://github.com/rust-lang/rust-analyzer/pull/17932)
+* [rust-analyzer: include generics when lowering extern type](https://github.com/rust-lang/rust-analyzer/pull/17925)
+* [rust-analyzer: keep comments in `convert_while_to_loop`](https://github.com/rust-lang/rust-analyzer/pull/17928)
+* [rust-analyzer: panic when a TAIT exists in a RPIT](https://github.com/rust-lang/rust-analyzer/pull/17924)
+* [rust-analyzer: panic while canonicalizing erroneous projection type](https://github.com/rust-lang/rust-analyzer/pull/17882)
+* [rust-analyzer: panic while hovering associated function with type annotation on generic param that not inherited from its container type](https://github.com/rust-lang/rust-analyzer/pull/17893)
+* [rust-analyzer: properly account for editions in names](https://github.com/rust-lang/rust-analyzer/pull/17905)
+* [rust-analyzer: fix wrong BoundVar index when lowering impl trait parameter of parent generics](https://github.com/rust-lang/rust-analyzer/pull/17916)
 
 ### Rust Compiler Performance Triage
 
@@ -309,7 +410,15 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> I'm trying to round up to next power of two (for fun).
+
+> I know that's perhaps not a lot of fun, but there's [next_power_of_two() ](https://doc.rust-lang.org/std/primitive.u32.html#method.next_power_of_two) on all integer types.
+
+> That is indeed less fun.
+
+– [Edeadlink and Riccardo Borgani on rust-users](https://users.rust-lang.org/t/stupid-or-genius-getting-at-the-bits/116138)
+
+Thanks to [Jonas Fassbender](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1600) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
