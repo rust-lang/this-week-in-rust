@@ -30,6 +30,8 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [This Development-cycle in Cargo: 1.81](https://blog.rust-lang.org/inside-rust/2024/08/15/this-development-cycle-in-cargo-1.81.html)
+* [Async Closures MVP: Call for Testing!](https://blog.rust-lang.org/inside-rust/2024/08/09/async-closures-call-for-testing.html)
 
 ### Foundation
 
@@ -37,15 +39,32 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rerun 0.18 - Exploiting column chunks for faster ingestion and lower memory use](https://rerun.io/blog/column-chunks)
+* [`srgn 0.13`: new grep-like search mode for source code](https://github.com/alexpovel/srgn/releases/tag/srgn-v0.13.0)
+
 ### Observations/Thoughts
 
+* [Expanding on withoutboat’s pinned places](https://poignardazur.github.io/2024/08/16/pinned-places/)
+* [Introducing datafusion-uwheel, A Native DataFusion Optimizer for Time-based Analytics](https://uwheel.rs/post/datafusion_uwheel/)
+* [What is a place expression?](https://www.ralfj.de/blog/2024/08/14/places.html)
+* [Arenas](https://donsz.nl/blog/arenas/)
+* [4 Years of Bevy](https://bd103.github.io/blog/2024-08-18-4-years-of-bevy)
 * [Fixing Incorrect Tracing Parent Spans with Futures and JoinSet in Rust](https://chesedo.me/blog/rust-tracing-incorrect-parent-spans-async-futures-joinset/)
 
 ### Rust Walkthroughs
 
+* [Rust GUI library via Flutter, done simple](https://cjycode.com/posts/rust-ui-flutter/)
+* [Series][Mastering Dependency Injection in Rust: Using a macro part 1](https://chesedo.me/blog/despatma-a-minimal-macro-for-dependency-injection/)
+
 ### Research
 
 ### Miscellaneous
+
+* [The amazing Rust podcasts that have emerged in 2024](https://tim.mcnamara.nz/post/758930152514306048/the-amazing-rust-podcasts-that-have-emerged-in)
+* [FreeBSD considers Rust in the base system](https://lwn.net/SubscriberLink/985210/f3c3beb9ef9c550e/)
+* [Incorporating Lua with Livtet](https://www.jacky.wtf/essays/2024/using-lua-with-livtet/)
+* [video] [Systems Software for Linux with Rust – Interview with Zeeshan Ali Khan](https://www.youtube.com/watch?v=atE94jvfVuA)
+* [Building A Spreadsheet in Rust, WASM, and WebGL](https://filtra.io/rust-quadratic-aug-24)
 
 ## Crate of the Week
 
@@ -55,18 +74,20 @@ and just ask the editors to select the category.
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
-## [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+## Calls for Testing
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+* [RFC: Make Cargo respect minimum supported Rust version (MSRV) when selecting dependencies](https://github.com/rust-lang/rfcs/pull/3537)
+    - [Testing Steps](https://github.com/rust-lang/cargo/issues/13873)
+
+### [Rust](https://github.com/rust-lang/rust/labels/call-for-testing)
+* *No calls for testing were issued this week.*
+
+### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
+* *No calls for testing were issued this week.*
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
@@ -104,22 +125,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A fairly noisy week (though most of that has been dropped from this report).
+Overall we saw several improvements, and ended the week on a net positive.
+Memory usage is down around 1.5-3% over the course of the week, primarily due
+to [RawVec polymorphization](https://github.com/rust-lang/rust/pull/126793) and
+[CloneToUninit impl expansion](https://github.com/rust-lang/rust/pull/126877).
+
+Triage done by **@simulacrum**.
+Revision range: [9cb1998e..4fe1e2bd](https://perf.rust-lang.org/?start=9cb1998ea15e179482504e07cad8fa121e169a32&end=4fe1e2bd5bf5a6f1cb245f161a5e9d315766f103&absolute=false&stat=instructions%3Au)
+
+1 Regressions, 1 Improvements, 3 Mixed; 1 of them in rollups
+53 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2024-08-19.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -127,28 +152,29 @@ Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final
 which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+* [disposition: merge] [crates.io: Crate Deletions](https://github.com/rust-lang/rfcs/pull/3660)
 
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+#### Tracking Issues & PRs
+##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* [disposition: merge] [impl `Default` for `HashMap`/`HashSet` iterators that don't already have it](https://github.com/rust-lang/rust/pull/128711)
+* [disposition: merge] [stabilize const_fn_floating_point_arithmetic](https://github.com/rust-lang/rust/pull/128596)
+* [disposition: merge] [Non-exhaustive structs may be empty](https://github.com/rust-lang/rust/pull/128934)
+* [disposition: merge] [Lint at `deny-by-default` against references to `static mut`](https://github.com/rust-lang/rust/issues/128794)
 
-#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+##### [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* [disposition: merge] [feat: Stablize `CARGO_RUSTC_CURRENT_DIR`](https://github.com/rust-lang/cargo/pull/13644)
 
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+##### [Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc+)
+* *No Language Team Tracking Issues or PRs entered Final Comment Period this week.*
 
-### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
+##### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* *No Language Reference RFCs entered Final Comment Period this week.*
 
-### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
+##### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* *No Unsafe Code Guideline Tracking Issues or PRs entered Final Comment Period this week.*
 
-### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+#### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+* [new] [Trait method impl restrictions](https://github.com/rust-lang/rfcs/pull/3678)
 
 ## Upcoming Events
 
@@ -173,7 +199,7 @@ Rusty Events between 2024-08-21 - 2024-09-18 🦀
     * [**Live coding - A distance #1**](https://www.meetup.com/bordeaux-rust/events/302570681/)
 * 2024-08-27 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
     * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/301585668/)
-* 2024-08-27 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
+* 2024-08-27 | Virtual (Tel Aviv, IL) | [Rust in Israel](https://www.meetup.com/rust-in-israel/)
     * [**Declarative macros in Rust (Virtual) - מקרוים בראסט**](https://www.meetup.com/rust-in-israel/events/302327956/)
 * 2024-08-28 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
     * [**Command Line Tools: Implementing wc in Rust (English, Virtual)**](https://www.meetup.com/code-mavens/events/302151487/)
@@ -191,6 +217,8 @@ Rusty Events between 2024-08-21 - 2024-09-18 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/299346981/)
 * 2024-09-10 - 2024-09-13 | Hybrid: Virtual and In-Person (Montreal, QC, CA)| [Rust Conf](https://rustconf.com/)
     * [**Rust Conf 2024**](https://foundation.rust-lang.org/events/rustconf-2024/)
+* 2024-09-18 | Virtual + Vienna, AT | [Linux Plumbers Conference](https://lpc.events)
+    * [**Rust Microconference in LPC 2024 (Sep 18-20)**](https://lpc.events/event/18/sessions/186/)
 
 ### Africa
 * 2024-09-06 | Kampala, UG | [Rust Circle Kampala](https://www.eventbrite.com/o/rust-circle-kampala-65249289033/)
@@ -199,6 +227,8 @@ Rusty Events between 2024-08-21 - 2024-09-18 🦀
 ### Asia
 * 2024-08-24 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**August 2024 Rustacean meetup**](https://hasgeek.com/rustbangalore/august-2024-rustacean-meetup/)
+* 2024-09-09 | Ramat Gan, IL | [Coralogix](https://coralogix.com/)
+    * [**Rust as Scale**](https://coralogix.com/rust-coralogix-meetup/)
 
 ### Europe
 * 2024-08-14 | Köln/Cologne, DE | [Rust Cologne](https://www.meetup.com/rustcologne/)
@@ -225,6 +255,8 @@ Rusty Events between 2024-08-21 - 2024-09-18 🦀
     * [**Rust and Tell - Title**](https://www.meetup.com/rust-berlin/events/299421378/)
 * 2024-09-11 | Reading, UK | [Reading Rust Workshop](https://rustworkshop.co/meetup/)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/302833564/)
+* 2024-09-18 | Vienna, AT + Virtual | [Linux Plumbers Conference](https://lpc.events)
+    * [**Rust Microconference in LPC 2024 (Sep 18-20)**](https://lpc.events/event/18/sessions/186/)
 
 
 ### North America
