@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [A Piece of UNIX History in Rust](https://howdytx.technology/unix-history-the-dc-calculator/)
 
 ### Rust Walkthroughs
 
