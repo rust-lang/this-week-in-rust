@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Standards for use of unsafe Rust in the kernel](https://lwn.net/Articles/982868/)
 
 ### Observations/Thoughts
 
