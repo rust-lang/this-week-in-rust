@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [video] [A Multiplatform Mobile Navigation SDK with Rust at the Core](https://www.youtube.com/watch?v=WL0jY51PQR8)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
