@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [video] [Explore Linux TTY, process, signals w/ Rust - Part 1/3 (background info)](https://www.youtube.com/watch?v=bolScvh4x7I)
+
 ### Research
 
 ### Miscellaneous
