@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [RustASIA 2025 Rust Conference](https://www.rustasiaconf.com/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
