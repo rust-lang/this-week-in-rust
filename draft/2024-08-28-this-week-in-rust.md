@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+- [Current zlib-rs performance](https://trifectatech.org/blog/current-zlib-rs-performance/)
 
 ### Rust Walkthroughs
 
