@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 ### Research
+* [On the Impact of Memory Safety on Fast Network I/O](https://ieeexplore.ieee.org/abstract/document/10635971)
 
 ### Miscellaneous
 
