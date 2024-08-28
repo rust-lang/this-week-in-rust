@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Why Amazon, Cloduflare and Discord are building servers in Rust but you should probably not](https://kerkour.com/rust-is-bad-for-servers)
+
 ### Rust Walkthroughs
 
 ### Research
