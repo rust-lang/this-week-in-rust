@@ -354,6 +354,9 @@ Rusty Events between 2024-08-07 - 2024-09-04 🦀
     * [**Buffalo Rust User Group**](https://www.meetup.com/buffalo-rust-meetup/events/302007365/)
 * 2024-09-04 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/300328029/)
+* 2024-09-18 | Virtual and In-Person (Seattle, WA, US) | [Seattle Rust User Group](https://www.meetup.com/seattle-rust-user-group/events/)
+    * [**September Meetup**](https://www.meetup.com/join-srug/events/303067835/)
+
 
 ### Europe
 * 2024-08-14 | Köln/Cologne, DE | [Rust Cologne](https://www.meetup.com/rustcologne/)
@@ -388,6 +391,8 @@ Rusty Events between 2024-08-07 - 2024-09-04 🦀
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/xvkdgtygclblc/)
 * 2024-08-29 | Nashville, TN, US | [Music City Rust Developers](https://www.meetup.com/music-city-rust-developers/)
     * [**Music City Rust Developers : placeholder**](https://www.meetup.com/music-city-rust-developers/events/301420110/)
+* 2024-09-18 | Virtual and In-Person (Seattle, WA, US) | [Seattle Rust User Group](https://www.meetup.com/seattle-rust-user-group/events/)
+    * [**September Meetup**](https://www.meetup.com/join-srug/events/303067835/)
 
 # Oceania
 * 2024-08-22 | Auckland, NZ | [Rust AKL](https://www.meetup.com/rust-akl/)
