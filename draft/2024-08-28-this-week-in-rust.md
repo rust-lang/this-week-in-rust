@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [git-cliff 2.5.0 is released!](https://git-cliff.org/blog/2.5.0)
+
 ### Observations/Thoughts
 * [A Piece of UNIX History in Rust](https://howdytx.technology/unix-history-the-dc-calculator/)
 
