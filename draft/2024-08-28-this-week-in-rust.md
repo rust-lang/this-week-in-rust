@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 - [git-cliff 2.5.0 is released!](https://git-cliff.org/blog/2.5.0)
 
 ### Observations/Thoughts
+* [Rust vs C++: A Real-World Perspective (interview with Tyler Weaver)](https://corrode.dev/blog/cpp-rust-interop/)
 * [A Piece of UNIX History in Rust](https://howdytx.technology/unix-history-the-dc-calculator/)
 
 ### Rust Walkthroughs
