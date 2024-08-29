@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 * [Rust vs C++: A Real-World Perspective (interview with Tyler Weaver)](https://corrode.dev/blog/cpp-rust-interop/)
 * [A Piece of UNIX History in Rust](https://howdytx.technology/unix-history-the-dc-calculator/)
 
+* [Why Amazon, Cloduflare and Discord are building servers in Rust but you should probably not](https://kerkour.com/rust-is-bad-for-servers)
+
 ### Rust Walkthroughs
 * [video] [Command line tools: Implementing wc in Rust](https://www.youtube.com/watch?v=eQuSA9kSLAY)
 
