@@ -46,7 +46,9 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
-[Crafting a Blockchain in Go and Rust: A Comparative Journey — Private keys, Public Keys and Signatures [Part 1]](https://hashblog.thepolyglotprogrammer.com/crafting-a-blockchain-in-go-and-rust-a-comparative-journey-private-keys-public-keys-and-signatures-part-1)
+* [Crafting a Blockchain in Go and Rust: A Comparative Journey — Private keys, Public Keys and Signatures [Part 1]](https://hashblog.thepolyglotprogrammer.com/crafting-a-blockchain-in-go-and-rust-a-comparative-journey-private-keys-public-keys-and-signatures-part-1)
+* [video] [A Multiplatform Mobile Navigation SDK with Rust at the Core](https://www.youtube.com/watch?v=WL0jY51PQR8)
+
 
 ## Crate of the Week
 
