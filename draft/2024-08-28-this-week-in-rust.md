@@ -37,7 +37,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-- [git-cliff 2.5.0 is released! (highly customizable changelog generator)](https://git-cliff.org/blog/2.5.0)
+- [git-cliff 2.5.0 is released!](https://git-cliff.org/blog/2.5.0)
 
 ### Observations/Thoughts
 
