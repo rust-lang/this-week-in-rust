@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 * [Bon builder generator 2.0 release 🎉](https://elastio.github.io/bon/blog/bon-builder-generator-v2-release)
 
+* [Meilisearch 1.10 - Federated search, language settings, and improved AI search](https://blog.meilisearch.com/meilisearch-1-10/)
+
 ### Observations/Thoughts
 * [Rust vs C++: A Real-World Perspective (interview with Tyler Weaver)](https://corrode.dev/blog/cpp-rust-interop/)
 * [A Piece of UNIX History in Rust](https://howdytx.technology/unix-history-the-dc-calculator/)
