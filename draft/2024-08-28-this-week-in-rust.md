@@ -30,35 +30,49 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [2024 Leadership Council Survey](https://blog.rust-lang.org/2024/08/26/council-survey.html)
+* [Embedded Working Group Community Micro Survey](https://blog.rust-lang.org/inside-rust/2024/08/22/embedded-wg-micro-survey.html)
 
 ### Foundation
+* [What's in Store at RustConf 2024](https://foundation.rust-lang.org/news/what-s-in-store-at-rustconf-2024/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
-* [Standards for use of unsafe Rust in the kernel](https://lwn.net/Articles/982868/)
-
-- [git-cliff 2.5.0 is released!](https://git-cliff.org/blog/2.5.0)
-
+* [git-cliff 2.5.0 is released!](https://git-cliff.org/blog/2.5.0)
+* [Ferrocene 24.08.0 now available!](https://ferrous-systems.com/blog/ferrocene-24-08-0/)
+* [Go wild: Wildcard support in Rules and a new open-source wildcard crate](https://blog.cloudflare.com/wildcard-rules/)
+* [Why am I writing a Rust compiler in C?](https://notgull.net/announcing-dozer/)
+* [Current zlib-rs performance](https://tweedegolf.nl/en/blog/134/current-zlib-rs-performance)
 * [Bon builder generator 2.0 release 🎉](https://elastio.github.io/bon/blog/bon-builder-generator-v2-release)
+* [Meilisearch 1.10](https://blog.meilisearch.com/meilisearch-1-10/)
 
-* [Meilisearch 1.10 - Federated search, language settings, and improved AI search](https://blog.meilisearch.com/meilisearch-1-10/)
 
 ### Observations/Thoughts
+* [Rust dylib rabbit holes](https://davidlattimore.github.io/posts/2024/08/27/rust-dylib-rabbit-holes.html)
+* [I sped up serde_json strings by 20%](https://purplesyringa.moe/blog/i-sped-up-serde-json-strings-by-20-percent/)
+* [Using StringView / German Style Strings to Make Queries Faster: Part 1 - Reading Parquet](https://www.influxdata.com/blog/faster-queries-with-stringview-part-one-influxdb/)
+* [Rust as My First Language](https://www.shuttle.rs/blog/2024/08/23/rust-as-my-first-language)
+* [Doctests - How were they improved?](https://blog.guillaume-gomez.fr/articles/2024-08-17+Doctests+-+How+were+they+improved%3F)
+* [MiniJinja: Learnings from Building a Template Engine in Rust](https://lucumr.pocoo.org/2024/8/27/minijinja/)
+* [Standards for use of unsafe Rust in the kernel](https://lwn.net/Articles/982868/)
 * [Rust vs C++: A Real-World Perspective (interview with Tyler Weaver)](https://corrode.dev/blog/cpp-rust-interop/)
 * [A Piece of UNIX History in Rust](https://howdytx.technology/unix-history-the-dc-calculator/)
-
 * [Why Amazon, Cloduflare and Discord are building servers in Rust but you should probably not](https://kerkour.com/rust-is-bad-for-servers)
 
 ### Rust Walkthroughs
+* [Let the API protect you](https://www.snoyman.com/blog/2024/08/let-the-api-protect-you/)
+* [Packaging a Rust Program for Fedora](https://jrfernandez.com/packaging-rust-program-for-fedora)
+* [Building a Bevy Plugin for Rolling Dice](https://blog.erikhorton.com/2024/08/25/building-a-bevy-plugin-for-rolling-dice.html)
+* [video] [Implementing a Lox interpreter in Rust](https://www.youtube.com/watch?v=mNOLaw-_Buc)
 * [video] [Command line tools: Implementing wc in Rust](https://www.youtube.com/watch?v=eQuSA9kSLAY)
-
-- [video] [Explore Linux TTY, process, signals w/ Rust - Part 1/3 (background info)](https://www.youtube.com/watch?v=bolScvh4x7I)
+* [video] [Explore Linux TTY, process, signals w/ Rust - Part 1/3 (background info)](https://www.youtube.com/watch?v=bolScvh4x7I)
 
 ### Research
 * [On the Impact of Memory Safety on Fast Network I/O](https://ieeexplore.ieee.org/abstract/document/10635971)
 
 ### Miscellaneous
+* [Can DARPA’s TRACTOR Pull C to Rust for Memory-Safe Overhaul?](https://thenewstack.io/can-darpas-tractor-pull-c-to-rust-for-memory-safe-overhaul/)
 
 * [Crafting a Blockchain in Go and Rust: A Comparative Journey — Private keys, Public Keys and Signatures [Part 1]](https://hashblog.thepolyglotprogrammer.com/crafting-a-blockchain-in-go-and-rust-a-comparative-journey-private-keys-public-keys-and-signatures-part-1)
 * [video] [A Multiplatform Mobile Navigation SDK with Rust at the Core](https://www.youtube.com/watch?v=WL0jY51PQR8)
