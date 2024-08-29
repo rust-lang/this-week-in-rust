@@ -36,8 +36,6 @@ and just ask the editors to select the category.
 ### Foundation
 * [What's in Store at RustConf 2024](https://foundation.rust-lang.org/news/what-s-in-store-at-rustconf-2024/)
 
-### Newsletters
-
 ### Project/Tooling Updates
 * [git-cliff 2.5.0 is released!](https://git-cliff.org/blog/2.5.0)
 * [Ferrocene 24.08.0 now available!](https://ferrous-systems.com/blog/ferrocene-24-08-0/)
@@ -46,7 +44,6 @@ and just ask the editors to select the category.
 * [Current zlib-rs performance](https://tweedegolf.nl/en/blog/134/current-zlib-rs-performance)
 * [Bon builder generator 2.0 release 🎉](https://elastio.github.io/bon/blog/bon-builder-generator-v2-release)
 * [Meilisearch 1.10](https://blog.meilisearch.com/meilisearch-1-10/)
-
 
 ### Observations/Thoughts
 * [Rust dylib rabbit holes](https://davidlattimore.github.io/posts/2024/08/27/rust-dylib-rabbit-holes.html)
@@ -73,7 +70,6 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [Can DARPA’s TRACTOR Pull C to Rust for Memory-Safe Overhaul?](https://thenewstack.io/can-darpas-tractor-pull-c-to-rust-for-memory-safe-overhaul/)
-
 * [Crafting a Blockchain in Go and Rust: A Comparative Journey — Private keys, Public Keys and Signatures [Part 1]](https://hashblog.thepolyglotprogrammer.com/crafting-a-blockchain-in-go-and-rust-a-comparative-journey-private-keys-public-keys-and-signatures-part-1)
 * [video] [A Multiplatform Mobile Navigation SDK with Rust at the Core](https://www.youtube.com/watch?v=WL0jY51PQR8)
 
@@ -115,9 +111,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-<!-- * [ - ]() -->
-<!-- or if none - *No Calls for participation were submitted this week.* -->
+*No Calls for participation were submitted this week.*
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -127,8 +121,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-<!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+*No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -409,7 +402,6 @@ Rusty Events between 2024-08-28 - 2024-09-25 🦀
 * 2024-08-28 | Sydney, NSW, AU | [Rust Sydney](https://www.meetup.com/rust-sydney/)
     * [**Stuff ⚡ And Crabs 🦀**](https://www.meetup.com/rust-sydney/events/302951173/)
 
-
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
 Email the [Rust Community Team][community] for access.
@@ -428,7 +420,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1ecdzp2/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -444,4 +436,4 @@ Thanks to [Anton Fetisov](https://users.rust-lang.org/t/twir-quote-of-the-week/3
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1f3rlhp/this_week_in_rust_562_this_week_in_rust/)</small>
