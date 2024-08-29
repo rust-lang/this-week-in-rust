@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Counting iterations - count() vs collect().len()](https://rust.code-maven.com/counting-iterations-count-vs-collect-len)
 
 ## Crate of the Week
 
