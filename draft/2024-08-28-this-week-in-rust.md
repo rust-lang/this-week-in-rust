@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 * [A Piece of UNIX History in Rust](https://howdytx.technology/unix-history-the-dc-calculator/)
 
 ### Rust Walkthroughs
+* [video] [Command line tools: Implementing wc in Rust](https://www.youtube.com/watch?v=eQuSA9kSLAY)
 
 - [video] [Explore Linux TTY, process, signals w/ Rust - Part 1/3 (background info)](https://www.youtube.com/watch?v=bolScvh4x7I)
 
