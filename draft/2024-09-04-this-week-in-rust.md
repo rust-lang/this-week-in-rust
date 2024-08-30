@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [FreeBSD considers Rust in the base system](https://lwn.net/Articles/985210/)
 
 ### Observations/Thoughts
 
