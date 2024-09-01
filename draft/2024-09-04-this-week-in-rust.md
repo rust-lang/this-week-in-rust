@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [Explore Linux TTY, process, signals w/ Rust - Part 2/3 (signal, proc, IPC egs)](https://youtu.be/58_9yjLI4WA)
+
 ### Research
 
 ### Miscellaneous
