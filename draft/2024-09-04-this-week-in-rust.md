@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Next-gen builder macro Bon 2.1 release 🎉. Compilation is faster by 36% 🚀](https://elastio.github.io/bon/blog/bon-builder-v2-1-release)
 
 ### Observations/Thoughts
 
