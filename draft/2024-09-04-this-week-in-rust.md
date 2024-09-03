@@ -47,7 +47,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [vimania-uri-rs](https://github.com/sysid/vimania-uri-rs), a VIM plugin for file and URI handling.
+
+Thanks to [sysid](https://users.rust-lang.org/t/crate-of-the-week/2704/1334) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -98,7 +100,110 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+416 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2024-08-27..2024-09-03
+
+* [ABI compat check: detect unadjusted ABI mismatches](https://github.com/rust-lang/rust/pull/129649)
+* [`rustc_target`: Add various aarch64 features](https://github.com/rust-lang/rust/pull/128192)
+* [`ub_checks` intrinsics: fall back to `cfg(ub_checks)`](https://github.com/rust-lang/rust/pull/129551)
+* [add `aarch64_unknown_nto_qnx700` target - QNX 7.0 support for aarch64le](https://github.com/rust-lang/rust/pull/127897)
+* [add `needs-unwind` compiletest directive to `libtest-thread-limit` and replace some `Path` with `path` in `run-make`](https://github.com/rust-lang/rust/pull/129690)
+* [add an ability to convert between `Span` and `visit::Location`](https://github.com/rust-lang/rust/pull/129170)
+* [add missing `needs-llvm-components` directives for run-make tests that need target-specific codegen](https://github.com/rust-lang/rust/pull/129605)
+* [add repr to the allowlist for naked functions](https://github.com/rust-lang/rust/pull/129421)
+* [const fn stability checking: also check declared language features](https://github.com/rust-lang/rust/pull/129659)
+* [const-eval: do not make UbChecks behavior depend on current crate's flags](https://github.com/rust-lang/rust/pull/129608)
+* [coverage: rename `CodeRegion` to `SourceRegion`](https://github.com/rust-lang/rust/pull/129686)
+* [create opaque definitions in resolver](https://github.com/rust-lang/rust/pull/129493)
+* [debug-fmt-detail option](https://github.com/rust-lang/rust/pull/123940)
+* [deny `wasm_c_abi` lint to nudge the last 25%](https://github.com/rust-lang/rust/pull/129534)
+* [deny imports of `rustc_type_ir::inherent` outside of type ir + new trait solver](https://github.com/rust-lang/rust/pull/129678)
+* [do not call `source_span` when not tracking dependencies](https://github.com/rust-lang/rust/pull/129513)
+* [don't make statement nonterminals match pattern nonterminals](https://github.com/rust-lang/rust/pull/120221)
+* [don't use `TyKind` in a lint](https://github.com/rust-lang/rust/pull/129527)
+* [emit specific message for `time<=0.3.35`](https://github.com/rust-lang/rust/pull/129343)
+* [enable Miri to pass pointers through FFI](https://github.com/rust-lang/rust/pull/129684)
+* [exit: explain our expectations for the exit handlers registered in a Rust program](https://github.com/rust-lang/rust/pull/129581)
+* [expand NLL MIR dumps](https://github.com/rust-lang/rust/pull/129711)
+* [fix LLVM ABI NAME for riscv64imac-unknown-nuttx-elf](https://github.com/rust-lang/rust/pull/129842)
+* [get rid of `predicates_defined_on`](https://github.com/rust-lang/rust/pull/129546)
+* [implement a first version of RFC 3525: `struct` target features](https://github.com/rust-lang/rust/pull/127537)
+* [interpret, codegen: tweak some comments and checks regarding Box with custom allocator](https://github.com/rust-lang/rust/pull/129812)
+* [interpret/visitor: make memory order iteration slightly more efficient](https://github.com/rust-lang/rust/pull/129751)
+* [interpret: add missing alignment check in `raw_eq`](https://github.com/rust-lang/rust/pull/129666)
+* [interpret: do not make const-eval query result depend on tcx.sess](https://github.com/rust-lang/rust/pull/129613)
+* [linker: synchronize native library search in rustc and linker](https://github.com/rust-lang/rust/pull/129366)
+* [lint that warns when an elided lifetime ends up being a named lifetime (`elided_named_lifetimes`)](https://github.com/rust-lang/rust/pull/129207)
+* [llvm-wrapper: adapt for LLVM API changes](https://github.com/rust-lang/rust/pull/129749)
+* [make decoding non-optional `LazyArray` panic if not set](https://github.com/rust-lang/rust/pull/129829)
+* [make it possible to enable `const_precise_live_drops` per-function](https://github.com/rust-lang/rust/pull/129507)
+* [make the "detect-old-time" UI test more representative](https://github.com/rust-lang/rust/pull/129760)
+* [make the const-unstable-in-stable error more clear](https://github.com/rust-lang/rust/pull/129818)
+* [more `unreachable_pub`](https://github.com/rust-lang/rust/pull/129648)
+* [move `'tcx` lifetime off of impl and onto methods for `CrateMetadataRef`](https://github.com/rust-lang/rust/pull/129689)
+* [move the Windows `remove_dir_all` impl into a module and make it more race resistant](https://github.com/rust-lang/rust/pull/129800)
+* [process.rs: remove "Basic usage" text where not useful](https://github.com/rust-lang/rust/pull/129916)
+* [re-enable android tests/benches in alloc/core](https://github.com/rust-lang/rust/pull/129640)
+* [refactor: standardize duplicate processes in parser](https://github.com/rust-lang/rust/pull/128641)
+* [rename `BikeshedIntrinsicFrom` to `TransmuteFrom`](https://github.com/rust-lang/rust/pull/129657)
+* [replace walk with visit so we dont skip outermost expr kind in def collector](https://github.com/rust-lang/rust/pull/129858)
+* [rewrite `lint_expectations` in a single pass](https://github.com/rust-lang/rust/pull/127313)
+* [riscv64imac: allow shadow call stack sanitizer](https://github.com/rust-lang/rust/pull/129316)
+* [separate core search logic with search ui](https://github.com/rust-lang/rust/pull/126183)
+* [simplify some extern providers](https://github.com/rust-lang/rust/pull/129723)
+* [std: move allocators to `sys`](https://github.com/rust-lang/rust/pull/128134)
+* [stop storing a special inner body for the coroutine by-move body for async closures](https://github.com/rust-lang/rust/pull/128506)
+* [stop using `ty::GenericPredicates` for `non-predicates_of` queries](https://github.com/rust-lang/rust/pull/129725)
+* [tweak some attributes to improve `panic_immediate_abort`](https://github.com/rust-lang/rust/pull/129589)
+* [use a reduced recursion limit in the MIR inliner's cycle breaker](https://github.com/rust-lang/rust/pull/129714)
+* [use equality when relating formal and expected type in arg checking](https://github.com/rust-lang/rust/pull/129317)
+* [use unsafe extern blocks throughout the compiler](https://github.com/rust-lang/rust/pull/129635)
+* [wasi: fix sleeping for `Duration::MAX`](https://github.com/rust-lang/rust/pull/129754)
+* [miri: add tokio io test](https://github.com/rust-lang/miri/pull/3848)
+* [miri: make TB tree traversal bottom-up](https://github.com/rust-lang/miri/pull/3843)
+* [miri: make Tree Borrows Provenance GC compact the tree](https://github.com/rust-lang/miri/pull/3837)
+* [miri: support blocking for epoll](https://github.com/rust-lang/miri/pull/3804)
+* [apply size optimizations to panic machinery and some cold functions](https://github.com/rust-lang/rust/pull/129063)
+* [`derive(SmartPointer)`: assume pointee from the single generic and better error messages](https://github.com/rust-lang/rust/pull/129467)
+* [add `fmt::Debug` to `sync::Weak<T, A>`](https://github.com/rust-lang/rust/pull/129673)
+* [add missing `read_buf` stub for `x86_64-unknown-l4re-uclibc`](https://github.com/rust-lang/rust/pull/129913)
+* [allow `BufReader::peek` to be called on unsized types](https://github.com/rust-lang/rust/pull/129675)
+* [core: use `compare_bytes` for more slice element types](https://github.com/rust-lang/rust/pull/128495)
+* [fix `Pin::set` bounds regression](https://github.com/rust-lang/rust/pull/129668)
+* [improved `checked_isqrt` and `isqrt` methods](https://github.com/rust-lang/rust/pull/128166)
+* [partially stabilize `feature(new_uninit)`](https://github.com/rust-lang/rust/pull/129401)
+* [hashbrown: add `HashTable::iter_hash`, `HashTable::iter_hash_mut`](https://github.com/rust-lang/hashbrown/pull/549)
+* [cargo: resolve: Report incompatible-with-rustc when MSRV-resolver is disabled](https://github.com/rust-lang/cargo/pull/14459)
+* [cargo: resolve: Report incompatible packages with precise Rust version](https://github.com/rust-lang/cargo/pull/14457)
+* [cargo: pkgid: Allow open namespaces in PackageIdSpec's](https://github.com/rust-lang/cargo/pull/14467)
+* [cargo: fix elided lifetime](https://github.com/rust-lang/cargo/pull/14487)
+* [rustfmt: implement 2024 expression overflowing](https://github.com/rust-lang/rustfmt/pull/6260)
+* [clippy: extend `implicit_saturating_sub` lint](https://github.com/rust-lang/rust-clippy/pull/12476)
+* [clippy: new lint: `zombie_processes`](https://github.com/rust-lang/rust-clippy/pull/11476)
+* [clippy: remove `feature=cargo-clippy` argument](https://github.com/rust-lang/rust-clippy/pull/13246)
+* [rust-analyzer: extra sugar auto-completion `async fn ...` in `impl trait` for `async fn in trait` that's defined in desugar form](https://github.com/rust-lang/rust-analyzer/pull/17737)
+* [rust-analyzer: fix handling of `for` in `impl T for A` in function body](https://github.com/rust-lang/rust-analyzer/pull/18005)
+* [rust-analyzer: add explicit `enum` discriminant assist](https://github.com/rust-lang/rust-analyzer/pull/17985)
+* [rust-analyzer: do not report missing unsafe on `addr_of[_mut]!(EXTERN_OR_MUT_STATIC)`](https://github.com/rust-lang/rust-analyzer/pull/18003)
+* [rust-analyzer: create an assist to convert closure to freestanding fn](https://github.com/rust-lang/rust-analyzer/pull/17940)
+* [rust-analyzer: implement cast typecheck and diagnostics](https://github.com/rust-lang/rust-analyzer/pull/17984)
+* [rust-analyzer: implement object safety and its hovering hint](https://github.com/rust-lang/rust-analyzer/pull/17814)
+* [rust-analyzer: suggest name in completion for `let_stmt` and `fn_param`](https://github.com/rust-lang/rust-analyzer/pull/18031)
+* [rust-analyzer: support fn-ptr and fn-path types for lifetime elision hints](https://github.com/rust-lang/rust-analyzer/pull/18010)
+* [rust-analyzer: fix incorrect symbol definitions in SCIP output](https://github.com/rust-lang/rust-analyzer/pull/17988)
+* [rust-analyzer: `std::error::Error` is object unsafe](https://github.com/rust-lang/rust-analyzer/pull/17999)
+* [rust-analyzer: consider field attributes when converting from tuple to named `struct` and the opposite](https://github.com/rust-lang/rust-analyzer/pull/17993)
+* [rust-analyzer: consider indentation in the "Generate impl" and "Generate trait impl" assists](https://github.com/rust-lang/rust-analyzer/pull/17982)
+* [rust-analyzer: don't add reference when it isn't needed for the "Extract variable" assist](https://github.com/rust-lang/rust-analyzer/pull/17991)
+* [rust-analyzer: fix `TokenStream::to_string` implementation dropping quotation marks](https://github.com/rust-lang/rust-analyzer/pull/17994)
+* [rust-analyzer: fix lifetime elision inlay hints breaking for ranged requests](https://github.com/rust-lang/rust-analyzer/pull/18012)
+* [rust-analyzer: fix name resolution of shadowed builtin macro](https://github.com/rust-lang/rust-analyzer/pull/17987)
+* [rust-analyzer: handle attributes correctly in "Flip comma"](https://github.com/rust-lang/rust-analyzer/pull/18015)
+* [rust-analyzer: lifetime hint panic in non generic defs](https://github.com/rust-lang/rust-analyzer/pull/18028)
+* [rust-analyzer: use Result type aliases in "Wrap return type in Result" assist](https://github.com/rust-lang/rust-analyzer/pull/18016)
+* [rust-analyzer: provide an option to hide deprecated items from completion](https://github.com/rust-lang/rust-analyzer/pull/18006)
+* [rust-analyzer: recategorize config classes](https://github.com/rust-lang/rust-analyzer/pull/17945)
 
 ### Rust Compiler Performance Triage
 
@@ -288,7 +393,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> I'm pretty sure I'm the only person ever to single handedly write a complex GPU kernel driver that has never had a memory safety kernel panic bug (itself) in production, running on thousands of users' systems for 1.5 years now.
+>
+> Because I wrote it in Rust.
+
+– [Asahi Lina on vt.social](https://vt.social/@lina/113045456734886438)
+
+Thanks to [Ludwig Stecher](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1604) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
