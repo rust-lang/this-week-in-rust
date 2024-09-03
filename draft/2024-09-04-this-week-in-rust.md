@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Nutype 0.5.0: the newtype with guarantees supports custom errors now](https://github.com/greyblake/nutype/releases/tag/v0.5.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
