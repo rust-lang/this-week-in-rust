@@ -153,17 +153,9 @@ which are reaching a decision. Express your opinions now.
 Rusty Events between 2024-09-04 - 2024-10-02 🦀
 
 ### Virtual
-* 2024-08-28 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
-    * [**Command Line Tools: Implementing wc in Rust (English, Virtual)**](https://www.meetup.com/code-mavens/events/302151487/)
-* 2024-08-29 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
-    * [**Rust Hack and Learn**](https://meet.jit.si/RustHackAndLearnBerlin) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298633267/)
-* 2024-08-29 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
-    * [**Rust Source Code Reading: The thousands crate (English)**](https://www.meetup.com/code-mavens/events/302391142/)
-* 2024-09-03 | Virtual (Buffalo, NY, US) | [Buffalo Rust Meetup](https://www.meetup.com/buffalo-rust-meetup/)
-    * [**Buffalo Rust User Group**](https://www.meetup.com/buffalo-rust-meetup/events/302007365/)
 * 2024-09-04 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/)
     * [**Indy.rs - Typestate Pattern in Rust: With a Strict Builder Example**](https://www.meetup.com/indyrs/events/300328029/)
-* 2024-09-05 | Virtual | [LambdaClass](https://lu.ma/user/usr-dkk9KnFvsvZEb7k)
+* 2024-09-05 | Virtual (Buenos Aires, AR) | [LambdaClass](https://lu.ma/user/usr-dkk9KnFvsvZEb7k)
     * [**Meetup Rust Septiembre [Spanish]**](https://lu.ma/uh1qpox0)
 * 2024-09-05 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
     * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298897957/)
@@ -191,24 +183,24 @@ Rusty Events between 2024-09-04 - 2024-10-02 🦀
     * [**September Meetup**](https://www.meetup.com/join-srug/events/303067835/)
 * 2024-09-24 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
     * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/301585670/)
+* 2024-09-26 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
+    * [**Rusty secure communication on embedded devices**](https://www.meetup.com/charlottesville-rust-meetup/events/303159380/)
+* 2024-10-02 | Virtual (Vancouver, BC, CA) | [Vancouver Postgres](https://www.meetup.com/vancouver-postgres/)
+    * [**Leveraging a PL/RUST extension to protect sensitive data in PostgreSQL**](https://www.meetup.com/vancouver-postgres/events/302160672/)
 
 ### Africa
 * 2024-09-06 | Kampala, UG | [Rust Circle Kampala](https://www.eventbrite.com/o/rust-circle-kampala-65249289033/)
     * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587/)
 
 ### Asia
+* 2024-09-07 - 2024-09-08 | Shanghai, CN | [Rust China](https://rustcc.cn/)
+    * [**Rust China Conf: Shanghai**](https://rustcc.cn/2024conf/)
 * 2024-09-09 | Ramat Gan, IL | [Coralogix](https://coralogix.com/)
     * [**Rust as Scale**](https://coralogix.com/rust-coralogix-meetup/)
 * 2024-09-14 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**September 2024 Rustacean meetup**](https://hasgeek.com/rustbangalore/september-2024-rustacean-meetup/)
 
 ### Europe
-* 2024-08-28 | Frankfurt (Main), DE | [Rust Rhein Main](https://www.meetup.com/rust-rhein-main)
-    * [**Rust Frankfurt WebAssembly**](https://www.meetup.com/rust-rhein-main/events/302738445/)
-* 2024-08-29 | Berlin, DE | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
-    * [**Rust and Tell - The social Beergarden.**](https://www.meetup.com/rust-berlin/events/299421378/)
-* 2024-08-29 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community)
-    * [**Rust meetup #50 sponsored by Adapt Agency**](https://www.meetup.com/copenhagen-rust-community/events/303040544/)
 * 2024-09-04 | Oxford, UK | [Oxfrod Rust Meetup Group](https://www.meetup.com/oxford-rust-meetup-group/)
     * [**More Rust - Generics, constraints, safety.**](https://www.meetup.com/oxford-rust-meetup-group/events/302848276/)
 * 2024-09-11 | Reading, UK | [Reading Rust Workshop](https://rustworkshop.co/meetup/)
@@ -221,18 +213,22 @@ Rusty Events between 2024-09-04 - 2024-10-02 🦀
     * [**Rust Moravia Meetup (September 2024)**](https://www.meetup.com/rust-moravia/events/301360936)
 * 2024-09-18 | Vienna, AT + Virtual | [Linux Plumbers Conference](https://lpc.events)
     * [**Rust Microconference in LPC 2024 (Sep 18-20)**](https://lpc.events/event/18/sessions/186/)
+* 2024-09-21 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/Stockholm-Rust/)
+    * [**Ferris' Fika Forum #5**](https://www.meetup.com/Stockholm-Rust/events/303210419)
 * 2024-09-23 | Bratislava, SK | [Bratislava Rust Meetup Group](https://www.meetup.com/bratislava-rust-meetup-group/)
     * [**Rust Meetup by Sonalake #6**](https://www.meetup.com/bratislava-rust-meetup-group/events/302916594/)
+* 2024-09-24 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/Stockholm-Rust)
+    * [**Rust meetup #70**](https://www.meetup.com/Stockholm-Rust/events/303210419)
+* 2024-09-26 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/)
+    * [**Talk Night**](https://www.meetup.com/rust-aarhus/events/301522991/)
+* 2024-09-27 | Mannheim, DE | [Hackerstolz e.V.](https://www.hackerstolz.de/en/)
+    * [**Hackerstolz Stammtisch Rhein-Neckar**](https://www.hackerstolz.de/en/)
+* 2024-10-02 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/Stockholm-Rust/)
+    * [**Rust Meetup @Funnel**](https://www.meetup.com/Stockholm-Rust/events/303213095)
 
 ### North America
-* 2024-08-28 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/)
-    * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/xvkdgtygclblc/)
-* 2024-08-29 | Nashville, TN, US | [Music City Rust Developers](https://www.meetup.com/music-city-rust-developers/)
-    * [**Music City Rust Developers : placeholder**](https://www.meetup.com/music-city-rust-developers/events/301420110/)
-* 2024-08-29 | Chicago, IL, US | [Deep Dish Rust](https://www.meetup.com/deep-dish-rust/)
-    * [**Rust Hack Night/Happy Hour**](https://www.meetup.com/deep-dish-rust/events/302940777/)
-* 2024-08-31 | Cambridge, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
-    * [**Central Cambridge Rust Lunch, Aug 31**](https://www.meetup.com/bostonrust/events/302498706/)
+* 2024-09-05 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/)
+    * [**Shooting Stars: Create a game from scratch in 25 minutes!**](https://www.meetup.com/utah-rust/events/303204006/)
 * 2024-09-05 | Mountain View, CA, US | [Mountain View Rust Meetup](https://www.meetup.com/mv-rust-meetup/)
     * [**Rust Meetup at Hacker Dojo**](https://www.meetup.com/mv-rust-meetup/events/302723843/)
 * 2024-09-05 | Portland, OR, US | [PDX Rust](https://www.meetup.com/pdxrust/)
@@ -261,10 +257,6 @@ Rusty Events between 2024-09-04 - 2024-10-02 🦀
     * [**Rust Community Meetup - Ferndale**](https://www.meetup.com/detroitrust/events/zfcbntygcmbgc/)
 * 2024-09-25 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/)
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/302274449/)
-
-# Oceania
-* 2024-08-28 | Sydney, NSW, AU | [Rust Sydney](https://www.meetup.com/rust-sydney/)
-    * [**Stuff ⚡ And Crabs 🦀**](https://www.meetup.com/rust-sydney/events/302951173/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
