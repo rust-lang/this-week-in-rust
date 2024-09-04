@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Why Rust needs scoped generics](http://ais523.me.uk/blog/scoped-generics.html)
+
 ### Rust Walkthroughs
 
 ### Research
