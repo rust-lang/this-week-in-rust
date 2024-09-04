@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [BackON Reaches v1](https://xuanwo.io/2024/08-backon-reaches-v1/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
