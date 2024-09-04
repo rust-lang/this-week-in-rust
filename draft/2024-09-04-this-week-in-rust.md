@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Hey Rustaceans: Rust freelancers do exist!](https://blog.veeso.dev/blog/en/hey-rustaceans-rust-freelancers-do-exist/)
+
 ### Rust Walkthroughs
 
 ### Research
