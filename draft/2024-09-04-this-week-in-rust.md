@@ -55,7 +55,7 @@ and just ask the editors to select the category.
 * [Deploying Rust in Existing Firmware Codebases](https://security.googleblog.com/2024/09/deploying-rust-in-existing-firmware.html)
 * [Your own little memory strategy](https://blog.morj.men/posts/rust-arena.html)
 * [Code Generation with GraphQL in Rust](https://omarabid.com/rust-graphql)
-* [How to deadlock Tokio application in Rust with just a singlemutex](https://turso.tech/blog/how-to-deadlock-tokio-application-in-rust-with-just-a-single-mutex)
+* [How to deadlock Tokio application in Rust with just a single mutex](https://turso.tech/blog/how-to-deadlock-tokio-application-in-rust-with-just-a-single-mutex)
 * [Is this trait sealed, or not sealed — that is the question](https://predr.ag/blog/is-this-trait-sealed-or-not-sealed/)
 * [Beyond Ctrl-C: The dark corners of Unix signal handling](https://sunshowers.io/posts/beyond-ctrl-c-signals/)
 * [Rust to Assembly: Understanding the Inner Workings of Rust](https://eventhelix.com/rust/)
