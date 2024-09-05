@@ -65,6 +65,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [Whither the Apple AGX graphics driver?](https://lwn.net/SubscriberLink/988438/4171601a819405c4/)
+* [Counting iterations - count() vs collect().len()](https://rust.code-maven.com/counting-iterations-count-vs-collect-len)
 * [audio] [Learn Rust, Train Doctors – Interview With Caroline Morton](https://timclicks.dev/podcast/learn-rust-train-doctors-interview-with-caroline-morton)
 * [video] [Creating a modding system with Rust and WebAssembly [Voxel Devlog #21]](https://www.youtube.com/watch?v=fvxOI0nQsTA)
 * [video] [From Zero to Async in Embedded Rust](https://www.youtube.com/watch?v=wni5h5vIPhU)
