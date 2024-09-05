@@ -65,6 +65,8 @@ and just ask the editors to select the category.
 * [video] [Crafting an Interpreter in Rust #01: Basic Bytecode Chunks](https://tube.xy-space.de/w/weDkpD5BB8mAWcyUQXzxhu)
 * [video] [Crafting an Interpreter in Rust #02: First Virtual Machine](https://tube.xy-space.de/w/1uSn42TmjCUpR2Ta23CgMA)
 
+* [video] [Explore Linux TTY, process, signals w/ Rust - Part 2/3 (signal, proc, IPC egs)](https://www.youtube.com/watch?v=58_9yjLI4WA)
+
 ### Research
 
 ### Miscellaneous
