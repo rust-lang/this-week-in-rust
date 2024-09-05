@@ -32,8 +32,6 @@ and just ask the editors to select the category.
 ### Official
 * [Security advisory for the standard library (CVE-2024-43402)](https://blog.rust-lang.org/2024/09/04/cve-2024-43402.html)
 
-### Foundation
-
 ### Newsletters
 * [This Month in Rust OSDev: August 2024](https://rust-osdev.com/this-month/2024-08/)
 * [This Week In Bevy - Required Components, Curves, and the Bevy CLI Working Group](https://thisweekinbevy.com/issue/2024-09-02-required-components-curves-and-the-bevy-cli-working-group)
@@ -45,9 +43,7 @@ and just ask the editors to select the category.
 * [iroh 0.24.0 - Upgrading to Quinn 11](https://www.iroh.computer/blog/iroh-0-24-0-quinn-11)
 * [Swiftide 0.9 - Fluvio, Lancedb and RAGAS support](https://bosun.ai/posts/swiftide-0-9/)
 * [Next-gen builder macro Bon 2.1 release 🎉. Compilation is faster by 36% 🚀](https://elastio.github.io/bon/blog/bon-builder-v2-1-release)
-
 * [Nutype 0.5.0: the newtype with guarantees supports custom errors now](https://github.com/greyblake/nutype/releases/tag/v0.5.0)
-
 * [BackON Reaches v1](https://xuanwo.io/2024/08-backon-reaches-v1/)
 
 ### Observations/Thoughts
@@ -64,17 +60,14 @@ and just ask the editors to select the category.
 * [Beyond Ctrl-C: The dark corners of Unix signal handling](https://sunshowers.io/posts/beyond-ctrl-c-signals/)
 * [Rust to Assembly: Understanding the Inner Workings of Rust](https://eventhelix.com/rust/)
 * [K-Means Image Compression](https://www.rdiachenko.com/posts/ml/k-means-image-compression/)
-
 * [Hey Rustaceans: Rust freelancers do exist!](https://blog.veeso.dev/blog/en/hey-rustaceans-rust-freelancers-do-exist/)
+* [Why Rust needs scoped generics](http://ais523.me.uk/blog/scoped-generics.html)
 
 ### Rust Walkthroughs
 * [series] [video] [Rust for Beginners in Arabic](https://youtube.com/playlist?list=PLjQ2-_RIGIVBPbV2H0ng0N4nuN7DsPkPa&si=EQrpkGhEsPCUq9Fu)
 * [video] [Crafting an Interpreter in Rust #01: Basic Bytecode Chunks](https://tube.xy-space.de/w/weDkpD5BB8mAWcyUQXzxhu)
 * [video] [Crafting an Interpreter in Rust #02: First Virtual Machine](https://tube.xy-space.de/w/1uSn42TmjCUpR2Ta23CgMA)
-
 * [video] [Explore Linux TTY, process, signals w/ Rust - Part 2/3 (signal, proc, IPC egs)](https://www.youtube.com/watch?v=58_9yjLI4WA)
-
-### Research
 
 ### Miscellaneous
 * [Whither the Apple AGX graphics driver?](https://lwn.net/SubscriberLink/988438/4171601a819405c4/)
@@ -439,7 +432,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1ecdzp2/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
