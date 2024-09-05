@@ -69,6 +69,8 @@ and just ask the editors to select the category.
 
 * [Why Rust needs scoped generics](http://ais523.me.uk/blog/scoped-generics.html)
 
+* [Async Rust can be a pleasure to work with (without `Send + Sync + 'static`)](https://emschwartz.me/async-rust-can-be-a-pleasure-to-work-with-without-send-sync-static)
+
 ### Rust Walkthroughs
 * [series] [video] [Rust for Beginners in Arabic](https://youtube.com/playlist?list=PLjQ2-_RIGIVBPbV2H0ng0N4nuN7DsPkPa&si=EQrpkGhEsPCUq9Fu)
 * [video] [Crafting an Interpreter in Rust #01: Basic Bytecode Chunks](https://tube.xy-space.de/w/weDkpD5BB8mAWcyUQXzxhu)
