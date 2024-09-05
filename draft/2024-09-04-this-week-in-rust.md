@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 * [Swiftide 0.9 - Fluvio, Lancedb and RAGAS support](https://bosun.ai/posts/swiftide-0-9/)
 * [Next-gen builder macro Bon 2.1 release 🎉. Compilation is faster by 36% 🚀](https://elastio.github.io/bon/blog/bon-builder-v2-1-release)
 
+* [Nutype 0.5.0: the newtype with guarantees supports custom errors now](https://github.com/greyblake/nutype/releases/tag/v0.5.0)
+
 ### Observations/Thoughts
 * [Defeating Coherence in Rust with Tacit Trait Parameters](https://willcrichton.net/notes/defeating-coherence-rust/)
 * [Rust On Illumos](https://wegmueller.it/blog/posts/2024-09-02-rust-on-illumos)
