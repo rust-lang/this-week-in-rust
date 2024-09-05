@@ -59,17 +59,13 @@ and just ask the editors to select the category.
 * [Deploying Rust in Existing Firmware Codebases](https://security.googleblog.com/2024/09/deploying-rust-in-existing-firmware.html)
 * [Your own little memory strategy](https://blog.morj.men/posts/rust-arena.html)
 * [Code Generation with GraphQL in Rust](https://omarabid.com/rust-graphql)
-* [How to deadlock Tokio application in Rust with just a singlemutex](https://turso.tech/blog/how-to-deadlock-tokio-application-in-rust-with-just-a-single-mutex)
+* [How to deadlock Tokio application in Rust with just a single mutex](https://turso.tech/blog/how-to-deadlock-tokio-application-in-rust-with-just-a-single-mutex)
 * [Is this trait sealed, or not sealed — that is the question](https://predr.ag/blog/is-this-trait-sealed-or-not-sealed/)
 * [Beyond Ctrl-C: The dark corners of Unix signal handling](https://sunshowers.io/posts/beyond-ctrl-c-signals/)
 * [Rust to Assembly: Understanding the Inner Workings of Rust](https://eventhelix.com/rust/)
 * [K-Means Image Compression](https://www.rdiachenko.com/posts/ml/k-means-image-compression/)
 
 * [Hey Rustaceans: Rust freelancers do exist!](https://blog.veeso.dev/blog/en/hey-rustaceans-rust-freelancers-do-exist/)
-
-* [Why Rust needs scoped generics](http://ais523.me.uk/blog/scoped-generics.html)
-
-* [Async Rust can be a pleasure to work with (without `Send + Sync + 'static`)](https://emschwartz.me/async-rust-can-be-a-pleasure-to-work-with-without-send-sync-static)
 
 ### Rust Walkthroughs
 * [series] [video] [Rust for Beginners in Arabic](https://youtube.com/playlist?list=PLjQ2-_RIGIVBPbV2H0ng0N4nuN7DsPkPa&si=EQrpkGhEsPCUq9Fu)
