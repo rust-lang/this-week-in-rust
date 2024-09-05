@@ -450,4 +450,4 @@ Thanks to [Ludwig Stecher](https://users.rust-lang.org/t/twir-quote-of-the-week/
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1f9ezq8/this_week_in_rust_563/)</small>
