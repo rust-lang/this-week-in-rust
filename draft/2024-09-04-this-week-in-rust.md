@@ -65,6 +65,8 @@ and just ask the editors to select the category.
 * [Rust to Assembly: Understanding the Inner Workings of Rust](https://eventhelix.com/rust/)
 * [K-Means Image Compression](https://www.rdiachenko.com/posts/ml/k-means-image-compression/)
 
+* [Hey Rustaceans: Rust freelancers do exist!](https://blog.veeso.dev/blog/en/hey-rustaceans-rust-freelancers-do-exist/)
+
 ### Rust Walkthroughs
 * [series] [video] [Rust for Beginners in Arabic](https://youtube.com/playlist?list=PLjQ2-_RIGIVBPbV2H0ng0N4nuN7DsPkPa&si=EQrpkGhEsPCUq9Fu)
 * [video] [Crafting an Interpreter in Rust #01: Basic Bytecode Chunks](https://tube.xy-space.de/w/weDkpD5BB8mAWcyUQXzxhu)
