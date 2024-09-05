@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 * [This Week In Bevy - Required Components, Curves, and the Bevy CLI Working Group](https://thisweekinbevy.com/issue/2024-09-02-required-components-curves-and-the-bevy-cli-working-group)
 
 ### Project/Tooling Updates
+* [FreeBSD considers Rust in the base system](https://lwn.net/Articles/985210/)
 * [GCC Rust - August 2024 Monthly report](https://rust-gcc.github.io/2024/09/03/2024-08-monthly-report.html)
 * [This month in Servo: tabbed browsing, Windows buffs, devtools, and more!](https://servo.org/blog/2024/08/31/this-month-in-servo/)
 * [iroh 0.24.0 - Upgrading to Quinn 11](https://www.iroh.computer/blog/iroh-0-24-0-quinn-11)
