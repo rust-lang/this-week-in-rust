@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 
 * [Nutype 0.5.0: the newtype with guarantees supports custom errors now](https://github.com/greyblake/nutype/releases/tag/v0.5.0)
 
+* [BackON Reaches v1](https://xuanwo.io/2024/08-backon-reaches-v1/)
+
 ### Observations/Thoughts
 * [Defeating Coherence in Rust with Tacit Trait Parameters](https://willcrichton.net/notes/defeating-coherence-rust/)
 * [Rust On Illumos](https://wegmueller.it/blog/posts/2024-09-02-rust-on-illumos)
