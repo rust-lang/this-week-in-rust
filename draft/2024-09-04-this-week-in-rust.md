@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 * [This month in Servo: tabbed browsing, Windows buffs, devtools, and more!](https://servo.org/blog/2024/08/31/this-month-in-servo/)
 * [iroh 0.24.0 - Upgrading to Quinn 11](https://www.iroh.computer/blog/iroh-0-24-0-quinn-11)
 * [Swiftide 0.9 - Fluvio, Lancedb and RAGAS support](https://bosun.ai/posts/swiftide-0-9/)
+* [Next-gen builder macro Bon 2.1 release 🎉. Compilation is faster by 36% 🚀](https://elastio.github.io/bon/blog/bon-builder-v2-1-release)
 
 ### Observations/Thoughts
 * [Defeating Coherence in Rust with Tacit Trait Parameters](https://willcrichton.net/notes/defeating-coherence-rust/)
