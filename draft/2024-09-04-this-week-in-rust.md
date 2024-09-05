@@ -30,20 +30,44 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Security advisory for the standard library (CVE-2024-43402)](https://blog.rust-lang.org/2024/09/04/cve-2024-43402.html)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust OSDev: August 2024](https://rust-osdev.com/this-month/2024-08/)
+* [This Week In Bevy - Required Components, Curves, and the Bevy CLI Working Group](https://thisweekinbevy.com/issue/2024-09-02-required-components-curves-and-the-bevy-cli-working-group)
 
 ### Project/Tooling Updates
+* [GCC Rust - August 2024 Monthly report](https://rust-gcc.github.io/2024/09/03/2024-08-monthly-report.html)
+* [This month in Servo: tabbed browsing, Windows buffs, devtools, and more!](https://servo.org/blog/2024/08/31/this-month-in-servo/)
+* [iroh 0.24.0 - Upgrading to Quinn 11](https://www.iroh.computer/blog/iroh-0-24-0-quinn-11)
+* [Swiftide 0.9 - Fluvio, Lancedb and RAGAS support](https://bosun.ai/posts/swiftide-0-9/)
 
 ### Observations/Thoughts
+* [Defeating Coherence in Rust with Tacit Trait Parameters](https://willcrichton.net/notes/defeating-coherence-rust/)
+* [Rust On Illumos](https://wegmueller.it/blog/posts/2024-09-02-rust-on-illumos)
+* [Rust for Linux revisited](https://drewdevault.com/2024/08/30/2024-08-30-Rust-in-Linux-revisited.html)
+* [Async Rust can be a pleasure to work with (without `Send + Sync + 'static`)](https://emschwartz.me/async-rust-can-be-a-pleasure-to-work-with-without-send-sync-static/)
+* [Rust - A low-level echo server using io_uring](https://www.thespatula.io/rust/rust_io_uring_echo_server/)
+* [Deploying Rust in Existing Firmware Codebases](https://security.googleblog.com/2024/09/deploying-rust-in-existing-firmware.html)
+* [Your own little memory strategy](https://blog.morj.men/posts/rust-arena.html)
+* [Code Generation with GraphQL in Rust](https://omarabid.com/rust-graphql)
+* [How to deadlock Tokio application in Rust with just a singlemutex](https://turso.tech/blog/how-to-deadlock-tokio-application-in-rust-with-just-a-single-mutex)
+* [Is this trait sealed, or not sealed — that is the question](https://predr.ag/blog/is-this-trait-sealed-or-not-sealed/)
+* [Beyond Ctrl-C: The dark corners of Unix signal handling](https://sunshowers.io/posts/beyond-ctrl-c-signals/)
+* [Rust to Assembly: Understanding the Inner Workings of Rust](https://eventhelix.com/rust/)
+* [K-Means Image Compression](https://www.rdiachenko.com/posts/ml/k-means-image-compression/)
 
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+* [Whither the Apple AGX graphics driver?](https://lwn.net/SubscriberLink/988438/4171601a819405c4/)
+* [audio] [Learn Rust, Train Doctors – Interview With Caroline Morton](https://timclicks.dev/podcast/learn-rust-train-doctors-interview-with-caroline-morton)
+* [video] [Creating a modding system with Rust and WebAssembly [Voxel Devlog #21]](https://www.youtube.com/watch?v=fvxOI0nQsTA)
+* [video] [From Zero to Async in Embedded Rust](https://www.youtube.com/watch?v=wni5h5vIPhU)
 
 ## Crate of the Week
 
