@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [Why I started livestreaming as a Rust developer?](https://blog.orhun.dev/livestreaming/)
+
 ### Rust Walkthroughs
 
 ### Research
