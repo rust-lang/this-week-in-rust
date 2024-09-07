@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [What’s So Hard About Hashing Data?](https://www.dfns.co/article/unambiguous-hashing)
+
 ### Rust Walkthroughs
 
 ### Research
