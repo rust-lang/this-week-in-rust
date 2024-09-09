@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Next-gen builder macro Bon 2.2 release 🎉. Derive syntax and cfg support 🚀](https://elastio.github.io/bon/blog/bon-builder-v2-2-release)
 
 ### Observations/Thoughts
 
