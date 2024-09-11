@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [No more unchecked SQLx queries](http://www.matildasmeds.com/posts/no-more-unchecked-sqlx-queries/)
+
 ### Rust Walkthroughs
 
 ### Research
