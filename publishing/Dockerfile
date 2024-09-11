@@ -3,8 +3,7 @@ FROM --platform=linux/amd64 python:3.8.16-slim
 # Must run from base TWIR directory... makefile takes care of this.
 WORKDIR /usr/twir
 
-RUN apt-get update
-RUN apt-get install -y curl build-essential
+RUN apt-get update && apt-get install -y curl build-essential
 
 # pelican+friends
 ENV LANG='en_US.UTF-8'
@@ -16,10 +15,9 @@ RUN curl https://files.stork-search.net/releases/v1.5.0/stork-ubuntu-20-04 -o st
     && mv ./stork /usr/bin/stork
 
 # sass/juice
-RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
+RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - 
 RUN apt-get install -y nodejs
-RUN npm install -g sass
-RUN npm install -g juice
+RUN npm install -g sass juice
 
 # pelican setup
 COPY content content
