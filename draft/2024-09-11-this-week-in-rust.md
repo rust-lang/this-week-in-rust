@@ -223,6 +223,8 @@ Rusty Events between 2024-09-11 - 2024-10-09 🦀
     * [**Rust meetup #70**](https://www.meetup.com/Stockholm-Rust/events/303210419)
 * 2024-09-26 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/)
     * [**Talk Night**](https://www.meetup.com/rust-aarhus/events/301522991/)
+* 2024-09-26 | Augsburg, DE | [Rust Meetup Augsburg](https://www.meetup.com/rust-meetup-augsburg/)
+    * [**Rust Meetup #9: From loops to folds**](https://www.meetup.com/rust-meetup-augsburg/events/302437593)
 * 2024-09-27 | Mannheim, DE | [Hackerstolz e.V.](https://www.hackerstolz.de/en/)
     * [**Hackerstolz Stammtisch Rhein-Neckar**](https://www.hackerstolz.de/en/)
 * 2024-10-02 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/Stockholm-Rust/)
