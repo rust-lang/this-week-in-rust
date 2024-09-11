@@ -1,9 +1,0 @@
-LATEST_YEAR=$(ls output/blog/ | sort | tail -2 | head -1)
-LATEST_MONTH=$(ls output/blog/${LATEST_YEAR} | sort | tail -1)
-LATEST_DAY=$(ls output/blog/${LATEST_YEAR}/${LATEST_MONTH} | sort | tail -1)
-LATEST_ISSUE=$(ls output/blog/${LATEST_YEAR}/${LATEST_MONTH}/${LATEST_DAY}/)
-LATEST_BLOG_URL="http://localhost:8000/blog/${LATEST_YEAR}/${LATEST_MONTH}/${LATEST_DAY}/${LATEST_ISSUE}/"
-YELLOW_FONT='\033[1;32m'
-CYAN_FONT='\033[0;36m'
-PURPLE_FONT='\033[1;35m'
-NC='\033[0m' # No Color
