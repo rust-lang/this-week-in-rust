@@ -47,7 +47,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [cargo-override](https://github.com/eopb/cargo-override/), a cargo plugin for quick overriding of dependencies.
+
+Thanks to [Ajith](https://users.rust-lang.org/t/crate-of-the-week/2704/1344) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -98,7 +100,100 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+399 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2024-09-03..2024-09-10
+
+* [add support for GNU/Hurd on `x86_64`](https://github.com/rust-lang/rust/pull/128345)
+* [add target support for RTEMS Arm](https://github.com/rust-lang/rust/pull/127021)
+* [`impl_trait_overcaptures`: Don't worry about uncaptured contravariant lifetimes if they outlive a captured lifetime](https://github.com/rust-lang/rust/pull/129028)
+* [add suggestions for misspelled keywords](https://github.com/rust-lang/rust/pull/129899)
+* [add an internal lint that warns when accessing untracked data](https://github.com/rust-lang/rust/pull/128919)
+* [arbitrary self types v2: pointers feature gate](https://github.com/rust-lang/rust/pull/129664)
+* [autodiff Upstreaming - enzyme backend](https://github.com/rust-lang/rust/pull/129176)
+* [bypass linker configuration and cross target check for specific commands](https://github.com/rust-lang/rust/pull/128871)
+* [check WF of source type's signature on fn pointer cast](https://github.com/rust-lang/rust/pull/129021)
+* [correctly handle stability of `#[diagnostic]` attributes](https://github.com/rust-lang/rust/pull/130036)
+* [coverage: count await when the Future is immediately ready](https://github.com/rust-lang/rust/pull/130013)
+* [delegation: support generics in associated delegation items](https://github.com/rust-lang/rust/pull/126161)
+* [distribute `rustc_codegen_cranelift` for Windows](https://github.com/rust-lang/rust/pull/128939)
+* [do not attempt to prove unknowable goals](https://github.com/rust-lang/rust/pull/129896)
+* [do not call query to compute coroutine layout for synthetic body of async closure](https://github.com/rust-lang/rust/pull/129847)
+* [do not request sanitizers for naked functions](https://github.com/rust-lang/rust/pull/129891)
+* [do not skip linker configuration for `check` builds](https://github.com/rust-lang/rust/pull/130135)
+* [don't suggest labeling `const` and `unsafe` blocks](https://github.com/rust-lang/rust/pull/128701)
+* [don't build by-move body when async closure is tainted](https://github.com/rust-lang/rust/pull/129677)
+* [don't emit `expect`/`assume` in opt-level=0](https://github.com/rust-lang/rust/pull/121614)
+* [don't store region in `CapturedPlace`](https://github.com/rust-lang/rust/pull/129987)
+* [fix ICE caused by missing span in a region error](https://github.com/rust-lang/rust/pull/130137)
+* [fix ICE in CMSE type validation](https://github.com/rust-lang/rust/pull/130064)
+* [fix ICE when `asm_const` and `const_refs_to_static` are combined](https://github.com/rust-lang/rust/pull/129472)
+* [fix double handling in `collect_tokens`](https://github.com/rust-lang/rust/pull/129346)
+* [fix enabling wasm-component-ld to match other tools](https://github.com/rust-lang/rust/pull/130034)
+* [fix: get llvm type of global val](https://github.com/rust-lang/rust/pull/128820)
+* [implement raw lifetimes and labels (`'r#ident`)](https://github.com/rust-lang/rust/pull/126452)
+* [implement suggestions for `elided_named_lifetimes`](https://github.com/rust-lang/rust/pull/129840)
+* [interpret: make typed copies lossy wrt provenance and padding](https://github.com/rust-lang/rust/pull/129778)
+* [make supertrait and implied predicates queries defaulted](https://github.com/rust-lang/rust/pull/129752)
+* [non-exhaustive structs may be empty](https://github.com/rust-lang/rust/pull/128934)
+* [rename dump of coroutine by-move-body to be more consistent, fix ICE in `dump_mir`](https://github.com/rust-lang/rust/pull/129706)
+* [s390x: fix a regression related to backchain feature](https://github.com/rust-lang/rust/pull/129940)
+* [suggest `impl Trait` for References to Bare Trait in Function Header](https://github.com/rust-lang/rust/pull/127692)
+* [supress niches in coroutines to avoid aliasing violations](https://github.com/rust-lang/rust/pull/129313)
+* [use `DeepRejectCtxt` to quickly reject `ParamEnv` candidates](https://github.com/rust-lang/rust/pull/128776)
+* [miri: a bit of refactoring in "sync"](https://github.com/rust-lang/miri/pull/3874)
+* [miri: detect when `pthread_mutex_t` is moved](https://github.com/rust-lang/miri/pull/3784)
+* [miri: detect when `pthread_rwlock_t` is moved](https://github.com/rust-lang/miri/pull/3871)
+* [miri: enable native libraries on macOS](https://github.com/rust-lang/miri/pull/3856)
+* [miri: fix comment in `mutex_id_offset`](https://github.com/rust-lang/miri/pull/3865)
+* [miri: renamed variable and fixed comments referring to renamed FileDescriptor](https://github.com/rust-lang/miri/pull/3867)
+* [stabilize `-Znext-solver=coherence`](https://github.com/rust-lang/rust/pull/121848)
+* [stabilize `char::MIN`](https://github.com/rust-lang/rust/pull/130154)
+* [stabilize `const_float_bits_conv`](https://github.com/rust-lang/rust/pull/129555)
+* [stabilize `waker_getters`](https://github.com/rust-lang/rust/pull/129919)
+* [Fix CVE-2024-43402](https://github.com/rust-lang/rust/pull/129962)
+* [break into the debugger (if attached) on panics (Windows, Linux, macOS, FreeBSD)](https://github.com/rust-lang/rust/pull/129019)
+* [const: make `ptr.is_null()` stop execution on ambiguity](https://github.com/rust-lang/rust/pull/130107)
+* [make `Result::copied` unstably const](https://github.com/rust-lang/rust/pull/130090)
+* [str: make `as_mut_ptr` and `as_bytes_mut` unstably const](https://github.com/rust-lang/rust/pull/130046)
+* [use the trifecta div algorithm for 128-bit div on wasm](https://github.com/rust-lang/compiler-builtins/pull/685)
+* [cargo: resolve: Report MSRV compatible version instead of incomptible](https://github.com/rust-lang/cargo/pull/14471)
+* [cargo: new: Add to workspace relative to manifest, not current-dir](https://github.com/rust-lang/cargo/pull/14505)
+* [cargo: bail before packaging on same version](https://github.com/rust-lang/cargo/pull/14448)
+* [cargo: don't automatically include the current crate when packaging](https://github.com/rust-lang/cargo/pull/14488)
+* [cargo: fix cargo add behaving different when translating package name](https://github.com/rust-lang/cargo/pull/13765)
+* [cargo: fix parsing of comma separated values in --crate-type flag](https://github.com/rust-lang/cargo/pull/14499)
+* [cargo: include public/private dependency status in `cargo metadata`](https://github.com/rust-lang/cargo/pull/14504)
+* [cargo: publish workspace](https://github.com/rust-lang/cargo/pull/14433)
+* [cargo: remove unnecessary symbols](https://github.com/rust-lang/cargo/pull/14519)
+* [cargo: uplift windows gnullvm import libraries](https://github.com/rust-lang/cargo/pull/14451)
+* [rustdoc-search: allow trailing `Foo →` arg search](https://github.com/rust-lang/rust/pull/130009)
+* [rustdoc: Sort impl associated items by kinds and then by appearance](https://github.com/rust-lang/rust/pull/129471)
+* [rustdoc: add header map to the table of contents](https://github.com/rust-lang/rust/pull/120736)
+* [rustdoc: normalise type/field names](https://github.com/rust-lang/rust/pull/128667)
+* [rustdoc: use strategic boxing to shrink `clean::Item`](https://github.com/rust-lang/rust/pull/129789)
+* [rustfmt: impl `rewrite_result` for ForeignItem, TraitAliasBounds, WherePredicate](https://github.com/rust-lang/rustfmt/pull/6309)
+* [rustfmt: impl `rewrite_result` for `ast::Expr`](https://github.com/rust-lang/rustfmt/pull/6311)
+* [rustfmt: implement version-sort for imports in `style_edition` 2024](https://github.com/rust-lang/rustfmt/pull/6284)
+* [bindgen: stabilize `--wrap-static-fns`](https://github.com/rust-lang/rust-bindgen/pull/2928)
+* [clippy: `single_match`, `single_match_else`: fix suggestion when match irrefutable](https://github.com/rust-lang/rust-clippy/pull/13324)
+* [clippy: `manual_div_ceil`: init](https://github.com/rust-lang/rust-clippy/pull/12987)
+* [clippy: add new check for passing pointers to an `asm!` block with `nomem` option](https://github.com/rust-lang/rust-clippy/pull/13247)
+* [clippy: add new lint `manual_is_power_of_two`](https://github.com/rust-lang/rust-clippy/pull/13327)
+* [clippy: added new `non_zero_suggestions` lint](https://github.com/rust-lang/rust-clippy/pull/13167)
+* [clippy: fix `needless_return` false negative](https://github.com/rust-lang/rust-clippy/pull/13214)
+* [clippy: move `manual_c_str_literals` to complexity](https://github.com/rust-lang/rust-clippy/pull/13263)
+* [clippy: only lint `manual_non_exhaustive` for exported types](https://github.com/rust-lang/rust-clippy/pull/13345)
+* [clippy: visit `struct` fields recursively in uninit fallback check](https://github.com/rust-lang/rust-clippy/pull/13367)
+* [rust-analyzer: IDE support for `asm!` expressions](https://github.com/rust-lang/rust-analyzer/pull/18022)
+* [rust-analyzer: better name suggestions for fn](https://github.com/rust-lang/rust-analyzer/pull/18041)
+* [rust-analyzer: always explicitly set `TraitRef` self types when lowering](https://github.com/rust-lang/rust-analyzer/pull/18068)
+* [rust-analyzer: catch panics from diagnostics computation](https://github.com/rust-lang/rust-analyzer/pull/18065)
+* [rust-analyzer: couple asm! parsing and lowering fixes](https://github.com/rust-lang/rust-analyzer/pull/18053)
+* [rust-analyzer: don't panic lsp writer thread on dropped receiver](https://github.com/rust-lang/rust-analyzer/pull/18066)
+* [rust-analyzer: fix lowering of for loops dropping the loop block](https://github.com/rust-lang/rust-analyzer/pull/18045)
+* [rust-analyzer: properly prevent mir building with unknown types present](https://github.com/rust-lang/rust-analyzer/pull/18067)
+* [rust-analyzer: updating settings should not clobber discovered projects](https://github.com/rust-lang/rust-analyzer/pull/18059)
 
 ### Rust Compiler Performance Triage
 
@@ -280,7 +375,12 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Alas! We are once more bereft  
+> of a quote to elate or explain  
+> so this editor merely has left  
+> the option in rhyme to complain.
+
+– llogiq
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
