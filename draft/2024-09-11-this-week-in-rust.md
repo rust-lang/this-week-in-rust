@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 * [Porting C to Rust for a Fast and Safe AV1 Media Decoder](https://www.memorysafety.org/blog/porting-c-to-rust-for-av1/)
+* [Optimizing rav1d, an AV1 Decoder in Rust](https://www.memorysafety.org/blog/rav1d-performance-optimization/)
 
 ### Rust Walkthroughs
 
