@@ -55,17 +55,11 @@ and just ask the editors to select the category.
 * [Why I started livestreaming as a Rust developer?](https://blog.orhun.dev/livestreaming/)
 * [What’s So Hard About Hashing Data?](https://www.dfns.co/article/unambiguous-hashing)
 * [video] [Renaissance of Terminal User Interfaces with Rust — FrOSCon 2024](https://www.youtube.com/watch?v=OxfxkWoHhxM)
-
 * [Module-companion for a standalone function - associated items for a function](https://www.reddit.com/r/rust/comments/1fcmk37/rust_modulecompanion_for_a_standalone_function/)
-
 * [No more unchecked SQLx queries](http://www.matildasmeds.com/posts/no-more-unchecked-sqlx-queries/)
 
 ### Rust Walkthroughs
 * [video] [Build with Naz : Explore Linux TTY, process, signals w/ Rust - Part 3/3 `tokio::process::Command`](https://www.youtube.com/watch?v=8JeL1sGozO4)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -284,7 +278,7 @@ which are reaching a decision. Express your opinions now.
 ## Upcoming Events
 
 Rusty Events between 2024-09-11 - 2024-10-09 🦀
-x
+
 ### Virtual
 * 2024-09-10 - 2024-09-13 | Hybrid: Virtual and In-Person (Montreal, QC, CA) | [Rust Conf](https://rustconf.com/)
     * [**Rust Conf 2024**](https://foundation.rust-lang.org/events/rustconf-2024/)
@@ -421,7 +415,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1fa0tf6/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
