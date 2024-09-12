@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 * [Porting C to Rust for a Fast and Safe AV1 Media Decoder](https://www.memorysafety.org/blog/porting-c-to-rust-for-av1/)
 * [An Optimization That's Impossible in Rust!](https://tunglevo.com/note/an-optimization-thats-impossible-in-rust/)
 
+* [Why I started livestreaming as a Rust developer?](https://blog.orhun.dev/livestreaming/)
+
 ### Rust Walkthroughs
 
 ### Research
