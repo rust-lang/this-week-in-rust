@@ -48,7 +48,7 @@ and just ask the editors to select the category.
 * [How to configure CPU cores to be used in a Tokio application with core_affinity](https://blog.veeso.dev/blog/en/how-to-configure-cpu-cores-to-be-used-on-a-tokio-with-core--affinity/)
 * [Further simplifying self-referential types for Rust](https://blog.yoshuawuyts.com/self-referential-types-2/)
 * [Network Manager and Rust's zbus](https://rbs.io/2024/07/network-manager-and-rusts-zbus/)
-* [PyO3: From Python to Rust and Back Again](https://www.youtube.com/watch?v=UmL_CA-v3O8)
+* [video] [PyO3: From Python to Rust and Back Again](https://www.youtube.com/watch?v=UmL_CA-v3O8)
 * [Properly Testing Concurrent Data Structures](https://matklad.github.io/2024/07/05/properly-testing-concurrent-data-structures.html)
 * [A Unified Typesystem](https://gist.github.com/Aras14HD/f96cebf827975ba51852b1b981c389ab)
 
