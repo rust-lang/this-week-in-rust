@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Next-gen builder macro Bon 2.2 release 🎉. Derive syntax and cfg support 🚀](https://elastio.github.io/bon/blog/bon-builder-v2-2-release)
 * [Redox OS 0.9.0 - Redox - Your Next(Gen) OS](https://www.redox-os.org/news/release-0.9.0/)
 
 ### Observations/Thoughts
@@ -49,13 +50,10 @@ and just ask the editors to select the category.
 * [WebP: The WebPage compression format](https://purplesyringa.moe/blog/webp-the-webpage-compression-format/)
 * [Porting C to Rust for a Fast and Safe AV1 Media Decoder](https://www.memorysafety.org/blog/porting-c-to-rust-for-av1/)
 * [An Optimization That's Impossible in Rust!](https://tunglevo.com/note/an-optimization-thats-impossible-in-rust/)
-
 * [Why I started livestreaming as a Rust developer?](https://blog.orhun.dev/livestreaming/)
-
 * [What’s So Hard About Hashing Data?](https://www.dfns.co/article/unambiguous-hashing)
 
 ### Rust Walkthroughs
-
 * [video] [Build with Naz : Explore Linux TTY, process, signals w/ Rust - Part 3/3 `tokio::process::Command`](https://www.youtube.com/watch?v=8JeL1sGozO4)
 
 ### Research
