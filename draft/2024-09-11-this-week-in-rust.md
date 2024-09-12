@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 * [Why I started livestreaming as a Rust developer?](https://blog.orhun.dev/livestreaming/)
 * [What’s So Hard About Hashing Data?](https://www.dfns.co/article/unambiguous-hashing)
 
+* [video] [Renaissance of Terminal User Interfaces with Rust — FrOSCon 2024](https://www.youtube.com/watch?v=OxfxkWoHhxM)
+
 ### Rust Walkthroughs
 * [video] [Build with Naz : Explore Linux TTY, process, signals w/ Rust - Part 3/3 `tokio::process::Command`](https://www.youtube.com/watch?v=8JeL1sGozO4)
 
