@@ -87,6 +87,8 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [guidelines]:https://github.com/rust-lang/this-week-in-rust?tab=readme-ov-file#call-for-participation-guidelines
 
+* [This Week in Rust -  We are recruiting more editors!](https://docs.google.com/forms/d/e/1FAIpQLSecGti4F4PiEjSMX92YtvCShVutkXBxx2TFW4gFWWYmyAt7Bg/viewform?usp=sf_link)
+
 ### CFP - Events
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
@@ -221,6 +223,8 @@ x
     * [**Rust meetup #70**](https://www.meetup.com/Stockholm-Rust/events/303210419)
 * 2024-09-26 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/)
     * [**Talk Night**](https://www.meetup.com/rust-aarhus/events/301522991/)
+* 2024-09-26 | Augsburg, DE | [Rust Meetup Augsburg](https://www.meetup.com/rust-meetup-augsburg/)
+    * [**Rust Meetup #9: From loops to folds**](https://www.meetup.com/rust-meetup-augsburg/events/302437593)
 * 2024-09-26 | Berlin, DE | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust and Tell - Title**](https://www.meetup.com/rust-berlin/events/299421380/)
 * 2024-09-26 | Prague, CZ | [Rust Prague](https://www.meetup.com/rust-prague/)
