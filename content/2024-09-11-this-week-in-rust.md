@@ -360,7 +360,7 @@ Rusty Events between 2024-09-11 - 2024-10-09 🦀
     * [**Oxford Rust and C++ social**](https://www.meetup.com/oxford-rust-meetup-group/events/303123395/)
 * 2024-10-02 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/Stockholm-Rust/)
     * [**Rust Meetup @Funnel**](https://www.meetup.com/Stockholm-Rust/events/303213095)
-* 2022-10-03 | Nürnberg, DE | [Rust Nurnberg DE](https://www.meetup.com/rust-noris/)
+* 2024-10-03 | Nürnberg, DE | [Rust Nurnberg DE](https://www.meetup.com/rust-noris/)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/300820273/)
 * 2024-10-03 | Oslo, NO | [Rust Oslo](https://www.meetup.com/rust-oslo/events/)
     * [**Rust Hack'n'Learn at Kampen Bistro**](https://www.meetup.com/rust-oslo/events/303154268/)
@@ -432,4 +432,4 @@ Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/r
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1fevt7b/this_week_in_rust_564/)</small>
