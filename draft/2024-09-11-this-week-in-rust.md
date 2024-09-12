@@ -55,6 +55,8 @@ and just ask the editors to select the category.
 * [What’s So Hard About Hashing Data?](https://www.dfns.co/article/unambiguous-hashing)
 * [video] [Renaissance of Terminal User Interfaces with Rust — FrOSCon 2024](https://www.youtube.com/watch?v=OxfxkWoHhxM)
 
+* [Module-companion for a standalone function - associated items for a function](https://www.reddit.com/r/rust/comments/1fcmk37/rust_modulecompanion_for_a_standalone_function/)
+
 ### Rust Walkthroughs
 * [video] [Build with Naz : Explore Linux TTY, process, signals w/ Rust - Part 3/3 `tokio::process::Command`](https://www.youtube.com/watch?v=8JeL1sGozO4)
 
