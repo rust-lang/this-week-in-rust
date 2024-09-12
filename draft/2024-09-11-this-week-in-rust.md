@@ -30,14 +30,25 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.81.0](https://blog.rust-lang.org/2024/09/05/Rust-1.81.0.html)
+* [Changes to `impl Trait` in Rust 2024](https://blog.rust-lang.org/2024/09/05/impl-trait-capture-rules.html)
 
 ### Foundation
+* [September 2024 Leadership Council Update](https://blog.rust-lang.org/inside-rust/2024/09/06/leadership-council-update.html)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Redox OS 0.9.0 - Redox - Your Next(Gen) OS](https://www.redox-os.org/news/release-0.9.0/)
 
 ### Observations/Thoughts
+* [Rust on RP2350](https://www.raspberrypi.com/news/rust-on-rp2350/)
+* [How we Built 300μs Typo Detection for 1.3M Words in Rust](https://trieve.ai/building-blazingly-fast-typo-correction-in-rust/)
+* [Compressing strings with FSST](https://blog.spiraldb.com/compressing-strings-with-fsst/)
+* [Local code intel using Ollama with Rust, Qdrant, FastEmbed and OpenTelemetry](https://bosun.ai/posts/ollama-and-telemetry/)
+* [WebP: The WebPage compression format](https://purplesyringa.moe/blog/webp-the-webpage-compression-format/)
+* [Porting C to Rust for a Fast and Safe AV1 Media Decoder](https://www.memorysafety.org/blog/porting-c-to-rust-for-av1/)
+* [An Optimization That's Impossible in Rust!](https://tunglevo.com/note/an-optimization-thats-impossible-in-rust/)
 
 ### Rust Walkthroughs
 
