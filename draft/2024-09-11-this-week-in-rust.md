@@ -49,10 +49,10 @@ and just ask the editors to select the category.
 * [Local code intel using Ollama with Rust, Qdrant, FastEmbed and OpenTelemetry](https://bosun.ai/posts/ollama-and-telemetry/)
 * [WebP: The WebPage compression format](https://purplesyringa.moe/blog/webp-the-webpage-compression-format/)
 * [Porting C to Rust for a Fast and Safe AV1 Media Decoder](https://www.memorysafety.org/blog/porting-c-to-rust-for-av1/)
+* [Optimizing rav1d, an AV1 Decoder in Rust](https://www.memorysafety.org/blog/rav1d-performance-optimization/)
 * [An Optimization That's Impossible in Rust!](https://tunglevo.com/note/an-optimization-thats-impossible-in-rust/)
 * [Why I started livestreaming as a Rust developer?](https://blog.orhun.dev/livestreaming/)
 * [What’s So Hard About Hashing Data?](https://www.dfns.co/article/unambiguous-hashing)
-
 * [video] [Renaissance of Terminal User Interfaces with Rust — FrOSCon 2024](https://www.youtube.com/watch?v=OxfxkWoHhxM)
 
 ### Rust Walkthroughs
