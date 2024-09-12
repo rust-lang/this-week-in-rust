@@ -58,6 +58,8 @@ and just ask the editors to select the category.
 
 * [Module-companion for a standalone function - associated items for a function](https://www.reddit.com/r/rust/comments/1fcmk37/rust_modulecompanion_for_a_standalone_function/)
 
+* [No more unchecked SQLx queries](http://www.matildasmeds.com/posts/no-more-unchecked-sqlx-queries/)
+
 ### Rust Walkthroughs
 * [video] [Build with Naz : Explore Linux TTY, process, signals w/ Rust - Part 3/3 `tokio::process::Command`](https://www.youtube.com/watch?v=8JeL1sGozO4)
 
