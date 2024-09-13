@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [RootAsRole 3.0 Release 🎉 A memory-safe and security-oriented alternative to sudo/su commands](https://github.com/LeChatP/RootAsRole/discussions/57)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
