@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Next-gen builder macro Bon 2.3 release 🎉. Positional arguments in starting and finishing functions 🚀](https://elastio.github.io/bon/blog/bon-builder-v2-3-release)
 
 ### Observations/Thoughts
 
