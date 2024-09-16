@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [Blindsided by Rust's Subtyping and Variance](https://nullderef.com/blog/rust-variance/)
+
 ### Research
 
 ### Miscellaneous
