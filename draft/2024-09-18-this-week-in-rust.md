@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing vf2: A subgraph isomorphism algorithm in Rust](https://github.com/OwenTrokeBillard/vf2/discussions/1)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
