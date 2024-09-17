@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+[video] [QnA with Friends: Orhun Parmaksiz on Open Source, the Rust Community and TUI's in Rust](https://www.youtube.com/watch?v=bqYyPVdTvxk)
 
 ## Crate of the Week
 
