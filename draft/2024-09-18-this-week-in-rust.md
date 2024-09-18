@@ -56,6 +56,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [August '24 Rust Jobs Report](https://filtra.io/rust-aug-24)
+* [video] [QnA with Friends: Orhun Parmaksiz on Open Source, the Rust Community and TUI's in Rust](https://www.youtube.com/watch?v=bqYyPVdTvxk)
 
 ## Crate of the Week
 
