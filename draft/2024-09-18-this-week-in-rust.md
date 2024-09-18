@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 * [Maelstrom 0.12.0: Isolate your tests, and run them fast.](https://maelstrom-software.com/blog/0.12.0/)
 
+* [Announcing vf2: A subgraph isomorphism algorithm in Rust](https://github.com/OwenTrokeBillard/vf2/discussions/1)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
