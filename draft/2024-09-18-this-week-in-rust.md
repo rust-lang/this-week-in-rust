@@ -32,27 +32,28 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Latest Rust Foundation Report Details Technical Accomplishments](https://foundation.rust-lang.org/news/latest-rust-foundation-report-details-technical-accomplishments/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [This Month in Xilem, August 2024](https://linebender.org/blog/tmix-08/)
 * [Next-gen builder macro Bon 2.3 release 🎉. Positional arguments in starting and finishing functions 🚀](https://elastio.github.io/bon/blog/bon-builder-v2-3-release)
-
 * [RootAsRole 3.0 Release 🎉 A memory-safe and security-oriented alternative to sudo/su commands](https://github.com/LeChatP/RootAsRole/discussions/57)
-
 * [Maelstrom 0.12.0: Isolate your tests, and run them fast.](https://maelstrom-software.com/blog/0.12.0/)
-
 * [Announcing vf2: A subgraph isomorphism algorithm in Rust](https://github.com/OwenTrokeBillard/vf2/discussions/1)
 
 ### Observations/Thoughts
+* [I landed my dream job making a Rust game engine. Now what?](https://bevyengine.org/news/dream-job/)
+* [audio] [Talking to Microcontrollers with Postcard-RPC](https://sdr-podcast.com/episodes/postcard-rpc/)
 
 ### Rust Walkthroughs
-
-- [Blindsided by Rust's Subtyping and Variance](https://nullderef.com/blog/rust-variance/)
 * [Understanding Memory Ordering in Rust](https://emschwartz.me/understanding-memory-ordering-in-rust/)
-* [video] [Build with Naz : Subtyping and variance](https://www.youtube.com/watch?v=HRlpYXi4E-M)
+* [video] [Build with Naz: Subtyping and variance](https://www.youtube.com/watch?v=HRlpYXi4E-M)
 
 ### Research
+* [Towards Modified Condition/Decision Coverage of Rust](https://arxiv.org/abs/2409.08708)
+* [Blindsided by Rust's Subtyping and Variance](https://nullderef.com/blog/rust-variance/)
 
 ### Miscellaneous
 * [August '24 Rust Jobs Report](https://filtra.io/rust-aug-24)
