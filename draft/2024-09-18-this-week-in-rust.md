@@ -36,16 +36,24 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Next-gen builder macro Bon 2.3 release 🎉. Positional arguments in starting and finishing functions 🚀](https://elastio.github.io/bon/blog/bon-builder-v2-3-release)
+
+* [RootAsRole 3.0 Release 🎉 A memory-safe and security-oriented alternative to sudo/su commands](https://github.com/LeChatP/RootAsRole/discussions/57)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
 
+<<<<<<< patch-1
 - [Blindsided by Rust's Subtyping and Variance](https://nullderef.com/blog/rust-variance/)
+=======
+* [video] [Build with Naz : Subtyping and variance](https://www.youtube.com/watch?v=HRlpYXi4E-M)
+>>>>>>> master
 
 ### Research
 
 ### Miscellaneous
+* [August '24 Rust Jobs Report](https://filtra.io/rust-aug-24)
 
 ## Crate of the Week
 
@@ -104,7 +112,16 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A relatively quiet week, with overall neutral performance across our set of key
+metrics (instructions, cycles, memory).
+
+Triage done by **@simulacrum**.
+Revision range: [263a3aee..170d6cb8](https://perf.rust-lang.org/?start=263a3aeeb8f2d0e9cc85eee61774d1f5f23dc3f5&end=170d6cb845c8c3f0dcec5cdd4210df9ecf990244&absolute=false&stat=instructions%3Au)
+
+2 Regressions, 3 Improvements, 4 Mixed; 2 of them in rollups
+54 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2024-09-16.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
