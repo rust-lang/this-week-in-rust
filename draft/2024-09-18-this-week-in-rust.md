@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 * [RootAsRole 3.0 Release 🎉 A memory-safe and security-oriented alternative to sudo/su commands](https://github.com/LeChatP/RootAsRole/discussions/57)
 
+* [Maelstrom 0.12.0: Isolate your tests, and run them fast.](https://maelstrom-software.com/blog/0.12.0/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
