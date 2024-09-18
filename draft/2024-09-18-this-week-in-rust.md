@@ -49,10 +49,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Understanding Memory Ordering in Rust](https://emschwartz.me/understanding-memory-ordering-in-rust/)
-
-- [Blindsided by Rust's Subtyping and Variance](https://nullderef.com/blog/rust-variance/)
-* [Understanding Memory Ordering in Rust](https://emschwartz.me/understanding-memory-ordering-in-rust/)
-* [video] [Build with Naz : Subtyping and variance](https://www.youtube.com/watch?v=HRlpYXi4E-M)
+* [video] [Build with Naz: Subtyping and variance](https://www.youtube.com/watch?v=HRlpYXi4E-M)
 
 ### Research
 * [Towards Modified Condition/Decision Coverage of Rust](https://arxiv.org/abs/2409.08708)
