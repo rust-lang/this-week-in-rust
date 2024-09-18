@@ -46,11 +46,9 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
-<<<<<<< patch-1
 - [Blindsided by Rust's Subtyping and Variance](https://nullderef.com/blog/rust-variance/)
-=======
+* [Understanding Memory Ordering in Rust](https://emschwartz.me/understanding-memory-ordering-in-rust/)
 * [video] [Build with Naz : Subtyping and variance](https://www.youtube.com/watch?v=HRlpYXi4E-M)
->>>>>>> master
 
 ### Research
 
