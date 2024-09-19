@@ -383,6 +383,8 @@ Rusty Events between 2024-09-18 - 2024-10-16 🦀
     * [**Music City Rust Develpers : Community Presentations**](https://www.meetup.com/music-city-rust-developers/events/301420118/)
 * 2024-09-27 | Cambridge, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
     * [**Beacon Hill Rust Lunch, Sep 27**](https://www.meetup.com/bostonrust/events/302498761/)
+* 2024-10-03 | Boston, MA, US | [SquiggleConf](https://2024.squiggleconf.com/)
+    * [**SquiggleConf 2024: "Oxc: Pluggable Next-Gen Tooling At Rust Speed", Don Isaac**](https://2024.squiggleconf.com/schedule)
 * 2024-10-03 | St. Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust/)
     * [**Iterators in Rust**](https://www.meetup.com/stl-rust/events/302371456/)
 * 2024-10-04 | Mexico City, DF, MX | [Rust MX](https://www.meetup.com/rust-mx/)
