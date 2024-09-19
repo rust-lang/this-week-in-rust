@@ -55,7 +55,7 @@ and just ask the editors to select the category.
 * [Standards for use of unsafe Rust in the kernel](https://lwn.net/Articles/982868/)
 * [Rust vs C++: A Real-World Perspective (interview with Tyler Weaver)](https://corrode.dev/blog/cpp-rust-interop/)
 * [A Piece of UNIX History in Rust](https://howdytx.technology/unix-history-the-dc-calculator/)
-* [Why Amazon, Cloduflare and Discord are building servers in Rust but you should probably not](https://kerkour.com/rust-is-bad-for-servers)
+* [Why Amazon, Cloudflare and Discord are building servers in Rust but you should probably not](https://kerkour.com/rust-is-bad-for-servers)
 
 ### Rust Walkthroughs
 * [Let the API protect you](https://www.snoyman.com/blog/2024/08/let-the-api-protect-you/)
