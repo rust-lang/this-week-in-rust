@@ -36,7 +36,8 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [Perpetual 0.4.7, Quantile regression support and improved multi-threading](https://github.com/perpetual-ml/perpetual)
+* 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
