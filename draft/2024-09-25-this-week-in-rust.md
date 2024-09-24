@@ -108,17 +108,18 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-Not much happened this week. Most changes of note were readily
-justified as removing sources of unpredictable/inconsistent behavior
-from code-generation.
+Not too much happened this week. Most regressions of note were readily justified as removing sources of unpredictable/inconsistent behavior from code-generation. There was one notable improvement, from PR #130561: avoiding redoing a redundant normalization of the param-env ended up improving compile times for 93 primary benchmarks by -1.0% on average.
 
 Triage done by **@pnkfelix**.
 Revision range: [170d6cb8..749f80ab](https://perf.rust-lang.org/?start=170d6cb845c8c3f0dcec5cdd4210df9ecf990244&end=749f80ab051aa0b3724b464130440b0e70a975ac&absolute=false&stat=instructions%3Au)
+Revision range: [506f22b4..4cadeda9](https://perf.rust-lang.org/?start=506f22b4663f3e756e1e6a4f66c6309fdc00819c&end=4cadeda932d5c261a9a0b1bbd25c4486e4e0a4c6&absolute=false&stat=instructions%3Au)
 
-1 Regression, 0 Improvements, 4 Mixed; 1 of them in rollups
-28 artifact comparisons made in total
+(there are two revision ranges to manually work around a rustc-perf website issue.)
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/4c714caeb2bb6907dd527fd56da5cd6d79b30818/triage/2024-09-23.md)
+2 Regressions, 2 Improvements, 7 Mixed; 4 of them in rollups
+62 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/44fe248ab62545a5ee7a1cd710451ca16073ea62/triage/2024-09-23.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
