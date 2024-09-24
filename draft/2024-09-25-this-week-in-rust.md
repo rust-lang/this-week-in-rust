@@ -37,9 +37,13 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Perpetual 0.4.7, Quantile regression support and improved multi-threading](https://github.com/perpetual-ml/perpetual)
+* [git-cliff 2.6.0 is released! (a highly customizable changelog generator)](https://git-cliff.org/blog/2.6.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+
+* [video] [Build with Naz : Rust lifetimes](https://www.youtube.com/watch?v=eIJxAEcle7E)
 
 ### Research
 
@@ -102,7 +106,17 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Not much happened this week. Most changes of note were readily
+justified as removing sources of unpredictable/inconsistent behavior
+from code-generation.
+
+Triage done by **@pnkfelix**.
+Revision range: [170d6cb8..749f80ab](https://perf.rust-lang.org/?start=170d6cb845c8c3f0dcec5cdd4210df9ecf990244&end=749f80ab051aa0b3724b464130440b0e70a975ac&absolute=false&stat=instructions%3Au)
+
+1 Regression, 0 Improvements, 4 Mixed; 1 of them in rollups
+28 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/4c714caeb2bb6907dd527fd56da5cd6d79b30818/triage/2024-09-23.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
