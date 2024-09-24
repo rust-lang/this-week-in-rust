@@ -37,7 +37,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [Fjall 2.0, LSM-based safe Rust storage engine](https://fjall-rs.github.io/post/announcing-fjall-2/)
+* [Fjall 2.0, LSM-based safe Rust key-value storage engine](https://fjall-rs.github.io/post/announcing-fjall-2/)
 
 ### Observations/Thoughts
 
