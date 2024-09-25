@@ -217,6 +217,7 @@ Rusty Events between 2024-09-25 - 2024-10-23 🦀
     * [**Building Tangible Things With Rust**](https://www.meetup.com/tokyo-rust-meetup/events/303402114/)
 * 2024-09-30 | Singapore, SG | [Singapore Rust Meetup](https://www.meetup.com/rust-singapore/)
     * [**How to use Embassy-rs on Esp32**](https://www.meetup.com/rust-singapore/events/303578224/)
+
 ### Europe
 * 2024-09-18 | Moravia, CZ | [Rust Moravia](https://www.meetup.com/rust-moravia/)
     * [**Rust Moravia Meetup (September 2024)**](https://www.meetup.com/rust-moravia/events/301360936)
