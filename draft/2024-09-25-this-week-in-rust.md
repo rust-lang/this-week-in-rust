@@ -37,8 +37,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Perpetual 0.4.7, Quantile regression support and improved multi-threading](https://github.com/perpetual-ml/perpetual)
-* [git-cliff 2.6.0 is released! (a highly customizable changelog generator)](https://git-cliff.org/blog/2.6.0)
-
+* [git-cliff 2.6.0 is released! (a highly customizable changelog generator)](https://git-cliff.org/blog/2.6.0/)
 * [Fjall 2.0, LSM-based safe Rust key-value storage engine](https://fjall-rs.github.io/post/announcing-fjall-2/)
 
 ### Observations/Thoughts
