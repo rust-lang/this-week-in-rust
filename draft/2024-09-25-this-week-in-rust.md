@@ -53,7 +53,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [perpetual](https://github.com/perpetual-ml/perpetual), a self-generalizing gradient boosting implementation.
+
+Thanks to [Mutlu Simsek](https://users.rust-lang.org/t/crate-of-the-week/2704/1348) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -104,7 +106,110 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+400 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2024-09-17..2024-09-24
+
+* [add arm64e-apple-tvos target](https://github.com/rust-lang/rust/pull/130614)
+* [parser: recover from `::`: to `:`:](https://github.com/rust-lang/rust/pull/130673)
+* [`read_volatile __rust_no_alloc_shim_is_unstable` in `alloc_zeroed`](https://github.com/rust-lang/rust/pull/130497)
+* [add `unqualified_local_imports` lint](https://github.com/rust-lang/rust/pull/125645)
+* [add recursion limit to FFI safety lint](https://github.com/rust-lang/rust/pull/130598)
+* [apply `EarlyOtherwiseBranch` to scalar value](https://github.com/rust-lang/rust/pull/129047)
+* [assert that `explicit_super_predicates_of` and `explicit_item_super_predicates` truly only contains bounds for the type itself](https://github.com/rust-lang/rust/pull/130666)
+* [bail if there are too many non-region infer vars in the query response](https://github.com/rust-lang/rust/pull/130617)
+* [call `module_name_to_str` instead of just unwrapping](https://github.com/rust-lang/rust/pull/130680)
+* [change `download-ci-llvm` default from `if-unchanged` to `true`](https://github.com/rust-lang/rust/pull/130529)
+* [check params for unsafety in THIR](https://github.com/rust-lang/rust/pull/130531)
+* [compiler: accept "improper" ctypes in extern "rust-cold" fn](https://github.com/rust-lang/rust/pull/130667)
+* [compiler: factor out `OVERFLOWING_LITERALS` impl](https://github.com/rust-lang/rust/pull/130646)
+* [correct outdated object size limit](https://github.com/rust-lang/rust/pull/127546)
+* [disallow hidden references to mutable static](https://github.com/rust-lang/rust/pull/124895)
+* [do not ICE with incorrect empty suggestion](https://github.com/rust-lang/rust/pull/127988)
+* [do not expect infer/bound/placeholder/error in v0 symbol mangling](https://github.com/rust-lang/rust/pull/130485)
+* [don't ICE in `opaque_hidden_inferred_bound` lint for RPITIT in trait with no default method body](https://github.com/rust-lang/rust/pull/130440)
+* [don't call `extern_crate` when local crate name is the same as a dependency and we have a trait error](https://github.com/rust-lang/rust/pull/130275)
+* [don't call `ty::Const::normalize` in error reporting](https://github.com/rust-lang/rust/pull/130712)
+* [encode `coroutine_by_move_body_def_id` in crate metadata](https://github.com/rust-lang/rust/pull/130201)
+* [ensure that `keyword_ident` lint doesn't trigger on `'r#kw` lifetime](https://github.com/rust-lang/rust/pull/130489)
+* [fix `break_last_token`](https://github.com/rust-lang/rust/pull/130551)
+* [fix anon const def-creation when macros are involved take 2](https://github.com/rust-lang/rust/pull/130337)
+* [fix circular `fn_sig` queries to correct number of args for methods](https://github.com/rust-lang/rust/pull/130496)
+* [fix fluent diagnostics](https://github.com/rust-lang/rust/pull/129477)
+* [further improve diagnostics for expressions in pattern position](https://github.com/rust-lang/rust/pull/123877)
+* [gate `repr(Rust)` correctly on non-ADT items](https://github.com/rust-lang/rust/pull/129422)
+* [get rid of niche selection's dependence on fields's order](https://github.com/rust-lang/rust/pull/130508)
+* [handle unsized consts with type `str` in v0 symbol mangling](https://github.com/rust-lang/rust/pull/130344)
+* [implement Return Type Notation (RTN)'s path form in where clauses](https://github.com/rust-lang/rust/pull/129629)
+* [improve handling of raw-idents in check-cfg](https://github.com/rust-lang/rust/pull/130507)
+* [normalize consts in writeback when GCE is enabled](https://github.com/rust-lang/rust/pull/130645)
+* [relate receiver invariantly in method probe for `Mode::Path`](https://github.com/rust-lang/rust/pull/129073)
+* [remove semi-nondeterminism of `DefPathHash` ordering from inliner](https://github.com/rust-lang/rust/pull/130455)
+* [replace calls to `ty::Const::{try_}eval` in mir build/pattern analysis](https://github.com/rust-lang/rust/pull/130715)
+* [rework `non_local_definitions` lint to only use a syntactic heuristic](https://github.com/rust-lang/rust/pull/127117)
+* [support 128-bit atomics on s390x](https://github.com/rust-lang/rust/pull/130558)
+* [take more advantage of the `isize::MAX` limit in `Layout`](https://github.com/rust-lang/rust/pull/129845)
+* [use `Vec` in `rustc_interface::Config::locale_resources`](https://github.com/rust-lang/rust/pull/129988)
+* [win: open dir for sync access in `remove_dir_all`](https://github.com/rust-lang/rust/pull/129934)
+* [miri: automatically add/remove labels when github review (requests) are used](https://github.com/rust-lang/miri/pull/3893)
+* [miri: refactor fd read/write](https://github.com/rust-lang/miri/pull/3852)
+* [add `extern "C-cmse-nonsecure-entry" fn`](https://github.com/rust-lang/rust/pull/127766)
+* [don't alloca for unused locals](https://github.com/rust-lang/rust/pull/129283)
+* [perf: skip normalizing param env if it is already normalized](https://github.com/rust-lang/rust/pull/130561)
+* [begin experimental support for pin reborrowing](https://github.com/rust-lang/rust/pull/130526)
+* [`RepeatN`: use MaybeUninit](https://github.com/rust-lang/rust/pull/130145)
+* [add `Thread::{into_raw, from_raw}`](https://github.com/rust-lang/rust/pull/97524)
+* [add `Vec::as_non_null`](https://github.com/rust-lang/rust/pull/130624)
+* [add `new_cyclic_in` for Rc and Arc](https://github.com/rust-lang/rust/pull/129674)
+* [add `str.as_str()` for easy Deref to string slices](https://github.com/rust-lang/rust/pull/129550)
+* [avoid re-validating UTF-8 in `FromUtf8Error::into_utf8_lossy`](https://github.com/rust-lang/rust/pull/130408)
+* [delay uncapping the `max_read_size` in `File::read_to_end`](https://github.com/rust-lang/rust/pull/130670)
+* [add `Lazy{Cell,Lock}::get[_mut]` and `force_mut`](https://github.com/rust-lang/rust/pull/130476)
+* [make unstable `Result::flatten` a const fn](https://github.com/rust-lang/rust/pull/130692)
+* [mark `char::make_ascii_uppercase` and `char::make_ascii_lowercase` as const](https://github.com/rust-lang/rust/pull/130697)
+* [mark `u8::make_ascii_uppercase` and `u8::make_ascii_lowercase` as const](https://github.com/rust-lang/rust/pull/130713)
+* [pass `fmt::Arguments` by reference to `PanicInfo` and `PanicMessage`](https://github.com/rust-lang/rust/pull/129491)
+* [stabilize const `MaybeUninit::as_mut_ptr`](https://github.com/rust-lang/rust/pull/130542)
+* [remove uneeded `PartialOrd` bound in `cmp::Ord::clamp`](https://github.com/rust-lang/rust/pull/130481)
+* [std: implement the `random` feature (alternative version)](https://github.com/rust-lang/rust/pull/129201)
+* [support `char::encode_utf16` in const scenarios](https://github.com/rust-lang/rust/pull/130659)
+* [support `char::encode_utf8` in const scenarios](https://github.com/rust-lang/rust/pull/130511)
+* [futures: fix issues with `AsyncBufRead::read_line` and `AsyncBufReadExt::lines`](https://github.com/rust-lang/futures-rs/pull/2884)
+* [hashbrown: implement Clone and Debug for HashTable's Iter `struct`](https://github.com/rust-lang/hashbrown/pull/541)
+* [hashbrown: implement `Debug`, `FusedIterator` and `Iterator::fold` for all `HashTable` iterators](https://github.com/rust-lang/hashbrown/pull/561)
+* [hashbrown: re-introduce a way to get the allocation size of a table](https://github.com/rust-lang/hashbrown/pull/553)
+* [cargo: complete: Upgrade `clap_complete`](https://github.com/rust-lang/cargo/pull/14573)
+* [cargo: complete: Harden `--target` completions](https://github.com/rust-lang/cargo/pull/14564)
+* [cargo: resolve: Don't list transitive, incompatible dependencies as available](https://github.com/rust-lang/cargo/pull/14568)
+* [cargo: resolve: Improve multi-MSRV workspaces](https://github.com/rust-lang/cargo/pull/14569)
+* [cargo: add a `--dry-run` flag to the `install` command](https://github.com/rust-lang/cargo/pull/14280)
+* [cargo: add custom completer for `cargo build --example=<TAB>`](https://github.com/rust-lang/cargo/pull/14531)
+* [cargo: add custom completer for `cargo help <TAB>`](https://github.com/rust-lang/cargo/pull/14557)
+* [cargo: add custom completer for completing benchmark names](https://github.com/rust-lang/cargo/pull/14532)
+* [cargo: add custom completer for completing target triple](https://github.com/rust-lang/cargo/pull/14535)
+* [cargo: add custom completer for completing test names](https://github.com/rust-lang/cargo/pull/14548)
+* [cargo: suggest `cargo info` command in the `cargo search` result](https://github.com/rust-lang/cargo/pull/14537)
+* [rustdoc: use the correct span for doctests](https://github.com/rust-lang/rust/pull/130582)
+* [clippy: ignore `missing_panics_doc` in const context](https://github.com/rust-lang/rust-clippy/pull/13382)
+* [clippy: fix `if_then_some_else_none` sugg missing closure intro](https://github.com/rust-lang/rust-clippy/pull/13409)
+* [clippy: generate versions HTML directly](https://github.com/rust-lang/rust-clippy/pull/13414) (nice poem, @xFredNet)
+* [clippy: initial impl of `unnecessary_first_then_check`](https://github.com/rust-lang/rust-clippy/pull/13421)
+* [clippy: lint comparison to empty slice using `PartialEq` methods](https://github.com/rust-lang/rust-clippy/pull/13432)
+* [clippy: unused trait imports (formerly anonymous trait import)](https://github.com/rust-lang/rust-clippy/pull/13322)
+* [clippy: use contiguous spans for `empty_line_after_*` suggestion](https://github.com/rust-lang/rust-clippy/pull/13439)
+* [rust-analyzer: don't lint names of `#[no_mangle]` extern fns](https://github.com/rust-lang/rust-analyzer/pull/18136)
+* [rust-analyzer: add diagnostics for `unsafe_op_in_unsafe_fn`](https://github.com/rust-lang/rust-analyzer/pull/18135)
+* [rust-analyzer: implement `expr_2021`](https://github.com/rust-lang/rust-analyzer/pull/18137)
+* [rust-analyzer: support the `${concat(...)}` metavariable expression](https://github.com/rust-lang/rust-analyzer/pull/18151)
+* [rust-analyzer: always cache macro expansions' root node in Semantics](https://github.com/rust-lang/rust-analyzer/pull/18117)
+* [rust-analyzer: don't complete `;` when in closure return expression](https://github.com/rust-lang/rust-analyzer/pull/18132)
+* [rust-analyzer: extend `type_variable_table` when modifying index is larger than the table size](https://github.com/rust-lang/rust-analyzer/pull/18139)
+* [rust-analyzer: get rid of `$crate` in expansions shown to the user](https://github.com/rust-lang/rust-analyzer/pull/18131)
+* [rust-analyzer: handle errors and lints from external macros](https://github.com/rust-lang/rust-analyzer/pull/18128)
+* [rust-analyzer: handle lint attributes that are under `#[cfg_attr]`](https://github.com/rust-lang/rust-analyzer/pull/18108)
+* [rust-analyzer: remove check that text of `parse_expr_from_str()` matches the produced parsed tree](https://github.com/rust-lang/rust-analyzer/pull/18146)
+* [rust-analyzer: support expect in attribute completion and hover](https://github.com/rust-lang/rust-analyzer/pull/18172)
+* [rust-analyzer: when checking for forbidden expr kind matches, account for rawness](https://github.com/rust-lang/rust-analyzer/pull/18153)
 
 ### Rust Compiler Performance Triage
 
@@ -308,7 +413,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> New users feel like iteration times are so slow and it takes forever to get going with Rust. But if there's a library available, I feel like I'm roughly as productive with Rust as I am with Ruby, if not more, when I think about the whole amount of work I'm doing. I haven't really figured out how to talk about that without sounding purely like a zealot, but yeah, I feel like Rust is actually very, very productive, even though many people don't see it that way initially.
+
+– [Steve Klabnik at Oxidize Conference](https://youtu.be/q8qn0dyT3xc?t=2784)
+
+Thanks to [Brian Kung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1611) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
