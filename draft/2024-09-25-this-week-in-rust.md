@@ -30,25 +30,48 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [September Project Goals Update](https://blog.rust-lang.org/2024/09/23/Project-Goals-Sep-Update.html)
+* [WebAssembly targets: change in default target-features](https://blog.rust-lang.org/2024/09/24/webassembly-targets-change-in-default-target-features.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Bevy Foundation is now a 501(c)(3) Public Charity](https://bevyengine.org/news/bevy-foundation-501c3/)
+* [Development of rustc_codegen_gcc](https://blog.antoyo.xyz/development-rustc_codegen_gcc)
+* [Postcard 2.0: Looking for Sponsors!](https://onevariable.com/blog/postcard-2-sponsors/)
+* [Announcing Stable V8 Bindings for Rust](https://deno.com/blog/rusty-v8-stabilized)
 * [Perpetual 0.4.7, Quantile regression support and improved multi-threading](https://github.com/perpetual-ml/perpetual)
 * [git-cliff 2.6.0 is released! (a highly customizable changelog generator)](https://git-cliff.org/blog/2.6.0/)
 * [Fjall 2.0, LSM-based safe Rust key-value storage engine](https://fjall-rs.github.io/post/announcing-fjall-2/)
 
 ### Observations/Thoughts
 
+* [“Truly Hygienic” Let Statements in Rust](https://sabrinajewson.org/blog/truly-hygienic-let)
+* [One year of Rust in production](https://yieldcode.blog/post/one-year-of-rust-in-production/)
+* [Rust panics under the hood, and implementing them in .NET](https://fractalfir.github.io/generated_html/rustc_codegen_clr_v0_2_1.html)
+* [video] [Miguel Raz - Building a compile-time SIMD optimized smoothing filter](https://www.youtube.com/watch?v=bdsBhqKOe7A)
+* [video] [Rust LLM Frameworks have a Bright Future](https://www.youtube.com/watch?v=fIFUnYNuYbc)
+* [audio] [What Are You Syncing About?](https://sdr-podcast.com/episodes/syncing/)
+* [audio] [You might not need Arc](https://sdr-podcast.com/episodes/arc/)
+
 ### Rust Walkthroughs
 
+* [The Watermelon Operator](https://matklad.github.io/2024/09/24/watermelon-operator.html)
+* [Fast Unorm Conversions](https://rundevelopment.github.io/blog/fast-unorm-conversions)
+* [A small trick for simple Rust/C++ interop](https://gaultier.github.io/blog/rust_c++_interop_trick.html)
+* [video] [Decrusting the quickcheck crate](https://www.youtube.com/watch?v=64t-gPC33cc)
+* [video] [Build low poly terrain from planes meshes in Bevy](https://www.youtube.com/watch?v=Ky43Od2Ons8)
 * [video] [Build with Naz : Rust lifetimes](https://www.youtube.com/watch?v=eIJxAEcle7E)
+* [video] [Backend in Rust 02 - JWT Authentication, Sea ORM, Axum, Rust](https://www.youtube.com/watch?v=QqPqlUqxW2A)
 
 ### Research
 
 ### Miscellaneous
+* [Eliminating Memory Safety Vulnerabilities at the Source](https://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html)
+* [Committing to Rust in the kernel](https://lwn.net/SubscriberLink/991062/b0df468b40b21f5d/)
+* [How to Learn Rust in 2024: A Complete Beginner’s Guide to Mastering Rust Programming](https://blog.jetbrains.com/rust/2024/09/20/how-to-learn-rust/)
 
 ## Crate of the Week
 
