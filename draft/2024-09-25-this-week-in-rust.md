@@ -33,10 +33,6 @@ and just ask the editors to select the category.
 * [September Project Goals Update](https://blog.rust-lang.org/2024/09/23/Project-Goals-Sep-Update.html)
 * [WebAssembly targets: change in default target-features](https://blog.rust-lang.org/2024/09/24/webassembly-targets-change-in-default-target-features.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [Bevy Foundation is now a 501(c)(3) Public Charity](https://bevyengine.org/news/bevy-foundation-501c3/)
 * [Development of rustc_codegen_gcc](https://blog.antoyo.xyz/development-rustc_codegen_gcc)
@@ -47,8 +43,7 @@ and just ask the editors to select the category.
 * [Fjall 2.0, LSM-based safe Rust key-value storage engine](https://fjall-rs.github.io/post/announcing-fjall-2/)
 
 ### Observations/Thoughts
-
-* [“Truly Hygienic” Let Statements in Rust](https://sabrinajewson.org/blog/truly-hygienic-let)
+* ["Truly Hygienic" Let Statements in Rust](https://sabrinajewson.org/blog/truly-hygienic-let)
 * [One year of Rust in production](https://yieldcode.blog/post/one-year-of-rust-in-production/)
 * [Rust panics under the hood, and implementing them in .NET](https://fractalfir.github.io/generated_html/rustc_codegen_clr_v0_2_1.html)
 * [video] [Miguel Raz - Building a compile-time SIMD optimized smoothing filter](https://www.youtube.com/watch?v=bdsBhqKOe7A)
@@ -57,7 +52,6 @@ and just ask the editors to select the category.
 * [audio] [You might not need Arc](https://sdr-podcast.com/episodes/arc/)
 
 ### Rust Walkthroughs
-
 * [The Watermelon Operator](https://matklad.github.io/2024/09/24/watermelon-operator.html)
 * [Fast Unorm Conversions](https://rundevelopment.github.io/blog/fast-unorm-conversions)
 * [A small trick for simple Rust/C++ interop](https://gaultier.github.io/blog/rust_c++_interop_trick.html)
@@ -65,8 +59,6 @@ and just ask the editors to select the category.
 * [video] [Build low poly terrain from planes meshes in Bevy](https://www.youtube.com/watch?v=Ky43Od2Ons8)
 * [video] [Build with Naz : Rust lifetimes](https://www.youtube.com/watch?v=eIJxAEcle7E)
 * [video] [Backend in Rust 02 - JWT Authentication, Sea ORM, Axum, Rust](https://www.youtube.com/watch?v=QqPqlUqxW2A)
-
-### Research
 
 ### Miscellaneous
 * [Eliminating Memory Safety Vulnerabilities at the Source](https://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html)
@@ -422,7 +414,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1fa0tf6/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
