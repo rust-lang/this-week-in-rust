@@ -209,8 +209,6 @@ Rusty Events between 2024-09-25 - 2024-10-23 🦀
 ### Africa
 * 2024-10-05 | Kampala, UG | [Rust Circle Kampala](https://www.eventbrite.com/o/rust-circle-kampala-65249289033/)
     * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587)
-* 2024-10-09 | Subang Jaya / Kuala Lumpur, Selangor, MY | [Rust Malaysia](https://rust-malaysia.github.io/meetup/)
-    * [**Rust Malaysia Meetup - Traits and How to Read Trait (October 2024)**](https://docs.google.com/forms/d/e/1FAIpQLScNS5IWmnzTTJAOw-RIxdj4_BWbxB5NVmAVO30XHr_viMbLqQ/viewform)
 
 ### Asia
 * 2024-09-21 | Bangalore/Bengaluru, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
@@ -219,6 +217,8 @@ Rusty Events between 2024-09-25 - 2024-10-23 🦀
     * [**Building Tangible Things With Rust**](https://www.meetup.com/tokyo-rust-meetup/events/303402114/)
 * 2024-09-30 | Singapore, SG | [Singapore Rust Meetup](https://www.meetup.com/rust-singapore/)
     * [**How to use Embassy-rs on Esp32**](https://www.meetup.com/rust-singapore/events/303578224/)
+* 2024-10-09 | Subang Jaya / Kuala Lumpur, Selangor, MY | [Rust Malaysia](https://rust-malaysia.github.io/meetup/)
+    * [**Rust Malaysia Meetup - Traits and How to Read Trait (October 2024)**](https://docs.google.com/forms/d/e/1FAIpQLScNS5IWmnzTTJAOw-RIxdj4_BWbxB5NVmAVO30XHr_viMbLqQ/viewform)
 
 ### Europe
 * 2024-09-18 | Moravia, CZ | [Rust Moravia](https://www.meetup.com/rust-moravia/)
