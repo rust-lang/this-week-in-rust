@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+- [System76 COSMIC Alpha 2 Released](https://blog.system76.com/post/cosmic-alpha-2-press-release)
 
 ### Observations/Thoughts
 
