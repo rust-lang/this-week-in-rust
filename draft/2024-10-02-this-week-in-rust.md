@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [Build with Naz : Rust clap colorization](https://www.youtube.com/watch?v=lzMYDA6St0s)
+
 ### Research
 
 ### Miscellaneous
