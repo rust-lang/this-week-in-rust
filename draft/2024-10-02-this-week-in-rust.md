@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
++ [tokio-graceful 0.2.0: support shutdown trigger delay and forceful shutdown](https://github.com/plabayo/tokio-graceful/releases/tag/0.2.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
