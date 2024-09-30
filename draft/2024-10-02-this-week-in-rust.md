@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Two weeks of binsider - a TUI for binary analysis (0.2.0 is released)](https://binsider.dev/blog/v020/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
