@@ -30,14 +30,31 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [This Development-cycle in Cargo: 1.82](https://blog.rust-lang.org/inside-rust/2024/10/01/this-development-cycle-in-cargo-1.82.html)
+* [Return type notation MVP: Call for testing!](https://blog.rust-lang.org/inside-rust/2024/09/26/rtn-call-for-testing.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Two weeks of binsider](https://binsider.dev/blog/v020/)
+* [egui 0.29](https://github.com/emilk/egui/releases/tag/0.29.0)
+* [pantheon: Parsing command line arguments](https://traxys.me/sheshat_pantheon_3.html)
 
 ### Observations/Thoughts
+* [(Re)Using rustc components in gccrs](https://rust-gcc.github.io/2024/09/20/reusing-rustc-components.html)
+* [Whence '\n'?](https://rodarmor.com/blog/whence-newline/)
+* [Should you use Rust in LLM based tools for performance?](https://bosun.ai/posts/rust-for-genai-performance/)
+* [Code Generation in Rust vs C++26](https://brevzin.github.io/c++/2024/09/30/annotations/)
+* [Rust adventure to develop a Game Boy emulator — Part 3: CPU Instructions](https://medium.com/@wolferxy/rust-adventure-to-develop-a-game-boy-emulator-part-3-cpu-instructions-d6d1d727026f)
+* [Mastering Dependency Injection in Rust: Despatma with Lifetimes](https://chesedo.me/blog/despatma-with-singleton-and-scoped-support/)
+* [Improved Turso (libsql) ergonomics in Rust](https://codethoughts.io/posts/2024-10-01-improved-turso-ergonomics-in-rust/)
+* [Rewriting Rust](https://josephg.com/blog/rewriting-rust/)
+* [Making overwrite opt-in #crazyideas](https://smallcultfollowing.com/babysteps/blog/2024/09/26/overwrite-trait/)
+* [Rust needs a web framework for lazy developers](https://ntietz.com/blog/rust-needs-a-web-framework-for-lazy-developers/)
+* [Safety Goggles for Alchemists](https://jack.wrenn.fyi/blog/safety-goggles-for-alchemists/)
+* [Beyond multi-core parallelism: faster Mandelbrot with SIMD](https://pythonspeed.com/articles/optimizing-with-simd/)
 
 ### Rust Walkthroughs
 
