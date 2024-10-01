@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [Rust interop in practice: speaking Python and Javascript](https://tweedegolf.nl/en/blog/136/rust-interop-in-practice-speaking-python-and-javascript)
 
 ### Research
 
