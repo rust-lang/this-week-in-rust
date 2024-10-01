@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [New Book: "100 Exercises to Learn Rust: A hands-on course by Mainmatter"](https://a.co/d/j16Pzf2).
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
