@@ -229,6 +229,8 @@ Rusty Events between 2024-10-02 - 2024-10-30 🦀
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/wrdkmtygcnbmb/)
 * 2024-10-10 - 2024-10-11 | Virtual and In-Person (Vienna, AT) | [Euro Rust](eurorust)
     * [**Euro Rust 2024**](https://eurorust.eu/)
+* 2024-10-10 | Barcelona, ES | [BcnRust](https://bcnrust.github.io)
+    * [**16th BcnRust Meetup**](https://www.meetup.com/es-ES/bcnrust/events/303792888/)
 * 2024-10-15 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/302425056/)
 * 2024-10-17 | Darmstadr, DE | [Rust Rhein-Main](https://www.meetup.com/rust-rhein-main)
