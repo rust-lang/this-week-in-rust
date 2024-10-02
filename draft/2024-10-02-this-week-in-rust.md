@@ -231,6 +231,8 @@ Rusty Events between 2024-10-02 - 2024-10-30 🦀
     * [**Euro Rust 2024**](https://eurorust.eu/)
 * 2024-10-15 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/302425056/)
+* 2025-03-26 | Warsaw, PL | [Rustikon](https://www.rustikon.dev/)
+  * [**Call for papers**](https://sessionize.com/rustikon-2025)
 
 ### North America
 * 2024-09-25 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/)
