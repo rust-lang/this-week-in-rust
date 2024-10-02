@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rust needs an extended standard library](https://kerkour.com/rust-stdx)
+
 ### Rust Walkthroughs
 
 ### Research
