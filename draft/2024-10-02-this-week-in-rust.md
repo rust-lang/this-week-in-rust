@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+- [System76 COSMIC Alpha 2 Released](https://blog.system76.com/post/cosmic-alpha-2-press-release)
 * [A new version of modversions](https://lwn.net/Articles/986892/)
 * [A discussion of Rust safety documentation](https://lwn.net/Articles/990273/)
 * [Best practices for error handling in kernel Rust](https://lwn.net/SubscriberLink/990489/eab6106fa595052e/)
