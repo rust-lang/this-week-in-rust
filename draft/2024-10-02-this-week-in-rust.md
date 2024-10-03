@@ -59,8 +59,8 @@ and just ask the editors to select the category.
 * [Nine Rules for Running Rust on WASM WASI](https://medium.com/towards-data-science/nine-rules-for-running-rust-on-wasm-wasi-550cd14c252a)
 
 ### Rust Walkthroughs
+- [Rust interop in practice: speaking Python and Javascript](https://tweedegolf.nl/en/blog/136/rust-interop-in-practice-speaking-python-and-javascript)
 * [Series] [Mastering Dependency Injection in Rust: Despatma with Lifetimes](https://chesedo.me/blog/despatma-with-singleton-and-scoped-support/)
-
 * [video] [Build with Naz : Rust clap colorization](https://www.youtube.com/watch?v=lzMYDA6St0s)
 
 [Sqlx4k - Interoperability between Kotlin and Rust, using FFI (Part 1)](https://smyrgeorge.github.io/posts/sqlx4k---interoperability-between-kotlin-and-rust-using-ffi-part-1/)
