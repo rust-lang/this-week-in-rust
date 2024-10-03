@@ -129,7 +129,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A quiet week without too many perf. changes, although there was a nice perf. win on documentation
+builds thanks to [#130857](https://github.com/rust-lang/rust/. Overall the results were positive.
+
+Triage done by **@kobzol**.
+Revision range: [4cadeda9..c87004a1](https://perf.rust-lang.org/?start=4cadeda932d5c261a9a0b1bbd25c4486e4e0a4c6&end=c87004a1f5be671e3f03f69fb13d8915bdbb6a52&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.5%  | [0.2%, 0.8%]    | 11    |
+| Regressions ❌ <br /> (secondary)  | 0.3%  | [0.2%, 0.6%]    | 19    |
+| Improvements ✅ <br /> (primary)   | -1.2% | [-14.9%, -0.2%] | 21    |
+| Improvements ✅ <br /> (secondary) | -1.0% | [-2.3%, -0.3%]  | 5     |
+| All ❌✅ (primary)                 | -0.6% | [-14.9%, 0.8%]  | 32    |
+
+3 Regressions, 4 Improvements, 3 Mixed; 2 of them in rollups
+47 artifact comparisons made in total
+
+[Full report here](https://github.com/Kobzol/rustc-perf/blob/ca0e3756481095ac4cce9305d5911f832e8d3b80/triage/2024-10-01.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
