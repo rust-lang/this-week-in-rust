@@ -16,6 +16,8 @@ Want TWIR in your inbox? [Subscribe here](https://this-week-in-rust.us11.list-ma
 
 ## Updates from Rust Community
 
+[rPGP 0.14.0 (a pure Rust implementation of OpenPGP) now supports the new RFC 9580](https://fosstodon.org/@hko/113198947595455844)
+
 <!--
 
 Dear community contributors:
