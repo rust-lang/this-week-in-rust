@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Cargo Watch 8.5.3: the final update, as the project goes dormant](https://github.com/watchexec/cargo-watch/releases/tag/v8.5.3)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
