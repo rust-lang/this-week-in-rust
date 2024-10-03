@@ -32,62 +32,55 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+
 * [This Development-cycle in Cargo: 1.82](https://blog.rust-lang.org/inside-rust/2024/10/01/this-development-cycle-in-cargo-1.82.html)
 * [Return type notation MVP: Call for testing!](https://blog.rust-lang.org/inside-rust/2024/09/26/rtn-call-for-testing.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
+
 * [Two weeks of binsider](https://binsider.dev/blog/v020/)
 * [egui 0.29](https://github.com/emilk/egui/releases/tag/0.29.0)
 * [pantheon: Parsing command line arguments](https://traxys.me/sheshat_pantheon_3.html)
-- [System76 COSMIC Alpha 2 Released](https://blog.system76.com/post/cosmic-alpha-2-press-release)
-* [A new version of modversions](https://lwn.net/Articles/986892/)
-* [A discussion of Rust safety documentation](https://lwn.net/Articles/990273/)
-* [Best practices for error handling in kernel Rust](https://lwn.net/SubscriberLink/990489/eab6106fa595052e/)
+* [System76 COSMIC Alpha 2 Released](https://blog.system76.com/post/cosmic-alpha-2-press-release)
 * [Linus and Dirk on succession, Rust, and more](https://lwn.net/SubscriberLink/990534/a059b651e416a0c5/)
-* [Resources for learning Rust for kernel development](https://lwn.net/SubscriberLink/990619/cb5f47f5d88818e4/)
 * [What the Nova GPU driver needs](https://lwn.net/Articles/990736/)
 * [Getting PCI driver abstractions upstream](https://lwn.net/SubscriberLink/990918/ee00284446ec8d85/)
 * [Coccinelle for Rust](https://lwn.net/SubscriberLink/991399/8bfb2ec24205dbaa/)
 * [An update on gccrs development](https://lwn.net/SubscriberLink/991199/b109442b923b3909/)
 * [BTF, Rust, and the kernel toolchain](https://lwn.net/SubscriberLink/991719/3fecd51a9a75f011/)
-+ [tokio-graceful 0.2.0: support shutdown trigger delay and forceful shutdown](https://github.com/plabayo/tokio-graceful/releases/tag/0.2.0)
-
-- [Cargo Watch 8.5.3: the final update, as the project goes dormant](https://github.com/watchexec/cargo-watch/releases/tag/v8.5.3)
+* [tokio-graceful 0.2.0: support shutdown trigger delay and forceful shutdown](https://github.com/plabayo/tokio-graceful/releases/tag/0.2.0)
+* [Cargo Watch 8.5.3: the final update, as the project goes dormant](https://github.com/watchexec/cargo-watch/releases/tag/v8.5.3)
 
 ### Observations/Thoughts
+
+* [Best practices for error handling in kernel Rust](https://lwn.net/SubscriberLink/990489/eab6106fa595052e/)
+* [A discussion of Rust safety documentation](https://lwn.net/Articles/990273/)
 * [(Re)Using rustc components in gccrs](https://rust-gcc.github.io/2024/09/20/reusing-rustc-components.html)
 * [Whence '\n'?](https://rodarmor.com/blog/whence-newline/)
 * [Should you use Rust in LLM based tools for performance?](https://bosun.ai/posts/rust-for-genai-performance/)
 * [Code Generation in Rust vs C++26](https://brevzin.github.io/c++/2024/09/30/annotations/)
 * [Rust adventure to develop a Game Boy emulator — Part 3: CPU Instructions](https://medium.com/@wolferxy/rust-adventure-to-develop-a-game-boy-emulator-part-3-cpu-instructions-d6d1d727026f)
-* [Mastering Dependency Injection in Rust: Despatma with Lifetimes](https://chesedo.me/blog/despatma-with-singleton-and-scoped-support/)
 * [Improved Turso (libsql) ergonomics in Rust](https://codethoughts.io/posts/2024-10-01-improved-turso-ergonomics-in-rust/)
 * [Rewriting Rust](https://josephg.com/blog/rewriting-rust/)
 * [Making overwrite opt-in #crazyideas](https://smallcultfollowing.com/babysteps/blog/2024/09/26/overwrite-trait/)
 * [Rust needs a web framework for lazy developers](https://ntietz.com/blog/rust-needs-a-web-framework-for-lazy-developers/)
 * [Safety Goggles for Alchemists](https://jack.wrenn.fyi/blog/safety-goggles-for-alchemists/)
 * [Beyond multi-core parallelism: faster Mandelbrot with SIMD](https://pythonspeed.com/articles/optimizing-with-simd/)
-
 * [Nine Rules for Running Rust on WASM WASI](https://medium.com/towards-data-science/nine-rules-for-running-rust-on-wasm-wasi-550cd14c252a)
-
 * [Rust needs an extended standard library](https://kerkour.com/rust-stdx)
 
 ### Rust Walkthroughs
-- [Rust interop in practice: speaking Python and Javascript](https://tweedegolf.nl/en/blog/136/rust-interop-in-practice-speaking-python-and-javascript)
+
+* [New Book: "100 Exercises to Learn Rust: A hands-on course by Mainmatter"](https://rust-exercises.com/100-exercises/).
+* [Rust interop in practice: speaking Python and Javascript](https://tweedegolf.nl/en/blog/136/rust-interop-in-practice-speaking-python-and-javascript)
 * [Series] [Mastering Dependency Injection in Rust: Despatma with Lifetimes](https://chesedo.me/blog/despatma-with-singleton-and-scoped-support/)
+* [Sqlx4k - Interoperability between Kotlin and Rust, using FFI (Part 1)](https://smyrgeorge.github.io/posts/sqlx4k---interoperability-between-kotlin-and-rust-using-ffi-part-1/)
+* [Serde for Trait objects](https://voelklmichael.github.io/Blog/2024/10/01/serde-trait-part1.html)
 * [video] [Build with Naz : Rust clap colorization](https://www.youtube.com/watch?v=lzMYDA6St0s)
-
-[Sqlx4k - Interoperability between Kotlin and Rust, using FFI (Part 1)](https://smyrgeorge.github.io/posts/sqlx4k---interoperability-between-kotlin-and-rust-using-ffi-part-1/)
-
-### Research
 
 ### Miscellaneous
 
-* [New Book: "100 Exercises to Learn Rust: A hands-on course by Mainmatter"](https://rust-exercises.com/100-exercises/).
+* [Resources for learning Rust for kernel development](https://lwn.net/SubscriberLink/990619/cb5f47f5d88818e4/)
 
 ## Crate of the Week
 
@@ -373,7 +366,7 @@ Rusty Events between 2024-10-02 - 2024-10-30 🦀
     * [**Rust – budowanie narzędzi działających w linii komend**](https://www.meetup.com/stacja-it-trojmiasto/events/303550643/)
 * 2024-10-29 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
     * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/301585671/)
-    
+
 ### Africa
 * 2024-10-05 | Kampala, UG | [Rust Circle Kampala](https://www.eventbrite.com/o/rust-circle-kampala-65249289033/)
     * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587)
