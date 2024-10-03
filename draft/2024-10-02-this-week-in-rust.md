@@ -72,6 +72,8 @@ and just ask the editors to select the category.
 
 * [Nine Rules for Running Rust on WASM WASI](https://medium.com/towards-data-science/nine-rules-for-running-rust-on-wasm-wasi-550cd14c252a)
 
+* [Rust needs an extended standard library](https://kerkour.com/rust-stdx)
+
 ### Rust Walkthroughs
 - [Rust interop in practice: speaking Python and Javascript](https://tweedegolf.nl/en/blog/136/rust-interop-in-practice-speaking-python-and-javascript)
 * [Series] [Mastering Dependency Injection in Rust: Despatma with Lifetimes](https://chesedo.me/blog/despatma-with-singleton-and-scoped-support/)
