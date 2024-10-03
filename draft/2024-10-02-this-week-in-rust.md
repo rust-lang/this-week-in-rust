@@ -55,6 +55,8 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Series] [Mastering Dependency Injection in Rust: Despatma with Lifetimes](https://chesedo.me/blog/despatma-with-singleton-and-scoped-support/)
 
+* [video] [Build with Naz : Rust clap colorization](https://www.youtube.com/watch?v=lzMYDA6St0s)
+
 ### Research
 
 ### Miscellaneous
