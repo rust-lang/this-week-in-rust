@@ -36,6 +36,16 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [A new version of modversions](https://lwn.net/Articles/986892/)
+* [A discussion of Rust safety documentation](https://lwn.net/Articles/990273/)
+* [Best practices for error handling in kernel Rust](https://lwn.net/SubscriberLink/990489/eab6106fa595052e/)
+* [Linus and Dirk on succession, Rust, and more](https://lwn.net/SubscriberLink/990534/a059b651e416a0c5/)
+* [Resources for learning Rust for kernel development](https://lwn.net/SubscriberLink/990619/cb5f47f5d88818e4/)
+* [What the Nova GPU driver needs](https://lwn.net/Articles/990736/)
+* [Getting PCI driver abstractions upstream](https://lwn.net/SubscriberLink/990918/ee00284446ec8d85/)
+* [Coccinelle for Rust](https://lwn.net/SubscriberLink/991399/8bfb2ec24205dbaa/)
+* [An update on gccrs development](https://lwn.net/SubscriberLink/991199/b109442b923b3909/)
+* [BTF, Rust, and the kernel toolchain](https://lwn.net/SubscriberLink/991719/3fecd51a9a75f011/)
 
 ### Observations/Thoughts
 
