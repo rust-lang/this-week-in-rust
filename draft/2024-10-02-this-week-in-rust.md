@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 
 + [tokio-graceful 0.2.0: support shutdown trigger delay and forceful shutdown](https://github.com/plabayo/tokio-graceful/releases/tag/0.2.0)
 
+- [Two weeks of binsider - a TUI for binary analysis (0.2.0 is released)](https://binsider.dev/blog/v020/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
