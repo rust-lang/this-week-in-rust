@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 * [An update on gccrs development](https://lwn.net/SubscriberLink/991199/b109442b923b3909/)
 * [BTF, Rust, and the kernel toolchain](https://lwn.net/SubscriberLink/991719/3fecd51a9a75f011/)
 
++ [tokio-graceful 0.2.0: support shutdown trigger delay and forceful shutdown](https://github.com/plabayo/tokio-graceful/releases/tag/0.2.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
