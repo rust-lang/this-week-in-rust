@@ -59,6 +59,8 @@ and just ask the editors to select the category.
 
 * [video] [Build with Naz : Rust clap colorization](https://www.youtube.com/watch?v=lzMYDA6St0s)
 
+[Sqlx4k - Interoperability between Kotlin and Rust, using FFI (Part 1)](https://smyrgeorge.github.io/posts/sqlx4k---interoperability-between-kotlin-and-rust-using-ffi-part-1/)
+
 ### Research
 
 ### Miscellaneous
