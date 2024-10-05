@@ -36,6 +36,10 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [A new version of modversions](https://lwn.net/Articles/986892/)
+* [Smart pointers for the kernel](https://lwn.net/SubscriberLink/992055/104fe7d0d355faba/)
+* [Efficient Rust tracepoints](https://lwn.net/SubscriberLink/992455/6c61de6764f17830/)
+* [Improving bindgen for the kernel](https://lwn.net/SubscriberLink/992693/d4d6587f6faaf524/)
 
 ### Observations/Thoughts
 
