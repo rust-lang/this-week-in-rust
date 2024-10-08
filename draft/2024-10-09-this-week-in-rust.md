@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Nine Rules for Running Rust in the Browser: Practical lessons from porting range-set-blaze to WASM](https://towardsdatascience.com/nine-rules-for-running-rust-in-the-browser-8228353649d1)
+
 ### Rust Walkthroughs
 
 ### Research
