@@ -41,6 +41,9 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Series] [Serde for Trait Object #2: Serialization]([https://chesedo.me/blog/despatma-with-singleton-and-scoped-support](https://voelklmichael.github.io/Blog/2024/10/08/serde-trait-part2.html)
+
+
 ### Research
 
 ### Miscellaneous
