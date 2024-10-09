@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [5 Awesome (and less known) Rust projects](https://kerkour.com/awesome-rust-projects-2024)
+
 ### Rust Walkthroughs
 
 ### Research
