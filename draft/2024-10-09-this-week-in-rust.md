@@ -66,6 +66,8 @@ RFCs would benefit from user testing before moving forward:
 <!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
 <!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
 
+* Do you use unions and care about how they are represented in memory? [The zerocopy authors want to hear from you!](https://github.com/google/zerocopy/discussions/1802)
+
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
