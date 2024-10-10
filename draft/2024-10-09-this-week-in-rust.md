@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [5 Awesome (and less known) Rust projects](https://kerkour.com/awesome-rust-projects-2024)
 * [Nine Rules for Running Rust in the Browser: Practical lessons from porting range-set-blaze to WASM](https://towardsdatascience.com/nine-rules-for-running-rust-in-the-browser-8228353649d1)
 * [Rust is rolling off the Volvo assembly line](https://tweedegolf.nl/en/blog/137/rust-is-rolling-off-the-volvo-assembly-line)
 
