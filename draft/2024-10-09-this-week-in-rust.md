@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [Build with Naz : Create an async shell in Rust](https://www.youtube.com/watch?v=jXzFCDIJQag)
 * [Index Trait, Pinned Elements and Immutable Push Vector](https://orxfun.github.io/orxfun-notes/#/imp-vec-motivation-2024-10-03)
 
 ### Research
