@@ -29,8 +29,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
 ### Foundation
 * [Thanks For Joining Us at RustConf 2024](https://foundation.rust-lang.org/news/thanks-for-joining-us-at-rustconf-2024/)
 
@@ -47,7 +45,6 @@ and just ask the editors to select the category.
 * [Smart pointers for the kernel](https://lwn.net/SubscriberLink/992055/104fe7d0d355faba/)
 * [Efficient Rust tracepoints](https://lwn.net/SubscriberLink/992455/6c61de6764f17830/)
 * [Improving bindgen for the kernel](https://lwn.net/SubscriberLink/992693/d4d6587f6faaf524/)
-
 * [termscp 0.15.0](https://blog.veeso.dev/blog/en/announcing-termscp-015/)
 
 ### Observations/Thoughts
@@ -55,21 +52,16 @@ and just ask the editors to select the category.
 * [On Ousterhout's Dichotomy](https://matklad.github.io/2024/10/06/ousterhouts-dichotomy.html)
 * [Rust is rolling off the Volvo assembly line](https://tweedegolf.nl/en/blog/137/rust-is-rolling-off-the-volvo-assembly-line)
 * [Three Kinds Of Unwrap](https://zkrising.com/writing/three-unwraps/)
+* [5 Awesome (and less known) Rust projects](https://kerkour.com/awesome-rust-projects-2024)
+* [Nine Rules for Running Rust in the Browser: Practical lessons from porting range-set-blaze to WASM](https://towardsdatascience.com/nine-rules-for-running-rust-in-the-browser-8228353649d1)
 * [video] [A Legendary Web Framework is Reborn... In Rust](https://www.youtube.com/watch?v=7utPutDORb4)
 * [audio] [Fixing build times with rubicon](https://sdr-podcast.com/episodes/dynamic-linking/)
 
-* [5 Awesome (and less known) Rust projects](https://kerkour.com/awesome-rust-projects-2024)
-* [Nine Rules for Running Rust in the Browser: Practical lessons from porting range-set-blaze to WASM](https://towardsdatascience.com/nine-rules-for-running-rust-in-the-browser-8228353649d1)
-* [Rust is rolling off the Volvo assembly line](https://tweedegolf.nl/en/blog/137/rust-is-rolling-off-the-volvo-assembly-line)
-
 ### Rust Walkthroughs
 * [Building Async I/O in Rust: How Futures, Wakers, and Thread Pools Work Together](https://www.spaghetti-coder.com/building-async-io-in-rust-how-futures-wakers-and-thread-pools-work-together)
-
-* [Series] [Serde for Trait Object 2: Serialization](https://voelklmichael.github.io/Blog/2024/10/08/serde-trait-part2.html)
-* [video] [Build with Naz : Create an async shell in Rust](https://www.youtube.com/watch?v=jXzFCDIJQag)
 * [Index Trait, Pinned Elements and Immutable Push Vector](https://orxfun.github.io/orxfun-notes/#/imp-vec-motivation-2024-10-03)
-
-### Research
+* [series] [Serde for Trait Object 2: Serialization](https://voelklmichael.github.io/Blog/2024/10/08/serde-trait-part2.html)
+* [video] [Build with Naz : Create an async shell in Rust](https://www.youtube.com/watch?v=jXzFCDIJQag)
 
 ### Miscellaneous
 * [September 2024 Rust Jobs Report](https://filtra.io/rust-sep-24)
@@ -425,4 +417,4 @@ Thanks to [blonk](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1617)
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1g0bncp/this_week_in_rust_568/)</small>
