@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 * [Rust is rolling off the Volvo assembly line](https://tweedegolf.nl/en/blog/137/rust-is-rolling-off-the-volvo-assembly-line)
 
 ### Rust Walkthroughs
+* [Building Async I/O in Rust: How Futures, Wakers, and Thread Pools Work Together](https://www.spaghetti-coder.com/building-async-io-in-rust-how-futures-wakers-and-thread-pools-work-together)
 
 * [Series] [Serde for Trait Object 2: Serialization](https://voelklmichael.github.io/Blog/2024/10/08/serde-trait-part2.html)
 * [video] [Build with Naz : Create an async shell in Rust](https://www.youtube.com/watch?v=jXzFCDIJQag)
