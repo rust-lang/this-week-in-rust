@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [termscp 0.15.0](https://blog.veeso.dev/blog/en/announcing-termscp-015/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
