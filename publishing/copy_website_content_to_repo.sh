@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 read -p "Enter the directory to copy website contents to (likely ending in 'this-week-in-rust.github.io'): " directory
 

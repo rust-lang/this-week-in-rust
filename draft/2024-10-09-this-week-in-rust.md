@@ -36,12 +36,25 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [A new version of modversions](https://lwn.net/Articles/986892/)
+* [Smart pointers for the kernel](https://lwn.net/SubscriberLink/992055/104fe7d0d355faba/)
+* [Efficient Rust tracepoints](https://lwn.net/SubscriberLink/992455/6c61de6764f17830/)
+* [Improving bindgen for the kernel](https://lwn.net/SubscriberLink/992693/d4d6587f6faaf524/)
+
+* [termscp 0.15.0](https://blog.veeso.dev/blog/en/announcing-termscp-015/)
 
 ### Observations/Thoughts
 
 * [5 Awesome (and less known) Rust projects](https://kerkour.com/awesome-rust-projects-2024)
+* [Nine Rules for Running Rust in the Browser: Practical lessons from porting range-set-blaze to WASM](https://towardsdatascience.com/nine-rules-for-running-rust-in-the-browser-8228353649d1)
+* [Rust is rolling off the Volvo assembly line](https://tweedegolf.nl/en/blog/137/rust-is-rolling-off-the-volvo-assembly-line)
 
 ### Rust Walkthroughs
+* [Building Async I/O in Rust: How Futures, Wakers, and Thread Pools Work Together](https://www.spaghetti-coder.com/building-async-io-in-rust-how-futures-wakers-and-thread-pools-work-together)
+
+* [Series] [Serde for Trait Object 2: Serialization](https://voelklmichael.github.io/Blog/2024/10/08/serde-trait-part2.html)
+* [video] [Build with Naz : Create an async shell in Rust](https://www.youtube.com/watch?v=jXzFCDIJQag)
+* [Index Trait, Pinned Elements and Immutable Push Vector](https://orxfun.github.io/orxfun-notes/#/imp-vec-motivation-2024-10-03)
 
 ### Research
 
@@ -49,24 +62,27 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [float8](https://crates.io/crates/float8), an 8-bit float implementation.
+
+llogiq is still pleased with his choice, but increasingly unhappy about the lack of suggestions.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
-## [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+## Calls for Testing
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+* *No calls for testing were issued this week.*
+
+### [Rust](https://github.com/rust-lang/rust/labels/call-for-testing)
+* *No calls for testing were issued this week.*
+
+### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
+* *No calls for testing were issued this week.*
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
@@ -100,26 +116,122 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+437 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2024-10-01..2024-10-08
+
+* [add `x86_64-unknown-trusty` as tier 3 target](https://github.com/rust-lang/rust/pull/130453)
+* [initial support for `riscv32{e|em|emc}_unknown_none_elf`](https://github.com/rust-lang/rust/pull/130555)
+* [increase Stack Size for AIX](https://github.com/rust-lang/rust/pull/131116)
+* [allow boolean literals as cfg predicates](https://github.com/rust-lang/rust/pull/131034) (RFC [#3695](https://rust-lang.github.io/rfcs/3695-cfg-boolean-literals.html))
+* [account for `impl Trait {` when `impl Trait for Type {` was intended](https://github.com/rust-lang/rust/pull/131273)
+* [add `naked_asm!` macro for use in `#[naked]` functions](https://github.com/rust-lang/rust/pull/128651)
+* [add a lint for pointer to integer transmutes in consts](https://github.com/rust-lang/rust/pull/130540)
+* [add caching to most type folders, rm region uniquification](https://github.com/rust-lang/rust/pull/130821)
+* [add missing module flags for `-Zfunction-return=thunk-extern`](https://github.com/rust-lang/rust/pull/130824)
+* [add support for reborrowing pinned method receivers](https://github.com/rust-lang/rust/pull/130633)
+* [add unstable support for outputting file checksums for use in cargo](https://github.com/rust-lang/rust/pull/126930)
+* [avoid ICE in coverage builds with bad `#[coverage(..)]` attributes](https://github.com/rust-lang/rust/pull/131187)
+* [check elaborated projections from dyn don't mention unconstrained late bound lifetimes](https://github.com/rust-lang/rust/pull/130367)
+* [compute array length from type for unconditional panic lint](https://github.com/rust-lang/rust/pull/129517)
+* [couple of changes to make it easier to compile rustc for wasm](https://github.com/rust-lang/rust/pull/130899)
+* [coverage: multiple small tweaks to counter creation](https://github.com/rust-lang/rust/pull/131325)
+* [disable jump threading `UnOp::Not` for non-bool](https://github.com/rust-lang/rust/pull/131201)
+* [do not consider match/let/ref of place that evaluates to `!` to diverge, disallow coercions from them too](https://github.com/rust-lang/rust/pull/129392)
+* [don't allow the `#[pointee]` attribute where it doesn't belong](https://github.com/rust-lang/rust/pull/128721)
+* [don't give method suggestions when method probe fails due to bad implementation of `Deref`](https://github.com/rust-lang/rust/pull/131024)
+* [improve const traits diagnostics for new desugaring](https://github.com/rust-lang/rust/pull/131152)
+* [instantiate binders in `supertrait_vtable_slot`](https://github.com/rust-lang/rust/pull/131042)
+* [make `deprecated_cfg_attr_crate_type_name` a hard error](https://github.com/rust-lang/rust/pull/129670)
+* [make `test_lots_of_insertions` test take less long in Miri](https://github.com/rust-lang/rust/pull/131085)
+* [make opaque types regular HIR nodes](https://github.com/rust-lang/rust/pull/129244)
+* [only query `params_in_repr` if def kind is adt](https://github.com/rust-lang/rust/pull/131150)
+* [panic when an interpreter error gets unintentionally discarded](https://github.com/rust-lang/rust/pull/130885)
+* [parser: better error messages for `@` in `struct` patterns](https://github.com/rust-lang/rust/pull/130725)
+* [replace -Z default-hidden-visibility with -Z default-visibility](https://github.com/rust-lang/rust/pull/130005)
+* [restrict `ignore-mode-*` directives](https://github.com/rust-lang/rust/pull/131346)
+* [support `clobber_abi` and vector/access registers (clobber-only) in s390x inline assembly](https://github.com/rust-lang/rust/pull/130630)
+* [interpret: always enable `write_immediate` sanity checks](https://github.com/rust-lang/rust/pull/131006)
+* [miri: add vector clock to epoll ready lists](https://github.com/rust-lang/miri/pull/3932)
+* [miri: added rust-analyzer instructions for Helix](https://github.com/rust-lang/miri/pull/3936)
+* [miri: avoid `pthread_attr_t` in tests](https://github.com/rust-lang/miri/pull/3945)
+* [miri: implement LLVM x86 gfni intrinsics](https://github.com/rust-lang/miri/pull/3895)
+* [miri: prefer refutable slice patterns over len check + index op](https://github.com/rust-lang/miri/pull/3940)
+* [miri: pthread mutex: better error in reentrant-locking-UB](https://github.com/rust-lang/miri/pull/3943)
+* [`rustc_infer` cleanups](https://github.com/rust-lang/rust/pull/131226)
+* [stabilize 5 `const_mut_refs`-dependent API](https://github.com/rust-lang/rust/pull/131177)
+* [stabilize `BufRead::skip_until`](https://github.com/rust-lang/rust/pull/131267)
+* [stabilize `const_float_classify`](https://github.com/rust-lang/rust/pull/130157)
+* [stabilize `const_slice_from_raw_parts_mut`](https://github.com/rust-lang/rust/pull/130403)
+* [stabilize `const_slice_split_at_mut` and `const_slice_first_last_chunk`](https://github.com/rust-lang/rust/pull/130428)
+* [stabilize `expr_2021` fragment specifier in all editions](https://github.com/rust-lang/rust/pull/129972)
+* [stabilize the `map`/`value` methods on `ControlFlow`](https://github.com/rust-lang/rust/pull/130518)
+* [liballoc: introduce String, Vec const-slicing](https://github.com/rust-lang/rust/pull/128399)
+* [make Cell unstably const](https://github.com/rust-lang/rust/pull/131281)
+* [enable f16 and f128 on windows-gnullvm targets](https://github.com/rust-lang/rust/pull/131308)
+* [transmuteFrom: gracefully handle unnormalized types and normalization errors](https://github.com/rust-lang/rust/pull/131112)
+* [small optimization for integers Display implementation](https://github.com/rust-lang/rust/pull/128204)
+* [add `[Option<T>; N]::transpose`](https://github.com/rust-lang/rust/pull/130829)
+* [add precondition checks to `ptr::offset, ptr::add, ptr::sub`](https://github.com/rust-lang/rust/pull/130251)
+* [avoid emptiness check in `PeekMut::pop`](https://github.com/rust-lang/rust/pull/131197)
+* [don't use `Immediate::offset` to transmute pointers to integers](https://github.com/rust-lang/rust/pull/131068)
+* [add multi-producer, multi-consumer channel (mpmc)](https://github.com/rust-lang/rust/pull/126839)
+* [impl `Default` for `HashMap`/`HashSet` iterators that don't already have it](https://github.com/rust-lang/rust/pull/128711)
+* [std: make `thread::current` available in all `thread_local!` destructors](https://github.com/rust-lang/rust/pull/127912)
+* [std: replace `LazyBox` with `OnceBox`](https://github.com/rust-lang/rust/pull/131094)
+* [futures: fix use after free of task in FuturesUnordered when dropped future panics](https://github.com/rust-lang/futures-rs/pull/2886)
+* [hashbrown: add `Tag(u8)` newtype in an attempt to stop using byte-pointers for everything](https://github.com/rust-lang/hashbrown/pull/565)
+* [hashbrown: change the default hasher to foldhash](https://github.com/rust-lang/hashbrown/pull/563)
+* [cargo: fix `cargo:version_number` - has only one `:`](https://github.com/rust-lang/cargo/pull/14637)
+* [cargo: fix: remove implicit feature removal](https://github.com/rust-lang/cargo/pull/14630)
+* [cargo: improve error reporting when feature not found in `activated_features`](https://github.com/rust-lang/cargo/pull/14647)
+* [rustdoc: cleaner errors on disambiguator/namespace mismatches](https://github.com/rust-lang/rust/pull/131260)
+* [rustdoc: improve `<wbr>`-insertion for `SCREAMING_CAMEL_CASE`](https://github.com/rust-lang/rust/pull/131370)
+* [rustdoc: lists items that contain multiple paragraphs are more clear](https://github.com/rust-lang/rust/pull/130933)
+* [rustdoc: prevent ctors from resolving](https://github.com/rust-lang/rust/pull/131224)
+* [clippy: `infinite_loop`: continuing an outer loop leaves the inner loop](https://github.com/rust-lang/rust-clippy/pull/13512)
+* [clippy: `rustc_tools_util`: rerun when git commit changes](https://github.com/rust-lang/rust-clippy/pull/13329)
+* [clippy: `zombie_processes`: consider `wait()` calls in nested bodies](https://github.com/rust-lang/rust-clippy/pull/13462)
+* [clippy: compare trait references in `trait_duplication_in_bounds` correctly](https://github.com/rust-lang/rust-clippy/pull/13493)
+* [clippy: fix `mut_mutex_lock` when reference not ultimately mutable](https://github.com/rust-lang/rust-clippy/pull/13122)
+* [clippy: implement lint for `regex::Regex` compilation inside a loop](https://github.com/rust-lang/rust-clippy/pull/13412)
+* [clippy: reduce default 'large array' threshold](https://github.com/rust-lang/rust-clippy/pull/13485)
+* [clippy: show interior mutability chain in `mutable_key_type`](https://github.com/rust-lang/rust-clippy/pull/13496)
+* [clippy: simplify negative `Option::{is_some_and,is_none_or}`](https://github.com/rust-lang/rust-clippy/pull/13443)
+* [clippy: style: do not defensively use `saturating_sub()`](https://github.com/rust-lang/rust-clippy/pull/13513)
+* [rust-analyzer: fix: fix bootstrap error message being incorrect](https://github.com/rust-lang/rust-analyzer/pull/18219)
+* [rust-analyzer: use external stack in borrowck DFS](https://github.com/rust-lang/rust-analyzer/pull/18255)
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+One regression dominated this week (dealing with a correctness fix around type system caching that was deemed necessary), but it luckily did not produce large regressions in any benchmarks. Overall, performance still ended up relatively in the same place as the beginning of the week.
+
+Triage done by **@rylev**.
+Revision range: [c87004a1..e6c46db4](https://perf.rust-lang.org/?start=c87004a1f5be671e3f03f69fb13d8915bdbb6a52&end=e6c46db4e9fd11e3183c397a59d946731034ede6&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.3%  | [0.1%, 1.0%]   | 63    |
+| Regressions ❌ <br /> (secondary)  | 1.1%  | [0.1%, 3.4%]   | 81    |
+| Improvements ✅ <br /> (primary)   | -0.5% | [-3.0%, -0.1%] | 19    |
+| Improvements ✅ <br /> (secondary) | -0.5% | [-1.5%, -0.1%] | 46    |
+| All ❌✅ (primary)                 | 0.1%  | [-3.0%, 1.0%]  | 82    |
+
+
+2 Regressions, 3 Improvements, 7 Mixed; 3 of them in rollups
+57 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/e6fcc69d6b3483f737140ff5c9fdba1ccac44776/triage/2024-10-08.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
+* [RFC: Allow boolean literals as `cfg` predicates](https://github.com/rust-lang/rfcs/pull/3695)
+* [Move `rustdoc-types` crate to T-Rustdoc ownership.](https://github.com/rust-lang/rfcs/pull/3505)
 
 ### Final Comment Period
 
@@ -127,28 +239,35 @@ Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final
 which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+* *No RFCs entered Final Comment Period this week.*
 
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+#### Tracking Issues & PRs
+##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* [disposition: merge] [Stabilize const `ptr::write*` and `mem::replace`](https://github.com/rust-lang/rust/pull/130954)
+* [disposition: merge] [Check ABI target compatibility for function pointers](https://github.com/rust-lang/rust/pull/128784)
+* [disposition: merge] [Proposal: stabilize `if_let_rescope` for Edition 2024](https://github.com/rust-lang/rust/issues/131154)
+* [disposition: merge] [Fixup Windows verbatim paths when used with the `include!` macro](https://github.com/rust-lang/rust/pull/125205)
+* [disposition: merge] [Implemented `FromStr` for `CString` and `TryFrom<CString>` for `String`](https://github.com/rust-lang/rust/pull/130608)
+* [disposition: merge] [Tracking Issue for `debug_more_non_exhaustive`](https://github.com/rust-lang/rust/issues/127942)
+* [disposition: merge] [Tracking Issue for `const_make_ascii`](https://github.com/rust-lang/rust/issues/130698)
+* [disposition: merge] [Tracking Issue for `const_char_encode_utf8`](https://github.com/rust-lang/rust/issues/130512)
 
-#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+##### [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* [disposition: merge] [feat: Stabilize MSRV-aware resolver config](https://github.com/rust-lang/cargo/pull/14639)
+* [disposition: merge] [Official API for build scripts](https://github.com/rust-lang/cargo/issues/12432)
 
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+##### [Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc+)
+* [disposition: merge] [Meeting proposal: rename "object safety" to "dyn compatibility"](https://github.com/rust-lang/lang-team/issues/286)
 
-### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
+##### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* *No Language Reference RFCs entered Final Comment Period this week.*
 
-### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
+##### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* *No Unsafe Code Guideline Tracking Issues or PRs entered Final Comment Period this week.*
 
-### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+#### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+* [new] [RFC: Promote riscv64gc-unknown-linux-gnu to Tier-1 (without host tools)](https://github.com/rust-lang/rfcs/pull/3707)
+* [new] [[RFC] Add Option::todo and Result::todo](https://github.com/rust-lang/rfcs/pull/3706)
 
 ## Upcoming Events
 
@@ -300,7 +419,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> I'm the wrong side of 45. I have zero interest in wasting any time that I might have left writing C from scratch. Writing Rust is pure joy. I can go from an idea to a working, tested, robust, published and packaged implementation in the time it would take me to even begin the first few lines of a C version. The tooling is beautiful, makes programming fun, and the end result usually outperforms the equivalent C. Once it builds I know it will run perfectly on all of the platforms I care about, and I don't have to go around manually testing on them to find all of the various platform and compiler quirks that will break it.
+
+– [Jonathan Perkins on the NetBSD mailing list](http://mail-index.netbsd.org/pkgsrc-users/2024/08/25/msg040053.html)
+
+Thanks to [blonk](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1617) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
