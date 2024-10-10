@@ -36,12 +36,19 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [A new version of modversions](https://lwn.net/Articles/986892/)
+* [Smart pointers for the kernel](https://lwn.net/SubscriberLink/992055/104fe7d0d355faba/)
+* [Efficient Rust tracepoints](https://lwn.net/SubscriberLink/992455/6c61de6764f17830/)
+* [Improving bindgen for the kernel](https://lwn.net/SubscriberLink/992693/d4d6587f6faaf524/)
+
+* [termscp 0.15.0](https://blog.veeso.dev/blog/en/announcing-termscp-015/)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
 
 * [video] [Build with Naz : Create an async shell in Rust](https://www.youtube.com/watch?v=jXzFCDIJQag)
+* [Index Trait, Pinned Elements and Immutable Push Vector](https://orxfun.github.io/orxfun-notes/#/imp-vec-motivation-2024-10-03)
 
 ### Research
 
