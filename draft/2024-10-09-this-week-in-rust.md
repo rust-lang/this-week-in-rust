@@ -201,7 +201,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+One regression dominated this week (dealing with a correctness fix around type system caching that was deemed necessary), but it luckily did not produce large regressions in any benchmarks. Overall, performance still ended up relatively in the same place as the beginning of the week.
+
+Triage done by **@rylev**.
+Revision range: [c87004a1..e6c46db4](https://perf.rust-lang.org/?start=c87004a1f5be671e3f03f69fb13d8915bdbb6a52&end=e6c46db4e9fd11e3183c397a59d946731034ede6&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.3%  | [0.1%, 1.0%]   | 63    |
+| Regressions ❌ <br /> (secondary)  | 1.1%  | [0.1%, 3.4%]   | 81    |
+| Improvements ✅ <br /> (primary)   | -0.5% | [-3.0%, -0.1%] | 19    |
+| Improvements ✅ <br /> (secondary) | -0.5% | [-1.5%, -0.1%] | 46    |
+| All ❌✅ (primary)                 | 0.1%  | [-3.0%, 1.0%]  | 82    |
+
+
+2 Regressions, 3 Improvements, 7 Mixed; 3 of them in rollups
+57 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/e6fcc69d6b3483f737140ff5c9fdba1ccac44776/triage/2024-10-08.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
