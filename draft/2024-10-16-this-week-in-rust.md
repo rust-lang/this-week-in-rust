@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [An experiment in async Rust](https://ochagavia.nl/blog/an-experiment-in-async-rust/)
 
 ### Rust Walkthroughs
 
