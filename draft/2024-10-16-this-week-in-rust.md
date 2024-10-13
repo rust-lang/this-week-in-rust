@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Upgrade the Logging in your Rust Tests](https://tylerjw.dev/posts/20241012-rust-logging-in-tests/)
 
 ### Rust Walkthroughs
 
