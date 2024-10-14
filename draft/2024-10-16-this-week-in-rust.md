@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [9 Rules for Running Rust on Embedded Systems: Practical Lessons from Porting `range-set-blaze` to `no_std`](https://medium.com/towards-data-science/nine-rules-for-running-rust-on-embedded-systems-b0c247ee877e)
+
 ### Rust Walkthroughs
 
 ### Research
