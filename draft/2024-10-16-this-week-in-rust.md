@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Improve an algorithm performance step by step](https://blog.mapotofu.org/blogs/rabitq-bench/)
+
 ### Rust Walkthroughs
 
 ### Research
