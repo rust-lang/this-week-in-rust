@@ -41,7 +41,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
-* [series] [Serde for Trait Object 3: Deserialization](https://voelklmichael.github.io/Blog/2024/10/15/serde-trait-part3.html)
+* [series] [Serde for Trait Object 3: Deserialization](https://voelklmichael.github.io/Blog/serde-trait-part3.html)
 
 ### Research
 
