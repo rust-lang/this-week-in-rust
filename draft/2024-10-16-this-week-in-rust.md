@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Why Rust is taking the data engineering world by storm](https://kerkour.com/rust-data-engineering)
+
 ### Rust Walkthroughs
 
 ### Research
