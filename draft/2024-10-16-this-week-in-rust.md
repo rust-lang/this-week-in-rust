@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+[Reading a Remote File Using Rust](https://crustc.com/reading-a-remote-file-rust/)
 
 ### Research
 
