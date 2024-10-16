@@ -128,7 +128,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2024-09-17..2024-09-24
 
 * [add arm64e-apple-tvos target](https://github.com/rust-lang/rust/pull/130614)
-* [parser: recover from `::`: to `:`:](https://github.com/rust-lang/rust/pull/130673)
+* [parser: recover from `:::` to `::`](https://github.com/rust-lang/rust/pull/130673)
 * [`read_volatile __rust_no_alloc_shim_is_unstable` in `alloc_zeroed`](https://github.com/rust-lang/rust/pull/130497)
 * [add `unqualified_local_imports` lint](https://github.com/rust-lang/rust/pull/125645)
 * [add recursion limit to FFI safety lint](https://github.com/rust-lang/rust/pull/130598)
