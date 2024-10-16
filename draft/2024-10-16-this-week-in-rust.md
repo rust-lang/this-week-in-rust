@@ -32,12 +32,24 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Announcing the Rust Foundation’s 2024 Fellows](https://foundation.rust-lang.org/news/announcing-the-rust-foundation-s-2024-fellows/)
 
 ### Newsletters
+* [This Week In Bevy - Animation Events, Curves, and no_std](https://thisweekinbevy.com/issue/2024-10-14-animation-events-curves-and-nostd)
 
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Why `Pin` is a part of trait signatures (and why that's a problem)](https://blog.yoshuawuyts.com/why-pin/)
+* [The `Overwrite` trait and `Pin`](https://smallcultfollowing.com/babysteps/blog/2024/10/14/overwrite-and-pin)
+* [Improve an algorithm performance step by step](https://blog.mapotofu.org/blogs/rabitq-bench/)
+* [Replacing nginx with axum](https://felix-knorr.net/posts/2024-10-13-replacing-nginx-with-axum.html)
+* [An experiment in async Rust](https://ochagavia.nl/blog/an-experiment-in-async-rust/)
+* [Designing A Fast Concurrent Hash Table](https://ibraheem.ca/posts/designing-papaya/)
+* [Rethinking Builders… with Lazy Generics](https://geo-ant.github.io/blog/2024/rust-rethinking-builders-lazy-generics/)
+* [IPC in Rust](https://pranitha.rs/posts/rust-ipc-ping-pong/)
+* [Serde Trait - Part 3: Deserialization](https://voelklmichael.github.io/Blog/serde-trait-part3.html)
+* [Memory for Nothing: Why Vec is (probably) a bad idea](https://pwy.io/posts/memory-for-nothing/)
 
 ### Rust Walkthroughs
 
