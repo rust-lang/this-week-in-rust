@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 * [Improve an algorithm performance step by step](https://blog.mapotofu.org/blogs/rabitq-bench/)
 
+* [Nine Rules for Running Rust on Embedded Systems](https://medium.com/towards-data-science/nine-rules-for-running-rust-on-embedded-systems-b0c247ee877e)
+
 ### Rust Walkthroughs
 
 * [video] [Build with Naz : Rust memory address and size](https://www.youtube.com/watch?v=ivqIty5EOf8)
