@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 
 * [Nine Rules for Running Rust on Embedded Systems](https://medium.com/towards-data-science/nine-rules-for-running-rust-on-embedded-systems-b0c247ee877e)
 
+* [Why Rust is taking the data engineering world by storm](https://kerkour.com/rust-data-engineering)
+
 ### Rust Walkthroughs
 
 * [series] [Serde for Trait Object 3: Deserialization](https://voelklmichael.github.io/Blog/serde-trait-part3.html)
