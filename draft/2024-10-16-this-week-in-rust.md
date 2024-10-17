@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 * [An experiment in async Rust](https://ochagavia.nl/blog/an-experiment-in-async-rust/)
 * [Upgrade the Logging in your Rust Tests](https://tylerjw.dev/posts/20241012-rust-logging-in-tests/)
 
+* [Improve an algorithm performance step by step](https://blog.mapotofu.org/blogs/rabitq-bench/)
+
 ### Rust Walkthroughs
 
 ### Research
