@@ -56,17 +56,13 @@ and just ask the editors to select the category.
 * [IPC in Rust](https://pranitha.rs/posts/rust-ipc-ping-pong/)
 * [Serde Trait - Part 3: Deserialization](https://voelklmichael.github.io/Blog/serde-trait-part3.html)
 * [Memory for Nothing: Why Vec is (probably) a bad idea](https://pwy.io/posts/memory-for-nothing/)
-* [An experiment in async Rust](https://ochagavia.nl/blog/an-experiment-in-async-rust/)
 * [Upgrade the Logging in your Rust Tests](https://tylerjw.dev/posts/20241012-rust-logging-in-tests/)
-* [Improve an algorithm performance step by step](https://blog.mapotofu.org/blogs/rabitq-bench/)
 * [Nine Rules for Running Rust on Embedded Systems](https://medium.com/towards-data-science/nine-rules-for-running-rust-on-embedded-systems-b0c247ee877e)
 * [Why Rust is taking the data engineering world by storm](https://kerkour.com/rust-data-engineering)
 
 ### Rust Walkthroughs
 
-* [series] [Serde for Trait Object 3: Deserialization](https://voelklmichael.github.io/Blog/serde-trait-part3.html)
 * [video] [Build with Naz : Rust memory address and size](https://www.youtube.com/watch?v=ivqIty5EOf8)
-
 ### Research
 
 ### Miscellaneous
