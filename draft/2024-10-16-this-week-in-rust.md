@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 * "pigg" (the Raspberry Pi GPIO GUI) 0.4.0 released with TCP connection support [Release](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.4.0), [Discussion](https://github.com/andrewdavidmackenzie/pigg/discussions/503)
 
 ### Observations/Thoughts
+* [An experiment in async Rust](https://ochagavia.nl/blog/an-experiment-in-async-rust/)
 
 ### Rust Walkthroughs
 
