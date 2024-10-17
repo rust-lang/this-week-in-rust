@@ -32,8 +32,10 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Announcing the Rust Foundation’s 2024 Fellows](https://foundation.rust-lang.org/news/announcing-the-rust-foundation-s-2024-fellows/)
 
 ### Newsletters
+* [This Week In Bevy - Animation Events, Curves, and no_std](https://thisweekinbevy.com/issue/2024-10-14-animation-events-curves-and-nostd)
 
 ### Project/Tooling Updates
 * [On Rust in enterprise kernels](https://lwn.net/SubscriberLink/993337/68c7e5af573545e6/)
@@ -44,20 +46,23 @@ and just ask the editors to select the category.
 * "pigg" (the Raspberry Pi GPIO GUI) 0.4.0 released with TCP connection support [Release](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.4.0), [Discussion](https://github.com/andrewdavidmackenzie/pigg/discussions/503)
 
 ### Observations/Thoughts
-* [An experiment in async Rust](https://ochagavia.nl/blog/an-experiment-in-async-rust/)
-* [Upgrade the Logging in your Rust Tests](https://tylerjw.dev/posts/20241012-rust-logging-in-tests/)
-
+* [Why `Pin` is a part of trait signatures (and why that's a problem)](https://blog.yoshuawuyts.com/why-pin/)
+* [The `Overwrite` trait and `Pin`](https://smallcultfollowing.com/babysteps/blog/2024/10/14/overwrite-and-pin)
 * [Improve an algorithm performance step by step](https://blog.mapotofu.org/blogs/rabitq-bench/)
-
+* [Replacing nginx with axum](https://felix-knorr.net/posts/2024-10-13-replacing-nginx-with-axum.html)
+* [An experiment in async Rust](https://ochagavia.nl/blog/an-experiment-in-async-rust/)
+* [Designing A Fast Concurrent Hash Table](https://ibraheem.ca/posts/designing-papaya/)
+* [Rethinking Builders… with Lazy Generics](https://geo-ant.github.io/blog/2024/rust-rethinking-builders-lazy-generics/)
+* [IPC in Rust](https://pranitha.rs/posts/rust-ipc-ping-pong/)
+* [Serde Trait - Part 3: Deserialization](https://voelklmichael.github.io/Blog/serde-trait-part3.html)
+* [Memory for Nothing: Why Vec is (probably) a bad idea](https://pwy.io/posts/memory-for-nothing/)
+* [Upgrade the Logging in your Rust Tests](https://tylerjw.dev/posts/20241012-rust-logging-in-tests/)
 * [Nine Rules for Running Rust on Embedded Systems](https://medium.com/towards-data-science/nine-rules-for-running-rust-on-embedded-systems-b0c247ee877e)
-
 * [Why Rust is taking the data engineering world by storm](https://kerkour.com/rust-data-engineering)
 
 ### Rust Walkthroughs
 
-* [series] [Serde for Trait Object 3: Deserialization](https://voelklmichael.github.io/Blog/serde-trait-part3.html)
 * [video] [Build with Naz : Rust memory address and size](https://www.youtube.com/watch?v=ivqIty5EOf8)
-
 ### Research
 
 ### Miscellaneous
