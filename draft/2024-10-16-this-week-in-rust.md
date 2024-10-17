@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [series] [Serde for Trait Object 3: Deserialization](https://voelklmichael.github.io/Blog/serde-trait-part3.html)
 * [video] [Build with Naz : Rust memory address and size](https://www.youtube.com/watch?v=ivqIty5EOf8)
 
 ### Research
