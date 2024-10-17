@@ -36,12 +36,25 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [On Rust in enterprise kernels](https://lwn.net/SubscriberLink/993337/68c7e5af573545e6/)
+* [FFI type mismatches in Rust for Linux](https://lwn.net/SubscriberLink/993163/3c2b06af07814cd2/)
+* [Zapping pointers out of thin air](https://lwn.net/SubscriberLink/993484/385b176aa8939e7b/)
+* [Using LKMM atomics in Rust](https://lwn.net/SubscriberLink/993785/cbe8cf5846d6864a/)
+
+* "pigg" (the Raspberry Pi GPIO GUI) 0.4.0 released with TCP connection support [Release](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.4.0), [Discussion](https://github.com/andrewdavidmackenzie/pigg/discussions/503)
 
 ### Observations/Thoughts
+* [An experiment in async Rust](https://ochagavia.nl/blog/an-experiment-in-async-rust/)
+* [Upgrade the Logging in your Rust Tests](https://tylerjw.dev/posts/20241012-rust-logging-in-tests/)
+
+* [Improve an algorithm performance step by step](https://blog.mapotofu.org/blogs/rabitq-bench/)
+
+* [Nine Rules for Running Rust on Embedded Systems](https://medium.com/towards-data-science/nine-rules-for-running-rust-on-embedded-systems-b0c247ee877e)
 
 ### Rust Walkthroughs
 
 * [series] [Serde for Trait Object 3: Deserialization](https://voelklmichael.github.io/Blog/serde-trait-part3.html)
+* [video] [Build with Naz : Rust memory address and size](https://www.youtube.com/watch?v=ivqIty5EOf8)
 
 ### Research
 
@@ -104,7 +117,12 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+No major changes this week.
+
+Triage done by **@simulacrum**.
+Revision range: [e6c46db4..5ceb623a](https://perf.rust-lang.org/?start=e6c46db4e9fd11e3183c397a59d946731034ede6&end=5ceb623a4abd66e91e7959d25caaf0523f1a7f7c&absolute=false&stat=instructions%3Au)
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2024-10-14.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -189,6 +207,8 @@ Rusty Events between 2024-10-16 - 2024-11-13 🦀
     * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/301585671/)
 * 2022-10-31 | Virtual (Nürnberg, DE) | [Rust Nurnberg DE](https://www.meetup.com/rust-noris/)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/300820274/)
+* 2024-11-07 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
+    * [**Rust Hack and Learn**](https://meet.jit.si/RustHackAndLearnBerlin) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298633272/)
 
 ### Africa
 * 2024-11-02 | Kampala, UG | [Rust Circle Kampala](https://www.eventbrite.com/o/rust-circle-kampala-65249289033/)
