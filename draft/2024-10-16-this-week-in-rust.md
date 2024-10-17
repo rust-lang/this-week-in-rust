@@ -61,6 +61,7 @@ and just ask the editors to select the category.
 * [Why Rust is taking the data engineering world by storm](https://kerkour.com/rust-data-engineering)
 
 ### Rust Walkthroughs
+[Reading a Remote File Using Rust](https://crustc.com/reading-a-remote-file-rust/)
 
 * [video] [Build with Naz : Rust memory address and size](https://www.youtube.com/watch?v=ivqIty5EOf8)
 ### Research
