@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 * [audio] [Rust in Production Podcast - Season 3 Episode 1 - Zed with Conrad Irwin](https://corrode.dev/podcast/s03e01-zed/)
 
 ### Rust Walkthroughs
+* [Demystifying Alignment and Memory Layout in Rust](https://garden.christophertee.dev/blogs/Memory-Alignment-and-Layout/Part-1)
 
 ### Research
 
