@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Demystifying Alignment and Memory Layout in Rust](https://garden.christophertee.dev/blogs/Memory-Alignment-and-Layout/Part-1?utm_source=twir)
 
 ### Research
 
