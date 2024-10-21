@@ -93,6 +93,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
+
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
@@ -104,7 +105,15 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Some tidy improvements from switching to next generation trait solver (solely for coherence checking) and from simplifying our dataflow analysis framework. There were some binary size regressions associated with PR 126557 (adding `#[track_caller]` to allocating methods of `Vec` and `VecDeque`), which I have handed off to T-libs to choose whether to investigate further.
+
+Triage done by **@pnkfelix**.
+Revision range: [5ceb623a..3e33bda0](https://perf.rust-lang.org/?start=5ceb623a4abd66e91e7959d25caaf0523f1a7f7c&end=3e33bda0326586a6e1e34d0f5c060ca6d116e6a4&absolute=false&stat=instructions%3Au)
+
+0 Regressions, 3 Improvements, 6 Mixed; 3 of them in rollups
+47 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/81de3d5e2cc599cc49bc11c64f9a5b911f3a83dd/triage/2024-10-21.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
