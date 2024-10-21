@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 * [audio] [Rust in Production Podcast - Season 3 Episode 1 - Zed with Conrad Irwin](https://corrode.dev/podcast/s03e01-zed/)
+* [Starting a Rust Community](https://www.understandingrecruitment.com/knowledge-hub/blog/the-rust-review-starting-a-rust-community/)
 
 ### Rust Walkthroughs
 * [Demystifying Alignment and Memory Layout in Rust](https://garden.christophertee.dev/blogs/Memory-Alignment-and-Layout/Part-1)
