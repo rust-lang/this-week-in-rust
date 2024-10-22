@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [pg-extras-rs - PostgreSQL database performance insights](https://github.com/pawurb/pg-extras-rs)
+
 ### Observations/Thoughts
 * [audio] [Rust in Production Podcast - Season 3 Episode 1 - Zed with Conrad Irwin](https://corrode.dev/podcast/s03e01-zed/)
 
