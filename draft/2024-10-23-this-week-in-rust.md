@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Fjall 2.2 - now supports serializable snapshot isolation (multi-writer transactions)](https://fjall-rs.github.io/post/announcing-fjall-22/)
 
 ### Observations/Thoughts
 * [audio] [Rust in Production Podcast - Season 3 Episode 1 - Zed with Conrad Irwin](https://corrode.dev/podcast/s03e01-zed/)
