@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Demystifying Alignment and Memory Layout in Rust](https://garden.christophertee.dev/blogs/Memory-Alignment-and-Layout/Part-1)
+* [Async Rust in Three Parts](https://jacko.io/async_intro.html)
 
 ### Research
 
