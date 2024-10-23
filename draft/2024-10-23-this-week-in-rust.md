@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Hifitime version 4.0.0: A Leap Forward in Time Management](https://nyxspace.com/blog/2024/10/17/hifitime-version-400-a-leap-forward-in-time-management/)
 - [Ratatui 0.29.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v029/)
 * [Life of a Zed Extension: Rust, WIT, Wasm](https://zed.dev/blog/zed-decoded-extensions)
 
