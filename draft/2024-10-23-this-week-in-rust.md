@@ -85,6 +85,13 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
+* [Rama — add "Deny All" Dns Resolver](https://github.com/plabayo/rama/issues/329)
+* [Rama — expand support to hijack based on context data](https://github.com/plabayo/rama/issues/328)
+* [Rama — support vec/array impl for DnsResolver](https://github.com/plabayo/rama/issues/332)
+* [Rama — Support IP modes in connector and resolver](https://github.com/plabayo/rama/issues/331)
+
+
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 [guidelines]:https://github.com/rust-lang/this-week-in-rust?tab=readme-ov-file#call-for-participation-guidelines
