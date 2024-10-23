@@ -36,8 +36,8 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
 - [Ratatui 0.29.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v029/)
+* [Life of a Zed Extension: Rust, WIT, Wasm](https://zed.dev/blog/zed-decoded-extensions)
 
 ### Observations/Thoughts
 * [audio] [Rust in Production Podcast - Season 3 Episode 1 - Zed with Conrad Irwin](https://corrode.dev/podcast/s03e01-zed/)
