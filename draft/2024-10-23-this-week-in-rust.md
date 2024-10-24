@@ -64,6 +64,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Starting a Rust Community](https://www.understandingrecruitment.com/knowledge-hub/blog/the-rust-review-starting-a-rust-community/)
 
 ## Crate of the Week
 
