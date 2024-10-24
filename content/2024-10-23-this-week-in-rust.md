@@ -32,17 +32,12 @@ and just ask the editors to select the category.
 ### Official
 * [Announcing Rust 1.82.0](https://blog.rust-lang.org/2024/10/17/Rust-1.82.0.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [Ratatui 0.29.0](https://ratatui.rs/highlights/v029/)
 * [Life of a Zed Extension: Rust, WIT, Wasm](https://zed.dev/blog/zed-decoded-extensions)
 * [Shuttle’s New Platform — Redefining Backend Development](https://www.shuttle.dev/blog/2024/10/10/shuttle-redefining-backend-development)
 * [Hifitime version 4.0.0: A Leap Forward in Time Management](https://nyxspace.com/blog/2024/10/17/hifitime-version-400-a-leap-forward-in-time-management/)
 * [Fjall 2.2 - now supports serializable snapshot isolation (multi-writer transactions)](https://fjall-rs.github.io/post/announcing-fjall-22/)
-
 * [pg-extras-rs - PostgreSQL database performance insights](https://github.com/pawurb/pg-extras-rs)
 
 ### Observations/Thoughts
@@ -62,8 +57,6 @@ and just ask the editors to select the category.
 * [Async Rust in Three Parts](https://jacko.io/async_intro.html)
 * [ When should I use String vs &str? ](https://steveklabnik.com/writing/when-should-i-use-string-vs-str/)
 * [Using Web Workers in Rust Webapps](https://allwright.io/#/blog/20241016-using-web-workers.md)
-
-### Research
 
 ### Miscellaneous
 * [Starting a Rust Community](https://www.understandingrecruitment.com/knowledge-hub/blog/the-rust-review-starting-a-rust-community/)
@@ -108,16 +101,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-<!-- * [ - ]() -->
-<!-- or if none - *No Calls for participation were submitted this week.* -->
-
 * [Rama — add "Deny All" Dns Resolver](https://github.com/plabayo/rama/issues/329)
 * [Rama — expand support to hijack based on context data](https://github.com/plabayo/rama/issues/328)
 * [Rama — support vec/array impl for DnsResolver](https://github.com/plabayo/rama/issues/332)
 * [Rama — Support IP modes in connector and resolver](https://github.com/plabayo/rama/issues/331)
-
-
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -127,9 +114,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-
-<!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+*No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -248,7 +233,6 @@ are the RFCs that were approved for implementation this week:
 * [RFC: Allow boolean literals as `cfg` predicates](https://github.com/rust-lang/rfcs/pull/3695)
 
 ### Final Comment Period
-
 Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
 which are reaching a decision. Express your opinions now.
 
@@ -411,7 +395,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1fa0tf6/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
