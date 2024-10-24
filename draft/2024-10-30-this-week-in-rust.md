@@ -38,6 +38,9 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Toward safe transmutation in Rust](https://lwn.net/SubscriberLink/994334/d43e27786ad96a50/)
+* [The performance of the Rust compiler](https://lwn.net/SubscriberLink/995125/01e2791629e8f6bd/)
+* [A new approach to validating test suites](https://lwn.net/SubscriberLink/995276/298d2f5b0be5ac34/)
 
 ### Rust Walkthroughs
 
