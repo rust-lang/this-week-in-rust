@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 * [Hifitime version 4.0.0: A Leap Forward in Time Management](https://nyxspace.com/blog/2024/10/17/hifitime-version-400-a-leap-forward-in-time-management/)
 * [Fjall 2.2 - now supports serializable snapshot isolation (multi-writer transactions)](https://fjall-rs.github.io/post/announcing-fjall-22/)
 
+* [pg-extras-rs - PostgreSQL database performance insights](https://github.com/pawurb/pg-extras-rs)
+
 ### Observations/Thoughts
 * [Rust's design goals should be about code](https://tmandry.gitlab.io/blog/posts/the-main-thing/)
 * [UnpinCell](https://without.boats/blog/unpin-cell/)
