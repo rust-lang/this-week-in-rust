@@ -30,24 +30,35 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.82.0](https://blog.rust-lang.org/2024/10/17/Rust-1.82.0.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
-* [Hifitime version 4.0.0: A Leap Forward in Time Management](https://nyxspace.com/blog/2024/10/17/hifitime-version-400-a-leap-forward-in-time-management/)
-- [Ratatui 0.29.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v029/)
+* [Ratatui 0.29.0](https://ratatui.rs/highlights/v029/)
 * [Life of a Zed Extension: Rust, WIT, Wasm](https://zed.dev/blog/zed-decoded-extensions)
+* [Shuttle’s New Platform — Redefining Backend Development](https://www.shuttle.dev/blog/2024/10/10/shuttle-redefining-backend-development)
+* [Hifitime version 4.0.0: A Leap Forward in Time Management](https://nyxspace.com/blog/2024/10/17/hifitime-version-400-a-leap-forward-in-time-management/)
 * [Fjall 2.2 - now supports serializable snapshot isolation (multi-writer transactions)](https://fjall-rs.github.io/post/announcing-fjall-22/)
 
 ### Observations/Thoughts
-* [audio] [Rust in Production Podcast - Season 3 Episode 1 - Zed with Conrad Irwin](https://corrode.dev/podcast/s03e01-zed/)
+* [Rust's design goals should be about code](https://tmandry.gitlab.io/blog/posts/the-main-thing/)
+* [UnpinCell](https://without.boats/blog/unpin-cell/)
+* [Blocking code is a leaky abstraction](https://notgull.net/blocking-leaky/)
+* [Life as a Rust Project Contributor](https://yaah.dev/staying-involved)
 * [Rustls Outperforms OpenSSL and BoringSSL](https://www.memorysafety.org/blog/rustls-performance-outperforms/)
+* [Using libgdx texture atlases in Bevy](https://rustunit.com/blog/2024/10-21-bevy-libgdx-atlas/)
+* [audio] [Rust in Production - Zed with Conrad Irwin](https://corrode.dev/podcast/s03e01-zed/)
+* [audio] [Async Allocators](https://sdr-podcast.com/episodes/async-allocators/)
+* [audio] [PubNub with Stephen Blum](https://rustacean-station.org/episode/stephen-blum/)
 
 ### Rust Walkthroughs
 * [Demystifying Alignment and Memory Layout in Rust](https://garden.christophertee.dev/blogs/Memory-Alignment-and-Layout/Part-1)
+* [Using Rust in Non-Rust Servers to Improve Performance](https://github.com/pretzelhammer/rust-blog/blob/master/posts/rust-in-non-rust-servers.md)
 * [Async Rust in Three Parts](https://jacko.io/async_intro.html)
+* [ When should I use String vs &str? ](https://steveklabnik.com/writing/when-should-i-use-string-vs-str/)
 * [Using Web Workers in Rust Webapps](https://allwright.io/#/blog/20241016-using-web-workers.md)
 
 ### Research
