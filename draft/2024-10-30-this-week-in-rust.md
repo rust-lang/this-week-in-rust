@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Toward safe transmutation in Rust](https://lwn.net/SubscriberLink/994334/d43e27786ad96a50/)
 
 ### Rust Walkthroughs
 
