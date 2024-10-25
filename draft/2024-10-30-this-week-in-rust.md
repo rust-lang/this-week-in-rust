@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Talk on Chrome's new Rust font stack, fontations](https://youtu.be/2HuxUN-mEIY?si=kj5SCc8PB5eP5K9f)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
