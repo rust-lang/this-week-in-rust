@@ -58,7 +58,6 @@ and just ask the editors to select the category.
 * [video] [Architecting a Rust Game Engine (with Alice Cecile)](https://pod.link/developer-voices/episode/c17465dd71701f9bea9a4a4acf52423e)
 * [video] [Gitoxide: What it is, and isn't - Sebastian Thiel](https://www.youtube.com/watch?v=r1LwDYtghPM)
 * [audio] [Rust vs. C++ with Steve Klabnik and Herb Sutter](https://softwareengineeringdaily.com/2024/10/23/rust-vs-c-with-steve-klabnik-herb-sutter/)
-* [The Rust Review: Starting a Rust Community](https://www.understandingrecruitment.com/knowledge-hub/blog/the-rust-review-starting-a-rust-community/)
 * [Rust Prism](https://registerspill.thorstenball.com/p/rust-prism)
 
 ## Crate of the Week
