@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Meilisearch 1.11 - AI-powered search & federated search improvements](https://www.meilisearch.com/blog/meilisearch-1-11)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
