@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 * [Toward safe transmutation in Rust](https://lwn.net/SubscriberLink/994334/d43e27786ad96a50/)
 * [The performance of the Rust compiler](https://lwn.net/SubscriberLink/995125/01e2791629e8f6bd/)
 * [A new approach to validating test suites](https://lwn.net/SubscriberLink/995276/298d2f5b0be5ac34/)
+* [An update on Apple M1/M2 GPU drivers](https://lwn.net/SubscriberLink/995383/34dc5950cab5e739/)
 * [Why You Shouldn't Arc a HashMap in Rust](https://packetandpine.com/blog/arc-mutex-hashmap-rust/)
 * [Implementing the Tower Service Trait](https://omarabid.com/tower-service)
 * [Best Practices for Derive Macro Attributes in Rust](https://w-graj.net/posts/rust-derive-attribute-macros/)
