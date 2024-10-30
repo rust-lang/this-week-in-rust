@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 * [Announcing Toasty, an async ORM for Rust](https://tokio.rs/blog/2024-10-23-announcing-toasty)
 * [gitoxide - October 2024](https://github.com/GitoxideLabs/gitoxide/discussions/1641)
 
+* [Meilisearch 1.11 - AI-powered search & federated search improvements](https://www.meilisearch.com/blog/meilisearch-1-11)
+
 ### Observations/Thoughts
 * [Why You Shouldn't Arc a HashMap in Rust](https://packetandpine.com/blog/arc-mutex-hashmap-rust/)
 * [Implementing the Tower Service Trait](https://omarabid.com/tower-service)
