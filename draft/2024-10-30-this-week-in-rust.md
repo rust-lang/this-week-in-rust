@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Announcing Toasty, an async ORM for Rust](https://tokio.rs/blog/2024-10-23-announcing-toasty)
 * [gitoxide - October 2024](https://github.com/GitoxideLabs/gitoxide/discussions/1641)
+* [Glues v0.4 - MongoDB support and Vim editing features](https://github.com/gluesql/glues/releases/tag/v0.4.0)
 
 * [Meilisearch 1.11 - AI-powered search & federated search improvements](https://www.meilisearch.com/blog/meilisearch-1-11)
 
