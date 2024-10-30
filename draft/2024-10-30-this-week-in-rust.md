@@ -68,6 +68,8 @@ and just ask the editors to select the category.
 * [audio] [What's New in Rust 1.76, 1.77, and 1.78](https://rustacean-station.org/episode/rust-1.76-1.77-1.78)
 * [Rust Prism](https://registerspill.thorstenball.com/p/rust-prism)
 
+* [Talk on Chrome's new Rust font stack, fontations](https://youtu.be/2HuxUN-mEIY?si=kj5SCc8PB5eP5K9f)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
