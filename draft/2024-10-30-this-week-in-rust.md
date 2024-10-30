@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [Basic Integer Compression](https://blog.maguire.tech/posts/explorations/integercmp/)
+
 ### Research
 
 ### Miscellaneous
