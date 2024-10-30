@@ -43,6 +43,9 @@ and just ask the editors to select the category.
 * [Meilisearch 1.11 - AI-powered search & federated search improvements](https://www.meilisearch.com/blog/meilisearch-1-11)
 
 ### Observations/Thoughts
+* [Toward safe transmutation in Rust](https://lwn.net/SubscriberLink/994334/d43e27786ad96a50/)
+* [The performance of the Rust compiler](https://lwn.net/SubscriberLink/995125/01e2791629e8f6bd/)
+* [A new approach to validating test suites](https://lwn.net/SubscriberLink/995276/298d2f5b0be5ac34/)
 * [Why You Shouldn't Arc a HashMap in Rust](https://packetandpine.com/blog/arc-mutex-hashmap-rust/)
 * [Implementing the Tower Service Trait](https://omarabid.com/tower-service)
 * [Best Practices for Derive Macro Attributes in Rust](https://w-graj.net/posts/rust-derive-attribute-macros/)
@@ -52,8 +55,8 @@ and just ask the editors to select the category.
 * [Generators with UnpinCell](https://without.boats/blog/generators-with-unpin-cell/)
 * [Which LLM model is best for generating Rust code?](https://blog.rust.careers/post/which_llm_is_best_at_rust/)
 * [Learnings from Contributing to the Rust Project](https://blog.shrirambalaji.com/posts/oss/rust/learnings-from-contributing-to-the-rust-project)
-
 * [Dyn Box Vs. Generics](https://blog.veeso.dev/blog/en/dyn-box-vs-generics-in-rust/): What is the best approach for achieving conditional generics in Rust?
+
 
 ### Rust Walkthroughs
 
