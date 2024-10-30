@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 * [Which LLM model is best for generating Rust code?](https://blog.rust.careers/post/which_llm_is_best_at_rust/)
 * [Learnings from Contributing to the Rust Project](https://blog.shrirambalaji.com/posts/oss/rust/learnings-from-contributing-to-the-rust-project)
 
+* [Dyn Box Vs. Generics](https://blog.veeso.dev/blog/en/dyn-box-vs-generics-in-rust/): What is the best approach for achieving conditional generics in Rust?
+
 ### Rust Walkthroughs
 
 - [Basic Integer Compression](https://blog.maguire.tech/posts/explorations/integercmp/)
