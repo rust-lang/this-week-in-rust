@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [An update on Apple M1/M2 GPU drivers](https://lwn.net/SubscriberLink/995383/34dc5950cab5e739/)
 * [Announcing Toasty, an async ORM for Rust](https://tokio.rs/blog/2024-10-23-announcing-toasty)
 * [gitoxide - October 2024](https://github.com/GitoxideLabs/gitoxide/discussions/1641)
 * [Glues v0.4 - MongoDB support and Vim editing features](https://github.com/gluesql/glues/releases/tag/v0.4.0)
@@ -46,7 +47,6 @@ and just ask the editors to select the category.
 * [Toward safe transmutation in Rust](https://lwn.net/SubscriberLink/994334/d43e27786ad96a50/)
 * [The performance of the Rust compiler](https://lwn.net/SubscriberLink/995125/01e2791629e8f6bd/)
 * [A new approach to validating test suites](https://lwn.net/SubscriberLink/995276/298d2f5b0be5ac34/)
-* [An update on Apple M1/M2 GPU drivers](https://lwn.net/SubscriberLink/995383/34dc5950cab5e739/)
 * [Why You Shouldn't Arc a HashMap in Rust](https://packetandpine.com/blog/arc-mutex-hashmap-rust/)
 * [Implementing the Tower Service Trait](https://omarabid.com/tower-service)
 * [Best Practices for Derive Macro Attributes in Rust](https://w-graj.net/posts/rust-derive-attribute-macros/)
