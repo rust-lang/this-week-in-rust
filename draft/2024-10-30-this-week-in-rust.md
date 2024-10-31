@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [An update on Apple M1/M2 GPU drivers](https://lwn.net/SubscriberLink/995383/34dc5950cab5e739/)
 * [Announcing Toasty, an async ORM for Rust](https://tokio.rs/blog/2024-10-23-announcing-toasty)
 * [gitoxide - October 2024](https://github.com/GitoxideLabs/gitoxide/discussions/1641)
 * [Glues v0.4 - MongoDB support and Vim editing features](https://github.com/gluesql/glues/releases/tag/v0.4.0)
