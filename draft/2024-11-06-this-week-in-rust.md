@@ -1,6 +1,6 @@
-Title: This Week in Rust 571
-Number: 571
-Date: 2024-10-30
+Title: This Week in Rust 572
+Number: 572
+Date: 2024-11-06
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -29,38 +29,21 @@ and just ask the editors to select the category.
 
 -->
 
+### Official
+
+### Foundation
+
+### Newsletters
+
 ### Project/Tooling Updates
-* [An update on Apple M1/M2 GPU drivers](https://lwn.net/SubscriberLink/995383/34dc5950cab5e739/)
-* [Announcing Toasty, an async ORM for Rust](https://tokio.rs/blog/2024-10-23-announcing-toasty)
-* [gitoxide - October 2024](https://github.com/GitoxideLabs/gitoxide/discussions/1641)
-* [Glues v0.4 - MongoDB support and Vim editing features](https://github.com/gluesql/glues/releases/tag/v0.4.0)
-* [Meilisearch 1.11 - AI-powered search & federated search improvements](https://www.meilisearch.com/blog/meilisearch-1-11)
 
 ### Observations/Thoughts
-* [Toward safe transmutation in Rust](https://lwn.net/SubscriberLink/994334/d43e27786ad96a50/)
-* [The performance of the Rust compiler](https://lwn.net/SubscriberLink/995125/01e2791629e8f6bd/)
-* [A new approach to validating test suites](https://lwn.net/SubscriberLink/995276/298d2f5b0be5ac34/)
-* [Why You Shouldn't Arc a HashMap in Rust](https://packetandpine.com/blog/arc-mutex-hashmap-rust/)
-* [Implementing the Tower Service Trait](https://omarabid.com/tower-service)
-* [Best Practices for Derive Macro Attributes in Rust](https://w-graj.net/posts/rust-derive-attribute-macros/)
-* [Trimming down a rust binary in half](https://tech.dreamleaves.org/trimming-down-a-rust-binary-in-half/)
-* [A deep look into our new massive multitenant architecture](https://turso.tech/blog/a-deep-look-into-our-new-massive-multitenant-architecture)
-* [Unsafe Rust Is Harder Than C](https://chadaustin.me/2024/10/intrusive-linked-list-in-rust/)
-* [Generators with UnpinCell](https://without.boats/blog/generators-with-unpin-cell/)
-* [Which LLM model is best for generating Rust code?](https://blog.rust.careers/post/which_llm_is_best_at_rust/)
-* [Learnings from Contributing to the Rust Project](https://blog.shrirambalaji.com/posts/oss/rust/learnings-from-contributing-to-the-rust-project)
-* [Dyn Box Vs. Generics](https://blog.veeso.dev/blog/en/dyn-box-vs-generics-in-rust/): What is the best approach for achieving conditional generics in Rust?
 
 ### Rust Walkthroughs
-* [Basic Integer Compression](https://blog.maguire.tech/posts/explorations/integercmp/)
+
+### Research
 
 ### Miscellaneous
-* [Rust Prism](https://registerspill.thorstenball.com/p/rust-prism)
-* [audio] [Rust vs. C++ with Steve Klabnik and Herb Sutter](https://softwareengineeringdaily.com/2024/10/23/rust-vs-c-with-steve-klabnik-herb-sutter/)
-* [audio] [What's New in Rust 1.76, 1.77, and 1.78](https://rustacean-station.org/episode/rust-1.76-1.77-1.78)
-* [video] [Talk on Chrome's new Rust font stack, fontations](https://youtu.be/2HuxUN-mEIY?si=kj5SCc8PB5eP5K9f)
-* [video] [Architecting a Rust Game Engine (with Alice Cecile)](https://pod.link/developer-voices/episode/c17465dd71701f9bea9a4a4acf52423e)
-* [video] [Gitoxide: What it is, and isn't - Sebastian Thiel](https://www.youtube.com/watch?v=r1LwDYtghPM)
 
 ## Crate of the Week
 
@@ -70,19 +53,18 @@ and just ask the editors to select the category.
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
-## Calls for Testing
+## [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
 
-### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
-* *No calls for testing were issued this week.*
-
-### [Rust](https://github.com/rust-lang/rust/labels/call-for-testing)
-* *No calls for testing were issued this week.*
-
-### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
-* *No calls for testing were issued this week.*
+<!-- Calls for Testing go here, use this format:
+    * [<RFC Topic>](<RFC URL>)
+        * [Tracking Issue](<Tracking Issue URL>)
+        * [Testing steps](<Testing Steps URL>)
+-->
+<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
+<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
@@ -98,8 +80,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-
-* [wtx - [HTTP/2] Investigate requests latency](https://github.com/c410-f3r/wtx/issues/234)
+<!-- * [ - ]() -->
+<!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -120,34 +102,22 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-This week saw a lot of activity both on the regressions and improvements side. There was one large
-regression, which was immediately reverted. Overall, the week ended up being positive, thanks to
-a rollup PR that caused a tiny improvement to almost all benchmarks.
-
-Triage done by **@kobzol**.
-Revision range: [3e33bda0..c8a8c820](https://perf.rust-lang.org/?start=3e33bda0326586a6e1e34d0f5c060ca6d116e6a4&end=c8a8c82035439cb2404b8f24ca0bc18209d534ca&absolute=false&stat=instructions%3Au)
-
-**Summary**:
-
-| (instructions:u)                   | mean  | range          | count |
-|:----------------------------------:|:-----:|:--------------:|:-----:|
-| Regressions ❌ <br /> (primary)    | 0.7%  | [0.2%, 2.7%]   | 15    |
-| Regressions ❌ <br /> (secondary)  | 0.8%  | [0.1%, 1.6%]   | 22    |
-| Improvements ✅ <br /> (primary)   | -0.6% | [-1.5%, -0.2%] | 153   |
-| Improvements ✅ <br /> (secondary) | -0.7% | [-1.9%, -0.1%] | 80    |
-| All ❌✅ (primary)                 | -0.5% | [-1.5%, 2.7%]  | 168   |
-
-6 Regressions, 6 Improvements, 4 Mixed; 6 of them in rollups
-58 artifact comparisons made in total
-
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/1d21b2ec1d00198e99c8e75edf0a303955b8054c/triage/2024-10-29.md)
+<!-- Perf results go here -->
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* *No RFCs were approved this week.*
+<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
+<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
+<!-- * []() -->
+
+<!--
+### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
+<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
+<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
+-->
 
 ### Final Comment Period
 
@@ -155,35 +125,32 @@ Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final
 which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
-* *No RFCs entered Final Comment Period this week.*
 
-#### Tracking Issues & PRs
-##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-* [disposition: merge] [Decide whether blocks inside `asm` goto should default to safe](https://github.com/rust-lang/rust/issues/132078)
-* [disposition: merge] [#[inline(never)] does not work for async functions](https://github.com/rust-lang/rust/issues/129347)
-* [disposition: not specified] [Add LowerExp and UpperExp implementations to NonZero](https://github.com/rust-lang/rust/pull/131377)
+<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
+<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
+<!-- * [disposition: ] []() -->
 
-##### [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-* *No Cargo Tracking Issues or PRs entered Final Comment Period this week.*
+#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-##### [Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc+)
-* *No Language Team Proposals entered Final Comment Period this week.*
+<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
+<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
+<!-- * [disposition: ] []() -->
 
-##### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-* *No Language Reference RFCs entered Final Comment Period this week.*
+### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+<!-- Remove this section if empty>
 
-##### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-* *No Unsafe Code Guideline Tracking Issues or PRs entered Final Comment Period this week.*
+### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+<!-- Remove this section if empty>
 
-#### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-* [new] [RFC: Labeled match](https://github.com/rust-lang/rfcs/pull/3720)
-* [new] [RFC: Never patterns](https://github.com/rust-lang/rfcs/pull/3719)
-* [new] [[RFC] Allow packed types to transitively contain aligned types](https://github.com/rust-lang/rfcs/pull/3718)
-* [new] [[RFC] Target Modifiers](https://github.com/rust-lang/rfcs/pull/3716)
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+
+<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
+<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
+<!-- * [new|updated] []() -->
 
 ## Upcoming Events
 
-Rusty Events between 2024-10-30 - 2024-11-27 🦀
+Rusty Events between 2024-11-06 - 2024-12-04 🦀
 
 ### Virtual
 * 2024-10-31 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
@@ -303,7 +270,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1gf5ue1/official_rrust_whos_hiring_thread_for_jobseekers/)
+Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
