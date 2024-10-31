@@ -414,7 +414,10 @@ Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/r
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> An earnest effort to pursue \[[P1179R1](https://wg21.link/p1179r1)\] as a Lifetime TS\[[P3465R0](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p3465r0.pdf)\] will compromise on C++’s outdated and unworkable core principles and adopt mechanisms more like Rust’s. In the compiler business this is called *carcinization*: a tendency of non-crab organisms to evolve crab-like features.
+– [Sean Baxter on circle-lang.org](https://www.circle-lang.org/draft-profiles.html#carcinization)
+
+Thanks to [Collin Richards](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1627) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
