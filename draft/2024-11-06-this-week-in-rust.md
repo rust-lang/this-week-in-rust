@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [audio] [Exploring Rust for Embedded Systems with Philip Markgraf](https://agileembeddedpodcast.com/episodes/philip-markgraf-on-rust)
 
 ## Crate of the Week
 
