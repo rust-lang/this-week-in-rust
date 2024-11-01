@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [How to shallow clone a Cow](https://blog.getreu.net/20241005-how_to_shallow_clone_a_cow-blog/)
 
 ### Rust Walkthroughs
 
