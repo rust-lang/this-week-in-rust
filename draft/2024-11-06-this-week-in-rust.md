@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+[Difference Between iter() and into_iter() in Rust](https://crustc.com/difference-iter-and-into_iter/)
 
 ### Research
 
