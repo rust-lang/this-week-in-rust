@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Announcing Intentrace, an alternative strace for everyone](https://github.com/sectordistrict/intentrace)
 
 ### Observations/Thoughts
 
