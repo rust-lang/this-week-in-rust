@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Streaming Audio APIs in Rust pt. 3: Audio Decoding](https://xd009642.github.io/2024/11/04/streaming-audio-APIs-audio-decoding.html)
+
 ### Rust Walkthroughs
 
 ### Research
