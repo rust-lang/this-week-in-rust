@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[An 'Educational' Platformer for Kids to Learn Math and Reading—and Bevy for the Devs](https://github.com/uggla/rock_run)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
