@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Safety in an unsafe world](https://lwn.net/SubscriberLink/995814/17e451bcb3015920/)
 
 ### Rust Walkthroughs
 
