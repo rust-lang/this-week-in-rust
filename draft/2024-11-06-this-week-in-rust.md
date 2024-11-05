@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [How big is your future?](https://hegdenu.net/posts/how-big-is-your-future/)
+
 ### Research
 
 ### Miscellaneous
