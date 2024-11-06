@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Difference Between iter() and into_iter() in Rust](https://crustc.com/difference-iter-and-into_iter/)
+* [How to organize errors in large Rust projects](https://kerkour.com/rust-organize-errors-large-projects)
 
 ### Research
 
