@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Reached the recursion limit... at build time?](https://blog.veeso.dev/blog/en/reached-the-recursion-limit-at-build-time/)
+
 ### Rust Walkthroughs
 * [Difference Between iter() and into_iter() in Rust](https://crustc.com/difference-iter-and-into_iter/)
 
