@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing Sycamore v0.9.0](https://sycamore.dev/post/announcing-v0-9-0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
