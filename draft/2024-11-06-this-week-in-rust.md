@@ -102,7 +102,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A week dominated by one large improvement and one large regression where luckily the improvement had a larger impact. The regression seems to have been caused by a newly introduced lint that might have performance issues. The improvement was in building rustc with protected visibility which reduces the number of dynamic relocations needed leading to some nice performance gains. Across a large swath of the perf suit, the compiler is on average 1% faster after this week compared to last week.
+
+Triage done by **@rylev**.
+Revision range: [c8a8c820..27e38f8f](https://perf.rust-lang.org/?start=c8a8c82035439cb2404b8f24ca0bc18209d534ca&end=27e38f8fc7efc57b75e9a763d7a0ee44822cd5f7&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.8%  | [0.1%, 2.0%]    | 80    |
+| Regressions ❌ <br /> (secondary)  | 1.9%  | [0.2%, 3.4%]    | 45    |
+| Improvements ✅ <br /> (primary)   | -1.9% | [-31.6%, -0.1%] | 148   |
+| Improvements ✅ <br /> (secondary) | -5.1% | [-27.8%, -0.1%] | 180   |
+| All ❌✅ (primary)                 | -1.0% | [-31.6%, 2.0%]  | 228   |
+
+
+1 Regression, 1 Improvement, 5 Mixed; 3 of them in rollups
+46 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/bd155e07def612eff4cb7fec391cf60f22674673/triage/2024-11-05.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
