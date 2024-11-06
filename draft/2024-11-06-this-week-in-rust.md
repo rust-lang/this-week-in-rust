@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [Announcing Sycamore v0.9.0](https://sycamore.dev/post/announcing-v0-9-0)
+* `[ZH][EN]` [Select HTML Components in Declarative Rust](https://ideas.reify.ing/en/blog/select-html-declarative-rust/)
 
 ### Observations/Thoughts
 
