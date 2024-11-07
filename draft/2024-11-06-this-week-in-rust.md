@@ -67,6 +67,7 @@ and just ask the editors to select the category.
 * [Rust's Most Subtle Syntax](https://zkrising.com/writing/rusts-most-subtle-syntax/)
 * [Parsing arguments in Rust with no dependencies](https://www.ntietz.com/blog/parsing-arguments-rust-no-deps/)
 * [Simple way to make i18n support in Rust with with examples and tests](https://www.onlycoiners.com/user/onlycoiners/blog/simple-way-to-make-i18n-support-in-rust-with-with-examples-a)
+* [How to shallow clone a Cow](https://blog.getreu.net/20241005-how_to_shallow_clone_a_cow-blog/)
 * [video] [Rust Collections & Iterators Demystified 🪄](https://www.youtube.com/watch?v=oiWATcjyUEI)
 
 ### Research
