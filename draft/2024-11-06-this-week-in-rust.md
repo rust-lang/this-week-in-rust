@@ -53,7 +53,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [wtransport](https://crates.io/crates/wtransport), an implementation of the WebTransport specification, a successor to WebSockets with many additional features.
+
+Thanks to [Josh Triplett](https://users.rust-lang.org/t/crate-of-the-week/2704/1369) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -105,7 +107,99 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+473 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2024-10-29..2024-11-05
+
+* [account for late-bound depth when capturing all opaque lifetimes](https://github.com/rust-lang/rust/pull/132466)
+* [add `--print host-tuple` to print host target tuple](https://github.com/rust-lang/rust/pull/125579)
+* [add `f16` and `f128` to `invalid_nan_comparison`](https://github.com/rust-lang/rust/pull/132439)
+* [add `lp64e` RISC-V ABI](https://github.com/rust-lang/rust/pull/132354)
+* [also treat `impl` definition parent as transparent regarding modules](https://github.com/rust-lang/rust/pull/132453)
+* [cleanup attributes around unchecked shifts and unchecked negation in const](https://github.com/rust-lang/rust/pull/132445)
+* [cleanup op lookup in HIR typeck](https://github.com/rust-lang/rust/pull/132274)
+* [collect item bounds for RPITITs from trait where clauses just like associated types](https://github.com/rust-lang/rust/pull/132194)
+* [do not enforce `~const` constness effects in typeck if `rustc_do_not_const_check`](https://github.com/rust-lang/rust/pull/132366)
+* [don't lint `irrefutable_let_patterns` on leading patterns if `else if` let-chains](https://github.com/rust-lang/rust/pull/129394)
+* [double-check conditional constness in MIR](https://github.com/rust-lang/rust/pull/132276)
+* [ensure that resume arg outlives region bound for coroutines](https://github.com/rust-lang/rust/pull/132151)
+* [find the generic container rather than simply looking up for the assoc with const arg](https://github.com/rust-lang/rust/pull/132559)
+* [fix compiler panic with a large number of threads](https://github.com/rust-lang/rust/pull/132355)
+* [fix suggestion for diagnostic error E0027](https://github.com/rust-lang/rust/pull/132025)
+* [fix validation when lowering `?` trait bounds](https://github.com/rust-lang/rust/pull/132209)
+* [implement suggestion for never type fallback lints](https://github.com/rust-lang/rust/pull/132383)
+* [improve `missing_abi` lint](https://github.com/rust-lang/rust/pull/132357)
+* [improve duplicate derive Copy/Clone diagnostics](https://github.com/rust-lang/rust/pull/131153)
+* [llvm: match new LLVM 128-bit integer alignment on sparc](https://github.com/rust-lang/rust/pull/132422)
+* [make codegen help output more consistent](https://github.com/rust-lang/rust/pull/132522)
+* [make sure `type_param_predicates` resolves correctly for RPITIT](https://github.com/rust-lang/rust/pull/132373)
+* [pass `RUSTC_HOST_FLAGS` at once without the for loop](https://github.com/rust-lang/rust/pull/132365)
+* [port most of `--print=target-cpus` to Rust](https://github.com/rust-lang/rust/pull/132514)
+* [register `~const` preds for `Deref` adjustments in HIR typeck](https://github.com/rust-lang/rust/pull/132275)
+* [reject generic self types](https://github.com/rust-lang/rust/pull/130098)
+* [remap impl-trait lifetimes on HIR instead of AST lowering](https://github.com/rust-lang/rust/pull/129383)
+* [remove `""` case from RISC-V `llvm_abiname` match statement](https://github.com/rust-lang/rust/pull/132421)
+* [remove `do_not_const_check` from `Iterator` methods](https://github.com/rust-lang/rust/pull/132368)
+* [remove region from adjustments](https://github.com/rust-lang/rust/pull/132301)
+* [remove support for `-Zprofile` (gcov-style coverage instrumentation)](https://github.com/rust-lang/rust/pull/131829)
+* [replace manual time convertions with std ones, comptime time format parsing](https://github.com/rust-lang/rust/pull/132521)
+* [suggest creating unary tuples when types don't match a trait](https://github.com/rust-lang/rust/pull/132583)
+* [support `clobber_abi` and vector registers (clobber-only) in PowerPC inline assembly](https://github.com/rust-lang/rust/pull/131341)
+* [try to point out when edition 2024 lifetime capture rules cause borrowck issues](https://github.com/rust-lang/rust/pull/131186)
+* [typingMode: merge intercrate, reveal, and `defining_opaque_types`](https://github.com/rust-lang/rust/pull/131856)
+* [miri: change `futex_wait` errno from Scalar to IoError](https://github.com/rust-lang/miri/pull/4000)
+* [stabilize `const_arguments_as_str`](https://github.com/rust-lang/rust/pull/132511)
+* [stabilize `if_let_rescope`](https://github.com/rust-lang/rust/pull/131984)
+* [mark `str::is_char_boundary` and `str::split_at*` unstably `const`](https://github.com/rust-lang/rust/pull/131520)
+* [remove const-support for `align_offset` and `is_aligned`](https://github.com/rust-lang/rust/pull/132423)
+* [unstably add `ptr::byte_sub_ptr`](https://github.com/rust-lang/rust/pull/132459)
+* [implement `From<&mut {slice}>` for `Box/Rc/Arc<{slice}>`](https://github.com/rust-lang/rust/pull/129329)
+* [rc/Arc: don't leak the allocation if drop panics](https://github.com/rust-lang/rust/pull/132231)
+* [add LowerExp and UpperExp implementations to NonZero](https://github.com/rust-lang/rust/pull/131377)
+* [use Hacker's Delight impl in `i64::midpoint` instead of wide `i128` impl](https://github.com/rust-lang/rust/pull/132238)
+* [xous: sync: remove `rustc_const_stable` attribute on Condvar and Mutex `new()`](https://github.com/rust-lang/rust/pull/132321)
+* [add `const_panic` macro to make it easier to fall back to non-formatting panic in const](https://github.com/rust-lang/rust/pull/132542)
+* [cargo: downgrade version-exists error to warning on dry-run](https://github.com/rust-lang/cargo/pull/14742)
+* [cargo: add more metadata to `rustc_fingerprint`](https://github.com/rust-lang/cargo/pull/14761)
+* [cargo: add transactional semantics to `rustfix`](https://github.com/rust-lang/cargo/pull/14747)
+* [cargo: add unstable `-Zroot-dir` flag to configure the path from which rustc should be invoked](https://github.com/rust-lang/cargo/pull/14752)
+* [cargo: allow build scripts to report error messages through `cargo::error`](https://github.com/rust-lang/cargo/pull/14743)
+* [cargo: change config paths to only check `CARGO_HOME` for cargo-script](https://github.com/rust-lang/cargo/pull/14749)
+* [cargo: download targeted transitive deps of with artifact deps' target platform](https://github.com/rust-lang/cargo/pull/14723)
+* [cargo fix: track version in fingerprint dep-info files](https://github.com/rust-lang/cargo/pull/14751)
+* [cargo: remove requirement for --target when invoking Cargo with -Zbuild-std](https://github.com/rust-lang/cargo/pull/14317)
+* [rustdoc: Fix `--show-coverage` when JSON output format is used](https://github.com/rust-lang/rust/pull/132596)
+* [rustdoc: Unify variant `struct` fields margins with `struct` fields](https://github.com/rust-lang/rust/pull/132258)
+* [rustdoc: make doctest span tweak a 2024 edition change](https://github.com/rust-lang/rust/pull/132210)
+* [rustdoc: skip stability inheritance for some item kinds](https://github.com/rust-lang/rust/pull/132481)
+* [mdbook: improve theme support when JS is disabled](https://github.com/rust-lang/mdBook/pull/2454)
+* [mdbook: load the sidebar toc from a shared JS file or iframe](https://github.com/rust-lang/mdBook/pull/2414)
+* [clippy: `infinite_loops`: fix incorrect suggestions on async functions/closures](https://github.com/rust-lang/rust-clippy/pull/13608)
+* [clippy: `needless_continue`: check labels consistency before warning](https://github.com/rust-lang/rust-clippy/pull/13648)
+* [clippy: `no_mangle` attribute requires unsafe in Rust 2024](https://github.com/rust-lang/rust-clippy/pull/13631)
+* [clippy: add new `trivial_map_over_range` lint](https://github.com/rust-lang/rust-clippy/pull/13034)
+* [clippy: cleanup code suggestion for `into_iter_without_iter`](https://github.com/rust-lang/rust-clippy/pull/13634)
+* [clippy: do not use `gen` as a variable name](https://github.com/rust-lang/rust-clippy/pull/13628)
+* [clippy: don't lint unnamed consts and nested items within functions in `missing_docs_in_private_items`](https://github.com/rust-lang/rust-clippy/pull/13573)
+* [clippy: extend `large_include_file` lint to also work on attributes](https://github.com/rust-lang/rust-clippy/pull/13636)
+* [clippy: fix `allow_attributes` when expanded from some macros](https://github.com/rust-lang/rust-clippy/pull/13599)
+* [clippy: improve display of clippy lints page when JS is disabled](https://github.com/rust-lang/rust-clippy/pull/13585)
+* [clippy: new lint `map_all_any_identity`](https://github.com/rust-lang/rust-clippy/pull/13499)
+* [clippy: new lint `needless_as_bytes`](https://github.com/rust-lang/rust-clippy/pull/13437)
+* [clippy: new lint `source_item_ordering`](https://github.com/rust-lang/rust-clippy/pull/13376)
+* [clippy: return iterator must not capture lifetimes in Rust 2024](https://github.com/rust-lang/rust-clippy/pull/13629)
+* [clippy: use match ergonomics compatible with editions 2021 and 2024](https://github.com/rust-lang/rust-clippy/pull/13630)
+* [rust-analyzer: allow interpreting consts and statics with interpret function command](https://github.com/rust-lang/rust-analyzer/pull/18470)
+* [rust-analyzer: avoid interior mutability in `TyLoweringContext`](https://github.com/rust-lang/rust-analyzer/pull/18447)
+* [rust-analyzer: do not render meta info when hovering usages](https://github.com/rust-lang/rust-analyzer/pull/18436)
+* [rust-analyzer: add assist to generate a type alias for a function](https://github.com/rust-lang/rust-analyzer/pull/18385)
+* [rust-analyzer: render extern blocks in `file_structure`](https://github.com/rust-lang/rust-analyzer/pull/18473)
+* [rust-analyzer: show `static` values on hover](https://github.com/rust-lang/rust-analyzer/pull/18469)
+* [rust-analyzer: auto-complete import for aliased function and module](https://github.com/rust-lang/rust-analyzer/pull/18382)
+* [rust-analyzer: fix the server not honoring diagnostic refresh support](https://github.com/rust-lang/rust-analyzer/pull/18432)
+* [rust-analyzer: only parse `safe` as contextual kw in extern blocks](https://github.com/rust-lang/rust-analyzer/pull/18446)
+* [rust-analyzer: parse patterns with leading pipe properly in all places](https://github.com/rust-lang/rust-analyzer/pull/18453)
+* [rust-analyzer: support new `#[rustc_intrinsic]` attribute and fallback bodies](https://github.com/rust-lang/rust-analyzer/pull/18475)
 
 ### Rust Compiler Performance Triage
 
@@ -304,7 +398,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Any sufficiently complicated C project contains an adhoc, informally specified, bug ridden, slow implementation of half of cargo.
+
+– [Folkert de Vries at RustNL 2024 (youtube recording)](https://www.youtube.com/watch?v=mvzHQdCLkOY&t=912s)
+
+Thanks to [Collin Richards](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1629) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
