@@ -53,15 +53,15 @@ and just ask the editors to select the category.
 * [An 'Educational' Platformer for Kids to Learn Math and Reading—and Bevy for the Devs](https://github.com/uggla/rock_run)
 
 ### Observations/Thoughts
+* [Safety in an unsafe world](https://lwn.net/SubscriberLink/995814/17e451bcb3015920/)
 * [MinPin: yet another pin proposal](https://smallcultfollowing.com/babysteps/blog/2024/11/05/minpin/)
 * [Reached the recursion limit... at build time?](https://blog.veeso.dev/blog/en/reached-the-recursion-limit-at-build-time/)
 * [Async Rust is not safe with io_uring](https://tonbo.io/blog/async-rust-is-not-safe-with-io-uring)
 * [Macros, Safety, and SOA](https://tim-harding.github.io/blog/soa-rs/)
 * [how big is your future?](https://hegdenu.net/posts/how-big-is-your-future/)
 * [A comparison of Rust’s borrow checker to the one in C#](https://em-tg.github.io/csborrow/)
-* [audio] [InfinyOn with Deb Roy Chowdhury](https://corrode.dev/podcast/s03e02-infinyon/)
-
 * [Streaming Audio APIs in Rust pt. 3: Audio Decoding](https://xd009642.github.io/2024/11/04/streaming-audio-APIs-audio-decoding.html)
+* [audio] [InfinyOn with Deb Roy Chowdhury](https://corrode.dev/podcast/s03e02-infinyon/)
 
 ### Rust Walkthroughs
 * [Difference Between iter() and into_iter() in Rust](https://crustc.com/difference-iter-and-into_iter/)
