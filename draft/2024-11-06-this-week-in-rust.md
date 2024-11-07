@@ -46,11 +46,11 @@ and just ask the editors to select the category.
 * [The Embedded Rustacean Issue #31](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-31)
 
 ### Project/Tooling Updates
+* [Announcing Intentrace, an alternative strace for everyone](https://github.com/sectordistrict/intentrace)
 * [Ractor Quickstart](https://slawlor.github.io/ractor/quickstart/)
 * [Announcing Sycamore v0.9.0](https://sycamore.dev/post/announcing-v0-9-0)
 * [CXX-Qt 0.7 Release](https://www.kdab.com/cxx-qt-0-7/)
-
-[An 'Educational' Platformer for Kids to Learn Math and Reading—and Bevy for the Devs](https://github.com/uggla/rock_run)
+* [An 'Educational' Platformer for Kids to Learn Math and Reading—and Bevy for the Devs](https://github.com/uggla/rock_run)
 
 ### Observations/Thoughts
 * [MinPin: yet another pin proposal](https://smallcultfollowing.com/babysteps/blog/2024/11/05/minpin/)
