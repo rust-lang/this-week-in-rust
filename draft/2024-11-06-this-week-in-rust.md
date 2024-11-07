@@ -51,6 +51,7 @@ and just ask the editors to select the category.
 * [Announcing Sycamore v0.9.0](https://sycamore.dev/post/announcing-v0-9-0)
 * [CXX-Qt 0.7 Release](https://www.kdab.com/cxx-qt-0-7/)
 * [An 'Educational' Platformer for Kids to Learn Math and Reading—and Bevy for the Devs](https://github.com/uggla/rock_run)
+* [ZH][EN] [Select HTML Components in Declarative Rust](https://ideas.reify.ing/en/blog/select-html-declarative-rust/)
 
 ### Observations/Thoughts
 * [Safety in an unsafe world](https://lwn.net/SubscriberLink/995814/17e451bcb3015920/)
@@ -74,8 +75,6 @@ and just ask the editors to select the category.
 * [How to shallow clone a Cow](https://blog.getreu.net/20241005-how_to_shallow_clone_a_cow-blog/)
 * [Beginner Rust ESP32 development - Snake](https://jamesmcm.github.io/blog/beginner-rust-esp32-lcdsnake/)
 * [video] [Rust Collections & Iterators Demystified 🪄](https://www.youtube.com/watch?v=oiWATcjyUEI)
-
-* [How big is your future?](https://hegdenu.net/posts/how-big-is-your-future/)
 
 ### Research
 * [Charon: An Analysis Framework for Rust](https://arxiv.org/abs/2410.18042)
