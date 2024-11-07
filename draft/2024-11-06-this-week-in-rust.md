@@ -75,6 +75,8 @@ and just ask the editors to select the category.
 * [Beginner Rust ESP32 development - Snake](https://jamesmcm.github.io/blog/beginner-rust-esp32-lcdsnake/)
 * [video] [Rust Collections & Iterators Demystified 🪄](https://www.youtube.com/watch?v=oiWATcjyUEI)
 
+* [How big is your future?](https://hegdenu.net/posts/how-big-is-your-future/)
+
 ### Research
 * [Charon: An Analysis Framework for Rust](https://arxiv.org/abs/2410.18042)
 * [Crux, a Precise Verifier for Rust and Other Languages](https://arxiv.org/abs/2410.18280)
