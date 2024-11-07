@@ -61,6 +61,8 @@ and just ask the editors to select the category.
 * [A comparison of Rust’s borrow checker to the one in C#](https://em-tg.github.io/csborrow/)
 * [audio] [InfinyOn with Deb Roy Chowdhury](https://corrode.dev/podcast/s03e02-infinyon/)
 
+* [Streaming Audio APIs in Rust pt. 3: Audio Decoding](https://xd009642.github.io/2024/11/04/streaming-audio-APIs-audio-decoding.html)
+
 ### Rust Walkthroughs
 * [Difference Between iter() and into_iter() in Rust](https://crustc.com/difference-iter-and-into_iter/)
 * [Rust's Sneaky Deadlock With `if let` Blocks](https://brooksblog.bearblog.dev/rusts-sneaky-deadlock-with-if-let-blocks/)
