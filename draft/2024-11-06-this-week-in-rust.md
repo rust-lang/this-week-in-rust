@@ -57,6 +57,7 @@ and just ask the editors to select the category.
 * [Safety in an unsafe world](https://lwn.net/SubscriberLink/995814/17e451bcb3015920/)
 * [MinPin: yet another pin proposal](https://smallcultfollowing.com/babysteps/blog/2024/11/05/minpin/)
 * [Reached the recursion limit... at build time?](https://blog.veeso.dev/blog/en/reached-the-recursion-limit-at-build-time/)
+* [Building Trustworthy Software: The Power of Testing in Rust](https://tylerjw.dev/posts/20241106-building-trustworthy-software/)
 * [Async Rust is not safe with io_uring](https://tonbo.io/blog/async-rust-is-not-safe-with-io-uring)
 * [Macros, Safety, and SOA](https://tim-harding.github.io/blog/soa-rs/)
 * [how big is your future?](https://hegdenu.net/posts/how-big-is-your-future/)
