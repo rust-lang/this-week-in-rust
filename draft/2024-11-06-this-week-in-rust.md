@@ -76,6 +76,7 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [Feds: Critical Software Must Drop C/C++ by 2026 or Face Risk](https://thenewstack.io/feds-critical-software-must-drop-c-c-by-2026-or-face-risk/)
 * [audio] [Let's talk about Rust with John Arundel](https://gopodcast.dev/episodes/046-lets-talk-about-rust-with-john-arundel)
+* [audio] [Exploring Rust for Embedded Systems with Philip Markgraf](https://agileembeddedpodcast.com/episodes/philip-markgraf-on-rust)
 
 ## Crate of the Week
 
