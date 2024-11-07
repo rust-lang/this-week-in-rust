@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 * [Announcing Sycamore v0.9.0](https://sycamore.dev/post/announcing-v0-9-0)
 * [CXX-Qt 0.7 Release](https://www.kdab.com/cxx-qt-0-7/)
 
+[An 'Educational' Platformer for Kids to Learn Math and Reading—and Bevy for the Devs](https://github.com/uggla/rock_run)
+
 ### Observations/Thoughts
 * [MinPin: yet another pin proposal](https://smallcultfollowing.com/babysteps/blog/2024/11/05/minpin/)
 * [Reached the recursion limit... at build time?](https://blog.veeso.dev/blog/en/reached-the-recursion-limit-at-build-time/)
