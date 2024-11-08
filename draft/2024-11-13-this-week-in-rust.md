@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Tutorial: Implementing JSON parsing](https://blog.davimiku.com/tutorials/json-parsing-rust-1)
+
 ### Research
 
 ### Miscellaneous
