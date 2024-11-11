@@ -102,7 +102,16 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Regressions primarily in doc builds. No significant changes in cycle or max-rss
+counts.
+
+Triage done by **@simulacrum**.
+Revision range: [27e38f8f..d4822c2d](https://perf.rust-lang.org/?start=27e38f8fc7efc57b75e9a763d7a0ee44822cd5f7&end=d4822c2d84c242cc7403118b50c571464f38ef8f&absolute=false&stat=instructions%3Au)
+
+1 Regressions, 1 Improvements, 4 Mixed; 1 of them in rollups
+47 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2024-11-11.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
