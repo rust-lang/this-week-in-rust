@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[Redis Shield: A high-performance rate limiting module in Rust using the Token Bucket algorithm](https://github.com/ayarotsky/redis-shield)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
