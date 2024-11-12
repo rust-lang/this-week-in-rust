@@ -47,7 +47,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [struct-split](https://github.com/wdanilo/struct-split), a proc macro to implement partial borrows.
+
+Thanks to [Felix](https://users.rust-lang.org/t/crate-of-the-week/2704/1374) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -98,7 +100,110 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+403 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2024-11-05..2024-11-12
+
+* [remove the `wasm32-wasi` target from rustc](https://github.com/rust-lang/rust/pull/132562)
+* [add a new `wide-arithmetic` feature for WebAssembly](https://github.com/rust-lang/rust/pull/132077)
+* [add Unicode block-drawing compiler output support](https://github.com/rust-lang/rust/pull/126597)
+* [add `{ignore,needs}-{rustc,std}-debug-assertions` directive support](https://github.com/rust-lang/rust/pull/131913)
+* [add a default implementation for `CodegenBackend::link`](https://github.com/rust-lang/rust/pull/132820)
+* [add discriminators to DILocations when multiple functions are inlined into a single point](https://github.com/rust-lang/rust/pull/132613)
+* [add v9, v8plus, and leoncasa target feature to sparc and use v8plus in `create_object_file`](https://github.com/rust-lang/rust/pull/132552)
+* [additional tests to ensure let is rejected during parsing](https://github.com/rust-lang/rust/pull/132828)
+* [arbitrary self types v2: (unused) Receiver trait](https://github.com/rust-lang/rust/pull/132144)
+* [basic inline assembly support for SPARC and SPARC64](https://github.com/rust-lang/rust/pull/132472)
+* [coverage: extract safe FFI wrapper functions to `llvm_cov`](https://github.com/rust-lang/rust/pull/132452)
+* [coverage: restrict empty-span expansion to only cover `{` and `}`](https://github.com/rust-lang/rust/pull/132675)
+* [coverage: simplify parts of coverage graph creation](https://github.com/rust-lang/rust/pull/132389)
+* [do not filter empty lint passes & re-do CTFE pass](https://github.com/rust-lang/rust/pull/132637)
+* [do not reveal opaques in the param-env, we got lazy norm instead](https://github.com/rust-lang/rust/pull/132755)
+* [do not trust download-rustc=if-unchanged on CI for now](https://github.com/rust-lang/rust/pull/132852)
+* [don't suggest `.into_iter()` on iterators](https://github.com/rust-lang/rust/pull/132760)
+* [don't use `maybe_unwrap_block` when checking for macro calls in a block expr](https://github.com/rust-lang/rust/pull/132653)
+* [dont suggest `use<impl Trait>` when we have an edition-2024-related borrowck issue](https://github.com/rust-lang/rust/pull/132816)
+* [drop "gnu" in the target env for FreeBSD armv6/7](https://github.com/rust-lang/rust/pull/132764)
+* [emit warning when calling/declaring functions with unavailable vectors](https://github.com/rust-lang/rust/pull/132173)
+* [enforce that raw lifetimes must be valid raw identifiers](https://github.com/rust-lang/rust/pull/132363)
+* [ensure that tail expr receive lifetime extension](https://github.com/rust-lang/rust/pull/129627)
+* [fix parens mangled in shared mut static lint suggestion](https://github.com/rust-lang/rust/pull/132095)
+* [get rid of `check_opaque_type_well_formed`](https://github.com/rust-lang/rust/pull/132757)
+* [make `RustString` an extern type to avoid `improper_ctypes` warnings](https://github.com/rust-lang/rust/pull/132549)
+* [make `Ty::primitive_symbol` recognize `str`](https://github.com/rust-lang/rust/pull/132799)
+* [make `fn_abi_sanity_check` a bit stricter](https://github.com/rust-lang/rust/pull/132729)
+* [make sure that we suggest turbofishing the right type arg for never suggestion](https://github.com/rust-lang/rust/pull/132933)
+* [mark some target features as 'forbidden' so they cannot be (un)set with -Ctarget-feature](https://github.com/rust-lang/rust/pull/129884)
+* [only disable cache if predicate has opaques within it](https://github.com/rust-lang/rust/pull/132625)
+* [passWrapper: adapt for new parameter in LLVM](https://github.com/rust-lang/rust/pull/132600)
+* [prefer `pub(super)` in `unreachable_pub` lint suggestion](https://github.com/rust-lang/rust/pull/132426)
+* [properly suggest `E::assoc` when we encounter `E::Variant::assoc`](https://github.com/rust-lang/rust/pull/132567)
+* [provide placeholder generics for traits in "no method found for type parameter" suggestions](https://github.com/rust-lang/rust/pull/132487)
+* [reject raw lifetime followed by `'`, like regular lifetimes do](https://github.com/rust-lang/rust/pull/132341)
+* [remove 'platform-intrinsic' ABI leftovers](https://github.com/rust-lang/rust/pull/132734)
+* [remove `rustc_session::config::rustc_short_optgroups`](https://github.com/rust-lang/rust/pull/132891)
+* [remove support for `rustc_safe_intrinsic` attribute; use `rustc_intrinsic` functions instead](https://github.com/rust-lang/rust/pull/132717)
+* [remove unnecessary pub `enum` glob-imports from `rustc_middle::ty`](https://github.com/rust-lang/rust/pull/132580)
+* [require `const_impl_trait` gate for all conditional and trait const calls](https://github.com/rust-lang/rust/pull/132823)
+* [revert using `HEAP` static in Windows alloc](https://github.com/rust-lang/rust/pull/131888)
+* [set "symbol name" in raw-dylib import libraries to the decorated name](https://github.com/rust-lang/rust/pull/130586)
+* [simplify FFI calls for `-Ztime-llvm-passes` and `-Zprint-codegen-stats`](https://github.com/rust-lang/rust/pull/132590)
+* [simplify some places that deal with generic parameter defaults](https://github.com/rust-lang/rust/pull/132912)
+* [simplify the internal API for declaring command-line options](https://github.com/rust-lang/rust/pull/132754)
+* [suggest swapping LHS and RHS when RHS impls `PartialEq<lhs_ty>`](https://github.com/rust-lang/rust/pull/132404)
+* [tweak E0320 overflow error wording](https://github.com/rust-lang/rust/pull/132663)
+* [tweak detection of multiple crate versions to be more encompassing](https://github.com/rust-lang/rust/pull/128849)
+* [use `download-rustc="if-unchanged"` as a global default](https://github.com/rust-lang/rust/pull/132772)
+* [use a separate dir for r-a builds consistently in helix config](https://github.com/rust-lang/rust/pull/132794)
+* [use verbose for path separator suggestion](https://github.com/rust-lang/rust/pull/132780)
+* [`pointee_info_at`: fix logic for recursing into enums](https://github.com/rust-lang/rust/pull/132745)
+* [`rustc_codegen_llvm`: Add a new 'pc' option to branch-protection](https://github.com/rust-lang/rust/pull/132259)
+* [`rustc_target`: more target string fixes for LLVM 20](https://github.com/rust-lang/rust/pull/132785)
+* [interpret: `get_alloc_info`: also return mutability](https://github.com/rust-lang/rust/pull/132801)
+* [StableMIR: A few fixes to pretty printing](https://github.com/rust-lang/rust/pull/132161)
+* [StableMIR: API to retrieve definitions from crates](https://github.com/rust-lang/rust/pull/132131)
+* [miri: fix linux-futex test being accidentally disabled](https://github.com/rust-lang/miri/pull/4022)
+* [miri: get/set thread name shims return errors for invalid handles](https://github.com/rust-lang/miri/pull/4004)
+* [miri: preparing for merge from rustc](https://github.com/rust-lang/miri/pull/4023)
+* [miri: pthread-sync test: avoid confusing error when running with preemption](https://github.com/rust-lang/miri/pull/4020)
+* [miri: remove MutexID list](https://github.com/rust-lang/miri/pull/4002)
+* [miri: renamed this arguments to ecx](https://github.com/rust-lang/miri/pull/4029)
+* [miri: stacked borrows tests: add those that fail under TB](https://github.com/rust-lang/miri/pull/4028)
+* [miri: standardized variable names for InterpCx](https://github.com/rust-lang/miri/pull/4018)
+* [miri: store futexes in per-allocation data rather than globally](https://github.com/rust-lang/miri/pull/3971)
+* [miri: sync support: dont implicitly clone inside the general sync machinery](https://github.com/rust-lang/miri/pull/4027)
+* [stabilise `const_char_encode_utf16`](https://github.com/rust-lang/rust/pull/132153)
+* [stabilize Arm64EC inline assembly](https://github.com/rust-lang/rust/pull/131781)
+* [stabilize WebAssembly `multivalue`, reference-types`, and tail-call` target features](https://github.com/rust-lang/rust/pull/131080)
+* [stabilize `UnsafeCell::from_mut`](https://github.com/rust-lang/rust/pull/131261)
+* [stabilize s390x inline assembly](https://github.com/rust-lang/rust/pull/131258)
+* [add new unstable feature `const_eq_ignore_ascii_case`](https://github.com/rust-lang/rust/pull/131721)
+* [make `char::is_whitespace` unstably const](https://github.com/rust-lang/rust/pull/132500)
+* [inline `str::repeat`](https://github.com/rust-lang/rust/pull/132705)
+* [core/fmt: Replace checked slice indexing by unchecked to support panic-free code](https://github.com/rust-lang/rust/pull/132473)
+* [add Set entry API](https://github.com/rust-lang/rust/pull/120077)
+* [implement `div_ceil` for `NonZero<unsigned>`](https://github.com/rust-lang/rust/pull/132665)
+* [implement `file_lock` feature](https://github.com/rust-lang/rust/pull/130999)
+* [initialize channel `Block`s directly on the heap](https://github.com/rust-lang/rust/pull/132738)
+* [disable `f16` on platforms that have recursion problems](https://github.com/rust-lang/compiler-builtins/pull/730)
+* [cargo: warnings: add build.warnings option](https://github.com/rust-lang/cargo/pull/14388)
+* [cargo: test: Make redactions consistent with snapbox](https://github.com/rust-lang/cargo/pull/14790)
+* [cargo: git: do not validate submodules of fresh checkouts](https://github.com/rust-lang/cargo/pull/14605)
+* [cargo: normalize the `target` paths](https://github.com/rust-lang/cargo/pull/14497)
+* [cargo: refactor: clone-on-write when needed for InternedString](https://github.com/rust-lang/cargo/pull/14808)
+* [cargo: rustfix: replace special-case duplicate handling with error](https://github.com/rust-lang/cargo/pull/14782)
+* [rustdoc-search: show type signature on type-driven SERP](https://github.com/rust-lang/rust/pull/124544)
+* [rustdoc-search: simplify rules for generics and type params](https://github.com/rust-lang/rust/pull/127589)
+* [bindgen: fix `field_visibility` not called for new-type aliases](https://github.com/rust-lang/rust-bindgen/pull/2967)
+* [bindgen: fix `unsafe_op_in_unsafe_fn` when using dynamic librarys and `wrap_unsafe_ops`](https://github.com/rust-lang/rust-bindgen/pull/2961)
+* [handle separate prefixes in clippy rules](https://github.com/rust-lang/rust/pull/132873)
+* [clippy: `no_mangle_with_rust_abi`: properly position the suggested ABI](https://github.com/rust-lang/rust-clippy/pull/13659)
+* [clippy: add match-based manual try to `clippy::question_mark`](https://github.com/rust-lang/rust-clippy/pull/13627)
+* [clippy: collect attribute spans early for disallowed macros](https://github.com/rust-lang/rust-clippy/pull/13657)
+* [clippy: fix `large_include_file` lint being triggered all the time by doc comments](https://github.com/rust-lang/rust-clippy/pull/13672)
+* [clippy: fix: `identity_op` suggestions use correct parenthesis](https://github.com/rust-lang/rust-clippy/pull/13647)
+* [rust-analyzer: editors/code: change minimum VS Code from 1.78 to 1.83](https://github.com/rust-lang/rust-analyzer/pull/18486)
+* [rust-analyzer: use completion item indices instead of property matching when searching for the completion item to resolve](https://github.com/rust-lang/rust-analyzer/pull/18503)
 
 ### Rust Compiler Performance Triage
 
@@ -292,7 +397,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Netstack3 encompasses 63 crates and 60 developer-years of code. It contains more code than the top ten crates on [crates.io](https://crates.io/) combined. ... For the past eleven months, they have been running the new networking stack on 60 devices, full time. In that time, Liebow-Feeser said, most code would have been expected to show "mountains of bugs". Netstack3 had only three; he attributed that low number to the team's approach of encoding as many important invariants in the type system as possible.
+
+– [Joshua Liebow-Feeser at RustConf, as reported by Daroc Alden on Linux Weekly News](https://lwn.net/SubscriberLink/995814/17e451bcb3015920/)
+
+Thanks to [Anton Fetisov](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1630) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
