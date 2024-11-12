@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [video] [Rio: Next generation terminal emulator written in Rust](https://www.youtube.com/watch?v=bxcYj78UNPU)
+
 ### Rust Walkthroughs
 
 ### Research
