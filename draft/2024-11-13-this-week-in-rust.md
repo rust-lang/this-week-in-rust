@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Blog: Rust needs an official specification](https://tweedegolf.nl/en/blog/140/rust-needs-an-official-specification)
+
 ### Rust Walkthroughs
 
 ### Research
