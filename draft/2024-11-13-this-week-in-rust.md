@@ -36,6 +36,8 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Cohen: gccrs: An alternative compiler for Rust](https://lwn.net/Articles/997483/)
+* [Progress on toolchain security features](https://lwn.net/SubscriberLink/996344/a68070fd6ffe56e9/)
 
 ### Observations/Thoughts
 
