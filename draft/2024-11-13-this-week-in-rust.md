@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Spawning Processes in Linux](https://maelstrom-software.com/blog/spawning-processes-on-linux/)
+
 ### Rust Walkthroughs
 
 ### Research
