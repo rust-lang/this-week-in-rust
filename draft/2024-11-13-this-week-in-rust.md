@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Next-gen builder macro Bon 3.0 release](https://bon-rs.com/blog/bon-v3-release)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
