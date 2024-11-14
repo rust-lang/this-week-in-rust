@@ -60,6 +60,8 @@ and just ask the editors to select the category.
 * [video] [Rust 2024 Project Goals Update & Rust 1.80.1](https://www.youtube.com/watch?v=DQ2XqNB-0Qg)
 * [video] [Rio: Next generation terminal emulator written in Rust](https://www.youtube.com/watch?v=bxcYj78UNPU)
 
+* [Spawning Processes in Linux](https://maelstrom-software.com/blog/spawning-processes-on-linux/)
+
 ### Rust Walkthroughs
 * [Parsing arguments in Rust with no dependencies](https://ntietz.com/blog/parsing-arguments-rust-no-deps/)
 * [Using portable SIMD in stable Rust](https://pythonspeed.com/articles/simd-stable-rust/)
