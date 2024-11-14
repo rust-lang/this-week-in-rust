@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Typed IDs with SeaORM](https://klacan.sk/posts/typed-ids-with-sea-orm/)
+
 ### Rust Walkthroughs
 * [Tutorial: Implementing JSON parsing](https://blog.davimiku.com/tutorials/json-parsing-rust-1)
 * [Impl Snake For Micro:bit - Embedded async Rust on BBC Micro:bit with Embassy](https://gitlab.com/cyril-marpaud/impl_snake_for_microbit/-/blob/main/README.md)
