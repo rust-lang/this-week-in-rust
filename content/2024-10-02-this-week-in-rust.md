@@ -75,7 +75,7 @@ and just ask the editors to select the category.
 * [Rust interop in practice: speaking Python and Javascript](https://tweedegolf.nl/en/blog/136/rust-interop-in-practice-speaking-python-and-javascript)
 * [Series] [Mastering Dependency Injection in Rust: Despatma with Lifetimes](https://chesedo.me/blog/despatma-with-singleton-and-scoped-support/)
 * [Sqlx4k - Interoperability between Kotlin and Rust, using FFI (Part 1)](https://smyrgeorge.github.io/posts/sqlx4k---interoperability-between-kotlin-and-rust-using-ffi-part-1/)
-* [Serde for Trait objects](https://voelklmichael.github.io/Blog/2024/10/01/serde-trait-part1.html)
+* [Serde for Trait objects](https://voelklmichael.github.io/Blog/serde-trait-part1.html)
 * [video] [Build with Naz : Rust clap colorization](https://www.youtube.com/watch?v=lzMYDA6St0s)
 
 ### Miscellaneous
