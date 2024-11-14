@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Introducing Hyperlight: Virtual machine-based security for functions at scale](https://opensource.microsoft.com/blog/2024/11/07/introducing-hyperlight-virtual-machine-based-security-for-functions-at-scale/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
