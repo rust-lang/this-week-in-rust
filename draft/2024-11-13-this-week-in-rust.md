@@ -194,6 +194,11 @@ Rusty Events between 2024-11-13 - 2024-12-11 🦀
 * 2024-12-11 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/304047666/)
 
+### Africa
+
+* 2024-12-07 | Virtual( Kampala, UG) | [Rust Circle Kampala](https://www.eventbrite.com/o/rust-circle-kampala-65249289033/)
+    * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587)
+    
 ### Asia
 * 2024-11-28 | Bangalore/Bengaluru, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**RustTechX Summit 2024 BOSCH**](https://hasgeek.com/rustbangalore/rusttechx-summit-2024-bosch/)
@@ -239,6 +244,8 @@ Rusty Events between 2024-11-13 - 2024-12-11 🦀
     * [**Oxford Rust and C++ social**](https://www.meetup.com/oxford-rust-meetup-group/events/303123399/)
 * 2024-12-05 | Olomouc, CZ | [Rust Moravia](https://www.meetup.com/rust-moravia/events/)
     * [**Rust Moravia Meetup (December 2024)**](https://www.meetup.com/rust-moravia/events/304075150/)
+* 2024-12-06 | Moscow, RU | [RustCon RU](https://rustcon.ru/)
+    * [**RustCon Russia**](https://rustcon.ru/)
 * 2024-12-11 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/events/)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/wrdkmtygcqbpb/)
 
