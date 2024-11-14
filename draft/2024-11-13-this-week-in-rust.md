@@ -39,8 +39,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
-- [video] [Rust 2024 Project Goals Update & Rust 1.80.1](https://youtu.be/DQ2XqNB-0Qg)
-
+* [video] [Rust 2024 Project Goals Update & Rust 1.80.1](https://www.youtube.com/watch?v=DQ2XqNB-0Qg)
 ### Rust Walkthroughs
 
 ### Research
