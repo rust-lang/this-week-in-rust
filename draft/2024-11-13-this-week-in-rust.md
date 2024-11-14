@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Redis Shield: A high-performance rate limiting module in Rust using the Token Bucket algorithm](https://github.com/ayarotsky/redis-shield)
 * [Introducing Hyperlight: Virtual machine-based security for functions at scale](https://opensource.microsoft.com/blog/2024/11/07/introducing-hyperlight-virtual-machine-based-security-for-functions-at-scale/)
+* [Cohen: gccrs: An alternative compiler for Rust](https://lwn.net/Articles/997483/)
+* [Progress on toolchain security features](https://lwn.net/SubscriberLink/996344/a68070fd6ffe56e9/)
 
 ### Observations/Thoughts
 * [Typed IDs with SeaORM](https://klacan.sk/posts/typed-ids-with-sea-orm/)
