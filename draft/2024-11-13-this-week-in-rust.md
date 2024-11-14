@@ -39,7 +39,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
-- [Typed IDs with SeaORM](https://klacan.sk/posts/typed-ids-with-sea-orm/)
+* [Typed IDs with SeaORM](https://klacan.sk/posts/typed-ids-with-sea-orm/)
 
 ### Rust Walkthroughs
 
