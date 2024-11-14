@@ -37,11 +37,10 @@ and just ask the editors to select the category.
 * [The Embedded Rustacean Issue #32](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-32)
 
 ### Project/Tooling Updates
-
+* [Redis Shield: A high-performance rate limiting module in Rust using the Token Bucket algorithm](https://github.com/ayarotsky/redis-shield)
 * [Introducing Hyperlight: Virtual machine-based security for functions at scale](https://opensource.microsoft.com/blog/2024/11/07/introducing-hyperlight-virtual-machine-based-security-for-functions-at-scale/)
 
 ### Observations/Thoughts
-
 * [Typed IDs with SeaORM](https://klacan.sk/posts/typed-ids-with-sea-orm/)
 
 ### Rust Walkthroughs
