@@ -42,8 +42,9 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 * [Typed IDs with SeaORM](https://klacan.sk/posts/typed-ids-with-sea-orm/)
-
 * [video] [Rust 2024 Project Goals Update & Rust 1.80.1](https://www.youtube.com/watch?v=DQ2XqNB-0Qg)
+* [video] [Rio: Next generation terminal emulator written in Rust](https://www.youtube.com/watch?v=bxcYj78UNPU)
+
 ### Rust Walkthroughs
 * [Tutorial: Implementing JSON parsing](https://blog.davimiku.com/tutorials/json-parsing-rust-1)
 * [Impl Snake For Micro:bit - Embedded async Rust on BBC Micro:bit with Embassy](https://gitlab.com/cyril-marpaud/impl_snake_for_microbit/-/blob/main/README.md)
