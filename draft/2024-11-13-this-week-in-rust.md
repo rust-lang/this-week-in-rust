@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Impl Snake For Micro:bit - Embedded async Rust on BBC Micro:bit with Embassy](https://gitlab.com/cyril-marpaud/impl_snake_for_microbit/-/blob/main/README.md)
+
 ### Research
 
 ### Miscellaneous
