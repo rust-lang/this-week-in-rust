@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 * [Cohen: gccrs: An alternative compiler for Rust](https://lwn.net/Articles/997483/)
 * [Progress on toolchain security features](https://lwn.net/SubscriberLink/996344/a68070fd6ffe56e9/)
 
+* [Next-gen builder macro Bon 3.0 release](https://bon-rs.com/blog/bon-v3-release)
+
 ### Observations/Thoughts
 * [Perhaps Rust needs "defer"](https://gaultier.github.io/blog/perhaps_rust_needs_defer.html)
 * [Rust needs an official specification](https://tweedegolf.nl/en/blog/140/rust-needs-an-official-specification)
