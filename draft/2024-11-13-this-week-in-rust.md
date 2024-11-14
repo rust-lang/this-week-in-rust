@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 * [video] [Rust 2024 Project Goals Update & Rust 1.80.1](https://www.youtube.com/watch?v=DQ2XqNB-0Qg)
 * [video] [Rio: Next generation terminal emulator written in Rust](https://www.youtube.com/watch?v=bxcYj78UNPU)
 
+* [Blog: Rust needs an official specification](https://tweedegolf.nl/en/blog/140/rust-needs-an-official-specification)
+
 ### Rust Walkthroughs
 * [Tutorial: Implementing JSON parsing](https://blog.davimiku.com/tutorials/json-parsing-rust-1)
 * [Impl Snake For Micro:bit - Embedded async Rust on BBC Micro:bit with Embassy](https://gitlab.com/cyril-marpaud/impl_snake_for_microbit/-/blob/main/README.md)
