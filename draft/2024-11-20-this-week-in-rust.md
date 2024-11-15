@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rerun 0.20 - Geospatial data and full H.264 support](https://rerun.io/blog/maps)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
