@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Building a Wifi-controlled car with Rust and ESP32](https://jamesmcm.github.io/blog/esp32-wifi-tank/)
+
 
 ### Research
 
