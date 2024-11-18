@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+[How to Join Vector of Strings in Rust](https://crustc.com/join-vector-of-strings/)
 
 ### Research
 
