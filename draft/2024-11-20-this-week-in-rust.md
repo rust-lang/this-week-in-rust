@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [The fastest WASM zlib](https://trifectatech.org/blog/fastest-wasm-zlib/)
 
 ### Rust Walkthroughs
 
