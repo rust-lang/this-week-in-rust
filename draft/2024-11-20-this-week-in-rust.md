@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Traits to Unify all Vectors](https://orxfun.github.io/orxfun-notes/#/v-for-vectors-2024-11-18)
+
 ### Research
 
 ### Miscellaneous
