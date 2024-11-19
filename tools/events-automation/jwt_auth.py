@@ -2,20 +2,17 @@ import jwt
 import os
 import datetime
 
-#from dotenv import load_dotenv
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.backends import default_backend
 
-# Automate loading environment variables in Python script, make them accessible to the project
-#load_dotenv()
 
 def get_PEM_private_key():
     """
     Loads the PRIVATE_KEY in string from .env file.
     Returns it in PEM-formatted bytes
     """
-    pem_bytes = (os.getenv('PRIVATE_KEY', "")).encode() 
-    return pem_bytes
+    with open(os.getenv("PRIVATE_KEY"), 'rb') as pem_file:
+        return pem_file.read()
 
 def get_RSA_private_key():
     """
@@ -51,8 +48,8 @@ def generate_signed_jwt():
     Encodes and signs the payload using RS256 and the private RSA key, forming a base64-url encoded header, payload, and signature. 
     Then returns it.
     """
-    AUTHORIZED_MEMBER_ID = os.getenv('AUTHORIZED_MEMBER_ID', "") # the member id that owns the OAuth Client
-    CLIENT_KEY = os.getenv('CLIENT_KEY', "")
+    AUTHORIZED_MEMBER_ID = os.getenv('AUTHORIZED_MEMBER_ID') # the member id that owns the OAuth Client
+    CLIENT_KEY = os.getenv('CLIENT_KEY')
     private_key = get_RSA_private_key()
     payload = {
         "sub": AUTHORIZED_MEMBER_ID,
