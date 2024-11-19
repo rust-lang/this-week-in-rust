@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [ Streaming data analytics, Fluvio 0.13.0 release](https://www.fluvio.io/news/this-week-in-fluvio-0066)
 
 ### Observations/Thoughts
 
@@ -198,7 +199,7 @@ Rusty Events between 2024-11-20 - 2024-12-18 🦀
 
 * 2024-12-07 | Virtual( Kampala, UG) | [Rust Circle Kampala](https://www.eventbrite.com/o/rust-circle-kampala-65249289033/)
     * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587)
-    
+
 ### Asia
 * 2024-11-28 | Bangalore/Bengaluru, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**RustTechX Summit 2024 BOSCH**](https://hasgeek.com/rustbangalore/rusttechx-summit-2024-bosch/)
