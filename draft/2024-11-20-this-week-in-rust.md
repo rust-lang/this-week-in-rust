@@ -33,6 +33,8 @@ and just ask the editors to select the category.
 
 ### Foundation
 
+* [Rust Foundation Collaborates With AWS Initiative to Verify Rust Standard Libraries](https://foundation.rust-lang.org/news/rust-foundation-collaborates-with-aws-initiative-to-verify-rust-standard-libraries/)
+
 ### Newsletters
 
 ### Project/Tooling Updates
