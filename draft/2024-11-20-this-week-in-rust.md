@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Glues v0.5 - Editor Tabs and Enhanced Vim Commands](https://github.com/gluesql/glues/releases/tag/v0.5.0)
 
 ### Observations/Thoughts
 
