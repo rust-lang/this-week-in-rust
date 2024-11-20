@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Building an email address parser in Rust with nom](https://blog.arcjet.com/building-an-email-address-parser-in-rust-with-nom/)
+
 ### Research
 
 ### Miscellaneous
