@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [You don't (always) need async](https://blog.veeso.dev/blog/en/you-dont-always-need-async/)
+
 ### Rust Walkthroughs
 
 * [Basics of Pinning in Rust](https://garden.christophertee.dev/tech/rust/Pinning)
