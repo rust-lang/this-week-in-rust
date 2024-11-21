@@ -60,7 +60,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Building Async I/O in Rust: How Futures, Wakers, and Thread Pools Work Together](https://www.spaghetti-coder.com/building-async-io-in-rust-how-futures-wakers-and-thread-pools-work-together)
 * [Index Trait, Pinned Elements and Immutable Push Vector](https://orxfun.github.io/orxfun-notes/#/imp-vec-motivation-2024-10-03)
-* [series] [Serde for Trait Object 2: Serialization](https://voelklmichael.github.io/Blog/2024/10/08/serde-trait-part2.html)
+* [series] [Serde for Trait Object 2: Serialization](https://voelklmichael.github.io/Blog/serde-trait-part2.html)
 * [video] [Build with Naz : Create an async shell in Rust](https://www.youtube.com/watch?v=jXzFCDIJQag)
 
 ### Miscellaneous
