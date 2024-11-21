@@ -220,7 +220,19 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+We saw improvements to a large swath of benchmarks with the querification of
+MonoItem collection (PR #132566). There were also some PRs where we are willing
+to pay a compile-time cost for expected runtime benefit (PR #132870, PR #120370),
+or pay a small cost in the single-threaded case in exchange for a big parallel
+compilation win (PR #124780).
+
+Triage done by **@pnkfelix**.
+Revision range: [d4822c2d..7d40450b](https://perf.rust-lang.org/?start=d4822c2d84c242cc7403118b50c571464f38ef8f&end=7d40450b2df92bdc9dec414b30cf5f7a5979a92e&absolute=false&stat=instructions%3Au)
+
+2 Regressions, 4 Improvements, 10 Mixed; 6 of them in rollups
+47 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/d1b574c0c528c74491412625aa5bd3f27a9c2268/triage/2024-11-19.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
