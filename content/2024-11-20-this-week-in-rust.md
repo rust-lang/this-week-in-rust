@@ -34,8 +34,63 @@ and just ask the editors to select the category.
 
 ### Foundation
 * [Announcing the Rust Foundation’s Newest Project Director: Carol Nichols](https://foundation.rust-lang.org/news/announcing-the-rust-foundation-s-newest-project-director-carol-nichols/)
-
 * [Rust Foundation Collaborates With AWS Initiative to Verify Rust Standard Libraries](https://foundation.rust-lang.org/news/rust-foundation-collaborates-with-aws-initiative-to-verify-rust-standard-libraries/)
+
+## EuroRust 2024
+* [Through the Fire and the Flames - Jon Gjengset](https://youtu.be/8-KLX1PGg8Q)
+* [Build bigger in less time: code testing beyond the basics - Predrag Gruevski](https://youtu.be/3EFue8PDyic)
+* [A gentle introduction to procedural macros - Sam Van Overmeire](https://youtu.be/02vpyrR1hqk)
+* [Practical Rust for Web Audio - Attila Haraszti](https://youtu.be/RTjQFJ5XmKg)
+* [Augmented docs: a love letter to rustdoc and docs.rs - Francois Mockers](https://youtu.be/Uy13wS9VyNU)
+* [The Impact of Memory Allocators on Performance: A Deep Dive - Arthur Pastel](https://youtu.be/pJ-FRRB5E84)
+* [Proving macro expansion with expandable - Sasha Pourcelot](https://youtu.be/0cbclh4F2VU)
+* [Runtime Scripting for Rust Applications - Niklas Korz](https://youtu.be/M8dpH3rO-2M)
+* [Unleashing 🦀 The Ferris Within - Victor Ciura](https://youtu.be/kiG5-LzIQ54)
+* [The first six years in the development of Polonius - Amanda Stjerna](https://youtu.be/uCN_LRcswts)
+* [Non-binary Rust: Between Safe and Unsafe - Boxy Uwu](https://youtu.be/KGLsKpMHJdw)
+* [Writing a SD Card driver in Rust - Johnathan Pallant](https://youtu.be/-ewuFNKIAVI)
+* [My Journey from WebDev to Medical Visualization Rustacean - David Peherstorfer](https://youtu.be/ZzQaVH-9Dzs)
+* [Code to contract to code: making ironclad APIs - Adam Chalmers](https://youtu.be/bjgGboWCTDw)
+* [Rust Irgendwie, Irgendwo, Irgendwann - Henk Oordt](https://youtu.be/aI2UXOcaRhw)
+* [Linting with Dylint - Samuel Moelius](https://youtu.be/MjlPUA7sAmA)
+
+## [RustConf 2024](https://www.youtube.com/playlist?list=PL2b0df3jKKiTWZeF7cip6ZUsaVXxWioRi)
+* [Dr. Rebecca Rumbul (Rust Foundation Executive Director): "Welcome Remarks"](https://youtu.be/wTV0WCLERGg)
+* [Aeva Black: "Making Open Source Secure by Design" | KEYNOTE](https://youtu.be/-4UD-yGrv5s)
+* [Marc-André Moreau (CTO, Devolutions): Diamond Sponsor Talk](https://youtu.be/6JtaVM7Pyjg)
+* [Nick Cameron: "Eternal Sunshine of the Rustfmt'ed Mind"](https://youtu.be/83CoPbrvvKE)
+* [Jack Wrenn: "Safety Goggles for Alchemists"](https://youtu.be/HyRrbHN6BdY)
+* [Rohit Dandamundi: "Widening the Ferris Net"](https://youtu.be/YREBjo-d2Ac)
+* [Isabel Atkinson: "Rustify Your API: A Journey from Specification to Implementation"](https://youtu.be/1nXW-mYGTiM)
+* [Sparrow Li: "The Current State and Future of Rust Compiler Performance"](https://youtu.be/Lye2xeJ3O5w)
+* [Nathan Stocks: "Shooting Stars! Livecode a Game in Less Than 30 Mins"](https://youtu.be/Ee-VWKtkmVg)
+* [Pedro Rittner & Sean Lawlor: "Actors and Factories in Rust"](https://youtu.be/zQ6EyQJRxIs)
+* [David Koloski: "The (Many) Mistakes I Made in rkyv"](https://youtu.be/ON4z2LbTD-4)
+* [Kyler Chin: "How We Built a Rust-y Real-Time Public Transport Map"](https://youtu.be/Lc8lBMEJQdo)
+* [Adam Chalmers: "Making a Programming Language for 3D Design"](https://youtu.be/f11kfaKAPzw)
+* [Martin Pool: "Finding Bugs with cargo-mutants"](https://youtu.be/PjDHe-PkOy8)
+* [1Password, Adobe, Woven by Toyota: Gold Sponsor Lightning Talks](https://youtu.be/EY2KT0QZnkg)
+* [Miguel Ojeda (Rust for Linux): KEYNOTE](https://youtu.be/FRMJzNYut4g)
+* [JetBrains, K2 Space, Zed: Gold Sponsor Lightning Talks](https://youtu.be/rME_t6Jn_Kw)
+* [Jonathan Pallant: "Six Clock Cycle per Pixel - Graphics on the Neotrol Pico"](https://youtu.be/W45_KnLZ804)
+* [Joannah Nanjekye: "Rust Interop: Memory Safety Across Foreign Function Boundaries"](https://youtu.be/ohG-qxd4x6s)
+* [Jacob Pratt: "Compiler-Driven Development: Making Rust Work for You"](https://youtu.be/_oaGNy3_798)
+* [Angus Morrison: "How Rust is Powering Next-Generation Space Mission Simulators"](https://youtu.be/sAqNvH19Sxo)
+* [Michael Gattozzi: "What Happens When You Run Cargo Build?"](https://youtu.be/fOApf4ZMX4w)
+* [Pallavi Thukral: "Rust in Motion: Building Reliable and Performant Robotics Systems"](https://youtu.be/a82TJDjUZn0)
+* [Marc-André Giroux: "Low-Overhead Observability in High-RPS Servers"](https://youtu.be/TfJMXXBUvAQ)
+* [Predrag Gruevski: "Putting an End to Accidental SemVer-Breaking Changes"](https://youtu.be/KKf14ZXyTSo)
+* [Chris Biscardi: "Web Sites, Web Apps, and Web Assembly"](https://youtu.be/geH69jl8vOY)
+* [Nicholas Matsakis (Co-Lead, Rust Design Team): "Rust Roadmap 2.0" | KEYNOTE](https://youtu.be/7YjomcXNvTk)
+* [Frédéric Ameye: "Rust in Legacy Regulated Industries"](https://youtu.be/_uYOd3ExJII)
+* [Walter Pearce: "Dude, Where's My C?"](https://youtu.be/LZli45PPlss)
+* [Ed Jones: "Fearless Refactoring & the Art of Argument-Free Rust"](https://youtu.be/39utxTvS6hE)
+* [Dr. Rebecca Rambul: Opening Remarks](https://youtu.be/1jGOoinjde4)
+* [OxidOS Sponsored Talk](https://youtu.be/I_A1Q5ynU9U)
+* [Martin Geisler: "Rust Training at Scale"](https://youtu.be/7h5KyMqt2-Q)
+* [Quanyi Ma: "Embracing Monorepo and LLM Evolution"](https://youtu.be/qHcfiCmcIf8)
+* [Joshua Liebow-Feeser: "Safety in an Unsafe World"](https://youtu.be/qd3x5MCUrhw)
+* [Jack Huey & James Munns: "An Outsider's Guide to the Rust Project"](https://youtu.be/kXtL_YSZ0Xs)
 
 ### Newsletters
 * [This Month in Rust OSDev: October 2024](https://rust-osdev.com/this-month/2024-10/)
@@ -47,7 +102,6 @@ and just ask the editors to select the category.
 * [Virtual Geometry in Bevy 0.15](https://jms55.github.io/posts/2024-11-14-virtual-geometry-bevy-0-15/)
 * [Glues v0.5 - Editor Tabs and Enhanced Vim Commands](https://github.com/gluesql/glues/releases/tag/v0.5.0)
 * [Streaming data analytics, Fluvio 0.13.0 release](https://www.fluvio.io/news/this-week-in-fluvio-0066)
-* [Zed Decoded: Rope Optimizations](https://zed.dev/blog/zed-decoded-rope-optimizations-part-1)
 * [Rerun 0.20 - Geospatial data and full H.264 support](https://rerun.io/blog/maps)
 * [git-cliff 2.7.0 is released! (a highly customizable changelog generator)](https://git-cliff.org/blog/2.7.0)   
 
@@ -55,16 +109,14 @@ and just ask the editors to select the category.
 * [You don't (always) need async](https://blog.veeso.dev/blog/en/you-dont-always-need-async/)
 * [The fastest WASM zlib](https://trifectatech.org/blog/fastest-wasm-zlib/)
 * [A rustc soundness bug in the wild](https://specy.app/blog/posts/a-rustc-soundness-bug-in-the-wild)
-* [video] [EuroRust 2024 Videos](https://www.youtube.com/playlist?list=PL85XCvVPmGQgc53QJmJXfj7485oyadCgv)
-* [video] [RustConf 2024 Videos](https://www.youtube.com/playlist?list=PL2b0df3jKKiTWZeF7cip6ZUsaVXxWioRi)
 * [audio] [Compile Time Crimes](https://sdr-podcast.com/episodes/compile-time-crimes/)
 * [audio] [Oxide with Steve Klabnik](https://corrode.dev/podcast/s03e03-oxide/)
 
 ### Rust Walkthroughs
+* [Zed Rope Optimizations, Part 1](https://zed.dev/blog/zed-decoded-rope-optimizations-part-1)
 * [Futexes at Home](https://specificprotagonist.net/jvm-futex.html)
 * [Build your own SQLite, Part 3: SQL parsing 101](https://blog.sylver.dev/build-your-own-sqlite-part-3-sql-parsing-101)
 * [dtype_dispatch: a most beautiful hack](https://graphallthethings.com/posts/dtype-dispatch)
-* [Zed Rope Optimizations, Part 1](https://zed.dev/blog/zed-decoded-rope-optimizations-part-1)
 * [Sending Events to Bevy from anywhere](https://rustunit.com/blog/2024/11-15-bevy-channel-trigger/)
 * [Building an email address parser in Rust with nom](https://blog.arcjet.com/building-an-email-address-parser-in-rust-with-nom/)
 * [Exploring Async Runtimes by Building our Own](https://blog.maguire.tech/posts/explorations/exploring-async-runtimes/)
@@ -72,10 +124,6 @@ and just ask the editors to select the category.
 * [Basics of Pinning in Rust](https://garden.christophertee.dev/tech/rust/Pinning)
 * [Building a Wifi-controlled car with Rust and ESP32](https://jamesmcm.github.io/blog/esp32-wifi-tank/)
 * [video] [Build with Naz : Diesel ORM, SQLite and Rust](https://www.youtube.com/watch?v=d9x_5X9R5LI)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
