@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 * [Rerun 0.20 - Geospatial data and full H.264 support](https://rerun.io/blog/maps)
 
 ### Observations/Thoughts
+* [The fastest WASM zlib](https://trifectatech.org/blog/fastest-wasm-zlib/)
 
 * [You don't (always) need async](https://blog.veeso.dev/blog/en/you-dont-always-need-async/)
 
