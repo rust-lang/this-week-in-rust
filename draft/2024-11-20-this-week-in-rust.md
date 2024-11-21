@@ -37,10 +37,15 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rerun 0.20 - Geospatial data and full H.264 support](https://rerun.io/blog/maps)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+
 * [Basics of Pinning in Rust](https://garden.christophertee.dev/tech/rust/Pinning)
+* [Building a Wifi-controlled car with Rust and ESP32](https://jamesmcm.github.io/blog/esp32-wifi-tank/)
+* [video] [Build with Naz : Diesel ORM, SQLite and Rust](https://www.youtube.com/watch?v=d9x_5X9R5LI)
 
 ### Research
 
