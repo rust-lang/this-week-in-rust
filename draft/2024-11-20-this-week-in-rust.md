@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 * [Zed Decoded: Rope Optimizations](https://zed.dev/blog/zed-decoded-rope-optimizations-part-1)
 * [Rerun 0.20 - Geospatial data and full H.264 support](https://rerun.io/blog/maps)
 
+- [git-cliff 2.7.0 is released! (a highly customizable changelog generator)](https://git-cliff.org/blog/2.7.0)                                                                                                     │
+
 ### Observations/Thoughts
 * [The fastest WASM zlib](https://trifectatech.org/blog/fastest-wasm-zlib/)
 
