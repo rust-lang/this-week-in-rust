@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Traits to Unify all Vectors](https://orxfun.github.io/orxfun-notes/#/v-for-vectors-2024-11-18)
 * [Basics of Pinning in Rust](https://garden.christophertee.dev/tech/rust/Pinning)
 * [Building a Wifi-controlled car with Rust and ESP32](https://jamesmcm.github.io/blog/esp32-wifi-tank/)
 * [video] [Build with Naz : Diesel ORM, SQLite and Rust](https://www.youtube.com/watch?v=d9x_5X9R5LI)
