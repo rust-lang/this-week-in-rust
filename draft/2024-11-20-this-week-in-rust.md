@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Building an email address parser in Rust with nom](https://blog.arcjet.com/building-an-email-address-parser-in-rust-with-nom/)
 * [Exploring Async Runtimes by Building our Own](https://blog.maguire.tech/posts/explorations/exploring-async-runtimes/)
 * [Traits to Unify all Vectors](https://orxfun.github.io/orxfun-notes/#/v-for-vectors-2024-11-18)
 * [Basics of Pinning in Rust](https://garden.christophertee.dev/tech/rust/Pinning)
