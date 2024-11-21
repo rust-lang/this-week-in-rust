@@ -36,8 +36,8 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Glues v0.5 - Editor Tabs and Enhanced Vim Commands](https://github.com/gluesql/glues/releases/tag/v0.5.0)
 * [ Streaming data analytics, Fluvio 0.13.0 release](https://www.fluvio.io/news/this-week-in-fluvio-0066)
-
 * [Zed Decoded: Rope Optimizations](https://zed.dev/blog/zed-decoded-rope-optimizations-part-1)
 * [Rerun 0.20 - Geospatial data and full H.264 support](https://rerun.io/blog/maps)
 
