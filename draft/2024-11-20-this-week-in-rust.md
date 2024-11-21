@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Zed Decoded: Rope Optimizations](https://zed.dev/blog/zed-decoded-rope-optimizations-part-1)
 * [Rerun 0.20 - Geospatial data and full H.264 support](https://rerun.io/blog/maps)
 
 ### Observations/Thoughts
