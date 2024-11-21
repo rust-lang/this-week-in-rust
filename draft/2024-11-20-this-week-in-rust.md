@@ -35,6 +35,8 @@ and just ask the editors to select the category.
 ### Foundation
 * [Announcing the Rust Foundation’s Newest Project Director: Carol Nichols](https://foundation.rust-lang.org/news/announcing-the-rust-foundation-s-newest-project-director-carol-nichols/)
 
+* [Rust Foundation Collaborates With AWS Initiative to Verify Rust Standard Libraries](https://foundation.rust-lang.org/news/rust-foundation-collaborates-with-aws-initiative-to-verify-rust-standard-libraries/)
+
 ### Newsletters
 * [This Month in Rust OSDev: October 2024](https://rust-osdev.com/this-month/2024-10/)
 
