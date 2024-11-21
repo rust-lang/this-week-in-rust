@@ -3,6 +3,8 @@
 # call event sink with our collected events
 # print to console / output to file formatted markdown
 
+import logging
+
 from test_events import get_test_events
 from datetime import date, timedelta
 from country_code_to_continent import country_code_to_continent
@@ -10,9 +12,13 @@ from generate_events_meetup import TwirMeetupClient
 
 # TODO: Flagged events list handling.
 
+logger = logging.getLogger(__name__)
+
 def main():
+    logging.basicConfig(level=logging.INFO)
+    logger.info("Starting...")
+
     meetup_client = TwirMeetupClient()
-    meetup_client.authenticate()
 
     # Get Events list from Event Sources.
     event_list = meetup_client.get_events()

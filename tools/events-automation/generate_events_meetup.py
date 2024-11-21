@@ -1,11 +1,15 @@
 import requests
 import datetime
 import csv
+import logging
 
 from jwt_auth import generate_signed_jwt
 from urllib.parse import urlsplit
 from geopy.geocoders import Nominatim
 from event import Event
+
+logger = logging.getLogger(__name__)
+
 
 class TwirMeetupClient:
     AUTH_ENDPOINT = "https://secure.meetup.com/oauth2/access"
@@ -16,11 +20,13 @@ class TwirMeetupClient:
         self._refresh_token = None
         self._geolocator = Nominatim(user_agent="TWiR")
 
-    def authenticate(self):
+    def _authenticate(self):
         """
         Handles the OAuth 2.0 authentication process.
-        Returns obtaining access and refresh tokens from the Meetup API
+        Sets access and refresh tokens from the Meetup API
         """
+        logger.info("Fetching auth tokens...")
+
         headers = {
             "Content-Type": "application/x-www-form-urlencoded"
         }
@@ -39,6 +45,14 @@ class TwirMeetupClient:
         else:
             response.raise_for_status()
 
+        logger.info("Done fetching auth tokens!")
+
+    def _get_access_token(self):
+        if not self._access_token:
+            self._authenticate()
+
+        return self._get_access_token
+
     def fetch_groups(self, endCursor=""):
         """
         Returns the response from the API call, which includes data on groups matching the criteria specified in the GraphQL query.
@@ -48,7 +62,7 @@ class TwirMeetupClient:
 
         # Sets the content type to application/json for the request body.
         headers = {
-            "Authorization": f"Bearer {self._access_token}",
+            "Authorization": f"Bearer {self._get_access_token}",
             "Content-Type": "application/json",
         }
 
@@ -147,7 +161,6 @@ class TwirMeetupClient:
                 group["urlname"] = (split_url.path).replace("/", "")
                 group["location"] = location
                 groups[i] = group            
-
         return groups
 
     def get_20_events(self, groups) -> list[Event]:
@@ -159,7 +172,7 @@ class TwirMeetupClient:
         events = [] # main list to store data about each fetched event.
 
         headers = {
-            "Authorization": f"Bearer {self._access_token}",
+            "Authorization": f"Bearer {self._get_access_token()}",
             "Content-Type": "application/json",
         }
 
