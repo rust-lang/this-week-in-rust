@@ -59,7 +59,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [fixed-slice-vec](https://crates.io/crates/fixed-slice-vec), a no-std dynamic length Vec with runtime-determined maximum capacity backed by a slice.
+
+Thanks to [Jay Oster](https://users.rust-lang.org/t/crate-of-the-week/2704/1376) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -114,7 +116,107 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+480 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2024-11-12..2024-11-19
+
+* [ABI checks: add support for some tier3 arches, warn on others](https://github.com/rust-lang/rust/pull/133029)
+* [ABI checks: add support for tier2 arches](https://github.com/rust-lang/rust/pull/132842)
+* [CFI: append debug location to CFI blocks](https://github.com/rust-lang/rust/pull/132702)
+* [AIX: Add crate "unwind" to link with libunwind](https://github.com/rust-lang/rust/pull/132905)
+* [illumos: use pipe2 to create anonymous pipes](https://github.com/rust-lang/rust/pull/132984)
+* [`check_consts`: fix error requesting feature gate when that gate is not actually needed](https://github.com/rust-lang/rust/pull/132992)
+* [`const_panic`: inline in bootstrap builds to avoid f16/f128 crashes](https://github.com/rust-lang/rust/pull/133182)
+* [`rustc_metadata`: Preprocess search paths for better performance](https://github.com/rust-lang/rust/pull/132910)
+* [`suggest_borrow_generic_arg`: instantiate clauses properly](https://github.com/rust-lang/rust/pull/133130)
+* [add `visit_coroutine_kind` to `ast::Visitor`](https://github.com/rust-lang/rust/pull/132956)
+* [add parentheses when unboxing suggestion needed](https://github.com/rust-lang/rust/pull/132944)
+* [add reference annotations for diagnostic attributes](https://github.com/rust-lang/rust/pull/133187)
+* [allow CFGuard on windows-gnullvm](https://github.com/rust-lang/rust/pull/132965)
+* [always inline functions signatures containing `f16` or `f128`](https://github.com/rust-lang/rust/pull/133050)
+* [borrowck diagnostics: suggest borrowing function inputs in generic positions](https://github.com/rust-lang/rust/pull/132172)
+* [change `Visitor::visit_precise_capturing_arg` so it returns a `Visitor::Result`](https://github.com/rust-lang/rust/pull/133049)
+* [change intrinsic declarations to new style](https://github.com/rust-lang/rust/pull/132907)
+* [check `use<..>` in RPITIT for refinement](https://github.com/rust-lang/rust/pull/132795)
+* [consolidate type system const evaluation under `traits::evaluate_const`](https://github.com/rust-lang/rust/pull/132927)
+* [delete the `cfg(not(parallel))` serial compiler](https://github.com/rust-lang/rust/pull/132282)
+* [deny capturing late-bound ty/const params in nested opaques](https://github.com/rust-lang/rust/pull/132832)
+* [diagnostics for let mut in item context](https://github.com/rust-lang/rust/pull/133143)
+* [extend the "if-unchanged" logic for compiler builds](https://github.com/rust-lang/rust/pull/131831)
+* [feature gate yield expressions not in 2024](https://github.com/rust-lang/rust/pull/132668)
+* [fix ICE when passing DefId-creating args to `legacy_const_generics`](https://github.com/rust-lang/rust/pull/130443)
+* [fix `REGISTRY_USERNAME` to reuse cache between auto and pr jobs](https://github.com/rust-lang/rust/pull/132967)
+* [fix a copy-paste issue in the NuttX raw type definition](https://github.com/rust-lang/rust/pull/133027)
+* [fix compilation error on Solaris due to flock usage](https://github.com/rust-lang/rust/pull/132977)
+* [fix span edition for 2024 RPIT coming from an external macro](https://github.com/rust-lang/rust/pull/133080)
+* [for expr `return (_ = 42); unused_paren` lint should not be triggered](https://github.com/rust-lang/rust/pull/132936)
+* [handle infer vars in anon consts on stable](https://github.com/rust-lang/rust/pull/132971)
+* [improve VecCache under parallel frontend](https://github.com/rust-lang/rust/pull/124780)
+* [increase accuracy of `if` condition misparse suggestion](https://github.com/rust-lang/rust/pull/133051)
+* [liberate `aarch64-gnu-debug` from the shackles of `--test-args=clang`](https://github.com/rust-lang/rust/pull/132646)
+* [likely unlikely fix](https://github.com/rust-lang/rust/pull/120370)
+* [make precise capturing suggestion machine-applicable only if it has no APITs](https://github.com/rust-lang/rust/pull/132938)
+* [make sure to ignore elided lifetimes when pointing at args for fulfillment errors](https://github.com/rust-lang/rust/pull/132935)
+* [mention both release *and* edition breakage for never type lints](https://github.com/rust-lang/rust/pull/132978)
+* [move all mono-time checks into their own folder, and their own query](https://github.com/rust-lang/rust/pull/132843)
+* [proper support for cross-crate recursive const stability checks](https://github.com/rust-lang/rust/pull/132541)
+* [querify MonoItem collection](https://github.com/rust-lang/rust/pull/132566)
+* [recurse into APITs in `impl_trait_overcaptures`](https://github.com/rust-lang/rust/pull/132817)
+* [refactor `configure_annotatable`](https://github.com/rust-lang/rust/pull/133021)
+* [remove attributes from generics in built-in derive macros](https://github.com/rust-lang/rust/pull/132651)
+* [rename `rustc_const_stable_intrinsic` → `rustc_intrinsic_const_stable_indirect`](https://github.com/rust-lang/rust/pull/133142)
+* [skip locking span interner for some syntax context checks](https://github.com/rust-lang/rust/pull/128197)
+* [trim extra space when suggesting removing bad `let`](https://github.com/rust-lang/rust/pull/132996)
+* [trim whitespace in RemoveLet primary span](https://github.com/rust-lang/rust/pull/133060)
+* [tweak attributes for const panic macro](https://github.com/rust-lang/rust/pull/132662)
+* [unify FnKind between AST visitors and make WalkItemKind more straight forward](https://github.com/rust-lang/rust/pull/132787)
+* [use `TypingMode` throughout the compiler instead of `ParamEnv`](https://github.com/rust-lang/rust/pull/132460)
+* [warn about invalid `mir-enable-passes` pass names](https://github.com/rust-lang/rust/pull/132901)
+* [miri: implement blocking eventfd](https://github.com/rust-lang/miri/pull/3939)
+* [miri: refactor: refine thread variant for windows](https://github.com/rust-lang/miri/pull/4035)
+* [miri: renamed `this` to `ecx` in `extern_static`](https://github.com/rust-lang/miri/pull/4030)
+* [miri: use -Zroot-dir instead of --remap-path-prefix for diagnostic dir handling](https://github.com/rust-lang/miri/pull/4039)
+* [stabilize `const_atomic_from_ptr`](https://github.com/rust-lang/rust/pull/131717)
+* [stabilize `const_option_ext`](https://github.com/rust-lang/rust/pull/132966)
+* [stabilize `const_ptr_is_null`](https://github.com/rust-lang/rust/pull/133116)
+* [stabilize `const_unicode_case_lookup`](https://github.com/rust-lang/rust/pull/132948)
+* [vectorize `slice::is_sorted`](https://github.com/rust-lang/rust/pull/132883)
+* [`#[inline]` integer parsing functions](https://github.com/rust-lang/rust/pull/132870)
+* [add `as_slice/into_slice` for IoSlice/IoSliceMut](https://github.com/rust-lang/rust/pull/132790)
+* [generalize `NonNull::from_raw_parts` per ACP362](https://github.com/rust-lang/rust/pull/132895)
+* [rwlock downgrade](https://github.com/rust-lang/rust/pull/128219)
+* [implement `mixed_integer_ops_unsigned_sub`](https://github.com/rust-lang/rust/pull/126046)
+* [improve codegen of `fmt_num` to delete unreachable panic](https://github.com/rust-lang/rust/pull/122770)
+* [float types: move copysign, abs, signum to libcore](https://github.com/rust-lang/rust/pull/131304)
+* [make `CloneToUninit` dyn-compatible](https://github.com/rust-lang/rust/pull/133003)
+* [mark `is_val_statically_known` intrinsic as stably const-callable](https://github.com/rust-lang/rust/pull/132449)
+* [optimize `char::to_digit` and assert radix is at least 2](https://github.com/rust-lang/rust/pull/132709)
+* [hashbrown: further sequester `Group`/`Tag` code](https://github.com/rust-lang/hashbrown/pull/568)
+* [hashbrown: mark const fn constructors as `rustc_const_stable_indirect`](https://github.com/rust-lang/hashbrown/pull/586)
+* [codegen\_gcc: fix volatile loads and stores](https://github.com/rust-lang/rustc_codegen_gcc/pull/572)
+* [cargo resolver: Stabilize resolver v3](https://github.com/rust-lang/cargo/pull/14754)
+* [cargo rustdoc: diplay env vars in extra verbose mode](https://github.com/rust-lang/cargo/pull/14812)
+* [cargo fix: error context for `git_fetch` refspec not found](https://github.com/rust-lang/cargo/pull/14806)
+* [cargo: always include Cargo.lock in published crates](https://github.com/rust-lang/cargo/pull/14815)
+* [cargo: migrate build-rs to the Cargo repo](https://github.com/rust-lang/cargo/pull/14786)
+* [cargo: simplify English used in guide](https://github.com/rust-lang/cargo/pull/14825)
+* [rustdoc search: allow queries to end in an empty path segment](https://github.com/rust-lang/rust/pull/132569)
+* [rustdoc-search: case-sensitive only when capitals are used](https://github.com/rust-lang/rust/pull/133043)
+* [rustdoc-search: use smart binary search in bitmaps](https://github.com/rust-lang/rust/pull/133185)
+* [rustdoc: treat declarative macros more like other item kinds](https://github.com/rust-lang/rust/pull/132302)
+* [rustdoc: use a trie for name-based search](https://github.com/rust-lang/rust/pull/133005)
+* [rustdoc: Fix duplicated footnote IDs](https://github.com/rust-lang/rust/pull/133000)
+* [rustdoc: Fix handling of footnote reference in footnote definition](https://github.com/rust-lang/rust/pull/133040)
+* [rustdoc: Fix items with generics not having their jump to def link generated](https://github.com/rust-lang/rust/pull/133180)
+* [rustdoc: Perform less work when cleaning `middle::ty` parenthesized generic args](https://github.com/rust-lang/rust/pull/132886)
+* [clippy: `missing_safety_doc` accept uppercase "SAFETY"](https://github.com/rust-lang/rust-clippy/pull/13701)
+* [clippy: allow conditional `Send` futures in `future_not_send`](https://github.com/rust-lang/rust-clippy/pull/13590)
+* [clippy: do not trigger `if_let_mutex` starting from Edition 2024](https://github.com/rust-lang/rust-clippy/pull/13695)
+* [clippy: don't lint CStr literals, do lint float literals in `redundant_guards`](https://github.com/rust-lang/rust-clippy/pull/13698)
+* [clippy: handle `Option::map_or(true, …)` in `unnecessary_map_or` lint](https://github.com/rust-lang/rust-clippy/pull/13653)
+* [clippy: new lint: `unnecessary_map_or`](https://github.com/rust-lang/rust-clippy/pull/11796)
+* [clippy: support user format-like macros](https://github.com/rust-lang/rust-clippy/pull/9948)
+* [rust-analyzer: migrate `reorder_fields` assist to use `SyntaxFactory`](https://github.com/rust-lang/rust-analyzer/pull/18495)
 
 ### Rust Compiler Performance Triage
 
@@ -313,7 +415,16 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> The whole point of Rust is that before there were two worlds:
+>
+> * Inefficient, garbage collected, reliable languages
+> * Efficient, manually allocated, dangerous languages
+>
+> And the mark of being a good developer in the first was mitigating the inefficiency well, and for the second it was it didn't crash, corrupt memory, or be riddled with security issues. Rust makes the trade-off instead that being good means understanding how to avoid the compiler yelling at you.
+
+– [Simon Buchan on rust-users]()
+
+Thanks to [binarycat](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1632) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
