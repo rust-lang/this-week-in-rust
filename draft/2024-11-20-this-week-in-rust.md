@@ -42,9 +42,9 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+
+* [Basics of Pinning in Rust](https://garden.christophertee.dev/tech/rust/Pinning)
 * [Building a Wifi-controlled car with Rust and ESP32](https://jamesmcm.github.io/blog/esp32-wifi-tank/)
-
-
 * [video] [Build with Naz : Diesel ORM, SQLite and Rust](https://www.youtube.com/watch?v=d9x_5X9R5LI)
 
 ### Research
@@ -204,7 +204,7 @@ Rusty Events between 2024-11-20 - 2024-12-18 🦀
 
 * 2024-12-07 | Virtual( Kampala, UG) | [Rust Circle Kampala](https://www.eventbrite.com/o/rust-circle-kampala-65249289033/)
     * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587)
-    
+
 ### Asia
 * 2024-11-28 | Bangalore/Bengaluru, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**RustTechX Summit 2024 BOSCH**](https://hasgeek.com/rustbangalore/rusttechx-summit-2024-bosch/)
