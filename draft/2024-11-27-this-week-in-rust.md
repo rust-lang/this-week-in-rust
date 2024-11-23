@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Hello *flourish*! - Intuitive signals in Rust](https://github.com/Tamschi/flourish/discussions/8)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
