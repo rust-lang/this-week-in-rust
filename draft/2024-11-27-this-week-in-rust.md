@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Announcing Nio: an async runtime for Rust](https://nurmohammed840.github.io/posts/announcing-nio/)
 
 ### Observations/Thoughts
 
