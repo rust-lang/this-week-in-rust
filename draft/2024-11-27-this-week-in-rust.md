@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Making Rust a first class citizen for Xen](https://xcp-ng.org/blog/2024/11/26/making-rust-a-first-class-citizen-for-xen/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
