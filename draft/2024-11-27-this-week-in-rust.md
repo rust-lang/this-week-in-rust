@@ -30,16 +30,30 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Rust 2024 call for testing](https://blog.rust-lang.org/2024/11/27/Rust-2024-public-testing.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Announcing Nio](https://nurmohammed840.github.io/posts/announcing-nio/)
+* [Announcing rust-query](https://blog.lucasholten.com/rust-query-announcement/)
 
 ### Observations/Thoughts
+* [A Novel Idea About `Functor` In Rust?](https://wolfgirl.dev/blog/2024-11-24-a-novel-idea-about-functor-in-rust/)
+* [Optimizing a Rust GPU matmul kernel](https://rust-gpu.github.io/blog/optimizing-matmul/)
+* [Map Keys and Lifetimes](https://blinsay.com/blog/compound-keys/)
+* [Rustlantis: Randomized Differential Testing of the Rust Compiler](https://plf.inf.ethz.ch/research/oopsla24-rustlantis.html)
+* [Undroppable Types](https://jack.wrenn.fyi/blog/undroppable/)
+* [40-year-old hacker group prefers Rust](https://blog.rust.careers/post/40y_old_hacking_group_rust_veilid/)
+* [Cursed Linear Types In Rust](https://geo-ant.github.io/blog/2024/rust-linear-types-use-once/)
+* [Unsafe for work](https://oida.dev/unsafe-for-work/)
 
 ### Rust Walkthroughs
+* [Building Thread-safe Async Primitives in 150 lines of Rust](https://amit.prasad.me/blog/async-oneshot)
+* [Securely sending DHT22 sensor data from an ESP32 board to PostgreSQL](https://c410-f3r.github.io/thoughts/securely-sending-dht22-sensor-data-from-an-esp32-board-to-postgresql/)
+* [Writing a mark-and-sweep tracing GC in Rust](https://elric.pl/blog/tracing-gc/)
 
 ### Research
 
