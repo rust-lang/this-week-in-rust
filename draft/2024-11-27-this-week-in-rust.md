@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Ferrocene release - 24.11.0](https://ferrous-systems.com/blog/ferrocene-24-11-0/) ([CriticalUp release - 1.2.0](https://github.com/ferrocene/criticalup/releases/tag/v1.2.0))
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
