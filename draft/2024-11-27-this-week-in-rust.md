@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+*[Ferrocene 24.11.0 with medical and QNX qualification now available!](https://ferrous-systems.com/blog/ferrocene-24-11-0/)
 
 ### Observations/Thoughts
 
