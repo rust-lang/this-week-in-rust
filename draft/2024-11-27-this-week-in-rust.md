@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Aligning with rust's Guiding Principle: my path to finding my 'Why' ](http://localhost:1313/posts/rust_guiding_principle/)
+
 ### Rust Walkthroughs
 
 ### Research
