@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [video] [Build with Naz - TLS in Rust with tokio, rustls, CFSSL](https://www.youtube.com/watch?v=NeTZGyc9l7E)
 
 ### Research
 
