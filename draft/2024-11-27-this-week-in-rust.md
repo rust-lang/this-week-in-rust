@@ -35,6 +35,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #33](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-33)
 
 ### Project/Tooling Updates
 * [Announcing Nio](https://nurmohammed840.github.io/posts/announcing-nio/)
