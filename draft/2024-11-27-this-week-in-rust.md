@@ -56,6 +56,7 @@ and just ask the editors to select the category.
 * [Aligning with rust's Guiding Principle: my path to finding my 'Why'](https://flakm.com/posts/rust_guiding_principle/)
 
 ### Rust Walkthroughs
+* [video] [Build with Naz - TLS in Rust with tokio, rustls, CFSSL](https://www.youtube.com/watch?v=NeTZGyc9l7E)
 * [Optimization adventures: making a parallel Rust workload 10x faster with (or without) Rayon](https://gendignoux.com/blog/2024/11/18/rust-rayon-optimized.html)
 * [Building Thread-safe Async Primitives in 150 lines of Rust](https://amit.prasad.me/blog/async-oneshot)
 * [Securely sending DHT22 sensor data from an ESP32 board to PostgreSQL](https://c410-f3r.github.io/thoughts/securely-sending-dht22-sensor-data-from-an-esp32-board-to-postgresql/)
