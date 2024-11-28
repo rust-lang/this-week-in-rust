@@ -104,6 +104,8 @@ Are you a new or experienced speaker looking for a place to share something cool
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
+* [FOSDEM 2025 Rust devroom](https://rust-fosdem.github.io) | Deadline: 1 December 2024 | Brussels, BE | 1 February 2025
+
 ## Updates from the Rust Project
 
 <!-- Rust updates go here -->
