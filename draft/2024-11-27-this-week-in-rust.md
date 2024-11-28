@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 * [Cursed Linear Types In Rust](https://geo-ant.github.io/blog/2024/rust-linear-types-use-once/)
 * [Unsafe for work](https://oida.dev/unsafe-for-work/)
 
+* [Aligning with rust's Guiding Principle: my path to finding my 'Why'](https://flakm.com/posts/rust_guiding_principle/)
+
 ### Rust Walkthroughs
 * [Building Thread-safe Async Primitives in 150 lines of Rust](https://amit.prasad.me/blog/async-oneshot)
 * [Securely sending DHT22 sensor data from an ESP32 board to PostgreSQL](https://c410-f3r.github.io/thoughts/securely-sending-dht22-sensor-data-from-an-esp32-board-to-postgresql/)
