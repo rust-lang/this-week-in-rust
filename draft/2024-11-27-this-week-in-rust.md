@@ -41,7 +41,6 @@ and just ask the editors to select the category.
 * [Announcing Nio](https://nurmohammed840.github.io/posts/announcing-nio/)
 * [Announcing rust-query](https://blog.lucasholten.com/rust-query-announcement/)
 * ["pigg" (the Raspberry Pi GPIO GUI) 0.5.0 release](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.5.0) of the project for Remote control and viewing of Raspberry Pi GPIO hardware, now with Pi Pico W support via rust and embassy
-
 * [Hello *flourish*! - Intuitive signals in Rust](https://github.com/Tamschi/flourish/discussions/8)
 
 ### Observations/Thoughts
@@ -53,10 +52,10 @@ and just ask the editors to select the category.
 * [40-year-old hacker group prefers Rust](https://blog.rust.careers/post/40y_old_hacking_group_rust_veilid/)
 * [Cursed Linear Types In Rust](https://geo-ant.github.io/blog/2024/rust-linear-types-use-once/)
 * [Unsafe for work](https://oida.dev/unsafe-for-work/)
-
 * [Aligning with rust's Guiding Principle: my path to finding my 'Why'](https://flakm.com/posts/rust_guiding_principle/)
 
 ### Rust Walkthroughs
+* [Optimization adventures: making a parallel Rust workload 10x faster with (or without) Rayon](https://gendignoux.com/blog/2024/11/18/rust-rayon-optimized.html)
 * [Building Thread-safe Async Primitives in 150 lines of Rust](https://amit.prasad.me/blog/async-oneshot)
 * [Securely sending DHT22 sensor data from an ESP32 board to PostgreSQL](https://c410-f3r.github.io/thoughts/securely-sending-dht22-sensor-data-from-an-esp32-board-to-postgresql/)
 * [Writing a mark-and-sweep tracing GC in Rust](https://elric.pl/blog/tracing-gc/)
