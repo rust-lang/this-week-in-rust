@@ -123,6 +123,8 @@ Are you a new or experienced speaker looking for a place to share something cool
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
+* [**Rust in Paris 2025**](https://docs.google.com/forms/d/e/1FAIpQLSdamzdbUi3EIGBrmEw0-Na4myXP0088kvxVmVT4YU-1BEiyCg/viewform) | Deadline: 30 November 2024 | Paris, FR | 15 March 2025
+
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 * [FOSDEM 2025 Rust devroom](https://rust-fosdem.github.io) | Deadline: 1 December 2024 | Brussels, BE | 1 February 2025
