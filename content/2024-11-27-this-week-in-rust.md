@@ -32,15 +32,13 @@ and just ask the editors to select the category.
 ### Official
 * [Rust 2024 call for testing](https://blog.rust-lang.org/2024/11/27/Rust-2024-public-testing.html)
 
-### Foundation
-
 ### Newsletters
 * [The Embedded Rustacean Issue #33](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-33)
 
 ### Project/Tooling Updates
 * [Announcing Nio: an async runtime for Rust](https://nurmohammed840.github.io/posts/announcing-nio/)
 * [Announcing rust-query](https://blog.lucasholten.com/rust-query-announcement/)
-* ["pigg" (the Raspberry Pi GPIO GUI) 0.5.0 release](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.5.0) of the project for Remote control and viewing of Raspberry Pi GPIO hardware, now with Pi Pico W support via rust and embassy
+* ["pigg" (the Raspberry Pi GPIO GUI) 0.5.0 release, now with Pi Pico W support via rust and embassy](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.5.0)
 * [Hello *flourish*! - Intuitive signals in Rust](https://github.com/Tamschi/flourish/discussions/8)
 * [Ferrocene 24.11.0 with medical and QNX qualification now available!](https://ferrous-systems.com/blog/ferrocene-24-11-0/)
 
@@ -62,10 +60,7 @@ and just ask the editors to select the category.
 * [Securely sending DHT22 sensor data from an ESP32 board to PostgreSQL](https://c410-f3r.github.io/thoughts/securely-sending-dht22-sensor-data-from-an-esp32-board-to-postgresql/)
 * [Writing a mark-and-sweep tracing GC in Rust](https://elric.pl/blog/tracing-gc/)
 
-### Research
-
 ### Miscellaneous
-
 * [Making Rust a first class citizen for Xen](https://xcp-ng.org/blog/2024/11/26/making-rust-a-first-class-citizen-for-xen/)
 
 ## Crate of the Week
@@ -463,7 +458,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1gf5ue1/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -489,4 +484,4 @@ llogiq is quite self-appreciative regarding [his suggestion](https://users.rust-
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1h1o513/this_week_in_rust_575/)</small>
