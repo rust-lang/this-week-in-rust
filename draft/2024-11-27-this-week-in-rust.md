@@ -64,6 +64,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Making Rust a first class citizen for Xen](https://xcp-ng.org/blog/2024/11/26/making-rust-a-first-class-citizen-for-xen/)
+
 ## Crate of the Week
 
 This week's crate is [postcard](https://docs.rs/postcard), a battle-tested, well-documented `#[no_std]` compatible serializer/deserializer geared towards use in embedded devices.
