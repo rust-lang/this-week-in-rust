@@ -39,7 +39,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
-* [Aligning with rust's Guiding Principle: my path to finding my 'Why' ](https://flakm.com/posts/rust_guiding_principle/)
+* [Aligning with rust's Guiding Principle: my path to finding my 'Why'](https://flakm.com/posts/rust_guiding_principle/)
 
 ### Rust Walkthroughs
 
