@@ -36,7 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [0.5.0 release](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.5.0) of the "pigg" project for Remote control and viewing of Raspberry Pi GPIO hardware, now with Pi Pico W support via rust and embassy
+* ["pigg" (the Raspberry Pi GPIO GUI) 0.5.0 release](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.5.0) of the project for Remote control and viewing of Raspberry Pi GPIO hardware, now with Pi Pico W support via rust and embassy
 
 ### Observations/Thoughts
 
