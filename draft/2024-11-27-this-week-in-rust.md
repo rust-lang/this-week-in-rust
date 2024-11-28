@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 * [Announcing rust-query](https://blog.lucasholten.com/rust-query-announcement/)
 * ["pigg" (the Raspberry Pi GPIO GUI) 0.5.0 release](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.5.0) of the project for Remote control and viewing of Raspberry Pi GPIO hardware, now with Pi Pico W support via rust and embassy
 
+* [Hello *flourish*! - Intuitive signals in Rust](https://github.com/Tamschi/flourish/discussions/8)
+
 ### Observations/Thoughts
 * [A Novel Idea About `Functor` In Rust?](https://wolfgirl.dev/blog/2024-11-24-a-novel-idea-about-functor-in-rust/)
 * [Optimizing a Rust GPU matmul kernel](https://rust-gpu.github.io/blog/optimizing-matmul/)
