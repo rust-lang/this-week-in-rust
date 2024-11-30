@@ -36,6 +36,9 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [RVKMS and Rust KMS bindings](https://lwn.net/SubscriberLink/997850/8f1246199581a250/)
+* [NonStop discussion around adding Rust to Git](https://lwn.net/SubscriberLink/998115/e9849d6de88348c6/)
+* [Rust's incremental compiler architecture](https://lwn.net/SubscriberLink/997784/84e8aae50b88cca6/)
 
 ### Observations/Thoughts
 
