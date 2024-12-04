@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Streaming Audio APIs in Rust pt. 4: The Model](https://xd009642.github.io/2024/12/03/streaming-audio-APIs-the-model.html)
+
 ### Rust Walkthroughs
 
 ### Research
