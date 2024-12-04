@@ -110,7 +110,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Busy week with more PRs impacting performance than is typical. Luckily performance improvements outweighed regressions in real world benchmarks with the largest single performance gain coming from a change to no longer unconditionally do LLVM IR verification in debug builds which was just wasted work.
+
+Triage done by **@rylev**.
+Revision range: [7db7489f..490b2cc0](https://perf.rust-lang.org/?start=7db7489f9bc274cb60c4956bfa56de0185eb1b9b&end=490b2cc09860dd62a7595bb07364d71c12ce4e60&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.5%  | [0.2%, 1.9%]   | 58    |
+| Regressions ❌ <br /> (secondary)  | 1.1%  | [0.2%, 5.1%]   | 85    |
+| Improvements ✅ <br /> (primary)   | -2.3% | [-8.2%, -0.2%] | 116   |
+| Improvements ✅ <br /> (secondary) | -2.5% | [-8.9%, -0.1%] | 55    |
+| All ❌✅ (primary)                 | -1.4% | [-8.2%, 1.9%]  | 174   |
+
+
+6 Regressions, 6 Improvements, 5 Mixed; 5 of them in rollups
+49 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/fcd028e6e8117a881b7ffab448f549410c1c0dde/triage/2024-12-03.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
