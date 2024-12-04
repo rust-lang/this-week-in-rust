@@ -47,7 +47,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [augurs](https://github.com/grafana/augurs), a time-series toolkit for Rust with bindings to JS & Python.
+
+Thanks to [Ben Sully](https://users.rust-lang.org/t/crate-of-the-week/2704/1379) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -106,7 +108,115 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+488 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2024-11-26..2024-12-03
+
+* [`rust_analyzer_settings`: force use of 'nightly' toolchain](https://github.com/rust-lang/rust/pull/133712)
+* [add `needs-target-has-atomic` directive](https://github.com/rust-lang/rust/pull/133736)
+* [allow injecting a profiler runtime into `#![no_core]` crates](https://github.com/rust-lang/rust/pull/133369)
+* [bail on more errors in dyn ty lowering](https://github.com/rust-lang/rust/pull/133394)
+* [better diagnostic for fn items in variadic functions](https://github.com/rust-lang/rust/pull/133538)
+* [changes old intrinsic declaration to new declaration](https://github.com/rust-lang/rust/pull/133106)
+* [check `xform_ret_ty` for WF in the new solver to improve method winnowing](https://github.com/rust-lang/rust/pull/133519)
+* [check let source before suggesting annotation](https://github.com/rust-lang/rust/pull/133691)
+* [check local cache even if global is usable](https://github.com/rust-lang/rust/pull/133626)
+* [cleanup: delete `//@ pretty-expanded` directive](https://github.com/rust-lang/rust/pull/133470)
+* [constify `Drop` and `Destruct`](https://github.com/rust-lang/rust/pull/133402)
+* [coverage: store coverage source regions as `Span` until codegen](https://github.com/rust-lang/rust/pull/133418)
+* [coverage: use a query to identify which counter/expression IDs are used](https://github.com/rust-lang/rust/pull/133446)
+* [delay a bug when encountering an impl with unconstrained generics in `codegen_select`](https://github.com/rust-lang/rust/pull/133368)
+* [disable `avr-rjmp-offset` on Windows for now](https://github.com/rust-lang/rust/pull/133481)
+* [do not call `extern_crate` on current trait on crate mismatch errors](https://github.com/rust-lang/rust/pull/133585)
+* [do not constrain infer vars in `find_best_leaf_obligation`](https://github.com/rust-lang/rust/pull/133493)
+* [do not create trait object type if missing associated types](https://github.com/rust-lang/rust/pull/133660)
+* [do not unify dereferences of shared borrows in GVN](https://github.com/rust-lang/rust/pull/133474)
+* [don't type error if we fail to coerce `Pin<T>` because it doesnt contain a ref](https://github.com/rust-lang/rust/pull/133358)
+* [eliminate magic numbers from expression precedence](https://github.com/rust-lang/rust/pull/133603)
+* [enable `-Zshare-generics` for `inline(never)` functions](https://github.com/rust-lang/rust/pull/123244)
+* [ensure JSON-defined targets are consistent](https://github.com/rust-lang/rust/pull/133409)
+* [fast-reject: add depth check](https://github.com/rust-lang/rust/pull/133566)
+* [fix ICE when promoted has layout size overflow](https://github.com/rust-lang/rust/pull/133704)
+* [fix `-Zdump-mir-dataflow`](https://github.com/rust-lang/rust/pull/133732)
+* [fix `clobber_abi` in RV32E and RV64E inline assembly](https://github.com/rust-lang/rust/pull/133422)
+* [fix confusing diagnostic for reserved `##`](https://github.com/rust-lang/rust/pull/133487)
+* [fix handling of x18 in AArch64 inline assembly on ohos/trusty or with -Zfixed-x18](https://github.com/rust-lang/rust/pull/133463)
+* [gce: fix `typing_mode` mismatch](https://github.com/rust-lang/rust/pull/133471)
+* [get rid of HIR const checker](https://github.com/rust-lang/rust/pull/133321)
+* [improve span handling in `parse_expr_bottom`](https://github.com/rust-lang/rust/pull/133623)
+* [improvements on initial sysroot and libdir finding logics](https://github.com/rust-lang/rust/pull/132782)
+* [make `adjust_fulfillment_errors` work with `HostEffectPredicate` and `const_conditions`](https://github.com/rust-lang/rust/pull/133403)
+* [make `compare_impl_item` into a query](https://github.com/rust-lang/rust/pull/133365)
+* [only error raw lifetime followed by `\'` in edition 2021+](https://github.com/rust-lang/rust/pull/133482)
+* [only ignore windows-gnu in avr-jmp-offset](https://github.com/rust-lang/rust/pull/133513)
+* [print generated doc paths](https://github.com/rust-lang/rust/pull/133550)
+* [properly pass linker arguments that contain commas](https://github.com/rust-lang/rust/pull/132974)
+* [respect verify-llvm-ir option in the backend](https://github.com/rust-lang/rust/pull/133499)
+* [robustify and genericize return-type-notation resolution in `resolve_bound_vars`](https://github.com/rust-lang/rust/pull/132047)
+* [show `forbidden_lint_groups` in future-compat reports](https://github.com/rust-lang/rust/pull/133535)
+* [support `clobber_abi` in AVR inline assembly](https://github.com/rust-lang/rust/pull/131323)
+* [support input/output in vector registers of PowerPC inline assembly](https://github.com/rust-lang/rust/pull/131551)
+* [support predicate registers (clobber-only) in Hexagon inline assembly](https://github.com/rust-lang/rust/pull/133452)
+* [support revealing defined opaque post borrowck](https://github.com/rust-lang/rust/pull/133501)
+* [target `check_consistency`: ensure target feature string makes some basic sense](https://github.com/rust-lang/rust/pull/133410)
+* [the emscripten OS no longer exists on non-wasm targets](https://github.com/rust-lang/rust/pull/133411)
+* [use edition of `macro_rules` when compiling the macro](https://github.com/rust-lang/rust/pull/133274)
+* [use stores of the correct size to set discriminants](https://github.com/rust-lang/rust/pull/131698)
+* [miri: implement `TlsFree`](https://github.com/rust-lang/rust/pull/133457)
+* [miri: filesystem support for solarish: stat](https://github.com/rust-lang/miri/pull/4031)
+* [miri: move FdTable to a common location and split off Unix behavior](https://github.com/rust-lang/miri/pull/4045)
+* [miri: remove ctrlc, unused](https://github.com/rust-lang/miri/pull/4064)
+* [stop cloning `Context` so much](https://github.com/rust-lang/rust/pull/133345)
+* [recover some lost performence](https://github.com/rust-lang/rust/pull/133509)
+* [stabilize `const_maybe_uninit_write`](https://github.com/rust-lang/rust/pull/131713)
+* [stabilize `extended_varargs_abi_support`](https://github.com/rust-lang/rust/pull/116161)
+* [stabilize `ptr::fn_addr_eq`](https://github.com/rust-lang/rust/pull/133678)
+* [stabilize unsigned and float variants of `num_midpoint` feature](https://github.com/rust-lang/rust/pull/131784)
+* [`thread::available_parallelism` for wasm32-wasip1-threads](https://github.com/rust-lang/rust/pull/133496)
+* [add `BTreeSet` entry APIs to match `HashSet`](https://github.com/rust-lang/rust/pull/133548)
+* [btree: add `{Entry,VacantEntry}::insert_entry`](https://github.com/rust-lang/rust/pull/133042)
+* [fix chaining `carrying_add`s](https://github.com/rust-lang/rust/pull/133674)
+* [mark `slice::copy_from_slice` unstably const](https://github.com/rust-lang/rust/pull/131416)
+* [std: expose `const_io_error!` as `const_error!`](https://github.com/rust-lang/rust/pull/133449)
+* [std: refactor `pthread`-based synchronization](https://github.com/rust-lang/rust/pull/128184)
+* [fix and undeprecate `home_dir()`](https://github.com/rust-lang/rust/pull/132515)
+* [support ranges in `<[T]>::get_many_mut()`](https://github.com/rust-lang/rust/pull/133136)
+* [cargo: toml: Allow adding/removing from cargo scripts](https://github.com/rust-lang/cargo/pull/14857)
+* [cargo: build-std: always link to std when testing proc-macros](https://github.com/rust-lang/cargo/pull/14850)
+* [cargo: fix: Migrate cargo script manifests across editions](https://github.com/rust-lang/cargo/pull/14864)
+* [cargo: build-std: download deps first](https://github.com/rust-lang/cargo/pull/14861)
+* [cargo: pgo: determine test runnability at compile time](https://github.com/rust-lang/cargo/pull/14874)
+* [cargo: pgo: ensure PGO works](https://github.com/rust-lang/cargo/pull/14859)
+* [cargo: pgo: only run on nightly](https://github.com/rust-lang/cargo/pull/14887)
+* [cargo: add future-incompat warning against keywords in cfgs and add raw-idents](https://github.com/rust-lang/cargo/pull/14671)
+* [cargo: fix: remove default registry reference in `info` cmd docs](https://github.com/rust-lang/cargo/pull/14880)
+* [cargo: git-fetch-with-cli: set `GIT_DIR` for bare repository compatibility](https://github.com/rust-lang/cargo/pull/14860)
+* [cargo: test: `requires` attribute accepts string literals for cmds](https://github.com/rust-lang/cargo/pull/14875)
+* [rustdoc-json: include safety of `static`s](https://github.com/rust-lang/rust/pull/133715)
+* [rustdoc: Change impl items indent](https://github.com/rust-lang/rust/pull/131718)
+* [bindgen: add support for unsafe extern blocks](https://github.com/rust-lang/rust-bindgen/pull/3015)
+* [bindgen: consolidate dependency version management](https://github.com/rust-lang/rust-bindgen/pull/3008)
+* [bindgen: extend parse callbacks to expose discovered composite types and aliases](https://github.com/rust-lang/rust-bindgen/pull/2658)
+* [bindgen: generate C-String literals `c"example"` instead of unsafe code](https://github.com/rust-lang/rust-bindgen/pull/2996)
+* [bindgen: improve debug str generator](https://github.com/rust-lang/rust-bindgen/pull/3010)
+* [bindgen: introduce `--rust-edition`](https://github.com/rust-lang/rust-bindgen/pull/3002)
+* [bindgen: use v2 cargo resolver](https://github.com/rust-lang/rust-bindgen/pull/2999)
+* [bindgen: wrap the array representation of opaque types in a `#[repr(C)] struct`](https://github.com/rust-lang/rust-bindgen/pull/2880)
+* [rustfmt: use preinterned `path` symbol](https://github.com/rust-lang/rustfmt/pull/6404)
+* [clippy: `bad_bit_mask` Fix false positive on proc macros](https://github.com/rust-lang/rust-clippy/pull/13736)
+* [clippy: `doc_nested_refdefs`: new lint for suspicious list syntax](https://github.com/rust-lang/rust-clippy/pull/13707)
+* [clippy: add more cases to the `useless_conversion` lint](https://github.com/rust-lang/rust-clippy/pull/13756)
+* [clippy: add new `literal_string_with_formatting_args` lint](https://github.com/rust-lang/rust-clippy/pull/13410)
+* [clippy: fix `needless_match` FP on if-lets](https://github.com/rust-lang/rust-clippy/pull/13646)
+* [clippy: fix `shadow_unrelated`'s behaviour with closures](https://github.com/rust-lang/rust-clippy/pull/13677)
+* [clippy: fix lifetimes elision suggestion in where clauses](https://github.com/rust-lang/rust-clippy/pull/13752)
+* [clippy: fix: use `multipart_suggestion` for `derivable_impls`](https://github.com/rust-lang/rust-clippy/pull/13717)
+* [clippy: handle repetition of associated constant constraint as well](https://github.com/rust-lang/rust-clippy/pull/13723)
+* [rust-analyzer: advertise completions and inlay hints resolve server capabilities based on the client capabilities](https://github.com/rust-lang/rust-analyzer/pull/18589)
+* [rust-analyzer: fix debug configuration querying not inheriting environment](https://github.com/rust-lang/rust-analyzer/pull/18586)
+* [rust-analyzer: fix syntax fixup inserting unnecessary semicolons](https://github.com/rust-lang/rust-analyzer/pull/18587)
+* [rust-analyzer: re-add `rust-analyzer.cargo.sysrootQueryMetadata`](https://github.com/rust-lang/rust-analyzer/pull/18511)
+* [rust-analyzer: remove redundant associated type bounds from `dyn TypeFolder`](https://github.com/rust-lang/rust-analyzer/pull/18577)
 
 ### Rust Compiler Performance Triage
 
@@ -317,7 +427,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> "self own" sounds like a rust thing
+
+– [ionchy on Mastodon](https://types.pl/@ionchy/113567387219906256)
+
+Thanks to [Jacob Pratt](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1636) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
