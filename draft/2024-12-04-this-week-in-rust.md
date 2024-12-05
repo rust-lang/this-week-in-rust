@@ -58,6 +58,7 @@ and just ask the editors to select the category.
 * [Streaming Audio APIs in Rust pt. 4: The Model](https://xd009642.github.io/2024/12/03/streaming-audio-APIs-the-model.html)
 
 ### Rust Walkthroughs
+* [Developing a Zellij Rust plugin](https://zellij.dev/tutorials/developing-a-rust-plugin/)
 * [Optimization adventures: making a parallel Rust workload even faster with data-oriented design (and other tricks)](https://gendignoux.com/blog/2024/12/02/rust-data-oriented-design.html)
 * [Designing a const `array::from_fn` in stable Rust](https://13ros27.github.io/blog/const-array-from-fn/)
 * [Implementing async APIs for microcontroller peripherals](https://beaurivage.io/atsamd-hal-async/)
