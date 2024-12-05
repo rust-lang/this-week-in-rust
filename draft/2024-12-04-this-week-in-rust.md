@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Running Bevy in a Web Worker with Rendering and Physics!](https://allwright.io/#/blog/20241127-bevy-webworker.md)
 
 ### Research
 
