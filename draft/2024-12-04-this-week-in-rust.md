@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 * [Building a real-time chat using WebSockets over HTTP/2 streams](https://c410-f3r.github.io/thoughts/building-a-real-time-chat-using-web-sockets-over-http2-streams)
 * [Running Bevy in a Web Worker with Rendering and Physics!](https://allwright.io/#/blog/20241127-bevy-webworker.md)
 
+* [Packaging a Rust library as an XCFramework for iOS](https://stadiamaps.com/news/ferrostar-building-a-cross-platform-navigation-sdk-in-rust-part-2/)
+
 ### Research
 
 ### Miscellaneous
