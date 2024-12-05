@@ -31,6 +31,8 @@ and just ask the editors to select the category.
 
 ### Official
 
+- [2024 Annual Rust Survey](https://blog.rust-lang.org/2024/12/05/annual-survey-2024-launch.html)
+
 ### Foundation
 
 ### Newsletters
