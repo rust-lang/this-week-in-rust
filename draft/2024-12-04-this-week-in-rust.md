@@ -30,26 +30,38 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.83.0](https://blog.rust-lang.org/2024/11/28/Rust-1.83.0.html)
+* [Rustc Trait System Refactor Initiative Update: Stabilizing `-Znext-solver=coherence` ](https://blog.rust-lang.org/inside-rust/2024/12/04/trait-system-refactor-initiative.html)
+* [The wasm32-wasip2 Target Has Reached Tier 2 Support](https://blog.rust-lang.org/2024/11/26/wasip2-tier-2.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Measuring and Improving rustls's Multithreaded Performance](https://rustls.dev/perf/2024-11-28-threading/)
+* [Bevy 0.15](https://bevyengine.org/news/bevy-0-15/)
+* [Leptos 0.7.0](https://github.com/leptos-rs/leptos/releases/tag/v0.7.0)
+* [Advent of Rust 2024](https://www.rustfinity.com/advent-of-rust)
+* [Introducing Uniffi for React Native: Rust-Powered Turbo Modules](https://hacks.mozilla.org/2024/12/introducing-uniffi-for-react-native-rust-powered-turbo-modules/)
+* [Revisiting Hubris appconfigs](https://cliffle.com/blog/exhubris/)
 * [RVKMS and Rust KMS bindings](https://lwn.net/SubscriberLink/997850/8f1246199581a250/)
 * [NonStop discussion around adding Rust to Git](https://lwn.net/SubscriberLink/998115/e9849d6de88348c6/)
 * [Rust's incremental compiler architecture](https://lwn.net/SubscriberLink/997784/84e8aae50b88cca6/)
-
 * [What's new in SeaStreamer 0.5](https://www.sea-ql.org/blog/2024-11-30-whats-new-in-sea-streamer-0.5/)
 
 ### Observations/Thoughts
-
+* [audio] [GitButler with Scott Chacon and Kiril Videlov](https://corrode.dev/podcast/s03e04-gitbutler/)
+* [audio] [A different serde](https://sdr-podcast.com/episodes/a-different-serde/)
 * [Streaming Audio APIs in Rust pt. 4: The Model](https://xd009642.github.io/2024/12/03/streaming-audio-APIs-the-model.html)
 
 ### Rust Walkthroughs
+* [Optimization adventures: making a parallel Rust workload even faster with data-oriented design (and other tricks)](https://gendignoux.com/blog/2024/12/02/rust-data-oriented-design.html)
+* [Designing a const `array::from_fn` in stable Rust](https://13ros27.github.io/blog/const-array-from-fn/)
+* [Implementing async APIs for microcontroller peripherals](https://beaurivage.io/atsamd-hal-async/)
+* [Rust 🦀 on the RP2040](https://baileytownsend.dev/articles/getting-started-with-rust-an-rp2040)
 * [Building a real-time chat using WebSockets over HTTP/2 streams](https://c410-f3r.github.io/thoughts/building-a-real-time-chat-using-web-sockets-over-http2-streams)
 * [Running Bevy in a Web Worker with Rendering and Physics!](https://allwright.io/#/blog/20241127-bevy-webworker.md)
-
 * [Packaging a Rust library as an XCFramework for iOS](https://stadiamaps.com/news/ferrostar-building-a-cross-platform-navigation-sdk-in-rust-part-2/)
 
 ### Research
