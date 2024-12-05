@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 * [What's new in SeaStreamer 0.5](https://www.sea-ql.org/blog/2024-11-30-whats-new-in-sea-streamer-0.5/)
 
 ### Observations/Thoughts
+- [Breakage! in the Cargo.toml — How Rust Package Features Work (And Break)](https://predr.ag/blog/breakage-in-the-cargo-toml-how-rust-package-features-work/)
 * [audio] [GitButler with Scott Chacon and Kiril Videlov](https://corrode.dev/podcast/s03e04-gitbutler/)
 * [audio] [A different serde](https://sdr-podcast.com/episodes/a-different-serde/)
 * [Streaming Audio APIs in Rust pt. 4: The Model](https://xd009642.github.io/2024/12/03/streaming-audio-APIs-the-model.html)
