@@ -34,6 +34,8 @@ and just ask the editors to select the category.
 * [Rustc Trait System Refactor Initiative Update: Stabilizing `-Znext-solver=coherence` ](https://blog.rust-lang.org/inside-rust/2024/12/04/trait-system-refactor-initiative.html)
 * [The wasm32-wasip2 Target Has Reached Tier 2 Support](https://blog.rust-lang.org/2024/11/26/wasip2-tier-2.html)
 
+- [2024 Annual State of Rust Survey](https://blog.rust-lang.org/2024/12/05/annual-survey-2024-launch.html)
+
 ### Foundation
 
 ### Newsletters
