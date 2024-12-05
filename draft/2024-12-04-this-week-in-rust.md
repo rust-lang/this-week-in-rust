@@ -36,11 +36,15 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [RVKMS and Rust KMS bindings](https://lwn.net/SubscriberLink/997850/8f1246199581a250/)
+* [NonStop discussion around adding Rust to Git](https://lwn.net/SubscriberLink/998115/e9849d6de88348c6/)
+* [Rust's incremental compiler architecture](https://lwn.net/SubscriberLink/997784/84e8aae50b88cca6/)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
 * [Building a real-time chat using WebSockets over HTTP/2 streams](https://c410-f3r.github.io/thoughts/building-a-real-time-chat-using-web-sockets-over-http2-streams)
+* [Running Bevy in a Web Worker with Rendering and Physics!](https://allwright.io/#/blog/20241127-bevy-webworker.md)
 
 ### Research
 
@@ -205,6 +209,8 @@ Rusty Events between 2024-12-04 - 2025-01-01 🦀
     * [**Rust in Web3: Developer Series**](https://www.meetup.com/blockchaincentersf/events/kwnzntygcqbwb/)
 * 2024-12-17 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/299346972/)
+* 2024-12-17 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
+    * [**Rust Source Code Reading: The thousands crate**](https://www.meetup.com/code-mavens/events/304824684/)
 * 2024-12-19 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust Hack and Learn**](https://berline.rs/2024/12/19/rust-hack-and-learn.html) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298633276/)
 * 2024-12-19 | Virtual (Mexico City, DF, MX) | [Rust MX](https://www.meetup.com/rust-mx/)
