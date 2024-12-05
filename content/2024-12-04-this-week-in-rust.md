@@ -33,12 +33,7 @@ and just ask the editors to select the category.
 * [Announcing Rust 1.83.0](https://blog.rust-lang.org/2024/11/28/Rust-1.83.0.html)
 * [Rustc Trait System Refactor Initiative Update: Stabilizing `-Znext-solver=coherence` ](https://blog.rust-lang.org/inside-rust/2024/12/04/trait-system-refactor-initiative.html)
 * [The wasm32-wasip2 Target Has Reached Tier 2 Support](https://blog.rust-lang.org/2024/11/26/wasip2-tier-2.html)
-
-- [2024 Annual State of Rust Survey](https://blog.rust-lang.org/2024/12/05/annual-survey-2024-launch.html)
-
-### Foundation
-
-### Newsletters
+* [2024 Annual State of Rust Survey](https://blog.rust-lang.org/2024/12/05/annual-survey-2024-launch.html)
 
 ### Project/Tooling Updates
 * [Measuring and Improving rustls's Multithreaded Performance](https://rustls.dev/perf/2024-11-28-threading/)
@@ -53,10 +48,10 @@ and just ask the editors to select the category.
 * [What's new in SeaStreamer 0.5](https://www.sea-ql.org/blog/2024-11-30-whats-new-in-sea-streamer-0.5/)
 
 ### Observations/Thoughts
-- [Breakage! in the Cargo.toml — How Rust Package Features Work (And Break)](https://predr.ag/blog/breakage-in-the-cargo-toml-how-rust-package-features-work/)
+* [Breakage! in the Cargo.toml — How Rust Package Features Work (And Break)](https://predr.ag/blog/breakage-in-the-cargo-toml-how-rust-package-features-work/)
+* [Streaming Audio APIs in Rust pt. 4: The Model](https://xd009642.github.io/2024/12/03/streaming-audio-APIs-the-model.html)
 * [audio] [GitButler with Scott Chacon and Kiril Videlov](https://corrode.dev/podcast/s03e04-gitbutler/)
 * [audio] [A different serde](https://sdr-podcast.com/episodes/a-different-serde/)
-* [Streaming Audio APIs in Rust pt. 4: The Model](https://xd009642.github.io/2024/12/03/streaming-audio-APIs-the-model.html)
 
 ### Rust Walkthroughs
 * [Developing a Zellij Rust plugin](https://zellij.dev/tutorials/developing-a-rust-plugin/)
@@ -67,10 +62,6 @@ and just ask the editors to select the category.
 * [Building a real-time chat using WebSockets over HTTP/2 streams](https://c410-f3r.github.io/thoughts/building-a-real-time-chat-using-web-sockets-over-http2-streams)
 * [Running Bevy in a Web Worker with Rendering and Physics!](https://allwright.io/#/blog/20241127-bevy-webworker.md)
 * [Packaging a Rust library as an XCFramework for iOS](https://stadiamaps.com/news/ferrostar-building-a-cross-platform-navigation-sdk-in-rust-part-2/)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -95,16 +86,6 @@ RFCs would benefit from user testing before moving forward:
 
 ### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
 * *No calls for testing were issued this week.*
-
-If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
-label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
-need testing.
-
-### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
-
-### [Rust](https://github.com/rust-lang/rust/labels/call-for-testing)
-
-### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
@@ -440,7 +421,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1h2zwpx/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -456,4 +437,4 @@ Thanks to [Jacob Pratt](https://users.rust-lang.org/t/twir-quote-of-the-week/328
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1h7jacb/this_week_in_rust_576/)</small>
