@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Rust Macros: A Cautionary Tale](https://andrzej.lichnerowicz.pl/en/blog/rust-macros-a-cautionary-tale/)
 
 ### Rust Walkthroughs
 
