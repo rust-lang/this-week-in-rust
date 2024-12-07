@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [Rust Trends Issue #55](https://rust-trends.com/newsletter/your-weekly-rust-fix-templates-dependencies-and-a-big-giveaway/)
 
 ### Project/Tooling Updates
 
