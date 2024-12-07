@@ -238,6 +238,9 @@ Rusty Events between 2024-12-11 - 2025-01-08 🦀
     * [**Rust Vienna - December | at Sentry.io 🦀**](https://www.meetup.com/rust-vienna/events/304815850/)
 * 2024-12-17 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
     * [**Secret Santa in Rust: Unwrapping Property Testing**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/302425056/)
+* 2024-12-18 | Ghent, BE | [Systems Programming Ghent](https://sysghent.be)
+    * [**Launch of new community for Rust and C++ developers**](https://sysghent.be)
+
 
 ### North America
 * 2024-12-05 | Montréal, QC, CA | [Rust Montréal](https://www.meetup.com/rust-montreal/events/)
