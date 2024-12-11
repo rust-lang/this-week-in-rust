@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [EuroRust: Introduction to Diesel: basic and advanced concepts in practice](https://blog.weiznich.de/eurorust_2024.html)
+
 ### Research
 
 ### Miscellaneous
