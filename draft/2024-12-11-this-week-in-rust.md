@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [November 2024 Rust Jobs Report](https://filtra.io/rust/jobs-report/nov-24)
 
 ## Crate of the Week
 
