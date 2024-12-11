@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [What's new in SeaQuery 0.32.x](https://www.sea-ql.org/blog/2024-12-03-whats-new-in-seaquery-0.32.x/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
