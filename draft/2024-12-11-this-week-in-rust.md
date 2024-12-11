@@ -47,7 +47,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [include-utils](https://github.com/alekseysidorov/include-utils), a more powerful replacement for the standard library's `include_str` macro.
+
+Thanks to [Aleksey Sidorov](https://users.rust-lang.org/t/crate-of-the-week/2704/1381) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -106,7 +108,111 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+462 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2024-12-03..2024-12-10
+
+* [`dataflow_const_prop`: do not eval a ptr address in SwitchInt](https://github.com/rust-lang/rust/pull/134073)
+* [`fn_sig_for_fn_abi` should return a `ty::FnSig`, no need for a binder](https://github.com/rust-lang/rust/pull/133874)
+* [`rust_for_linux`: -Zreg-struct-return commandline flag for X86](https://github.com/rust-lang/rust/pull/130777)
+* [actually walk into lifetimes and attrs in `EarlyContextAndPass`](https://github.com/rust-lang/rust/pull/133992)
+* [add `allocate_bytes` and refactor `allocate_str` in InterpCx for raw byte…](https://github.com/rust-lang/rust/pull/133861)
+* [add context to "const in pattern" errors](https://github.com/rust-lang/rust/pull/133233)
+* [add lint against function pointer comparisons](https://github.com/rust-lang/rust/pull/118833)
+* [add more info on type/trait mismatches for different crate versions](https://github.com/rust-lang/rust/pull/133767)
+* [avoid `opaque type not constrained` errors in the presence of other errors](https://github.com/rust-lang/rust/pull/133850)
+* [avoid fetching the anon const hir node that is already available](https://github.com/rust-lang/rust/pull/133936)
+* [deeply normalize when computing implied outlives bounds](https://github.com/rust-lang/rust/pull/133517)
+* [do not implement unsafe auto traits for types with unsafe fields](https://github.com/rust-lang/rust/pull/133934)
+* [don't suggest restricting bound with unstable traits on stable and mention it's unstable on nightly](https://github.com/rust-lang/rust/pull/133522)
+* [don't use a SyntheticProvider for literally every type](https://github.com/rust-lang/rust/pull/133134)
+* [fix MutVisitor's default implementations to visit Stmt's and BinOp's spans](https://github.com/rust-lang/rust/pull/133784)
+* [fix suggestion when shorthand `self` has erroneous type](https://github.com/rust-lang/rust/pull/122161)
+* [gate async fn trait bound modifier on `async_trait_bounds`](https://github.com/rust-lang/rust/pull/132612)
+* [handle `--json-output` properly](https://github.com/rust-lang/rust/pull/133875)
+* [hide errors whose suggestions would contain error constants or types](https://github.com/rust-lang/rust/pull/133954)
+* [implement checks for tail calls](https://github.com/rust-lang/rust/pull/133607)
+* [improve `TagEncoding::Niche` docs, sanity check, and UB checks](https://github.com/rust-lang/rust/pull/133681)
+* [include LLDB and GDB visualizers in MSVC distribution](https://github.com/rust-lang/rust/pull/133737)
+* [introduce `default_field_values` feature](https://github.com/rust-lang/rust/pull/129514)
+* [lint against `Symbol::intern` on a string literal](https://github.com/rust-lang/rust/pull/133545)
+* [lint: change help for pointers to dyn types in FFI](https://github.com/rust-lang/rust/pull/131669)
+* [make CoercePointee errors translatable](https://github.com/rust-lang/rust/pull/133774)
+* [make sure to record deps from cached task in new solver on first run](https://github.com/rust-lang/rust/pull/133828)
+* [move most tests for `-l` and `#[link(..)]` into `tests/ui/link-native-libs`](https://github.com/rust-lang/rust/pull/133996)
+* [no need to create placeholders for GAT args in `confirm_object_candidate`](https://github.com/rust-lang/rust/pull/133872)
+* [only allow `PassMode::Direct` for aggregates on wasm when using the C ABI](https://github.com/rust-lang/rust/pull/133931)
+* [parse guard patterns](https://github.com/rust-lang/rust/pull/133424)
+* [reduce false positives on some common cases from if-let-rescope lint](https://github.com/rust-lang/rust/pull/133753)
+* [reimplement `~const` trait specialization](https://github.com/rust-lang/rust/pull/133325)
+* [structurally resolve in `adjust_for_branches`](https://github.com/rust-lang/rust/pull/133559)
+* [structurally resolve in `probe_adt`](https://github.com/rust-lang/rust/pull/133558)
+* [unify `sysroot_target_{bin,lib}dir` handling](https://github.com/rust-lang/rust/pull/132723)
+* [use correct `hir_id` for array const arg infers](https://github.com/rust-lang/rust/pull/133779)
+* [miri: cleanup: avoid passing byte slice to `anonsocket_read`](https://github.com/rust-lang/miri/pull/4074)
+* [miri: fix SC fence logic](https://github.com/rust-lang/miri/pull/4076)
+* [miri: fix weak memory emulation to avoid generating behaviors that are forbidden under C++ 20](https://github.com/rust-lang/miri/pull/4057)
+* [miri: implement `simd_relaxed_fma`](https://github.com/rust-lang/miri/pull/4071)
+* [extend Miri to correctly pass mutable pointers through FFI](https://github.com/rust-lang/rust/pull/133211)
+* [remove polymorphization](https://github.com/rust-lang/rust/pull/133883)
+* [introduce `MixedBitSet`](https://github.com/rust-lang/rust/pull/133891)
+* [stabilize `const_collections_with_hasher` and `build_hasher_default_const_new`](https://github.com/rust-lang/rust/pull/133696)
+* [stabilize `const_{size,align}_of_val`](https://github.com/rust-lang/rust/pull/133762)
+* [stabilize `noop_waker`](https://github.com/rust-lang/rust/pull/133089)
+* [stabilize `std::io::ErrorKind::CrossesDevices`](https://github.com/rust-lang/rust/pull/130209)
+* [stabilize `std::io::ErrorKind::QuotaExceeded`](https://github.com/rust-lang/rust/pull/130254)
+* [add `core::arch::breakpoint` and test](https://github.com/rust-lang/rust/pull/133726)
+* [implementation of `fmt::FormattingOptions`](https://github.com/rust-lang/rust/pull/118159)
+* [add Extend impls for tuples of arity 1 through 12](https://github.com/rust-lang/rust/pull/132187)
+* [cargo: `docs(fingerprint)`: cargo-rustc extra flags do not affect the metadata](https://github.com/rust-lang/cargo/pull/14898)
+* [cargo: `feat(build-rs)`: Add the 'error' directive](https://github.com/rust-lang/cargo/pull/14910)
+* [cargo: `fix(add)`: Don't select yanked versions when normalizing names](https://github.com/rust-lang/cargo/pull/14895)
+* [cargo: `fix(build-rs)`: Correctly refer to the item in assert](https://github.com/rust-lang/cargo/pull/14913)
+* [cargo: `fix(build-std)`: determine root crates by target spec `std:bool`](https://github.com/rust-lang/cargo/pull/14899)
+* [cargo: `fix(fingerprint)`: Don't throwaway the cache on RUSTFLAGS changes](https://github.com/rust-lang/cargo/pull/14830)
+* [cargo: `fix(fix)`: Migrate workspace dependencies](https://github.com/rust-lang/cargo/pull/14890)
+* [cargo: `test(build-std)`: make mock-std closer to real world](https://github.com/rust-lang/cargo/pull/14896)
+* [cargo: fix(build-rs)!: remove meaningless `'cargo_cfg_debug_assertions'`](https://github.com/rust-lang/cargo/pull/14901)
+* [cargo: refactor: use `Path::push` to construct remap-path-prefix](https://github.com/rust-lang/cargo/pull/14908)
+* [cargo: semVer: add section on RPIT capturing](https://github.com/rust-lang/cargo/pull/14849)
+* [rustdoc: remove eq for `clean::Attributes`](https://github.com/rust-lang/rust/pull/133960)
+* [rustdoc: rename `issue-\d+.rs` tests to have meaningful names (part 10)](https://github.com/rust-lang/rust/pull/134053)
+* [rustdoc: rename `set_back_info` to `restore_module_data`](https://github.com/rust-lang/rust/pull/133764)
+* [rustdoc: always display first line of impl blocks even when collapsed](https://github.com/rust-lang/rust/pull/132155)
+* [improve code for FileName retrieval in rustdoc](https://github.com/rust-lang/rust/pull/133804)
+* [clippy: `doc_lazy_continuation`: Correctly count indent with backslashes](https://github.com/rust-lang/rust-clippy/pull/13742)
+* [clippy: extend `precedence` for bitmasking and shift](https://github.com/rust-lang/rust-clippy/pull/13743)
+* [clippy: new lint for `as *const _` and `as *mut _` pointer casts](https://github.com/rust-lang/rust-clippy/pull/13251)
+* [rust-analyzer: add Configurable Option to Exclude Trigger Characters for Typing Assists](https://github.com/rust-lang/rust-analyzer/pull/18522)
+* [rust-analyzer: add implict unsafety inlay hints for extern blocks](https://github.com/rust-lang/rust-analyzer/pull/18610)
+* [rust-analyzer: add typing handler for param list pipe](https://github.com/rust-lang/rust-analyzer/pull/18628)
+* [rust-analyzer: complete derive helper attributes](https://github.com/rust-lang/rust-analyzer/pull/18604)
+* [rust-analyzer: complete diagnostics in ty lowering groundwork and serve a first diagnostic 🎉](https://github.com/rust-lang/rust-analyzer/pull/18541)
+* [rust-analyzer: extend reported unsafe operations](https://github.com/rust-lang/rust-analyzer/pull/18609)
+* [rust-analyzer: support `AsyncFnX` traits](https://github.com/rust-lang/rust-analyzer/pull/18594)
+* [rust-analyzer: fix parsing of parenthesized type args and RTN](https://github.com/rust-lang/rust-analyzer/pull/18593)
+* [rust-analyzer: better parser recovery for paths](https://github.com/rust-lang/rust-analyzer/pull/18608)
+* [rust-analyzer: coerce two `FnDef`s to fn pointers even if they are the same, if they are subtypes](https://github.com/rust-lang/rust-analyzer/pull/18633)
+* [rust-analyzer: disable `<` typing handler again](https://github.com/rust-lang/rust-analyzer/pull/18616)
+* [rust-analyzer: do not report warnings from proc macros, ever](https://github.com/rust-lang/rust-analyzer/pull/18611)
+* [rust-analyzer: fix a bug when synthetic AST node were searched in the AST ID map and caused panics](https://github.com/rust-lang/rust-analyzer/pull/18555)
+* [rust-analyzer: fix parser getting stuck for bad asm expressions](https://github.com/rust-lang/rust-analyzer/pull/18625)
+* [rust-analyzer: fix parsing of dyn T in generic arg on 2015 edition](https://github.com/rust-lang/rust-analyzer/pull/18622)
+* [rust-analyzer: fix parsing of integer/keyword name refs in various places](https://github.com/rust-lang/rust-analyzer/pull/18618)
+* [rust-analyzer: fix shadowing of record `enum` variant in patterns](https://github.com/rust-lang/rust-analyzer/pull/18607)
+* [rust-analyzer: fixed another bug with glob imports](https://github.com/rust-lang/rust-analyzer/pull/18605)
+* [rust-analyzer: map new replacement nodes to their mutable equivalents in `SyntaxEditor`](https://github.com/rust-lang/rust-analyzer/pull/18531)
+* [rust-analyzer: non-exhaustive structs may be empty](https://github.com/rust-lang/rust-analyzer/pull/18645)
+* [rust-analyzer: panic when displaying generic params with defaults](https://github.com/rust-lang/rust-analyzer/pull/18619)
+* [rust-analyzer: parse lifetime bounds in lifetime param into TypeBoundList](https://github.com/rust-lang/rust-analyzer/pull/18620)
+* [rust-analyzer: resolve generic parameters within use captures](https://github.com/rust-lang/rust-analyzer/pull/18621)
+* [rust-analyzer: temporarily disable completion resolve support for helix and neovim](https://github.com/rust-lang/rust-analyzer/pull/18630)
+* [rust-analyzer: improve heuristics for on typing semicolon insertion](https://github.com/rust-lang/rust-analyzer/pull/18627)
+* [rust-analyzer: make bracket typing handler work on more things](https://github.com/rust-lang/rust-analyzer/pull/18474)
+* [rust-analyzer: migrate `add_turbo_fish` to `SyntaxEditor`](https://github.com/rust-lang/rust-analyzer/pull/18551)
+* [rust-analyzer: migrate `introduce_named_generic` Assist to Use `SyntaxFactory`](https://github.com/rust-lang/rust-analyzer/pull/18483)
+* [rust-analyzer: migrate `sort_items` Assist to Use `SyntaxFactory`](https://github.com/rust-lang/rust-analyzer/pull/18538)
+* [rust-analyzer: vscode: only show status bar item in relevant files](https://github.com/rust-lang/rust-analyzer/pull/18592)
 
 ### Rust Compiler Performance Triage
 
@@ -287,7 +393,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Memory-safe implementations of PNG ([png](https://crates.io/crates/png), [zune-png](https://crates.io/crates/zune-png), [wuffs](https://github.com/google/wuffs/)) now dramatically outperform memory-unsafe ones ([libpng](http://www.libpng.org/), [spng](https://libspng.org/), [stb_image](https://github.com/nothings/stb)) when decoding images.
+>
+> Rust [png](https://crates.io/crates/png) crate that tops our benchmark shows **1.8x** improvement over `libpng` on x86 and **1.5x** improvement on ARM.
+
+– [Shnatsel on /r/rust](https://www.reddit.com/r/rust/comments/1ha7uyi/memorysafe_png_decoders_now_vastly_outperform_c/)
+
+Thanks to [Anton Fetisov](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1641) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
