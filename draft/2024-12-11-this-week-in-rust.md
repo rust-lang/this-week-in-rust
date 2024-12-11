@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Comparing Rust Database Crates](https://diesel.rs/compare_diesel.html)
+
 ### Rust Walkthroughs
 
 ### Research
