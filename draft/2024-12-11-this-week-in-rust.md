@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 * [Flawless Replay](https://flawless.dev/replay/)
 * [Rust9x update: Rust 1.84.0-beta](https://seri.tools/blog/rust9x-1-84/)
 
+* [What's new in SeaQuery 0.32.x](https://www.sea-ql.org/blog/2024-12-03-whats-new-in-seaquery-0.32.x/)
+
 ### Observations/Thoughts
 * [Rust Macros: A Cautionary Tale](https://andrzej.lichnerowicz.pl/en/blog/rust-macros-a-cautionary-tale/)
 * [Running teloxide bots cheaply on Fly.io](https://blog.valyagolev.net/fly-teloxide/)
