@@ -55,6 +55,8 @@ and just ask the editors to select the category.
 
 * [Comparing Rust Database Crates](https://diesel.rs/compare_diesel.html)
 
+* [State of the Crates 2025](https://ohadravid.github.io/posts/2024-12-state-of-the-crates/)
+
 ### Rust Walkthroughs
 * [Parsing MIDI messages in Rust](https://www.ntietz.com/blog/parsing-midi-rust/)
 * [Drag & Drop Images into Bevy 0.15 on the web](https://rustunit.com/blog/2024/12-10-rust-web-drag-drop-image/
