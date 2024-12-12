@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 * [Rust Macros: A Cautionary Tale](https://andrzej.lichnerowicz.pl/en/blog/rust-macros-a-cautionary-tale/)
 
+* [State of the Crates 2025](https://ohadravid.github.io/posts/2024-12-state-of-the-crates/)
+
 ### Rust Walkthroughs
 
 ### Research
