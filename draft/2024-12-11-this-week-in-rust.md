@@ -35,6 +35,7 @@ and just ask the editors to select the category.
 
 ### Newsletters
 * [The Embedded Rustacean Issue #34](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-34)
+* [Rust Trends Issue #55](https://rust-trends.com/newsletter/your-weekly-rust-fix-templates-dependencies-and-a-big-giveaway/)
 
 ### Project/Tooling Updates
 
