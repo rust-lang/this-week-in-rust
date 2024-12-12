@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 * [Memory-safe PNG decoders now vastly outperform C PNG libraries](https://www.reddit.com/r/rust/comments/1ha7uyi/memorysafe_png_decoders_now_vastly_outperform_c)
 * [State of the Crates 2025](https://ohadravid.github.io/posts/2024-12-state-of-the-crates/)
 
+* [Comparing Rust Database Crates](https://diesel.rs/compare_diesel.html)
+
 ### Rust Walkthroughs
 * [Parsing MIDI messages in Rust](https://www.ntietz.com/blog/parsing-midi-rust/)
 * [Drag & Drop Images into Bevy 0.15 on the web](https://rustunit.com/blog/2024/12-10-rust-web-drag-drop-image/
