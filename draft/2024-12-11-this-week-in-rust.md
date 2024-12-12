@@ -65,9 +65,10 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [My Rust Story](https://softwaremill.com/andre-bogus-my-rust-story/)
+* [November 2024 Rust Jobs Report](https://filtra.io/rust/jobs-report/nov-24)
 * [video] [How to Integrate C++ and Rust](https://www.youtube.com/playlist?list=PL6CJYn40gN6jOg_cPqRfXMNriHknKy4VW)
 * [video] [2024 LLVM Developers' Meeting - Rust ❤️ LLVM](https://www.youtube.com/watch?v=Kqz-umsAnk8)
-* [My Rust Story](https://softwaremill.com/andre-bogus-my-rust-story/)
 
 ## Crate of the Week
 
