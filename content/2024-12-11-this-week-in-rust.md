@@ -33,8 +33,6 @@ and just ask the editors to select the category.
 * [This Month in Our Test Infra: November 2024](https://blog.rust-lang.org/inside-rust/2024/12/09/test-infra-nov-2024.html)
 * [December 2024 Leadership Council Update](https://blog.rust-lang.org/inside-rust/2024/12/09/leadership-council-update.html)
 
-### Foundation
-
 ### Newsletters
 * [The Embedded Rustacean Issue #34](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-34)
 * [Rust Trends Issue #55](https://rust-trends.com/newsletter/your-weekly-rust-fix-templates-dependencies-and-a-big-giveaway/)
@@ -43,7 +41,6 @@ and just ask the editors to select the category.
 * [Dioxus 0.6](https://dioxuslabs.com/blog/release-060/)
 * [Flawless Replay](https://flawless.dev/replay/)
 * [Rust9x update: Rust 1.84.0-beta](https://seri.tools/blog/rust9x-1-84/)
-
 * [What's new in SeaQuery 0.32.x](https://www.sea-ql.org/blog/2024-12-03-whats-new-in-seaquery-0.32.x/)
 
 ### Observations/Thoughts
@@ -52,19 +49,13 @@ and just ask the editors to select the category.
 * [Speeding up Ruby by rewriting C… in Ruby](https://jpcamara.com/2024/12/01/speeding-up-ruby.html)
 * [Memory-safe PNG decoders now vastly outperform C PNG libraries](https://www.reddit.com/r/rust/comments/1ha7uyi/memorysafe_png_decoders_now_vastly_outperform_c)
 * [State of the Crates 2025](https://ohadravid.github.io/posts/2024-12-state-of-the-crates/)
-
 * [Comparing Rust Database Crates](https://diesel.rs/compare_diesel.html)
-
-* [State of the Crates 2025](https://ohadravid.github.io/posts/2024-12-state-of-the-crates/)
 
 ### Rust Walkthroughs
 * [Parsing MIDI messages in Rust](https://www.ntietz.com/blog/parsing-midi-rust/)
-* [Drag & Drop Images into Bevy 0.15 on the web](https://rustunit.com/blog/2024/12-10-rust-web-drag-drop-image/
+* [Drag & Drop Images into Bevy 0.15 on the web](https://rustunit.com/blog/2024/12-10-rust-web-drag-drop-image/)
 * [Missing iterable traits and how to introduce them effortlessly](https://orxfun.github.io/orxfun-notes/#/missing-iterable-traits-2024-12-13)
-
 * [EuroRust: Introduction to Diesel: basic and advanced concepts in practice](https://blog.weiznich.de/eurorust_2024.html)
-
-### Research
 
 ### Miscellaneous
 * [My Rust Story](https://softwaremill.com/andre-bogus-my-rust-story/)
@@ -100,10 +91,6 @@ If you are a feature implementer and would like your RFC to appear on the above 
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
 
-### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
-
-### [Rust](https://github.com/rust-lang/rust/labels/call-for-testing)
-
 ### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
@@ -119,9 +106,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-<!-- * [ - ]() -->
-<!-- or if none - *No Calls for participation were submitted this week.* -->
+*No Calls for participation were submitted this week.*
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -131,8 +116,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-<!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+*No Calls for papers or presentations were submitted this week.*x	
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -381,7 +365,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1h2zwpx/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -399,4 +383,4 @@ Thanks to [Anton Fetisov](https://users.rust-lang.org/t/twir-quote-of-the-week/3
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1hcj88m/this_week_in_rust_577/)</small>
