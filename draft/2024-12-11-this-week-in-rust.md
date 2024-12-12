@@ -58,6 +58,8 @@ and just ask the editors to select the category.
 * [Drag & Drop Images into Bevy 0.15 on the web](https://rustunit.com/blog/2024/12-10-rust-web-drag-drop-image/
 * [Missing iterable traits and how to introduce them effortlessly](https://orxfun.github.io/orxfun-notes/#/missing-iterable-traits-2024-12-13)
 
+* [EuroRust: Introduction to Diesel: basic and advanced concepts in practice](https://blog.weiznich.de/eurorust_2024.html)
+
 ### Research
 
 ### Miscellaneous
