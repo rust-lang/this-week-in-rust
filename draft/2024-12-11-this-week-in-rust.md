@@ -30,6 +30,8 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [This Month in Our Test Infra: November 2024](https://blog.rust-lang.org/inside-rust/2024/12/09/test-infra-nov-2024.html)
+* [December 2024 Leadership Council Update](https://blog.rust-lang.org/inside-rust/2024/12/09/leadership-council-update.html)
 
 ### Foundation
 
@@ -38,17 +40,28 @@ and just ask the editors to select the category.
 * [Rust Trends Issue #55](https://rust-trends.com/newsletter/your-weekly-rust-fix-templates-dependencies-and-a-big-giveaway/)
 
 ### Project/Tooling Updates
+* [Dioxus 0.6](https://dioxuslabs.com/blog/release-060/)
+* [Flawless Replay](https://flawless.dev/replay/)
+* [Rust9x update: Rust 1.84.0-beta](https://seri.tools/blog/rust9x-1-84/)
 
 ### Observations/Thoughts
 * [Rust Macros: A Cautionary Tale](https://andrzej.lichnerowicz.pl/en/blog/rust-macros-a-cautionary-tale/)
+* [Running teloxide bots cheaply on Fly.io](https://blog.valyagolev.net/fly-teloxide/)
+* [Speeding up Ruby by rewriting C… in Ruby](https://jpcamara.com/2024/12/01/speeding-up-ruby.html)
+* [Memory-safe PNG decoders now vastly outperform C PNG libraries](https://www.reddit.com/r/rust/comments/1ha7uyi/memorysafe_png_decoders_now_vastly_outperform_c)
+* [State of the Crates 2025](https://ohadravid.github.io/posts/2024-12-state-of-the-crates/)
 
 ### Rust Walkthroughs
-
+* [Parsing MIDI messages in Rust](https://www.ntietz.com/blog/parsing-midi-rust/)
+* [Drag & Drop Images into Bevy 0.15 on the web](https://rustunit.com/blog/2024/12-10-rust-web-drag-drop-image/
 * [Missing iterable traits and how to introduce them effortlessly](https://orxfun.github.io/orxfun-notes/#/missing-iterable-traits-2024-12-13)
 
 ### Research
 
 ### Miscellaneous
+* [video] [How to Integrate C++ and Rust](https://www.youtube.com/playlist?list=PL6CJYn40gN6jOg_cPqRfXMNriHknKy4VW)
+* [video] [2024 LLVM Developers' Meeting - Rust ❤️ LLVM](https://www.youtube.com/watch?v=Kqz-umsAnk8)
+* [My Rust Story](https://softwaremill.com/andre-bogus-my-rust-story/)
 
 ## Crate of the Week
 
