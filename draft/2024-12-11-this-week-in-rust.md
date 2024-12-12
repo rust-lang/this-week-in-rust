@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Missing iterable traits and how to introduce them effortlessly](https://orxfun.github.io/orxfun-notes/#/missing-iterable-traits-2024-12-13)
+
 ### Research
 
 ### Miscellaneous
