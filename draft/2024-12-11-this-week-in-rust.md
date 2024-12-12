@@ -295,18 +295,6 @@ which are reaching a decision. Express your opinions now.
 Rusty Events between 2024-12-11 - 2025-01-08 🦀
 
 ### Virtual
-* 2024-12-05 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
-    * [**Rust Hack and Learn**](https://berline.rs/2024/12/05/rust-hack-and-learn.html) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298633275/)
-* 2024-12-05 | Virtual (Miami, FL) | [Miami Java User Group Events](https://www.meetup.com/miami-java-user-group)
-    * [**Introduction to Rust for Java Developers**](https://www.meetup.com/miami-java-user-group/events/304717903/)
-* 2024-12-06 | Virtual (Jersey City, NJ, US) | [Jersey City Classy and Curious Coders Club Cooperative](https://www.meetup.com/jersey-city-classy-curious-coders-club-cooperative/)
-    * [**Rust Coding / Game Dev Fridays Open Mob Session!**](https://www.meetup.com/jersey-city-classy-curious-coders-club-cooperative/events/304369723/)
-* 2024-12-07 | Virtual (Kampala, UG) | [Rust Circle Kampala](https://www.eventbrite.com/o/rust-circle-kampala-65249289033/)
-    * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587)
-* 2024-12-08 | Virtual (Tel Aviv-Yafo, IL) | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
-    * [**Reading JSON files in Rust - קריאת קבצי ג'ייסון בראסט**](https://www.meetup.com/rust-tlv/events/304685546/)
-* 2024-12-10 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
-    * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/299346988/)
 * 2024-12-11 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
     * [**egui**](https://www.meetup.com/vancouver-rust/events/304047666/)
 * 2024-12-12 | Hybrid: In-Person and Virtual (Seattle, WA, US) | [Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/)
@@ -333,30 +321,16 @@ Rusty Events between 2024-12-11 - 2025-01-08 🦀
     * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/fkmcntygcqbgc/)
 * 2024-12-26 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
     * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298898129/)
-
-### Africa
-* 2024-12-10 | Johannesburg, ZA | [Johannesburg Rust Meetup](https://www.meetup.com/johannesburg-rust-meetup/events/)
-    * [**Hello World... again**](https://www.meetup.com/johannesburg-rust-meetup/events/304649358/)
+* 2024-01-02| Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
+    * [**Rust Hack and Learn**](https://berline.rs/) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298633277/)
+* 2025-01-04 | Virtual (Kampala, UG) | [Rust Circle Kampala](https://www.eventbrite.com/o/rust-circle-kampala-65249289033/)
+    * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587)
 
 ### Asia
 * 2024-12-14 | Bangalore/Bengaluru, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**December 2024 Rustacean meetup/workshop**](https://hasgeek.com/rustbangalore/december-2024-rustacean-meetup-workshop/)
 
 ### Europe
-* 2024-12-04 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
-    * [**Aprenem junts Rust / Learn Rust Together**](https://lu.ma/pypwr0m7)
-* 2024-12-04 | Köln, DE | [Rust Cologne](https://www.meetup.com/rust-cologne-bonn/events/)
-    * [**Rust in December: Advent of Code**](https://www.meetup.com/rustcologne/events/304760521/)
-* 2024-12-04 | Oxford, UK | [Oxford Rust Meetup Group](https://www.meetup.com/oxford-rust-meetup-group/)
-    * [**Oxford Rust and C++ social**](https://www.meetup.com/oxford-rust-meetup-group/events/303123399/)
-* 2024-12-04 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/events/)
-    * [**Rust meetup #73**](https://www.meetup.com/rust-paris/events/304685955/)
-* 2024-12-05 | Gdansk, PL | [Rust Gdansk](https://www.meetup.com/rust-gdansk/events/)
-    * [**Rust Gdansk Meetup #6**](https://www.meetup.com/rust-gdansk/events/304773705/)
-* 2024-12-05 | Zlin, CZ | [Rust Moravia](https://www.meetup.com/rust-moravia/events/)
-    * [**Rust Moravia Meetup (December 2024)**](https://www.meetup.com/rust-moravia/events/304075150/)
-* 2024-12-06 | Moscow, RU | [RustCon RU](https://rustcon.ru/)
-    * [**RustCon Russia**](https://rustcon.ru/)
 * 2024-12-11 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/events/)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/wrdkmtygcqbpb/)
 * 2024-12-12 | Amsterdam, NL | [Rust Developers Amsterdam Group](https://www.meetup.com/rust-amsterdam-group/events/)
@@ -372,12 +346,6 @@ Rusty Events between 2024-12-11 - 2025-01-08 🦀
 
 
 ### North America
-* 2024-12-05 | Montréal, QC, CA | [Rust Montréal](https://www.meetup.com/rust-montreal/events/)
-    * [**December Monthly Social**](https://www.meetup.com/rust-montreal/events/304778367/)
-* 2024-12-05 | St. Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust/events/)
-    * [**Rust Strings**](https://www.meetup.com/stl-rust/events/302371466/)
-* 2024-12-10 | Ann Arbor, MI, US | [Detroit Rust](https://www.meetup.com/detroitrust/)
-    * [**Rust Community Meetup - Ann Arbor**](https://www.meetup.com/detroitrust/events/cvdcntygcqbnb/)
 * 2024-12-12 | Hybrid: In-Person and Virtual (Seattle, WA, US) | [Seattle Rust User Group](https://www.meetup.com/join-srug/)
     * [**December Meetup**](https://www.meetup.com/join-srug/events/304806455/)
 * 2024-12-12 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
@@ -390,10 +358,6 @@ Rusty Events between 2024-12-11 - 2025-01-08 🦀
     * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/wqkgntygcqbjc/)
 
 ### Oceania
-* 2024-12-04 | Sydney, AU | [Rust Sydney](https://www.meetup.com/rust-sydney/events/)
-    * [**2024 🦀 Encore ✨ Talks**](https://www.meetup.com/rust-sydney/events/304625921/)
-* 2024-12-08 | Canberra, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
-    * [**CRUG Xmas party**](https://www.meetup.com/rust-canberra/events/304282046/)
 * 2024-12-16 | Collingwood, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne/events/)
     * [**December 2024 Rust Melbourne Meetup**](https://www.meetup.com/rust-melbourne/events/304820598/)
 
