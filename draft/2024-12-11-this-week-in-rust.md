@@ -36,6 +36,8 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #34](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-34)
+* [Rust Trends Issue #55](https://rust-trends.com/newsletter/your-weekly-rust-fix-templates-dependencies-and-a-big-giveaway/)
 
 ### Project/Tooling Updates
 * [Dioxus 0.6](https://dioxuslabs.com/blog/release-060/)
@@ -43,6 +45,7 @@ and just ask the editors to select the category.
 * [Rust9x update: Rust 1.84.0-beta](https://seri.tools/blog/rust9x-1-84/)
 
 ### Observations/Thoughts
+* [Rust Macros: A Cautionary Tale](https://andrzej.lichnerowicz.pl/en/blog/rust-macros-a-cautionary-tale/)
 * [Running teloxide bots cheaply on Fly.io](https://blog.valyagolev.net/fly-teloxide/)
 * [Speeding up Ruby by rewriting C… in Ruby](https://jpcamara.com/2024/12/01/speeding-up-ruby.html)
 * [Memory-safe PNG decoders now vastly outperform C PNG libraries](https://www.reddit.com/r/rust/comments/1ha7uyi/memorysafe_png_decoders_now_vastly_outperform_c)
@@ -50,7 +53,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Parsing MIDI messages in Rust](https://www.ntietz.com/blog/parsing-midi-rust/)
-* [Drag & Drop Images into Bevy 0.15 on the web](https://rustunit.com/blog/2024/12-10-rust-web-drag-drop-image/)
+* [Drag & Drop Images into Bevy 0.15 on the web](https://rustunit.com/blog/2024/12-10-rust-web-drag-drop-image/
+* [Missing iterable traits and how to introduce them effortlessly](https://orxfun.github.io/orxfun-notes/#/missing-iterable-traits-2024-12-13)
 
 ### Research
 
@@ -124,7 +128,15 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A pretty quiet week, with both few PRs landed and no large changes in performance.
+
+Triage done by **@simulacrum**.
+Revision range: [490b2cc0..1b3fb316](https://perf.rust-lang.org/?start=490b2cc09860dd62a7595bb07364d71c12ce4e60&end=1b3fb316751227d30b1523ed0e3f00d83956d4d0&absolute=false&stat=instructions%3Au)
+
+0 Regressions, 0 Improvements, 7 Mixed; 4 of them in rollups
+25 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2024-12-09.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -206,8 +218,6 @@ Rusty Events between 2024-12-11 - 2025-01-08 🦀
     * [**Rust Source Code Reading: The thousands crate (Virtual, English)**](https://www.meetup.com/code-mavens/events/304824684/)
 * 2024-12-17 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/299346972/)
-* 2024-12-17 | Virtual (Tel Aviv, IL) | [Code Mavens](https://www.meetup.com/code-mavens/)
-    * [**Rust Source Code Reading: The thousands crate**](https://www.meetup.com/code-mavens/events/304824684/)
 * 2024-12-19 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust Hack and Learn**](https://berline.rs/2024/12/19/rust-hack-and-learn.html) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298633276/)
 * 2024-12-19 | Virtual (Mexico City, DF, MX) | [Rust MX](https://www.meetup.com/rust-mx/)
@@ -252,6 +262,9 @@ Rusty Events between 2024-12-11 - 2025-01-08 🦀
     * [**Rust Vienna - December | at Sentry.io 🦀**](https://www.meetup.com/rust-vienna/events/304815850/)
 * 2024-12-17 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
     * [**Secret Santa in Rust: Unwrapping Property Testing**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/302425056/)
+* 2024-12-18 | Ghent, BE | [Systems Programming Ghent](https://sysghent.be)
+    * [**Launch of new community for Rust and C++ developers**](https://sysghent.be)
+
 
 ### North America
 * 2024-12-05 | Montréal, QC, CA | [Rust Montréal](https://www.meetup.com/rust-montreal/events/)
