@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [audio] [Building Rust: An interview with Nell Shamrell-Harrington](https://timclicks.dev/podcast/nell-shamrell-harrington)
+
 ### Rust Walkthroughs
 
 - [Read the Code: Using Drop for Safety in Rust](https://v5.chriskrycho.com/journal/read-the-code/using-drop-for-safety-in-rust/)
