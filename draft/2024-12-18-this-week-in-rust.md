@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Announcing Hex Display: A modern `xxd` alternative](https://users.rust-lang.org/t/announcing-hex-display-a-modern-alternative-to-xxd/122523)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
