@@ -1,7 +1,6 @@
 from dataclasses import dataclass
 from datetime import datetime
 from geopy.geocoders import Nominatim
-from state_territory_to_abbrev import au_state_territory_to_abbrev, us_state_to_abbrev, ca_state_territory_to_abbrev
 
 
 @dataclass
@@ -49,10 +48,9 @@ class Event:
   organizer_url: str
 
   def to_markdown_string(self) -> str:
-    date_str = self.date.date()
     location = f"Virtual ({self.location.to_str()})" if self.virtual else self.location.to_str()
 
-    return f'* {date_str} | {location} | [{self.organizer_name}]({self.organizer_url})\n    * [**{self.name}**]({self.url})'
+    return f'* {self.date.date()} | {location} | [{self.organizer_name}]({self.organizer_url})\n    * [**{self.name}**]({self.url})'
 
 
 @dataclass
@@ -94,7 +92,10 @@ class RawGqlEvent:
     # location = self._format_location(address)
 
     is_virtual = self.venue_type == "online"
-    date = datetime.fromisoformat(self.date_time_str)
+
+    # this is a bit weird because we want a naive datetime object that just contains the year/month/day because we get
+    # timestamps with tz info like "2025-01-16T19:00+01:00", just strip the time and tz info before parsing
+    date = datetime.strptime(self.date_time_str.split('T')[0], '%Y-%m-%d')
 
     # prefer the event specific location, otherwise fall back to the group's location
     if self.event_location.fields_present() > self.group_location.fields_present():

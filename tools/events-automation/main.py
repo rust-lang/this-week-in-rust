@@ -6,11 +6,12 @@
 import argparse
 import logging
 from geopy.geocoders import Nominatim
+from typing import List
 
-from test_events import get_test_events
 from datetime import date, timedelta
 from country_code_to_continent import country_code_to_continent
 from generate_events_meetup import TwirMeetupClient
+from event import Event
 from utils import read_meetup_group_urls
 
 # TODO: Flagged events list handling.
@@ -38,7 +39,7 @@ def main():
         events += [raw_event.to_event(geolocator, group_url.url) for raw_event in group_raw_events]
 
     # Remove events outside of date range.
-    date_window_filter(events)
+    events = date_window_filter(events)
 
     # Sort remaining events by date, then location.
     events.sort(key=lambda event: (event.date, event.location))
@@ -80,17 +81,21 @@ def output_to_screen(event_list):
             print()
 
 
-def date_window_filter(event_list):
+def date_window_filter(events: List[Event]) -> List[Event]:
     # Removes Events that are outside current date window.
     # Date window = closest wednesday + 5 weeks.
     start_date = date.today()
     while start_date.weekday() != 2:
         start_date = start_date + timedelta(days=1)
         
-    for event in event_list:
+    valid = []
+    for event in events:
         if not (start_date <= event.date.date() <= start_date + timedelta(weeks=5)):
             logger.debug(f"Removed event outside of date range: {event}")
-            event_list.remove(event)
+        else:
+            valid.append(event)
+
+    return valid
 
 
 def group_virtual_continent(event_list):
