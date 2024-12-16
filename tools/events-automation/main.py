@@ -14,9 +14,9 @@ from generate_events_meetup import TwirMeetupClient
 from event import Event
 from utils import read_meetup_group_urls
 
-# TODO: Flagged events list handling.
 
 logger = logging.getLogger(__name__)
+
 
 def main():
     args = parse_args()
@@ -27,6 +27,7 @@ def main():
     logger.info("Starting...")
 
     meetup_client = TwirMeetupClient()
+    # TODO: see if we actually need to use this
     geolocator = Nominatim(user_agent="TWiR")
 
     # get our known rust meetup groups
@@ -43,9 +44,6 @@ def main():
 
     # Sort remaining events by date, then location.
     events.sort(key=lambda event: (event.date, event.location.to_str()))
-
-    # for event in events:
-    #     print(event.to_markdown_string())
 
     # Remove potential duplicate events.
     events = remove_duplicate_events(events)

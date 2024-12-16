@@ -1,6 +1,10 @@
+import logging
 from dataclasses import dataclass
 from datetime import datetime
 from geopy.geocoders import Nominatim
+
+
+logger = logging.getLogger(__name__)
 
 
 @dataclass
@@ -69,6 +73,7 @@ class RawGqlEvent:
   long: float
 
   def __init__(self, **kwargs) -> None:
+    logger.debug(f"Constructing RawGqlEvent from: {kwargs}")
     # TODO: add some validation here, these error messages will be not useful currently
     node = kwargs["node"]
     self.title = node["title"]
@@ -113,6 +118,7 @@ class RawGqlEvent:
       organizer_url=group_url
     )
 
+  # not sure if this is needed anymore, looks like the meetup API has a gooda mount of location data
   # @staticmethod
   # def _format_location(address: dict) -> str:
   #   # TODO: look this over...

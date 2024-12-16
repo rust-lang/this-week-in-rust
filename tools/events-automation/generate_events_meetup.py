@@ -100,7 +100,17 @@ class TwirMeetupClient:
 
     def _parse_event_listing_gql_response(self, response: dict) -> List[RawGqlEvent]:
         edges = response["groupByUrlname"]["upcomingEvents"]["edges"]
-        return [RawGqlEvent(**kwargs) for kwargs in edges]
+
+        events = []
+        # TODO: maybe move this validation somewhere else?
+        for edge_kwargs in edges:
+            if not edge_kwargs["node"]["venue"]:
+                logger.error(f"Event response missing venue: {edge_kwargs}")
+                continue
+
+            events.append(RawGqlEvent(**edge_kwargs))
+
+        return events
 
     def fetch_groups(self, endCursor=""):
         """
@@ -198,10 +208,15 @@ class TwirMeetupClient:
             "Content-Type": "application/json",
         }
 
+        logger.info(f"Fetching events for group {group}")
         query = self._build_event_listing_gql_query(group.url_name)
         response = requests.post(url=self.GQL_ENDPOINT, headers=headers, json=query)
         data = response.json()["data"]
         logger.debug(data)
+
+        if data["groupByUrlname"] is None:
+            logger.error(f"Group {group} not valid, skipping")
+            return []
 
         return self._parse_event_listing_gql_response(data)
 
