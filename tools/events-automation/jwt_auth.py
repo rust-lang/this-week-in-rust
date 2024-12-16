@@ -5,13 +5,21 @@ import datetime
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.backends import default_backend
 
+MEETUP_PEM_ENV_VAR = "MEETUP_PRIVATE_KEY"
+MEETUP_AUTHORIZED_MEMBER_ID_ENV_VAR = "MEETUP_AUTHORIZED_MEMBER_ID"
+MEETUP_CLIENT_KEY_ENV_VAR = "MEETUP_CLIENT_KEY"
+
 
 def get_PEM_private_key():
     """
     Loads the PRIVATE_KEY in string from .env file.
     Returns it in PEM-formatted bytes
     """
-    with open(os.getenv("PRIVATE_KEY"), 'rb') as pem_file:
+    pem_env_var = os.getenv(MEETUP_PEM_ENV_VAR)
+    if not pem_env_var:
+        raise RuntimeError(f"Env var {MEETUP_PEM_ENV_VAR} not set!")
+
+    with open(pem_env_var, "rb") as pem_file:
         return pem_file.read()
 
 def get_RSA_private_key():
@@ -48,12 +56,20 @@ def generate_signed_jwt():
     Encodes and signs the payload using RS256 and the private RSA key, forming a base64-url encoded header, payload, and signature. 
     Then returns it.
     """
-    AUTHORIZED_MEMBER_ID = os.getenv('AUTHORIZED_MEMBER_ID') # the member id that owns the OAuth Client
-    CLIENT_KEY = os.getenv('CLIENT_KEY')
+    authorized_member_id = os.getenv(MEETUP_AUTHORIZED_MEMBER_ID_ENV_VAR) # the member id that owns the OAuth Client
+    client_key = os.getenv(MEETUP_CLIENT_KEY_ENV_VAR)
+
+    # TODO: consolidate fetching + checking env vars into one place
+    if not authorized_member_id:
+        raise RuntimeError(f"Env var {MEETUP_AUTHORIZED_MEMBER_ID_ENV_VAR} not set!")
+
+    if not client_key:
+        raise RuntimeError(f"Env var {MEETUP_CLIENT_KEY_ENV_VAR} not set!")
+
     private_key = get_RSA_private_key()
     payload = {
-        "sub": AUTHORIZED_MEMBER_ID,
-        "iss": CLIENT_KEY,
+        "sub": authorized_member_id,
+        "iss": client_key,
         "aud": "api.meetup.com",
         "exp": (datetime.datetime.utcnow() + datetime.timedelta(hours=24)).timestamp()
     }

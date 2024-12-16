@@ -250,7 +250,7 @@ COUNTRY_CODE_TO_CONTINENT = {
 }
 
 
-def country_code_to_continent(country_code):
+def country_code_to_continent(country_code: str):
     # Returns the continent a country code belongs to.
-    return COUNTRY_CODE_TO_CONTINENT[country_code]
+    return COUNTRY_CODE_TO_CONTINENT[country_code.upper()]
 

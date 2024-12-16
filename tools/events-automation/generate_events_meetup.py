@@ -1,12 +1,12 @@
 import requests
 import datetime
-import csv
 import logging
 
 from jwt_auth import generate_signed_jwt
-from urllib.parse import urlsplit
 from geopy.geocoders import Nominatim
-from event import Event
+from event import Event, RawGqlEvent
+from utils import MeetupGroupUrl
+from typing import List
 
 logger = logging.getLogger(__name__)
 
@@ -51,7 +51,56 @@ class TwirMeetupClient:
         if not self._access_token:
             self._authenticate()
 
-        return self._get_access_token
+        return self._access_token
+
+    def _build_event_listing_gql_query(self, group_url_name: str) -> dict:
+        return {
+            "query": """
+            query ($urlName: String!, $searchEventInput: ConnectionInput!) {
+                groupByUrlname(urlname: $urlName) {
+                    upcomingEvents(input: $searchEventInput, sortOrder: ASC) {
+                        pageInfo {
+                            hasNextPage
+                            endCursor
+                        }
+                        edges {
+                            node {
+                                id
+                                group {
+                                    name
+                                    city
+                                    state
+                                    country
+                                }
+                                title
+                                dateTime
+                                eventUrl
+                                venue {
+                                    city
+                                    state
+                                    country
+                                    venueType
+                                    lat
+                                    lng
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            """,
+            "variables": {
+                "urlName": group_url_name,
+                "searchEventInput": {
+                    # TODO: see if we need this limit or not
+                    "first": 20
+                }
+            }
+        }
+
+    def _parse_event_listing_gql_response(self, response: dict) -> List[RawGqlEvent]:
+        edges = response["groupByUrlname"]["upcomingEvents"]["edges"]
+        return [RawGqlEvent(**kwargs) for kwargs in edges]
 
     def fetch_groups(self, endCursor=""):
         """
@@ -62,7 +111,7 @@ class TwirMeetupClient:
 
         # Sets the content type to application/json for the request body.
         headers = {
-            "Authorization": f"Bearer {self._get_access_token}",
+            "Authorization": f"Bearer {self._get_access_token()}",
             "Content-Type": "application/json",
         }
 
@@ -143,131 +192,16 @@ class TwirMeetupClient:
                 break
         return groups
 
-    def get_known_rust_groups(self, filename="rust_meetup_groups.csv") -> dict:
-        """
-        Returns a dictionary represents all groups from a specified CSV file 
-        :type fileName: Name or Path of the CSV file that contains the URLs and locations of the groups.
-        """
-        # TODO: this whole method really needs to be cleaned up
-        groups = dict() # main dictionary that stores all information of different groups
-
-        with open(filename, newline='') as csv_file:
-            csv_reader = csv.reader(csv_file)
-            for (i, row) in enumerate(csv_reader):
-                name, url, location, non_meetup = row
-                group = {}
-                group["link"] = url
-                split_url = urlsplit(group["link"])
-                group["urlname"] = (split_url.path).replace("/", "")
-                group["location"] = location
-                groups[i] = group            
-        return groups
-
-    def get_20_events(self, groups) -> list[Event]:
-        """
-        Returns a list where each element is an instance of the Event class, representing event data from the Meetup API 
-        :type groups: A dictionary of groups where each entry contains the group's URL name to make an API request
-        :rtype: dict
-        """
-        events = [] # main list to store data about each fetched event.
-
+    def get_raw_events_for_group(self, group: MeetupGroupUrl) -> List[RawGqlEvent]:
         headers = {
             "Authorization": f"Bearer {self._get_access_token()}",
             "Content-Type": "application/json",
         }
 
-        # Constructs and sends a GraphQL query for each group to fetch up to 20 upcoming events from the Meetup API using the group's URL name
-        data = {}
-        for group in groups.values():
-            urlName = group["urlname"]
-            data = {
-                "query": """
-                query ($urlName: String!, $searchEventInput: ConnectionInput!) {
-                    groupByUrlname(urlname: $urlName) {
-                        upcomingEvents(input: $searchEventInput, sortOrder: ASC) {
-                            pageInfo {
-                                hasNextPage
-                                endCursor
-                            }
-                            edges {
-                                node {
-                                    id
-                                    title
-                                    dateTime
-                                    eventUrl
-                                    venue {
-                                        venueType
-                                        lat
-                                        lng
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-                """,
-                "variables": {
-                    "urlName": urlName,
-                    "searchEventInput": {
-                        "first": 20
-                    }
-                }
-            }
-            response = requests.post(url=self.GQL_ENDPOINT, headers=headers, json=data)
-            data = response.json()["data"]
+        query = self._build_event_listing_gql_query(group.url_name)
+        response = requests.post(url=self.GQL_ENDPOINT, headers=headers, json=query)
+        data = response.json()["data"]
+        logger.debug(data)
 
-            # Constructs Event with attributes such as title, location, date, URL, and organizer details
-            if data:
-                searchGroupByUrlname = data["groupByUrlname"]
-                if searchGroupByUrlname:
-                    edges = searchGroupByUrlname["upcomingEvents"]["edges"]
-                    if edges:
-                        for edge in edges:
-                            node = edge["node"]
-                            if node:
-                                venue = node["venue"]
-                                # TODO: Handle events don't have venue:
-                                # 1. Flagging the events and they will have to be check manually, 
-                                # 2. Putting them in separate list to check
-                                # (for now ignore those events) 
-                                if venue:
-                                    name = node["title"]
-                                    virtual = True
-                                    if venue["venueType"] != "online":
-                                        virtual = False
+        return self._parse_event_listing_gql_response(data)
 
-                                    # Convert obtained latitude and longitude of an event to formatted location 
-                                    address = (self._geolocator.reverse(str(venue["lat"]) +","+ str(venue["lng"]))).raw["address"]
-                                    location = self.format_location(address)
-                                    date = datetime.datetime.fromisoformat(node["dateTime"]).date()
-                                    url = node["eventUrl"]
-                                    organizerName = group.get("name", urlName)
-                                    organizerUrl = group["link"]
-                                    events.append(Event(name, location, date, url, virtual, organizerName, organizerUrl))
-        return events
-
-    def format_location(self, address) -> str:
-        """
-        Helper method to format address of events with required components for a location
-        :rtype: string
-        """
-        if not address:
-            return "No location"
-    
-        # All components for a location
-        components = ['road', 'city', 'state', 'postcode', 'country']
-
-        # Get available components, otherwise replace missing component with an empty string
-        location = [address.get(component, "") for component in components]
-
-
-        return ','.join(location) if location else "No location"
-
-    def get_events(self) -> list[Event]:
-        """
-        Returns a list of Event objects querying from known, and Meetup API Rust groups
-        :rtype: list[Event]
-        """
-        # TODO: once the handling events without venue successful, get events_meetup_groups = get_20_events(get_rush_groups())
-        events_known_groups = self.get_20_events(self.get_known_rust_groups())
-        return events_known_groups

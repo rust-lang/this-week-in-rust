@@ -3,43 +3,65 @@
 # call event sink with our collected events
 # print to console / output to file formatted markdown
 
+import argparse
 import logging
+from geopy.geocoders import Nominatim
 
 from test_events import get_test_events
 from datetime import date, timedelta
 from country_code_to_continent import country_code_to_continent
 from generate_events_meetup import TwirMeetupClient
+from utils import read_meetup_group_urls
 
 # TODO: Flagged events list handling.
 
 logger = logging.getLogger(__name__)
 
 def main():
-    logging.basicConfig(level=logging.INFO)
+    args = parse_args()
+
+    log_level = logging.DEBUG if args.debug else logging.INFO
+    logging.basicConfig(level=log_level)
+
     logger.info("Starting...")
 
     meetup_client = TwirMeetupClient()
+    geolocator = Nominatim(user_agent="TWiR")
 
-    # Get Events list from Event Sources.
-    event_list = meetup_client.get_events()
+    # get our known rust meetup groups
+    group_urls = read_meetup_group_urls(args.groups_file)
 
-    # Format date and location data.
-    format_data(event_list)
+    events = []
+    for group_url in group_urls:
+        group_raw_events = meetup_client.get_raw_events_for_group(group_url)
+
+        events += [raw_event.to_event(geolocator, group_url.url) for raw_event in group_raw_events]
 
     # Remove events outside of date range.
-    date_window_filter(event_list)
+    date_window_filter(events)
 
     # Sort remaining events by date, then location.
-    event_list.sort(key=lambda event: (event.date, event.location))
+    events.sort(key=lambda event: (event.date, event.location))
+
+    for event in events:
+        print(event.to_markdown_string())
 
     # Flag potential duplicate events.
-    potential_duplicate(event_list)
+    # potential_duplicate(events)
     
     # Group by virtual or by continent.
-    event_list = group_virtual_continent(event_list)
+    # events = group_virtual_continent(events)
 
     # Output Sorted Event List.
-    output_to_screen(event_list)
+    # output_to_screen(events)
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description='Fetches meetup events for TWIR')
+    parser.add_argument("-d", "--debug", action="store_true", dest="debug", help="Enable debug logging")
+    parser.add_argument("-g", "--groups", action="store", type=str, dest="groups_file", required=True, help="File with a JSON array of meetup group URLS")
+
+    return parser.parse_args()
 
 
 def output_to_screen(event_list):
@@ -58,13 +80,6 @@ def output_to_screen(event_list):
             print()
 
 
-def format_data(event_list):
-    # Formats date and location data into specified format.
-    for event in event_list:
-        event.format_date()
-        event.format_location()
-
-
 def date_window_filter(event_list):
     # Removes Events that are outside current date window.
     # Date window = closest wednesday + 5 weeks.
@@ -73,7 +88,8 @@ def date_window_filter(event_list):
         start_date = start_date + timedelta(days=1)
         
     for event in event_list:
-        if not (start_date <= event.date <= start_date + timedelta(weeks=5)):
+        if not (start_date <= event.date.date() <= start_date + timedelta(weeks=5)):
+            logger.debug(f"Removed event outside of date range: {event}")
             event_list.remove(event)
 
 
