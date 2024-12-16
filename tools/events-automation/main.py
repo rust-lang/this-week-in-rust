@@ -39,28 +39,29 @@ def main():
         events += [raw_event.to_event(geolocator, group_url.url) for raw_event in group_raw_events]
 
     # Remove events outside of date range.
-    events = date_window_filter(events)
+    events = date_window_filter(events, args.weeks)
 
     # Sort remaining events by date, then location.
-    events.sort(key=lambda event: (event.date, event.location))
+    events.sort(key=lambda event: (event.date, event.location.to_str()))
 
-    for event in events:
-        print(event.to_markdown_string())
+    # for event in events:
+    #     print(event.to_markdown_string())
 
-    # Flag potential duplicate events.
-    # potential_duplicate(events)
+    # Remove potential duplicate events.
+    events = remove_duplicate_events(events)
     
     # Group by virtual or by continent.
-    # events = group_virtual_continent(events)
+    events = group_virtual_continent(events)
 
     # Output Sorted Event List.
-    # output_to_screen(events)
+    output_to_screen(events)
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description='Fetches meetup events for TWIR')
     parser.add_argument("-d", "--debug", action="store_true", dest="debug", help="Enable debug logging")
     parser.add_argument("-g", "--groups", action="store", type=str, dest="groups_file", required=True, help="File with a JSON array of meetup group URLS")
+    parser.add_argument("-w", "--weeks", action="store", type=int, dest="weeks", default=5, help="Number of weeks to search for events from, starting next Wednesday")
 
     return parser.parse_args()
 
@@ -75,13 +76,11 @@ def output_to_screen(event_list):
             
             # Output event details
             for event in value:
-                if event.duplicate:
-                    print("** NOTE POTENTIAL DUPLICATE: **")
                 print(event.to_markdown_string())
             print()
 
 
-def date_window_filter(events: List[Event]) -> List[Event]:
+def date_window_filter(events: List[Event], weeks: int) -> List[Event]:
     # Removes Events that are outside current date window.
     # Date window = closest wednesday + 5 weeks.
     start_date = date.today()
@@ -90,7 +89,7 @@ def date_window_filter(events: List[Event]) -> List[Event]:
         
     valid = []
     for event in events:
-        if not (start_date <= event.date.date() <= start_date + timedelta(weeks=5)):
+        if not (start_date <= event.date.date() <= start_date + timedelta(weeks=weeks)):
             logger.debug(f"Removed event outside of date range: {event}")
         else:
             valid.append(event)
@@ -104,23 +103,26 @@ def group_virtual_continent(event_list):
 
     for event in event_list:
         # Separates Events by Virtual or by Continent
-        key = "Virtual" if event.virtual else country_code_to_continent(event.location[-2:])
+        key = "Virtual" if event.virtual else country_code_to_continent(event.location.country)
         separated_event_list.setdefault(key, []).append(event)
     
     return separated_event_list
 
 
-def potential_duplicate(event_list):
+def remove_duplicate_events(events: List[Event]) -> List[Event]:
     # Identifies possible duplicate Events within Event List.
-    for i in range(len(event_list)):
-        for j in range(i+1, len(event_list)):
-            if event_list[i].date == event_list[j].date:
-                if event_list[i].url == event_list[j].url:
-                    if event_list[i].name == event_list[j].name:
-                        if event_list[i].organizerName == event_list[j].organizerName:
-                            if event_list[i].location == event_list[j].location:
-                                event_list[i].duplicate = True
+    seen_event_urls = set()
+    checked = []
 
+    for event in events:
+        if event.url in seen_event_urls:
+            logger.warning(f"Found duplicate event: {event}")
+        else:
+            seen_event_urls.add(event.url)
+            checked.append(event)
+
+    return checked
+            
 
 if __name__ == "__main__":
     main()
