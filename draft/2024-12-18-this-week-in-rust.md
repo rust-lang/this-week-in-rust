@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [ Streaming data analytics, Fluvio 0.14.0 release](https://www.fluvio.io/news/this-week-in-fluvio-0067)
 
 ### Observations/Thoughts
 
