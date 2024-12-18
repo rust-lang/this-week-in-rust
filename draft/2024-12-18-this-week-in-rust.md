@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 - [Read the Code: Using Drop for Safety in Rust](https://v5.chriskrycho.com/journal/read-the-code/using-drop-for-safety-in-rust/)
+* [video] [Rust code reading: The thousands crate](https://www.youtube.com/watch?v=ITTj7ByNStE)
 
 ### Research
 
