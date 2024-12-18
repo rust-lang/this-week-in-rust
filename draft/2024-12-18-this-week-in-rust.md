@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Diesel: Window functions](https://blog.weiznich.de/blog/diesel-nl-net-grant-window-functions/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
