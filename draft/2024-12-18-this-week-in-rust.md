@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [What is shift-left ⬅️ programming?](https://dev.to/szabgab/what-is-shift-left-programming-5601)
 
 ## Crate of the Week
 
