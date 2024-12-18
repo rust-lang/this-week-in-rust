@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Introducing Fjädra — a Rust port of `d3-force` for graph layouts](https://github.com/grtlr/fjadra)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
