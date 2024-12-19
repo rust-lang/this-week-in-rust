@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Rust social status update 2024.12](https://rust.code-maven.com/rust-update-2024-12-17)
 
 ## Crate of the Week
 
