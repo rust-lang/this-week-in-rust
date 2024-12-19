@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 
 - [Announcing Hex Display: A modern `xxd` alternative](https://users.rust-lang.org/t/announcing-hex-display-a-modern-alternative-to-xxd/122523)
 
+* [Diesel: Window functions](https://blog.weiznich.de/blog/diesel-nl-net-grant-window-functions/)
+
 ### Observations/Thoughts
 * [What are temporal and spatial memory safety?](https://blog.yoshuawuyts.com/temporal-spatial-memory-safety/)
 * [Reducing WASM binary size](https://www.warp.dev/blog/reducing-wasm-binary-size)
