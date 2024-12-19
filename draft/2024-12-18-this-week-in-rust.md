@@ -201,11 +201,17 @@ Rusty Events between 2024-12-18 - 2025-01-15 🦀
 * 2025-01-15 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/events/)
     * [**Leptos**](https://www.meetup.com/vancouver-rust/events/304051782)
 
+### Asia
+* 2025-01-12 | Virtual (Tel Aviv-Yafo, IL) | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
+    * [**In person Rust January 2025 at Abra in Raanana**](https://www.meetup.com/rust-tlv/events/304898730/)
+
 ### Europe
 * 2024-12-18 | Ghent, BE | [Systems Programming Ghent](https://sysghent.be)
     * [**Launch of new community for Rust and C++ developers**](https://sysghent.be)
 * 2025-01-08 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/events/)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/305038426)
+* 2025-01-09 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/events/)
+    * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/300820279/)
 * 2025-01-09 | Oslo, NO | [Rust Oslo](https://www.meetup.com/rust-oslo/events/)
     * [**Rust Hack'n'Learn at Kampen Bistro**](https://www.meetup.com/rust-oslo/events/303154281)
 
