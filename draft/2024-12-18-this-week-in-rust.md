@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Sequoia PGP: A Sapling Matures: Meet sq 1.0](https://sequoia-pgp.org/blog/2024/12/16/202412-sq-1.0/)
+
 ### Observations/Thoughts
 
 - [audio] [Building Rust: An interview with Nell Shamrell-Harrington](https://timclicks.dev/podcast/nell-shamrell-harrington)
