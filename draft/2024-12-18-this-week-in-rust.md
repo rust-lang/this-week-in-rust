@@ -69,6 +69,7 @@ and just ask the editors to select the category.
 * [Scheme to the Spec Part I: Concurrent Cycle Collection](https://maplant.com/2024-12-13-Scheme-to-the-Spec-Part-I:-Concurrent-Cycle-Collection.html)
 * [Solving Advent of Code at Compile Time with Rust Macros](https://doublefree.bearblog.dev/solving-advent-of-code-at-compile-time-with-rust-macros/)
 * [video] [Rust code reading: The thousands crate](https://www.youtube.com/watch?v=ITTj7ByNStE)
+* [video] [Building a Lua package manager in Rust (Arabic)](https://youtu.be/YsupdHTAKDw)
 
 ### Research
 
