@@ -30,23 +30,36 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [November project goals update](https://blog.rust-lang.org/2024/12/16/project-goals-nov-update.html)
+* [This Development-cycle in Cargo: 1.84](https://blog.rust-lang.org/inside-rust/2024/12/13/this-development-cycle-in-cargo-1.84.html)
+* [December 2024 Project Director Update](https://blog.rust-lang.org/inside-rust/2024/12/17/project-director-update.html)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust OSDev: November 2024](https://rust-osdev.com/this-month/2024-11/)
 
 ### Project/Tooling Updates
-* [ Streaming data analytics, Fluvio 0.14.0 release](https://www.fluvio.io/news/this-week-in-fluvio-0067)
-
+* [hyper Roadmap 2025](https://seanmonstar.com/blog/hyper-roadmap-2025/)
+* [Bevy Fallible Systems, Bindless, and Immutable Components](https://thisweekinbevy.com/issue/2024-12-09-fallible-systems-bindless-and-immutable-components)
 * [Sequoia PGP: A Sapling Matures: Meet sq 1.0](https://sequoia-pgp.org/blog/2024/12/16/202412-sq-1.0/)
+* [Release 0.30.0 - egui_kittest and modals](https://github.com/emilk/egui/releases/tag/0.30.0)
+* [fish-shell 4.0b1, now in Rust](https://fishshell.com/blog/fish-4b/)
+* [Introducing Limbo: A complete rewrite of SQLite in Rust](https://turso.tech/blog/introducing-limbo-a-complete-rewrite-of-sqlite-in-rust)
+* [Streaming data analytics, Fluvio 0.14.0 release](https://www.fluvio.io/news/this-week-in-fluvio-0067)
 
 ### Observations/Thoughts
-
-- [audio] [Building Rust: An interview with Nell Shamrell-Harrington](https://timclicks.dev/podcast/nell-shamrell-harrington)
+* [What are temporal and spatial memory safety?](https://blog.yoshuawuyts.com/temporal-spatial-memory-safety/)
+* [Reducing WASM binary size](https://www.warp.dev/blog/reducing-wasm-binary-size)
+* [Crash recovery in 256 bytes](https://cliffle.com/blog/exhubris-super/)
+* [Rust crate feature debugging](https://rustunit.com/blog/2024/12-16-rust-feature-debugging/)
+* [audio] [Building Rust: An interview with Nell Shamrell-Harrington](https://timclicks.dev/podcast/nell-shamrell-harrington)
 
 ### Rust Walkthroughs
-
-- [Read the Code: Using Drop for Safety in Rust](https://v5.chriskrycho.com/journal/read-the-code/using-drop-for-safety-in-rust/)
+* [Read the Code: Using Drop Safely in Rust](https://v5.chriskrycho.com/journal/read-the-code/using-drop-safely-in-rust/)
+* [Thoughts on Rust hashing](https://purplesyringa.moe/blog/thoughts-on-rust-hashing/)
+* [ Scheme to the Spec Part I: Concurrent Cycle Collection](https://maplant.com/2024-12-13-Scheme-to-the-Spec-Part-I:-Concurrent-Cycle-Collection.html)
+* [Solving Advent of Code at Compile Time with Rust Macros](https://doublefree.bearblog.dev/solving-advent-of-code-at-compile-time-with-rust-macros/)
 
 ### Research
 
