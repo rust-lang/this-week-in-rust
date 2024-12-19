@@ -34,8 +34,6 @@ and just ask the editors to select the category.
 * [This Development-cycle in Cargo: 1.84](https://blog.rust-lang.org/inside-rust/2024/12/13/this-development-cycle-in-cargo-1.84.html)
 * [December 2024 Project Director Update](https://blog.rust-lang.org/inside-rust/2024/12/17/project-director-update.html)
 
-### Foundation
-
 ### Newsletters
 * [This Month in Rust OSDev: November 2024](https://rust-osdev.com/this-month/2024-11/)
 
@@ -47,13 +45,9 @@ and just ask the editors to select the category.
 * [fish-shell 4.0b1, now in Rust](https://fishshell.com/blog/fish-4b/)
 * [Introducing Limbo: A complete rewrite of SQLite in Rust](https://turso.tech/blog/introducing-limbo-a-complete-rewrite-of-sqlite-in-rust)
 * [Streaming data analytics, Fluvio 0.14.0 release](https://www.fluvio.io/news/this-week-in-fluvio-0067)
-
-- [Announcing Hex Display: A modern `xxd` alternative](https://users.rust-lang.org/t/announcing-hex-display-a-modern-alternative-to-xxd/122523)
-
+* [Announcing Hex Display: A modern `xxd` alternative](https://users.rust-lang.org/t/announcing-hex-display-a-modern-alternative-to-xxd/122523)
 * [Diesel: Window functions](https://blog.weiznich.de/blog/diesel-nl-net-grant-window-functions/)
-
 * [Rerun 0.21.0 - Graph view, 3D Grid & UI/UX improvements](https://rerun.io/blog/graphs)
-
 * [Introducing Fjädra — a Rust port of `d3-force` for graph layouts](https://github.com/grtlr/fjadra)
 
 ### Observations/Thoughts
@@ -70,8 +64,6 @@ and just ask the editors to select the category.
 * [Solving Advent of Code at Compile Time with Rust Macros](https://doublefree.bearblog.dev/solving-advent-of-code-at-compile-time-with-rust-macros/)
 * [video] [Rust code reading: The thousands crate](https://www.youtube.com/watch?v=ITTj7ByNStE)
 * [video] [Building a Lua package manager in Rust (Arabic)](https://youtu.be/YsupdHTAKDw)
-
-### Research
 
 ### Miscellaneous
 * [What is shift-left ⬅️ programming?](https://dev.to/szabgab/what-is-shift-left-programming-5601)
@@ -379,7 +371,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1h2zwpx/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
