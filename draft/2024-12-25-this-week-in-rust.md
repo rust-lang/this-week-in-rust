@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+- [Rust university course exercises](https://kobzol.github.io/teaching/2024/12/18/rust-exercises.html)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
