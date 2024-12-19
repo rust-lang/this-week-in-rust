@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 * [Release 0.30.0 - egui_kittest and modals](https://github.com/emilk/egui/releases/tag/0.30.0)
 * [fish-shell 4.0b1, now in Rust](https://fishshell.com/blog/fish-4b/)
 * [Introducing Limbo: A complete rewrite of SQLite in Rust](https://turso.tech/blog/introducing-limbo-a-complete-rewrite-of-sqlite-in-rust)
+* [Streaming data analytics, Fluvio 0.14.0 release](https://www.fluvio.io/news/this-week-in-fluvio-0067)
 
 ### Observations/Thoughts
 * [What are temporal and spatial memory safety?](https://blog.yoshuawuyts.com/temporal-spatial-memory-safety/)
