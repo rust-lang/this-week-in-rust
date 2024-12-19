@@ -54,6 +54,8 @@ and just ask the editors to select the category.
 
 * [Rerun 0.21.0 - Graph view, 3D Grid & UI/UX improvements](https://rerun.io/blog/graphs)
 
+* [Introducing Fjädra — a Rust port of `d3-force` for graph layouts](https://github.com/grtlr/fjadra)
+
 ### Observations/Thoughts
 * [What are temporal and spatial memory safety?](https://blog.yoshuawuyts.com/temporal-spatial-memory-safety/)
 * [Reducing WASM binary size](https://www.warp.dev/blog/reducing-wasm-binary-size)
