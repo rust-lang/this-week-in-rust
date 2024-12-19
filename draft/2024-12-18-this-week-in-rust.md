@@ -60,8 +60,9 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Read the Code: Using Drop Safely in Rust](https://v5.chriskrycho.com/journal/read-the-code/using-drop-safely-in-rust/)
 * [Thoughts on Rust hashing](https://purplesyringa.moe/blog/thoughts-on-rust-hashing/)
-* [ Scheme to the Spec Part I: Concurrent Cycle Collection](https://maplant.com/2024-12-13-Scheme-to-the-Spec-Part-I:-Concurrent-Cycle-Collection.html)
+* [Scheme to the Spec Part I: Concurrent Cycle Collection](https://maplant.com/2024-12-13-Scheme-to-the-Spec-Part-I:-Concurrent-Cycle-Collection.html)
 * [Solving Advent of Code at Compile Time with Rust Macros](https://doublefree.bearblog.dev/solving-advent-of-code-at-compile-time-with-rust-macros/)
+* [video] [Rust code reading: The thousands crate](https://www.youtube.com/watch?v=ITTj7ByNStE)
 
 ### Research
 
