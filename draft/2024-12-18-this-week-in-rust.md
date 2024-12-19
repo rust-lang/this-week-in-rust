@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 * [Introducing Limbo: A complete rewrite of SQLite in Rust](https://turso.tech/blog/introducing-limbo-a-complete-rewrite-of-sqlite-in-rust)
 * [Streaming data analytics, Fluvio 0.14.0 release](https://www.fluvio.io/news/this-week-in-fluvio-0067)
 
+- [Announcing Hex Display: A modern `xxd` alternative](https://users.rust-lang.org/t/announcing-hex-display-a-modern-alternative-to-xxd/122523)
+
 ### Observations/Thoughts
 * [What are temporal and spatial memory safety?](https://blog.yoshuawuyts.com/temporal-spatial-memory-safety/)
 * [Reducing WASM binary size](https://www.warp.dev/blog/reducing-wasm-binary-size)
