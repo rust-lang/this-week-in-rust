@@ -67,6 +67,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [What is shift-left ⬅️ programming?](https://dev.to/szabgab/what-is-shift-left-programming-5601)
 * [Rust social status update 2024.12](https://rust.code-maven.com/rust-update-2024-12-17)
 
 ## Crate of the Week
