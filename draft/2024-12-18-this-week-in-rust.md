@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 
 * [Diesel: Window functions](https://blog.weiznich.de/blog/diesel-nl-net-grant-window-functions/)
 
+* [Rerun 0.21.0 - Graph view, 3D Grid & UI/UX improvements](https://rerun.io/blog/graphs)
+
 ### Observations/Thoughts
 * [What are temporal and spatial memory safety?](https://blog.yoshuawuyts.com/temporal-spatial-memory-safety/)
 * [Reducing WASM binary size](https://www.warp.dev/blog/reducing-wasm-binary-size)
