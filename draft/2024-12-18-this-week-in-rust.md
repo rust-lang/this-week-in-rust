@@ -51,6 +51,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [Rust social status update 2024.12](https://rust.code-maven.com/rust-update-2024-12-17)
+* [So many tokens, so little time: Introducing a faster, more flexible byte-pair tokenizer](https://github.blog/ai-and-ml/llms/so-many-tokens-so-little-time-introducing-a-faster-more-flexible-byte-pair-tokenizer/)
 
 ## Crate of the Week
 
