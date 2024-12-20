@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[Nutype 0.5.1: better no_std support and bug fixes](https://github.com/greyblake/nutype/releases/tag/v0.5.1)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
