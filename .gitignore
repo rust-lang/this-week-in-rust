@@ -10,5 +10,6 @@ cache
 .DS_Store
 
 # Publishing creations...
-publishing/output
+publishing/email
+publishing/output*
 publishing/juice

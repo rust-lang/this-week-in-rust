@@ -1,4 +1,3 @@
-#!/bin/sh
+#!/bin/bash
 
-juice --web-resources-images false juice/in.html juice/out.html
-rm juice/in.html
+juice --web-resources-images false ${LOCAL_EMAIL_PREFIX}-in.html ${LOCAL_EMAIL_PREFIX}-email.html

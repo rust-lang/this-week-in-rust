@@ -208,7 +208,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-Fairly quite week with the only pure regressions being small and coming from correctness fixes. The biggest single change came from turning off the `-Zenforce-type-length-limit` check which had positive impacts across many different benchmarks since the compiler is doing strictly less work.
+Fairly quiet week with the only pure regressions being small and coming from correctness fixes. The biggest single change came from turning off the `-Zenforce-type-length-limit` check which had positive impacts across many different benchmarks since the compiler is doing strictly less work.
 
 Triage done by **@rylev**.
 Revision range: [a2d58197..5572759b](https://perf.rust-lang.org/?start=a2d58197a766085856504328948c89a33a6a36e8&end=5572759b8d7012fa34eba47f4885c76fa06d9251&absolute=false&stat=instructions%3Au)
