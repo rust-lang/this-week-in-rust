@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Transforming Rust Development: How Windsurf AI Tripled Productivity](https://neoexogenesis.com/posts/rust-windsurf-transformation/)
+
 ### Rust Walkthroughs
 
 ### Research
