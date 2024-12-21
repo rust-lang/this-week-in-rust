@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [A Review of Rust in 2024: What Next?](https://barretts.club/posts/rust_review_2024/)
+
 ### Rust Walkthroughs
 
 ### Research
