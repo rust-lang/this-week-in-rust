@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [`hamming-bitwise-fast`: an unnecessarily fast Hamming Distance implementation using SIMD auto-vectorization](https://emschwartz.me/unnecessary-optimization-in-rust-hamming-distances-simd-and-auto-vectorization/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
