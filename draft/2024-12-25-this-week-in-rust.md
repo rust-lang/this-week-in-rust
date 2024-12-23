@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing Context-Generic Programming: a new modular programming paradim for Rust](https://contextgeneric.dev/blog/early-preview-announcement/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
