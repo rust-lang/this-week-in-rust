@@ -110,7 +110,25 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+We missed triage last week due to some process issues, so this triage includes two weeks of data. The overall result is positive, due to parser optimizations ([#133793](https://github.com/rust-lang/rust/pull/133793)), trait solving optimizations ([#134501](https://github.com/rust-lang/rust/pull/134501), [#132325](https://github.com/rust-lang/rust/pull/132325)) and bumping the cc crate ([#134505](https://github.com/rust-lang/rust/pull/134505)), which [improved the performance](https://github.com/rust-lang/cc-rs/pull/1279) of C/C++ dependencies of the compiler.
+
+Triage done by **@kobzol**.
+Revision range: [1b3fb316..0eca4dd3](https://perf.rust-lang.org/?start=1b3fb316751227d30b1523ed0e3f00d83956d4d0&end=0eca4dd3205a01dba4bd7b7c140ec370aff03440&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.5%  | [0.3%, 0.8%]   | 3     |
+| Regressions ❌ <br /> (secondary)  | 1.0%  | [1.0%, 1.0%]   | 1     |
+| Improvements ✅ <br /> (primary)   | -1.8% | [-7.5%, -0.3%] | 254   |
+| Improvements ✅ <br /> (secondary) | -1.3% | [-5.4%, -0.3%] | 224   |
+| All ❌✅ (primary)                 | -1.8% | [-7.5%, 0.8%]  | 257   |
+
+4 Regressions, 10 Improvements, 12 Mixed; 9 of them in rollups
+90 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/457d83dc231ed684e9f09e96fdf41f45bed0fe67/triage/2024-12-23.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
