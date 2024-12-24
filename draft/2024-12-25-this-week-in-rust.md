@@ -72,7 +72,8 @@ RFCs would benefit from user testing before moving forward:
 * *No calls for testing were issued this week.*
 
 ### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
-* *No calls for testing were issued this week.*
+* [CfT: Test out Rustup's `reqwest` backend with `rustls`](https://github.com/rust-lang/rustup/issues/3806)
+  - [Testing steps](https://github.com/rust-lang/rustup/issues/3806#issue-2278962476)
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
@@ -139,6 +140,7 @@ Revision range: [1b3fb316..0eca4dd3](https://perf.rust-lang.org/?start=1b3fb3167
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
+* [Add support for `use Trait::func`](https://github.com/rust-lang/rfcs/pull/3591)
 * [crates.io: Trusted Publishing Support](https://github.com/rust-lang/rfcs/pull/3691)
 
 ### Final Comment Period
@@ -175,6 +177,7 @@ which are reaching a decision. Express your opinions now.
 * *No Unsafe Code Guideline Tracking Issues or PRs entered Final Comment Period this week.*
 
 #### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+* [new] [RFC: Set CARGO_CHECK environment variable when type checking](https://github.com/rust-lang/rfcs/pull/3748)
 * [new] [unsized params in traits](https://github.com/rust-lang/rfcs/pull/3745)
 * [new] [Convert "reassignment of immutable local" and "mutable borrow of immutable local" from a hard error to a deny-by-default lint](https://github.com/rust-lang/rfcs/pull/3742)
 
