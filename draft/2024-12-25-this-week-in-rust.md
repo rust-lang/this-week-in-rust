@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Nutype 0.5.1: better no_std support and bug fixes](https://github.com/greyblake/nutype/releases/tag/v0.5.1)
 * [Ibis 0.2.0 - Federated Wiki with Shiny Redesign, based on Diesel, Actix and Leptos](https://ibis.wiki/article/Ibis_release_0.2.0_-_Federated_Wiki_with_Shiny_Redesign@ibis.wiki)
 
 ### Observations/Thoughts
