@@ -223,14 +223,15 @@ Rusty Events between 2024-12-25 - 2025-01-22 🦀
     * [**In person Rust January 2025 at Abra in Raanana**](https://www.meetup.com/rust-tlv/events/304898730/)
 
 ### Europe
-* 2024-12-18 | Ghent, BE | [Systems Programming Ghent](https://sysghent.be)
-    * [**Launch of new community for Rust and C++ developers**](https://sysghent.be)
 * 2025-01-08 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/events/)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/305038426)
 * 2025-01-09 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/events/)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/300820279/)
 * 2025-01-09 | Oslo, NO | [Rust Oslo](https://www.meetup.com/rust-oslo/events/)
     * [**Rust Hack'n'Learn at Kampen Bistro**](https://www.meetup.com/rust-oslo/events/303154281)
+* 2025-01-21 | Ghent, BE | [Systems Programming Ghent](https://sysghent.be)
+    * [**Tech Talks & Dinner: Insights on Systems Programming Side Projects (in Rust)**](https://www.meetup.com/systems-programming-ghent/events/305201540/?slug=systems-programming-ghent&eventId=305201540): presentations about Leptos (full-stack Rust with webassembly), Karyon (distributed p2p software in Rust), FunDSP (audio synthesis in Rust)
+
 
 ### North America
 * 2024-12-22 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/boston-rust-meetup-25317522anphwzdw/events/)
