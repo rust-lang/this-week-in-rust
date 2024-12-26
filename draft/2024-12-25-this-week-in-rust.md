@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+
 * [The Embedded Rustacean Issue #35](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-35)
 
 ### Project/Tooling Updates
@@ -41,16 +42,34 @@ and just ask the editors to select the category.
 * [musi lili retro game engine 0.1 released](https://crates.io/crates/musi_lili)
 * [Nutype 0.5.1: better no_std support and bug fixes](https://github.com/greyblake/nutype/releases/tag/v0.5.1)
 * [Ibis 0.2.0 - Federated Wiki with Shiny Redesign, based on Diesel, Actix and Leptos](https://ibis.wiki/article/Ibis_release_0.2.0_-_Federated_Wiki_with_Shiny_Redesign@ibis.wiki)
+* [Avian Physics 0.2](https://joonaa.dev/blog/07/avian-0-2)
+* [Slint 1.9](https://slint.dev/blog/slint-1.9-released)
+* [gitoxide - december 2024](https://github.com/GitoxideLabs/gitoxide/discussions/1738)
 
 ### Observations/Thoughts
 
+* [Dropping Hyper](https://daniel.haxx.se/blog/2024/12/21/dropping-hyper/)
+* [Embedding Lua in sqleibniz with Rust](https://xnacly.me/posts/2024/embed-lua-in-rust/)
+* [What would it take to add refinement types to Rust?](https://yoric.github.io/post/rust-refinement-types/)
+* [Context-Generic Programming](https://contextgeneric.dev/blog/early-preview-announcement/)
+* [Building a Secure Hierarchical Key Derivation System in Rust](https://medium.com/@evadawnley/building-a-secure-hierarchical-key-derivation-system-in-rust-b5a0ecee18d7)
+* [Streamlined dataflow analysis code in rustc](https://nnethercote.github.io/2024/12/19/streamlined-dataflow-analysis-code-in-rustc.html)
+* [Four limitations of Rust’s borrow checker](https://blog.polybdenum.com/2024/12/21/four-limitations-of-rust-s-borrow-checker.html)
+* [A Review of Rust in 2024: What Next?](https://barretts.club/posts/rust_review_2024/)
+* [My actions-rust-cross Action Now Has Built-In Caching](https://blog.urth.org/2024/12/21/my-actions-rust-cross-action-now-has-built-in-caching/)
+
 ### Rust Walkthroughs
+
+* [How to build and publish multi-platform Rust binaries via Github actions](https://rakhim.exotext.com/how-to-build-and-publish-multi-platform-rust-binaries)
+* [Compiling C to Safe Rust, Formalized](https://arxiv.org/abs/2412.15042)
+* [Unnecessary Optimization in Rust: Hamming Distances, SIMD, and Auto-Vectorization](https://emschwartz.me/unnecessary-optimization-in-rust-hamming-distances-simd-and-auto-vectorization/)
 
 ### Research
 
 ### Miscellaneous
 
 * [Rust university course exercises](https://kobzol.github.io/teaching/2024/12/18/rust-exercises.html)
+* [video] [The SQLite Rewrite In Rust](https://www.youtube.com/watch?v=PPjXM8G8ax0)
 
 ## Crate of the Week
 
