@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 * [musi lili retro game engine 0.1 released](https://crates.io/crates/musi_lili)
 * [Nutype 0.5.1: better no_std support and bug fixes](https://github.com/greyblake/nutype/releases/tag/v0.5.1)
 * [Ibis 0.2.0 - Federated Wiki with Shiny Redesign, based on Diesel, Actix and Leptos](https://ibis.wiki/article/Ibis_release_0.2.0_-_Federated_Wiki_with_Shiny_Redesign@ibis.wiki)
+* [dagrs 0.4.2 - Flow-based Programming in Rust](https://crates.io/crates/dagrs)
 * [Avian Physics 0.2](https://joonaa.dev/blog/07/avian-0-2)
 * [Slint 1.9](https://slint.dev/blog/slint-1.9-released)
 * [gitoxide - december 2024](https://github.com/GitoxideLabs/gitoxide/discussions/1738)
