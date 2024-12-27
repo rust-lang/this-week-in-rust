@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 * [The Embedded Rustacean Issue #35](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-35)
+* [Rust Trends Issue #56](https://rust-trends.com/newsletter/unlocking-new-insights-and-opportunities-in-rust/)
 
 ### Project/Tooling Updates
 
