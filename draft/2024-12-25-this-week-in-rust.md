@@ -59,6 +59,7 @@ and just ask the editors to select the category.
 * [Four limitations of Rust’s borrow checker](https://blog.polybdenum.com/2024/12/21/four-limitations-of-rust-s-borrow-checker.html)
 * [A Review of Rust in 2024: What Next?](https://barretts.club/posts/rust_review_2024/)
 * [My actions-rust-cross Action Now Has Built-In Caching](https://blog.urth.org/2024/12/21/my-actions-rust-cross-action-now-has-built-in-caching/)
+* [Transforming Rust Development: How Windsurf AI Tripled Productivity](https://neoexogenesis.com/posts/rust-windsurf-transformation/)
 
 ### Rust Walkthroughs
 
