@@ -29,10 +29,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
 ### Newsletters
 
 * [The Embedded Rustacean Issue #35](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-35)
@@ -66,8 +62,6 @@ and just ask the editors to select the category.
 * [How to build and publish multi-platform Rust binaries via Github actions](https://rakhim.exotext.com/how-to-build-and-publish-multi-platform-rust-binaries)
 * [Compiling C to Safe Rust, Formalized](https://arxiv.org/abs/2412.15042)
 * [Unnecessary Optimization in Rust: Hamming Distances, SIMD, and Auto-Vectorization](https://emschwartz.me/unnecessary-optimization-in-rust-hamming-distances-simd-and-auto-vectorization/)
-
-### Research
 
 ### Miscellaneous
 
@@ -388,7 +382,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1h2zwpx/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -404,4 +398,4 @@ Thanks to [Josh](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1645) 
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1hn7y8z/this_week_in_rust_579/)</small>
