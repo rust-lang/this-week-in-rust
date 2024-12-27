@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 * [Avian Physics 0.2](https://joonaa.dev/blog/07/avian-0-2)
 * [Slint 1.9](https://slint.dev/blog/slint-1.9-released)
 * [gitoxide - december 2024](https://github.com/GitoxideLabs/gitoxide/discussions/1738)
+* [Announcing Context-Generic Programming: a new modular programming paradim for Rust](https://contextgeneric.dev/blog/early-preview-announcement/)
 
 ### Observations/Thoughts
 
