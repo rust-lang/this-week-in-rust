@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [gitlab-tokens-exporter 1.0.0 - Exports the status of gitlab tokens as Prometheus metrics](https://github.com/cnieg/gitlab-tokens-exporter/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
