@@ -101,6 +101,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [clearscreen - Refactor winapi usage to windows-sys](https://github.com/watchexec/clearscreen/issues/10)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
+* [rama - support HAR exporter (http) layer in rama](https://github.com/plabayo/rama/issues/357)
+* [rama - add full-stack rama benchmarks](https://github.com/plabayo/rama/issues/374)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 [guidelines]:https://github.com/rust-lang/this-week-in-rust?tab=readme-ov-file#call-for-participation-guidelines
