@@ -110,7 +110,16 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A pretty quiet week, with the exception of a significant improvement due to
+landing LTO for C / C++ programs compiled as part of the build.
+
+Triage done by **@simulacrum**.
+Revision range: [0eca4dd3..93722f7e](https://perf.rust-lang.org/?start=0eca4dd3205a01dba4bd7b7c140ec370aff03440&end=93722f7ed56bcf27839a6355074095c4320b7d37&absolute=false&stat=instructions%3Au)
+
+0 Regressions, 1 Improvements, 1 Mixed; 0 of them in rollups
+53 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2024-12-30.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
