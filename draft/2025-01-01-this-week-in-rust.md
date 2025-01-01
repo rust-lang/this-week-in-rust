@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 * [gitlab-tokens-exporter 1.0.0 - Exports the status of gitlab tokens as Prometheus metrics](https://github.com/cnieg/gitlab-tokens-exporter/)
 
+* [Danube pub/sub messaging platform - updates v0.2.0](https://dev-state.com/posts/danube_update_020/)
+
 ### Observations/Thoughts
 * [Catching up with async Rust](https://fasterthanli.me/articles/catching-up-with-async-rust)
 * [video] [12 months with the Bevy Game Engine - This Year in Bevy 2024](https://www.youtube.com/watch?v=f4rKy-IDeVA)
