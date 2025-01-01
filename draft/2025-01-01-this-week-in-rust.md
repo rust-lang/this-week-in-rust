@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Danube pub/sub messaging platform - updates v0.2.0](https://dev-state.com/posts/danube_update_020/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
