@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 * [Fish 4.0: The Fish Of Theseus](https://fishshell.com/blog/rustport/)
 * [Rust and libcosmic in Bottles Next](https://usebottles.com/posts/2024-12-27-rust-libcosmic-next/)
 
+* [gitlab-tokens-exporter 1.0.0 - Exports the status of gitlab tokens as Prometheus metrics](https://github.com/cnieg/gitlab-tokens-exporter/)
+
 ### Observations/Thoughts
 * [Catching up with async Rust](https://fasterthanli.me/articles/catching-up-with-async-rust)
 * [video] [12 months with the Bevy Game Engine - This Year in Bevy 2024](https://www.youtube.com/watch?v=f4rKy-IDeVA)
