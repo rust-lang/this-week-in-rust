@@ -41,23 +41,21 @@ Before you start, ensure you have the following:
    ```
 
 3. **Set Up Environment Variables**:
-   - Create a `.env` file for project directory.
-   - Add the following environment variables with your actual values:
+   - Set the following environment variables with your actual values:
      ```
-     AUTHORIZED_MEMBER_ID=<Your_Meetup_Member_ID>
-     CLIENT_KEY=<Your_Meetup_Client_Key>
-     PRIVATE_KEY=<Your_RSA_Private_Key>
+     MEETUP_AUTHORIZED_MEMBER_ID=<meetup authorized member id>
+     MEETUP_CLIENT_KEY=<meetup client key value>
+     MEETUP_PRIVATE_KEY=<path to RSA pem file>
      ```
    These values are used for authentication with the Meetup API and to generate JWT tokens securely.
 
 ### Running the Script
 To fetch events, run the following command from the project directory `.../tools/events-automation`:
 ```bash
-python3 main.py
+python3 main.py -g <path to meetup group JSON array file>
 ```
 This script performs the following operations:
 - Authenticates with the Meetup API using JWT.
-- Fetches data for known Rust groups from `.../tools/events-automation/rust_meetup_groups.csv` file and Meetup API.
 - Filters and formats the event data into a standardized structure.
 - Outputs the details of upcoming events.
 
