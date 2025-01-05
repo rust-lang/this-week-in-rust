@@ -1,7 +1,6 @@
 import logging
 from dataclasses import dataclass
 from datetime import datetime
-from geopy.geocoders import Nominatim
 
 
 logger = logging.getLogger(__name__)
@@ -92,10 +91,7 @@ class RawGqlEvent:
     self.long = venue["lng"]
     self.event_location = Location(venue["city"], venue["state"], venue["country"])
 
-  def to_event(self, geolocator: Nominatim, group_url: str) -> Event:
-    # address = (geolocator.reverse(str(self.lat) +","+ str(self.long))).raw["address"]
-    # location = self._format_location(address)
-
+  def to_event(self, group_url: str) -> Event:
     is_virtual = self.venue_type == "online"
 
     # this is a bit weird because we want a naive datetime object that just contains the year/month/day because we get
@@ -117,35 +113,4 @@ class RawGqlEvent:
       organizer_name=self.group_name,
       organizer_url=group_url
     )
-
-  # not sure if this is needed anymore, looks like the meetup API has a gooda mount of location data
-  # @staticmethod
-  # def _format_location(address: dict) -> str:
-  #   # TODO: look this over...
-  #   if not address:
-  #     return "No location"
-
-  #   # All components for a location
-  #   components = ['road', 'city', 'state', 'postcode', 'country']
-
-  #   # Get available components, otherwise replace missing component with an empty string
-  #   location = [address.get(component, "") for component in components]
-
-  #   return ','.join(location) if location else "No location"
-
-  #   # ????????????
-  #   country_code, city = locationData["country_code"].upper(), locationData.get("city", locationData.get("town", locationData.get("village", "**NO CITY DATA**")))
-  #   if country_code in ["AU", "CA", "US"]:
-  #     state = locationData.get("state", locationData.get("territory", "**NO STATE DATA**"))
-  #     if state == "**NO STATE DATA**":
-  #       state_abbrev = state
-  #     elif country_code == "AU":
-  #       state_abbrev = au_state_territory_to_abbrev(state)
-  #     elif country_code == "CA":
-  #       state_abbrev = ca_state_territory_to_abbrev(state)
-  #     elif country_code == "US":
-  #       state_abbrev = us_state_to_abbrev(state)
-  #     self.location = f'{city}, {state_abbrev}, {country_code}'
-  #   else:
-  #     self.location = f'{city}, {country_code}'
 

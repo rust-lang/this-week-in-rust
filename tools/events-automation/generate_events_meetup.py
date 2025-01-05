@@ -3,7 +3,6 @@ import datetime
 import logging
 
 from jwt_auth import generate_signed_jwt
-from geopy.geocoders import Nominatim
 from event import Event, RawGqlEvent
 from utils import MeetupGroupUrl
 from typing import List
@@ -18,7 +17,6 @@ class TwirMeetupClient:
     def __init__(self) -> None:
         self._access_token = None
         self._refresh_token = None
-        self._geolocator = Nominatim(user_agent="TWiR")
 
     def _authenticate(self):
         """

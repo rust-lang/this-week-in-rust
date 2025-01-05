@@ -5,7 +5,6 @@
 
 import argparse
 import logging
-from geopy.geocoders import Nominatim
 from typing import List
 
 from datetime import date, timedelta
@@ -27,8 +26,6 @@ def main():
     logger.info("Starting...")
 
     meetup_client = TwirMeetupClient()
-    # TODO: see if we actually need to use this
-    geolocator = Nominatim(user_agent="TWiR")
 
     # get our known rust meetup groups
     group_urls = read_meetup_group_urls(args.groups_file)
@@ -37,7 +34,7 @@ def main():
     for group_url in group_urls:
         group_raw_events = meetup_client.get_raw_events_for_group(group_url)
 
-        events += [raw_event.to_event(geolocator, group_url.url) for raw_event in group_raw_events]
+        events += [raw_event.to_event(group_url.url) for raw_event in group_raw_events]
 
     # Remove events outside of date range.
     events = date_window_filter(events, args.weeks)
