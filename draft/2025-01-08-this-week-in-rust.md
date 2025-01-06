@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+[video] [Tue Henriksen on Rust in Embedded Systems, Misconceptions, & Building Community](https://www.youtube.com/watch?v=qt7ZLYnlBzk)
 
 ## Crate of the Week
 
