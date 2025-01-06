@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [A journey into File Transfer Protocols in Rust](https://blog.veeso.dev/blog/en/a-journey-into-file-transfer-protocols-in-rust/)
+
 ### Rust Walkthroughs
 
 ### Research
