@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Gameboy on your terminal written in Rust](https://github.com/raphamorim/gameboy)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
