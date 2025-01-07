@@ -41,8 +41,8 @@ and just ask the editors to select the category.
 * [Rust In Space! How Rust is Powering Next-Generation Space Mission Simulators](https://www.howtocodeit.com/articles/rust-in-space)
 
 ### Rust Walkthroughs
-* [Master Hexagonal Architecture in Rsut Part IV: Trade-Offs of Hexagonal Architecture](https://www.howtocodeit.com/articles/rust-in-space)
-* [The Definitive Guide to Error Handling in Rust Part III: Structured Error Handling](https://www.howtocodeit.com/articles/rust-in-space)
+* [Master Hexagonal Architecture in Rust Part IV: Trade-Offs of Hexagonal Architecture](https://www.howtocodeit.com/articles/master-hexagonal-architecture-rust#trade-offs-of-hexagonal-architecture-in-rust)
+* [The Definitive Guide to Error Handling in Rust Part III: Structured Error Handling](https://www.howtocodeit.com/articles/the-definitive-guide-to-rust-error-handling#structured-error-handling-in-rust)
 
 ### Research
 
