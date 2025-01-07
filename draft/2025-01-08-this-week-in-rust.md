@@ -38,8 +38,11 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Rust In Space! How Rust is Powering Next-Generation Space Mission Simulators](https://www.howtocodeit.com/articles/rust-in-space)
 
 ### Rust Walkthroughs
+* [Master Hexagonal Architecture in Rsut Part IV: Trade-Offs of Hexagonal Architecture](https://www.howtocodeit.com/articles/rust-in-space)
+* [The Definitive Guide to Error Handling in Rust Part III: Structured Error Handling](https://www.howtocodeit.com/articles/rust-in-space)
 
 ### Research
 
