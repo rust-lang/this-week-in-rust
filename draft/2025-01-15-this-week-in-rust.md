@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [Rust Trends Issue #57](https://rust-trends.com/newsletter/start-2025-with-rust-honeypots-free-cloud-deployments-and-software-reliability/)
 
 ### Project/Tooling Updates
 
