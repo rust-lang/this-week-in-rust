@@ -234,6 +234,8 @@ Rusty Events between 2025-01-08 - 2025-02-05 🦀
     * [**Rust Meetup Prague (January 2025)**](https://www.meetup.com/rust-prague/events/305455153)
 * 2025-01-28 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/events/)
     * [**Hack Night - Advent of Code**](https://www.meetup.com/rust-aarhus/events/304487851)
+* 2025-01-30 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
+    * [**Rust Meetup #11: Hypermedia-driven development in Rust**](https://rust-augsburg.github.io/meetup/Meetup_11.html)
 * 2025-01-30 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
     * [**Rust and Tell - Title**](https://www.meetup.com/rust-berlin/events/299421383)
 * 2025-02-01 | Brussels, BE | [FOSDEM 2025](https://fosdem.org/2025/)
