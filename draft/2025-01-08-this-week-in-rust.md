@@ -134,7 +134,7 @@ which are reaching a decision. Express your opinions now.
 #### Tracking Issues & PRs
 ##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 * [Tracking Issue for `float_next_up_down`](https://github.com/rust-lang/rust/issues/91399)
-* [Impl TryFrom<Vec<u8>> for String](https://github.com/rust-lang/rust/pull/132268)
+* [`Impl TryFrom<Vec<u8>> for String`](https://github.com/rust-lang/rust/pull/132268)
 * [Tracking Issue for anonymous pipe API](https://github.com/rust-lang/rust/issues/127154)
 * [Convert `struct FromBytesWithNulError` into enum](https://github.com/rust-lang/rust/pull/134143)
 
