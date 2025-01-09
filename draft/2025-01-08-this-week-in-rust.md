@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #36](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-36)
 
 ### Project/Tooling Updates
 * [rust-gcc December 2024 Monthly report](https://rust-gcc.github.io/2025/01/07/2024-12-monthly-report.html)
