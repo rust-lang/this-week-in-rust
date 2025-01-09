@@ -47,7 +47,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [terminal-colorsaurus](https://crates.io/crates/terminal-colorsaurus), a small library to detect whether the terminal is in light or dark mode.
+
+Thanks to [Tau](https://users.rust-lang.org/t/crate-of-the-week/2704/1386) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -110,7 +112,87 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+375 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2024-12-31..2025-01-07
+
+* [add m68k-unknown-none-elf target](https://github.com/rust-lang/rust/pull/135085)
+* [target: add mips mti baremetal support](https://github.com/rust-lang/rust/pull/135074)
+* [A few borrowck tweaks to improve 2024 edition migration lints](https://github.com/rust-lang/rust/pull/135147)
+* [E0277: suggest dereferencing function arguments in more cases](https://github.com/rust-lang/rust/pull/133292)
+* [Debuginfo: Force `enum DISCR_*` to `static const u64` to allow for inspection via LLDB](https://github.com/rust-lang/rust/pull/133990)
+* [`ObligationCause` construction tweaks in typeck](https://github.com/rust-lang/rust/pull/134984)
+* [`generic_assert` Constify methods used by the formatting system](https://github.com/rust-lang/rust/pull/135139)
+* [`cg_llvm`: Use constants for DWARF opcodes, instead of FFI calls](https://github.com/rust-lang/rust/pull/135115)
+* [`rustc_intrinsic`: support functions without body](https://github.com/rust-lang/rust/pull/135031)
+* [add a notion of "some ABIs require certain target features"](https://github.com/rust-lang/rust/pull/134794)
+* [add suggestion for wrongly ordered format parameters](https://github.com/rust-lang/rust/pull/134877)
+* [add support for wasm exception handling to Emscripten target](https://github.com/rust-lang/rust/pull/131830)
+* [avoid use of LFS64 symbols on Emscripten](https://github.com/rust-lang/rust/pull/134080)
+* [borrowck diagnostics: make `add_move_error_suggestions` use the HIR rather than `SourceMap`](https://github.com/rust-lang/rust/pull/133486)
+* [const-in-pattern: test that the PartialEq impl does not need to be const](https://github.com/rust-lang/rust/pull/135064)
+* [deny usage of special FileCheck prefixes as revision names](https://github.com/rust-lang/rust/pull/134925)
+* [don't enable anyhow's `backtrace` feature in opt-dist](https://github.com/rust-lang/rust/pull/135146)
+* [don't ice on bad transmute in typeck in new solver](https://github.com/rust-lang/rust/pull/134744)
+* [fix ICE when opaque captures a duplicated/invalid lifetime](https://github.com/rust-lang/rust/pull/135000)
+* [force code generation in assembly generation smoke-tests](https://github.com/rust-lang/rust/pull/135088)
+* [improve diagnostics for `HostEffectPredicate` in the new solver](https://github.com/rust-lang/rust/pull/132345)
+* [improve infer (`_`) suggestions in `const`s and static`s`](https://github.com/rust-lang/rust/pull/135044)
+* [pass objcopy args for stripping on OSX](https://github.com/rust-lang/rust/pull/135034)
+* [pass the arch rather than full target name to `windows_registry::find_tool`](https://github.com/rust-lang/rust/pull/133955)
+* [project to `TyKind::Error` when there are unconstrained non-lifetime (ty/const) impl params](https://github.com/rust-lang/rust/pull/135057)
+* [provide structured suggestion for `impl Default` of type where all fields have defaults](https://github.com/rust-lang/rust/pull/134979)
+* [remove allowing `static_mut_refs` lint](https://github.com/rust-lang/rust/pull/131439)
+* [remove range-metadata amdgpu workaround](https://github.com/rust-lang/rust/pull/135027)
+* [report correct `SelectionError` for `ConstArgHasType` in new solver fulfill](https://github.com/rust-lang/rust/pull/134771)
+* [report impl method has stricter requirements even when RPITIT inference gets in the way](https://github.com/rust-lang/rust/pull/135055)
+* [some type-outlives computation tweaks](https://github.com/rust-lang/rust/pull/135007)
+* [suggest to replace tuple constructor through projection](https://github.com/rust-lang/rust/pull/135090)
+* [suppress host effect predicates if underlying trait doesn't hold](https://github.com/rust-lang/rust/pull/134951)
+* [switch rtems target to panic unwind](https://github.com/rust-lang/rust/pull/133420)
+* [taint fcx on selection errors during unsizing](https://github.com/rust-lang/rust/pull/135042)
+* [turn `rustc_box` into an intrinsic](https://github.com/rust-lang/rust/pull/135046)
+* [use `PostBorrowckAnalysis` in `check_coroutine_obligations`](https://github.com/rust-lang/rust/pull/134742)
+* [miri: concurrency: generalize UnblockCallback to MachineCallback](https://github.com/rust-lang/miri/pull/4106)
+* [library: fix adler{ → 2}.debug](https://github.com/rust-lang/rust/pull/135110)
+* [mark `slice::reverse` unstably const](https://github.com/rust-lang/rust/pull/135121)
+* [std: sync to dep versions of backtrace](https://github.com/rust-lang/rust/pull/135070)
+* [try to write the panic message with a single `write_all` call](https://github.com/rust-lang/rust/pull/122565)
+* [char `to_digit`: avoid unnecessary casts to u64](https://github.com/rust-lang/rust/pull/134969)
+* [core: implement `bool::select_unpredictable`](https://github.com/rust-lang/rust/pull/133964)
+* [do not in-place-iterate over flatmap/flatten](https://github.com/rust-lang/rust/pull/135104)
+* [cargo: fix `https::self_signed_should_fail` for macos](https://github.com/rust-lang/cargo/pull/15016)
+* [cargo: fix: env table config can't trigger rebuild with `rerun-if-env-changed`](https://github.com/rust-lang/cargo/pull/14756)
+* [rustdoc: fix mismatched capitalization in sidebar](https://github.com/rust-lang/rust/pull/135116)
+* [rustdoc: treat `allowed_through_unstable_modules` as deprecation](https://github.com/rust-lang/rust/pull/135043)
+* [clippy: `clippy::redundant_locals` is not a correctness lint](https://github.com/rust-lang/rust-clippy/pull/13747)
+* [clippy: `needless_continue`: lint if the last stmt in loop is `continue` recurisvely](https://github.com/rust-lang/rust-clippy/pull/13891)
+* [clippy: add lint for calling `Iterator::last()` on `DoubleEndedIterator`](https://github.com/rust-lang/rust-clippy/pull/13922)
+* [clippy: check if deref target implements `is_empty` for `len_zero` lint](https://github.com/rust-lang/rust-clippy/pull/13871)
+* [clippy: do not trigger `missing_const_for_fn` for tests](https://github.com/rust-lang/rust-clippy/pull/13945)
+* [clippy: improve `slow_vector_initialization` suggestion](https://github.com/rust-lang/rust-clippy/pull/13912)
+* [clippy: only emit `useless_vec` suggestion if the macro does not contain code comments](https://github.com/rust-lang/rust-clippy/pull/13911)
+* [rust-analyzer: allow targetDir to be an absolute path](https://github.com/rust-lang/rust-analyzer/pull/18822)
+* [rust-analyzer: disable `rustc_test` metrics again](https://github.com/rust-lang/rust-analyzer/pull/18829)
+* [rust-analyzer: allow excluding specific traits from completion](https://github.com/rust-lang/rust-analyzer/pull/18179)
+* [rust-analyzer: support the new `CoercePointee` derive](https://github.com/rust-lang/rust-analyzer/pull/18821)
+* [rust-analyzer: support updating snapshot tests with codelens/hovering/runnables](https://github.com/rust-lang/rust-analyzer/pull/18757)
+* [rust-analyzer: fix case where completion inside macro that expands to `#[test]` was unavailable](https://github.com/rust-lang/rust-analyzer/pull/18853)
+* [rust-analyzer: fix metrics workflow](https://github.com/rust-lang/rust-analyzer/pull/18831)
+* [rust-analyzer: fix no space insert before and after if value is only spaces](https://github.com/rust-lang/rust-analyzer/pull/18820)
+* [rust-analyzer: be more permissive with completion resolve data](https://github.com/rust-lang/rust-analyzer/pull/18836)
+* [rust-analyzer: clear diagnostics on cancel unconditionally](https://github.com/rust-lang/rust-analyzer/pull/18858)
+* [rust-analyzer: clear flycheck diagnostics per package properly](https://github.com/rust-lang/rust-analyzer/pull/18826)
+* [rust-analyzer: deduplicate crate graph](https://github.com/rust-lang/rust-analyzer/pull/18806)
+* [rust-analyzer: fix a bug that was caused by fixup reversing](https://github.com/rust-lang/rust-analyzer/pull/18852)
+* [rust-analyzer: fix flycheck cancellations leaving stale errors](https://github.com/rust-lang/rust-analyzer/pull/18817)
+* [rust-analyzer: fix flycheck getting confused which package to check](https://github.com/rust-lang/rust-analyzer/pull/18845)
+* [rust-analyzer: fix non-cargo flychecks immediately clearing received diagnostics](https://github.com/rust-lang/rust-analyzer/pull/18848)
+* [rust-analyzer: fix overflow detection in MIR evaluation](https://github.com/rust-lang/rust-analyzer/pull/18819)
+* [rust-analyzer: fix relative .cargo env vars not working](https://github.com/rust-lang/rust-analyzer/pull/18841)
+* [rust-analyzer: handle newstyle `rustc_intrinsic` safety correctly](https://github.com/rust-lang/rust-analyzer/pull/18843)
+* [rust-analyzer: hide synthetic locals from completions](https://github.com/rust-lang/rust-analyzer/pull/18835)
+* [rust-analyzer: store token trees in contiguous `Vec` instead of as a tree](https://github.com/rust-lang/rust-analyzer/pull/18327)
 
 ### Rust Compiler Performance Triage
 
@@ -307,7 +389,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Also, there is often a trade-off between accuracy and education. For example, when I correct my toddler that the Sun is actually not moving, but we are rotating. That's wrong, the Sun *is* moving, but arguably less wrong than his impression. (I once tried to give him the full explanation, but halfway through he ran away to play with his trains.)
+>
+> Not that readers of the Rust book are toddlers, but the principle generalizes in my experience.
+
+– [Andrew Gallant a.k.a. @BurntSushi on rust-users](https://users.rust-lang.org/t/why-do-some-people-confound-t-with-stack-memory/123336/8)
+
+Thanks to [Aleksander Krauze](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1648) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
