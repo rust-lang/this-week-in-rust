@@ -36,14 +36,26 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-gcc December 2024 Monthly report](https://rust-gcc.github.io/2025/01/07/2024-12-monthly-report.html)
+* [Helix Release 25.01 Highlights](https://helix-editor.com/news/release-25-01-highlights/)
 
 ### Observations/Thoughts
+* [Great things about Rust that aren't just performance](https://ntietz.com/blog/great-things-about-rust-beyond-perf/)
+* [Bevy Efficiency on Mobile](https://rustunit.com/blog/2025/01-02-bevy-mobile-framerate/)
+* [Why nextest is process-per-test](https://sunshowers.io/posts/nextest-process-per-test/)
+* [From Go to Rust 1: async Dispatch](https://medium.com/rustaceans/from-go-to-rust-1-async-dispatch-866e042cd98a)
+* [This Month in @compiler-errors (rustc contributions)](https://hackmd.io/@compiler-errors/errs-december-2024)
+* [Building functional safety at speed with Rust](https://www.sonair.com/journal/building-for-safety-with-rust)
+* [You do not need multithreading to do more than one thing at a time](https://sander.saares.eu/2024/12/31/you-do-not-need-multithreading-to-do-more-than-one-thing-at-a-time/)
 
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+* [Bevy at RustWeek 2025: come hack with us!](https://bevyengine.org/news/bevy-at-rust-week/)
+* [My failed attempt at AGI on the Tokio Runtime](https://www.christo.sh/building-agi-on-the-tokio-runtime/)
+* [The JIT calculator challenge](https://ochagavia.nl/blog/the-jit-calculator-challenge/)
 
 ## Crate of the Week
 
