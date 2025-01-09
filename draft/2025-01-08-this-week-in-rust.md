@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 * [Great things about Rust that aren't just performance](https://ntietz.com/blog/great-things-about-rust-beyond-perf/)
+* [Rust In Space! How Rust is Powering Next-Generation Space Mission Simulators](https://www.howtocodeit.com/articles/rust-in-space)
 * [Bevy Efficiency on Mobile](https://rustunit.com/blog/2025/01-02-bevy-mobile-framerate/)
 * [Why nextest is process-per-test](https://sunshowers.io/posts/nextest-process-per-test/)
 * [From Go to Rust 1: async Dispatch](https://medium.com/rustaceans/from-go-to-rust-1-async-dispatch-866e042cd98a)
@@ -51,6 +52,8 @@ and just ask the editors to select the category.
 * [A journey into File Transfer Protocols in Rust](https://blog.veeso.dev/blog/en/a-journey-into-file-transfer-protocols-in-rust/)
 
 ### Rust Walkthroughs
+* [Master Hexagonal Architecture in Rust Part IV: Trade-Offs of Hexagonal Architecture](https://www.howtocodeit.com/articles/master-hexagonal-architecture-rust#trade-offs-of-hexagonal-architecture-in-rust)
+* [The Definitive Guide to Error Handling in Rust Part III: Structured Error Handling](https://www.howtocodeit.com/articles/the-definitive-guide-to-rust-error-handling#structured-error-handling-in-rust)
 
 ### Research
 
