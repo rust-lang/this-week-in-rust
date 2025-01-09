@@ -38,9 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
-[
-Floating point to hex converter – now supports 16-bit floats, plus I rewrote it in Rust and WebAssembly!
-](https://gregstoll.wordpress.com/2025/01/08/floating-point-to-hex-converter-now-supports-16-bit-floats-plus-i-rewrote-it-in-rust-and-webassembly/)
+[Floating point to hex converter – supports 16-bit floats, in Rust and WebAssembly!](https://gregstoll.wordpress.com/2025/01/08/floating-point-to-hex-converter-now-supports-16-bit-floats-plus-i-rewrote-it-in-rust-and-webassembly/)
 
 ### Rust Walkthroughs
 
