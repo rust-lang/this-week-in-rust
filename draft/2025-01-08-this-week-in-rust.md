@@ -60,6 +60,8 @@ and just ask the editors to select the category.
 * [My failed attempt at AGI on the Tokio Runtime](https://www.christo.sh/building-agi-on-the-tokio-runtime/)
 * [The JIT calculator challenge](https://ochagavia.nl/blog/the-jit-calculator-challenge/)
 
+* [Gameboy on your terminal written in Rust](https://github.com/raphamorim/gameboy)
+
 ## Crate of the Week
 
 This week's crate is [terminal-colorsaurus](https://crates.io/crates/terminal-colorsaurus), a small library to detect whether the terminal is in light or dark mode.
