@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 * [Building functional safety at speed with Rust](https://www.sonair.com/journal/building-for-safety-with-rust)
 * [You do not need multithreading to do more than one thing at a time](https://sander.saares.eu/2024/12/31/you-do-not-need-multithreading-to-do-more-than-one-thing-at-a-time/)
 
+* [A journey into File Transfer Protocols in Rust](https://blog.veeso.dev/blog/en/a-journey-into-file-transfer-protocols-in-rust/)
+
 ### Rust Walkthroughs
 
 ### Research
