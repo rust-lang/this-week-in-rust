@@ -218,6 +218,8 @@ Rusty Events between 2025-01-08 - 2025-02-05 🦀
     * [**Why Build a New Browser Engine in Rust?**](https://www.meetup.com/barcelona-free-software/events/305179554)
 * 2025-01-28 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/events/)
     * [**Hack Night - Advent of Code**](https://www.meetup.com/rust-aarhus/events/304487851)
+* 2025-01-30 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
+    * [**Rust Meetup #11: Hypermedia-driven development in Rust**](https://rust-augsburg.github.io/meetup/Meetup_11.html)
 
 ### North America
 * 2025-01-08 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/events/)
