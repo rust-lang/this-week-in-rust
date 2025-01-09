@@ -199,7 +199,7 @@ Rusty Events between 2025-01-08 - 2025-02-05 🦀
     * [**Leptos**](https://www.meetup.com/vancouver-rust/events/304051782)
 * 2025-01-16 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust Hack and Learn**](https://berline.rs/2024/12/19/rust-hack-and-learn.html) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298633278/)
-* 2025-01-16 | Virtual and In-Person (Seattle, WA, US)| [Seattle Rust User Group](https://www.meetup.com/join-srug/events)
+* 2025-01-16 | Virtual and In-Person (Seattle, WA, US) | [Seattle Rust User Group](https://www.meetup.com/join-srug/events)
     * [**January Meetup**](https://www.meetup.com/join-srug/events/305505409/)
 * 2025-01-21 | Virtual (Tel Aviv-Yafo, IL) | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
     * [**Exploring Rust Enums with Yoni Peleg (Virtual, Hebrew)**](https://www.meetup.com/rust-tlv/events/305110744)
