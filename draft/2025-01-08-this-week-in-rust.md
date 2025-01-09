@@ -64,6 +64,7 @@ and just ask the editors to select the category.
 * [My failed attempt at AGI on the Tokio Runtime](https://www.christo.sh/building-agi-on-the-tokio-runtime/)
 * [The JIT calculator challenge](https://ochagavia.nl/blog/the-jit-calculator-challenge/)
 * [Gameboy on your terminal written in Rust](https://github.com/raphamorim/gameboy)
+* [video] [BlockMesh Network - a full-stack open source project in Rust with Ohad Dahan](https://www.youtube.com/watch?v=4J8jxLnWmGs)
 
 ## Crate of the Week
 
