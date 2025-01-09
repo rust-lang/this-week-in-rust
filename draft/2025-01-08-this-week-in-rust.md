@@ -48,7 +48,6 @@ and just ask the editors to select the category.
 * [This Month in @compiler-errors (rustc contributions)](https://hackmd.io/@compiler-errors/errs-december-2024)
 * [Building functional safety at speed with Rust](https://www.sonair.com/journal/building-for-safety-with-rust)
 * [You do not need multithreading to do more than one thing at a time](https://sander.saares.eu/2024/12/31/you-do-not-need-multithreading-to-do-more-than-one-thing-at-a-time/)
-
 * [A journey into File Transfer Protocols in Rust](https://blog.veeso.dev/blog/en/a-journey-into-file-transfer-protocols-in-rust/)
 
 ### Rust Walkthroughs
@@ -56,10 +55,10 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [video] [Tue Henriksen on Rust in Embedded Systems, Misconceptions, & Building Community](https://www.youtube.com/watch?v=qt7ZLYnlBzk)
 * [Bevy at RustWeek 2025: come hack with us!](https://bevyengine.org/news/bevy-at-rust-week/)
 * [My failed attempt at AGI on the Tokio Runtime](https://www.christo.sh/building-agi-on-the-tokio-runtime/)
 * [The JIT calculator challenge](https://ochagavia.nl/blog/the-jit-calculator-challenge/)
-
 * [Gameboy on your terminal written in Rust](https://github.com/raphamorim/gameboy)
 
 ## Crate of the Week
