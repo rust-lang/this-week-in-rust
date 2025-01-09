@@ -394,7 +394,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1huu9wl/hey_rustaceans_got_a_question_ask_here_22025/)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1h2zwpx/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
