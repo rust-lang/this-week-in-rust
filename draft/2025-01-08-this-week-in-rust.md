@@ -29,10 +29,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
 ### Newsletters
 * [The Embedded Rustacean Issue #36](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-36)
 
@@ -55,8 +51,6 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Master Hexagonal Architecture in Rust Part IV: Trade-Offs of Hexagonal Architecture](https://www.howtocodeit.com/articles/master-hexagonal-architecture-rust#trade-offs-of-hexagonal-architecture-in-rust)
 * [The Definitive Guide to Error Handling in Rust Part III: Structured Error Handling](https://www.howtocodeit.com/articles/the-definitive-guide-to-rust-error-handling#structured-error-handling-in-rust)
-
-### Research
 
 ### Miscellaneous
 * [video] [Tue Henriksen on Rust in Embedded Systems, Misconceptions, & Building Community](https://www.youtube.com/watch?v=qt7ZLYnlBzk)
@@ -90,16 +84,6 @@ RFCs would benefit from user testing before moving forward:
 
 ### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
 * *No calls for testing were issued this week.*
-
-If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
-label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
-need testing.
-
-### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
-
-### [Rust](https://github.com/rust-lang/rust/labels/call-for-testing)
-
-### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
@@ -410,7 +394,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1huu9wl/hey_rustaceans_got_a_question_ask_here_22025/)
 
 # Quote of the Week
 
@@ -428,4 +412,4 @@ Thanks to [Aleksander Krauze](https://users.rust-lang.org/t/twir-quote-of-the-we
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1hx6z9b/this_week_in_rust_581/)</small>
