@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 * [Building functional safety at speed with Rust](https://www.sonair.com/journal/building-for-safety-with-rust)
 * [You do not need multithreading to do more than one thing at a time](https://sander.saares.eu/2024/12/31/you-do-not-need-multithreading-to-do-more-than-one-thing-at-a-time/)
 * [A journey into File Transfer Protocols in Rust](https://blog.veeso.dev/blog/en/a-journey-into-file-transfer-protocols-in-rust/)
+* [Floating point to hex converter – supports 16-bit floats, in Rust and WebAssembly!](https://gregstoll.wordpress.com/2025/01/08/floating-point-to-hex-converter-now-supports-16-bit-floats-plus-i-rewrote-it-in-rust-and-webassembly/)
 
 ### Rust Walkthroughs
 * [Master Hexagonal Architecture in Rust Part IV: Trade-Offs of Hexagonal Architecture](https://www.howtocodeit.com/articles/master-hexagonal-architecture-rust#trade-offs-of-hexagonal-architecture-in-rust)
