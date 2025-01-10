@@ -7,14 +7,30 @@ The maintainer of the Events section is faced with manual work; this process aut
 - For specific module requirements: `pip install -r requirements.txt`
 - See https://geopy.readthedocs.io/en/stable/# for `geopy` module documentation.
 
+### Setup the virutal environment:
+
+```bash
+python3 -m venv events-venv && source events-venv/bin/activate
+pip install -r requirements.txt
+```
+
+### Setup your environment variables:
+
+```bash
+export MEETUP_PRIVATE_KEY="<path to local RSA OAuth pem private key>"
+# e.g. export MEETUP_PRIVATE_KEY="$HOME/.ssh/meetup_signing_key.pem"
+export MEETUP_AUTHORIZED_MEMBER_ID="<ID of the member who created Meetup OAuth client>"
+export MEETUP_CLIENT_KEY="<OAuth token ID>"
+```
+
 ### Running:
 Before running please check that all Event Source module function calls are included in `event_list` (function calls should concatenate into a single list of event objects).
 
 To run this code:
 
 ```py
-pip install -r requirements.txt
-python3 main.py
+python3 main.py -g <location of meetups JSON input list>
+# e.g. python3 main.py -g ../events/meetups.json
 ```
 
 ### How to Add a New Event Source Module:
