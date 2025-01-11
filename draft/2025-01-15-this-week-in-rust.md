@@ -94,6 +94,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [rama - support X-Robots-Tag as a typed http header XRobotsTag](https://github.com/plabayo/rama/issues/382)
 * [rama - see if improvements can/have-to be made to rama's http open telemetry layer support](https://github.com/plabayo/rama/issues/383)
 * [rama – Decouple TransportContext from ProxyDB](https://github.com/plabayo/rama/issues/387)
+* [rama – add rama to TechEmpower's FrameworkBenchmark](https://github.com/plabayo/rama/issues/389)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
