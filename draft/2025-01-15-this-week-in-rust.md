@@ -91,9 +91,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
-* [rama - support X-Robots-Tag as a typed http header XRobotsTag](https://github.com/plabayo/rama/issues/382)
 * [rama - see if improvements can/have-to be made to rama's http open telemetry layer support](https://github.com/plabayo/rama/issues/383)
-* [rama – Decouple TransportContext from ProxyDB](https://github.com/plabayo/rama/issues/387)
 * [rama – add rama to TechEmpower's FrameworkBenchmark](https://github.com/plabayo/rama/issues/389)
 * [rama – add rama server benchmark to sharkbench](https://github.com/plabayo/rama/issues/390)
 
