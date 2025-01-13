@@ -200,6 +200,8 @@ Rusty Events between 2025-01-15 - 2025-02-12 🦀
     * [**Quantum Computers Can’t Rust-Proof This!**](https://www.meetup.com/charlottesville-rust-meetup/events/305391474)
 * 2025-01-30 | Virtual (Tel Aviv-Yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/events/)
     * [**Are We Embedded Yet? - Implementing tiny HTTP server on a microcontroller**](https://www.meetup.com/code-mavens/events/305382647)
+* 2025-01-30 – 2025-02-21 | Virtual | [Mainmatter Rust Workshop](https://ti.to/mainmatter/)
+    * [**Remote Workshop: Learn Rust, starting from scratch**](https://ti.to/mainmatter/rust-from-scratch-jan-2025)
 * 2025-02-04 | Virtual (Buffalo, NY, US) | [Buffalo Rust Meetup](https://www.meetup.com/buffalo-rust-meetup/events/)
     * [**Buffalo Rust User Group**](https://www.meetup.com/buffalo-rust-meetup/events/305304216)
 
