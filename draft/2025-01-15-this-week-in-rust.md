@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [video] [CppCon - C++/Rust Interop: Using Bridges in Practice](https://tylerjw.dev/posts/20240920-cppcon-cpp-rust-interop/)
 
 * [Creating an embedded device driver in Rust](https://blog.mjolner.tech/device-driver-rust/)
 
