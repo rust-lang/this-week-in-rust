@@ -41,7 +41,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
-[Const Evaluation in Rust For Hex Strings Validation](https://asyncmove.com/blog/2025/01/compile-time-hex-string-validation-in-rust-using-const-evaluation/)
+* [Const Evaluation in Rust For Hex Strings Validation](https://asyncmove.com/blog/2025/01/compile-time-hex-string-validation-in-rust-using-const-evaluation/)
 
 ### Research
 
