@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 * [Creating an embedded device driver in Rust](https://blog.mjolner.tech/device-driver-rust/)
 
+* [Const Evaluation in Rust For Hex Strings Validation](https://asyncmove.com/blog/2025/01/compile-time-hex-string-validation-in-rust-using-const-evaluation/)
+
 ### Research
 
 ### Miscellaneous
