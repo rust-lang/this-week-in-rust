@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [December 2024 Rust Jobs Report](https://filtra.io/rust/jobs-report/dec-24)
 
 * [Nand2Tetris - Project 7 (VM Translator Part 1)](https://gurudas.dev/blog/2025/01/01/nand-to-tetris-2024-project-7/)
 
