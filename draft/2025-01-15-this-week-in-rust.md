@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Creating an embedded device driver in Rust](https://blog.mjolner.tech/device-driver-rust/)
+
 ### Research
 
 ### Miscellaneous
