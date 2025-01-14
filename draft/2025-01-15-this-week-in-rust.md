@@ -37,7 +37,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-- [Context-Generic Programming Updates: v0.3.0 Release and New Chapters](https://contextgeneric.dev/blog/v0-3-0-release/)
+* [Context-Generic Programming Updates: v0.3.0 Release and New Chapters](https://contextgeneric.dev/blog/v0-3-0-release/)
 
 ### Observations/Thoughts
 
