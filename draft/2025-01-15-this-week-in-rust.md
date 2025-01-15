@@ -379,7 +379,7 @@ Rusty Events between 2025-01-15 - 2025-02-12 🦀
 * 2025-01-21 | Leipzig, SN, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/)
     * [**Self-Organized Peer-to-Peer Networks using Rust**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/303604074)
 * 2025-01-22 | London, GB | [Rust London User Group](https://www.meetup.com/rust-london-user-group/events/)
-    * [**Rust London's New Years Party & Community Swag Drop **](https://www.meetup.com/rust-london-user-group/events/305588703)
+    * [**Rust London's New Years Party & Community Swag Drop**](https://www.meetup.com/rust-london-user-group/events/305588703)
 * 2025-01-22 | Oberursel, DE | [Rust Rhein Main](https://www.meetup.com/rust-rhein-main)
     * [**Rust 2024 Edition and Beyond**](https://www.meetup.com/rust-rhein-main/events/305330873)
 * 2025-01-23 | Barcelona, ES | [Barcelona Free Software](https://www.meetup.com/barcelona-free-software/events/)
