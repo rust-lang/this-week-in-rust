@@ -2,12 +2,12 @@ name: Correctness Checks
 on: [push, pull_request]
 jobs:
   Run-Markdown-Checks:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Install Python dependencies
-        uses: py-actions/py-dependency-install@v3
+        uses: py-actions/py-dependency-install@v4
         with:
           path: "tools/requirements.txt"
           update-pip: "false"
