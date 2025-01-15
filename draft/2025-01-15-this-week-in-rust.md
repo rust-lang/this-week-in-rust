@@ -235,7 +235,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A quiet week with little change to the actual compiler performance. The biggest compiler regression was quickly recognized and reverted. 
+
+Triage done by **@rylev**.
+Revision range: [0f1e965f..1ab85fbd](https://perf.rust-lang.org/?start=0f1e965fec3bc2f97b932e9dd8e85fca6d7faadc&end=1ab85fbd7474e8ce84d5283548f21472860de3e2&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean   | range           | count |
+|:----------------------------------:|:------:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.4%   | [0.1%, 1.8%]    | 21    |
+| Regressions ❌ <br /> (secondary)  | 0.5%   | [0.0%, 2.0%]    | 35    |
+| Improvements ✅ <br /> (primary)   | -0.8%  | [-2.7%, -0.3%]  | 6     |
+| Improvements ✅ <br /> (secondary) | -10.2% | [-27.8%, -0.1%] | 13    |
+| All ❌✅ (primary)                 | 0.2%   | [-2.7%, 1.8%]   | 27    |
+
+
+4 Regressions, 3 Improvements, 3 Mixed; 3 of them in rollups
+44 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/194b9b1c83f638475d35b5bc27c9617ec3725941/triage/2025-01-14.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
