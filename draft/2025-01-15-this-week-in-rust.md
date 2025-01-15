@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 * [Rust Trends Issue #57](https://rust-trends.com/newsletter/start-2025-with-rust-honeypots-free-cloud-deployments-and-software-reliability/)
 
 ### Project/Tooling Updates
+* [cargo.nvim - A Neovim plugin for Rust's Cargo commands](https://github.com/nwiizo/cargo.nvim)  
+  A plugin that enables seamless integration with Cargo commands in Neovim, providing a floating window interface for executing Cargo operations directly from your editor.
 
 ### Observations/Thoughts
 
