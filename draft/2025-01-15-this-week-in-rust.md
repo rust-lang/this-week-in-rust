@@ -52,7 +52,6 @@ and just ask the editors to select the category.
 * [audio] [Brave with Anton Lazarev](https://corrode.dev/podcast/s03e07-brave/)
 * [audio] [Lychee with Matthias Endler](https://rustacean-station.org/episode/matthias-endler/)
 
-
 ### Rust Walkthroughs
 * [Creating an embedded device driver in Rust](https://blog.mjolner.tech/device-driver-rust/)
 * [Const Evaluation in Rust For Hex Strings Validation](https://asyncmove.com/blog/2025/01/compile-time-hex-string-validation-in-rust-using-const-evaluation/)
@@ -60,8 +59,6 @@ and just ask the editors to select the category.
 * [video] [Intro to Embassy: embedded development with async Rust](https://www.youtube.com/watch?v=pDd5mXBF4tY)
 * [video] [Comprehending Proc Macros](https://www.youtube.com/watch?v=SMCRQj9Hbx8)
 * [video] [CppCon - C++/Rust Interop: Using Bridges in Practice](https://tylerjw.dev/posts/20240920-cppcon-cpp-rust-interop/)
-
-### Research
 
 ### Miscellaneous
 * [December 2024 Rust Jobs Report](https://filtra.io/rust/jobs-report/dec-24)
@@ -374,7 +371,6 @@ Rusty Events between 2025-01-15 - 2025-02-12 🦀
 * 2025-02-11 | Virtual (Tel Aviv-Yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/events/)
     * [**Meet Elusion: New DataFrame Library powered by Rust 🦀 with Borivoj Grujicic**](https://www.meetup.com/code-mavens/events/305513416)
 
-
 ### Europe
 * 2025-01-16 | Amsterdam, NL | [Rust Developers Amsterdam Group](https://www.meetup.com/rust-amsterdam-group/events/)
     * [**Meetup @ Avalor AI**](https://www.meetup.com/rust-amsterdam-group/events/305339712)
@@ -463,7 +459,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1hynsw7/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -479,4 +475,4 @@ Thanks to [Christoph Grenz](https://users.rust-lang.org/t/twir-quote-of-the-week
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1i2e9mn/this_week_in_rust_582/)</small>
