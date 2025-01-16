@@ -39,27 +39,21 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [cargo.nvim - A Neovim plugin for Rust's Cargo commands](https://github.com/nwiizo/cargo.nvim)  
   A plugin that enables seamless integration with Cargo commands in Neovim, providing a floating window interface for executing Cargo operations directly from your editor.
-
 * [Context-Generic Programming Updates: v0.3.0 Release and New Chapters](https://contextgeneric.dev/blog/v0-3-0-release/)
 
 ### Observations/Thoughts
-
 * [Async Rust is about concurrency, not (just) performance](https://kobzol.github.io/rust/2025/01/15/async-rust-is-about-concurrency.html)
 
 ### Rust Walkthroughs
-* [video] [CppCon - C++/Rust Interop: Using Bridges in Practice](https://tylerjw.dev/posts/20240920-cppcon-cpp-rust-interop/)
-
 * [Creating an embedded device driver in Rust](https://blog.mjolner.tech/device-driver-rust/)
-
 * [Const Evaluation in Rust For Hex Strings Validation](https://asyncmove.com/blog/2025/01/compile-time-hex-string-validation-in-rust-using-const-evaluation/)
-
 * [Concurrent and parallel future execution in Rust](https://heikoseeberger.de/2025-01-15-concurrent-parallel-futures/)
+* [video] [CppCon - C++/Rust Interop: Using Bridges in Practice](https://tylerjw.dev/posts/20240920-cppcon-cpp-rust-interop/)
 
 ### Research
 
 ### Miscellaneous
 * [December 2024 Rust Jobs Report](https://filtra.io/rust/jobs-report/dec-24)
-
 * [Nand2Tetris - Project 7 (VM Translator Part 1)](https://gurudas.dev/blog/2025/01/01/nand-to-tetris-2024-project-7/)
 
 ## Crate of the Week
