@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+[Investigating a strange Out-of-Memory error]([https://example.com/my_article](https://www.qovery.com/blog/rust-investigating-a-strange-out-of-memory-error/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
