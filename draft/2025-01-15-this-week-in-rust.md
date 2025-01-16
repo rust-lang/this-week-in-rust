@@ -61,8 +61,6 @@ and just ask the editors to select the category.
 * [video] [Comprehending Proc Macros](https://www.youtube.com/watch?v=SMCRQj9Hbx8)
 * [video] [CppCon - C++/Rust Interop: Using Bridges in Practice](https://tylerjw.dev/posts/20240920-cppcon-cpp-rust-interop/)
 
-### Research
-
 ### Miscellaneous
 * [December 2024 Rust Jobs Report](https://filtra.io/rust/jobs-report/dec-24)
 * [Tracing Large Memory Allocations in Rust with BPFtrace](https://readyset.io/blog/tracing-large-memory-allocations-in-rust-with-bpftrace)
