@@ -133,7 +133,7 @@ Are you a new or experienced speaker looking for a place to share something cool
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
-* [**Rust Week (Rust NL)**](https://www.papercall.io/rust-week) | Closes on 2024-01-19 | Utrecht, NL | Event on 2025-05-13 & 2025-05-14
+* [**Rust Week (Rust NL)**](https://www.papercall.io/rust-week) | Closes on 2025-01-19 | Utrecht, NL | Event on 2025-05-13 & 2025-05-14
 * [**Rust Summit**](https://docs.google.com/forms/d/e/1FAIpQLSf_O5ISyLQm_DL5_pEcMkc6AWMp7t4YufO-7kwUQTGQ5MW4dw/viewform) | Rolling deadline | Belgrade, RS | Event on 2025-06-07
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
