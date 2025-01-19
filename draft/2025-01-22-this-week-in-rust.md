@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Path canonicalization is unergonomic](https://tesujimath.org/path-canonicalization-is-unergonomic/)
+
 ### Rust Walkthroughs
 
 ### Research
