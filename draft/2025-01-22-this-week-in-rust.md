@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [getifs 0.2 - Cross-platform network tools in Rust](https://crates.io/crates/getifs)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
