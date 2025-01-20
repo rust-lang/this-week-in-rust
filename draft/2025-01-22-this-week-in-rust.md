@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Introducing RealtimeSanitizer for Rust](https://steck.tech/posts/rtsan-in-rust/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
