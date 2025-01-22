@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[musi lili retro game engine 0.2 realesed](https://crates.io/crates/musi_lili)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
