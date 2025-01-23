@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [gitoxide - January 2025](https://github.com/GitoxideLabs/gitoxide/discussions/1791)
+* [musi lili 0.2 released](https://codeberg.org/vivi-ui/lili/src/branch/main/CHANGELOG.md#0-2)
 
 ### Observations/Thoughts
 * [Comparing Rust Actor Libraries: Actix, Coerce, Kameo, Ractor, and Xtra](https://theari.dev/blog/comparing-rust-actor-libraries/)
