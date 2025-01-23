@@ -54,6 +54,8 @@ and just ask the editors to select the category.
 * [Type Inference in Rust and C++](https://herecomesthemoon.net/2025/01/type-inference-in-rust-and-cpp/)
 * [video] [Rust is not Complicated - An architects perspective](https://www.youtube.com/watch?v=bYKPKBPo7EY)
 
+* [Comparing 13 Crates for Extracting Text from HTML](https://emschwartz.me/comparing-13-rust-crates-for-extracting-text-from-html/)
+
 ### Rust Walkthroughs
 * [Adding A New Fake To The Fake Crate](https://xd009642.github.io/2025/01/15/adding-a-new-fake-to-the-fake-crate.html)
 * [Streaming Audio Apis: The Axum Server](https://xd009642.github.io/2025/01/20/streaming-audio-APIs-the-axum-server.html)
