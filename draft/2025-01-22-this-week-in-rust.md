@@ -229,7 +229,15 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A very quiet week for performance, with small improvements essentially on all benchmarks.
+
+Triage done by **@simulacrum**.
+Revision range: [1ab85fbd..9a1d156f](https://perf.rust-lang.org/?start=1ab85fbd7474e8ce84d5283548f21472860de3e2&end=9a1d156f38c51441ee51e5a068f1d0caf4bb0f27&absolute=false&stat=instructions%3Au)
+
+0 Regression, 1 Improvement, 2 Mixed; 0 of them in rollups
+40 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2025-01-20.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
