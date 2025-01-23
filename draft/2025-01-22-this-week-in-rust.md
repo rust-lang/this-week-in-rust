@@ -37,7 +37,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [Release 0.6.0 of Pigg](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.6.0) - the GUI for remote control of Pi and Pi Pico GPIO - with USB, Pi Pico and device discovery
+* [Release 0.6.0 of Pigg](https://github.com/andrewdavidmackenzie/pigg/releases/tag/0.6.0) - the GUI for remote control of Pi and Pi Pico GPIO
 
 ### Observations/Thoughts
 
