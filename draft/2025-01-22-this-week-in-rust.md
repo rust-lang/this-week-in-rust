@@ -111,6 +111,13 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
+* [rama - first version of rama-unix](https://github.com/plabayo/rama/issues/370)
+* [rama - add web Router service to rama-http](https://github.com/plabayo/rama/issues/396)
+* [rama - add full-stack rama benchmarks](https://github.com/plabayo/rama/issues/374)
+* [rama - add rama to "the-benchmarker"](https://github.com/plabayo/rama/issues/398)
+* [rama - add rama server benchmark to sharkbench](https://github.com/plabayo/rama/issues/390)
+* [rama - add rama to TechEmpower's FrameworkBenchmark](https://github.com/plabayo/rama/issues/389)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 [guidelines]:https://github.com/rust-lang/this-week-in-rust?tab=readme-ov-file#call-for-participation-guidelines
