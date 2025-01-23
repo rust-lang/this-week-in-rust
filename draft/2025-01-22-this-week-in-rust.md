@@ -57,6 +57,7 @@ and just ask the editors to select the category.
 * [Path canonicalization is unergonomic](https://tesujimath.org/path-canonicalization-is-unergonomic/)
 
 ### Rust Walkthroughs
+* [A Gentle Introduction to WebAssembly in Rust (2025 Edition)](https://dev.to/marktolmacs/a-gentle-introduction-to-webassembly-in-rust-2025-edition-1iac)
 * [Adding A New Fake To The Fake Crate](https://xd009642.github.io/2025/01/15/adding-a-new-fake-to-the-fake-crate.html)
 * [Streaming Audio Apis: The Axum Server](https://xd009642.github.io/2025/01/20/streaming-audio-APIs-the-axum-server.html)
 * [Prototyping in Rust](https://corrode.dev/blog/prototyping/)
