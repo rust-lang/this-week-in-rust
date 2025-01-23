@@ -82,6 +82,18 @@ class Event:
     self.name = self.name.strip()
     self.organizer_name = self.organizer_name.strip()
 
+  def to_dict(self) -> dict:
+    """ Method for serializing to a dict which can be further serialized to json """
+    return {
+      "name": self.name,
+      "location": self.location.to_str(),
+      "date": self.date.strftime("%Y-%m-%d"),
+      "url": self.url,
+      "virtual": self.virtual,
+      "organizer_name": self.organizer_name,
+      "organizer_url": self.organizer_url
+    }
+
   def to_markdown_string(self) -> str:
     location = f"Virtual ({self.location.to_str()})" if self.virtual else self.location.to_str()
 
