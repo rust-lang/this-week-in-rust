@@ -30,20 +30,45 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [This Development-cycle in Cargo: 1.85](https://blog.rust-lang.org/inside-rust/2025/01/17/this-development-cycle-in-cargo-1.85.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [gitoxide - January 2025](https://github.com/GitoxideLabs/gitoxide/discussions/1791)
 
 ### Observations/Thoughts
+* [Comparing Rust Actor Libraries: Actix, Coerce, Kameo, Ractor, and Xtra](https://theari.dev/blog/comparing-rust-actor-libraries/)
+* [Improve Rust Compile Time by 108X](https://burn.dev/blog/improve-rust-compile-time-by-108x)
+* [Branchless UTF-8 Encoding](https://cceckman.com/writing/branchless-utf8-encoding/)
+* [The hunt for error -22](https://tweedegolf.nl/en/blog/145/the-hunt-for-error--22)
+* [Automatic Server Reloading in Rust on Change: What is listenfd/systemfd?](https://lucumr.pocoo.org/2025/1/19/what-is-systemfd/)
+* [Investigating a Strange Out-of-Memory Error](https://www.qovery.com/blog/rust-investigating-a-strange-out-of-memory-error/)
+* [Comparing 13 Rust Crates for Extracting Text from HTML](https://emschwartz.me/comparing-13-rust-crates-for-extracting-text-from-html/)
+* [Typesafe Frontend Routing in Rust/Leptos](https://dnaaun.github.io/posts/typesafe-routing-in-rust-leptos/)
+* [Interview with passionate Rust Developer Radu Marias](https://blog.rust.careers/post/radu_interview/)
+* [Introducing RealtimeSanitizer for Rust](https://steck.tech/posts/rtsan-in-rust/)
+* [The HARM Stack (HTMX, Axum/AlpineJS, Rust, Maud) Considered Unharmful](https://nguyenhuythanh.com/posts/the-harm-stack-considered-unharmful/)
+* [Type Inference in Rust and C++](https://herecomesthemoon.net/2025/01/type-inference-in-rust-and-cpp/)
+* [video] [Rust is not Complicated - An architects perspective](https://www.youtube.com/watch?v=bYKPKBPo7EY)
 
 ### Rust Walkthroughs
+* [Adding A New Fake To The Fake Crate](https://xd009642.github.io/2025/01/15/adding-a-new-fake-to-the-fake-crate.html)
+* [Streaming Audio Apis: The Axum Server](https://xd009642.github.io/2025/01/20/streaming-audio-APIs-the-axum-server.html)
+* [Prototyping in Rust](https://corrode.dev/blog/prototyping/)
 
 ### Research
 
 ### Miscellaneous
+* [2024 in review - seanmonstar](https://seanmonstar.com/blog/2024-in-review/)
+* ["We never update unless forced to" — cargo-semver-checks 2024 Year in Review](https://predr.ag/blog/cargo-semver-checks-2024-year-in-review/)
+* [Year in review: 2024 highlights and a peek at 2025](https://graphite.rs/blog/year-in-review-2024-highlights-and-a-peek-at-2025)
+* [Why Rust is not a functional language](https://serokell.io/blog/rust-is-not-a-functional-language)
+* [How I think about Zig and Rust](https://lewiscampbell.tech/blog/250117.html)
+* [video] [Breaking Rust’s memory safety with 1 line of code](https://youtu.be/HGERkwG0ViI)
+* [audio] [Crates We Love | Oxide and Friends](https://share.transistor.fm/s/d3cea637)
 
 ## Crate of the Week
 
