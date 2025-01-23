@@ -56,6 +56,8 @@ and just ask the editors to select the category.
 
 * [Comparing 13 Crates for Extracting Text from HTML](https://emschwartz.me/comparing-13-rust-crates-for-extracting-text-from-html/)
 
+* [Path canonicalization is unergonomic](https://tesujimath.org/path-canonicalization-is-unergonomic/)
+
 ### Rust Walkthroughs
 * [Adding A New Fake To The Fake Crate](https://xd009642.github.io/2025/01/15/adding-a-new-fake-to-the-fake-crate.html)
 * [Streaming Audio Apis: The Axum Server](https://xd009642.github.io/2025/01/20/streaming-audio-APIs-the-axum-server.html)
