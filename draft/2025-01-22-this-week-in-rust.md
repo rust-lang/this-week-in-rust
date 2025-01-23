@@ -54,9 +54,6 @@ and just ask the editors to select the category.
 * [The HARM Stack (HTMX, Axum/AlpineJS, Rust, Maud) Considered Unharmful](https://nguyenhuythanh.com/posts/the-harm-stack-considered-unharmful/)
 * [Type Inference in Rust and C++](https://herecomesthemoon.net/2025/01/type-inference-in-rust-and-cpp/)
 * [video] [Rust is not Complicated - An architects perspective](https://www.youtube.com/watch?v=bYKPKBPo7EY)
-
-* [Comparing 13 Crates for Extracting Text from HTML](https://emschwartz.me/comparing-13-rust-crates-for-extracting-text-from-html/)
-
 * [Path canonicalization is unergonomic](https://tesujimath.org/path-canonicalization-is-unergonomic/)
 
 ### Rust Walkthroughs
