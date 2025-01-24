@@ -13,12 +13,11 @@ license](http://mit-license.org/).
 * [cdmistman](https://github.com/cdmistman)
 * [ericseppanen](https://github.com/ericseppanen)
 * [extrawurst](https://github.com/extrawurst)
-* [andrewpollack](https://github.com/andrewpollack)
 * [U007D](https://github.com/U007D) 
-* [kolharsam](https://github.com/kolharsam)
 * [joelmarcey](https://github.com/joelmarcey)
 * [mariannegoldin](https://github.com/mariannegoldin)
 * [bennyvasquez](https://github.com/bennyvasquez)
+* [bdillo](https://github.com/bdillo)
 
 ## Language Reviewers
 
