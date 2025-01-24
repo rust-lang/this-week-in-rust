@@ -250,6 +250,8 @@ Rusty Events between 2025-01-29 - 2025-02-26 🦀
     * [**Introduction to Context-Generic Programming in Rust**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/303729528)
 * 2025-02-19 - 2025-02-20 | London, UK | [Rust Nation UK](https://www.rustnationuk.com/)
     * [**Rust Nation UK 2025**](https://www.rustnationuk.com/)
+* 2025-02-20 | Bern, CH | [Rust Bern](https://www.meetup.com/de-DE/rust-bern/)
+    * [**Rust Talks Bern 2025 #1 @Puzzle ITC**](https://www.meetup.com/rust-bern/events/305597994)
 
 ### North America
 * 2025-01-22 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/events/)
