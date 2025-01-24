@@ -52,8 +52,8 @@ and just ask the editors to select the category.
 * [Introducing RealtimeSanitizer for Rust](https://steck.tech/posts/rtsan-in-rust/)
 * [The HARM Stack (HTMX, Axum/AlpineJS, Rust, Maud) Considered Unharmful](https://nguyenhuythanh.com/posts/the-harm-stack-considered-unharmful/)
 * [Type Inference in Rust and C++](https://herecomesthemoon.net/2025/01/type-inference-in-rust-and-cpp/)
-* [video] [Rust is not Complicated - An architects perspective](https://www.youtube.com/watch?v=bYKPKBPo7EY)
 * [Path canonicalization is unergonomic](https://tesujimath.org/path-canonicalization-is-unergonomic/)
+* [video] [Rust is not Complicated - An architects perspective](https://www.youtube.com/watch?v=bYKPKBPo7EY)
 
 ### Rust Walkthroughs
 * [A Gentle Introduction to WebAssembly in Rust (2025 Edition)](https://dev.to/marktolmacs/a-gentle-introduction-to-webassembly-in-rust-2025-edition-1iac)
@@ -64,7 +64,7 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [2024 in review - seanmonstar](https://seanmonstar.com/blog/2024-in-review/)
 * ["We never update unless forced to" — cargo-semver-checks 2024 Year in Review](https://predr.ag/blog/cargo-semver-checks-2024-year-in-review/)
-* [Year in review: 2024 highlights and a peek at 2025](https://graphite.rs/blog/year-in-review-2024-highlights-and-a-peek-at-2025)
+* [Year in review: 2024 highlights and a peek at 2025 - Graphite](https://graphite.rs/blog/year-in-review-2024-highlights-and-a-peek-at-2025)
 * [Why Rust is not a functional language](https://serokell.io/blog/rust-is-not-a-functional-language)
 * [How I think about Zig and Rust](https://lewiscampbell.tech/blog/250117.html)
 * [video] [Breaking Rust’s memory safety with 1 line of code](https://youtu.be/HGERkwG0ViI)
