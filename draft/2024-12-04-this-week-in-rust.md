@@ -1,6 +1,6 @@
-Title: This Week in Rust 574
-Number: 574
-Date: 2024-11-20
+Title: This Week in Rust 576
+Number: 576
+Date: 2024-12-04
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -53,7 +53,8 @@ and just ask the editors to select the category.
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
-## [Call for Testing](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+## Calls for Testing
+
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.  The following
 RFCs would benefit from user testing before moving forward:
@@ -63,8 +64,15 @@ RFCs would benefit from user testing before moving forward:
         * [Tracking Issue](<Tracking Issue URL>)
         * [Testing steps](<Testing Steps URL>)
 -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
+<!-- or if there are no new or updated RFCs this week, use: -->
+<!-- * *No New or Updated RFCs were created this week.* -->
 <!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+
+### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+
+### [Rust](https://github.com/rust-lang/rust/labels/call-for-testing)
+
+### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
 
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
@@ -125,105 +133,99 @@ Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final
 which are reaching a decision. Express your opinions now.
 
 #### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
-
 <!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
 <!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
 <!-- * [disposition: ] []() -->
 
-#### [Tracking Issues & PRs](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-
+#### Tracking Issues & PRs
 <!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
+<!-- or if none entered FCP this week, use: -->
+<!-- * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
 <!-- * [disposition: ] []() -->
 
-### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
+##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-<!-- Remove this section if empty>
+##### [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+##### [Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc+)
 
+##### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+##### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+#### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 <!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: * *No New or Updated RFCs were created this week.* -->
+<!-- or if there are no new or updated RFCs this week, use: -->
+<!-- * *No New or Updated RFCs were created this week.* -->
 <!-- * [new|updated] []() -->
 
 ## Upcoming Events
 
-Rusty Events between 2024-11-20 - 2024-12-18 🦀
+Rusty Events between 2024-12-04 - 2025-01-01 🦀
 
 ### Virtual
-* 2024-11-14 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
-    * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298898070/)
-* 2024-11-14 | Virtual and In-Person (Lehi, UT, US) | [Utah Rust](https://www.meetup.com/utah-rust/events/)
-    * [**Green Thumb: Building a Bluetooth-Enabled Plant Waterer with Rust and Microbit**](https://www.meetup.com/utah-rust/events/304206130/)
-* 2024-11-14 | Virtual and In-Person (Seattle, WA, US) | [Seattle Rust User Group](https://www.meetup.com/seattle-rust-user-group/)
-    * [**November Meetup**](https://www.meetup.com/join-srug/events/304166747/)
-* 2024-11-15 | Virtual (Jersey City, NJ, US) | [Jersey City Classy and Curious Coders Club Cooperative](https://www.meetup.com/jersey-city-classy-curious-coders-club-cooperative/)
-    * [**Rust Coding / Game Dev Fridays Open Mob Session!**](https://www.meetup.com/jersey-city-classy-curious-coders-club-cooperative/events/gvxrntygcpbtb/)
-* 2024-11-19 | Virtual (Los Angeles, CA, US) | [DevTalk LA](https://www.meetup.com/lajugstudygroup/)
-    * [**Discussion - Topic: Rust for UI**](https://www.meetup.com/lajugstudygroup/events/302952703/)
-* 2024-11-19 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
-    * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/299346971/)
-* 2024-11-20 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/)
-    * [**Rust for Rustaceans Book Club: Chapter 12: Rust Without the Standard Library**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/304441931/)
-* 2024-11-20 | Virtual and In-Person (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
-    * [**Embedded Rust Workshop**](https://www.meetup.com/vancouver-rust/events/304047664/)
-* 2024-11-21 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
-    * [**Rust Hack and Learn**](https://meet.jit.si/RustHackAndLearnBerlin) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298633273/)
-* 2024-11-21 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
-    * [**Trustworthy IoT with Rust--and passwords!**](https://www.meetup.com/charlottesville-rust-meetup/events/304216847/)
-* 2024-11-21 | Virtual (Rotterdam, NL) | [Bevy Game Development](https://www.meetup.com/bevy-game-development/events/)
-    * [**Bevy Meetup #7**](https://www.meetup.com/bevy-game-development/events/304078762/)
-* 2024-11-25 | Virtual (Bratislava, SK) | [Bratislava Rust Meetup Group](https://www.meetup.com/bratislava-rust-meetup-group/)
-    * [**ONLINE Talk, sponsored by Sonalake - Bratislava Rust Meetup**](https://www.meetup.com/bratislava-rust-meetup-group/events/304373224/)
-* 2024-11-26 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
-    * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/fkmcntygcpbjc/)
 * 2024-11-28 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
     * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298898099/)
 * 2024-11-28 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/events/)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/300820276/)
+* 2024-11-29 | Virtual (Jersey City, NJ, US)| [Jersey City Classy and Curious Coders Club Cooperative](https://www.meetup.com/jersey-city-classy-curious-coders-club-cooperative/)
+    * [**Rust Coding / Game Dev Fridays Open Mob Session!**](https://www.meetup.com/jersey-city-classy-curious-coders-club-cooperative/events/304477903/)
+* 2024-12-02 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust/)
+    * [**Advent of Code - Kick Off!**](https://www.meetup.com/women-in-rust/events/304668776/)
 * 2024-12-03 | Virtual (Buffalo, NY, US) | [Buffalo Rust Meetup](https://www.meetup.com/buffalo-rust-meetup/)
     * [**Buffalo Rust User Group**](https://www.meetup.com/buffalo-rust-meetup/events/302007374/)
+* 2024-12-03 | Virtual (San Francisco, CA, US) | [Blockchain Center SF](https://www.meetup.com/blockchaincentersf/)
+    * [**Rust in Web3: Developer Series**](https://www.meetup.com/blockchaincentersf/events/304510595/)
 * 2024-12-04 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/302031652)
 * 2024-12-05 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust Hack and Learn**](https://berline.rs/2024/12/05/rust-hack-and-learn.html) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298633275/)
+* 2024-12-05 | Virtual (Miami, FL) | [Miami Java User Group Events](https://www.meetup.com/miami-java-user-group)
+    * [**Introduction to Rust for Java Developers**](https://www.meetup.com/miami-java-user-group/events/304717903/)
+* 2024-12-06 | Virtual (Jersey City, NJ, US)| [Jersey City Classy and Curious Coders Club Cooperative](https://www.meetup.com/jersey-city-classy-curious-coders-club-cooperative/)
+    * [**Rust Coding / Game Dev Fridays Open Mob Session!**](https://www.meetup.com/jersey-city-classy-curious-coders-club-cooperative/events/304369723/)
+* 2024-12-07 | Virtual (Kampala, UG) | [Rust Circle Kampala](https://www.eventbrite.com/o/rust-circle-kampala-65249289033/)
+    * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587)
+* 2024-12-08 | Virtual (Tel Aviv-Yafo, IL) | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
+    * [**Reading JSON files in Rust - קריאת קבצי ג'ייסון בראסט**](https://www.meetup.com/rust-tlv/events/304685546/)
 * 2024-12-10 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/299346988/)
 * 2024-12-11 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/304047666/)
+* 2024-12-12 | Virtual (Charlottesville, NC, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/)
+    * [**Crafting Interpreters in Rust Collaboratively**](https://www.meetup.com/charlottesville-rust-meetup/events/298898129/)
+* 2024-12-12 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/events/)
+    * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/300820276/)
+* 2024-12-12 | Hybrid: In-Person and Virtual (Seattle, WA, US) | [Seattle Rust Meetup](https://www.meetup.com/Seattle-Rust-Meetup/)
+    * [**December Meetup**](https://www.meetup.com/Seattle-Rust-Meetup/)
+* 2024-12-13 | Virtual (Jersey City, NJ, US)| [Jersey City Classy and Curious Coders Club Cooperative](https://www.meetup.com/jersey-city-classy-curious-coders-club-cooperative/)
+    * [**Rust Coding / Game Dev Fridays Open Mob Session!**](https://www.meetup.com/jersey-city-classy-curious-coders-club-cooperative/events/304730560/)
+* 2024-12-17 | Virtual (San Francisco, CA, US) | [Blockchain Center SF](https://www.meetup.com/blockchaincentersf/)
+    * [**Rust in Web3: Developer Series**](https://www.meetup.com/blockchaincentersf/events/kwnzntygcqbwb/)
+* 2024-12-17 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/)
+    * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/299346972/)
+* 2024-12-19 | Virtual (Berlin, DE) | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
+    * [**Rust Hack and Learn**](https://berline.rs/2024/12/19/rust-hack-and-learn.html) | [**Mirror: Rust Hack n Learn Meetup**](https://www.meetup.com/rust-berlin/events/298633276/)
+* 2024-12-19 | Virtual (Mexico City, DF, MX) | [Rust MX](https://www.meetup.com/rust-mx/)
+    * [**Posada 2024**](https://www.meetup.com/rust-mx/events/304639403/)
+* 2024-12-20 | Virtual (Jersey City, NJ, US)| [Jersey City Classy and Curious Coders Club Cooperative](https://www.meetup.com/jersey-city-classy-curious-coders-club-cooperative/)
+    * [**Rust Coding / Game Dev Fridays Open Mob Session!**](https://www.meetup.com/jersey-city-classy-curious-coders-club-cooperative/events/gvxrntygcqbbc/)
+* 2024-12-24 | Virtual (Dallas, TX, US) | [Dallas Rust](https://www.meetup.com/dallasrust/)
+    * [**Last Tuesday**](https://www.meetup.com/dallasrust/events/fkmcntygcqbgc/)
 
 ### Africa
+* 2024-12-10 | Johannesburg, ZA | [Johannesburg Rust Meetup](https://www.meetup.com/johannesburg-rust-meetup/events/)
+    * [**Hello World... again**](https://www.meetup.com/johannesburg-rust-meetup/events/304649358/)
 
-* 2024-12-07 | Virtual( Kampala, UG) | [Rust Circle Kampala](https://www.eventbrite.com/o/rust-circle-kampala-65249289033/)
-    * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587)
-    
 ### Asia
 * 2024-11-28 | Bangalore/Bengaluru, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**RustTechX Summit 2024 BOSCH**](https://hasgeek.com/rustbangalore/rusttechx-summit-2024-bosch/)
 * 2024-11-30 | Tokyo, JP | [Rust Tokyo](https://rust.tokyo/)
     * [**Rust.Tokyo 2024**](https://rust.tokyo/lineup)
+* 2024-12-03 | Ra'anana, IL | [Abra R&D Meetups](https://www.meetup.com/abra-rnd-solutions/)
+    * [**Rust in the Linux Kernel**](https://www.meetup.com/abra-rnd-solutions/events/304302596/)
 
 ### Europe
-* 2024-11-13 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/events/)
-    * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/303915771/)
-* 2024-11-14 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/Stockholm-Rust/)
-    * [**Rust Meetup @UXStream**](https://www.meetup.com/stockholm-rust/events/304124737/)
-* 2024-11-19 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
-    * [**Daten sichern mit ZFS (und Rust)**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/302425200/)
-* 2024-11-19 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/events/)
-    * [**Rust meetup #72**](https://www.meetup.com/rust-paris/events/304396616/)
-* 2024-11-21 | Edinburgh, UK | [Rust and Friends](https://www.meetup.com/rust-edi/events/)
-    * [**Rust and Friends (pub)**](https://www.meetup.com/rust-and-friends/events/304110922/)
-* 2024-11-21 | Madrid, ES | [MadRust](https://www.meetup.com/madrust/events/)
-    * [**Taller de introducción a unit testing en Rust**](https://www.meetup.com/madrust/events/304484962/)
-* 2024-11-21 | Oslo, NO | [Rust Oslo](https://www.meetup.com/rust-oslo/events/)
-    * [**Rust Hack'n'Learn at Kampen Bistro**](https://www.meetup.com/rust-oslo/events/303154277/)
-* 2024-11-23 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel/events/)
-    * [**Rust + HTMX - Workshop #3**](https://www.meetup.com/rust-basel/events/303714372/)
-* 2024-11-26 | Warsaw, PL | [Rust Warsaw](https://www.meetup.com/rust-warsaw/events/)
-    * [**New Rust Warsaw Meetup #3**](https://www.meetup.com/rust-warsaw/events/304379707/)
 * 2024-11-27 | Dortmund, DE | [Rust Dortmund](https://www.meetup.com/rust-dortmund)
     * [**Rust Dortmund**](https://www.meetup.com/rust-dortmund/events/304290556)
 * 2024-11-28 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/)
@@ -232,52 +234,64 @@ Rusty Events between 2024-11-20 - 2024-12-18 🦀
     * [**Augsburg Rust Meetup #10**](https://www.meetup.com/rust-meetup-augsburg/events/304002691/)
 * 2024-11-28 | Berlin, DE | [OpenTechSchool Berlin](https://berline.rs/) + [Rust Berlin](https://www.meetup.com/rust-berlin/)
     * [**Rust and Tell - Title**](https://www.meetup.com/rust-berlin/events/299421381/)
+* 2024-11-28 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/events/)
+    * [**Rust meetup #53 sponsored by Microsoft**](https://www.meetup.com/copenhagen-rust-community/events/304608747/)
 * 2024-11-28 | Gdansk, PL | [Rust Gdansk](https://www.meetup.com/rust-gdansk/events/)
     * [**Rust Gdansk Meetup #5**](https://www.meetup.com/rust-gdansk/events/304462668/)
 * 2024-11-28 | Hamburg, DE | [Rust Meetup Hamburg](https://www.meetup.com/rust-meetup-hamburg/events/)
     * [**Rust Hack & Learn with Mainmatter & Otto**](https://www.meetup.com/rust-meetup-hamburg/events/303898286/)
+* 2024-11-28 | Manchester, UK | [Rust Manchester](https://www.meetup.com/rust-manchester/events/)
+    * [**Rust Manchester November Code Night**](https://www.meetup.com/rust-manchester/events/304556866/)
 * 2024-11-28 | Prague, CZ | [Rust Prague](https://www.meetup.com/rust-prague/events/)
     * [**Rust/C++ Meetup Prague (November 2024)**](https://www.meetup.com/rust-prague/events/304002733/)
+* 2024-11-30 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/stockholm-rust/)
+    * [**Ferris' Fika Forum #7**](https://www.meetup.com/stockholm-rust/events/304722627/)
 * 2024-12-03 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/events/)
     * [**Rust Hack Night #11: Advent of Code**](https://www.meetup.com/copenhagen-rust-community/events/304427710/)
+* 2024-12-04 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Aprenem junts Rust / Learn Rust Together**](https://lu.ma/pypwr0m7)
+* 2024-12-04 | Köln, DE | [Rust Cologne](https://www.meetup.com/rust-cologne-bonn/events/)
+    * [**Rust in December: Advent of Code**](https://www.meetup.com/rustcologne/events/304760521/)
 * 2024-12-04 | Oxford, UK | [Oxford Rust Meetup Group](https://www.meetup.com/oxford-rust-meetup-group/)
     * [**Oxford Rust and C++ social**](https://www.meetup.com/oxford-rust-meetup-group/events/303123399/)
-* 2024-12-05 | Olomouc, CZ | [Rust Moravia](https://www.meetup.com/rust-moravia/events/)
+* 2024-12-04 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/events/)
+    * [**Rust meetup #73**](https://www.meetup.com/rust-paris/events/304685955/)
+* 2024-12-05 | Gdansk, PL | [Rust Gdansk](https://www.meetup.com/rust-gdansk/events/)
+    * [**Rust Gdansk Meetup #6**](https://www.meetup.com/rust-gdansk/events/304773705/)
+* 2024-12-05 | Zlin, CZ | [Rust Moravia](https://www.meetup.com/rust-moravia/events/)
     * [**Rust Moravia Meetup (December 2024)**](https://www.meetup.com/rust-moravia/events/304075150/)
 * 2024-12-06 | Moscow, RU | [RustCon RU](https://rustcon.ru/)
     * [**RustCon Russia**](https://rustcon.ru/)
 * 2024-12-11 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/events/)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/wrdkmtygcqbpb/)
+* 2024-12-12 | Amsterdam, NL | [Rust Developers Amsterdam Group](https://www.meetup.com/rust-amsterdam-group/events/)
+    * [**Rust Meetup @ JetBrains**](https://www.meetup.com/rust-amsterdam-group/events/304514267/)
+* 2024-12-17 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/)
+    * [**Types, Traits und Best Practices**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/302425056/)
 
 ### North America
-* 2024-11-14 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
-    * [**Rust Meetup at Hacker Dojo**](https://www.meetup.com/hackerdojo/events/304211045/)
-* 2024-11-14 | Portland, OR, US | [PDXRust](https://www.meetup.com/pdxrust/events/)
-    * [**PDXRust November 2024: Lightning Talks!**](https://www.meetup.com/pdxrust/events/304500461/)
-* 2024-11-15 | Mexico City, DF, MX | [Rust MX](https://www.meetup.com/rust-mx/)
-    * [**Multi threading y Async en Rust parte 2 - Smart Pointes y Closures**](https://www.meetup.com/rust-mx/events/304150412/)
-* 2024-11-15 | Somerville, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
-    * [**Ball Square Rust Lunch, Nov 15**](https://www.meetup.com/bostonrust/events/303708398/)
-* 2024-11-19 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/events/)
-    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/302638252/)
-* 2024-11-19 | Spokane, WA, US | [Spokane Rust](https://www.meetup.com/spokane-rust/events/)
-    * [**Building Your First Command Line Interface - A Code-Along Workshop**](https://www.meetup.com/spokane-rust/events/304457352/)
-* 2024-11-23 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/)
-    * [**Boston Common Rust Lunch, Nov 23**](https://www.meetup.com/bostonrust/events/303708407/)
-* 2024-11-25 | Ferndale, MI, US | [Detroit Rust](https://www.meetup.com/detroitrust/)
-    * [**Rust Community Meetup - Ferndale**](https://www.meetup.com/detroitrust/events/dmgjntygcpbhc/)
-* 2024-11-26 | Minneapolis, MN, US | [Minneapolis Rust Meetup](https://www.meetup.com/minneapolis-rust-meetup/events/)
-    * [**Minneapolis Rust Meetup Happy Hour**](https://www.meetup.com/minneapolis-rust-meetup/events/304530470/)
 * 2024-11-27 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/events/)
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/xvkdgtygcpbkc/)
-* 2024-11-28 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
-    * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/304468157/)
+* 2024-12-05 | Montréal, QC, CA | [Rust Montréal](https://www.meetup.com/rust-montreal/events/)
+    * [**December Monthly Social**](https://www.meetup.com/rust-montreal/events/304778367/)
 * 2024-12-05 | St. Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust/events/)
     * [**Rust Strings**](https://www.meetup.com/stl-rust/events/302371466/)
 * 2024-12-10 | Ann Arbor, MI, US | [Detroit Rust](https://www.meetup.com/detroitrust/)
     * [**Rust Community Meetup - Ann Arbor**](https://www.meetup.com/detroitrust/events/cvdcntygcqbnb/)
+* 2024-12-12 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
+    * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/wqkgntygcqbqb/)
+* 2024-12-12 | Hybrid: In-Person and Virtual (Seattle, WA, US) | [Seattle Rust User Group](https://www.meetup.com/join-srug/)
+    * [**December Meetup**](https://www.meetup.com/join-srug/events/304806455/)
+* 2024-12-16 | Minneapolis, MN, US | [Minneapolis Rust Meetup](https://www.meetup.com/minneapolis-rust-meetup/events/)
+    * [**Minneapolis Rust Meetup Happy Hour**](https://www.meetup.com/minneapolis-rust-meetup/events/304530508/)
+* 2024-12-17 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/events/)
+    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/302638256/)
+* 2024-12-23 | Ferndale, MI, US | [Detroit Rust](https://www.meetup.com/detroitrust/)
+    * [**Rust Community Meetup - Ferndale**](https://www.meetup.com/detroitrust/events/dmgjntygcqbfc/)
 
 ### Oceania
+* 2024-12-04 | Sydney, AU | [Rust Sydney](https://www.meetup.com/rust-sydney/events/)
+    * [**2024 🦀 Encore ✨ Talks**](https://www.meetup.com/rust-sydney/events/304625921/)
 * 2024-12-08 | Canberra, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
     * [**CRUG Xmas party**](https://www.meetup.com/rust-canberra/events/304282046/)
 
