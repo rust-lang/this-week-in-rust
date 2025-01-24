@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [The Rust 2024 Edition takes shape](https://lwn.net/SubscriberLink/1002456/0d3c386d8c401be9/)
 
 ### Observations/Thoughts
 
