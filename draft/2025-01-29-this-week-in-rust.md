@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Hello async Rust](http://github.com/weipin/hello-async-rust)
+
 ### Research
 
 ### Miscellaneous
