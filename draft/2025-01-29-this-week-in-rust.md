@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Custom Equatability in Rust: Beyond the Standard Cases](https://minikin.me/blog/custom-equatability-in-rust)
+
 ### Rust Walkthroughs
 
 ### Research
