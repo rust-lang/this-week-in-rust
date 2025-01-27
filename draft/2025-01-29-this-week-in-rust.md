@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [The magic function](https://bitfieldconsulting.com/posts/magic-function)
+
 ### Rust Walkthroughs
 
 ### Research
