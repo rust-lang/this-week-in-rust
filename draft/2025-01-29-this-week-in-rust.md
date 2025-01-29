@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Defmt, the highly efficient logging framework, is going to 1.0](https://ferrous-systems.com/blog/defmt-1-0/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
