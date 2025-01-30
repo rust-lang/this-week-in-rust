@@ -101,7 +101,9 @@ If you are a feature implementer and would like your RFC to appear on the above 
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
 
-## Call for Participation; projects and speakers
+## Call for Participation
+
+* [bytes - Call for breaking changes](https://github.com/tokio-rs/bytes/issues/758)
 
 ### CFP - Projects
 
