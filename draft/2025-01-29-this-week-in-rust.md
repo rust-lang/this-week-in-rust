@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [The Rust 2024 Edition takes shape](https://lwn.net/SubscriberLink/1002456/0d3c386d8c401be9/)
 * [Defmt is going to 1.0](https://ferrous-systems.com/blog/defmt-1-0/)
 * [rust-analyzer changelog #270](https://rust-analyzer.github.io/thisweek/2025/01/27/changelog-270.html)
 
