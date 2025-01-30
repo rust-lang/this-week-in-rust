@@ -40,7 +40,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Defmt is going to 1.0](https://ferrous-systems.com/blog/defmt-1-0/)
-* [rust-analyzer hangelog #270](https://rust-analyzer.github.io/thisweek/2025/01/27/changelog-270.html)
+* [rust-analyzer changelog #270](https://rust-analyzer.github.io/thisweek/2025/01/27/changelog-270.html)
 
 ### Observations/Thoughts
 * [Musings on iterator trait names](https://blog.yoshuawuyts.com/musings-on-iterator-trait-names/)
