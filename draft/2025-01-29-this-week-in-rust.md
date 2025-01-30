@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 * [audio] [Rahul Kumar: Why verify Rust's standard library?](https://timclicks.dev/podcast/rahul-kumar-why-verify-rusts-stdlib)
 * [audio] [Volvo with Julius Gustavsson](https://corrode.dev/podcast/s03e08-volvo/)
 
+* [The magic function](https://bitfieldconsulting.com/posts/magic-function)
+
 ### Rust Walkthroughs
 * [Tips for Faster Rust CI Builds | corrode Rust Consulting](https://corrode.dev/blog/tips-for-faster-ci-builds/)
 
