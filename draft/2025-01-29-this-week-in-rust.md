@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 * [Defmt is going to 1.0](https://ferrous-systems.com/blog/defmt-1-0/)
 * [rust-analyzer changelog #270](https://rust-analyzer.github.io/thisweek/2025/01/27/changelog-270.html)
 
+- [git-cliff 2.8.0 is released! (a highly customizable changelog generator)](https://git-cliff.org/blog/2.8.0)
+
 ### Observations/Thoughts
 * [Musings on iterator trait names](https://blog.yoshuawuyts.com/musings-on-iterator-trait-names/)
 * [audio] [Rahul Kumar: Why verify Rust's standard library?](https://timclicks.dev/podcast/rahul-kumar-why-verify-rusts-stdlib)
