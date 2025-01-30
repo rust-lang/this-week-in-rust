@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 * [The Embedded Rustacean Issue #38](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-38)
 
 ### Project/Tooling Updates
+* [Resistance to Rust abstractions for DMA mapping](https://lwn.net/SubscriberLink/1006805/56d10b7d45995d58/)
 
 ### Observations/Thoughts
 * [Computed Properties in Rust: How to Implement Them Effectively](https://minikin.me/blog/computed-properties-in-rust)
