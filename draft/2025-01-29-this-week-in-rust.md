@@ -57,6 +57,8 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Tips for Faster Rust CI Builds | corrode Rust Consulting](https://corrode.dev/blog/tips-for-faster-ci-builds/)
 
+* [Hello async Rust](https://weipin.github.io/hello-async-rust/index.html)
+
 ### Research
 
 ### Miscellaneous
