@@ -37,8 +37,6 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [Call for breaking changes - bytes crate](https://github.com/tokio-rs/bytes/issues/758)
-
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
@@ -82,9 +80,7 @@ need testing.
 
 ## Call for Participation
 
-The bytes crate is planning to make a 2.0 release, and has an open call for breaking changes until March 2nd.
-
-* [Call for breaking changes - bytes crate](https://github.com/tokio-rs/bytes/issues/758)
+* [bytes - Call for breaking changes](https://github.com/tokio-rs/bytes/issues/758)
 
 ### CFP - Projects
 
