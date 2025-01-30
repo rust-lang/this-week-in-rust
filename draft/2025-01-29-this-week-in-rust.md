@@ -216,7 +216,28 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Relatively quiet week, with one large-ish regression that will be reverted.
+[#132666](https://github.com/rust-lang/rust/pull/132666) produced a nice perf. win, by skipping
+unnecessary work. This PR actually reversed a regression caused by a [previous PR](https://github.com/rust-lang/rust/pull/131984).
+
+Triage done by **@kobzol**.
+
+Revision range: [9a1d156f..f7538506](https://perf.rust-lang.org/?start=9a1d156f38c51441ee51e5a068f1d0caf4bb0f27&end=f753850659bdf5788332525f3fe395685929c682&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.5%  | [0.2%, 2.2%]   | 42    |
+| Regressions ❌ <br /> (secondary)  | 2.1%  | [0.1%, 11.6%]  | 56    |
+| Improvements ✅ <br /> (primary)   | -0.8% | [-4.2%, -0.1%] | 107   |
+| Improvements ✅ <br /> (secondary) | -1.2% | [-4.0%, -0.1%] | 77    |
+| All ❌✅ (primary)                 | -0.5% | [-4.2%, 2.2%]  | 149   |
+
+2 Regressions, 3 Improvements, 2 Mixed; 4 of them in rollups
+45 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/d0d5d03231a952b9f4a71a9c94ee73c33610e561/triage/2025-01-27.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
