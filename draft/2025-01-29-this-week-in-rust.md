@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 
 * [The magic function](https://bitfieldconsulting.com/posts/magic-function)
 
+* [Custom Equatability in Rust: Beyond the Standard Cases](https://minikin.me/blog/custom-equatability-in-rust)
+
 ### Rust Walkthroughs
 * [Tips for Faster Rust CI Builds | corrode Rust Consulting](https://corrode.dev/blog/tips-for-faster-ci-builds/)
 
