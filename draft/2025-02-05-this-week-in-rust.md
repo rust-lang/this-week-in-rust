@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [video] [Are we embedded yet? Implementing tiny HTTP server on a microcontroller using Rust with Maor Malka](https://www.youtube.com/watch?v=NclcQcNcLI4)
 
 ## Crate of the Week
 
