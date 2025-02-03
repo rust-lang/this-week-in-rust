@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Pinning Down "Future Is Not Send" Errors](https://emschwartz.me/pinning-down-future-is-not-send-errors/)
+
 ### Research
 
 ### Miscellaneous
