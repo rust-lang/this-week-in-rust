@@ -240,6 +240,8 @@ Rusty Events between 2025-02-05 - 2025-03-05 🦀
     * [**Rust Global: London 2025**](https://rustfoundation.org/event/rust-global-london-2025/)
 * 2025-02-22 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/stockholm-rust/events/)
     * [**Ferris' Fika Forum #9**](https://www.meetup.com/stockholm-rust/events/305848723)
+* 2025-02-26 | Darmstadt, DE | [Rust Rhein Main](https://www.meetup.com/rust-rhein-main/)
+    * [**Rust Compiler Tuning**](https://www.meetup.com/rust-rhein-main/events/305990886/)
 
 ### North America
 * 2025-01-31 | Detroit, MI, US | [Detroit Rust](https://www.meetup.com/detroitrust/events/)
