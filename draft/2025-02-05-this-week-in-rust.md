@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[Three Years of Bencher: A Rust-Powered Retrospective](https://bencher.dev/learn/engineering/engineering-review-2025/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
