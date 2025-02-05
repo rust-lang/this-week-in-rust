@@ -238,9 +238,9 @@ Rusty Events between 2025-02-05 - 2025-03-05 🦀
     * [**17th BcnRust Meetup**](https://www.meetup.com/bcnrust/events/305887675)
 
 ### North America
-* 2025-02-06 | Montréal, QC, CA | [Rust Montréal](https://www.meetup.com/rust-montreal/events/)
+* 2025-02-06 | Montréal, CA | [Rust Montréal](https://www.meetup.com/rust-montreal/events/)
     * [**February Monthly Social**](https://www.meetup.com/rust-montreal/events/305955215)
-* 2025-02-06 | Mountain view, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
+* 2025-02-06 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
     * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/305517476)
 * 2025-02-06 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust/events/)
     * [**Async, the Future of Futures**](https://www.meetup.com/stl-rust/events/304959018)
