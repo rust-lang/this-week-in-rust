@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 * [Computed Properties in Rust: How to Implement Them Effectively](https://minikin.me/blog/computed-properties-in-rust)
+* [Tracing Large Memory Allocations in Rust with BPFTrace](https://readyset.io/blog/tracing-large-memory-allocations-in-rust-with-bpftrace)
+
 
 ### Rust Walkthroughs
 
