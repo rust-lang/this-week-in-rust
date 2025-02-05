@@ -30,6 +30,7 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.84.1](https://blog.rust-lang.org/2025/01/30/Rust-1.84.1.html)
 
 ### Foundation
 
@@ -39,15 +40,28 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Preview crates](https://smallcultfollowing.com/babysteps/blog/2025/01/29/preview-crates)
 * [Computed Properties in Rust: How to Implement Them Effectively](https://minikin.me/blog/computed-properties-in-rust)
+* [Default musl allocator considered harmful (to performance)](https://nickb.dev/blog/default-musl-allocator-considered-harmful-to-performance/)
+* [Fat Rand: How Many Lines Do You Need To Generate A Random Number?](https://lucumr.pocoo.org/2025/2/4/fat-rand/)
+* [Revisiting random number generation](https://swlody.dev/Posts/Revisiting-random-number-generation)
+* [Fast Parquet reading: From Java to Rust Columnar Readers](https://baarse.substack.com/p/fast-parquet-reading-from-java-to)
+* [Adding garbage collection to our Rust-based interpreters with MMTk](https://octavelarose.github.io/2025/01/30/mmtk.html)
+* [Extending the Coreutils project - Rewriting base tools in Rust](https://uutils.github.io/blog/2025-02-extending/)
+* [No-Panic Rust: A Nice Technique for Systems Programming](https://blog.reverberate.org/2025/02/03/no-panic-rust.html)
 
 ### Rust Walkthroughs
-
+* [Cooperative multitasking in Rust](https://elric.pl/blog/cooperative-multitasking)
+* [Optimizing with Novel Calendrical Algorithms](https://jhpratt.dev/blog/optimizing-with-novel-calendrical-algorithms/)
+* [Apache Kafka protocol with serde, quote, syn and proc_macro2](https://blog.tansu.io/articles/serde-kafka-protocol)
 * [Pinning Down "Future Is Not Send" Errors](https://emschwartz.me/pinning-down-future-is-not-send-errors/)
+* [Part 5b: Escaping the Typechecker, an Implementation](https://thunderseethe.dev/posts/lowering-base-impl/)
 
 ### Research
 
 ### Miscellaneous
+* [video playlist] [Bevy Meetup #8](https://www.youtube.com/watch?v=4EE_bhHZZA4&list=PLbvvWoCXmXkLM8JUlDL0FVOU6eLAVsMwd)
+* [video] [Match Ergonomics](https://www.youtube.com/watch?v=03BqXYFM6T0)
 * [video] [Are we embedded yet? Implementing tiny HTTP server on a microcontroller using Rust with Maor Malka](https://www.youtube.com/watch?v=NclcQcNcLI4)
 
 ## Crate of the Week
