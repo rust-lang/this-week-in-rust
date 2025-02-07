@@ -385,6 +385,8 @@ Rusty Events between 2025-02-05 - 2025-03-05 🦀
     * [**IN-PERSON! Crossover Meeting with Collin College Software Engineering Club**](https://www.meetup.com/dallasrust/events/306001689/)
 * 2025-02-11 | Minneapolis, MN, US | [Minneapolis Rust Meetup](https://www.meetup.com/minneapolis-rust-meetup/events/)
     * [**Minneapolis Rust Meetup Happy Hour**](https://www.meetup.com/minneapolis-rust-meetup/events/305720765)
+* 2025-02-13 | Portland, OR, US | [PDXRust](https://www.meetup.com/pdxrust/events/)
+    * [**Spidering Wikipedia Politely In Async Rust**](https://www.meetup.com/pdxrust/events/306044189/?slug=pdxrust&eventId=306044189)
 * 2025-02-14 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
     * [**Downtown Rust Lunch, Feb 14**](https://www.meetup.com/bostonrust/events/305804954)
 * 2025-02-18 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/events/)
