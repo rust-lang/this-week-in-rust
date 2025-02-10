@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Nutype 0.6.0 - newtype with guarantees supports const functions now](https://github.com/greyblake/nutype/releases/tag/v0.6.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
