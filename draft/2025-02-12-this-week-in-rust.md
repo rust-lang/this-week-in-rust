@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 * [Nutype 0.6.0 - newtype with guarantees supports const functions now](https://github.com/greyblake/nutype/releases/tag/v0.6.0)
 
 ### Observations/Thoughts
+* [Solving the ABA Problem in Rust: Tagged Pointers with Versioning](https://minikin.me/blog/solving-the-aba-problem-in-rust-tagged-pointers)
 
 ### Rust Walkthroughs
 
