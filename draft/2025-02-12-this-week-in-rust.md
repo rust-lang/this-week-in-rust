@@ -36,6 +36,8 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Maintainer opinions on Rust-for-Linux](https://lwn.net/SubscriberLink/1007921/9020dbb12585d48f/)
+* [Rewriting essential Linux packages in Rust](https://lwn.net/SubscriberLink/1007907/a9db87fc233bceae/)
 
 ### Observations/Thoughts
 
