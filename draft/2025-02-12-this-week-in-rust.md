@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [Nutype 0.6.0 - newtype with guarantees supports const functions now](https://github.com/greyblake/nutype/releases/tag/v0.6.0)
+* [Asterinas in 2024](https://asterinas.github.io/2025/01/20/asterinas-in-2024.html) ([Asterinas](https://github.com/asterinas/asterinas) is a Linux ABI-compatible operating system written in Rust)
 
 ### Observations/Thoughts
 * [Solving the ABA Problem in Rust: Tagged Pointers with Versioning](https://minikin.me/blog/solving-the-aba-problem-in-rust-tagged-pointers)
