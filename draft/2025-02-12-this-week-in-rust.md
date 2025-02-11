@@ -197,6 +197,8 @@ Rusty Events between 2025-02-12 - 2025-03-12 🦀
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/300820295)
 * 2025-02-27 | Virtual (Charlottesville, VA, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/events/)
     * [**Parsing command line options with category theory and async**](https://www.meetup.com/charlottesville-rust-meetup/events/305948365)
+* 2025-02-27 & 2025-02-28 | Virtual | [Mainmatter](https://mainmatter.com/rust/)
+    * [**Remote Workshop: Rust-Python Interoperability**](https://ti.to/mainmatter/rust-python-feb-2025)
 * 2025-03-05 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/302031659)
 
