@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Modeling Inheritance in SeaORM](https://www.sea-ql.org/blog/2025-01-08-sea-orm-inheritance/)
+
 ### Research
 
 ### Miscellaneous
