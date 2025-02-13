@@ -49,7 +49,6 @@ and just ask the editors to select the category.
 * [How I learned to stop worrying and love the LLM](https://smallcultfollowing.com/babysteps/blog/2025/02/10/love-the-llm/)
 * [The Three Basic Rules of Safety Hygiene](https://jack.wrenn.fyi/blog/safety-hygiene/)
 
-* [videa] [FOSDEM 2025 - Rust for Linux](https://fosdem.org/2025/schedule/event/fosdem-2025-6507-rust-for-linux/)
 * [video] [Bevy Meetup#1 - Alice - What the f*** is reflection?](https://www.youtube.com/watch?v=vxPKWb0dSqQ)
 * [video] [The case for sans-io](https://www.youtube.com/watch?v=RYHYiXMJdZI)
 
@@ -62,6 +61,20 @@ and just ask the editors to select the category.
 * [Solving the ABA Problem in Rust with Tagged Pointers](https://minikin.me/blog/solving-the-aba-problem-in-rust-tagged-pointers)
 * [Mix in Rust with Java (or Kotlin!)](https://tweedegolf.nl/en/blog/147/mix-in-rust-with-java-or-kotlin)
 * [How to write DRY code in Rust](https://baarse.substack.com/p/how-to-write-dry-code-in-rust)
+
+### FOSDEM
+* [Rust for Linux](https://fosdem.org/2025/schedule/event/fosdem-2025-6507-rust-for-linux/)
+* [Rewriting the future of the Linux essential packages in Rust ?](https://fosdem.org/2025/schedule/event/fosdem-2025-6196-rewriting-the-future-of-the-linux-essential-packages-in-rust-/)
+* [Writing a kubernetes controller… But in Rust](https://fosdem.org/2025/schedule/event/fosdem-2025-4189-writing-a-kubernetes-controller-but-in-rust/)
+* [Using embedded Rust to build an unattended, battery-powered device](https://fosdem.org/2025/schedule/event/fosdem-2025-6300-using-embedded-rust-to-build-an-unattended-battery-powered-device/)
+* [Augurs: a time series toolkit for Rust](https://fosdem.org/2025/schedule/event/fosdem-2025-4668-augurs-a-time-series-toolkit-for-rust/)
+* [Building a watt-meter esp-rs and a rocket backend](https://fosdem.org/2025/schedule/event/fosdem-2025-5470-building-a-watt-meter-esp-rs-and-a-rocket-backend/)
+* [Huge graph analysis on your own server with WebGraph in Rust](https://fosdem.org/2025/schedule/event/fosdem-2025-4773-huge-graph-analysis-on-your-own-server-with-webgraph-in-rust/)
+* [Bringing terminal aesthetics to the Web with Rust (and vice versa)](https://fosdem.org/2025/schedule/event/fosdem-2025-5496-bringing-terminal-aesthetics-to-the-web-with-rust-and-vice-versa-/)
+* [Abusing reborrowing for fun, profit, and a safepoint garbage collector](https://fosdem.org/2025/schedule/event/fosdem-2025-4394-abusing-reborrowing-for-fun-profit-and-a-safepoint-garbage-collector/)
+* [Lessons from rewriting systems software in Rust](https://fosdem.org/2025/schedule/event/fosdem-2025-5088-lessons-from-rewriting-systems-software-in-rust/)
+* [Rust-ifying the Linux kernel scheduler (in user space)](https://fosdem.org/2025/schedule/event/fosdem-2025-4620-rust-ifying-the-linux-kernel-scheduler-in-user-space-/)
+* [Adventures in oxidizing Arch Linux Package Management](https://fosdem.org/2025/schedule/event/fosdem-2025-6259-adventures-in-oxidizing-arch-linux-package-management/)
 
 ### Research
 
