@@ -191,7 +191,7 @@ Rusty Events between 2025-02-12 - 2025-03-12 🦀
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/300820295)
 * 2025-02-27 | Virtual (Charlottesville, VA, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/events/)
     * [**Parsing command line options with category theory and async**](https://www.meetup.com/charlottesville-rust-meetup/events/305948365)
-* 2025-03-01 | Virtual( Kampala, UG) | [Rust Circle Kampala](https://www.eventbrite.com/o/rust-circle-kampala-65249289033/)
+* 2025-03-01 | Virtual (Kampala, UG) | [Rust Circle Kampala](https://www.eventbrite.com/o/rust-circle-kampala-65249289033/)
     * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-62876317658/)
 * 2025-03-05 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/302031659)
@@ -207,7 +207,7 @@ Rusty Events between 2025-02-12 - 2025-03-12 🦀
 ### Asia
 * 2025-02-24 | Tel Aviv-Yafo, IL | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
     * [**In person Rust February 2025 at AWS in Tel Aviv**](https://www.meetup.com/rust-tlv/events/305570131)
-* 2025-03-01| Bangalore/Bengaluru, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
+* 2025-03-01 | Bangalore/Bengaluru, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**Zig & Rust Meetup**](https://lu.ma/460w8v58)
 
 ### Europe
@@ -239,7 +239,7 @@ Rusty Events between 2025-02-12 - 2025-03-12 🦀
     * [**Technikmuseum Speyer**](https://www.meetup.com/rust-noris/events/305361732/)
 * 2025-03-05 | Barcelona, ES | [BcnRust](https://www.meetup.com/bcnrust/events/)
     * [**17th BcnRust Meetup**](https://www.meetup.com/bcnrust/events/305887675)
-* 2025-03-12 | Reading, 03, GB | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/events/)
+* 2025-03-12 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/events/)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/305045445)
 
 ### North America
