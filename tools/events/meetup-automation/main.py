@@ -4,6 +4,7 @@
 # print to console / output to file formatted markdown
 
 import argparse
+import json
 import logging
 from typing import List
 
@@ -48,8 +49,13 @@ def main():
     # Group by virtual or by continent.
     events = group_virtual_continent(events)
 
-    # Output Sorted Event List.
-    output_to_screen(events)
+    # if json is specified, output as json. Otherwise print in a nice TWIR-formatted way
+    if args.json:
+        # convert our events to a json-friendly format
+        formatted = {continent: [event.to_dict() for event in event_list] for continent, event_list in events.items()}
+        print(json.dumps(formatted))
+    else:
+        output_to_screen(events)
 
 
 def parse_args() -> argparse.Namespace:
@@ -57,6 +63,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("-d", "--debug", action="store_true", dest="debug", help="Enable debug logging")
     parser.add_argument("-g", "--groups", action="store", type=str, dest="groups_file", required=True, help="File with a JSON array of meetup group URLS")
     parser.add_argument("-w", "--weeks", action="store", type=int, dest="weeks", default=5, help="Number of weeks to search for events from, starting next Wednesday")
+    parser.add_argument("-j", "--json", action="store_true", dest="json", help="Output events as JSON rather than TWIR-formatted")
 
     return parser.parse_args()
 
