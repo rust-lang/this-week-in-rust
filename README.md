@@ -82,7 +82,6 @@ These are meant to be guidelines, if you are ever not sure about whether somethi
 
 The editors of This Week in Rust do reserve the right to make the decision about whether to include something or not, but we intend to do so in a way that is as transparent as possible.
 
-
 ## Events
 
 There are further guidelines for the Events Section
