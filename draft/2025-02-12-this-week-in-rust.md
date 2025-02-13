@@ -109,7 +109,18 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A relatively neutral week, with lots of real changes but most small in
+magnitude. Most significant change is rustdoc's move of JS/CSS minification to
+build time which cut doc generation times on most benchmarks fairly
+significantly.
+
+Triage done by **@simulacrum**.
+Revision range: [01e4f19c..c03c38d5](https://perf.rust-lang.org/?start=01e4f19cc8027925ffe0885a86388b700e46bfab&end=c03c38d5c2368cd2aa0e056dba060b94fc747f4e&absolute=false&stat=instructions%3Au)
+
+3 Regressions, 5 Improvements, 1 Mixed; 2 of them in rollups
+32 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2025-02-10.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
