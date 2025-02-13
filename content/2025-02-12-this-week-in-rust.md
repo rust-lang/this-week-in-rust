@@ -52,7 +52,6 @@ and just ask the editors to select the category.
 * [Updating a large codebase to Rust 2024](https://codeandbitters.com/rust-2024-upgrade/)
 * [How I learned to stop worrying and love the LLM](https://smallcultfollowing.com/babysteps/blog/2025/02/10/love-the-llm/)
 * [The Three Basic Rules of Safety Hygiene](https://jack.wrenn.fyi/blog/safety-hygiene/)
-
 * [video] [Bevy Meetup#1 - Alice - What the f*** is reflection?](https://www.youtube.com/watch?v=vxPKWb0dSqQ)
 * [video] [The case for sans-io](https://www.youtube.com/watch?v=RYHYiXMJdZI)
 
@@ -79,10 +78,7 @@ and just ask the editors to select the category.
 * [Lessons from rewriting systems software in Rust](https://fosdem.org/2025/schedule/event/fosdem-2025-5088-lessons-from-rewriting-systems-software-in-rust/)
 * [Rust-ifying the Linux kernel scheduler (in user space)](https://fosdem.org/2025/schedule/event/fosdem-2025-4620-rust-ifying-the-linux-kernel-scheduler-in-user-space-/)
 * [Adventures in oxidizing Arch Linux Package Management](https://fosdem.org/2025/schedule/event/fosdem-2025-6259-adventures-in-oxidizing-arch-linux-package-management/)
-
 * [Modeling Inheritance in SeaORM](https://www.sea-ql.org/blog/2025-01-08-sea-orm-inheritance/)
-
-### Research
 
 ### Miscellaneous
 * [January 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/jan-25)
@@ -124,9 +120,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-<!-- * [ - ]() -->
-<!-- or if none - *No Calls for participation were submitted this week.* -->
+*No Calls for participation were submitted this week.*
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -136,8 +130,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-<!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+*No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -465,7 +458,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1hynsw7/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -481,4 +474,4 @@ Thanks to [scottmcm](https://users.rust-lang.org/t/twir-quote-of-the-week/328/16
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1ioajhc/this_week_in_rust_586_this_week_in_rust/)</small>
