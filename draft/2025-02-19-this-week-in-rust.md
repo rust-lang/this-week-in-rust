@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [derive-deftly 1.0.0 - Rust derive macros, the easy way](https://diziet.dreamwidth.org/19395.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
