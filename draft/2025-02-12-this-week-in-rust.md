@@ -131,7 +131,7 @@ which are reaching a decision. Express your opinions now.
 * [Tracking Issue for `inherent_str_constructors`](https://github.com/rust-lang/rust/issues/131114)
 * [Tracking Issue for `os_str_display`](https://github.com/rust-lang/rust/issues/120048)
 * [Do not allow attributes on struct field rest patterns](https://github.com/rust-lang/rust/pull/136490)
-* [feat(core): impl Step for NonZero<u*>](https://github.com/rust-lang/rust/pull/127534)
+* [feat(core): impl Step for NonZero < u* >](https://github.com/rust-lang/rust/pull/127534)
 * [Future incompatibility warning `unsupported_fn_ptr_calling_conventions`: Also warn in dependencies](https://github.com/rust-lang/rust/pull/135767)
 * [Make Miri aware of leaks of `Box`/`Vec`/`String`](https://github.com/rust-lang/rust/pull/135811)
 * [Tracking Issue for `integer_sign_cast`](https://github.com/rust-lang/rust/issues/125882)
