@@ -198,7 +198,10 @@ Rusty Events between 2025-02-19 - 2025-03-19 🦀
 * 2025-03-06 | Virtual (Nürnberg, DE) | [Rust Nurnberg DE](https://www.meetup.com/rust-noris/)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/300820281/)
 * 2025-03-06 | Virtual (Rotterdam, NL) | [Bevy Game Development](https://www.meetup.com/bevy-game-development/events/)
+www.meetup.com/code-mavens/events/305750365/)
     * [**Bevy Meetup #9**](https://www.meetup.com/bevy-game-development/events/306131557)
+* 2025-03-06 | Virtual (Tel Aviv-Yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/events/)
+    * [**Ratatui - Terminal User Interfaces in Rust with Orhun Parmaksız**](https://
 * 2025-03-11 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/303522529)
 * 2025-03-11 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
