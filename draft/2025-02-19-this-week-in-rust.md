@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [Rust Trends Issue #59](https://rust-trends.com/newsletter/rust-for-scientists-async-closures-if-let-chains/)
 
 ### Project/Tooling Updates
 
@@ -47,6 +48,8 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Rust’s Async Closures: A New Way to Handle Asynchronous Logic.](https://rust-trends.com/posts/rust-s-async-closures/)
+* [Rust’s if/let While Chains: Cleaner Control Flow is Coming!.](https://rust-trends.com/posts/rust-s-if-let-while-chains/)
 
 ## Crate of the Week
 
