@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Rust in Audio: Collections](https://www.youtube.com/watch?v=wFiMtYtHss8&t=11s)
+* [Emjay – a simple JIT that does math](https://andreabergia.com/blog/2025/02/emjay-a-simple-jit-that-does-math/)
 
 ### Research
 
