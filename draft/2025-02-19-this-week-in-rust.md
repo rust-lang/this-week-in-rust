@@ -205,7 +205,7 @@ Rusty Events between 2025-02-19 - 2025-03-19 🦀
     * [**👋 Community Catch Up**](https://www.meetup.com/women-in-rust/events/305716839)
 * 2025-03-18 | Virtual (Tel Aviv-Yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/events/)
     * [**crum: Complex Numbers and Complex Matrices in Rust with Frans Slabber**](https://www.meetup.com/code-mavens/events/305823397/)
-    * 
+
 ### Asia
 * 2025-02-24 | Tel Aviv-Yafo, IL | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
     * [**In person Rust February 2025 at AWS in Tel Aviv**](https://www.meetup.com/rust-tlv/events/305570131)
