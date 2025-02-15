@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [Should I pin my Rust toolchain version?](https://swatinem.de/blog/rust-toolchain/)
+
 ### Rust Walkthroughs
 * [Rust in Audio: Collections](https://www.youtube.com/watch?v=wFiMtYtHss8&t=11s)
 
