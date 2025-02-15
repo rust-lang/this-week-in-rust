@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Rust in Audio: Collections](https://www.youtube.com/watch?v=wFiMtYtHss8&t=11s)
+* [ioctls from Rust](https://blogsystem5.substack.com/p/ioctls-rust)
 
 ### Research
 
