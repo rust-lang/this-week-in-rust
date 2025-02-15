@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [video] [Meet Elusion: New DataFrame Library for Python 🐍 users powered by Rust 🦀  with Borivoj Grujicic](https://www.youtube.com/watch?v=H-GhJIFreHY)
 
 ## Crate of the Week
 
