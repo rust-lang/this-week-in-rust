@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 - [Towards Practical Formal Verification for a General-Purpose OS in Rust](https://asterinas.github.io/2025/02/13/towards-practical-formal-verification-for-a-general-purpose-os-in-rust.html)
+- [A collection of copy-pastable GitHub Actions Workflows](https://github.com/Swatinem/rust-gha-workflows)
 
 ### Observations/Thoughts
 
