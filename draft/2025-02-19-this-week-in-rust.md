@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 - [Towards Practical Formal Verification for a General-Purpose OS in Rust](https://asterinas.github.io/2025/02/13/towards-practical-formal-verification-for-a-general-purpose-os-in-rust.html)
+- [cargo-autodd - A CLI tool to automatically add dependencies to Rust projects](https://github.com/nwiizo/cargo-autodd)  
+  A command-line utility that helps Rust developers automatically add dependencies to their projects by analyzing their code and suggesting relevant crates from crates.io, streamlining the dependency management process.
 
 ### Observations/Thoughts
 
