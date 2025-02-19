@@ -113,7 +113,28 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This week's results were dominated by the update to LLVM 20 ([#135763](https://github.com/rust-lang/rust/pull/135763)),
+which brought a large number of performance improvements, as usually. There were also two other
+significant improvements, caused by improving the representation of `const` values ([#136593](https://github.com/rust-lang/rust/pull/136593)) and doing less work when formatting in `rustdoc` ([#136828](https://github.com/rust-lang/rust/pull/136828)).
+
+Triage done by **@kobzol**.
+
+Revision range: [c03c38d5..ce36a966](https://perf.rust-lang.org/?start=c03c38d5c2368cd2aa0e056dba060b94fc747f4e&end=ce36a966c79e109dabeef7a47fe68e5294c6d71e&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 4.4%  | [0.2%, 35.8%]   | 10    |
+| Regressions ❌ <br /> (secondary)  | 1.2%  | [0.2%, 5.0%]    | 13    |
+| Improvements ✅ <br /> (primary)   | -1.6% | [-10.5%, -0.2%] | 256   |
+| Improvements ✅ <br /> (secondary) | -1.0% | [-4.7%, -0.2%]  | 163   |
+| All ❌✅ (primary)                 | -1.3% | [-10.5%, 35.8%] | 266   |
+
+3 Regressions, 2 Improvements, 4 Mixed; 4 of them in rollups
+50 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/305a70edd98c32a4ea7388561841e5473b4bb153/triage/2025-02-18.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
