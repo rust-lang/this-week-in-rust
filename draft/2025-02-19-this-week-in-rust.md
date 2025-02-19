@@ -30,16 +30,22 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [2024 State of Rust Survey Results](https://blog.rust-lang.org/2025/02/13/2024-State-Of-Rust-Survey-results.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
-
-- [Towards Practical Formal Verification for a General-Purpose OS in Rust](https://asterinas.github.io/2025/02/13/towards-practical-formal-verification-for-a-general-purpose-os-in-rust.html)
+* [Towards Practical Formal Verification for a General-Purpose OS in Rust](https://asterinas.github.io/2025/02/13/towards-practical-formal-verification-for-a-general-purpose-os-in-rust.html)
 
 ### Observations/Thoughts
+* [Macro-Less, Highly Integrated OpenAPI Document Generation in Rust with Ohkami](https://medium.com/@kanarus786/macro-less-highly-integrated-openapi-document-generation-in-rust-with-ohkami-912de388adc1)
+* [Part 6b: The Types of Lowered Rows](https://thunderseethe.dev/posts/lowering-rows-ty/)
+* [eserde: Don't stop at the first deserialization error](https://mainmatter.com/blog/2025/02/13/eserde/)
+* [Smuggling arbitrary data through an emoji](https://paulbutler.org/2025/smuggling-arbitrary-data-through-an-emoji/)
+* [Why I'm Writing a Scheme Implementation in 2025](https://maplant.com/2025-02-17-Why-I'm-Writing-a-Scheme-Implementation-in-2025-(The-Answer-is-Async-Rust).html)
+* [What's in a ring buffer? And using them in Rust](https://ntietz.com/blog/whats-in-a-ring-buffer)
 
 ### Rust Walkthroughs
 * [Rust in Audio: Collections](https://www.youtube.com/watch?v=wFiMtYtHss8&t=11s)
