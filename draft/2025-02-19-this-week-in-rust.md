@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 - [Towards Practical Formal Verification for a General-Purpose OS in Rust](https://asterinas.github.io/2025/02/13/towards-practical-formal-verification-for-a-general-purpose-os-in-rust.html)
 
 ### Observations/Thoughts
+- Scaling PayPay with Rust ([english](https://blog.paypay.ne.jp/en/scaling-paypay-with-rust) / [japanese](https://blog.paypay.ne.jp/scaling-paypay-with-rust))
 
 ### Rust Walkthroughs
 * [Rust in Audio: Collections](https://www.youtube.com/watch?v=wFiMtYtHss8&t=11s)
