@@ -39,7 +39,6 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Towards Practical Formal Verification for a General-Purpose OS in Rust](https://asterinas.github.io/2025/02/13/towards-practical-formal-verification-for-a-general-purpose-os-in-rust.html)
 * [Meilisearch 1.3 - AI-powered search stabilization, remote federated search, and dumpless version upgrades](https://www.meilisearch.com/blog/meilisearch-1-13)
-* [Towards Practical Formal Verification for a General-Purpose OS in Rust](https://asterinas.github.io/2025/02/13/towards-practical-formal-verification-for-a-general-purpose-os-in-rust.html)
 * [Slack Your REST Client with a couple of Serde Tricks](https://ideas.reify.ing/en/blog/rest-client-slack/)
 * [Welcome, Cot: the Rust web framework for lazy developers](https://mackow.ski/blog/cot-the-rust-web-framework-for-lazy-developers/)
 
