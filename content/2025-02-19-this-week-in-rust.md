@@ -32,8 +32,6 @@ and just ask the editors to select the category.
 ### Official
 * [2024 State of Rust Survey Results](https://blog.rust-lang.org/2025/02/13/2024-State-Of-Rust-Survey-results.html)
 
-### Foundation
-
 ### Newsletters
 * [The Embedded Rustacean Issue #39](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-39)
 * [Rust Trends Issue #59](https://rust-trends.com/newsletter/rust-for-scientists-async-closures-if-let-chains/)
@@ -43,7 +41,6 @@ and just ask the editors to select the category.
 * [Meilisearch 1.3 - AI-powered search stabilization, remote federated search, and dumpless version upgrades](https://www.meilisearch.com/blog/meilisearch-1-13)
 * [Slack Your REST Client with a couple of Serde Tricks](https://ideas.reify.ing/en/blog/rest-client-slack/)
 * [Welcome, Cot: the Rust web framework for lazy developers](https://mackow.ski/blog/cot-the-rust-web-framework-for-lazy-developers/)
-
 * [derive-deftly 1.0.0 - Rust derive macros, the easy way](https://diziet.dreamwidth.org/19395.html)
 
 ### Observations/Thoughts
@@ -54,18 +51,14 @@ and just ask the editors to select the category.
 * [Smuggling arbitrary data through an emoji](https://paulbutler.org/2025/smuggling-arbitrary-data-through-an-emoji/)
 * [Why I'm Writing a Scheme Implementation in 2025](https://maplant.com/2025-02-17-Why-I'm-Writing-a-Scheme-Implementation-in-2025-(The-Answer-is-Async-Rust).html)
 * [What's in a ring buffer? And using them in Rust](https://ntietz.com/blog/whats-in-a-ring-buffer)
-
 * [How Rust & Embassy Shine on Embedded Devices (Part 1): Insights for Everyone and Nine Rules for Embedded Programmers](https://medium.com/@carlmkadie/how-rust-embassy-shine-on-embedded-devices-part-1-9f4911c92007)
-
-- [Should I pin my Rust toolchain version?](https://swatinem.de/blog/rust-toolchain/)
+* [Should I pin my Rust toolchain version?](https://swatinem.de/blog/rust-toolchain/)
 
 ### Rust Walkthroughs
 * [Emjay – a simple JIT that does math](https://andreabergia.com/blog/2025/02/emjay-a-simple-jit-that-does-math/)
 * [ioctls from Rust](https://blogsystem5.substack.com/p/ioctls-rust)
 * [A length-indexed Vector in Rust](https://rvarago.github.io/a-length-indexed-vector-in-rust/)
 * [video] [Rust in Audio: Collections](https://www.youtube.com/watch?v=wFiMtYtHss8&t=11s)
-
-### Research
 
 ### Miscellaneous
 * [Rust’s Async Closures: A New Way to Handle Asynchronous Logic.](https://rust-trends.com/posts/rust-s-async-closures/)
@@ -487,7 +480,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1hynsw7/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -503,4 +496,4 @@ Despite a lamentable lack of suggestions, llogiq is properly pleased with his ch
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1itnl16/this_week_in_rust_587/)</small>
