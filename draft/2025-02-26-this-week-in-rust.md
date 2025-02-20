@@ -36,6 +36,8 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+- [🦀 Automating Rust Dependency Management - A Deep Dive into cargo-autodd](https://syu-m-5151.hatenablog.com/entry/2025/02/20/121157)  
+  An in-depth exploration of a command-line tool that enhances Rust development by automating dependency management. The article covers how the tool analyzes code patterns to suggest relevant crates from crates.io, improving developer workflow and project maintenance efficiency.
 
 ### Observations/Thoughts
 
