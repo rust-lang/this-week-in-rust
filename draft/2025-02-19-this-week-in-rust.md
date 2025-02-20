@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 * [Why I'm Writing a Scheme Implementation in 2025](https://maplant.com/2025-02-17-Why-I'm-Writing-a-Scheme-Implementation-in-2025-(The-Answer-is-Async-Rust).html)
 * [What's in a ring buffer? And using them in Rust](https://ntietz.com/blog/whats-in-a-ring-buffer)
 
+* [How Rust & Embassy Shine on Embedded Devices (Part 1): Insights for Everyone and Nine Rules for Embedded Programmers](https://medium.com/@carlmkadie/how-rust-embassy-shine-on-embedded-devices-part-1-9f4911c92007)
+
 ### Rust Walkthroughs
 * [Rust in Audio: Collections](https://www.youtube.com/watch?v=wFiMtYtHss8&t=11s)
 * [A length-indexed Vector in Rust](https://rvarago.github.io/a-length-indexed-vector-in-rust/)
