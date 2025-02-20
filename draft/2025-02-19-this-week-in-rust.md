@@ -355,6 +355,8 @@ Rusty Events between 2025-02-19 - 2025-03-19 🦀
     * [**Bevy Meetup #9**](https://www.meetup.com/bevy-game-development/events/306131557)
 * 2025-03-06 | Virtual (Tel Aviv-Yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/events/)
     * [**Ratatui - Terminal User Interfaces in Rust with Orhun Parmaksız**](https://www.meetup.com/code-mavens/events/305750365/)
+* 2025-03-09 | Virtual (Tel Aviv-Yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/events/)
+    * [**Creating A Mock Blockchain in Rust with Sourav Mishra**](https://www.meetup.com/code-mavens/events/305587087/)
 * 2025-03-11 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/303522529)
 * 2025-03-11 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
@@ -373,7 +375,6 @@ Rusty Events between 2025-02-19 - 2025-03-19 🦀
     * [**Zig & Rust Meetup**](https://lu.ma/460w8v58)
 * 2025-03-19 | Tel Aviv-Yafo, IL | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
     * [**In person Rust March 2025 at Jit in Tel Aviv**](https://www.meetup.com/rust-tlv/events/305697580)
-
 
 ### Europe
 * 2025-02-19 - 2025-02-20 | London, UK | [Rust Nation UK](https://www.rustnationuk.com/)
