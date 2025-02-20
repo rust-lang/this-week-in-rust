@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 * [Slack Your REST Client with a couple of Serde Tricks](https://ideas.reify.ing/en/blog/rest-client-slack/)
 * [Welcome, Cot: the Rust web framework for lazy developers](https://mackow.ski/blog/cot-the-rust-web-framework-for-lazy-developers/)
 
+* [derive-deftly 1.0.0 - Rust derive macros, the easy way](https://diziet.dreamwidth.org/19395.html)
+
 ### Observations/Thoughts
 * Scaling PayPay with Rust ([english](https://blog.paypay.ne.jp/en/scaling-paypay-with-rust) / [japanese](https://blog.paypay.ne.jp/scaling-paypay-with-rust))
 * [Macro-Less, Highly Integrated OpenAPI Document Generation in Rust with Ohkami](https://medium.com/@kanarus786/macro-less-highly-integrated-openapi-document-generation-in-rust-with-ohkami-912de388adc1)
