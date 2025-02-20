@@ -82,6 +82,16 @@ These are meant to be guidelines, if you are ever not sure about whether somethi
 
 The editors of This Week in Rust do reserve the right to make the decision about whether to include something or not, but we intend to do so in a way that is as transparent as possible.
 
+## Events
+
+There are further guidelines for the Events Section
+
+We include:
+* Events/workshops that are free of charge
+
+We do not include:
+* Commercial offerings
+
 ## Link style guidelines:
 
 The link text should be the same as the page's title. If the title seems to need additional context (for example, if the title is "What's New" and should have the project name added), please ask in the PR comments.
