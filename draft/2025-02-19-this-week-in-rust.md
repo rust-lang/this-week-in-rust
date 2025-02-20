@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Rust in Audio: Collections](https://www.youtube.com/watch?v=wFiMtYtHss8&t=11s)
+* [A length-indexed Vector in Rust](https://rvarago.github.io/a-length-indexed-vector-in-rust/)
 
 ### Research
 
