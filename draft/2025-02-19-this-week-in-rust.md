@@ -370,6 +370,8 @@ Rusty Events between 2025-02-19 - 2025-03-19 🦀
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/300820296)
 * 2025-03-18 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/events/)
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/305170694)
+* 2025-03-18 | Virtual (Tel Aviv-Yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/events/)
+    * [**crum: Complex Numbers and Complex Matrices in Rust with Frans Slabber**](https://www.meetup.com/code-mavens/events/305823397/)
 * 2025-03-19 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/events/)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/305470139)
 
