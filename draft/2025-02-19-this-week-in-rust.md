@@ -109,6 +109,7 @@ Are you a new or experienced speaker looking for a place to share something cool
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+* [**NDC Techtown**](https://ndctechtown.com/call-for-papers) | 2025-04-27 | Kongsberg, Norway | 2025-09-22 to 2025-09-25
 
 * [**Scientific Computing in Rust 2025**](https://scientificcomputing.rs/2025/submit-talk)| Closes 2025-05-02 | virtual | Event date: 2025-06-04 to 2025-06-06
 
