@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 
 * [How Rust & Embassy Shine on Embedded Devices (Part 1): Insights for Everyone and Nine Rules for Embedded Programmers](https://medium.com/@carlmkadie/how-rust-embassy-shine-on-embedded-devices-part-1-9f4911c92007)
 
+- [Should I pin my Rust toolchain version?](https://swatinem.de/blog/rust-toolchain/)
+
 ### Rust Walkthroughs
 * [ioctls from Rust](https://blogsystem5.substack.com/p/ioctls-rust)
 * [A length-indexed Vector in Rust](https://rvarago.github.io/a-length-indexed-vector-in-rust/)
