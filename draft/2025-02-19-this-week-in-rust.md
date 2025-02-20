@@ -56,6 +56,7 @@ and just ask the editors to select the category.
 - [Should I pin my Rust toolchain version?](https://swatinem.de/blog/rust-toolchain/)
 
 ### Rust Walkthroughs
+* [Emjay – a simple JIT that does math](https://andreabergia.com/blog/2025/02/emjay-a-simple-jit-that-does-math/)
 * [ioctls from Rust](https://blogsystem5.substack.com/p/ioctls-rust)
 * [A length-indexed Vector in Rust](https://rvarago.github.io/a-length-indexed-vector-in-rust/)
 * [video] [Rust in Audio: Collections](https://www.youtube.com/watch?v=wFiMtYtHss8&t=11s)
