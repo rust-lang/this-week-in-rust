@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 
 
 ### Observations/Thoughts
+* Scaling PayPay with Rust ([english](https://blog.paypay.ne.jp/en/scaling-paypay-with-rust) / [japanese](https://blog.paypay.ne.jp/scaling-paypay-with-rust))
 * [Macro-Less, Highly Integrated OpenAPI Document Generation in Rust with Ohkami](https://medium.com/@kanarus786/macro-less-highly-integrated-openapi-document-generation-in-rust-with-ohkami-912de388adc1)
 * [Part 6b: The Types of Lowered Rows](https://thunderseethe.dev/posts/lowering-rows-ty/)
 * [eserde: Don't stop at the first deserialization error](https://mainmatter.com/blog/2025/02/13/eserde/)
