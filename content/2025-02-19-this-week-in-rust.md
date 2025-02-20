@@ -496,4 +496,4 @@ Despite a lamentable lack of suggestions, llogiq is properly pleased with his ch
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1itnl16/this_week_in_rust_587/)</small>
