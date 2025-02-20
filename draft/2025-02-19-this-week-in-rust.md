@@ -35,6 +35,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #39](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-39)
 * [Rust Trends Issue #59](https://rust-trends.com/newsletter/rust-for-scientists-async-closures-if-let-chains/)
 
 ### Project/Tooling Updates
