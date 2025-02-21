@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [A length-indexed Vector in Rust - Part 2](https://rvarago.github.io/a-length-indexed-vector-in-rust-part-2/)
+
 ### Rust Walkthroughs
 
 ### Research
