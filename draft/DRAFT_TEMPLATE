@@ -106,11 +106,16 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
-
 ### Rust Compiler Performance Triage
 
 <!-- Perf results go here -->
+
+<details>
+<summary>Merged pull requests in the Rust toolchain</summary>
+
+<!-- Rust updates go here -->
+
+</details>
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
