@@ -45,6 +45,15 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+Rustaceans: please suggest projects to feature as part of
+the [GOSIM Rust Spotlight](https://spotlight.gosim.org/)! We
+are looking for many newer and innovative projects to
+present at [Rust Week](https://rustweek.org/) in
+May. Representatives from selected projects will be given an
+all-expenses-paid trip and travel assistance for the event,
+where they will show off their projects' work. [Nominate
+projects here!](https://cfp.gosim.org/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
