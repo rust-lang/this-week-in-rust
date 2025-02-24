@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Epoch Adventures: Breaking Free from ABA in Concurrent Rust](https://minikin.me/blog/epoch-adventures-breaking-free-from-aba-in-concurrent-rust)
 
 ### Research
 
