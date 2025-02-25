@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [zlib-rs is faster than C](https://trifectatech.org/blog/zlib-rs-is-faster-than-c/)
 
 ### Rust Walkthroughs
 
