@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Rust edition 2024 annotated](https://bertptrs.nl/2025/02/23/rust-edition-2024-annotated.html)
+
 ### Research
 
 ### Miscellaneous
