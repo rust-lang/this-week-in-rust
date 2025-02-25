@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [All RustWeek 2025 Speakers Announced](https://rustweek.org/speakers)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
