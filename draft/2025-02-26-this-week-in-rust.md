@@ -39,6 +39,9 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+[How Rust & Embassy Shine on Embedded Devices (Part 2): Insights for Everyone and Nine Rules for Embedded Programmers](https://medium.com/@carlmkadie/how-rust-embassy-shine-on-embedded-devices-part-2-aad1adfccf72)
+
+
 ### Rust Walkthroughs
 
 ### Research
