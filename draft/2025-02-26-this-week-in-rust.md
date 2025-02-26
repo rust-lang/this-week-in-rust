@@ -47,7 +47,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [hiqlite](https://github.com/sebadob/hiqlite/), a database project combining SQLite with OpenRaft to enable high-availability applications with embedded database.
+
+Thanks to [Audun Halland](https://users.rust-lang.org/t/crate-of-the-week/2704/1412) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -106,7 +108,59 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+506 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-02-18..2025-02-25
+
+#### Compiler
+
+* [create a generic AVR target: avr-none](https://github.com/rust-lang/rust/pull/131651)
+* [new attribute parsing infrastructure](https://github.com/rust-lang/rust/pull/135726)
+* [more sophisticated span trimming for suggestions](https://github.com/rust-lang/rust/pull/137348)
+
+#### Library
+
+* stabilise [`os_str_display`](https://github.com/rust-lang/rust/pull/137336),
+  [`(const_)ptr_sub_ptr`](https://github.com/rust-lang/rust/pull/137121),
+  [`const_slice_flatten`](https://github.com/rust-lang/rust/pull/134995),
+  [`file_lock`](https://github.com/rust-lang/rust/pull/136794),
+  [`inherent_str_constructors`](https://github.com/rust-lang/rust/pull/137277),
+  [`num_midpoint_signed`](https://github.com/rust-lang/rust/pull/134340),
+  [`unbounded_shifts`](https://github.com/rust-lang/rust/pull/137393),
+  [`unsigned_is_multiple_of`](https://github.com/rust-lang/rust/pull/137383),
+  [(and const-stabilize) `integer_sign_cast`](https://github.com/rust-lang/rust/pull/137026),
+* [simplify `slice::Iter::next` enough that it inlines](https://github.com/rust-lang/rust/pull/136771)
+* [reduce `Box::default` stack copies in debug mode](https://github.com/rust-lang/rust/pull/136089)
+* [impl `TryFrom<Vec<u8>>` for String](https://github.com/rust-lang/rust/pull/132268)
+* [implement `read_buf` for WASI stdin](https://github.com/rust-lang/rust/pull/137353)
+* [implement feature `isolate_most_least_significant_one` for integer types](https://github.com/rust-lang/rust/pull/136910)
+* [libcore/net: `IpAddr::as_octets()`](https://github.com/rust-lang/rust/pull/136609)
+* [added `into_value` function to `ControlFlow<T, T>`](https://github.com/rust-lang/rust/pull/137495)
+* [windows: use existing wrappers in `File::open_native`](https://github.com/rust-lang/rust/pull/137482)
+
+#### Rustdoc
+
+* [librustdoc: use `pulldown-cmark-escape` for HTML escaping](https://github.com/rust-lang/rust/pull/137285)
+
+#### Clippy
+
+* new lints:
+  [`io_other_error`](https://github.com/rust-lang/rust-clippy/pull/14022),
+  [`owned_cow`](https://github.com/rust-lang/rust-clippy/pull/13948)
+* [`.last()` to `.next_back()` requires a mutable receiver](https://github.com/rust-lang/rust-clippy/pull/14140)
+* [`manual_slice_fill`: do not initialize from the iterator](https://github.com/rust-lang/rust-clippy/pull/14191)
+* [`useless_asref`: add a check for `Clone` before suggesting the use of `.clone()`](https://github.com/rust-lang/rust-clippy/pull/14174)
+* [fix `map_entry` FP on `struct` member](https://github.com/rust-lang/rust-clippy/pull/14151)
+* [fix `too_long_first_doc_paragraph` suggesting wrongly when first line too long](https://github.com/rust-lang/rust-clippy/pull/14276)
+* [add `todo!` & `unimplemented!` to format macros list](https://github.com/rust-lang/rust-clippy/pull/14266)
+* [extend `obfuscated_if_else` to support `{then(), then_some()}.unwrap_or_else()`](https://github.com/rust-lang/rust-clippy/pull/14165)
+
+#### Rust-Analyzer
+
+* [rust-analyzer: feat: calculate drop glue and show it on hover](https://github.com/rust-lang/rust-analyzer/pull/18987)
+* [rust-analyzer: ignore assists with many results if grouping not supported](https://github.com/rust-lang/rust-analyzer/pull/19179)
+* [rust-analyzer: include private items in completions for local crates](https://github.com/rust-lang/rust-analyzer/pull/19211)
+* [rust-analyzer: use correct working directory for non-workspace proc-macro execution](https://github.com/rust-lang/rust-analyzer/pull/19151)
 
 ### Rust Compiler Performance Triage
 
@@ -320,7 +374,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Rust isn't a "silver bullet" that will solve all of our problems, but it
+sure will help in a huge number of places, so for new stuff going
+forward, why wouldn't we want that?
+
+– [Greg Kroah-Hartmann on the Linux Kernel Mailing List](https://lore.kernel.org/rust-for-linux/2025021954-flaccid-pucker-f7d9@gregkh/)
+
+Thanks to [Krishna Sundarram](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1660) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
