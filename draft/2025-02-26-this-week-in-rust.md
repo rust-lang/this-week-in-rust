@@ -38,10 +38,10 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [🦀 Automating Rust Dependency Management - A Deep Dive into cargo-autodd](https://syu-m-5151.hatenablog.com/entry/2025/02/20/121157)  
 * [zlib-rs is faster than C](https://trifectatech.org/blog/zlib-rs-is-faster-than-c/)
 * [This month in Servo: new webview API, relative colors, canvas buffs, and more!](https://servo.org/blog/2025/02/19/this-month-in-servo/)
 * [esp-hal 1.0.0 beta announcement](https://developer.espressif.com/blog/2025/02/rust-esp-hal-beta/)
-
 * [Nyx Space and Rust Power Firefly's Blue Ghost Lunar Landing](https://nyxspace.com/blog/2025/02/21/nyx-space-and-rust-power-fireflys-blue-ghost-lunar-landing/)
 
 ### Observations/Thoughts
