@@ -175,7 +175,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Fairly quiet week with the exception of an improvement to the very often used Iter::next function which can now be inlined leading to a myriad of performance improvements.
+
+Triage done by **@rylev**.
+Revision range: [ce36a966..f5729cfe](https://perf.rust-lang.org/?start=ce36a966c79e109dabeef7a47fe68e5294c6d71e&end=f5729cfed3c45e061e8a443677fc1d5ef9277df7&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.4%  | [0.2%, 1.0%]   | 37    |
+| Regressions ❌ <br /> (secondary)  | 0.7%  | [0.2%, 8.6%]   | 54    |
+| Improvements ✅ <br /> (primary)   | -0.5% | [-1.4%, -0.1%] | 88    |
+| Improvements ✅ <br /> (secondary) | -0.6% | [-2.3%, -0.1%] | 87    |
+| All ❌✅ (primary)                 | -0.2% | [-1.4%, 1.0%]  | 125   |
+
+
+1 Regression, 1 Improvement, 7 Mixed; 2 of them in rollups
+40 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/04e0d759921e6d02eee5f9a10d5592b59e18be49/triage/2025-02-25.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
