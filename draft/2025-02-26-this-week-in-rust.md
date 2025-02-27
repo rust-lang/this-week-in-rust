@@ -30,6 +30,8 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [February 2025 Project Director Update](https://blog.rust-lang.org/inside-rust/2025/02/24/project-director-update.html)
+* [Announcing Rust 1.85.0 and Rust 2024](https://blog.rust-lang.org/2025/02/20/Rust-1.85.0.html)
 
 ### Foundation
 
@@ -37,47 +39,55 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [🦀 Automating Rust Dependency Management - A Deep Dive into cargo-autodd](https://syu-m-5151.hatenablog.com/entry/2025/02/20/121157)  
+* [zlib-rs is faster than C](https://trifectatech.org/blog/zlib-rs-is-faster-than-c/)
+* [This month in Servo: new webview API, relative colors, canvas buffs, and more!](https://servo.org/blog/2025/02/19/this-month-in-servo/)
+* [esp-hal 1.0.0 beta announcement](https://developer.espressif.com/blog/2025/02/rust-esp-hal-beta/)
+* [Nyx Space and Rust Power Firefly's Blue Ghost Lunar Landing](https://nyxspace.com/blog/2025/02/21/nyx-space-and-rust-power-fireflys-blue-ghost-lunar-landing/)
 
 ### Observations/Thoughts
+* [View types redux and abstract fields](https://smallcultfollowing.com/babysteps/blog/2025/02/25/view-types-redux/)
+* [Rust edition 2024 annotated](https://bertptrs.nl/2025/02/23/rust-edition-2024-annotated.html)
+* [A Rustacean's Guide to Embedded World 2025](https://onevariable.com/blog/ew25-guide/)
+* [Demystifying monads in Rust through property-based testing](https://sunshowers.io/posts/monads-through-pbt/)
+* [Tokio + prctl = nasty bug](https://kobzol.github.io/rust/2025/02/23/tokio-plus-prctl-equals-nasty-bug.html)
+* [How Rust & Embassy Shine on Embedded Devices (Part 2): Insights for Everyone and Nine Rules for Embedded Programmers](https://medium.com/@carlmkadie/how-rust-embassy-shine-on-embedded-devices-part-2-aad1adfccf72)
+
+* [A length-indexed Vector in Rust - Part 2](https://rvarago.github.io/a-length-indexed-vector-in-rust-part-2/)
 
 ### Rust Walkthroughs
+* [Epoch Adventures: Breaking Free from ABA in Concurrent Rust](https://minikin.me/blog/epoch-adventures-breaking-free-from-aba-in-concurrent-rust)
+* [Using pgVector with SeaORM in Rust](https://cosminsanda.com/posts/using-pgvector-with-seaorm-in-rust/)
 
 ### Research
 
 ### Miscellaneous
 
+* [All RustWeek 2025 Speakers Announced](https://rustweek.org/speakers)
+
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [hiqlite](https://github.com/sebadob/hiqlite/), a database project combining SQLite with OpenRaft to enable high-availability applications with embedded database.
+
+Thanks to [Audun Halland](https://users.rust-lang.org/t/crate-of-the-week/2704/1412) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
 ## Calls for Testing
-
 An important step for RFC implementation is for people to experiment with the
-implementation and give feedback, especially before stabilization.  The following
-RFCs would benefit from user testing before moving forward:
+implementation and give feedback, especially before stabilization.
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: -->
-<!-- * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
-
-### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
-
-### [Rust](https://github.com/rust-lang/rust/labels/call-for-testing)
-
-### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
-
-If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
-label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+If you are a feature implementer
+and would like your RFC to appear in this list, add a `call-for-testing` label to your RFC along
+with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
+
+* *No calls for testing were issued this week by [Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
+[Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing) or 
+[Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing).*
+
+Let us know if you would like your feature to be tracked as a part of this list.
 
 ## Call for Participation; projects and speakers
 
@@ -107,76 +117,120 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+506 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-02-18..2025-02-25
+
+#### Compiler
+
+* [create a generic AVR target: avr-none](https://github.com/rust-lang/rust/pull/131651)
+* [new attribute parsing infrastructure](https://github.com/rust-lang/rust/pull/135726)
+* [more sophisticated span trimming for suggestions](https://github.com/rust-lang/rust/pull/137348)
+
+#### Library
+
+* stabilise [`os_str_display`](https://github.com/rust-lang/rust/pull/137336),
+  [`(const_)ptr_sub_ptr`](https://github.com/rust-lang/rust/pull/137121),
+  [`const_slice_flatten`](https://github.com/rust-lang/rust/pull/134995),
+  [`file_lock`](https://github.com/rust-lang/rust/pull/136794),
+  [`inherent_str_constructors`](https://github.com/rust-lang/rust/pull/137277),
+  [`num_midpoint_signed`](https://github.com/rust-lang/rust/pull/134340),
+  [`unbounded_shifts`](https://github.com/rust-lang/rust/pull/137393),
+  [`unsigned_is_multiple_of`](https://github.com/rust-lang/rust/pull/137383),
+  [(and const-stabilize) `integer_sign_cast`](https://github.com/rust-lang/rust/pull/137026),
+* [simplify `slice::Iter::next` enough that it inlines](https://github.com/rust-lang/rust/pull/136771)
+* [reduce `Box::default` stack copies in debug mode](https://github.com/rust-lang/rust/pull/136089)
+* [impl `TryFrom<Vec<u8>>` for String](https://github.com/rust-lang/rust/pull/132268)
+* [implement `read_buf` for WASI stdin](https://github.com/rust-lang/rust/pull/137353)
+* [implement feature `isolate_most_least_significant_one` for integer types](https://github.com/rust-lang/rust/pull/136910)
+* [libcore/net: `IpAddr::as_octets()`](https://github.com/rust-lang/rust/pull/136609)
+* [added `into_value` function to `ControlFlow<T, T>`](https://github.com/rust-lang/rust/pull/137495)
+* [windows: use existing wrappers in `File::open_native`](https://github.com/rust-lang/rust/pull/137482)
+
+#### Rustdoc
+
+* [librustdoc: use `pulldown-cmark-escape` for HTML escaping](https://github.com/rust-lang/rust/pull/137285)
+
+#### Clippy
+
+* new lints:
+  [`io_other_error`](https://github.com/rust-lang/rust-clippy/pull/14022),
+  [`owned_cow`](https://github.com/rust-lang/rust-clippy/pull/13948)
+* [`.last()` to `.next_back()` requires a mutable receiver](https://github.com/rust-lang/rust-clippy/pull/14140)
+* [`manual_slice_fill`: do not initialize from the iterator](https://github.com/rust-lang/rust-clippy/pull/14191)
+* [`useless_asref`: add a check for `Clone` before suggesting the use of `.clone()`](https://github.com/rust-lang/rust-clippy/pull/14174)
+* [fix `map_entry` FP on `struct` member](https://github.com/rust-lang/rust-clippy/pull/14151)
+* [fix `too_long_first_doc_paragraph` suggesting wrongly when first line too long](https://github.com/rust-lang/rust-clippy/pull/14276)
+* [add `todo!` & `unimplemented!` to format macros list](https://github.com/rust-lang/rust-clippy/pull/14266)
+* [extend `obfuscated_if_else` to support `{then(), then_some()}.unwrap_or_else()`](https://github.com/rust-lang/rust-clippy/pull/14165)
+
+#### Rust-Analyzer
+
+* [rust-analyzer: feat: calculate drop glue and show it on hover](https://github.com/rust-lang/rust-analyzer/pull/18987)
+* [rust-analyzer: ignore assists with many results if grouping not supported](https://github.com/rust-lang/rust-analyzer/pull/19179)
+* [rust-analyzer: include private items in completions for local crates](https://github.com/rust-lang/rust-analyzer/pull/19211)
+* [rust-analyzer: use correct working directory for non-workspace proc-macro execution](https://github.com/rust-lang/rust-analyzer/pull/19151)
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Fairly quiet week with the exception of an improvement to the very often used Iter::next function which can now be inlined leading to a myriad of performance improvements.
+
+Triage done by **@rylev**.
+Revision range: [ce36a966..f5729cfe](https://perf.rust-lang.org/?start=ce36a966c79e109dabeef7a47fe68e5294c6d71e&end=f5729cfed3c45e061e8a443677fc1d5ef9277df7&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.4%  | [0.2%, 1.0%]   | 37    |
+| Regressions ❌ <br /> (secondary)  | 0.7%  | [0.2%, 8.6%]   | 54    |
+| Improvements ✅ <br /> (primary)   | -0.5% | [-1.4%, -0.1%] | 88    |
+| Improvements ✅ <br /> (secondary) | -0.6% | [-2.3%, -0.1%] | 87    |
+| All ❌✅ (primary)                 | -0.2% | [-1.4%, 1.0%]  | 125   |
+
+
+1 Regression, 1 Improvement, 7 Mixed; 2 of them in rollups
+40 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/04e0d759921e6d02eee5f9a10d5592b59e18be49/triage/2025-02-25.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
-
-### Final Comment Period
-
-Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
-which are reaching a decision. Express your opinions now.
-
-#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
+* [RFC: project goals for 2025h1](https://github.com/rust-lang/rfcs/pull/3764)
 
 #### Tracking Issues & PRs
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: -->
-<!-- * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
-
 ##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* [Make `ptr_cast_add_auto_to_object lint` into hard error](https://github.com/rust-lang/rust/pull/136764)
+* [Tracking Issue for `const_copy_from_slice`](https://github.com/rust-lang/rust/issues/131415)
+* [Tracking Issue for `const_char_classify`](https://github.com/rust-lang/rust/issues/132241)
+* [Allow `*const W<dyn A> -> *const dyn A ptr` cast](https://github.com/rust-lang/rust/pull/136127)
+* [Fix parsing of ranges after unary operators](https://github.com/rust-lang/rust/pull/134900)
+* [Tracking issue for `slice_take`](https://github.com/rust-lang/rust/issues/62280)
+* [Tracking Issue for `box_uninit_write`](https://github.com/rust-lang/rust/issues/129397)
 
-##### [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+#### Other Areas
+* *No Items entered Final Comment Period this week for
+  [Rust RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period),
+  [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc),
+  [Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc+),
+  [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc) or
+  [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc).*
 
-##### [Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc+)
-
-##### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-
-##### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+Let us know if you would like your PRs, Tracking Issues or RFCs to be tracked as a part of this list.
 
 #### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: -->
-<!-- * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+* [RFC: Add additional `inline` intents](https://github.com/rust-lang/rfcs/pull/3778)
+* [RFC: Add "spaceship" operator.](https://github.com/rust-lang/rfcs/pull/3776)
+* [Guarantee slice representation](https://github.com/rust-lang/rfcs/pull/3775)
 
 ## Upcoming Events
 
 Rusty Events between 2025-02-26 - 2025-03-26 🦀
 
 ### Virtual
-* 2025-02-19 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/events/)
-    * [**Pointer Provenance**](https://www.meetup.com/vancouver-rust/events/304051783)
-* 2025-02-20 | Hybrid (Redmond, WA, US) | [Seattle Rust User Group](https://www.meetup.com/join-srug/events/)
-    * [**February, 2025 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/join-srug/events/305658424)
-* 2025-02-21 | Virtual (Jersey City, NJ, US) | [Jersey City Classy and Curious Coders Club Cooperative](https://www.meetup.com/jersey-city-classy-curious-coders-club-cooperative/events/)
-    * [**Rust Coding / Game Dev Fridays Open Mob Session!**](https://www.meetup.com/jersey-city-classy-curious-coders-club-cooperative/events/gvxrntyhcdbcc)
-* 2025-02-25 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
-    * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/305361428)
-* 2025-02-25 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
-    * [**Lunch & Learn: The complicated world of Strings in Rust**](https://www.meetup.com/women-in-rust/events/305716182)
-* 2025-02-25 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/events/)
-    * [**Mid-month Rustful—Everett Pompeii presents Bencher 🐰**](https://www.meetup.com/rustdc/events/305170682)
 * 2025-02-27 | Virtual (US) | [Ardan Labs](https://www.eventbrite.com/o/ardan-labs-7092394651)
     * [**Intro to Rust**](https://www.eventbrite.com/e/intro-to-rust-tickets-1237517059839)
 * 2025-02-27 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
@@ -197,6 +251,8 @@ Rusty Events between 2025-02-26 - 2025-03-26 🦀
     * [**Ratatui - Terminal User Interfaces in Rust with Orhun Parmaksız**](https://www.meetup.com/code-mavens/events/305750365/)
 * 2025-03-09 | Virtual (Tel Aviv-Yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/events/)
     * [**Creating A Mock Blockchain in Rust with Sourav Mishra**](https://www.meetup.com/code-mavens/events/305587087/)
+* 2025-03-09 | Virtual (Tel Aviv-Yafo, IL) | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
+    * [**Becoming a Rust Champion: Leading Your Team to Success with Yoni Peleg**](https://www.meetup.com/rust-tlv/events/306396549)
 * 2025-03-11 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/303522529)
 * 2025-03-11 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
@@ -208,43 +264,39 @@ Rusty Events between 2025-02-26 - 2025-03-26 🦀
 * 2025-03-18 | Virtual (Tel Aviv-Yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/events/)
     * [**crum: Complex Numbers and Complex Matrices in Rust with Frans Slabber**](https://www.meetup.com/code-mavens/events/305823397/)
 * 2025-03-19 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/events/)
-    * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/305470139)
+    * [**Bacon & Performance Benchmarking**](https://www.meetup.com/vancouver-rust/events/305470139)
+* 2025-03-25 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
+    * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/305361431)
+* 2025-03-25 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
+    * [**Lunch & Learn: SKIing into Rust - crafting a simple interpreter**](https://www.meetup.com/women-in-rust/events/305988711)
 
 ### Asia
-* 2025-02-24 | Tel Aviv-Yafo, IL | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
-    * [**In person Rust February 2025 at AWS in Tel Aviv**](https://www.meetup.com/rust-tlv/events/305570131)
 * 2025-03-01 | Bangalore/Bengaluru, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**Zig & Rust Meetup**](https://lu.ma/460w8v58)
 * 2025-03-19 | Tel Aviv-Yafo, IL | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
     * [**In person Rust March 2025 at Jit in Tel Aviv**](https://www.meetup.com/rust-tlv/events/305697580)
 
 ### Europe
-* 2025-02-19 - 2025-02-20 | London, UK | [Rust Nation UK](https://www.rustnationuk.com/)
-    * [**Rust Nation UK 2025**](https://www.rustnationuk.com/)
-* 2025-02-20 | Bern, CH | [Rust Bern](https://www.meetup.com/rust-bern/events/)
-    * [**2025 Rust Talks Bern #1 @Puzzle ITC**](https://www.meetup.com/rust-bern/events/305597994)
-* 2025-02-21 | London, UK | [Rust Global: London 2025](https://rustfoundation.org/event/rust-global-london-2025/)
-    * [**Rust Global: London 2025**](https://rustfoundation.org/event/rust-global-london-2025/)
-* 2025-02-22 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/stockholm-rust/events/)
-    * [**Ferris' Fika Forum #9**](https://www.meetup.com/stockholm-rust/events/305848723)
-* 2025-02-25 | Madrid, ES | [MadRust](https://www.meetup.com/madrust/events/)
-    * [**Rust desde cero: Cargo y tipos**](https://www.meetup.com/madrust/events/305896258)
 * 2025-02-26 | Darmstadt, DE | [Rust Rhein Main](https://www.meetup.com/rust-rhein-main/events/)
     * [**Rust Compiler Tuning**](https://www.meetup.com/rust-rhein-main/events/305990886/)
-2025-02-26 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
+* 2025-02-26 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
     * [**Rust Girona Hack & Learn 03 2025**](https://lu.ma/iwu6mlcj)
+* 2025-02-26 | Vienna, AT | [Rust Vienna](https://www.meetup.com/rust-vienna/events/)
+    * [**Rust Vienna - February | at metalab 🦀**](https://www.meetup.com/rust-vienna/events/306274608)
+* 2025-02-27 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/events/)
+    * [**Rust meetup #55 sponsored by Veo**](https://www.meetup.com/copenhagen-rust-community/events/306262465)
 * 2025-02-27 | Oslo, NO | [Rust Oslo](https://www.meetup.com/rust-oslo/events/)
     * [**Rust Hack'n'Learn at Kampen Bistro**](https://www.meetup.com/rust-oslo/events/305809675)
 * 2025-02-27 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/events/)
     * [**Rust meetup #75**](https://www.meetup.com/rust-paris/events/305791655)
+* 2025-02-28 | London, UK | [London Rust Project Group](https://www.meetup.com/london-rust-project-group/events/)
+    * [**Rust Web Workshop**](https://www.meetup.com/london-rust-project-group/events/306155563)
 * 2025-03-01 | Nürnberg, DE | [Rust Nuremberg](https://www.meetup.com/rust-noris/events/)
     * [**Technikmuseum Speyer**](https://www.meetup.com/rust-noris/events/305361732/)
 * 2025-03-05 | Barcelona, ES | [BcnRust](https://www.meetup.com/bcnrust/events/)
     * [**17th BcnRust Meetup**](https://www.meetup.com/bcnrust/events/305887675)
 * 2025-03-07 | Prague, CZ | [Rust Czech Republic](https://www.meetup.com/rust-czech-republic/events/)
     * [**Rust meetup in Braiins offices**](https://www.meetup.com/rust-czech-republic/events/306237623)
-* 2025-03-12 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/events/)
-    * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/305045445)
 * 2025-03-12 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/events/)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/305045445)
 * 2025-03-13 | Biel, CH | [Rust Bern](https://www.meetup.com/rust-bern/events/)
@@ -257,22 +309,12 @@ Rusty Events between 2025-02-26 - 2025-03-26 🦀
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/303729673)
 
 ### North America
-* 2025-02-20 | Chicago, IL, US | [Chicago Rust Meetup](https://www.meetup.com/chicago-rust-meetup/events/)
-    * [**Rust Happy Hour**](https://www.meetup.com/chicago-rust-meetup/events/306087854)
-* 2025-02-20 | Nashville, TN, US | [Music City Rust Developers](https://www.meetup.com/music-city-rust-developers/events/)
-    * [**Rust Game Development Series 2: Basics of Game Development**](https://www.meetup.com/music-city-rust-developers/events/304333047)
-* 2025-02-20 | Redmond, WA, US | [Seattle Rust User Group](https://www.meetup.com/join-srug/events/)
-    * [**February, 2025 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/join-srug/events/305658424)
-* 2025-02-20 | Spokane, WA, US | [Spokane Rust](https://www.meetup.com/spokane-rust/events/)
-    * [**Monthly Meetup: Celebrating A Year of Spokane Rust**](https://www.meetup.com/spokane-rust/events/306179775)
-* 2025-02-21 | México City, MX | [Rust MX](https://www.meetup.com/rust-mx/events/)
-    * [**Rust y ciencia de datos**](https://www.meetup.com/rust-mx/events/305793010)
-* 2025-02-22 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
-    * [**Somerville Union Square Rust Lunch, Feb 22**](https://www.meetup.com/bostonrust/events/305805059)
 * 2025-02-26 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/events/)
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/xvkdgtyhcdbjc)
 * 2025-02-27 | Atlanta, GA, US | [Rust Atlanta](https://www.meetup.com/rust-atl/events/)
     * [**Starting the meetup again**](https://www.meetup.com/rust-atl/events/305776081)
+* 2025-02-27 | Portland, OR, US | [PDXRust](https://www.meetup.com/pdxrust/events/)
+    * [**Spidering Wikipedia Politely In Async Rust**](https://www.meetup.com/pdxrust/events/306270454)
 * 2025-03-02 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
     * [**Beacon Hill Rust Lunch, Mar 2**](https://www.meetup.com/bostonrust/events/305805164)
 * 2025-03-06 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust/events/)
@@ -280,13 +322,15 @@ Rusty Events between 2025-02-26 - 2025-03-26 🦀
 * 2025-03-10 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
     * [**Davis Square Rust Lunch, Mar 10**](https://www.meetup.com/bostonrust/events/305805192)
 * 2025-03-18 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/events/)
-    * [**Rust Hacking in Person **](https://www.meetup.com/san-francisco-rust-study-group/events/302638264)
+    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/302638264)
+* 2025-03-18 | Spokane, WA, US | [Spokane Rust](https://www.meetup.com/spokane-rust/events/)
+    * [**Monthly Meetup: Topic TBD!**](https://www.meetup.com/spokane-rust/events/306368210)
+* 2025-03-20 | Redmond, WA, US | [Seattle Rust User Group](https://www.meetup.com/join-srug/events/)
+    * [**March, 2025 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/join-srug/events/305658448)
+* 2025-03-26 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/events/)
+    * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/xvkdgtyhcfbjc)
 
 ### Oceania
-* 2025-02-24 | Collingwood, VI, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne/events/)
-    * [**February 2025 Rust Melbourne Meetup**](https://www.meetup.com/rust-melbourne/events/306040785)
-* 2025-02-25 | Barton, AC, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
-    * [**February Meetup**](https://www.meetup.com/rust-canberra/events/306090406)
 * 2025-02-27 | Auckland, NZ | [Rust AKL](https://www.meetup.com/rust-akl/events/)
     * [**Rust:7 Years Maintaining a Commercial Unicode Tool + Peace: Automation Framework**](https://www.meetup.com/rust-akl/events/306198434)
 * 2025-03-04 | Perth, WA, AU | [Rust Perth Meetup Group](https://www.meetup.com/perth-rust-meetup-group/events/)
@@ -295,7 +339,6 @@ Rusty Events between 2025-02-26 - 2025-03-26 🦀
     * [**Christchurch Rust Meetup**](https://www.meetup.com/christchurch-rustlang-meetup-group/events/306262384)
 
 ### South America:
-
 * 2025-03-15 | São Paulo, BR | [Rust São Paulo Meetup](https://www.meetup.com/rust-sao-paulo-meetup/events/)
     * [**Encontro do Rust-SP na CloudWalk**](https://www.meetup.com/rust-sao-paulo-meetup/events/306034427)
 
@@ -321,7 +364,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Rust isn't a "silver bullet" that will solve all of our problems, but it
+sure will help in a huge number of places, so for new stuff going
+forward, why wouldn't we want that?
+
+– [Greg Kroah-Hartmann on the Linux Kernel Mailing List](https://lore.kernel.org/rust-for-linux/2025021954-flaccid-pucker-f7d9@gregkh/)
+
+Thanks to [Krishna Sundarram](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1660) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
