@@ -48,11 +48,10 @@ and just ask the editors to select the category.
 * [A Rustacean's Guide to Embedded World 2025](https://onevariable.com/blog/ew25-guide/)
 * [Demystifying monads in Rust through property-based testing](https://sunshowers.io/posts/monads-through-pbt/)
 * [Tokio + prctl = nasty bug](https://kobzol.github.io/rust/2025/02/23/tokio-plus-prctl-equals-nasty-bug.html)
-
-[How Rust & Embassy Shine on Embedded Devices (Part 2): Insights for Everyone and Nine Rules for Embedded Programmers](https://medium.com/@carlmkadie/how-rust-embassy-shine-on-embedded-devices-part-2-aad1adfccf72)
-
+* [How Rust & Embassy Shine on Embedded Devices (Part 2): Insights for Everyone and Nine Rules for Embedded Programmers](https://medium.com/@carlmkadie/how-rust-embassy-shine-on-embedded-devices-part-2-aad1adfccf72)
 
 ### Rust Walkthroughs
+* [Epoch Adventures: Breaking Free from ABA in Concurrent Rust](https://minikin.me/blog/epoch-adventures-breaking-free-from-aba-in-concurrent-rust)
 * [Using pgVector with SeaORM in Rust](https://cosminsanda.com/posts/using-pgvector-with-seaorm-in-rust/)
 
 ### Research
