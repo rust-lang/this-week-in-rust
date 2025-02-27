@@ -1,4 +1,5 @@
 import logging
+import string
 from dataclasses import dataclass
 from datetime import datetime
 
@@ -11,6 +12,32 @@ class Location:
   city: None | str
   state: None | str
   country: None | str
+
+  def __post_init__(self):
+    """ Normalize our location strings here """
+    if self.city:
+      # capwords does the "heavy lifting" of our formatting here https://docs.python.org/3/library/string.html#string.capwords
+      self.city = string.capwords(self.city)
+    else:
+      self.city = None
+
+    if self.state:
+      self.state = self.state.strip()
+      self.state = self.state.upper()
+    else:
+      self.state = None
+
+    if self.country:
+      self.country = self.country.strip()
+      self.country = self.country.upper()
+    else:
+      self.country = None
+
+    if self.country == "GB":
+      # looks like in GB meetup considers part of the post code as the "state", which is not a common way to write
+      # locations in GB (or that's my understanding at least)
+      self.state = None
+
 
   def fields_present(self) -> int:
     """ Check how many fields are present, used to determine which Location has more information when comparing """
@@ -29,13 +56,13 @@ class Location:
     s = ''
 
     if self.city:
-      s += self.city.lower().capitalize()
+      s += self.city
     if self.state:
       s += ', '
-      s += self.state.upper()
+      s += self.state
     if self.country:
       s += ', '
-      s += self.country.upper()
+      s += self.country
 
     return s
 
@@ -49,6 +76,23 @@ class Event:
   virtual: bool
   organizer_name: str
   organizer_url: str
+
+  def __post_init__(self):
+    """ Normalize the event data here """
+    self.name = self.name.strip()
+    self.organizer_name = self.organizer_name.strip()
+
+  def to_dict(self) -> dict:
+    """ Method for serializing to a dict which can be further serialized to json """
+    return {
+      "name": self.name,
+      "location": self.location.to_str(),
+      "date": self.date.strftime("%Y-%m-%d"),
+      "url": self.url,
+      "virtual": self.virtual,
+      "organizer_name": self.organizer_name,
+      "organizer_url": self.organizer_url
+    }
 
   def to_markdown_string(self) -> str:
     location = f"Virtual ({self.location.to_str()})" if self.virtual else self.location.to_str()
