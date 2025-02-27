@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 * [This month in Servo: new webview API, relative colors, canvas buffs, and more!](https://servo.org/blog/2025/02/19/this-month-in-servo/)
 * [esp-hal 1.0.0 beta announcement](https://developer.espressif.com/blog/2025/02/rust-esp-hal-beta/)
 
+* [Nyx Space and Rust Power Firefly's Blue Ghost Lunar Landing](https://nyxspace.com/blog/2025/02/21/nyx-space-and-rust-power-fireflys-blue-ghost-lunar-landing/)
+
 ### Observations/Thoughts
 * [View types redux and abstract fields](https://smallcultfollowing.com/babysteps/blog/2025/02/25/view-types-redux/)
 * [Rust edition 2024 annotated](https://bertptrs.nl/2025/02/23/rust-edition-2024-annotated.html)
