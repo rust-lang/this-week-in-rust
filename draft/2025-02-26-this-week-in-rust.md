@@ -56,6 +56,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [All RustWeek 2025 Speakers Announced](https://rustweek.org/speakers)
+
 ## Crate of the Week
 
 This week's crate is [hiqlite](https://github.com/sebadob/hiqlite/), a database project combining SQLite with OpenRaft to enable high-availability applications with embedded database.
