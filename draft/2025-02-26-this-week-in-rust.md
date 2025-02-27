@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 * [Tokio + prctl = nasty bug](https://kobzol.github.io/rust/2025/02/23/tokio-plus-prctl-equals-nasty-bug.html)
 * [How Rust & Embassy Shine on Embedded Devices (Part 2): Insights for Everyone and Nine Rules for Embedded Programmers](https://medium.com/@carlmkadie/how-rust-embassy-shine-on-embedded-devices-part-2-aad1adfccf72)
 
+* [A length-indexed Vector in Rust - Part 2](https://rvarago.github.io/a-length-indexed-vector-in-rust-part-2/)
+
 ### Rust Walkthroughs
 * [Epoch Adventures: Breaking Free from ABA in Concurrent Rust](https://minikin.me/blog/epoch-adventures-breaking-free-from-aba-in-concurrent-rust)
 * [Using pgVector with SeaORM in Rust](https://cosminsanda.com/posts/using-pgvector-with-seaorm-in-rust/)
