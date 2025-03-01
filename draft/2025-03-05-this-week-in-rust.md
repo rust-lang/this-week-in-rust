@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [WebSocket crate supporting per-message deflate and zero-copy when possible](https://github.com/infinitefield/yawc)
 
 ### Observations/Thoughts
 
