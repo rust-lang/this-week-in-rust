@@ -39,6 +39,9 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [video] [Rust Under the Hood](https://www.youtube.com/watch?v=L8caNpK3Shs)
+* [video] [9 Rules for Porting Rust to the Browser](https://www.youtube.com/watch?v=i6dahKSnuUg)
+
 ### Rust Walkthroughs
 
 ### Research
