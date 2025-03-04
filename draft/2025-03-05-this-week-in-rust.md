@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Cargo's missing stability guarantees](https://blog.weiznich.de/blog/cargo-instablity/)
+
 ### Rust Walkthroughs
 
 ### Research
