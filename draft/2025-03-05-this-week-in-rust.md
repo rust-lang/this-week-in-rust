@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Maelstrom Clustered Test Runner v0.13: new watch mode and GitHub workflow support](https://maelstrom-software.com/blog/0.13.0/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
