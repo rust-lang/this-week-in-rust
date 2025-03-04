@@ -34,12 +34,14 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [Rust Trends Issue #60](https://rust-trends.com/newsletter/from-dns-servers-to-json-speed-what-s-new-in-rust/)
 
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Building a DNS Server in Rust: Part 1 of 2](https://rust-trends.com/posts/building-a-dns-server-in-rust/)
 
 ### Research
 
