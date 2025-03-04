@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [memberlist 0.6 - gossip protocol for cluster membership management](https://github.com/al8n/memberlist/releases/tag/v0.6)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
