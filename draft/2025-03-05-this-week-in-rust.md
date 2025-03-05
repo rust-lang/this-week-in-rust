@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [video] [Creating a website on GitHub pages with mdBook](https://www.youtube.com/watch?v=x3vF9YiWBMQ)
 
 ## Crate of the Week
 
