@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 * [video] [Rust Under the Hood](https://www.youtube.com/watch?v=L8caNpK3Shs)
 * [video] [9 Rules for Porting Rust to the Browser](https://www.youtube.com/watch?v=i6dahKSnuUg)
 
+* [Cargo's missing stability guarantees](https://blog.weiznich.de/blog/cargo-instablity/)
+
 ### Rust Walkthroughs
 * [The power of interning: making a time series database 2000x smaller in Rust](https://gendignoux.com/blog/2025/03/03/rust-interning-2000x.html)
 * [Building a DNS Server in Rust: Part 1 of 2](https://rust-trends.com/posts/building-a-dns-server-in-rust/)
