@@ -188,6 +188,8 @@ Rusty Events between 2025-03-05 - 2025-04-02 🦀
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/305170694)
 * 2025-03-19 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/events/)
     * [**Bacon & Performance Benchmarking**](https://www.meetup.com/vancouver-rust/events/305470139)
+* 2025-03-20 | Virtual (Tel Aviv-Yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/events/)
+    * [**Rust and embedded programming with Leon Vak (online in English)**](https://www.meetup.com/code-mavens/events/306357728)
 * 2025-03-25 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
     * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/305361431)
 * 2025-03-25 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
@@ -204,8 +206,11 @@ Rusty Events between 2025-03-05 - 2025-04-02 🦀
     * [**The Stages of Error Management**](https://www.meetup.com/johannesburg-rust-meetup/events/306437452)
 
 ### Asia
+* 2025-03-15 | Beijing, CN | [WebAssembly and Rust Meetup (Wasm Empowering AI)](https://www.meetup.com/wasm-rust-meetup/events/)
+    * [**KCD Beijing 2025**](https://www.meetup.com/wasm-rust-meetup/events/303112196)
 * 2025-03-19 | Tel Aviv-Yafo, IL | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
     * [**In person Rust March 2025 at Jit in Tel Aviv**](https://www.meetup.com/rust-tlv/events/305697580)
+
 
 ### Europe
 * 2025-03-05 | Barcelona, ES | [BcnRust](https://www.meetup.com/bcnrust/events/)
@@ -242,6 +247,8 @@ Rusty Events between 2025-03-05 - 2025-04-02 🦀
 ### North America
 * 2025-03-06 | Montréal, QC, CA | [Rust Montréal](https://www.meetup.com/rust-montreal/events/)
     * [**March Monthly Social**](https://www.meetup.com/rust-montreal/events/306518386)
+* 2025-03-06 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
+    * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/306183467)
 * 2025-03-06 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust/events/)
     * [**CRDTs in Rust**](https://www.meetup.com/stl-rust/events/305187783)
 * 2025-03-10 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
@@ -252,6 +259,8 @@ Rusty Events between 2025-03-05 - 2025-04-02 🦀
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/302638264)
 * 2025-03-18 | Spokane, WA, US | [Spokane Rust](https://www.meetup.com/spokane-rust/events/)
     * [**Monthly Meetup: Intro to Rust and Python; Using Rustup, Cargo, and Rust!**](https://www.meetup.com/spokane-rust/events/306368210)
+* 2025-03-20 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
+    * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/306473234)
 * 2025-03-20 | Redmond, WA, US | [Seattle Rust User Group](https://www.meetup.com/join-srug/events/)
     * [**March, 2025 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/join-srug/events/305658448)
 * 2025-03-21 | México City, MX | [Rust MX](https://www.meetup.com/rust-mx/events/)
