@@ -166,7 +166,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-Fairly quiet week with the exception of an improvement to the very often used Iter::next function which can now be inlined leading to a myriad of performance improvements.
+Fairly quiet week with the exception of an improvement to the very often used Iter::next function which can now be inlined in MIR leading to a myriad of performance improvements.
 
 Triage done by **@rylev**.
 Revision range: [ce36a966..f5729cfe](https://perf.rust-lang.org/?start=ce36a966c79e109dabeef7a47fe68e5294c6d71e&end=f5729cfed3c45e061e8a443677fc1d5ef9277df7&absolute=false&stat=instructions%3Au)
