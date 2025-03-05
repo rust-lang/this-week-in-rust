@@ -34,12 +34,14 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #40](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-40)
 
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
-
 * [Some things that make Rust lifetimes hard to learn](https://ntietz.com/blog/rust-lifetimes-learning/)
+* [video] [Rust Under the Hood](https://www.youtube.com/watch?v=L8caNpK3Shs)
+* [video] [9 Rules for Porting Rust to the Browser](https://www.youtube.com/watch?v=i6dahKSnuUg)
 
 ### Rust Walkthroughs
 
@@ -112,7 +114,15 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A pretty quiet week, with minimal changes in performance (positive or negative).
+
+Triage done by **@simulacrum**.
+Revision range: [f5729cfe..daf59857](https://perf.rust-lang.org/?start=f5729cfed3c45e061e8a443677fc1d5ef9277df7&end=daf59857d6d2b87af4b846316bf1561a6083ed51&absolute=false&stat=instructions%3Au)
+
+1 Regressions, 4 Improvements, 1 Mixed; 2 of them in rollups
+29 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2025-03-03.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
