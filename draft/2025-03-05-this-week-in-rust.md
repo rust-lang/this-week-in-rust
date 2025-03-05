@@ -210,7 +210,8 @@ Rusty Events between 2025-03-05 - 2025-04-02 🦀
     * [**KCD Beijing 2025**](https://www.meetup.com/wasm-rust-meetup/events/303112196)
 * 2025-03-19 | Tel Aviv-Yafo, IL | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
     * [**In person Rust March 2025 at Jit in Tel Aviv**](https://www.meetup.com/rust-tlv/events/305697580)
-
+* 2025-03-28 | Kowloon Tong, HK | [Rust Asia](https://www.rustasiaconf.com/)
+    * [**Rust Asia 2025**](https://www.rustasiaconf.com/)
 
 ### Europe
 * 2025-03-05 | Barcelona, ES | [BcnRust](https://www.meetup.com/bcnrust/events/)
@@ -239,6 +240,8 @@ Rusty Events between 2025-03-05 - 2025-04-02 🦀
     * [**Hack Night - Robot Edition**](https://www.meetup.com/rust-aarhus/events/306478352)
 * 2025-03-25 | Eindhoven, NL | [RustNL](https://www.meetup.com/rust-amsterdam/events/)
     * [**Rust x Julia Meetup Eindhoven**](https://www.meetup.com/rust-nederland/events/306434865)
+* 2025-03-26 | Warsaw, PL | [Rustikon](https://www.rustikon.dev/)
+    * [**Rustikon**](https://www.rustikon.dev/)
 * 2025-04-02 | München, DE | [Rust Munich](https://www.meetup.com/rust-munich/events/)
     * [**Rust Munich 2025 / 1 - hybrid**](https://www.meetup.com/rust-munich/events/306097261)
 * 2025-04-02 | Oxford, UK | [Oxford Rust Meetup Group](https://www.meetup.com/oxford-rust-meetup-group/events/)
