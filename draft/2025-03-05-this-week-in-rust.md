@@ -164,16 +164,6 @@ which are reaching a decision. Express your opinions now.
 Rusty Events between 2025-03-05 - 2025-04-02 🦀
 
 ### Virtual
-* 2025-02-27 | Virtual (US) | [Ardan Labs](https://www.eventbrite.com/o/ardan-labs-7092394651)
-    * [**Intro to Rust**](https://www.eventbrite.com/e/intro-to-rust-tickets-1237517059839)
-* 2025-02-27 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
-    * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/300820295)
-* 2025-02-27 | Virtual (Charlottesville, VA, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/events/)
-    * [**Parsing command line options with category theory and async**](https://www.meetup.com/charlottesville-rust-meetup/events/305948365)
-* 2025-03-01 | Virtual (Kampala, UG) | [Rust Circle Kampala](https://www.eventbrite.com/o/rust-circle-kampala-65249289033/)
-    * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-62876317658/)
-* 2025-03-04 | Virtual (Tel Aviv-Yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/events/)
-    * [**Building Integration Libraries and parsing with Winnow in Rust with Kenny Flegal**](https://www.meetup.com/code-mavens/events/305793122/)
 * 2025-03-05 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/302031659)
 * 2025-03-06 | Virtual (Nürnberg, DE) | [Rust Nurnberg DE](https://www.meetup.com/rust-noris/)
@@ -192,10 +182,10 @@ Rusty Events between 2025-03-05 - 2025-04-02 🦀
     * [**👋 Community Catch Up**](https://www.meetup.com/women-in-rust/events/305716839)
 * 2025-03-13 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/300820296)
-* 2025-03-18 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/events/)
-    * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/305170694)
 * 2025-03-18 | Virtual (Tel Aviv-Yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/events/)
     * [**crum: Complex Numbers and Complex Matrices in Rust with Frans Slabber**](https://www.meetup.com/code-mavens/events/305823397/)
+* 2025-03-18 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/events/)
+    * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/305170694)
 * 2025-03-19 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/events/)
     * [**Bacon & Performance Benchmarking**](https://www.meetup.com/vancouver-rust/events/305470139)
 * 2025-03-25 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
@@ -204,28 +194,10 @@ Rusty Events between 2025-03-05 - 2025-04-02 🦀
     * [**Lunch & Learn: SKIing into Rust - crafting a simple interpreter**](https://www.meetup.com/women-in-rust/events/305988711)
 
 ### Asia
-* 2025-03-01 | Bangalore/Bengaluru, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
-    * [**Zig & Rust Meetup**](https://lu.ma/460w8v58)
 * 2025-03-19 | Tel Aviv-Yafo, IL | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
     * [**In person Rust March 2025 at Jit in Tel Aviv**](https://www.meetup.com/rust-tlv/events/305697580)
 
 ### Europe
-* 2025-02-26 | Darmstadt, DE | [Rust Rhein Main](https://www.meetup.com/rust-rhein-main/events/)
-    * [**Rust Compiler Tuning**](https://www.meetup.com/rust-rhein-main/events/305990886/)
-* 2025-02-26 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
-    * [**Rust Girona Hack & Learn 03 2025**](https://lu.ma/iwu6mlcj)
-* 2025-02-26 | Vienna, AT | [Rust Vienna](https://www.meetup.com/rust-vienna/events/)
-    * [**Rust Vienna - February | at metalab 🦀**](https://www.meetup.com/rust-vienna/events/306274608)
-* 2025-02-27 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/events/)
-    * [**Rust meetup #55 sponsored by Veo**](https://www.meetup.com/copenhagen-rust-community/events/306262465)
-* 2025-02-27 | Oslo, NO | [Rust Oslo](https://www.meetup.com/rust-oslo/events/)
-    * [**Rust Hack'n'Learn at Kampen Bistro**](https://www.meetup.com/rust-oslo/events/305809675)
-* 2025-02-27 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/events/)
-    * [**Rust meetup #75**](https://www.meetup.com/rust-paris/events/305791655)
-* 2025-02-28 | London, UK | [London Rust Project Group](https://www.meetup.com/london-rust-project-group/events/)
-    * [**Rust Web Workshop**](https://www.meetup.com/london-rust-project-group/events/306155563)
-* 2025-03-01 | Nürnberg, DE | [Rust Nuremberg](https://www.meetup.com/rust-noris/events/)
-    * [**Technikmuseum Speyer**](https://www.meetup.com/rust-noris/events/305361732/)
 * 2025-03-05 | Barcelona, ES | [BcnRust](https://www.meetup.com/bcnrust/events/)
     * [**17th BcnRust Meetup**](https://www.meetup.com/bcnrust/events/305887675)
 * 2025-03-07 | Prague, CZ | [Rust Czech Republic](https://www.meetup.com/rust-czech-republic/events/)
@@ -233,7 +205,7 @@ Rusty Events between 2025-03-05 - 2025-04-02 🦀
 * 2025-03-12 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/events/)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/305045445)
 * 2025-03-13 | Biel, CH | [Rust Bern](https://www.meetup.com/rust-bern/events/)
-    * [**2025 Rust Talks Bern #2 @ BFH Biel**](https://www.meetup.com/rust-bern/events/306169573) 
+    * [**2025 Rust Talks Bern #2 @ BFH Biel**](https://www.meetup.com/rust-bern/events/306169573)
 * 2025-03-14 | Paris, FR | [Rust in Paris](https://www.rustinparis.com/)
     * [**Rust in Paris 2025**](https://www.rustinparis.com/schedule)
 * 2025-03-18 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel/events/)
@@ -242,14 +214,6 @@ Rusty Events between 2025-03-05 - 2025-04-02 🦀
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/303729673)
 
 ### North America
-* 2025-02-26 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/events/)
-    * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/xvkdgtyhcdbjc)
-* 2025-02-27 | Atlanta, GA, US | [Rust Atlanta](https://www.meetup.com/rust-atl/events/)
-    * [**Starting the meetup again**](https://www.meetup.com/rust-atl/events/305776081)
-* 2025-02-27 | Portland, OR, US | [PDXRust](https://www.meetup.com/pdxrust/events/)
-    * [**Spidering Wikipedia Politely In Async Rust**](https://www.meetup.com/pdxrust/events/306270454)
-* 2025-03-02 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
-    * [**Beacon Hill Rust Lunch, Mar 2**](https://www.meetup.com/bostonrust/events/305805164)
 * 2025-03-06 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust/events/)
     * [**CRDTs in Rust**](https://www.meetup.com/stl-rust/events/305187783)
 * 2025-03-10 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
@@ -264,14 +228,10 @@ Rusty Events between 2025-03-05 - 2025-04-02 🦀
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/xvkdgtyhcfbjc)
 
 ### Oceania
-* 2025-02-27 | Auckland, NZ | [Rust AKL](https://www.meetup.com/rust-akl/events/)
-    * [**Rust:7 Years Maintaining a Commercial Unicode Tool + Peace: Automation Framework**](https://www.meetup.com/rust-akl/events/306198434)
-* 2025-03-04 | Perth, WA, AU | [Rust Perth Meetup Group](https://www.meetup.com/perth-rust-meetup-group/events/)
-    * [**How Orica is using Rust in their workplace**](https://www.meetup.com/perth-rust-meetup-group/events/306131753)
 * 2025-03-11 | Christchurch, NZ | [Christchurch Rust Meetup Group](https://www.meetup.com/christchurch-rustlang-meetup-group/events/)
     * [**Christchurch Rust Meetup**](https://www.meetup.com/christchurch-rustlang-meetup-group/events/306262384)
 
-### South America:
+### South America
 * 2025-03-15 | São Paulo, BR | [Rust São Paulo Meetup](https://www.meetup.com/rust-sao-paulo-meetup/events/)
     * [**Encontro do Rust-SP na CloudWalk**](https://www.meetup.com/rust-sao-paulo-meetup/events/306034427)
 
