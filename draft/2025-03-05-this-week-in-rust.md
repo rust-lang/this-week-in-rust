@@ -55,6 +55,10 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [video] [Creating a website on GitHub pages with mdBook](https://www.youtube.com/watch?v=x3vF9YiWBMQ)
 
+* Please [nominate](https://cfp.gosim.org/spotlight-rust)
+  newer innovative projects for [GOSIM Rust
+  Spotlight](https://spotlight.gosim.org/rust2025) ASAP!
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
