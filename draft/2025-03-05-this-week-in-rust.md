@@ -30,29 +30,42 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Rust participates in Google Summer of Code 2025](https://blog.rust-lang.org/2025/03/03/Rust-participates-in-GSoC-2025.html)
+* [February Project Goals Update](https://blog.rust-lang.org/2025/03/03/Project-Goals-Feb-Update.html)
+* [Announcing Rustup 1.28.0](https://blog.rust-lang.org/2025/03/02/Rustup-1.28.0.html)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust OSDev: February 2025](https://rust-osdev.com/this-month/2025-02/)
 * [Rust Trends Issue #60](https://rust-trends.com/newsletter/from-dns-servers-to-json-speed-what-s-new-in-rust/)
 * [The Embedded Rustacean Issue #40](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-40)
 
 ### Project/Tooling Updates
+* [Announcing Wiremocket: Wiremock For Websockets](https://xd009642.github.io/2025/03/03/announcing-wiremocket-wiremock-for-websockets.html)
+* [A More Modular reqwest](https://seanmonstar.com/blog/modular-reqwest/)
 
 ### Observations/Thoughts
+* [The problem with type aliases](https://blog.polybdenum.com/2025/03/01/the-problem-with-type-aliases.html)
+* [Take a break: Rust match has fallthrough](https://huonw.github.io/blog/2025/03/rust-fallthrough/)
+* [Fast columnar JSON decoding with arrow-rs](https://www.arroyo.dev/blog/fast-arrow-json-decoding)
 * [Some things that make Rust lifetimes hard to learn](https://ntietz.com/blog/rust-lifetimes-learning/)
+* [Performance optimization, and how to do it wrong](https://genna.win/blog/convolution-simd/)
+* [Do not run any Cargo commands on untrusted projects](https://shnatsel.medium.com/do-not-run-any-cargo-commands-on-untrusted-projects-4c31c89a78d6)
+* [Cargo's missing stability guarantees](https://blog.weiznich.de/blog/cargo-instablity/)
 * [video] [Rust Under the Hood](https://www.youtube.com/watch?v=L8caNpK3Shs)
 * [video] [9 Rules for Porting Rust to the Browser](https://www.youtube.com/watch?v=i6dahKSnuUg)
 
-* [Cargo's missing stability guarantees](https://blog.weiznich.de/blog/cargo-instablity/)
-
 ### Rust Walkthroughs
 * [The power of interning: making a time series database 2000x smaller in Rust](https://gendignoux.com/blog/2025/03/03/rust-interning-2000x.html)
+* [Lowering Top Level Items](https://thunderseethe.dev/posts/lowering-items/)
 * [Building a DNS Server in Rust: Part 1 of 2](https://rust-trends.com/posts/building-a-dns-server-in-rust/)
 
 ### Research
 
 ### Miscellaneous
+* [video] [Rust's Global Allocator](https://www.youtube.com/watch?v=TlkDwWGVZKg)
+* [video] [Vulkanised 2025: Shipping a Game with Vulkan and Rust in 100 Days](https://www.youtube.com/watch?v=EB-ARcAnZY4)
 * [video] [Creating a website on GitHub pages with mdBook](https://www.youtube.com/watch?v=x3vF9YiWBMQ)
 
 * Please [nominate](https://cfp.gosim.org/spotlight-rust)
