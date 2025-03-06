@@ -47,7 +47,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [wild](https://crates.io/crates/wild-linker), a pretty fast linker written in Rust.
+
+Thanks to [Mateusz Mikuła](https://users.rust-lang.org/t/crate-of-the-week/2704/1418) for the (sort of self-)suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -106,7 +108,79 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+502 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-02-25..2025-03-04
+
+#### Compiler
+
+* [introduce `feature(generic_const_parameter_types)`](https://github.com/rust-lang/rust/pull/137617)
+* [fix parsing of ranges after unary operators](https://github.com/rust-lang/rust/pull/134900)
+* [implement `#[cfg]` in `where` clauses](https://github.com/rust-lang/rust/pull/132388)
+* [optimize empty provenance range checks](https://github.com/rust-lang/rust/pull/137704)
+
+#### Library
+
+* [add `IntoBounds::intersect` and `RangeBounds::is_empty`](https://github.com/rust-lang/rust/pull/137304)
+* [fix Windows `Command` search path bug](https://github.com/rust-lang/rust/pull/137673)
+* [stabilize `core::str::from_utf8_mut` as `const`](https://github.com/rust-lang/rust/pull/136668)
+* [stabilize `extract_if`](https://github.com/rust-lang/rust/pull/137109)
+* [stabilize `hash_extract_if`](https://github.com/rust-lang/rust/pull/134655)
+
+#### Cargo
+
+* [cargo: add SBOM support](https://github.com/rust-lang/cargo/pull/13709) (RFC [#3553](https://github.com/arlosi/rfcs/blob/sbom/text/3553-cargo-sbom.md))
+* [cargo: cli: forward bash completions of third party subcommands](https://github.com/rust-lang/cargo/pull/15247)
+* [cargo: add completions for `--lockfile-path`](https://github.com/rust-lang/cargo/pull/15238)
+* [cargo: reset $CARGO if the running program is real `cargo[.exe]`](https://github.com/rust-lang/cargo/pull/15208)
+* [cargo: get all members as `available targets` even though default-members was specified](https://github.com/rust-lang/cargo/pull/15199)
+* [cargo: implemented `build.build-dir` config option](https://github.com/rust-lang/cargo/pull/15104)
+
+#### Rustdoc
+
+* [`librustdoc`: return `impl fmt::Display` in more places instead of writing to strings](https://github.com/rust-lang/rust/pull/137425)
+* [fully qualify `Result` in generated doctest code](https://github.com/rust-lang/rust/pull/137807)
+
+#### Rustfmt
+
+* [use `semver` to match required version](https://github.com/rust-lang/rustfmt/pull/6066)
+
+#### Clippy
+
+* new lints: [`manual_midpoint`](https://github.com/rust-lang/rust-clippy/pull/13851),
+  [add `unnecessary_debug_formatting` lint](https://github.com/rust-lang/rust-clippy/pull/13893)
+* [move `comparison_chain` from `style` to `pedantic`](https://github.com/rust-lang/rust-clippy/pull/14219)
+* [`macro_use_import`: Don't check is attribute comes from expansion](https://github.com/rust-lang/rust-clippy/pull/14317)
+* [`manual_strip`: use existing identifier instead of placeholder](https://github.com/rust-lang/rust-clippy/pull/14188)
+* [`needless_collect`: avoid warning if non-iterator methods are used](https://github.com/rust-lang/rust-clippy/pull/14147)
+* [check for MSRV attributes in late passes using the HIR](https://github.com/rust-lang/rust-clippy/pull/13821)
+* [configuration option to lint `incompatible_msrv` in test code](https://github.com/rust-lang/rust-clippy/pull/14279)
+* [extend {`implicit`,`inverted`}`_saturating_sub` to expressions](https://github.com/rust-lang/rust-clippy/pull/14310)
+* [fix ICE in `doc_nested_refdefs` check by checking range](https://github.com/rust-lang/rust-clippy/pull/14308)
+* [fix ICE in `manual_map` lint](https://github.com/rust-lang/rust-clippy/pull/14326)
+* [fix: `map_entry` false positive inside closure](https://github.com/rust-lang/rust-clippy/pull/14307)
+* [fix: `map_entry` suggest wrongly when key is not `Copy`](https://github.com/rust-lang/rust-clippy/pull/14314)
+* [lint more cases with `ptr_eq`](https://github.com/rust-lang/rust-clippy/pull/14339)
+* [split `needless_lifetime '_` suggestions into `elidable_lifetime_names`](https://github.com/rust-lang/rust-clippy/pull/13960)
+
+#### Rust-Analyzer
+
+* [rust-analyzer: add `identifier` to pull diagnostic LSP capabilities](https://github.com/rust-lang/rust-analyzer/pull/19266)
+* [rust-analyzer: add anchor for intra-doc links to associated items](https://github.com/rust-lang/rust-analyzer/pull/19246)
+* [rust-analyzer: add flip or-pattern assist](https://github.com/rust-lang/rust-analyzer/pull/19259)
+* [rust-analyzer: allow "package/feature" format feature flag](https://github.com/rust-lang/rust-analyzer/pull/19204)
+* [rust-analyzer: allow rust-project.json to specify sysroot workspace](https://github.com/rust-lang/rust-analyzer/pull/19096)
+* [rust-analyzer: allow unsetting default cfgs](https://github.com/rust-lang/rust-analyzer/pull/19243)
+* [rust-analyzer: cofigurate out ohos target to avoid compilation crashes](https://github.com/rust-lang/rust-analyzer/pull/19239)
+* [rust-analyzer: completion-ref-matching](https://github.com/rust-lang/rust-analyzer/pull/19226)
+* [rust-analyzer: doc tests](https://github.com/rust-lang/rust-analyzer/pull/19237)
+* [rust-analyzer: doc: remove nit from setup.md](https://github.com/rust-lang/rust-analyzer/pull/19220)
+* [rust-analyzer: fix prefix adjustment hints unnecessarily introducing parens](https://github.com/rust-lang/rust-analyzer/pull/19249)
+* [rust-analyzer: fix sysroot crate-graph construction not mapping crate-ids for proc-macros](https://github.com/rust-lang/rust-analyzer/pull/19241)
+* [rust-analyzer: have `inline_local_variable` use precedence calculation for parentheses](https://github.com/rust-lang/rust-analyzer/pull/19250)
+* [rust-analyzer: remove syntax editing from parenthesis computation](https://github.com/rust-lang/rust-analyzer/pull/19251)
+* [rust-analyzer: support tuple `struct` patterns for `expand_rest_pattern` assist](https://github.com/rust-lang/rust-analyzer/pull/19261)
+* [rust-analyzer: warn when the used toolchain looks too old for rust-analyzer](https://github.com/rust-lang/rust-analyzer/pull/19244)
 
 ### Rust Compiler Performance Triage
 
@@ -297,7 +371,15 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> The performance impact of moving to Rust – and this is a common theme across everything done when we've moved from C/C++ to Rust – we saw a 5 to 15% performance Improvement.
+>
+> I'll say that one of the ways that you could attack that kind of stat is say well you rewrote it so whenever you rewrite something you're going to improve it and if you'd rewritten it in C or C++ you would have also seen an improvement like that but the fact is we did not intend to get a performance Improvement. This was purely a porting exercise and we saw this now.
+>
+> And the other aspect of this is that we never see performance regressions either when we're doing our ports [...]
+
+– [Mark Russinovich at RustNationUK '25'](https://youtu.be/1VgptLwP588?feature=shared&t=414)
+
+Despite lacking suggestions, llogiq is quite pleased with his choice.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
