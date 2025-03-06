@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 * [Announcing Wiremocket: Wiremock For Websockets](https://xd009642.github.io/2025/03/03/announcing-wiremocket-wiremock-for-websockets.html)
 * [A More Modular reqwest](https://seanmonstar.com/blog/modular-reqwest/)
 
+* [memberlist 0.6 - gossip protocol for cluster membership management](https://github.com/al8n/memberlist/releases/tag/v0.6)
+
 ### Observations/Thoughts
 * [The problem with type aliases](https://blog.polybdenum.com/2025/03/01/the-problem-with-type-aliases.html)
 * [Take a break: Rust match has fallthrough](https://huonw.github.io/blog/2025/03/rust-fallthrough/)
