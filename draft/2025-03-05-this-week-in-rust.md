@@ -76,6 +76,8 @@ and just ask the editors to select the category.
   newer innovative projects for [GOSIM Rust
   Spotlight](https://spotlight.gosim.org/rust2025) ASAP!
 
+* [EuroRust 2025 Paris announced](https://eurorust.eu/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
@@ -121,6 +123,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
+[**EuroRust 2025**](https://www.papercall.io/eurorust-2025)| 2025-05-15 | Paris | 2025-10-09–2025-10-10
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
