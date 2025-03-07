@@ -373,6 +373,8 @@ Rusty Events between 2025-03-05 - 2025-04-02 🦀
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/xvkdgtyhcfbjc)
 * 2025-03-27 | Atlanta, GA, US | [Rust Atlanta](https://www.meetup.com/rust-atl/events/)
     * [**We're going again!**](https://www.meetup.com/rust-atl/events/306470345)
+* 2025-03-31 | Boulder, CO, US | [Solid State Depot](https://www.meetup.com/solidstatedepot/?eventOrigin=event_home_page)
+    * [**Boulder Rust: Bryan presents Rusted Hardware**](https://www.meetup.com/solidstatedepot/events/306573447)
 
 ### Oceania
 * 2025-03-11 | Christchurch, NZ | [Christchurch Rust Meetup Group](https://www.meetup.com/christchurch-rustlang-meetup-group/events/)
