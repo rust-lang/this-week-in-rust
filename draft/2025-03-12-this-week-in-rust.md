@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+[Rust Communities/User Groups World Map](https://mamaicode.github.io/rust-communities-map/)
 
 ## Crate of the Week
 
