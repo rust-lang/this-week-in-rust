@@ -34,8 +34,6 @@ and just ask the editors to select the category.
 * [February Project Goals Update](https://blog.rust-lang.org/2025/03/03/Project-Goals-Feb-Update.html)
 * [Announcing Rustup 1.28.0](https://blog.rust-lang.org/2025/03/02/Rustup-1.28.0.html)
 
-### Foundation
-
 ### Newsletters
 * [This Month in Rust OSDev: February 2025](https://rust-osdev.com/this-month/2025-02/)
 * [Rust Trends Issue #60](https://rust-trends.com/newsletter/from-dns-servers-to-json-speed-what-s-new-in-rust/)
@@ -44,11 +42,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Announcing Wiremocket: Wiremock For Websockets](https://xd009642.github.io/2025/03/03/announcing-wiremocket-wiremock-for-websockets.html)
 * [A More Modular reqwest](https://seanmonstar.com/blog/modular-reqwest/)
-
 * [memberlist 0.6 - gossip protocol for cluster membership management](https://github.com/al8n/memberlist/releases/tag/v0.6)
-
 * [Maelstrom Clustered Test Runner v0.13: new watch mode and GitHub workflow support](https://maelstrom-software.com/blog/0.13.0/)
-
 * [Bincode 2.0.0](https://github.com/bincode-org/bincode/releases/tag/v2.0.0)
 
 ### Observations/Thoughts
@@ -67,18 +62,12 @@ and just ask the editors to select the category.
 * [Lowering Top Level Items](https://thunderseethe.dev/posts/lowering-items/)
 * [Building a DNS Server in Rust: Part 1 of 2](https://rust-trends.com/posts/building-a-dns-server-in-rust/)
 
-### Research
-
 ### Miscellaneous
 * [video] [Rust's Global Allocator](https://www.youtube.com/watch?v=TlkDwWGVZKg)
 * [video] [Vulkanised 2025: Shipping a Game with Vulkan and Rust in 100 Days](https://www.youtube.com/watch?v=EB-ARcAnZY4)
 * [video] [Creating a website on GitHub pages with mdBook](https://www.youtube.com/watch?v=x3vF9YiWBMQ)
-
-* Please [nominate](https://cfp.gosim.org/spotlight-rust)
-  newer innovative projects for [GOSIM Rust
-  Spotlight](https://spotlight.gosim.org/rust2025) ASAP!
-
 * [EuroRust 2025 Paris announced](https://eurorust.eu/)
+* Please [nominate](https://cfp.gosim.org/spotlight-rust) newer innovative projects for [GOSIM Rust Spotlight](https://spotlight.gosim.org/rust2025) ASAP!
 
 ## Crate of the Week
 
@@ -117,6 +106,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+*No Calls for participation were submitted this week.*
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -404,7 +394,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1ivrkhs/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -424,4 +414,4 @@ Despite lacking suggestions, llogiq is quite pleased with his choice.
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1j5bpz8/this_week_in_rust_589/)</small>
