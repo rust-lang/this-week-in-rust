@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 * [Maelstrom Clustered Test Runner v0.13: new watch mode and GitHub workflow support](https://maelstrom-software.com/blog/0.13.0/)
 
+* [Bincode 2.0.0](https://github.com/bincode-org/bincode/releases/tag/v2.0.0)
+
 ### Observations/Thoughts
 * [The problem with type aliases](https://blog.polybdenum.com/2025/03/01/the-problem-with-type-aliases.html)
 * [Take a break: Rust match has fallthrough](https://huonw.github.io/blog/2025/03/rust-fallthrough/)
