@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [When is "this trait can be implemented" part of the trait's public API?](https://predr.ag/blog/when-is-trait-can-be-implemented-public-api/)
 
 ### Rust Walkthroughs
 
