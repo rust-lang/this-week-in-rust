@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Create A Web + Desktop Application With Rust](https://medium.com/@otukof/create-a-web-desktop-application-with-rust-c8449f661ecc)
+
 ### Research
 
 ### Miscellaneous
