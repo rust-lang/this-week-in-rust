@@ -45,6 +45,11 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* Deadline extended for
+  [GOSIM Rust Spotlight](https://spotlight.gosim.org/rust2025#deadline-extended)
+  [Nominations](https://cfp.gosim.org/spotlight-rust#deadline-extended) ---
+  please nominate and support your favorite projects by 2025-03-15 at 7:59am UTC!
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
