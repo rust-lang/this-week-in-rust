@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Nine Pico PIO Wats with Rust: Raspberry Pi programmable IO pitfalls illustrated with a musical example (Part 1)](https://towardsdatascience.com/nine-pico-pio-wats-with-rust-part-1-9d062067dc25/)
+
 ### Research
 
 ### Miscellaneous
