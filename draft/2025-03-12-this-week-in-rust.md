@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [tfmcp 🦀: A Rust-Implemented Tool to Operate Terraform from LLMs](https://syu-m-5151.hatenablog.com/entry/2025/03/10/091144) 
 
 ### Observations/Thoughts
 
