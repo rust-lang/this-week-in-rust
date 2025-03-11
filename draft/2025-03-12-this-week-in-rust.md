@@ -110,7 +110,29 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This week we had to merge a lot of large rollups due to many problems with our CI infrastructure,
+which made analysis harder. Even though the aggregated stats look like there were a lot of regressions,
+it is skewed by two large regressions happening on an uncommon optimized incremental build and a
+documentation build of a single crate. The documentation regression is being tracked, and fixes to
+some other regressions are already in progress.
+
+Triage done by **@kobzol**.
+Revision range: [daf59857..9fb94b32](https://perf.rust-lang.org/?start=daf59857d6d2b87af4b846316bf1561a6083ed51&end=9fb94b32df38073bf63d009df77ed10cb1c989d0&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 1.2%  | [0.2%, 58.8%]   | 149   |
+| Regressions ❌ <br /> (secondary)  | 4.2%  | [0.2%, 165.8%]  | 127   |
+| Improvements ✅ <br /> (primary)   | -1.1% | [-14.0%, -0.3%] | 31    |
+| Improvements ✅ <br /> (secondary) | -2.9% | [-38.4%, -0.1%] | 43    |
+| All ❌✅ (primary)                 | 0.8%  | [-14.0%, 58.8%] | 180   |
+
+2 Regressions, 2 Improvements, 5 Mixed; 4 of them in rollups
+37 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/38617ae5d7a849d2f7fc7a712c737768b6ee4a90/triage/2025-03-11.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
