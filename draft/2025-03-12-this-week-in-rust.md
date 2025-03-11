@@ -185,7 +185,7 @@ Rusty Events between 2025-03-12 - 2025-04-09 🦀
 * 2025-03-18 | Virtual (Tel Aviv-Yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/events/)
     * [**crum: Complex Numbers and Complex Matrices in Rust with Frans Slabber**](https://www.meetup.com/code-mavens/events/305823397/)
 * 2025-03-18 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/events/)
-    * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/305170694)
+    * [**Mid-month Rustful—Rust GameDev Basics with Raylib by Tony Bradley**](https://www.meetup.com/rustdc/events/305170694)
 * 2025-03-19 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/events/)
     * [**Bacon & Performance Benchmarking**](https://www.meetup.com/vancouver-rust/events/305470139)
 * 2025-03-20 | Virtual (Tel Aviv-Yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/events/)
