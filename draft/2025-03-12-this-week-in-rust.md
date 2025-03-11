@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+- [When are Rust's const fns executed?](https://felixwrt.dev/posts/const-fn/)
 
 ### Rust Walkthroughs
 
