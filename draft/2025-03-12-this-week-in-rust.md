@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Async Rust for Dummies](https://blog.veeso.dev/blog/en/async-rust-for-dummies/)
+
 ### Research
 
 ### Miscellaneous
