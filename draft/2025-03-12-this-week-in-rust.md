@@ -36,15 +36,30 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [tfmcp 🦀: A Rust-Implemented Tool to Operate Terraform from LLMs](https://syu-m-5151.hatenablog.com/entry/2025/03/10/091144) 
+
+* [What's new in SeaORM 1.1](https://www.sea-ql.org/blog/2025-03-08-whats-new-in-sea-orm-1.1/)
 
 ### Observations/Thoughts
-- [When are Rust's const fns executed?](https://felixwrt.dev/posts/const-fn/)
+* [When are Rust's const fns executed?](https://felixwrt.dev/posts/const-fn/)
+* [When is "this trait can be implemented" part of the trait's public API?](https://predr.ag/blog/when-is-trait-can-be-implemented-public-api/)
 
 ### Rust Walkthroughs
+* [video] [Ratatui - terminal user interfaces in Rust with Orhun Parmaksız - build ratatop in pair programming](https://www.youtube.com/watch?v=OkmYsa25pIw)
+
+* [Nine Pico PIO Wats with Rust: Raspberry Pi programmable IO pitfalls illustrated with a musical example (Part 1)](https://towardsdatascience.com/nine-pico-pio-wats-with-rust-part-1-9d062067dc25/)
+
+* [Video] [Derive Macros: Or, How I Learned to Stop Worrying and Love the proc_macro2::TokenStream](https://www.youtube.com/watch?v=ALZr9BwWHQU&t=1769s)
 
 ### Research
 
 ### Miscellaneous
+[Rust Communities/User Groups World Map](https://mamaicode.github.io/rust-communities-map/)
+
+* Deadline extended for
+  [GOSIM Rust Spotlight](https://spotlight.gosim.org/rust2025#deadline-extended)
+  [Nominations](https://cfp.gosim.org/spotlight-rust#deadline-extended) ---
+  please nominate and support your favorite projects by 2025-03-15 at 7:59am UTC!
 
 ## Crate of the Week
 
@@ -111,7 +126,29 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This week we had to merge a lot of large rollups due to many problems with our CI infrastructure,
+which made analysis harder. Even though the aggregated stats look like there were a lot of regressions,
+it is skewed by two large regressions happening on an uncommon optimized incremental build and a
+documentation build of a single crate. The documentation regression is being tracked, and fixes to
+some other regressions are already in progress.
+
+Triage done by **@kobzol**.
+Revision range: [daf59857..9fb94b32](https://perf.rust-lang.org/?start=daf59857d6d2b87af4b846316bf1561a6083ed51&end=9fb94b32df38073bf63d009df77ed10cb1c989d0&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 1.2%  | [0.2%, 58.8%]   | 149   |
+| Regressions ❌ <br /> (secondary)  | 4.2%  | [0.2%, 165.8%]  | 127   |
+| Improvements ✅ <br /> (primary)   | -1.1% | [-14.0%, -0.3%] | 31    |
+| Improvements ✅ <br /> (secondary) | -2.9% | [-38.4%, -0.1%] | 43    |
+| All ❌✅ (primary)                 | 0.8%  | [-14.0%, 58.8%] | 180   |
+
+2 Regressions, 2 Improvements, 5 Mixed; 4 of them in rollups
+37 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/38617ae5d7a849d2f7fc7a712c737768b6ee4a90/triage/2025-03-11.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -243,6 +280,8 @@ Rusty Events between 2025-03-12 - 2025-04-09 🦀
     * [**Rust x Julia Meetup Eindhoven**](https://www.meetup.com/rust-nederland/events/306434865)
 * 2025-03-26 | Warsaw, PL | [Rustikon](https://www.rustikon.dev/)
     * [**Rustikon**](https://www.rustikon.dev/)
+* 2025-03-26 | Oberursel, DE | [Rust Rhein Main](https://www.meetup.com/rust-rhein-main/)
+    * [**Beyond Blazingly Fast: Performance optimizations in Rust**](https://www.meetup.com/rust-rhein-main/events/306659893/)
 * 2025-03-27 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
     * [**Rust Meetup #12: Testing in Rust**](https://rust-augsburg.github.io/meetup/Meetup_12.html)
 * 2025-04-02 | München, DE | [Rust Munich](https://www.meetup.com/rust-munich/events/)
