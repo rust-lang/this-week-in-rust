@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+[Rust Communities/User Groups World Map](https://mamaicode.github.io/rust-communities-map/)
 
 * Deadline extended for
   [GOSIM Rust Spotlight](https://spotlight.gosim.org/rust2025#deadline-extended)
