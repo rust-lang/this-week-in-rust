@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [video] [Ratatui - terminal user interfaces in Rust with Orhun Parmaksız - build ratatop in pair programming](https://www.youtube.com/watch?v=OkmYsa25pIw)
 
 ### Research
 
