@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 
 * [Nine Pico PIO Wats with Rust: Raspberry Pi programmable IO pitfalls illustrated with a musical example (Part 1)](https://towardsdatascience.com/nine-pico-pio-wats-with-rust-part-1-9d062067dc25/)
 
+* [Video] [Derive Macros: Or, How I Learned to Stop Worrying and Love the proc_macro2::TokenStream](https://www.youtube.com/watch?v=ALZr9BwWHQU&t=1769s)
+
 ### Research
 
 ### Miscellaneous
