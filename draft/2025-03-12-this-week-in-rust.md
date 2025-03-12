@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [video] [Ratatui - terminal user interfaces in Rust with Orhun Parmaksız - build ratatop in pair programming](https://www.youtube.com/watch?v=OkmYsa25pIw)
 
+* [Nine Pico PIO Wats with Rust: Raspberry Pi programmable IO pitfalls illustrated with a musical example (Part 1)](https://towardsdatascience.com/nine-pico-pio-wats-with-rust-part-1-9d062067dc25/)
+
 ### Research
 
 ### Miscellaneous
