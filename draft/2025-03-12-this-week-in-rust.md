@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 * [What's new in SeaORM 1.1](https://www.sea-ql.org/blog/2025-03-08-whats-new-in-sea-orm-1.1/)
 
 ### Observations/Thoughts
+* [When are Rust's const fns executed?](https://felixwrt.dev/posts/const-fn/)
 * [When is "this trait can be implemented" part of the trait's public API?](https://predr.ag/blog/when-is-trait-can-be-implemented-public-api/)
 
 ### Rust Walkthroughs
