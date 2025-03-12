@@ -257,6 +257,8 @@ Rusty Events between 2025-03-12 - 2025-04-09 🦀
     * [**Rust x Julia Meetup Eindhoven**](https://www.meetup.com/rust-nederland/events/306434865)
 * 2025-03-26 | Warsaw, PL | [Rustikon](https://www.rustikon.dev/)
     * [**Rustikon**](https://www.rustikon.dev/)
+* 2025-03-26 | Oberursel, DE | [Rust Rhein Main](https://www.meetup.com/rust-rhein-main/)
+    * [**Beyond Blazingly Fast: Performance optimizations in Rust**](https://www.meetup.com/rust-rhein-main/events/306659893/)
 * 2025-03-27 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
     * [**Rust Meetup #12: Testing in Rust**](https://rust-augsburg.github.io/meetup/Meetup_12.html)
 * 2025-04-02 | München, DE | [Rust Munich](https://www.meetup.com/rust-munich/events/)
