@@ -38,28 +38,37 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.91.1](https://blog.rust-lang.org/2025/11/10/Rust-1.91.1/)
 
 ### Foundation
 
 ### Newsletters
 * [The Embedded Rustacean Issue #58](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-58)
+* [This Month in Rust OSDev: October 2025](https://rust-osdev.com/this-month/2025-10/)
 
 ### Project/Tooling Updates
 * [channels-console - real-time monitoring, metrics and logs for Rust channels](https://github.com/pawurb/channels-console)
 * [qstr: Cache-efficient, stack-allocated string types](https://github.com/tindzk/qstr)
+* [Announcing Magika 1.0: now faster, smarter, and rebuilt in Rust](https://opensource.googleblog.com/2025/11/announcing-magika-10-now-faster-smarter.html?m=1)
 * [Tokuin 0.1.2: Load Testing LLMs from the Terminal](https://noos.blog/posts/tokuin-token-tooling-for-llm-builders/)
 * [semver-query: semantic versioning data query tool](https://github.com/zak905/semver-query)
 * [SeaORM 2.0: Strongly-Typed Column](https://www.sea-ql.org/blog/2025-11-11-sea-orm-2.0/)
 
 ### Observations/Thoughts
+* [Just call clone (or alias)](https://smallcultfollowing.com/babysteps/blog/2025/11/10/just-call-clone/)
+* [Engineering a Rust optimization quiz](https://fasterthanli.me/articles/engineering-a-rust-optimization-quiz)
+* [video] [A Quick Start to Rust Lang](https://www.youtube.com/watch?v=fTXtdbt1PFA)
+* [video] [Rust & JavaScript - Jakob Meier - Rust Zürisee November 2024](https://www.youtube.com/watch?v=MEHi7FZjSYw)
 * [audio] [Netstack.FM Episode 13 – Inside Ping Proxies with Joseph Dye](https://netstack.fm/#episode-13)
 
 ### Rust Walkthroughs
+* [Reproachfully Presenting Resilient Recursive Descent Parsing](https://thunderseethe.dev/posts/parser-base/)
 * [Rust Hashing Cheat Sheet](https://bd103.github.io/blog/2025-11-10-rust-hashing-cheat-sheet/)
 
 ### Research
 
 ### Miscellaneous
+* [Memory Safety for Skeptics](https://queue.acm.org/detail.cfm?id=3773095)
 
 
 ## Crate of the Week
