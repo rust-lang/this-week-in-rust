@@ -33,25 +33,42 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-
-* [Rust Compiler Performance Survey 2025](https://blog.rust-lang.org/2025/06/16/rust-compiler-performance-survey-2025/)
+* [Rust compiler performance survey 2025](https://blog.rust-lang.org/2025/06/16/rust-compiler-performance-survey-2025/)
+* [June 2025 Leadership Council Update | Inside Rust Blog](https://blog.rust-lang.org/inside-rust/2025/06/11/leadership-council-update/)
 
 ### Foundation
+* [Announcing the RustConf 2025 Speaker Lineup](https://rustfoundation.org/media/announcing-the-rustconf-2025-speaker-lineup/)
 
 ### Newsletters
+* [This Month in Rust OSDev: May 2025](https://rust-osdev.com/this-month/2025-05/)
 
 ### Project/Tooling Updates
+* [rust-analyzer changelog #290](https://rust-analyzer.github.io/thisweek/2025/06/16/changelog-290.html)
+* [Linebender in May 2025](https://linebender.org/blog/tmil-17/)
+* [bzip2 crate switches from C to 100% rust](https://trifectatech.org/blog/bzip2-crate-switches-from-c-to-rust/)
+* [Hypershell: A Type-Level DSL for Shell-Scripting in Rust](https://contextgeneric.dev/blog/hypershell-release/)
 * [Slint 1.12 Released with WGPU Support, iOS Port, and Figma Variables Integration](https://slint.dev/blog/slint-1.12-released)
 * [Glues v0.7.0 – TUI Note-Taking App with a New Theme Engine & Color Palettes](https://github.com/gluesql/glues/releases/tag/v0.7.0)
 
 ### Observations/Thoughts
+* [retrobootstrapping rust for some reason](https://graydon2.dreamwidth.org/317484.html)
+* [The plight of the misunderstood memory ordering](https://www.grayolson.me/blog/posts/misunderstood-memory-ordering/)
+* [video] [sans-io: meh](https://sdr-podcast.com/episodes/sans-io/)
+* [video] [Guillaume Gomez - Rustdoc as a case study of developer tooling](https://timclicks.dev/podcast/guillaume-gomez-rustdoc)
+* [video] [10th Bevy Meetup - Tristan - From zero to demo: a newcomer's experience learning Bevy](https://www.youtube.com/watch?v=_FIDuLV0ZsA)
+* [audio] [Tembo with Adam Hendel](https://corrode.dev/podcast/s04e05-tembo/)
+* [audio] [Rust at Work - conversation with Eli Shalom and Igal Tabachnik of Eureka Labs](https://rustacean-station.org/episode/eli-shalom-and-igal-tabachnik/)
 
 ### Rust Walkthroughs
+* [Putting seat calculations in Dutch election software to the (fuzz) test](https://tweedegolf.nl/en/blog/156/putting-seat-calculations-in-dutch-election-software-to-the-fuzz-test)
+* [Datalog in Rust](https://github.com/frankmcsherry/blog/blob/master/posts/2025-06-03.md)
+* [video] [Driving an LED matrix using async embedded Rust - moxi Ep2](https://www.youtube.com/watch?v=uZDcWA8cCsw)
 
 ### Research
+* [Asterinas: A Linux ABI-Compatible, Rust-Based Framekernel OS with a Small and Sound TCB](https://arxiv.org/abs/2506.03876)
 
 ### Miscellaneous
-* [bzip2 crate switches from C to 100% rust](https://trifectatech.org/blog/bzip2-crate-switches-from-c-to-rust/)
+* [Making GNOME’s GdkPixbuf Image Loading Safer](https://blogs.gnome.org/sophieh/2025/06/13/making-gnomes-gdkpixbuf-image-loading-safer/)
 * [May 2025 Jobs Report](https://filtra.io/rust/jobs-report/may-25)
 
 ## Crate of the Week
