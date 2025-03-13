@@ -30,29 +30,41 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing rustup 1.28.1](https://blog.rust-lang.org/2025/03/04/Rustup-1.28.1.html)
+* [Inferred const generic arguments: Call for Testing!](https://blog.rust-lang.org/inside-rust/2025/03/05/inferred-const-generic-arguments.html)
+* [This Month in Our Test Infra: January and February 2025](https://blog.rust-lang.org/inside-rust/2025/03/11/test-infra-jan-feb-2025.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
-* [tfmcp 🦀: A Rust-Implemented Tool to Operate Terraform from LLMs](https://syu-m-5151.hatenablog.com/entry/2025/03/10/091144) 
-
+* [Native Git support in Zed - Zed Blog](https://zed.dev/blog/git)
+* [tfmcp 🦀: A Rust-Implemented Tool to Operate Terraform from LLMs](https://syu-m-5151.hatenablog.com/entry/2025/03/10/091144)
 * [What's new in SeaORM 1.1](https://www.sea-ql.org/blog/2025-03-08-whats-new-in-sea-orm-1.1/)
 
 ### Observations/Thoughts
-* [Translating bzip2 with c2rust](https://trifectatech.org/blog/translating-bzip2-with-c2rust/)
-* [When are Rust's const fns executed?](https://felixwrt.dev/posts/const-fn/)
+* [Rust in 2025: Targeting foundational software](https://smallcultfollowing.com/babysteps/blog/2025/03/10/rust-2025-intro/)
+* [A Happy Day for Rust](https://steveklabnik.com/writing/a-happy-day-for-rust/)
+* [Rust Learning Resources 2025](https://corrode.dev/blog/rust-learning-resources-2025/)
+* [Taming A Voracious Rust Proxy](https://fly.io/blog/taming-rust-proxy/)
+* [Succinct data structures](https://blog.startifact.com/posts/succinct/)
 * [When is "this trait can be implemented" part of the trait's public API?](https://predr.ag/blog/when-is-trait-can-be-implemented-public-api/)
+* [When are Rust's const fns executed?](https://felixwrt.dev/posts/const-fn/)
+* [Rust trait object layout](https://neugierig.org/software/blog/2025/03/trait-object-layout.html)
+* [The Art of Formatting Code](https://mcyoung.xyz/2025/03/11/formatters/)
+* [video] [Rust is the New C](https://www.youtube.com/watch?v=3e-nauaCkgo)
+* [audio] [Rust with Guillaume Gomez](https://rustacean-station.org/episode/guillaume-gomez/)
 
 ### Rust Walkthroughs
-* [video] [Ratatui - terminal user interfaces in Rust with Orhun Parmaksız - build ratatop in pair programming](https://www.youtube.com/watch?v=OkmYsa25pIw)
-
+* [Writing into uninitialized buffers in Rust](https://blog.sunfishcode.online/writingintouninitializedbuffersinrust/)
+* [Translating bzip2 with c2rust](https://trifectatech.org/blog/translating-bzip2-with-c2rust/)
 * [Nine Pico PIO Wats with Rust: Raspberry Pi programmable IO pitfalls illustrated with a musical example (Part 1)](https://towardsdatascience.com/nine-pico-pio-wats-with-rust-part-1-9d062067dc25/)
-
-* [Video] [Derive Macros: Or, How I Learned to Stop Worrying and Love the proc_macro2::TokenStream](https://www.youtube.com/watch?v=ALZr9BwWHQU&t=1769s)
-
 * [Async Rust for Dummies](https://blog.veeso.dev/blog/en/async-rust-for-dummies/)
+* [How we built our 2025 Embedded World Demos](https://ferrous-systems.com/blog/embedded-world-2025-demos/)
+* [video] [Ratatui - terminal user interfaces in Rust with Orhun Parmaksız - build ratatop in pair programming](https://www.youtube.com/watch?v=OkmYsa25pIw)
+* [video] [Derive Macros: Or, How I Learned to Stop Worrying and Love the proc_macro2::TokenStream](https://www.youtube.com/watch?v=ALZr9BwWHQU&t=1769s)
+* [video] [Porting the guff plot device to Rust](https://www.youtube.com/watch?v=bbWcGAOsbIE)
 
 ### Research
 
