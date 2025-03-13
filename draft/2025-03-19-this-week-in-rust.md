@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing AIScript and How I Built It](https://aiscript.dev/blog/announcing-aiscript)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
