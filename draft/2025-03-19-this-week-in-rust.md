@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Why Yōzefu?](https://mcdostone.github.io/articles/why-yozefu/)
 
 ### Observations/Thoughts
 
