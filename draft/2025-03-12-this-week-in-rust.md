@@ -199,6 +199,8 @@ Rusty Events between 2025-03-12 - 2025-04-09 🦀
     * [**Buffalo Rust User Group**](https://www.meetup.com/buffalo-rust-meetup/events/305304228)
 * 2025-04-02 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/302031661)
+* 2025-04-03 | Virtual (Nürnberg, DE) | [Rust Nurnberg DE](https://www.meetup.com/rust-noris/)
+    * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/300820282/)
 * 2025-04-08 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/303522530)
 
@@ -263,6 +265,8 @@ Rusty Events between 2025-03-12 - 2025-04-09 🦀
     * [**Monthly Meetup: Intro to Rust and Python; Using Rustup, Cargo, and Rust!**](https://www.meetup.com/spokane-rust/events/306368210)
 * 2025-03-20 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
     * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/306473234)
+* 2025-03-20 | Nashville, TN, US | [Music City Rust Developers](https://www.meetup.com/music-city-rust-developers/events/)
+    * [**Rust Game Development Series 3: Community Presentations**](https://www.meetup.com/music-city-rust-developers/events/304333074/)
 * 2025-03-20 | Redmond, WA, US | [Seattle Rust User Group](https://www.meetup.com/join-srug/events/)
     * [**March, 2025 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/join-srug/events/305658448)
 * 2025-03-21 | México City, MX | [Rust MX](https://www.meetup.com/rust-mx/events/)
@@ -273,6 +277,8 @@ Rusty Events between 2025-03-12 - 2025-04-09 🦀
     * [**We're going again!**](https://www.meetup.com/rust-atl/events/306470345)
 * 2025-03-31 | Boulder, CO, US | [Solid State Depot](https://www.meetup.com/solidstatedepot/events/)
     * [**Boulder Rust: Bryan presents Rusted Hardware**](https://www.meetup.com/solidstatedepot/events/306573447)
+* 2025-04-03 | Montréal, QC, CA | [Rust Montréal](https://www.meetup.com/rust-montreal/events/)
+    * [**April Monthly Social**](https://www.meetup.com/rust-montreal/events/306518514/)
 * 2025-04-03 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust/events/)
     * [**icu4x - resource-constrained internationalization (i18n)**](https://www.meetup.com/stl-rust/events/304890140)
 
