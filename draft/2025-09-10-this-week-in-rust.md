@@ -38,21 +38,24 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-
+* [Crossing the streams: Project + Foundation](https://blog.rust-lang.org/inside-rust/2025/09/04/crossing-the-streams/)
 * [Rust compiler performance survey 2025 results](https://blog.rust-lang.org/2025/09/10/rust-compiler-performance-survey-2025-results/)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust OSDev: August 2025](https://rust-osdev.com/this-month/2025-08/)
 
 ### Project/Tooling Updates
-* [Improving state machine code generation](https://trifectatech.org/blog/improving-state-machine-code-generation/)
 * [Rust Automod VSCode Extension - Automates creation and management of `mod.rs` files](https://marketplace.visualstudio.com/items?itemName=drkryz.rustautomod)
-
 * [Now available: Rust SDK for Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/now-available-rust-sdk-for-google-cloud/)
 
 ### Observations/Thoughts
 * [Protecting Rust against supply chain attacks](https://kerkour.com/rust-supply-chain-attacks)
+* [The unreasonable effectiveness of modern sort algorithms](https://github.com/Voultapher/sort-research-rs/blob/main/writeup/unreasonable/text.md)
+* [Improving state machine code generation](https://trifectatech.org/blog/improving-state-machine-code-generation/)
+* [video] [How Rust won: the quest for performant, reliable software](https://www.youtube.com/watch?v=k_-6KI3m31M)
+* [video] [Rust for Everyone!](https://www.youtube.com/watch?v=R0dP-QR5wQo)
 
 ### Rust Walkthroughs
 * [Axum Backend Series - Introduction](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-introduction/)
