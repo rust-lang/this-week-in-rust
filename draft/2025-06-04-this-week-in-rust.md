@@ -33,27 +33,45 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing five new members of the compiler team](https://blog.rust-lang.org/inside-rust/2025/05/30/compiler-team-new-members/)
+* [Redesigning the Initial Bootstrap Sequence](https://blog.rust-lang.org/inside-rust/2025/05/29/redesigning-the-initial-bootstrap-sequence/)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [ICU4X 2.0 released!](https://blog.unicode.org/2025/05/icu4x-20-released.html)
+* [Freya 0.3](https://freyaui.dev/posts/0.3)
+* [godot-rust May 2025 dev update](https://godot-rust.github.io/dev/may-2025-update/)
 * [What's new in SeaORM 1.1.12](https://www.sea-ql.org/blog/2025-06-01-whats-new-in-sea-orm-1.1/)
-* [git-cliff 2.9.0 is released!](https://git-cliff.org/blog/2.9.0)
+* [git-cliff 2.9.0 is released!](https://git-cliff.org/blog/2.9.0/)
 * [Ratatui's "Rat in the Wild" Challenge](https://github.com/ratatui/ratatui/discussions/1886)
+* [rust-analyzer changelog #288](https://rust-analyzer.github.io/thisweek/2025/06/02/changelog-288.html)
 
 ### Observations/Thoughts
+* [parking_lot: ffffffffffffffff...](https://fly.io/blog/parking-lot-ffffffffffffffff/)
+* [How to deal with Rust dependencies](https://notgull.net/rust-dependencies/)
 * [In Praise of Shuttle: Oxidizing the Capibara Web API](https://justinwoodring.com/blog/rewriting-the-capibara-web-api-in-rust/)
 * [Reducing Cargo target directory size with -Zno-embed-metadata](https://kobzol.github.io/rust/rustc/2025/06/02/reduce-cargo-target-dir-size-with-z-no-embed-metadata.html)
 * [Designing Error Types in Rust Libraries](https://d34dl0ck.me/rust-bites-designing-error-types-in-rust-libraries/index.html)
-* [How we wrap external C and C++ libraries in Rust](https://www.evolvebenchmark.com/blog-posts/how-we-wrap-external-c-and-cpp-libraries-in-rust)
+* [Why Use Structured Errors in Rust Applications?](https://home.expurple.me/posts/why-use-structured-errors-in-rust-applications/)
+* [video] [The virtue of unsynn](https://www.youtube.com/watch?v=YtbUzIQw-so)
+* [audio] [Proxying is just dumb routing](https://sdr-podcast.com/episodes/proxying-is-just-dumb-routing/)
+* [audio] [David Lattimore - Faster Linker, Faster Builds](https://timclicks.dev/podcast/david-lattimore-faster-linker-faster-builds)
+* [audio] [Rust with Niko Matsakis](https://corrode.dev/podcast/s04e04-rust/)
+* [audio] [SWC with DongYoon Kang](https://rustacean-station.org/episode/dongyoon-kang/)
+* [audio] [AccessKit with Matt Campbell and Arnold Loubriat](https://rustacean-station.org/episode/accesskit-with-matt-campbell-and-arnold-loubriat/)
 
 ### Rust Walkthroughs
-
+* [C++ to Rust Phrasebook](https://cel.cs.brown.edu/crp/)
+* [Async Traits Can Be Directly Backed By Manual Future Impls](https://blog.yoshuawuyts.com/async-traits-can-be-directly-backed-by-manual-future-impls/)
+* [How we structure our build.rs in Rust](https://www.evolvebenchmark.com/blog-posts/how-we-wrap-external-c-and-cpp-libraries-in-rust)
+* [video] [Start a new Bevy 2d Game with the Bevy CLI](https://www.youtube.com/watch?v=ez4oGeM3X2o)
 * [video] [Build with Naz : Parse non-slice input with nom](https://www.youtube.com/watch?v=3IzAweJGdZU)
 
 ### Research
+* [A first look at ROS 2 applications written in asynchronous Rust](https://arxiv.org/abs/2505.21323)
 
 ### Miscellaneous
 * [Rethinking Data Streaming With Rust And InfinyOn](https://filtra.io/rust/interviews/infinyon-jun-25)
