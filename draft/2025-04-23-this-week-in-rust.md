@@ -35,14 +35,25 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Project Director Update — April 2025](https://rustfoundation.org/media/project-director-update-april-2025/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Gitoxide April 2025](https://github.com/GitoxideLabs/gitoxide/discussions/1966)
+* [Askama and Rinja merge](https://blog.guillaume-gomez.fr/articles/2025-03-19+Askama+and+Rinja+merge)
+* [rust-analyzer changelog #282](https://rust-analyzer.github.io/thisweek/2025/04/21/changelog-282.html)
 
 ### Observations/Thoughts
+* [Two ways of interpreting visibility in Rust](https://kobzol.github.io/rust/2025/04/23/two-ways-of-interpreting-visibility-in-rust.html)
+* [Does using Rust really make your software safer? - Blog - Tweede golf](https://tweedegolf.nl/en/blog/152/does-using-rust-really-make-your-software-safer)
+* [Body::poll_progress](https://seanmonstar.com/blog/body-poll-progress/)
+* [ratatui: are we embedded yet?](https://jslazak.com/are-we-embedded-yet-0/)
+* [audio] [Nushell with WindSoilder](https://rustacean-station.org/episode/windsoilder/)
+* [audio] [Microsoft with Victor Ciura](https://corrode.dev/podcast/s04e01-microsoft/)
 
 ### Rust Walkthroughs
+* [Implementation of Rust panics in the standard library](https://fractalfir.github.io/generated_html/rustc_codegen_clr_v0_2_2.html)
 
 ### Research
 
