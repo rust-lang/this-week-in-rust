@@ -34,10 +34,6 @@ and just ask the editors to select the category.
 * [Inferred const generic arguments: Call for Testing!](https://blog.rust-lang.org/inside-rust/2025/03/05/inferred-const-generic-arguments.html)
 * [This Month in Our Test Infra: January and February 2025](https://blog.rust-lang.org/inside-rust/2025/03/11/test-infra-jan-feb-2025.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [Native Git support in Zed - Zed Blog](https://zed.dev/blog/git)
 * [tfmcp 🦀: A Rust-Implemented Tool to Operate Terraform from LLMs](https://syu-m-5151.hatenablog.com/entry/2025/03/10/091144)
@@ -66,15 +62,8 @@ and just ask the editors to select the category.
 * [video] [Derive Macros: Or, How I Learned to Stop Worrying and Love the proc_macro2::TokenStream](https://www.youtube.com/watch?v=ALZr9BwWHQU&t=1769s)
 * [video] [Porting the guff plot device to Rust](https://www.youtube.com/watch?v=bbWcGAOsbIE)
 
-### Research
-
 ### Miscellaneous
-[Rust Communities/User Groups World Map](https://mamaicode.github.io/rust-communities-map/)
-
-* Deadline extended for
-  [GOSIM Rust Spotlight](https://spotlight.gosim.org/rust2025#deadline-extended)
-  [Nominations](https://cfp.gosim.org/spotlight-rust#deadline-extended) ---
-  please nominate and support your favorite projects by 2025-03-15 at 7:59am UTC!
+* [Rust Communities/User Groups World Map](https://mamaicode.github.io/rust-communities-map/)
 
 ## Crate of the Week
 
@@ -113,6 +102,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+*No Calls for participation were submitted this week.* 
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -124,6 +114,7 @@ Are you a new or experienced speaker looking for a place to share something cool
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+* [**GOSIM Rust Spotlight - Nominate and support your favorite projects!**](https://spotlight.gosim.org/rust2025#deadline-extended) | Closes 2025-03-15 at 7:59am UTC | Utrecht, NL | 2025-05-13 - 2025-05-17
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -400,7 +391,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1ivrkhs/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -416,4 +407,4 @@ Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1661
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1ja2n2d/this_week_in_rust_590/)</small>
