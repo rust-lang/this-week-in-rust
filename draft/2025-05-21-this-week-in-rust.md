@@ -33,24 +33,34 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.87.0 and ten years of Rust!](https://blog.rust-lang.org/2025/05/15/Rust-1.87.0/)
 
 ### Foundation
+* [Celebrating Rust’s Birthday with Karen Tölva: Creator of Ferris the Rustacean!](https://rustfoundation.org/media/celebrating-rusts-birthday-with-karen-tolva-creator-of-ferris-the-rustacean/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Announcing Markdown Ninja: Open Source alternative to Substack, Mailchimp and Netlify](https://kerkour.com/announcing-markdown-ninja)
+* [Hypervisor as a Library](https://seiya.me/blog/hypervisor-as-a-library)
 
 ### Observations/Thoughts
+* [Rust turns 10](https://smallcultfollowing.com/babysteps/blog/2025/05/15/10-years-of-rust/)
+* [Rust 1.0, ten years later ](https://steveklabnik.com/writing/rust-ten-years-later/)
 * [Evolution of Rust compiler errors](https://kobzol.github.io/rust/rustc/2025/05/16/evolution-of-rustc-errors.html)
 * [For your eyes only](https://bitfieldconsulting.com/posts/for-your-eyes-only)
 * [Disable debuginfo to improve Rust compile times](https://kobzol.github.io/rust/rustc/2025/05/20/disable-debuginfo-to-improve-rust-compile-times.html)
+* [async/await versus the Calloop Model](https://notgull.net/calloop/)
+* [audio] [Astral with Charlie Marsh](https://corrode.dev/podcast/s04e03-astral/)
 
 ### Rust Walkthroughs
+* [Unlocking Tokio's Hidden Gems: Determinism, Paused Time, and Local Execution](https://pierrezemb.fr/posts/tokio-hidden-gems/)
 
 ### Research
 
 ### Miscellaneous
 * [Scanner- The Team Accelerating Log Analysis With Rust](https://filtra.io/rust/interviews/scanner-may-25)
+* [$20,000 rav1d AV1 Decoder Performance Bounty](https://www.memorysafety.org/blog/rav1d-perf-bounty/)
 
 ## Crate of the Week
 
