@@ -66,7 +66,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [eval-macro](https://crates.io/crates/eval-macro), a crate that allows to evaluate macros at compile time, giving similar feel to Zig's comptime.
+
+Thanks to [Aleksander Krauze](https://users.rust-lang.org/t/crate-of-the-week/2704/1419) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -115,7 +117,85 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+555 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-03-04..2025-03-11
+
+#### Compiler
+
+* [ergonomic ref counting](https://github.com/rust-lang/rust/pull/134797)
+* [on long spans, trim the middle of them to make them fit in the terminal width](https://github.com/rust-lang/rust/pull/137757)
+* [split the `Edges` iterator](https://github.com/rust-lang/rust/pull/137655)
+* [perf: change TaskDeps to start preallocated with 128 capacity](https://github.com/rust-lang/rust/pull/137563)
+* [perf: speed up target feature computation](https://github.com/rust-lang/rust/pull/137586)
+
+#### Library
+
+* [stabilize `[T]::split_off...` methods](https://github.com/rust-lang/rust/pull/137829)
+* [stabilize `box_uninit_write`](https://github.com/rust-lang/rust/pull/137850)
+* [stabilize `const_char_classify, const_sockaddr_setters`](https://github.com/rust-lang/rust/pull/138129)
+* [stabilize `const_vec_string_slice`](https://github.com/rust-lang/rust/pull/137319)
+* [stabilize `string_extend_from_within`](https://github.com/rust-lang/rust/pull/137569)
+* [stabilize feature `const_copy_from_slice`](https://github.com/rust-lang/rust/pull/138098)
+* [override default `Write` methods for cursor-like types](https://github.com/rust-lang/rust/pull/137107)
+* [specialize `OsString::push` and `OsString as From` for UTF-8](https://github.com/rust-lang/rust/pull/137777)
+* [perf: improve the generic MIR in the default `PartialOrd::le` and friends](https://github.com/rust-lang/rust/pull/137904)
+* [count char width at most once in `Formatter::pad`](https://github.com/rust-lang/rust/pull/136662)
+* [fix char count in `Display` for `ByteStr`](https://github.com/rust-lang/rust/pull/137772)
+* [fix crash in `BufReader::peek()`](https://github.com/rust-lang/rust/pull/137832)
+
+#### Cargo
+
+* [cargo tree: Add `--depth public` behind `-Zunstable-options`](https://github.com/rust-lang/cargo/pull/15243)
+* [cargo: add terminal integration via ANSI OSC 9;4 sequences](https://github.com/rust-lang/cargo/pull/14615)
+* [cargo: don't use `$CARGO_BUILD_TARGET` in `cargo metadata`](https://github.com/rust-lang/cargo/pull/15271)
+* [cargo: add completions for add --path](https://github.com/rust-lang/cargo/pull/15288)
+* [cargo: add completions for install --path](https://github.com/rust-lang/cargo/pull/15266)
+* [cargo: respect --frozen everywhere --offline or --locked is accepted](https://github.com/rust-lang/cargo/pull/15263)
+
+#### Rustdoc
+
+* [fix `O(tests)` stack usage in edition 2024 mergeable doctests](https://github.com/rust-lang/rust/pull/138281)
+* [search: increase strictness of typechecking](https://github.com/rust-lang/rust/pull/137981)* [rustdoc: add attribute-related tests for rustdoc JSON](https://github.com/rust-lang/rust/pull/138033)
+* [hide item that is not marked as `doc(inline)` and whose src is `doc(hidden)`](https://github.com/rust-lang/rust/pull/137534)
+
+#### Clippy
+
+* [clippy: `arbitrary_source_item_ordering`: Make alphabetic ordering in module item groups optional](https://github.com/rust-lang/rust-clippy/pull/13718)
+* [clippy: `unnecessary_to_owned`: don't call `iter()` on a temporary object](https://github.com/rust-lang/rust-clippy/pull/14243)
+* [clippy: add missing tests annotations for `ui-internal`](https://github.com/rust-lang/rust-clippy/pull/14388)
+* [clippy: don't trigger `blocks_in_conditions` when the condition contains a `return`](https://github.com/rust-lang/rust-clippy/pull/14338)
+* [clippy: don't trigger `unnecessary_debug_formatting` in tests](https://github.com/rust-lang/rust-clippy/pull/14347)
+* [clippy: fix `manual_let_else` missing binding mode](https://github.com/rust-lang/rust-clippy/pull/14204)
+* [clippy: better help for `mixed_case_hex_literals`](https://github.com/rust-lang/rust-clippy/pull/14235)
+* [clippy: improve `needless_pass_by_value` suggestion](https://github.com/rust-lang/rust-clippy/pull/13880)
+* [clippy: make `struct_field_names` check private fields of public structs](https://github.com/rust-lang/rust-clippy/pull/14076)
+* [clippy: refactor function after adding a new diagnostic item](https://github.com/rust-lang/rust-clippy/pull/14306)
+* [clippy: remove Known problems section for `vec_box`](https://github.com/rust-lang/rust-clippy/pull/14252)
+* [clippy: rename the MSRV alias `MANUAL_DIV_CEIL` to `DIV_CEIL`](https://github.com/rust-lang/rust-clippy/pull/14329)
+* [clippy: use `size_of` from the prelude instead of imported](https://github.com/rust-lang/rust-clippy/pull/14355)
+* [clippy: `io_error_other`: walk back to the root context to compute the span](https://github.com/rust-lang/rust-clippy/pull/14349)
+
+#### Rust-Analyzer
+
+* [rust-analyzer: `fix(hir): VariantDef` is `impl HasSource`](https://github.com/rust-lang/rust-analyzer/pull/19314)
+* [rust-analyzer: add missing name-ref parents to syntactic highlighting](https://github.com/rust-lang/rust-analyzer/pull/19326)
+* [rust-analyzer: add warning and debug information when `cargo metadata` fails](https://github.com/rust-lang/rust-analyzer/pull/19290)
+* [rust-analyzer: adjust relevance scoring threshold to consistent with existing implem…](https://github.com/rust-lang/rust-analyzer/pull/19297)
+* [rust-analyzer: add diagnostic for dangling dyn and impl](https://github.com/rust-lang/rust-analyzer/pull/19265)
+* [rust-analyzer: warn the user when a rename will change the meaning of the program](https://github.com/rust-lang/rust-analyzer/pull/19079)
+* [rust-analyzer: `path` macro hygiene](https://github.com/rust-lang/rust-analyzer/pull/19327)
+* [rust-analyzer: syntax highlightingg punct filtering ignoring mods](https://github.com/rust-lang/rust-analyzer/pull/19292)
+* [rust-analyzer: fix diagnostics being cleared right after being received](https://github.com/rust-lang/rust-analyzer/pull/19333)
+* [rust-analyzer: normalize projections in evaluated const display and layout calculation](https://github.com/rust-lang/rust-analyzer/pull/19330)
+* [rust-analyzer: prevent wrong invocations of `needs_parens_in` with non-ancestral "parent"s](https://github.com/rust-lang/rust-analyzer/pull/19324)
+* [rust-analyzer: highlight unsafe operations as unsafe, not definitions](https://github.com/rust-lang/rust-analyzer/pull/19274)
+* [rust-analyzer: improve keyword completion for 'let' and 'let mut'](https://github.com/rust-lang/rust-analyzer/pull/19279)
+* [rust-analyzer: log build script error output in `load_cargo::load_workspace_at`](https://github.com/rust-lang/rust-analyzer/pull/19311)
+* [rust-analyzer: make `GenericParamsCollector::type_or_consts` not unnecessarily `pub(crate)`](https://github.com/rust-lang/rust-analyzer/pull/19343)
+* [rust-analyzer: make change annotations per text-edit](https://github.com/rust-lang/rust-analyzer/pull/19332)
+* [rust-analyzer: move loaded project MSRV back to 1.78, show notification for the warning](https://github.com/rust-lang/rust-analyzer/pull/19308)
+* [rust-analyzer: rank ADT constructors as constructors for completion scoring](https://github.com/rust-lang/rust-analyzer/pull/19325)
 
 ### Rust Compiler Performance Triage
 
@@ -324,7 +404,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Treat *anything* starting with `cargo` as if it is `cargo run`. This applies even to commands that do not build anything, such as `cargo clean`, and third-party plugins, such as `cargo audit`.
+
+– [Sergey "Shnatsel" Davidoff on /r/rust](https://old.reddit.com/r/rust/comments/1j2i3s0/psa_do_not_run_any_cargo_commands_on_untrusted)
+
+Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1661) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
