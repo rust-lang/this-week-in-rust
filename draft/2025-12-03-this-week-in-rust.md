@@ -38,28 +38,41 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Fall 2025 Project Director Update](https://blog.rust-lang.org/inside-rust/2025/12/02/project-director-update/)
 
 ### Foundation
+* [Rustls Shortlisted for Two 2025 OpenUK Awards](https://rustfoundation.org/media/rustls-shortlisted-for-two-2025-openuk-awards/)
 
 ### Newsletters
 * [Rust Trends Issue #73: From Lab to Factory: Rust in Production](https://rust-trends.com/newsletter/from-lab-to-factory-rust-in-production)
 
 ### Project/Tooling Updates
+* [Wasmi 1.0 — WebAssembly Interpreter Stable At Last](https://wasmi-labs.github.io/blog/posts/wasmi-v1.0/)
+* [hyper-util Composable Pools](https://seanmonstar.com/blog/hyper-util-composable-pools/)
 * [Fall Updates: Standard Library Support with vexide 0.8.0!](https://vexide.dev/blog/posts/thanksgiving-update-25/)
 * [3DCF/doc2dataset v0.1.0 – Rust document-to-dataset pipeline for RAG & LLM fine-tuning](https://github.com/3DCF-Labs/doc2dataset/releases/tag/v0.1.0)
 * [PGM-Extra: High-performance learned index structures for Rust](https://github.com/itsfoxstudio/pgm-extra-rs/releases/tag/v1.2.2)
 
 ### Observations/Thoughts
+* [In defense of lock poisoning in Rust](https://sunshowers.io/posts/on-poisoning/)
 * [How CRDTs and Rust are revolutionizing distributed systems and real-time applications](https://kerkour.com/rust-crdt)
+* [KCL part 1: units](https://www.ncameron.org/blog/kcl-part-1-units/)
+* [New rust lint: function_casts_as_integer](https://blog.guillaume-gomez.fr/articles/2025-11-28+New+rust+lint%3A+function_casts_as_integer)
 * [audio] [Netstack.FM episode 16 — WebRTC and Sans IO with Martin Algesten](https://netstack.fm/#episode-16)
+* [audio] [Canonical with Jon Seager - Rust in Production Podcast](https://corrode.dev/podcast/s05e05-canonical/)
 
 ### Rust Walkthroughs
 * [The Impatient Programmer's Guide to Bevy and Rust: Chapter 3 - Let The Data Flow](https://aibodh.com/posts/bevy-rust-game-development-chapter-3/)
 * [Cross-Compiling Rust for Raspberry Pi and making CI](https://sysdev.me/2025/11/27/cross-compiling-rust-for-raspberry-pi)
+* [Rootless pings in Rust](https://bou.ke/blog/rust-ping/)
+* [Mutation testing for librsvg](https://viruta.org/mutation-testing-librsvg.html)
+* [video] [impl Rust: One Billion Row Challenge](https://www.youtube.com/watch?v=tCY7p6dVAGE)
 
 ### Research
 
 ### Miscellaneous
+* [The Rust Africa Hackathon 2026](https://rustafrica.org/the-future-is-written-in-rust-rust-africa-hackathon-2026/)
+* [Ferrous Systems Achieves IEC 61508 (SIL 2) Certification for Rust Core Library Subset](https://ferrous-systems.com/blog/ferrocene-libcore-news-release/)
 
 ## Crate of the Week
 
