@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+ * [Create A Web + Desktop Application With Rust](https://medium.com/gitconnected/build-a-web-desktop-application-with-rust-i-8eb12cf160b6) 
 
 ### Research
 
