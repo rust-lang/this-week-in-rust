@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Extending Future In Rust](https://blog.veeso.dev/blog/en/extending-future-in-rust/)
+
 ### Rust Walkthroughs
 
 ### Research
