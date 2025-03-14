@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Writing Terrible Code](https://bitfieldconsulting.com/posts/writing-terrible-code)
+
 ### Rust Walkthroughs
 
 ### Research
