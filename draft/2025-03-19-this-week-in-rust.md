@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Transition Systems in Rust](https://minikin.me/blog/transition-systems-in-rust)
 
 ### Research
 
