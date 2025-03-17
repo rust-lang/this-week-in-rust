@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Apache OpenDAL 2025 Roadmap: Perfecting Production Adoption](https://opendal.apache.org/blog/2025/03/01/2025-roadmap/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
