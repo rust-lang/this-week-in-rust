@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [alp-rs is faster than c++ reference](https://blog.spiraldb.com/alp-rust-is-faster-than-c/)
+
 ### Rust Walkthroughs
 
 ### Research
