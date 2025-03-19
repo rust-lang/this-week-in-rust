@@ -110,7 +110,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A relatively busy week with a large amount of regressions in rollups which made investigations more tricky. Luckily overall the week was an improvement due to some medium sized improvements through improving target feature computation and a type systems internals fix.
+
+Triage done by **@rylev**.
+Revision range: [9fb94b32..493c38ba](https://perf.rust-lang.org/?start=9fb94b32df38073bf63d009df77ed10cb1c989d0&end=493c38ba371929579fe136df26eccd9516347c7a&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 1.7%  | [0.2%, 3.0%]    | 18    |
+| Regressions ❌ <br /> (secondary)  | 0.8%  | [0.2%, 2.7%]    | 37    |
+| Improvements ✅ <br /> (primary)   | -1.0% | [-10.3%, -0.2%] | 157   |
+| Improvements ✅ <br /> (secondary) | -1.7% | [-8.8%, -0.2%]  | 158   |
+| All ❌✅ (primary)                 | -0.8% | [-10.3%, 3.0%]  | 175   |
+
+
+5 Regressions, 5 Improvements, 3 Mixed; 5 of them in rollups
+44 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/8148c03b441e9a23b93dab2f2c7124eaf9ff925b/triage/2025-03-18.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
