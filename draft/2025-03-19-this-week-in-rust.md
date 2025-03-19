@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Announcing mocktail: HTTP & gRPC server mocking for Rust](https://danclark.io/blog/announcing-mocktail/)
 
 ### Observations/Thoughts
 
