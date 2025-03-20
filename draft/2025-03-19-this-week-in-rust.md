@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 * [Why Yōzefu? A terminal user interface to search for data in a Kafka cluster](https://mcdostone.github.io/articles/why-yozefu/)
 * [Announcing AIScript and How I Built It](https://aiscript.dev/blog/announcing-aiscript)
 
+- [Apache OpenDAL 2025 Roadmap: Perfecting Production Adoption](https://opendal.apache.org/blog/2025/03/01/2025-roadmap/)
+
 ### Observations/Thoughts
 * [How to speed up the Rust compiler in March 2025](https://nnethercote.github.io/2025/03/19/how-to-speed-up-the-rust-compiler-in-march-2025.html)
 * [Carefully But Purposefully Oxidising Ubuntu](https://jnsgr.uk/2025/03/carefully-but-purposefully-oxidising-ubuntu/)
