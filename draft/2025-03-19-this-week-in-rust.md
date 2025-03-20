@@ -52,17 +52,16 @@ and just ask the editors to select the category.
 * [How to speed up the Rust compiler in March 2025](https://nnethercote.github.io/2025/03/19/how-to-speed-up-the-rust-compiler-in-march-2025.html)
 * [Carefully But Purposefully Oxidising Ubuntu](https://jnsgr.uk/2025/03/carefully-but-purposefully-oxidising-ubuntu/)
 * [Below: World Writable Directory in /var/log/below Allows Local Privilege Escalation](https://security.opensuse.org/2025/03/12/below-world-writable-log-dir.html)
+* [Extending Future In Rust](https://blog.veeso.dev/blog/en/extending-future-in-rust/)
+* [Writing Terrible Code](https://bitfieldconsulting.com/posts/writing-terrible-code)
 * [video] [It’s Not As Simple As “Use A Memory Safe Language"](https://www.youtube.com/watch?v=iQ-eTaW6-cM)
 * [video] [Ubuntu Will Replace GNU Core Utilities With Rust](https://www.youtube.com/watch?v=N2dbyFddcIs)
 * [video] [What's up with Rust?](https://www.youtube.com/watch?v=pppU--kHLP0)
 
-* [Extending Future In Rust](https://blog.veeso.dev/blog/en/extending-future-in-rust/)
-
-* [Writing Terrible Code](https://bitfieldconsulting.com/posts/writing-terrible-code)
-
 ### Rust Walkthroughs
 * [Building a search engine from scratch, in Rust](https://jdrouet.github.io/posts/202503161800-search-engine-intro/)
 * [Create A Web + Desktop Application With Rust](https://medium.com/gitconnected/build-a-web-desktop-application-with-rust-i-8eb12cf160b6) 
+* [Transition Systems in Rust](https://minikin.me/blog/transition-systems-in-rust)
 
 ### Research
 
