@@ -62,11 +62,12 @@ and just ask the editors to select the category.
 * [alp-rs is faster than c++ reference](https://blog.spiraldb.com/alp-rust-is-faster-than-c/)
 
 ### Rust Walkthroughs
-* [series] [Building a search engine from scratch, in Rust](https://jdrouet.github.io/posts/202503161800-search-engine-intro/)
 * [Create A Web + Desktop Application With Rust](https://medium.com/gitconnected/build-a-web-desktop-application-with-rust-i-8eb12cf160b6) 
 * [Transition Systems in Rust](https://minikin.me/blog/transition-systems-in-rust)
 * [Nine Pico PIO Wats with Rust: Raspberry Pi programmable IO Pitfalls Illustrated with a Musical Example  (Part 2)](https://towardsdatascience.com/nine-pico-pio-wats-with-rust-part-2/)
-  
+* [series] [Building a search engine from scratch, in Rust](https://jdrouet.github.io/posts/202503161800-search-engine-intro/)
+* [video] [Build with Naz : newtype design pattern, and impl Into T for ergonomic APIs](https://www.youtube.com/watch?v=3-Ika3mAOGQ)
+
 ### Research
 
 ### Miscellaneous
