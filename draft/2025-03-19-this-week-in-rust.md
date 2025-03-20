@@ -61,7 +61,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [dom\_smoothie](https://github.com/niklak/dom_smoothie), a crate for extracting readable content from web pages.
+
+Despite a lack of suggestions this week, llogiq is pleased with his choice.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -110,7 +112,66 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+468 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-03-11..2025-03-18
+
+#### Compiler
+
+* [perf:allow bounds checks when enumerating `IndexSlice` to be elided](https://github.com/rust-lang/rust/pull/137795)
+* [stabilize `asm_goto` feature gate](https://github.com/rust-lang/rust/pull/133870)
+
+#### Miri
+
+* [`native_calls`: ensure we actually expose *mutable* provenance to the memory FFI can access](https://github.com/rust-lang/rust/pull/138352)
+* [`alloc_addresses`: use MemoryKind instead of tcx query to determine global allocations](https://github.com/rust-lang/miri/pull/4225)
+
+#### Libraries
+
+* [add `From<{integer}>` for `f16`/`f128` impls](https://github.com/rust-lang/rust/pull/138363)
+* [denote `ControlFlow` as `#[must_use]`](https://github.com/rust-lang/rust/pull/137449)
+* [optimize multi-char string patterns](https://github.com/rust-lang/rust/pull/138537)
+* [stabilize `std::io::ErrorKind::InvalidFilename`](https://github.com/rust-lang/rust/pull/134076)
+* [stablize anonymous pipe](https://github.com/rust-lang/rust/pull/137793)
+
+#### Cargo
+
+* [add custom completer for cargo `+<TAB>` to complete toolchain name](https://github.com/rust-lang/cargo/pull/15301)
+* [deduplicate crate types in cargo rustc command](https://github.com/rust-lang/cargo/pull/15314)
+
+#### Rustdoc
+
+* [add RTN support to rustdoc](https://github.com/rust-lang/rust/pull/137956)
+* [rustdoc-json: don't also include `#[deprecated]` in `Item::attrs`](https://github.com/rust-lang/rust/pull/138577)
+
+#### Rustfmt
+
+* [rustfmt: allow also allow literals as first item of single line let chain](https://github.com/rust-lang/rustfmt/pull/6492)
+
+#### Clippy
+
+* [new lint: `doc_comment_double_space_linebreaks`](https://github.com/rust-lang/rust-clippy/pull/12876)
+* [`incompatible_msrv`: lint function calls with any argument count](https://github.com/rust-lang/rust-clippy/pull/14216)
+* [`needless_pass_by_value`: reference the innermost `Option` content](https://github.com/rust-lang/rust-clippy/pull/14392)
+* [`question_mark`: avoid incorrect suggestion when `ref` binding used](https://github.com/rust-lang/rust-clippy/pull/14158)
+* [fix `from_over_into` lint suggesting invalid code](https://github.com/rust-lang/rust-clippy/pull/14409)
+* [fix incorrect suggestions related to parentheses in `needless_return`](https://github.com/rust-lang/rust-clippy/pull/14094)
+* [fix `unnecessary_safety_comment` false positive on desugared assign](https://github.com/rust-lang/rust-clippy/pull/14371)
+
+#### Rust-Analyzer
+
+* [add icons to views](https://github.com/rust-lang/rust-analyzer/pull/19344)
+* [analysis-stats: run Salsa's LRU at the end of analysis](https://github.com/rust-lang/rust-analyzer/pull/19378)
+* [display varargs in completion detail](https://github.com/rust-lang/rust-analyzer/pull/19363)
+* [do not error for actions with no data to resolve](https://github.com/rust-lang/rust-analyzer/pull/19369)
+* [for loop to while let assist](https://github.com/rust-lang/rust-analyzer/pull/19271)
+* [fix testing packages with multiple targets](https://github.com/rust-lang/rust-analyzer/pull/19005)
+* [avoid recursively debug printing crates](https://github.com/rust-lang/rust-analyzer/pull/19356)
+* [fix stale `Building CrateGraph` report](https://github.com/rust-lang/rust-analyzer/pull/19384)
+* [observe unsafeness when generating manual impls of former derives](https://github.com/rust-lang/rust-analyzer/pull/19320)
+* [preparation to Return Type Notation (RTN)](https://github.com/rust-lang/rust-analyzer/pull/19354)
+* [port rust-analyzer to new salsa](https://github.com/rust-lang/rust-analyzer/pull/18964)
+* [salsify the crate graph](https://github.com/rust-lang/rust-analyzer/pull/19337)
 
 ### Rust Compiler Performance Triage
 
@@ -285,7 +346,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Probably a terrible idea, but I enjoy throwing ideas at the wall, and seeing how sharp their broken fragments are.
+
+– [Katt on the RFC #3762 discussion](https://github.com/rust-lang/rfcs/pull/3762#discussion_r1990901450)
+
+Thanks to [Jacob Lifshay](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1662) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
