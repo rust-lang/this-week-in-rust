@@ -44,10 +44,11 @@ and just ask the editors to select the category.
 * [Rust CUDA project update](https://rust-gpu.github.io/blog/2025/03/18/rust-cuda-update/)
 * [Big Rust Update Merged For GCC 15 - Lands The Polonius Borrow Checker](https://www.phoronix.com/news/GCC-15-Big-GCCRS-Update)
 * [Oxidizing Ubuntu: adopting Rust utilities by default](https://lwn.net/SubscriberLink/1014002/c1fa692b30a202c9/)
+* [Apache OpenDAL 2025 Roadmap: Perfecting Production Adoption](https://opendal.apache.org/blog/2025/03/01/2025-roadmap/)
 * [`bevy_lint` v0.2.0: lint your Bevy projects](https://bd103.github.io/blog/2025-03-19-bevy-lint-v0.2.0)
 * [Why Yōzefu? A terminal user interface to search for data in a Kafka cluster](https://mcdostone.github.io/articles/why-yozefu/)
 * [Announcing AIScript and How I Built It](https://aiscript.dev/blog/announcing-aiscript)
-* [Apache OpenDAL 2025 Roadmap: Perfecting Production Adoption](https://opendal.apache.org/blog/2025/03/01/2025-roadmap/)
+* [Announcing mocktail: HTTP & gRPC server mocking for Rust](https://danclark.io/blog/announcing-mocktail/)
 
 ### Observations/Thoughts
 * [How to speed up the Rust compiler in March 2025](https://nnethercote.github.io/2025/03/19/how-to-speed-up-the-rust-compiler-in-march-2025.html)
