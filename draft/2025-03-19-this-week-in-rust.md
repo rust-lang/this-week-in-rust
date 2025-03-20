@@ -67,6 +67,8 @@ and just ask the editors to select the category.
 
 * [Nine Pico PIO Wats with Rust: Raspberry Pi programmable IO Pitfalls Illustrated with a Musical Example  (Part 2)](https://towardsdatascience.com/nine-pico-pio-wats-with-rust-part-2/)
 
+* [series] [Building a search engine from scratch](https://jdrouet.github.io/posts/202503161800-search-engine-intro/)
+
 ### Research
 
 ### Miscellaneous
