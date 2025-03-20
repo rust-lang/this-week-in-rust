@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 * [Oxidizing Ubuntu: adopting Rust utilities by default](https://lwn.net/SubscriberLink/1014002/c1fa692b30a202c9/)
 * [`bevy_lint` v0.2.0: lint your Bevy projects](https://bd103.github.io/blog/2025-03-19-bevy-lint-v0.2.0)
 
+* [Announcing AIScript and How I Built It](https://aiscript.dev/blog/announcing-aiscript)
+
 ### Observations/Thoughts
 * [How to speed up the Rust compiler in March 2025](https://nnethercote.github.io/2025/03/19/how-to-speed-up-the-rust-compiler-in-march-2025.html)
 * [Carefully But Purposefully Oxidising Ubuntu](https://jnsgr.uk/2025/03/carefully-but-purposefully-oxidising-ubuntu/)
