@@ -30,16 +30,30 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.85.1](https://blog.rust-lang.org/2025/03/18/Rust-1.85.1.html)
+* [Hiring for Rust program management](https://blog.rust-lang.org/inside-rust/2025/03/18/hiring-for-program-management.html)
+* [March 2025 Leadership Council Update](https://blog.rust-lang.org/inside-rust/2025/03/17/leadership-council-update.html)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-analyzer #277](https://rust-analyzer.github.io/thisweek/2025/03/17/changelog-277.html)
+* [Git 2.49 Released With Faster Packing, Rust Foreign Language Interface](https://www.phoronix.com/news/Git-2.49-Released)
+* [Rust CUDA project update](https://rust-gpu.github.io/blog/2025/03/18/rust-cuda-update/)
+* [Big Rust Update Merged For GCC 15 - Lands The Polonius Borrow Checker](https://www.phoronix.com/news/GCC-15-Big-GCCRS-Update)
 
 ### Observations/Thoughts
+* [How to speed up the Rust compiler in March 2025](https://nnethercote.github.io/2025/03/19/how-to-speed-up-the-rust-compiler-in-march-2025.html)
+* [Carefully But Purposefully Oxidising Ubuntu](https://jnsgr.uk/2025/03/carefully-but-purposefully-oxidising-ubuntu/)
+* [Below: World Writable Directory in /var/log/below Allows Local Privilege Escalation](https://security.opensuse.org/2025/03/12/below-world-writable-log-dir.html)
+* [video] [It’s Not As Simple As “Use A Memory Safe Language"](https://www.youtube.com/watch?v=iQ-eTaW6-cM)
+* [video] [Ubuntu Will Replace GNU Core Utilities With Rust](https://www.youtube.com/watch?v=N2dbyFddcIs)
+* [video] [What's up with Rust?](https://www.youtube.com/watch?v=pppU--kHLP0)
 
 ### Rust Walkthroughs
+* [Building a search engine from scratch, in Rust](https://jdrouet.github.io/posts/202503161800-search-engine-intro/)
 
 ### Research
 
