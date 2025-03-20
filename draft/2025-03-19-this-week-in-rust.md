@@ -30,15 +30,13 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+
 * [Announcing Rust 1.85.1](https://blog.rust-lang.org/2025/03/18/Rust-1.85.1.html)
 * [Hiring for Rust program management](https://blog.rust-lang.org/inside-rust/2025/03/18/hiring-for-program-management.html)
 * [March 2025 Leadership Council Update](https://blog.rust-lang.org/inside-rust/2025/03/17/leadership-council-update.html)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
+
 * [rust-analyzer #277](https://rust-analyzer.github.io/thisweek/2025/03/17/changelog-277.html)
 * [Git 2.49 Released With Faster Packing, Rust Foreign Language Interface](https://www.phoronix.com/news/Git-2.49-Released)
 * [Rust CUDA project update](https://rust-gpu.github.io/blog/2025/03/18/rust-cuda-update/)
@@ -51,24 +49,24 @@ and just ask the editors to select the category.
 * [Announcing mocktail: HTTP & gRPC server mocking for Rust](https://danclark.io/blog/announcing-mocktail/)
 
 ### Observations/Thoughts
+
 * [How to speed up the Rust compiler in March 2025](https://nnethercote.github.io/2025/03/19/how-to-speed-up-the-rust-compiler-in-march-2025.html)
 * [Carefully But Purposefully Oxidising Ubuntu](https://jnsgr.uk/2025/03/carefully-but-purposefully-oxidising-ubuntu/)
 * [Below: World Writable Directory in /var/log/below Allows Local Privilege Escalation](https://security.opensuse.org/2025/03/12/below-world-writable-log-dir.html)
 * [Extending Future In Rust](https://blog.veeso.dev/blog/en/extending-future-in-rust/)
 * [Writing Terrible Code](https://bitfieldconsulting.com/posts/writing-terrible-code)
+* [alp-rs is faster than c++ reference](https://blog.spiraldb.com/alp-rust-is-faster-than-c/)
 * [video] [It’s Not As Simple As “Use A Memory Safe Language"](https://www.youtube.com/watch?v=iQ-eTaW6-cM)
 * [video] [Ubuntu Will Replace GNU Core Utilities With Rust](https://www.youtube.com/watch?v=N2dbyFddcIs)
 * [video] [What's up with Rust?](https://www.youtube.com/watch?v=pppU--kHLP0)
-* [alp-rs is faster than c++ reference](https://blog.spiraldb.com/alp-rust-is-faster-than-c/)
 
 ### Rust Walkthroughs
+
 * [Create A Web + Desktop Application With Rust](https://medium.com/gitconnected/build-a-web-desktop-application-with-rust-i-8eb12cf160b6) 
 * [Transition Systems in Rust](https://minikin.me/blog/transition-systems-in-rust)
 * [Nine Pico PIO Wats with Rust: Raspberry Pi programmable IO Pitfalls Illustrated with a Musical Example  (Part 2)](https://towardsdatascience.com/nine-pico-pio-wats-with-rust-part-2/)
 * [series] [Building a search engine from scratch, in Rust](https://jdrouet.github.io/posts/202503161800-search-engine-intro/)
 * [video] [Build with Naz : newtype design pattern, and impl Into T for ergonomic APIs](https://www.youtube.com/watch?v=3-Ika3mAOGQ)
-
-### Research
 
 ### Miscellaneous
 * [February 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/feb-25)
@@ -377,7 +375,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1ivrkhs/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -393,4 +391,4 @@ Thanks to [Jacob Lifshay](https://users.rust-lang.org/t/twir-quote-of-the-week/3
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1jfitub/this_week_in_rust_591/)</small>
