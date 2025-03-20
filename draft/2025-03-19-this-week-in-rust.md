@@ -58,6 +58,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Building a search engine from scratch, in Rust](https://jdrouet.github.io/posts/202503161800-search-engine-intro/)
+* [Create A Web + Desktop Application With Rust](https://medium.com/gitconnected/build-a-web-desktop-application-with-rust-i-8eb12cf160b6) 
 
 ### Research
 
