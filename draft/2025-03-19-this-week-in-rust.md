@@ -43,7 +43,7 @@ and just ask the editors to select the category.
 * [Git 2.49 Released With Faster Packing, Rust Foreign Language Interface](https://www.phoronix.com/news/Git-2.49-Released)
 * [Rust CUDA project update](https://rust-gpu.github.io/blog/2025/03/18/rust-cuda-update/)
 * [Big Rust Update Merged For GCC 15 - Lands The Polonius Borrow Checker](https://www.phoronix.com/news/GCC-15-Big-GCCRS-Update)
-
+* [Oxidizing Ubuntu: adopting Rust utilities by default](https://lwn.net/SubscriberLink/1014002/c1fa692b30a202c9/)
 * [`bevy_lint` v0.2.0: lint your Bevy projects](https://bd103.github.io/blog/2025-03-19-bevy-lint-v0.2.0)
 
 ### Observations/Thoughts
