@@ -159,7 +159,8 @@ If you are an event organizer hoping to expand the reach of your event, please s
 #### Rustdoc
 
 * [fix `O(tests)` stack usage in edition 2024 mergeable doctests](https://github.com/rust-lang/rust/pull/138281)
-* [search: increase strictness of typechecking](https://github.com/rust-lang/rust/pull/137981)* [rustdoc: add attribute-related tests for rustdoc JSON](https://github.com/rust-lang/rust/pull/138033)
+* [search: increase strictness of typechecking](https://github.com/rust-lang/rust/pull/137981)
+* [rustdoc: add attribute-related tests for rustdoc JSON](https://github.com/rust-lang/rust/pull/138033)
 * [hide item that is not marked as `doc(inline)` and whose src is `doc(hidden)`](https://github.com/rust-lang/rust/pull/137534)
 
 #### Clippy
