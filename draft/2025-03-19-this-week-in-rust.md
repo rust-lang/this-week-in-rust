@@ -65,6 +65,8 @@ and just ask the editors to select the category.
 * [Create A Web + Desktop Application With Rust](https://medium.com/gitconnected/build-a-web-desktop-application-with-rust-i-8eb12cf160b6) 
 * [Transition Systems in Rust](https://minikin.me/blog/transition-systems-in-rust)
 
+* [Nine Pico PIO Wats with Rust: Raspberry Pi programmable IO Pitfalls Illustrated with a Musical Example  (Part 2)](https://towardsdatascience.com/nine-pico-pio-wats-with-rust-part-2/)
+
 ### Research
 
 ### Miscellaneous
