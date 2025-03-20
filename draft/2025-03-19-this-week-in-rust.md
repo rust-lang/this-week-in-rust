@@ -47,8 +47,7 @@ and just ask the editors to select the category.
 * [`bevy_lint` v0.2.0: lint your Bevy projects](https://bd103.github.io/blog/2025-03-19-bevy-lint-v0.2.0)
 * [Why Yōzefu? A terminal user interface to search for data in a Kafka cluster](https://mcdostone.github.io/articles/why-yozefu/)
 * [Announcing AIScript and How I Built It](https://aiscript.dev/blog/announcing-aiscript)
-
-- [Apache OpenDAL 2025 Roadmap: Perfecting Production Adoption](https://opendal.apache.org/blog/2025/03/01/2025-roadmap/)
+* [Apache OpenDAL 2025 Roadmap: Perfecting Production Adoption](https://opendal.apache.org/blog/2025/03/01/2025-roadmap/)
 
 ### Observations/Thoughts
 * [How to speed up the Rust compiler in March 2025](https://nnethercote.github.io/2025/03/19/how-to-speed-up-the-rust-compiler-in-march-2025.html)
@@ -59,18 +58,14 @@ and just ask the editors to select the category.
 * [video] [It’s Not As Simple As “Use A Memory Safe Language"](https://www.youtube.com/watch?v=iQ-eTaW6-cM)
 * [video] [Ubuntu Will Replace GNU Core Utilities With Rust](https://www.youtube.com/watch?v=N2dbyFddcIs)
 * [video] [What's up with Rust?](https://www.youtube.com/watch?v=pppU--kHLP0)
-
 * [alp-rs is faster than c++ reference](https://blog.spiraldb.com/alp-rust-is-faster-than-c/)
 
 ### Rust Walkthroughs
-* [Building a search engine from scratch, in Rust](https://jdrouet.github.io/posts/202503161800-search-engine-intro/)
+* [series] [Building a search engine from scratch, in Rust](https://jdrouet.github.io/posts/202503161800-search-engine-intro/)
 * [Create A Web + Desktop Application With Rust](https://medium.com/gitconnected/build-a-web-desktop-application-with-rust-i-8eb12cf160b6) 
 * [Transition Systems in Rust](https://minikin.me/blog/transition-systems-in-rust)
-
 * [Nine Pico PIO Wats with Rust: Raspberry Pi programmable IO Pitfalls Illustrated with a Musical Example  (Part 2)](https://towardsdatascience.com/nine-pico-pio-wats-with-rust-part-2/)
-
-* [series] [Building a search engine from scratch](https://jdrouet.github.io/posts/202503161800-search-engine-intro/)
-
+  
 ### Research
 
 ### Miscellaneous
