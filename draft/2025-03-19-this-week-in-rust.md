@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [`bevy_lint` v0.2.0: lint your Bevy projects](https://bd103.github.io/blog/2025-03-19-bevy-lint-v0.2.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
