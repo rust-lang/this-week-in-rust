@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [Build with Naz : newtype design pattern, and impl Into T for ergonomic APIs](https://www.youtube.com/watch?v=3-Ika3mAOGQ)
+
 ### Research
 
 ### Miscellaneous
