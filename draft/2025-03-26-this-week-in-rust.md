@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Fastrace: A Modern Approach to Distributed Tracing in Rust](https://fast.github.io/blog/fastrace-a-modern-approach-to-distributed-tracing-in-rust/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
