@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Safe Delayed Initialization for Lifetime Extension](https://paper.wf/binarycat/safe-delayed-initialization-for-lifetime-extension)
 
 ### Rust Walkthroughs
 
