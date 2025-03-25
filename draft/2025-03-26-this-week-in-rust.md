@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Just write a test for it](https://kobzol.github.io/rust/2025/03/25/just-write-a-test-for-it.html)
+
 ### Rust Walkthroughs
 
 ### Research
