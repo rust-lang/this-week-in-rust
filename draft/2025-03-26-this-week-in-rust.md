@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 * [Safe Delayed Initialization for Lifetime Extension](https://paper.wf/binarycat/safe-delayed-initialization-for-lifetime-extension)
 
+* [Just write a test for it](https://kobzol.github.io/rust/2025/03/25/just-write-a-test-for-it.html)
+
 ### Rust Walkthroughs
 * [video] [Rust and embedded programming with Leon Vak](https://rust.code-maven.com/rust-and-embedded-programming-with-leon-vak)
 
