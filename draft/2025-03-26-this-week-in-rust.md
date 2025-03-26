@@ -59,7 +59,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [jiff](https://crates.io/crates/jiff), a datetime library for Rust.
+
+Thanks to [Filip T](https://users.rust-lang.org/t/crate-of-the-week/2704/1420) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -118,7 +120,72 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+496 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-03-18..2025-03-25
+
+#### Compiler
+
+* [lower to a `memset(undef)` when `Rvalue::Repeat` repeats uninit](https://github.com/rust-lang/rust/pull/138634)
+
+#### Library
+
+* [`MaybeUninit` inherent slice methods part 2](https://github.com/rust-lang/rust/pull/135394)
+* [core/slice: mark some `split_off` variants unstably const](https://github.com/rust-lang/rust/pull/138540)
+* [core: optimize `RepeatN`](https://github.com/rust-lang/rust/pull/138833)
+* [implement default methods for `io::Empty` and `io::Sink`](https://github.com/rust-lang/rust/pull/137051)
+* [optimize `io::Write::write_fmt` for constant strings](https://github.com/rust-lang/rust/pull/138650)
+* [simplify `PartialOrd` on tuples containing primitives](https://github.com/rust-lang/rust/pull/138135)
+* [reduce `FormattingOptions` to 64 bits](https://github.com/rust-lang/rust/pull/136974)
+
+#### Cargo
+
+* [add custom completer for cargo `<TAB>` to complete aliases defined in config.toml](https://github.com/rust-lang/cargo/pull/15319)
+
+#### Rustdoc
+
+* [be more strict about "Methods from Deref"](https://github.com/rust-lang/rust/pull/138574)
+* [gate unstable `doc(cfg())` predicates](https://github.com/rust-lang/rust/pull/138293)
+* [use own logic to print `#[repr(..)]` attributes in JSON output](https://github.com/rust-lang/rust/pull/138018)
+
+#### Clippy
+
+* [`wildcard_imports`: lint on `pub use` if asked to](https://github.com/rust-lang/rust-clippy/pull/14182)
+* [add MSRV check for `question_mark`](https://github.com/rust-lang/rust-clippy/pull/14436)
+* [add `ignore_without_reason` lint](https://github.com/rust-lang/rust-clippy/pull/13931)
+* [emit `collapsible_match` at the right node](https://github.com/rust-lang/rust-clippy/pull/14311)
+* [expand `neg_multiply` to lint float numbers as well](https://github.com/rust-lang/rust-clippy/pull/14447)
+* [fix suggestion for assignments have enclosing parentheses under `needless_late_init`](https://github.com/rust-lang/rust-clippy/pull/14169)
+* [fix: `borrow_deref_ref` suggests wrongly when coerce to mut](https://github.com/rust-lang/rust-clippy/pull/14403)
+* [fix: `filter_map_bool_then` suggest wrongly when the closure cannot be decompose directly](https://github.com/rust-lang/rust-clippy/pull/14370)
+* [fix: `manual_find` suggests wrongly when early return](https://github.com/rust-lang/rust-clippy/pull/14405)
+* [fix: `missing_const_for_fn` false positive on unstable const traits](https://github.com/rust-lang/rust-clippy/pull/14294)
+* [fix: `nonminimal_bool` wrongly showed the macro definition](https://github.com/rust-lang/rust-clippy/pull/14424)
+* [fix: `option_if_let_else` false positive when value partially moved](https://github.com/rust-lang/rust-clippy/pull/14209)
+* [fix: `redundant_clone` false positive on `enum` cast](https://github.com/rust-lang/rust-clippy/pull/14395)
+* [improve `string_to_string` lint in case it is in a map call](https://github.com/rust-lang/rust-clippy/pull/14396)
+* [lint more cases in `collapsible_if`](https://github.com/rust-lang/rust-clippy/pull/14231)
+* [make `never_loop` applicability more flexible](https://github.com/rust-lang/rust-clippy/pull/14203)
+* [move `uninlined_format_args` back to `style`](https://github.com/rust-lang/rust-clippy/pull/14160)
+* [reinstate `single_match`/`single_match_else` lints with comments](https://github.com/rust-lang/rust-clippy/pull/14420)
+* [suggest `is_some_and` instead of `map_or` in `case_sensitive_file_extension_comparions`](https://github.com/rust-lang/rust-clippy/pull/14358)
+* [unify `manual_unwrap_or` and `manual_unwrap_or_default` code](https://github.com/rust-lang/rust-clippy/pull/14332)
+* [use `code` for references to other lints in `as_conversions` docs](https://github.com/rust-lang/rust-clippy/pull/14283)
+
+#### Rust-Analyzer
+
+* [fix ide-assist `let else` to `if let else`](https://github.com/rust-lang/rust-analyzer/pull/19433)
+* [add diagnostic for missing ambiguity error for impl trait](https://github.com/rust-lang/rust-analyzer/pull/19347)
+* [add postfix completion for const block](https://github.com/rust-lang/rust-analyzer/pull/19397)
+* [add text edit support for return type hints on non-block body closures](https://github.com/rust-lang/rust-analyzer/pull/19348)
+* [analysis-stats: emit lines of code and item tree counts for workspace; dependencies](https://github.com/rust-lang/rust-analyzer/pull/19359)
+* [parse `unsafe` record fields](https://github.com/rust-lang/rust-analyzer/pull/19388)
+* [fix missing syntax highlighting for `&raw const` / `&raw mut` in all files](https://github.com/rust-lang/rust-analyzer/pull/19400)
+* [fix closure return inlayhints using macro ranges](https://github.com/rust-lang/rust-analyzer/pull/19435)
+* [handle multiple `#[repr(..)]` attrs correctly](https://github.com/rust-lang/rust-analyzer/pull/19416)
+* [properly calculate the layouts of tuple ptrs whose last fields are DST](https://github.com/rust-lang/rust-analyzer/pull/19413)
+* [render layout and other extra information on hovering `Self`](https://github.com/rust-lang/rust-analyzer/pull/19419)
+* [speed up resolving a "Generate delegate method" assist](https://github.com/rust-lang/rust-analyzer/pull/19362)
 
 ### Rust Compiler Performance Triage
 
@@ -320,7 +387,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Did it work? It’s Rust, so it worked on the first try!
+
+– [James Calligeros on the Asahi progress report](https://asahilinux.org/2025/03/progress-report-6-14/)
+
+Thanks to [yerke](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1663) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
