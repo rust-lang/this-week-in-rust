@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 * [Vendoring C/C++ Dependencies in Rust](https://blog.veeso.dev/blog/en/vendoring-c-cpp-dependencies-in-rust/)
 
+* [Fastest Vec Update on My Computer](https://jtjlehi.github.io/2024/03/13/fastest-vec-update-on-my-computer.html)
+
 ### Research
 
 ### Miscellaneous
