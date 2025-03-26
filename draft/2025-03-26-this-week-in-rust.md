@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [video] [Rust and embedded programming with Leon Vak](https://rust.code-maven.com/rust-and-embedded-programming-with-leon-vak)
 
 * [Vendoring C/C++ Dependencies in Rust](https://blog.veeso.dev/blog/en/vendoring-c-cpp-dependencies-in-rust/)
 
