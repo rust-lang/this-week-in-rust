@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 
 * [Fastest Vec Update on My Computer](https://jtjlehi.github.io/2024/03/13/fastest-vec-update-on-my-computer.html)
 
+* [video] [Build with Naz : traits, subtyping, polymorphism in Rust](https://www.youtube.com/watch?v=K5SY-lc8nTE)
+
 ### Research
 
 ### Miscellaneous
