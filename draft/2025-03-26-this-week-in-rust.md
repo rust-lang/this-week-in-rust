@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 * [Just write a test for it](https://kobzol.github.io/rust/2025/03/25/just-write-a-test-for-it.html)
 
+* [Building a fast website with the MASH stack](https://emschwartz.me/building-a-fast-website-with-the-mash-stack-in-rust/)
+
 ### Rust Walkthroughs
 * [video] [Rust and embedded programming with Leon Vak](https://rust.code-maven.com/rust-and-embedded-programming-with-leon-vak)
 
