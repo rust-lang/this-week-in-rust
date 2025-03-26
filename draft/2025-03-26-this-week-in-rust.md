@@ -51,7 +51,6 @@ and just ask the editors to select the category.
 * [Safe Delayed Initialization for Lifetime Extension](https://paper.wf/binarycat/safe-delayed-initialization-for-lifetime-extension)
 * [Just write a test for it](https://kobzol.github.io/rust/2025/03/25/just-write-a-test-for-it.html)
 * [audio] [ExpressVPN with Pete Membrey](https://rustacean-station.org/episode/pete-membrey/)
-
 * [Building a fast website with the MASH stack](https://emschwartz.me/building-a-fast-website-with-the-mash-stack-in-rust/)
 
 ### Rust Walkthroughs
@@ -60,7 +59,6 @@ and just ask the editors to select the category.
 * [Fastest Vec Update on My Computer](https://jtjlehi.github.io/2024/03/13/fastest-vec-update-on-my-computer.html)
 * [A 10x faster batch job by batching PostgreSQL inserts/updates with Rust and SQLx](https://kerkour.com/postgresql-batching)
 * [Bridging the Efficiency Gap Between FromStr and String](https://lucumr.pocoo.org/2025/3/23/from-string/)
-* [video] [Rust and embedded programming with Leon Vak](https://rust.code-maven.com/rust-and-embedded-programming-with-leon-vak)
 * [video] [Build with Naz : traits, subtyping, polymorphism in Rust](https://www.youtube.com/watch?v=K5SY-lc8nTE)
 * [video] [Rust and embedded programming with Leon Vak](https://rust.code-maven.com/rust-and-embedded-programming-with-leon-vak)
 
