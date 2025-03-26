@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 * [Just write a test for it](https://kobzol.github.io/rust/2025/03/25/just-write-a-test-for-it.html)
 * [audio] [ExpressVPN with Pete Membrey](https://rustacean-station.org/episode/pete-membrey/)
 
+* [Building a fast website with the MASH stack](https://emschwartz.me/building-a-fast-website-with-the-mash-stack-in-rust/)
+
 ### Rust Walkthroughs
 * [A Daft proc-macro trick: How to Emit Partial-Code + Errors](https://schneems.com/2025/03/26/a-daft-procmacro-trick-how-to-emit-partialcode-errors/)
 * [Vendoring C/C++ Dependencies in Rust](https://blog.veeso.dev/blog/en/vendoring-c-cpp-dependencies-in-rust/)
