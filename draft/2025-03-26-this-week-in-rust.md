@@ -45,6 +45,9 @@ and just ask the editors to select the category.
 * [Just write a test for it](https://kobzol.github.io/rust/2025/03/25/just-write-a-test-for-it.html)
 
 ### Rust Walkthroughs
+
+* [A 10x faster batch job by batching PostgreSQL inserts/updates with Rust and SQLx](https://kerkour.com/postgresql-batching)
+
 * [video] [Rust and embedded programming with Leon Vak](https://rust.code-maven.com/rust-and-embedded-programming-with-leon-vak)
 
 * [Vendoring C/C++ Dependencies in Rust](https://blog.veeso.dev/blog/en/vendoring-c-cpp-dependencies-in-rust/)
