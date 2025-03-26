@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 * [Fastrace: A Modern Approach to Distributed Tracing in Rust](https://fast.github.io/blog/fastrace-a-modern-approach-to-distributed-tracing-in-rust/)
 * [rust-analyzer changelog #278](https://rust-analyzer.github.io/thisweek/2025/03/24/changelog-278.html)
 
+* [Introducing Cot v0.2: A new version of the Rust web framework for lazy developers](https://mackow.ski/blog/introducing-cot-v02/)
+
 ### Observations/Thoughts
 * [Does unsafe undermine Rust's guarantees?](https://steveklabnik.com/writing/does-unsafe-undermine-rusts-guarantees/)
 * [Notes on coreutils in Rust](https://alexgaynor.net/2025/mar/22/coreutils-in-rust/)
