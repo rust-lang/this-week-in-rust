@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 * [Fastrace: A Modern Approach to Distributed Tracing in Rust](https://fast.github.io/blog/fastrace-a-modern-approach-to-distributed-tracing-in-rust/)
 
+* [Introducing Cot v0.2: A new version of the Rust web framework for lazy developers](https://mackow.ski/blog/introducing-cot-v02/)
+
 ### Observations/Thoughts
 * [Safe Delayed Initialization for Lifetime Extension](https://paper.wf/binarycat/safe-delayed-initialization-for-lifetime-extension)
 
