@@ -29,17 +29,12 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
 ### Foundation
 * [Ferrous Systems Donates Ferrocene Language Specification to Rust Project](https://rustfoundation.org/media/ferrous-systems-donates-ferrocene-language-specification-to-rust-project/)
-
-### Newsletters
 
 ### Project/Tooling Updates
 * [Fastrace: A Modern Approach to Distributed Tracing in Rust](https://fast.github.io/blog/fastrace-a-modern-approach-to-distributed-tracing-in-rust/)
 * [rust-analyzer changelog #278](https://rust-analyzer.github.io/thisweek/2025/03/24/changelog-278.html)
-
 * [Introducing Cot v0.2: A new version of the Rust web framework for lazy developers](https://mackow.ski/blog/introducing-cot-v02/)
 
 ### Observations/Thoughts
@@ -61,10 +56,6 @@ and just ask the editors to select the category.
 * [Bridging the Efficiency Gap Between FromStr and String](https://lucumr.pocoo.org/2025/3/23/from-string/)
 * [video] [Build with Naz : traits, subtyping, polymorphism in Rust](https://www.youtube.com/watch?v=K5SY-lc8nTE)
 * [video] [Rust and embedded programming with Leon Vak](https://rust.code-maven.com/rust-and-embedded-programming-with-leon-vak)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -377,7 +368,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1ivrkhs/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -393,4 +384,4 @@ Thanks to [yerke](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1663)
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1jkrugx/this_week_in_rust_592/)</small>
