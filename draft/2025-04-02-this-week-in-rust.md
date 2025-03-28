@@ -37,6 +37,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [api-version: axum middleware for header based version selection](https://heikoseeberger.de/2025-03-20-api-version/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
