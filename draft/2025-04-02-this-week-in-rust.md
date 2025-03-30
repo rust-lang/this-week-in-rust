@@ -44,7 +44,8 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-
+* [Public mdBooks](https://mdbooks.code-maven.com/)
+ 
 ## Crate of the Week
 
 <!-- COTW goes here -->
