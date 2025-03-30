@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [EtherCrab, the pure Rust EtherCAT MainDevice, version 0.6 released](https://wapl.es/ethercrab-0-6/)
 
 ### Observations/Thoughts
 
