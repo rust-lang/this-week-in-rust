@@ -110,7 +110,22 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Positive week, with a lot of primary improvements and just a few secondary regressions. Single big regression got reverted.
+
+Triage done by **@panstromek**.
+Revision range: [4510e86a..2ea33b59](https://perf.rust-lang.org/?start=4510e86a41388733675465a8647d4235f3bf2023&end=2ea33b591050c4ca1a3752830b29112638faecf6&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | -     | -              | 0     |
+| Regressions ❌ <br /> (secondary)  | 0.9%  | [0.2%, 1.5%]   | 17    |
+| Improvements ✅ <br /> (primary)   | -0.4% | [-4.5%, -0.1%] | 136   |
+| Improvements ✅ <br /> (secondary) | -0.6% | [-3.2%, -0.1%] | 59    |
+| All ❌✅ (primary)                 | -0.4% | [-4.5%, -0.1%] | 136   |
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/9bd6fc2f4594023b82acd8d876dcf659aee9a931/triage/2025-03-31.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
