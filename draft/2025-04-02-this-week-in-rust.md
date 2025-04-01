@@ -37,14 +37,13 @@ and just ask the editors to select the category.
 * [The Embedded Rustacean Issue #42](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-42)
 
 ### Project/Tooling Updates
+* [EtherCrab, the pure Rust EtherCAT MainDevice, version 0.6 released](https://wapl.es/ethercrab-0-6/)
 * [A process for handling Rust code in the core kernel](https://lwn.net/SubscriberLink/1015409/be9d004a43a7102d/)
-
-- [api-version: axum middleware for header based version selection](https://heikoseeberger.de/2025-03-20-api-version/)
+* [api-version: axum middleware for header based version selection](https://heikoseeberger.de/2025-03-20-api-version/)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
 * [Building a CoAP application on Ariel OS](https://christian.amsuess.com/blog/website/2025-03-27_ariel_coap/)
 
 ### Research
