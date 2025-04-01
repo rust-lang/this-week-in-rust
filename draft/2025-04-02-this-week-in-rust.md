@@ -34,6 +34,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #42](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-42)
 
 ### Project/Tooling Updates
 * [A process for handling Rust code in the core kernel](https://lwn.net/SubscriberLink/1015409/be9d004a43a7102d/)
