@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Real-World Verification of Software for Cryptographic Applications](https://cryptographycaffe.sandboxaq.com/posts/real-world-verification-of-software-for-cryptographic-applications/)
 
 ## Crate of the Week
 
