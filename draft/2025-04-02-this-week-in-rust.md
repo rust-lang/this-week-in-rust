@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rust is indeed woke](https://diziet.dreamwidth.org/19480.html)
+
 ### Rust Walkthroughs
 * [Solving the ABA Problem in Rust with Hazard Pointers](https://minikin.me/blog/solving-the-aba-problem-in-rust-hazard-pointers)
 * [Building a CoAP application on Ariel OS](https://christian.amsuess.com/blog/website/2025-03-27_ariel_coap/)
