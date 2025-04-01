@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [A process for handling Rust code in the core kernel](https://lwn.net/SubscriberLink/1015409/be9d004a43a7102d/)
 
+- [api-version: axum middleware for header based version selection](https://heikoseeberger.de/2025-03-20-api-version/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
