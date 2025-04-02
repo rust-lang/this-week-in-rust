@@ -34,21 +34,30 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #42](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-42)
 
 ### Project/Tooling Updates
+* [EtherCrab, the pure Rust EtherCAT MainDevice, version 0.6 released](https://wapl.es/ethercrab-0-6/)
+* [A process for handling Rust code in the core kernel](https://lwn.net/SubscriberLink/1015409/be9d004a43a7102d/)
+* [api-version: axum middleware for header based version selection](https://heikoseeberger.de/2025-03-20-api-version/)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Solving the ABA Problem in Rust with Hazard Pointers](https://minikin.me/blog/solving-the-aba-problem-in-rust-hazard-pointers)
+* [Building a CoAP application on Ariel OS](https://christian.amsuess.com/blog/website/2025-03-27_ariel_coap/)
 
 ### Research
 
 ### Miscellaneous
+* [Real-World Verification of Software for Cryptographic Applications](https://cryptographycaffe.sandboxaq.com/posts/real-world-verification-of-software-for-cryptographic-applications/)
 * [Public mdBooks](https://mdbooks.code-maven.com/)
- 
+
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [candystore](https://docs.rs/candystore/latest/candystore/), a fast, persistent key-value store that does not require LSM or WALs.
+
+Thanks to [Tomer Filiba](https://users.rust-lang.org/t/crate-of-the-week/2704/1424) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -107,11 +116,76 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+438 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-03-25..2025-04-01
+
+#### Compiler
+
+* [allow defining opaques in statics and consts](https://github.com/rust-lang/rust/pull/138911)
+* [avoid wrapping constant allocations in packed structs when not necessary](https://github.com/rust-lang/rust/pull/138503)
+* [perform less decoding if it has the same syntax context](https://github.com/rust-lang/rust/pull/129827)
+* [stabilize `precise_capturing_in_traits`](https://github.com/rust-lang/rust/pull/138128)
+* [uplift `clippy::invalid_null_ptr_usage` lint as `invalid_null_arguments`](https://github.com/rust-lang/rust/pull/119220)
+
+#### Library
+
+* [allow spawning threads after TLS destruction](https://github.com/rust-lang/rust/pull/138702)
+* [override PartialOrd methods for bool](https://github.com/rust-lang/rust/pull/138945)
+* [simplify expansion for `format_args!()`](https://github.com/rust-lang/rust/pull/139131)
+* [stabilize `const_cell`](https://github.com/rust-lang/rust/pull/137928)
+
+#### Rustdoc
+
+* [greatly simplify doctest parsing and information extraction](https://github.com/rust-lang/rust/pull/138104)
+* [rearrange `Item`/`ItemInner`](https://github.com/rust-lang/rust/pull/138927)
+
+#### Clippy
+
+* [new lint: `char_indices_as_byte_indices`](https://github.com/rust-lang/rust-clippy/pull/13435)
+* [add `manual_dangling_ptr` lint](https://github.com/rust-lang/rust-clippy/pull/14107)
+* [respect `#[expect]` and `#[allow]` within function bodies for `missing_panics_doc`](https://github.com/rust-lang/rust-clippy/pull/14407)
+* [do not make incomplete or invalid suggestions](https://github.com/rust-lang/rust-clippy/pull/14487)
+* [do not warn about shadowing in a destructuring assigment](https://github.com/rust-lang/rust-clippy/pull/14381)
+* [expand `obfuscated_if_else` to support `{then(), then_some()}.unwrap_or_default()`](https://github.com/rust-lang/rust-clippy/pull/14431)
+* [fix the primary span of `redundant_pub_crate` when flagging nameless items](https://github.com/rust-lang/rust-clippy/pull/14516)
+* [fix `option_if_let_else` suggestion when coercion requires explicit cast](https://github.com/rust-lang/rust-clippy/pull/14389)
+* [fix `unnested_or_patterns` suggestion in `let`](https://github.com/rust-lang/rust-clippy/pull/14401)
+* [make `collapsible_if` recognize the `let_chains` feature](https://github.com/rust-lang/rust-clippy/pull/14481)
+* [make `missing_const_for_fn` operate on non-optimized MIR](https://github.com/rust-lang/rust-clippy/pull/14003)
+* [more natural suggestions for `cmp_owned`](https://github.com/rust-lang/rust-clippy/pull/14247)
+* [`collapsible_if`: prevent including preceeding whitespaces if line contains non blanks](https://github.com/rust-lang/rust-clippy/pull/14480)
+* [properly handle expansion in `single_match`](https://github.com/rust-lang/rust-clippy/pull/14495)
+* [validate paths in `disallowed_*` configurations](https://github.com/rust-lang/rust-clippy/pull/14397)
+
+#### Rust-Analyzer
+
+* [allow crate authors to control completion of their things](https://github.com/rust-lang/rust-analyzer/pull/19375)
+* [avoid relying on `block_def_map()` needlessly](https://github.com/rust-lang/rust-analyzer/pull/19492)
+* [fix debug sourceFileMap when using cppvsdbg](https://github.com/rust-lang/rust-analyzer/pull/19475)
+* [fix `format_args` lowering using wrong integer suffix](https://github.com/rust-lang/rust-analyzer/pull/19460)
+* [fix a bug in orphan rules calculation](https://github.com/rust-lang/rust-analyzer/pull/19466)
+* [fix panic in progress due to splitting unicode incorrectly](https://github.com/rust-lang/rust-analyzer/pull/19490)
+* [use medium durability for crate-graph changes, high for library source files](https://github.com/rust-lang/rust-analyzer/pull/19451)
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Positive week, with a lot of primary improvements and just a few secondary regressions. Single big regression got reverted.
+
+Triage done by **@panstromek**.
+Revision range: [4510e86a..2ea33b59](https://perf.rust-lang.org/?start=4510e86a41388733675465a8647d4235f3bf2023&end=2ea33b591050c4ca1a3752830b29112638faecf6&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | -     | -              | 0     |
+| Regressions ❌ <br /> (secondary)  | 0.9%  | [0.2%, 1.5%]   | 17    |
+| Improvements ✅ <br /> (primary)   | -0.4% | [-4.5%, -0.1%] | 136   |
+| Improvements ✅ <br /> (secondary) | -0.6% | [-3.2%, -0.1%] | 59    |
+| All ❌✅ (primary)                 | -0.4% | [-4.5%, -0.1%] | 136   |
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/9bd6fc2f4594023b82acd8d876dcf659aee9a931/triage/2025-03-31.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -304,7 +378,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> If you write a bug in your Rust program, Rust doesn’t blame you. Rust asks “how could the compiler have spotted that bug”. 
+
+– [Ian Jackson blogging about Rust](https://diziet.dreamwidth.org/19480.html)
+
+Despite a lack of suggestions, llogiq is quite pleased with his choice.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
