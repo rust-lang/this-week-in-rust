@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Architecting and building medium-sized web services in Rust with Axum, SQLx and PostgreSQL](https://kerkour.com/rust-web-services-axum-sqlx-postgresql)
 * [Solving the ABA Problem in Rust with Hazard Pointers](https://minikin.me/blog/solving-the-aba-problem-in-rust-hazard-pointers)
 * [Building a CoAP application on Ariel OS](https://christian.amsuess.com/blog/website/2025-03-27_ariel_coap/)
 
