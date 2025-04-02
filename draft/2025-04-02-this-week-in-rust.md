@@ -51,6 +51,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [Real-World Verification of Software for Cryptographic Applications](https://cryptographycaffe.sandboxaq.com/posts/real-world-verification-of-software-for-cryptographic-applications/)
+* [Public mdBooks](https://mdbooks.code-maven.com/)
 
 ## Crate of the Week
 
