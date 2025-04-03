@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 * [EtherCrab, the pure Rust EtherCAT MainDevice, version 0.6 released](https://wapl.es/ethercrab-0-6/)
 * [A process for handling Rust code in the core kernel](https://lwn.net/SubscriberLink/1015409/be9d004a43a7102d/)
 * [api-version: axum middleware for header based version selection](https://heikoseeberger.de/2025-03-20-api-version/)
+* [SALT: a VS Code Extension, seeking participants in a study on Rust usabilty](https://marketplace.visualstudio.com/items?itemName=kale-lab.salt)
 
 ### Observations/Thoughts
 * [Introducing Stringleton](https://simonask.github.io/introducing-stringleton/)
