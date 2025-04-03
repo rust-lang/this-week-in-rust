@@ -35,23 +35,37 @@ and just ask the editors to select the category.
 
 ### Newsletters
 * [The Embedded Rustacean Issue #42](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-42)
+* [This Week in Bevy - 2025-03-31](https://thisweekinbevy.com/issue/2025-03-31-0160-rc2-breakout-on-game-boy-advance-and-bevyecs-for-static-sites)
 
 ### Project/Tooling Updates
+* [Fjall 2.8](https://fjall-rs.github.io/post/fjall-2-8/)
 * [EtherCrab, the pure Rust EtherCAT MainDevice, version 0.6 released](https://wapl.es/ethercrab-0-6/)
 * [A process for handling Rust code in the core kernel](https://lwn.net/SubscriberLink/1015409/be9d004a43a7102d/)
 * [api-version: axum middleware for header based version selection](https://heikoseeberger.de/2025-03-20-api-version/)
 
 ### Observations/Thoughts
+* [Introducing Stringleton](https://simonask.github.io/introducing-stringleton/)
+* [Rust Any Part 3: Finally we have Upcasts](https://lucumr.pocoo.org/2025/3/27/any-upcast/)
+* [Towards fearless SIMD, 7 years later](https://linebender.org/blog/towards-fearless-simd/)
+* [LLDB's TypeSystems: An Unfinished Interface](https://walnut356.github.io/posts/lldbs-typesystems-an-unfinished-interface/)
+* [Mutation Testing in Rust](https://blog.frankel.ch/mutation-testing-rust/)
 
 ### Rust Walkthroughs
 * [Solving the ABA Problem in Rust with Hazard Pointers](https://minikin.me/blog/solving-the-aba-problem-in-rust-hazard-pointers)
 * [Building a CoAP application on Ariel OS](https://christian.amsuess.com/blog/website/2025-03-27_ariel_coap/)
+* [Inside ScyllaDB Rust Driver 1.0: A Fully Async Shard-Aware CQL Driver Using Tokio](https://www.scylladb.com/2025/03/31/inside-scylladb-rust-driver-1-0/)
+* [Building a search engine from scratch, in Rust: part 2](https://jdrouet.github.io/posts/202503191700-search-engine-part-2/)
+* [Introduction to Monoio: A High-Performance Rust Runtime](https://chesedo.me/blog/monoio-introduction/)
+* [Getting started with Rust on Google Cloud](https://medium.com/google-cloud/getting-started-with-rust-on-google-cloud-ced48447ec91)
 
 ### Research
 
 ### Miscellaneous
+* [An AlphaStation's SROM](https://www.thejpster.org.uk/blog/blog-2025-03-30/)
 * [Real-World Verification of Software for Cryptographic Applications](https://cryptographycaffe.sandboxaq.com/posts/real-world-verification-of-software-for-cryptographic-applications/)
 * [Public mdBooks](https://mdbooks.code-maven.com/)
+* [video] [Networking in Bevy with ECS replication - Hennadii](https://www.youtube.com/watch?v=aDsVFmXD2cc)
+* [video] [Intermediate Representations for Reactive Structures - Pete](https://www.youtube.com/watch?v=JeXOajFv8Dk)
 
 ## Crate of the Week
 
