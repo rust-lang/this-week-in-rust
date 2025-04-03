@@ -29,10 +29,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
 ### Newsletters
 * [The Embedded Rustacean Issue #42](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-42)
 * [This Week in Bevy - 2025-03-31](https://thisweekinbevy.com/issue/2025-03-31-0160-rc2-breakout-on-game-boy-advance-and-bevyecs-for-static-sites)
@@ -61,8 +57,6 @@ and just ask the editors to select the category.
 * [Building a search engine from scratch, in Rust: part 2](https://jdrouet.github.io/posts/202503191700-search-engine-part-2/)
 * [Introduction to Monoio: A High-Performance Rust Runtime](https://chesedo.me/blog/monoio-introduction/)
 * [Getting started with Rust on Google Cloud](https://medium.com/google-cloud/getting-started-with-rust-on-google-cloud-ced48447ec91)
-
-### Research
 
 ### Miscellaneous
 * [An AlphaStation's SROM](https://www.thejpster.org.uk/blog/blog-2025-03-30/)
@@ -366,7 +360,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1ivrkhs/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
