@@ -49,12 +49,12 @@ and just ask the editors to select the category.
 * [Towards fearless SIMD, 7 years later](https://linebender.org/blog/towards-fearless-simd/)
 * [LLDB's TypeSystems: An Unfinished Interface](https://walnut356.github.io/posts/lldbs-typesystems-an-unfinished-interface/)
 * [Mutation Testing in Rust](https://blog.frankel.ch/mutation-testing-rust/)
-
 * [Embedding shared objects in Rust](https://blog.veeso.dev/blog/en/embedding-shared-objects-in-rust/)
 
 ### Rust Walkthroughs
 * [Solving the ABA Problem in Rust with Hazard Pointers](https://minikin.me/blog/solving-the-aba-problem-in-rust-hazard-pointers)
 * [Building a CoAP application on Ariel OS](https://christian.amsuess.com/blog/website/2025-03-27_ariel_coap/)
+* [How to Optimize your Rust Program for Slowness: Write a Short Program That Finishes After the Universe Dies](https://medium.com/@carlmkadie/how-to-optimize-your-rust-program-for-slowness-eb2c1a64d184)
 * [Inside ScyllaDB Rust Driver 1.0: A Fully Async Shard-Aware CQL Driver Using Tokio](https://www.scylladb.com/2025/03/31/inside-scylladb-rust-driver-1-0/)
 * [Building a search engine from scratch, in Rust: part 2](https://jdrouet.github.io/posts/202503191700-search-engine-part-2/)
 * [Introduction to Monoio: A High-Performance Rust Runtime](https://chesedo.me/blog/monoio-introduction/)
