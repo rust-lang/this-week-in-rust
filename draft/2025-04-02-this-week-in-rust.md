@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 * [LLDB's TypeSystems: An Unfinished Interface](https://walnut356.github.io/posts/lldbs-typesystems-an-unfinished-interface/)
 * [Mutation Testing in Rust](https://blog.frankel.ch/mutation-testing-rust/)
 
+* [Embedding shared objects in Rust](https://blog.veeso.dev/blog/en/embedding-shared-objects-in-rust/)
+
 ### Rust Walkthroughs
 * [Solving the ABA Problem in Rust with Hazard Pointers](https://minikin.me/blog/solving-the-aba-problem-in-rust-hazard-pointers)
 * [Building a CoAP application on Ariel OS](https://christian.amsuess.com/blog/website/2025-03-27_ariel_coap/)
