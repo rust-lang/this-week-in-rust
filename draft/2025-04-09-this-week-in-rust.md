@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Deterministic simulation testing for async Rust](https://s2.dev/blog/dst)
+
 ### Rust Walkthroughs
 
 ### Research
