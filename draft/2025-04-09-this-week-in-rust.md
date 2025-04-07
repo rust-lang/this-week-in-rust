@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Things fall apart](https://bitfieldconsulting.com/posts/things-fall-apart)
+
 ### Rust Walkthroughs
 
 ### Research
