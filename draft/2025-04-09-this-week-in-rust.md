@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [zxc: A Terminal based mitm proxy written in rust with Tmux and Vim as user interface](https://hail-hydrant.github.io/zxc/)
 
 ### Observations/Thoughts
 * [Replicating state changes across language barriers with Rust, UniFFI, and proc macros](https://www.tantaluspath.com/tech/rust_to_swift_state_syncing/)
