@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Replicating state changes across language barriers with Rust, UniFFI, and proc macros](https://www.tantaluspath.com/tech/rust_to_swift_state_syncing/)
 
 * [Deterministic simulation testing for async Rust](https://s2.dev/blog/dst)
 
