@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 * [Deterministic simulation testing for async Rust](https://s2.dev/blog/dst)
 
+* [Things fall apart](https://bitfieldconsulting.com/posts/things-fall-apart)
+
 ### Rust Walkthroughs
 
 ### Research
