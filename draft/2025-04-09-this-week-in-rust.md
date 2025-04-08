@@ -36,7 +36,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [zxc](https://github.com/hail-hydrant/zxc) A Terminal based mitm proxy written in rust with Tmux and Vim as user interface.
+* [zxc](https://github.com/hail-hydrant/zxc): A Terminal based mitm proxy written in rust with Tmux and Vim as user interface.
 
 ### Observations/Thoughts
 
