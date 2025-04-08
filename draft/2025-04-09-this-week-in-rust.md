@@ -47,7 +47,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [graft](), a transactional storage engine optimized for lazy, partial, and strongly consistent replication.
+
+Thanks to [Carl Sverre](https://users.rust-lang.org/t/crate-of-the-week/2704/1426) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -106,7 +108,49 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+451 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-04-01..2025-04-08
+
+#### Compiler
+
+* [implement `super let`](https://github.com/rust-lang/rust/pull/139112)
+* [hygiene: avoid recursion in syntax context decoding](https://github.com/rust-lang/rust/pull/139281)
+* [misc query tweaks](https://github.com/rust-lang/rust/pull/139234)
+* [folder experiment: Micro-optimize RegionEraserVisitor](https://github.com/rust-lang/rust/pull/139292)
+* [folder experiment: Monomorphize region resolver](https://github.com/rust-lang/rust/pull/139287)
+
+#### Library
+
+* [add `slice::align_to_uninit_mut`](https://github.com/rust-lang/rust/pull/139072)
+* [optimize slice `{Chunks,Windows}::nth`](https://github.com/rust-lang/rust/pull/138562)
+
+#### Cargo
+
+* [cargo: feat: print target and package names formatted as file hyperlinks](https://github.com/rust-lang/cargo/pull/15405)
+
+#### Rustfmt
+
+* [rustfmt: add `#![feature(ergonomic_clones)]` formatting](https://github.com/rust-lang/rustfmt/pull/6532)
+* [rustfmt: add `match_arm_indent` option](https://github.com/rust-lang/rustfmt/pull/6525)
+* [rustfmt: extend `cfg_if!` support to `cfg_match!`](https://github.com/rust-lang/rustfmt/pull/6522)
+
+#### Clippy
+
+* [clippy: fixes for `missing_asserts_for_indexing`](https://github.com/rust-lang/rust-clippy/pull/14108)
+
+#### Rust-Analyzer
+
+* [rust-analyzer: project-model: provide flag for no deps](https://github.com/rust-lang/rust-analyzer/pull/19519)
+* [rust-analyzer: auto-import: Prefer imports of matching types for argument lists](https://github.com/rust-lang/rust-analyzer/pull/19541)
+* [rust-analyzer: ide-assists: remove `AssistKind::None`](https://github.com/rust-lang/rust-analyzer/pull/19509)
+* [rust-analyzer: add more completion about "impl"](https://github.com/rust-lang/rust-analyzer/pull/19447)
+* [rust-analyzer: align usage of `default` and `new` with style guide](https://github.com/rust-lang/rust-analyzer/pull/19520)
+* [rust-analyzer: don't drop references with more than one definition](https://github.com/rust-lang/rust-analyzer/pull/19515)
+* [rust-analyzer: fix color brackets in string context](https://github.com/rust-lang/rust-analyzer/pull/19514)
+* [rust-analyzer: fix `format_args` lowering for ≥1.87](https://github.com/rust-lang/rust-analyzer/pull/19531)
+* [rust-analyzer: fix a bug in MBE expansion that arose from incorrect fixing of an older bug in MBE](https://github.com/rust-lang/rust-analyzer/pull/19501)
+* [rust-analyzer: yet another false positive invalid cast diagnostic](https://github.com/rust-lang/rust-analyzer/pull/19432)
 
 ### Rust Compiler Performance Triage
 
@@ -295,7 +339,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> The moment I froze Doctest with a loop in a comment.
+
+– [/u/HaMMeReD describing their first Rust Whoa! moment on /r/rust](https://www.reddit.com/r/rust/comments/1jrmuj6/what_is_your_woah_moment_in_rust/mlg9ns4/)
+
+Despite a lack of suggestions, llogiq is content with his choice.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
