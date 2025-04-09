@@ -16,28 +16,12 @@ Want TWIR in your inbox? [Subscribe here](https://this-week-in-rust.us11.list-ma
 
 ## Updates from Rust Community
 
-<!--
-
-Dear community contributors:
-Please read README.md for guidance on submissions.
-Each submitted link should be of the form:
-
-* [Title of the Linked Page](https://example.com/my_article)
-
-If you don't know which category to use, feel free to submit a PR anyway
-and just ask the editors to select the category.
-
--->
-
 ### Official
 * [Announcing Rust 1.86.0 | Rust Blog](https://blog.rust-lang.org/2025/04/03/Rust-1.86.0.html)
 * [Help us create a vision for Rust's future](https://blog.rust-lang.org/2025/04/04/vision-doc-survey.html)
 * [C ABI Changes for `wasm32-unknown-unknown`](https://blog.rust-lang.org/2025/04/04/c-abi-changes-for-wasm32-unknown-unknown.html)
 * [March Project Goals Update](https://blog.rust-lang.org/2025/04/08/Project-Goals-2025-March-Update.html)
 * [March 2025 Project Director Update](https://blog.rust-lang.org/inside-rust/2025/04/03/project-director-update.html)
-
-### Foundation
-
 ### Newsletters
 * [This Month in Rust OSDev: March 2025](https://rust-osdev.com/this-month/2025-03/)
 
@@ -97,7 +81,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [**Rust Conf 2025 Call for Speakers**](https://rustfoundation.org/media/rustconf-2025-call-for-talk-proposals-open/) | Closes 2025-04-29 11:59 PM PDT | Seattle, WA, US | 2025-09-02 - 2025-09-05
+*No Calls for participation were submitted this week.*
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -107,8 +91,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-<!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+* [**Rust Conf 2025 Call for Speakers**](https://rustfoundation.org/media/rustconf-2025-call-for-talk-proposals-open/) | Closes 2025-04-29 11:59 PM PDT | Seattle, WA, US | 2025-09-02 - 2025-09-05
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -339,7 +322,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1jttzz4/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
