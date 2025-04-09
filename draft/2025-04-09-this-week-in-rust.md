@@ -47,7 +47,7 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-This week's crate is [graft](), a transactional storage engine optimized for lazy, partial, and strongly consistent replication.
+This week's crate is [graft](https://github.com/orbitinghail/graft), a transactional storage engine optimized for lazy, partial, and strongly consistent replication.
 
 Thanks to [Carl Sverre](https://users.rust-lang.org/t/crate-of-the-week/2704/1426) for the self-suggestion!
 
