@@ -30,26 +30,37 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.86.0 | Rust Blog](https://blog.rust-lang.org/2025/04/03/Rust-1.86.0.html)
+* [Help us create a vision for Rust's future](https://blog.rust-lang.org/2025/04/04/vision-doc-survey.html)
+* [C ABI Changes for `wasm32-unknown-unknown`](https://blog.rust-lang.org/2025/04/04/c-abi-changes-for-wasm32-unknown-unknown.html)
+* [March Project Goals Update](https://blog.rust-lang.org/2025/04/08/Project-Goals-2025-March-Update.html)
+* [March 2025 Project Director Update](https://blog.rust-lang.org/inside-rust/2025/04/03/project-director-update.html)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust OSDev: March 2025](https://rust-osdev.com/this-month/2025-03/)
 
 ### Project/Tooling Updates
+* [Graphite progress report (Q4 2024)](https://graphite.rs/blog/graphite-progress-report-q4-2024/)
+* [This Month in Redox - March 2025](https://www.redox-os.org/news/this-month-250331/)
 * [zxc: A Terminal based mitm proxy written in rust with Tmux and Vim as user interface](https://hail-hydrant.github.io/zxc/)
+* [rustc_codegen_gcc: Progress Report #35](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-35)
 
 ### Observations/Thoughts
 * [Replicating state changes across language barriers with Rust, UniFFI, and proc macros](https://www.tantaluspath.com/tech/rust_to_swift_state_syncing/)
-
 * [Deterministic simulation testing for async Rust](https://s2.dev/blog/dst)
-
+* [Thinking like a compiler: places and values in Rust](https://steveklabnik.com/writing/thinking-like-a-compiler-places-and-values-in-rust/)
 * [Things fall apart](https://bitfieldconsulting.com/posts/things-fall-apart)
+* [Syntactic Musings on View Types](https://blog.yoshuawuyts.com/syntactic-musings-on-view-types/)
 
 ### Rust Walkthroughs
-
+* [Building a search engine from scratch, in Rust: part 3](https://jdrouet.github.io/posts/202503231000-search-engine-part-3/)
+* [Pitfalls of Safe Rust](https://corrode.dev/blog/pitfalls-of-safe-rust/)
 * [How to implement cryptographically-secure API keys in Rust](https://kerkour.com/api-keys)
 
 ### Research
+* [Garbage Collection for Rust: The Finalizer Frontier](https://arxiv.org/abs/2504.01841)
 
 ### Miscellaneous
 
@@ -67,8 +78,8 @@ Thanks to [Carl Sverre](https://users.rust-lang.org/t/crate-of-the-week/2704/142
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.
 
-If you are a feature implementer and would like your RFC to appear in this list, add a 
-`call-for-testing` label to your RFC along with a comment providing testing instructions and/or 
+If you are a feature implementer and would like your RFC to appear in this list, add a
+`call-for-testing` label to your RFC along with a comment providing testing instructions and/or
 guidance on which aspect(s) of the feature need testing.
 
 * *No calls for testing were issued this week by [Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
