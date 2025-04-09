@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [How to implement cryptographically-secure API keys in Rust](https://kerkour.com/api-keys)
+
 ### Research
 
 ### Miscellaneous
