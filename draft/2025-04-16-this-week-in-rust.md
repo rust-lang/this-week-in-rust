@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [Build with Naz : Declarative macros in Rust](https://www.youtube.com/watch?ZLl2G8tx83s)
+
 ### Research
 
 ### Miscellaneous
