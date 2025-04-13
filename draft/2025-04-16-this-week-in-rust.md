@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+[Version 0.4 of rust-query is released!](https://blog.lucasholten.com/rust-query-0-4/)
 
 ### Observations/Thoughts
 
