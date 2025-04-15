@@ -50,7 +50,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [wgpu](https://docs.rs/wgpu), a cross-platform graphics and compute library based on [WebGPU](https://gpuweb.github.io/gpuweb/).
+
+Despite a lack of suggestions, llogiq is pleased with his choice.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -109,7 +111,66 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+480 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-04-08..2025-04-15
+
+#### Compiler
+
+* [detect and provide suggestion for `&raw EXPR`](https://github.com/rust-lang/rust/pull/139392)
+* [don't suggest the use of `impl Trait` in closure parameter](https://github.com/rust-lang/rust/pull/138998)
+* [make the compiler suggest actual paths instead of visible paths if the visible paths are through any doc hidden path](https://github.com/rust-lang/rust/pull/139364)
+* [tell LLVM about impossible niche tags](https://github.com/rust-lang/rust/pull/139098)
+* [remove `Nonterminal` and `TokenKind::Interpolated`](https://github.com/rust-lang/rust/pull/124141)
+* [re-use `Sized` fast-path](https://github.com/rust-lang/rust/pull/139577)
+
+#### Library
+
+* [add `core::intrinsics::simd::{simd_extract_dyn, simd_insert_dyn}`](https://github.com/rust-lang/rust/pull/137447)
+* [initial `UnsafePinned` implementation (Part 1: Libs)](https://github.com/rust-lang/rust/pull/137043)
+* [polymorphize `array::IntoIter`'s iterator impl](https://github.com/rust-lang/rust/pull/139430)
+* [speed up `String::push` and `String::insert`](https://github.com/rust-lang/rust/pull/124810)
+* [std: add `Output::exit_ok`](https://github.com/rust-lang/rust/pull/139554)
+
+#### Cargo
+
+* [added symlink resolution for `workspace-path-hash`](https://github.com/rust-lang/cargo/pull/15400)
+* [improved error message when build-dir template var is invalid](https://github.com/rust-lang/cargo/pull/15418)
+
+#### Rustdoc
+
+* [search: add unbox flag to Result aliases](https://github.com/rust-lang/rust/pull/139688)
+* [enable Markdown extensions when looking for doctests](https://github.com/rust-lang/rust/pull/139592)
+
+#### Clippy
+
+* [`arbitrary_source_item_ordering` should ignore test modules](https://github.com/rust-lang/rust-clippy/pull/14585)
+* [`implicit_return`: better handling of asynchronous code](https://github.com/rust-lang/rust-clippy/pull/14446)
+* [accept `self.cmp(other).into()` as canonical `PartialOrd` impl](https://github.com/rust-lang/rust-clippy/pull/14573)
+* [add `manual_abs_diff` lint](https://github.com/rust-lang/rust-clippy/pull/14482)
+* [consecutive returns dont decrease cognitive Complexity level anymore](https://github.com/rust-lang/rust-clippy/pull/14460)
+* [consider nested lifetimes in `mut_from_ref`](https://github.com/rust-lang/rust-clippy/pull/14471)
+* [correctly handle bracketed type in `default_constructed_unit_struct`](https://github.com/rust-lang/rust-clippy/pull/14367)
+* [deprecate `match_on_vec_items` lint](https://github.com/rust-lang/rust-clippy/pull/14217)
+* [do not propose to auto-derive `Clone` in presence of unsafe fields](https://github.com/rust-lang/rust-clippy/pull/14559)
+* [fix: `iter_cloned_collect` false positive with custom `From`/`IntoIterator` impl](https://github.com/rust-lang/rust-clippy/pull/14473)
+* [fix: `map_entry`: don't emit lint before checks have been performed](https://github.com/rust-lang/rust-clippy/pull/14568)
+* [fix: `redundant_clone` false positive in overlapping lifetime](https://github.com/rust-lang/rust-clippy/pull/14237)
+* [various fixes for `manual_is_power_of_two`](https://github.com/rust-lang/rust-clippy/pull/14463)
+
+#### Rust-Analyzer
+
+* [ast: return correct types for `make::expr_*` methods](https://github.com/rust-lang/rust-analyzer/pull/19569)
+* [add children modules feature](https://github.com/rust-lang/rust-analyzer/pull/19255)
+* [add normalizeDriveLetter](https://github.com/rust-lang/rust-analyzer/pull/19578)
+* [distribute x64 and aarch64 Linux builds with PGO optimizations](https://github.com/rust-lang/rust-analyzer/pull/19582)
+* [fix dyn compatibility code bypassing `callable_item_signature` query](https://github.com/rust-lang/rust-analyzer/pull/19566)
+* [fix a small bug with catastrophic effects](https://github.com/rust-lang/rust-analyzer/pull/19558)
+* [fix an incorrect `ExpressionStore` that was passed](https://github.com/rust-lang/rust-analyzer/pull/19570)
+* [prevent panics when there is a cyclic dependency between closures](https://github.com/rust-lang/rust-analyzer/pull/19579)
+* [shadow type by module](https://github.com/rust-lang/rust-analyzer/pull/19461)
+* [ignore errors from rustfmt which may trigger error notification](https://github.com/rust-lang/rust-analyzer/pull/19576)
+* [port closure inference from rustc](https://github.com/rust-lang/rust-analyzer/pull/19536)
 
 ### Rust Compiler Performance Triage
 
@@ -290,7 +351,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> IEEE 754 floating point, proudly providing counterexamples since 1985!
+
+– [Johannes Dahlström on rust-internals](https://internals.rust-lang.org/t/highlight-differences-in-assert-eq/22722/4)
+
+Thanks to [Ralf Jung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1665) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
