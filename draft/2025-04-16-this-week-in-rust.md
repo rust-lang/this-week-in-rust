@@ -40,7 +40,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-- [rama 0.2.0-alpha.9](https://github.com/plabayo/rama/releases/tag/rama-0.2.0-alpha.9)
+- [rama 0.2.0-alpha.10](https://github.com/plabayo/rama/releases/tag/rama-0.2.0-alpha.10)
 
 ### Observations/Thoughts
 
