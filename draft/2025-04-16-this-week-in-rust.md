@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Meilisearch 1.14 - composite embedders, embedding cache, granular filterable attributes, and batch document retrieval by ID](https://www.meilisearch.com/blog/meilisearch-1-14)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
