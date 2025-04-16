@@ -33,16 +33,33 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [March Project Goals Update](https://blog.rust-lang.org/2025/04/08/Project-Goals-2025-March-Update/)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Shadertoys ported to Rust GPU](https://rust-gpu.github.io/blog/2025/04/10/shadertoys/)
 
 ### Observations/Thoughts
+* [Rebuilding Prime Video UI with Rust and WebAssembly](https://www.infoq.com/presentations/prime-video-rust/)
+* [ALP Rust is faster than C++](https://spiraldb.com/post/alp-rust-is-faster-than-c)
+* [what if the poison were rust?](https://flak.tedunangst.com/post/what-if-the-poison-were-rust)
+* [A surprising enum size optimization in the Rust compiler](https://jpfennell.com/posts/enum-type-size/)
+* [Two Years of Rust](https://borretti.me/article/two-years-of-rust)
+* [An ECS lite architecture](https://prideout.net/blog/layout_viewer/#progress-reporting-and-state-machine)
+* [A 2025 Survey of Rust GUI Libraries](https://www.boringcactus.com/2025/04/13/2025-survey-of-rust-gui-libraries.html)
+* [BTrees, Inverted Indices, and a Model for Full Text Search](https://ohadravid.github.io/posts/2025-04-08-btrees-and-mental-models/)
+* [Cutting Down Rust Compile Times From 30 to 2 Minutes With One Thousand Crates](https://www.feldera.com/blog/cutting-down-rust-compile-times-from-30-to-2-minutes-with-one-thousand-crates)
+* [SIMD in zlib-rs (part 1): Autovectorization and target features](https://tweedegolf.nl/en/blog/153/simd-in-zlib-rs-part-1-autovectorization-and-target-features)
+* [video] [Bevy Basics: Who Observes the Observer](https://www.youtube.com/watch?v=8dJtmt19D_s)
 
 ### Rust Walkthroughs
+* [Async from scratch 1: What's in a Future, anyway? | natkr's ramblings](https://natkr.com/2025-04-10-async-from-scratch-1/)
+* [Async from scratch 2: Wake me maybe | natkr's ramblings](https://natkr.com/2025-04-15-async-from-scratch-2/)
+* [Building a search engine from scratch, in Rust: part 4](https://jdrouet.github.io/posts/202503311500-search-engine-part-4/)
+* [Pretty State Machine Patterns in Rust](https://hoverbear.org/blog/rust-state-machine-pattern/)
 
 ### Research
 
