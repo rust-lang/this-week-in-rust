@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Rust Type System Deep Dive From GATs to Type Erasure](https://minikin.me/blog/rust-type-system-deep-dive)
 
 ### Research
 
