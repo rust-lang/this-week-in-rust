@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Rust resources](https://ongardie.net/misc/rust/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
