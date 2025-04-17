@@ -40,8 +40,6 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-- [rama 0.2.0-alpha.11](https://github.com/plabayo/rama/releases/tag/rama-0.2.0-alpha.11)
-
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
