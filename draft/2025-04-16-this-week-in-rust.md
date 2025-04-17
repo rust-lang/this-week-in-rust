@@ -41,8 +41,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Shadertoys ported to Rust GPU](https://rust-gpu.github.io/blog/2025/04/10/shadertoys/)
-
 * [Meilisearch 1.14 - composite embedders, embedding cache, granular filterable attributes, and batch document retrieval by ID](https://www.meilisearch.com/blog/meilisearch-1-14)
+* [rust-query 0.4: structural types and other new features](https://blog.lucasholten.com/rust-query-0-4/)
 
 ### Observations/Thoughts
 * [Rebuilding Prime Video UI with Rust and WebAssembly](https://www.infoq.com/presentations/prime-video-rust/)
