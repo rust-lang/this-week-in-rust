@@ -66,6 +66,8 @@ and just ask the editors to select the category.
 * [Building a search engine from scratch, in Rust: part 4](https://jdrouet.github.io/posts/202503311500-search-engine-part-4/)
 * [Pretty State Machine Patterns in Rust](https://hoverbear.org/blog/rust-state-machine-pattern/)
 
+* [video] [Build with Naz : Declarative macros in Rust](https://www.youtube.com/watch?v=ZLl2G8tx83s)
+
 ### Research
 
 ### Miscellaneous
