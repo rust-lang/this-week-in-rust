@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 * [BTrees, Inverted Indices, and a Model for Full Text Search](https://ohadravid.github.io/posts/2025-04-08-btrees-and-mental-models/)
 * [Cutting Down Rust Compile Times From 30 to 2 Minutes With One Thousand Crates](https://www.feldera.com/blog/cutting-down-rust-compile-times-from-30-to-2-minutes-with-one-thousand-crates)
 * [SIMD in zlib-rs (part 1): Autovectorization and target features](https://tweedegolf.nl/en/blog/153/simd-in-zlib-rs-part-1-autovectorization-and-target-features)
+* [Avoiding memory fragmentation in Rust with jemalloc](https://kerkour.com/rust-jemalloc)
 * [video] [Bevy Basics: Who Observes the Observer](https://www.youtube.com/watch?v=8dJtmt19D_s)
 
 ### Rust Walkthroughs
