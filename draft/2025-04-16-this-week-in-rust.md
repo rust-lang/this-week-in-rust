@@ -67,6 +67,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Rust resources](https://ongardie.net/misc/rust/)
+
 ## Crate of the Week
 
 This week's crate is [wgpu](https://docs.rs/wgpu), a cross-platform graphics and compute library based on [WebGPU](https://gpuweb.github.io/gpuweb/).
