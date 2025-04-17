@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #43](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-43)
 
 ### Project/Tooling Updates
 * [Shadertoys ported to Rust GPU](https://rust-gpu.github.io/blog/2025/04/10/shadertoys/)
