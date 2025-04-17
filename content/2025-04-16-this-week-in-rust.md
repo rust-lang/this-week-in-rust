@@ -35,8 +35,6 @@ and just ask the editors to select the category.
 ### Official
 * [March Project Goals Update](https://blog.rust-lang.org/2025/04/08/Project-Goals-2025-March-Update/)
 
-### Foundation
-
 ### Newsletters
 * [The Embedded Rustacean Issue #43](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-43)
 
@@ -65,14 +63,10 @@ and just ask the editors to select the category.
 * [Async from scratch 2: Wake me maybe | natkr's ramblings](https://natkr.com/2025-04-15-async-from-scratch-2/)
 * [Building a search engine from scratch, in Rust: part 4](https://jdrouet.github.io/posts/202503311500-search-engine-part-4/)
 * [Pretty State Machine Patterns in Rust](https://hoverbear.org/blog/rust-state-machine-pattern/)
-
 * [video] [Build with Naz : Declarative macros in Rust](https://www.youtube.com/watch?v=ZLl2G8tx83s)
-
-### Research
 
 ### Miscellaneous
 * [March 2025 Jobs Report](https://filtra.io/rust/jobs-report/mar-25)
-
 * [Rust resources](https://ongardie.net/misc/rust/)
 
 ## Crate of the Week
@@ -378,7 +372,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1jttzz4/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -394,4 +388,4 @@ Thanks to [Ralf Jung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1k107ip/this_week_in_rust_595/)</small>
