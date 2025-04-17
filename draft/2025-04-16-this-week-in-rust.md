@@ -116,6 +116,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
+* [rama - add serve command to rama-cli](https://github.com/plabayo/rama/issues/508)
+* [rama - add support for include_dir for to ServeDir and related](https://github.com/plabayo/rama/issues/507)
+* [rama - add curl module to rama-http-types](https://github.com/plabayo/rama/issues/509)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 [guidelines]:https://github.com/rust-lang/this-week-in-rust?tab=readme-ov-file#call-for-participation-guidelines
