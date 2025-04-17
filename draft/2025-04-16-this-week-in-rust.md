@@ -57,6 +57,7 @@ and just ask the editors to select the category.
 * [video] [Bevy Basics: Who Observes the Observer](https://www.youtube.com/watch?v=8dJtmt19D_s)
 
 ### Rust Walkthroughs
+* [Rust Type System Deep Dive From GATs to Type Erasure](https://minikin.me/blog/rust-type-system-deep-dive)
 * [Async from scratch 1: What's in a Future, anyway? | natkr's ramblings](https://natkr.com/2025-04-10-async-from-scratch-1/)
 * [Async from scratch 2: Wake me maybe | natkr's ramblings](https://natkr.com/2025-04-15-async-from-scratch-2/)
 * [Building a search engine from scratch, in Rust: part 4](https://jdrouet.github.io/posts/202503311500-search-engine-part-4/)
