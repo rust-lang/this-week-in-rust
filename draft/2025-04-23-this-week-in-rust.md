@@ -44,6 +44,9 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [How a GraphQL DataLoader works](https://swatinem.de/blog/graphql-dataloader-part1/)
+- [Implementing a GraphQL DataLoader the hard way](https://swatinem.de/blog/graphql-dataloader-part2/)
+
 ### Research
 
 ### Miscellaneous
