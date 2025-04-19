@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [fdintercept: Intercept and log stdin, stdout, and stderr for any target command](https://github.com/jpmelos/fdintercept)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
