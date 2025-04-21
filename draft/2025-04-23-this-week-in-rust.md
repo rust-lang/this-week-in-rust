@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 ### Research
 
+* [Marching Events: What does iCalendar have to do with ray marching?](https://pwy.io/posts/marching-events/)
+
 ### Miscellaneous
 
 ## Crate of the Week
