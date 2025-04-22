@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[Joydb - JSON/CSV file database and ORM for quick prototyping](https://github.com/greyblake/joydb)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
