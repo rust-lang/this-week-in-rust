@@ -229,12 +229,12 @@ Rusty Events between 2025-04-23 - 2025-05-21 🦀
     * [**Rust Gdansk Meetup #8**](https://www.meetup.com/rust-gdansk/events/307281434)
 * 2025-05-08 | London, UK | [London Rust Project Group](https://www.meetup.com/london-rust-project-group/events/)
     * [**Adopting Rust (Hosted by Lloyds bank)**](https://www.meetup.com/london-rust-project-group/events/307085179)
-* 2025-05-13 | Amsterdam, NL | [RustNL](https://www.meetup.com/rust-amsterdam/events/)
-    * [**RustWeek 2025 announcement**](https://www.meetup.com/rust-nederland/events/305227330)
-* 2025-05-13 - 2025-05-17 | Utrecht, NL | [Rust NL](https://www.meetup.com/Rust-Nederland/)
-    * [**RustWeek 2025**](https://dev.events/conferences/rust-week-2025-utcccotp)
+* 2025-05-13 - 2025-05-17 | Utrecht, NL | [Rust NL](https://rustweek.org/about)
+    * [**RustWeek 2025**](https://rustweek.org)
 * 2025-05-14 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/events/)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/305045447)
+* 2025-05-16 | Utrecht, NL | [Rust NL Meetup Group](https://www.meetup.com/rust-nederland/)
+    * [**RustWeek Hackathon**](https://www.meetup.com/rust-nederland/events/307107584/)
 
 ### North America
 * 2025-04-17 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
