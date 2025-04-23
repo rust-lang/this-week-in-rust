@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Two ways of interpreting visibility in Rust](https://kobzol.github.io/rust/2025/04/23/two-ways-of-interpreting-visibility-in-rust.html)
+
 ### Rust Walkthroughs
 
 ### Research
