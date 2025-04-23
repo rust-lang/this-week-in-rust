@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [How To Get A Rust Job- Survey For Those Who've Managed To Get One](https://docs.google.com/forms/d/e/1FAIpQLSdoE8gGhBQfiR7IIxgLikSsupld9Kmz57OcjAj-2Iur6pyNyA/viewform?usp=header)
 
 ## Crate of the Week
 
