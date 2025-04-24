@@ -42,7 +42,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
-* [Zig -> allocators -> Rust ergonomics](https://www.capturedlambda.dev/blog/zig-allocators-rust_ergo/) - [My first submission, not positive re category]
+* [Zig -> allocators -> Rust ergonomics](https://www.capturedlambda.dev/blog/zig-allocators-rust_ergo/)
 
 ### Rust Walkthroughs
 
