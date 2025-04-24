@@ -61,7 +61,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [Maycoon](https://maycoon-ui.github.io/), an experimental vello/wGPU-based UI framework.
+
+Thanks to [DraftedDev](https://users.rust-lang.org/t/crate-of-the-week/2704/1431) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -119,7 +121,87 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+465 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-04-15..2025-04-22
+
+#### Compiler
+
+* [avoid overflow when generating debuginfo for expanding recursive types](https://github.com/rust-lang/rust/pull/138599)
+* [deref patterns: implement implicit deref patterns](https://github.com/rust-lang/rust/pull/138528)
+* [fix wrong "move keyword" suggestion for async gen block](https://github.com/rust-lang/rust/pull/139871)
+* [improve parse errors for stray lifetimes in type position](https://github.com/rust-lang/rust/pull/139854)
+* [make `#[naked]` an unsafe attribute](https://github.com/rust-lang/rust/pull/139753)
+* [rewrite `on_unimplemented` format string parser](https://github.com/rust-lang/rust/pull/139091)
+
+#### Miri
+
+* [miri: implement file deletion on Windows](https://github.com/rust-lang/miri/pull/4260)
+* [miri: use std-declared intrinsics rather than copying the declaration](https://github.com/rust-lang/miri/pull/4274)
+
+#### Library
+
+* [add `next_index` to Enumerate](https://github.com/rust-lang/rust/pull/139533)
+* [add retries to remove and create dir all](https://github.com/rust-lang/rust/pull/139870)
+* [`sync::mpsc`: prevent double free on `Drop`](https://github.com/rust-lang/rust/pull/139553)
+* [implement `Default` for raw pointers](https://github.com/rust-lang/rust/pull/139535)
+* [implement `pin!()` using `super let`](https://github.com/rust-lang/rust/pull/139114)
+* [stabilize `-Zdwarf-version` as `-Cdwarf-version`](https://github.com/rust-lang/rust/pull/136926)
+* [stabilize `cfg_boolean_literals`](https://github.com/rust-lang/rust/pull/138632)
+* [stabilize `naked_functions`](https://github.com/rust-lang/rust/pull/134213)
+* [simd intrinsics with mask: accept unsigned integer masks, and fix some of the errors](https://github.com/rust-lang/rust/pull/137953)
+* [add `vec_extract`, `vec_insert`, `vec_promote` and `vec_insert_and_zero`](https://github.com/rust-lang/stdarch/pull/1772)
+
+#### Cargo
+
+* [use `zlib-rs` for gzip compression in rust code](https://github.com/rust-lang/cargo/pull/15417)
+
+#### Rustdoc
+
+* [fix error when an intra doc link is trying to resolve an empty associated item](https://github.com/rust-lang/rust/pull/140052)
+* [rustdoc-json: output target feature information](https://github.com/rust-lang/rust/pull/139393)
+* [support inlined cross-crate re-exported trait aliases](https://github.com/rust-lang/rust/pull/139943)
+
+#### Clippy
+
+* [clippy: `bool_to_int_with_if`: properly handle macros](https://github.com/rust-lang/rust-clippy/pull/14629)
+* [clippy: `empty_enum_variants_with_brackets`: Do not lint reachable enums and `enum` variants used as functions in the same crate](https://github.com/rust-lang/rust-clippy/pull/12971)
+* [clippy: `iter_kv_map`: recognize references on maps as well](https://github.com/rust-lang/rust-clippy/pull/14596)
+* [clippy: `manual_ok_err`: don't lint subpatterns](https://github.com/rust-lang/rust-clippy/pull/14661)
+* [clippy: `match_single_binding`: allow macros in scrutinee and patterns](https://github.com/rust-lang/rust-clippy/pull/14635)
+* [clippy: `missing_asserts_for_indexing`: consider `assert_eq!()` as well](https://github.com/rust-lang/rust-clippy/pull/14258)
+* [clippy: `ptr_cast_constness`: show snippet from the right context](https://github.com/rust-lang/rust-clippy/pull/14622)
+* [clippy: build complete usable type from a type-relative prefix](https://github.com/rust-lang/rust-clippy/pull/14586)
+* [clippy: check for lifetime uses in closures as well](https://github.com/rust-lang/rust-clippy/pull/14608)
+* [clippy: do not recurse forever in `significant_drop_tightening`](https://github.com/rust-lang/rust-clippy/pull/14641)
+* [clippy: fix `question_mark` suggesting when type is behind Deref include parentheses](https://github.com/rust-lang/rust-clippy/pull/14655)
+* [clippy: fix: `unnecessary_lazy_evaluations` suggests wrongly for async closure](https://github.com/rust-lang/rust-clippy/pull/14644)
+* [clippy: make `borrow_as_ptr` flag implicit casts as well](https://github.com/rust-lang/rust-clippy/pull/14408)
+* [clippy: new lint: `redundant_test_prefix`](https://github.com/rust-lang/rust-clippy/pull/13710)
+* [clippy: new lint: `swap_with_temporary`](https://github.com/rust-lang/rust-clippy/pull/14046)
+* [clippy: replace interning of string literals with preinterned symbols](https://github.com/rust-lang/rust-clippy/pull/14650)
+
+#### Rust-Analyzer
+
+* [rust-analyzer: add semicolon to use](https://github.com/rust-lang/rust-analyzer/pull/19604)
+* [rust-analyzer: allow training PGO on a custom crate and enable it Windows on CI](https://github.com/rust-lang/rust-analyzer/pull/19585)
+* [rust-analyzer: allow using `null` to unset an environment variable](https://github.com/rust-lang/rust-analyzer/pull/19629)
+* [rust-analyzer: build aarch64 builds on CI with PGO](https://github.com/rust-lang/rust-analyzer/pull/19597)
+* [rust-analyzer: don't ignore config values that fail to parse](https://github.com/rust-lang/rust-analyzer/pull/19628)
+* [rust-analyzer: add `pub(crate) mod` option for unlinked files](https://github.com/rust-lang/rust-analyzer/pull/19590)
+* [rust-analyzer: allow unsetting env vars in `server.extraEnv` config](https://github.com/rust-lang/rust-analyzer/pull/19634)
+* [rust-analyzer: enhance signature help to display generic parameters for callables and default values for generic args](https://github.com/rust-lang/rust-analyzer/pull/19596)
+* [rust-analyzer: parse `super let`](https://github.com/rust-lang/rust-analyzer/pull/19653)
+* [rust-analyzer: parse generic consts](https://github.com/rust-lang/rust-analyzer/pull/19643)
+* [rust-analyzer: `Extract into` function include inline variable in fmt macro](https://github.com/rust-lang/rust-analyzer/pull/19588)
+* [rust-analyzer: fix `completion_snippets_custom` config always erroring](https://github.com/rust-lang/rust-analyzer/pull/19636)
+* [rust-analyzer: fix a bug with predicate lowering of associated items](https://github.com/rust-lang/rust-analyzer/pull/19612)
+* [rust-analyzer: fix a panic when a trait method in an impl declares a lifetime parameter not in the trait declaration](https://github.com/rust-lang/rust-analyzer/pull/19613)
+* [rust-analyzer: highlighting for tail expr in labelled blocks](https://github.com/rust-lang/rust-analyzer/pull/19589)
+* [rust-analyzer: sort notable traits in hover](https://github.com/rust-lang/rust-analyzer/pull/19619)
+* [rust-analyzer: support unstable `UnsafePinned struct` in type layout calc](https://github.com/rust-lang/rust-analyzer/pull/19650)
+* [rust-analyzer: use PGO on Linux x64 builds](https://github.com/rust-lang/rust-analyzer/pull/19595)
+* [rust-analyzer: use PGO on macOS x64 and arm64 builds](https://github.com/rust-lang/rust-analyzer/pull/19611)
 
 ### Rust Compiler Performance Triage
 
@@ -301,7 +383,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> I don’t think about rust either. That’s a compiler’s job
+
+– [Steve Klabnik on Bluesky](https://bsky.app/profile/steveklabnik.com/post/3lmtavr5ni22l)
+
+Thanks to [Matt Wismer](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1677) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
