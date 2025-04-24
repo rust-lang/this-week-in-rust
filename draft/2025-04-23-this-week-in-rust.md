@@ -57,6 +57,9 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Implementation of Rust panics in the standard library](https://fractalfir.github.io/generated_html/rustc_codegen_clr_v0_2_2.html)
 
+- [How a GraphQL DataLoader works](https://swatinem.de/blog/graphql-dataloader-part1/)
+- [Implementing a GraphQL DataLoader the hard way](https://swatinem.de/blog/graphql-dataloader-part2/)
+
 ### Research
 
 ### Miscellaneous
