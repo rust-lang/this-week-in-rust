@@ -205,7 +205,22 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Mostly positive week. Most of the improvements come from a revert of a regression from a few weeks ago, but we also get nice wins from re-using Sized  fast-path, coming from Sized hierarchy implementation work.
+
+Triage done by **@panstromek**.
+Revision range: [15f58c46..8f2819b0](https://perf.rust-lang.org/?start=15f58c46da79399961a09db0c650a2f90f442e6b&end=8f2819b0e3428d0aee05fa60e91e0211c2aea053&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 1.3%  | [0.4%, 2.1%]    | 7     |
+| Regressions ❌ <br /> (secondary)  | -     | -               | 0     |
+| Improvements ✅ <br /> (primary)   | -1.0% | [-12.9%, -0.1%] | 144   |
+| Improvements ✅ <br /> (secondary) | -2.2% | [-12.3%, -0.2%] | 111   |
+| All ❌✅ (primary)                 | -0.9% | [-12.9%, 2.1%]  | 151   |
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/02138a9d3679be358403ee8906141666870e5346/triage/2024-04-22.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
