@@ -51,8 +51,10 @@ and just ask the editors to select the category.
 * [ratatui: are we embedded yet?](https://jslazak.com/are-we-embedded-yet-0/)
 * [audio] [Nushell with WindSoilder](https://rustacean-station.org/episode/windsoilder/)
 * [audio] [Microsoft with Victor Ciura](https://corrode.dev/podcast/s04e01-microsoft/)
-
 * [Zig -> allocators -> Rust ergonomics](https://www.capturedlambda.dev/blog/zig-allocators-rust_ergo/)
+* [Marching Events: What does iCalendar have to do with ray marching?](https://pwy.io/posts/marching-events/)
+
+### Miscellaneous
 
 ### Rust Walkthroughs
 * [Implementation of Rust panics in the standard library](https://fractalfir.github.io/generated_html/rustc_codegen_clr_v0_2_2.html)
@@ -61,8 +63,6 @@ and just ask the editors to select the category.
 - [Implementing a GraphQL DataLoader the hard way](https://swatinem.de/blog/graphql-dataloader-part2/)
 
 ### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
