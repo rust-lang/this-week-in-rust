@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 * [audio] [Nushell with WindSoilder](https://rustacean-station.org/episode/windsoilder/)
 * [audio] [Microsoft with Victor Ciura](https://corrode.dev/podcast/s04e01-microsoft/)
 
+* [Zig -> allocators -> Rust ergonomics](https://www.capturedlambda.dev/blog/zig-allocators-rust_ergo/)
+
 ### Rust Walkthroughs
 * [Implementation of Rust panics in the standard library](https://fractalfir.github.io/generated_html/rustc_codegen_clr_v0_2_2.html)
 
