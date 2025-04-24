@@ -45,10 +45,10 @@ and just ask the editors to select the category.
 * [Does using Rust really make your software safer? - Blog - Tweede golf](https://tweedegolf.nl/en/blog/152/does-using-rust-really-make-your-software-safer)
 * [Body::poll_progress](https://seanmonstar.com/blog/body-poll-progress/)
 * [ratatui: are we embedded yet?](https://jslazak.com/are-we-embedded-yet-0/)
-* [audio] [Nushell with WindSoilder](https://rustacean-station.org/episode/windsoilder/)
-* [audio] [Microsoft with Victor Ciura](https://corrode.dev/podcast/s04e01-microsoft/)
 * [Zig -> allocators -> Rust ergonomics](https://www.capturedlambda.dev/blog/zig-allocators-rust_ergo/)
 * [Marching Events: What does iCalendar have to do with ray marching?](https://pwy.io/posts/marching-events/)
+* [audio] [Nushell with WindSoilder](https://rustacean-station.org/episode/windsoilder/)
+* [audio] [Microsoft with Victor Ciura](https://corrode.dev/podcast/s04e01-microsoft/)
 
 ### Rust Walkthroughs
 * [Implementation of Rust panics in the standard library](https://fractalfir.github.io/generated_html/rustc_codegen_clr_v0_2_2.html)
