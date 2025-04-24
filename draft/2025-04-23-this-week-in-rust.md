@@ -41,14 +41,13 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Marching Events: What does iCalendar have to do with ray marching?](https://pwy.io/posts/marching-events/)
+
+### Miscellaneous
 
 ### Rust Walkthroughs
 
 ### Research
-
-* [Marching Events: What does iCalendar have to do with ray marching?](https://pwy.io/posts/marching-events/)
-
-### Miscellaneous
 
 ## Crate of the Week
 
