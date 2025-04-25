@@ -216,7 +216,7 @@ Revision range: [15f58c46..8f2819b0](https://perf.rust-lang.org/?start=15f58c46d
 | Improvements ✅ <br /> (secondary) | -2.2% | [-12.3%, -0.2%] | 111   |
 | All ❌✅ (primary)                 | -0.9% | [-12.9%, 2.1%]  | 151   |
 
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/02138a9d3679be358403ee8906141666870e5346/triage/2024-04-22.md)
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/eaf0e22c56f793258767947dc4e4ecc750f662f3/triage/2025-04-22.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
