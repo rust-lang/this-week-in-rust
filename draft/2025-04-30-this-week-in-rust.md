@@ -40,6 +40,9 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [file-editor 0.1.0 – chain-friendly text-file editing](https://crates.io/crates/file-editor)
+  – fluent API to create, insert, search & replace in UTF-8 files
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
