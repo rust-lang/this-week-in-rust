@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [The Company That Is All-In On Rust For Robotics](https://filtra.io/rust/interviews/matic-apr-25)
 
 ## Crate of the Week
 
