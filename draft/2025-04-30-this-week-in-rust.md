@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Video] [Internals of SlateDB: An embedded key-value store built on object storage](https://www.youtube.com/watch?v=qqF_zFWqFYk)
+
 ### Research
 
 ### Miscellaneous
