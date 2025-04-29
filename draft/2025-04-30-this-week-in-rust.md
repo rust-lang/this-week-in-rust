@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Video] [From Rust to C and Back Again: an introduction to "foreign functions"](https://www.youtube.com/watch?v=B4yNqR0WgYQ) ([Long Version](https://www.youtube.com/watch?v=LLAUzghhNHg))
+
 ### Research
 
 ### Miscellaneous
