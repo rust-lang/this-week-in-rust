@@ -183,7 +183,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Strange week with lots of noise peeking through the performance runs. The only really significant change was a performance improvement that comes from allowing out of order encoding of the dep graph.
+
+Triage done by **@rylev**.
+Revision range: [8f2819b0..25cdf1f6](https://perf.rust-lang.org/?start=8f2819b0e3428d0aee05fa60e91e0211c2aea053&end=25cdf1f67463c9365d8d83778c933ec7480e940b&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.5%  | [0.1%, 3.0%]   | 77    |
+| Regressions ❌ <br /> (secondary)  | 0.6%  | [0.1%, 2.4%]   | 77    |
+| Improvements ✅ <br /> (primary)   | -0.7% | [-1.3%, -0.2%] | 106   |
+| Improvements ✅ <br /> (secondary) | -0.7% | [-1.2%, -0.2%] | 29    |
+| All ❌✅ (primary)                 | -0.2% | [-1.3%, 3.0%]  | 183   |
+
+
+4 Regressions, 2 Improvements, 4 Mixed; 2 of them in rollups
+38 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/748534344dceab1e8001a925cf84fa04a2c1c752/triage/2025-04-29.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
