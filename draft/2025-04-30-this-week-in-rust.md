@@ -226,6 +226,8 @@ Let us know if you would like your PRs, Tracking Issues or RFCs to be tracked as
 Rusty Events between 2025-04-30 - 2025-05-28 🦀
 
 ### Virtual
+* 2025-05-01 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Sessió setmanal de codificació / Weekly coding session**](https://lu.ma/clzsjmn0)
 * 2025-05-03 | Virtual (Kampala, UG) | [Rust Circle Meetup](https://www.eventbrite.com/o/rust-circle-kampala-65249289033)
     * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587)
 * 2025-05-04 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
@@ -236,6 +238,8 @@ Rusty Events between 2025-04-30 - 2025-05-28 🦀
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/302031663)
 * 2025-05-07 | Virtual (Rotterdam, NL) | [Bevy Game Development](https://www.meetup.com/bevy-game-development/events/)
     * [**Bevy Meetup #10**](https://www.meetup.com/bevy-game-development/events/307354690)
+* 2025-05-08 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Sessió setmanal de codificació / Weekly coding session**](https://lu.ma/2lmcm9iq)
 * 2025-05-08 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/300820300)
 * 2025-05-11 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
@@ -244,6 +248,8 @@ Rusty Events between 2025-04-30 - 2025-05-28 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/305020415)
 * 2025-05-15 | Virtual (Joint Meetup, Europe + Israel) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/), [Rust Paris](https://www.meetup.com/de-DE/rust-paris/), [London Rust Project Group](https://www.meetup.com/de-DE/london-rust-project-group/), [Rust Zürisee](https://www.meetup.com/de-DE/rust-zurich/), [Rust TLV](https://www.meetup.com/de-DE/rust-tlv/), [Rust Nürnberg](https://www.meetup.com/de-DE/rust-noris/), [Rust Munich](https://www.meetup.com/de-DE/rust-munich/), [Rust Aarhus](https://www.meetup.com/de-de/rust-aarhus/), [lunch.rs](http://lunch.rs/)
     * [**🦀 Celebrating 10 years of Rust 1.0 🦀**](https://www.meetup.com/rust-berlin/events/307293317)
+* 2025-05-15 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Sessió setmanal de codificació / Weekly coding session**](https://lu.ma/eeqmobhz)
 * 2025-05-18 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
     * [**Rust Readers Discord Discussion: Async Rust**](https://www.meetup.com/dallasrust/events/kvqfrtyhchbxb)
 * 2025-05-20 | Virtual (London, GB) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
@@ -254,6 +260,8 @@ Rusty Events between 2025-04-30 - 2025-05-28 🦀
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/307184332)
 * 2025-05-22 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/300820302)
+* 2025-05-22 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Sessió setmanal de codificació / Weekly coding session**](https://lu.ma/8zabmc3w)
 * 2025-05-25 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
     * [**Rust Readers Discord Discussion: Async Rust**](https://www.meetup.com/dallasrust/events/kvqfrtyhchbhc)
 * 2025-05-27 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
@@ -262,6 +270,7 @@ Rusty Events between 2025-04-30 - 2025-05-28 🦀
 ### Asia
 * 2025-05-24 | Bangalore/Bengaluru, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**May 2025 Rustacean meetup**](https://hasgeek.com/rustbangalore/may-2025-rustacean-meetup/)
+
 ### Europe
 * 2025-04-30 | Frankfurt, DE | [Rust Rhein-Main](https://www.meetup.com/rust-rhein-main/events/)
     * [**Kubernetes Operator in Rust**](https://www.meetup.com/rust-rhein-main/events/306772838)
@@ -275,6 +284,8 @@ Rusty Events between 2025-04-30 - 2025-05-28 🦀
     * [**GOSIM AI Paris 2025**](https://www.meetup.com/wasm-rust-meetup/events/306530699/)
 * 2025-05-06 | Paris, FR | [WebAssembly and Rust Meetup (Wasm Empowering AI)](https://www.meetup.com/wasm-rust-meetup/events/)
     * [**GOSIM AI Paris 2025 (Discount available)**](https://www.meetup.com/wasm-rust-meetup/events/306530699)
+* 2025-05-07 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Rust Girona Hack & Learn 05 2025**](https://lu.ma/k4nscy5q)
 * 2025-05-07 | Köln, DE | [Rust Cologne](https://www.meetup.com/rust-cologne-bonn/events/)
     * [**Rust in May: FFI**](https://www.meetup.com/rustcologne/events/307548402)
 * 2025-05-07 | Madrid, ES | [MadRust](https://www.meetup.com/madrust/events/)
