@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Freeing Up Gigabytes: Reclaiming Disk Space from Rust Cargo Builds](https://thisdavej.com/freeing-up-gigabytes-reclaiming-disk-space-from-rust-cargo-builds/)
 
 * [Video] [Shipping Rust to Python, Typescript, and Ruby](https://www.youtube.com/watch?v=Zs6Uer3VAyQ)
 * [Video] [From Rust to C and Back Again: an introduction to "foreign functions"](https://www.youtube.com/watch?v=B4yNqR0WgYQ) ([Long Version](https://www.youtube.com/watch?v=LLAUzghhNHg))
