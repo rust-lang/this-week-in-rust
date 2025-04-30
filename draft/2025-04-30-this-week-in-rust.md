@@ -63,7 +63,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [rust-sel4](https://github.com/seL4/rust-sel4/), a no\_std crate to bind to the Se4L microkernel APIs.
+
+Thanks to [Robbie VanVossen](https://users.rust-lang.org/t/crate-of-the-week/2704/1432) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -122,7 +124,65 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+389 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-04-22..2025-04-29
+
+#### Compiler
+
+* [`rc""` more clear error message](https://github.com/rust-lang/rust/pull/140175)
+* [allow deref patterns to move out of boxes](https://github.com/rust-lang/rust/pull/140022)
+* [async drop codegen](https://github.com/rust-lang/rust/pull/123948)
+* [avoid re-interning in `LateContext::get_def_path`](https://github.com/rust-lang/rust/pull/140345)
+* [implement a lint for implicit autoref of raw pointer dereference - take 2](https://github.com/rust-lang/rust/pull/123239)
+* [improve error message for `||` (or) in let chains](https://github.com/rust-lang/rust/pull/140272)
+* [stabilize let chains in the 2024 edition](https://github.com/rust-lang/rust/pull/132833)
+* [deny `unsafe_op_in_unsafe_fn` by default](https://github.com/rust-lang/compiler-builtins/pull/801)
+
+#### Library
+
+* [add `Arc::is_unique`](https://github.com/rust-lang/rust/pull/138939)
+* [stabilise `std::ffi::c_str`](https://github.com/rust-lang/rust/pull/137439)
+* [stabilize `proc_macro::Span::{start,end,line,column}`](https://github.com/rust-lang/rust/pull/139865)
+* [stabilize `slice_as_chunks` library feature](https://github.com/rust-lang/rust/pull/139656)
+* [transmutability: support char, NonZeroXxx](https://github.com/rust-lang/rust/pull/140215)
+
+#### Cargo
+
+* [implement RFC3695: Allow boolean literals as cfg predicates](https://github.com/rust-lang/cargo/pull/14649)
+* [stabilize automatic garbage collection](https://github.com/rust-lang/cargo/pull/14287)
+* [`feat(add/install)`: check if given crate argument would be valid with inserted @ symbol](https://github.com/rust-lang/cargo/pull/15441)
+
+#### Rustdoc
+
+* [correctly display stdout and stderr in case a doctest is failing](https://github.com/rust-lang/rust/pull/140291)
+* [stabilize flags for doctest cross compilation](https://github.com/rust-lang/rust/pull/137096)
+
+#### Clippy
+
+* [`manual_div_ceil`: fix suggestions when macro is involved](https://github.com/rust-lang/rust-clippy/pull/14666)
+* [consider side effects when rewriting iterator behaviors](https://github.com/rust-lang/rust-clippy/pull/14490)
+* [fix `zombie_processes` false positive inside closures](https://github.com/rust-lang/rust-clippy/pull/14696)
+* [fix: `equatable_if_let` suggests wrongly when involving reference](https://github.com/rust-lang/rust-clippy/pull/14504)
+* [fix: `unnecessary_cast` suggests extra brackets when in macro](https://github.com/rust-lang/rust-clippy/pull/14643)
+* [fix: `unused_unit` suggests wrongly on unit never type fallback](https://github.com/rust-lang/rust-clippy/pull/14609)
+* [restrict the cases where `ptr_eq` triggers](https://github.com/rust-lang/rust-clippy/pull/14526)
+
+#### Rust-Analyzer
+
+* [add expression fill mode variant for filling with underscore expressions](https://github.com/rust-lang/rust-analyzer/pull/19704)
+* [always error when failed to parse DiscoverProjectMessage](https://github.com/rust-lang/rust-analyzer/pull/19684)
+* [arena allocate `LifetimeRef`s](https://github.com/rust-lang/rust-analyzer/pull/19678)
+* [base-db: add more details to panic](https://github.com/rust-lang/rust-analyzer/pull/19710)
+* [add two new diagnostics: one for mismatch in generic arguments count, and another for mismatch in their kind](https://github.com/rust-lang/rust-analyzer/pull/19479)
+* [adds an assist to remove underscores from used variables](https://github.com/rust-lang/rust-analyzer/pull/19692)
+* [better support `offset_of!()`](https://github.com/rust-lang/rust-analyzer/pull/19657)
+* [properly handle lifetimes when checking generic arguments len](https://github.com/rust-lang/rust-analyzer/pull/19676)
+* [fix ide-assists `raw_string` suffix fail](https://github.com/rust-lang/rust-analyzer/pull/19622)
+* [escape raw names in labels properly](https://github.com/rust-lang/rust-analyzer/pull/19699)
+* [fix incorrect diagnostic for lifetime parameter count mismatch](https://github.com/rust-lang/rust-analyzer/pull/19672)
+* [fix type argument mismatch incorrectly triggering on inferred trait args](https://github.com/rust-lang/rust-analyzer/pull/19675)
+* [panics in inlay hints that produce empty text edits for closure return types](https://github.com/rust-lang/rust-analyzer/pull/19647)
 
 ### Rust Compiler Performance Triage
 
@@ -307,7 +367,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> With Bevy clearly being an extended test suite for Rust's trait solver, how did you get the idea to also turn it into a game engine?
+
+> Every sufficiently advanced test is indistinguishable from a game engine 🙂
+
+– [/u/0x564A00 and /u/_cart on /r/rust](https://www.reddit.com/r/rust/comments/1k721w1/comment/moumd91)
+
+Thanks to [Ludwig Stecher](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1681) and [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1682) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
