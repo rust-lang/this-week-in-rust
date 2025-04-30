@@ -54,6 +54,8 @@ and just ask the editors to select the category.
 
 * [A Visual Journey Through Async Rust](https://github.com/alexpusch/rust-magic-patterns/blob/master/visual-journey-through-async-rust/Readme.md)
 
+* [Video] [Internals of SlateDB: An embedded key-value store built on object storage](https://www.youtube.com/watch?v=qqF_zFWqFYk)
+
 ### Research
 
 ### Miscellaneous
