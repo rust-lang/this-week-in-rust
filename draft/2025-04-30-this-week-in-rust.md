@@ -37,18 +37,28 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #44](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-44)
 
 ### Project/Tooling Updates
 
 * [Yelken Alpha Release Announcement](https://bwqr.github.io/yelken-blog/first-announcement/)
+* [BugStalker v0.3.0 - Modern debugger for Linux x86-64. Written in Rust for Rust programs.](https://www.reddit.com/r/rust/comments/1k6vni5/bugstalker_v030_released_async_debugging_new/)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Freeing Up Gigabytes: Reclaiming Disk Space from Rust Cargo Builds](https://thisdavej.com/freeing-up-gigabytes-reclaiming-disk-space-from-rust-cargo-builds/)
+
+* [Video] [Shipping Rust to Python, Typescript, and Ruby](https://www.youtube.com/watch?v=Zs6Uer3VAyQ)
+* [Video] [From Rust to C and Back Again: an introduction to "foreign functions"](https://www.youtube.com/watch?v=B4yNqR0WgYQ) ([Long Version](https://www.youtube.com/watch?v=LLAUzghhNHg))
+
+* [A Visual Journey Through Async Rust](https://github.com/alexpusch/rust-magic-patterns/blob/master/visual-journey-through-async-rust/Readme.md)
 
 ### Research
 
 ### Miscellaneous
+
+* [How Rolldown Works: Module Loading, Dependency Graphs, and Optimization Explained](https://www.atriiy.dev/blog/rolldown-module-loader-and-dependency-graph)
 
 ## Crate of the Week
 
@@ -187,8 +197,8 @@ Rusty Events between 2025-04-30 - 2025-05-28 🦀
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/300820300)
 * 2025-05-13 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/305020415)
-* 2025-05-15 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
-    * [**🦀 Celebrating 10 years of Rust 1.0 🦀**](https://www.meetup.com/rust-berlin/events/307293317) | [**Livestream**](https://berline.rs/)
+* 2025-05-15 | Virtual (Joint Meetup, Europe + Israel) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/), [Rust Paris](https://www.meetup.com/de-DE/rust-paris/), [London Rust Project Group](https://www.meetup.com/de-DE/london-rust-project-group/), [Rust Zürisee](https://www.meetup.com/de-DE/rust-zurich/), [Rust TLV](https://www.meetup.com/de-DE/rust-tlv/), [Rust Nürnberg](https://www.meetup.com/de-DE/rust-noris/), [Rust Munich](https://www.meetup.com/de-DE/rust-munich/), [Rust Aarhus](https://www.meetup.com/de-de/rust-aarhus/), [lunch.rs](http://lunch.rs/)
+    * [**🦀 Celebrating 10 years of Rust 1.0 🦀**](https://www.meetup.com/rust-berlin/events/307293317)
 * 2025-05-20 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/events/)
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/305170826)
 * 2025-05-21 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/events/)
