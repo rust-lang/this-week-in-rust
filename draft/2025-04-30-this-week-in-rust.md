@@ -44,11 +44,11 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
-* [How Rolldown Works: Module Loading, Dependency Graphs, and Optimization Explained](https://www.atriiy.dev/blog/rolldown-module-loader-and-dependency-graph)
-
 ### Research
 
 ### Miscellaneous
+
+* [How Rolldown Works: Module Loading, Dependency Graphs, and Optimization Explained](https://www.atriiy.dev/blog/rolldown-module-loader-and-dependency-graph)
 
 ## Crate of the Week
 
