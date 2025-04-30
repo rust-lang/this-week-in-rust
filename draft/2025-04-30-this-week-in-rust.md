@@ -57,6 +57,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [The Company That Is All-In On Rust For Robotics](https://filtra.io/rust/interviews/matic-apr-25)
 
 * [How Rolldown Works: Module Loading, Dependency Graphs, and Optimization Explained](https://www.atriiy.dev/blog/rolldown-module-loader-and-dependency-graph)
 
