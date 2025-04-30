@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [BugStalker v0.3.0 - Modern debugger for Linux x86-64. Written in Rust for Rust programs.](https://www.reddit.com/r/rust/comments/1k6vni5/bugstalker_v030_released_async_debugging_new/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
