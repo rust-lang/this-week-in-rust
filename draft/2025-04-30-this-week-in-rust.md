@@ -32,10 +32,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
 ### Newsletters
 * [The Embedded Rustacean Issue #44](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-44)
 
@@ -52,14 +48,12 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Freeing Up Gigabytes: Reclaiming Disk Space from Rust Cargo Builds](https://thisdavej.com/freeing-up-gigabytes-reclaiming-disk-space-from-rust-cargo-builds/)
+* [A Visual Journey Through Async Rust](https://github.com/alexpusch/rust-magic-patterns/blob/master/visual-journey-through-async-rust/Readme.md)
 * [Video] [Shipping Rust to Python, Typescript, and Ruby](https://www.youtube.com/watch?v=Zs6Uer3VAyQ)
 * [Video] [From Rust to C and Back Again: an introduction to "foreign functions"](https://www.youtube.com/watch?v=B4yNqR0WgYQ) ([Long Version](https://www.youtube.com/watch?v=LLAUzghhNHg))
-* [A Visual Journey Through Async Rust](https://github.com/alexpusch/rust-magic-patterns/blob/master/visual-journey-through-async-rust/Readme.md)
 * [Video] [Internals of SlateDB: An embedded key-value store built on object storage](https://www.youtube.com/watch?v=qqF_zFWqFYk)
 * [Video] [Generating 1 Million PDFs in 10 Minutes](https://www.ersteiger.com/posts/rendering-one-million-pdfs/)
 * [Video] [RefinedRust - High-Assurance Verification of Rust Programs](https://www.youtube.com/watch?v=XR8p9R1cPC4)
-
-### Research
 
 ### Miscellaneous
 * [The Company That Is All-In On Rust For Robotics](https://filtra.io/rust/interviews/matic-apr-25)
@@ -119,6 +113,7 @@ Are you a new or experienced speaker looking for a place to share something cool
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+*No Calls for papers or presentations were submitted this week.* 
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -383,7 +378,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1jttzz4/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -401,4 +396,4 @@ Thanks to [Ludwig Stecher](https://users.rust-lang.org/t/twir-quote-of-the-week/
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1kbx9de/this_week_in_rust_597/)</small>
