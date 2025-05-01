@@ -271,7 +271,7 @@ Rusty Events between 2025-05-07 - 2025-06-04 🦀
     * [**Apache DataFusion: A Fast, Extensible, Modular Analytic Query Engine in Rust**](https://www.meetup.com/pdxrust/events/307288436)
 * 2025-05-11 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
     * [**Porter Square Rust Lunch, May 11**](https://www.meetup.com/bostonrust/events/306845728)
- 2025-05-15 | Nashville, TN, US | [Music City Rust Developers](https://www.meetup.com/music-city-rust-developers/events/)
+* 2025-05-15 | Nashville, TN, US | [Music City Rust Developers](https://www.meetup.com/music-city-rust-developers/events/)
     * [**Using Rust For Web Series 2 : Why you, Yes You. Should use Hyperscript!**](https://www.meetup.com/music-city-rust-developers/events/304333101)
 * 2025-05-15 | Redmond, WA, US | [Seattle Rust User Group](https://www.meetup.com/join-srug/events/)
     * [**May, 2025 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/seattle-rust-user-group/events/305658468)
