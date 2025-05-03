@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [The Evolution of Rust](https://ranger-ross.github.io/blog/evolution-of-rust/)
+
 ### Rust Walkthroughs
 
 ### Research
