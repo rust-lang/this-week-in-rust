@@ -197,6 +197,8 @@ Rusty Events between 2025-05-07 - 2025-06-04 🦀
     * [**Threading through lifetimes of borrowing - the Rust way**](https://www.meetup.com/women-in-rust/events/307522540)
 * 2025-05-20 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/events/)
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/305170826)
+* 2025-05-20 | Virtual (Tel Aviv, Israel) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/)
+    * [**Rust at Work a conversation with Ran Reichman Co-Founder & CEO of Flarion**](https://www.meetup.com/code-mavens/events/307635734/)
 * 2025-05-21 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/events/)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/307184332)
 * 2025-05-22 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
