@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing Malai - Share your dev server (and more) over P2P](https://malai.sh/announcing-malai/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
