@@ -207,6 +207,8 @@ Rusty Events between 2025-05-07 - 2025-06-04 🦀
     * [**Rust Readers Discord Discussion: Async Rust**](https://www.meetup.com/dallasrust/events/kvqfrtyhchbhc)
 * 2025-05-27 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
     * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/305361435)
+* 2025-05-27 | Virtual (Tel Aviv, Israel) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/)
+    * [**Rust at Work - conversation with Eli Shalom & Igal Tabachnik of Eureka Labs**](https://www.meetup.com/code-mavens/events/307673680/)
 
 ### Asia
 * 2025-05-24 | Bangalore/Bengaluru, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
