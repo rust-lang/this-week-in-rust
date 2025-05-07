@@ -106,7 +106,6 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [rama - support (TLS) peetprint in rama-net fingerprinting](https://github.com/plabayo/rama/issues/518)
 * [rama - support akamai h2 passive fingerprint and expose in echo + fp services](https://github.com/plabayo/rama/issues/517)
 * [rama - add into_stream to BodyExtractExt trait](https://github.com/plabayo/rama/issues/536)
-* 
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
