@@ -56,7 +56,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [structstruck](https://crates.io/crates/structstruck), a proc-macro crate for enabling nested struct/enum definitions.
+
+Thanks to [Julius Michaelis](https://users.rust-lang.org/t/crate-of-the-week/2704/1433) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -119,7 +121,74 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+447 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-04-29..2025-05-06
+
+#### Compiler
+
+* [handle paren in macro expand for let-init-else expr](https://github.com/rust-lang/rust/pull/134034)
+* [implement or-patterns for pattern types](https://github.com/rust-lang/rust/pull/139909)
+* [initial support for dynamically linked crates](https://github.com/rust-lang/rust/pull/134767)
+* [mir-opt: execute MatchBranchSimplification after GVN](https://github.com/rust-lang/rust/pull/140115)
+* [refactor `rustc_on_unimplemented's` filter parser](https://github.com/rust-lang/rust/pull/140307)
+* [perf: optimize the codegen for `Span::from_expansion`](https://github.com/rust-lang/rust/pull/140485)
+* [perf: delay checking of `#[rustc_no_implicit_autorefs]` in autoref lint](https://github.com/rust-lang/rust/pull/140406)
+* [perf: simplify `LazyAttrTokenStream`](https://github.com/rust-lang/rust/pull/127516)
+* [perf: use a closure instead of three chained iterators](https://github.com/rust-lang/rust/pull/140464)
+* [transmutability: merge contiguous runs with a common destination](https://github.com/rust-lang/rust/pull/140509)
+* [transmutability: uninit transition matches unit byte only](https://github.com/rust-lang/rust/pull/140380)
+
+#### Library
+
+* [avoid redundant WTF-8 checks in `PathBuf`](https://github.com/rust-lang/rust/pull/140159)
+* [delegate to inner `vec::IntoIter` from `env::ArgsOs`](https://github.com/rust-lang/rust/pull/139847)
+* [implement `Iterator::last` for `vec::IntoIter`](https://github.com/rust-lang/rust/pull/139773)
+* [stabilize `ptr::swap_nonoverlapping` in const](https://github.com/rust-lang/rust/pull/137280)
+* [stabilize `select_unpredictable`](https://github.com/rust-lang/rust/pull/140550)
+* [streamline the `format` macro](https://github.com/rust-lang/rust/pull/140188)
+
+#### Cargo
+
+* [cargo add: suggest similarly named features](https://github.com/rust-lang/cargo/pull/15438)
+* [in package-workspace, keep dev-dependencies if they have a version](https://github.com/rust-lang/cargo/pull/15470)
+
+#### Rustdoc
+
+* [fix doctest heuristic for main fn wrapping](https://github.com/rust-lang/rust/pull/140420)
+
+#### Rustfmt
+
+* [also allow bool literals as first item of let chain](https://github.com/rust-lang/rust/pull/140486)
+
+#### Clippy
+
+* [don't warn about unloaded crates](https://github.com/rust-lang/rust-clippy/pull/14733)
+* [fix `collapsible_if` false positive on block stmt before expr](https://github.com/rust-lang/rust-clippy/pull/14730)
+* [fix `manual_unwrap_or_default` false positive on ref binding](https://github.com/rust-lang/rust-clippy/pull/14731)
+* [fix: `manual_slice_fill` false positive on `IndexMut` overload](https://github.com/rust-lang/rust-clippy/pull/14719)
+* [fix: `unused_async` false positive on default impl](https://github.com/rust-lang/rust-clippy/pull/14720)
+* [gate `collapsible_if let_chains` lints on edition 2024 and MSRV](https://github.com/rust-lang/rust-clippy/pull/14723)
+
+#### Rust-Analyzer
+
+* [add PGO support to install](https://github.com/rust-lang/rust-analyzer/pull/19685)
+* [better handle parallelism in cache priming](https://github.com/rust-lang/rust-analyzer/pull/19721)
+* [disable fixpoint for variance computation temporarily](https://github.com/rust-lang/rust-analyzer/pull/19739)
+* [add an assist to unwrap a type with a generic arg](https://github.com/rust-lang/rust-analyzer/pull/19740)
+* [correct assoc ty bound var starting index](https://github.com/rust-lang/rust-analyzer/pull/19732)
+* [correct span info for `mir::Operand`](https://github.com/rust-lang/rust-analyzer/pull/19247)
+* [don't panic on some weird code](https://github.com/rust-lang/rust-analyzer/pull/19738)
+* [fix `move_bounds` assists not working for lifetimes](https://github.com/rust-lang/rust-analyzer/pull/19747)
+* [fix incorrect handling of unresolved non-module imports in name resolution](https://github.com/rust-lang/rust-analyzer/pull/19742)
+* [fix proc-macro API creating malformed negative literals](https://github.com/rust-lang/rust-analyzer/pull/19746)
+* [implement mut to const ptr cast for method resolution](https://github.com/rust-lang/rust-analyzer/pull/19733)
+* [improve parser recovery a bit](https://github.com/rust-lang/rust-analyzer/pull/19723)
+* [negative nums in `concat!` expansion](https://github.com/rust-lang/rust-analyzer/pull/19434)
+* [remove unnecessary token length check for macros in renaming](https://github.com/rust-lang/rust-analyzer/pull/19750)
+* [improve the let code snippet](https://github.com/rust-lang/rust-analyzer/pull/19735)
+* [render more lifetimes](https://github.com/rust-lang/rust-analyzer/pull/19581)
+* [support environment variable `CARGO_MANIFEST_PATH`](https://github.com/rust-lang/rust-analyzer/pull/19751)
 
 ### Rust Compiler Performance Triage
 
@@ -334,7 +403,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Well, the answer is basically yes. Our firmware is all Rust. Every component of our autonomy stack is Rust. Our app is 50% in Rust. And, our visualization tools are in Rust. Our production tools are in rust. The production QC software, which we ship to China, is in rust. Our internal websites are in rust. It's rust all over. We’ve drank the Rust Kool-Aid. In fact, there is no Python installed on the robots. This is not to dis Python at all, but it’s just simply not there.
+>
+> We use Python for neural network training. But Python is boxed to that. Everything else is Rust. And, the advantage of using Rust exponentially builds up.
+
+– [Vivek Bagaria on filtra.io](https://filtra.io/rust/interviews/matic-apr-25)
+
+Thanks to [Brian Kung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1683) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
