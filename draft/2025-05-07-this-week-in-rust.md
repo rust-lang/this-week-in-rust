@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [std::mem is... interesting](https://blog.veeso.dev/blog/en/std-mem-is-interesting/)
+
 ### Rust Walkthroughs
 
 ### Research
