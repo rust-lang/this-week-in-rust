@@ -102,7 +102,11 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Hyperswitch - Move connector-specific utility functions to respective connector modules](https://github.com/juspay/hyperswitch/issues/7926)
 * [Hyperswitch - Refactor ACI connector to reuse utilities from `utils.rs`](https://github.com/juspay/hyperswitch/issues/7927)
 * [Hyperswitch - Analyze and remove unused functions in `connector/utils.rs`](https://github.com/juspay/hyperswitch/issues/7928)
-
+* [rama - add ffi/rama-rhai: support ability to use services and layers written in rhai](https://github.com/plabayo/rama/issues/533)
+* [rama - support (TLS) peetprint in rama-net fingerprinting](https://github.com/plabayo/rama/issues/518)
+* [rama - support akamai h2 passive fingerprint and expose in echo + fp services](https://github.com/plabayo/rama/issues/517)
+* [rama - add into_stream to BodyExtractExt trait](https://github.com/plabayo/rama/issues/536)
+* 
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
