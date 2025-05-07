@@ -40,9 +40,12 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Streaming data analytics, Fluvio 0.17.2 release](https://www.fluvio.io/news/this-week-in-fluvio-0074)
+
 ### Observations/Thoughts
 
 * [The Evolution of Rust](https://ranger-ross.github.io/blog/evolution-of-rust/)
+* [std::mem is... interesting](https://blog.veeso.dev/blog/en/std-mem-is-interesting/)
 
 ### Rust Walkthroughs
 
