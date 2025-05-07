@@ -54,6 +54,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [GOSIM Spotlight Finalists at RustWeek](https://rustweek.org/gosim-spotlight-speakers/) - highlighting projects and their maintainers from across the community.
+
 ## Crate of the Week
 
 This week's crate is [structstruck](https://crates.io/crates/structstruck), a proc-macro crate for enabling nested struct/enum definitions.
