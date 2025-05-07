@@ -49,10 +49,10 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Freeing Up Gigabytes: Reclaiming Disk Space from Rust Cargo Builds](https://thisdavej.com/freeing-up-gigabytes-reclaiming-disk-space-from-rust-cargo-builds/)
 * [A Visual Journey Through Async Rust](https://github.com/alexpusch/rust-magic-patterns/blob/master/visual-journey-through-async-rust/Readme.md)
+* [Generating 1 Million PDFs in 10 Minutes](https://www.ersteiger.com/posts/rendering-one-million-pdfs/)
 * [Video] [Shipping Rust to Python, Typescript, and Ruby](https://www.youtube.com/watch?v=Zs6Uer3VAyQ)
 * [Video] [From Rust to C and Back Again: an introduction to "foreign functions"](https://www.youtube.com/watch?v=B4yNqR0WgYQ) ([Long Version](https://www.youtube.com/watch?v=LLAUzghhNHg))
 * [Video] [Internals of SlateDB: An embedded key-value store built on object storage](https://www.youtube.com/watch?v=qqF_zFWqFYk)
-* [Video] [Generating 1 Million PDFs in 10 Minutes](https://www.ersteiger.com/posts/rendering-one-million-pdfs/)
 * [Video] [RefinedRust - High-Assurance Verification of Rust Programs](https://www.youtube.com/watch?v=XR8p9R1cPC4)
 
 ### Miscellaneous

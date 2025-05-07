@@ -41,8 +41,12 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [Announcing Malai - Share your dev server (and more) over P2P](https://malai.sh/announcing-malai/)
+* [Streaming data analytics, Fluvio 0.17.2 release](https://www.fluvio.io/news/this-week-in-fluvio-0074)
 
 ### Observations/Thoughts
+
+* [The Evolution of Rust](https://ranger-ross.github.io/blog/evolution-of-rust/)
+* [std::mem is... interesting](https://blog.veeso.dev/blog/en/std-mem-is-interesting/)
 
 ### Rust Walkthroughs
 
@@ -93,6 +97,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+* [Hyperswitch - Move connector-specific utility functions to respective connector modules](https://github.com/juspay/hyperswitch/issues/7926)
+* [Hyperswitch - Refactor ACI connector to reuse utilities from `utils.rs`](https://github.com/juspay/hyperswitch/issues/7927)
+* [Hyperswitch - Analyze and remove unused functions in `connector/utils.rs`](https://github.com/juspay/hyperswitch/issues/7928)
+
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
@@ -115,7 +123,19 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A relatively noisy week due to addition of new benchmarks as part of our [2025
+benchmark update], and a number of large regressions in a rollup landing late
+in the week (and so not yet investigated).
+
+[2025 benchmark update]: https://github.com/rust-lang/rustc-perf/issues/2024
+
+Triage done by **@simulacrum**.
+Revision range: [25cdf1f6..62c5f58f](https://perf.rust-lang.org/?start=25cdf1f67463c9365d8d83778c933ec7480e940b&end=62c5f58f57670ce65e7fec34f8c4ba00c27da2d9&absolute=false&stat=instructions%3Au)
+
+2 Regressions, 2 Improvements, 6 Mixed; 3 of them in rollups
+31 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2025-05-04.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
