@@ -183,7 +183,7 @@ Rusty Events between 2025-05-07 - 2025-06-04 🦀
     * [**Sessió setmanal de codificació / Weekly coding session**](https://lu.ma/2lmcm9iq)
 * 2025-05-08 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/300820300)
-* 2025-05-10 | Virtual (Join Youtube) | [Leptos Community](https://lu.ma/3b7solx0)
+* 2025-05-10 | Virtual | [Leptos Community](https://lu.ma/3b7solx0)
     * [**Leptos Meetup: 0.8 Release and Server Fn Websockets Demo**](https://www.youtube.com/watch?v=CTIeERU1hns)
 * 2025-05-11 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
     * [**Rust Readers Discord Discussion: Async Rust**](https://www.meetup.com/dallasrust/events/kvqfrtyhchbpb)
