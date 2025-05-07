@@ -96,6 +96,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+* [Hyperswitch - Move connector-specific utility functions to respective connector modules](https://github.com/juspay/hyperswitch/issues/7926)
+* [Hyperswitch - Refactor ACI connector to reuse utilities from `utils.rs`](https://github.com/juspay/hyperswitch/issues/7927)
+* [Hyperswitch - Analyze and remove unused functions in `connector/utils.rs`](https://github.com/juspay/hyperswitch/issues/7928)
+
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
