@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Streaming data analytics, Fluvio 0.17.2 release](https://www.fluvio.io/news/this-week-in-fluvio-0074)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
