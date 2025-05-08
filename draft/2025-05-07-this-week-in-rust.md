@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [How to create small and secure Docker images for Rust (FROM scratch)](https://kerkour.com/rust-docker-from-scratch)
+
 ### Research
 
 ### Miscellaneous
