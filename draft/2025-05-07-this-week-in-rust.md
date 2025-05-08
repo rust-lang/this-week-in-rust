@@ -33,31 +33,41 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing rustup 1.28.2](https://blog.rust-lang.org/2025/05/05/Rustup-1.28.2/)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
-
 * [Announcing Malai - Share your dev server (and more) over P2P](https://malai.sh/announcing-malai/)
 * [Streaming data analytics, Fluvio 0.17.2 release](https://www.fluvio.io/news/this-week-in-fluvio-0074)
+* [Leptos v0.8.0](https://github.com/leptos-rs/leptos/releases/tag/v0.8.0)
+* [This Month in Redox - April 2025](https://www.redox-os.org/news/this-month-250430/)
 
 ### Observations/Thoughts
-
+* [Automatic interleaving of high-level concurrent operations](https://blog.yoshuawuyts.com/automatic-interleaving-of-high-level-concurrent-operations/)
+* [Flattening Rust's Learning Curve](https://corrode.dev/blog/flattening-rusts-learning-curve/)
 * [The Evolution of Rust](https://ranger-ross.github.io/blog/evolution-of-rust/)
 * [std::mem is... interesting](https://blog.veeso.dev/blog/en/std-mem-is-interesting/)
 * [What is my fuzzer doing?](https://tweedegolf.nl/en/blog/154/what-is-my-fuzzer-doing)
+* [audio] [Svix with Tom Hacohen](https://corrode.dev/podcast/s04e02-svix/)
 
 ### Rust Walkthroughs
-
+* [Authentication with Axum](https://mattrighetti.com/2025/05/03/authentication-with-axum)
+* [Newtyped Indices are Proofs](https://eikopf.bearblog.dev/newtyped-indices-are-proofs/)
+* [What is my fuzzer doing?](https://tweedegolf.nl/en/blog/154/what-is-my-fuzzer-doing)
+* [A Rust API Inspired by Python, Powered by Serde](https://ohadravid.github.io/posts/2025-05-serde-reflect/)
 * [How to create small and secure Docker images for Rust (FROM scratch)](https://kerkour.com/rust-docker-from-scratch)
+* [video] [Rust + SQLite:  Complete Tutorial (Schema, CRUD, JSON & Async)](https://www.youtube.com/watch?v=VlyXm7bwq6k)
 
 ### Research
+* [An Interactive Debugger for Rust Trait Errors](https://cel.cs.brown.edu/blog/an-interactive-debugger-for-rust-trait-errors/)
+* [RustAssistant: Using LLMs to Fix Compilation Errors in Rust Code](https://www.microsoft.com/en-us/research/publication/rustassistant-using-llms-to-fix-compilation-errors-in-rust-code/)
 
 ### Miscellaneous
+* [Memory-safe sudo to become the default in Ubuntu](https://trifectatech.org/blog/memory-safe-sudo-to-become-the-default-in-ubuntu/)
 * [How To Get A Rust Job Part I: Companies Already Using Rust](https://filtra.io/rust/career-help/how-to-get-a-rust-job-I)
-
 * [GOSIM Spotlight Finalists at RustWeek](https://rustweek.org/gosim-spotlight-speakers/)
 
 ## Crate of the Week
