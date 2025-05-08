@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Functional asynchronous Rust](https://willemvanhulle.tech/blog/func-async/)
+
 ### Research
 
 ### Miscellaneous
