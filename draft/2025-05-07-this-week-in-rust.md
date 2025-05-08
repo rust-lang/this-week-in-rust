@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 
 * [The Evolution of Rust](https://ranger-ross.github.io/blog/evolution-of-rust/)
 * [std::mem is... interesting](https://blog.veeso.dev/blog/en/std-mem-is-interesting/)
+* [What is my fuzzer doing?](https://tweedegolf.nl/en/blog/154/what-is-my-fuzzer-doing)
 
 ### Rust Walkthroughs
 
