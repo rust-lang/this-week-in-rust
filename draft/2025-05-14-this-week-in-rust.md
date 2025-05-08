@@ -285,6 +285,9 @@ Rusty Events between 2025-05-14 - 2025-06-11 🦀
     * [**Rust Munich 2025 / 2 - Hacking Evening**](https://www.meetup.com/rust-munich/events/307105443)
 * 2025-06-04 | Oxford, UK | [Oxford Rust Meetup Group](https://www.meetup.com/oxford-rust-meetup-group/events/)
     * [**Oxford Rust and C++ social**](https://www.meetup.com/oxford-rust-meetup-group/events/307673867)
+* 2025-06-04 | Ghent, BE | [Systems Programming Ghent](https://www.sysghent.be)
+    * [**Grow smarter with embedded Rust**](https://www.meetup.com/systems-programming-ghent/events/307269551)
+
 
 ### North America
 * 2025-05-07 | Chicago, IL, US | [Chicago Rust Meetup](https://www.meetup.com/chicago-rust-meetup/events/)
