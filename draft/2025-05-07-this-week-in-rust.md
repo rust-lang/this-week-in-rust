@@ -54,7 +54,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
-* [GOSIM Spotlight Finalists at RustWeek](https://rustweek.org/gosim-spotlight-speakers/) - highlighting projects and their maintainers from across the community.
+* [GOSIM Spotlight Finalists at RustWeek](https://rustweek.org/gosim-spotlight-speakers/)
 
 ## Crate of the Week
 
