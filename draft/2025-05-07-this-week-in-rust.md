@@ -35,10 +35,6 @@ and just ask the editors to select the category.
 ### Official
 * [Announcing rustup 1.28.2](https://blog.rust-lang.org/2025/05/05/Rustup-1.28.2/)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [Announcing Malai - Share your dev server (and more) over P2P](https://malai.sh/announcing-malai/)
 * [Streaming data analytics, Fluvio 0.17.2 release](https://www.fluvio.io/news/this-week-in-fluvio-0074)
@@ -50,7 +46,6 @@ and just ask the editors to select the category.
 * [Flattening Rust's Learning Curve](https://corrode.dev/blog/flattening-rusts-learning-curve/)
 * [The Evolution of Rust](https://ranger-ross.github.io/blog/evolution-of-rust/)
 * [std::mem is... interesting](https://blog.veeso.dev/blog/en/std-mem-is-interesting/)
-* [What is my fuzzer doing?](https://tweedegolf.nl/en/blog/154/what-is-my-fuzzer-doing)
 * [audio] [Svix with Tom Hacohen](https://corrode.dev/podcast/s04e02-svix/)
 
 ### Rust Walkthroughs
@@ -134,6 +129,7 @@ Are you a new or experienced speaker looking for a place to share something cool
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+*No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -446,7 +442,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1jttzz4/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -464,4 +460,4 @@ Thanks to [Brian Kung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1khfde3/this_week_in_rust_598/)</small>
