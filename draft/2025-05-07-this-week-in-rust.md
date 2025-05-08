@@ -56,6 +56,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [How To Get A Rust Job Part I: Companies Already Using Rust](https://filtra.io/rust/career-help/how-to-get-a-rust-job-I)
 
 * [GOSIM Spotlight Finalists at RustWeek](https://rustweek.org/gosim-spotlight-speakers/)
 
