@@ -242,7 +242,7 @@ which are reaching a decision. Express your opinions now.
 * [remove intrinsics::drop_in_place](https://github.com/rust-lang/rust/pull/140151)
 * [Stabilize `tcp_quickack`](https://github.com/rust-lang/rust/pull/129121)
 * [Change the desugaring of `assert!` for better error output](https://github.com/rust-lang/rust/pull/122661)
-* [Tracking Issue for `non_null_from_ref]`(https://github.com/rust-lang/rust/issues/130823)
+* [Tracking Issue for `non_null_from_ref`](https://github.com/rust-lang/rust/issues/130823)
 * [Make well-formedness predicates no longer coinductive](https://github.com/rust-lang/rust/pull/140208)
 * [Fix parameter order for `_by()` variants of `min` / `max`/ `minmax` in `std::cmp`](https://github.com/rust-lang/rust/pull/139357)
 * [Finalize repeat expr inference behaviour with inferred repeat counts](https://github.com/rust-lang/rust/pull/139635)
