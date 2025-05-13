@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [The Power of Compile-Time ECS Architecture in Rust](https://minikin.me/blog/entity-component-systems-reimagined)
 
 ### Research
 
