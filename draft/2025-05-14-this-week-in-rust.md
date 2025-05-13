@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Is Rust the Future of Programming?](https://blog.jetbrains.com/rust/2025/05/13/is-rust-the-future-of-programming/)
 
 ### Rust Walkthroughs
 
