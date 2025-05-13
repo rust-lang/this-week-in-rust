@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+[Cot v0.3: Even Lazier](https://mackow.ski/blog/cot-v03-even-lazier/)
 
 ### Observations/Thoughts
 
