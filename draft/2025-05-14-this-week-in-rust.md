@@ -113,7 +113,22 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Lot of changes this week. Overall result is positive, with one large win in type check.
+
+Triage done by **@panstromek**.
+Revision range: [62c5f58f..718ddf66](https://perf.rust-lang.org/?start=62c5f58f57670ce65e7fec34f8c4ba00c27da2d9&end=718ddf660e6a1802c39b4962cf7eaa4db57025ef&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.5%  | [0.2%, 1.4%]    | 113   |
+| Regressions ❌ <br /> (secondary)  | 0.5%  | [0.1%, 1.5%]    | 54    |
+| Improvements ✅ <br /> (primary)   | -2.5% | [-22.5%, -0.3%] | 45    |
+| Improvements ✅ <br /> (secondary) | -0.9% | [-2.3%, -0.2%]  | 10    |
+| All ❌✅ (primary)                 | -0.3% | [-22.5%, 1.4%]  | 158   |
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/521ad9b18768d7c9890dbc6e6685e38b8d4c0164/triage/2025-05-12.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
