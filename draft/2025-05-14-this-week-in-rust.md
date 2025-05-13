@@ -50,7 +50,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [brush](https://github.com/reubeno/brush/), a bash compatible shell implemented completely in Rust.
+
+Thanks to [Josh Triplett](https://users.rust-lang.org/t/crate-of-the-week/2704/1434) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -109,7 +111,58 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+397 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-05-06..2025-05-13
+
+#### Compiler
+
+* [async drop fix for `async_drop_in_place<T>` layout for unspecified T](https://github.com/rust-lang/rust/pull/140902)
+* [better error message for late/early lifetime param mismatch](https://github.com/rust-lang/rust/pull/140523)
+* [perf: make the assertion in `Ident::new` debug-only](https://github.com/rust-lang/rust/pull/140880)
+* [perf: merge typeck loop with static/const item eval loop](https://github.com/rust-lang/rust/pull/140854)
+
+#### Library
+
+* [implement (part of) ACP 429: add `DerefMut` to `Lazy[Cell/Lock]`](https://github.com/rust-lang/rust/pull/129334)
+* [implement `VecDeque::truncate_front()`](https://github.com/rust-lang/rust/pull/140668)
+
+#### Cargo
+
+* [network: use Retry-After header for HTTP 429 responses](https://github.com/rust-lang/cargo/pull/15463)
+* [rustc: Don't panic on unknown bins](https://github.com/rust-lang/cargo/pull/15497)
+* [add glob pattern support for `known_hosts`](https://github.com/rust-lang/cargo/pull/15508)
+* [add support for `-Zembed-metadata`](https://github.com/rust-lang/cargo/pull/15378)
+* [fix tracking issue template link](https://github.com/rust-lang/cargo/pull/15494)
+* [make cargo script ignore workspaces](https://github.com/rust-lang/cargo/pull/15496)
+
+#### Rustdoc
+
+* [rustdoc-json: remove newlines from attributes](https://github.com/rust-lang/rust/pull/140762)
+* [ensure that temporary doctest folder is correctly removed even if doctests failed](https://github.com/rust-lang/rust/pull/140706)
+
+#### Clippy
+
+* [clippy: `item_name_repetitions`: exclude `enum` variants with identical path components](https://github.com/rust-lang/rust-clippy/pull/14619)
+* [clippy: `return_and_then`: only lint returning expressions](https://github.com/rust-lang/rust-clippy/pull/14783)
+* [clippy: `unwrap_used`, `expect_used`: accept macro result as receiver](https://github.com/rust-lang/rust-clippy/pull/14575)
+* [clippy: add `allow_unused` config to `missing_docs_in_private_items`](https://github.com/rust-lang/rust-clippy/pull/14453)
+* [clippy: add new `confusing_method_to_numeric_cast` lint](https://github.com/rust-lang/rust-clippy/pull/13979)
+* [clippy: add new lint: `cloned_ref_to_slice_refs`](https://github.com/rust-lang/rust-clippy/pull/14284)
+* [clippy: fix ICE in `missing_const_for_fn`](https://github.com/rust-lang/rust-clippy/pull/14776)
+* [clippy: fix `integer_division` false negative for NonZero denominators](https://github.com/rust-lang/rust-clippy/pull/14664)
+* [clippy: fix `manual_let_else` false negative when diverges on simple `enum` variant](https://github.com/rust-lang/rust-clippy/pull/14732)
+* [clippy: fix `unnecessary_unwrap` emitted twice in closure](https://github.com/rust-lang/rust-clippy/pull/14770)
+* [clippy: fix diagnostic paths printed by dogfood test](https://github.com/rust-lang/rust-clippy/pull/14746)
+* [clippy: fix false negative for `unnecessary_unwrap`](https://github.com/rust-lang/rust-clippy/pull/14758)
+* [clippy: make `let_with_type_underscore` help message into a suggestion](https://github.com/rust-lang/rust-clippy/pull/14749)
+* [clippy: resolve through local re-exports in `lookup_path`](https://github.com/rust-lang/rust-clippy/pull/14772)
+
+#### Rust-Analyzer
+
+* [fix postfix snippets duplicating derefs](https://github.com/rust-lang/rust-analyzer/pull/19764)
+* [resolve doc path from parent module if outer comments exist on module](https://github.com/rust-lang/rust-analyzer/pull/19507)
+* [still complete parentheses & method call arguments if there are existing parentheses, but they are after a newline](https://github.com/rust-lang/rust-analyzer/pull/19763)
 
 ### Rust Compiler Performance Triage
 
@@ -340,7 +393,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> If a `Pin` drops in a room, and nobody around understands it, does it make an unsound? #rustlang
+
+– [Josh Triplett on fedi](https://social.joshtriplett.org/notice/AtrAtfNxi0bcypcBDk)
+
+Thanks to [Josh Triplett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1684) for the self-suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
