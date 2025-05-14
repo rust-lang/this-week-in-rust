@@ -35,7 +35,7 @@ def main():
     for group_url in group_urls:
         group_raw_events = meetup_client.get_raw_events_for_group(group_url)
 
-        events += [raw_event.to_event(group_url.url) for raw_event in group_raw_events]
+        events += [raw_event.to_event(group_url.url, group_url.location_override) for raw_event in group_raw_events]
 
     # Remove events outside of date range.
     events = date_window_filter(events, args.weeks)
@@ -74,7 +74,7 @@ def output_to_screen(event_list):
         if len(value) == 0:
             continue
         else:
-            print(f'### {key}:\n')
+            print(f'### {key}')
             
             # Output event details
             for event in value:
@@ -104,9 +104,13 @@ def group_virtual_continent(event_list):
     separated_event_list = {}
 
     for event in event_list:
-        # Separates Events by Virtual or by Continent
-        key = "Virtual" if event.virtual else country_code_to_continent(event.location.country)
-        separated_event_list.setdefault(key, []).append(event)
+        if event.hybrid:
+            keys = "Virtual", country_code_to_continent(event.location.country)
+            for key in keys:
+                separated_event_list.setdefault(key, []).append(event)
+        else:
+            key = "Virtual" if event.virtual else country_code_to_continent(event.location.country)
+            separated_event_list.setdefault(key, []).append(event)
     
     return separated_event_list
 

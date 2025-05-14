@@ -2,6 +2,9 @@ import logging
 import string
 from dataclasses import dataclass
 from datetime import datetime
+from typing import Optional
+
+from utils import LocationOverride
 
 
 logger = logging.getLogger(__name__)
@@ -37,6 +40,8 @@ class Location:
       # looks like in GB meetup considers part of the post code as the "state", which is not a common way to write
       # locations in GB (or that's my understanding at least)
       self.state = None
+      # and "UK" is more accurate it seems, so replace "GB"
+      self.country = "UK"
 
 
   def fields_present(self) -> int:
@@ -76,6 +81,7 @@ class Event:
   virtual: bool
   organizer_name: str
   organizer_url: str
+  hybrid: bool
 
   def __post_init__(self):
     """ Normalize the event data here """
@@ -91,11 +97,17 @@ class Event:
       "url": self.url,
       "virtual": self.virtual,
       "organizer_name": self.organizer_name,
-      "organizer_url": self.organizer_url
+      "organizer_url": self.organizer_url,
+      "hybrid": self.hybrid
     }
 
   def to_markdown_string(self) -> str:
-    location = f"Virtual ({self.location.to_str()})" if self.virtual else self.location.to_str()
+    if self.hybrid:
+      location = f"Hybrid ({self.location.to_str()})"
+    elif self.virtual:
+      location = f"Virtual ({self.location.to_str()})"
+    else:
+      location = self.location.to_str()
 
     return f'* {self.date.date()} | {location} | [{self.organizer_name}]({self.organizer_url})\n    * [**{self.name}**]({self.url})'
 
@@ -112,8 +124,6 @@ class RawGqlEvent:
   event_url_str: str
   venue_type: None | str
   event_location: Location
-  lat: float
-  long: float
 
   def __init__(self, **kwargs) -> None:
     logger.debug(f"Constructing RawGqlEvent from: {kwargs}")
@@ -130,13 +140,17 @@ class RawGqlEvent:
 
     venue = node["venue"]
     self.venue_type = venue["venueType"]
-    # TODO: do we need these lat longs?
-    self.lat = venue["lat"]
-    self.long = venue["lng"]
     self.event_location = Location(venue["city"], venue["state"], venue["country"])
 
-  def to_event(self, group_url: str) -> Event:
+  def to_event(self, group_url: str, location_override: Optional[LocationOverride]) -> Event:
+    is_hybrid = False
     is_virtual = self.venue_type == "online"
+
+    if location_override:
+      if location_override == LocationOverride.VIRTUAL:
+        is_virtual = True
+      elif location_override == LocationOverride.HYBRID:
+        is_hybrid = True
 
     # this is a bit weird because we want a naive datetime object that just contains the year/month/day because we get
     # timestamps with tz info like "2025-01-16T19:00+01:00", just strip the time and tz info before parsing
@@ -155,6 +169,7 @@ class RawGqlEvent:
       url=self.event_url_str,
       virtual=is_virtual,
       organizer_name=self.group_name,
-      organizer_url=group_url
+      organizer_url=group_url,
+      hybrid=is_hybrid
     )
 
