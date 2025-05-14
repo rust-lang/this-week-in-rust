@@ -270,7 +270,7 @@ Rusty Events between 2025-05-14 - 2025-06-11 🦀
 * 2025-05-20 | Leipzig, SN, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/)
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/305741635)
 * 2025-05-22 | Augsburg, DE | [Rust Augsburg](https://rust-augsburg.github.io/meetup/introduction.html)
-    * [**Rust meetup #13**](https://rust-augsburg.github.io/meetup/Meetup_13.html)
+    * [**Rust meetup #13:A Practical Guide to Telemetry in Rust**](https://rust-augsburg.github.io/meetup/Meetup_13.html)
 * 2025-05-22 | Bern, CH | [Rust Bern](https://www.meetup.com/rust-bern/events/)
     * [**2025 Rust Talks Bern #3 @zentroom**](https://www.meetup.com/rust-bern/events/307559606)
 * 2025-05-22 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/events/)
