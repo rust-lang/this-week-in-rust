@@ -197,6 +197,8 @@ Rusty Events between 2025-05-14 - 2025-06-11 🦀
     * [**Rust Readers Discord Discussion: Async Rust**](https://www.meetup.com/dallasrust/events/kvqfrtyhchbxb)
 * 2025-05-19 | Virtual (Tel Aviv-Yafo, IL) | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
     * [**Tauri: Cross-Platform desktop applications with Rust and web technologies**](https://www.meetup.com/rust-tlv/events/307178592)
+* 2025-05-20 | Hybrid (EU/UK) | [Rust and C++ Dragons (former Cardiff)](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
+    * **TBA: Talk and Connect - Fullstack - with Goetz Markgraf and Ben Wishovich**
 * 2025-05-20 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
     * [**Threading through lifetimes of borrowing - the Rust way**](https://www.meetup.com/women-in-rust/events/307522540)
 * 2025-05-20 | Virtual (Tel Aviv, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/)
@@ -265,6 +267,8 @@ Rusty Events between 2025-05-14 - 2025-06-11 🦀
     * [**RustWeek Hackathon**](https://www.meetup.com/rust-nederland/events/307107584/)
 * 2025-05-17 | Amsterdam, NL | [RustNL](https://www.meetup.com/rust-amsterdam/events/)
     * [**Walking Tour around Utrecht - Saturday**](https://www.meetup.com/rust-nederland/events/307522004)
+* 2025-05-20 | Dortmund, DE | [Rust Dortmund](https://www.meetup.com/rust-dortmund)
+    * [**Talk and Connect - Fullstack - with Goetz Markgraf and Ben Wishovich**](https://www.meetup.com/rust-dortmund/events/307505881)
 * 2025-05-20 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/events/)
     * [**Hack Night - Robot Edition**](https://www.meetup.com/rust-aarhus/events/307289572)
 * 2025-05-20 | Leipzig, SN, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/)
