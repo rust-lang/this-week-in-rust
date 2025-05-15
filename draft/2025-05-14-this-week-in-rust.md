@@ -198,7 +198,7 @@ Rusty Events between 2025-05-14 - 2025-06-11 🦀
 * 2025-05-19 | Virtual (Tel Aviv-Yafo, IL) | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
     * [**Tauri: Cross-Platform desktop applications with Rust and web technologies**](https://www.meetup.com/rust-tlv/events/307178592)
 * 2025-05-20 | Hybrid (EU/UK) | [Rust and C++ Dragons (former Cardiff)](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/)
-    * **TBA: Talk and Connect - Fullstack - with Goetz Markgraf and Ben Wishovich**
+    * [**Talk and Connect - Fullstack - with Goetz Markgraf and Ben Wishovich**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/307836345)
 * 2025-05-20 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
     * [**Threading through lifetimes of borrowing - the Rust way**](https://www.meetup.com/women-in-rust/events/307522540)
 * 2025-05-20 | Virtual (Tel Aviv, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/)
