@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [CGP v0.4 is Here: Unlocking Easier Debugging, Extensible Presets, and More](https://contextgeneric.dev/blog/v0-4-0-release/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
