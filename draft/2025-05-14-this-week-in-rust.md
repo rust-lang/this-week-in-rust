@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 
 ### Newsletters
 * [This Month in Rust OSDev: April 2025 | Rust OSDev](https://rust-osdev.com/this-month/2025-04/)
+* [The Embedded Rustacean Issue #45](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-45)
 
 ### Project/Tooling Updates
 * [Avian Physics 0.3](https://joonaa.dev/blog/08/avian-0-3)
