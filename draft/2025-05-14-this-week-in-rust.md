@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Avian Physics 0.3](https://joonaa.dev/blog/08/avian-0-3)
 * [Two months in Servo: CSS nesting, Shadow DOM, Clipboard API, and more](https://servo.org/blog/2025/05/09/this-month-in-servo/)
+* [Cot v0.3: Even Lazier](https://mackow.ski/blog/cot-v03-even-lazier/)
 
 ### Observations/Thoughts
 * [Bad Type Patterns - The Duplicate duck](https://www.schneems.com/2025/05/07/bad-type-patterns-the-duplicate-duck/)
