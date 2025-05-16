@@ -65,6 +65,8 @@ and just ask the editors to select the category.
 * [The Power of Compile-Time ECS Architecture in Rust](https://minikin.me/blog/entity-component-systems-reimagined)
 * [video] [Build with Naz : Spinner animation, lock contention, Ctrl+C handling for TUI and CLI](https://www.youtube.com/watch?v=iIMYzczF11c)
 
+* [Joining threads immediately as they finish in Rust](https://jpmelos.com/posts/joining-multiple-rust-threads/)
+
 ### Research
 
 ### Miscellaneous
