@@ -56,6 +56,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Functional asynchronous Rust](https://willemvanhulle.tech/blog/func-async/)
+* [video] [Build with Naz : Spinner animation, lock contention, Ctrl+C handling for TUI and CLI](https://www.youtube.com/watch?v=iIMYzczF11c)
 
 ### Research
 
