@@ -33,14 +33,25 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Google Summer of Code 2025 selected projects](https://blog.rust-lang.org/2025/05/08/gsoc-2025-selected-projects/)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust OSDev: April 2025 | Rust OSDev](https://rust-osdev.com/this-month/2025-04/)
 
 ### Project/Tooling Updates
+* [Avian Physics 0.3](https://joonaa.dev/blog/08/avian-0-3)
+* [Two months in Servo: CSS nesting, Shadow DOM, Clipboard API, and more](https://servo.org/blog/2025/05/09/this-month-in-servo/)
 
 ### Observations/Thoughts
+* [Bad Type Patterns - The Duplicate duck](https://www.schneems.com/2025/05/07/bad-type-patterns-the-duplicate-duck/)
+* [Rust nightly features you should watch out for](https://www.wakunguma.com/blog/interesting-rust-nightly-features)
+* [Lock-Free Rust: How to Build a Rollercoaster While It’s on Fire](https://yeet.cx/blog/lock-free-rust/)
+* [Simple & type-safe localization in Rust](https://aarol.dev/posts/rust-simple-i18n/)
+* [From Rust to AVR assembly: Dissecting a minimal blinky program](https://n-eq.github.io/blog/2025/05/13/rust-avr-arduino-blink)
+* [Tarpaulins Week Of Speed](https://xd009642.github.io/2025/05/08/Tarpaulins-Week-of-Speed.html)
+* [Rustls Server-Side Performance](https://www.memorysafety.org/blog/rustls-server-perf/)
 
 ### Rust Walkthroughs
 
