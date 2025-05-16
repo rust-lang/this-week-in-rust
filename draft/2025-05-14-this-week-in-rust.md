@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 * [Rustls Server-Side Performance](https://www.memorysafety.org/blog/rustls-server-perf/)
 
 ### Rust Walkthroughs
+* [Functional asynchronous Rust](https://willemvanhulle.tech/blog/func-async/)
 
 ### Research
 
