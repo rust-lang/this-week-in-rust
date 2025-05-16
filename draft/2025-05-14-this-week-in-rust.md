@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [Joining threads immediately as they finish in Rust](https://jpmelos.com/posts/joining-multiple-rust-threads/)
+
 ### Research
 
 ### Miscellaneous
