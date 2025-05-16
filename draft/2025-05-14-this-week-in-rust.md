@@ -48,7 +48,6 @@ and just ask the editors to select the category.
 * [Cot v0.3: Even Lazier](https://mackow.ski/blog/cot-v03-even-lazier/)
 * [Streaming data analytics, Fluvio 0.17.3 release](https://www.fluvio.io/news/this-week-in-fluvio-0075)
 * [CGP v0.4 is Here: Unlocking Easier Debugging, Extensible Presets, and More](https://contextgeneric.dev/blog/v0-4-0-release/)
-
 * [Rama v0.2](https://github.com/plabayo/rama/discussions/544)
 
 ### Observations/Thoughts
@@ -64,11 +63,8 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Functional asynchronous Rust](https://willemvanhulle.tech/blog/func-async/)
 * [The Power of Compile-Time ECS Architecture in Rust](https://minikin.me/blog/entity-component-systems-reimagined)
-* [video] [Build with Naz : Spinner animation, lock contention, Ctrl+C handling for TUI and CLI](https://www.youtube.com/watch?v=iIMYzczF11c)
-
 * [Joining threads immediately as they finish in Rust](https://jpmelos.com/posts/joining-multiple-rust-threads/)
-
-### Research
+* [video] [Build with Naz : Spinner animation, lock contention, Ctrl+C handling for TUI and CLI](https://www.youtube.com/watch?v=iIMYzczF11c)
 
 ### Miscellaneous
 * [April 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/apr-25)
@@ -116,10 +112,6 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-<!-- * [ - ]() -->
-<!-- or if none - *No Calls for participation were submitted this week.* -->
-
 * [rama - add ffi/rama-rhai: support ability to use services and layers written in rhai](https://github.com/plabayo/rama/issues/533)
 * [rama - support akamai h2 passive fingerprint and expose in echo + fp services](https://github.com/plabayo/rama/issues/517)
 
@@ -131,8 +123,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-<!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+* *No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -409,7 +400,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1knkfb6/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
