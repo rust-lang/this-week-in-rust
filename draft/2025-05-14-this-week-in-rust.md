@@ -310,6 +310,8 @@ Rusty Events between 2025-05-14 - 2025-06-11 🦀
     * [**RustWeek 2025**](https://rustweek.org)
 * 2025-05-14 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/events/)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/305045447)
+* 2025-05-15 | Berlin, DE | [Rust Berlin](https://berline.rs/)
+    * [**10 years anniversary of Rust 1.0**](https://www.c-base.org/calendar/#view=month&date=2025-05-15&event=92df14e3-c21c-477a-a150-84be085ed411)
 * 2025-05-15 | Oslo, NO | [Rust Oslo](https://www.meetup.com/rust-oslo)
     * [**Rust 10-year anniversary @ Appear**](https://www.meetup.com/rust-oslo/events/307427014)
 * 2025-05-16 | Amsterdam, NL | [RustNL](https://www.meetup.com/rust-amsterdam)
