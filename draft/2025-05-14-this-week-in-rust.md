@@ -281,13 +281,12 @@ Rusty Events between 2025-05-14 - 2025-06-11 🦀
     * [**Rust Meetup #11 @ Letsboot Basel**](https://www.meetup.com/rust-basel/events/307567083)
 * 2025-05-29 | Oslo, NO | [Rust Oslo](https://www.meetup.com/rust-oslo/events/)
     * [**Rust Hack'n'Learn at Kampen Bistro**](https://www.meetup.com/rust-oslo/events/305809683)
+* 2025-06-04 | Ghent, BE | [Systems Programming Ghent](https://www.sysghent.be)
+    * [**Grow smarter with embedded Rust**](https://www.meetup.com/systems-programming-ghent/events/307269551)
 * 2025-06-04 | München, DE | [Rust Munich](https://www.meetup.com/rust-munich/events/)
     * [**Rust Munich 2025 / 2 - Hacking Evening**](https://www.meetup.com/rust-munich/events/307105443)
 * 2025-06-04 | Oxford, UK | [Oxford Rust Meetup Group](https://www.meetup.com/oxford-rust-meetup-group/events/)
     * [**Oxford Rust and C++ social**](https://www.meetup.com/oxford-rust-meetup-group/events/307673867)
-* 2025-06-04 | Ghent, BE | [Systems Programming Ghent](https://www.sysghent.be)
-    * [**Grow smarter with embedded Rust**](https://www.meetup.com/systems-programming-ghent/events/307269551)
-
 
 ### North America
 * 2025-05-07 | Chicago, IL, US | [Chicago Rust Meetup](https://www.meetup.com/chicago-rust-meetup/events/)
