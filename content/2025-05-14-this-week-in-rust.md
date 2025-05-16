@@ -63,7 +63,6 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Functional asynchronous Rust](https://willemvanhulle.tech/blog/func-async/)
 * [The Power of Compile-Time ECS Architecture in Rust](https://minikin.me/blog/entity-component-systems-reimagined)
-* [Joining threads immediately as they finish in Rust](https://jpmelos.com/posts/joining-multiple-rust-threads/)
 * [video] [Build with Naz : Spinner animation, lock contention, Ctrl+C handling for TUI and CLI](https://www.youtube.com/watch?v=iIMYzczF11c)
 
 ### Miscellaneous
