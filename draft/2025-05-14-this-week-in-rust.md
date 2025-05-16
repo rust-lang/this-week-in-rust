@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 * [From Rust to AVR assembly: Dissecting a minimal blinky program](https://n-eq.github.io/blog/2025/05/13/rust-avr-arduino-blink)
 * [Tarpaulins Week Of Speed](https://xd009642.github.io/2025/05/08/Tarpaulins-Week-of-Speed.html)
 * [Rustls Server-Side Performance](https://www.memorysafety.org/blog/rustls-server-perf/)
+* [Is Rust the Future of Programming?](https://blog.jetbrains.com/rust/2025/05/13/is-rust-the-future-of-programming/)
 
 ### Rust Walkthroughs
 * [Functional asynchronous Rust](https://willemvanhulle.tech/blog/func-async/)
