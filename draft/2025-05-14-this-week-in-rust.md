@@ -36,6 +36,7 @@ and just ask the editors to select the category.
 * [Announcing Google Summer of Code 2025 selected projects](https://blog.rust-lang.org/2025/05/08/gsoc-2025-selected-projects/)
 
 ### Foundation
+* [10 Years of Stable Rust: An Infrastructure Story](https://rustfoundation.org/media/10-years-of-stable-rust-an-infrastructure-story/)
 
 ### Newsletters
 * [This Month in Rust OSDev: April 2025 | Rust OSDev](https://rust-osdev.com/this-month/2025-04/)
