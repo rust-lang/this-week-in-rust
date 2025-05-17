@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [For your eyes only](https://bitfieldconsulting.com/posts/for-your-eyes-only)
+
 ### Rust Walkthroughs
 
 ### Research
