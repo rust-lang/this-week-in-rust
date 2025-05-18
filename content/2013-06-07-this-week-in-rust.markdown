@@ -117,3 +117,4 @@ types (present in GLSL) will also be removed.
 [rafi]: http://calagator.org/events/1250464376
 [sanfran]: https://mail.mozilla.org/pipermail/rust-dev/2013-June/004356.html
 [is6999]: https://github.com/mozilla/rust/pull/6999
+
