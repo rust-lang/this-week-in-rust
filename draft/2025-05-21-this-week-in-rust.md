@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Scanner- The Team Accelerating Log Analysis With Rust](https://filtra.io/rust/interviews/scanner-may-25)
 
 ## Crate of the Week
 
