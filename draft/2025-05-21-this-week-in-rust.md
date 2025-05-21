@@ -54,7 +54,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [makepad](https://makepad.nl), an in development shader based live designable OSS UI-Framework.
+
+Thanks to [crazust](https://users.rust-lang.org/t/crate-of-the-week/2704/1435) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -100,7 +102,61 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+353 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-05-13..2025-05-20
+
+#### Compiler
+
+* [improve `dangerous_implicit_aurorefs` diagnostic output](https://github.com/rust-lang/rust/pull/140768)
+* [improve ternary operator recovery](https://github.com/rust-lang/rust/pull/141003)
+* [perf: fast path for `register_region_obligation`](https://github.com/rust-lang/rust/pull/141129)
+
+#### Library
+
+* [add `std::io::Seek` instance for `std::io::Take`](https://github.com/rust-lang/rust/pull/138023)
+* [optimize `ToString` implementation for integers](https://github.com/rust-lang/rust/pull/136264)
+* [stop using TLS in signal handler](https://github.com/rust-lang/rust/pull/140628)
+* [stabilize `#![feature(non_null_from_ref)]`](https://github.com/rust-lang/rust/pull/140511)
+* [stabilize the avx512 target features](https://github.com/rust-lang/rust/pull/138940)
+
+#### Cargo
+
+* [cargo: allow configuring arbitrary codegen backends](https://github.com/rust-lang/cargo/pull/15562)
+* [cargo: feat: skip `publish=false` pkg when publishing entire workspace](https://github.com/rust-lang/cargo/pull/15525)
+* [cargo: stabilize doctest-xcompile](https://github.com/rust-lang/cargo/pull/15462)
+
+#### Rustdoc
+
+#### Clippy
+
+* [`comparison_chain`: do not lint on 2 blocks expression](https://github.com/rust-lang/rust-clippy/pull/14811)
+* [`empty_struct_with_brackets`: do not lint code coming from macro expansion](https://github.com/rust-lang/rust-clippy/pull/14623)
+* [`excessive_precision`: Fix false positive when exponent has leading zero](https://github.com/rust-lang/rust-clippy/pull/14824)
+* [`match_same_arms`, `ifs_same_cond`: lint once per same arm/condition](https://github.com/rust-lang/rust-clippy/pull/14637)
+* [`needless_match`: do not pretend that `return` is not significant in an expression](https://github.com/rust-lang/rust-clippy/pull/14757)
+* [`unnecessary_wraps`: do not include the whole body in the lint span](https://github.com/rust-lang/rust-clippy/pull/14777)
+* [add new `useless_concat` lint](https://github.com/rust-lang/rust-clippy/pull/13829)
+* [add the `allow_exact_repetitions` option to the `module_name_repetititions` lint](https://github.com/rust-lang/rust-clippy/pull/14261)
+* [check if dropping an expression may have indirect side-effects](https://github.com/rust-lang/rust-clippy/pull/14594)
+* [`useless_as_ref`: do not call `TyCtxt::type_of()` on a trait](https://github.com/rust-lang/rust-clippy/pull/14830)
+* [fix ICE while computing type layout](https://github.com/rust-lang/rust-clippy/pull/14837)
+* [fix false positive of `useless_conversion` when using `.into_iter().any()`](https://github.com/rust-lang/rust-clippy/pull/14800)
+* [fix: `unnecessary_to_owned` false positive when map key is a reference](https://github.com/rust-lang/rust-clippy/pull/14834)
+* [make lint span smaller for needless return](https://github.com/rust-lang/rust-clippy/pull/14790)
+* [post `non_std_lazy_statics` type warnings onto the right node](https://github.com/rust-lang/rust-clippy/pull/14740)
+* [reenable linting on UFCS `deref` calls](https://github.com/rust-lang/rust-clippy/pull/14808)
+* [rewrite `non_copy_const`](https://github.com/rust-lang/rust-clippy/pull/13207)
+* [use interned symbols instead of strings in more places](https://github.com/rust-lang/rust-clippy/pull/14840)
+
+#### Rust-Analyzer
+
+* [debounce workspace fetching for workspace structure changes](https://github.com/rust-lang/rust-analyzer/pull/19814)
+* [highlight unsafe operations](https://github.com/rust-lang/rust-analyzer/pull/19687)
+* [don't allow duplicate crates in the `all_crates` list](https://github.com/rust-lang/rust-analyzer/pull/19794)
+* [improve asm support](https://github.com/rust-lang/rust-analyzer/pull/19801)
+* [removing all unused imports removes used imports for imports used for Derive macros](https://github.com/rust-lang/rust-analyzer/pull/19793)
+* [request cancellation while processing changed files](https://github.com/rust-lang/rust-analyzer/pull/19757)
 
 ### Rust Compiler Performance Triage
 
@@ -320,7 +376,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> `/proc/self/mem` is outside the scope of rust's safety guarantees. otherwise this would open a can of worms that could not be closed except by forbidding debuggers from poking memory or marking every impure function as unsafe.
+>
+> like, what if you invoke gdb to poke memory? what if you modify .bash_profile to poke memory? what if you send an http request to a hypervisor to poke memory? what if you run a spin loop, and the noise of the fans whirring up activates a beam of ionizing radiation pointed directly at the CPU? what if opening the disk drive makes the computer fall off a cliff?
+
+– [binarycat on rust-internals](https://internals.rust-lang.org/t/how-does-inline-assembly-and-the-physical-machine-fit-into-the-abstract-machine-model-or-exist-outside-of-it/22545/41)
+
+Thanks to [Chayim Refael Friedman](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1687) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
