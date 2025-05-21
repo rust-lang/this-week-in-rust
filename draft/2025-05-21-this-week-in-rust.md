@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 * [Evolution of Rust compiler errors](https://kobzol.github.io/rust/rustc/2025/05/16/evolution-of-rustc-errors.html)
+* [For your eyes only](https://bitfieldconsulting.com/posts/for-your-eyes-only)
 
 ### Rust Walkthroughs
 
