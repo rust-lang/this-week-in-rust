@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [Build with Naz : Rust, Memory performance & latency - locality, access, allocate, cache lines](https://www.youtube.com/watch?v=ywkEmwkX0Lc)
+
 ### Research
 
 ### Miscellaneous
