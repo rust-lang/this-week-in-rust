@@ -51,6 +51,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [Scanner- The Team Accelerating Log Analysis With Rust](https://filtra.io/rust/interviews/scanner-may-25)
+* [From C# to Rust: A 42-Day Developer Challenge](https://woodruff.dev/from-c-to-rust-a-42-day-developer-challenge)
 
 ## Crate of the Week
 
