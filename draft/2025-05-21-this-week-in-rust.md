@@ -41,7 +41,6 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [Announcing Markdown Ninja: Open Source alternative to Substack, Mailchimp and Netlify](https://kerkour.com/announcing-markdown-ninja)
 * [Hypervisor as a Library](https://seiya.me/blog/hypervisor-as-a-library)
 
 ### Observations/Thoughts
