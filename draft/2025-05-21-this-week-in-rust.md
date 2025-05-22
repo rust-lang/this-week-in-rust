@@ -55,7 +55,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Unlocking Tokio's Hidden Gems: Determinism, Paused Time, and Local Execution](https://pierrezemb.fr/posts/tokio-hidden-gems/)
-
+* [Joining threads immediately as they finish in Rust](https://jpmelos.com/posts/joining-multiple-rust-threads/)
 * [video] [Build with Naz : Rust, Memory performance & latency - locality, access, allocate, cache lines](https://www.youtube.com/watch?v=ywkEmwkX0Lc)
 
 ### Research
