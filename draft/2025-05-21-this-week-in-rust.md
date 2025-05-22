@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 * [Disable debuginfo to improve Rust compile times](https://kobzol.github.io/rust/rustc/2025/05/20/disable-debuginfo-to-improve-rust-compile-times.html)
 
 ### Rust Walkthroughs
+* [Joining threads immediately as they finish in Rust](https://jpmelos.com/posts/joining-multiple-rust-threads/)
 
 ### Research
 
