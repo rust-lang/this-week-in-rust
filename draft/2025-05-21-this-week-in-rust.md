@@ -252,6 +252,8 @@ Rusty Events between 2025-05-21 - 2025-06-18 🦀
     * [**Why Rust? למה ראסט? -**](https://www.meetup.com/rust-tlv/events/307801358)
 * 2025-06-04 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/302031665)
+* 2025-06-04 | Virtual | [Scientific Computing in Rust](https://scientificcomputing.rs)
+    * [**Scientific Computing in Rust 2025**](https://scientificcomputing.rs/2025)
 * 2025-06-05 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/300820301)
 * 2025-06-07 | Virtual (Kampala, UG) | [Rust Circle Meetup](https://www.eventbrite.com/o/rust-circle-kampala-65249289033)
