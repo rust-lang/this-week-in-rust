@@ -39,7 +39,6 @@ and just ask the editors to select the category.
 * [Celebrating Rust’s Birthday with Karen Tölva: Creator of Ferris the Rustacean!](https://rustfoundation.org/media/celebrating-rusts-birthday-with-karen-tolva-creator-of-ferris-the-rustacean/)
 
 ### Project/Tooling Updates
-* [Announcing Markdown Ninja: Open Source alternative to Substack, Mailchimp and Netlify](https://kerkour.com/announcing-markdown-ninja)
 * [Hypervisor as a Library](https://seiya.me/blog/hypervisor-as-a-library)
 
 ### Observations/Thoughts
