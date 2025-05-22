@@ -43,10 +43,11 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Announcing Markdown Ninja: Open Source alternative to Substack, Mailchimp and Netlify](https://kerkour.com/announcing-markdown-ninja)
 * [Hypervisor as a Library](https://seiya.me/blog/hypervisor-as-a-library)
+* [alpine-rustx: Simple Rust cross-compilation using custom Docker images](https://github.com/tindzk/alpine-rustx)
 
 ### Observations/Thoughts
 * [Rust turns 10](https://smallcultfollowing.com/babysteps/blog/2025/05/15/10-years-of-rust/)
-* [Rust 1.0, ten years later ](https://steveklabnik.com/writing/rust-ten-years-later/)
+* [Rust 1.0, ten years later](https://steveklabnik.com/writing/rust-ten-years-later/)
 * [Evolution of Rust compiler errors](https://kobzol.github.io/rust/rustc/2025/05/16/evolution-of-rustc-errors.html)
 * [For your eyes only](https://bitfieldconsulting.com/posts/for-your-eyes-only)
 * [Disable debuginfo to improve Rust compile times](https://kobzol.github.io/rust/rustc/2025/05/20/disable-debuginfo-to-improve-rust-compile-times.html)
