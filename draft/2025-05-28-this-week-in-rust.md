@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [alpine-rustx: Simple Rust cross-compilation using custom Docker images](https://github.com/tindzk/alpine-rustx)
 
 ### Observations/Thoughts
 
