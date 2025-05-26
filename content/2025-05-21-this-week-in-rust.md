@@ -104,6 +104,8 @@ Are you a new or experienced speaker looking for a place to share something cool
 
 *No Calls for papers or presentations were submitted this week.*
 
+* [**EuroRust 2025**](https://www.papercall.io/eurorust-2025)| CFP closes on 2025-06-02 | Paris, France | 2025-10-09
+
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 ## Updates from the Rust Project
