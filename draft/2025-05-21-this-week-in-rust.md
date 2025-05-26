@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Announcing Markdown Ninja: Open Source alternative to Substack, Mailchimp and Netlify](https://kerkour.com/announcing-markdown-ninja)
 * [Hypervisor as a Library](https://seiya.me/blog/hypervisor-as-a-library)
+* [Taskfinder 2.9.0](https://codeberg.org/kdwarn/taskfinder/src/branch/main/CHANGELOG.md#2-9-0-https-codeberg-org-kdwarn-taskfinder-compare-v2-8-0-v2-9-0-2025-05-22)
 
 ### Observations/Thoughts
 * [Rust turns 10](https://smallcultfollowing.com/babysteps/blog/2025/05/15/10-years-of-rust/)
