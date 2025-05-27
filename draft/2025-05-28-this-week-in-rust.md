@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [Rust, Memory performance & latency](https://developerlife.com/2025/05/19/rust-mem-latency/)
+
 ### Research
 
 ### Miscellaneous
