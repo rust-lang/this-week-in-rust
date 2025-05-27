@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 * [Disable debuginfo to improve Rust compile times](https://kobzol.github.io/rust/rustc/2025/05/20/disable-debuginfo-to-improve-rust-compile-times.html)
 * [async/await versus the Calloop Model](https://notgull.net/calloop/)
 * [audio] [Astral with Charlie Marsh](https://corrode.dev/podcast/s04e03-astral/)
+* [SIMD in zlib-rs (part 2): compare256](https://tweedegolf.nl/en/blog/155/simd-in-zlib-rs-part-2-compare256)
 
 ### Rust Walkthroughs
 * [Unlocking Tokio's Hidden Gems: Determinism, Paused Time, and Local Execution](https://pierrezemb.fr/posts/tokio-hidden-gems/)
