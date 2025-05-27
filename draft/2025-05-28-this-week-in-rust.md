@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [First look at Blinksy: a Rust no-std, no-alloc LED control library for 1D, 2D, and soon 3D spatial layouts](https://blog.mikey.nz/first-look-at-blinksy/)
 
 ### Observations/Thoughts
 
