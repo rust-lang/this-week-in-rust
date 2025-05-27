@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [malai 0.2.5 is here: Instantly share local TCP services (database/SSH) with others](https://www.malai.sh/hello-tcp/)
 
 ### Observations/Thoughts
 
