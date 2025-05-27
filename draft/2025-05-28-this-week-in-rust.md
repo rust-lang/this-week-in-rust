@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Yelken Second Alpha Release](https://bwqr.github.io/yelken-blog/second-alpha-release/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
