@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[Taskfinder 2.9.0](https://codeberg.org/kdwarn/taskfinder/src/commit/9d2779bfdd79826374bc5e77b85928c065b1094b/CHANGELOG.md#2-9-0-https-codeberg-org-kdwarn-taskfinder-compare-v2-8-0-v2-9-0-2025-05-22)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
