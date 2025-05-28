@@ -35,6 +35,7 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [The Rust Foundation seeks input on its three-year strategy (2026-2028)](https://docs.google.com/forms/d/e/1FAIpQLSca3ziiYWrTti6Ti2ki3Sv9Okmhzc4wGMxQgudUOmQrmh3pVg/viewform?usp=dialog)
 
 ### Newsletters
 
