@@ -50,7 +50,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [boreal](https://github.com/vthib/boreal), a safe and performant [YARA](https://virustotal.github.io/yara/) rules evaluator.
+
+Thanks to [Vincent Thiberville](https://users.rust-lang.org/t/crate-of-the-week/2704/1439) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -109,7 +111,58 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+433 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-05-20..2025-05-27
+
+#### Compiler
+
+* [don't rerun goals if none of their vars have changed](https://github.com/rust-lang/rust/pull/141500)
+* [fold predicate fast path in canonicalizer and eager resolver](https://github.com/rust-lang/rust/pull/141442)
+
+#### Library
+
+* [add `std::os::unix::process::CommandExt::chroot` to safely chroot a child process](https://github.com/rust-lang/rust/pull/137759)
+* [fix aliasing bug in UNIX process implementation](https://github.com/rust-lang/rust/pull/138896)
+* [implement `ptr::try_cast_aligned` and `NonNull::try_cast_aligned`](https://github.com/rust-lang/rust/pull/141222)
+* [implement `advance_by` via `try_fold` for `Sized` iterators](https://github.com/rust-lang/rust/pull/141086)
+
+#### Cargo
+
+* [toml: Remove workaround for rustc frontmatter support](https://github.com/rust-lang/cargo/pull/15570)
+* [add `-Zfix-edition`](https://github.com/rust-lang/cargo/pull/15596)
+* [add the future edition](https://github.com/rust-lang/cargo/pull/15595)
+* [direct extraction for registry sources](https://github.com/rust-lang/cargo/pull/15514)
+* [vendor files with .rej/.orig suffix](https://github.com/rust-lang/cargo/pull/15569)
+
+#### Rustdoc
+
+* [Unify type aliases rendering with other ADT](https://github.com/rust-lang/rust/pull/140863)
+* [on mobile, make the sidebar full width and linewrap](https://github.com/rust-lang/rust/pull/139831)
+* [speed up `TypeAliasPart::get`](https://github.com/rust-lang/rust/pull/141421)
+
+#### Clippy
+
+* [`manual_flatten`: fix with nested `Some` or `Ok` pattern](https://github.com/rust-lang/rust-clippy/pull/14846)
+* [`needless_borrow`: do not contradict `dangerous_implicit_autorefs`](https://github.com/rust-lang/rust-clippy/pull/14810)
+* [consider consts in patterns as refutable](https://github.com/rust-lang/rust-clippy/pull/14887)
+* [fix `assign_op_pattern` false positive on unstable const trait](https://github.com/rust-lang/rust-clippy/pull/14886)
+* [fix `manual_find` wrong suggestion when return type needs adjustment](https://github.com/rust-lang/rust-clippy/pull/14892)
+* [fix `needless_for_each` wrong suggestion when closure has no braces](https://github.com/rust-lang/rust-clippy/pull/14735)
+* [fix `manual_slice_size_computation` ICE and trigger in `const` context](https://github.com/rust-lang/rust-clippy/pull/14804)
+* [make `trivial-copy-size-limit` consistently the size of the target pointer](https://github.com/rust-lang/rust-clippy/pull/13319)
+* [various macro fixes for loop lints](https://github.com/rust-lang/rust-clippy/pull/14631)
+
+#### Rust-Analyzer
+
+* [change import prefix default to be by crate](https://github.com/rust-lang/rust-analyzer/pull/19819)
+* [correctly set the span of the `proc_macro` crate's Group delimiters](https://github.com/rust-lang/rust-analyzer/pull/19839)
+* [fix IDE resolution of item macros](https://github.com/rust-lang/rust-analyzer/pull/19862)
+* [fix cache problems with lints level](https://github.com/rust-lang/rust-analyzer/pull/19824)
+* [ide-assists, generate mut trait impl indent](https://github.com/rust-lang/rust-analyzer/pull/19792)
+* [normalize when checking for uninhabited types for pattern exhaustiveness checking](https://github.com/rust-lang/rust-analyzer/pull/19851)
+* [properly implement `might_be_inside_macro_call()` using semantic information instead of syntactical hacks](https://github.com/rust-lang/rust-analyzer/pull/19864)
+* [ide-assists, `generate_new` indent loses](https://github.com/rust-lang/rust-analyzer/pull/19785)
 
 ### Rust Compiler Performance Triage
 
@@ -302,7 +355,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> This is basically the programming version of "learning Japanese as an English speaker is hard, therefore it is not a good language for babies to learn"
+
+– [/u/Aaron1924 on /r/rust](https://www.reddit.com/r/programming/comments/1kqo2tc/comment/mt72ihj/) discussing whether Rust might be a good first language or not.
+
+Thanks to [robin](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1688) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
