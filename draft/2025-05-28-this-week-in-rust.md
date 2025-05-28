@@ -113,7 +113,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A week dominated by new sources of noise. By and large there were not that many real changes to compiler performance. Some highlights of real change to focus on are an improvement in rustdoc that had large wins in a few key benchmarks and an improvement in trait selection that comes from moving from an if/else chain to pattern matching.
+
+Triage done by **@rylev**.
+Revision range: [59372f2c..2805e1dc](https://perf.rust-lang.org/?start=59372f2c81ba74554d9a71b12a4ed7f29adb33a2&end=2805e1dc4c18ed4c84d161502c48da870c56f68a&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.7%  | [0.1%, 7.5%]    | 73    |
+| Regressions ❌ <br /> (secondary)  | 1.4%  | [0.1%, 6.8%]    | 34    |
+| Improvements ✅ <br /> (primary)   | -4.0% | [-78.5%, -0.1%] | 41    |
+| Improvements ✅ <br /> (secondary) | -6.2% | [-22.1%, -0.1%] | 28    |
+| All ❌✅ (primary)                 | -1.0% | [-78.5%, 7.5%]  | 114   |
+
+
+5 Regressions, 7 Improvements, 8 Mixed; 9 of them in rollups
+45 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/02eafc9ca0dda4c5851fb38850166b8af55eda91/triage/2025-05-27.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
