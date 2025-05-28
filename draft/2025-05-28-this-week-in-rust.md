@@ -183,8 +183,6 @@ Rusty Events between 2025-05-28 - 2025-06-25 🦀
     * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587)
 * 2025-06-08 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Rust Readers Discord Discussion: Async Rust**](https://www.meetup.com/dallasrust/events/307927093)
-* 2025-06-08 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
-    * [**Rust Readers Discord Discussion: Async Rust**](https://www.meetup.com/dallasrust/events/kvqfrtyhcjblb)
 * 2025-06-10 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/305020417)
 * 2025-06-10 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
@@ -193,8 +191,6 @@ Rusty Events between 2025-05-28 - 2025-06-25 🦀
     * [**Meet, swap, and learn!**](https://www.meetup.com/charlottesville-rust-meetup/events/307767236)
 * 2025-06-15 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Rust Readers Discord Discussion: Async Rust**](https://www.meetup.com/dallasrust/events/308074808)
-* 2025-06-15 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
-    * [**Rust Readers Discord Discussion: Async Rust**](https://www.meetup.com/dallasrust/events/kvqfrtyhcjbtb)
 * 2025-06-17 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc)
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/305170853)
 * 2025-06-18 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
@@ -283,7 +279,7 @@ Rusty Events between 2025-05-28 - 2025-06-25 🦀
 ### Oceania
 * 2025-06-16 | Christchurch, NZ | [Christchurch Rust Meetup Group](https://www.meetup.com/christchurch-rustlang-meetup-group)
     * [**Christchurch Rust Meetup**](https://www.meetup.com/christchurch-rustlang-meetup-group/events/307808896)
-* 2025-06-24 | Barton, AC, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra)
+* 2025-06-24 | Barton, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra)
     * [**June Meetup**](https://www.meetup.com/rust-canberra/events/307520854)
 
 ### South America
@@ -291,7 +287,7 @@ Rusty Events between 2025-05-28 - 2025-06-25 🦀
     * [**Encontro do Rust-SP na WillBank**](https://www.meetup.com/rust-sao-paulo-meetup/events/307308851)
 * 2025-06-04 | Montevideo, DE, UY | [Rust Meetup Uruguay](https://www.meetup.com/rust-uruguay)
     * [**Primera meetup de Rust de 2025!**](https://www.meetup.com/rust-uruguay/events/307341567)
-* 2025-06-12 | Buenos Aires, AL, AR | [Rust en Español](https://www.meetup.com/rust-argentina)
+* 2025-06-12 | Buenos Aires, AR | [Rust en Español](https://www.meetup.com/rust-argentina)
     * [**Junio de WebAssembly!**](https://www.meetup.com/rust-argentina/events/307990465)
 
 If you are running a Rust event please add it to the [calendar] to get
