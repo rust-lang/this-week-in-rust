@@ -33,25 +33,38 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [April Project Goals Update](https://blog.rust-lang.org/2025/05/26/april-project-goals-update/)
+* [Demoting i686-pc-windows-gnu to Tier 2](https://blog.rust-lang.org/2025/05/26/demoting-i686-pc-windows-gnu/)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [gitoxide May 2025](https://github.com/GitoxideLabs/gitoxide/discussions/2021#discussion-8357816)
+* [The GCC compiler backend can now fully bootstrap the Rust compiler!](https://old.reddit.com/r/rust/comments/1ktph3c/media_the_gcc_compiler_backend_can_now_fully/)
+* [Rust Coreutils 0.1 Released With Big Performance Gains](https://www.phoronix.com/news/Rust-Coreutils-0.1-Released)
+* [Introducing Roto: A Compiled Scripting Language for Rust](https://blog.nlnetlabs.nl/introducing-roto-a-compiled-scripting-language-for-rust/)
 * [alpine-rustx: Simple Rust cross-compilation using custom Docker images](https://github.com/tindzk/alpine-rustx)
-
-[Taskfinder 2.9.0](https://codeberg.org/kdwarn/taskfinder/src/commit/9d2779bfdd79826374bc5e77b85928c065b1094b/CHANGELOG.md#2-9-0-https-codeberg-org-kdwarn-taskfinder-compare-v2-8-0-v2-9-0-2025-05-22)
-
+* [Taskfinder 2.9.0](https://codeberg.org/kdwarn/taskfinder/src/commit/9d2779bfdd79826374bc5e77b85928c065b1094b/CHANGELOG.md#2-9-0-https-codeberg-org-kdwarn-taskfinder-compare-v2-8-0-v2-9-0-2025-05-22)
 * [Yelken Second Alpha Release](https://bwqr.github.io/yelken-blog/second-alpha-release/)
 
 ### Observations/Thoughts
-
+* [Secrets managers considered harmful. How to securely encrypt your sensitive data with envelope encryption and KMS in Rust](https://kerkour.com/rust-secrets-kms-envelope-encryption)
+* [iOS Deep-Linking with Bevy](https://rustunit.com/blog/2025/05-18-bevy-ios-deep-linking/)
+* [Sguaba: hard-to-misuse rigid body transforms for engineers with other things to worry about than linear algebra](https://blog.helsing.ai/sguaba-hard-to-misuse-rigid-body-transforms-for-engineers-with-other-things-to-worry-about-than-aeaa45af9e0d)
+* [Making the rav1d Video Decoder 1% Faster](https://ohadravid.github.io/posts/2025-05-rav1d-faster/)
+* [Async from scratch 3: Pinned against the wall](https://natkr.com/2025-05-22-async-from-scratch-3/)
+* [Fork Union: Beyond OpenMP in C++ and Rust?](https://ashvardanian.com/posts/beyond-openmp-in-cpp-rust/)
+* [Programming language: Rust 2024 is the most comprehensive edition to date](https://www.heise.de/en/background/Programming-language-Rust-2024-is-the-most-comprehensive-edition-to-date-10393917.html)
+* [Type-level Bounded Recursion in Rust](https://catgirl.ai/log/typelevel-bounded-recursion/)
+* [A Tale of Testability and Sending Non-Send Types in Rust](https://geo-ant.github.io/blog/2025/rust-testability-and-non-send-types/)
+* [video] [Hot-reloading Rust Game Dev: Coding Flappy Bird in Bevy From Scratch](https://www.youtube.com/watch?v=fo6FXxeP0Wg)
 * [SIMD in zlib-rs (part 2): compare256](https://tweedegolf.nl/en/blog/155/simd-in-zlib-rs-part-2-compare256)
 
 ### Rust Walkthroughs
 
-- [Rust, Memory performance & latency](https://developerlife.com/2025/05/19/rust-mem-latency/)
+* [Rust, Memory performance & latency](https://developerlife.com/2025/05/19/rust-mem-latency/)
 
 ### Research
 
