@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [How To Get A Rust Job Part II: Introducing Rust At Your Current Company
+](https://filtra.io/rust/career-help/how-to-get-a-rust-job-II)
 
 ## Crate of the Week
 
