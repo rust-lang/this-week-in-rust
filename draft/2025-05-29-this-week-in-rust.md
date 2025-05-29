@@ -38,7 +38,10 @@ and just ask the editors to select the category.
 ### Foundation
 * [Celebrating Rust’s Birthday with Karen Tölva: Creator of Ferris the Rustacean!](https://rustfoundation.org/media/celebrating-rusts-birthday-with-karen-tolva-creator-of-ferris-the-rustacean/)
 
+### Newsletters
+
 ### Project/Tooling Updates
+* [Announcing Markdown Ninja: Open Source alternative to Substack, Mailchimp and Netlify](https://kerkour.com/announcing-markdown-ninja)
 * [Hypervisor as a Library](https://seiya.me/blog/hypervisor-as-a-library)
 
 ### Observations/Thoughts
@@ -54,6 +57,8 @@ and just ask the editors to select the category.
 * [Unlocking Tokio's Hidden Gems: Determinism, Paused Time, and Local Execution](https://pierrezemb.fr/posts/tokio-hidden-gems/)
 * [Joining threads immediately as they finish in Rust](https://jpmelos.com/posts/joining-multiple-rust-threads/)
 * [video] [Build with Naz : Rust, Memory performance & latency - locality, access, allocate, cache lines](https://www.youtube.com/watch?v=ywkEmwkX0Lc)
+
+### Research
 
 ### Miscellaneous
 * [Scanner- The Team Accelerating Log Analysis With Rust](https://filtra.io/rust/interviews/scanner-may-25)
@@ -91,7 +96,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-*No Calls for participation were submitted this week.*
+<!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+* [Hyperswitch - Add integrity check implementation in Adyen](https://github.com/juspay/hyperswitch/issues/8149)
+* [Hyperswitch - Add integrity check implementation in Authorize.net](https://github.com/juspay/hyperswitch/issues/8150)
+* [Hyperswitch - Add integrity check implementation in ACI](https://github.com/juspay/hyperswitch/issues/8151)
+<!-- * [ - ]() -->
+<!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -101,7 +111,8 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-*No Calls for papers or presentations were submitted this week.*
+<!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
+<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -130,6 +141,8 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [cargo: allow configuring arbitrary codegen backends](https://github.com/rust-lang/cargo/pull/15562)
 * [cargo: feat: skip `publish=false` pkg when publishing entire workspace](https://github.com/rust-lang/cargo/pull/15525)
 * [cargo: stabilize doctest-xcompile](https://github.com/rust-lang/cargo/pull/15462)
+
+#### Rustdoc
 
 #### Clippy
 
@@ -351,7 +364,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1knkfb6/official_rrust_whos_hiring_thread_for_jobseekers/)
+Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
@@ -369,4 +382,4 @@ Thanks to [Chayim Refael Friedman](https://users.rust-lang.org/t/twir-quote-of-t
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1ksh043/this_week_in_rust_600_this_week_in_rust/)</small>
+<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
