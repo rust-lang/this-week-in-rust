@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [SIMD in zlib-rs (part 2): compare256](https://tweedegolf.nl/en/blog/155/simd-in-zlib-rs-part-2-compare256)
+
 ### Rust Walkthroughs
 
 ### Research
