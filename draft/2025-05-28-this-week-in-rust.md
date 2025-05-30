@@ -48,7 +48,7 @@ and just ask the editors to select the category.
 * [alpine-rustx: Simple Rust cross-compilation using custom Docker images](https://github.com/tindzk/alpine-rustx)
 * [Taskfinder 2.9.0](https://codeberg.org/kdwarn/taskfinder/src/commit/9d2779bfdd79826374bc5e77b85928c065b1094b/CHANGELOG.md#2-9-0-https-codeberg-org-kdwarn-taskfinder-compare-v2-8-0-v2-9-0-2025-05-22)
 * [Yelken Second Alpha Release](https://bwqr.github.io/yelken-blog/second-alpha-release/)
-* [First look at Blinksy](https://blog.mikey.nz/first-look-at-blinksy/)
+* [First look at Blinksy](https://blog.mikey.nz/first-look-at-blinksy/) 
 
 ### Observations/Thoughts
 * [Secrets managers considered harmful. How to securely encrypt your sensitive data with envelope encryption and KMS in Rust](https://kerkour.com/rust-secrets-kms-envelope-encryption)
