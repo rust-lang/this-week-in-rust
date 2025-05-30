@@ -51,7 +51,6 @@ and just ask the editors to select the category.
 * [malai 0.2.5 is here: Instantly share local TCP services (database/SSH) with others](https://www.malai.sh/hello-tcp/)
 
 ### Observations/Thoughts
-* [Secrets managers considered harmful. How to securely encrypt your sensitive data with envelope encryption and KMS in Rust](https://kerkour.com/rust-secrets-kms-envelope-encryption)
 * [iOS Deep-Linking with Bevy](https://rustunit.com/blog/2025/05-18-bevy-ios-deep-linking/)
 * [Sguaba: hard-to-misuse rigid body transforms for engineers with other things to worry about than linear algebra](https://blog.helsing.ai/sguaba-hard-to-misuse-rigid-body-transforms-for-engineers-with-other-things-to-worry-about-than-aeaa45af9e0d)
 * [Making the rav1d Video Decoder 1% Faster](https://ohadravid.github.io/posts/2025-05-rav1d-faster/)
