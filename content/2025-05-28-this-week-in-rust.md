@@ -39,8 +39,6 @@ and just ask the editors to select the category.
 ### Foundation
 * [The Rust Foundation seeks input on its three-year strategy (2026-2028)](https://docs.google.com/forms/d/e/1FAIpQLSca3ziiYWrTti6Ti2ki3Sv9Okmhzc4wGMxQgudUOmQrmh3pVg/viewform?usp=dialog)
 
-### Newsletters
-
 ### Project/Tooling Updates
 * [gitoxide May 2025](https://github.com/GitoxideLabs/gitoxide/discussions/2021#discussion-8357816)
 * [The GCC compiler backend can now fully bootstrap the Rust compiler!](https://old.reddit.com/r/rust/comments/1ktph3c/media_the_gcc_compiler_backend_can_now_fully/)
@@ -49,9 +47,10 @@ and just ask the editors to select the category.
 * [alpine-rustx: Simple Rust cross-compilation using custom Docker images](https://github.com/tindzk/alpine-rustx)
 * [Taskfinder 2.9.0](https://codeberg.org/kdwarn/taskfinder/src/commit/9d2779bfdd79826374bc5e77b85928c065b1094b/CHANGELOG.md#2-9-0-https-codeberg-org-kdwarn-taskfinder-compare-v2-8-0-v2-9-0-2025-05-22)
 * [Yelken Second Alpha Release](https://bwqr.github.io/yelken-blog/second-alpha-release/)
+* [First look at Blinksy](https://blog.mikey.nz/first-look-at-blinksy/)
+* [malai 0.2.5 is here: Instantly share local TCP services (database/SSH) with others](https://www.malai.sh/hello-tcp/)
 
 ### Observations/Thoughts
-* [Secrets managers considered harmful. How to securely encrypt your sensitive data with envelope encryption and KMS in Rust](https://kerkour.com/rust-secrets-kms-envelope-encryption)
 * [iOS Deep-Linking with Bevy](https://rustunit.com/blog/2025/05-18-bevy-ios-deep-linking/)
 * [Sguaba: hard-to-misuse rigid body transforms for engineers with other things to worry about than linear algebra](https://blog.helsing.ai/sguaba-hard-to-misuse-rigid-body-transforms-for-engineers-with-other-things-to-worry-about-than-aeaa45af9e0d)
 * [Making the rav1d Video Decoder 1% Faster](https://ohadravid.github.io/posts/2025-05-rav1d-faster/)
@@ -65,14 +64,10 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Secrets managers considered harmful. How to securely encrypt your sensitive data with envelope encryption and KMS in Rust](https://kerkour.com/rust-secrets-kms-envelope-encryption)
-
 * [Rust, Memory performance & latency](https://developerlife.com/2025/05/19/rust-mem-latency/)
 
-### Research
-
 ### Miscellaneous
-* [How To Get A Rust Job Part II: Introducing Rust At Your Current Company
-](https://filtra.io/rust/career-help/how-to-get-a-rust-job-II)
+* [How To Get A Rust Job Part II: Introducing Rust At Your Current Company](https://filtra.io/rust/career-help/how-to-get-a-rust-job-II)
 
 ## Crate of the Week
 
@@ -107,9 +102,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-<!-- * [ - ]() -->
-<!-- or if none - *No Calls for participation were submitted this week.* -->
+* [Hyperswitch - Add integrity check implementation in Adyen](https://github.com/juspay/hyperswitch/issues/8149)
+* [Hyperswitch - Add integrity check implementation in Authorize.net](https://github.com/juspay/hyperswitch/issues/8150)
+* [Hyperswitch - Add integrity check implementation in ACI](https://github.com/juspay/hyperswitch/issues/8151)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -119,8 +114,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-<!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+[EuroRust 2025](https://www.papercall.io/eurorust-2025)| CFP closes on 2025-06-02 | Paris, France | 2025-10-09
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -256,6 +250,8 @@ Rusty Events between 2025-05-28 - 2025-06-25 🦀
     * [**Why Rust? למה ראסט? -**](https://www.meetup.com/rust-tlv/events/307801358)
 * 2025-06-04 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/302031665)
+* 2025-06-04 | Virtual | [Scientific Computing in Rust](https://scientificcomputing.rs)
+     * [**Scientific Computing in Rust 2025**](https://scientificcomputing.rs/2025)
 * 2025-06-05 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/300820301)
 * 2025-06-07 | Virtual (Kampala, UG) | [Rust Circle Meetup](https://www.eventbrite.com/o/rust-circle-kampala-65249289033)
@@ -387,7 +383,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1knkfb6/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -403,4 +399,4 @@ Thanks to [robin](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1688)
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1kytv0p/this_week_in_rust_601_this_week_in_rust/)</small>
