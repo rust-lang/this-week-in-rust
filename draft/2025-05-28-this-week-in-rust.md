@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 * [Demoting i686-pc-windows-gnu to Tier 2](https://blog.rust-lang.org/2025/05/26/demoting-i686-pc-windows-gnu/)
 
 ### Foundation
+* [The Rust Foundation seeks input on its three-year strategy (2026-2028)](https://docs.google.com/forms/d/e/1FAIpQLSca3ziiYWrTti6Ti2ki3Sv9Okmhzc4wGMxQgudUOmQrmh3pVg/viewform?usp=dialog)
 
 ### Newsletters
 
