@@ -63,6 +63,7 @@ and just ask the editors to select the category.
 * [SIMD in zlib-rs (part 2): compare256](https://tweedegolf.nl/en/blog/155/simd-in-zlib-rs-part-2-compare256)
 
 ### Rust Walkthroughs
+* [Secrets managers considered harmful. How to securely encrypt your sensitive data with envelope encryption and KMS in Rust](https://kerkour.com/rust-secrets-kms-envelope-encryption)
 
 * [Rust, Memory performance & latency](https://developerlife.com/2025/05/19/rust-mem-latency/)
 
