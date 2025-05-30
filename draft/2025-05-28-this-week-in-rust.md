@@ -62,6 +62,7 @@ and just ask the editors to select the category.
 * [A Tale of Testability and Sending Non-Send Types in Rust](https://geo-ant.github.io/blog/2025/rust-testability-and-non-send-types/)
 * [video] [Hot-reloading Rust Game Dev: Coding Flappy Bird in Bevy From Scratch](https://www.youtube.com/watch?v=fo6FXxeP0Wg)
 * [SIMD in zlib-rs (part 2): compare256](https://tweedegolf.nl/en/blog/155/simd-in-zlib-rs-part-2-compare256)
+* [How to Supercharge Your Java Project with Rust - A Practical Guide to JNI Integration with a Complete Example](https://greptime.com/blogs/2025-05-13-java-rust-jni-integration-example)
 
 ### Rust Walkthroughs
 * [Secrets managers considered harmful. How to securely encrypt your sensitive data with envelope encryption and KMS in Rust](https://kerkour.com/rust-secrets-kms-envelope-encryption)
