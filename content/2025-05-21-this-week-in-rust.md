@@ -173,6 +173,7 @@ Triage done by **@kobzol**.
 Revision range: [718ddf66..59372f2c](https://perf.rust-lang.org/?start=718ddf660e6a1802c39b4962cf7eaa4db57025ef&end=59372f2c81ba74554d9a71b12a4ed7f29adb33a2&absolute=false&stat=instructions%3Au)
 
 **Summary**:
+
 | (instructions:u)                   | mean  | range          | count |
 |:----------------------------------:|:-----:|:--------------:|:-----:|
 | Regressions ❌ <br /> (primary)    | 0.6%  | [0.1%, 1.8%]   | 25    |
