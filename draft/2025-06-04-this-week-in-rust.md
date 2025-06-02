@@ -113,7 +113,14 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A fairly busy week, with lots of changes to performance. Most of the changes
+(at least in quantity of benchmarks) are attributable to an update of our PGO
+collection to newer benchmarks as part of the 2025 refresh.
+
+Triage done by **@simulacrum**.
+Revision range: [2805e1dc..2fc3deed](https://perf.rust-lang.org/?start=2805e1dc4c18ed4c84d161502c48da870c56f68a&end=2fc3deed9fcb8762ad57191e0195f06f7543e4a5&absolute=false&stat=instructions%3Au)
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2025-06-02.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
