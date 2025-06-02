@@ -77,6 +77,12 @@ RFCs would benefit from user testing before moving forward:
 
 ### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
 
+### [Cargo](https://github.com/rust-lang/cargo/labels/call-for-testing)
+
+* `cargo doc` doc regeneration detection is now more precise and performant.
+    * [Tracking Issue](https://github.com/rust-lang/cargo/issues/15370)
+    * [Testing steps](https://github.com/rust-lang/cargo/issues/15370#issuecomment-2932749085)
+
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
