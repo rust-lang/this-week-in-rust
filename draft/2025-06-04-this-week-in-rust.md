@@ -40,10 +40,17 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [What's new in SeaORM 1.1.12](https://www.sea-ql.org/blog/2025-06-01-whats-new-in-sea-orm-1.1/)
+* [git-cliff 2.9.0 is released!](https://git-cliff.org/blog/2.9.0)
+
 ### Observations/Thoughts
+* [In Praise of Shuttle: Oxidizing the Capibara Web API](https://justinwoodring.com/blog/rewriting-the-capibara-web-api-in-rust/)
+* [Reducing Cargo target directory size with -Zno-embed-metadata](https://kobzol.github.io/rust/rustc/2025/06/02/reduce-cargo-target-dir-size-with-z-no-embed-metadata.html)
 * [Designing Error Types in Rust Libraries](https://d34dl0ck.me/rust-bites-designing-error-types-in-rust-libraries/index.html)
 
 ### Rust Walkthroughs
+
+* [video] [Build with Naz : Parse non-slice input with nom](https://www.youtube.com/watch?v=3IzAweJGdZU)
 
 ### Research
 
@@ -114,7 +121,14 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A fairly busy week, with lots of changes to performance. Most of the changes
+(at least in quantity of benchmarks) are attributable to an update of our PGO
+collection to newer benchmarks as part of the 2025 refresh.
+
+Triage done by **@simulacrum**.
+Revision range: [2805e1dc..2fc3deed](https://perf.rust-lang.org/?start=2805e1dc4c18ed4c84d161502c48da870c56f68a&end=2fc3deed9fcb8762ad57191e0195f06f7543e4a5&absolute=false&stat=instructions%3Au)
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2025-06-02.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -190,6 +204,8 @@ Rusty Events between 2025-06-04 - 2025-07-02 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/305020417)
 * 2025-06-10 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
     * [**👋 Community Catch Up**](https://www.meetup.com/women-in-rust/events/307560326)
+* 2025-06-11 | Virtual (Tel Aviv, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/)
+    * [**Rust at Work - conversation with Herbert Wolverson of Ardan Labs & LibreQoS**](https://www.meetup.com/code-mavens/events/308234298/)
 * 2025-06-12 | Virtual (Charlottesville, VA, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup)
     * [**Meet, swap, and learn!**](https://www.meetup.com/charlottesville-rust-meetup/events/307767236)
 * 2025-06-15 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
