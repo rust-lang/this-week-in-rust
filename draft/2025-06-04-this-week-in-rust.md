@@ -45,8 +45,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 * [In Praise of Shuttle: Oxidizing the Capibara Web API](https://justinwoodring.com/blog/rewriting-the-capibara-web-api-in-rust/)
-
 * [Reducing Cargo target directory size with -Zno-embed-metadata](https://kobzol.github.io/rust/rustc/2025/06/02/reduce-cargo-target-dir-size-with-z-no-embed-metadata.html)
+* [Designing Error Types in Rust Libraries](https://d34dl0ck.me/rust-bites-designing-error-types-in-rust-libraries/index.html)
 
 ### Rust Walkthroughs
 
