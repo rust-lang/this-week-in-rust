@@ -55,6 +55,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Rethinking Data Streaming With Rust And InfinyOn](https://filtra.io/rust/interviews/infinyon-jun-25)
 
 ## Crate of the Week
 
