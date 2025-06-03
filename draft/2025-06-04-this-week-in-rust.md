@@ -39,12 +39,18 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
-- [Ratatui's "Rat in the Wild" Challenge](https://github.com/ratatui/ratatui/discussions/1886)
+* [What's new in SeaORM 1.1.12](https://www.sea-ql.org/blog/2025-06-01-whats-new-in-sea-orm-1.1/)
+* [git-cliff 2.9.0 is released!](https://git-cliff.org/blog/2.9.0)
+* [Ratatui's "Rat in the Wild" Challenge](https://github.com/ratatui/ratatui/discussions/1886)
 
 ### Observations/Thoughts
+* [In Praise of Shuttle: Oxidizing the Capibara Web API](https://justinwoodring.com/blog/rewriting-the-capibara-web-api-in-rust/)
+* [Reducing Cargo target directory size with -Zno-embed-metadata](https://kobzol.github.io/rust/rustc/2025/06/02/reduce-cargo-target-dir-size-with-z-no-embed-metadata.html)
+* [Designing Error Types in Rust Libraries](https://d34dl0ck.me/rust-bites-designing-error-types-in-rust-libraries/index.html)
 
 ### Rust Walkthroughs
+
+* [video] [Build with Naz : Parse non-slice input with nom](https://www.youtube.com/watch?v=3IzAweJGdZU)
 
 ### Research
 
@@ -59,29 +65,18 @@ and just ask the editors to select the category.
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
 ## Calls for Testing
-
 An important step for RFC implementation is for people to experiment with the
-implementation and give feedback, especially before stabilization.  The following
-RFCs would benefit from user testing before moving forward:
+implementation and give feedback, especially before stabilization.
 
-<!-- Calls for Testing go here, use this format:
-    * [<RFC Topic>](<RFC URL>)
-        * [Tracking Issue](<Tracking Issue URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- or if there are no new or updated RFCs this week, use: -->
-<!-- * *No New or Updated RFCs were created this week.* -->
-<!-- Remember to remove the `call-for-testing` label from the RFC so that the maintainer can signal for testers again, if desired. -->
+If you are a feature implementer and would like your RFC to appear in this list, add a
+`call-for-testing` label to your RFC along with a comment providing testing instructions and/or
+guidance on which aspect(s) of the feature need testing.
 
-### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+* *No calls for testing were issued this week by [Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
+  [Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing) or
+  [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing).*
 
-### [Rust](https://github.com/rust-lang/rust/labels/call-for-testing)
-
-### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
-
-If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
-label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
-need testing.
+[Let us know](https://github.com/rust-lang/this-week-in-rust/issues) if you would like your feature to be tracked as a part of this list.
 
 ## Call for Participation; projects and speakers
 
@@ -115,54 +110,61 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A fairly busy week, with lots of changes to performance. Most of the changes
+(at least in quantity of benchmarks) are attributable to an update of our PGO
+collection to newer benchmarks as part of the 2025 refresh.
+
+Triage done by **@simulacrum**.
+Revision range: [2805e1dc..2fc3deed](https://perf.rust-lang.org/?start=2805e1dc4c18ed4c84d161502c48da870c56f68a&end=2fc3deed9fcb8762ad57191e0195f06f7543e4a5&absolute=false&stat=instructions%3Au)
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2025-06-02.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
 Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
 which are reaching a decision. Express your opinions now.
 
-#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
-
 #### Tracking Issues & PRs
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: -->
-<!-- * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
-
 ##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* [Add (back) unsupported_calling_conventions lint to reject more invalid calling conventions](https://github.com/rust-lang/rust/pull/141435)
+* [Stabilize `if let` guards (`feature(if_let_guard)`)](https://github.com/rust-lang/rust/pull/141295)
+* [Added `Clone` implementation for `ChunkBy`](https://github.com/rust-lang/rust/pull/138016)
+* [Make the `dangerous_implicit_autorefs` lint deny-by-default](https://github.com/rust-lang/rust/pull/141661)
+* [Make NonZero< char > possible](https://github.com/rust-lang/rust/pull/141001)
+* [Tracking Issue for nonnull_provenance](https://github.com/rust-lang/rust/issues/135243)
+* [disposition: close] [Implement operations for Wrapping< T > where Rhs = T](https://github.com/rust-lang/rust/pull/140567)
+* [Split up the `unknown_or_malformed_diagnostic_attributes` lint](https://github.com/rust-lang/rust/pull/140717)
+* [Lint on fn pointers comparisons in external macros](https://github.com/rust-lang/rust/pull/134536)
+* [Specify the behavior of `file!`](https://github.com/rust-lang/rust/pull/134442)
+* [Document representation of `Option<unsafe fn()>`](https://github.com/rust-lang/rust/pull/141447)
+* [Stabilize `feature(generic_arg_infer)`](https://github.com/rust-lang/rust/pull/141610)
+* [Allow `#![doc(test(attr(..)))]` everywhere](https://github.com/rust-lang/rust/pull/140560)
+* [Tracking Issue for File lock API](https://github.com/rust-lang/rust/issues/130994)
+* [disposition: unspecified] [Tracking Issue for `unsigned_signed_diff`](https://github.com/rust-lang/rust/issues/126041)
+* [Stabilise `os_string_pathbuf_leak`](https://github.com/rust-lang/rust/pull/137992)
 
-##### [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+##### [Rust RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+* [[RFC] Add `#[export_ordinal(n)]` attribute](https://github.com/rust-lang/rfcs/pull/3641)
 
-##### [Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc+)
+*No Items entered Final Comment Period this week for
+[Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc),
+[Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc),
+[Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc+) or
+[Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc).*
 
-##### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-
-##### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+Let us know if you would like your PRs, Tracking Issues or RFCs to be tracked as a part of this list.
 
 #### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: -->
-<!-- * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+* [new] [de-RFC: Remove unsized_locals](https://github.com/rust-lang/rfcs/pull/3829)
+* [new] [RFC: Procedural macros in same package as app](https://github.com/rust-lang/rfcs/pull/3826)
+* [new] [RFC: Allow generic impls using local trait bounds](https://github.com/rust-lang/rfcs/pull/3821)
 
 ## Upcoming Events
 
@@ -191,6 +193,8 @@ Rusty Events between 2025-06-04 - 2025-07-02 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/305020417)
 * 2025-06-10 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
     * [**👋 Community Catch Up**](https://www.meetup.com/women-in-rust/events/307560326)
+* 2025-06-11 | Virtual (Tel Aviv, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/)
+    * [**Rust at Work - conversation with Herbert Wolverson of Ardan Labs & LibreQoS**](https://www.meetup.com/code-mavens/events/308234298/)
 * 2025-06-12 | Virtual (Charlottesville, VA, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup)
     * [**Meet, swap, and learn!**](https://www.meetup.com/charlottesville-rust-meetup/events/307767236)
 * 2025-06-15 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
