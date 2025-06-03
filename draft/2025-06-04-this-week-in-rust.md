@@ -40,11 +40,15 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-- [git-cliff 2.9.0 is released! (a highly customizable changelog generator)](https://git-cliff.org/blog/2.9.0)
+* [What's new in SeaORM 1.1.12](https://www.sea-ql.org/blog/2025-06-01-whats-new-in-sea-orm-1.1/)
+* [git-cliff 2.9.0 is released!](https://git-cliff.org/blog/2.9.0)
 
 ### Observations/Thoughts
+* [In Praise of Shuttle: Oxidizing the Capibara Web API](https://justinwoodring.com/blog/rewriting-the-capibara-web-api-in-rust/)
 
 ### Rust Walkthroughs
+
+* [video] [Build with Naz : Parse non-slice input with nom](https://www.youtube.com/watch?v=3IzAweJGdZU)
 
 ### Research
 
