@@ -63,6 +63,19 @@ implementation and give feedback, especially before stabilization.
 If you are a feature implementer and would like your RFC to appear in this list, add a
 `call-for-testing` label to your RFC along with a comment providing testing instructions and/or
 guidance on which aspect(s) of the feature need testing.
+### [Cargo](https://github.com/rust-lang/cargo/labels/call-for-testing)
+* [Tracking Issue for -Zrustdoc-depinfo](https://github.com/rust-lang/cargo/issues/15370)
+  * [Testing Instructions](https://github.com/rust-lang/cargo/issues/15370#issuecomment-2932749085)
+* [Tracking Issue for native-completion](https://github.com/rust-lang/cargo/issues/14520)
+  * [Testing Instructions](https://doc.rust-lang.org/nightly/cargo/reference/unstable.html#native-completions)
+* [Redefine `CARGO_TARGET_DIR` to be only an artifacts directory](https://github.com/rust-lang/cargo/issues/14125)
+  * [Testing Instructions](https://github.com/rust-lang/cargo/issues/14125#issuecomment-2802967106)
+* [cargo install --dry-run](https://github.com/rust-lang/cargo/issues/11123)
+  * [Testing Instructions](https://github.com/rust-lang/cargo/issues/11123#issuecomment-2460846663)
+* [cargo package --workspace is not very useful](https://github.com/rust-lang/cargo/issues/10948)
+  * [Testing Instructions](https://github.com/rust-lang/cargo/issues/10948#issuecomment-2540365225)
+* [cargo publish multiple packages at once](https://github.com/rust-lang/cargo/issues/1169)
+  * [Testing Instructions](https://github.com/rust-lang/cargo/issues/1169#issuecomment-2540367442)
 
 * *No calls for testing were issued this week by [Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
   [Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing) or
@@ -122,9 +135,9 @@ which are reaching a decision. Express your opinions now.
 * [Stabilize `if let` guards (`feature(if_let_guard)`)](https://github.com/rust-lang/rust/pull/141295)
 * [Added `Clone` implementation for `ChunkBy`](https://github.com/rust-lang/rust/pull/138016)
 * [Make the `dangerous_implicit_autorefs` lint deny-by-default](https://github.com/rust-lang/rust/pull/141661)
-* [Make NonZero\<char> possible](https://github.com/rust-lang/rust/pull/141001)
+* [Make NonZero< char > possible](https://github.com/rust-lang/rust/pull/141001)
 * [Tracking Issue for nonnull_provenance](https://github.com/rust-lang/rust/issues/135243)
-* [disposition: close] [Implement operations for Wrapping\<T> where Rhs = T](https://github.com/rust-lang/rust/pull/140567)
+* [disposition: close] [Implement operations for Wrapping< T > where Rhs = T](https://github.com/rust-lang/rust/pull/140567)
 * [Split up the `unknown_or_malformed_diagnostic_attributes` lint](https://github.com/rust-lang/rust/pull/140717)
 * [Lint on fn pointers comparisons in external macros](https://github.com/rust-lang/rust/pull/134536)
 * [Specify the behavior of `file!`](https://github.com/rust-lang/rust/pull/134442)
