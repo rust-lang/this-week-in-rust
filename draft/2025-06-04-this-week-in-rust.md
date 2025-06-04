@@ -263,6 +263,8 @@ Rusty Events between 2025-06-04 - 2025-07-02 🦀
     * [**Boston University Rust Lunch, June 8**](https://www.meetup.com/bostonrust/events/307936165)
 * 2025-06-11 | Phoenix, AZ, US | [Desert Rust](https://www.meetup.com/desert-rustaceans)
     * [**Rust <> Security**](https://www.meetup.com/desert-rustaceans/events/308010023)
+* 2025-06-12 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
+    * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/308019627)
 * 2025-06-17 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group)
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/307595021)
 * 2025-06-18 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
