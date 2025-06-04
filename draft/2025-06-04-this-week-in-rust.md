@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 * [git-cliff 2.9.0 is released!](https://git-cliff.org/blog/2.9.0/)
 * [Ratatui's "Rat in the Wild" Challenge](https://github.com/ratatui/ratatui/discussions/1886)
 * [rust-analyzer changelog #288](https://rust-analyzer.github.io/thisweek/2025/06/02/changelog-288.html)
+* [Ratatui Block Border Merging](https://jslazak.com/ratatui-border-merging/)
 
 ### Observations/Thoughts
 * [parking_lot: ffffffffffffffff...](https://fly.io/blog/parking-lot-ffffffffffffffff/)
