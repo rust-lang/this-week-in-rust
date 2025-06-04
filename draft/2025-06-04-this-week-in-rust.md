@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 * [What's new in SeaORM 1.1.12](https://www.sea-ql.org/blog/2025-06-01-whats-new-in-sea-orm-1.1/)
 * [git-cliff 2.9.0 is released!](https://git-cliff.org/blog/2.9.0)
 * [Ratatui's "Rat in the Wild" Challenge](https://github.com/ratatui/ratatui/discussions/1886)
+* [Ratatui Block Border Merging](https://jslazak.com/ratatui-border-merging/)
 
 ### Observations/Thoughts
 * [In Praise of Shuttle: Oxidizing the Capibara Web API](https://justinwoodring.com/blog/rewriting-the-capibara-web-api-in-rust/)
