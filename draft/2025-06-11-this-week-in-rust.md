@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [Combining Swift and Rust with UniFFI: Have Your Cake & Eat it Too](https://www.youtube.com/watch?v=DfSBBOlFTeE)
+
 ### Research
 
 ### Miscellaneous
