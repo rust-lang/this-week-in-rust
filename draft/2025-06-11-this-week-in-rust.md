@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [cctx: A Context Switcher for Claude Code](https://syu-m-5151.hatenablog.com/entry/2025/06/05/232126)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
