@@ -34,6 +34,8 @@ and just ask the editors to select the category.
 
 ### Official
 
+- [A glance at Compiler Team Operations](https://blog.rust-lang.org/inside-rust/2025/06/05/a-glance-at-the-team-compiler-operations)
+
 ### Foundation
 
 ### Newsletters
