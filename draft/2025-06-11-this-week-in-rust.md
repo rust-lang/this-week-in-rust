@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 ### Research
 
+* [Kernel Memory Safety: Mission Accomplished](https://asterinas.github.io/2025/06/04/kernel-memory-safety-mission-accomplished.html)
+
 ### Miscellaneous
 
 ## Crate of the Week
