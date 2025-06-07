@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rust on a Diet](https://blog.veeso.dev/blog/en/rust-on-a-diet/)
+
 ### Rust Walkthroughs
 
 ### Research
