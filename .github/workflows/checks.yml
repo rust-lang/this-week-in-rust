@@ -1,5 +1,9 @@
 name: Correctness Checks
 on: [push, pull_request]
+
+permissions:
+  contents: read
+
 jobs:
   Run-Markdown-Checks:
     runs-on: ubuntu-24.04
