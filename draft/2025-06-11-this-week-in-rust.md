@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [Rust Trends Issue #66](https://rust-trends.com/newsletter/rust-rewinded-debug-smarter-build-faster/)
 
 ### Project/Tooling Updates
 
