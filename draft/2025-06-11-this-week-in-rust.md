@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Why doesn't Rust care more about compiler performance?](https://kobzol.github.io/rust/rustc/2025/06/09/why-doesnt-rust-care-more-about-compiler-performance.html)
+
 ### Rust Walkthroughs
 
 ### Research
