@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Nine Rules for Scientific Libraries in Rust](https://medium.com/@carlmkadie/nine-rules-for-scientific-libraries-in-rust-6e5e33a6405b)
+
 ### Rust Walkthroughs
 
 ### Research
