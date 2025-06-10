@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Meilisearch 1.15 - new typo tolerance setting, comparison operators for string filters, and improved support for Chinese](https://www.meilisearch.com/blog/meilisearch-1-15)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
