@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [audio] [What's New in Rust 1.79 and 1.80](https://rustacean-station.org/episode/rust-1.79-1.80/)
+* [audio] [Rust at Work with Ran Reichman Co-Founder and CEO of Flarion](https://rustacean-station.org/episode/ran-reichman/)
 
 ### Rust Walkthroughs
 
