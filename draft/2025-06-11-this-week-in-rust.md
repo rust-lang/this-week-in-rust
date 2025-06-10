@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Getting A Read On Rust With Trainer, Consultant, and Author Herbert Wolverson
+](https://filtra.io/rust/interviews/ardan-jun-25)
 
 ## Crate of the Week
 
