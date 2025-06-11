@@ -50,7 +50,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [optics](https://crates.io/crates/optics), a typesafe, fully featured lens library.
+
+Thanks to [Akos Vandra](https://users.rust-lang.org/t/crate-of-the-week/2704/1442) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -109,7 +111,64 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+516 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-06-03..2025-06-10
+
+#### Compiler
+
+* [add (back) `unsupported_calling_conventions` lint to reject more invalid calling conventions](https://github.com/rust-lang/rust/pull/141435)
+* [add a new `mismatched-lifetime-syntaxes` lint](https://github.com/rust-lang/rust/pull/138677)
+* [fast path for stalled obligations on self ty](https://github.com/rust-lang/rust/pull/141681)
+* [simplify and optimize `VecCache`'s `SlotIndex::from_index`](https://github.com/rust-lang/rust/pull/142095)
+* [rework `collect_and_apply` to not rely on size hint for optimization](https://github.com/rust-lang/rust/pull/141652)
+* [miri: TB: add flag to disable the more precise interior mutability tracking](https://github.com/rust-lang/miri/pull/4376)
+* [miri: native-lib: allow multiple libraries and/or dirs](https://github.com/rust-lang/miri/pull/4372)
+
+#### Library
+
+* [stabilise `os_string_pathbuf_leak`](https://github.com/rust-lang/rust/pull/137992)
+* [stabilize `const_eq_ignore_ascii_case`](https://github.com/rust-lang/rust/pull/142065)
+* [stabilize `nonnull_provenance`](https://github.com/rust-lang/rust/pull/142238)
+* [stabilize `sha512`, `sm3` and `sm4` for x86](https://github.com/rust-lang/rust/pull/140767)
+* [stabilize `tcp_quickack`](https://github.com/rust-lang/rust/pull/129121)
+* [bootstrap: build std sans leaf frame pointers](https://github.com/rust-lang/rust/pull/141800)
+* [make `NonZero<char>` possible](https://github.com/rust-lang/rust/pull/141001)
+* [optimize `Seek::stream_len` impl for `File`](https://github.com/rust-lang/rust/pull/125087)
+
+#### Clippy
+
+* [`doc_suspicious_footnotes`: lint text that looks like a footnote](https://github.com/rust-lang/rust-clippy/pull/14708)
+* [`missing_const_for_fn`: consider constness of instance](https://github.com/rust-lang/rust-clippy/pull/14759)
+* [`zombie_processes`: do not complain about early early returns](https://github.com/rust-lang/rust-clippy/pull/14912)
+* [add new lint: `ip_constant`](https://github.com/rust-lang/rust-clippy/pull/14878)
+* [do not lint macro generated codes](https://github.com/rust-lang/rust-clippy/pull/14976)
+* [do not recurse indefinitely while checking for inner mutability](https://github.com/rust-lang/rust-clippy/pull/14965)
+* [fix `branches_sharing_code` suggests wrongly when dealing with macros](https://github.com/rust-lang/rust-clippy/pull/14907)
+* [fix `create_dir` ignores paths in suggestions](https://github.com/rust-lang/rust-clippy/pull/15011)
+* [fix `match_single_binding` misses curlies on type signatures](https://github.com/rust-lang/rust-clippy/pull/15017)
+* [fix `std_instead_of_core` FP when part of the `use` cannot be replaced](https://github.com/rust-lang/rust-clippy/pull/15016)
+* [fix `unnecessary_debug_formatting` FP inside `Debug` impl](https://github.com/rust-lang/rust-clippy/pull/14955)
+* [fix false positive for `unused_unit`](https://github.com/rust-lang/rust-clippy/pull/14962)
+* [fix suggestion-causes-error of `print_literal` and `write_literal`](https://github.com/rust-lang/rust-clippy/pull/14961)
+* [introduce `coerce_container_to_any`](https://github.com/rust-lang/rust-clippy/pull/14812)
+* [invert suggestion if pointer is tested for non-nullness](https://github.com/rust-lang/rust-clippy/pull/15015)
+* [lint reversed ordering in partial ord impl](https://github.com/rust-lang/rust-clippy/pull/14945)
+* [use interned strings when possible, for efficiency purposes](https://github.com/rust-lang/rust-clippy/pull/14963)
+
+#### Rust-Analyzer
+
+* [better parser recovery for macro calls in type bound position](https://github.com/rust-lang/rust-analyzer/pull/19933)
+* [add `dyn` keyword inlay hints](https://github.com/rust-lang/rust-analyzer/pull/19922)
+* [implement attribute completions for diagnostics module](https://github.com/rust-lang/rust-analyzer/pull/19908)
+* [always include quickfixes for diagnostics, even when diagnostics are disabled](https://github.com/rust-lang/rust-analyzer/pull/19935)
+* [do not error at impls for unsized types that do not include `where Self: Sized` items](https://github.com/rust-lang/rust-analyzer/pull/19963)
+* [record macro calls for fields in `ChildBySource` impls](https://github.com/rust-lang/rust-analyzer/pull/19937)
+* [record macro calls in signatures in `ChildBySource` impls](https://github.com/rust-lang/rust-analyzer/pull/19932)
+* [stabilize the "JSON is not Rust" diagnostic](https://github.com/rust-lang/rust-analyzer/pull/19949)
+* [stabilize unlinked file diagnostic](https://github.com/rust-lang/rust-analyzer/pull/19936)
+* [hir-ty: add incremental tests checking for `infer` invalidation](https://github.com/rust-lang/rust-analyzer/pull/19914)
+* [make `Semantics<'db, DB>` support `Semantics<'db, dyn HirDatabase>`, take two](https://github.com/rust-lang/rust-analyzer/pull/19930)
 
 ### Rust Compiler Performance Triage
 
@@ -312,7 +371,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Gaze not into the abyss, lest you become recognized as an ***abyss domain expert***, and they expect you keep gazing into the damn thing.
+
+– [Nick Mathewson on twitter](https://x.com/nickm_tor/status/860234274842324993?lang=en)
+
+Thanks to [robin](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1696) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
