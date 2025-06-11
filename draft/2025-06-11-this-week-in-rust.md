@@ -32,6 +32,7 @@ and just ask the editors to select the category.
 
 -->
 
+
 ### Official
 
 ### Foundation
@@ -39,14 +40,32 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Are We Embedded Yet? #2](https://jslazak.com/are-we-embedded-yet-2/)
 
 ### Observations/Thoughts
+* [Rewriting SymCrypt in Rust to modernize Microsoft’s cryptographic library](https://www.microsoft.com/en-us/research/blog/rewriting-symcrypt-in-rust-to-modernize-microsofts-cryptographic-library/)
+* [Why doesn’t Rust care more about compiler performance?](https://kobzol.github.io/rust/rustc/2025/06/09/why-doesnt-rust-care-more-about-compiler-performance.html)
+* [Hedge funds are replacing a programming language with Rust, but it's not C++](https://www.efinancialcareers.com/news/rust-replacing-c-programming-language-hedge-fund)
+* [The Concurrency Trap: How An Atomic Counter Stalled A Pipeline](https://www.conviva.com/platform/the-concurrency-trap-how-an-atomic-counter-stalled-a-pipeline/)
+* [Rust For Foundational Software](https://corrode.dev/blog/foundational-software/)
+* [10 years of betting on Rust](https://tably.com/tably/10-years-of-betting-on-rust)
+* [Report on variadic generics discussions at RustWeek 2025.](https://poignardazur.github.io/2025/06/07/report-on-variadics-rustweek/)
+* [Zero-cost Functional Records in Rust](https://ecency.com/rust-lang/@jonwolski/zero-cost-functional-records-in-rust)
+* [A plan for SIMD](https://linebender.org/blog/a-plan-for-simd/)
+* [When is a Rust function "unsafe"?](https://crescentro.se/posts/when-unsafe/)
+* [video playlist] [RustWeek 2025](https://www.youtube.com/playlist?list=PL8Q1w7Ff68DCEXiGidlM0DMn8ztjlUlez)
 
 ### Rust Walkthroughs
+* [Achieving <100 ms Latency for Remote Control with WebRTC](https://gethopp.app/blog/latency-exploration)
+* [Patterns for Modeling Overlapping Variant Data in Rust](https://mcmah309.github.io/posts/patterns-for-modeling-overlapping-variant-data-in-rust/)
+* [Is Rust faster than C?](https://steveklabnik.com/writing/is-rust-faster-than-c/)
+* [video] [Introducing facet: Reflection for Rust](https://www.youtube.com/watch?v=0mqFCqw_XvI)
 
 ### Research
 
 ### Miscellaneous
+* [Getting A Read On Rust With Trainer, Consultant, and Author Herbert Wolverson](https://filtra.io/rust/interviews/ardan-jun-25)
+* [video] [Julian Hofer - Pixi: the missing companion to cargo](https://www.youtube.com/watch?v=Hso3TQx13b0)
 
 ## Crate of the Week
 
