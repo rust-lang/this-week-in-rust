@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Ratatui - Are We Embedded Yet? #2](https://jslazak.com/are-we-embedded-yet-2/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
