@@ -191,7 +191,22 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Mostly positive week, with a lot of improvements in the type system, especially in new solver and one big win in caching code. Regressions come from new warnings, with outsized impact on one benchmark with a lot of generated code.
+
+Triage done by **@panstromek**.
+Revision range: [2fc3deed..c31cccb7](https://perf.rust-lang.org/?start=2fc3deed9fcb8762ad57191e0195f06f7543e4a5&end=c31cccb7b5cc098b1a8c1794ed38d7fdbec0ccb0&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 3.1%  | [0.3%, 8.5%]    | 22    |
+| Regressions ❌ <br /> (secondary)  | 0.6%  | [0.2%, 0.9%]    | 3     |
+| Improvements ✅ <br /> (primary)   | -1.0% | [-3.4%, -0.2%]  | 151   |
+| Improvements ✅ <br /> (secondary) | -3.5% | [-66.5%, -0.2%] | 146   |
+| All ❌✅ (primary)                 | -0.4% | [-3.4%, 8.5%]   | 173   |
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/7a1e00ae0a30c783bdfa8e3c35e3b49ce88b58e9/triage/2025-06-09.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
