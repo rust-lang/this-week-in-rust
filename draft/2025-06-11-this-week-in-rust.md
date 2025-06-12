@@ -56,6 +56,7 @@ and just ask the editors to select the category.
 * [video playlist] [RustWeek 2025](https://www.youtube.com/playlist?list=PL8Q1w7Ff68DCEXiGidlM0DMn8ztjlUlez)
 
 ### Rust Walkthroughs
+* [Introduction to embedded development with Rust: Overview of the ecosystem](https://kerkour.com/introduction-to-embedded-development-with-rust)
 * [Achieving <100 ms Latency for Remote Control with WebRTC](https://gethopp.app/blog/latency-exploration)
 * [Patterns for Modeling Overlapping Variant Data in Rust](https://mcmah309.github.io/posts/patterns-for-modeling-overlapping-variant-data-in-rust/)
 * [Is Rust faster than C?](https://steveklabnik.com/writing/is-rust-faster-than-c/)
