@@ -68,6 +68,7 @@ and just ask the editors to select the category.
 * [Nine Rules for Scientific Libraries in Rust](https://medium.com/@carlmkadie/nine-rules-for-scientific-libraries-in-rust-6e5e33a6405b)
 
 * [Rust on a Diet](https://blog.veeso.dev/blog/en/rust-on-a-diet/)
+* [Rust vs Go: Which one to choose in 2025](https://blog.jetbrains.com/rust/2025/06/12/rust-vs-go/)
 
 ### Rust Walkthroughs
 * [Introduction to embedded development with Rust: Overview of the ecosystem](https://kerkour.com/introduction-to-embedded-development-with-rust)
