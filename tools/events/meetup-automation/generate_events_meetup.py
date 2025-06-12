@@ -4,8 +4,8 @@ import logging
 
 from jwt_auth import generate_signed_jwt
 from event import Event, RawGqlEvent
-from utils import MeetupGroupUrl
-from typing import List
+from utils import LocationOverride, MeetupGroupUrl
+from typing import List, Optional
 
 logger = logging.getLogger(__name__)
 
@@ -96,15 +96,27 @@ class TwirMeetupClient:
             }
         }
 
-    def _parse_event_listing_gql_response(self, response: dict) -> List[RawGqlEvent]:
+    def _parse_event_listing_gql_response(self, response: dict, location_override: Optional[LocationOverride]) -> List[RawGqlEvent]:
         edges = response["groupByUrlname"]["upcomingEvents"]["edges"]
 
         events = []
         # TODO: maybe move this validation somewhere else?
         for edge_kwargs in edges:
             if not edge_kwargs["node"]["venue"]:
-                logger.error(f"Event response missing venue: {edge_kwargs}")
-                continue
+                # for events where there's no venue in the response and we have a virtual override, inherit the location from the group here
+                # a bit gross but oh well
+                if location_override == LocationOverride.VIRTUAL:
+                    logger.info(f"Overriding location for event: {edge_kwargs}")
+                    venue = {}
+                    venue["city"] = edge_kwargs["node"]["group"]["city"]
+                    venue["state"] = edge_kwargs["node"]["group"]["state"]
+                    venue["country"] = edge_kwargs["node"]["group"]["country"]
+                    venue["venueType"] = "online"
+
+                    edge_kwargs["node"]["venue"] = venue
+                else:
+                    logger.error(f"Event response missing venue: {edge_kwargs}")
+                    continue
 
             events.append(RawGqlEvent(**edge_kwargs))
 
@@ -206,7 +218,7 @@ class TwirMeetupClient:
             "Content-Type": "application/json",
         }
 
-        logger.info(f"Fetching events for group {group}")
+        logger.debug(f"Fetching events for group {group}")
         query = self._build_event_listing_gql_query(group.url_name)
         response = requests.post(url=self.GQL_ENDPOINT, headers=headers, json=query)
         data = response.json()["data"]
@@ -216,5 +228,5 @@ class TwirMeetupClient:
             logger.error(f"Group {group} not valid, skipping")
             return []
 
-        return self._parse_event_listing_gql_response(data)
+        return self._parse_event_listing_gql_response(data, group.location_override)
 
