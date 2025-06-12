@@ -5,5 +5,5 @@ cryptography==44.0.1
 idna==3.10
 pycparser==2.22
 PyJWT==2.10.1
-requests==2.32.3
+requests==2.32.4
 urllib3==2.2.3
