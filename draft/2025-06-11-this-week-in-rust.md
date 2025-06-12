@@ -56,6 +56,8 @@ and just ask the editors to select the category.
 * [A plan for SIMD](https://linebender.org/blog/a-plan-for-simd/)
 * [When is a Rust function "unsafe"?](https://crescentro.se/posts/when-unsafe/)
 * [video playlist] [RustWeek 2025](https://www.youtube.com/playlist?list=PL8Q1w7Ff68DCEXiGidlM0DMn8ztjlUlez)
+* [audio] [What's New in Rust 1.79 and 1.80](https://rustacean-station.org/episode/rust-1.79-1.80/)
+* [audio] [Rust at Work with Ran Reichman Co-Founder and CEO of Flarion](https://rustacean-station.org/episode/ran-reichman/)
 
 ### Rust Walkthroughs
 * [Introduction to embedded development with Rust: Overview of the ecosystem](https://kerkour.com/introduction-to-embedded-development-with-rust)
