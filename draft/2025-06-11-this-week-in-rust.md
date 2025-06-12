@@ -76,6 +76,8 @@ and just ask the editors to select the category.
 * [Is Rust faster than C?](https://steveklabnik.com/writing/is-rust-faster-than-c/)
 * [video] [Introducing facet: Reflection for Rust](https://www.youtube.com/watch?v=0mqFCqw_XvI)
 
+* [video] [Combining Swift and Rust with UniFFI: Have Your Cake & Eat it Too](https://www.youtube.com/watch?v=DfSBBOlFTeE)
+
 ### Research
 
 * [Kernel Memory Safety: Mission Accomplished](https://asterinas.github.io/2025/06/04/kernel-memory-safety-mission-accomplished.html)
