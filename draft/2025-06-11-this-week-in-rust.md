@@ -34,10 +34,7 @@ and just ask the editors to select the category.
 
 
 ### Official
-
-- [A glance at Compiler Team Operations](https://blog.rust-lang.org/inside-rust/2025/06/05/a-glance-at-the-team-compiler-operations)
-
-### Foundation
+* [A glance at Compiler Team Operations](https://blog.rust-lang.org/inside-rust/2025/06/05/a-glance-at-the-team-compiler-operations)
 
 ### Newsletters
 * [The Embedded Rustacean Issue #47](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-47)
@@ -45,10 +42,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Are We Embedded Yet? #2](https://jslazak.com/are-we-embedded-yet-2/)
-
 * [Meilisearch 1.15 - new typo tolerance setting, comparison operators for string filters, and improved support for Chinese](https://www.meilisearch.com/blog/meilisearch-1-15)
-
-- [cctx: A Context Switcher for Claude Code](https://syu-m-5151.hatenablog.com/entry/2025/06/05/232126)
+* [cctx: A Context Switcher for Claude Code](https://syu-m-5151.hatenablog.com/entry/2025/06/05/232126)
 
 ### Observations/Thoughts
 * [Rewriting SymCrypt in Rust to modernize Microsoft’s cryptographic library](https://www.microsoft.com/en-us/research/blog/rewriting-symcrypt-in-rust-to-modernize-microsofts-cryptographic-library/)
@@ -61,14 +56,12 @@ and just ask the editors to select the category.
 * [Zero-cost Functional Records in Rust](https://ecency.com/rust-lang/@jonwolski/zero-cost-functional-records-in-rust)
 * [A plan for SIMD](https://linebender.org/blog/a-plan-for-simd/)
 * [When is a Rust function "unsafe"?](https://crescentro.se/posts/when-unsafe/)
-* [video playlist] [RustWeek 2025](https://www.youtube.com/playlist?list=PL8Q1w7Ff68DCEXiGidlM0DMn8ztjlUlez)
-* [audio] [What's New in Rust 1.79 and 1.80](https://rustacean-station.org/episode/rust-1.79-1.80/)
-* [audio] [Rust at Work with Ran Reichman Co-Founder and CEO of Flarion](https://rustacean-station.org/episode/ran-reichman/)
-
 * [Nine Rules for Scientific Libraries in Rust](https://medium.com/@carlmkadie/nine-rules-for-scientific-libraries-in-rust-6e5e33a6405b)
-
 * [Rust on a Diet](https://blog.veeso.dev/blog/en/rust-on-a-diet/)
 * [Rust vs Go: Which one to choose in 2025](https://blog.jetbrains.com/rust/2025/06/12/rust-vs-go/)
+* [audio] [What's New in Rust 1.79 and 1.80](https://rustacean-station.org/episode/rust-1.79-1.80/)
+* [audio] [Rust at Work with Ran Reichman Co-Founder and CEO of Flarion](https://rustacean-station.org/episode/ran-reichman/)
+* [video playlist] [RustWeek 2025](https://www.youtube.com/playlist?list=PL8Q1w7Ff68DCEXiGidlM0DMn8ztjlUlez)
 
 ### Rust Walkthroughs
 * [Introduction to embedded development with Rust: Overview of the ecosystem](https://kerkour.com/introduction-to-embedded-development-with-rust)
