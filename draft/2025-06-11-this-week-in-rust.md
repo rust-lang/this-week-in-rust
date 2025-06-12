@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 
 * [Meilisearch 1.15 - new typo tolerance setting, comparison operators for string filters, and improved support for Chinese](https://www.meilisearch.com/blog/meilisearch-1-15)
 
+- [cctx: A Context Switcher for Claude Code](https://syu-m-5151.hatenablog.com/entry/2025/06/05/232126)
+
 ### Observations/Thoughts
 * [Rewriting SymCrypt in Rust to modernize Microsoft’s cryptographic library](https://www.microsoft.com/en-us/research/blog/rewriting-symcrypt-in-rust-to-modernize-microsofts-cryptographic-library/)
 * [Why doesn’t Rust care more about compiler performance?](https://kobzol.github.io/rust/rustc/2025/06/09/why-doesnt-rust-care-more-about-compiler-performance.html)
