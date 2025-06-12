@@ -69,11 +69,9 @@ and just ask the editors to select the category.
 * [Patterns for Modeling Overlapping Variant Data in Rust](https://mcmah309.github.io/posts/patterns-for-modeling-overlapping-variant-data-in-rust/)
 * [Is Rust faster than C?](https://steveklabnik.com/writing/is-rust-faster-than-c/)
 * [video] [Introducing facet: Reflection for Rust](https://www.youtube.com/watch?v=0mqFCqw_XvI)
-
 * [video] [Combining Swift and Rust with UniFFI: Have Your Cake & Eat it Too](https://www.youtube.com/watch?v=DfSBBOlFTeE)
 
 ### Research
-
 * [Kernel Memory Safety: Mission Accomplished](https://asterinas.github.io/2025/06/04/kernel-memory-safety-mission-accomplished.html)
 
 ### Miscellaneous
@@ -420,7 +418,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1knkfb6/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -436,4 +434,4 @@ Thanks to [robin](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1696)
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1l9vp64/this_week_in_rust_603/)</small>
