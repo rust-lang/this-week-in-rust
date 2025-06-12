@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [Rust Trends Issue #66](https://rust-trends.com/newsletter/rust-rewinded-debug-smarter-build-faster/)
 
 ### Project/Tooling Updates
 * [Are We Embedded Yet? #2](https://jslazak.com/are-we-embedded-yet-2/)
