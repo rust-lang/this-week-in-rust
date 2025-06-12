@@ -76,6 +76,8 @@ and just ask the editors to select the category.
 
 ### Research
 
+* [Kernel Memory Safety: Mission Accomplished](https://asterinas.github.io/2025/06/04/kernel-memory-safety-mission-accomplished.html)
+
 ### Miscellaneous
 * [Getting A Read On Rust With Trainer, Consultant, and Author Herbert Wolverson](https://filtra.io/rust/interviews/ardan-jun-25)
 * [video] [Julian Hofer - Pixi: the missing companion to cargo](https://www.youtube.com/watch?v=Hso3TQx13b0)
