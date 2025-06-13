@@ -34,10 +34,7 @@ and just ask the editors to select the category.
 
 
 ### Official
-
-- [A glance at Compiler Team Operations](https://blog.rust-lang.org/inside-rust/2025/06/05/a-glance-at-the-team-compiler-operations)
-
-### Foundation
+* [A glance at Compiler Team Operations](https://blog.rust-lang.org/inside-rust/2025/06/05/a-glance-at-the-team-compiler-operations)
 
 ### Newsletters
 * [The Embedded Rustacean Issue #47](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-47)
@@ -45,10 +42,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Are We Embedded Yet? #2](https://jslazak.com/are-we-embedded-yet-2/)
-
 * [Meilisearch 1.15 - new typo tolerance setting, comparison operators for string filters, and improved support for Chinese](https://www.meilisearch.com/blog/meilisearch-1-15)
-
-- [cctx: A Context Switcher for Claude Code](https://syu-m-5151.hatenablog.com/entry/2025/06/05/232126)
+* [cctx: A Context Switcher for Claude Code](https://syu-m-5151.hatenablog.com/entry/2025/06/05/232126)
 
 ### Observations/Thoughts
 * [Rewriting SymCrypt in Rust to modernize Microsoft’s cryptographic library](https://www.microsoft.com/en-us/research/blog/rewriting-symcrypt-in-rust-to-modernize-microsofts-cryptographic-library/)
@@ -61,14 +56,12 @@ and just ask the editors to select the category.
 * [Zero-cost Functional Records in Rust](https://ecency.com/rust-lang/@jonwolski/zero-cost-functional-records-in-rust)
 * [A plan for SIMD](https://linebender.org/blog/a-plan-for-simd/)
 * [When is a Rust function "unsafe"?](https://crescentro.se/posts/when-unsafe/)
-* [video playlist] [RustWeek 2025](https://www.youtube.com/playlist?list=PL8Q1w7Ff68DCEXiGidlM0DMn8ztjlUlez)
-* [audio] [What's New in Rust 1.79 and 1.80](https://rustacean-station.org/episode/rust-1.79-1.80/)
-* [audio] [Rust at Work with Ran Reichman Co-Founder and CEO of Flarion](https://rustacean-station.org/episode/ran-reichman/)
-
 * [Nine Rules for Scientific Libraries in Rust](https://medium.com/@carlmkadie/nine-rules-for-scientific-libraries-in-rust-6e5e33a6405b)
-
 * [Rust on a Diet](https://blog.veeso.dev/blog/en/rust-on-a-diet/)
 * [Rust vs Go: Which one to choose in 2025](https://blog.jetbrains.com/rust/2025/06/12/rust-vs-go/)
+* [audio] [What's New in Rust 1.79 and 1.80](https://rustacean-station.org/episode/rust-1.79-1.80/)
+* [audio] [Rust at Work with Ran Reichman Co-Founder and CEO of Flarion](https://rustacean-station.org/episode/ran-reichman/)
+* [video playlist] [RustWeek 2025](https://www.youtube.com/playlist?list=PL8Q1w7Ff68DCEXiGidlM0DMn8ztjlUlez)
 
 ### Rust Walkthroughs
 * [Introduction to embedded development with Rust: Overview of the ecosystem](https://kerkour.com/introduction-to-embedded-development-with-rust)
@@ -76,11 +69,9 @@ and just ask the editors to select the category.
 * [Patterns for Modeling Overlapping Variant Data in Rust](https://mcmah309.github.io/posts/patterns-for-modeling-overlapping-variant-data-in-rust/)
 * [Is Rust faster than C?](https://steveklabnik.com/writing/is-rust-faster-than-c/)
 * [video] [Introducing facet: Reflection for Rust](https://www.youtube.com/watch?v=0mqFCqw_XvI)
-
 * [video] [Combining Swift and Rust with UniFFI: Have Your Cake & Eat it Too](https://www.youtube.com/watch?v=DfSBBOlFTeE)
 
 ### Research
-
 * [Kernel Memory Safety: Mission Accomplished](https://asterinas.github.io/2025/06/04/kernel-memory-safety-mission-accomplished.html)
 
 ### Miscellaneous
@@ -427,7 +418,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1knkfb6/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -443,4 +434,4 @@ Thanks to [robin](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1696)
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1l9vp64/this_week_in_rust_603/)</small>
