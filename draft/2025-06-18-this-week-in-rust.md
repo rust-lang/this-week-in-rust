@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [audio] [AccessKit with Matt Campbell and Arnold Loubriat](https://rustacean-station.org/episode/accesskit-with-matt-campbell-and-arnold-loubriat/)
+* [audio] [SWC with DongYoon Kang](https://rustacean-station.org/episode/dongyoon-kang/)
 
 ### Rust Walkthroughs
 
