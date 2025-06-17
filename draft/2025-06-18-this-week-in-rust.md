@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [bzip2 crate switches from C to 100% rust](https://trifectatech.org/blog/bzip2-crate-switches-from-c-to-rust/)
 
 ## Crate of the Week
 
