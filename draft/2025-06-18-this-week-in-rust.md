@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Slint 1.12 Released with WGPU Support, iOS Port, and Figma Variables Integration](https://slint.dev/blog/slint-1.12-released)
 * [Glues v0.7.0 – TUI Note-Taking App with a New Theme Engine & Color Palettes](https://github.com/gluesql/glues/releases/tag/v0.7.0)
 
 ### Observations/Thoughts
