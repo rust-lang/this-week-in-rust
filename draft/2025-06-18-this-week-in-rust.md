@@ -34,11 +34,15 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Rust Compiler Performance Survey 2025](https://blog.rust-lang.org/2025/06/16/rust-compiler-performance-survey-2025/)
+
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Slint 1.12 Released with WGPU Support, iOS Port, and Figma Variables Integration](https://slint.dev/blog/slint-1.12-released)
+* [Glues v0.7.0 – TUI Note-Taking App with a New Theme Engine & Color Palettes](https://github.com/gluesql/glues/releases/tag/v0.7.0)
 
 ### Observations/Thoughts
 
@@ -48,6 +52,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [bzip2 crate switches from C to 100% rust](https://trifectatech.org/blog/bzip2-crate-switches-from-c-to-rust/)
+* [May 2025 Jobs Report](https://filtra.io/rust/jobs-report/may-25)
 
 ## Crate of the Week
 
