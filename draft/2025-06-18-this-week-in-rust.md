@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [RobustMQ](https://github.com/robustmq/robustmq), a next-generation, high-performance, multi-protocol message queue.
+
+Thanks to [Yu Liu](https://users.rust-lang.org/t/crate-of-the-week/2704/1443) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -104,7 +106,86 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+461 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-06-10..2025-06-17
+
+#### Compiler
+
+* [cache `param_env` canonicalization](https://github.com/rust-lang/rust/pull/141451)
+* [early linting: avoid redundant calls to `check_id`](https://github.com/rust-lang/rust/pull/142398)
+* [move fast reject into inner](https://github.com/rust-lang/rust/pull/142355)
+* [use `MixedBitSet` for borrows-in-scope dataflow analysis](https://github.com/rust-lang/rust/pull/142471)
+* [miri: add flag to suppress float non-determinism](https://github.com/rust-lang/rust/pull/142337)
+* [miri: we can use apfloat's `mul_add` now](https://github.com/rust-lang/rust/pull/142340)
+
+#### Library
+
+* [stabilize `"file_lock"` feature](https://github.com/rust-lang/rust/pull/142125)
+* [stabilize keylocker](https://github.com/rust-lang/rust/pull/140766)
+* [add `Vec::peek_mut`](https://github.com/rust-lang/rust/pull/142046)
+* [added `Clone` implementation for `ChunkBy`](https://github.com/rust-lang/rust/pull/138016)
+* [faster `fmt::Display` of 128-bit integers, without unsafe pointer](https://github.com/rust-lang/rust/pull/136594)
+* [add `bit_width` for unsigned integer types](https://github.com/rust-lang/rust/pull/142328)
+* [remove unneeded lifetime bound from signature of `BTreeSet::extract_if`](https://github.com/rust-lang/rust/pull/142484)
+
+#### Cargo
+
+* [add custom completer for `cargo remove <TAB>`](https://github.com/rust-lang/cargo/pull/15662)
+* [highlight the correct words](https://github.com/rust-lang/cargo/pull/15659)
+* [refactor: replace InternedString with Cow in IndexPackage](https://github.com/rust-lang/cargo/pull/15559)
+
+#### Rustdoc
+
+* [Give more information into extracted doctest information](https://github.com/rust-lang/rust/pull/141399)
+* [rustdoc\_json: reduce allocations](https://github.com/rust-lang/rust/pull/142335)
+
+#### Rustfmt
+
+* [don't try to repair invalid self-imports](https://github.com/rust-lang/rustfmt/pull/6573)
+
+#### Clippy
+
+* [Optimize 3rd heaviest func, (81b → 10m)](https://github.com/rust-lang/rust-clippy/pull/15043)
+* [add lint for broken doc links](https://github.com/rust-lang/rust-clippy/pull/13696)
+* [docs: add link to `span_lint` in diagnostics.rs](https://github.com/rust-lang/rust-clippy/pull/15065)
+* [docs: make `unbuffered_bytes` docs more consistent](https://github.com/rust-lang/rust-clippy/pull/15019)
+* [fix FP of `identity_op` when encountering `Default::default()`](https://github.com/rust-lang/rust-clippy/pull/15028)
+* [fix `collapsible_else_if` FP on conditionally compiled stmt](https://github.com/rust-lang/rust-clippy/pull/14906)
+* [fix `needless_doctest_main` panic when doctest is invalid](https://github.com/rust-lang/rust-clippy/pull/15052)
+* [fix `unit_arg` suggests wrongly for `Default::default`](https://github.com/rust-lang/rust-clippy/pull/14881)
+* [fix suggestion-causes-error of `manual_swap`](https://github.com/rust-lang/rust-clippy/pull/14978)
+* [fixes `manual_flatten` removes the useless if let](https://github.com/rust-lang/rust-clippy/pull/14861)
+* [remove `ClippyCtfe` pass](https://github.com/rust-lang/rust-clippy/pull/14712)
+* [remove unneeded lifetime](https://github.com/rust-lang/rust-clippy/pull/15040)
+
+ #### Rust-Analyzer
+
+* [`ItemTree`'s `ItemVisibilities` has no identity, so deduplicate](https://github.com/rust-lang/rust-analyzer/pull/19980)
+* [add support for excluding imports from symbol search](https://github.com/rust-lang/rust-analyzer/pull/19996)
+* [cleanup incremental tests and verify query executions](https://github.com/rust-lang/rust-analyzer/pull/20006)
+* [add the quickfix for increasing visibility of a private field to the private-field diagnostic](https://github.com/rust-lang/rust-analyzer/pull/19945)
+* [in "Fill match arms", allow users to prefer `Self` to the `enum` name when possible](https://github.com/rust-lang/rust-analyzer/pull/19939)
+* [insert required parentheses when typing `+` in dyn trait type](https://github.com/rust-lang/rust-analyzer/pull/20015)
+* [show what cargo metadata is doing in status](https://github.com/rust-lang/rust-analyzer/pull/20014)
+* [copy lockfiles into target directory before invoking `cargo metadata`](https://github.com/rust-lang/rust-analyzer/pull/20018)
+* [do not force descend into derives for goto IDE features](https://github.com/rust-lang/rust-analyzer/pull/19981)
+* [fix comparison of proc macros](https://github.com/rust-lang/rust-analyzer/pull/19983)
+* [fix completion with some attribute macros](https://github.com/rust-lang/rust-analyzer/pull/19942)
+* [fix proc macro server handling of strings with minuses](https://github.com/rust-lang/rust-analyzer/pull/19970)
+* [hide dyn inlay hints for incomplete `impl`s](https://github.com/rust-lang/rust-analyzer/pull/19973)
+* [never make type mismatch diagnostic stable, even when there is a fix](https://github.com/rust-lang/rust-analyzer/pull/20022)
+* [reload workspaces when cargo configs change](https://github.com/rust-lang/rust-analyzer/pull/20020)
+* [support spans with proc macro servers from before the ast id changes](https://github.com/rust-lang/rust-analyzer/pull/19985)
+* [generate annotations for macro defined items if their name is in the input](https://github.com/rust-lang/rust-analyzer/pull/19990)
+* [idiomatic salsa use for `enum` variants query](https://github.com/rust-lang/rust-analyzer/pull/20007)
+* [improve completions in if / while expression conditions](https://github.com/rust-lang/rust-analyzer/pull/20023)
+* [optimize `pub(crate)` and `pub(self)` visibility resolution](https://github.com/rust-lang/rust-analyzer/pull/20009)
+* [perf: bring back `EMPTY` item tree deduplication](https://github.com/rust-lang/rust-analyzer/pull/19991)
+* [provide better incrementality when items are changed](https://github.com/rust-lang/rust-analyzer/pull/19837)
+* [simplify and optimize `ItemTree`](https://github.com/rust-lang/rust-analyzer/pull/19982)
+* [turn `BlockId` into a `#[salsa::tracked]`](https://github.com/rust-lang/rust-analyzer/pull/19995)
+* [use `ThinVec` in `ItemScope` in a couple places](https://github.com/rust-lang/rust-analyzer/pull/19992)
 
 ### Rust Compiler Performance Triage
 
@@ -309,7 +390,15 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+
+
+> But after a few weeks, it compiled and the results surprised us. The code was 10x faster than our carefully tuned Kotlin implementation – despite no attempt to make it faster. To put this in perspective, we had spent years incrementally improving the Kotlin version from 2,000 to 3,000 transactions per second (TPS). The Rust version, written by Java developers who were new to the language, clocked 30,000 TPS.
+>
+> This was one of those moments that fundamentally shifts your thinking. Suddenly, the couple of weeks spent learning Rust no longer looked like a big deal, when compared with how long it’d have taken us to get the same results on the JVM. We stopped asking, “Should we be using Rust?” and started asking “Where else could Rust help us solve our problems?”
+
+– [Dr. Werner Vogels on his blog](https://www.allthingsdistributed.com/2025/05/just-make-it-scale-an-aurora-dsql-story.html)
+
+Thanks to [Brian Kung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1697) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
