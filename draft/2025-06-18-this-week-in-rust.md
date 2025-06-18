@@ -1,6 +1,7 @@
 Title: This Week in Rust 604
 Number: 604
 Date: 2025-06-18
+
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -45,6 +46,8 @@ and just ask the editors to select the category.
 * [Glues v0.7.0 – TUI Note-Taking App with a New Theme Engine & Color Palettes](https://github.com/gluesql/glues/releases/tag/v0.7.0)
 
 ### Observations/Thoughts
+
+* [Don't you dare to sort your struct fields when using ?Sized](https://blog.veeso.dev/blog/en/dont-you-dare-to-sort-your-struct-fields-when-using-sized/)
 
 ### Rust Walkthroughs
 
