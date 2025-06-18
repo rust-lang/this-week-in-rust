@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [bzip2 crate switches from C to 100% rust](https://trifectatech.org/blog/bzip2-crate-switches-from-c-to-rust/)
 * [May 2025 Jobs Report](https://filtra.io/rust/jobs-report/may-25)
+* [Rust social status update 2025.06](https://rust.code-maven.com/rust-update-2025-06-17)
 
 ## Crate of the Week
 
