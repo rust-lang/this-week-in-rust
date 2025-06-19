@@ -74,6 +74,7 @@ and just ask the editors to select the category.
 * [Making GNOME’s GdkPixbuf Image Loading Safer](https://blogs.gnome.org/sophieh/2025/06/13/making-gnomes-gdkpixbuf-image-loading-safer/)
 * [May 2025 Jobs Report](https://filtra.io/rust/jobs-report/may-25)
 * [Rust social status update 2025.06](https://rust.code-maven.com/rust-update-2025-06-17)
+* [How Rolldown Works: Symbol Linking, CJS/ESM Resolution, and Export Analysis Explained](https://www.atriiy.dev/blog/rolldown-link-stage-symbol-linking-resolution)
 
 ## Crate of the Week
 
