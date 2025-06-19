@@ -73,6 +73,7 @@ and just ask the editors to select the category.
 ### Miscellaneous
 * [Making GNOME’s GdkPixbuf Image Loading Safer](https://blogs.gnome.org/sophieh/2025/06/13/making-gnomes-gdkpixbuf-image-loading-safer/)
 * [May 2025 Jobs Report](https://filtra.io/rust/jobs-report/may-25)
+* [Rust social status update 2025.06](https://rust.code-maven.com/rust-update-2025-06-17)
 
 ## Crate of the Week
 
