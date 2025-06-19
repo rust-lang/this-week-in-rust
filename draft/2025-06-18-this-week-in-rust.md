@@ -1,6 +1,7 @@
 Title: This Week in Rust 604
 Number: 604
 Date: 2025-06-18
+
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -58,6 +59,8 @@ and just ask the editors to select the category.
 * [video] [10th Bevy Meetup - Tristan - From zero to demo: a newcomer's experience learning Bevy](https://www.youtube.com/watch?v=_FIDuLV0ZsA)
 * [audio] [Tembo with Adam Hendel](https://corrode.dev/podcast/s04e05-tembo/)
 * [audio] [Rust at Work - conversation with Eli Shalom and Igal Tabachnik of Eureka Labs](https://rustacean-station.org/episode/eli-shalom-and-igal-tabachnik/)
+
+* [Don't you dare to sort your struct fields when using ?Sized](https://blog.veeso.dev/blog/en/dont-you-dare-to-sort-your-struct-fields-when-using-sized/)
 
 ### Rust Walkthroughs
 * [Putting seat calculations in Dutch election software to the (fuzz) test](https://tweedegolf.nl/en/blog/156/putting-seat-calculations-in-dutch-election-software-to-the-fuzz-test)
