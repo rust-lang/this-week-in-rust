@@ -54,13 +54,12 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 * [retrobootstrapping rust for some reason](https://graydon2.dreamwidth.org/317484.html)
 * [The plight of the misunderstood memory ordering](https://www.grayolson.me/blog/posts/misunderstood-memory-ordering/)
+* [Don't you dare to sort your struct fields when using ?Sized](https://blog.veeso.dev/blog/en/dont-you-dare-to-sort-your-struct-fields-when-using-sized/)
+* [audio] [Tembo with Adam Hendel](https://corrode.dev/podcast/s04e05-tembo/)
+* [audio] [Rust at Work - conversation with Eli Shalom and Igal Tabachnik of Eureka Labs](https://rustacean-station.org/episode/eli-shalom-and-igal-tabachnik/)
 * [video] [sans-io: meh](https://sdr-podcast.com/episodes/sans-io/)
 * [video] [Guillaume Gomez - Rustdoc as a case study of developer tooling](https://timclicks.dev/podcast/guillaume-gomez-rustdoc)
 * [video] [10th Bevy Meetup - Tristan - From zero to demo: a newcomer's experience learning Bevy](https://www.youtube.com/watch?v=_FIDuLV0ZsA)
-* [audio] [Tembo with Adam Hendel](https://corrode.dev/podcast/s04e05-tembo/)
-* [audio] [Rust at Work - conversation with Eli Shalom and Igal Tabachnik of Eureka Labs](https://rustacean-station.org/episode/eli-shalom-and-igal-tabachnik/)
-
-* [Don't you dare to sort your struct fields when using ?Sized](https://blog.veeso.dev/blog/en/dont-you-dare-to-sort-your-struct-fields-when-using-sized/)
 
 ### Rust Walkthroughs
 * [Putting seat calculations in Dutch election software to the (fuzz) test](https://tweedegolf.nl/en/blog/156/putting-seat-calculations-in-dutch-election-software-to-the-fuzz-test)
@@ -431,7 +430,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1knkfb6/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -451,4 +450,4 @@ Thanks to [Brian Kung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://this-week-in-rust.org/blog/2025/06/19/this-week-in-rust-604/)</small>
