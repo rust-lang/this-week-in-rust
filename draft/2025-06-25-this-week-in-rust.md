@@ -33,6 +33,7 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing the Clippy feature freeze](https://blog.rust-lang.org/inside-rust/2025/06/21/announcing-the-clippy-feature-freeze/)
 
 ### Foundation
 
@@ -40,11 +41,24 @@ and just ask the editors to select the category.
 * [Rust Trends Issue #67](https://rust-trends.com/newsletter/untangling-rust-errors-the-bzip2-rewrite/)
 
 ### Project/Tooling Updates
+* [Tantivy 0.24](https://quickwit.io/blog/tantivy-0.24)
 * [GlueSQL v0.17.0 - Added redb storage support](https://github.com/gluesql/gluesql/releases/tag/v0.17.0)
 
 ### Observations/Thoughts
+* [The Unreasonable Effectiveness of Fuzzing for Porting Programs](https://rjp.io/blog/2025-06-17-unreasonable-effectiveness-of-fuzzing)
+* [So you want to serialize some DER?](https://alexgaynor.net/2025/jun/20/serialize-some-der/)
+* [Why I Switched from Flutter + Rust to Rust + egui](https://jdiaz97.github.io/greenblog/posts/flutter_to_egui/)
+* [Weird expressions in rust](https://www.wakunguma.com/blog/rust-weird-expr)
+* [Migrating off legacy Tokio at scale](https://www.okta.com/blog/2024/11/migrating-off-legacy-tokio-at-scale/)
+* [Driving the Rust Compiler to Compile Single Files as Shellcode](https://kirchware.com/Driving-the-Rust-Compiler-to-Compile-Single-Files-as-Shellcode)
+* [Counter Service: How we rewrote it in Rust](https://engineering.grab.com/counter-service-how-we-rewrote-it-in-rust)
+* [Defending Democracies With Rust](https://filtra.io/rust/interviews/helsing-jun-25)
 
 ### Rust Walkthroughs
+* [Porting GPU shaders to Rust 30x faster with AI](https://rust-gpu.github.io/blog/2025/06/24/vulkan-shader-port/)
+* [Bitwise DNA Compression in Rust: Small Footprint with Fast Reverse Complements](https://arianfarid.me/articles/dna-compression.html)
+* [Writing a basic Linux device driver when you know nothing about Linux drivers or USB](https://crescentro.se/posts/writing-drivers/)
+* [Rewriting Kafka in Rust Async: Insights and Lessons Learned in Rust](https://wangjunfei.com/2025/06/18/Rewriting-Kafka-in-Rust-Async-Insights-and-Lessons-Learned/)
 
 ### Research
 
@@ -238,7 +252,7 @@ Rusty Events between 2025-06-25 - 2025-07-23 🦀
     * [**Rust Manchester June Code Night**](https://www.meetup.com/rust-manchester/events/307919158)
 * 2025-06-25 | London, UK | [London Rust Project Group](https://www.meetup.com/london-rust-project-group)
     * [**Lessons learnt from making a tiny game in nostd Rust**](https://www.meetup.com/london-rust-project-group/events/306809962)
-* 2025-06-25 | Paris, FR | [Systematic Paris Region](https://systematic-paris-region.org/)   
+* 2025-06-25 | Paris, FR | [Systematic Paris Region](https://systematic-paris-region.org/)
     * [**Rust Paris Conference 2025**](https://my.weezevent.com/rust-paris-2025)
 * 2025-06-26 | Barcelona, ES | [BcnRust](https://www.meetup.com/bcnrust/events/)
     * [**18th BcnRust Meetup**](https://www.meetup.com/bcnrust/events/308399403)
