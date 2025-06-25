@@ -52,7 +52,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [primitive\_fixed\_point\_decimal](https://docs.rs/primitive_fixed_point_decimal), a crate of *real* fixed-point decimal types.
+
+Thanks to [Wu Bingzheng](https://users.rust-lang.org/t/crate-of-the-week/2704/1445) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -115,7 +117,66 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+448 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-06-17..2025-06-24
+
+#### Compiler
+* [perf: Cache the canonical *instantiation* of param-envs](https://github.com/rust-lang/rust/pull/142316)
+* [asyncDrop trait without sync Drop generates an error](https://github.com/rust-lang/rust/pull/142606)
+* [stabilize `generic_arg_infer`](https://github.com/rust-lang/rust/pull/141610)
+* [skip no-op drop glue](https://github.com/rust-lang/rust/pull/142508)
+
+#### Library
+* [add `trim_prefix` and `trim_suffix` methods for both `slice` and `str` types](https://github.com/rust-lang/rust/pull/142331)
+* [allow comparisons between `CStr`, CString`, and Cow<CStr>`](https://github.com/rust-lang/rust/pull/137268)
+* [allow storing `format_args!()` in variable](https://github.com/rust-lang/rust/pull/140748)
+* [impl `Default` for `array::IntoIter`](https://github.com/rust-lang/rust/pull/141574)
+* [change `core::iter::Fuse`'s `Default` impl to do what its docs say it does](https://github.com/rust-lang/rust/pull/140985)
+* [let String pass `#[track_caller]` to its Vec calls](https://github.com/rust-lang/rust/pull/142728)
+* [safer implementation of RepeatN](https://github.com/rust-lang/rust/pull/130887)
+* [use a distinct `ToString` implementation for `u128` and `i128`](https://github.com/rust-lang/rust/pull/142294)
+
+#### Cargo
+* [cargo: `feat(toml)`: Parse support for multiple build scripts](https://github.com/rust-lang/cargo/pull/15630)
+* [cargo: feat: introduce perma unstable `--compile-time-deps` option for `cargo build`](https://github.com/rust-lang/cargo/pull/15674)
+* [cargo: fix potential deadlock in `CacheState::lock`](https://github.com/rust-lang/cargo/pull/15698)
+
+#### Rustdoc
+* [avoid a few more allocations in `write_shared.rs`](https://github.com/rust-lang/rust/pull/142667)
+* [rustdoc-json: keep empty generic args if parenthesized](https://github.com/rust-lang/rust/pull/142932)
+* [rustdoc: make srcIndex no longer a global variable](https://github.com/rust-lang/rust/pull/142100)
+
+#### Clippy
+* [use jemalloc for Clippy](https://github.com/rust-lang/rust/pull/142286)
+* [perf: Don't spawn so many compilers (3/2) (19m → 250k)](https://github.com/rust-lang/rust-clippy/pull/15030)
+* [`Sugg`: do not parenthesize a double unary operator](https://github.com/rust-lang/rust-clippy/pull/14983)
+* [`or_fun_call`: lint more methods](https://github.com/rust-lang/rust-clippy/pull/15071)
+* [add missing space when expanding a struct-like variant](https://github.com/rust-lang/rust-clippy/pull/15096)
+* [check MSRV before suggesting applying `const` to a function](https://github.com/rust-lang/rust-clippy/pull/15080)
+* [emit lint about redundant closure on the closure node itself](https://github.com/rust-lang/rust-clippy/pull/14791)
+* [fix `branches_sharing_code` suggests misleadingly when in assignment](https://github.com/rust-lang/rust-clippy/pull/15076)
+* [fix `clippy::question_mark` on let-else with cfg](https://github.com/rust-lang/rust-clippy/pull/15082)
+* [fix `exhaustive_structs` false positive on structs with default valued field](https://github.com/rust-lang/rust-clippy/pull/15022)
+* [fix `manual_ok_err` suggests wrongly with references](https://github.com/rust-lang/rust-clippy/pull/15053)
+* [fix `non_copy_const` ICE](https://github.com/rust-lang/rust-clippy/pull/15083)
+* [fix `wildcard_enum_match_arm` suggests wrongly with raw identifiers](https://github.com/rust-lang/rust-clippy/pull/15093)
+* [fix false positive of `borrow_deref_ref`](https://github.com/rust-lang/rust-clippy/pull/14967)
+* [fix suggestion-causes-error of `empty_line_after_outer_attr`](https://github.com/rust-lang/rust-clippy/pull/15078)
+* [new lint: `manual_is_multiple_of`](https://github.com/rust-lang/rust-clippy/pull/14292)
+
+#### Rust-Analyzer
+* [rust-analyzer: add `fn parent(self, db) → GenericDef` to `hir::TypeParam`](https://github.com/rust-lang/rust-analyzer/pull/20046)
+* [rust-analyzer: cleanup `folding_ranges` and support more things](https://github.com/rust-lang/rust-analyzer/pull/20080)
+* [rust-analyzer: do not default to 'static for trait object lifetimes](https://github.com/rust-lang/rust-analyzer/pull/20036)
+* [rust-analyzer: closure capturing for let exprs](https://github.com/rust-lang/rust-analyzer/pull/20039)
+* [rust-analyzer: fix cargo project manifest not pointing to the workspace root](https://github.com/rust-lang/rust-analyzer/pull/20069)
+* [rust-analyzer: in "Wrap return type" assist, don't wrap exit points if they already have the right type](https://github.com/rust-lang/rust-analyzer/pull/20061)
+* [rust-analyzer: respect `.cargo/config.toml build.target-dir`](https://github.com/rust-lang/rust-analyzer/pull/20072)
+* [rust-analyzer: temporarily disable `+` typing handler as it moves the cursor position](https://github.com/rust-lang/rust-analyzer/pull/20042)
+* [rust-analyzer: use `ROOT` hygiene for `args` inside new `format_args!` expansion](https://github.com/rust-lang/rust-analyzer/pull/20073)
+* [rust-analyzer: hide imported privates if private editable is disabled](https://github.com/rust-lang/rust-analyzer/pull/20025)
+* [rust-analyzer: mimic rustc's new `format_args!` expansion](https://github.com/rust-lang/rust-analyzer/pull/20056)
 
 ### Rust Compiler Performance Triage
 
@@ -334,7 +395,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Our experience is that no matter how many safeguards you put on code, there’s no cure-all that prevents bad programming. Of course, to take the contrary argument, seat belts don’t stop all traffic fatalities, but you could just choose not to have accidents. So we do have seat belts. If Rust can prevent some mistakes or malicious intent, maybe it’s worth it even if it isn’t perfect.
+
+– [Al Williams on hackaday](https://hackaday.com/2025/06/21/if-your-kernel-development-is-a-little-rusty/)
+
+Thanks to [Kill The Mule](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1700) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
