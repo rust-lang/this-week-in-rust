@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [The Complete Rust Security Handbook](https://yevh.github.io/rust-security-handbook/) – 10-chapter guide to type-safety, panic-proofing, overflow traps & Web3 security.
+
 ### Research
 
 ### Miscellaneous
