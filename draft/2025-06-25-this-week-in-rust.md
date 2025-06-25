@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 * [GlueSQL v0.17.0 - Added redb storage support](https://github.com/gluesql/gluesql/releases/tag/v0.17.0)
 
 ### Observations/Thoughts
+* [Rust: A language that grows with you, your career and your projects](https://kerkour.com/rust-grows-with-you)
 
 ### Rust Walkthroughs
 
