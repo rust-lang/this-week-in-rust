@@ -54,7 +54,6 @@ and just ask the editors to select the category.
 * [Driving the Rust Compiler to Compile Single Files as Shellcode](https://kirchware.com/Driving-the-Rust-Compiler-to-Compile-Single-Files-as-Shellcode)
 * [Counter Service: How we rewrote it in Rust](https://engineering.grab.com/counter-service-how-we-rewrote-it-in-rust)
 * [Defending Democracies With Rust](https://filtra.io/rust/interviews/helsing-jun-25)
-
 * [video playlist] [Scientific Computing in Rust 2025](https://www.youtube.com/watch?v=XyXMKuclTcQ&list=PLrueqeouhcZNRW7H26DfscFjGSf0Pzd8c)
 
 ### Rust Walkthroughs
@@ -66,7 +65,6 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-* [Defending Democracies With Rust](https://filtra.io/rust/interviews/helsing-jun-25)
 
 ## Crate of the Week
 
