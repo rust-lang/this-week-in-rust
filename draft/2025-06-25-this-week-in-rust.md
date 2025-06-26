@@ -35,8 +35,6 @@ and just ask the editors to select the category.
 ### Official
 * [Announcing the Clippy feature freeze](https://blog.rust-lang.org/inside-rust/2025/06/21/announcing-the-clippy-feature-freeze/)
 
-### Foundation
-
 ### Newsletters
 * [Rust Trends Issue #67](https://rust-trends.com/newsletter/untangling-rust-errors-the-bzip2-rewrite/)
 
@@ -46,9 +44,6 @@ and just ask the editors to select the category.
 * [GlueSQL v0.17.0 - Added redb storage support](https://github.com/gluesql/gluesql/releases/tag/v0.17.0)
 
 ### Observations/Thoughts
-<<<<<<< patch-15
-* [Rust: A language that grows with you, your career and your projects](https://kerkour.com/rust-grows-with-you)
-=======
 * [The Unreasonable Effectiveness of Fuzzing for Porting Programs](https://rjp.io/blog/2025-06-17-unreasonable-effectiveness-of-fuzzing)
 * [So you want to serialize some DER?](https://alexgaynor.net/2025/jun/20/serialize-some-der/)
 * [Why I Switched from Flutter + Rust to Rust + egui](https://jdiaz97.github.io/greenblog/posts/flutter_to_egui/)
@@ -57,20 +52,15 @@ and just ask the editors to select the category.
 * [Driving the Rust Compiler to Compile Single Files as Shellcode](https://kirchware.com/Driving-the-Rust-Compiler-to-Compile-Single-Files-as-Shellcode)
 * [Counter Service: How we rewrote it in Rust](https://engineering.grab.com/counter-service-how-we-rewrote-it-in-rust)
 * [Defending Democracies With Rust](https://filtra.io/rust/interviews/helsing-jun-25)
+* [Rust: A language that grows with you, your career and your projects](https://kerkour.com/rust-grows-with-you)
 * [video playlist] [Scientific Computing in Rust 2025](https://www.youtube.com/watch?v=XyXMKuclTcQ&list=PLrueqeouhcZNRW7H26DfscFjGSf0Pzd8c)
->>>>>>> master
 
 ### Rust Walkthroughs
 * [Porting GPU shaders to Rust 30x faster with AI](https://rust-gpu.github.io/blog/2025/06/24/vulkan-shader-port/)
 * [Bitwise DNA Compression in Rust: Small Footprint with Fast Reverse Complements](https://arianfarid.me/articles/dna-compression.html)
 * [Writing a basic Linux device driver when you know nothing about Linux drivers or USB](https://crescentro.se/posts/writing-drivers/)
 * [Rewriting Kafka in Rust Async: Insights and Lessons Learned in Rust](https://wangjunfei.com/2025/06/18/Rewriting-Kafka-in-Rust-Async-Insights-and-Lessons-Learned/)
-
 * [The Complete Rust Security Handbook](https://yevh.github.io/rust-security-handbook/)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -134,6 +124,7 @@ Are you a new or experienced speaker looking for a place to share something cool
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+*No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -402,7 +393,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1knkfb6/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -418,4 +409,4 @@ Thanks to [Kill The Mule](https://users.rust-lang.org/t/twir-quote-of-the-week/3
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1lknjc1/this_week_in_rust_605/)</small>
