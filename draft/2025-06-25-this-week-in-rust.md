@@ -62,6 +62,8 @@ and just ask the editors to select the category.
 * [Writing a basic Linux device driver when you know nothing about Linux drivers or USB](https://crescentro.se/posts/writing-drivers/)
 * [Rewriting Kafka in Rust Async: Insights and Lessons Learned in Rust](https://wangjunfei.com/2025/06/18/Rewriting-Kafka-in-Rust-Async-Insights-and-Lessons-Learned/)
 
+* [The Complete Rust Security Handbook](https://yevh.github.io/rust-security-handbook/)
+
 ### Research
 
 ### Miscellaneous
