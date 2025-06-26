@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Tantivy 0.24](https://quickwit.io/blog/tantivy-0.24)
+* [How to write Rust in the kernel: part 1](https://lwn.net/SubscriberLink/1024202/556fa7b3c51d7899/)
 * [GlueSQL v0.17.0 - Added redb storage support](https://github.com/gluesql/gluesql/releases/tag/v0.17.0)
 
 ### Observations/Thoughts
@@ -54,6 +55,8 @@ and just ask the editors to select the category.
 * [Counter Service: How we rewrote it in Rust](https://engineering.grab.com/counter-service-how-we-rewrote-it-in-rust)
 * [Defending Democracies With Rust](https://filtra.io/rust/interviews/helsing-jun-25)
 
+* [video playlist] [Scientific Computing in Rust 2025](https://www.youtube.com/watch?v=XyXMKuclTcQ&list=PLrueqeouhcZNRW7H26DfscFjGSf0Pzd8c)
+
 ### Rust Walkthroughs
 * [Porting GPU shaders to Rust 30x faster with AI](https://rust-gpu.github.io/blog/2025/06/24/vulkan-shader-port/)
 * [Bitwise DNA Compression in Rust: Small Footprint with Fast Reverse Complements](https://arianfarid.me/articles/dna-compression.html)
@@ -63,6 +66,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Defending Democracies With Rust](https://filtra.io/rust/interviews/helsing-jun-25)
 
 ## Crate of the Week
 
@@ -133,7 +137,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A week dominated by the landing of a large patch implementing [RFC#3729](https://github.com/rust-lang/rfcs/pull/3729) which unfortunately introduced rather sizeable performance regressions (avg of ~1% instruction count on 111 primary benchmarks). This was deemed worth it so that the patch could land and performance could be won back in follow up PRs.
+
+Triage done by **@rylev**.
+Revision range: [45acf54e..42245d34](https://perf.rust-lang.org/?start=45acf54eea118ed27927282b5e0bfdcd80b7987c&end=42245d34d22ade32b3f276dcf74deb826841594c&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 1.1%  | [0.2%, 9.1%]    | 123   |
+| Regressions ❌ <br /> (secondary)  | 1.0%  | [0.1%, 4.6%]    | 86    |
+| Improvements ✅ <br /> (primary)   | -3.8% | [-7.3%, -0.3%]  | 2     |
+| Improvements ✅ <br /> (secondary) | -2.3% | [-18.5%, -0.2%] | 44    |
+| All ❌✅ (primary)                 | 1.0%  | [-7.3%, 9.1%]   | 125   |
+
+
+2 Regressions, 4 Improvements, 10 Mixed; 7 of them in rollups
+40 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/a63db4d1799853b334e4106d914fba24e49c8782/triage/2025/2025-06-24.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
