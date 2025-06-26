@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [video playlist] [Scientific Computing in Rust 2025](https://www.youtube.com/watch?v=XyXMKuclTcQ&list=PLrueqeouhcZNRW7H26DfscFjGSf0Pzd8c)
+
 ### Rust Walkthroughs
 
 ### Research
