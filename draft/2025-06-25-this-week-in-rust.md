@@ -46,6 +46,9 @@ and just ask the editors to select the category.
 * [GlueSQL v0.17.0 - Added redb storage support](https://github.com/gluesql/gluesql/releases/tag/v0.17.0)
 
 ### Observations/Thoughts
+<<<<<<< patch-15
+* [Rust: A language that grows with you, your career and your projects](https://kerkour.com/rust-grows-with-you)
+=======
 * [The Unreasonable Effectiveness of Fuzzing for Porting Programs](https://rjp.io/blog/2025-06-17-unreasonable-effectiveness-of-fuzzing)
 * [So you want to serialize some DER?](https://alexgaynor.net/2025/jun/20/serialize-some-der/)
 * [Why I Switched from Flutter + Rust to Rust + egui](https://jdiaz97.github.io/greenblog/posts/flutter_to_egui/)
@@ -55,6 +58,7 @@ and just ask the editors to select the category.
 * [Counter Service: How we rewrote it in Rust](https://engineering.grab.com/counter-service-how-we-rewrote-it-in-rust)
 * [Defending Democracies With Rust](https://filtra.io/rust/interviews/helsing-jun-25)
 * [video playlist] [Scientific Computing in Rust 2025](https://www.youtube.com/watch?v=XyXMKuclTcQ&list=PLrueqeouhcZNRW7H26DfscFjGSf0Pzd8c)
+>>>>>>> master
 
 ### Rust Walkthroughs
 * [Porting GPU shaders to Rust 30x faster with AI](https://rust-gpu.github.io/blog/2025/06/24/vulkan-shader-port/)
