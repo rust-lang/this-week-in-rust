@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Defending Democracies With Rust](https://filtra.io/rust/interviews/helsing-jun-25)
 
 ## Crate of the Week
 
