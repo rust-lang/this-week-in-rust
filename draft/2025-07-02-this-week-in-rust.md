@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Kiorg - a lightingly fast cross-platform filemanager with VIM inspired keybind](https://github.com/houqp/kiorg)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
