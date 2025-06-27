@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [How to write Rust in the kernel: part 2](https://lwn.net/SubscriberLink/1025232/4a7776eb2f0379cf/)
 
 ### Observations/Thoughts
 
