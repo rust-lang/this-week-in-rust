@@ -37,7 +37,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
-* [Rust Trends Issue #67](https://rust-trends.com/newsletter/untangling-rust-errors-the-bzip2-rewrite/)
+* [Rust Trends Issue #68 Special](https://rust-trends.com/newsletter/join-the-rust-programming-contest-win-a-keychron-q1-airpods-pro-2-or-oura-ring-4/)
 
 ### Project/Tooling Updates
 
