@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Asterinas: a new Linux-compatible kernel project](https://lwn.net/SubscriberLink/1022920/14dfdc76df0f1b96/)
 
 ### Observations/Thoughts
 
