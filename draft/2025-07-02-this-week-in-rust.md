@@ -272,6 +272,8 @@ Rusty Events between 2025-07-02 - 2025-07-30 🦀
     * [**Building Resilient and Observable Rust Services with steady_state**](https://www.meetup.com/stl-rust/events/306345853)
 * 2025-07-06 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
     * [**Alewife Rust Lunch, July 6**](https://www.meetup.com/bostonrust/events/307936287)
+* 2025-07-07 | Denver, CO, US | [FOSS Rust Colorado](https://mobilizon.us/@foss_rust_colorado/events)
+    * [**Embedded Rust Hack Night**](https://mobilizon.us/events/e9d6fd47-6120-4789-ad04-313d6a04f572)
 * 2025-07-09 | Phoenix, AZ, US | [Desert Rust](https://www.meetup.com/desert-rustaceans/events/)
     * [**Rust <> AI**](https://www.meetup.com/desert-rustaceans/events/308507249/)
 * 2025-07-15 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/events/)
