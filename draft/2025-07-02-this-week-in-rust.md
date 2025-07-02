@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Asterinas: a new Linux-compatible kernel project](https://lwn.net/SubscriberLink/1022920/14dfdc76df0f1b96/)
+* [Kiorg - a new lightingly fast cross-platform filemanager with VIM inspired keybind](https://github.com/houqp/kiorg/releases/tag/v0.1.1)
 
 ### Observations/Thoughts
 
