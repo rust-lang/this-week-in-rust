@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [Alternative Blanket Implementations for a Single Rust Trait](https://www.greyblake.com/blog/alternative-blanket-implementations-for-single-rust-trait/)
+
 ### Research
 
 ### Miscellaneous
