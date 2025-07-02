@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Leaktracer: A Rust allocator to trace memory allocations](https://blog.veeso.dev/blog/en/leaktracer-a-rust-allocator-to-trace-memory-allocations/)
+
 ### Rust Walkthroughs
 
 ### Research
