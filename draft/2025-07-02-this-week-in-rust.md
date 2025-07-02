@@ -315,6 +315,8 @@ Rusty Events between 2025-07-02 - 2025-07-30 🦀
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/308592246)
 * 2025-07-15 | London, UK | [London Rust Project Group](https://www.meetup.com/london-rust-project-group/events/)
     * [**TUI Power: Simulating & Visualising Sensor Data with Rust**](https://www.meetup.com/london-rust-project-group/events/308434768)
+* 2025-07-31 | Augsburg, DE | [Rust Augsburg Meetup](https://rust-augsburg.github.io/meetup/)
+    * [**Rust Augsburg Meetup #14**](https://rust-augsburg.github.io/meetup/Meetup_14.html)
 
 ### North America
 * 2025-06-25 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx)
