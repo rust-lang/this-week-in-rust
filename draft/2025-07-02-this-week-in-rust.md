@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 * [Asterinas: a new Linux-compatible kernel project](https://lwn.net/SubscriberLink/1022920/14dfdc76df0f1b96/)
 * [Diesel Async 0.6.0](https://blog.weiznich.de/blog/diesel-async-0-6/)
 * [Kiorg - a new lightingly fast cross-platform filemanager with VIM inspired keybind](https://github.com/houqp/kiorg/releases/tag/v0.1.1)
+* [Progress report on rustc_codegen_cranelift (June 2025)](https://bjorn3.github.io/2025/06/30/progress-report-june-2025.html)
 
 ### Observations/Thoughts
 * [How much code does that proc macro generate?](https://nnethercote.github.io/2025/06/26/how-much-code-does-that-proc-macro-generate.html)
