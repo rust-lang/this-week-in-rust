@@ -33,6 +33,10 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.88.0 | Rust Blog](https://blog.rust-lang.org/2025/06/26/Rust-1.88.0/)
+* [Now accepting Project Goal proposals for 2025H2](https://blog.rust-lang.org/inside-rust/2025/06/23/project-goals-2025h2-call-for-submissions/)
+* [2025 Leadership Council Survey](https://blog.rust-lang.org/inside-rust/2025/06/30/2025-leadership-council-survey/)
+* [Program management update — June 2025](https://blog.rust-lang.org/inside-rust/2025/06/30/program-management-update-2025-06/)
 
 ### Foundation
 
@@ -40,23 +44,34 @@ and just ask the editors to select the category.
 * [Rust Trends Issue #68 Special](https://rust-trends.com/newsletter/join-the-rust-programming-contest-win-a-keychron-q1-airpods-pro-2-or-oura-ring-4/)
 
 ### Project/Tooling Updates
+* [Announcing TokioConf 2026](https://tokio.rs/blog/2025-06-19-announcing-tokio-conf)
+* [rust-analyzer Changelog #292](https://rust-analyzer.github.io/thisweek/2025/06/30/changelog-292.html)
 * [How to write Rust in the kernel: part 2](https://lwn.net/SubscriberLink/1025232/4a7776eb2f0379cf/)
 * [Asterinas: a new Linux-compatible kernel project](https://lwn.net/SubscriberLink/1022920/14dfdc76df0f1b96/)
 * [Diesel Async 0.6.0](https://blog.weiznich.de/blog/diesel-async-0-6/)
 * [Kiorg - a new lightingly fast cross-platform filemanager with VIM inspired keybind](https://github.com/houqp/kiorg/releases/tag/v0.1.1)
 
 ### Observations/Thoughts
-
+* [How much code does that proc macro generate?](https://nnethercote.github.io/2025/06/26/how-much-code-does-that-proc-macro-generate.html)
 * [Leaktracer: A Rust allocator to trace memory allocations](https://blog.veeso.dev/blog/en/leaktracer-a-rust-allocator-to-trace-memory-allocations/)
+* [Cross-Compiling 10,000+ Rust CLI Crates Statically](https://blog.pkgforge.dev/cross-compiling-10000-rust-cli-crates-statically)
+* ["Why is the Rust compiler so slow?"](https://sharnoff.io/blog/why-rust-compiler-slow)
+* [A Newbie's First Contribution to (Rust for) Linux](https://blog.buenzli.dev/rust-for-linux-first-contrib/)
+* [Exception handling in rustc_codegen_cranelift](https://tweedegolf.nl/en/blog/157/exception-handling-in-rustc-codegen-cranelift)
+* [Why I Choose Rust to Build a Full-Stack Admin System](https://idaibin-blog.vercel.app/blog/why-rust-admin)
+* [video] [Top 10 Games from Bevy Jam 6](https://www.youtube.com/watch?v=wvVbsQCgbGk)
+* [video] [Threads - Part 15 of Idiomatic Rust in Simple Steps](https://www.youtube.com/watch?v=04PZPs7fbuo)
+* [audio] [1Password with Andrew Burkhart](https://corrode.dev/podcast/s04e06-1password/)
+* [audio] [Dioxus with Jonathan Kelley](https://rustacean-station.org/episode/jonathan-kelley/)
+* [audio] [Malachite with Adi Seredinschi](https://rustacean-station.org/episode/adi-seredinschi/)
 
 ### Rust Walkthroughs
-
-- [Alternative Blanket Implementations for a Single Rust Trait](https://www.greyblake.com/blog/alternative-blanket-implementations-for-single-rust-trait/)
-* [Exception handling in rustc_codegen_cranelift](https://tweedegolf.nl/en/blog/157/exception-handling-in-rustc-codegen-cranelift)
+* [Alternative Blanket Implementations for a Single Rust Trait](https://www.greyblake.com/blog/alternative-blanket-implementations-for-single-rust-trait/)
 
 ### Research
 
 ### Miscellaneous
+* [Reflections on Haskell and Rust](https://academy.fpblock.com/blog/rust-haskell-reflections/)
 
 ## Crate of the Week
 
