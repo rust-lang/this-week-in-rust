@@ -40,10 +40,15 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [How to write Rust in the kernel: part 2](https://lwn.net/SubscriberLink/1025232/4a7776eb2f0379cf/)
+* [Asterinas: a new Linux-compatible kernel project](https://lwn.net/SubscriberLink/1022920/14dfdc76df0f1b96/)
 
 ### Observations/Thoughts
 
+* [Leaktracer: A Rust allocator to trace memory allocations](https://blog.veeso.dev/blog/en/leaktracer-a-rust-allocator-to-trace-memory-allocations/)
+
 ### Rust Walkthroughs
+
+- [Alternative Blanket Implementations for a Single Rust Trait](https://www.greyblake.com/blog/alternative-blanket-implementations-for-single-rust-trait/)
 
 ### Research
 
@@ -51,7 +56,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [ansic](https://crates.io/crates/ansic), a proc macro providing a DSL to output ANSI escape strings with zero runtime overhead.
+
+Thanks to [Zeon](https://users.rust-lang.org/t/crate-of-the-week/2704/1448) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -110,11 +117,72 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+429 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-06-24..2025-07-01
+
+#### Compiler
+* [add `#[loop_match]` for improved DFA codegen](https://github.com/rust-lang/rust/pull/138780)
+* [add runtime check to avoid overwrite arg in `Diag`](https://github.com/rust-lang/rust/pull/142724)
+* [check `CoerceUnsized` impl validity before coercing](https://github.com/rust-lang/rust/pull/142976)
+* [compute hard errors without diagnostics in `impl_intersection_has_impossible_obligation`](https://github.com/rust-lang/rust/pull/142647)
+* [collapse Analysis|Borrowck|PostBorrowckAnalysis when there are no opaques](https://github.com/rust-lang/rust/pull/142802)
+* [encode hir attributes cross-crate properly](https://github.com/rust-lang/rust/pull/142777)
+* [fast path for WF goals in new solver](https://github.com/rust-lang/rust/pull/142223)
+* [implement parsing of pinned borrows](https://github.com/rust-lang/rust/pull/135731)
+* [improve recovery when users write `where`:](https://github.com/rust-lang/rust/pull/143065)
+* [introduce `ByteSymbol`](https://github.com/rust-lang/rust/pull/141875)
+* [new const traits syntax](https://github.com/rust-lang/rust/pull/139858)
+* [only compute recursive callees once](https://github.com/rust-lang/rust/pull/142625)
+* [shallowly bail from `coerce_unsized` more](https://github.com/rust-lang/rust/pull/142941)
+* [simplify `ObligationCauseCode::IfExpression`](https://github.com/rust-lang/rust/pull/139594)
+
+#### Library
+* [add SIMD funnel shift and round-to-even intrinsics](https://github.com/rust-lang/rust/pull/142078)
+* [make RefCell unstably const](https://github.com/rust-lang/rust/pull/137843)
+* [make `Sub`, Mul`, Div` and `Rem const_traits`](https://github.com/rust-lang/rust/pull/143000)
+
+#### Cargo
+* [add `http.proxy-cainfo` config for proxy certs](https://github.com/rust-lang/cargo/pull/15374)
+* [expand error messages around path dependency on `cargo package` and `cargo publish`](https://github.com/rust-lang/cargo/pull/15705)
+* [override `Cargo.lock` checksums when doing a dry-run `publish`](https://github.com/rust-lang/cargo/pull/15711)
+* [rework `cargo-test-support` & `testsuite` to use `CARGO_BIN_EXE_*` for Cargo](https://github.com/rust-lang/cargo/pull/15692)
+
+#### Rustdoc
+* [rustdoc: show attributes on `enum` variants](https://github.com/rust-lang/rust/pull/142987)
+
+#### Clippy
+* [`missing_panics_doc`: Allow `unwrap()` and `expect()` inside const-only contexts](https://github.com/rust-lang/rust-clippy/pull/15170)
+* [`zero_ptr`: lint in `const` context as well](https://github.com/rust-lang/rust-clippy/pull/15152)
+* [consider deref'ed argument as non-temporary](https://github.com/rust-lang/rust-clippy/pull/15172)
+* [`cast_possible_truncation` should not suggest inside const context](https://github.com/rust-lang/rust-clippy/pull/15164)
+* [fix `coerce_container_to_any` false positive on autoderef](https://github.com/rust-lang/rust-clippy/pull/15057)
+* [fix `disallowed_script_idents` FP on identifiers with `_`](https://github.com/rust-lang/rust-clippy/pull/15123)
+
+#### Rust-Analyzer
+* [de-arc trait items query](https://github.com/rust-lang/rust-analyzer/pull/20088)
+* [do not append `--compile-time-deps` to overwritten build script commands](https://github.com/rust-lang/rust-analyzer/pull/20121)
+* [drop rustc workspace loading error, if we don't needs its sources](https://github.com/rust-lang/rust-analyzer/pull/20092)
+* [highlighting of return values while the cursor is on `match` / `if` / `=>`](https://github.com/rust-lang/rust-analyzer/pull/19546)
+* [fix completion in when typing `integer.|`](https://github.com/rust-lang/rust-analyzer/pull/20110)
+* [prettify AST in `PathTransform` if it's coming from a macro](https://github.com/rust-lang/rust-analyzer/pull/20103)
+* [parse new const trait syntax](https://github.com/rust-lang/rust-analyzer/pull/20105)
+* [remove last use of `rustc_pattern_analysis::Captures`](https://github.com/rust-lang/rust-analyzer/pull/20124)
+* [remove unnecessary parens in closure](https://github.com/rust-lang/rust-analyzer/pull/20122)
+* [salsa idiomize `VariantFields` query](https://github.com/rust-lang/rust-analyzer/pull/20106)
 
 ### Rust Compiler Performance Triage
+Lots of changes this week with results dominated by the 1-5% improvements from
+[#142941](https://github.com/rust-lang/rust/pull/142941) across lots of primary
+benchmarks in the suite.
 
-<!-- Perf results go here -->
+Triage done by **@simulacrum**.
+Revision range: [42245d34..ad3b7257](https://perf.rust-lang.org/?start=42245d34d22ade32b3f276dcf74deb826841594c&end=ad3b7257615c28aaf8212a189ec032b8af75de51&absolute=false&stat=instructions%3Au)
+
+3 Regressions, 6 Improvements, 5 Mixed; 4 of them in rollups
+39 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2025/2025-06-30.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -270,6 +338,8 @@ Rusty Events between 2025-07-02 - 2025-07-30 🦀
     * [**Building Resilient and Observable Rust Services with steady_state**](https://www.meetup.com/stl-rust/events/306345853)
 * 2025-07-06 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
     * [**Alewife Rust Lunch, July 6**](https://www.meetup.com/bostonrust/events/307936287)
+* 2025-07-07 | Denver, CO, US | [FOSS Rust Colorado](https://mobilizon.us/@foss_rust_colorado/events)
+    * [**Embedded Rust Hack Night**](https://mobilizon.us/events/e9d6fd47-6120-4789-ad04-313d6a04f572)
 * 2025-07-09 | Phoenix, AZ, US | [Desert Rust](https://www.meetup.com/desert-rustaceans/events/)
     * [**Rust <> AI**](https://www.meetup.com/desert-rustaceans/events/308507249/)
 * 2025-07-15 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/events/)
@@ -313,7 +383,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> I love Rust, so I was already biased to be positive about the Rust for Linux project, even before dabbling with it myself. I'm genuinely surprised to be even more optimistic now than before. The coding part was much easier than I imagined, thanks to the use of reference counting in the kernel.
+>
+> And the promised benefits of Rust over C? They're absolutely real. The Rust version of the driver feels way more robust than the C code, not just regarding memory safety. It didn't have a single bug: Once it compiled, it worked. That's not a huge deal considering it was a direct rewrite, but it counts for something.
+
+– [Remo Senekowitsch blogging about their Rust 4 Linux adventure](https://blog.buenzli.dev/rust-for-linux-first-contrib/)
+
+Despite a lamentable lack of suggestions, llogiq is reasonably pleased with his choice.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
