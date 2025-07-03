@@ -333,7 +333,7 @@ Rusty Events between 2025-07-02 - 2025-07-30 🦀
 ### South America
 * 2025-07-12 | São Paulo, BR | [Rust São Paulo Meetup](https://www.meetup.com/rust-sao-paulo-meetup/events/)
     * [**Encontro do Rust-SP na WillBank**](https://www.meetup.com/rust-sao-paulo-meetup/events/307308851)
-* 2025-07-17 | Florianópolis , BR | [Rust Brazil + Rust Floripa](https://lu.ma/calendar/cal-iOloL5ZqswCO5Mm)
+* 2025-07-17 | Florianópolis, BR | [Rust Brazil + Rust Floripa](https://lu.ma/calendar/cal-iOloL5ZqswCO5Mm)
     * [**Rust Floripa**](https://lu.ma/p0umq6vm)
 
 If you are running a Rust event please add it to the [calendar] to get
