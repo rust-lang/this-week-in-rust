@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [How to write Rust in the kernel: part 2](https://lwn.net/SubscriberLink/1025232/4a7776eb2f0379cf/)
 * [Asterinas: a new Linux-compatible kernel project](https://lwn.net/SubscriberLink/1022920/14dfdc76df0f1b96/)
 
 ### Observations/Thoughts
