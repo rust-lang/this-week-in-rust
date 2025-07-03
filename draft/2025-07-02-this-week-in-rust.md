@@ -67,7 +67,6 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Alternative Blanket Implementations for a Single Rust Trait](https://www.greyblake.com/blog/alternative-blanket-implementations-for-single-rust-trait/)
-* [Exception handling in rustc_codegen_cranelift](https://tweedegolf.nl/en/blog/157/exception-handling-in-rustc-codegen-cranelift)
 
 ### Research
 
