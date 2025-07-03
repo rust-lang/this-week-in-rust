@@ -38,8 +38,6 @@ and just ask the editors to select the category.
 * [2025 Leadership Council Survey](https://blog.rust-lang.org/inside-rust/2025/06/30/2025-leadership-council-survey/)
 * [Program management update — June 2025](https://blog.rust-lang.org/inside-rust/2025/06/30/program-management-update-2025-06/)
 
-### Foundation
-
 ### Newsletters
 * [Rust Trends Issue #68 Special](https://rust-trends.com/newsletter/join-the-rust-programming-contest-win-a-keychron-q1-airpods-pro-2-or-oura-ring-4/)
 
@@ -50,6 +48,7 @@ and just ask the editors to select the category.
 * [Asterinas: a new Linux-compatible kernel project](https://lwn.net/SubscriberLink/1022920/14dfdc76df0f1b96/)
 * [Diesel Async 0.6.0](https://blog.weiznich.de/blog/diesel-async-0-6/)
 * [Kiorg - a new lightingly fast cross-platform filemanager with VIM inspired keybind](https://github.com/houqp/kiorg/releases/tag/v0.1.1)
+* [Progress report on rustc_codegen_cranelift (June 2025)](https://bjorn3.github.io/2025/06/30/progress-report-june-2025.html)
 
 ### Observations/Thoughts
 * [How much code does that proc macro generate?](https://nnethercote.github.io/2025/06/26/how-much-code-does-that-proc-macro-generate.html)
@@ -67,8 +66,6 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Alternative Blanket Implementations for a Single Rust Trait](https://www.greyblake.com/blog/alternative-blanket-implementations-for-single-rust-trait/)
-
-### Research
 
 ### Miscellaneous
 * [Reflections on Haskell and Rust](https://academy.fpblock.com/blog/rust-haskell-reflections/)
@@ -110,6 +107,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+*No Calls for participation were submitted this week.*
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -121,6 +119,7 @@ Are you a new or experienced speaker looking for a place to share something cool
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+*No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -325,8 +324,6 @@ Rusty Events between 2025-07-02 - 2025-07-30 🦀
     * [**Rust on Bare Metal Series 1 : Introduction to Embedded Development**](https://www.meetup.com/music-city-rust-developers/events/304333113)
 * 2025-07-17 | Redmond, WA, US | [Seattle Rust User Group](https://www.meetup.com/join-srug/events/)
     * [**July, 2025 Computer Programming Language Panel (Special Event)**](https://www.meetup.com/seattle-rust-user-group/events/307698855)
-* 2025-07-17 | Redmond, WA, US | [Seattle Rust User Group](https://www.meetup.com/join-srug/events/)
-    * [**July, 2025 Computer Programming Language Panel (Special Event)**](https://www.meetup.com/seattle-rust-user-group/events/307698855)
 * 2025-07-23 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/events/)
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/xvkdgtyhckbfc)
 
@@ -354,7 +351,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1llcso7/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -372,4 +369,4 @@ Despite a lamentable lack of suggestions, llogiq is reasonably pleased with his 
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1lqe66f/this_week_in_rust_606/)</small>
