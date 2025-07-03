@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 * [How to write Rust in the kernel: part 2](https://lwn.net/SubscriberLink/1025232/4a7776eb2f0379cf/)
 * [Asterinas: a new Linux-compatible kernel project](https://lwn.net/SubscriberLink/1022920/14dfdc76df0f1b96/)
 * [Diesel Async 0.6.0](https://blog.weiznich.de/blog/diesel-async-0-6/)
+* [Kiorg - a new lightingly fast cross-platform filemanager with VIM inspired keybind](https://github.com/houqp/kiorg/releases/tag/v0.1.1)
 
 ### Observations/Thoughts
 
