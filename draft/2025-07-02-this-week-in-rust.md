@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [Rust Trends Issue #68 Special](https://rust-trends.com/newsletter/join-the-rust-programming-contest-win-a-keychron-q1-airpods-pro-2-or-oura-ring-4/)
 
 ### Project/Tooling Updates
 * [How to write Rust in the kernel: part 2](https://lwn.net/SubscriberLink/1025232/4a7776eb2f0379cf/)
