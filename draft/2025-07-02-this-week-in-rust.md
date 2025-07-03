@@ -297,6 +297,8 @@ Rusty Events between 2025-07-02 - 2025-07-30 🦀
     * [**Rust Dortmund Meetup - Teach and Hack**](https://www.meetup.com/rust-dortmund/events/308517530/)
 * 2025-07-24 | Edinburgh, UK | [Rust and Friends](https://www.meetup.com/rust-edi/events/)
     * [**July talks: A Crab, a Pufferfish and a State-of-the-art Chess AI**](https://www.meetup.com/rust-and-friends/events/308687848)
+* 2025-07-24 | Nuremberg/Nürnberg, DE | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
+    * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/304567874/)
 * 2025-07-29 | Manchester, UK | [Rust Manchester](https://www.meetup.com/rust-manchester/events/)
     * [**Lightning Talks July 2025**](https://www.meetup.com/rust-manchester/events/308085035)
 * 2025-07-30 | Amsterdam, NL | [Rust Developers Amsterdam Group](https://www.meetup.com/rust-amsterdam-group/events/)
