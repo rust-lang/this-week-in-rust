@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Unsoundness and accidental features in the `#[target_feature]` attribute](https://predr.ag/blog/unsoundness-and-accidental-features-in-target-feature/)
 
 ### Rust Walkthroughs
 
