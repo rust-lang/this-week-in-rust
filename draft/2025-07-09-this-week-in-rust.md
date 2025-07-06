@@ -40,6 +40,17 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+#### A MinIO alternative written in Rust
+
+A distributed object storage product has been rewritten in Rust, named RustFS.
+GitHub address: https://github.com/rustfs/rustfs
+
+Ranked first in the Github Rust Language Ranking on July 6, 2025.
+Ranked second in the Github All Languages ​​Ranking.
+
+Project address: https://rustfs.com
+
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
