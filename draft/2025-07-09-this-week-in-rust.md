@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [From 'It Might Work' to 'It Will Work': Typestate in Rust](https://minikin.me/blog/typestate-in-rust)
 
 ### Research
 
