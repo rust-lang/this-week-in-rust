@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Tactical Trust (1 of 2): Platform Crypto for Developers](https://tiemoko.com/blog/safer-crypto/)
 
 ### Research
 
