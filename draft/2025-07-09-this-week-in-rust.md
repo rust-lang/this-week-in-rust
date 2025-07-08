@@ -41,6 +41,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [The journey towards the best error handling in Rust web frameworks](https://mackow.ski/blog/towards-rust-web-best-errors/)
 
 ### Rust Walkthroughs
 
