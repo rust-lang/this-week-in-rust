@@ -232,7 +232,7 @@ Rusty Events between 2025-07-09 - 2025-08-06 🦀
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308705791)
 * 2025-07-10 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin)
     * [**Rust Berlin on location 🏳️‍🌈 - Edition 004**](https://www.meetup.com/rust-berlin/events/308987361)
-* 2025-07-15 | Leipzig, SN, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig)
+* 2025-07-15 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig)
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/308592246)
 * 2025-07-15 | London, UK | [London Rust Project Group](https://www.meetup.com/london-rust-project-group)
     * [**TUI Power: Simulating & Visualising Sensor Data with Rust**](https://www.meetup.com/london-rust-project-group/events/308434768)
