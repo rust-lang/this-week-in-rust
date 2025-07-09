@@ -32,17 +32,36 @@ and just ask the editors to select the category.
 
 -->
 
+
 ### Official
+* [Stabilizing naked functions](https://blog.rust-lang.org/2025/07/03/stabilizing-naked-functions/)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [toml v0.9](https://epage.github.io/blog/2025/07/toml-09/)
+* [Announcing dynify: Pin-init trait objects on the stack in stable Rust](https://www.reddit.com/r/rust/s/Xinstp8iSx)
+* [What's new in Ratatui 0.30.0?](https://www.youtube.com/live/nucLyibb5NU?si=copCqnEK7X5ZC9ry)
+* [Introducing Tyr, a new Rust DRM driver](https://www.collabora.com/news-and-blog/news-and-events/introducing-tyr-a-new-rust-drm-driver.html)
 
 ### Observations/Thoughts
+* [Bootstrapping Rust with GCC](https://fractalfir.github.io/generated_html/cg_gcc_bootstrap.html)
+* [The journey towards the best error handling in Rust web frameworks](https://mackow.ski/blog/towards-rust-web-best-errors/)
+* [Unsoundness and accidental features in the #\[target_feature\] attribute](https://predr.ag/blog/unsoundness-and-accidental-features-in-target-feature/)
+* [Tree-Structured Concurrency II: Replacing Background Tasks With Actors](https://blog.yoshuawuyts.com/replacing-tasks-with-actors/)
+* [Rapid Machine Learning Prototyping in Rust](https://ryuru.com/rapid-machine-learning-prototyping-in-rust/)
+* [330× faster: Four different ways to speed up your code](https://pythonspeed.com/articles/different-ways-speed/)
+* [Programming Extensible Data Types in Rust with CGP - Part 1: Modular App Construction and Extensible Builders](https://contextgeneric.dev/blog/extensible-datatypes-part-1/)
+* [Making Unsafe Rust a Little Safer: Find Memory Errors in Production with GWP-ASan](https://blog.colinbreck.com/making-unsafe-rust-a-little-safer-find-memory-errors-in-production-with-gwp-asan/)
+* [Deterministic Simulation Testing in Rust: A Theater Of State Machines](https://www.polarsignals.com/blog/posts/2025/07/08/dst-rust)
+* [Slint Material Components Tech Preview](https://slint.dev/blog/material-comp-tech-preview)
+* [Memory-safe malware: Rust challenges security researchers](https://www.techzine.eu/blogs/security/132626/memory-safe-malware-rust-challenges-security-researchers/)
 
 ### Rust Walkthroughs
+* [JavaScript is being rewritten in Rust](https://endform.dev/blog/js-is-being-rewritten-in-rust/)
+* [Rust Security Best Practices 2025](https://corgea.com/Learn/rust-security-best-practices-2025)
 
 ### Research
 
