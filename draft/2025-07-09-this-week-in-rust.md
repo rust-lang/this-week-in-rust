@@ -190,7 +190,27 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Busy week. Results are dominated by changes that trade some wins for some losses in small incremental scenarios. We also had a lot of noise and spurious small changes on various PRs. Some regressions come from perf related work where we expect to get some wins back later.
+
+Triage done by **@panstromek**.
+Revision range: [ad3b7257..0d11be5a](https://perf.rust-lang.org/?start=ad3b7257615c28aaf8212a189ec032b8af75de51&end=0d11be5aabe0cd49609fff5fce57c4691a22fe55&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+Note: We switched to a new benchmark machine at the begining of the period. We show summary based on slightly adjusted range [6988a8fe..8df4a58a](https://perf.rust-lang.org/?start=6988a8fea774a2a20ebebddb7dbf15dd6ef594f9&end=8df4a58ac47b778b093652d6190a6f9d54638774&absolute=false&stat=instructions%3Au) to avoid misleading comparisons from different machines.
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 1.1%  | [0.2%, 4.3%]    | 128   |
+| Regressions ❌ <br /> (secondary)  | 1.0%  | [0.2%, 3.9%]    | 84    |
+| Improvements ✅ <br /> (primary)   | -3.5% | [-7.2%, -0.2%]  | 48    |
+| Improvements ✅ <br /> (secondary) | -5.1% | [-42.6%, -0.2%] | 68    |
+| All ❌✅ (primary)                 | -0.2% | [-7.2%, 4.3%]   | 176   |
+
+3 Regressions, 3 Improvements, 11 Mixed; 6 of them in rollups
+44 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/62972dca0429c46843c2569130670ddea8dfb92b/triage/2025/2025-07-07.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
