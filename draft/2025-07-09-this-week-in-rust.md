@@ -46,9 +46,7 @@ and just ask the editors to select the category.
 * [What's new in Ratatui 0.30.0?](https://www.youtube.com/live/nucLyibb5NU?si=copCqnEK7X5ZC9ry)
 * [Introducing Tyr, a new Rust DRM driver](https://www.collabora.com/news-and-blog/news-and-events/introducing-tyr-a-new-rust-drm-driver.html)
 * [RustFS: distributed object storage and MinIO alternative written in Rust](https://github.com/rustfs/rustfs)
-
 * [Rama 0.3.0-alpha.1 - A Protocol Leap Forward](https://github.com/plabayo/rama/discussions/622)
-
 * [Streaming data analytics, Fluvio 0.18.3 release](https://www.fluvio.io/news/this-week-in-fluvio-0077)
 
 ### Observations/Thoughts
@@ -58,12 +56,13 @@ and just ask the editors to select the category.
 * [Tree-Structured Concurrency II: Replacing Background Tasks With Actors](https://blog.yoshuawuyts.com/replacing-tasks-with-actors/)
 * [Rapid Machine Learning Prototyping in Rust](https://ryuru.com/rapid-machine-learning-prototyping-in-rust/)
 * [330× faster: Four different ways to speed up your code](https://pythonspeed.com/articles/different-ways-speed/)
-* [Programming Extensible Data Types in Rust with CGP - Part 1: Modular App Construction and Extensible Builders](https://contextgeneric.dev/blog/extensible-datatypes-part-1/)
+* [Programming Extensible Data Types in Rust with CGP, Part 1](https://contextgeneric.dev/blog/extensible-datatypes-part-1/) and [Part 2](https://contextgeneric.dev/blog/extensible-datatypes-part-2/)
 * [Making Unsafe Rust a Little Safer: Find Memory Errors in Production with GWP-ASan](https://blog.colinbreck.com/making-unsafe-rust-a-little-safer-find-memory-errors-in-production-with-gwp-asan/)
 * [Deterministic Simulation Testing in Rust: A Theater Of State Machines](https://www.polarsignals.com/blog/posts/2025/07/08/dst-rust)
 * [Slint Material Components Tech Preview](https://slint.dev/blog/material-comp-tech-preview)
 * [Memory-safe malware: Rust challenges security researchers](https://www.techzine.eu/blogs/security/132626/memory-safe-malware-rust-challenges-security-researchers/)
 * [The scary and surprisingly deep rabbit hole of Rust's temporaries](https://taping-memory.dev/temporaries-rabbit-hole/)
+* [The 4 pillars of Rust's superiority](https://kerkour.com/rust-superiority)
 
 ### Rust Walkthroughs
 * [JavaScript is being rewritten in Rust](https://endform.dev/blog/js-is-being-rewritten-in-rust/)
