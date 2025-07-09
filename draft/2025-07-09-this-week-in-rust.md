@@ -50,7 +50,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [flac-coded](https://crates.io/crates/flac-codec), an implementation of (unsurprisingly) the Free Lossless Audio Codec (FLAC) file format.
+
+Thanks to [tuffy](https://users.rust-lang.org/t/crate-of-the-week/2704/1449) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -99,7 +101,72 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+588 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-07-01..2025-07-08
+
+#### Compiler
+* [rewrite `macro_rules!` parser to not use the MBE engine itself](https://github.com/rust-lang/rust/pull/143070)
+* [loop match: fix 'no terminator on block'](https://github.com/rust-lang/rust/pull/143583)
+* [loop match: handle opaque patterns](https://github.com/rust-lang/rust/pull/143276)
+* [align attr fixes](https://github.com/rust-lang/rust/pull/143206)
+* [avoid suggesting traits from private dependencies](https://github.com/rust-lang/rust/pull/143038)
+* [detect more cases of `unused_parens` around types](https://github.com/rust-lang/rust/pull/142237)
+* [make metadata a workproduct and reuse it](https://github.com/rust-lang/rust/pull/114669)
+* [remove some unnecessary `unsafe` in VecCache](https://github.com/rust-lang/rust/pull/143406)
+* [start moving wf checking away from HIR](https://github.com/rust-lang/rust/pull/142030)
+
+#### Library
+* [stabilize `mixed_integer_ops_unsigned_sub`](https://github.com/rust-lang/rust/pull/143236)
+* [add `Vec::into_chunks`](https://github.com/rust-lang/rust/pull/142138)
+* [add `const Rem`](https://github.com/rust-lang/rust/pull/143040)
+* [add methods for converting bool to `Result<(), E>`](https://github.com/rust-lang/rust/pull/142749)
+* [change `{Box,Arc,Rc,Weak}::into_raw` to only work with `A = Global`](https://github.com/rust-lang/rust/pull/141219)
+
+#### Cargo
+* [publish: Stabilize multi-package publishing](https://github.com/rust-lang/cargo/pull/15636)
+* [implement package feature unification](https://github.com/rust-lang/cargo/pull/15684)
+* [report valid file name when we can't find a build target for `name = "foo.rs"`](https://github.com/rust-lang/cargo/pull/15707)
+
+#### Miri
+* [improve errors for type validity assertion failures](https://github.com/rust-lang/rust/pull/143327)
+* [`shims::fs` adding more fields to FileMetadata](https://github.com/rust-lang/miri/pull/4444)
+
+#### Rustdoc
+* [fix rustdoc not correctly showing attributes on re-exports](https://github.com/rust-lang/rust/pull/143083)
+* [don't treat methods under const impls or traits as const](https://github.com/rust-lang/rust/pull/143381)
+
+#### Clippy
+* [`neg_multiply` should preserve parenthesis when method is called](https://github.com/rust-lang/rust-clippy/pull/15179)
+* [`doc_nested_refdefs`: do not falsely report checkboxes as refdefs](https://github.com/rust-lang/rust-clippy/pull/15146)
+* [`or_fun_call`: also lint `and` method for `Option`/`Result`](https://github.com/rust-lang/rust-clippy/pull/15073)
+* [do not lint intrinsics as empty loops](https://github.com/rust-lang/rust-clippy/pull/15201)
+* [do not remove `as` if it changes the type](https://github.com/rust-lang/rust-clippy/pull/15182)
+* [don't remove explicit cast to trait object pointer](https://github.com/rust-lang/rust-clippy/pull/15145)
+* [fix `std-instead-of-core` false positive when not all items come from the new crate](https://github.com/rust-lang/rust-clippy/pull/15165)
+* [`redundant_closure_call`: lint for closures with block](https://github.com/rust-lang/rust-clippy/pull/15144)
+* [improve floating point lint to handle ambiguous type](https://github.com/rust-lang/rust-clippy/pull/15133)
+* [handle potentially-shadowing bindings in `manual_let_else`](https://github.com/rust-lang/rust-clippy/pull/15118)
+* [propagate `accept-comment-above-attributes` to statements](https://github.com/rust-lang/rust-clippy/pull/15213)
+* [`return_and_then`: prevent false positives in case of a partially used expression](https://github.com/rust-lang/rust-clippy/pull/15115)
+
+#### Rust-Analyzer
+* [add `AsMut`, `Borrow` and `BorrowMut` to minicore and `famous_defs`](https://github.com/rust-lang/rust-analyzer/pull/20132)
+* [add `fn load_workspace_into_db` variant for `ra_ap_load_cargo`'s fn `load_workspace`](https://github.com/rust-lang/rust-analyzer/pull/20144)
+* [always couple `--compile-time-deps` with](https://github.com/rust-lang/rust-analyzer/pull/20159)
+* [include `enum` variants in world symbols](https://github.com/rust-lang/rust-analyzer/pull/20185)
+* [fix a case where the link type was `None`](https://github.com/rust-lang/rust-analyzer/pull/20192)
+* [fix diverging destructuring assignments](https://github.com/rust-lang/rust-analyzer/pull/20179)
+* [fix some things with builtin derives](https://github.com/rust-lang/rust-analyzer/pull/20167)
+* [honor `rust-analyzer.cargo.noDeps` option when fetching sysroot metadata](https://github.com/rust-lang/rust-analyzer/pull/20148)
+* [improve diagnostic ranges for `macro_calls!`](https://github.com/rust-lang/rust-analyzer/pull/20160)
+* [fix incorrect closure capturing for let exprs](https://github.com/rust-lang/rust-analyzer/pull/20161)
+* [resolve HIR display length issues and improve adjustment tooltips](https://github.com/rust-lang/rust-analyzer/pull/20031)
+* [resolve item in match bind](https://github.com/rust-lang/rust-analyzer/pull/20120)
+* [improve flycheck and build script progress reporting](https://github.com/rust-lang/rust-analyzer/pull/20170)
+* [re-enable fixpoint iteration for variance computation](https://github.com/rust-lang/rust-analyzer/pull/20157)
+* [restructure proc-macro loading erros, differentiate hard error property on kind](https://github.com/rust-lang/rust-analyzer/pull/20156)
+* [workaround missing none group support in builtin macros](https://github.com/rust-lang/rust-analyzer/pull/20112)
 
 ### Rust Compiler Performance Triage
 
@@ -264,7 +331,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> You might be asking: why did you rewrite \[...\] in Rust? And yeah, I don’t really have a good reason. It’s a hobby project. Like gardening, but with more segfaults.
+
+– [Collin Richards on their blog](https://richardscollin.github.io/tmux-rs/)
+
+Thanks to [robin](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1701) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
