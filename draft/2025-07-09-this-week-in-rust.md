@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Programming Extensible Data Types in Rust with CGP, Part 1](https://contextgeneric.dev/blog/extensible-datatypes-part-1/) and [Part 2](https://contextgeneric.dev/blog/extensible-datatypes-part-2/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
