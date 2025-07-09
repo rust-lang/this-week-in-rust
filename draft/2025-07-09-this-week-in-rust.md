@@ -59,6 +59,8 @@ and just ask the editors to select the category.
 * [Slint Material Components Tech Preview](https://slint.dev/blog/material-comp-tech-preview)
 * [Memory-safe malware: Rust challenges security researchers](https://www.techzine.eu/blogs/security/132626/memory-safe-malware-rust-challenges-security-researchers/)
 
+* [The scary and surprisingly deep rabbit hole of Rust's temporaries](https://taping-memory.dev/temporaries-rabbit-hole/)
+
 ### Rust Walkthroughs
 * [JavaScript is being rewritten in Rust](https://endform.dev/blog/js-is-being-rewritten-in-rust/)
 * [Rust Security Best Practices 2025](https://corgea.com/Learn/rust-security-best-practices-2025)
