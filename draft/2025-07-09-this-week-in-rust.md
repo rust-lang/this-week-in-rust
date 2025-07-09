@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 * [What's new in Ratatui 0.30.0?](https://www.youtube.com/live/nucLyibb5NU?si=copCqnEK7X5ZC9ry)
 * [Introducing Tyr, a new Rust DRM driver](https://www.collabora.com/news-and-blog/news-and-events/introducing-tyr-a-new-rust-drm-driver.html)
 
+[RustFS: distributed object storage and MinIO alternative written in Rust](https://github.com/rustfs/rustfs)
 ### Observations/Thoughts
 * [Bootstrapping Rust with GCC](https://fractalfir.github.io/generated_html/cg_gcc_bootstrap.html)
 * [The journey towards the best error handling in Rust web frameworks](https://mackow.ski/blog/towards-rust-web-best-errors/)
