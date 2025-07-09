@@ -47,7 +47,7 @@ and just ask the editors to select the category.
 * [Introducing Tyr, a new Rust DRM driver](https://www.collabora.com/news-and-blog/news-and-events/introducing-tyr-a-new-rust-drm-driver.html)
 * [RustFS: distributed object storage and MinIO alternative written in Rust](https://github.com/rustfs/rustfs)
 * [Rama 0.3.0-alpha.1 - A Protocol Leap Forward](https://github.com/plabayo/rama/discussions/622)
-* [Streaming data analytics, Fluvio 0.18.3 release](https://www.fluvio.io/news/this-week-in-fluvio-0077)
+* [Streaming data analytics, Fluvio 0.18.1 release](https://www.fluvio.io/news/this-week-in-fluvio-0077)
 
 ### Observations/Thoughts
 * [Bootstrapping Rust with GCC](https://fractalfir.github.io/generated_html/cg_gcc_bootstrap.html)
