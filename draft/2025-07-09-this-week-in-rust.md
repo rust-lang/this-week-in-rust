@@ -230,8 +230,6 @@ Rusty Events between 2025-07-09 - 2025-08-06 🦀
     * [**Rust Girona Hack & Learn 07 2025**](https://lu.ma/hismn492)
 * 2025-07-09 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308705791)
-* 2025-07-09 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/events/)
-    * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/wrdkmtyhckbmb)
 * 2025-07-10 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin)
     * [**Rust Berlin on location 🏳️‍🌈 - Edition 004**](https://www.meetup.com/rust-berlin/events/308987361)
 * 2025-07-15 | Leipzig, SN, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig)
