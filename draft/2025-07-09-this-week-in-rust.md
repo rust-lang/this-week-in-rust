@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 * [Introducing Tyr, a new Rust DRM driver](https://www.collabora.com/news-and-blog/news-and-events/introducing-tyr-a-new-rust-drm-driver.html)
 * [RustFS: distributed object storage and MinIO alternative written in Rust](https://github.com/rustfs/rustfs)
 
+* [Rama 0.3.0-alpha.1 - A Protocol Leap Forward](https://github.com/plabayo/rama/discussions/622)
+
 ### Observations/Thoughts
 * [Bootstrapping Rust with GCC](https://fractalfir.github.io/generated_html/cg_gcc_bootstrap.html)
 * [The journey towards the best error handling in Rust web frameworks](https://mackow.ski/blog/towards-rust-web-best-errors/)
@@ -108,6 +110,11 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+
+* [rama - Implement all JWA algorithms](https://github.com/plabayo/rama/issues/621)
+* [rama - support X-Clacks-Overhead (response) http header](https://github.com/plabayo/rama/issues/620)
+* [rama - Feature Request: Dynamic Local IPv4/IPv6 Binding for TcpConnector](https://github.com/plabayo/rama/issues/595)
+* [rama - add curl module to rama-http-types](https://github.com/plabayo/rama/issues/509)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
