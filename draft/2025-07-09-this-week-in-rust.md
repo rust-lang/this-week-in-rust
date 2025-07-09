@@ -45,8 +45,8 @@ and just ask the editors to select the category.
 * [Announcing dynify: Pin-init trait objects on the stack in stable Rust](https://www.reddit.com/r/rust/s/Xinstp8iSx)
 * [What's new in Ratatui 0.30.0?](https://www.youtube.com/live/nucLyibb5NU?si=copCqnEK7X5ZC9ry)
 * [Introducing Tyr, a new Rust DRM driver](https://www.collabora.com/news-and-blog/news-and-events/introducing-tyr-a-new-rust-drm-driver.html)
+* [RustFS: distributed object storage and MinIO alternative written in Rust](https://github.com/rustfs/rustfs)
 
-[RustFS: distributed object storage and MinIO alternative written in Rust](https://github.com/rustfs/rustfs)
 ### Observations/Thoughts
 * [Bootstrapping Rust with GCC](https://fractalfir.github.io/generated_html/cg_gcc_bootstrap.html)
 * [The journey towards the best error handling in Rust web frameworks](https://mackow.ski/blog/towards-rust-web-best-errors/)
@@ -59,13 +59,13 @@ and just ask the editors to select the category.
 * [Deterministic Simulation Testing in Rust: A Theater Of State Machines](https://www.polarsignals.com/blog/posts/2025/07/08/dst-rust)
 * [Slint Material Components Tech Preview](https://slint.dev/blog/material-comp-tech-preview)
 * [Memory-safe malware: Rust challenges security researchers](https://www.techzine.eu/blogs/security/132626/memory-safe-malware-rust-challenges-security-researchers/)
-
 * [The scary and surprisingly deep rabbit hole of Rust's temporaries](https://taping-memory.dev/temporaries-rabbit-hole/)
 
 ### Rust Walkthroughs
 * [JavaScript is being rewritten in Rust](https://endform.dev/blog/js-is-being-rewritten-in-rust/)
 * [Rust Security Best Practices 2025](https://corgea.com/Learn/rust-security-best-practices-2025)
 * [From 'It Might Work' to 'It Will Work': Typestate in Rust](https://minikin.me/blog/typestate-in-rust)
+* [Tactical Trust (1 of 2): Platform Crypto for Developers in Rust](https://tiemoko.com/blog/safer-crypto/)
 
 ### Research
 
