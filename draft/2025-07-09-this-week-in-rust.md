@@ -62,6 +62,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [JavaScript is being rewritten in Rust](https://endform.dev/blog/js-is-being-rewritten-in-rust/)
 * [Rust Security Best Practices 2025](https://corgea.com/Learn/rust-security-best-practices-2025)
+* [From 'It Might Work' to 'It Will Work': Typestate in Rust](https://minikin.me/blog/typestate-in-rust)
 
 ### Research
 
