@@ -36,10 +36,6 @@ and just ask the editors to select the category.
 ### Official
 * [Stabilizing naked functions](https://blog.rust-lang.org/2025/07/03/stabilizing-naked-functions/)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [toml v0.9](https://epage.github.io/blog/2025/07/toml-09/)
 * [Announcing dynify: Pin-init trait objects on the stack in stable Rust](https://www.reddit.com/r/rust/s/Xinstp8iSx)
@@ -69,10 +65,6 @@ and just ask the editors to select the category.
 * [Rust Security Best Practices 2025](https://corgea.com/Learn/rust-security-best-practices-2025)
 * [From 'It Might Work' to 'It Will Work': Typestate in Rust](https://minikin.me/blog/typestate-in-rust)
 * [Tactical Trust (1 of 2): Platform Crypto for Developers in Rust](https://tiemoko.com/blog/safer-crypto/)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -108,10 +100,6 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-<!-- * [ - ]() -->
-<!-- or if none - *No Calls for participation were submitted this week.* -->
-
 * [rama - Implement all JWA algorithms](https://github.com/plabayo/rama/issues/621)
 * [rama - support X-Clacks-Overhead (response) http header](https://github.com/plabayo/rama/issues/620)
 * [rama - Feature Request: Dynamic Local IPv4/IPv6 Binding for TcpConnector](https://github.com/plabayo/rama/issues/595)
@@ -125,8 +113,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-<!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+ *No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
