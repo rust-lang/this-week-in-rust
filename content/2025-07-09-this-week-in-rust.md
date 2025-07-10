@@ -68,7 +68,7 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-This week's crate is [flac-coded](https://crates.io/crates/flac-codec), an implementation of (unsurprisingly) the Free Lossless Audio Codec (FLAC) file format.
+This week's crate is [flac-codec](https://crates.io/crates/flac-codec), an implementation of (unsurprisingly) the Free Lossless Audio Codec (FLAC) file format.
 
 Thanks to [tuffy](https://users.rust-lang.org/t/crate-of-the-week/2704/1449) for the self-suggestion!
 
