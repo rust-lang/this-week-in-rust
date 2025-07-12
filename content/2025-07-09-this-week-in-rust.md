@@ -39,7 +39,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [toml v0.9](https://epage.github.io/blog/2025/07/toml-09/)
 * [Announcing dynify: Pin-init trait objects on the stack in stable Rust](https://www.reddit.com/r/rust/s/Xinstp8iSx)
-* [What's new in Ratatui 0.30.0?](https://www.youtube.com/live/nucLyibb5NU?si=copCqnEK7X5ZC9ry)
+* [video] [What's new in Ratatui 0.30.0?](https://www.youtube.com/live/nucLyibb5NU)
 * [Introducing Tyr, a new Rust DRM driver](https://www.collabora.com/news-and-blog/news-and-events/introducing-tyr-a-new-rust-drm-driver.html)
 * [RustFS: distributed object storage and MinIO alternative written in Rust](https://github.com/rustfs/rustfs)
 * [Rama 0.3.0-alpha.1 - A Protocol Leap Forward](https://github.com/plabayo/rama/discussions/622)
