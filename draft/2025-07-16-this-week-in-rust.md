@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Here comes the sun](https://bitfieldconsulting.com/posts/here-comes-sun)
+
 ### Rust Walkthroughs
 
 ### Research
