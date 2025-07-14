@@ -40,7 +40,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-[UltraGraph 0.8: 1,300x Faster Graph Analytics — No Cluster Needed](https://deepcausality.com/blog/announcement-ultragraph-0-8)
+[UltraGraph 0.8: 1,300x Faster Graph Analytics — No Cluster Needed](https://deepcausality.com/blog/announcement-ultragraph-0-8) 
 
 ### Observations/Thoughts
 
