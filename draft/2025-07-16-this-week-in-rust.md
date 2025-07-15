@@ -136,7 +136,25 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A busy week with a lot of rollups containing perf. regressions and mixed results. Overall, regressions won slightly, but there were also a few impressive wins on a few primary and secondary benchmarks. A lot of perf. effects are caused by the current rework of attribute parsing, which will hopefully result in slightly improved performance once it's finished.
+
+Triage done by **@kobzol**.
+Revision range: [0d11be5a..a9fb6103](https://perf.rust-lang.org/?start=0d11be5aabe0cd49609fff5fce57c4691a22fe55&end=a9fb6103b05c6ad6eee6bed4c0bb5a2e8e1024c6&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.5%  | [0.1%, 1.5%]    | 62    |
+| Regressions ❌ <br /> (secondary)  | 0.5%  | [0.1%, 1.8%]    | 78    |
+| Improvements ✅ <br /> (primary)   | -0.4% | [-3.9%, -0.1%]  | 40    |
+| Improvements ✅ <br /> (secondary) | -1.4% | [-11.6%, -0.0%] | 74    |
+| All ❌✅ (primary)                 | 0.1%  | [-3.9%, 1.5%]   | 102   |
+
+5 Regressions, 4 Improvements, 8 Mixed; 5 of them in rollups
+47 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/87d471ce81dd139cca60ee46377a4cf5c131f7cc/triage/2025/2025-07-15.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
