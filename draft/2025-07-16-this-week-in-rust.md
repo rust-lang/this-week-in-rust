@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [egui 0.32 - Atoms, popups, and better SVG support](https://github.com/emilk/egui/releases/tag/0.32.0)
+* [Introducing Rudy: A Toolchain for Rust Debuginfo](https://www.samjs.io/blog/rudy)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
@@ -47,6 +49,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [June 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/jun-25)
 
 ## Crate of the Week
 
@@ -114,6 +117,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+* [Diesel: Designing `#[derive(QueryModel)]` Poll I - Default for #[diesel(check_for_backend()]](https://github.com/diesel-rs/diesel/discussions/4680)
+* [Diesel: Designing `#[derive(QueryModel)]` Poll II - Joining behaviour for #[diesel(embed)]](https://github.com/diesel-rs/diesel/discussions/4681)
+* [Diesel: Designing `#[derive(QueryModel)]` Poll III -  All in one derive? ](https://github.com/diesel-rs/diesel/discussions/4682)
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
@@ -136,7 +142,25 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A busy week with a lot of rollups containing perf. regressions and mixed results. Overall, regressions won slightly, but there were also a few impressive wins on a few primary and secondary benchmarks. A lot of perf. effects are caused by the current rework of attribute parsing, which will hopefully result in slightly improved performance once it's finished.
+
+Triage done by **@kobzol**.
+Revision range: [0d11be5a..a9fb6103](https://perf.rust-lang.org/?start=0d11be5aabe0cd49609fff5fce57c4691a22fe55&end=a9fb6103b05c6ad6eee6bed4c0bb5a2e8e1024c6&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.5%  | [0.1%, 1.5%]    | 62    |
+| Regressions ❌ <br /> (secondary)  | 0.5%  | [0.1%, 1.8%]    | 78    |
+| Improvements ✅ <br /> (primary)   | -0.4% | [-3.9%, -0.1%]  | 40    |
+| Improvements ✅ <br /> (secondary) | -1.4% | [-11.6%, -0.0%] | 74    |
+| All ❌✅ (primary)                 | 0.1%  | [-3.9%, 1.5%]   | 102   |
+
+5 Regressions, 4 Improvements, 8 Mixed; 5 of them in rollups
+47 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/87d471ce81dd139cca60ee46377a4cf5c131f7cc/triage/2025/2025-07-15.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
