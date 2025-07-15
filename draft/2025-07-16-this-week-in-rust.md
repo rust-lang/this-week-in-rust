@@ -42,7 +42,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
-* [Here comes the sun](https://bitfieldconsulting.com/posts/here-comes-sun)
+* [Here comes the sun: iteratively building a Rust program that gets the current weather conditions](https://bitfieldconsulting.com/posts/here-comes-sun)
 
 ### Rust Walkthroughs
 
