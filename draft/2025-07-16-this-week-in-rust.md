@@ -114,9 +114,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-* [Diesel: Designing `#[derive(QueryModel)]` Poll I](https://github.com/diesel-rs/diesel/discussions/4680)
-* [Diesel: Designing `#[derive(QueryModel)]` Poll II](https://github.com/diesel-rs/diesel/discussions/4681)
-* [Diesel: Designing `#[derive(QueryModel)]` Poll III](https://github.com/diesel-rs/diesel/discussions/4682)
+* [Diesel: Designing `#[derive(QueryModel)]` Poll I - Default for #[diesel(check_for_backend()]](https://github.com/diesel-rs/diesel/discussions/4680)
+* [Diesel: Designing `#[derive(QueryModel)]` Poll II - Joining behaviour for #[diesel(embed)]](https://github.com/diesel-rs/diesel/discussions/4681)
+* [Diesel: Designing `#[derive(QueryModel)]` Poll III -  All in one derive? ](https://github.com/diesel-rs/diesel/discussions/4682)
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
