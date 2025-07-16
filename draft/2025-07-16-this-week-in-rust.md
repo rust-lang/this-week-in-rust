@@ -42,11 +42,12 @@ and just ask the editors to select the category.
 * [egui 0.32 - Atoms, popups, and better SVG support](https://github.com/emilk/egui/releases/tag/0.32.0)
 * [Introducing Rudy: A Toolchain for Rust Debuginfo](https://www.samjs.io/blog/rudy)
 
-[UltraGraph 0.8: 1,300x Faster Graph Analytics — No Cluster Needed](https://deepcausality.com/blog/announcement-ultragraph-0-8) 
+[UltraGraph 0.8: 1,300x Faster Graph Analytics — No Cluster Needed](https://deepcausality.com/blog/announcement-ultragraph-0-8)
 
 ### Observations/Thoughts
 
 * [Here comes the sun: iteratively building a Rust program that gets the current weather conditions](https://bitfieldconsulting.com/posts/here-comes-sun)
+* [The Design and Implementation of Extensible Records for Rust in CGP](https://contextgeneric.dev/blog/extensible-datatypes-part-3/)
 
 ### Rust Walkthroughs
 
