@@ -33,24 +33,39 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [crates.io: development update | Rust Blog](https://blog.rust-lang.org/2025/07/11/crates-io-development-update-2025-07/)
+* [Call for Testing: Speeding up compilation with `hint-mostly-unused`](https://blog.rust-lang.org/inside-rust/2025/07/15/call-for-testing-hint-mostly-unused/)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust OSDev: June 2025](https://rust-osdev.com/this-month/2025-06/)
 
 ### Project/Tooling Updates
 * [egui 0.32 - Atoms, popups, and better SVG support](https://github.com/emilk/egui/releases/tag/0.32.0)
+* [reqwest retries](https://seanmonstar.com/blog/reqwest-retries/)
 * [Introducing Rudy: A Toolchain for Rust Debuginfo](https://www.samjs.io/blog/rudy)
-
-[UltraGraph 0.8: 1,300x Faster Graph Analytics — No Cluster Needed](https://deepcausality.com/blog/announcement-ultragraph-0-8) 
+* [Helix Release 25.07 Highlights](https://helix-editor.com/news/release-25-07-highlights/)
+* [UltraGraph 0.8: 1,300x Faster Graph Analytics — No Cluster Needed](https://deepcausality.com/blog/announcement-ultragraph-0-8)
 
 ### Observations/Thoughts
-
+* [placing functions](https://blog.yoshuawuyts.com/placing-functions/)
 * [Here comes the sun: iteratively building a Rust program that gets the current weather conditions](https://bitfieldconsulting.com/posts/here-comes-sun)
+* [Thinking in Rust: Ownership, Access, and Memory Safety](https://cocoindex.io/blogs/rust-ownership-access/)
+* [Adding lookbehinds to rust-lang/regex](https://systemf.epfl.ch/blog/rust-regex-lookbehinds/)
+* [Publish all your crates everywhere all at once](https://www.tweag.io/blog/2025-07-10-cargo-package-workspace/)
+* [Variadic Generics ideas that won’t work for Rust](https://poignardazur.github.io/2025/07/09/variadic-generics-dead-ends/)
+* [audio] [Traceability](https://sdr-podcast.com/episodes/traceability/)
+* [KSAT with Vegard Sandengen](https://corrode.dev/podcast/s04e07-ksat/)
 
 ### Rust Walkthroughs
+* [Programming Extensible Data Types in Rust with CGP - Part 3: Implementing Extensible Records](https://contextgeneric.dev/blog/extensible-datatypes-part-3/)
+* [Axum: Optimizing web API design with the Builder Pattern](https://medium.com/@adefemiadeoye/axum-optimizing-web-api-design-with-the-builder-pattern-08aa8e18a599)
+* [Rust unit testing test types](https://jorgeortiz.dev/posts/rust_unit_testing_test_types/)
 
 ### Research
+* [Tree Borrows](https://plf.inf.ethz.ch/research/pldi25-tree-borrows.html)
+* [Securing Mixed Rust with Hardware Capabilities](https://arxiv.org/abs/2507.03344)
 
 ### Miscellaneous
 * [June 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/jun-25)
