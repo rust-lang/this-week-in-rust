@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rust is a great fit for the agentic era](https://kerkour.com/rust-agentic-coding)
 * [Here comes the sun: iteratively building a Rust program that gets the current weather conditions](https://bitfieldconsulting.com/posts/here-comes-sun)
 
 ### Rust Walkthroughs
