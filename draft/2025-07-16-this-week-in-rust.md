@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 * [egui 0.32 - Atoms, popups, and better SVG support](https://github.com/emilk/egui/releases/tag/0.32.0)
 * [reqwest retries](https://seanmonstar.com/blog/reqwest-retries/)
 * [Introducing Rudy: A Toolchain for Rust Debuginfo](https://www.samjs.io/blog/rudy)
+* [RootAsRole 3.1.0 - Outperforms sudo, configurability, -u, -g, -E features](https://github.com/LeChatP/RootAsRole/releases/tag/v3.1.0)
 * [Helix Release 25.07 Highlights](https://helix-editor.com/news/release-25-07-highlights/)
 * [UltraGraph 0.8: 1,300x Faster Graph Analytics — No Cluster Needed](https://deepcausality.com/blog/announcement-ultragraph-0-8)
 
