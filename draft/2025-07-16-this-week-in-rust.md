@@ -270,6 +270,8 @@ Rusty Events between 2025-07-16 - 2025-08-13 🦀
     * [**Rust Meetup @ BlockTech**](https://www.meetup.com/rust-amsterdam-group/events/308548455)
 * 2025-07-31 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
     * [**Rust Meetup #14: Prof. Dr. Claudia Meitinger - Embassy - Möglichkeiten und Herausforderungen im Modul "Interdisciplinary Project"**](https://rust-augsburg.github.io/meetup/Meetup_14.html)
+* 2025-08-06 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Rust Girona Hack & Learn 08 2025**](https://lu.ma/eoydaar9)
 * 2025-08-13 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308944036)
 
