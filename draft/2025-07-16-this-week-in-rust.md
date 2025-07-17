@@ -74,7 +74,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [oxvg](https://github.com/noahbald/oxvg), a SVG optimizer.
+
+Thanks to [Noah Baldwin](https://users.rust-lang.org/t/crate-of-the-week/2704/1450) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -126,7 +128,61 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+421 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-07-08..2025-07-15
+
+#### Compiler
+* [use lld by default on `x86_64-unknown-linux-gnu` stable](https://github.com/rust-lang/rust/pull/140525)
+* [apply effects to `otherwise` edge in dataflow analysis](https://github.com/rust-lang/rust/pull/142707)
+* [compute all rpitit of a trait](https://github.com/rust-lang/rust/pull/143783)
+* [consider nested cases for duplicate RPITIT](https://github.com/rust-lang/rust/pull/143570)
+* [propagate from borrowed locals in CopyProp](https://github.com/rust-lang/rust/pull/143624)
+* [resolver: refactor macro map into external and local maps](https://github.com/rust-lang/rust/pull/143657)
+
+#### Library
+* [constify `Fn*` traits](https://github.com/rust-lang/rust/pull/143640)
+* [constify `From` and `Into`](https://github.com/rust-lang/rust/pull/143774)
+* [make `Default` const and add some `const Default` impls](https://github.com/rust-lang/rust/pull/134628)
+* [slice: mark `rotate_left`, `rotate_right` unstably const](https://github.com/rust-lang/rust/pull/143554)
+* [core: add `BorrowedCursor::with_unfilled_buf`](https://github.com/rust-lang/rust/pull/142885)
+* [implement `int_format_into` feature](https://github.com/rust-lang/rust/pull/142098)
+
+#### Cargo
+* [add `[hints]` table in `Cargo.toml`, and a `hints.mostly-unused` hint](https://github.com/rust-lang/cargo/pull/15673)
+* [implementation and tests for `multiple-build-scripts`](https://github.com/rust-lang/cargo/pull/15704)
+* [perf: speed up TOML parsing by upgrading toml](https://github.com/rust-lang/cargo/pull/15736)
+
+#### Rustdoc
+* [don't mark `#[target_feature]` safe fns as unsafe in rustdoc JSON](https://github.com/rust-lang/rust/pull/143555)
+
+#### Clippy
+* [`arithmetic_side_effects`: don't warn on `NonZeroU*.get() - 1`](https://github.com/rust-lang/rust-clippy/pull/15238)
+* [`or_fun_call`: lint method calls inside `map_or` first arg](https://github.com/rust-lang/rust-clippy/pull/15074)
+* [`{flat_,}map_identity`: recognize `|[x, y]| [x, y]` as an identity function as well](https://github.com/rust-lang/rust-clippy/pull/15229)
+* [add `uninlined_format_args` example for `{:?}`](https://github.com/rust-lang/rust-clippy/pull/15228)
+* [do not remove method call if type is adjusted](https://github.com/rust-lang/rust-clippy/pull/15181)
+* [fix `approx_const` for some new cases](https://github.com/rust-lang/rust-clippy/pull/15236)
+* [fix `expect_fun_call` producing invalid suggestions](https://github.com/rust-lang/rust-clippy/pull/15122)
+* [fix `legacy_numeric_constants` suggestion when call is wrapped in parens](https://github.com/rust-lang/rust-clippy/pull/15191)
+* [fix `manual_abs_diff` suggests wrongly behind refs](https://github.com/rust-lang/rust-clippy/pull/15265)
+* [fix `manual_assert` suggests wrongly for macros](https://github.com/rust-lang/rust-clippy/pull/15264)
+* [fix `manual_is_variant_and` condition generation](https://github.com/rust-lang/rust-clippy/pull/15206)
+* [fix false negative of `expect_used`](https://github.com/rust-lang/rust-clippy/pull/15253)
+* [fix manual is multiple of](https://github.com/rust-lang/rust-clippy/pull/15205)
+* [fix multiple problems in #15063](https://github.com/rust-lang/rust-clippy/pull/15070)
+* [fix suggestion causes error of `needless_for_each`](https://github.com/rust-lang/rust-clippy/pull/15262)
+* [skip exit late lint pass on tests](https://github.com/rust-lang/rust-clippy/pull/15222)
+
+#### Rust-Analyzer
+* [rust-analyzer: generate `new` for tuple `struct`](https://github.com/rust-lang/rust-analyzer/pull/20109)
+* [rust-analyzer: support folding multiline arg list & fn body in one folding range](https://github.com/rust-lang/rust-analyzer/pull/20054)
+* [rust-analyzer: assoc type where clause position](https://github.com/rust-lang/rust-analyzer/pull/20235)
+* [rust-analyzer: fix display of `use<>` syntax](https://github.com/rust-lang/rust-analyzer/pull/20228)
+* [rust-analyzer: fixes for `dyn` inlay hint](https://github.com/rust-lang/rust-analyzer/pull/20212)
+* [rust-analyzer: inline asm fixes](https://github.com/rust-lang/rust-analyzer/pull/20210)
+* [rust-analyzer: normalize projection types before calculating memory maps](https://github.com/rust-lang/rust-analyzer/pull/20232)
+* [rust-analyzer: perf: put the expression stuff in the expression store behind an `Option<Box>`](https://github.com/rust-lang/rust-analyzer/pull/20219)
 
 ### Rust Compiler Performance Triage
 
@@ -295,7 +351,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Unfortunately -∞ doesn't fit in `usize`.
+
+– [Tomek Czajka on rust-users](https://users.rust-lang.org/t/enumerations-how-are-they-stored-and-other-questions/131667/31)
+
+Thanks to [Kyllingene](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1703) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
