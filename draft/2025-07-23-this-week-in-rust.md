@@ -40,6 +40,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Burn Adds State of the Art Dynamic Matrix Multiplication](https://burn.dev/blog/sota-multiplatform-matmul/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
