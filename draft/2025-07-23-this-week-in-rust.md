@@ -37,7 +37,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
-* [Bioinformatics in Rust #1](https://dawnandrew100.github.io/seq.rs/)
+* [Bioinformatics in Rust #1](https://dawnandrew100.github.io/seq.rs/posts/2025/july/)
 
 ### Project/Tooling Updates
 
