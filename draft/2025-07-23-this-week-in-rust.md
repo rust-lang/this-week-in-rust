@@ -136,7 +136,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Fairly busy week with improvements outweighing regressions. Most of the regressions were considered acceptable given the circumstances (such as landing a long awaited feature). By far the biggest win comes from being a bit smarter about hashing certain information inside of `DefPathHash`. Since hashing happens quite a lot in th compiler's query system, optimizing when hashing happens can have large performance impacts.
+
+Triage done by **@rylev**.
+Revision range: [a9fb6103..3f9f20f7](https://perf.rust-lang.org/?start=a9fb6103b05c6ad6eee6bed4c0bb5a2e8e1024c6&end=3f9f20f71dd945fe7d044e274094a53c90788269&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.4%  | [0.1%, 0.9%]   | 47    |
+| Regressions ❌ <br /> (secondary)  | 0.8%  | [0.1%, 2.7%]   | 69    |
+| Improvements ✅ <br /> (primary)   | -0.8% | [-4.1%, -0.2%] | 122   |
+| Improvements ✅ <br /> (secondary) | -0.7% | [-2.5%, -0.0%] | 143   |
+| All ❌✅ (primary)                 | -0.5% | [-4.1%, 0.9%]  | 169   |
+
+
+3 Regressions, 8 Improvements, 8 Mixed; 8 of them in rollups
+35 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/3c5e96856ae3c9e34f08e4b9bb3ef0fe75709db2/triage/2025/2025-07-22.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
