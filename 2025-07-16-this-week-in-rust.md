@@ -1,6 +1,6 @@
-Title: This Week in Rust 609
-Number: 609
-Date: 2025-07-23
+Title: This Week in Rust 608
+Number: 608
+Date: 2025-07-16
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -39,14 +39,21 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [egui 0.32 - Atoms, popups, and better SVG support](https://github.com/emilk/egui/releases/tag/0.32.0)
+* [Introducing Rudy: A Toolchain for Rust Debuginfo](https://www.samjs.io/blog/rudy)
+
+[UltraGraph 0.8: 1,300x Faster Graph Analytics — No Cluster Needed](https://deepcausality.com/blog/announcement-ultragraph-0-8) 
 
 ### Observations/Thoughts
+
+* [Here comes the sun: iteratively building a Rust program that gets the current weather conditions](https://bitfieldconsulting.com/posts/here-comes-sun)
 
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+* [June 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/jun-25)
 
 ## Crate of the Week
 
@@ -71,16 +78,6 @@ guidance on which aspect(s) of the feature need testing.
 
 [Let us know](https://github.com/rust-lang/this-week-in-rust/issues) if you would like your feature to be tracked as a part of this list.
 
-### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
-
-### [Rust](https://github.com/rust-lang/rust/labels/call-for-testing)
-
-### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
-
-If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
-label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
-need testing.
-
 ## Call for Participation; projects and speakers
 
 ### CFP - Projects
@@ -91,6 +88,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+* [Diesel: Designing `#[derive(QueryModel)]` Poll I - Default for #[diesel(check_for_backend()]](https://github.com/diesel-rs/diesel/discussions/4680)
+* [Diesel: Designing `#[derive(QueryModel)]` Poll II - Joining behaviour for #[diesel(embed)]](https://github.com/diesel-rs/diesel/discussions/4681)
+* [Diesel: Designing `#[derive(QueryModel)]` Poll III -  All in one derive? ](https://github.com/diesel-rs/diesel/discussions/4682)
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
@@ -113,7 +113,25 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A busy week with a lot of rollups containing perf. regressions and mixed results. Overall, regressions won slightly, but there were also a few impressive wins on a few primary and secondary benchmarks. A lot of perf. effects are caused by the current rework of attribute parsing, which will hopefully result in slightly improved performance once it's finished.
+
+Triage done by **@kobzol**.
+Revision range: [0d11be5a..a9fb6103](https://perf.rust-lang.org/?start=0d11be5aabe0cd49609fff5fce57c4691a22fe55&end=a9fb6103b05c6ad6eee6bed4c0bb5a2e8e1024c6&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.5%  | [0.1%, 1.5%]    | 62    |
+| Regressions ❌ <br /> (secondary)  | 0.5%  | [0.1%, 1.8%]    | 78    |
+| Improvements ✅ <br /> (primary)   | -0.4% | [-3.9%, -0.1%]  | 40    |
+| Improvements ✅ <br /> (secondary) | -1.4% | [-11.6%, -0.0%] | 74    |
+| All ❌✅ (primary)                 | 0.1%  | [-3.9%, 1.5%]   | 102   |
+
+5 Regressions, 4 Improvements, 8 Mixed; 5 of them in rollups
+47 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/87d471ce81dd139cca60ee46377a4cf5c131f7cc/triage/2025/2025-07-15.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -154,9 +172,15 @@ Let us know if you would like your PRs, Tracking Issues or RFCs to be tracked as
 
 ## Upcoming Events
 
-Rusty Events between 2025-07-23 - 2025-08-20 🦀
+Rusty Events between 2025-07-16 - 2025-08-13 🦀
 
 ### Virtual
+* 2025-07-13 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
+    * [**Rust Readers Discord Discussion: Async Rust**](https://www.meetup.com/dallasrust/events/308298512)
+* 2025-07-15 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
+    * [**👋 Community Catch Up**](https://www.meetup.com/women-in-rust/events/307560349)
+* 2025-07-15 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc)
+    * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/306757755)
 * 2025-07-16 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/307731031)
 * 2025-07-17 | Hybrid (Redmond, WA, US) | [Seattle Rust User Group](https://www.meetup.com/join-srug)
@@ -181,26 +205,28 @@ Rusty Events between 2025-07-23 - 2025-08-20 🦀
     * [**Rust Readers Discord Discussion: Rust Atomics and Locks**](https://www.meetup.com/dallasrust/events/bhctrtyhclbfb)
 * 2025-08-06 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/wqzhftyhclbjb)
-* 2025-08-10 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
-    * [**Rust Readers Discord Discussion: Rust Atomics and Locks**](https://www.meetup.com/dallasrust/events/bhctrtyhclbnb)
-* 2025-08-12 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
-    * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/305361531)
 
 ### Asia
-* 2025-07-19 | Delhi, IN | [Rust Delhi](https://www.meetup.com/rustdelhi)
-    * [**Rust Delhi Meetup #11**](https://www.meetup.com/rustdelhi/events/308666751)
 * 2025-07-26 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**July 2025 Rustacean meetup**](https://hasgeek.com/rustbangalore/july-2025-rustacean-meetup/)
 
 ### Europe
+* 2025-07-09 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Rust Girona Hack & Learn 07 2025**](https://lu.ma/hismn492)
+* 2025-07-09 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop)
+    * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308705791)
+* 2025-07-10 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin)
+    * [**Rust Berlin on location 🏳️‍🌈 - Edition 004**](https://www.meetup.com/rust-berlin/events/308987361)
+* 2025-07-15 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig)
+    * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/308592246)
+* 2025-07-15 | London, UK | [London Rust Project Group](https://www.meetup.com/london-rust-project-group)
+    * [**TUI Power: Simulating & Visualising Sensor Data with Rust**](https://www.meetup.com/london-rust-project-group/events/308434768)
 * 2025-07-23 | Dortmund, DE | [Rust Dortmund](https://www.meetup.com/rust-dortmund/)
     * [**Rust Dortmund Meetup - Teach and Hack**](https://www.meetup.com/rust-dortmund/events/308517530/)
 * 2025-07-24 | Edinburgh, UK | [Rust and Friends](https://www.meetup.com/rust-edi)
     * [**July talks: A Crab, a Pufferfish and a State-of-the-art Chess AI**](https://www.meetup.com/rust-and-friends/events/308687848)
 * 2025-07-24 | Nuremberg/Nürnberg, DE | [Rust Nuremberg](https://www.meetup.com/rust-noris/)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/304567874/)
-* 2025-07-26 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/stockholm-rust)
-    * [**Ferris' Fika Forum #15**](https://www.meetup.com/stockholm-rust/events/309275728)
 * 2025-07-29 | Manchester, UK | [Rust Manchester](https://www.meetup.com/rust-manchester)
     * [**Lightning Talks July 2025**](https://www.meetup.com/rust-manchester/events/308085035)
 * 2025-07-29 | Prague, CZ | [Rust Czech Republic](https://www.meetup.com/rust-czech-republic)
@@ -209,12 +235,16 @@ Rusty Events between 2025-07-23 - 2025-08-20 🦀
     * [**Rust Meetup @ BlockTech**](https://www.meetup.com/rust-amsterdam-group/events/308548455)
 * 2025-07-31 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
     * [**Rust Meetup #14: Prof. Dr. Claudia Meitinger - Embassy - Möglichkeiten und Herausforderungen im Modul "Interdisciplinary Project"**](https://rust-augsburg.github.io/meetup/Meetup_14.html)
-* 2025-08-06 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
-    * [**Rust Girona Hack & Learn 08 2025**](https://lu.ma/eoydaar9)
-* 2025-08-13 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop)
-    * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308944036)
 
 ### North America
+* 2025-07-09 | Phoenix, AZ, US | [Desert Rust](https://www.meetup.com/desert-rustaceans)
+    * [**Rust <> AI**](https://www.meetup.com/desert-rustaceans/events/308507249)
+* 2025-07-10 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/)
+    * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/308277549)
+* 2025-07-10 | Portland, OR, US | [PDXRust](https://www.meetup.com/pdxrust)
+    * [**July 2025 PDX Rust Meetup**](https://www.meetup.com/pdxrust/events/309056548)
+* 2025-07-15 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group)
+    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/307931266)
 * 2025-07-16 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/307731031)
 * 2025-07-17 | Chicago, IL, US | [Chicago Rust Meetup](https://www.meetup.com/chicago-rust-meetup)
@@ -227,16 +257,12 @@ Rusty Events between 2025-07-23 - 2025-08-20 🦀
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/308791385)
 * 2025-07-24 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/)
     * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/xdxtqtyhckbgc)
-* 2025-07-24 | México City, MX | [Rust MX](https://www.meetup.com/rust-mx)
-    * [**Construyendo un Runtime Asíncrono desde Cero en Rust**](https://www.meetup.com/rust-mx/events/309687971)
 * 2025-07-31 | Atlanta, GA, US | [Rust Atlanta](https://www.meetup.com/rust-atl)
     * [**Rust-Atl**](https://www.meetup.com/rust-atl/events/308675947)
-* 2025-08-07 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust)
-    * [**macros!**](https://www.meetup.com/stl-rust/events/306648747)
-* 2025-08-12 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group)
-    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/308284338)
 
 ### South America
+* 2025-07-12 | São Paulo, BR | [Rust São Paulo Meetup](https://www.meetup.com/rust-sao-paulo-meetup)
+    * [**Encontro do Rust-SP na WillBank**](https://www.meetup.com/rust-sao-paulo-meetup/events/307308851)
 * 2025-07-17 | Florianópolis, BR | [Rust Brazil + Rust Floripa](https://lu.ma/calendar/cal-iOloL5ZqswCO5Mm)
     * [**Rust Floripa**](https://lu.ma/p0umq6vm)
 
