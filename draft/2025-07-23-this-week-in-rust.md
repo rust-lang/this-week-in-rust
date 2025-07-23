@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #50](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-50)
 
 ### Project/Tooling Updates
 * [How to write Rust in the kernel: part 3](https://lwn.net/SubscriberLink/1026694/ec6db2459bc68907/)
