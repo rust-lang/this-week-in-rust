@@ -58,6 +58,7 @@ and just ask the editors to select the category.
 * [Rust unit testing: simplify your tests](https://jorgeortiz.dev/posts/rust_unit_testing_simplify_tests/)
 
 ### Rust Walkthroughs
+* [The Signal Protocol Explained #1: Implementing the Post-Quantum Extended Diffie-Hellman (PQXDH) protocol in Rust](https://kerkour.com/signal-protocol-pqxdh-rust)
 
 * [Structured GCP logging in Rust using tracing](https://medium.com/@ludo.vp/structured-gcp-logging-in-rust-using-the-tracing-and-tracing-subscriber-crates-356fcb38e46e)
 
