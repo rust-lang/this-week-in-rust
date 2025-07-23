@@ -190,18 +190,6 @@ which are reaching a decision. Express your opinions now.
 Rusty Events between 2025-07-23 - 2025-08-20 🦀
 
 ### Virtual
-* 2025-07-16 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
-    * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/307731031)
-* 2025-07-17 | Hybrid (Redmond, WA, US) | [Seattle Rust User Group](https://www.meetup.com/join-srug)
-    * [**July, 2025 Computer Programming Language Panel (Special Event)**](https://www.meetup.com/seattle-rust-user-group/events/307698855)
-* 2025-07-17 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
-    * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/300820305)
-* 2025-07-20 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
-    * [**Rust Readers Discord Discussion: Rust Atomics and Locks**](https://www.meetup.com/dallasrust/events/308383001)
-* 2025-07-22 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
-    * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/tgctrtyhckbdc)
-* 2025-07-22 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
-    * [**Lunch & Learn: Crates, Tips & Tricks Lightning Talks - Bring your ideas!**](https://www.meetup.com/women-in-rust/events/307560304)
 * 2025-07-24 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/304567874)
 * 2025-07-27 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
@@ -220,8 +208,6 @@ Rusty Events between 2025-07-23 - 2025-08-20 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/305361531)
 
 ### Asia
-* 2025-07-19 | Delhi, IN | [Rust Delhi](https://www.meetup.com/rustdelhi)
-    * [**Rust Delhi Meetup #11**](https://www.meetup.com/rustdelhi/events/308666751)
 * 2025-07-26 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**July 2025 Rustacean meetup**](https://hasgeek.com/rustbangalore/july-2025-rustacean-meetup/)
 
@@ -248,14 +234,6 @@ Rusty Events between 2025-07-23 - 2025-08-20 🦀
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308944036)
 
 ### North America
-* 2025-07-16 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
-    * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/307731031)
-* 2025-07-17 | Chicago, IL, US | [Chicago Rust Meetup](https://www.meetup.com/chicago-rust-meetup)
-    * [**Rust Happy Hour**](https://www.meetup.com/chicago-rust-meetup/events/308979091)
-* 2025-07-17 | Hybrid (Redmond, WA, US) | [Seattle Rust User Group](https://www.meetup.com/join-srug)
-    * [**July, 2025 Computer Programming Language Panel (Special Event)**](https://www.meetup.com/seattle-rust-user-group/events/307698855)
-* 2025-07-17 | Nashville, TN, US | [Music City Rust Developers](https://www.meetup.com/music-city-rust-developers)
-    * [**Rust on Bare Metal Series 1 : Introduction to Embedded Development**](https://www.meetup.com/music-city-rust-developers/events/304333113)
 * 2025-07-23 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx)
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/308791385)
 * 2025-07-24 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/)
@@ -268,10 +246,6 @@ Rusty Events between 2025-07-23 - 2025-08-20 🦀
     * [**macros!**](https://www.meetup.com/stl-rust/events/306648747)
 * 2025-08-12 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group)
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/308284338)
-
-### South America
-* 2025-07-17 | Florianópolis, BR | [Rust Brazil + Rust Floripa](https://lu.ma/calendar/cal-iOloL5ZqswCO5Mm)
-    * [**Rust Floripa**](https://lu.ma/p0umq6vm)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
