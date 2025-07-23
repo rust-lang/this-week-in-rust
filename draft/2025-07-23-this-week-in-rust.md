@@ -194,6 +194,8 @@ Rusty Events between 2025-07-23 - 2025-08-20 🦀
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/304567874)
 * 2025-07-27 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Rust Readers Discord Discussion: Rust Atomics and Locks**](https://www.meetup.com/dallasrust/events/bhctrtyhckbkc)
+* 2025-07-30 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff)
+    * [**Jan Arendt: How to turn Spaghetti Code into a Gourmet Architecture**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/310006696)
 * 2025-07-31 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/300820306)
 * 2025-08-02 | Virtual (Kampala, UG) | [Rust Circle Meetup](https://www.eventbrite.com/o/rust-circle-kampala-65249289033)
@@ -206,6 +208,14 @@ Rusty Events between 2025-07-23 - 2025-08-20 🦀
     * [**Rust Readers Discord Discussion: Rust Atomics and Locks**](https://www.meetup.com/dallasrust/events/bhctrtyhclbnb)
 * 2025-08-12 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/305361531)
+* 2025-08-14 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
+    * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/300820307)
+* 2025-08-17 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
+    * [**Rust Readers Discord Discussion: Rust Atomics and Locks**](https://www.meetup.com/dallasrust/events/310002458)
+* 2025-08-19 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc)
+    * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/306757756)
+* 2025-08-20 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
+    * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/307731032)
 
 ### Asia
 * 2025-07-26 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
@@ -230,8 +240,16 @@ Rusty Events between 2025-07-23 - 2025-08-20 🦀
     * [**Rust Meetup #14: Prof. Dr. Claudia Meitinger - Embassy - Möglichkeiten und Herausforderungen im Modul "Interdisciplinary Project"**](https://rust-augsburg.github.io/meetup/Meetup_14.html)
 * 2025-08-06 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
     * [**Rust Girona Hack & Learn 08 2025**](https://lu.ma/eoydaar9)
+* 2025-08-13 | Cambridge, UK | [Cambridge Rust Meetup](https://www.meetup.com/cambridge-rust-meetup)
+    * [**Monthly Rust Meetup**](https://www.meetup.com/cambridge-rust-meetup/events/310014719)
 * 2025-08-13 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308944036)
+* 2025-08-16 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel)
+    * [**Rust Embedded - Workshop #4 @letsboot**](https://www.meetup.com/rust-basel/events/309894848)
+* 2025-08-19 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus)
+    * [**Hack Night - Robot Edition**](https://www.meetup.com/rust-aarhus/events/310039453)
+* 2025-08-19 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig)
+    * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/308592249)
 
 ### North America
 * 2025-07-23 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx)
@@ -240,12 +258,34 @@ Rusty Events between 2025-07-23 - 2025-08-20 🦀
     * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/xdxtqtyhckbgc)
 * 2025-07-24 | México City, MX | [Rust MX](https://www.meetup.com/rust-mx)
     * [**Construyendo un Runtime Asíncrono desde Cero en Rust**](https://www.meetup.com/rust-mx/events/309687971)
+* 2025-07-27 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust)
+    * [**Downtown Rust Lunch, July 27**](https://www.meetup.com/bostonrust/events/310106280)
 * 2025-07-31 | Atlanta, GA, US | [Rust Atlanta](https://www.meetup.com/rust-atl)
     * [**Rust-Atl**](https://www.meetup.com/rust-atl/events/308675947)
+* 2025-08-02 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust)
+    * [**Central Cambridge Rust Lunch, Aug 2**](https://www.meetup.com/bostonrust/events/310106288)
+* 2025-08-05 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc)
+    * [**Rust NYC: Validating/Optimizing DB Queries w/Types & Rust in Enterprise AI**](https://www.meetup.com/rust-nyc/events/310107945)
 * 2025-08-07 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust)
     * [**macros!**](https://www.meetup.com/stl-rust/events/306648747)
+* 2025-08-08 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust)
+    * [**Northeastern Rust Lunch, Aug 8**](https://www.meetup.com/bostonrust/events/310106298)
 * 2025-08-12 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group)
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/308284338)
+* 2025-08-14 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust)
+    * [**Programming a Fighting Robot in Rust with Rex Magana**](https://www.meetup.com/utah-rust/events/310053631)
+* 2025-08-20 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
+    * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/307731032)
+
+### Oceania
+* 2025-07-28 | Perth, AU | [Rust Perth Meetup Group](https://www.meetup.com/perth-rust-meetup-group)
+    * [**Rust in Embedded projects**](https://www.meetup.com/perth-rust-meetup-group/events/309968294)
+* 2025-08-11 | Christchurch, NZ | [Christchurch Rust Meetup Group](https://www.meetup.com/christchurch-rustlang-meetup-group)
+    * [**Christchurch Rust Meetup**](https://www.meetup.com/christchurch-rustlang-meetup-group/events/308880707)
+
+### South America
+* 2025-08-07 | Montevideo, UY | [Rust Meetup Uruguay](https://www.meetup.com/rust-uruguay)
+    * [**Rust Uruguay meetup de Agosto**](https://www.meetup.com/rust-uruguay/events/310004109)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
