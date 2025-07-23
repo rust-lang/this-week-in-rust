@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [How to write Rust in the kernel: part 3](https://lwn.net/SubscriberLink/1026694/ec6db2459bc68907/)
 
+* [Burn Adds State of the Art Dynamic Matrix Multiplication](https://burn.dev/blog/sota-multiplatform-matmul/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
