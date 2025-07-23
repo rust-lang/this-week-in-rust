@@ -46,7 +46,6 @@ and just ask the editors to select the category.
 * [Rust: Clippy performance status update](https://blog.goose.love/posts/clippy-performance-status-update/)
 
 ### Observations/Thoughts
-* [He Rewrote Everything in Rust - Then We Got Fired](https://freedium.cfd/https://medium.com/@ThreadSafeDiaries/he-rewrote-everything-in-rust-then-we-got-fired-293e3e16c2d3)
 * ["Bypassing" specialization in Rust or How I Learned to Stop Worrying and Love Function Pointers](https://oakchris1955.eu/posts/bypassing_specialization/)
 * [The borrowchecker is what I like the least about Rust](https://viralinstruction.com/posts/borrowchecker/)
 * [On Reifying Nested Closures in Rust](https://radekmie.dev/blog/on-reifying-nested-closures-in-rust/)
