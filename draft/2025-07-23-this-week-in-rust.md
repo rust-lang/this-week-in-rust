@@ -50,7 +50,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [index\_permute](https://crates.io/crates/index_permute), a library for in-place clone-less permutation on mutable slices.
+
+Despite a lack of suggestions this week, llogiq is fairly pleased with his choice.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -132,7 +134,63 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+425 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-07-15..2025-07-22
+
+#### Compiler
+* [parse `const trait Trait`](https://github.com/rust-lang/rust/pull/143879)
+* [unify `CoroutineWitness` sooner in typeck, and stall coroutine obligations based off of `TypingEnv`](https://github.com/rust-lang/rust/pull/141762)
+* [miri: add support for global constructors (i.e. life before main)](https://github.com/rust-lang/miri/pull/4459)
+* [miri: non-deterministically truncate reads/writes](https://github.com/rust-lang/miri/pull/4481)
+
+#### Library
+* [add experimental `backtrace-trace-only` std feature](https://github.com/rust-lang/rust/pull/143910)
+* [add `uX::strict_sub_signed`](https://github.com/rust-lang/rust/pull/143282)
+* [constify Try, From, TryFrom and relevant traits](https://github.com/rust-lang/rust/pull/143768)
+* [constify `Index` traits](https://github.com/rust-lang/rust/pull/143921)
+* [constify `Option` methods](https://github.com/rust-lang/rust/pull/143967)
+* [make slice comparisons const](https://github.com/rust-lang/rust/pull/143925)
+* [stabilize `const_float_round_methods`](https://github.com/rust-lang/rust/pull/143604)
+* [stabilize `const_slice_reverse`](https://github.com/rust-lang/rust/pull/143382)
+
+#### Cargo
+* [expose artifact dependency getters in cargo-as-a-library](https://github.com/rust-lang/cargo/pull/15753)
+
+#### Rustdoc
+* [Make aliases search support partial matching](https://github.com/rust-lang/rust/pull/143988)
+
+#### Clippy
+* [`unsafe_derive_deserialize`: do not consider `pin!()` as `unsafe`](https://github.com/rust-lang/rust-clippy/pull/15137)
+* [don't trigger `unused_trait_names` in macros](https://github.com/rust-lang/rust-clippy/pull/14947)
+* [fix `empty_with_brackets` span handling](https://github.com/rust-lang/rust-clippy/pull/15311)
+* [fix `filter_map_bool_then` wrongly suggests macro definitions](https://github.com/rust-lang/rust-clippy/pull/15048)
+* [fix `missing_inline_in_public_items` false positive on functions with `extern`](https://github.com/rust-lang/rust-clippy/pull/15313)
+* [fix `needless_range_loop` false positive on array literals](https://github.com/rust-lang/rust-clippy/pull/15314)
+* [fix `never_loop` forget to remove `break` in suggestion](https://github.com/rust-lang/rust-clippy/pull/15064)
+* [fix `ptr_arg` suggests changes when it's actually better not to bother](https://github.com/rust-lang/rust-clippy/pull/15105)
+* [fix `ptr_as_ptr` suggests wrongly with turbo fish](https://github.com/rust-lang/rust-clippy/pull/15289)
+* [fix capacity overflow in `single_match` with deref patterns](https://github.com/rust-lang/rust-clippy/pull/15124)
+* [fix false positive in `useless_attribute` with `redundant_imports`](https://github.com/rust-lang/rust-clippy/pull/15318)
+* [fix: ignore `pattern_type_mismatch` when external macro owns the match](https://github.com/rust-lang/rust-clippy/pull/15306)
+* [`large_enum_variant`: dont suggest `Box` in `no_std` mode](https://github.com/rust-lang/rust-clippy/pull/15241)
+* [propose to exchange ranges only when it is safe to do so](https://github.com/rust-lang/rust-clippy/pull/14432)
+* [various improvements to the `incompatible_msrv` lint](https://github.com/rust-lang/rust-clippy/pull/14433)
+* [warn about `const` instability wrt MSRV](https://github.com/rust-lang/rust-clippy/pull/15297)
+* [warn about types not meeting MSRV](https://github.com/rust-lang/rust-clippy/pull/15296)
+
+#### Rust-Analyzer
+* [add AsMut to minicore `prelude::v1`](https://github.com/rust-lang/rust-analyzer/pull/20246)
+* [add `AsRef` and `Borrow` for `generate_mut_trait_impl`](https://github.com/rust-lang/rust-analyzer/pull/19917)
+* [add `Deref` → `DerefMut` for `generate_mut_trait_impl`](https://github.com/rust-lang/rust-analyzer/pull/20256)
+* [add ide-assist, generate single field `struct` `From`](https://github.com/rust-lang/rust-analyzer/pull/19783)
+* [add tailexpr `&` → `&mut` for `generate_mut_trait_impl`](https://github.com/rust-lang/rust-analyzer/pull/20247)
+* [support `cfg_select!`](https://github.com/rust-lang/rust-analyzer/pull/20265)
+* [ide-assist: generate Deref transitive](https://github.com/rust-lang/rust-analyzer/pull/20255)
+* [apply adjusts to pats and exprs when doing pat analysis](https://github.com/rust-lang/rust-analyzer/pull/20273)
+* [disable tests in flycheck if `cfg.setTest` is set to false](https://github.com/rust-lang/rust-analyzer/pull/20271)
+* [fix search of raw labels and lifetimes](https://github.com/rust-lang/rust-analyzer/pull/20262)
+* [infer lifetimes for GATs in expression/pattern position](https://github.com/rust-lang/rust-analyzer/pull/20238)
 
 ### Rust Compiler Performance Triage
 
@@ -295,7 +353,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> In a way, \[the\] borrow checker also makes interfaces simpler. The rules may be restrictive, but the same rules apply to everything everywhere. I can learn them once, and then know what to expect from every API using references. There are no exceptions in libraries that try to be clever. There are no exceptions for single-threaded programs. There are no exceptions for DLLs. There are no exceptions for programs built with -fpointers-go-sideways. It may be tricky like a game of chess, but I only need to consider the rules of the game, and not odd stuff like whether my opponent glued pieces to the chessboard.
+
+– [Kornel Lesiński on hacker news](https://news.ycombinator.com/item?id=44620667)
+
+Thanks to [danjl1100](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1707) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
