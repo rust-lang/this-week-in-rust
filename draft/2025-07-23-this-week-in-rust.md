@@ -38,12 +38,16 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #50](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-50)
+* [Bioinformatics in Rust #1](https://dawnandrew100.github.io/seq.rs/posts/2025/july/)
 
 ### Project/Tooling Updates
 * [GCC Front-End For Rust- June 2025 Monthly report](https://rust-gcc.github.io/2025/07/17/2025-06-monthly-report.html)
 * [gitoxide - July 25](https://github.com/GitoxideLabs/gitoxide/discussions/2084)
 * [Announcing NAPI-RS v3](https://napi.rs/blog/announce-v3)
 * [Rust: Clippy performance status update](https://blog.goose.love/posts/clippy-performance-status-update/)
+* [How to write Rust in the kernel: part 3](https://lwn.net/SubscriberLink/1026694/ec6db2459bc68907/)
+* [State of the Art Dynamic Matrix Multiplication](https://burn.dev/blog/sota-multiplatform-matmul/)
 
 ### Observations/Thoughts
 * ["Bypassing" specialization in Rust or How I Learned to Stop Worrying and Love Function Pointers](https://oakchris1955.eu/posts/bypassing_specialization/)
@@ -54,6 +58,8 @@ and just ask the editors to select the category.
 * [Rust unit testing: simplify your tests](https://jorgeortiz.dev/posts/rust_unit_testing_simplify_tests/)
 
 ### Rust Walkthroughs
+
+* [Structured GCP logging in Rust using tracing](https://medium.com/@ludo.vp/structured-gcp-logging-in-rust-using-the-tracing-and-tracing-subscriber-crates-356fcb38e46e)
 
 ### Research
 
@@ -68,42 +74,19 @@ and just ask the editors to select the category.
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
 ## Calls for Testing
-An important step for feature implementation is for people to experiment with the
+An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.
 
-If you are a feature implementer and would like your feature to appear in this list, add a
+If you are a feature implementer and would like your RFC to appear in this list, add a
 `call-for-testing` label to your RFC along with a comment providing testing instructions and/or
 guidance on which aspect(s) of the feature need testing.
 
-<!-- If there are new CfT items this week, use: -->
-<!--
-  [Repo Name](Repo URL)
-    * [<Feature name>](<Feature URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- where `Repo Name` and `Repo URL` are one of:
-[Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
-[Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing),
-[Cargo](https://github.com/rust-lang/cargo/labels/call-for-testing) or
-[Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
--->
-
-<!-- For all `Repo Names` with no new CfT items this week: use (removing the repos for which new
-     CfT items did appear, of course) -->
-<!--
-* *No calls for testing were issued this week by
-  [Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
-  [Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing),
-  [Cargo](https://github.com/rust-lang/cargo/labels/call-for-testing) or
-  [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing).*
--->
 * *No calls for testing were issued this week by [Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
   [Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing),
   [Cargo](https://github.com/rust-lang/cargo/labels/call-for-testing) or
   [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing).*
 
 [Let us know](https://github.com/rust-lang/this-week-in-rust/issues) if you would like your feature to be tracked as a part of this list.
--->
 
 ### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 
@@ -147,54 +130,63 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Fairly busy week with improvements outweighing regressions. Most of the regressions were considered acceptable given the circumstances (such as landing a long awaited feature). By far the biggest win comes from being a bit smarter about hashing certain information inside of `DefPathHash`. Since hashing happens quite a lot in th compiler's query system, optimizing when hashing happens can have large performance impacts.
+
+Triage done by **@rylev**.
+Revision range: [a9fb6103..3f9f20f7](https://perf.rust-lang.org/?start=a9fb6103b05c6ad6eee6bed4c0bb5a2e8e1024c6&end=3f9f20f71dd945fe7d044e274094a53c90788269&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.4%  | [0.1%, 0.9%]   | 47    |
+| Regressions ❌ <br /> (secondary)  | 0.8%  | [0.1%, 2.7%]   | 69    |
+| Improvements ✅ <br /> (primary)   | -0.8% | [-4.1%, -0.2%] | 122   |
+| Improvements ✅ <br /> (secondary) | -0.7% | [-2.5%, -0.0%] | 143   |
+| All ❌✅ (primary)                 | -0.5% | [-4.1%, 0.9%]  | 169   |
+
+
+3 Regressions, 8 Improvements, 8 Mixed; 8 of them in rollups
+35 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/3c5e96856ae3c9e34f08e4b9bb3ef0fe75709db2/triage/2025/2025-07-22.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
 Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
 which are reaching a decision. Express your opinions now.
 
-#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
-
 #### Tracking Issues & PRs
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: -->
-<!-- * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
-
 ##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* [[rustdoc] Display unsafe attrs with edition 2024 unsafe() wrappers.](https://github.com/rust-lang/rust/pull/143662)
+* [disposition: close] [take into account the num of processes by ulimit](https://github.com/rust-lang/rust/pull/143614)
+* [Port the proc macro attributes to the new attribute parsing infrastructure](https://github.com/rust-lang/rust/pull/143607)
+* [stop specializing on `Copy`](https://github.com/rust-lang/rust/pull/135634)
+* [Remove `[T]::array_chunks(_mut)`](https://github.com/rust-lang/rust/pull/143289)
+* [Port #[macro_export] to the new attribute parsing infrastructure](https://github.com/rust-lang/rust/pull/143857)
+
+##### [Rust RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period),
+* [RFC: enable derive(From) for single-field structs](https://github.com/rust-lang/rfcs/pull/3809)
 
 ##### [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* [Redefine `CARGO_TARGET_DIR` to be only an artifacts directory](https://github.com/rust-lang/cargo/issues/14125)
 
-##### [Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc+)
+*No Items entered Final Comment Period this week for
+[Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc+),
+[Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc) or
+[Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc).*
 
-##### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-
-##### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+Let us know if you would like your PRs, Tracking Issues or RFCs to be tracked as a part of this list.
 
 #### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: -->
-<!-- * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+* [new] [RFC: ID_Compat_Math characters allowed in identifiers](https://github.com/rust-lang/rfcs/pull/3840)
 
 ## Upcoming Events
 
