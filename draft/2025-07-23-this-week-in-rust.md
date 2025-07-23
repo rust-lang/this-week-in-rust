@@ -33,14 +33,26 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Sunsetting the rustwasm GitHub org](https://blog.rust-lang.org/inside-rust/2025/07/21/sunsetting-the-rustwasm-github-org/)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [GCC Front-End For Rust- June 2025 Monthly report](https://rust-gcc.github.io/2025/07/17/2025-06-monthly-report.html)
+* [gitoxide - July 25](https://github.com/GitoxideLabs/gitoxide/discussions/2084)
+* [Announcing NAPI-RS v3](https://napi.rs/blog/announce-v3)
+* [Rust: Clippy performance status update](https://blog.goose.love/posts/clippy-performance-status-update/)
 
 ### Observations/Thoughts
+* [He Rewrote Everything in Rust - Then We Got Fired](https://freedium.cfd/https://medium.com/@ThreadSafeDiaries/he-rewrote-everything-in-rust-then-we-got-fired-293e3e16c2d3)
+* ["Bypassing" specialization in Rust or How I Learned to Stop Worrying and Love Function Pointers](https://oakchris1955.eu/posts/bypassing_specialization/)
+* [The borrowchecker is what I like the least about Rust](https://viralinstruction.com/posts/borrowchecker/)
+* [On Reifying Nested Closures in Rust](https://radekmie.dev/blog/on-reifying-nested-closures-in-rust/)
+* [Supporting faster file load times with memory optimizations in Rust](https://www.figma.com/blog/supporting-faster-file-load-times-with-memory-optimizations-in-rust/)
+* [Rickrolling Turso DB (SQLite rewrite in Rust)](https://avi.im/blag/2025/rickrolling-turso/)
+* [Rust unit testing: simplify your tests](https://jorgeortiz.dev/posts/rust_unit_testing_simplify_tests/)
 
 ### Rust Walkthroughs
 
