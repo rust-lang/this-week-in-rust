@@ -33,6 +33,7 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Sunsetting the rustwasm GitHub org](https://blog.rust-lang.org/inside-rust/2025/07/21/sunsetting-the-rustwasm-github-org/)
 
 ### Foundation
 
@@ -41,11 +42,20 @@ and just ask the editors to select the category.
 * [Bioinformatics in Rust #1](https://dawnandrew100.github.io/seq.rs/posts/2025/july/)
 
 ### Project/Tooling Updates
+* [GCC Front-End For Rust- June 2025 Monthly report](https://rust-gcc.github.io/2025/07/17/2025-06-monthly-report.html)
+* [gitoxide - July 25](https://github.com/GitoxideLabs/gitoxide/discussions/2084)
+* [Announcing NAPI-RS v3](https://napi.rs/blog/announce-v3)
+* [Rust: Clippy performance status update](https://blog.goose.love/posts/clippy-performance-status-update/)
 * [How to write Rust in the kernel: part 3](https://lwn.net/SubscriberLink/1026694/ec6db2459bc68907/)
-
-* [Burn Adds State of the Art Dynamic Matrix Multiplication](https://burn.dev/blog/sota-multiplatform-matmul/)
+* [State of the Art Dynamic Matrix Multiplication](https://burn.dev/blog/sota-multiplatform-matmul/)
 
 ### Observations/Thoughts
+* ["Bypassing" specialization in Rust or How I Learned to Stop Worrying and Love Function Pointers](https://oakchris1955.eu/posts/bypassing_specialization/)
+* [The borrowchecker is what I like the least about Rust](https://viralinstruction.com/posts/borrowchecker/)
+* [On Reifying Nested Closures in Rust](https://radekmie.dev/blog/on-reifying-nested-closures-in-rust/)
+* [Supporting faster file load times with memory optimizations in Rust](https://www.figma.com/blog/supporting-faster-file-load-times-with-memory-optimizations-in-rust/)
+* [Rickrolling Turso DB (SQLite rewrite in Rust)](https://avi.im/blag/2025/rickrolling-turso/)
+* [Rust unit testing: simplify your tests](https://jorgeortiz.dev/posts/rust_unit_testing_simplify_tests/)
 
 ### Rust Walkthroughs
 
