@@ -218,6 +218,8 @@ Rusty Events between 2025-07-23 - 2025-08-20 🦀
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/306757756)
 * 2025-08-20 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/307731032)
+* 2025-09-02 - 2025-09-05 | Hybrid (Seattle, WA, US) | [RustConf](https://rustconf.com/)
+    * [**RustConf 2025**](https://rustconf.com/)
 
 ### Asia
 * 2025-07-26 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
