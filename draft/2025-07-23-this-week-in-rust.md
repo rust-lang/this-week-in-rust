@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [The Signal Protocol Explained #1: Implementing the Post-Quantum Extended Diffie-Hellman (PQXDH) protocol in Rust](https://kerkour.com/signal-protocol-pqxdh-rust)
 
 ### Research
 
