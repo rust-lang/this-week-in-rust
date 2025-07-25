@@ -224,6 +224,7 @@ Rusty Events between 2025-07-23 - 2025-08-20 🦀
 ### Africa
 # 2025-07-23 | Ikot Akpaden, Mkpat Enin, Akwa Ibom State, NG | [Rust Nigeria](https://x.com/RustNigeria)
    * [**Rust Developers Training Program: Akwa Ibom State University. 21 July - 21 Aug 2025.**](https://docs.google.com/forms/d/e/1FAIpQLScQXHuFAw_Z11q0W0FZSVwQMyPSa6ReT3tW7ZUtoGbcLPBxkA/viewform)
+   
 ### Asia
 * 2025-07-26 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**July 2025 Rustacean meetup**](https://hasgeek.com/rustbangalore/july-2025-rustacean-meetup/)
