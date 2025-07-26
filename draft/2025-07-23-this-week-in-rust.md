@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 * [How to write Rust in the kernel: part 3](https://lwn.net/SubscriberLink/1026694/ec6db2459bc68907/)
 * [State of the Art Dynamic Matrix Multiplication](https://burn.dev/blog/sota-multiplatform-matmul/)
 * [Tako: A Lightweight Async Web Framework on Tokio and Hyper](https://rust-dd.com/post/tako-a-lightweight-async-web-framework-on-tokio-and-hyper)
+* [stochastic-rs: High-Performance Stochastic Process Simulation in Rust](https://rust-dd.com/post/stochastic-rs-high-performance-stochastic-process-simulation-in-rust)
 
 ### Observations/Thoughts
 * ["Bypassing" specialization in Rust or How I Learned to Stop Worrying and Love Function Pointers](https://oakchris1955.eu/posts/bypassing_specialization/)
