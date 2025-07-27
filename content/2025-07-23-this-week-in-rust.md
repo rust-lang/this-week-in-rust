@@ -35,8 +35,6 @@ and just ask the editors to select the category.
 ### Official
 * [Sunsetting the rustwasm GitHub org](https://blog.rust-lang.org/inside-rust/2025/07/21/sunsetting-the-rustwasm-github-org/)
 
-### Foundation
-
 ### Newsletters
 * [The Embedded Rustacean Issue #50](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-50)
 * [Bioinformatics in Rust #1](https://dawnandrew100.github.io/seq.rs/posts/2025/july/)
@@ -63,10 +61,6 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [The Signal Protocol Explained #1: Implementing the Post-Quantum Extended Diffie-Hellman (PQXDH) protocol in Rust](https://kerkour.com/signal-protocol-pqxdh-rust)
 * [Structured GCP logging in Rust using tracing](https://medium.com/@ludo.vp/structured-gcp-logging-in-rust-using-the-tracing-and-tracing-subscriber-crates-356fcb38e46e)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -383,7 +377,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1llcso7/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -399,4 +393,4 @@ Thanks to [danjl1100](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1mabq39/this_week_in_rust_609/)</small>
