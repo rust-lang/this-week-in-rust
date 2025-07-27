@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 * [Rust: Clippy performance status update](https://blog.goose.love/posts/clippy-performance-status-update/)
 * [How to write Rust in the kernel: part 3](https://lwn.net/SubscriberLink/1026694/ec6db2459bc68907/)
 * [State of the Art Dynamic Matrix Multiplication](https://burn.dev/blog/sota-multiplatform-matmul/)
+* [StackSafe: Taming Recursion in Rust Without Stack Overflow](https://fast.github.io/blog/stacksafe-taming-recursion-in-rust-without-stack-overflow/)
 
 ### Observations/Thoughts
 * ["Bypassing" specialization in Rust or How I Learned to Stop Worrying and Love Function Pointers](https://oakchris1955.eu/posts/bypassing_specialization/)
