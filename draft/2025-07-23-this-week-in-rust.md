@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 * [Rust: Clippy performance status update](https://blog.goose.love/posts/clippy-performance-status-update/)
 * [How to write Rust in the kernel: part 3](https://lwn.net/SubscriberLink/1026694/ec6db2459bc68907/)
 * [State of the Art Dynamic Matrix Multiplication](https://burn.dev/blog/sota-multiplatform-matmul/)
+* [Tako: A Lightweight Async Web Framework on Tokio and Hyper](https://rust-dd.com/post/tako-a-lightweight-async-web-framework-on-tokio-and-hyper)
+* [stochastic-rs: High-Performance Stochastic Process Simulation in Rust](https://rust-dd.com/post/stochastic-rs-high-performance-stochastic-process-simulation-in-rust)
 * [StackSafe: Taming Recursion in Rust Without Stack Overflow](https://fast.github.io/blog/stacksafe-taming-recursion-in-rust-without-stack-overflow/)
 
 ### Observations/Thoughts
@@ -60,7 +62,6 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [The Signal Protocol Explained #1: Implementing the Post-Quantum Extended Diffie-Hellman (PQXDH) protocol in Rust](https://kerkour.com/signal-protocol-pqxdh-rust)
-
 * [Structured GCP logging in Rust using tracing](https://medium.com/@ludo.vp/structured-gcp-logging-in-rust-using-the-tracing-and-tracing-subscriber-crates-356fcb38e46e)
 
 ### Research
