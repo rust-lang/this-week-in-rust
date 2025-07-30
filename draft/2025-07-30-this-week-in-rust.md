@@ -39,10 +39,12 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+[Embedded DHT Sensor Library](https://rust-dd.com/post/building-a-rust-library-for-dht11-sensor-a-step-by-step-guide)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+[Using ESP32 as a Rust Beginner](https://rust-dd.com/post/introduction-to-embedded-systems-with-rust-a-beginner-s-guide-using-esp32)
 
 ### Research
 
