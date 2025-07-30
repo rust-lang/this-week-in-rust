@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [The Signal Protocol Explained #2: Implementing the Double Ratchet Algorithm in Rust](https://kerkour.com/signal-protocol-double-ratchet-rust)
 
 ### Research
 
