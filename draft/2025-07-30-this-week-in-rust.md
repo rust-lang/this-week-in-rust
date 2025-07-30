@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [The Design and Implementation of Extensible Variants for Rust in CGP (Extensible Data Types Part 4)](https://contextgeneric.dev/blog/extensible-datatypes-part-4/)
+
 ### Research
 
 ### Miscellaneous
