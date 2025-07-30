@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [100 Exercises to Learn Rust: RustRover Edition](https://blog.jetbrains.com/education/2025/07/28/rust-exercises-rustrover/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
