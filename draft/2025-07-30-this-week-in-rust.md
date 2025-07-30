@@ -218,12 +218,20 @@ Rusty Events between 2025-07-30 - 2025-08-27 🦀
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/307731032)
 * 2025-08-21 | Virtual (Buenos Aires, AR) | [Rust en Español](https://www.meetup.com/rust-argentina)
     * [**Agosto de Protocol Buffers!**](https://www.meetup.com/rust-argentina/events/310019573)
+* 2025-08-21 | Virtual (London, UK) | [Conf42: Online Tech Events](https://www.meetup.com/conf42/events/)
+    * [**Conf42 Rustlang 2025**](https://www.meetup.com/conf42/events/305437705)
 * 2025-08-21 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/304567875)
 * 2025-08-24 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Rust Readers Discord Discussion: Rust Atomics and Locks**](https://www.meetup.com/dallasrust/events/310002461)
 * 2025-08-26 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/305361442)
+* 2025-09-02 - 2025-09-05 | Hybrid (Seattle, WA, US) | [RustConf](https://rustconf.com/)
+    * [**RustConf 2025**](https://rustconf.com/)
+
+### Africa
+* 2025-07-23 - 2025-08-21 | Ikot Akpaden, Mkpat Enin, Akwa Ibom State, NG | [Rust Nigeria](https://x.com/RustNigeria)
+    * [**Rust Developers Training Program: Akwa Ibom State University. 21 July - 21 Aug 2025.**](https://docs.google.com/forms/d/e/1FAIpQLScQXHuFAw_Z11q0W0FZSVwQMyPSa6ReT3tW7ZUtoGbcLPBxkA/viewform)
 
 ### Europe
 * 2025-07-30 | Amsterdam, NL | [Rust Developers Amsterdam Group](https://www.meetup.com/rust-amsterdam-group)
@@ -282,12 +290,16 @@ Rusty Events between 2025-07-30 - 2025-08-27 🦀
     * [**Somerville Union Square Rust Lunch, Aug 23**](https://www.meetup.com/bostonrust/events/310106302)
 * 2025-08-27 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx)
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/310205991)
+* 2025-09-02 - 2025-09-05 | Hybrid (Seattle, WA, US) | [RustConf](https://rustconf.com/)
+    * [**RustConf 2025**](https://rustconf.com/)
 
 ### Oceania
 * 2025-08-11 | Christchurch, NZ | [Christchurch Rust Meetup Group](https://www.meetup.com/christchurch-rustlang-meetup-group)
     * [**Christchurch Rust Meetup**](https://www.meetup.com/christchurch-rustlang-meetup-group/events/308880707)
-* 2025-08-26 | Barton, AC, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra)
+* 2025-08-26 | Barton, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra)
     * [**August Meetup**](https://www.meetup.com/rust-canberra/events/308746519)
+* 2025-08-27 - 2025-08-30 | Wellington, NZ | [Rust Forge](https://rustforgeconf.com/)
+    * [**Rust Forge**](https://rustforgeconf.com/)
 
 ### South America
 * 2025-08-07 | Montevideo, UY | [Rust Meetup Uruguay](https://www.meetup.com/rust-uruguay)
