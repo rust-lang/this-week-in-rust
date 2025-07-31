@@ -53,7 +53,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [qop](https://github.com/cchexcode/qop), a standalone SQL migration tool.
+
+Thanks to [Alexander Weber](https://users.rust-lang.org/t/crate-of-the-week/2704/1454) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -112,7 +114,52 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+428 pull requests were [merged in the last week][merged]
+                
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-07-22..2025-07-29
+
+#### Compiler
+* [avoid unnecessary `new_adt`/`new_fn_def` calls](https://github.com/rust-lang/rust/pull/144425)
+* [`loop_match`: suggest extracting to a `const` item](https://github.com/rust-lang/rust/pull/143585)
+
+#### Library
+* [add `Rev::into_inner`](https://github.com/rust-lang/rust/pull/144278)
+* [str: mark unstable `round_char_boundary` feature functions as const](https://github.com/rust-lang/rust/pull/144472)
+
+#### Cargo
+* [schema: Expose `IndexPackage`, the description of a package within a Registry Index](https://github.com/rust-lang/cargo/pull/15770)
+* [allow using Cargo-as-a-library with gix's reqwest backend](https://github.com/rust-lang/cargo/pull/15653)
+* [fix: `no-proc-macro` is overridden by subsequent edges](https://github.com/rust-lang/cargo/pull/15764)
+* [timings: make graphs scalable to user's window](https://github.com/rust-lang/cargo/pull/15766)
+* [use `gix` for `cargo package`](https://github.com/rust-lang/cargo/pull/15534)
+
+#### Rustdoc
+* [rustdoc: add ways of collapsing all impl blocks](https://github.com/rust-lang/rust/pull/141663)
+
+#### Clippy
+* [`cast-lossless` should not suggest when casting type is from macro input](https://github.com/rust-lang/rust-clippy/pull/15358)
+* [correct help message for `arc_with_non_send_sync`](https://github.com/rust-lang/rust-clippy/pull/15332)
+* [detect prefixed attributes as duplicated](https://github.com/rust-lang/rust-clippy/pull/15212)
+* [fix `empty_structs_with_brackets` suggesting wrongly on generics](https://github.com/rust-lang/rust-clippy/pull/15355)
+* [fix `if_then_some_else_none` false positive when require type coercion](https://github.com/rust-lang/rust-clippy/pull/15267)
+* [fix `ip_constant` when call wrapped in extra parens](https://github.com/rust-lang/rust-clippy/pull/15339)
+* [fix `let_unit_value` suggesting wrongly for format macros](https://github.com/rust-lang/rust-clippy/pull/15085)
+* [fix `match_single_binding` wrongly handling scope](https://github.com/rust-lang/rust-clippy/pull/15060)
+* [fix `module_name_repetitions` false positive on exported macros](https://github.com/rust-lang/rust-clippy/pull/15319)
+* [fix `unused_async` false positive on function with `todo!`](https://github.com/rust-lang/rust-clippy/pull/15308)
+* [`unnecessary_map_or`: don't add parens if the parent expr…](https://github.com/rust-lang/rust-clippy/pull/15345)
+
+#### Rust-Analyzer
+* [add ide-assist: `generate_impl_trait` for `generate_impl`](https://github.com/rust-lang/rust-analyzer/pull/19938)
+* [change rename self to parameter use `Self` type](https://github.com/rust-lang/rust-analyzer/pull/20285)
+* [fix `generate_trait_from_impl` whitespace after vis](https://github.com/rust-lang/rust-analyzer/pull/20297)
+* [fix fold doc comment for multiline param list fn](https://github.com/rust-lang/rust-analyzer/pull/20302)
+* [consider all produced artifacts for proc-macro dylib search](https://github.com/rust-lang/rust-analyzer/pull/20319)
+* [fix incorrect build script version check](https://github.com/rust-lang/rust-analyzer/pull/20317)
+* [fix runnables extra env not substituting env vars](https://github.com/rust-lang/rust-analyzer/pull/20313)
+* [ignore `Destruct` bounds again](https://github.com/rust-lang/rust-analyzer/pull/20318)
+* [parse `for<'a> [const]`](https://github.com/rust-lang/rust-analyzer/pull/20281)
+* [use `TempDir` for copied lockfiles](https://github.com/rust-lang/rust-analyzer/pull/20290)
 
 ### Rust Compiler Performance Triage
 
@@ -317,7 +364,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> The same compute logic runs on all targets, written entirely in regular Rust. No shader or kernel languages are used.
+
+– [Christian Legnitto on the rust-gpu blog](https://rust-gpu.github.io/blog/2025/07/25/rust-on-every-gpu/) showing off a demo compiling Rust to all major GPU platforms + web.
+
+Despite a lack of suggestions, llogiq is remarkably pleased with his choice.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
