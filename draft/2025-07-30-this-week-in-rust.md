@@ -51,7 +51,6 @@ and just ask the editors to select the category.
 
 - [Using ESP32 as a Rust Beginner](https://rust-dd.com/post/introduction-to-embedded-systems-with-rust-a-beginner-s-guide-using-esp32)
 - [The Signal Protocol Explained #2: Implementing the Double Ratchet Algorithm in Rust](https://kerkour.com/signal-protocol-double-ratchet-rust)
-- [The Design and Implementation of Extensible Variants for Rust in CGP (Extensible Data Types Part 4)](https://contextgeneric.dev/blog/extensible-datatypes-part-4/)
 - [Vibe coding a Rust MCP proxy in VSCode with GitHub Copilot](https://awakecoding.com/posts/vibe-coding-a-rust-mcp-proxy-in-vscode-with-github-copilot/)
 - [Programming Extensible Data Types in Rust with CGP - Part 4](https://contextgeneric.dev/blog/extensible-datatypes-part-4/)
 
