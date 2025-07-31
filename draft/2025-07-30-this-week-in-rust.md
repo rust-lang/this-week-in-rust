@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Rust eBooks Nightly: always up-to-date Rust books in EPUB, AZW3, MOBI, PDF](https://artur-sulej.github.io/rust-ebooks/)
 
+- [git-cliff 2.10.0 is released! (a highly customizable changelog generator)](https://git-cliff.org/blog/2.10.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
