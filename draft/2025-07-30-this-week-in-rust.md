@@ -36,6 +36,8 @@ and just ask the editors to select the category.
 
 ### Foundation
 
+* [RustConf 2025 is Almost Here — Register Now!](https://rustfoundation.org/media/rustconf-2025-is-almost-here-register-now/)
+
 ### Newsletters
 
 ### Project/Tooling Updates
