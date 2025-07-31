@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 - [git-cliff 2.10.0 is released! (a highly customizable changelog generator)](https://git-cliff.org/blog/2.10.0)
 
+* [Nutype 0.6.2](https://github.com/greyblake/nutype/releases/tag/v0.6.2) - supports `derive_unsafe` attribute to derive arbitrary third party traits.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
@@ -263,10 +265,6 @@ Rusty Events between 2025-07-30 - 2025-08-27 🦀
     * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/305361442)
 * 2025-09-02 - 2025-09-05 | Hybrid (Seattle, WA, US) | [RustConf](https://rustconf.com/)
     * [**RustConf 2025**](https://rustconf.com/)
-
-### Africa
-* 2025-07-23 - 2025-08-21 | Ikot Akpaden, Mkpat Enin, Akwa Ibom State, NG | [Rust Nigeria](https://x.com/RustNigeria)
-    * [**Rust Developers Training Program: Akwa Ibom State University. 21 July - 21 Aug 2025.**](https://docs.google.com/forms/d/e/1FAIpQLScQXHuFAw_Z11q0W0FZSVwQMyPSa6ReT3tW7ZUtoGbcLPBxkA/viewform)
 
 ### Europe
 * 2025-07-30 | Amsterdam, NL | [Rust Developers Amsterdam Group](https://www.meetup.com/rust-amsterdam-group)
