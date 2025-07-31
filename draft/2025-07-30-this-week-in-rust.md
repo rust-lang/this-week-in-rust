@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [The Signal Protocol Explained #2: Implementing the Double Ratchet Algorithm in Rust](https://kerkour.com/signal-protocol-double-ratchet-rust)
 
 * [The Design and Implementation of Extensible Variants for Rust in CGP (Extensible Data Types Part 4)](https://contextgeneric.dev/blog/extensible-datatypes-part-4/)
 
