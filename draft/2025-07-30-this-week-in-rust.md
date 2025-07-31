@@ -32,32 +32,37 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
+
 
 ### Foundation
 
 * [RustConf 2025 is Almost Here — Register Now!](https://rustfoundation.org/media/rustconf-2025-is-almost-here-register-now/)
 
-### Newsletters
+
 
 ### Project/Tooling Updates
 * [Embedded DHT Sensor Library](https://rust-dd.com/post/building-a-rust-library-for-dht11-sensor-a-step-by-step-guide)
 * [Rust eBooks Nightly: always up-to-date Rust books in EPUB, AZW3, MOBI, PDF](https://artur-sulej.github.io/rust-ebooks/)
 * [git-cliff 2.10.0 is released! (a highly customizable changelog generator)](https://git-cliff.org/blog/2.10.0)
 * [Nutype 0.6.2](https://github.com/greyblake/nutype/releases/tag/v0.6.2) - supports `derive_unsafe` attribute to derive arbitrary third party traits.
-
+* [video] [11th Bevy Meetup - Alix - Bevy in Production: Building Modeling at ...](https://youtu.be/16r9plbAhXo?si=C6PKDIuHO86hjU-o) 
+  
 ### Observations/Thoughts
+*  [Rust Async Web Framework Performance Breakthrough(9247)](https://dev.to/member_8c78b76f/rust-async-web-framework-performance-breakthrough9247-4l22)
 
 ### Rust Walkthroughs
 * [Using ESP32 as a Rust Beginner](https://rust-dd.com/post/introduction-to-embedded-systems-with-rust-a-beginner-s-guide-using-esp32)
 * [The Signal Protocol Explained #2: Implementing the Double Ratchet Algorithm in Rust](https://kerkour.com/signal-protocol-double-ratchet-rust)
 * [The Design and Implementation of Extensible Variants for Rust in CGP (Extensible Data Types Part 4)](https://contextgeneric.dev/blog/extensible-datatypes-part-4/)
+* [Vibe coding a Rust MCP proxy in VSCode with GitHub Copilot](https://awakecoding.com/posts/vibe-coding-a-rust-mcp-proxy-in-vscode-with-github-copilot/)
+* [Programming Extensible Data Types in Rust with CGP - Part 4](https://contextgeneric.dev/blog/extensible-datatypes-part-4/)
 
-### Research
 
 ### Miscellaneous
 
 * [100 Exercises to Learn Rust: RustRover Edition](https://blog.jetbrains.com/education/2025/07/28/rust-exercises-rustrover/)
+* [Stackoverflow Survey: Rust is yet again the most admired programming language ](https://survey.stackoverflow.co/2025/technology/#admired-and-desired)
+
 
 ## Crate of the Week
 
