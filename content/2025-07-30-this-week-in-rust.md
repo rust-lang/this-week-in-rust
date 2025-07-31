@@ -34,30 +34,30 @@ and just ask the editors to select the category.
 
 ### Foundation
 
-- [RustConf 2025 is Almost Here — Register Now!](https://rustfoundation.org/media/rustconf-2025-is-almost-here-register-now/)
+* [RustConf 2025 is Almost Here — Register Now!](https://rustfoundation.org/media/rustconf-2025-is-almost-here-register-now/)
 
 ### Project/Tooling Updates
 
-- [Embedded DHT Sensor Library](https://rust-dd.com/post/building-a-rust-library-for-dht11-sensor-a-step-by-step-guide)
-- [Rust eBooks Nightly: always up-to-date Rust books in EPUB, AZW3, MOBI, PDF](https://artur-sulej.github.io/rust-ebooks/)
-- [git-cliff 2.10.0 is released! (a highly customizable changelog generator)](https://git-cliff.org/blog/2.10.0)
-- [Nutype 0.6.2](https://github.com/greyblake/nutype/releases/tag/v0.6.2) - supports `derive_unsafe` attribute to derive arbitrary third party traits.
+* [Embedded DHT Sensor Library](https://rust-dd.com/post/building-a-rust-library-for-dht11-sensor-a-step-by-step-guide)
+* [Rust eBooks Nightly: always up-to-date Rust books in EPUB, AZW3, MOBI, PDF](https://artur-sulej.github.io/rust-ebooks/)
+* [git-cliff 2.10.0 is released! (a highly customizable changelog generator)](https://git-cliff.org/blog/2.10.0)
+* [Nutype 0.6.2](https://github.com/greyblake/nutype/releases/tag/v0.6.2) - supports `derive_unsafe` attribute to derive arbitrary third party traits.
 
 ### Observations/Thoughts
 
-- [Rust Async Web Framework Performance Breakthrough(9247)](https://dev.to/member_8c78b76f/rust-async-web-framework-performance-breakthrough9247-4l22)
+* [Rust Async Web Framework Performance Breakthrough(9247)](https://dev.to/member_8c78b76f/rust-async-web-framework-performance-breakthrough9247-4l22)
 
 ### Rust Walkthroughs
 
-- [Using ESP32 as a Rust Beginner](https://rust-dd.com/post/introduction-to-embedded-systems-with-rust-a-beginner-s-guide-using-esp32)
-- [The Signal Protocol Explained #2: Implementing the Double Ratchet Algorithm in Rust](https://kerkour.com/signal-protocol-double-ratchet-rust)
-- [Vibe coding a Rust MCP proxy in VSCode with GitHub Copilot](https://awakecoding.com/posts/vibe-coding-a-rust-mcp-proxy-in-vscode-with-github-copilot/)
-- [Programming Extensible Data Types in Rust with CGP - Part 4](https://contextgeneric.dev/blog/extensible-datatypes-part-4/)
+* [Using ESP32 as a Rust Beginner](https://rust-dd.com/post/introduction-to-embedded-systems-with-rust-a-beginner-s-guide-using-esp32)
+* [The Signal Protocol Explained #2: Implementing the Double Ratchet Algorithm in Rust](https://kerkour.com/signal-protocol-double-ratchet-rust)
+* [Vibe coding a Rust MCP proxy in VSCode with GitHub Copilot](https://awakecoding.com/posts/vibe-coding-a-rust-mcp-proxy-in-vscode-with-github-copilot/)
+* [Programming Extensible Data Types in Rust with CGP - Part 4](https://contextgeneric.dev/blog/extensible-datatypes-part-4/)
 
 ### Miscellaneous
 
-- [100 Exercises to Learn Rust: RustRover Edition](https://blog.jetbrains.com/education/2025/07/28/rust-exercises-rustrover/)
-- [Stackoverflow Survey: Rust is yet again the most admired programming language ](https://survey.stackoverflow.co/2025/technology/#admired-and-desired)
+* [100 Exercises to Learn Rust: RustRover Edition](https://blog.jetbrains.com/education/2025/07/28/rust-exercises-rustrover/)
+* [Stackoverflow Survey: Rust is yet again the most admired programming language ](https://survey.stackoverflow.co/2025/technology/#admired-and-desired)
 
 ## Crate of the Week
 
@@ -381,7 +381,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1llcso7/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -397,4 +397,4 @@ _This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell)
 
 _Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)_
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1mec821/this_week_in_rust_610/)</small>
