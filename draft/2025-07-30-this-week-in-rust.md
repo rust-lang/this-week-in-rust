@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Rust eBooks Nightly: always up-to-date Rust books in EPUB, AZW3, MOBI, PDF](https://artur-sulej.github.io/rust-ebooks/)
 
 ### Observations/Thoughts
 
