@@ -212,7 +212,7 @@ which are reaching a decision. Express your opinions now.
 - [Tracking Issue for arithmetic and certain bitwise ops on `AtomicPtr`](https://github.com/rust-lang/rust/issues/99108)
 - [Add lint against dangling pointers from local variables](https://github.com/rust-lang/rust/pull/144322)
 - [`apply_member_constraints`: fix placeholder check](https://github.com/rust-lang/rust/pull/142071)
-- [Remove the `#[no_sanitize]` attribute in favor of `#[sanitize(xyz = "on|off")`]](https://github.com/rust-lang/rust/pull/142681)
+- [Remove the `#[no_sanitize]` attribute in favor of `#[sanitize(xyz = "on|off")]`](https://github.com/rust-lang/rust/pull/142681)
 - [Port `#[should_panic]` to the new attribute parsing infrastructure](https://github.com/rust-lang/rust/pull/143808)
 - [emit `StorageLive` and schedule `StorageDead` for `let` - `else`'s bindings after matching](https://github.com/rust-lang/rust/pull/143028)
 - [lower pattern bindings in the order they're written and base drop order on primary bindings' order](https://github.com/rust-lang/rust/pull/143764)
