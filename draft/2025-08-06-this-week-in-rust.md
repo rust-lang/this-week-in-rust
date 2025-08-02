@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Send More Than Device Data Over Bluetooth LE with Rust](https://medium.com/@potto_94870/send-more-than-device-data-over-bluetooth-le-with-rust-97885316b42d)
 
 ### Research
 
