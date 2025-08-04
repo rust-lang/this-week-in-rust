@@ -40,6 +40,9 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [`r3bl_tui` v0.7.3 released](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.7.3-tui)
+* [`r3bl-cmdr` v0.0.21 released](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.0.21-cmdr)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
