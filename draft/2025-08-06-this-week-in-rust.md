@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Optimizing Rust Builds with Target Flags](https://ianwwagner.com/til/optimizing-rustc-target-features)
+
 ### Research
 
 ### Miscellaneous
