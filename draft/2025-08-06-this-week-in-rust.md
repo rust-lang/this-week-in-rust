@@ -52,7 +52,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [saphyr](https://crates.io/crates/saphyr), an actively maintained fork of yaml-rust.
+
+Thanks to [Félix Saparelli](https://users.rust-lang.org/t/crate-of-the-week/2704/1458) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -137,7 +139,52 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+406 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-07-29..2025-08-05
+
+#### Compiler
+* [complete span AST lowering](https://github.com/rust-lang/rust/pull/144557)
+* [expand WF obligations when checking method calls](https://github.com/rust-lang/rust/pull/144704)
+* [optimize region constraints](https://github.com/rust-lang/rust/pull/144446)
+* [perform `check_private_in_public` by module](https://github.com/rust-lang/rust/pull/144479)
+
+#### Library
+* [add `core::mem::DropGuard`](https://github.com/rust-lang/rust/pull/144236)
+* [constify `with_exposed_provenance`](https://github.com/rust-lang/rust/pull/144539)
+* [constify some more `Result` functions](https://github.com/rust-lang/rust/pull/143771)
+* [mark `slice::swap_with_slice` unstably const](https://github.com/rust-lang/rust/pull/142205)
+* [implement `push_mut`](https://github.com/rust-lang/rust/pull/135975)
+* [implement `hash_map` macro](https://github.com/rust-lang/rust/pull/144070)
+* [implementation: `#[feature(sync_nonpoison)]`, `#[feature(nonpoison_mutex)]`](https://github.com/rust-lang/rust/pull/144022)
+
+#### Rustdoc
+* [Display total time and compilation time of merged doctests](https://github.com/rust-lang/rust/pull/144308)
+* [Display unsafe attrs with edition 2024 `unsafe()` wrappers](https://github.com/rust-lang/rust/pull/143662)
+
+#### Clippy
+* [`{flat_,}map_identity`: recognize (tuple) `struct` de- and restructuring](https://github.com/rust-lang/rust-clippy/pull/15261)
+* [extend `implicit_clone` to handle `to_string` calls](https://github.com/rust-lang/rust-clippy/pull/14177)
+* [fix `iter_on_single_items` false positive on function pointers and let stmts](https://github.com/rust-lang/rust-clippy/pull/15013)
+* [fix `min_ident_chars`: ignore on trait impl](https://github.com/rust-lang/rust-clippy/pull/15275)
+* [fix `search_is_some` suggests wrongly inside macro](https://github.com/rust-lang/rust-clippy/pull/15135)
+* [fix not showing deprecated lints](https://github.com/rust-lang/rust-clippy/pull/15407)
+* [fix option-if-let-else lint](https://github.com/rust-lang/rust-clippy/pull/15394)
+* [`let_with_type_underscore`: don't eat closing paren in `let (i): _ = 0;`](https://github.com/rust-lang/rust-clippy/pull/15386)
+* [optimize `broken_links` by 99.77%](https://github.com/rust-lang/rust-clippy/pull/15385)
+* [optimize some usages of `!!` and `--` in suggestions](https://github.com/rust-lang/rust-clippy/pull/15366)
+* [simplify boolean expression in `manual_assert`](https://github.com/rust-lang/rust-clippy/pull/15368)
+* [split `possible_missing_else` from `suspicious_else_formatting`](https://github.com/rust-lang/rust-clippy/pull/15317)
+
+#### Rust-Analyzer
+* [when renaming a parameter to `self`, change callers to use method call syntax](https://github.com/rust-lang/rust-analyzer/pull/20351)
+* [fix gen panics doc template for `debug_assert`](https://github.com/rust-lang/rust-analyzer/pull/20300)
+* [correctly goto `From` impl when on `into()` even when the call is inside a macro](https://github.com/rust-lang/rust-analyzer/pull/20382)
+* [do not require all rename definitions to be renameable](https://github.com/rust-lang/rust-analyzer/pull/20333)
+* [in `generate_mut_trait_impl,` don't add a tabstop if the client does not support snippets](https://github.com/rust-lang/rust-analyzer/pull/20336)
+* [when displaying a projection into a type parameter that has bounds as `impl Trait`, collect only the bounds of this projection](https://github.com/rust-lang/rust-analyzer/pull/20337)
+* [improve settings tree title and descriptions](https://github.com/rust-lang/rust-analyzer/pull/20154)
+* [reorganize proc-macro-srv more, add `--format` and `--version` args](https://github.com/rust-lang/rust-analyzer/pull/20342)
 
 ### Rust Compiler Performance Triage
 
@@ -335,7 +382,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> In addition to rewriting the tools in Rust, a safer language, some little-used features of sudo were not implemented in order to reduce vulnerability surface area. This turned out to be meaningful in July of 2025 when two vulnerabilities (..) were discovered in sudo features not implemented in sudo-rs. In response to one of those, sudo has deprecated and will remove the feature hosting the vulnerability.
+
+– [Josh Aas on the prossimo blog](https://www.memorysafety.org/blog/sudo-rs-headed-to-ubuntu)
+
+Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1708) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
