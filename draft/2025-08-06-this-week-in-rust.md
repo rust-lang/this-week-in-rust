@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [You Are The BIOS Now: How To Build A Hypervisor In Rust With KVM](https://yeet.cx/blog/you-are-the-bios-now)
+
 ### Research
 
 ### Miscellaneous
