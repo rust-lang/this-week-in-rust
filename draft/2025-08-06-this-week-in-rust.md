@@ -165,7 +165,23 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+
+Overall positive week, but most of the changes are in very small incremental scenarios.
+
+Triage done by **@panstromek**.
+Revision range: [e3514bde..07b7dc90](https://perf.rust-lang.org/?start=e3514bde96d2d13586337a48db77fa64b850d249&end=07b7dc90ee4df5815dbb91ef8e98cb93571230f5&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.4%  | [0.2%, 1.0%]   | 28    |
+| Regressions ❌ <br /> (secondary)  | 0.7%  | [0.0%, 2.8%]   | 29    |
+| Improvements ✅ <br /> (primary)   | -0.5% | [-2.7%, -0.1%] | 95    |
+| Improvements ✅ <br /> (secondary) | -0.9% | [-9.2%, -0.0%] | 62    |
+| All ❌✅ (primary)                 | -0.3% | [-2.7%, 1.0%]  | 123   |
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/603527a3a03aeda30c72a4ce60b9999a0ecfc71c/triage/2025/2025-08-04.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
