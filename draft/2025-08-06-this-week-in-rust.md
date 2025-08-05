@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 ### Research
 
+* [The Generativity Pattern in Rust](https://arhan.sh/blog/the-generativity-pattern-in-rust)
+
 ### Miscellaneous
 
 ## Crate of the Week
