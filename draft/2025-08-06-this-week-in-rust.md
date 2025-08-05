@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [Build with Naz : Claude code + Rust profiling and perf](https://www.youtube.com/watch?v=7iLMdNc-zOs)
+
 ### Research
 
 ### Miscellaneous
