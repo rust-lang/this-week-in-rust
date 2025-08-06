@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [How Rust Helped Me Write Better Code](https://forgestream.idverse.com/blog/20250805-how-rust-helped-me-write-better-code/)
+
 ### Rust Walkthroughs
 
 ### Research
