@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing ChaCha12-BLAKE3: Secure, Simple and Fast encryption for any CPU](https://kerkour.com/chacha12-blake3)
 * [`r3bl_tui` v0.7.3 released](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.7.3-tui)
 * [`r3bl-cmdr` v0.0.21 released](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.0.21-cmdr)
 * [Rama 0.3.0-alpha.2 — Crypto, ACME, and Better Connection Pools](https://github.com/plabayo/rama/discussions/657)
