@@ -65,6 +65,8 @@ and just ask the editors to select the category.
 
 * [video] [Build with Naz: Claude code + Rust profiling and perf](https://www.youtube.com/watch?v=7iLMdNc-zOs)
 
+* [Optimizing Rust Builds with Target Flags](https://ianwwagner.com/til/optimizing-rustc-target-features)
+
 ### Research
 
 ### Miscellaneous
