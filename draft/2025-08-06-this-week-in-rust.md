@@ -37,6 +37,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #51](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-51)
 
 ### Project/Tooling Updates
 * [GCC Front-End For Rust - July 2025 Monthly Report](https://rust-gcc.github.io/2025/08/05/2025-07-monthly-report.html)
