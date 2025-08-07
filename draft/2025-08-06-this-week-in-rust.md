@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 * [`r3bl_tui` v0.7.3 released](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.7.3-tui)
 * [`r3bl-cmdr` v0.0.21 released](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.0.21-cmdr)
 * [Rama 0.3.0-alpha.2 — Crypto, ACME, and Better Connection Pools](https://github.com/plabayo/rama/discussions/657)
+* [Meilisearch 1.16 — multi-modal embeddings and direct migration API](https://www.meilisearch.com/blog/meilisearch-1-16)
 
 ### Observations/Thoughts
 * [How I Make 3D Games](https://www.youtube.com/watch?v=hAWv6AJ8M-Y)
