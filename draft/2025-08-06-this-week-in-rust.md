@@ -63,6 +63,8 @@ and just ask the editors to select the category.
 * [building a simple hash map](https://viniciusx.com/blog/building-a-hash-map/)
 * [An Easy Problem Made Hard: Rust & Binary Trees](https://mmhaskell.com/blog/2025/8/4/an-easy-problem-made-hard-rust-amp-binary-trees)
 
+* [video] [Build with Naz: Claude code + Rust profiling and perf](https://www.youtube.com/watch?v=7iLMdNc-zOs)
+
 ### Research
 
 ### Miscellaneous
