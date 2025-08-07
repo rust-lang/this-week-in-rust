@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 
 ### Newsletters
 * [The Embedded Rustacean Issue #51](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-51)
+* [Bioinformatics in Rust #2](https://dawnandrew100.github.io/seq.rs/posts/2025/august/)
 
 ### Project/Tooling Updates
 * [GCC Front-End For Rust - July 2025 Monthly Report](https://rust-gcc.github.io/2025/08/05/2025-07-monthly-report.html)
