@@ -56,6 +56,8 @@ and just ask the editors to select the category.
 * [The Generativity Pattern in Rust](https://arhan.sh/blog/the-generativity-pattern-in-rust/)
 * [The Complexities of Rust Async Streams](https://swatinem.de/blog/rust-async-streams/)
 
+* [How Rust Helped Me Write Better Code](https://forgestream.idverse.com/blog/20250805-how-rust-helped-me-write-better-code/)
+
 ### Rust Walkthroughs
 * [building a simple hash map](https://viniciusx.com/blog/building-a-hash-map/)
 * [An Easy Problem Made Hard: Rust & Binary Trees](https://mmhaskell.com/blog/2025/8/4/an-easy-problem-made-hard-rust-amp-binary-trees)
