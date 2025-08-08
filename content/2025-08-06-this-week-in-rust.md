@@ -249,8 +249,6 @@ Let us know if you would like your PRs, Tracking Issues or RFCs to be tracked as
 
 Rusty Events between 2025-08-06 * 2025-09-03 🦀
 
-// TODO change the - to * 
-
 ### Virtual
 
 * 2025-08-06 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
