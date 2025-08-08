@@ -115,7 +115,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 [arcadia - collage creation](https://github.com/Arcadia-Solutions/arcadia/issues/71)
+
 [arcadia - retrieve collage data](https://github.com/Arcadia-Solutions/arcadia/issues/73)
+
 [arcadia - API scraper for TVDB](https://github.com/Arcadia-Solutions/arcadia/issues/6)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
