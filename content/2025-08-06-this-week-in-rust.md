@@ -45,12 +45,12 @@ and just ask the editors to select the category.
 * [Meilisearch 1.16 — multi-modal embeddings and direct migration API](https://www.meilisearch.com/blog/meilisearch-1-16)
 
 ### Observations/Thoughts
-* [How I Make 3D Games](https://www.youtube.com/watch?v=hAWv6AJ8M-Y)
+* [video] [How I Make 3D Games](https://www.youtube.com/watch?v=hAWv6AJ8M-Y)
 * [Injecting Java from native libraries on Android](https://octet-stream.net/b/scb/2025-08-03-injecting-java-from-native-libraries-on-android.html)
 * [You Are The BIOS Now: Building A Hypervisor In Rust With KVM](https://yeet.cx/blog/you-are-the-bios-now)
 * [Opsqueue: lightweight batch processing queue for heavy loads](https://www.channable.com/tech/introducing-opsqueue)
 * [Rust, Python, and TypeScript: the new trifecta](https://smallcultfollowing.com/babysteps/blog/2025/07/31/rs-py-ts-trifecta/)
-* [Vibe coding complex changes in Rust](https://www.youtube.com/watch?v=EL7Au1tzNxE)
+* [video] [Vibe coding complex changes in Rust](https://www.youtube.com/watch?v=EL7Au1tzNxE)
 * [The Generativity Pattern in Rust](https://arhan.sh/blog/the-generativity-pattern-in-rust/)
 * [The Complexities of Rust Async Streams](https://swatinem.de/blog/rust-async-streams/)
 * [How Rust Helped Me Write Better Code](https://forgestream.idverse.com/blog/20250805-how-rust-helped-me-write-better-code/)
