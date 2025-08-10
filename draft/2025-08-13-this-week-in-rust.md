@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+[TangleGuard: Software Architecture Monitoring exclusively for Rust](https://tangleguard.com/)
 
 ### Observations/Thoughts
 
