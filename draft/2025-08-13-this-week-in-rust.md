@@ -298,7 +298,7 @@ Rusty Events between 2025-08-13 - 2025-09-10 🦀
     * [**Beacon Hill Rust Lunch, Sep 6**](https://www.meetup.com/bostonrust/events/310106310)
 
 ### Oceania
-* 2025-08-26 | Barton, AC, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra)
+* 2025-08-26 | Barton, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra)
     * [**August Meetup**](https://www.meetup.com/rust-canberra/events/308746519)
 * 2025-08-27 - 2025-08-30 | Wellington, NZ | [Rust Forge](https://rustforgeconf.com/)
     * [**Rust Forge**](https://rustforgeconf.com/)
