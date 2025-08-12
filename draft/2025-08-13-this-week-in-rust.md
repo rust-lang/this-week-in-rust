@@ -136,7 +136,25 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This week saw almost no regressions, while we got some nice wins. One of them was [#143684](https://github.com/rust-lang/rust/pull/143684), which updated the LLVM version used by the Rust compiler to 21.
+
+Triage done by **@kobzol**.
+Revision range: [07b7dc90..6355cd39](https://perf.rust-lang.org/?start=07b7dc90ee4df5815dbb91ef8e98cb93571230f5&end=6355cd39c81e9699b1925c58d2ed3165bcab1715&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.5%  | [0.2%, 0.8%]    | 3     |
+| Regressions ❌ <br /> (secondary)  | 0.7%  | [0.1%, 1.5%]    | 8     |
+| Improvements ✅ <br /> (primary)   | -1.5% | [-22.8%, -0.2%] | 219   |
+| Improvements ✅ <br /> (secondary) | -2.9% | [-18.8%, -0.1%] | 256   |
+| All ❌✅ (primary)                 | -1.5% | [-22.8%, 0.8%]  | 222   |
+
+2 Regressions, 2 Improvements, 9 Mixed; 5 of them in rollups
+37 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/bd5a0abbedd81c0dcc604f1b79f7f9e1f02e8139/triage/2025/2025-08-12.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
