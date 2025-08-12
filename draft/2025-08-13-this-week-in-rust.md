@@ -190,12 +190,6 @@ which are reaching a decision. Express your opinions now.
 Rusty Events between 2025-08-13 - 2025-09-10 🦀
 
 ### Virtual
-* 2025-08-06 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
-    * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/309997055)
-* 2025-08-10 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
-    * [**Rust Readers Discord Discussion: Rust Atomics and Locks**](https://www.meetup.com/dallasrust/events/310002457)
-* 2025-08-12 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
-    * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/305361531)
 * 2025-08-14 | Hybrid (Seattle, WA, US) | [Seattle Rust User Group](https://www.meetup.com/join-srug)
     * [**August, 2025 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/seattle-rust-user-group/events/307698880)
 * 2025-08-14 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
@@ -234,14 +228,6 @@ Rusty Events between 2025-08-13 - 2025-09-10 🦀
     * [**August 2025 Rustacean meetup**](https://hasgeek.com/rustbangalore/august-2025-rustacean-meetup/)
 
 ### Europe
-* 2025-08-06 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
-    * [**Rust Girona Hack & Learn 08 2025**](https://lu.ma/eoydaar9)
-* 2025-08-06 | Köln, DE | [Rust Cologne](https://www.meetup.com/rust-cologne-bonn/events/)
-    * [**Rust in August: Intro to Rust and Dependency Tooling**](https://www.meetup.com/rustcologne/events/310279256)
-* 2025-08-06 | Oxford, UK | [Oxford ACCU/Rust Meetup.](https://www.meetup.com/oxford-rust-meetup-group)
-    * [**Alastair Harrison: Version control for the agentic age.**](https://www.meetup.com/oxford-rust-meetup-group/events/310101048)
-* 2025-08-07 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
-    * [**Rust Berlin on location 🏳️‍🌈 - Edition 005**](https://www.meetup.com/rust-berlin/events/310308105)
 * 2025-08-13 | Cambridge, UK | [Cambridge Rust Meetup](https://www.meetup.com/cambridge-rust-meetup)
     * [**Monthly Rust Meetup**](https://www.meetup.com/cambridge-rust-meetup/events/310014719)
 * 2025-08-13 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop)
@@ -260,18 +246,6 @@ Rusty Events between 2025-08-13 - 2025-09-10 🦀
     * [**Ferris' Fika Forum #16**](https://www.meetup.com/stockholm-rust/events/310322522/)
 
 ### North America
-* 2025-08-07 | Montréal, QC, CA | [Rust Montréal](https://www.meetup.com/rust-montreal)
-    * [**August Monthly Social**](https://www.meetup.com/rust-montreal/events/310259905)
-* 2025-08-07 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
-    * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/310030338)
-* 2025-08-07 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust)
-    * [**macros!**](https://www.meetup.com/stl-rust/events/306648747)
-* 2025-08-08 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust)
-    * [**Northeastern Rust Lunch, Aug 8**](https://www.meetup.com/bostonrust/events/310106298)
-* 2025-08-12 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/events/)
-    * [**Rust NYC: Rust + Gametank & a Gentle Introduction To Optimization**](https://www.meetup.com/rust-nyc/events/310279438)
-* 2025-08-12 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group)
-    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/308284338)
 * 2025-08-14 | Hybrid (Seattle, WA, US) | [Seattle Rust User Group](https://www.meetup.com/join-srug)
     * [**August, 2025 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/seattle-rust-user-group/events/307698880)
 * 2025-08-14 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust)
@@ -294,16 +268,12 @@ Rusty Events between 2025-08-13 - 2025-09-10 🦀
     * [**RustConf 2025**](https://rustconf.com/)
 
 ### Oceania
-* 2025-08-11 | Christchurch, NZ | [Christchurch Rust Meetup Group](https://www.meetup.com/christchurch-rustlang-meetup-group)
-    * [**Christchurch Rust Meetup**](https://www.meetup.com/christchurch-rustlang-meetup-group/events/308880707)
 * 2025-08-26 | Barton, AC, AU | [Canberra Rust User Group (CRUG)](https://www.meetup.com/rust-canberra)
     * [**August Meetup**](https://www.meetup.com/rust-canberra/events/308746519)
 * 2025-08-27 - 2025-08-30 | Wellington, NZ | [Rust Forge](https://rustforgeconf.com/)
     * [**Rust Forge**](https://rustforgeconf.com/)
 
 ### South America
-* 2025-08-07 | Montevideo, UY | [Rust Meetup Uruguay](https://www.meetup.com/rust-uruguay)
-    * [**Rust Uruguay meetup de Agosto**](https://www.meetup.com/rust-uruguay/events/310004109)
 * 2025-08-21 | Buenos Aires, AR | [Rust en Español](https://www.meetup.com/rust-argentina/events/)
     * [**Agosto de Protocol Buffers!**](https://www.meetup.com/rust-argentina/events/310019573)
 
