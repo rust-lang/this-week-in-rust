@@ -27,9 +27,10 @@ Each submitted link should be of the form:
 
 * [Title of the linked Page](https://example.com/my_article)
 
-If you add a link to a non-text content please prefix it with `[video]` or `[podcast]`:
+If you add a link to a non-text content please prefix it with `[video]` or `[audio]`:
 
 * [video] [Title of the linked video](https://example.com/my_video_article)
+* [audio] [Title of the linked audio file](https://example.com/my_podcast)
 
 If you don't know which category to use, feel free to submit a PR anyway
 and just ask the editors to select the category.
