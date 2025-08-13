@@ -41,7 +41,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [TangleGuard: Software Architecture Monitoring exclusively for Rust](https://tangleguard.com/)
 * [redb v3.0.0 - pure Rust embedded key-value store](https://github.com/cberner/redb/releases/tag/v3.0.0)
-* [serde-ply - Modern serde (de)serializer for Ply files](https://github.com/ArthurBrussee/serde_ply)
+* [serde-ply - Modern serde (de)serializer for Ply files]([https://github.com/ArthurBrussee/serde_ply](https://www.reddit.com/r/rust/comments/1mp147s/serdeply_modern_speed_convenience_for_a_90s_format/))
 
 ### Observations/Thoughts
 * [Building an asynchronous FUSE Filesystem in Rust](https://r2cn.dev/blog/building-an-asynchronous-fuse-filesystem-in-rust)
