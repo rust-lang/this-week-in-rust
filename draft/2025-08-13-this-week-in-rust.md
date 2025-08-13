@@ -33,28 +33,31 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.89.0 | Rust Blog](https://blog.rust-lang.org/2025/08/07/Rust-1.89.0/)
 
-### Foundation
-
-### Newsletters
 
 ### Project/Tooling Updates
 * [TangleGuard: Software Architecture Monitoring exclusively for Rust](https://tangleguard.com/)
 * [redb v3.0.0 - pure Rust embedded key-value store](https://github.com/cberner/redb/releases/tag/v3.0.0)
+* [Bevy's Fifth Birthday](https://bevy.org/news/bevys-fifth-birthday/)
+* [warp v0.4](https://seanmonstar.com/blog/warp-v04/)
 
 ### Observations/Thoughts
 * [Building an asynchronous FUSE Filesystem in Rust](https://r2cn.dev/blog/building-an-asynchronous-fuse-filesystem-in-rust)
 * [Nine Rules for Generalizing Your Rust Library: Lessons from Extending RangeSetBlaze to Maps (Part 1)](https://medium.com/@carlmkadie/nine-rules-for-generalizing-your-rust-library-part-1-9f2b08fb5df4)
+* [Send/Sync Secret That Separates Professional From Amateur](https://blog.cuongle.dev/p/this-sendsync-secret-separates-professional-and-amateur)
+* [hyper HTTP/2 (Didn't) MadeYouReset](https://seanmonstar.com/blog/hyper-http2-didnt-madeyoureset/)
+* [video] [BaM #29 - Improving the Rust embedded firmware](https://www.youtube.com/live/5Ca6pQQB-mg?si=yHFQMsDbHEXEfpig)
+* [video] [David Sankel – Rust and C++ Interop](https://www.youtube.com/watch?v=xihX4RzStYk)
 
 * [Are we Teaching Rust Effectively?](https://blog.kodewerx.org/2025/08/are-we-teaching-rust-effectively.html)
 
 ### Rust Walkthroughs
 
 * [Build with Naz: Capturing Real-Time Build Progress from Cargo Using PTY and OSC Sequences](https://developerlife.com/2025/08/10/pty-rust-osc-seq/)
+* [Converting FunctionTrace from C to Rust](https://programsareproofs.com/articles/functiontrace-rust-conversion/)
+* [video] [Message framing in Rust and Iroh](https://www.youtube.com/watch?v=h6bBLbcj4Vg)
 
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
