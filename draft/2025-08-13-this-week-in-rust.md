@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Nine Rules for Generalizing Your Rust Library: Lessons from Extending RangeSetBlaze to Maps (Part 1)](https://medium.com/@carlmkadie/nine-rules-for-generalizing-your-rust-library-part-1-9f2b08fb5df4)
+
 ### Rust Walkthroughs
 
 * [Build with Naz: Capturing Real-Time Build Progress from Cargo Using PTY and OSC Sequences](https://developerlife.com/2025/08/10/pty-rust-osc-seq/)
