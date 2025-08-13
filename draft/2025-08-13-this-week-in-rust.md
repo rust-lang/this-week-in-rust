@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [TangleGuard: Software Architecture Monitoring exclusively for Rust](https://tangleguard.com/)
 * [redb v3.0.0 - pure Rust embedded key-value store](https://github.com/cberner/redb/releases/tag/v3.0.0)
+* [wrkflw v0.7.0 - run and validate github actions locally](https://github.com/bahdotsh/wrkflw/releases/tag/v0.7.0)
+
 
 ### Observations/Thoughts
 * [Building an asynchronous FUSE Filesystem in Rust](https://r2cn.dev/blog/building-an-asynchronous-fuse-filesystem-in-rust)
