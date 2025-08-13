@@ -33,31 +33,38 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.89.0 | Rust Blog](https://blog.rust-lang.org/2025/08/07/Rust-1.89.0/)
 
-### Foundation
-
-### Newsletters
 
 ### Project/Tooling Updates
 * [TangleGuard: Software Architecture Monitoring exclusively for Rust](https://tangleguard.com/)
 * [redb v3.0.0 - pure Rust embedded key-value store](https://github.com/cberner/redb/releases/tag/v3.0.0)
 * [serde-ply - Modern serde (de)serializer for Ply files]([https://github.com/ArthurBrussee/serde_ply](https://www.reddit.com/r/rust/comments/1mp147s/serdeply_modern_speed_convenience_for_a_90s_format/))
+* [Bevy's Fifth Birthday](https://bevy.org/news/bevys-fifth-birthday/)
+* [warp v0.4](https://seanmonstar.com/blog/warp-v04/)
 
 ### Observations/Thoughts
 * [Building an asynchronous FUSE Filesystem in Rust](https://r2cn.dev/blog/building-an-asynchronous-fuse-filesystem-in-rust)
 * [Nine Rules for Generalizing Your Rust Library: Lessons from Extending RangeSetBlaze to Maps (Part 1)](https://medium.com/@carlmkadie/nine-rules-for-generalizing-your-rust-library-part-1-9f2b08fb5df4)
+* [Send/Sync Secret That Separates Professional From Amateur](https://blog.cuongle.dev/p/this-sendsync-secret-separates-professional-and-amateur)
+* [hyper HTTP/2 (Didn't) MadeYouReset](https://seanmonstar.com/blog/hyper-http2-didnt-madeyoureset/)
+* [video] [BaM #29 - Improving the Rust embedded firmware](https://www.youtube.com/live/5Ca6pQQB-mg?si=yHFQMsDbHEXEfpig)
+* [video] [David Sankel – Rust and C++ Interop](https://www.youtube.com/watch?v=xihX4RzStYk)
+
+* [Are we Teaching Rust Effectively?](https://blog.kodewerx.org/2025/08/are-we-teaching-rust-effectively.html)
 
 ### Rust Walkthroughs
 
 * [Build with Naz: Capturing Real-Time Build Progress from Cargo Using PTY and OSC Sequences](https://developerlife.com/2025/08/10/pty-rust-osc-seq/)
+* [Converting FunctionTrace from C to Rust](https://programsareproofs.com/articles/functiontrace-rust-conversion/)
+* [video] [Message framing in Rust and Iroh](https://www.youtube.com/watch?v=h6bBLbcj4Vg)
 
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [MOMA](https://crates.io/crates/moma), a framework for Moving Origin Modular Arithmetic, with applications in number theory, cryptography and bioinformatics.
+
+Thanks to [Neil Crago](https://users.rust-lang.org/t/crate-of-the-week/2704/1462) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -118,7 +125,61 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+464 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-08-05..2025-08-12
+
+ #### Compiler
+* [account for bare tuples and `Pin` methods in field searching logic](https://github.com/rust-lang/rust/pull/144649)
+* [detect `struct` construction with private field in field with default](https://github.com/rust-lang/rust/pull/135846)
+* [emit `StorageLive` and schedule `StorageDead` for `let`-`else`'s bindings after matching](https://github.com/rust-lang/rust/pull/143028)
+* [enforce tail call type is related to body return type in borrowck](https://github.com/rust-lang/rust/pull/144917)
+* [fortify generic param default checks](https://github.com/rust-lang/rust/pull/144977)
+* [implement `stability_implications` without a visitor](https://github.com/rust-lang/rust/pull/144873)
+* [implement declarative (`macro_rules!`) attribute macros](https://github.com/rust-lang/rust/pull/144579) (RFC [#3697](https://rust-lang.github.io/rfcs/3697-declarative-attribute-macros.html))
+* [improve suggestion for "missing function argument" on multiline call](https://github.com/rust-lang/rust/pull/144966)
+* [mark all deprecation lints in name resolution as deny-by-default and report-in-deps](https://github.com/rust-lang/rust/pull/143929)
+* [parser: recover from attributes applied to types and generic args](https://github.com/rust-lang/rust/pull/144195)
+* [recover `for PAT = EXPR {}`](https://github.com/rust-lang/rust/pull/145124)
+* [preserve the `.debug_gdb_scripts` section](https://github.com/rust-lang/rust/pull/143679)
+* [simplify dead code lint](https://github.com/rust-lang/rust/pull/144863)
+* [upgrade `semicolon_in_expressions_from_macros` from warn to deny](https://github.com/rust-lang/rust/pull/144369)
+ #### Library
+* [stabilize `duration_constructors_lite` feature](https://github.com/rust-lang/rust/pull/145135)
+* [stabilize `panic_payload_as_str` feature](https://github.com/rust-lang/rust/pull/144861)
+* [stabilize `strict_overflow_ops`](https://github.com/rust-lang/rust/pull/144682)
+* [stabilize `unsigned_signed_diff` feature](https://github.com/rust-lang/rust/pull/144900)
+* [stabilize const `TypeId::of`](https://github.com/rust-lang/rust/pull/144133)
+* [stabilize loongarch32 inline asm](https://github.com/rust-lang/rust/pull/144402)
+* [constify remaining traits/impls for `const_ops`](https://github.com/rust-lang/rust/pull/143949)
+* [implement `continue_ok` and `break_ok` for ControlFlow](https://github.com/rust-lang/rust/pull/140267)
+* [optimize `char::is_alphanumeric`](https://github.com/rust-lang/rust/pull/145027)
+* [print thread ID in panic message](https://github.com/rust-lang/rust/pull/115746)
+* [`std::sys::io::io_slice`: Add UEFI types](https://github.com/rust-lang/rust/pull/144350)
+ #### Cargo
+* [accessing each build script's `OUT_DIR` and in the correct order](https://github.com/rust-lang/cargo/pull/15776)
+ #### Rustdoc
+* [search: prefer stable items in search results](https://github.com/rust-lang/rust/pull/141658)
+* [fix caching of intra-doc links on reexports](https://github.com/rust-lang/rust/pull/144970)
+ #### Clippy
+* [fix `infinite_loop` positive](https://github.com/rust-lang/rust-clippy/pull/15157)
+* [do not attempt to compute size of a type with escaping lifetimes](https://github.com/rust-lang/rust-clippy/pull/15434)
+* [do not lint for `wildcard_imports` in external macro](https://github.com/rust-lang/rust-clippy/pull/15413)
+* [fix `&str` type check in `from_str_radix_10`](https://github.com/rust-lang/rust-clippy/pull/15410)
+* [fix suggestion for `collapsible_if` and `collapsible_else_if` when the inner `if` is enclosed in parentheses](https://github.com/rust-lang/rust-clippy/pull/15304)
+* [move `cognitive_complexity` lint from `nursery` to `restriction`](https://github.com/rust-lang/rust-clippy/pull/15415)
+* [move `crosspointer_transmute` from `complexity` to `suspicious`](https://github.com/rust-lang/rust-clippy/pull/15403)
+* [optimize `incompatible_msrv` lint](https://github.com/rust-lang/rust-clippy/pull/15422)
+* [optimize `needless_bool` lint](https://github.com/rust-lang/rust-clippy/pull/15423)
+* [reuse previous `Vec` allocation in loop](https://github.com/rust-lang/rust-clippy/pull/15428)
+ #### Rust-Analyzer
+* [add assignment type analysis for ide-completion](https://github.com/rust-lang/rust-analyzer/pull/20381)
+* [add remove literal dbg stmt for `remove_dbg`](https://github.com/rust-lang/rust-analyzer/pull/20354)
+* [add write! and writeln! to minicore](https://github.com/rust-lang/rust-analyzer/pull/20409)
+* [fix `extract_expressions_from_format_string` on write!](https://github.com/rust-lang/rust-analyzer/pull/20418)
+* [fix non-lsp compliant `Response` definition](https://github.com/rust-lang/rust-analyzer/pull/20393)
+* [fix panic while trying to clear old diagnostics while there's nothing](https://github.com/rust-lang/rust-analyzer/pull/20434)
+* [parser: fix parsing of trait bound polarity and for-binders](https://github.com/rust-lang/rust-analyzer/pull/20417)
 
 ### Rust Compiler Performance Triage
 
@@ -326,7 +387,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> * solid performance and tools to optimize it further: because the easy thing is generally Fast Enough, it's quick to develop features even in a perf-sensitive project
+
+– [Alice I Cecile on /r/rust](https://www.reddit.com/r/rust/comments/1mn9plk/bevys_fifth_birthday/n85mol9/)
+
+Despite a lack of suggestions, llogiq is feeling pretty good about his choice.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
