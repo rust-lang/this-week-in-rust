@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 * [Building an asynchronous FUSE Filesystem in Rust](https://r2cn.dev/blog/building-an-asynchronous-fuse-filesystem-in-rust)
 * [Nine Rules for Generalizing Your Rust Library: Lessons from Extending RangeSetBlaze to Maps (Part 1)](https://medium.com/@carlmkadie/nine-rules-for-generalizing-your-rust-library-part-1-9f2b08fb5df4)
-* [This Send/Sync Secret Separates Professional From Amateur Rust Deve...](https://blog.cuongle.dev/p/this-sendsync-secret-separates-professional-and-amateur)
+* [Send/Sync Secret That Separates Professional From Amateur](https://blog.cuongle.dev/p/this-sendsync-secret-separates-professional-and-amateur)
 * [hyper HTTP/2 (Didn't) MadeYouReset](https://seanmonstar.com/blog/hyper-http2-didnt-madeyoureset/)
 * [video] [BaM #29 - Improving the Rust embedded firmware](https://www.youtube.com/live/5Ca6pQQB-mg?si=yHFQMsDbHEXEfpig)
 * [video] [David Sankel – Rust and C++ Interop](https://www.youtube.com/watch?v=xihX4RzStYk)
