@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [TangleGuard: Software Architecture Monitoring exclusively for Rust](https://tangleguard.com/)
 * [redb v3.0.0 - pure Rust embedded key-value store](https://github.com/cberner/redb/releases/tag/v3.0.0)
 
 ### Observations/Thoughts
