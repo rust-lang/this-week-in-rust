@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 * [video] [David Sankel – Rust and C++ Interop](https://www.youtube.com/watch?v=xihX4RzStYk)
 
 ### Rust Walkthroughs
+* [Lessons learned from implementing SIMD-accelerated algorithms (ChaCha20 / ChaCha12) in pure Rust](https://kerkour.com/rust-simd)
 * [Build with Naz: Capturing Real-Time Build Progress from Cargo Using PTY and OSC Sequences](https://developerlife.com/2025/08/10/pty-rust-osc-seq/)
 * [Converting FunctionTrace from C to Rust](https://programsareproofs.com/articles/functiontrace-rust-conversion/)
 * [video] [Message framing in Rust and Iroh](https://www.youtube.com/watch?v=h6bBLbcj4Vg)
