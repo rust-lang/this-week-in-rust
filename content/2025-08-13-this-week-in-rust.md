@@ -59,7 +59,6 @@ and just ask the editors to select the category.
 * [Converting FunctionTrace from C to Rust](https://programsareproofs.com/articles/functiontrace-rust-conversion/)
 * [video] [Message framing in Rust and Iroh](https://www.youtube.com/watch?v=h6bBLbcj4Vg)
 
-
 ## Crate of the Week
 
 This week's crate is [MOMA](https://crates.io/crates/moma), a framework for Moving Origin Modular Arithmetic, with applications in number theory, cryptography and bioinformatics.
@@ -129,7 +128,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-08-05..2025-08-12
 
- #### Compiler
+#### Compiler
 * [account for bare tuples and `Pin` methods in field searching logic](https://github.com/rust-lang/rust/pull/144649)
 * [detect `struct` construction with private field in field with default](https://github.com/rust-lang/rust/pull/135846)
 * [emit `StorageLive` and schedule `StorageDead` for `let`-`else`'s bindings after matching](https://github.com/rust-lang/rust/pull/143028)
@@ -156,12 +155,15 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [optimize `char::is_alphanumeric`](https://github.com/rust-lang/rust/pull/145027)
 * [print thread ID in panic message](https://github.com/rust-lang/rust/pull/115746)
 * [`std::sys::io::io_slice`: Add UEFI types](https://github.com/rust-lang/rust/pull/144350)
- #### Cargo
+
+#### Cargo
 * [accessing each build script's `OUT_DIR` and in the correct order](https://github.com/rust-lang/cargo/pull/15776)
- #### Rustdoc
+
+#### Rustdoc
 * [search: prefer stable items in search results](https://github.com/rust-lang/rust/pull/141658)
 * [fix caching of intra-doc links on reexports](https://github.com/rust-lang/rust/pull/144970)
- #### Clippy
+
+#### Clippy
 * [fix `infinite_loop` positive](https://github.com/rust-lang/rust-clippy/pull/15157)
 * [do not attempt to compute size of a type with escaping lifetimes](https://github.com/rust-lang/rust-clippy/pull/15434)
 * [do not lint for `wildcard_imports` in external macro](https://github.com/rust-lang/rust-clippy/pull/15413)
@@ -172,7 +174,8 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [optimize `incompatible_msrv` lint](https://github.com/rust-lang/rust-clippy/pull/15422)
 * [optimize `needless_bool` lint](https://github.com/rust-lang/rust-clippy/pull/15423)
 * [reuse previous `Vec` allocation in loop](https://github.com/rust-lang/rust-clippy/pull/15428)
- #### Rust-Analyzer
+
+#### Rust-Analyzer
 * [add assignment type analysis for ide-completion](https://github.com/rust-lang/rust-analyzer/pull/20381)
 * [add remove literal dbg stmt for `remove_dbg`](https://github.com/rust-lang/rust-analyzer/pull/20354)
 * [add write! and writeln! to minicore](https://github.com/rust-lang/rust-analyzer/pull/20409)
@@ -383,7 +386,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1mnpd9p/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -399,4 +402,4 @@ Despite a lack of suggestions, llogiq is feeling pretty good about his choice.
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1mplhs4/this_week_in_rust_612/)</small>
