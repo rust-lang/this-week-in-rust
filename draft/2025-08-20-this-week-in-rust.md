@@ -243,6 +243,8 @@ Rusty Events between 2025-08-20 - 2025-09-17 🦀
 ### Asia
 * 2025-08-20 | Seoul, KR | [Seoul Rust](https://www.meetup.com/rust-seoul-meetup)
     * [**Seoul Rust Meetup**](https://www.meetup.com/rust-seoul-meetup/events/310347685)
+* 2025-08-21 | Kuala Lumpur, MY | [Rust Malaysia](https://www.linkedin.com/company/rustmalaysia/)
+    * [**Malaysia Rust Meetup**](https://www.eventbrite.sg/e/backend-webdev-with-axum-and-diesel-rust-meetup-aug-2025-tickets-1588476137889)
 * 2025-08-23 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**August 2025 Rustacean meetup**](https://hasgeek.com/rustbangalore/august-2025-rustacean-meetup/)
 
