@@ -59,7 +59,6 @@ and just ask the editors to select the category.
 * [Converting FunctionTrace from C to Rust](https://programsareproofs.com/articles/functiontrace-rust-conversion/)
 * [video] [Message framing in Rust and Iroh](https://www.youtube.com/watch?v=h6bBLbcj4Vg)
 
-
 ## Crate of the Week
 
 This week's crate is [MOMA](https://crates.io/crates/moma), a framework for Moving Origin Modular Arithmetic, with applications in number theory, cryptography and bioinformatics.
@@ -383,7 +382,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1mnpd9p/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -399,4 +398,4 @@ Despite a lack of suggestions, llogiq is feeling pretty good about his choice.
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1mplhs4/this_week_in_rust_612/)</small>
