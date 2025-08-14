@@ -128,7 +128,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-08-05..2025-08-12
 
- #### Compiler
+#### Compiler
 * [account for bare tuples and `Pin` methods in field searching logic](https://github.com/rust-lang/rust/pull/144649)
 * [detect `struct` construction with private field in field with default](https://github.com/rust-lang/rust/pull/135846)
 * [emit `StorageLive` and schedule `StorageDead` for `let`-`else`'s bindings after matching](https://github.com/rust-lang/rust/pull/143028)
@@ -155,12 +155,15 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [optimize `char::is_alphanumeric`](https://github.com/rust-lang/rust/pull/145027)
 * [print thread ID in panic message](https://github.com/rust-lang/rust/pull/115746)
 * [`std::sys::io::io_slice`: Add UEFI types](https://github.com/rust-lang/rust/pull/144350)
- #### Cargo
+
+#### Cargo
 * [accessing each build script's `OUT_DIR` and in the correct order](https://github.com/rust-lang/cargo/pull/15776)
- #### Rustdoc
+
+#### Rustdoc
 * [search: prefer stable items in search results](https://github.com/rust-lang/rust/pull/141658)
 * [fix caching of intra-doc links on reexports](https://github.com/rust-lang/rust/pull/144970)
- #### Clippy
+
+#### Clippy
 * [fix `infinite_loop` positive](https://github.com/rust-lang/rust-clippy/pull/15157)
 * [do not attempt to compute size of a type with escaping lifetimes](https://github.com/rust-lang/rust-clippy/pull/15434)
 * [do not lint for `wildcard_imports` in external macro](https://github.com/rust-lang/rust-clippy/pull/15413)
@@ -171,7 +174,8 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [optimize `incompatible_msrv` lint](https://github.com/rust-lang/rust-clippy/pull/15422)
 * [optimize `needless_bool` lint](https://github.com/rust-lang/rust-clippy/pull/15423)
 * [reuse previous `Vec` allocation in loop](https://github.com/rust-lang/rust-clippy/pull/15428)
- #### Rust-Analyzer
+
+#### Rust-Analyzer
 * [add assignment type analysis for ide-completion](https://github.com/rust-lang/rust-analyzer/pull/20381)
 * [add remove literal dbg stmt for `remove_dbg`](https://github.com/rust-lang/rust-analyzer/pull/20354)
 * [add write! and writeln! to minicore](https://github.com/rust-lang/rust-analyzer/pull/20409)
