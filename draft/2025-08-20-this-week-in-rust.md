@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #52](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-52)
 
 ### Project/Tooling Updates
 
