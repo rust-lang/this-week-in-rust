@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Nine Rules for Generalizing Your Rust Library: Lessons from Extending RangeSetBlaze to Maps (Part 2)](https://medium.com/@carlmkadie/92bb899d47ef)
+
 ### Rust Walkthroughs
 
 ### Research
