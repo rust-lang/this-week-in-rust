@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [SeaQuery just made writing raw SQL more enjoyable](https://www.sea-ql.org/blog/2025-08-15-sea-query-raw-sql/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
