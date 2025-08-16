@@ -143,7 +143,8 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [preserve the `.debug_gdb_scripts` section](https://github.com/rust-lang/rust/pull/143679)
 * [simplify dead code lint](https://github.com/rust-lang/rust/pull/144863)
 * [upgrade `semicolon_in_expressions_from_macros` from warn to deny](https://github.com/rust-lang/rust/pull/144369)
- #### Library
+
+#### Library
 * [stabilize `duration_constructors_lite` feature](https://github.com/rust-lang/rust/pull/145135)
 * [stabilize `panic_payload_as_str` feature](https://github.com/rust-lang/rust/pull/144861)
 * [stabilize `strict_overflow_ops`](https://github.com/rust-lang/rust/pull/144682)
