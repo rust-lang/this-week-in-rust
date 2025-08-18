@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Testing failure modes using error injection](https://forgestream.idverse.com/blog/20250814-testing-failure-modes/)
+
 ### Rust Walkthroughs
 
 ### Research
