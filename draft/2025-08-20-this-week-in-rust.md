@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Terminal sessions you can bookmark: Building Zellij's web client](https://poor.dev/blog/building-zellij-web-terminal/)
 
 ### Rust Walkthroughs
 
