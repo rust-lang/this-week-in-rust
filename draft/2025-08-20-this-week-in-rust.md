@@ -52,7 +52,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-
+[All the Rust Tutorials](https://seanborg.tech/blog/huge-tutorial-list/)
 ## Crate of the Week
 
 <!-- COTW goes here -->
