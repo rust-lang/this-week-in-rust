@@ -38,16 +38,26 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Demoting x86_64-apple-darwin to Tier 2 with host tools](https://blog.rust-lang.org/2025/08/19/demoting-x86-64-apple-darwin-to-tier-2-with-host-tools/)
+* [Leadership Council September 2025 Representative Selections](https://blog.rust-lang.org/inside-rust/2025/08/15/leadership-council-repr-selection/)
+* [Electing new Project Directors 2025](https://blog.rust-lang.org/inside-rust/2025/08/20/electing-new-project-directors-2025/)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust OSDev: July 2025](https://rust-osdev.com/this-month/2025-07/)
 
 ### Project/Tooling Updates
+* [Zed for Windows: What's Taking So Long?!](https://zed.dev/blog/windows-progress-report)
 
 ### Observations/Thoughts
+* [Placing Arguments](https://blog.yoshuawuyts.com/placing-arguments/)
+* [Update on our advocacy for memory-safety - Tweede golf](https://tweedegolf.nl/en/blog/160/update-on-our-advocacy-for-memory-safety)
+* [Speed wins when fuzzing Rust code with `#[derive(Arbitrary)]`](https://nnethercote.github.io/2025/08/16/speed-wins-when-fuzzing-rust-code-with-derive-arbitrary.html)
+* [audio] [Intrusive lists for fun and profit](https://sdr-podcast.com/episodes/intrusive-lists-for-fun-and-profit/)
 
 ### Rust Walkthroughs
+* [Constructor Best Practices in Rust](https://blog.cuongle.dev/p/constructor-best-practices-in-rust)
 
 ### Research
 
