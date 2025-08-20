@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [The next Rust All Hands](https://blog.rust-lang.org/inside-rust/2025/09/30/all-hands-2026/)
+* [This Development-cycle in Cargo: 1.90](https://blog.rust-lang.org/inside-rust/2025/10/01/this-development-cycle-in-cargo-1.90/)
 
 ### Foundation
 
@@ -45,25 +47,33 @@ and just ask the editors to select the category.
 * [The Embedded Rustacean Issue #55](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-55)
 
 ### Project/Tooling Updates
+* [Bevy 0.17](https://bevy.org/news/bevy-0-17/)
 * [Linting Rust code in the kernel](https://lwn.net/SubscriberLink/1038750/6aa9769e0b875235/)
+* [Fast UDP I/O for Firefox in Rust](https://max-inden.de/post/fast-udp-io-in-firefox/)
 * [genedex: A Small and Fast FM-Index for Rust](https://github.com/feldroop/genedex)
 * [blogr v0.3.0 - Fast, lightweight static site generator with built in newsletter manager](https://github.com/bahdotsh/blogr/releases/tag/v0.3.0)
 * [Feedr v0.2.0 - A feature-rich terminal-based RSS feed reader with a clean and intuitive TUI](https://github.com/bahdotsh/feedr/releases/tag/v0.2.0)
 * [Glues v0.8.1 adds a browser TUI, proxy support, and redb storage](https://github.com/gluesql/glues/releases/tag/v0.8.1)
 
 ### Observations/Thoughts
+* [On Choosing Rust](https://endler.dev/2025/choosing-rust/)
+* [The expression problem and Rust](https://purplesyringa.moe/blog/the-expression-problem-and-rust/)
 * [The Game Engine that would not have been made without Rust](https://blog.vermeilsoft.com/2025-09-rust-game-engine)
 * [Introducing Rust To The Automotive Stack: A Conversation With Julius Gustavsson Of Volvo Cars](https://filtra.io/rust/interviews/volvo-sep-25)
+* [Rust in Paris 2025 – Full Talks Playlist](https://www.youtube.com/playlist?list=PLiOc9_WF8i8vVy5Qn6I9TxkBjsofzLcaH)
 * [video] [How to Optimize Rust for Slowness: Inspired by New Turing Machine Results](https://www.youtube.com/watch?v=ec-ucXJ4x-0)
 
 ### Rust Walkthroughs
 * [Under the hood: Vec\<T\>](https://marma.dev/articles/2025/under-the-hood-vec-t)
 * [Axum Backend Series: Implement JWT Access Token](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-jwt-access-token/)
 * [Level Up your Rust pattern matching](https://blog.cuongle.dev/p/level-up-your-rust-pattern-matching)
+* [video] [Sguaba: Type-safe spatial math in Rust](https://www.youtube.com/watch?v=kESBAiTYMoQ)
 
 ### Research
 
 ### Miscellaneous
+* [Cloudflare just got faster and more secure, powered by Rust](https://blog.cloudflare.com/20-percent-internet-upgrade/)
+* [Rust: Who, What and Why for ESA SW PA Workshop](https://ferrous-systems.com/blog/rust-who-what-why/)
 
 ## Crate of the Week
 
