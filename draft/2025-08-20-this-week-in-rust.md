@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Talking To Zed Industries- Makers Of The 100% Rust, Super-Performant, Collaborative Code Editor
+](https://filtra.io/rust/interviews/zed-aug-25)
 
 ## Crate of the Week
 
