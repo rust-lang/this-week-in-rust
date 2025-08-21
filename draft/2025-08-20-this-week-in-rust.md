@@ -44,9 +44,9 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-[RKL: A Docker-like Command-line Interface Built in Rust](https://r2cn.dev/blog/rkl-a-docker-like-command-line-interface-built-in-rust)
-### Observations/Thoughts
 
+### Observations/Thoughts
+[RKL: A Docker-like Command-line Interface Built in Rust](https://r2cn.dev/blog/rkl-a-docker-like-command-line-interface-built-in-rust)
 ### Rust Walkthroughs
 
 ### Research
