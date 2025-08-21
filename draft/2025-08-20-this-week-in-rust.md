@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[sledoview v1.0](https://github.com/sgchris/sledoview) - A CLI tool for viewing and editing Sled DB files. A [website](https://sledoview.greq.me/) with docs and examples
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
