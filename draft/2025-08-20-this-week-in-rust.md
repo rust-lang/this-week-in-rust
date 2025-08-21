@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [kruci: Post-mortem of a UI library](https://pwy.io/posts/kruci-post-mortem/)
+
 ### Rust Walkthroughs
 
 ### Research
