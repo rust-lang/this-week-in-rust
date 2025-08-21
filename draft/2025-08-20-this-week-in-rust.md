@@ -269,7 +269,6 @@ Rusty Events between 2025-08-20 - 2025-09-17 🦀
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308944038)
 * 2025-09-16 | Berlin, DE | [Oxidize Conference] (https://oxidizeconf.com/)  
 
-
 ### North America
 * 2025-08-14 | Hybrid (Seattle, WA, US) | [Seattle Rust User Group](https://www.meetup.com/join-srug)
     * [**August, 2025 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/seattle-rust-user-group/events/307698880)
