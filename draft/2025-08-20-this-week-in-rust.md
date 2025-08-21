@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Heapless v0.9.1 - `static` friendly data structures that don't require dynamic memory allocation](https://blog.rust-embedded.org/heapless-091/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
