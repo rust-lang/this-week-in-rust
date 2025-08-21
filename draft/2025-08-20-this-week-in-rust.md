@@ -267,7 +267,7 @@ Rusty Events between 2025-08-20 - 2025-09-17 🦀
     * [**From bugs to parallelism to future-proofing: What makes Rust different**](https://www.meetup.com/rust-rhein-main/events/310322369)
 * 2025-09-10 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308944038)
-* 2025-09-16 | Berlin, Germany | [Oxidize Conference] (https://oxidizeconf.com/)  
+* 2025-09-16 | Berlin, DE | [Oxidize Conference] (https://oxidizeconf.com/)  
 
 
 ### North America
