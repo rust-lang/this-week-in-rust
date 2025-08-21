@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Rust At Microsoft And Chairing The Rust Foundation](https://filtra.io/rust/interviews/microsoft-aug-25)
 
 ## Crate of the Week
 
