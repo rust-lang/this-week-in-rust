@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [SeaQuery just made writing raw SQL more enjoyable](https://www.sea-ql.org/blog/2025-08-15-sea-query-raw-sql/)
 * [`r3bl-cmdr` v0.0.22](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.0.22-cmdr)
 * [`r3bl_tui` v0.7.4](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.7.4-tui)
 
