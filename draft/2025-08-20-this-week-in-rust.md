@@ -51,8 +51,9 @@ and just ask the editors to select the category.
 * [`r3bl_tui` v0.7.4](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.7.4-tui)
 
 ### Observations/Thoughts
-* [Terminal sessions you can bookmark: Building Zellij's web client](https://poor.dev/blog/building-zellij-web-terminal/)
 
+* [Rewriting Numaflow’s Data Plane: A Foundation for the Future](https://blog.numaproj.io/rewriting-numaflows-data-plane-a-foundation-for-the-future-a64fd2470cf0)
+* [Terminal sessions you can bookmark: Building Zellij's web client](https://poor.dev/blog/building-zellij-web-terminal/)
 * [Testing failure modes using error injection](https://forgestream.idverse.com/blog/20250814-testing-failure-modes/)
 * [Multiple Breakpoints in Rust: Ownership-Driven Debugger Design](https://system.joekain.com/2025/08/17/ownership-driven-debugger-design.html)
 * [Nine Rules for Generalizing Your Rust Library: Lessons from Extending RangeSetBlaze to Maps (Part 2)](https://medium.com/@carlmkadie/92bb899d47ef)
