@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Lessons learned from rewriting the UltraGraph crate](https://deepcausality.com/blog/lessons-learned-from-rewriting-ultragraph) 
 * [Scientific Computing in Rust](https://ideas.reify.ing/en/blog/scientific-computing-in-rust-with-pytorch/)
 
 ### Rust Walkthroughs
