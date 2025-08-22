@@ -46,6 +46,9 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [`r3bl-cmdr` v0.0.22](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.0.22-cmdr)
+* [`r3bl_tui` v0.7.4](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.7.4-tui)
+
 ### Observations/Thoughts
 
 * [Nine Rules for Generalizing Your Rust Library: Lessons from Extending RangeSetBlaze to Maps (Part 2)](https://medium.com/@carlmkadie/92bb899d47ef)
