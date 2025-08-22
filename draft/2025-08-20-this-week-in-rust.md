@@ -38,20 +38,27 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Demoting x86_64-apple-darwin to Tier 2 with host tools](https://blog.rust-lang.org/2025/08/19/demoting-x86-64-apple-darwin-to-tier-2-with-host-tools/)
+* [Leadership Council September 2025 Representative Selections](https://blog.rust-lang.org/inside-rust/2025/08/15/leadership-council-repr-selection/)
+* [Electing new Project Directors 2025](https://blog.rust-lang.org/inside-rust/2025/08/20/electing-new-project-directors-2025/)
 
 ### Foundation
 
 ### Newsletters
+* [This Month in Rust OSDev: July 2025](https://rust-osdev.com/this-month/2025-07/)
 * [The Embedded Rustacean Issue #52](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-52)
 
 ### Project/Tooling Updates
-
+* [Zed for Windows: What's Taking So Long?!](https://zed.dev/blog/windows-progress-report)
 * [SeaQuery just made writing raw SQL more enjoyable](https://www.sea-ql.org/blog/2025-08-15-sea-query-raw-sql/)
 * [`r3bl-cmdr` v0.0.22](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.0.22-cmdr)
 * [`r3bl_tui` v0.7.4](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.7.4-tui)
 
 ### Observations/Thoughts
-
+* [Placing Arguments](https://blog.yoshuawuyts.com/placing-arguments/)
+* [Update on our advocacy for memory-safety - Tweede golf](https://tweedegolf.nl/en/blog/160/update-on-our-advocacy-for-memory-safety)
+* [Speed wins when fuzzing Rust code with `#[derive(Arbitrary)]`](https://nnethercote.github.io/2025/08/16/speed-wins-when-fuzzing-rust-code-with-derive-arbitrary.html)
+* [audio] [Intrusive lists for fun and profit](https://sdr-podcast.com/episodes/intrusive-lists-for-fun-and-profit/)
 * [Rewriting Numaflow’s Data Plane: A Foundation for the Future](https://blog.numaproj.io/rewriting-numaflows-data-plane-a-foundation-for-the-future-a64fd2470cf0)
 * [Terminal sessions you can bookmark: Building Zellij's web client](https://poor.dev/blog/building-zellij-web-terminal/)
 * [Testing failure modes using error injection](https://forgestream.idverse.com/blog/20250814-testing-failure-modes/)
@@ -61,16 +68,14 @@ and just ask the editors to select the category.
 * [Scientific Computing in Rust](https://ideas.reify.ing/en/blog/scientific-computing-in-rust-with-pytorch/)
 
 ### Rust Walkthroughs
-
+* [Constructor Best Practices in Rust](https://blog.cuongle.dev/p/constructor-best-practices-in-rust)
 * [Let's write a macro in Rust - Part 1](https://hackeryarn.com/post/rust-macros-1/)
 * [Memory analysis in Rust](https://rumcajs.dev/posts/memory-analysis-in-rust/)
 
 ### Research
 
 ### Miscellaneous
-* [Talking To Zed Industries- Makers Of The 100% Rust, Super-Performant, Collaborative Code Editor
-](https://filtra.io/rust/interviews/zed-aug-25)
-
+* [Talking To Zed Industries- Makers Of The 100% Rust, Super-Performant, Collaborative Code Editor](https://filtra.io/rust/interviews/zed-aug-25)
 * [All the Rust Tutorials](https://seanborg.tech/blog/huge-tutorial-list/)
 * [July 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/jul-25)
 
