@@ -56,6 +56,8 @@ and just ask the editors to select the category.
 
 * [Heapless v0.9.1 - `static` friendly data structures that don't require dynamic memory allocation](https://blog.rust-embedded.org/heapless-091/)
 
+* [Announcing Asterinas 0.16.0](https://asterinas.github.io/2025/08/04/announcing-asterinas-0.16.0.html)
+
 ### Observations/Thoughts
 * [Placing Arguments](https://blog.yoshuawuyts.com/placing-arguments/)
 * [Update on our advocacy for memory-safety - Tweede golf](https://tweedegolf.nl/en/blog/160/update-on-our-advocacy-for-memory-safety)
