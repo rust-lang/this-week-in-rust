@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Memory analysis in Rust](https://rumcajs.dev/posts/memory-analysis-in-rust/)
+
 ### Research
 
 ### Miscellaneous
