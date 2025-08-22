@@ -74,7 +74,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [tur](https://github.com/rezigned/tur), a turing machine emulator with text-mode user interface.
+
+Despite a lack of suggestions, llogiq is very pleased with his choice.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -134,7 +136,67 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+390 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-08-12..2025-08-19
+
+ #### Compiler
+* [compiler: allow `extern "interrupt" fn() → !`](https://github.com/rust-lang/rust/pull/143075)
+* [const-eval: full support for pointer fragments](https://github.com/rust-lang/rust/pull/144081)
+* [don't warn on never to any `as` casts as unreachable](https://github.com/rust-lang/rust/pull/144804)
+* [implement declarative `macro_rules!` derive macros](https://github.com/rust-lang/rust/pull/145208) (RFC [#3698](https://rust-lang.github.io/rfcs/3698-declarative-derive-macros.html))
+* [implement `#[derive(From)]`](https://github.com/rust-lang/rust/pull/144922)
+* [more `Printer` cleanups](https://github.com/rust-lang/rust/pull/144949)
+* [tail call diagnostics to include lifetime info](https://github.com/rust-lang/rust/pull/145012)
+ #### Library
+* [add Ref/RefMut `try_map` method](https://github.com/rust-lang/rust/pull/118087)
+* [add `Default` impls for `Pin`ned `Box`, `Rc`, `Arc`](https://github.com/rust-lang/rust/pull/143717)
+* [add ASCII-related methods from `u8` and `MIN`/`MAX` to `core::ascii::Char`](https://github.com/rust-lang/rust/pull/143467)
+* [change the desugaring of `assert!` for better error output](https://github.com/rust-lang/rust/pull/122661)
+* [constify `SystemTime` methods](https://github.com/rust-lang/rust/pull/144519)
+* [implement `ptr_cast_array`](https://github.com/rust-lang/rust/pull/144515)
+* [migrate from `cfg_if` to `cfg_select`](https://github.com/rust-lang/rust/pull/145489)
+* [stabilize `as_array_of_cells`](https://github.com/rust-lang/rust/pull/144054)
+* [stabilize `const_exposed_provenance` feature](https://github.com/rust-lang/rust/pull/145462)
+* [stabilize `core::iter::chain`](https://github.com/rust-lang/rust/pull/144963)
+* [stabilize `ip_from`](https://github.com/rust-lang/rust/pull/141744)
+* [stabilize `path_file_prefix` feature](https://github.com/rust-lang/rust/pull/144870)
+* [stabilize `sse4a` and `tbm` target features](https://github.com/rust-lang/rust/pull/144542)
+* [thread: return error if setting thread stack size fails](https://github.com/rust-lang/rust/pull/144210)
+* [windows: replace `GetThreadId`+`GetCurrentThread` with `GetCurrentThreadId`](https://github.com/rust-lang/rust/pull/145412)
+ #### Cargo
+* [unstable: Added `-Zbuild-dir-new-layout` unstable feature](https://github.com/rust-lang/cargo/pull/15848)
+* [unstable: add -Zbuild-analysis unstable feature](https://github.com/rust-lang/cargo/pull/15845)
+* [package: Always reuse the workspace's target-dir](https://github.com/rust-lang/cargo/pull/15783)
+* [add initial integration for `--json=timings` behind `-Zsection-timings`](https://github.com/rust-lang/cargo/pull/15780)
+* [fix error while running the cargo clippy --all-targets -- -D warning](https://github.com/rust-lang/cargo/pull/15843)
+* [implement `host`-target substitution](https://github.com/rust-lang/cargo/pull/15838)
+* [more helpful error for invalid `cargo-features = []`](https://github.com/rust-lang/cargo/pull/15781)
+* [stabilize `build.build-dir`](https://github.com/rust-lang/cargo/pull/15833)
+ #### Rustdoc
+* [search: search backend with partitioned suffix tree](https://github.com/rust-lang/rust/pull/144476)
+* [allow multiple references to a single footnote](https://github.com/rust-lang/rust/pull/140434)
+* [correct negative-to-implicit discriminant display](https://github.com/rust-lang/rust/pull/145216)
+ #### Clippy
+* [`similar_names` stop linting for 3-char names](https://github.com/rust-lang/rust-clippy/pull/15100)
+* [`unnecessary_operation`: add space between stmts in suggestion](https://github.com/rust-lang/rust-clippy/pull/15432)
+* [`{borrow,ptr}_as_ptr`: don't lint inside proc-macros](https://github.com/rust-lang/rust-clippy/pull/15473)
+* [adjust `declare_interior_mutable_const` lint's category](https://github.com/rust-lang/rust-clippy/pull/15454)
+* [do not suggest to use implicit `DerefMut` on `ManuallyDrop` reached through unions](https://github.com/rust-lang/rust-clippy/pull/14387)
+* [fix `match_ref_pats` false positive on match scrutinee of never type](https://github.com/rust-lang/rust-clippy/pull/15474)
+* [fix `unnecessary_semicolon`: don't lint on stmts with attrs](https://github.com/rust-lang/rust-clippy/pull/15466)
+ #### Rust-Analyzer
+* [hint at unterminated strings in unknown prefix errors](https://github.com/rust-lang/rust-analyzer/pull/20425)
+* [fix "Implement default members" to resolve IdentPat](https://github.com/rust-lang/rust-analyzer/pull/20432)
+* [add if..else completions in LetStmt and ArgList](https://github.com/rust-lang/rust-analyzer/pull/20390)
+* [fix indent for `convert_match_to_let_else`](https://github.com/rust-lang/rust-analyzer/pull/20455)
+* [make lang items query properly filter out overwritten/excluded sysroots](https://github.com/rust-lang/rust-analyzer/pull/20475)
+* [only import the item in "Unqualify method call" if needed](https://github.com/rust-lang/rust-analyzer/pull/20442)
+* [support guards in `replace_match_with_if_let`](https://github.com/rust-lang/rust-analyzer/pull/20456)
+* [track diagnostic generations per package](https://github.com/rust-lang/rust-analyzer/pull/20459)
+* [next-solver fun time](https://github.com/rust-lang/rust-analyzer/pull/20446)
+* [switch from Chalk to the next trait solver](https://github.com/rust-lang/rust-analyzer/pull/20329)
+* [use a more specific error message when talking about the server logs](https://github.com/rust-lang/rust-analyzer/pull/20467)
 
 ### Rust Compiler Performance Triage
 
@@ -325,7 +387,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> It's amazing how far const eval has come in #Rust. It wasn't too long ago that even a simple if/else wasn't permitted. Now we're not that far off from having const trait impls and const closures, which will make damn near everything const capable.
+
+– [Jacob Pratt on Mastodon](https://hachyderm.io/@jhpratt@mastodon.social/115052212557381430)
+
+llogiq has looked at all zero suggestions and came up empty, so he just chose this quote instead.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
