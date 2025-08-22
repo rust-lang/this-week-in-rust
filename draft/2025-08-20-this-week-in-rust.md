@@ -42,18 +42,24 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #52](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-52)
 
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
 
 * [Nine Rules for Generalizing Your Rust Library: Lessons from Extending RangeSetBlaze to Maps (Part 2)](https://medium.com/@carlmkadie/92bb899d47ef)
+* [Lessons learned from rewriting the UltraGraph crate](https://deepcausality.com/blog/lessons-learned-from-rewriting-ultragraph) 
+* [Scientific Computing in Rust](https://ideas.reify.ing/en/blog/scientific-computing-in-rust-with-pytorch/)
 
 ### Rust Walkthroughs
+
+* [Memory analysis in Rust](https://rumcajs.dev/posts/memory-analysis-in-rust/)
 
 ### Research
 
 ### Miscellaneous
+* [July 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/jul-25)
 
 ## Crate of the Week
 
@@ -245,6 +251,8 @@ Rusty Events between 2025-08-20 - 2025-09-17 🦀
 ### Asia
 * 2025-08-20 | Seoul, KR | [Seoul Rust](https://www.meetup.com/rust-seoul-meetup)
     * [**Seoul Rust Meetup**](https://www.meetup.com/rust-seoul-meetup/events/310347685)
+* 2025-08-21 | Kuala Lumpur, MY | [Rust Malaysia](https://www.linkedin.com/company/rustmalaysia/)
+    * [**Malaysia Rust Meetup**](https://www.eventbrite.sg/e/backend-webdev-with-axum-and-diesel-rust-meetup-aug-2025-tickets-1588476137889)
 * 2025-08-23 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**August 2025 Rustacean meetup**](https://hasgeek.com/rustbangalore/august-2025-rustacean-meetup/)
 
@@ -269,6 +277,7 @@ Rusty Events between 2025-08-20 - 2025-09-17 🦀
     * [**From bugs to parallelism to future-proofing: What makes Rust different**](https://www.meetup.com/rust-rhein-main/events/310322369)
 * 2025-09-10 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308944038)
+* 2025-09-16 | Berlin, DE | [Oxidize Conference] (https://oxidizeconf.com/)  
 
 ### North America
 * 2025-08-14 | Hybrid (Seattle, WA, US) | [Seattle Rust User Group](https://www.meetup.com/join-srug)
