@@ -42,17 +42,35 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #52](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-52)
 
 ### Project/Tooling Updates
 
+* [SeaQuery just made writing raw SQL more enjoyable](https://www.sea-ql.org/blog/2025-08-15-sea-query-raw-sql/)
+* [`r3bl-cmdr` v0.0.22](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.0.22-cmdr)
+* [`r3bl_tui` v0.7.4](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.7.4-tui)
+
 ### Observations/Thoughts
+* [Terminal sessions you can bookmark: Building Zellij's web client](https://poor.dev/blog/building-zellij-web-terminal/)
+
+* [Testing failure modes using error injection](https://forgestream.idverse.com/blog/20250814-testing-failure-modes/)
+* [Multiple Breakpoints in Rust: Ownership-Driven Debugger Design](https://system.joekain.com/2025/08/17/ownership-driven-debugger-design.html)
+* [Nine Rules for Generalizing Your Rust Library: Lessons from Extending RangeSetBlaze to Maps (Part 2)](https://medium.com/@carlmkadie/92bb899d47ef)
+* [Lessons learned from rewriting the UltraGraph crate](https://deepcausality.com/blog/lessons-learned-from-rewriting-ultragraph) 
+* [Scientific Computing in Rust](https://ideas.reify.ing/en/blog/scientific-computing-in-rust-with-pytorch/)
 
 ### Rust Walkthroughs
+
+* [Let's write a macro in Rust - Part 1](https://hackeryarn.com/post/rust-macros-1/)
+* [Memory analysis in Rust](https://rumcajs.dev/posts/memory-analysis-in-rust/)
 
 ### Research
 
 ### Miscellaneous
-[All the Rust Tutorials](https://seanborg.tech/blog/huge-tutorial-list/)
+
+* [All the Rust Tutorials](https://seanborg.tech/blog/huge-tutorial-list/)
+* [July 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/jul-25)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
@@ -141,7 +159,15 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Lots of noise/bimodality this week. Overall though no major performance impacting changes landed.
+
+Triage done by **@simulacrum**.
+Revision range: [6355cd39..239e8b1b](https://perf.rust-lang.org/?start=6355cd39c81e9699b1925c58d2ed3165bcab1715&end=239e8b1b47b34120287ec36b33228c1e177f0c38&absolute=false&stat=instructions%3Au)
+
+1 Regressions, 3 Improvements, 7 Mixed; 4 of them in rollups
+27 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2025/2025-08-18.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -243,6 +269,8 @@ Rusty Events between 2025-08-20 - 2025-09-17 🦀
 ### Asia
 * 2025-08-20 | Seoul, KR | [Seoul Rust](https://www.meetup.com/rust-seoul-meetup)
     * [**Seoul Rust Meetup**](https://www.meetup.com/rust-seoul-meetup/events/310347685)
+* 2025-08-21 | Kuala Lumpur, MY | [Rust Malaysia](https://www.linkedin.com/company/rustmalaysia/)
+    * [**Malaysia Rust Meetup**](https://www.eventbrite.sg/e/backend-webdev-with-axum-and-diesel-rust-meetup-aug-2025-tickets-1588476137889)
 * 2025-08-23 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**August 2025 Rustacean meetup**](https://hasgeek.com/rustbangalore/august-2025-rustacean-meetup/)
 
@@ -267,6 +295,7 @@ Rusty Events between 2025-08-20 - 2025-09-17 🦀
     * [**From bugs to parallelism to future-proofing: What makes Rust different**](https://www.meetup.com/rust-rhein-main/events/310322369)
 * 2025-09-10 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308944038)
+* 2025-09-16 | Berlin, DE | [Oxidize Conference] (https://oxidizeconf.com/)  
 
 ### North America
 * 2025-08-14 | Hybrid (Seattle, WA, US) | [Seattle Rust User Group](https://www.meetup.com/join-srug)
