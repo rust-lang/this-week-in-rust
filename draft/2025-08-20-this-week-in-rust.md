@@ -277,7 +277,7 @@ Rusty Events between 2025-08-20 - 2025-09-17 🦀
     * [**2025 Rust Talks Bern #4 @Zühlke**](https://www.meetup.com/rust-bern/events/309903540)
 * 2025-09-16 | Berlin, DE | [Oxidize Conference] (https://oxidizeconf.com/)  
     * [**Oxidize Conference**](https://oxidizeconf.com/)  
-* 2025-09-16 | Leipzig, SN, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/)
+* 2025-09-16 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/)
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/308592250)
 * 2025-09-17 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.club)
     * [**Rust Girona Hack & Learn 09 2025**](https://lu.ma/ql3u6q5u)
