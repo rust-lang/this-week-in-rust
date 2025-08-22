@@ -74,6 +74,8 @@ and just ask the editors to select the category.
 
 * [kruci: Post-mortem of a UI library](https://pwy.io/posts/kruci-post-mortem/)
 
+* [Nine Rules for Generalizing Your Rust Library: Lessons from Extending RangeSetBlaze to Maps (Part 2)](https://medium.com/@carlmkadie/nine-rules-for-generalizing-your-rust-library-part-2-92bb899d47ef)
+
 ### Rust Walkthroughs
 * [Constructor Best Practices in Rust](https://blog.cuongle.dev/p/constructor-best-practices-in-rust)
 * [Let's write a macro in Rust - Part 1](https://hackeryarn.com/post/rust-macros-1/)
