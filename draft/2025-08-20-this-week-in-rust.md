@@ -72,6 +72,8 @@ and just ask the editors to select the category.
 * [Scientific Computing in Rust](https://ideas.reify.ing/en/blog/scientific-computing-in-rust-with-pytorch/)
 * [RKL: A Docker-like Command-line Interface Built in Rust](https://r2cn.dev/blog/rkl-a-docker-like-command-line-interface-built-in-rust)
 
+* [kruci: Post-mortem of a UI library](https://pwy.io/posts/kruci-post-mortem/)
+
 ### Rust Walkthroughs
 * [Constructor Best Practices in Rust](https://blog.cuongle.dev/p/constructor-best-practices-in-rust)
 * [Let's write a macro in Rust - Part 1](https://hackeryarn.com/post/rust-macros-1/)
