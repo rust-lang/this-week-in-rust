@@ -68,6 +68,8 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Talking To Zed Industries- Makers Of The 100% Rust, Super-Performant, Collaborative Code Editor
+](https://filtra.io/rust/interviews/zed-aug-25)
 
 * [All the Rust Tutorials](https://seanborg.tech/blog/huge-tutorial-list/)
 * [July 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/jul-25)
