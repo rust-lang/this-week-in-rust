@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Testing failure modes using error injection](https://forgestream.idverse.com/blog/20250814-testing-failure-modes/)
 * [Multiple Breakpoints in Rust: Ownership-Driven Debugger Design](https://system.joekain.com/2025/08/17/ownership-driven-debugger-design.html)
 * [Nine Rules for Generalizing Your Rust Library: Lessons from Extending RangeSetBlaze to Maps (Part 2)](https://medium.com/@carlmkadie/92bb899d47ef)
 * [Lessons learned from rewriting the UltraGraph crate](https://deepcausality.com/blog/lessons-learned-from-rewriting-ultragraph) 
