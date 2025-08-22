@@ -58,6 +58,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Let's write a macro in Rust - Part 1](https://hackeryarn.com/post/rust-macros-1/)
 * [Memory analysis in Rust](https://rumcajs.dev/posts/memory-analysis-in-rust/)
 
 ### Research
