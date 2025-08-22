@@ -54,6 +54,8 @@ and just ask the editors to select the category.
 * [`r3bl-cmdr` v0.0.22](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.0.22-cmdr)
 * [`r3bl_tui` v0.7.4](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.7.4-tui)
 
+* [Heapless v0.9.1 - `static` friendly data structures that don't require dynamic memory allocation](https://blog.rust-embedded.org/heapless-091/)
+
 ### Observations/Thoughts
 * [Placing Arguments](https://blog.yoshuawuyts.com/placing-arguments/)
 * [Update on our advocacy for memory-safety - Tweede golf](https://tweedegolf.nl/en/blog/160/update-on-our-advocacy-for-memory-safety)
