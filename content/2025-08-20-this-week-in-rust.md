@@ -42,8 +42,6 @@ and just ask the editors to select the category.
 * [Leadership Council September 2025 Representative Selections](https://blog.rust-lang.org/inside-rust/2025/08/15/leadership-council-repr-selection/)
 * [Electing new Project Directors 2025](https://blog.rust-lang.org/inside-rust/2025/08/20/electing-new-project-directors-2025/)
 
-### Foundation
-
 ### Newsletters
 * [This Month in Rust OSDev: July 2025](https://rust-osdev.com/this-month/2025-07/)
 * [The Embedded Rustacean Issue #52](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-52)
@@ -53,35 +51,28 @@ and just ask the editors to select the category.
 * [SeaQuery just made writing raw SQL more enjoyable](https://www.sea-ql.org/blog/2025-08-15-sea-query-raw-sql/)
 * [`r3bl-cmdr` v0.0.22](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.0.22-cmdr)
 * [`r3bl_tui` v0.7.4](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.7.4-tui)
-
 * [Heapless v0.9.1 - `static` friendly data structures that don't require dynamic memory allocation](https://blog.rust-embedded.org/heapless-091/)
-
 * [Announcing Asterinas 0.16.0](https://asterinas.github.io/2025/08/04/announcing-asterinas-0.16.0.html)
 
 ### Observations/Thoughts
 * [Placing Arguments](https://blog.yoshuawuyts.com/placing-arguments/)
 * [Update on our advocacy for memory-safety - Tweede golf](https://tweedegolf.nl/en/blog/160/update-on-our-advocacy-for-memory-safety)
 * [Speed wins when fuzzing Rust code with `#[derive(Arbitrary)]`](https://nnethercote.github.io/2025/08/16/speed-wins-when-fuzzing-rust-code-with-derive-arbitrary.html)
-* [audio] [Intrusive lists for fun and profit](https://sdr-podcast.com/episodes/intrusive-lists-for-fun-and-profit/)
 * [Rewriting Numaflow’s Data Plane: A Foundation for the Future](https://blog.numaproj.io/rewriting-numaflows-data-plane-a-foundation-for-the-future-a64fd2470cf0)
 * [Terminal sessions you can bookmark: Building Zellij's web client](https://poor.dev/blog/building-zellij-web-terminal/)
 * [Testing failure modes using error injection](https://forgestream.idverse.com/blog/20250814-testing-failure-modes/)
 * [Multiple Breakpoints in Rust: Ownership-Driven Debugger Design](https://system.joekain.com/2025/08/17/ownership-driven-debugger-design.html)
-* [Nine Rules for Generalizing Your Rust Library: Lessons from Extending RangeSetBlaze to Maps (Part 2)](https://medium.com/@carlmkadie/92bb899d47ef)
 * [Lessons learned from rewriting the UltraGraph crate](https://deepcausality.com/blog/lessons-learned-from-rewriting-ultragraph) 
 * [Scientific Computing in Rust](https://ideas.reify.ing/en/blog/scientific-computing-in-rust-with-pytorch/)
 * [RKL: A Docker-like Command-line Interface Built in Rust](https://r2cn.dev/blog/rkl-a-docker-like-command-line-interface-built-in-rust)
-
 * [kruci: Post-mortem of a UI library](https://pwy.io/posts/kruci-post-mortem/)
-
 * [Nine Rules for Generalizing Your Rust Library: Lessons from Extending RangeSetBlaze to Maps (Part 2)](https://medium.com/@carlmkadie/nine-rules-for-generalizing-your-rust-library-part-2-92bb899d47ef)
+* [audio] [Intrusive lists for fun and profit](https://sdr-podcast.com/episodes/intrusive-lists-for-fun-and-profit/)
 
 ### Rust Walkthroughs
 * [Constructor Best Practices in Rust](https://blog.cuongle.dev/p/constructor-best-practices-in-rust)
 * [Let's write a macro in Rust - Part 1](https://hackeryarn.com/post/rust-macros-1/)
 * [Memory analysis in Rust](https://rumcajs.dev/posts/memory-analysis-in-rust/)
-
-### Research
 
 ### Miscellaneous
 * [Rust At Microsoft And Chairing The Rust Foundation](https://filtra.io/rust/interviews/microsoft-aug-25)
@@ -150,6 +141,7 @@ Are you a new or experienced speaker looking for a place to share something cool
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+*No Calls for papers or presentations were submitted this week.* 
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -159,7 +151,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-08-12..2025-08-19
 
- #### Compiler
+#### Compiler
 * [compiler: allow `extern "interrupt" fn() → !`](https://github.com/rust-lang/rust/pull/143075)
 * [const-eval: full support for pointer fragments](https://github.com/rust-lang/rust/pull/144081)
 * [don't warn on never to any `as` casts as unreachable](https://github.com/rust-lang/rust/pull/144804)
@@ -167,7 +159,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [implement `#[derive(From)]`](https://github.com/rust-lang/rust/pull/144922)
 * [more `Printer` cleanups](https://github.com/rust-lang/rust/pull/144949)
 * [tail call diagnostics to include lifetime info](https://github.com/rust-lang/rust/pull/145012)
- #### Library
+#### Library
 * [add Ref/RefMut `try_map` method](https://github.com/rust-lang/rust/pull/118087)
 * [add `Default` impls for `Pin`ned `Box`, `Rc`, `Arc`](https://github.com/rust-lang/rust/pull/143717)
 * [add ASCII-related methods from `u8` and `MIN`/`MAX` to `core::ascii::Char`](https://github.com/rust-lang/rust/pull/143467)
@@ -183,7 +175,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [stabilize `sse4a` and `tbm` target features](https://github.com/rust-lang/rust/pull/144542)
 * [thread: return error if setting thread stack size fails](https://github.com/rust-lang/rust/pull/144210)
 * [windows: replace `GetThreadId`+`GetCurrentThread` with `GetCurrentThreadId`](https://github.com/rust-lang/rust/pull/145412)
- #### Cargo
+#### Cargo
 * [unstable: Added `-Zbuild-dir-new-layout` unstable feature](https://github.com/rust-lang/cargo/pull/15848)
 * [unstable: add -Zbuild-analysis unstable feature](https://github.com/rust-lang/cargo/pull/15845)
 * [package: Always reuse the workspace's target-dir](https://github.com/rust-lang/cargo/pull/15783)
@@ -192,11 +184,11 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [implement `host`-target substitution](https://github.com/rust-lang/cargo/pull/15838)
 * [more helpful error for invalid `cargo-features = []`](https://github.com/rust-lang/cargo/pull/15781)
 * [stabilize `build.build-dir`](https://github.com/rust-lang/cargo/pull/15833)
- #### Rustdoc
+#### Rustdoc
 * [search: search backend with partitioned suffix tree](https://github.com/rust-lang/rust/pull/144476)
 * [allow multiple references to a single footnote](https://github.com/rust-lang/rust/pull/140434)
 * [correct negative-to-implicit discriminant display](https://github.com/rust-lang/rust/pull/145216)
- #### Clippy
+#### Clippy
 * [`similar_names` stop linting for 3-char names](https://github.com/rust-lang/rust-clippy/pull/15100)
 * [`unnecessary_operation`: add space between stmts in suggestion](https://github.com/rust-lang/rust-clippy/pull/15432)
 * [`{borrow,ptr}_as_ptr`: don't lint inside proc-macros](https://github.com/rust-lang/rust-clippy/pull/15473)
@@ -204,7 +196,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [do not suggest to use implicit `DerefMut` on `ManuallyDrop` reached through unions](https://github.com/rust-lang/rust-clippy/pull/14387)
 * [fix `match_ref_pats` false positive on match scrutinee of never type](https://github.com/rust-lang/rust-clippy/pull/15474)
 * [fix `unnecessary_semicolon`: don't lint on stmts with attrs](https://github.com/rust-lang/rust-clippy/pull/15466)
- #### Rust-Analyzer
+#### Rust-Analyzer
 * [hint at unterminated strings in unknown prefix errors](https://github.com/rust-lang/rust-analyzer/pull/20425)
 * [fix "Implement default members" to resolve IdentPat](https://github.com/rust-lang/rust-analyzer/pull/20432)
 * [add if..else completions in LetStmt and ArgList](https://github.com/rust-lang/rust-analyzer/pull/20390)
@@ -419,7 +411,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1mnpd9p/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -435,4 +427,4 @@ llogiq has looked at all zero suggestions and came up empty, so he just chose th
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1mwuwdz/this_week_in_rust_613/)</small>
