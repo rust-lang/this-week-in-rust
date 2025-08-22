@@ -67,6 +67,8 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+
+* [All the Rust Tutorials](https://seanborg.tech/blog/huge-tutorial-list/)
 * [July 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/jul-25)
 
 ## Crate of the Week
