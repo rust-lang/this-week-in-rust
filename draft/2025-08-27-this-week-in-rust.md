@@ -118,6 +118,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+- [GreptimeDB in the Wild - Share your real-world story. Get featured. Get rewarded](https://greptime.com/blogs/2025-07-29-submission-event-greptimedb)
+
+We’re calling on developers, engineers, and contributors to share their authentic experiences with GreptimeDB—whether you're migrating from other systems, deploying at the edge, or analyzing its internals. Join our global writing campaign to amplify your story, connect with the core team, and receive community recognition.
+
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
