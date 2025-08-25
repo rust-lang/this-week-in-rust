@@ -47,6 +47,9 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [Beyond Loki! GreptimeDB Log Scenario Performance Report Released](https://greptime.com/blogs/2025-08-07-beyond-loki-greptimedb-log-scenario-performance-report)
+- [GreptimeDB Rust Client - A Comprehensive Guide to High-Throughput Bulk Stream Inserts](https://greptime.com/blogs/2025-07-30-greptimedb-rust-guide-bulk-stream-insert)
+
 ### Rust Walkthroughs
 
 ### Research
