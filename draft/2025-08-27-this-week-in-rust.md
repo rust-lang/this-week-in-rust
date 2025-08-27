@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Rust for JavaScript Engineers - Building Connect-4](https://www.afloat.boats/posts/rust-for-javascript-engineers-pt-1)
+* [Pest gotchas](https://andreabergia.com/blog/2025/08/pest-gotchas/)
 
 ### Research
 
