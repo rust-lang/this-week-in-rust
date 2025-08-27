@@ -60,7 +60,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [web-route](https://crates.io/crates/web-route), a library to ergonomically define and manage web server routes in Rust.
+
+Thanks to [sidrubs](https://users.rust-lang.org/t/crate-of-the-week/2704/1463) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -142,7 +144,78 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+553 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-08-19..2025-08-26
+
+#### Compiler
+* [demote `x86_64-apple-darwin` to Tier 2 with host tools](https://github.com/rust-lang/rust/pull/145252)
+* [`rustc_expand`: ensure stack in `InvocationCollector::visit_expr`](https://github.com/rust-lang/rust/pull/145410)
+* [account for impossible bounds making seemingly unsatisfyable dyn-to-dyn casts](https://github.com/rust-lang/rust/pull/145620)
+* [add lint against integer to pointer transmutes](https://github.com/rust-lang/rust/pull/144531)
+* [fix ICE when validating transmuting ZST to inhabited `enum`](https://github.com/rust-lang/rust/pull/145791)
+* [refactor attribute parsing to improve ergonomics and some diagnostics](https://github.com/rust-lang/rust/pull/145507)
+* [simplify span caches](https://github.com/rust-lang/rust/pull/145505)
+* [slightly optimize reading of source files](https://github.com/rust-lang/rust/pull/145848)
+* [miri: account for time spent tracing, use RDTSC for faster time](https://github.com/rust-lang/miri/pull/4524)
+* [miri: support weak definitions](https://github.com/rust-lang/miri/pull/4414)
+
+#### Library
+* [`UnsafePinned::raw_get`: sync signature with get](https://github.com/rust-lang/rust/pull/145593)
+* [`bufreader::Buffer::backshift`: don't move the uninit bytes](https://github.com/rust-lang/rust/pull/145538)
+* [experiment: reborrow trait](https://github.com/rust-lang/rust/pull/145726)
+* [fix parameter order for `_by()` variants of `min` / `max`/ `minmax` in `std::cmp`](https://github.com/rust-lang/rust/pull/139357)
+* [fmt of non-decimal radix untangled](https://github.com/rust-lang/rust/pull/143730)
+* [implementation: `#[feature(nonpoison_rwlock)]`](https://github.com/rust-lang/rust/pull/144648)
+* [stabilize `const_array_each_ref`](https://github.com/rust-lang/rust/pull/143383)
+* [stabilize `const_pathbuf_osstring_new` feature](https://github.com/rust-lang/rust/pull/145464)
+* [hashbrown: un-bloat `get_inner` functions to restore lookup performance](https://github.com/rust-lang/hashbrown/pull/639)
+
+#### Cargo
+* [cargo: linting system](https://github.com/rust-lang/cargo/pull/15865)
+* [cargo: suggest workspace hints for boolean dependencies](https://github.com/rust-lang/cargo/pull/15507)
+
+#### Rustdoc
+* [add support for macro expansion in rustdoc source code pages](https://github.com/rust-lang/rust/pull/137229)
+* [make attributes render consistently](https://github.com/rust-lang/rust/pull/145782)
+* [render attributes in Field and Variants sections](https://github.com/rust-lang/rust/pull/145812)
+
+#### Clippy
+* [clippy: `bool_comparison`: fix incorrect suggestion with `>`/`<` and macros](https://github.com/rust-lang/rust-clippy/pull/15513)
+* [clippy: `bool_comparison`: no longer lint on `!x != y`](https://github.com/rust-lang/rust-clippy/pull/15498)
+* [clippy: `cast_slice_from_raw_parts`: check for implicit cast to raw slice pointer](https://github.com/rust-lang/rust-clippy/pull/15437)
+* [clippy: `ptr_as_ptr`: fix incorrect suggestion with `pointer::cast` and macros](https://github.com/rust-lang/rust-clippy/pull/15514)
+* [clippy: `too_many_lines`: only highlight the function signature](https://github.com/rust-lang/rust-clippy/pull/15461)
+* [clippy: `unnecessary_mut_passed`: add structured suggestion](https://github.com/rust-lang/rust-clippy/pull/15438)
+* [clippy: `unused_unit`: don't lint on closure return types](https://github.com/rust-lang/rust-clippy/pull/15549)
+* [clippy: better check for `assign_op_pattern` in `const` context](https://github.com/rust-lang/rust-clippy/pull/15532)
+* [clippy: check f16 and f128 in `float_equality_without_abs`](https://github.com/rust-lang/rust-clippy/pull/15054)
+* [clippy: detect infinite loop in `async fn` not returning `!`](https://github.com/rust-lang/rust-clippy/pull/15545)
+* [clippy: do not replace `match` by `if` if any arm contains a binding](https://github.com/rust-lang/rust-clippy/pull/15352)
+* [clippy: fix `unnecessary_safety_comment` not linting for the first line](https://github.com/rust-lang/rust-clippy/pull/15354)
+* [clippy: fix `async_yields_async` wrongly unmangled macros](https://github.com/rust-lang/rust-clippy/pull/15553)
+* [clippy: fix `derivable_impls` suggests wrongly on `derive_const`](https://github.com/rust-lang/rust-clippy/pull/15535)
+* [clippy: fix `manual_is_ascii_check`: also add explicit type when linting `matches!`](https://github.com/rust-lang/rust-clippy/pull/15492)
+* [clippy: fix `or_then_unwrap`: suggestion preserves macro calls](https://github.com/rust-lang/rust-clippy/pull/15483)
+* [clippy: fix `semicolon_inside_block` false positive when attribute over expr is not enabled](https://github.com/rust-lang/rust-clippy/pull/15476)
+* [clippy: fix `unnested_or_patterns` false positive on structs with only shorthand field pats](https://github.com/rust-lang/rust-clippy/pull/15343)
+
+#### Rust-Analyzer
+* [rust-analyzer: `replace_arith_op` not applicable on selected](https://github.com/rust-lang/rust-analyzer/pull/20512)
+* [rust-analyzer: add `ReturnExpr` completion suggest](https://github.com/rust-lang/rust-analyzer/pull/20507)
+* [rust-analyzer: add let in let-chain completion support](https://github.com/rust-lang/rust-analyzer/pull/20513)
+* [rust-analyzer: add an option to hide reborrows in adjustment inlay hints](https://github.com/rust-lang/rust-analyzer/pull/20520)
+* [rust-analyzer: fix `else` completion in `let _ = if x {} $0`](https://github.com/rust-lang/rust-analyzer/pull/20518)
+* [rust-analyzer: fix panic in `syntax_highlighting`](https://github.com/rust-lang/rust-analyzer/pull/20506)
+* [rust-analyzer: fix rust-analyzer-contributors reference](https://github.com/rust-lang/rust-analyzer/pull/20529)
+* [rust-analyzer: fix indentation in `move_guard_to_arm_body`](https://github.com/rust-lang/rust-analyzer/pull/20509)
+* [rust-analyzer: fix opaque generics](https://github.com/rust-lang/rust-analyzer/pull/20523)
+* [rust-analyzer: improve semicolon handling in `toggle_macro_delimiter`](https://github.com/rust-lang/rust-analyzer/pull/20534)
+* [rust-analyzer: infinite recursion while lowering assoc type bounds from supertraits](https://github.com/rust-lang/rust-analyzer/pull/20504)
+* [rust-analyzer: make import sorting order follow 2024 edition style](https://github.com/rust-lang/rust-analyzer/pull/20423)
+* [rust-analyzer: masquerade as nightly cargo when invoking flycheck with `-Zscript`](https://github.com/rust-lang/rust-analyzer/pull/20528)
+* [rust-analyzer: normalize all types when finishing inference](https://github.com/rust-lang/rust-analyzer/pull/20537)
+* [rust-analyzer: remove unnecessary `salsa::attach()` calls](https://github.com/rust-lang/rust-analyzer/pull/20502)
 
 ### Rust Compiler Performance Triage
 
@@ -377,7 +450,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> I `clone()` everything now. The Borrow Checker permits this small rebellion, this inefficiency. It knows I suffer more knowing my code is not idiomatic. Every `.clone()` is a confession of my failure. Every `Arc<Mutex>` a monument to my inadequacy.
+
+– [/u/TheEldenLorrdd on /r/rust](https://reddit.com/comments/1mwmei6)
+
+Thanks to [Colin Terry](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1709) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
