@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 * [audio] [Netstack.FM — Episode 2: Hyper with Sean McArthur](https://netstack.fm/#episode-2)
 
 ### Rust Walkthroughs
+* [Rust for JavaScript Engineers - Building Connect-4](https://www.afloat.boats/posts/rust-for-javascript-engineers-pt-1)
 
 ### Research
 
@@ -297,8 +298,8 @@ Rusty Events between 2025-08-27 - 2025-09-24 🦀
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308944038)
 * 2025-09-11 | Bern, CH | [Rust Bern](https://www.meetup.com/rust-bern/events/)
     * [**2025 Rust Talks Bern #4 @Zühlke**](https://www.meetup.com/rust-bern/events/309903540)
-* 2025-09-16 | Berlin, DE | [Oxidize Conference] (https://oxidizeconf.com/)  
-    * [**Oxidize Conference**](https://oxidizeconf.com/)  
+* 2025-09-16 | Berlin, DE | [Oxidize Conference] (https://oxidizeconf.com/)
+    * [**Oxidize Conference**](https://oxidizeconf.com/)
 * 2025-09-16 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/)
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/308592250)
 * 2025-09-17 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.club)
