@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [audio] [Netstack.FM — Episode 2: Hyper with Sean McArthur](https://netstack.fm/#episode-2)
+
 ### Rust Walkthroughs
 
 ### Research
