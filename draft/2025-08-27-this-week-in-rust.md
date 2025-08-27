@@ -141,7 +141,25 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Lot of regressions this week, mostly in rustdoc benchmarks from newly added features. The rest of the suite saw mostly small regressions in small benchmarks and also some improvements, notably from token tree parsing optimization in macro code, span optimization and ongoing work on new solver, which is not fully enabled, yet.
+
+Triage done by **@panstromek**.
+Revision range: [239e8b1b..ee361e8f](https://perf.rust-lang.org/?start=239e8b1b47b34120287ec36b33228c1e177f0c38&end=ee361e8fca1c30e13e7a31cc82b64c045339d3a8&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 3.7%  | [0.3%, 34.5%]  | 42    |
+| Regressions ❌ <br /> (secondary)  | 2.3%  | [0.0%, 53.3%]  | 79    |
+| Improvements ✅ <br /> (primary)   | -0.5% | [-0.7%, -0.3%] | 9     |
+| Improvements ✅ <br /> (secondary) | -0.9% | [-2.8%, -0.0%] | 30    |
+| All ❌✅ (primary)                 | 3.0%  | [-0.7%, 34.5%] | 51    |
+
+5 Regressions, 1 Improvement, 7 Mixed; 6 of them in rollups
+38 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/76b6beef3a67f4c97f61745ea510b4c4a924046f/triage/2025/2025-08-25.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
