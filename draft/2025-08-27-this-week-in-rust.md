@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [StrongBox: Simple, Safe Data Encryption for Rust](https://www.hezmatt.org/~mpalmer/blog/2025/08/27/strong-box-simple-safe-data-encryption-for-rust.html)
 * [Danube Messaging- Release 0.4.0 - Highlights](https://dev-state.com/posts/danube_update_040/)
 
 ### Observations/Thoughts
