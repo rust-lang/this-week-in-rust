@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Rust for JavaScript Engineers - Building Connect-4](https://www.afloat.boats/posts/rust-for-javascript-engineers-pt-1)
+* [Making a small Clippy lint](https://erk.dev/2025/08/21/clippy-lint)
 
 ### Research
 
