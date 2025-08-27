@@ -59,6 +59,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [GreptimeDB Rust Client - A Comprehensive Guide to High-Throughput Bulk Stream Inserts](https://greptime.com/blogs/2025-07-30-greptimedb-rust-guide-bulk-stream-insert)
+
 ## Crate of the Week
 
 This week's crate is [web-route](https://crates.io/crates/web-route), a library to ergonomically define and manage web server routes in Rust.
