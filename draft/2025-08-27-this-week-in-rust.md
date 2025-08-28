@@ -49,16 +49,22 @@ and just ask the editors to select the category.
 * [Danube Messaging- Release 0.4.0 - Highlights](https://dev-state.com/posts/danube_update_040/)
 
 ### Observations/Thoughts
-
+* [Emulating aarch64 in software using JIT compilation and Rust](https://pitsidianak.is/blog/posts/2025-08-25_emulating_aarch64_in_software_using_JIT_compilation.html)
+* [the core of rust](https://jyn.dev/the-core-of-rust/)
+* [Make the easy change hard](https://blog.appliedcomputing.io/p/make-the-easy-change-hard)
+* [Trying to get error backtraces in rust libraries right](https://www.iroh.computer/blog/error-handling-in-iroh)
+* [The unexpected productivity boost of Rust](https://lubeno.dev/blog/rusts-productivity-curve)
 * [audio] [Netstack.FM — Episode 2: Hyper with Sean McArthur](https://netstack.fm/#episode-2)
 
 ### Rust Walkthroughs
-
-* [Building a Plugin System for Rust: Native Libraries vs Scripting Language vs WASM vs Rules Engine](https://kerkour.com/rust-plugins)
+* [Rust ints to Rust enums with less instructions](https://sailor.li/ints-to-enums)
+* [GPUI Interactivity - Building a Counter App](https://blog.0xshadow.dev/posts/learning-gpui/gpui-interactivity/)
 * [Rust for JavaScript Engineers - Building Connect-4](https://www.afloat.boats/posts/rust-for-javascript-engineers-pt-1)
+* [Building a Plugin System for Rust: Native Libraries vs Scripting Language vs WASM vs Rules Engine](https://kerkour.com/rust-plugins)
 * [Making a small Clippy lint](https://erk.dev/2025/08/21/clippy-lint)
 * [Pest gotchas](https://andreabergia.com/blog/2025/08/pest-gotchas/)
 * [Shortcomings of Macros, And How To Overcome Them](https://cryptical.xyz/rust/shortcomings-of-macros)
+* [video] [Minimal Embedded FAT32 Driver - in Rust!](https://www.youtube.com/watch?v=VcWXn8B9RoE)
 
 ### Research
 
