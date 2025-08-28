@@ -37,14 +37,7 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
-
 * [StrongBox: Simple, Safe Data Encryption for Rust](https://www.hezmatt.org/~mpalmer/blog/2025/08/27/strong-box-simple-safe-data-encryption-for-rust.html)
 * [Danube Messaging- Release 0.4.0 - Highlights](https://dev-state.com/posts/danube_update_040/)
 
@@ -66,10 +59,7 @@ and just ask the editors to select the category.
 * [Shortcomings of Macros, And How To Overcome Them](https://cryptical.xyz/rust/shortcomings-of-macros)
 * [video] [Minimal Embedded FAT32 Driver - in Rust!](https://www.youtube.com/watch?v=VcWXn8B9RoE)
 
-### Research
-
 ### Miscellaneous
-
 * [GreptimeDB Rust Client - A Comprehensive Guide to High-Throughput Bulk Stream Inserts](https://greptime.com/blogs/2025-07-30-greptimedb-rust-guide-bulk-stream-insert)
 
 ## Crate of the Week
@@ -421,7 +411,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1mnpd9p/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -437,4 +427,4 @@ Thanks to [Colin Terry](https://users.rust-lang.org/t/twir-quote-of-the-week/328
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1n1znfa/this_week_in_rust_614/)</small>
