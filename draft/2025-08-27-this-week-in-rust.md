@@ -55,6 +55,8 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Rust for JavaScript Engineers - Building Connect-4](https://www.afloat.boats/posts/rust-for-javascript-engineers-pt-1)
 
+* [Shortcomings of Macros, And How To Overcome Them](https://cryptical.xyz/rust/shortcomings-of-macros)
+
 ### Research
 
 ### Miscellaneous
