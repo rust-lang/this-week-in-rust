@@ -53,10 +53,11 @@ and just ask the editors to select the category.
 * [audio] [Netstack.FM — Episode 2: Hyper with Sean McArthur](https://netstack.fm/#episode-2)
 
 ### Rust Walkthroughs
+
 * [Building a Plugin System for Rust: Native Libraries vs Scripting Language vs WASM vs Rules Engine](https://kerkour.com/rust-plugins)
 * [Rust for JavaScript Engineers - Building Connect-4](https://www.afloat.boats/posts/rust-for-javascript-engineers-pt-1)
+* [Making a small Clippy lint](https://erk.dev/2025/08/21/clippy-lint)
 * [Pest gotchas](https://andreabergia.com/blog/2025/08/pest-gotchas/)
-
 * [Shortcomings of Macros, And How To Overcome Them](https://cryptical.xyz/rust/shortcomings-of-macros)
 
 ### Research
