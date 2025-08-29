@@ -415,7 +415,7 @@ Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/r
 
 # Quote of the Week
 
-> I `clone()` everything now. The Borrow Checker permits this small rebellion, this inefficiency. It knows I suffer more knowing my code is not idiomatic. Every `.clone()` is a confession of my failure. Every `Arc<Mutex>` a monument to my inadequacy.
+> I `clone()` everything now. The Borrow Checker permits this small rebellion, this inefficiency. It knows I suffer more knowing my code is not idiomatic. Every `.clone()` is a confession of my failure. Every `Arc<Mutex<T>>` a monument to my inadequacy.
 
 – [/u/TheEldenLorrdd on /r/rust](https://reddit.com/comments/1mwmei6)
 
