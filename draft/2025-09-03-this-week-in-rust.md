@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [Rust Trends Issue #69: Rust's Enterprise Breakthrough Year](https://rust-trends.com/newsletter/rust-enterprise-breakthrough-2025)
+
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
