@@ -76,6 +76,7 @@ class Event:
   virtual: bool
   organizer_name: str
   organizer_url: str
+  no_venue: bool
 
   def __post_init__(self):
     """ Normalize the event data here """
@@ -91,7 +92,8 @@ class Event:
       "url": self.url,
       "virtual": self.virtual,
       "organizer_name": self.organizer_name,
-      "organizer_url": self.organizer_url
+      "organizer_url": self.organizer_url,
+      "no_venue": self.no_venue
     }
 
   def to_markdown_string(self) -> str:
@@ -111,9 +113,9 @@ class RawGqlEvent:
   date_time_str: str
   event_url_str: str
   venue_type: None | str
-  event_location: Location
-  lat: float
-  long: float
+  event_location: None | Location
+  lat: None | float
+  long: None | float
 
   def __init__(self, **kwargs) -> None:
     logger.debug(f"Constructing RawGqlEvent from: {kwargs}")
@@ -128,22 +130,29 @@ class RawGqlEvent:
     self.date_time_str = node["dateTime"]
     self.event_url_str = node["eventUrl"]
 
-    venue = node["venue"]
-    self.venue_type = venue["venueType"]
-    # TODO: do we need these lat longs?
-    self.lat = venue["lat"]
-    self.long = venue["lng"]
-    self.event_location = Location(venue["city"], venue["state"], venue["country"])
+    if node["venue"]:
+        venue = node["venue"]
+        self.venue_type = venue["venueType"]
+        # TODO: do we need these lat longs?
+        self.lat = venue["lat"]
+        self.long = venue["lng"]
+        self.event_location = Location(venue["city"], venue["state"], venue["country"])
+    else:
+        self.event_location = None
+        self.venue_type = None
+        self.lat = None
+        self.long = None
 
   def to_event(self, group_url: str) -> Event:
-    is_virtual = self.venue_type == "online"
+    is_virtual = self.venue_type is not None and self.venue_type == "online"
+    no_venue = self.event_location is None
 
     # this is a bit weird because we want a naive datetime object that just contains the year/month/day because we get
     # timestamps with tz info like "2025-01-16T19:00+01:00", just strip the time and tz info before parsing
     date = datetime.strptime(self.date_time_str.split('T')[0], '%Y-%m-%d')
 
     # prefer the event specific location, otherwise fall back to the group's location
-    if self.event_location.fields_present() > self.group_location.fields_present():
+    if self.event_location and self.event_location.fields_present() > self.group_location.fields_present():
       location = self.event_location
     else:
       location = self.group_location
@@ -155,6 +164,6 @@ class RawGqlEvent:
       url=self.event_url_str,
       virtual=is_virtual,
       organizer_name=self.group_name,
-      organizer_url=group_url
+      organizer_url=group_url,
+      no_venue=no_venue
     )
-

@@ -105,11 +105,18 @@ def group_virtual_continent(event_list):
 
     for event in event_list:
         # Separates Events by Virtual or by Continent
-        key = "Virtual" if event.virtual else country_code_to_continent(event.location.country)
+        key = determine_event_key(event)
         separated_event_list.setdefault(key, []).append(event)
     
     return separated_event_list
 
+def determine_event_key(event: Event):
+    if event.virtual:
+        return "Virtual" 
+    elif event.no_venue:
+        return "No Venue"
+    else:
+        return country_code_to_continent(event.location.country)
 
 def remove_duplicate_events(events: List[Event]) -> List[Event]:
     # Identifies possible duplicate Events within Event List.
