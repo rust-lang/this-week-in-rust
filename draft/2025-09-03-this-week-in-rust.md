@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Combining struct literal syntax with read-only field access](https://kobzol.github.io/rust/2025/09/01/combining-struct-literal-syntax-with-read-only-field-access.html)
+
 ### Rust Walkthroughs
 
 ### Research
