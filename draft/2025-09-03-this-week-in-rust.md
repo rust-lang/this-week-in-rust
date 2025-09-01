@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [Building Unified Observability Storage with Rust! GreptimeDB's Engineering Practice and Technical Evolution](https://greptime.com/blogs/2025-07-03-unified-observability-storage-rust-greptimedb)
+
 ### Rust Walkthroughs
 
 ### Research
