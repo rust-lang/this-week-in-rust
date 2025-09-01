@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [video] [Rust 1.89.0](https://youtu.be/C5RHSqYIR7w)
+
 ### Rust Walkthroughs
 
 ### Research
