@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Starting a new post series: Rust Algorithm Bites – Binary Tree Level Order Traversal](https://d34dl0ck.me/rust-algorithm-bites-binary-tree-level-order-traversal/index.html)
 
 ### Rust Walkthroughs
 
