@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [aehobak](https://crates.io/crates/aehobak), a transcoder for bsdiff binary patches.
+
+Thanks to [David Michael Barr](https://users.rust-lang.org/t/crate-of-the-week/2704/1465) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -137,7 +139,50 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+383 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-08-26..2025-09-02
+
+#### Compiler
+* [detect missing `if let` or `let-else`](https://github.com/rust-lang/rust/pull/145582)
+* [fix `#[loop_match]` on diverging loop](https://github.com/rust-lang/rust/pull/144783)
+
+#### Library
+* [add `Bound::copied`](https://github.com/rust-lang/rust/pull/145968)
+* [add `Duration::from_nanos_u128`](https://github.com/rust-lang/rust/pull/145969)
+* [add `Option::reduce`](https://github.com/rust-lang/rust/pull/144274)
+* [implement Sum and Product for `Saturating(u*)`](https://github.com/rust-lang/rust/pull/144275)
+* [implementation: `#[feature(nonpoison_condvar)]`](https://github.com/rust-lang/rust/pull/144651)
+* [optimize `.ilog({2,10})` to `.ilog{2,10}()`](https://github.com/rust-lang/rust/pull/145776)
+* [str: stabilize `round_char_boundary` feature](https://github.com/rust-lang/rust/pull/145756)
+
+#### Cargo
+* [`fix(cli)`: Show the bad manifest path](https://github.com/rust-lang/cargo/pull/15896)
+* [add more context to publish-failed error message](https://github.com/rust-lang/cargo/pull/15879)
+* [feat: don't stop at first error when emitting lints and warnings](https://github.com/rust-lang/cargo/pull/15889)
+
+#### Clippy
+* [`map_identity`: suggest making the variable mutable when necessary](https://github.com/rust-lang/rust-clippy/pull/15268)
+* [`unit_cmp`: don't lint on explicitly written unit expr](https://github.com/rust-lang/rust-clippy/pull/15562)
+* [allow `--print=crate-root-lint-levels`](https://github.com/rust-lang/rust-clippy/pull/15567)
+* [`assertions_on_result_states` avoid changing return type in more cases](https://github.com/rust-lang/rust-clippy/pull/15591)
+* [`collapsible_match` suggest ref/derefs when needed](https://github.com/rust-lang/rust-clippy/pull/14221)
+* [enable `clippy::panic` in const contexts](https://github.com/rust-lang/rust-clippy/pull/15565)
+* [fix false positive of `needless_range_loop` when meeting multidimensional array](https://github.com/rust-lang/rust-clippy/pull/15486)
+* [fix `alloc_instead_of_core` false positive when `alloc` is an alias](https://github.com/rust-lang/rust-clippy/pull/15581)
+* [fix `needless_for_each` suggesting wrongly with explicit closure input types](https://github.com/rust-lang/rust-clippy/pull/15595)
+* [fix `print_literal` suggesting wrongly for inline literal following a numbered arg](https://github.com/rust-lang/rust-clippy/pull/15583)
+* [fix `redundant_closure` suggests wrongly with deref overload](https://github.com/rust-lang/rust-clippy/pull/15077)
+* [supress `excessive_precision` when constants are overly precise](https://github.com/rust-lang/rust-clippy/pull/15193)
+
+#### Rust-Analyzer
+* [add progress bars to more places in analysis-stats](https://github.com/rust-lang/rust-analyzer/pull/20560)
+* [attach the db in one more place in highlighting](https://github.com/rust-lang/rust-analyzer/pull/20553)
+* [avoid `--target` option being given twice to `rustc` when invoked through `cargo rustc` while fetching target data layout](https://github.com/rust-lang/rust-analyzer/pull/20579)
+* [deduplicate methods in completion by function ID and not by name](https://github.com/rust-lang/rust-analyzer/pull/20587)
+* [in `highlight_related,` when on an unsafe block, don't highlight unsafe operations of other unsafe blocks](https://github.com/rust-lang/rust-analyzer/pull/20547)
+* [when mapping next-solver's `dyn` type, add `Self` (aka. bound var ^1.0) to auto traits' substitutions](https://github.com/rust-lang/rust-analyzer/pull/20563)
+* [cache trait solving across queries in the same revision](https://github.com/rust-lang/rust-analyzer/pull/20527)
 
 ### Rust Compiler Performance Triage
 
@@ -348,7 +393,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Bugs like this are the worst! It's almost impossible to catch them in development, because there is never enough load on the system to force the scheduler to move the execution to another thread. So, you end up with one of these "impossible to reproduce, fails sometimes, but never for you" bugs.
+>
+> It's mind-blowingly cool that the Rust compiler can detect something like this. And that seemingly unrelated parts of the language, like mutexes, lifetimes and async operations form such a coherent system.
+
+– [Bernard Kolobara on their blog](https://lubeno.dev/blog/rusts-productivity-curve)
+
+Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1711) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
