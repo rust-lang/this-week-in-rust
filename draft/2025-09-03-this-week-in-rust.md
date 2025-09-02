@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Introducing cargo safe-publish](https://blog.weiznich.de/blog/cargo-safe-publish/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
