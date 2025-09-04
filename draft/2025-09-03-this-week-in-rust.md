@@ -37,27 +37,21 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
 ### Foundation
-
 * [Welcoming the Rust Innovation Lab | Rust Blog](https://blog.rust-lang.org/2025/09/03/welcoming-the-rust-innovation-lab/)
 
 ### Newsletters
-
 * [The Embedded Rustacean Issue #53](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-53)
 * [Rust Trends Issue #69: Rust's Enterprise Breakthrough Year](https://rust-trends.com/newsletter/rust-enterprise-breakthrough-2025)
 
 ### Project/Tooling Updates
-* [rkik v1.0.0 - stateless NTPv4/v6 inspection CLI in Rust](https://github.com/aguacero7/rkik)
-
 * [The road to SeaQuery 1.0](https://www.sea-ql.org/blog/2025-08-30-sea-query-1.0/)
+* [rkik v1.0.0 - stateless NTPv4/v6 inspection CLI in Rust](https://github.com/aguacero7/rkik)
 * [Introducing cargo safe-publish](https://blog.weiznich.de/blog/cargo-safe-publish/)
 * [Tracking trust with Rust in the kernel](https://lwn.net/SubscriberLink/1034603/5dcfecdd5e3af0c2/)
 * [Slint 1.13 Released with Live-Preview for Rust and C++](https://slint.dev/blog/slint-1.13-released)
 
 ### Observations/Thoughts
-
 * [Rust Algorithm Bites – Binary Tree Level Order Traversal](https://d34dl0ck.me/rust-algorithm-bites-binary-tree-level-order-traversal/index.html)
 * [Adding derive(From) to Rust](https://kobzol.github.io/rust/2025/09/02/adding-derive-from-to-rust.html)
 * [Why I Built TLQ (Tiny Little Queue)](https://nebjak.dev/blog/why-i-built-tlq-tiny-little-queue/)
@@ -68,13 +62,11 @@ and just ask the editors to select the category.
 * [video] [Rust 1.89.0](https://youtu.be/C5RHSqYIR7w)
 
 ### Rust Walkthroughs
-
 * [Let's write a macro in Rust - Part 2](https://hackeryarn.com/post/rust-macros-2/)
 * [How to set up Rust logging in AWS Lambda for AWS CloudWatch](https://forgestream.idverse.com/blog/20250902-cloudwatch-rust-logging/)
 * [Building a Todo App in GPUI](https://blog.0xshadow.dev/posts/learning-gpui/gpui-todo-app/)
 
 ### Research
-
 * [Sharing a mutable reference with Python](https://blog.lilyf.org/posts/python-mutable-reference/)
 * [Faster Rust builds on Mac](https://nnethercote.github.io/2025/09/04/faster-rust-builds-on-mac.html)
 * [Rust Performance Tricks](https://davidlattimore.github.io/posts/2025/09/02/rustforge-wild-performance-tricks.html)
@@ -82,7 +74,6 @@ and just ask the editors to select the category.
 * [video] [RustCurious 1: Why Rust is Safe: A novel introduction to ownership and borrowing](https://www.youtube.com/watch?v=lVWiHIVXG2c)
 
 ### Miscellaneous
-
 * [Elements of Rust: A complete map of the Rust type system](https://rustcurious.com/elements/)
 * [filtra.io interview with `tonari` team | Opening Portals With Rust](https://filtra.io/rust/interviews/tonari-aug-25)
 * [audio] [Hyper with Sean McArthur](https://www.youtube.com/watch?v=aw9lvs3PhWQ)
@@ -133,9 +124,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-<!-- * [ - ]() -->
-<!-- or if none - *No Calls for participation were submitted this week.* -->
+*No Calls for participation were submitted this week.*
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -145,8 +134,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-<!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+*No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
