@@ -141,7 +141,27 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A relatively quiet week. [#144841](https://github.com/rust-lang/rust/pull/144841) added an
+optimization for incremental builds that provided a very nice win for the `nalgebra` crate. [#143290](https://github.com/rust-lang/rust/pull/143290) should help avoid instantiating async functions repeatedly in
+downstream crates.
+
+Triage done by **@kobzol**..-
+Revision range: [ee361e8f..75ee9ffd](https://perf.rust-lang.org/?start=ee361e8fca1c30e13e7a31cc82b64c045339d3a8&end=75ee9ffd5ed3649c0a09493057adaa8feebb2035&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.3%  | [0.2%, 0.4%]   | 7     |
+| Regressions ❌ <br /> (secondary)  | 2.0%  | [0.1%, 13.6%]  | 30    |
+| Improvements ✅ <br /> (primary)   | -1.9% | [-7.0%, -0.3%] | 17    |
+| Improvements ✅ <br /> (secondary) | -0.7% | [-1.7%, -0.1%] | 23    |
+| All ❌✅ (primary)                 | -1.2% | [-7.0%, 0.4%]  | 24    |
+
+1 Regression, 3 Improvements, 6 Mixed; 5 of them in rollups
+45 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/27c08698d3d9cb15081459cf61385d52958e14ac/triage/2025/2025-09-02.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
