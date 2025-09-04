@@ -65,6 +65,8 @@ and just ask the editors to select the category.
 
 * [Demangling the Details: Symbol Resolution in Rusty Trap](https://system.joekain.com/2025/08/31/demangling-the-details-symbol-resolution.html)
 
+* [video] [Rust 1.89.0](https://youtu.be/C5RHSqYIR7w)
+
 ### Rust Walkthroughs
 
 * [Let's write a macro in Rust - Part 2](https://hackeryarn.com/post/rust-macros-2/)
