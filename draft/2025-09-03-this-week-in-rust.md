@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [rkik v1.0.0](https://github.com/aguacero7/rkik) - A stateless NTPv4/v6 inspection CLI in Rust, handles JSON output, continuous monitoring flags, and library integration. Just like dig or ping, but for NTP.
+* [rkik v1.0.0 - stateless NTPv4/v6 inspection CLI in Rust](https://github.com/aguacero7/rkik)
 
 ### Observations/Thoughts
 
