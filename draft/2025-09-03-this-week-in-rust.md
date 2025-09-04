@@ -55,6 +55,7 @@ and just ask the editors to select the category.
 * [Slint 1.13 Released with Live-Preview for Rust and C++](https://slint.dev/blog/slint-1.13-released)
 
 ### Observations/Thoughts
+* [Rust Algorithm Bites – Binary Tree Level Order Traversal](https://d34dl0ck.me/rust-algorithm-bites-binary-tree-level-order-traversal/index.html)
 
 * [Adding derive(From) to Rust](https://kobzol.github.io/rust/2025/09/02/adding-derive-from-to-rust.html)
 * [Why I Built TLQ (Tiny Little Queue)](https://nebjak.dev/blog/why-i-built-tlq-tiny-little-queue/)
