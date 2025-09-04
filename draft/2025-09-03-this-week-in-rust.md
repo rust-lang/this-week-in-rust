@@ -53,7 +53,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
-* [A complete map of the Rust type system](https://rustcurious.com/elements/)
+* [Elements of Rust: A complete map of the Rust type system](https://rustcurious.com/elements/)
 
 ## Crate of the Week
 
