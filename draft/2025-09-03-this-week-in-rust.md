@@ -70,6 +70,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 * [Let's write a macro in Rust - Part 2](https://hackeryarn.com/post/rust-macros-2/)
+* [How to set up Rust logging in AWS Lambda for AWS CloudWatch](https://forgestream.idverse.com/blog/20250902-cloudwatch-rust-logging/)
 * [Building a Todo App in GPUI](https://blog.0xshadow.dev/posts/learning-gpui/gpui-todo-app/)
 
 ### Research
