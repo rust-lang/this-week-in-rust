@@ -67,6 +67,7 @@ and just ask the editors to select the category.
 * [video] [Embedded Rust Workshop](https://www.youtube.com/live/PZZfVAaYTP8?si=2nfis0-IrN9aMkti)
 
 ### Miscellaneous
+* [filtra.io interview with `tonari` team | Opening Portals With Rust](https://filtra.io/rust/interviews/tonari-aug-25)
 
 * [audio] [Hyper with Sean McArthur](https://www.youtube.com/watch?v=aw9lvs3PhWQ)
 * [video] [Berkeley Seminar | The quest for performance](https://youtu.be/k_-6KI3m31M?si=JDZTHRDTs-unM34A)
