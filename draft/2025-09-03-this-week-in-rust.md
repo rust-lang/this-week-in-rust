@@ -39,19 +39,27 @@ and just ask the editors to select the category.
 
 ### Official
 
-### Foundation
-
-### Newsletters
+* [Welcoming the Rust Innovation Lab | Rust Blog](https://blog.rust-lang.org/2025/09/03/welcoming-the-rust-innovation-lab/)
 
 ### Project/Tooling Updates
 
+* [Slint 1.13 Released](https://slint.dev/blog/slint-1.13-released)
+
 ### Observations/Thoughts
+
+* [Why I Built TLQ (Tiny Little Queue)](https://nebjak.dev/blog/why-i-built-tlq-tiny-little-queue/)
 
 ### Rust Walkthroughs
 
-### Research
+* [Sharing a mutable reference with Python](https://blog.lilyf.org/posts/python-mutable-reference/)
+* [Faster Rust builds on Mac](https://nnethercote.github.io/2025/09/04/faster-rust-builds-on-mac.html)
+* [Rust Performance Tricks](https://davidlattimore.github.io/posts/2025/09/02/rustforge-wild-performance-tricks.html)
+* [video] [Embedded Rust Workshop](https://www.youtube.com/live/PZZfVAaYTP8?si=2nfis0-IrN9aMkti)
 
 ### Miscellaneous
+
+* [audio] [Hyper with Sean McArthur](https://www.youtube.com/watch?v=aw9lvs3PhWQ)
+* [video] [Berkeley Seminar | The quest for performance](https://youtu.be/k_-6KI3m31M?si=JDZTHRDTs-unM34A)
 
 ## Crate of the Week
 
