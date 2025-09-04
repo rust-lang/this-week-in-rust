@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [The road to SeaQuery 1.0](https://www.sea-ql.org/blog/2025-08-30-sea-query-1.0/)
 * [Tracking trust with Rust in the kernel](https://lwn.net/SubscriberLink/1034603/5dcfecdd5e3af0c2/)
 * [Slint 1.13 Released with Live-Preview for Rust and C++](https://slint.dev/blog/slint-1.13-released)
 
