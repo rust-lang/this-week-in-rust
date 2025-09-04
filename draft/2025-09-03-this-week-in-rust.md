@@ -62,6 +62,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Let's write a macro in Rust - Part 2](https://hackeryarn.com/post/rust-macros-2/)
+
 ### Research
 
 * [Sharing a mutable reference with Python](https://blog.lilyf.org/posts/python-mutable-reference/)
