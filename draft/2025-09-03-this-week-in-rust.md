@@ -72,6 +72,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Elements of Rust: A complete map of the Rust type system](https://rustcurious.com/elements/)
 * [filtra.io interview with `tonari` team | Opening Portals With Rust](https://filtra.io/rust/interviews/tonari-aug-25)
 * [audio] [Hyper with Sean McArthur](https://www.youtube.com/watch?v=aw9lvs3PhWQ)
 * [video] [Berkeley Seminar | The quest for performance](https://youtu.be/k_-6KI3m31M?si=JDZTHRDTs-unM34A)
