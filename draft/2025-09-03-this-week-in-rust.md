@@ -52,7 +52,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-* [filtra.io interview | Opening Portals With Rust](https://filtra.io/rust/interviews/tonari-aug-25)
+* [filtra.io interview with `tonari` team | Opening Portals With Rust](https://filtra.io/rust/interviews/tonari-aug-25)
 
 ## Crate of the Week
 
