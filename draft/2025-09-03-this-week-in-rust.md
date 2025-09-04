@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 * [Rust Trends Issue #69: Rust's Enterprise Breakthrough Year](https://rust-trends.com/newsletter/rust-enterprise-breakthrough-2025)
 
 ### Project/Tooling Updates
+* [rkik v1.0.0 - stateless NTPv4/v6 inspection CLI in Rust](https://github.com/aguacero7/rkik)
 
 * [The road to SeaQuery 1.0](https://www.sea-ql.org/blog/2025-08-30-sea-query-1.0/)
 * [Introducing cargo safe-publish](https://blog.weiznich.de/blog/cargo-safe-publish/)
