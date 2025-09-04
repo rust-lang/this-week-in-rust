@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 * [Welcoming the Rust Innovation Lab | Rust Blog](https://blog.rust-lang.org/2025/09/03/welcoming-the-rust-innovation-lab/)
 
 ### Project/Tooling Updates
+* [Tracking trust with Rust in the kernel](https://lwn.net/SubscriberLink/1034603/5dcfecdd5e3af0c2/)
 
 * [Slint 1.13 Released](https://slint.dev/blog/slint-1.13-released)
 
