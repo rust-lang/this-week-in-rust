@@ -1,6 +1,6 @@
-Title: This Week in Rust 615
-Number: 615
-Date: 2025-09-03
+Title: This Week in Rust 616
+Number: 616
+Date: 2025-09-10
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -41,78 +41,63 @@ and just ask the editors to select the category.
 
 ### Foundation
 
-* [Welcoming the Rust Innovation Lab | Rust Blog](https://blog.rust-lang.org/2025/09/03/welcoming-the-rust-innovation-lab/)
-
 ### Newsletters
 
-* [The Embedded Rustacean Issue #53](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-53)
-* [Rust Trends Issue #69: Rust's Enterprise Breakthrough Year](https://rust-trends.com/newsletter/rust-enterprise-breakthrough-2025)
-
 ### Project/Tooling Updates
-* [rkik v1.0.0 - stateless NTPv4/v6 inspection CLI in Rust](https://github.com/aguacero7/rkik)
-
-* [The road to SeaQuery 1.0](https://www.sea-ql.org/blog/2025-08-30-sea-query-1.0/)
-* [Introducing cargo safe-publish](https://blog.weiznich.de/blog/cargo-safe-publish/)
-* [Tracking trust with Rust in the kernel](https://lwn.net/SubscriberLink/1034603/5dcfecdd5e3af0c2/)
-* [Slint 1.13 Released with Live-Preview for Rust and C++](https://slint.dev/blog/slint-1.13-released)
 
 ### Observations/Thoughts
 
-* [Rust Algorithm Bites – Binary Tree Level Order Traversal](https://d34dl0ck.me/rust-algorithm-bites-binary-tree-level-order-traversal/index.html)
-* [Adding derive(From) to Rust](https://kobzol.github.io/rust/2025/09/02/adding-derive-from-to-rust.html)
-* [Why I Built TLQ (Tiny Little Queue)](https://nebjak.dev/blog/why-i-built-tlq-tiny-little-queue/)
-* [Combining struct literal syntax with read-only field access](https://kobzol.github.io/rust/2025/09/01/combining-struct-literal-syntax-with-read-only-field-access.html)
-* [Be Careful Zero-Copying Strings with `serde`](https://bd103.github.io/blog/2025-09-01-zero-copying-strings-serde)
-* [Elephants for breakfast: testing untestable functions, one bite at a time](https://bitfieldconsulting.com/posts/elephants-for-breakfast) 
-* [Demangling the Details: Symbol Resolution in Rusty Trap](https://system.joekain.com/2025/08/31/demangling-the-details-symbol-resolution.html)
-* [video] [Rust 1.89.0](https://youtu.be/C5RHSqYIR7w)
-
 ### Rust Walkthroughs
-
-* [Let's write a macro in Rust - Part 2](https://hackeryarn.com/post/rust-macros-2/)
-* [How to set up Rust logging in AWS Lambda for AWS CloudWatch](https://forgestream.idverse.com/blog/20250902-cloudwatch-rust-logging/)
-* [Building a Todo App in GPUI](https://blog.0xshadow.dev/posts/learning-gpui/gpui-todo-app/)
 
 ### Research
 
-* [Sharing a mutable reference with Python](https://blog.lilyf.org/posts/python-mutable-reference/)
-* [Faster Rust builds on Mac](https://nnethercote.github.io/2025/09/04/faster-rust-builds-on-mac.html)
-* [Rust Performance Tricks](https://davidlattimore.github.io/posts/2025/09/02/rustforge-wild-performance-tricks.html)
-* [video] [Embedded Rust Workshop](https://www.youtube.com/live/PZZfVAaYTP8?si=2nfis0-IrN9aMkti)
-* [video] [RustCurious 1: Why Rust is Safe: A novel introduction to ownership and borrowing](https://www.youtube.com/watch?v=lVWiHIVXG2c)
-
 ### Miscellaneous
-
-* [Elements of Rust: A complete map of the Rust type system](https://rustcurious.com/elements/)
-* [filtra.io interview with `tonari` team | Opening Portals With Rust](https://filtra.io/rust/interviews/tonari-aug-25)
-* [audio] [Hyper with Sean McArthur](https://www.youtube.com/watch?v=aw9lvs3PhWQ)
-* [video] [Berkeley Seminar | The quest for performance](https://youtu.be/k_-6KI3m31M?si=JDZTHRDTs-unM34A)
 
 ## Crate of the Week
 
-This week's crate is [aehobak](https://crates.io/crates/aehobak), a transcoder for bsdiff binary patches.
-
-Thanks to [David Michael Barr](https://users.rust-lang.org/t/crate-of-the-week/2704/1465) for the suggestion!
+<!-- COTW goes here -->
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
 ## Calls for Testing
-An important step for RFC implementation is for people to experiment with the
+An important step for feature implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.
 
-If you are a feature implementer and would like your RFC to appear in this list, add a
+If you are a feature implementer and would like your feature to appear in this list, add a
 `call-for-testing` label to your RFC along with a comment providing testing instructions and/or
 guidance on which aspect(s) of the feature need testing.
 
+<!-- If there are new CfT items this week, use: -->
+<!--
+  [Repo Name](Repo URL)
+    * [<Feature name>](<Feature URL>)
+        * [Testing steps](<Testing Steps URL>)
+-->
+<!-- where `Repo Name` and `Repo URL` are one of:
+[Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
+[Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing),
+[Cargo](https://github.com/rust-lang/cargo/labels/call-for-testing) or
+[Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
+-->
+
+<!-- For all `Repo Names` with no new CfT items this week: use (removing the repos for which new
+     CfT items did appear, of course) -->
+<!--
 * *No calls for testing were issued this week by
   [Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
   [Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing),
   [Cargo](https://github.com/rust-lang/cargo/labels/call-for-testing) or
   [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing).*
+-->
+* *No calls for testing were issued this week by [Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
+  [Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing),
+  [Cargo](https://github.com/rust-lang/cargo/labels/call-for-testing) or
+  [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing).*
 
 [Let us know](https://github.com/rust-lang/this-week-in-rust/issues) if you would like your feature to be tracked as a part of this list.
+-->
 
 ### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 
@@ -152,112 +137,62 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-383 pull requests were [merged in the last week][merged]
-
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-08-26..2025-09-02
-
-#### Compiler
-* [detect missing `if let` or `let-else`](https://github.com/rust-lang/rust/pull/145582)
-* [fix `#[loop_match]` on diverging loop](https://github.com/rust-lang/rust/pull/144783)
-
-#### Library
-* [add `Bound::copied`](https://github.com/rust-lang/rust/pull/145968)
-* [add `Duration::from_nanos_u128`](https://github.com/rust-lang/rust/pull/145969)
-* [add `Option::reduce`](https://github.com/rust-lang/rust/pull/144274)
-* [implement Sum and Product for `Saturating(u*)`](https://github.com/rust-lang/rust/pull/144275)
-* [implementation: `#[feature(nonpoison_condvar)]`](https://github.com/rust-lang/rust/pull/144651)
-* [optimize `.ilog({2,10})` to `.ilog{2,10}()`](https://github.com/rust-lang/rust/pull/145776)
-* [str: stabilize `round_char_boundary` feature](https://github.com/rust-lang/rust/pull/145756)
-
-#### Cargo
-* [`fix(cli)`: Show the bad manifest path](https://github.com/rust-lang/cargo/pull/15896)
-* [add more context to publish-failed error message](https://github.com/rust-lang/cargo/pull/15879)
-* [feat: don't stop at first error when emitting lints and warnings](https://github.com/rust-lang/cargo/pull/15889)
-
-#### Clippy
-* [`map_identity`: suggest making the variable mutable when necessary](https://github.com/rust-lang/rust-clippy/pull/15268)
-* [`unit_cmp`: don't lint on explicitly written unit expr](https://github.com/rust-lang/rust-clippy/pull/15562)
-* [allow `--print=crate-root-lint-levels`](https://github.com/rust-lang/rust-clippy/pull/15567)
-* [`assertions_on_result_states` avoid changing return type in more cases](https://github.com/rust-lang/rust-clippy/pull/15591)
-* [`collapsible_match` suggest ref/derefs when needed](https://github.com/rust-lang/rust-clippy/pull/14221)
-* [enable `clippy::panic` in const contexts](https://github.com/rust-lang/rust-clippy/pull/15565)
-* [fix false positive of `needless_range_loop` when meeting multidimensional array](https://github.com/rust-lang/rust-clippy/pull/15486)
-* [fix `alloc_instead_of_core` false positive when `alloc` is an alias](https://github.com/rust-lang/rust-clippy/pull/15581)
-* [fix `needless_for_each` suggesting wrongly with explicit closure input types](https://github.com/rust-lang/rust-clippy/pull/15595)
-* [fix `print_literal` suggesting wrongly for inline literal following a numbered arg](https://github.com/rust-lang/rust-clippy/pull/15583)
-* [fix `redundant_closure` suggests wrongly with deref overload](https://github.com/rust-lang/rust-clippy/pull/15077)
-* [supress `excessive_precision` when constants are overly precise](https://github.com/rust-lang/rust-clippy/pull/15193)
-
-#### Rust-Analyzer
-* [add progress bars to more places in analysis-stats](https://github.com/rust-lang/rust-analyzer/pull/20560)
-* [attach the db in one more place in highlighting](https://github.com/rust-lang/rust-analyzer/pull/20553)
-* [avoid `--target` option being given twice to `rustc` when invoked through `cargo rustc` while fetching target data layout](https://github.com/rust-lang/rust-analyzer/pull/20579)
-* [deduplicate methods in completion by function ID and not by name](https://github.com/rust-lang/rust-analyzer/pull/20587)
-* [in `highlight_related,` when on an unsafe block, don't highlight unsafe operations of other unsafe blocks](https://github.com/rust-lang/rust-analyzer/pull/20547)
-* [when mapping next-solver's `dyn` type, add `Self` (aka. bound var ^1.0) to auto traits' substitutions](https://github.com/rust-lang/rust-analyzer/pull/20563)
-* [cache trait solving across queries in the same revision](https://github.com/rust-lang/rust-analyzer/pull/20527)
+<!-- Rust updates go here -->
 
 ### Rust Compiler Performance Triage
 
-A relatively quiet week. [#144841](https://github.com/rust-lang/rust/pull/144841) added an
-optimization for incremental builds that provided a very nice win for the `nalgebra` crate. [#143290](https://github.com/rust-lang/rust/pull/143290) should help avoid instantiating async functions repeatedly in
-downstream crates.
-
-Triage done by **@kobzol**..-
-Revision range: [ee361e8f..75ee9ffd](https://perf.rust-lang.org/?start=ee361e8fca1c30e13e7a31cc82b64c045339d3a8&end=75ee9ffd5ed3649c0a09493057adaa8feebb2035&absolute=false&stat=instructions%3Au)
-
-**Summary**:
-
-| (instructions:u)                   | mean  | range          | count |
-|:----------------------------------:|:-----:|:--------------:|:-----:|
-| Regressions ❌ <br /> (primary)    | 0.3%  | [0.2%, 0.4%]   | 7     |
-| Regressions ❌ <br /> (secondary)  | 2.0%  | [0.1%, 13.6%]  | 30    |
-| Improvements ✅ <br /> (primary)   | -1.9% | [-7.0%, -0.3%] | 17    |
-| Improvements ✅ <br /> (secondary) | -0.7% | [-1.7%, -0.1%] | 23    |
-| All ❌✅ (primary)                 | -1.2% | [-7.0%, 0.4%]  | 24    |
-
-1 Regression, 3 Improvements, 6 Mixed; 5 of them in rollups
-45 artifact comparisons made in total
-
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/27c08698d3d9cb15081459cf61385d52958e14ac/triage/2025/2025-09-02.md).
+<!-- Perf results go here -->
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* *No RFCs were approved this week.*
+<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
+<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
+<!-- * []() -->
+
+<!--
+### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
+<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
+<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
+-->
 
 ### Final Comment Period
 
 Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
 which are reaching a decision. Express your opinions now.
 
+#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
+<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
+<!-- * [disposition: ] []() -->
+
 #### Tracking Issues & PRs
+<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
+<!-- or if none entered FCP this week, use: -->
+<!-- * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
+<!-- * [disposition: ] []() -->
+
 ##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-* [don't apply temporary lifetime extension rules to non-extended `super let`](https://github.com/rust-lang/rust/pull/145838)
-* [disposition: not specified] [Stabilize `new_zeroed_alloc`](https://github.com/rust-lang/rust/pull/144091)
-* [Do not materialise X in [X; 0] when X is unsizing a const](https://github.com/rust-lang/rust/pull/145277)
-* [Reject invalid literal suffixes in tuple indexing, tuple struct indexing, and struct field name position](https://github.com/rust-lang/rust/pull/145463)
-* [Stabilize `std::panic::Location::file_as_c_str`](https://github.com/rust-lang/rust/pull/145664)
-* [Fix backtraces with `-C panic=abort` on linux; emit unwind tables by default](https://github.com/rust-lang/rust/pull/143613)
-* [Specialize Iterator::eq{_by} for TrustedLen iterators](https://github.com/rust-lang/rust/pull/137122)
 
-*No Items entered Final Comment Period this week for
-[Rust RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period),
-[Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc),
-[Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc+),
-[Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc) or
-[Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc).*
+##### [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
-Let us know if you would like your PRs, Tracking Issues or RFCs to be tracked as a part of this list.
+##### [Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc+)
+
+##### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+
+##### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
 #### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-* *No New or Updated RFCs were created this week.*
+<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
+<!-- or if there are no new or updated RFCs this week, use: -->
+<!-- * *No New or Updated RFCs were created this week.* -->
+<!-- * [new|updated] []() -->
 
 ## Upcoming Events
 
-Rusty Events between 2025-09-03 - 2025-10-01 🦀
+Rusty Events between 2025-09-10 - 2025-10-08 🦀
 
 ### Virtual
 * 2025-09-02 - 2025-09-05 | Hybrid (Seattle, WA, US) | [RustConf](https://rustconf.com/)
@@ -397,13 +332,7 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-> Bugs like this are the worst! It's almost impossible to catch them in development, because there is never enough load on the system to force the scheduler to move the execution to another thread. So, you end up with one of these "impossible to reproduce, fails sometimes, but never for you" bugs.
->
-> It's mind-blowingly cool that the Rust compiler can detect something like this. And that seemingly unrelated parts of the language, like mutexes, lifetimes and async operations form such a coherent system.
-
-– [Bernard Kolobara on their blog](https://lubeno.dev/blog/rusts-productivity-curve)
-
-Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1711) for the suggestion!
+<!-- QOTW goes here -->
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
