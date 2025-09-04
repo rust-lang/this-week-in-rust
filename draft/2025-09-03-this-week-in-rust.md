@@ -63,6 +63,8 @@ and just ask the editors to select the category.
 * [Be Careful Zero-Copying Strings with `serde`](https://bd103.github.io/blog/2025-09-01-zero-copying-strings-serde)
 * [Elephants for breakfast: testing untestable functions, one bite at a time](https://bitfieldconsulting.com/posts/elephants-for-breakfast) 
 
+* [Demangling the Details: Symbol Resolution in Rusty Trap](https://system.joekain.com/2025/08/31/demangling-the-details-symbol-resolution.html)
+
 ### Rust Walkthroughs
 
 * [Let's write a macro in Rust - Part 2](https://hackeryarn.com/post/rust-macros-2/)
