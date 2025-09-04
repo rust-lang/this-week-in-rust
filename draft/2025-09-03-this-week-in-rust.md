@@ -51,20 +51,19 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [The road to SeaQuery 1.0](https://www.sea-ql.org/blog/2025-08-30-sea-query-1.0/)
+* [Introducing cargo safe-publish](https://blog.weiznich.de/blog/cargo-safe-publish/)
 * [Tracking trust with Rust in the kernel](https://lwn.net/SubscriberLink/1034603/5dcfecdd5e3af0c2/)
 * [Slint 1.13 Released with Live-Preview for Rust and C++](https://slint.dev/blog/slint-1.13-released)
 
 ### Observations/Thoughts
-* [Rust Algorithm Bites – Binary Tree Level Order Traversal](https://d34dl0ck.me/rust-algorithm-bites-binary-tree-level-order-traversal/index.html)
 
+* [Rust Algorithm Bites – Binary Tree Level Order Traversal](https://d34dl0ck.me/rust-algorithm-bites-binary-tree-level-order-traversal/index.html)
 * [Adding derive(From) to Rust](https://kobzol.github.io/rust/2025/09/02/adding-derive-from-to-rust.html)
 * [Why I Built TLQ (Tiny Little Queue)](https://nebjak.dev/blog/why-i-built-tlq-tiny-little-queue/)
 * [Combining struct literal syntax with read-only field access](https://kobzol.github.io/rust/2025/09/01/combining-struct-literal-syntax-with-read-only-field-access.html)
 * [Be Careful Zero-Copying Strings with `serde`](https://bd103.github.io/blog/2025-09-01-zero-copying-strings-serde)
 * [Elephants for breakfast: testing untestable functions, one bite at a time](https://bitfieldconsulting.com/posts/elephants-for-breakfast) 
-
 * [Demangling the Details: Symbol Resolution in Rusty Trap](https://system.joekain.com/2025/08/31/demangling-the-details-symbol-resolution.html)
-
 * [video] [Rust 1.89.0](https://youtu.be/C5RHSqYIR7w)
 
 ### Rust Walkthroughs
