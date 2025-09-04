@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 * [The Embedded Rustacean Issue #53](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-53)
+* [Rust Trends Issue #69: Rust's Enterprise Breakthrough Year](https://rust-trends.com/newsletter/rust-enterprise-breakthrough-2025)
 
 ### Project/Tooling Updates
 
