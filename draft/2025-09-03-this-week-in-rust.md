@@ -39,7 +39,12 @@ and just ask the editors to select the category.
 
 ### Official
 
+### Foundation
+
+### Newsletters
+
 * [Welcoming the Rust Innovation Lab | Rust Blog](https://blog.rust-lang.org/2025/09/03/welcoming-the-rust-innovation-lab/)
+* [The Embedded Rustacean Issue #53](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-53)
 
 ### Project/Tooling Updates
 
