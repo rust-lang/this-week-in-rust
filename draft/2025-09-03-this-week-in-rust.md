@@ -49,7 +49,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
-* [video] [RustCurious 1: Why Rust is Safe](https://www.youtube.com/watch?v=lVWiHIVXG2c)
+* [video] [RustCurious 1: Why Rust is Safe: A novel introduction to ownership and borrowing](https://www.youtube.com/watch?v=lVWiHIVXG2c)
 
 ### Research
 
