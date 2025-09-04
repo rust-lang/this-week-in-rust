@@ -55,6 +55,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 * [Why I Built TLQ (Tiny Little Queue)](https://nebjak.dev/blog/why-i-built-tlq-tiny-little-queue/)
+* [Combining struct literal syntax with read-only field access](https://kobzol.github.io/rust/2025/09/01/combining-struct-literal-syntax-with-read-only-field-access.html)
 
 ### Rust Walkthroughs
 
