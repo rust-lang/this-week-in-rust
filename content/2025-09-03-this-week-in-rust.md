@@ -310,7 +310,7 @@ Rusty Events between 2025-09-03 - 2025-10-01 🦀
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308944038)
 * 2025-09-11 | Bern, CH | [Rust Bern](https://www.meetup.com/rust-bern/events/)
     * [**2025 Rust Talks Bern #4 @Zühlke**](https://www.meetup.com/rust-bern/events/309903540)
-* 2025-09-16 - 2025-09-18 | Berlin, DE | [Oxidize Conference] (https://oxidizeconf.com/)
+* 2025-09-16 - 2025-09-18 | Berlin, DE | [Oxidize Conference](https://oxidizeconf.com/)
     * [**Oxidize Conference**](https://oxidizeconf.com/)
 * 2025-09-16 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/)
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/308592250)
