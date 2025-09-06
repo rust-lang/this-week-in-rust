@@ -230,6 +230,7 @@ COUNTRY_CODE_TO_CONTINENT = {
     'TZ': 'Africa',
     'UA': 'Europe',
     'UG': 'Africa',
+    'UK': 'Europe', # not an actual country code, but using it here
     'US': 'North America',
     'UY': 'South America',
     'UZ': 'Asia',
