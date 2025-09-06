@@ -301,7 +301,7 @@ Rusty Events between 2025-09-03 - 2025-10-01 🦀
 * 2025-09-03 | Frankfurt, DE | [Rust Rhein-Main](https://www.meetup.com/rust-rhein-main)
     * [**From bugs to parallelism to future-proofing: What makes Rust different**](https://www.meetup.com/rust-rhein-main/events/310322369)
 * 2025-09-03 | Oxford, UK | [Oxford ACCU/Rust Meetup.](https://www.meetup.com/oxford-rust-meetup-group)
-  * [**September fun**](https://www.meetup.com/oxford-rust-meetup-group/events/310579981)
+    * [**September fun**](https://www.meetup.com/oxford-rust-meetup-group/events/310579981)
 * 2025-09-04 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
     * [**Rust Berlin on location 🏳️‍🌈 - Edition 006**](https://www.meetup.com/rust-berlin/events/310800817)
 * 2025-09-04 | Gdansk, PL | [Rust Gdansk](https://www.meetup.com/rust-gdansk/events/)
