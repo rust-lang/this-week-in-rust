@@ -267,6 +267,8 @@ Rusty Events between 2025-09-10 - 2025-10-08 🦀
     * [**Talk Night at Mjølner Informatics**](https://www.meetup.com/rust-aarhus/events/310562343)
 * 2025-09-24 | München, DE | [Rust Munich](https://www.meetup.com/rust-munich/events/)
     * [**Rust Munich 2025 / 3 - hybrid**](https://www.meetup.com/rust-munich/events/307105978)
+* 2025-09-25 | Augsburg, DE | [Rust Augsburg](https://rust-augsburg.github.io/meetup/introduction.html)
+    * [**Augsburg Rust Meetup #15**](https://rust-augsburg.github.io/meetup/Meetup_15.html)
 * 2025-10-01 | Olomouc, CZ | [Rust Moravia](https://www.meetup.com/rust-moravia/events/)
     * [**4. Rust Moravia Meetup (In the capital!)**](https://www.meetup.com/rust-moravia/events/310743282)
 
