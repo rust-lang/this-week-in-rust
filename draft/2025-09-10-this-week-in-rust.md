@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Now available: Rust SDK for Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/now-available-rust-sdk-for-google-cloud/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
