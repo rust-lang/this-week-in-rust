@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Axum Backend Series - Introduction](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-introduction/)
 
 ### Research
 
