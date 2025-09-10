@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 * [Now available: Rust SDK for Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/now-available-rust-sdk-for-google-cloud/)
 
 ### Observations/Thoughts
+* [Protecting Rust against supply chain attacks](https://kerkour.com/rust-supply-chain-attacks)
 
 ### Rust Walkthroughs
 * [Axum Backend Series - Introduction](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-introduction/)
