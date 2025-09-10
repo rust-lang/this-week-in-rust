@@ -55,7 +55,10 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [GrimoireCSS](https://crates.io/crates/grimoire_css), a CSS engine crafted in Rust,
+focusing on unmatched flexibility, reusable dynamic styling, and optimized performance for every environment.
+
+Thanks to [Dmitrii Shatokhin](https://users.rust-lang.org/t/crate-of-the-week/2704/1466) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -137,7 +140,46 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+390 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-09-02..2025-09-09
+
+#### Compiler
+* [fix drop scope for `super let` bindings within `if let`](https://github.com/rust-lang/rust/pull/145342)
+* [stabilize c-style varargs for sysv64, win64, efiapi, aapcs](https://github.com/rust-lang/rust/pull/144066)
+
+#### Library
+* [add exact bitshifts](https://github.com/rust-lang/rust/pull/144342)
+* [constify impl Try for ControlFlow](https://github.com/rust-lang/rust/pull/146088)
+* [fix path str eq](https://github.com/rust-lang/rust/pull/146194)
+* [single buffer for exponent fmt of integers](https://github.com/rust-lang/rust/pull/145940)
+* [stabilize `path_add_extension`](https://github.com/rust-lang/rust/pull/145209)
+* [implement WASIp2-specific stdio routines](https://github.com/rust-lang/rust/pull/146207)
+* [start supporting WASIp2 natively](https://github.com/rust-lang/rust/pull/145944)
+
+#### Cargo
+* [optimize Cargo with LTO](https://github.com/rust-lang/rust/pull/146253)
+* [`fix(manifest)`: Report script manifest errors for the right line number](https://github.com/rust-lang/cargo/pull/15927)
+* [fix: switch from --nocapture to --no-capture](https://github.com/rust-lang/cargo/pull/15930)
+* [render individual compilation sections in `--timings` pipeline graph](https://github.com/rust-lang/cargo/pull/15923)
+
+#### Rustdoc
+* [search: skip loading unneeded fnData](https://github.com/rust-lang/rust/pull/146070)
+* [search: yet another stringdex optimization attempt](https://github.com/rust-lang/rust/pull/145911)
+
+#### Clippy
+* [`let_unit_with_type_underscore`: make early-pass](https://github.com/rust-lang/rust-clippy/pull/15458)
+* [`ptr_cast_constness`: avoid suggesting unresolvable method call](https://github.com/rust-lang/rust-clippy/pull/15540)
+* [fix `never_loop` forget to remove `break` in nested loop](https://github.com/rust-lang/rust-clippy/pull/15356)
+* [fix `read_zero_byte_vec` suggests wrongly inside `let` stmt](https://github.com/rust-lang/rust-clippy/pull/15582)
+* [preserve `unsafe` blocks in `option_map_unit` suggestion](https://github.com/rust-lang/rust-clippy/pull/15570)
+
+#### Rust-Analyzer
+* [support navigation on primitives](https://github.com/rust-lang/rust-analyzer/pull/20632)
+* [add `else` keyword completion after `let` statements](https://github.com/rust-lang/rust-analyzer/pull/20620)
+* [make sense of the mess that were (are) different kind of generics in the solver](https://github.com/rust-lang/rust-analyzer/pull/20586)
+* [improve `make::struct_ field_list` whitespace](https://github.com/rust-lang/rust-analyzer/pull/20626)
+* [remove support for `register_attr`](https://github.com/rust-lang/rust-analyzer/pull/20631)
 
 ### Rust Compiler Performance Triage
 
@@ -334,7 +376,17 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Hello,
+>
+> We are sorry you aren’t happy with the [state](https://corrode.dev/blog/async/) of the `async` in the current edition of Rust. The memory ownership intuition you were meant to develop when working with single-threaded and/or parallel execution turned to be too expensive to port into our zero-cost concurrency framework, reinvented from [scratch](https://doc.rust-lang.org/std/pin/index.html) for the ultimate benefit to no one in particular.
+>
+> We aren’t planning to do anything about it.
+>
+> Rust Async Support - International Department
+
+– [00100011 on rust-users](https://users.rust-lang.org/t/borrow-of-owned-sync-type-in-async-function/133667/2)
+
+Thanks to [Aleksander Krauze](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1714) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
