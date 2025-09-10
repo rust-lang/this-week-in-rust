@@ -37,7 +37,7 @@ and just ask the editors to select the category.
 
 -->
 
-### Foundation
+### Official
 * [Welcoming the Rust Innovation Lab | Rust Blog](https://blog.rust-lang.org/2025/09/03/welcoming-the-rust-innovation-lab/)
 
 ### Newsletters
@@ -57,7 +57,7 @@ and just ask the editors to select the category.
 * [Why I Built TLQ (Tiny Little Queue)](https://nebjak.dev/blog/why-i-built-tlq-tiny-little-queue/)
 * [Combining struct literal syntax with read-only field access](https://kobzol.github.io/rust/2025/09/01/combining-struct-literal-syntax-with-read-only-field-access.html)
 * [Be Careful Zero-Copying Strings with `serde`](https://bd103.github.io/blog/2025-09-01-zero-copying-strings-serde)
-* [Elephants for breakfast: testing untestable functions, one bite at a time](https://bitfieldconsulting.com/posts/elephants-for-breakfast) 
+* [Elephants for breakfast: testing untestable functions, one bite at a time](https://bitfieldconsulting.com/posts/elephants-for-breakfast)
 * [Demangling the Details: Symbol Resolution in Rusty Trap](https://system.joekain.com/2025/08/31/demangling-the-details-symbol-resolution.html)
 * [video] [Rust 1.89.0](https://youtu.be/C5RHSqYIR7w)
 
@@ -65,8 +65,6 @@ and just ask the editors to select the category.
 * [Let's write a macro in Rust - Part 2](https://hackeryarn.com/post/rust-macros-2/)
 * [How to set up Rust logging in AWS Lambda for AWS CloudWatch](https://forgestream.idverse.com/blog/20250902-cloudwatch-rust-logging/)
 * [Building a Todo App in GPUI](https://blog.0xshadow.dev/posts/learning-gpui/gpui-todo-app/)
-
-### Research
 * [Sharing a mutable reference with Python](https://blog.lilyf.org/posts/python-mutable-reference/)
 * [Faster Rust builds on Mac](https://nnethercote.github.io/2025/09/04/faster-rust-builds-on-mac.html)
 * [Rust Performance Tricks](https://davidlattimore.github.io/posts/2025/09/02/rustforge-wild-performance-tricks.html)
