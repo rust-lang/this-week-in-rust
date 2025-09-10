@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Improving state machine code generation](https://trifectatech.org/blog/improving-state-machine-code-generation/)
 * [Rust Automod VSCode Extension - Automates creation and management of `mod.rs` files](https://marketplace.visualstudio.com/items?itemName=drkryz.rustautomod)
 
 ### Observations/Thoughts
