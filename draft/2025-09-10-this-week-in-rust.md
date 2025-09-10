@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Rust compiler performance survey 2025 results](https://blog.rust-lang.org/2025/09/10/rust-compiler-performance-survey-2025-results/)
+
 ### Foundation
 
 ### Newsletters
