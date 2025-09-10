@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Protecting Rust against supply chain attacks](https://kerkour.com/rust-supply-chain-attacks)
 
 ### Rust Walkthroughs
 
