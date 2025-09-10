@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 * [Improving state machine code generation](https://trifectatech.org/blog/improving-state-machine-code-generation/)
 * [Rust Automod VSCode Extension - Automates creation and management of `mod.rs` files](https://marketplace.visualstudio.com/items?itemName=drkryz.rustautomod)
 
+* [Now available: Rust SDK for Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/now-available-rust-sdk-for-google-cloud/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
