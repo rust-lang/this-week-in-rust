@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-- [Rust Automod VSCode Extension](https://marketplace.visualstudio.com/items?itemName=drkryz.rustautomod) — Automates creation and management of `mod.rs` files in Rust projects.
+* [Rust Automod VSCode Extension - Automates creation and management of `mod.rs` files](https://marketplace.visualstudio.com/items?itemName=drkryz.rustautomod)
 
 ### Observations/Thoughts
 
