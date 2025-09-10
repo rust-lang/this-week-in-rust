@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [Why Rust?](https://greptime.com/blogs/2023-04-28-rust-blog)
+
 ### Rust Walkthroughs
 
 ### Research
@@ -239,6 +241,8 @@ Rusty Events between 2025-09-10 - 2025-10-08 🦀
     * [**GOSIM Hangzhou 2025**](https://dev.events/conferences/rust-global-china-and-rust-china-conf-2025-dscrf0e1)
 * 2025-09-17 | Tel Aviv-yafo, IL | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
     * [**In person Rust September 2025 at Varonis in Herzeliya**](https://www.meetup.com/rust-tlv/events/310708628)
+* 2025-09-18 ｜California, USA | [Modern Data Infrastructure Summit: Build infrastructure that can handle AI, ML, and realtime workloads at scale](https://luma.com/2s6fommw)
+* 2025-09-13 - 2025-09-14 | Hangzhou, CN | [RustGlobal China × Rust ChinaConf 2025: Greptime Topic 🎙️ Unified Index Architecture in Rust: Engineering Practices from Heterogeneous Indexes to Unified Abstractions](https://www.bagevent.com/event/gosimhangzhou2025?countryCodes=502)
 
 ### Europe
 * 2025-09-03 | Dortmund, DE | [Rust Dortmund](https://www.meetup.com/rust-dortmund/events/)
