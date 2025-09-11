@@ -64,6 +64,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [🦀 RustConf Like No Other: a recap of RustConf 2025](https://weeklyrust.substack.com/p/rustconf-like-no-other)
+* [August 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/aug-25)
 
 ## Crate of the Week
 
