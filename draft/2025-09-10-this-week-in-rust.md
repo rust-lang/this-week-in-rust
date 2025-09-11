@@ -63,6 +63,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [🦀 RustConf Like No Other: a recap of RustConf 2025](https://weeklyrust.substack.com/p/rustconf-like-no-other)
 
 ## Crate of the Week
 
