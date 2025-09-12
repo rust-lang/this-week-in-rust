@@ -41,8 +41,6 @@ and just ask the editors to select the category.
 * [Crossing the streams: Project + Foundation](https://blog.rust-lang.org/inside-rust/2025/09/04/crossing-the-streams/)
 * [Rust compiler performance survey 2025 results](https://blog.rust-lang.org/2025/09/10/rust-compiler-performance-survey-2025-results/)
 
-### Foundation
-
 ### Newsletters
 * [This Month in Rust OSDev: August 2025](https://rust-osdev.com/this-month/2025-08/)
 
@@ -59,8 +57,6 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Axum Backend Series - Introduction](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-introduction/)
-
-### Research
 
 ### Miscellaneous
 * [🦀 RustConf Like No Other: a recap of RustConf 2025](https://weeklyrust.substack.com/p/rustconf-like-no-other)
@@ -111,9 +107,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-<!-- * [ - ]() -->
-<!-- or if none - *No Calls for participation were submitted this week.* -->
+*No Calls for participation were submitted this week.*
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -123,8 +117,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-<!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+*No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -183,37 +176,6 @@ Revision range: [75ee9ffd..f13ef0d7](https://perf.rust-lang.org/?start=75ee9ffd5
 33 artifact comparisons made in total
 
 [Full report here](https://github.com/rust-lang/rustc-perf/blob/HEAD/triage/2025/2025-09-07.md)
-
-### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
-
-Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
-are the RFCs that were approved for implementation this week:
-
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
-
-### Final Comment Period
-
-Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
-which are reaching a decision. Express your opinions now.
-
-#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
-
-#### Tracking Issues & PRs
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: -->
-<!-- * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -364,7 +326,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1mnpd9p/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
