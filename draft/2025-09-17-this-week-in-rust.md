@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [The Hidden Rules Behind Rust Functions & Closures](https://blog.cuongle.dev/p/the-hidden-rules-behind-rust-functions)
 
 ### Research
 
