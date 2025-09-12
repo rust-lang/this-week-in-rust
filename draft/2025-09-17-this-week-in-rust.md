@@ -225,6 +225,8 @@ Rusty Events between 2025-09-17 - 2025-10-15 🦀
     * [**In person Rust September 2025 at Varonis in Herzeliya**](https://www.meetup.com/rust-tlv/events/310708628)
 * 2025-10-02 | Seoul, KR | [Seoul Rust (Programming Language) Meetup](https://www.meetup.com/rust-seoul-meetup/events/)
     * [**Seoul Rust Meetup**](https://www.meetup.com/rust-seoul-meetup/events/310824483)
+* 2025-10-08 | Kuala Lumpur, MY | [Rust Malaysia](https://rust-malaysia.github.io/meetup/)
+    * [**Rust Malaysia Meetup - Temporal and Making rust more accessible (October 2025)**](https://forms.gle/VVb4Wwg9qmzJZnpN9)
 
 ### Europe
 * 2025-09-10 | Köln, DE | [Rust Cologne](https://www.meetup.com/rust-cologne-bonn/events/)
