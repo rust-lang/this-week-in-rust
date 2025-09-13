@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Cot v0.4: Particularly Lazy](https://mackow.ski/blog/cot-v04-particularly-lazy/)
 
 ### Observations/Thoughts
 
