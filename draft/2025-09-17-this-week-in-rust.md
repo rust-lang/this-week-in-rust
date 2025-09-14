@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [The pirate-based logic of Rust shared references](http://ais523.me.uk/blog/logic-of-shared-references.html)
+
 ### Rust Walkthroughs
 
 ### Research
