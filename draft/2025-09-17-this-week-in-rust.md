@@ -50,7 +50,7 @@ and just ask the editors to select the category.
 * [Announcing Diesel 2.3](https://diesel.rs/news/2_3_0_release.html)
 
 ### Observations/Thoughts
-
+* [Rust Algorithm Bites – Validating a Binary Search Tree](https://d34dl0ck.me/rust-algorithm-bites-validate-bst/index.html)
 * [The pirate-based logic of Rust shared references](http://ais523.me.uk/blog/logic-of-shared-references.html)
 
 ### Rust Walkthroughs
