@@ -42,17 +42,23 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #54](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-54)
+* [Rust Trends Issue #70: Foundation Moves and Performance Breakthroughs](https://rust-trends.com/newsletter/rust-foundation-performance-breakthroughs-2025)
 
 ### Project/Tooling Updates
+* [Cot v0.4: Particularly Lazy](https://mackow.ski/blog/cot-v04-particularly-lazy/)
+* [Announcing Diesel 2.3](https://diesel.rs/news/2_3_0_release.html)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
 * [Axum Backend Series: Docker, Database and Connection Pooling](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-database-setup-using-docker/)
+* [The Hidden Rules Behind Rust Functions & Closures](https://blog.cuongle.dev/p/the-hidden-rules-behind-rust-functions)
 
 ### Research
 
 ### Miscellaneous
+* [August 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/aug-25)
 
 ## Crate of the Week
 
@@ -119,6 +125,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Diesel - Automatically infer enum definitions](https://github.com/diesel-rs/diesel/issues/4759)
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
@@ -142,7 +149,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Difficult week to interpret, because a positive change in [#145910](https://github.com/rust-lang/rust/pull/145910) skewes the results more negative in our benchmarks. Overall result is probably still slightly negative, because there's more work from added features. On the other hand, we also have a nice improvement in reducing the number of query dependencies in compiler's tracking system in [#145186](https://github.com/rust-lang/rust/pull/145186).
+
+Triage done by **@panstromek**.
+Revision range: [f13ef0d7..52618eb3](https://perf.rust-lang.org/?start=f13ef0d75d834c826c9479a5d244bcfb9891df45&end=52618eb338609df44978b0ca4451ab7941fd1c7a&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.5%  | [0.2%, 2.7%]   | 72    |
+| Regressions ❌ <br /> (secondary)  | 0.7%  | [0.0%, 3.5%]   | 96    |
+| Improvements ✅ <br /> (primary)   | -0.5% | [-0.9%, -0.1%] | 10    |
+| Improvements ✅ <br /> (secondary) | -0.8% | [-2.9%, -0.1%] | 41    |
+| All ❌✅ (primary)                 | 0.4%  | [-0.9%, 2.7%]  | 82    |
+
+
+1 Regression, 1 Improvement, 6 Mixed; 3 of them in rollups
+36 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/e0539d750ab104f1bd884f60a21a1e0355981d20/triage/2025/2025-09-15.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
