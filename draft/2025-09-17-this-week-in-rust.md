@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing Diesel 2.3](https://diesel.rs/news/2_3_0_release.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
@@ -123,6 +125,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Diesel - Automatically infer enum definitions](https://github.com/diesel-rs/diesel/issues/4759)
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
