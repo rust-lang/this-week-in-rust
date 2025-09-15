@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 * [Rust Trends Issue #70: Foundation Moves and Performance Breakthroughs](https://rust-trends.com/newsletter/rust-foundation-performance-breakthroughs-2025)
 
 ### Project/Tooling Updates
+* [Cot v0.4: Particularly Lazy](https://mackow.ski/blog/cot-v04-particularly-lazy/)
 
 * [Announcing Diesel 2.3](https://diesel.rs/news/2_3_0_release.html)
 
