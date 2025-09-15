@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 ### Newsletters
 * [The Embedded Rustacean Issue #54](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-54)
 
+* [Rust Trends Issue #70: Foundation Moves and Performance Breakthroughs](https://rust-trends.com/newsletter/rust-foundation-performance-breakthroughs-2025)
+
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
