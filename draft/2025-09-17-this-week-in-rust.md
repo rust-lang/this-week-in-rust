@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+[Ray Tracing in One Weekend - In Rust](https://buttondown.com/dabeaz/archive/new-video-ray-tracing-in-one-weekend-in-rust/)
+
 ### Research
 
 ### Miscellaneous
