@@ -43,17 +43,16 @@ and just ask the editors to select the category.
 
 ### Newsletters
 * [The Embedded Rustacean Issue #54](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-54)
-
 * [Rust Trends Issue #70: Foundation Moves and Performance Breakthroughs](https://rust-trends.com/newsletter/rust-foundation-performance-breakthroughs-2025)
 
 ### Project/Tooling Updates
 * [Cot v0.4: Particularly Lazy](https://mackow.ski/blog/cot-v04-particularly-lazy/)
-
 * [Announcing Diesel 2.3](https://diesel.rs/news/2_3_0_release.html)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Axum Backend Series: Docker, Database and Connection Pooling](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-database-setup-using-docker/)
 * [The Hidden Rules Behind Rust Functions & Closures](https://blog.cuongle.dev/p/the-hidden-rules-behind-rust-functions)
 
 ### Research
