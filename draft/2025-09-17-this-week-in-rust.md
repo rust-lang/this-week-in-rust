@@ -42,18 +42,22 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+
 * [The Embedded Rustacean Issue #54](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-54)
 * [Rust Trends Issue #70: Foundation Moves and Performance Breakthroughs](https://rust-trends.com/newsletter/rust-foundation-performance-breakthroughs-2025)
 
 ### Project/Tooling Updates
+
 * [Cot v0.4: Particularly Lazy](https://mackow.ski/blog/cot-v04-particularly-lazy/)
 * [Announcing Diesel 2.3](https://diesel.rs/news/2_3_0_release.html)
+* [Swiftide 0.31](https://blog.bosun.ai/swiftide-0-31/)
 
 ### Observations/Thoughts
 
 * [The pirate-based logic of Rust shared references](http://ais523.me.uk/blog/logic-of-shared-references.html)
 
 ### Rust Walkthroughs
+
 * [Axum Backend Series: Docker, Database and Connection Pooling](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-database-setup-using-docker/)
 * [The Hidden Rules Behind Rust Functions & Closures](https://blog.cuongle.dev/p/the-hidden-rules-behind-rust-functions)
 
@@ -62,6 +66,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+
 * [August 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/aug-25)
 
 ## Crate of the Week
@@ -73,6 +78,7 @@ and just ask the editors to select the category.
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
 ## Calls for Testing
+
 An important step for feature implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.
 
@@ -168,7 +174,6 @@ Revision range: [f13ef0d7..52618eb3](https://perf.rust-lang.org/?start=f13ef0d75
 | Improvements ✅ <br /> (secondary) | -0.8% | [-2.9%, -0.1%] | 41    |
 | All ❌✅ (primary)                 | 0.4%  | [-0.9%, 2.7%]  | 82    |
 
-
 1 Regression, 1 Improvement, 6 Mixed; 3 of them in rollups
 36 artifact comparisons made in total
 
@@ -226,100 +231,105 @@ which are reaching a decision. Express your opinions now.
 Rusty Events between 2025-09-17 - 2025-10-15 🦀
 
 ### Virtual
+
 * 2025-09-11 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
-    * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/305646019)
+  * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/305646019)
 * 2025-09-11 | Virtual (San Diego, CA, US) | [San Diego Rust](https://www.meetup.com/san-diego-rust/events/)
-    * [**San Diego Rust September 2025 Online Meetup**](https://www.meetup.com/san-diego-rust/events/310326567)
+  * [**San Diego Rust September 2025 Online Meetup**](https://www.meetup.com/san-diego-rust/events/310326567)
 * 2025-09-14 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
-    * [**Rust Readers Discord Discussion: Rust Atomics and Locks**](https://www.meetup.com/dallasrust/events/310002480)
+  * [**Rust Readers Discord Discussion: Rust Atomics and Locks**](https://www.meetup.com/dallasrust/events/310002480)
 * 2025-09-15 | Virtual (Charlottesville, VA, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/events/)
-    * [**Setup Tock OS in a virtual environment (online) - prep for Sep 17**](https://www.meetup.com/charlottesville-rust-meetup/events/310706165/)
+  * [**Setup Tock OS in a virtual environment (online) - prep for Sep 17**](https://www.meetup.com/charlottesville-rust-meetup/events/310706165/)
 * 2025-09-16 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/events/)
-    * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/306757758)
+  * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/306757758)
 * 2025-09-17 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/events/)
-    * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/307731033)
+  * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/307731033)
 * 2025-09-18 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/events/)
-    * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/305646039/)
+  * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/305646039/)
 * 2025-09-23 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
-    * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/305361443)
+  * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/305361443)
 * 2025-09-25 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
-    * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/306046637)
+  * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/306046637)
 * 2025-10-01 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
-    * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/wqzhftyhcnbcb)
+  * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/wqzhftyhcnbcb)
 
 ### Asia
+
 * 2025-09-13 | Hangzhou, CN | [WebAssembly and Rust Meetup (Wasm Empowering AI)](https://www.meetup.com/wasm-rust-meetup/events/)
-    * [**GOSIM AI Hangzhou 2025 (CFP is still open)**](https://www.meetup.com/wasm-rust-meetup/events/309987624)
+  * [**GOSIM AI Hangzhou 2025 (CFP is still open)**](https://www.meetup.com/wasm-rust-meetup/events/309987624)
 * 2025-09-13 - 2025-09-14 | Hangzhou, CN | [GOSIM](https://hangzhou2025.gosim.org/schedule/)
-    * [**GOSIM Hangzhou 2025**](https://dev.events/conferences/rust-global-china-and-rust-china-conf-2025-dscrf0e1)
+  * [**GOSIM Hangzhou 2025**](https://dev.events/conferences/rust-global-china-and-rust-china-conf-2025-dscrf0e1)
 * 2025-09-17 | Tel Aviv-yafo, IL | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
-    * [**In person Rust September 2025 at Varonis in Herzeliya**](https://www.meetup.com/rust-tlv/events/310708628)
+  * [**In person Rust September 2025 at Varonis in Herzeliya**](https://www.meetup.com/rust-tlv/events/310708628)
 * 2025-10-02 | Seoul, KR | [Seoul Rust (Programming Language) Meetup](https://www.meetup.com/rust-seoul-meetup/events/)
-    * [**Seoul Rust Meetup**](https://www.meetup.com/rust-seoul-meetup/events/310824483)
+  * [**Seoul Rust Meetup**](https://www.meetup.com/rust-seoul-meetup/events/310824483)
 
 ### Europe
+
 * 2025-09-10 | Köln, DE | [Rust Cologne](https://www.meetup.com/rust-cologne-bonn/events/)
-    * [**Rust in September: Atomic Rust**](https://www.meetup.com/rustcologne/events/310858679)
+  * [**Rust in September: Atomic Rust**](https://www.meetup.com/rustcologne/events/310858679)
 * 2025-09-10 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop)
-    * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308944038)
+  * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308944038)
 * 2025-09-11 | Bern, CH | [Rust Bern](https://www.meetup.com/rust-bern/events/)
-    * [**2025 Rust Talks Bern #4 @Zühlke**](https://www.meetup.com/rust-bern/events/309903540)
+  * [**2025 Rust Talks Bern #4 @Zühlke**](https://www.meetup.com/rust-bern/events/309903540)
 * 2025-09-16 - 2025-09-18 | Berlin, DE | [Oxidize Conference](https://oxidizeconf.com/)
-    * [**Oxidize Conference**](https://oxidizeconf.com/)
+  * [**Oxidize Conference**](https://oxidizeconf.com/)
 * 2025-09-16 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/)
-    * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/308592250)
+  * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/308592250)
 * 2025-09-17 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.club)
-    * [**Rust Girona Hack & Learn 09 2025**](https://lu.ma/ql3u6q5u)
+  * [**Rust Girona Hack & Learn 09 2025**](https://lu.ma/ql3u6q5u)
 * 2025-09-18 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/events/)
-    * [**Talk Night at Mjølner Informatics**](https://www.meetup.com/rust-aarhus/events/310562343)
+  * [**Talk Night at Mjølner Informatics**](https://www.meetup.com/rust-aarhus/events/310562343)
 * 2025-09-23 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/events/)
-    * [**Rust meetup #78**](https://www.meetup.com/rust-paris/events/310935603)
+  * [**Rust meetup #78**](https://www.meetup.com/rust-paris/events/310935603)
 * 2025-09-24 | Göteborg, SE | [Rust Göteborg](https://www.meetup.com/rustgbg/events/)
-    * [**Rust Gbg — September 2025**](https://www.meetup.com/rustgbg/events/310866773)
+  * [**Rust Gbg — September 2025**](https://www.meetup.com/rustgbg/events/310866773)
 * 2025-09-24 | München, DE | [Rust Munich](https://www.meetup.com/rust-munich/events/)
-    * [**Rust Munich 2025 / 3 - hybrid**](https://www.meetup.com/rust-munich/events/307105978)
+  * [**Rust Munich 2025 / 3 - hybrid**](https://www.meetup.com/rust-munich/events/307105978)
 * 2025-09-25 | Augsburg, DE | [Rust Augsburg](https://rust-augsburg.github.io/meetup/introduction.html)
-    * [**Augsburg Rust Meetup #15**](https://rust-augsburg.github.io/meetup/Meetup_15.html)
+  * [**Augsburg Rust Meetup #15**](https://rust-augsburg.github.io/meetup/Meetup_15.html)
 * 2025-10-01 | Olomouc, CZ | [Rust Moravia](https://www.meetup.com/rust-moravia/events/)
-    * [**4. Rust Moravia Meetup (In the capital!)**](https://www.meetup.com/rust-moravia/events/310743282)
+  * [**4. Rust Moravia Meetup (In the capital!)**](https://www.meetup.com/rust-moravia/events/310743282)
 * 2025-10-02 | Oslo, NO | [Rust Oslo](https://www.meetup.com/rust-oslo/events/)
-    * [**Rust Hack'n'Learn at Kampen Bistro**](https://www.meetup.com/rust-oslo/events/310062134)
+  * [**Rust Hack'n'Learn at Kampen Bistro**](https://www.meetup.com/rust-oslo/events/310062134)
 * 2025-10-08 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/events/)
-    * [**Rust meetup #79**](https://www.meetup.com/rust-paris/events/310424476)
+  * [**Rust meetup #79**](https://www.meetup.com/rust-paris/events/310424476)
 * 2025-10-08 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/events/)
-    * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308944041)
+  * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308944041)
 
 ### North America
-* 2025-09-10 | Phoenix, AZ, US | [Desert Rust](https://www.meetup.com/desert-rustaceans/events/)
-    * [**Rust <> JS**](https://www.meetup.com/desert-rustaceans/events/310669989)
-* 2025-09-11 | Chicago, IL, US | [Chicago Rust Meetup](https://www.meetup.com/chicago-rust-meetup/events/)
-    * [**Rust Happy Hour**](https://www.meetup.com/chicago-rust-meetup/events/310840020)
-* 2025-09-11 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/events/)
-    * [**Mazes and Graphs in Rust**](https://www.meetup.com/utah-rust/events/310674937)
-* 2025-09-11 | México City, MX | [Rust MX](https://www.meetup.com/rust-mx/events/)
-    * [**Polars para análisis y manipulación de datos**](https://www.meetup.com/rust-mx/events/310408223)
-* 2025-09-14 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
-    * [**Davis Square Rust Lunch, Sep 14**](https://www.meetup.com/bostonrust/events/310106317)
-* 2025-09-16 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/events/)
-    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/308284339)
-* 2025-09-16 | San Francisco, CA, US | [Vara Network](https://lu.ma/events-by-vara-gear)
-    * [**Rust Workshop by Vara Network**](https://luma.com/1bii0kv7)
-* 2025-09-18 | Nashville, TN, US | [Music City Rust Developers](https://www.meetup.com/music-city-rust-developers/events/)
-    * [**Rust on Bare Metal Series 3 : Place Holder**](https://www.meetup.com/music-city-rust-developers/events/304333261)
-* 2025-09-18 | Seattle, WA, US | [Seattle Rust User Group](https://www.meetup.com/join-srug/events/)
-    * [**September, 2025 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/seattle-rust-user-group/events/308677324)
-* 2025-09-24 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/events/)
-    * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/310287849)
-* 2025-09-24 | Charlottesville, VA, US | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/events/)
-    * [**Tick, Tock, talk—find out how Rust secures embedded devices**](https://www.meetup.com/charlottesville-rust-meetup/events/310603587)
-* 2025-09-25 | Atlanta, GA, US | [Rust Atlanta](https://www.meetup.com/rust-atl/events/)
-    * [**Rust-Atl At Manuels Tavern**](https://www.meetup.com/rust-atl/events/308675983)
-* 2025-10-02 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust/events/)
-    * [**🚁 Rust in Flight: Lessons from Designing a 3D‑Printed Quadcopter with Embedded**](https://www.meetup.com/stl-rust/events/310279407)
 
-### Oceania:
+* 2025-09-10 | Phoenix, AZ, US | [Desert Rust](https://www.meetup.com/desert-rustaceans/events/)
+  * [**Rust <> JS**](https://www.meetup.com/desert-rustaceans/events/310669989)
+* 2025-09-11 | Chicago, IL, US | [Chicago Rust Meetup](https://www.meetup.com/chicago-rust-meetup/events/)
+  * [**Rust Happy Hour**](https://www.meetup.com/chicago-rust-meetup/events/310840020)
+* 2025-09-11 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/events/)
+  * [**Mazes and Graphs in Rust**](https://www.meetup.com/utah-rust/events/310674937)
+* 2025-09-11 | México City, MX | [Rust MX](https://www.meetup.com/rust-mx/events/)
+  * [**Polars para análisis y manipulación de datos**](https://www.meetup.com/rust-mx/events/310408223)
+* 2025-09-14 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
+  * [**Davis Square Rust Lunch, Sep 14**](https://www.meetup.com/bostonrust/events/310106317)
+* 2025-09-16 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/events/)
+  * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/308284339)
+* 2025-09-16 | San Francisco, CA, US | [Vara Network](https://lu.ma/events-by-vara-gear)
+  * [**Rust Workshop by Vara Network**](https://luma.com/1bii0kv7)
+* 2025-09-18 | Nashville, TN, US | [Music City Rust Developers](https://www.meetup.com/music-city-rust-developers/events/)
+  * [**Rust on Bare Metal Series 3 : Place Holder**](https://www.meetup.com/music-city-rust-developers/events/304333261)
+* 2025-09-18 | Seattle, WA, US | [Seattle Rust User Group](https://www.meetup.com/join-srug/events/)
+  * [**September, 2025 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/seattle-rust-user-group/events/308677324)
+* 2025-09-24 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/events/)
+  * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/310287849)
+* 2025-09-24 | Charlottesville, VA, US | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/events/)
+  * [**Tick, Tock, talk—find out how Rust secures embedded devices**](https://www.meetup.com/charlottesville-rust-meetup/events/310603587)
+* 2025-09-25 | Atlanta, GA, US | [Rust Atlanta](https://www.meetup.com/rust-atl/events/)
+  * [**Rust-Atl At Manuels Tavern**](https://www.meetup.com/rust-atl/events/308675983)
+* 2025-10-02 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust/events/)
+  * [**🚁 Rust in Flight: Lessons from Designing a 3D‑Printed Quadcopter with Embedded**](https://www.meetup.com/stl-rust/events/310279407)
+
+### Oceania
+
 * 2025-10-01 | Perth, WA, AU | [Rust Perth Meetup Group](https://www.meetup.com/perth-rust-meetup-group/events/)
-    * [**October Meetup**](https://www.meetup.com/perth-rust-meetup-group/events/310847099)
+  * [**October Meetup**](https://www.meetup.com/perth-rust-meetup-group/events/310847099)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
