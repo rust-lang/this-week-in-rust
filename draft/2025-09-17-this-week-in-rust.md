@@ -63,6 +63,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [August 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/aug-25)
+* [The Symbiosis Of Rust And Arm: A Conversation With David Wood](https://filtra.io/rust/interviews/arm-sep-25)
 
 ## Crate of the Week
 
