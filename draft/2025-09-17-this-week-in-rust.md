@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 * [The pirate-based logic of Rust shared references](http://ais523.me.uk/blog/logic-of-shared-references.html)
+* [audio] [Netstack.FM Episode 5 – Tokio with Carl Lerche](https://netstack.fm/#episode-5)
 
 ### Rust Walkthroughs
 * [Axum Backend Series: Docker, Database and Connection Pooling](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-database-setup-using-docker/)
