@@ -63,6 +63,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [August 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/aug-25)
+* [Rust Iterator overview](https://iterators.aloso.foo/)
 
 ## Crate of the Week
 
