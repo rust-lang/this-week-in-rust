@@ -300,6 +300,8 @@ Rusty Events between 2025-09-17 - 2025-10-15 🦀
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/310287849)
 * 2025-09-24 | Charlottesville, VA, US | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/events/)
     * [**Tick, Tock, talk—find out how Rust secures embedded devices**](https://www.meetup.com/charlottesville-rust-meetup/events/310603587)
+* 2025-09-24 | Chicago, IL, US | [Chicago Rust Meetup](https://www.meetup.com/chicago-rust-meetup/events/)
+    * [**RustConf Recap - The Inside Scoop!**](https://www.meetup.com/chicago-rust-meetup/events/311006846)
 * 2025-09-24 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/events/)
     * [**Rust NYC: Rust/Python Interop & DB Design**](https://www.meetup.com/rust-nyc/events/311006867/)
 * 2025-09-25 | Atlanta, GA, US | [Rust Atlanta](https://www.meetup.com/rust-atl/events/)
