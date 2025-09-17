@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 * [The pirate-based logic of Rust shared references](http://ais523.me.uk/blog/logic-of-shared-references.html)
+* [Rust on Android - Lessons from the Edge](https://greptime.com/blogs/2025-04-14-rust-in-android-edge-based-practice)
 
 ### Rust Walkthroughs
 * [Axum Backend Series: Docker, Database and Connection Pooling](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-database-setup-using-docker/)
