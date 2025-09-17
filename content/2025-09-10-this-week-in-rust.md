@@ -230,10 +230,10 @@ Rusty Events between 2025-09-10 - 2025-10-08 🦀
 * 2025-09-23 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
     * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/305361443)
 * 2025-09-24 | Virtual (Lima, PE) | [Rust Perú](https://calendar.app.google/37bB3gr5SA2XjnGJA)
-    * [**Rust Perú Online Meetup: Macros de Assembly y Backends con SurrealDB + Axum**]    
+    * [**Rust Perú Online Meetup: Macros de Assembly y Backends con SurrealDB + Axum**](https://calendar.app.google/37bB3gr5SA2XjnGJA)    
 * 2025-09-25 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/306046637)
-(https://calendar.app.google/37bB3gr5SA2XjnGJA)
+
 * 2025-10-01 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/wqzhftyhcnbcb)
 
