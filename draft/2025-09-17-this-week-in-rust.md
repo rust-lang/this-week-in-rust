@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [crates.io phishing campaign](https://blog.rust-lang.org/2025/09/12/crates-io-phishing-campaign/)
 
 ### Foundation
 
@@ -48,20 +49,30 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Cot v0.4: Particularly Lazy](https://mackow.ski/blog/cot-v04-particularly-lazy/)
 * [Announcing Diesel 2.3](https://diesel.rs/news/2_3_0_release.html)
+* [Rerun 0.25.0 - Syntax highlighting, table filtering, transparent objects](https://github.com/rerun-io/rerun/releases/tag/0.25.0)
+* [Introducing Obelisk 0.24.1](https://obeli.sk/blog/introducing-obelisk-0-24-1/)
+* [Introducing CurveForge](https://smartnets.etrovub.be/posts/introducing-curveforge/)
 
 ### Observations/Thoughts
-
 * [The pirate-based logic of Rust shared references](http://ais523.me.uk/blog/logic-of-shared-references.html)
+* [Embedded async debugging and inspect-embassy](https://tweedegolf.nl/en/blog/161/embedded-async-debugging-and-inspect-embassy)
+* [Be Simple](https://corrode.dev/blog/simple/)
+* [Why We Built Our Own SQL Parser From Scratch: A Rust Implementation Story](https://www.databend.com/blog/category-engineering/2025-09-10-query-parser/)
+* [Comparing transitive dependency version resolution in Rust and Java](https://blog.frankel.ch/dependency-version-resolution-rust-java/)
+* [Trade-offs in designing DSLs](https://forgestream.idverse.com/blog/20250916-dsl-trade-offs/)
 
 ### Rust Walkthroughs
 * [Axum Backend Series: Docker, Database and Connection Pooling](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-database-setup-using-docker/)
 * [The Hidden Rules Behind Rust Functions & Closures](https://blog.cuongle.dev/p/the-hidden-rules-behind-rust-functions)
-
+* [Rust unit testing: asynchronous code](https://jorgeortiz.dev/posts/rust_unit_testing_async_code/)
 * [Ray Tracing in One Weekend - In Rust](https://buttondown.com/dabeaz/archive/new-video-ray-tracing-in-one-weekend-in-rust/)
+* [New Schematic - How to save $327.6 million using Rust](https://newschematic.org/blog/how-to-save-327-6-million-using-rust/)
 
 ### Research
 
 ### Miscellaneous
+* [audio] [Netstack.FM — A Podcast About Networking and Rust](https://netstack.fm/#episode-5)
+* [video] [Jan David Nose Interview, Rust Infrastructure Team (Rust Project Content @ RustConf 2025)](https://www.youtube.com/watch?v=r7i-2wHtNjw)
 * [August 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/aug-25)
 
 ## Crate of the Week
