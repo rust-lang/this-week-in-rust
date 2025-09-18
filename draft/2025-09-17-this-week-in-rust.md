@@ -292,6 +292,8 @@ Rusty Events between 2025-09-17 - 2025-10-15 🦀
     * [**Rust Hack'n'Learn at Kampen Bistro**](https://www.meetup.com/rust-oslo/events/310062134)
 * 2025-10-08 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/events/)
     * [**Rust meetup #79**](https://www.meetup.com/rust-paris/events/310424476)
+* 2025-10-08 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.club)
+    * [**Rust Girona Hack & Learn 10 2025**](https://luma.com/8u55jo0h)
 * 2025-10-08 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/events/)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308944041)
 * 2025-10-09 - 2025-10-10 | Hybrid (Paris, FR) | [EuroRust](https://eurorust.eu/)
