@@ -47,14 +47,15 @@ and just ask the editors to select the category.
 * [Rust Trends Issue #70: Foundation Moves and Performance Breakthroughs](https://rust-trends.com/newsletter/rust-foundation-performance-breakthroughs-2025)
 
 ### Project/Tooling Updates
-* [Announcing Pingoo: The fast and secure Load Balancer / API Gateway with built-in service discovery and WAF](https://kerkour.com/announcing-pingoo)
 * [Cot v0.4: Particularly Lazy](https://mackow.ski/blog/cot-v04-particularly-lazy/)
 * [Announcing Diesel 2.3](https://diesel.rs/news/2_3_0_release.html)
+* [A Sneak Peek at SeaORM 2.0](https://www.sea-ql.org/blog/2025-09-16-sea-orm-2.0/)
+* [Announcing Pingoo: The fast and secure Load Balancer / API Gateway with built-in service discovery and WAF](https://kerkour.com/announcing-pingoo)
 * [Rerun 0.25.0 - Syntax highlighting, table filtering, transparent objects](https://github.com/rerun-io/rerun/releases/tag/0.25.0)
 * [Introducing Obelisk 0.24.1](https://obeli.sk/blog/introducing-obelisk-0-24-1/)
 * [Introducing CurveForge](https://smartnets.etrovub.be/posts/introducing-curveforge/)
-* [hotpath 0.2.5 - a simple performance and memory profiler](https://github.com/pawurb/hotpath)
 * [Swiftide 0.31](https://blog.bosun.ai/swiftide-0-31/)
+* [hotpath 0.2.5 - a simple performance and memory profiler](https://github.com/pawurb/hotpath)
 
 ### Observations/Thoughts
 * [The pirate-based logic of Rust shared references](http://ais523.me.uk/blog/logic-of-shared-references.html)
