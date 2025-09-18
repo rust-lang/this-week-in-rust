@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Cot v0.4: Particularly Lazy](https://mackow.ski/blog/cot-v04-particularly-lazy/)
 * [Announcing Diesel 2.3](https://diesel.rs/news/2_3_0_release.html)
+* [hotpath 0.2.5 - a simple performance and memory profiler](https://github.com/pawurb/hotpath)
 
 ### Observations/Thoughts
 
