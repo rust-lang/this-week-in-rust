@@ -76,6 +76,7 @@ and just ask the editors to select the category.
 * [audio] [Netstack.FM — A Podcast About Networking and Rust](https://netstack.fm/#episode-5)
 * [video] [Jan David Nose Interview, Rust Infrastructure Team (Rust Project Content @ RustConf 2025)](https://www.youtube.com/watch?v=r7i-2wHtNjw)
 * [August 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/aug-25)
+* [The Symbiosis Of Rust And Arm: A Conversation With David Wood](https://filtra.io/rust/interviews/arm-sep-25)
 
 ## Crate of the Week
 
