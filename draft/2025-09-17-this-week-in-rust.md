@@ -55,7 +55,7 @@ and just ask the editors to select the category.
 * [hotpath 0.2.5 - a simple performance and memory profiler](https://github.com/pawurb/hotpath)
 
 ### Observations/Thoughts
-* [The pirate-based logic of Rust shared references](http://ais523.me.uk/blog/logic-of-shared-references.html)
+* [audio] [Netstack.FM Episode 5 – Tokio with Carl Lerche](https://netstack.fm/#episode-5)
 * [Embedded async debugging and inspect-embassy](https://tweedegolf.nl/en/blog/161/embedded-async-debugging-and-inspect-embassy)
 * [Be Simple](https://corrode.dev/blog/simple/)
 * [Why We Built Our Own SQL Parser From Scratch: A Rust Implementation Story](https://www.databend.com/blog/category-engineering/2025-09-10-query-parser/)
