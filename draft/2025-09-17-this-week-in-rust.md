@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 * [Rerun 0.25.0 - Syntax highlighting, table filtering, transparent objects](https://github.com/rerun-io/rerun/releases/tag/0.25.0)
 * [Introducing Obelisk 0.24.1](https://obeli.sk/blog/introducing-obelisk-0-24-1/)
 * [Introducing CurveForge](https://smartnets.etrovub.be/posts/introducing-curveforge/)
+* [hotpath 0.2.5 - a simple performance and memory profiler](https://github.com/pawurb/hotpath)
 
 ### Observations/Thoughts
 * [The pirate-based logic of Rust shared references](http://ais523.me.uk/blog/logic-of-shared-references.html)
