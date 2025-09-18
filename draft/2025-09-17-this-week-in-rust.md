@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 * [Introducing Obelisk 0.24.1](https://obeli.sk/blog/introducing-obelisk-0-24-1/)
 * [Introducing CurveForge](https://smartnets.etrovub.be/posts/introducing-curveforge/)
 * [hotpath 0.2.5 - a simple performance and memory profiler](https://github.com/pawurb/hotpath)
+* [Swiftide 0.31](https://blog.bosun.ai/swiftide-0-31/)
 
 ### Observations/Thoughts
 * [Embedded async debugging and inspect-embassy](https://tweedegolf.nl/en/blog/161/embedded-async-debugging-and-inspect-embassy)
