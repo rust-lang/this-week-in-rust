@@ -233,7 +233,6 @@ Rusty Events between 2025-09-10 - 2025-10-08 🦀
     * [**Rust Perú Online Meetup: Macros de Assembly y Backends con SurrealDB + Axum**](https://calendar.app.google/37bB3gr5SA2XjnGJA)    
 * 2025-09-25 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/306046637)
-
 * 2025-10-01 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/wqzhftyhcnbcb)
 
