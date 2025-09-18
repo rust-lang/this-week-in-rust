@@ -72,6 +72,7 @@ and just ask the editors to select the category.
 * [Rust unit testing: asynchronous code](https://jorgeortiz.dev/posts/rust_unit_testing_async_code/)
 * [Ray Tracing in One Weekend - In Rust](https://buttondown.com/dabeaz/archive/new-video-ray-tracing-in-one-weekend-in-rust/)
 * [New Schematic - How to save $327.6 million using Rust](https://newschematic.org/blog/how-to-save-327-6-million-using-rust/)
+* [series] [Real Time Clock - Rust Embedded Drivers Book](https://red.implrust.com/rtc/index.html)
 
 ### Research
 
