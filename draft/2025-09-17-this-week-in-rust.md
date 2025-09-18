@@ -78,7 +78,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [asciinema](https://crates.io/crates/asciinema), a well-known command-line tool for recording, replaying and streaming terminal sessions recently rewritten in Rust.
+
+Despite a lack of suggestions, llogiq is plenty happy with his choice.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -129,7 +131,72 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+379 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-09-09..2025-09-16
+
+#### Compiler
+* [implement `#[rustc_align_static(N)]` on `static`s](https://github.com/rust-lang/rust/pull/146178)
+* [move more early buffered lints to dyn lint diagnostics](https://github.com/rust-lang/rust/pull/145881)
+* [make `AssocItem` aware of its impl kind](https://github.com/rust-lang/rust/pull/145186)
+* [match clang's `va_arg` assembly on arm targets](https://github.com/rust-lang/rust/pull/144549)
+* [reject invalid literal suffixes in tuple indexing, tuple `struct` indexing, and `struct` field name position](https://github.com/rust-lang/rust/pull/145463)
+* [sort array trait implementation suggestions correctly](https://github.com/rust-lang/rust/pull/146403)
+* [strip frontmatter in fewer places](https://github.com/rust-lang/rust/pull/146340)
+* [miri: fix release/scquire synchonization for loads from the store buffer](https://github.com/rust-lang/miri/pull/4577)
+* [miri: make a basic hello world work on wasip2](https://github.com/rust-lang/miri/pull/4582)
+
+#### Library
+* [constify Eq, Ord, PartialOrd](https://github.com/rust-lang/rust/pull/144847)
+* [implement `Sum` and `Product` for `f16` and `f128`](https://github.com/rust-lang/rust/pull/146300)
+* [inclusive `Range`s: change `end` to `last`](https://github.com/rust-lang/rust/pull/144765)
+* [make `Barrier` `RefUnwindSafe` again](https://github.com/rust-lang/rust/pull/146322)
+* [stabilize `BTree{Map,Set}::extract_if`](https://github.com/rust-lang/rust/pull/145471)
+* [support integer literals in `${concat()}`](https://github.com/rust-lang/rust/pull/146308)
+
+#### Cargo
+* [cli: Allow completions for third-party subcommand names](https://github.com/rust-lang/cargo/pull/15961)
+* [completer: Added completion for `--features` flag](https://github.com/rust-lang/cargo/pull/15309)
+* [complete: Show local crates/features over other members](https://github.com/rust-lang/cargo/pull/15956)
+* [frontmatter: Try alternative len code fences](https://github.com/rust-lang/cargo/pull/15952)
+* [manifest: Show error source to users](https://github.com/rust-lang/cargo/pull/15939)
+* [publish: Switch the 'ctrl-c on wait' line to a help message](https://github.com/rust-lang/cargo/pull/15942)
+
+#### Rustdoc
+* [Correctly handle literal search on paths](https://github.com/rust-lang/rust/pull/146448)
+
+#### Clippy
+* [`elidable_lifetime_names`: avoid overlapping spans in suggestions](https://github.com/rust-lang/rust-clippy/pull/15667)
+* [`len_zero`: don't eagerly call `GenericArgs::type_at`](https://github.com/rust-lang/rust-clippy/pull/15660)
+* [`multiple_unsafe_ops_per_block`: ignore unsafe ops from `.await` desugaring](https://github.com/rust-lang/rust-clippy/pull/15654)
+* [`needless_closure`: don't lint on `AsyncFn*`s](https://github.com/rust-lang/rust-clippy/pull/15649)
+* [`needless_return`: fix false positive with `cfg`d code after return](https://github.com/rust-lang/rust-clippy/pull/15669)
+* [`ref_option`: don't lint in external and proc-macros](https://github.com/rust-lang/rust-clippy/pull/15668)
+* [`semicolon_inside_block`: don't lint if block is in parens](https://github.com/rust-lang/rust-clippy/pull/15626)
+* [`use_self`: don't early-return if the outer type has no lifetimes](https://github.com/rust-lang/rust-clippy/pull/15611)
+* [add suggestion to `cast_sign_loss` and `cast_possible_wrap` using the `cast_{un,}signed()` methods](https://github.com/rust-lang/rust-clippy/pull/15384)
+* [fix `as_underscore` to only suggest when it's suggestable](https://github.com/rust-lang/rust-clippy/pull/15652)
+* [fix `invalid_upcast_comparisons` wrongly unmangled macros](https://github.com/rust-lang/rust-clippy/pull/15663)
+* [fix `useless_attribute` false positive on `deprecated_in_future`](https://github.com/rust-lang/rust-clippy/pull/15645)
+* [recognize canonical `?` pattern with `Result`](https://github.com/rust-lang/rust-clippy/pull/15680)
+
+#### Rust-Analyzer
+* [add more workaround hacks for incorrect startup diagnostics](https://github.com/rust-lang/rust-analyzer/pull/20402)
+* [fix `LifetimeParam::lifetime_bounds` invalid implement](https://github.com/rust-lang/rust-analyzer/pull/20624)
+* [fix extra semicolon before else in let-stmt](https://github.com/rust-lang/rust-analyzer/pull/20657)
+* [fix indent for `unresolved_field` fixes](https://github.com/rust-lang/rust-analyzer/pull/20613)
+* [always coerce in a cast, even when there are unknown types](https://github.com/rust-lang/rust-analyzer/pull/20649)
+* [don't mark unknown type as implementing every notable trait](https://github.com/rust-lang/rust-analyzer/pull/20665)
+* [don't output an empty generic parameters list in `generate_function`](https://github.com/rust-lang/rust-analyzer/pull/20653)
+* [don't trigger two flychecks when saving files that are part of targets](https://github.com/rust-lang/rust-analyzer/pull/20635)
+* [fix expand macro recursively not working correctly for nested macro calls](https://github.com/rust-lang/rust-analyzer/pull/20612)
+* [fix normalization in the new solver](https://github.com/rust-lang/rust-analyzer/pull/20647)
+* [infinite loop while elaborting predicates](https://github.com/rust-lang/rust-analyzer/pull/20654)
+* [make `#[target_feature]` always safe on WASM](https://github.com/rust-lang/rust-analyzer/pull/20642)
+* [more precise clause filtering for `explicit_*_predicates_of`](https://github.com/rust-lang/rust-analyzer/pull/20671)
+* [only compute unstable paths on nightly toolchains for IDE features](https://github.com/rust-lang/rust-analyzer/pull/20517)
+* [resolve paths to snapshot test libraries absolutely](https://github.com/rust-lang/rust-analyzer/pull/20639)
+* [migrate `InferenceTable` into next-solver](https://github.com/rust-lang/rust-analyzer/pull/20578)
 
 ### Rust Compiler Performance Triage
 
@@ -311,7 +378,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> **Real Question:** is an array a struct/tuple, or is it an enum?
+
+– [Lokathor on github](https://github.com/rust-lang/rust/pull/146509#discussion_r2346807413)
+
+Thanks to [Theemathas](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1716) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
