@@ -57,12 +57,14 @@ and just ask the editors to select the category.
 * [Swiftide 0.31](https://blog.bosun.ai/swiftide-0-31/)
 
 ### Observations/Thoughts
+* [The pirate-based logic of Rust shared references](http://ais523.me.uk/blog/logic-of-shared-references.html)
 * [Embedded async debugging and inspect-embassy](https://tweedegolf.nl/en/blog/161/embedded-async-debugging-and-inspect-embassy)
 * [Be Simple](https://corrode.dev/blog/simple/)
 * [Why We Built Our Own SQL Parser From Scratch: A Rust Implementation Story](https://www.databend.com/blog/category-engineering/2025-09-10-query-parser/)
 * [Comparing transitive dependency version resolution in Rust and Java](https://blog.frankel.ch/dependency-version-resolution-rust-java/)
 * [Trade-offs in designing DSLs](https://forgestream.idverse.com/blog/20250916-dsl-trade-offs/)
 * [Rust Algorithm Bites – Validating a Binary Search Tree](https://d34dl0ck.me/rust-algorithm-bites-validate-bst/index.html)
+* [Rust on Android - Lessons from the Edge](https://greptime.com/blogs/2025-04-14-rust-in-android-edge-based-practice)
 
 ### Rust Walkthroughs
 * [Axum Backend Series: Docker, Database and Connection Pooling](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-database-setup-using-docker/)
