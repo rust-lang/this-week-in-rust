@@ -61,6 +61,7 @@ and just ask the editors to select the category.
 * [Why We Built Our Own SQL Parser From Scratch: A Rust Implementation Story](https://www.databend.com/blog/category-engineering/2025-09-10-query-parser/)
 * [Comparing transitive dependency version resolution in Rust and Java](https://blog.frankel.ch/dependency-version-resolution-rust-java/)
 * [Trade-offs in designing DSLs](https://forgestream.idverse.com/blog/20250916-dsl-trade-offs/)
+* [Rust Algorithm Bites – Validating a Binary Search Tree](https://d34dl0ck.me/rust-algorithm-bites-validate-bst/index.html)
 
 ### Rust Walkthroughs
 * [Axum Backend Series: Docker, Database and Connection Pooling](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-database-setup-using-docker/)
