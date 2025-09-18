@@ -56,8 +56,8 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Axum Backend Series: Docker, Database and Connection Pooling](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-database-setup-using-docker/)
 * [The Hidden Rules Behind Rust Functions & Closures](https://blog.cuongle.dev/p/the-hidden-rules-behind-rust-functions)
-
 * [Ray Tracing in One Weekend - In Rust](https://buttondown.com/dabeaz/archive/new-video-ray-tracing-in-one-weekend-in-rust/)
+* [series] [Real Time Clock - Rust Embedded Drivers Book](https://red.implrust.com/rtc/index.html)
 
 ### Research
 
