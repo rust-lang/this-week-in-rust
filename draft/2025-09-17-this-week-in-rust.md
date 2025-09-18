@@ -244,6 +244,8 @@ Rusty Events between 2025-09-17 - 2025-10-15 🦀
     * [**Monthly WasmEdge Community Meeting, the runtime for LLM/AGI**](https://www.meetup.com/wasm-rust-meetup/events/310831771/)
 * 2025-10-09 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/306046639/)
+* 2025-10-09 - 2025-10-10 | Hybrid (Paris, FR) | [EuroRust](https://eurorust.eu/)
+    * [**EuroRust 2025**](https://eurorust.eu/schedule/)
 * 2025-10-12 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
     * [**Rust Readers Discord Discussion: Macros**](https://www.meetup.com/dallasrust/events/tsjcttyhcnbqb/)
 * 2025-10-14 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
@@ -286,6 +288,8 @@ Rusty Events between 2025-09-17 - 2025-10-15 🦀
     * [**Rust meetup #79**](https://www.meetup.com/rust-paris/events/310424476)
 * 2025-10-08 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/events/)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308944041)
+* 2025-10-09 - 2025-10-10 | Hybrid (Paris, FR) | [EuroRust](https://eurorust.eu/)
+    * [**EuroRust 2025**](https://eurorust.eu/schedule/)
 * 2025-10-14 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel/events/)
     * [**Rust Meetup #13 @ letsboot**](https://www.meetup.com/rust-basel/events/310827834/)
 
