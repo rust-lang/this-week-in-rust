@@ -40,8 +40,6 @@ and just ask the editors to select the category.
 ### Official
 * [crates.io phishing campaign](https://blog.rust-lang.org/2025/09/12/crates-io-phishing-campaign/)
 
-### Foundation
-
 ### Newsletters
 * [The Embedded Rustacean Issue #54](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-54)
 * [Rust Trends Issue #70: Foundation Moves and Performance Breakthroughs](https://rust-trends.com/newsletter/rust-foundation-performance-breakthroughs-2025)
@@ -74,8 +72,6 @@ and just ask the editors to select the category.
 * [Ray Tracing in One Weekend - In Rust](https://buttondown.com/dabeaz/archive/new-video-ray-tracing-in-one-weekend-in-rust/)
 * [New Schematic - How to save $327.6 million using Rust](https://newschematic.org/blog/how-to-save-327-6-million-using-rust/)
 * [series] [Real Time Clock - Rust Embedded Drivers Book](https://red.implrust.com/rtc/index.html)
-
-### Research
 
 ### Miscellaneous
 * [audio] [Netstack.FM — A Podcast About Networking and Rust](https://netstack.fm/#episode-5)
@@ -393,7 +389,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1mnpd9p/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
