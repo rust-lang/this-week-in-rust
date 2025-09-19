@@ -283,6 +283,8 @@ Rusty Events between 2025-10-08 - 2025-11-05 🦀
     * [**Rust Meetup #01 @ Zrch**](https://www.meetup.com/bergen-rust-new-technology/events/311153821/)
 * 2025-10-28 | Manchester, UK | [Rust Manchester](https://www.meetup.com/rust-manchester)
     * [**Rust Manchester October Code Night**](https://www.meetup.com/rust-manchester/events/307919171/)
+* 2025-11-04 | Gent, BE | [DevLab Ghent](https://pretix.eu/devlab/)
+    * [**Creating safe systems with Rust**](https://pretix.eu/devlab/rust-course/)
 
 ### North America
 * 2025-10-01 | Los Angeles, CA, US | [Rust Los Angeles](https://www.meetup.com/rust-los-angeles)
