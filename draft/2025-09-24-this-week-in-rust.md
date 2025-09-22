@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Reducing binary size of (Rust) programs with debuginfo](https://kobzol.github.io/rust/2025/09/22/reducing-binary-size-of-rust-programs-with-debuginfo.html)
+
 ### Rust Walkthroughs
 
 ### Research
