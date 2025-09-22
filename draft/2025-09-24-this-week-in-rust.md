@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [blogr 0.1.3 - Fast, lightweight static site generator in Rust — write in Markdown, preview in your terminal, and deploy to GitHub Pages with a single command](https://github.com/bahdotsh/blogr) 
 
 ### Observations/Thoughts
 
