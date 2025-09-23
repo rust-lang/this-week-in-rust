@@ -267,6 +267,8 @@ Rusty Events between 2025-09-24 - 2025-10-22 🦀
     * [**Rust meetup #79**](https://www.meetup.com/rust-paris/events/310424476)
 * 2025-10-08 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/events/)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308944041)
+* 2025-10-09 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.club)
+    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/jotnli2g)
 * 2025-10-09 - 2025-10-10 | Hybrid (Paris, FR) | [EuroRust](https://eurorust.eu/)
     * [**EuroRust 2025**](https://eurorust.eu/schedule/)
 * 2025-10-14 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel/events/)
