@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Leading The Way For Safety Certified Rust: A Conversation With Espen Albrektsen Of Sonair](https://filtra.io/rust/interviews/sonair-sep-25)
 
 ## Crate of the Week
 
