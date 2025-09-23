@@ -47,7 +47,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
-- [From a Curious Outsider to a GreptimeDB Advocator: My Journey into Open Source Contribution](2025-09-23-greptimedb-submission-rust-contribute-guide)
+- Rust Contribution Experience: [From a Curious Outsider to a GreptimeDB Advocator: My Journey into Open Source Contribution](2025-09-23-greptimedb-submission-rust-contribute-guide)
 
 ### Rust Walkthroughs
 
