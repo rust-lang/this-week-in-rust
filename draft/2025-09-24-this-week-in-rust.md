@@ -141,7 +141,29 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Moving command-line argument quoting from C++ to Rust ([#146700](https://github.com/rust-lang/rust/pull/146700)) resulted in a nice performance
+win when dealing with many dependencies and large workspaces. A somewhat costly destination propagation
+compiler pass was enabled by default ([#142915](https://github.com/rust-lang/rust/pull/142915)), which resulted in some build time regressions,
+but should result in improved runtime performance. The rest of changes were small.
+
+Triage done by **@kobzol**.
+Revision range: [52618eb3..ce4beebe](https://perf.rust-lang.org/?start=52618eb338609df44978b0ca4451ab7941fd1c7a&end=ce4beebecb77821734079cff47d8af08f9f27f11&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.3%  | [0.1%, 1.9%]    | 61    |
+| Regressions ❌ <br /> (secondary)  | 0.6%  | [0.1%, 3.4%]    | 90    |
+| Improvements ✅ <br /> (primary)   | -0.5% | [-1.9%, -0.2%]  | 29    |
+| Improvements ✅ <br /> (secondary) | -1.3% | [-22.8%, -0.1%] | 71    |
+| All ❌✅ (primary)                 | 0.0%  | [-1.9%, 1.9%]   | 90    |
+
+
+1 Regression, 4 Improvements, 4 Mixed; 4 of them in rollups
+37 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/8e7c75c12a21eb9c8c86cbfc75eff144a017f6b2/triage/2025/2025-09-23.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
