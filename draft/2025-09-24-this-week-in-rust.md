@@ -242,7 +242,7 @@ Rusty Events between 2025-09-24 - 2025-10-22 🦀
 * 2025-09-24 | Göteborg, SE | [Rust Göteborg](https://www.meetup.com/rustgbg/events/)
     * [**Rust Gbg — September 2025**](https://www.meetup.com/rustgbg/events/310866773)
 * 2025-09-24 | München, DE | [Rust Munich](https://www.meetup.com/rust-munich/events/)
-    * [**Rust Munich 2025 / 3 - hybrid**](https://www.meetup.com/rust-munich/events/307105978)
+    * [**Rust Munich 2025 / 3**](https://www.meetup.com/rust-munich/events/307105978)
 * 2025-09-25 | Augsburg, DE | [Rust Augsburg](https://rust-augsburg.github.io/meetup/introduction.html)
     * [**Augsburg Rust Meetup #15**](https://rust-augsburg.github.io/meetup/Meetup_15.html)
 * 2025-09-25 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/events/)
@@ -275,7 +275,7 @@ Rusty Events between 2025-09-24 - 2025-10-22 🦀
     * [**Hack Night**](https://www.meetup.com/rust-aarhus/events/311035141)
 * 2025-10-21 | Leipzig, SN, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/)
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/308592252)
-* 2025-10-21 | London, GB | [London Rust Project Group](https://www.meetup.com/london-rust-project-group/events/)
+* 2025-10-21 | London, UK | [London Rust Project Group](https://www.meetup.com/london-rust-project-group/events/)
     * [**Rust in Surgery: Powering the Data Pipelines**](https://www.meetup.com/london-rust-project-group/events/310813952)
 
 ### North America
