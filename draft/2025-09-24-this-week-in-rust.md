@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [From a Curious Outsider to a GreptimeDB Advocator: My Journey into Open Source Contribution](2025-09-23-greptimedb-submission-rust-contribute-guide)
+
 ### Rust Walkthroughs
 
 ### Research
@@ -125,6 +127,11 @@ Some of these tasks may also have mentors available, visit the task page for mor
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 [guidelines]:https://github.com/rust-lang/this-week-in-rust?tab=readme-ov-file#call-for-participation-guidelines
+
+- Good First Issue:
+  - [Supports profile signal for OLTP](https://github.com/GreptimeTeam/greptimedb/issues/6760)
+  - [Currently KILL cannot terminate queries like INSERT INTO SELECT](https://github.com/GreptimeTeam/greptimedb/issues/6334)
+  - [Supports exporting compressed CSV or JSON files](https://github.com/GreptimeTeam/greptimedb/issues/6286)
 
 ### CFP - Events
 
