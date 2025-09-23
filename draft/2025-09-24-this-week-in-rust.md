@@ -273,6 +273,8 @@ Rusty Events between 2025-09-24 - 2025-10-22 🦀
     * [**EuroRust 2025**](https://eurorust.eu/schedule/)
 * 2025-10-14 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel/events/)
     * [**Rust Meetup #13 @ letsboot**](https://www.meetup.com/rust-basel/events/310827834/)
+* 2025-10-16 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.club)
+    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/o8fh3fh7)
 * 2025-10-21 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/events/)
     * [**Hack Night**](https://www.meetup.com/rust-aarhus/events/311035141)
 * 2025-10-21 | Leipzig, SN, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/)
