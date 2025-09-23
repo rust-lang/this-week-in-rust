@@ -311,6 +311,8 @@ Rusty Events between 2025-09-24 - 2025-10-22 🦀
     * [**Year In Review**](https://www.meetup.com/music-city-rust-developers/events/304333267)
 * 2025-10-21 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/events/)
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/308284343)
+* 2025-10-21 | San Francisco, CA, US | [Vara & Gear](https://luma.com/events-by-vara-gear)
+    * [**Rust Workshop by Vara Network**](https://luma.com/kbs2os1c)
 * 2025-10-22 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/events/)
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/310457307)
 
