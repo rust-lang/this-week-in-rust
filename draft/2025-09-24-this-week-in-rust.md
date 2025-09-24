@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [faer](https://docs.rs/faer), a eneral-purpose linear algebra library for rust, with a focus on high performance for algebraic operations on medium/large matrices, as well as matrix decompositions.
+
+Despite another week going by without a suggested weekly crate, llogiq is pleased with his choice.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -137,7 +139,64 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+430 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-09-16..2025-09-23
+
+ #### Compiler
+* [`-Znext-solver` allow `ExprKind::Call` for not-yet defined opaques](https://github.com/rust-lang/rust/pull/145993)
+* [destinationPropagation: avoid creating overlapping assignments](https://github.com/rust-lang/rust/pull/146516)
+* [detect attempt to use var-args in closure](https://github.com/rust-lang/rust/pull/146581)
+* [don't apply temporary lifetime extension rules to non-extended `super let`](https://github.com/rust-lang/rust/pull/145838)
+* [enable DestinationPropagation by default](https://github.com/rust-lang/rust/pull/142915)
+* [lint more overlapping assignments in MIR](https://github.com/rust-lang/rust/pull/146566)
+* [remove `Rvalue::Len` again](https://github.com/rust-lang/rust/pull/146564)
+* [suggest removing `Box::new` instead of unboxing it](https://github.com/rust-lang/rust/pull/146259)
+ #### Library
+* [add `[const] PartialEq` bound to `PartialOrd`](https://github.com/rust-lang/rust/pull/146690)
+* [iterator repeat: no infinite loop for `last` and `count`](https://github.com/rust-lang/rust/pull/146410)
+* [make `PeekMut` generic over the allocator](https://github.com/rust-lang/rust/pull/146621)
+* [specialize `Iterator::eq{_by}` for `TrustedLen` iterators](https://github.com/rust-lang/rust/pull/137122)
+* [stabilize `btree_entry_insert` feature](https://github.com/rust-lang/rust/pull/144871)
+* [stabilize `new_zeroed_alloc`](https://github.com/rust-lang/rust/pull/144091)
+* [stabilize `std::panic::Location::file_as_c_str`](https://github.com/rust-lang/rust/pull/145664)
+* [fix WASI implementation of `remove_dir_all`](https://github.com/rust-lang/rust/pull/146691)
+* [merge definitions of `StdioPipes`](https://github.com/rust-lang/rust/pull/146639)
+* [simplify host lookup](https://github.com/rust-lang/rust/pull/146541)
+ #### Cargo
+* [`fix(frontmatter)`: Improve error quality](https://github.com/rust-lang/cargo/pull/15972)
+* [feat: add lint for global use of `hint-mostly-unused`](https://github.com/rust-lang/cargo/pull/15995)
+ #### Rustdoc
+* [rustdoc-search: javaScript optimization based on Firefox Profiler output](https://github.com/rust-lang/rust/pull/146484)
+ #### Clippy
+* [`match_as_ref`: do not lint if other arm is not `None => None`](https://github.com/rust-lang/rust-clippy/pull/15693)
+* [`redundant_clone`: split iterator checks into `redundant_iter_cloned`](https://github.com/rust-lang/rust-clippy/pull/15277)
+* [`transmute_ptr_to_ref`: don't suggest `.cast` when to-type is DST](https://github.com/rust-lang/rust-clippy/pull/15621)
+* [add `clippy::self_only_used_in_recursion` lint](https://github.com/rust-lang/rust-clippy/pull/14787)
+* [do not replace `.unwrap_or(vec![])` by `.unwrap_or_default()`](https://github.com/rust-lang/rust-clippy/pull/15699)
+* [`nonstandard_macro_braces`: suggest trailing semicolon when needed](https://github.com/rust-lang/rust-clippy/pull/15593)
+* [fix `option_if_let_else` when `Err` variant is ignored](https://github.com/rust-lang/rust-clippy/pull/14429)
+* [fix `question_mark` false positive on variables used after](https://github.com/rust-lang/rust-clippy/pull/15644)
+* [fix `unnecessary_semicolon` false negative on `#[feature(stmt_expr_attributes)]`](https://github.com/rust-lang/rust-clippy/pull/15481)
+* [fix `unnecessary_unwrap` false negative](https://github.com/rust-lang/rust-clippy/pull/15689)
+* [note that using `enumerate()` will swap the arguments](https://github.com/rust-lang/rust-clippy/pull/14969)
+* [rework `module_inception`](https://github.com/rust-lang/rust-clippy/pull/14753)
+* [suggestion for `rest_pat_in_fully_bound_structs`](https://github.com/rust-lang/rust-clippy/pull/15648)
+ #### Rust-Analyzer
+* [`hover`: unify horizontal rule formatting to `---`](https://github.com/rust-lang/rust-analyzer/pull/20379)
+* [add `rust-analyzer.semanticHighlighting.comments.enable`](https://github.com/rust-lang/rust-analyzer/pull/20583)
+* [fix `IfExpr` branches suggests](https://github.com/rust-lang/rust-analyzer/pull/20661)
+* [fix `else` completion before `else` keyword](https://github.com/rust-lang/rust-analyzer/pull/20702)
+* [fix `extract_variable` on `LetExpr`](https://github.com/rust-lang/rust-analyzer/pull/20700)
+* [fix `unused_variables` shorthand record field](https://github.com/rust-lang/rust-analyzer/pull/20710)
+* [fix apply in inner if for `pull_assignment_up`](https://github.com/rust-lang/rust-analyzer/pull/20722)
+* [fix negative const generic integer literals](https://github.com/rust-lang/rust-analyzer/pull/20697)
+* [fix not applicable on trailing comma for `remove_dbg`](https://github.com/rust-lang/rust-analyzer/pull/20714)
+* [fix panics on `Foo{mut x}` for `destructure_struct_binding`](https://github.com/rust-lang/rust-analyzer/pull/20708)
+* [fix to implement in-place `stdx::replace`](https://github.com/rust-lang/rust-analyzer/pull/20706)
+* [fix lifetime elision handling for `Fn`-style trait bounds](https://github.com/rust-lang/rust-analyzer/pull/20725)
+* [make flycheck clearing dependency-aware](https://github.com/rust-lang/rust-analyzer/pull/20689)
+* [port a bunch of stuff from rustc and fix a bunch of type mismatches/diagnostics](https://github.com/rust-lang/rust-analyzer/pull/20664)
 
 ### Rust Compiler Performance Triage
 
@@ -324,7 +383,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> We're here to learn. We will do so relentlessly.
+
+– [Jon Gjengset on YouTube](https://youtu.be/Wnb_n5YktO8?feature=shared&t=5645)
+
+Thanks to [John Arundel](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1718) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
