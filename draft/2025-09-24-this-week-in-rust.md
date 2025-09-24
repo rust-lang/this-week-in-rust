@@ -38,16 +38,23 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-
+* [crates.io: Malicious crates faster_log and async_println](https://blog.rust-lang.org/2025/09/24/crates.io-malicious-crates-fasterlog-and-asyncprintln/)
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [Temporal_rs is here! The datetime library powering Temporal in Boa and V8 ](https://boajs.dev/blog/2025/09/24/temporal-release)
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Why Rust?](https://roland.fly.dev/posts/why-rust/)
+* [Rust unit testing: builtin tools](https://jorgeortiz.dev/posts/rust_unit_testing_tools_builtin/)
+* [From Rust to Reality: The Hidden Journey of fetch_max | QuestDB](https://questdb.com/blog/rust-fetch-max-compiler-journey/)
+* [Reducing binary size of (Rust) programs with debuginfo](https://kobzol.github.io/rust/2025/09/22/reducing-binary-size-of-rust-programs-with-debuginfo.html)
+* [video] [chatting about rust/concurrency](https://www.youtube.com/live/kJnrbbtYfhI?si=9T62OcP3DbpaR4B6)
+* [video] [Intro to micro:bit and Embedded Rust](https://www.youtube.com/watch?v=IjlbuPZTluU)
+
 
 ### Research
 
