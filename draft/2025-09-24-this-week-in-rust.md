@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Fighting human trafficking with self-contained applications](https://lwn.net/SubscriberLink/1036916/8fa1fd58807543b6/)
 * [Comparing Rust to Carbon](https://lwn.net/SubscriberLink/1036912/ecf2235a9ef774d9/)
+* [CHERI with a Linux on top](https://lwn.net/SubscriberLink/1037974/7860e9a3612d70fb/)
+* [Canceling asynchronous Rust](https://lwn.net/SubscriberLink/1036924/83af62ecb5f74c06/)
 
 ### Observations/Thoughts
 
