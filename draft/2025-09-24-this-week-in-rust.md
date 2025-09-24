@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Implementing automatic TLS for Pingoo: here is what it takes to build a secure internet](https://kerkour.com/pingoo-automatic-tls)
 
 ### Observations/Thoughts
 
