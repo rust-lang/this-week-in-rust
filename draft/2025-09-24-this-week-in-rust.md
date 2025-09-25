@@ -46,19 +46,20 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Fighting human trafficking with self-contained applications](https://lwn.net/SubscriberLink/1036916/8fa1fd58807543b6/)
+* [CHERI with a Linux on top](https://lwn.net/SubscriberLink/1037974/7860e9a3612d70fb/)
 * [SeaORM 2.0: A closer look](https://www.sea-ql.org/blog/2025-09-24-sea-orm-2.0/)
 * [GuardianDB: The Rust Implementation of OrbitDB. A peer-to-peer database for the Decentralized Web.](https://www.willsearch.com.br/)
-
 * [Styx Emulator: A new emulation framework for DSPs, weird SoCs and embedded systems](https://stumbl.ing/posts/styx-emulator-release/)
 
 ### Observations/Thoughts
 * [Reducing binary size of (Rust) programs with debuginfo](https://kobzol.github.io/rust/2025/09/22/reducing-binary-size-of-rust-programs-with-debuginfo.html)
 * [A more stable Rust Ecosystem](https://ranger-ross.github.io/blog/more-stable-ecosystem/)
-
-- Rust Contribution Experience: [From a Curious Outsider to a GreptimeDB Advocator: My Journey into Open Source Contribution](https://greptime.com/blogs/2025-09-23-greptimedb-submission-rust-contribute-guide)
+* [Comparing Rust to Carbon](https://lwn.net/SubscriberLink/1036912/ecf2235a9ef774d9/)
+* [Canceling asynchronous Rust](https://lwn.net/SubscriberLink/1036924/83af62ecb5f74c06/)
+* [Rust Contribution Experience: From a Curious Outsider to a GreptimeDB Advocator: My Journey into Open Source Contribution](https://greptime.com/blogs/2025-09-23-greptimedb-submission-rust-contribute-guide)
 
 ### Rust Walkthroughs
-
 * [video] [(Kernel) Task Switching in Rust](https://www.youtube.com/watch?v=JP4-JJefY_A)
 
 ### Research
