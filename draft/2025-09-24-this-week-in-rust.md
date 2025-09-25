@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [A more stable Rust Ecosystem](https://ranger-ross.github.io/blog/more-stable-ecosystem/)
+
 ### Rust Walkthroughs
 
 ### Research
