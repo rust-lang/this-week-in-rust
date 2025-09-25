@@ -136,7 +136,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-09-16..2025-09-23
 
- #### Compiler
+#### Compiler
 * [`-Znext-solver` allow `ExprKind::Call` for not-yet defined opaques](https://github.com/rust-lang/rust/pull/145993)
 * [destinationPropagation: avoid creating overlapping assignments](https://github.com/rust-lang/rust/pull/146516)
 * [detect attempt to use var-args in closure](https://github.com/rust-lang/rust/pull/146581)
@@ -145,7 +145,8 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [lint more overlapping assignments in MIR](https://github.com/rust-lang/rust/pull/146566)
 * [remove `Rvalue::Len` again](https://github.com/rust-lang/rust/pull/146564)
 * [suggest removing `Box::new` instead of unboxing it](https://github.com/rust-lang/rust/pull/146259)
- #### Library
+
+#### Library
 * [add `[const] PartialEq` bound to `PartialOrd`](https://github.com/rust-lang/rust/pull/146690)
 * [iterator repeat: no infinite loop for `last` and `count`](https://github.com/rust-lang/rust/pull/146410)
 * [make `PeekMut` generic over the allocator](https://github.com/rust-lang/rust/pull/146621)
@@ -156,12 +157,15 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [fix WASI implementation of `remove_dir_all`](https://github.com/rust-lang/rust/pull/146691)
 * [merge definitions of `StdioPipes`](https://github.com/rust-lang/rust/pull/146639)
 * [simplify host lookup](https://github.com/rust-lang/rust/pull/146541)
- #### Cargo
+
+#### Cargo
 * [`fix(frontmatter)`: Improve error quality](https://github.com/rust-lang/cargo/pull/15972)
 * [feat: add lint for global use of `hint-mostly-unused`](https://github.com/rust-lang/cargo/pull/15995)
- #### Rustdoc
+
+#### Rustdoc
 * [rustdoc-search: javaScript optimization based on Firefox Profiler output](https://github.com/rust-lang/rust/pull/146484)
- #### Clippy
+
+#### Clippy
 * [`match_as_ref`: do not lint if other arm is not `None => None`](https://github.com/rust-lang/rust-clippy/pull/15693)
 * [`redundant_clone`: split iterator checks into `redundant_iter_cloned`](https://github.com/rust-lang/rust-clippy/pull/15277)
 * [`transmute_ptr_to_ref`: don't suggest `.cast` when to-type is DST](https://github.com/rust-lang/rust-clippy/pull/15621)
@@ -175,7 +179,8 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [note that using `enumerate()` will swap the arguments](https://github.com/rust-lang/rust-clippy/pull/14969)
 * [rework `module_inception`](https://github.com/rust-lang/rust-clippy/pull/14753)
 * [suggestion for `rest_pat_in_fully_bound_structs`](https://github.com/rust-lang/rust-clippy/pull/15648)
- #### Rust-Analyzer
+
+### Rust-Analyzer
 * [`hover`: unify horizontal rule formatting to `---`](https://github.com/rust-lang/rust-analyzer/pull/20379)
 * [add `rust-analyzer.semanticHighlighting.comments.enable`](https://github.com/rust-lang/rust-analyzer/pull/20583)
 * [fix `IfExpr` branches suggests](https://github.com/rust-lang/rust-analyzer/pull/20661)
