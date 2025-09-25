@@ -48,7 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-[Under the hood: Vec<T>](https://marma.dev/articles/2025/under-the-hood-vec-t)
+[Under the hood: Vec\<T\>](https://marma.dev/articles/2025/under-the-hood-vec-t)
 
 ### Research
 
