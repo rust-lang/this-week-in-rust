@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [(Kernel) Task Switching in Rust](https://www.youtube.com/watch?v=JP4-JJefY_A)
+
 ### Research
 
 ### Miscellaneous
