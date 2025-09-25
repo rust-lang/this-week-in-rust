@@ -43,10 +43,6 @@ and just ask the editors to select the category.
 * [Leadership Council September 2025 Representative Selections](https://blog.rust-lang.org/inside-rust/2025/09/23/leadership-council-repr-selection/)
 * [crates.io: Malicious crates faster_log and async_println](https://blog.rust-lang.org/2025/09/24/crates.io-malicious-crates-fasterlog-and-asyncprintln/)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [Temporal_rs is here! The datetime library powering Temporal in Boa and V8 ](https://boajs.dev/blog/2025/09/24/temporal-release)
 * [Wild Linker Update - 0.6.0](https://davidlattimore.github.io/posts/2025/09/23/wild-update-0.6.0.html)
@@ -73,8 +69,6 @@ and just ask the editors to select the category.
 * [video] [chatting about rust/concurrency](https://www.youtube.com/live/kJnrbbtYfhI?si=9T62OcP3DbpaR4B6)
 * [video] [Intro to micro:bit and Embedded Rust](https://www.youtube.com/watch?v=IjlbuPZTluU)
 * [video] [(Kernel) Task Switching in Rust](https://www.youtube.com/watch?v=JP4-JJefY_A)
-
-### Research
 
 ### Miscellaneous
 * [Leading The Way For Safety Certified Rust: A Conversation With Espen Albrektsen Of Sonair](https://filtra.io/rust/interviews/sonair-sep-25)
@@ -403,7 +397,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1nknaii/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -419,4 +413,4 @@ Thanks to [John Arundel](https://users.rust-lang.org/t/twir-quote-of-the-week/32
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1npwe4i/this_week_in_rust_618/)</small>
