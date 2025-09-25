@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 * [GuardianDB: The Rust Implementation of OrbitDB. A peer-to-peer database for the Decentralized Web.](https://www.willsearch.com.br/)
 * [Styx Emulator: A new emulation framework for DSPs, weird SoCs and embedded systems](https://stumbl.ing/posts/styx-emulator-release/)
 
+* [GlueSQL v0.18.0 adds Send/Sync support and a new derive macro for typed row mapping](https://github.com/gluesql/gluesql/releases/tag/v0.18.0)
+
 ### Observations/Thoughts
 * [Reducing binary size of (Rust) programs with debuginfo](https://kobzol.github.io/rust/2025/09/22/reducing-binary-size-of-rust-programs-with-debuginfo.html)
 * [A more stable Rust Ecosystem](https://ranger-ross.github.io/blog/more-stable-ecosystem/)
