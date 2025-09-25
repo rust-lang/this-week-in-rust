@@ -118,21 +118,22 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 [guidelines]:https://github.com/rust-lang/this-week-in-rust?tab=readme-ov-file#call-for-participation-guidelines
 
-- Good First Issue:
-  - [Supports profile signal for OLTP](https://github.com/GreptimeTeam/greptimedb/issues/6760)
-  - [Currently KILL cannot terminate queries like INSERT INTO SELECT](https://github.com/GreptimeTeam/greptimedb/issues/6334)
-  - [Supports exporting compressed CSV or JSON files](https://github.com/GreptimeTeam/greptimedb/issues/6286)
+* [this-week-in-rust - HTML Missing lang attributes for websites](https://github.com/rust-lang/this-week-in-rust/issues/6879)
+* [GreptimeDb - Supports profile signal for OLTP](https://github.com/GreptimeTeam/greptimedb/issues/6760)
+* [GreptimeDb - Currently KILL cannot terminate queries like INSERT INTO SELECT](https://github.com/GreptimeTeam/greptimedb/issues/6334)
+* [GreptimeDb - Supports exporting compressed CSV or JSON files](https://github.com/GreptimeTeam/greptimedb/issues/6286)
 
 ### CFP - Events
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+*No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
