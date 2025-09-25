@@ -39,24 +39,41 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Variadic Generics Micro Survey](https://blog.rust-lang.org/inside-rust/2025/09/22/variadic-generics-micro-survey/)
+
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Fighting human trafficking with self-contained applications](https://lwn.net/SubscriberLink/1036916/8fa1fd58807543b6/)
+* [CHERI with a Linux on top](https://lwn.net/SubscriberLink/1037974/7860e9a3612d70fb/)
+* [SeaORM 2.0: A closer look](https://www.sea-ql.org/blog/2025-09-24-sea-orm-2.0/)
+* [GuardianDB: The Rust Implementation of OrbitDB. A peer-to-peer database for the Decentralized Web.](https://www.willsearch.com.br/)
+* [Styx Emulator: A new emulation framework for DSPs, weird SoCs and embedded systems](https://stumbl.ing/posts/styx-emulator-release/)
+* [GlueSQL v0.18.0 adds Send/Sync support and a new derive macro for typed row mapping](https://github.com/gluesql/gluesql/releases/tag/v0.18.0)
 
 ### Observations/Thoughts
+* [Reducing binary size of (Rust) programs with debuginfo](https://kobzol.github.io/rust/2025/09/22/reducing-binary-size-of-rust-programs-with-debuginfo.html)
+* [A more stable Rust Ecosystem](https://ranger-ross.github.io/blog/more-stable-ecosystem/)
+* [Comparing Rust to Carbon](https://lwn.net/SubscriberLink/1036912/ecf2235a9ef774d9/)
+* [Canceling asynchronous Rust](https://lwn.net/SubscriberLink/1036924/83af62ecb5f74c06/)
+* [Rust Contribution Experience: From a Curious Outsider to a GreptimeDB Advocator: My Journey into Open Source Contribution](https://greptime.com/blogs/2025-09-23-greptimedb-submission-rust-contribute-guide)
 
 ### Rust Walkthroughs
 * [Axum Backend Series: Models, Migration, DTOs and Repository Pattern](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-model-setup/)
+* [video] [(Kernel) Task Switching in Rust](https://www.youtube.com/watch?v=JP4-JJefY_A)
 
 ### Research
 
 ### Miscellaneous
+* [Leading The Way For Safety Certified Rust: A Conversation With Espen Albrektsen Of Sonair](https://filtra.io/rust/interviews/sonair-sep-25)
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [faer](https://docs.rs/faer), a eneral-purpose linear algebra library for rust, with a focus on high performance for algebraic operations on medium/large matrices, as well as matrix decompositions.
+
+Despite another week going by without a suggested weekly crate, llogiq is pleased with his choice.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -95,6 +112,11 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 [guidelines]:https://github.com/rust-lang/this-week-in-rust?tab=readme-ov-file#call-for-participation-guidelines
 
+- Good First Issue:
+  - [Supports profile signal for OLTP](https://github.com/GreptimeTeam/greptimedb/issues/6760)
+  - [Currently KILL cannot terminate queries like INSERT INTO SELECT](https://github.com/GreptimeTeam/greptimedb/issues/6334)
+  - [Supports exporting compressed CSV or JSON files](https://github.com/GreptimeTeam/greptimedb/issues/6286)
+
 ### CFP - Events
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
@@ -106,7 +128,64 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+430 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-09-16..2025-09-23
+
+ #### Compiler
+* [`-Znext-solver` allow `ExprKind::Call` for not-yet defined opaques](https://github.com/rust-lang/rust/pull/145993)
+* [destinationPropagation: avoid creating overlapping assignments](https://github.com/rust-lang/rust/pull/146516)
+* [detect attempt to use var-args in closure](https://github.com/rust-lang/rust/pull/146581)
+* [don't apply temporary lifetime extension rules to non-extended `super let`](https://github.com/rust-lang/rust/pull/145838)
+* [enable DestinationPropagation by default](https://github.com/rust-lang/rust/pull/142915)
+* [lint more overlapping assignments in MIR](https://github.com/rust-lang/rust/pull/146566)
+* [remove `Rvalue::Len` again](https://github.com/rust-lang/rust/pull/146564)
+* [suggest removing `Box::new` instead of unboxing it](https://github.com/rust-lang/rust/pull/146259)
+ #### Library
+* [add `[const] PartialEq` bound to `PartialOrd`](https://github.com/rust-lang/rust/pull/146690)
+* [iterator repeat: no infinite loop for `last` and `count`](https://github.com/rust-lang/rust/pull/146410)
+* [make `PeekMut` generic over the allocator](https://github.com/rust-lang/rust/pull/146621)
+* [specialize `Iterator::eq{_by}` for `TrustedLen` iterators](https://github.com/rust-lang/rust/pull/137122)
+* [stabilize `btree_entry_insert` feature](https://github.com/rust-lang/rust/pull/144871)
+* [stabilize `new_zeroed_alloc`](https://github.com/rust-lang/rust/pull/144091)
+* [stabilize `std::panic::Location::file_as_c_str`](https://github.com/rust-lang/rust/pull/145664)
+* [fix WASI implementation of `remove_dir_all`](https://github.com/rust-lang/rust/pull/146691)
+* [merge definitions of `StdioPipes`](https://github.com/rust-lang/rust/pull/146639)
+* [simplify host lookup](https://github.com/rust-lang/rust/pull/146541)
+ #### Cargo
+* [`fix(frontmatter)`: Improve error quality](https://github.com/rust-lang/cargo/pull/15972)
+* [feat: add lint for global use of `hint-mostly-unused`](https://github.com/rust-lang/cargo/pull/15995)
+ #### Rustdoc
+* [rustdoc-search: javaScript optimization based on Firefox Profiler output](https://github.com/rust-lang/rust/pull/146484)
+ #### Clippy
+* [`match_as_ref`: do not lint if other arm is not `None => None`](https://github.com/rust-lang/rust-clippy/pull/15693)
+* [`redundant_clone`: split iterator checks into `redundant_iter_cloned`](https://github.com/rust-lang/rust-clippy/pull/15277)
+* [`transmute_ptr_to_ref`: don't suggest `.cast` when to-type is DST](https://github.com/rust-lang/rust-clippy/pull/15621)
+* [add `clippy::self_only_used_in_recursion` lint](https://github.com/rust-lang/rust-clippy/pull/14787)
+* [do not replace `.unwrap_or(vec![])` by `.unwrap_or_default()`](https://github.com/rust-lang/rust-clippy/pull/15699)
+* [`nonstandard_macro_braces`: suggest trailing semicolon when needed](https://github.com/rust-lang/rust-clippy/pull/15593)
+* [fix `option_if_let_else` when `Err` variant is ignored](https://github.com/rust-lang/rust-clippy/pull/14429)
+* [fix `question_mark` false positive on variables used after](https://github.com/rust-lang/rust-clippy/pull/15644)
+* [fix `unnecessary_semicolon` false negative on `#[feature(stmt_expr_attributes)]`](https://github.com/rust-lang/rust-clippy/pull/15481)
+* [fix `unnecessary_unwrap` false negative](https://github.com/rust-lang/rust-clippy/pull/15689)
+* [note that using `enumerate()` will swap the arguments](https://github.com/rust-lang/rust-clippy/pull/14969)
+* [rework `module_inception`](https://github.com/rust-lang/rust-clippy/pull/14753)
+* [suggestion for `rest_pat_in_fully_bound_structs`](https://github.com/rust-lang/rust-clippy/pull/15648)
+ #### Rust-Analyzer
+* [`hover`: unify horizontal rule formatting to `---`](https://github.com/rust-lang/rust-analyzer/pull/20379)
+* [add `rust-analyzer.semanticHighlighting.comments.enable`](https://github.com/rust-lang/rust-analyzer/pull/20583)
+* [fix `IfExpr` branches suggests](https://github.com/rust-lang/rust-analyzer/pull/20661)
+* [fix `else` completion before `else` keyword](https://github.com/rust-lang/rust-analyzer/pull/20702)
+* [fix `extract_variable` on `LetExpr`](https://github.com/rust-lang/rust-analyzer/pull/20700)
+* [fix `unused_variables` shorthand record field](https://github.com/rust-lang/rust-analyzer/pull/20710)
+* [fix apply in inner if for `pull_assignment_up`](https://github.com/rust-lang/rust-analyzer/pull/20722)
+* [fix negative const generic integer literals](https://github.com/rust-lang/rust-analyzer/pull/20697)
+* [fix not applicable on trailing comma for `remove_dbg`](https://github.com/rust-lang/rust-analyzer/pull/20714)
+* [fix panics on `Foo{mut x}` for `destructure_struct_binding`](https://github.com/rust-lang/rust-analyzer/pull/20708)
+* [fix to implement in-place `stdx::replace`](https://github.com/rust-lang/rust-analyzer/pull/20706)
+* [fix lifetime elision handling for `Fn`-style trait bounds](https://github.com/rust-lang/rust-analyzer/pull/20725)
+* [make flycheck clearing dependency-aware](https://github.com/rust-lang/rust-analyzer/pull/20689)
+* [port a bunch of stuff from rustc and fix a bunch of type mismatches/diagnostics](https://github.com/rust-lang/rust-analyzer/pull/20664)
 
 ### Rust Compiler Performance Triage
 
@@ -175,6 +254,8 @@ Rusty Events between 2025-09-24 - 2025-10-22 🦀
     * [**Rust Readers Discord Discussion: Macros**](https://www.meetup.com/dallasrust/events/311046301/)
 * 2025-10-01 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/wqzhftyhcnbcb)
+* 2025-10-02 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.club)
+    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/ekgdex6j)
 * 2025-10-04 | Virtual (Kampala, UG) | [Rust Circle Meetup](https://www.eventbrite.com/o/rust-circle-kampala-65249289033)
     * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763858627)
 * 2025-10-05 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
@@ -183,6 +264,8 @@ Rusty Events between 2025-09-24 - 2025-10-22 🦀
     * [**Monthly WasmEdge Community Meeting, the runtime for LLM/AGI**](https://www.meetup.com/wasm-rust-meetup/events/310831771/)
 * 2025-10-09 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/306046639/)
+* 2025-10-09 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.club)
+    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/jotnli2g)
 * 2025-10-09 - 2025-10-10 | Hybrid (Paris, FR) | [EuroRust](https://eurorust.eu/)
     * [**EuroRust 2025**](https://eurorust.eu/schedule/)
 * 2025-10-12 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
@@ -191,6 +274,8 @@ Rusty Events between 2025-09-24 - 2025-10-22 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/305361534/)
 * 2025-10-15 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/events/)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/307731034/)
+* 2025-10-16 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.club)
+    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/o8fh3fh7)
 * 2025-10-16 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/events/)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/305646039/)
 * 2025-10-19 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
@@ -241,14 +326,10 @@ Rusty Events between 2025-09-24 - 2025-10-22 🦀
     * [**Rust meetup #79**](https://www.meetup.com/rust-paris/events/310424476)
 * 2025-10-08 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/events/)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308944041)
-* 2025-10-09 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.club)
-    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/jotnli2g)
 * 2025-10-09 - 2025-10-10 | Hybrid (Paris, FR) | [EuroRust](https://eurorust.eu/)
     * [**EuroRust 2025**](https://eurorust.eu/schedule/)
 * 2025-10-14 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel/events/)
     * [**Rust Meetup #13 @ letsboot**](https://www.meetup.com/rust-basel/events/310827834/)
-* 2025-10-16 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.club)
-    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/o8fh3fh7)
 * 2025-10-21 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/events/)
     * [**Hack Night**](https://www.meetup.com/rust-aarhus/events/311035141)
 * 2025-10-21 | Leipzig, SN, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/)
@@ -316,7 +397,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> We're here to learn. We will do so relentlessly.
+
+– [Jon Gjengset on YouTube](https://youtu.be/Wnb_n5YktO8?feature=shared&t=5645)
+
+Thanks to [John Arundel](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1718) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
