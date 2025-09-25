@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [GuardianDB: The Rust Implementation of OrbitDB. A peer-to-peer database for the Decentralized Web.](https://www.willsearch.com.br/)
+
 ### Observations/Thoughts
 * [Reducing binary size of (Rust) programs with debuginfo](https://kobzol.github.io/rust/2025/09/22/reducing-binary-size-of-rust-programs-with-debuginfo.html)
 * [A more stable Rust Ecosystem](https://ranger-ross.github.io/blog/more-stable-ecosystem/)
