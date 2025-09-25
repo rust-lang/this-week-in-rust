@@ -38,14 +38,18 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-
+* [Announcing Rust 1.90.0 | Rust Blog](https://blog.rust-lang.org/2025/09/18/Rust-1.90.0/)
 * [Variadic Generics Micro Survey](https://blog.rust-lang.org/inside-rust/2025/09/22/variadic-generics-micro-survey/)
+* [Leadership Council September 2025 Representative Selections](https://blog.rust-lang.org/inside-rust/2025/09/23/leadership-council-repr-selection/)
+* [crates.io: Malicious crates faster_log and async_println](https://blog.rust-lang.org/2025/09/24/crates.io-malicious-crates-fasterlog-and-asyncprintln/)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Temporal_rs is here! The datetime library powering Temporal in Boa and V8 ](https://boajs.dev/blog/2025/09/24/temporal-release)
+* [Wild Linker Update - 0.6.0](https://davidlattimore.github.io/posts/2025/09/23/wild-update-0.6.0.html)
 * [Fighting human trafficking with self-contained applications](https://lwn.net/SubscriberLink/1036916/8fa1fd58807543b6/)
 * [CHERI with a Linux on top](https://lwn.net/SubscriberLink/1037974/7860e9a3612d70fb/)
 * [SeaORM 2.0: A closer look](https://www.sea-ql.org/blog/2025-09-24-sea-orm-2.0/)
@@ -54,14 +58,19 @@ and just ask the editors to select the category.
 * [GlueSQL v0.18.0 adds Send/Sync support and a new derive macro for typed row mapping](https://github.com/gluesql/gluesql/releases/tag/v0.18.0)
 
 ### Observations/Thoughts
-* [Reducing binary size of (Rust) programs with debuginfo](https://kobzol.github.io/rust/2025/09/22/reducing-binary-size-of-rust-programs-with-debuginfo.html)
 * [A more stable Rust Ecosystem](https://ranger-ross.github.io/blog/more-stable-ecosystem/)
 * [Comparing Rust to Carbon](https://lwn.net/SubscriberLink/1036912/ecf2235a9ef774d9/)
 * [Canceling asynchronous Rust](https://lwn.net/SubscriberLink/1036924/83af62ecb5f74c06/)
 * [Rust Contribution Experience: From a Curious Outsider to a GreptimeDB Advocator: My Journey into Open Source Contribution](https://greptime.com/blogs/2025-09-23-greptimedb-submission-rust-contribute-guide)
+* [Why Rust?](https://roland.fly.dev/posts/why-rust/)
 
 ### Rust Walkthroughs
+* [Rust unit testing: builtin tools](https://jorgeortiz.dev/posts/rust_unit_testing_tools_builtin/)
+* [From Rust to Reality: The Hidden Journey of fetch_max](https://questdb.com/blog/rust-fetch-max-compiler-journey/)
+* [Reducing binary size of (Rust) programs with debuginfo](https://kobzol.github.io/rust/2025/09/22/reducing-binary-size-of-rust-programs-with-debuginfo.html)
 * [Axum Backend Series: Models, Migration, DTOs and Repository Pattern](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-model-setup/)
+* [video] [chatting about rust/concurrency](https://www.youtube.com/live/kJnrbbtYfhI?si=9T62OcP3DbpaR4B6)
+* [video] [Intro to micro:bit and Embedded Rust](https://www.youtube.com/watch?v=IjlbuPZTluU)
 * [video] [(Kernel) Task Switching in Rust](https://www.youtube.com/watch?v=JP4-JJefY_A)
 
 ### Research
