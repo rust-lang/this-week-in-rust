@@ -51,7 +51,6 @@ and just ask the editors to select the category.
 * [SeaORM 2.0: A closer look](https://www.sea-ql.org/blog/2025-09-24-sea-orm-2.0/)
 * [GuardianDB: The Rust Implementation of OrbitDB. A peer-to-peer database for the Decentralized Web.](https://www.willsearch.com.br/)
 * [Styx Emulator: A new emulation framework for DSPs, weird SoCs and embedded systems](https://stumbl.ing/posts/styx-emulator-release/)
-
 * [GlueSQL v0.18.0 adds Send/Sync support and a new derive macro for typed row mapping](https://github.com/gluesql/gluesql/releases/tag/v0.18.0)
 
 ### Observations/Thoughts
@@ -62,6 +61,7 @@ and just ask the editors to select the category.
 * [Rust Contribution Experience: From a Curious Outsider to a GreptimeDB Advocator: My Journey into Open Source Contribution](https://greptime.com/blogs/2025-09-23-greptimedb-submission-rust-contribute-guide)
 
 ### Rust Walkthroughs
+* [Axum Backend Series: Models, Migration, DTOs and Repository Pattern](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-model-setup/)
 * [video] [(Kernel) Task Switching in Rust](https://www.youtube.com/watch?v=JP4-JJefY_A)
 
 ### Research
