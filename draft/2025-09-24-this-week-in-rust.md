@@ -42,7 +42,6 @@ and just ask the editors to select the category.
 * [Variadic Generics Micro Survey](https://blog.rust-lang.org/inside-rust/2025/09/22/variadic-generics-micro-survey/)
 * [Leadership Council September 2025 Representative Selections](https://blog.rust-lang.org/inside-rust/2025/09/23/leadership-council-repr-selection/)
 * [crates.io: Malicious crates faster_log and async_println](https://blog.rust-lang.org/2025/09/24/crates.io-malicious-crates-fasterlog-and-asyncprintln/)
-* [Variadic Generics Micro Survey](https://blog.rust-lang.org/inside-rust/2025/09/22/variadic-generics-micro-survey/)
 
 ### Foundation
 
@@ -59,7 +58,6 @@ and just ask the editors to select the category.
 * [GlueSQL v0.18.0 adds Send/Sync support and a new derive macro for typed row mapping](https://github.com/gluesql/gluesql/releases/tag/v0.18.0)
 
 ### Observations/Thoughts
-* [Reducing binary size of (Rust) programs with debuginfo](https://kobzol.github.io/rust/2025/09/22/reducing-binary-size-of-rust-programs-with-debuginfo.html)
 * [A more stable Rust Ecosystem](https://ranger-ross.github.io/blog/more-stable-ecosystem/)
 * [Comparing Rust to Carbon](https://lwn.net/SubscriberLink/1036912/ecf2235a9ef774d9/)
 * [Canceling asynchronous Rust](https://lwn.net/SubscriberLink/1036924/83af62ecb5f74c06/)
