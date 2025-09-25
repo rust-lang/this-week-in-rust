@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Variadic Generics Micro Survey](https://blog.rust-lang.org/inside-rust/2025/09/22/variadic-generics-micro-survey/)
+
 ### Foundation
 
 ### Newsletters
