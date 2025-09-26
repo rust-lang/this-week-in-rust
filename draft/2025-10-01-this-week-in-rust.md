@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Aladin Lite - navigate into TBs of astronomical data coming from various space missions](https://github.com/cds-astro/aladin-lite)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
