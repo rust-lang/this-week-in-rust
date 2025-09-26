@@ -181,33 +181,52 @@ you intend to build the website or email newsletter.
 
 ### Building the website
 
-*Before attempting to build the website, ensure Docker is in a running state on your system.*
+> [!IMPORTANT]
+>
+> Before attempting to build the website, ensure Docker is in a running state on
+> your system.
 
-* Enter the `publishing/` directory:
-  ```sh
-  cd publishing
-  ```
-* Run the Docker build and website local-host command:
-  ```sh
-  make build && make generate-website && make host-content
-  ```
-* View the website locally at default http://localhost:8000, or specific posts
-  at http://localhost:8000/blog/{YEAR}/{MONTH}/{DAY}/{ISSUE}/
+- Enter the `publishing/` directory:
 
-Note: If looking to test the website's search functionality locally, you will need to adjust the [`TESTING_LOCALLY`](https://github.com/rust-lang/this-week-in-rust/blob/dc127f17fcabbf0f058eb3d5a3febba434ddca83/pelicanconf.py#L7)
-variable to `True`.
+```sh
+cd publishing
+```
+
+- Run the Docker build and website local-host command:
+
+```sh
+make build && make generate-website && make host-website
+```
+
+- View the website locally at default
+  [http://localhost:8000](http://localhost:8000), or specific posts at
+  `http://localhost:8000/blog/{YEAR}/{MONTH}/{DAY}/{ISSUE}/`
+
+> [!NOTE]
+>
+> If looking to test the website's search functionality locally, you will need
+> to adjust the
+> [`TESTING_LOCALLY`](https://github.com/rust-lang/this-week-in-rust/blob/dc127f17fcabbf0f058eb3d5a3febba434ddca83/pelicanconf.py#L7)
+> variable to `True`.
 
 ### Building the newsletter
 
-*Before attempting to build the email newsletter, ensure Docker is in a running state on your system.*
+> [!IMPORTANT]
+>
+> Before attempting to build the website, ensure Docker is in a running state on
+> your system.
 
-* Enter the `publishing/` directory:
-  ```sh
-  cd publishing
-  ```
-* Run the Docker build and website local-host command:
-  ```sh
-  make build && make generate-email && make host-content
-  ```
-* View the email newsletter formatting of specific posts at
-  http://localhost:8000/blog/{YEAR}/{MONTH}/{DAY}/{ISSUE}/
+- Enter the `publishing/` directory:
+
+```sh
+cd publishing
+```
+
+- Run the Docker build and website local-host command:
+
+```sh
+make build && make generate-email && make host-website
+```
+
+- View the email newsletter formatting of specific posts at
+  `http://localhost:8000/blog/{YEAR}/{MONTH}/{DAY}/{ISSUE}/`
