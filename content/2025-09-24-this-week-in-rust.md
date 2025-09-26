@@ -75,7 +75,7 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-This week's crate is [faer](https://docs.rs/faer), a eneral-purpose linear algebra library for rust, with a focus on high performance for algebraic operations on medium/large matrices, as well as matrix decompositions.
+This week's crate is [faer](https://docs.rs/faer), a general-purpose linear algebra library for rust, with a focus on high performance for algebraic operations on medium/large matrices, as well as matrix decompositions.
 
 Despite another week going by without a suggested weekly crate, llogiq is pleased with his choice.
 
