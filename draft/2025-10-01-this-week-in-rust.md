@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [genedex: A Small and Fast FM-Index for Rust](https://github.com/feldroop/genedex)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
