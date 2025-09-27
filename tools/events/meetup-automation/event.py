@@ -128,11 +128,15 @@ class RawGqlEvent:
     self.date_time_str = node["dateTime"]
     self.event_url_str = node["eventUrl"]
 
-    venue = node["venue"]
+    venues = node["venues"]
+
+    # Get the first venue
+    venue = venues[0]
+
     self.venue_type = venue["venueType"]
     # TODO: do we need these lat longs?
     self.lat = venue["lat"]
-    self.long = venue["lng"]
+    self.long = venue["lon"]
     self.event_location = Location(venue["city"], venue["state"], venue["country"])
 
   def to_event(self, group_url: str) -> Event:
