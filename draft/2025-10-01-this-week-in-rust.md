@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+[Thoughts from a beginner who just started learning Rust](https://forgestream.idverse.com/blog/20250929-liyang-learning-post/)
+
 ### Rust Walkthroughs
 
 ### Research
