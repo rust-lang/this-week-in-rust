@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Video] [How to Optimize Rust for Slowness: Inspired by New Turing Machine Results](https://www.youtube.com/watch?v=ec-ucXJ4x-0)
+
 ### Rust Walkthroughs
 
 ### Research
