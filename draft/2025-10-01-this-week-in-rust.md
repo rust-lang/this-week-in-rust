@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Linting Rust code in the kernel](https://lwn.net/SubscriberLink/1038750/6aa9769e0b875235/)
 
 ### Observations/Thoughts
 
