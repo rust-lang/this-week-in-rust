@@ -213,8 +213,6 @@ Rusty Events between 2025-10-01 - 2025-10-29 🦀
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/jotnli2g)
 * 2025-10-12 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Rust Readers Discord Discussion: Macros**](https://www.meetup.com/dallasrust/events/311109160/)
-* 2025-10-12 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
-    * [**Rust Readers Discord Discussion: Macros**](https://www.meetup.com/dallasrust/events/tsjcttyhcnbqb/)
 * 2025-10-14 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/305361534/)
 * 2025-10-15 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
