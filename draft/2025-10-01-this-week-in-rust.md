@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Glues v0.8.1 adds a browser TUI, proxy support, and redb storage](https://github.com/gluesql/glues/releases/tag/v0.8.1)
 
 ### Observations/Thoughts
 
