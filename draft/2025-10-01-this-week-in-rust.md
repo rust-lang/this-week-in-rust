@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Introducing Rust To The Automotive Stack: A Conversation With Julius Gustavsson Of Volvo Cars](https://filtra.io/rust/interviews/volvo-sep-25)
 
 ## Crate of the Week
 
