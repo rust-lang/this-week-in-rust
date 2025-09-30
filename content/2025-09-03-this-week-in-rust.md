@@ -56,7 +56,7 @@ and just ask the editors to select the category.
 * [Adding derive(From) to Rust](https://kobzol.github.io/rust/2025/09/02/adding-derive-from-to-rust.html)
 * [Why I Built TLQ (Tiny Little Queue)](https://nebjak.dev/blog/why-i-built-tlq-tiny-little-queue/)
 * [Combining struct literal syntax with read-only field access](https://kobzol.github.io/rust/2025/09/01/combining-struct-literal-syntax-with-read-only-field-access.html)
-* [Be Careful Zero-Copying Strings with `serde`](https://bd103.github.io/blog/2025-09-01-zero-copying-strings-serde)
+* [Be Careful Zero-Copying Strings with `serde`](https://bd103.github.io/blog/zero-copying-strings-serde/)
 * [Elephants for breakfast: testing untestable functions, one bite at a time](https://bitfieldconsulting.com/posts/elephants-for-breakfast)
 * [Demangling the Details: Symbol Resolution in Rusty Trap](https://system.joekain.com/2025/08/31/demangling-the-details-symbol-resolution.html)
 * [video] [Rust 1.89.0](https://youtu.be/C5RHSqYIR7w)
