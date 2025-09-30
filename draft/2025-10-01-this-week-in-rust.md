@@ -122,6 +122,11 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
+* [Diesel - Feedback on an All About Select guide](https://github.com/diesel-rs/diesel/discussions/4786)
+* [Diesel - Incomplete explanation for PgConnection loading modes](https://github.com/diesel-rs/diesel/issues/4764)
+* [Diesel - FromSqlRow derive macro fails when in scope where Ok is not the one from the standard library](https://github.com/diesel-rs/diesel/issues/4787)
+* [Diesel - fk_related_tables not working correctly with two foreign keys to same table](https://github.com/diesel-rs/diesel/issues/4780)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 [guidelines]:https://github.com/rust-lang/this-week-in-rust?tab=readme-ov-file#call-for-participation-guidelines
