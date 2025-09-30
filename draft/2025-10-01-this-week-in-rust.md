@@ -141,7 +141,19 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A relatively quiet week. Most of the improvements are to doc builds, driven by
+continued packing of the search index in rustdoc-search: stringdex update with
+more packing [#147002](https://github.com/rust-lang/rust/pull/147002) and
+simplifications to doc(cfg) in Implement RFC 3631: add rustdoc doc_cfg features
+[#138907](https://github.com/rust-lang/rust/pull/138907).
+
+Triage done by **@simulacrum**.
+Revision range: [ce4beebe..8d72d3e1](https://perf.rust-lang.org/?start=ce4beebecb77821734079cff47d8af08f9f27f11&end=8d72d3e1e96f58ca10059a6bb6e8aecba4a0e9cd&absolute=false&stat=instructions%3Au)
+
+1 Regressions, 6 Improvements, 4 Mixed; 2 of them in rollups
+29 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2025/2025-09-28.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
