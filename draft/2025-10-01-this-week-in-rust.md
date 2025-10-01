@@ -44,11 +44,12 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [genedex: A Small and Fast FM-Index for Rust](https://github.com/feldroop/genedex)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-[Under the hood: Vec\<T\>](https://marma.dev/articles/2025/under-the-hood-vec-t)
+* [Under the hood: Vec\<T\>](https://marma.dev/articles/2025/under-the-hood-vec-t)
 
 ### Research
 
