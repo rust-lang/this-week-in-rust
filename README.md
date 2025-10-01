@@ -225,7 +225,7 @@ cd publishing
 - Run the Docker build and website local-host command:
 
 ```sh
-make build && make generate-email && make host-website
+make email
 ```
 
 - View the email newsletter formatting of specific posts at
