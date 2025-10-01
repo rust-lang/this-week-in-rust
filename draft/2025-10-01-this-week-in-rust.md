@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #55](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-55)
 
 ### Project/Tooling Updates
 * [genedex: A Small and Fast FM-Index for Rust](https://github.com/feldroop/genedex)
