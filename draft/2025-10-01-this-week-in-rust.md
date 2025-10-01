@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 * [video] [How to Optimize Rust for Slowness: Inspired by New Turing Machine Results](https://www.youtube.com/watch?v=ec-ucXJ4x-0)
 
+[The Game Engine that would not have been made without Rust](https://blog.vermeilsoft.com/2025-09-rust-game-engine)
+
 ### Rust Walkthroughs
 * [Under the hood: Vec\<T\>](https://marma.dev/articles/2025/under-the-hood-vec-t)
 
