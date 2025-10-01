@@ -59,6 +59,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Under the hood: Vec\<T\>](https://marma.dev/articles/2025/under-the-hood-vec-t)
 * [Axum Backend Series: Implement JWT Access Token](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-jwt-access-token/)
+* [Level Up your Rust pattern matching](https://blog.cuongle.dev/p/level-up-your-rust-pattern-matching)
 
 ### Research
 
