@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [blogr](https://github.com/bahdotsh/blogr), a fast, lightweight static site generator.
+
+Thanks to [Gokul](https://users.rust-lang.org/t/crate-of-the-week/2704/1472) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -137,7 +139,72 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+473 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-09-23..2025-09-30
+
+ #### Compiler
+* [add an attribute to check the number of lanes in a SIMD vector after monomorphization](https://github.com/rust-lang/rust/pull/146667)
+* [add panic=immediate-abort](https://github.com/rust-lang/rust/pull/146317)
+* [skip stack overflow handler for panic=immediate-abort](https://github.com/rust-lang/rust/pull/147090)
+* [allow `&raw [mut | const]` for union field in safe code](https://github.com/rust-lang/rust/pull/141469)
+* [debuginfo: add an unstable flag to write split DWARF to an explicit directory](https://github.com/rust-lang/rust/pull/146376)
+* [detect tuple structs that are unconstructable due to re-export](https://github.com/rust-lang/rust/pull/133477)
+* [do not compute optimized MIR if code does not type-check](https://github.com/rust-lang/rust/pull/147092)
+* [do not materialise X in `[X; 0]` when X is unsizing a const](https://github.com/rust-lang/rust/pull/145277)
+* [improve diagnostics for empty attributes](https://github.com/rust-lang/rust/pull/146653)
+ #### Library
+* [BTreeMap: don't leak allocators when initializing nodes](https://github.com/rust-lang/rust/pull/146859)
+* [constify {`Mutex`, `RwLock`, `ReentrantLock`}`::data_ptr`](https://github.com/rust-lang/rust/pull/146904)
+* [constify Default on Nanoseconds](https://github.com/rust-lang/rust/pull/146979)
+* [constify `{float}::total_cmp()`](https://github.com/rust-lang/rust/pull/146818)
+* [unstably constify float `mul_add` methods](https://github.com/rust-lang/rust/pull/146735)
+* [non-panicking `Vec::try_remove`](https://github.com/rust-lang/rust/pull/146293)
+* [fix infinite recursion in `Path::eq` with String](https://github.com/rust-lang/rust/pull/146958)
+* [implement `hostname`](https://github.com/rust-lang/rust/pull/146937)
+* [remove most `#[track_caller]` from allocating Vec methods](https://github.com/rust-lang/rust/pull/147042)
+ #### Cargo
+* [config: combine key error context into one](https://github.com/rust-lang/cargo/pull/16004)
+* [shell: Use a distinct style for transient status](https://github.com/rust-lang/cargo/pull/16019)
+* [add retry for `git fetch` failures in `CARGO_NET_GIT_FETCH_WITH_CLI` path](https://github.com/rust-lang/cargo/pull/16016)
+* [better error message for rust version incompatibility](https://github.com/rust-lang/cargo/pull/16021)
+* [sparse URLs in `TomlLockfileSourceId`](https://github.com/rust-lang/cargo/pull/15990)
+* [use `host-tuple` for host target subsitution](https://github.com/rust-lang/cargo/pull/16003)
+ #### Rustdoc
+* [Add support for associated items in "jump to def" feature](https://github.com/rust-lang/rust/pull/135771)
+* [add rustdoc `doc_cfg` features](https://github.com/rust-lang/rust/pull/138907) (RFC [#3631](https://rust-lang.github.io/rfcs/3631-rustdoc-cfgs-handling.html))
+* [search: use the same ID for entry and path to same item](https://github.com/rust-lang/rust/pull/147045)
+* [hide `#[repr]` if it isn't part of the public ABI](https://github.com/rust-lang/rust/pull/116882)
+* [put the toolbar on the all item index](https://github.com/rust-lang/rust/pull/147047)
+ #### Clippy
+* [`double_parens`: add structured suggestions, fix bug](https://github.com/rust-lang/rust-clippy/pull/15420)
+* [`filter_next`: check for `filter().next_back()`](https://github.com/rust-lang/rust-clippy/pull/15748)
+* [`collapsible`(`_else`)`_if`: respect `#[expect]` on inner `if`](https://github.com/rust-lang/rust-clippy/pull/15647)
+* [`let_unit_value`: create the suggestion "differentially"](https://github.com/rust-lang/rust-clippy/pull/15788)
+* [`new_without_default`: if `new` has `#[cfg]`, copy that onto `impl Default`](https://github.com/rust-lang/rust-clippy/pull/15720)
+* [`or_fun_call`: respect MSRV for `Result::unwrap_or_default` suggestion](https://github.com/rust-lang/rust-clippy/pull/15756)
+* [`should_implement_trait`: only suggest traits that are in the prelude](https://github.com/rust-lang/rust-clippy/pull/15776)
+* [`unnecessary_mut_passed`: retain parens around the arguments](https://github.com/rust-lang/rust-clippy/pull/15731)
+* [check for proc macros from within `explicit_deref_methods` and do not lint on proc macro expansions](https://github.com/rust-lang/rust-clippy/pull/15628)
+* [fix `new_without_default` false positive on private type with trait impl](https://github.com/rust-lang/rust-clippy/pull/15782)
+* [overhaul `mut_mut`](https://github.com/rust-lang/rust-clippy/pull/15417)
+* [refactor `module_style`](https://github.com/rust-lang/rust-clippy/pull/15469)
+* [rename `unchecked_duration_subtraction` to `unchecked_time_subtraction` and check for `Duration - Duration`](https://github.com/rust-lang/rust-clippy/pull/13800)
+ #### Rust-Analyzer
+* [add `all`, `any` and `not` completions in `#[cfg]`](https://github.com/rust-lang/rust-analyzer/pull/20760)
+* [add `cfg_attr` predicate completion](https://github.com/rust-lang/rust-analyzer/pull/20604)
+* [add applicable on bang `!` for `apply_demorgan`](https://github.com/rust-lang/rust-analyzer/pull/20599)
+* [add const parameter keyword completion](https://github.com/rust-lang/rust-analyzer/pull/20729)
+* [add let-chain support for `convert_to_guarded_return`](https://github.com/rust-lang/rust-analyzer/pull/20598)
+* [allow `&raw` {`mut`, `const`} for union field](https://github.com/rust-lang/rust-analyzer/pull/19867)
+* [fix "Replace match with if let" not to trigger when invalid transformations occur](https://github.com/rust-lang/rust-analyzer/pull/20543)
+* [fix SCIP panicking due to salsa not attaching](https://github.com/rust-lang/rust-analyzer/pull/20735)
+* [fix applicable on if-let-chain for `invert_if`](https://github.com/rust-lang/rust-analyzer/pull/20736)
+* [fix expand rest pattern in tuple and slice pattern](https://github.com/rust-lang/rust-analyzer/pull/20731)
+* [fix precedence parenthesis for `replace_arith_op`](https://github.com/rust-lang/rust-analyzer/pull/20611)
+* [don't turn unused variables into raw identifier](https://github.com/rust-lang/rust-analyzer/pull/20742)
+* [implement fallback properly](https://github.com/rust-lang/rust-analyzer/pull/20721)
+* [support negative integer literals in const generics in declarative macros](https://github.com/rust-lang/rust-analyzer/pull/20745)
 
 ### Rust Compiler Performance Triage
 
@@ -344,7 +411,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> I must personally extend my condolences to those who forgot they chose in the past to annoy their future self.
+
+– [@workingjubilee on github](https://github.com/rust-lang/rust/issues/145936#issuecomment-3322104583)
+
+Thanks to [Riking](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1719) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
