@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [genedex: A Small and Fast FM-Index for Rust](https://github.com/feldroop/genedex)
+* [blogr v0.3.0 - Fast, lightweight static site generator with built in newsletter manager](https://github.com/bahdotsh/blogr/releases/tag/v0.3.0)
+* [Feedr v0.2.0 - A feature-rich terminal-based RSS feed reader with a clean and intuitive TUI](https://github.com/bahdotsh/feedr/releases/tag/v0.2.0)
 
 ### Observations/Thoughts
 * [video] [How to Optimize Rust for Slowness: Inspired by New Turing Machine Results](https://www.youtube.com/watch?v=ec-ucXJ4x-0)
