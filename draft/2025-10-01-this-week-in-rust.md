@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 * [genedex: A Small and Fast FM-Index for Rust](https://github.com/feldroop/genedex)
 
 ### Observations/Thoughts
+* [video] [How to Optimize Rust for Slowness: Inspired by New Turing Machine Results](https://www.youtube.com/watch?v=ec-ucXJ4x-0)
 
 ### Rust Walkthroughs
 * [Under the hood: Vec\<T\>](https://marma.dev/articles/2025/under-the-hood-vec-t)
