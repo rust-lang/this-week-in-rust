@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 * [Glues v0.8.1 adds a browser TUI, proxy support, and redb storage](https://github.com/gluesql/glues/releases/tag/v0.8.1)
 
 ### Observations/Thoughts
+* [Case Study: How Proton uses Rust to build cross-platform applications for millions of people](https://kerkour.com/proton-apps-rust)
 * [The Game Engine that would not have been made without Rust](https://blog.vermeilsoft.com/2025-09-rust-game-engine)
 * [Introducing Rust To The Automotive Stack: A Conversation With Julius Gustavsson Of Volvo Cars](https://filtra.io/rust/interviews/volvo-sep-25)
 * [video] [How to Optimize Rust for Slowness: Inspired by New Turing Machine Results](https://www.youtube.com/watch?v=ec-ucXJ4x-0)
