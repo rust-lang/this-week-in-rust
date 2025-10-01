@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 * [genedex: A Small and Fast FM-Index for Rust](https://github.com/feldroop/genedex)
 * [blogr v0.3.0 - Fast, lightweight static site generator with built in newsletter manager](https://github.com/bahdotsh/blogr/releases/tag/v0.3.0)
 * [Feedr v0.2.0 - A feature-rich terminal-based RSS feed reader with a clean and intuitive TUI](https://github.com/bahdotsh/feedr/releases/tag/v0.2.0)
+* [Glues v0.8.1 adds a browser TUI, proxy support, and redb storage](https://github.com/gluesql/glues/releases/tag/v0.8.1)
 
 ### Observations/Thoughts
 * [The Game Engine that would not have been made without Rust](https://blog.vermeilsoft.com/2025-09-rust-game-engine)
