@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 * [The Embedded Rustacean Issue #55](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-55)
 
 ### Project/Tooling Updates
+* [Linting Rust code in the kernel](https://lwn.net/SubscriberLink/1038750/6aa9769e0b875235/)
 * [genedex: A Small and Fast FM-Index for Rust](https://github.com/feldroop/genedex)
 * [blogr v0.3.0 - Fast, lightweight static site generator with built in newsletter manager](https://github.com/bahdotsh/blogr/releases/tag/v0.3.0)
 * [Feedr v0.2.0 - A feature-rich terminal-based RSS feed reader with a clean and intuitive TUI](https://github.com/bahdotsh/feedr/releases/tag/v0.2.0)
