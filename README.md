@@ -195,7 +195,7 @@ cd publishing
 - Run the Docker build and website local-host command:
 
 ```sh
-make build && make generate-website && make host-website
+make copy-website-contents
 ```
 
 - View the website locally at default
