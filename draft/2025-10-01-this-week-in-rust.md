@@ -51,12 +51,12 @@ and just ask the editors to select the category.
 * [Feedr v0.2.0 - A feature-rich terminal-based RSS feed reader with a clean and intuitive TUI](https://github.com/bahdotsh/feedr/releases/tag/v0.2.0)
 
 ### Observations/Thoughts
+* [The Game Engine that would not have been made without Rust](https://blog.vermeilsoft.com/2025-09-rust-game-engine)
 * [video] [How to Optimize Rust for Slowness: Inspired by New Turing Machine Results](https://www.youtube.com/watch?v=ec-ucXJ4x-0)
-
-[The Game Engine that would not have been made without Rust](https://blog.vermeilsoft.com/2025-09-rust-game-engine)
 
 ### Rust Walkthroughs
 * [Under the hood: Vec\<T\>](https://marma.dev/articles/2025/under-the-hood-vec-t)
+* [Axum Backend Series: Implement JWT Access Token](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-jwt-access-token/)
 
 ### Research
 
