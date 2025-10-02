@@ -41,8 +41,6 @@ and just ask the editors to select the category.
 * [The next Rust All Hands](https://blog.rust-lang.org/inside-rust/2025/09/30/all-hands-2026/)
 * [This Development-cycle in Cargo: 1.90](https://blog.rust-lang.org/inside-rust/2025/10/01/this-development-cycle-in-cargo-1.90/)
 
-### Foundation
-
 ### Newsletters
 * [The Embedded Rustacean Issue #55](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-55)
 
@@ -71,8 +69,6 @@ and just ask the editors to select the category.
 * [Level Up your Rust pattern matching](https://blog.cuongle.dev/p/level-up-your-rust-pattern-matching)
 * [video] [Sguaba: Type-safe spatial math in Rust](https://www.youtube.com/watch?v=kESBAiTYMoQ)
 
-### Research
-
 ### Miscellaneous
 * [Cloudflare just got faster and more secure, powered by Rust](https://blog.cloudflare.com/20-percent-internet-upgrade/)
 * [Rust: Who, What and Why for ESA SW PA Workshop](https://ferrous-systems.com/blog/rust-who-what-why/)
@@ -95,7 +91,7 @@ If you are a feature implementer and would like your RFC to appear in this list,
 `call-for-testing` label to your RFC along with a comment providing testing instructions and/or
 guidance on which aspect(s) of the feature need testing.
 
-[Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
+[Rust](https://github.com/rust-lang/rust/labels/call-for-testing)
 
 * [FR: Add a --fail-fast option to libtest](https://github.com/rust-lang/rust/issues/142859)
   * [Testing instructions](https://github.com/rust-lang/rust/issues/142859#issuecomment-3339090064)
@@ -134,7 +130,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+*No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -144,7 +140,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-09-23..2025-09-30
 
- #### Compiler
+#### Compiler
 * [add an attribute to check the number of lanes in a SIMD vector after monomorphization](https://github.com/rust-lang/rust/pull/146667)
 * [add panic=immediate-abort](https://github.com/rust-lang/rust/pull/146317)
 * [skip stack overflow handler for panic=immediate-abort](https://github.com/rust-lang/rust/pull/147090)
@@ -154,7 +150,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [do not compute optimized MIR if code does not type-check](https://github.com/rust-lang/rust/pull/147092)
 * [do not materialise X in `[X; 0]` when X is unsizing a const](https://github.com/rust-lang/rust/pull/145277)
 * [improve diagnostics for empty attributes](https://github.com/rust-lang/rust/pull/146653)
- #### Library
+#### Library
 * [BTreeMap: don't leak allocators when initializing nodes](https://github.com/rust-lang/rust/pull/146859)
 * [constify {`Mutex`, `RwLock`, `ReentrantLock`}`::data_ptr`](https://github.com/rust-lang/rust/pull/146904)
 * [constify Default on Nanoseconds](https://github.com/rust-lang/rust/pull/146979)
@@ -164,20 +160,20 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [fix infinite recursion in `Path::eq` with String](https://github.com/rust-lang/rust/pull/146958)
 * [implement `hostname`](https://github.com/rust-lang/rust/pull/146937)
 * [remove most `#[track_caller]` from allocating Vec methods](https://github.com/rust-lang/rust/pull/147042)
- #### Cargo
+#### Cargo
 * [config: combine key error context into one](https://github.com/rust-lang/cargo/pull/16004)
 * [shell: Use a distinct style for transient status](https://github.com/rust-lang/cargo/pull/16019)
 * [add retry for `git fetch` failures in `CARGO_NET_GIT_FETCH_WITH_CLI` path](https://github.com/rust-lang/cargo/pull/16016)
 * [better error message for rust version incompatibility](https://github.com/rust-lang/cargo/pull/16021)
 * [sparse URLs in `TomlLockfileSourceId`](https://github.com/rust-lang/cargo/pull/15990)
 * [use `host-tuple` for host target subsitution](https://github.com/rust-lang/cargo/pull/16003)
- #### Rustdoc
+#### Rustdoc
 * [Add support for associated items in "jump to def" feature](https://github.com/rust-lang/rust/pull/135771)
 * [add rustdoc `doc_cfg` features](https://github.com/rust-lang/rust/pull/138907) (RFC [#3631](https://rust-lang.github.io/rfcs/3631-rustdoc-cfgs-handling.html))
 * [search: use the same ID for entry and path to same item](https://github.com/rust-lang/rust/pull/147045)
 * [hide `#[repr]` if it isn't part of the public ABI](https://github.com/rust-lang/rust/pull/116882)
 * [put the toolbar on the all item index](https://github.com/rust-lang/rust/pull/147047)
- #### Clippy
+#### Clippy
 * [`double_parens`: add structured suggestions, fix bug](https://github.com/rust-lang/rust-clippy/pull/15420)
 * [`filter_next`: check for `filter().next_back()`](https://github.com/rust-lang/rust-clippy/pull/15748)
 * [`collapsible`(`_else`)`_if`: respect `#[expect]` on inner `if`](https://github.com/rust-lang/rust-clippy/pull/15647)
@@ -191,7 +187,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [overhaul `mut_mut`](https://github.com/rust-lang/rust-clippy/pull/15417)
 * [refactor `module_style`](https://github.com/rust-lang/rust-clippy/pull/15469)
 * [rename `unchecked_duration_subtraction` to `unchecked_time_subtraction` and check for `Duration - Duration`](https://github.com/rust-lang/rust-clippy/pull/13800)
- #### Rust-Analyzer
+#### Rust-Analyzer
 * [add `all`, `any` and `not` completions in `#[cfg]`](https://github.com/rust-lang/rust-analyzer/pull/20760)
 * [add `cfg_attr` predicate completion](https://github.com/rust-lang/rust-analyzer/pull/20604)
 * [add applicable on bang `!` for `apply_demorgan`](https://github.com/rust-lang/rust-analyzer/pull/20599)
@@ -419,7 +415,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1nknaii/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -435,4 +431,4 @@ Thanks to [Riking](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1719
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1nvpd2x/this_week_in_rust_619/)</small>
