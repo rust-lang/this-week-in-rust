@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 * [Feedr v0.2.0 - A feature-rich terminal-based RSS feed reader with a clean and intuitive TUI](https://github.com/bahdotsh/feedr/releases/tag/v0.2.0)
 * [Glues v0.8.1 adds a browser TUI, proxy support, and redb storage](https://github.com/gluesql/glues/releases/tag/v0.8.1)
 
+* [Role Based Access Control in SeaORM 2.0](https://www.sea-ql.org/blog/2025-09-30-sea-orm-rbac/)
+
 ### Observations/Thoughts
 * [The Game Engine that would not have been made without Rust](https://blog.vermeilsoft.com/2025-09-rust-game-engine)
 * [Introducing Rust To The Automotive Stack: A Conversation With Julius Gustavsson Of Volvo Cars](https://filtra.io/rust/interviews/volvo-sep-25)
