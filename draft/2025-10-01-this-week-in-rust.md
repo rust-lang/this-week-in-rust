@@ -56,6 +56,8 @@ and just ask the editors to select the category.
 * [Glues v0.8.1 adds a browser TUI, proxy support, and redb storage](https://github.com/gluesql/glues/releases/tag/v0.8.1)
 * [Role Based Access Control in SeaORM 2.0](https://www.sea-ql.org/blog/2025-09-30-sea-orm-rbac/)
 
+* [Aladin Lite - navigate into TBs of astronomical data coming from various space missions](https://aladin.cds.unistra.fr/AladinLite/doc/)
+
 ### Observations/Thoughts
 * [On Choosing Rust](https://endler.dev/2025/choosing-rust/)
 * [The expression problem and Rust](https://purplesyringa.moe/blog/the-expression-problem-and-rust/)
