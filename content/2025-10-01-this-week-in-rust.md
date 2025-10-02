@@ -41,8 +41,6 @@ and just ask the editors to select the category.
 * [The next Rust All Hands](https://blog.rust-lang.org/inside-rust/2025/09/30/all-hands-2026/)
 * [This Development-cycle in Cargo: 1.90](https://blog.rust-lang.org/inside-rust/2025/10/01/this-development-cycle-in-cargo-1.90/)
 
-### Foundation
-
 ### Newsletters
 * [The Embedded Rustacean Issue #55](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-55)
 
@@ -70,8 +68,6 @@ and just ask the editors to select the category.
 * [Axum Backend Series: Implement JWT Access Token](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-jwt-access-token/)
 * [Level Up your Rust pattern matching](https://blog.cuongle.dev/p/level-up-your-rust-pattern-matching)
 * [video] [Sguaba: Type-safe spatial math in Rust](https://www.youtube.com/watch?v=kESBAiTYMoQ)
-
-### Research
 
 ### Miscellaneous
 * [Cloudflare just got faster and more secure, powered by Rust](https://blog.cloudflare.com/20-percent-internet-upgrade/)
@@ -134,7 +130,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+*No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -419,7 +415,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1nknaii/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -435,4 +431,4 @@ Thanks to [Riking](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1719
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1nvpd2x/this_week_in_rust_619/)</small>
