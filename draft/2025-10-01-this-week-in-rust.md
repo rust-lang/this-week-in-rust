@@ -356,6 +356,8 @@ Rusty Events between 2025-10-01 - 2025-10-29 🦀
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/308592252/)
 * 2025-10-21 | London, UK | [London Rust Project Group](https://www.meetup.com/london-rust-project-group)
     * [**Rust in Surgery: Powering the Data Pipelines**](https://www.meetup.com/london-rust-project-group/events/310813952/)
+* 2025-10-21 | Bergen, No | [Rust Bergen](https://www.meetup.com/bergen-rust-new-technology/events/)
+    * [**Rust Meetup #01 @ Zrch**](https://www.meetup.com/bergen-rust-new-technology/events/311153821/)
 * 2025-10-28 | Manchester, UK | [Rust Manchester](https://www.meetup.com/rust-manchester)
     * [**Rust Manchester October Code Night**](https://www.meetup.com/rust-manchester/events/307919171/)
 
