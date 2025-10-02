@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Kernel hackers at Cauldron, 2025 edition](https://lwn.net/SubscriberLink/1039784/d2548814efb78046/)
 
 ### Observations/Thoughts
 
