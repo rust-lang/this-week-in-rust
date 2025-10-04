@@ -103,8 +103,7 @@ class TwirMeetupClient:
         # TODO: maybe move this validation somewhere else?
         for edge_kwargs in edges:
             if not edge_kwargs["node"]["venue"]:
-                logger.error(f"Event response missing venue: {edge_kwargs}")
-                continue
+                logger.info(f"Event response missing venue: {edge_kwargs}")
 
             events.append(RawGqlEvent(**edge_kwargs))
 
