@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Let's write a macro in Rust - Part 3](https://hackeryarn.com/post/rust-macros-3/)
 
 ### Research
 
