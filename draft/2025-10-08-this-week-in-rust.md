@@ -141,7 +141,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Largely a positive week. Big win coming from avoiding unnesesary work for debug log in [#147293](https://github.com/rust-lang/rust/pull/147293), and another one for rustdoc from optimized span representation for highlighter [#147189](https://github.com/rust-lang/rust/pull/147189). Lots of noisy results otherwise.
+
+Triage done by **@panstromek**.
+Revision range: [8d72d3e1..1a3cdd34](https://perf.rust-lang.org/?start=8d72d3e1e96f58ca10059a6bb6e8aecba4a0e9cd&end=1a3cdd34629306fa67624eaa60d73687e7fcf855&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.5%  | [0.2%, 2.0%]    | 10    |
+| Regressions ❌ <br /> (secondary)  | 0.4%  | [0.0%, 0.8%]    | 50    |
+| Improvements ✅ <br /> (primary)   | -1.3% | [-5.3%, -0.2%]  | 147   |
+| Improvements ✅ <br /> (secondary) | -1.3% | [-12.7%, -0.1%] | 111   |
+| All ❌✅ (primary)                 | -1.2% | [-5.3%, 2.0%]   | 157   |
+
+
+6 Regressions, 3 Improvements, 6 Mixed; 8 of them in rollups
+40 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/33d1d2f6103c22772c45562aa159d1e1257c228e/triage/2025/2025-10-06.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
