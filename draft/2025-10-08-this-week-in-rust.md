@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Generic Numeric Computations in Rust ](https://michaelmauderer.com/blog/generic-numeric-computations/)
 
 ### Research
 
