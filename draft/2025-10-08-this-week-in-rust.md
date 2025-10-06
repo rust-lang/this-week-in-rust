@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing redis-rs 1.0.0 release candidate]([https://github.com/redis-rs/redis-rs/blob/redis-1.0.0-rc.0/version1.md])
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
