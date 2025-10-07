@@ -47,6 +47,9 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+[audio] [Netstack.FM Episode 7 – Rustls with Dirkjan Ochtman](https://netstack.fm/#episode-7)
+[audio] [Netstack.FM Episode 8 – Fuchsia's Netstack3 with Bruno Dal Bo Silva](https://netstack.fm/#episode-8)
+
 ### Rust Walkthroughs
 
 ### Research
