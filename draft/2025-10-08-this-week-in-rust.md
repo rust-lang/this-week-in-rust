@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+[How to automatically Profile Performance of Rust Applications](https://pawelurbanek.com/rust-optimize-performance)
+
 ### Research
 
 ### Miscellaneous
