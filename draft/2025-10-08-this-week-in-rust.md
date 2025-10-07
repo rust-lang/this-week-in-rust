@@ -62,42 +62,20 @@ and just ask the editors to select the category.
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
 ## Calls for Testing
-An important step for feature implementation is for people to experiment with the
+An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.
 
-If you are a feature implementer and would like your feature to appear in this list, add a
+If you are a feature implementer and would like your RFC to appear in this list, add a
 `call-for-testing` label to your RFC along with a comment providing testing instructions and/or
 guidance on which aspect(s) of the feature need testing.
 
-<!-- If there are new CfT items this week, use: -->
-<!--
-  [Repo Name](Repo URL)
-    * [<Feature name>](<Feature URL>)
-        * [Testing steps](<Testing Steps URL>)
--->
-<!-- where `Repo Name` and `Repo URL` are one of:
-[Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
-[Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing),
-[Cargo](https://github.com/rust-lang/cargo/labels/call-for-testing) or
-[Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
--->
-
-<!-- For all `Repo Names` with no new CfT items this week: use (removing the repos for which new
-     CfT items did appear, of course) -->
-<!--
 * *No calls for testing were issued this week by
   [Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
   [Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing),
   [Cargo](https://github.com/rust-lang/cargo/labels/call-for-testing) or
   [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing).*
--->
-* *No calls for testing were issued this week by [Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
-  [Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing),
-  [Cargo](https://github.com/rust-lang/cargo/labels/call-for-testing) or
-  [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing).*
 
 [Let us know](https://github.com/rust-lang/this-week-in-rust/issues) if you would like your feature to be tracked as a part of this list.
--->
 
 ### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
 
@@ -148,47 +126,36 @@ If you are an event organizer hoping to expand the reach of your event, please s
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Approved RFCs go here, use this format: * [Topic](URL) -->
-<!-- or if none were approved this week, use: * *No RFCs were approved this week.* -->
-<!-- * []() -->
-
-<!--
-### [Approved Major Change Proposals (MCP)](https://forge.rust-lang.org/compiler/mcp.html)
-<!~~ MCPs occur infrequently, so this section is commented out by default. ~~>
-<!~~ MCPs which have been approved or rejected this week go here, use this format: * [major change accepted|rejected] [Topic](URL) ~~>
--->
+* *No RFCs were approved this week.*
 
 ### Final Comment Period
 
 Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final comment period' for RFCs and key PRs
 which are reaching a decision. Express your opinions now.
 
-#### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
-<!-- RFCs which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: * *No RFCs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
-
 #### Tracking Issues & PRs
-<!-- Tracking Issues which have entered FCP go here, use this format: * [disposition: merge|close] [Topic](URL) -->
-<!-- or if none entered FCP this week, use: -->
-<!-- * *No Tracking Issues or PRs entered Final Comment Period this week.* -->
-<!-- * [disposition: ] []() -->
 
 ##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
+* [Uplifts and extends `clippy::needless-maybe-sized` into rustc](https://github.com/rust-lang/rust/pull/145924)
+* [prefer alias candidates for sizedness + auto trait goals](https://github.com/rust-lang/rust/pull/144064)
+* [implement Extend<{Group, Literal, Punct, Ident}> for TokenStream](https://github.com/rust-lang/rust/pull/145722)
+
 ##### [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+* [Add `target="host"` meaning the current host](https://github.com/rust-lang/cargo/issues/13051)
 
-##### [Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc+)
+*No Items entered Final Comment Period this week for
+  [Rust RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period),
+  [Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc+),
+  [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc),
+  [Leadership Council](https://github.com/rust-lang/leadership-council/issues?q=state%3Aopen%20label%3Afinal-comment-period) or
+  [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc).*
 
-##### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
-
-##### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+Let us know if you would like your PRs, Tracking Issues or RFCs to be tracked as a part of this list.
 
 #### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-<!-- New or updated RFCs go here, use this format: * [new|updated] [Topic](URL) -->
-<!-- or if there are no new or updated RFCs this week, use: -->
-<!-- * *No New or Updated RFCs were created this week.* -->
-<!-- * [new|updated] []() -->
+
+* [RFC: Allow `#[ignore(Trait)]` on field to ignore it when deriving `Trait`](https://github.com/rust-lang/rfcs/pull/3869)
 
 ## Upcoming Events
 
