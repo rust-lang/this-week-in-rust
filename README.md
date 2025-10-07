@@ -18,6 +18,7 @@ license](http://mit-license.org/).
 * [mariannegoldin](https://github.com/mariannegoldin)
 * [bennyvasquez](https://github.com/bennyvasquez)
 * [bdillo](https://github.com/bdillo)
+* [tzilist](https://github.com/tzilist)
 
 ## Language Reviewers
 
