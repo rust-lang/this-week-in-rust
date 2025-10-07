@@ -141,7 +141,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-Largely a positive week. Big win coming from avoiding unnesesary work for debug log in [#147293](https://github.com/rust-lang/rust/pull/147293), and another one for rustdoc from optimized span representation for highlighter [#147189](https://github.com/rust-lang/rust/pull/147189). Lots of noisy results otherwise.
+Largely a positive week. Big win coming from avoiding unnecessary work for debug log in [#147293](https://github.com/rust-lang/rust/pull/147293), and another one for rustdoc from optimized span representation for highlighter [#147189](https://github.com/rust-lang/rust/pull/147189). Lots of noisy results otherwise.
 
 Triage done by **@panstromek**.
 Revision range: [8d72d3e1..1a3cdd34](https://perf.rust-lang.org/?start=8d72d3e1e96f58ca10059a6bb6e8aecba4a0e9cd&end=1a3cdd34629306fa67624eaa60d73687e7fcf855&absolute=false&stat=instructions%3Au)
