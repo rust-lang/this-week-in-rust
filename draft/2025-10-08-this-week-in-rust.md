@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Axum Backend Series: Email Verification After Registration](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-email-verification/)
+* [Axum Backend Series: Implementing Password Reset](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-reset-password/)
 
 ### Research
 
