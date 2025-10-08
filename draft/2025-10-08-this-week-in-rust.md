@@ -195,6 +195,8 @@ which are reaching a decision. Express your opinions now.
 Rusty Events between 2025-10-08 - 2025-11-05 🦀
 
 ### Virtual
+* 2025-10-08 | Virtual (Boulder, CO, US) | [Boulder Elixir](https://www.meetup.com/boulder-elixir/events/)
+    * [**Integrating Elixir and Apache DataFusion with Rustler**](https://www.meetup.com/boulder-elixir/events/310996627/)
 * 2025-10-09 - 2025-10-10 | Hybrid (Paris, FR) | [EuroRust](https://eurorust.eu/)
     * [**EuroRust 2025**](https://eurorust.eu/schedule/)
 * 2025-10-09 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
