@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+An introduction to test doubles and the various kinds you can implement. [First article](https://jorgeortiz.dev/posts/rust_unit_testing_test_doubles_stub/) focus on stubs, detailing how to create them and use them from scratch (no library).
 
 ### Research
 
