@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Behind the Scenes of Pingoo: Slashing allocations with mimalloc and heapless to build the fastest reverse proxy](https://kerkour.com/rust-pingoo-high-performance-allocations-mimalloc-heapless)
 
 ### Research
 
