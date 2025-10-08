@@ -46,12 +46,28 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [The Handle trait](https://smallcultfollowing.com/babysteps/blog/2025/10/07/the-handle-trait/)
+* [Variadic generics](https://www.wakunguma.com/blog/variadic-generics)
+* [Thoughts on the Word Spec in Rust](https://tritium.legal/blog/word)
+* [Why We Bet on Rust to Supercharge Feature Store at Agoda](https://medium.com/agoda-engineering/why-we-bet-on-rust-to-supercharge-feature-store-at-agoda-ed4a70d2efb7)
+* [walrus: ingesting data at memory speeds](https://nubskr.com/2025/10/06/walrus.html)
+* [Realtime concurrency primitives](https://blog.inkreas.ing/realtime-concurrency)
+* [Why we didn't rewrite our feed handler in Rust](https://databento.com/blog/why-we-didnt-rewrite-our-feed-handler-in-rust)
 
 ### Rust Walkthroughs
+* [Axum Backend Series: Implementing Password Reset](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-reset-password/)
+* [Fun With HyperLogLog and SIMD](https://vaktibabat.github.io/posts/hyperloglog/)
+* [How to automatically Profile Performance of Rust Applications](https://pawelurbanek.com/rust-optimize-performance)
+* [Async Rust with Tokio I/O Streams: Backpressure, Concurrency, and Ergonomics](https://biriukov.dev/docs/async-rust-tokio-io/1-async-rust-with-tokio-io-streams-backpressure-concurrency-and-ergonomics/)
+* [Preventing Invalid Database Access At Compile Time](https://www.svix.com/blog/preventing-db-misuse-at-compile-time/)
+* [Rust unit testing: test doubles & stubs](https://jorgeortiz.dev/posts/rust_unit_testing_test_doubles_stub/)
+* [Cancelling async Rust](https://sunshowers.io/posts/cancelling-async-rust/)
 
 ### Research
 
 ### Miscellaneous
+* [videos] [RustConf 2025](https://www.youtube.com/playlist?list=PL2b0df3jKKiRFEuVNk76ufXagOgEJ9sBZ)
+* [audio] [Prime Video - Alexandru Ene, Principal Engineer](https://corrode.dev/podcast/s05e01-prime-video/)
 
 ## Crate of the Week
 
