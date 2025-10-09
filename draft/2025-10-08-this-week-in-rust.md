@@ -72,7 +72,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [tokio-netem](https://crates.io/crates/tokio-netem), a toolbox of Tokio AsyncRead /AsyncWrite adapters to emulate latency, throttling, slicing, termination, forced shutdown, data injection and data corruption.
+
+Thanks to [Viacheslav Biriukov](https://users.rust-lang.org/t/crate-of-the-week/2704/1478) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -132,7 +134,63 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+398 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-09-30..2025-10-07
+
+ #### Compiler
+* [add a dummy codegen backend](https://github.com/rust-lang/rust/pull/146596)
+* [don't normalize higher-ranked assumptions if they're not used](https://github.com/rust-lang/rust/pull/147299)
+* [extending `#[rustc_force_inline]` to be applicable to inherent methods](https://github.com/rust-lang/rust/pull/147231)
+* [fix the bevy implied bounds hack for the next solver](https://github.com/rust-lang/rust/pull/147184)
+* [Global Value Numbering: support unions](https://github.com/rust-lang/rust/pull/146355)
+* [Global Value Numbering: use a VnIndex in Address projection](https://github.com/rust-lang/rust/pull/144477)
+* [miri: add support for temporal mixing of atomic and non-atomic accesses in GenMC mode](https://github.com/rust-lang/miri/pull/4611)
+ #### Library
+* [add `CloneFromCell` and `Cell::get_cloned`](https://github.com/rust-lang/rust/pull/145685)
+* [add `Path::has_trailing_sep` and related methods](https://github.com/rust-lang/rust/pull/142506)
+* [add `mem::conjure_zst`](https://github.com/rust-lang/rust/pull/146479)
+* [add fast-path for accessing the current thread id](https://github.com/rust-lang/rust/pull/143069)
+* [implement `Box::take`](https://github.com/rust-lang/rust/pull/147227)
+* [implement non-poisoning `Mutex::with_mut`, `RwLock::with` and `RwLock::with_mut`](https://github.com/rust-lang/rust/pull/147328)
+* [hashbrown: recognize and use over sized allocations](https://github.com/rust-lang/hashbrown/pull/523)
+ #### Cargo
+* [`fix(run)`: Override arg0 for cargo scripts](https://github.com/rust-lang/cargo/pull/16027)
+* [`fix(timings)`: compute codegen start time to draw dep lines](https://github.com/rust-lang/cargo/pull/16055)
+* [`fix(toml)`: Prevent non-script fields in Cargo scripts](https://github.com/rust-lang/cargo/pull/16026)
+* [accessing each build script's `OUT_DIR`](https://github.com/rust-lang/cargo/pull/15891)
+* [add panic=immediate-abort support to Cargo](https://github.com/rust-lang/cargo/pull/16041)
+* [consider public dependencies when choosing a version in cargo add (#1…](https://github.com/rust-lang/cargo/pull/15966)
+* [convert a multi-part diagnostic to a report](https://github.com/rust-lang/cargo/pull/16035)
+* [feat (publish): deprecate `--token` option](https://github.com/rust-lang/cargo/pull/16046)
+* [fix FileLock path tracking after rename in package operation](https://github.com/rust-lang/cargo/pull/16036)
+* [fix `unsafe_op_in_unsafe_fn` for Windows](https://github.com/rust-lang/cargo/pull/16058)
+* [fix: remove FIXME comment that's no longer a problem](https://github.com/rust-lang/cargo/pull/16025)
+* [lockfile schemas error cleanup](https://github.com/rust-lang/cargo/pull/16039)
+* [public in private manifest errors](https://github.com/rust-lang/cargo/pull/16002)
+* [recommend `package.rust-version` in the Rust version section of `reference/semver.md`](https://github.com/rust-lang/cargo/pull/15806)
+* [test: null-terminated path for reserved windows name detection](https://github.com/rust-lang/cargo/pull/16052)
+ #### Rustdoc
+* [replace `rustc_span::Span` with a stripped down version for librustdoc's highlighter](https://github.com/rust-lang/rust/pull/147189)
+ #### Clippy
+* [`assertions_on_constants`: Suggest using a const block when using a named constant](https://github.com/rust-lang/rust-clippy/pull/15774)
+* [`zero_repeat_side_effects`: better identify exprs with side effects](https://github.com/rust-lang/rust-clippy/pull/15814)
+* [const eval changes](https://github.com/rust-lang/rust-clippy/pull/15773)
+* [do not suggest using a `if let` chain if it is not supported](https://github.com/rust-lang/rust-clippy/pull/15746)
+* [do not trigger `inefficient_to_string` after Rust 1.82](https://github.com/rust-lang/rust-clippy/pull/15729)
+* [extend `while_let_loop` to `loop { let else }`](https://github.com/rust-lang/rust-clippy/pull/15701)
+* [fix `if_then_some_else_none` false positive when return exists in block expr](https://github.com/rust-lang/rust-clippy/pull/15783)
+* [fix `let_unit_value` suggests wrongly for field init shorthand](https://github.com/rust-lang/rust-clippy/pull/15791)
+* [fix `mem_replace_with_default` wrongly unmangled macros](https://github.com/rust-lang/rust-clippy/pull/15786)
+* [implement `volatile_composites` lint](https://github.com/rust-lang/rust-clippy/pull/15686)
+ #### Rust-Analyzer
+* [make rust-analyzer use a dedicated build directory](https://github.com/rust-lang/rust/pull/141839)
+* [deduplicate sort+dedup calls](https://github.com/rust-lang/rust-analyzer/pull/20794)
+* [log flycheck stdout and stderr to files](https://github.com/rust-lang/rust-analyzer/pull/20806)
+* [fix missing parentheses for `missing_unsafe`](https://github.com/rust-lang/rust-analyzer/pull/20793)
+* [fix panic when using analysis-stats](https://github.com/rust-lang/rust-analyzer/pull/20777)
+* [fix erroneous diagnostic `incorrect_generics_len` when there are generics on `enum` variant used through type alias](https://github.com/rust-lang/rust-analyzer/pull/20787)
+* [ignore impl trait safety errors when the trait is unresolved](https://github.com/rust-lang/rust-analyzer/pull/20770)
 
 ### Rust Compiler Performance Triage
 
@@ -349,7 +407,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> For me personally, the best thing about becoming successful at anything is you gain the ability to lift others up.
+
+– [Nell Shamrell-Harrington at RustConf](https://youtu.be/nEHLIUWO78I?t=1175) (youtube video link, the rest of the talk is great, too!)
+
+Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1720) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
