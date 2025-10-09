@@ -37,12 +37,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [Seaography 2.0: A Powerful and Extensible GraphQL Framework](https://www.sea-ql.org/blog/2025-10-08-seaography/)
 * [Announcing redis-rs 1.0.0 release candidate](https://github.com/redis-rs/redis-rs/blob/redis-1.0.0-rc.0/version1.md)
@@ -76,8 +70,6 @@ and just ask the editors to select the category.
 * [Generic Numeric Computations in Rust ](https://michaelmauderer.com/blog/generic-numeric-computations/)
 * [Let's write a macro in Rust - Part 3](https://hackeryarn.com/post/rust-macros-3/)
 * [Rust/C++ Interop Part 5 - Interop in 2025: A Complete Example](https://tylerjw.dev/posts/20251003-rust-cpp-interop-2025-update/)
-
-### Research
 
 ### Miscellaneous
 * [videos] [RustConf 2025](https://www.youtube.com/playlist?list=PL2b0df3jKKiRFEuVNk76ufXagOgEJ9sBZ)
@@ -426,7 +418,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1nknaii/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -442,4 +434,4 @@ Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1720
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1o1uqur/this_week_in_rust_620/)</small>
