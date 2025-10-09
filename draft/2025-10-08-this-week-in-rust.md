@@ -44,7 +44,12 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+
 * [blazesym 0.2 stable release: batteries included address symbolization](https://github.com/libbpf/blazesym/discussions/1318)
+* [Kernel hackers at Cauldron, 2025 edition](https://lwn.net/SubscriberLink/1039784/d2548814efb78046/)
+* [Progress on defeating lifetime-end pointer zapping](https://lwn.net/SubscriberLink/1038757/d613acbb48f20a20/)
+* [Upcoming Rust language features for kernel development](https://lwn.net/SubscriberLink/1039073/abf96f38b178f988/)
+* [utsuru: "Go Live" on Discord using OBS, FFmpeg, or anything that supports WHIP.](https://github.com/VincentVerdynanta/utsuru/releases/tag/v0.2.1)
 
 ### Observations/Thoughts
 
