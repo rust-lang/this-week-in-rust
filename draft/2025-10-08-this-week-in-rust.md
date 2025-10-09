@@ -297,6 +297,8 @@ Rusty Events between 2025-10-08 - 2025-11-05 🦀
     * [**indielinks**](https://www.meetup.com/vancouver-rust/events/307731034/)
 * 2025-10-16 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
     * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/311012947/)
+* 2025-10-16 | San Francisco, CA, US | [Svix](https://luma.com/calendar/cal-Cnmn4RR2n4fRUNZ)
+    * [**San Francisco Rust Meetup**](https://luma.com/tp6w7tc9)
 * 2025-10-21 | San Francisco, CA, US | [Vara & Gear](https://luma.com/events-by-vara-gear)
     * [**Rust Workshop by Vara Network**](https://luma.com/kbs2os1c)
 * 2025-10-21 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group)
