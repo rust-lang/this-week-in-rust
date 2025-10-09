@@ -59,15 +59,13 @@ and just ask the editors to select the category.
 [audio] [Netstack.FM Episode 8 – Fuchsia's Netstack3 with Bruno Dal Bo Silva](https://netstack.fm/#episode-8)
 
 ### Rust Walkthroughs
+* [Behind the Scenes of Pingoo: Slashing allocations with mimalloc and heapless to build the fastest reverse proxy](https://kerkour.com/rust-pingoo-high-performance-allocations-mimalloc-heapless)
 * [Axum Backend Series: Email Verification After Registration](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-email-verification/)
 * [Axum Backend Series: Implementing Password Reset](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-reset-password/)
-
 * [Generic Numeric Computations in Rust ](https://michaelmauderer.com/blog/generic-numeric-computations/)
 * [Let's write a macro in Rust - Part 3](https://hackeryarn.com/post/rust-macros-3/)
 * [Rust/C++ Interop Part 5 - Interop in 2025: A Complete Example](https://tylerjw.dev/posts/20251003-rust-cpp-interop-2025-update/)
-
-[How to automatically Profile Performance of Rust Applications](https://pawelurbanek.com/rust-optimize-performance)
-
+* [How to automatically Profile Performance of Rust Applications](https://pawelurbanek.com/rust-optimize-performance)
 * [Rust unit testing: test doubles & stubs](https://jorgeortiz.dev/posts/rust_unit_testing_test_doubles_stub/)
 
 ### Research
