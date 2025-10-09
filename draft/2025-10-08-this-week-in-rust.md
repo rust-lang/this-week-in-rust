@@ -68,6 +68,8 @@ and just ask the editors to select the category.
 
 [How to automatically Profile Performance of Rust Applications](https://pawelurbanek.com/rust-optimize-performance)
 
+* [Rust unit testing: test doubles & stubs](https://jorgeortiz.dev/posts/rust_unit_testing_test_doubles_stub/)
+
 ### Research
 
 ### Miscellaneous
