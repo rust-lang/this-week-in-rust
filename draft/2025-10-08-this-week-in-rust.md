@@ -55,8 +55,9 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-* [Let's write a macro in Rust - Part 3](https://hackeryarn.com/post/rust-macros-3/)
 
+* [Generic Numeric Computations in Rust ](https://michaelmauderer.com/blog/generic-numeric-computations/)
+* [Let's write a macro in Rust - Part 3](https://hackeryarn.com/post/rust-macros-3/)
 * [Rust/C++ Interop Part 5 - Interop in 2025: A Complete Example](https://tylerjw.dev/posts/20251003-rust-cpp-interop-2025-update/)
 
 ### Research
