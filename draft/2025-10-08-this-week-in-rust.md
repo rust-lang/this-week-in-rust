@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 * [Progress on defeating lifetime-end pointer zapping](https://lwn.net/SubscriberLink/1038757/d613acbb48f20a20/)
 * [Upcoming Rust language features for kernel development](https://lwn.net/SubscriberLink/1039073/abf96f38b178f988/)
 * [utsuru: "Go Live" on Discord using OBS, FFmpeg, or anything that supports WHIP.](https://github.com/VincentVerdynanta/utsuru/releases/tag/v0.2.1)
+* [Aladin Lite - navigate into TBs of astronomical data coming from various space missions](https://aladin.cds.unistra.fr/AladinLite/doc/)
 
 ### Observations/Thoughts
 * [The Handle trait](https://smallcultfollowing.com/babysteps/blog/2025/10/07/the-handle-trait/)
