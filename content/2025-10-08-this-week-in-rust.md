@@ -37,12 +37,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [Seaography 2.0: A Powerful and Extensible GraphQL Framework](https://www.sea-ql.org/blog/2025-10-08-seaography/)
 * [Announcing redis-rs 1.0.0 release candidate](https://github.com/redis-rs/redis-rs/blob/redis-1.0.0-rc.0/version1.md)
@@ -51,6 +45,7 @@ and just ask the editors to select the category.
 * [Progress on defeating lifetime-end pointer zapping](https://lwn.net/SubscriberLink/1038757/d613acbb48f20a20/)
 * [Upcoming Rust language features for kernel development](https://lwn.net/SubscriberLink/1039073/abf96f38b178f988/)
 * [utsuru: "Go Live" on Discord using OBS, FFmpeg, or anything that supports WHIP.](https://github.com/VincentVerdynanta/utsuru/releases/tag/v0.2.1)
+* [Aladin Lite - navigate into TBs of astronomical data coming from various space missions](https://aladin.cds.unistra.fr/AladinLite/doc/)
 
 ### Observations/Thoughts
 * [The Handle trait](https://smallcultfollowing.com/babysteps/blog/2025/10/07/the-handle-trait/)
@@ -76,8 +71,6 @@ and just ask the editors to select the category.
 * [Generic Numeric Computations in Rust ](https://michaelmauderer.com/blog/generic-numeric-computations/)
 * [Let's write a macro in Rust - Part 3](https://hackeryarn.com/post/rust-macros-3/)
 * [Rust/C++ Interop Part 5 - Interop in 2025: A Complete Example](https://tylerjw.dev/posts/20251003-rust-cpp-interop-2025-update/)
-
-### Research
 
 ### Miscellaneous
 * [videos] [RustConf 2025](https://www.youtube.com/playlist?list=PL2b0df3jKKiRFEuVNk76ufXagOgEJ9sBZ)
@@ -153,7 +146,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-09-30..2025-10-07
 
- #### Compiler
+#### Compiler
 * [add a dummy codegen backend](https://github.com/rust-lang/rust/pull/146596)
 * [don't normalize higher-ranked assumptions if they're not used](https://github.com/rust-lang/rust/pull/147299)
 * [extending `#[rustc_force_inline]` to be applicable to inherent methods](https://github.com/rust-lang/rust/pull/147231)
@@ -161,7 +154,8 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [Global Value Numbering: support unions](https://github.com/rust-lang/rust/pull/146355)
 * [Global Value Numbering: use a VnIndex in Address projection](https://github.com/rust-lang/rust/pull/144477)
 * [miri: add support for temporal mixing of atomic and non-atomic accesses in GenMC mode](https://github.com/rust-lang/miri/pull/4611)
- #### Library
+
+#### Library
 * [add `CloneFromCell` and `Cell::get_cloned`](https://github.com/rust-lang/rust/pull/145685)
 * [add `Path::has_trailing_sep` and related methods](https://github.com/rust-lang/rust/pull/142506)
 * [add `mem::conjure_zst`](https://github.com/rust-lang/rust/pull/146479)
@@ -169,7 +163,8 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [implement `Box::take`](https://github.com/rust-lang/rust/pull/147227)
 * [implement non-poisoning `Mutex::with_mut`, `RwLock::with` and `RwLock::with_mut`](https://github.com/rust-lang/rust/pull/147328)
 * [hashbrown: recognize and use over sized allocations](https://github.com/rust-lang/hashbrown/pull/523)
- #### Cargo
+
+#### Cargo
 * [`fix(run)`: Override arg0 for cargo scripts](https://github.com/rust-lang/cargo/pull/16027)
 * [`fix(timings)`: compute codegen start time to draw dep lines](https://github.com/rust-lang/cargo/pull/16055)
 * [`fix(toml)`: Prevent non-script fields in Cargo scripts](https://github.com/rust-lang/cargo/pull/16026)
@@ -185,9 +180,11 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [public in private manifest errors](https://github.com/rust-lang/cargo/pull/16002)
 * [recommend `package.rust-version` in the Rust version section of `reference/semver.md`](https://github.com/rust-lang/cargo/pull/15806)
 * [test: null-terminated path for reserved windows name detection](https://github.com/rust-lang/cargo/pull/16052)
- #### Rustdoc
+
+#### Rustdoc
 * [replace `rustc_span::Span` with a stripped down version for librustdoc's highlighter](https://github.com/rust-lang/rust/pull/147189)
- #### Clippy
+
+#### Clippy
 * [`assertions_on_constants`: Suggest using a const block when using a named constant](https://github.com/rust-lang/rust-clippy/pull/15774)
 * [`zero_repeat_side_effects`: better identify exprs with side effects](https://github.com/rust-lang/rust-clippy/pull/15814)
 * [const eval changes](https://github.com/rust-lang/rust-clippy/pull/15773)
@@ -198,7 +195,8 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [fix `let_unit_value` suggests wrongly for field init shorthand](https://github.com/rust-lang/rust-clippy/pull/15791)
 * [fix `mem_replace_with_default` wrongly unmangled macros](https://github.com/rust-lang/rust-clippy/pull/15786)
 * [implement `volatile_composites` lint](https://github.com/rust-lang/rust-clippy/pull/15686)
- #### Rust-Analyzer
+
+#### Rust-Analyzer
 * [make rust-analyzer use a dedicated build directory](https://github.com/rust-lang/rust/pull/141839)
 * [deduplicate sort+dedup calls](https://github.com/rust-lang/rust-analyzer/pull/20794)
 * [log flycheck stdout and stderr to files](https://github.com/rust-lang/rust-analyzer/pull/20806)
@@ -426,7 +424,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1nknaii/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -442,4 +440,4 @@ Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1720
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1o1uqur/this_week_in_rust_620/)</small>
