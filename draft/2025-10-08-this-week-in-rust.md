@@ -44,7 +44,6 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
 * [Seaography 2.0: A Powerful and Extensible GraphQL Framework](https://www.sea-ql.org/blog/2025-10-08-seaography/)
 * [Announcing redis-rs 1.0.0 release candidate](https://github.com/redis-rs/redis-rs/blob/redis-1.0.0-rc.0/version1.md)
 * [blazesym 0.2 stable release: batteries included address symbolization](https://github.com/libbpf/blazesym/discussions/1318)
@@ -54,23 +53,35 @@ and just ask the editors to select the category.
 * [utsuru: "Go Live" on Discord using OBS, FFmpeg, or anything that supports WHIP.](https://github.com/VincentVerdynanta/utsuru/releases/tag/v0.2.1)
 
 ### Observations/Thoughts
-
-[audio] [Netstack.FM Episode 7 – Rustls with Dirkjan Ochtman](https://netstack.fm/#episode-7)
-[audio] [Netstack.FM Episode 8 – Fuchsia's Netstack3 with Bruno Dal Bo Silva](https://netstack.fm/#episode-8)
+* [The Handle trait](https://smallcultfollowing.com/babysteps/blog/2025/10/07/the-handle-trait/)
+* [Variadic generics](https://www.wakunguma.com/blog/variadic-generics)
+* [Thoughts on the Word Spec in Rust](https://tritium.legal/blog/word)
+* [Why We Bet on Rust to Supercharge Feature Store at Agoda](https://medium.com/agoda-engineering/why-we-bet-on-rust-to-supercharge-feature-store-at-agoda-ed4a70d2efb7)
+* [walrus: ingesting data at memory speeds](https://nubskr.com/2025/10/06/walrus.html)
+* [Realtime concurrency primitives](https://blog.inkreas.ing/realtime-concurrency)
+* [Why we didn't rewrite our feed handler in Rust](https://databento.com/blog/why-we-didnt-rewrite-our-feed-handler-in-rust)
+* [audio] [Netstack.FM Episode 7 – Rustls with Dirkjan Ochtman](https://netstack.fm/#episode-7)
+* [audio] [Netstack.FM Episode 8 – Fuchsia's Netstack3 with Bruno Dal Bo Silva](https://netstack.fm/#episode-8)
 
 ### Rust Walkthroughs
-* [Behind the Scenes of Pingoo: Slashing allocations with mimalloc and heapless to build the fastest reverse proxy](https://kerkour.com/rust-pingoo-high-performance-allocations-mimalloc-heapless)
-* [Axum Backend Series: Email Verification After Registration](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-email-verification/)
 * [Axum Backend Series: Implementing Password Reset](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-reset-password/)
+* [Axum Backend Series: Email Verification After Registration](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-email-verification/)
+* [Fun With HyperLogLog and SIMD](https://vaktibabat.github.io/posts/hyperloglog/)
+* [How to automatically Profile Performance of Rust Applications](https://pawelurbanek.com/rust-optimize-performance)
+* [Async Rust with Tokio I/O Streams: Backpressure, Concurrency, and Ergonomics](https://biriukov.dev/docs/async-rust-tokio-io/1-async-rust-with-tokio-io-streams-backpressure-concurrency-and-ergonomics/)
+* [Preventing Invalid Database Access At Compile Time](https://www.svix.com/blog/preventing-db-misuse-at-compile-time/)
+* [Rust unit testing: test doubles & stubs](https://jorgeortiz.dev/posts/rust_unit_testing_test_doubles_stub/)
+* [Cancelling async Rust](https://sunshowers.io/posts/cancelling-async-rust/)
+* [Behind the Scenes of Pingoo: Slashing allocations with mimalloc and heapless to build the fastest reverse proxy](https://kerkour.com/rust-pingoo-high-performance-allocations-mimalloc-heapless)
 * [Generic Numeric Computations in Rust ](https://michaelmauderer.com/blog/generic-numeric-computations/)
 * [Let's write a macro in Rust - Part 3](https://hackeryarn.com/post/rust-macros-3/)
 * [Rust/C++ Interop Part 5 - Interop in 2025: A Complete Example](https://tylerjw.dev/posts/20251003-rust-cpp-interop-2025-update/)
-* [How to automatically Profile Performance of Rust Applications](https://pawelurbanek.com/rust-optimize-performance)
-* [Rust unit testing: test doubles & stubs](https://jorgeortiz.dev/posts/rust_unit_testing_test_doubles_stub/)
 
 ### Research
 
 ### Miscellaneous
+* [videos] [RustConf 2025](https://www.youtube.com/playlist?list=PL2b0df3jKKiRFEuVNk76ufXagOgEJ9sBZ)
+* [audio] [Prime Video - Alexandru Ene, Principal Engineer](https://corrode.dev/podcast/s05e01-prime-video/)
 
 ## Crate of the Week
 
