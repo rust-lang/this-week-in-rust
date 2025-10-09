@@ -146,7 +146,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-09-30..2025-10-07
 
- #### Compiler
+#### Compiler
 * [add a dummy codegen backend](https://github.com/rust-lang/rust/pull/146596)
 * [don't normalize higher-ranked assumptions if they're not used](https://github.com/rust-lang/rust/pull/147299)
 * [extending `#[rustc_force_inline]` to be applicable to inherent methods](https://github.com/rust-lang/rust/pull/147231)
@@ -154,7 +154,8 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [Global Value Numbering: support unions](https://github.com/rust-lang/rust/pull/146355)
 * [Global Value Numbering: use a VnIndex in Address projection](https://github.com/rust-lang/rust/pull/144477)
 * [miri: add support for temporal mixing of atomic and non-atomic accesses in GenMC mode](https://github.com/rust-lang/miri/pull/4611)
- #### Library
+
+#### Library
 * [add `CloneFromCell` and `Cell::get_cloned`](https://github.com/rust-lang/rust/pull/145685)
 * [add `Path::has_trailing_sep` and related methods](https://github.com/rust-lang/rust/pull/142506)
 * [add `mem::conjure_zst`](https://github.com/rust-lang/rust/pull/146479)
@@ -162,7 +163,8 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [implement `Box::take`](https://github.com/rust-lang/rust/pull/147227)
 * [implement non-poisoning `Mutex::with_mut`, `RwLock::with` and `RwLock::with_mut`](https://github.com/rust-lang/rust/pull/147328)
 * [hashbrown: recognize and use over sized allocations](https://github.com/rust-lang/hashbrown/pull/523)
- #### Cargo
+
+#### Cargo
 * [`fix(run)`: Override arg0 for cargo scripts](https://github.com/rust-lang/cargo/pull/16027)
 * [`fix(timings)`: compute codegen start time to draw dep lines](https://github.com/rust-lang/cargo/pull/16055)
 * [`fix(toml)`: Prevent non-script fields in Cargo scripts](https://github.com/rust-lang/cargo/pull/16026)
@@ -178,9 +180,11 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [public in private manifest errors](https://github.com/rust-lang/cargo/pull/16002)
 * [recommend `package.rust-version` in the Rust version section of `reference/semver.md`](https://github.com/rust-lang/cargo/pull/15806)
 * [test: null-terminated path for reserved windows name detection](https://github.com/rust-lang/cargo/pull/16052)
- #### Rustdoc
+
+#### Rustdoc
 * [replace `rustc_span::Span` with a stripped down version for librustdoc's highlighter](https://github.com/rust-lang/rust/pull/147189)
- #### Clippy
+
+#### Clippy
 * [`assertions_on_constants`: Suggest using a const block when using a named constant](https://github.com/rust-lang/rust-clippy/pull/15774)
 * [`zero_repeat_side_effects`: better identify exprs with side effects](https://github.com/rust-lang/rust-clippy/pull/15814)
 * [const eval changes](https://github.com/rust-lang/rust-clippy/pull/15773)
@@ -191,7 +195,8 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [fix `let_unit_value` suggests wrongly for field init shorthand](https://github.com/rust-lang/rust-clippy/pull/15791)
 * [fix `mem_replace_with_default` wrongly unmangled macros](https://github.com/rust-lang/rust-clippy/pull/15786)
 * [implement `volatile_composites` lint](https://github.com/rust-lang/rust-clippy/pull/15686)
- #### Rust-Analyzer
+
+#### Rust-Analyzer
 * [make rust-analyzer use a dedicated build directory](https://github.com/rust-lang/rust/pull/141839)
 * [deduplicate sort+dedup calls](https://github.com/rust-lang/rust-analyzer/pull/20794)
 * [log flycheck stdout and stderr to files](https://github.com/rust-lang/rust-analyzer/pull/20806)
