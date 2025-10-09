@@ -46,10 +46,23 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [Seaography 2.0: A Powerful and Extensible GraphQL Framework](https://www.sea-ql.org/blog/2025-10-08-seaography/)
+* [Announcing redis-rs 1.0.0 release candidate](https://github.com/redis-rs/redis-rs/blob/redis-1.0.0-rc.0/version1.md)
+* [blazesym 0.2 stable release: batteries included address symbolization](https://github.com/libbpf/blazesym/discussions/1318)
+* [Kernel hackers at Cauldron, 2025 edition](https://lwn.net/SubscriberLink/1039784/d2548814efb78046/)
+* [Progress on defeating lifetime-end pointer zapping](https://lwn.net/SubscriberLink/1038757/d613acbb48f20a20/)
+* [Upcoming Rust language features for kernel development](https://lwn.net/SubscriberLink/1039073/abf96f38b178f988/)
+* [utsuru: "Go Live" on Discord using OBS, FFmpeg, or anything that supports WHIP.](https://github.com/VincentVerdynanta/utsuru/releases/tag/v0.2.1)
 
 ### Observations/Thoughts
 
+[audio] [Netstack.FM Episode 7 – Rustls with Dirkjan Ochtman](https://netstack.fm/#episode-7)
+[audio] [Netstack.FM Episode 8 – Fuchsia's Netstack3 with Bruno Dal Bo Silva](https://netstack.fm/#episode-8)
+
 ### Rust Walkthroughs
+
+* [Generic Numeric Computations in Rust ](https://michaelmauderer.com/blog/generic-numeric-computations/)
+* [Let's write a macro in Rust - Part 3](https://hackeryarn.com/post/rust-macros-3/)
+* [Rust/C++ Interop Part 5 - Interop in 2025: A Complete Example](https://tylerjw.dev/posts/20251003-rust-cpp-interop-2025-update/)
 
 ### Research
 
@@ -143,7 +156,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Largely a positive week. Big win coming from avoiding unnecessary work for debug log in [#147293](https://github.com/rust-lang/rust/pull/147293), and another one for rustdoc from optimized span representation for highlighter [#147189](https://github.com/rust-lang/rust/pull/147189). Lots of noisy results otherwise.
+
+Triage done by **@panstromek**.
+Revision range: [8d72d3e1..1a3cdd34](https://perf.rust-lang.org/?start=8d72d3e1e96f58ca10059a6bb6e8aecba4a0e9cd&end=1a3cdd34629306fa67624eaa60d73687e7fcf855&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.5%  | [0.2%, 2.0%]    | 10    |
+| Regressions ❌ <br /> (secondary)  | 0.4%  | [0.0%, 0.8%]    | 50    |
+| Improvements ✅ <br /> (primary)   | -1.3% | [-5.3%, -0.2%]  | 147   |
+| Improvements ✅ <br /> (secondary) | -1.3% | [-12.7%, -0.1%] | 111   |
+| All ❌✅ (primary)                 | -1.2% | [-5.3%, 2.0%]   | 157   |
+
+
+6 Regressions, 3 Improvements, 6 Mixed; 8 of them in rollups
+40 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/33d1d2f6103c22772c45562aa159d1e1257c228e/triage/2025/2025-10-06.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
