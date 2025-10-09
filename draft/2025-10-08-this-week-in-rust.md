@@ -59,6 +59,8 @@ and just ask the editors to select the category.
 [audio] [Netstack.FM Episode 8 – Fuchsia's Netstack3 with Bruno Dal Bo Silva](https://netstack.fm/#episode-8)
 
 ### Rust Walkthroughs
+* [Axum Backend Series: Email Verification After Registration](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-email-verification/)
+* [Axum Backend Series: Implementing Password Reset](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-reset-password/)
 
 * [Generic Numeric Computations in Rust ](https://michaelmauderer.com/blog/generic-numeric-computations/)
 * [Let's write a macro in Rust - Part 3](https://hackeryarn.com/post/rust-macros-3/)
