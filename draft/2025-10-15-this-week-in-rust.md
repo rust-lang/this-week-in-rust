@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+- [video] [Building Embedded TUIs with Rust & Ratatui — Tokyo Rust Meetup 2025](https://www.youtube.com/watch?v=F04kQMKwrwQ)
+
 ### Research
 
 ### Miscellaneous
