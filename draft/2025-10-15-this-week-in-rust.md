@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [Build with Naz : Eliminate off by one errors with Rust type system design](https://www.youtube.com/watch?v=IkCUhGAyS9U)
+
 ### Research
 
 ### Miscellaneous
