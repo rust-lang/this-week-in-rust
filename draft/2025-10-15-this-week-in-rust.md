@@ -141,7 +141,30 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This week saw small wins across the board from some microoptimizations of the incremental query
+system ([#147423](https://github.com/rust-lang/rust/pull/147423)). There have also been a couple of
+regressions. [#142390](https://github.com/rust-lang/rust/pull/142390) introduced regressions of `check`
+builds across the board. The largest regression (18%) is from an incremental opt build of a secondary
+artificial stress test, so we deemed it acceptable.
+
+Triage done by **@kobzol**.
+
+Revision range: [1a3cdd34..956f47c3](https://perf.rust-lang.org/?start=1a3cdd34629306fa67624eaa60d73687e7fcf855&end=956f47c32f1bd97b22cd702d7ccf78f0f0d42c34&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.7%  | [0.1%, 2.0%]   | 65    |
+| Regressions ❌ <br /> (secondary)  | 0.8%  | [0.1%, 18.6%]  | 65    |
+| Improvements ✅ <br /> (primary)   | -0.6% | [-1.6%, -0.1%] | 119   |
+| Improvements ✅ <br /> (secondary) | -0.4% | [-1.6%, -0.1%] | 76    |
+| All ❌✅ (primary)                 | -0.1% | [-1.6%, 2.0%]  | 184   |
+
+2 Regressions, 7 Improvements, 3 Mixed; 3 of them in rollups
+35 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/b4b30e719c7083141669f79edfdf20e685cf918f/triage/2025/2025-10-13.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
