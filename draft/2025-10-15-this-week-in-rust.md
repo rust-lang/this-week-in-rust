@@ -49,6 +49,9 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [series] [The Impatient Programmer's Guide to Bevy and Rust: Chapter 1 - Let There Be a Player](https://aibodh.com/posts/bevy-rust-game-development-chapter-1/)
+* [series] [The Impatient Programmer's Guide to Bevy and Rust: Chapter 2 - Let There Be a World](https://aibodh.com/posts/bevy-rust-game-development-chapter-2/)
+
 ### Research
 
 ### Miscellaneous
