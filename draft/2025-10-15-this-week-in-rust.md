@@ -52,7 +52,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-[Pack of 50+ Free (CC0 license) Ferris illustrations with different emotions, poses and situations in PNG and SVG](https://github.com/MariaLetta/free-ferris-pack)
+[🦀 Pack of 50+ Free (CC0 license) Ferris illustrations with different emotions, poses and situations in PNG and SVG 🦀](https://github.com/MariaLetta/free-ferris-pack)
 
 ## Crate of the Week
 
