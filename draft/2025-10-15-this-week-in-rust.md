@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Recursive type state in Rust](https://www.jessestuart.ca/posts/2025-10-10-recursive-type-state-in-rust/)
 
 ### Rust Walkthroughs
 
