@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-rule-engine v0.6.0](https://crates.io/crates/rust-rule-engine) - Enterprise-grade rule engine with Drools compatibility and AI integration
 
 ### Observations/Thoughts
 
@@ -55,11 +56,11 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [rust-rule-engine](https://crates.io/crates/rust-rule-engine), a high-performance rule engine with Drools compatibility and AI integration.
+
+Thanks to [tonthatvu](https://github.com/KSD-CO/rust-rule-engine) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
-
-[submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
 ## Calls for Testing
 An important step for feature implementation is for people to experiment with the
