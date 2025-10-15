@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 * [Gccrs after libcore](https://lwn.net/SubscriberLink/1040197/0733825193ca1f04/)
 
 ### Observations/Thoughts
+* [Rust 2025: 400K Salaries, AI, Defence & Borrow Checker — Jon Gjengset on Rust & the Future of Coding](https://www.youtube.com/watch?v=nOSxuaDgl3s)
 
 ### Rust Walkthroughs
 
