@@ -128,7 +128,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Diesel - Add `#[diagnostic::do_not_recommend]` to `impl AsExpression for T: Expression`](https://github.com/diesel-rs/diesel/issues/4760)
 * [Diesel - Improve documentation for Postgres loading modes](https://github.com/diesel-rs/diesel/issues/4764)
 
-If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust)!
+If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 [guidelines]:https://github.com/rust-lang/this-week-in-rust?tab=readme-ov-file#call-for-participation-guidelines
 
