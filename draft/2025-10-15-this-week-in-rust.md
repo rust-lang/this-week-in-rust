@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 * [audio] [Netstack.FM Episode 9 – gRPC with Lucio Franco](https://netstack.fm/#episode-9)
 
 ### Rust Walkthroughs
+* [Axum Backend Series: JWT with Refresh Token](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-jwt-refresh-token/)
 * [series] [The Impatient Programmer's Guide to Bevy and Rust: Chapter 1 - Let There Be a Player](https://aibodh.com/posts/bevy-rust-game-development-chapter-1/)
 * [series] [The Impatient Programmer's Guide to Bevy and Rust: Chapter 2 - Let There Be a World](https://aibodh.com/posts/bevy-rust-game-development-chapter-2/)
 * [video] [Building Embedded TUIs with Rust & Ratatui — Tokyo Rust Meetup 2025](https://www.youtube.com/watch?v=F04kQMKwrwQ)
