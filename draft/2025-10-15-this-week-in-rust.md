@@ -62,6 +62,8 @@ and just ask the editors to select the category.
 
 ### Research
 
+* [Papers on C-to-Rust Translation](https://hjaem.info/c-to-rust-papers)
+
 ### Miscellaneous
 [🦀 Pack of 50+ Free (CC0 license) Ferris illustrations with different emotions, poses and situations in PNG and SVG 🦀](https://github.com/MariaLetta/free-ferris-pack)
 
