@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 * [Rust 2025: 400K Salaries, AI, Defence & Borrow Checker — Jon Gjengset on Rust & the Future of Coding](https://www.youtube.com/watch?v=nOSxuaDgl3s)
+* [audio] [Netstack.FM Episode 9 – gRPC with Lucio Franco](https://netstack.fm/#episode-9)
 
 ### Rust Walkthroughs
 * [series] [The Impatient Programmer's Guide to Bevy and Rust: Chapter 1 - Let There Be a Player](https://aibodh.com/posts/bevy-rust-game-development-chapter-1/)
