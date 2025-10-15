@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Gccrs after libcore](https://lwn.net/SubscriberLink/1040197/0733825193ca1f04/)
 
 ### Observations/Thoughts
 
