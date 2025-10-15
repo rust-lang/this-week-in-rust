@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Gccrs after libcore](https://lwn.net/SubscriberLink/1040197/0733825193ca1f04/)
+* [Announcing Heave 0.1.0: an EAV data model rust library that can persist custom structs onto a SQLite DB with no friction at all!](https://www.rustydonkey.dev/blog/2025.10.08_introduction_to_heave/)
 
 ### Observations/Thoughts
 * [Rust 2025: 400K Salaries, AI, Defence & Borrow Checker — Jon Gjengset on Rust & the Future of Coding](https://www.youtube.com/watch?v=nOSxuaDgl3s)
