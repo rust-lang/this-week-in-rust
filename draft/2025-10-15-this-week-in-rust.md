@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 * [Gccrs after libcore](https://lwn.net/SubscriberLink/1040197/0733825193ca1f04/)
 * [Announcing Heave 0.1.0: an EAV data model rust library that can persist custom structs onto a SQLite DB with no friction at all!](https://www.rustydonkey.dev/blog/2025.10.08_introduction_to_heave/)
 
+* [Diesel-Async 0.7](https://blog.weiznich.de/blog/diesel-async-0-7/)
+
 ### Observations/Thoughts
 * [Recursive type state in Rust](https://www.jessestuart.ca/posts/2025-10-10-recursive-type-state-in-rust/)
 * [video] [Rust 2025: 400K Salaries, AI, Defence & Borrow Checker — Jon Gjengset on Rust & the Future of Coding](https://www.youtube.com/watch?v=nOSxuaDgl3s)
@@ -131,6 +133,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+
+* [Diesel - View Support - Show me your view definitions](https://github.com/diesel-rs/diesel/discussions/4805)
+* [Diesel - Add `#[diagnostic::do_not_recommend]` to `impl AsExpression for T: Expression`](https://github.com/diesel-rs/diesel/issues/4760)
+* [Diesel - Improve documentation for Postgres loading modes](https://github.com/diesel-rs/diesel/issues/4764)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [X (formerly Twitter)](https://x.com/ThisWeekInRust) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
