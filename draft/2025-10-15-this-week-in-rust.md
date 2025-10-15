@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 * [Rust 2025: 400K Salaries, AI, Defence & Borrow Checker — Jon Gjengset on Rust & the Future of Coding](https://www.youtube.com/watch?v=nOSxuaDgl3s)
 
 ### Rust Walkthroughs
+* [series] [The Impatient Programmer's Guide to Bevy and Rust: Chapter 1 - Let There Be a Player](https://aibodh.com/posts/bevy-rust-game-development-chapter-1/)
+* [series] [The Impatient Programmer's Guide to Bevy and Rust: Chapter 2 - Let There Be a World](https://aibodh.com/posts/bevy-rust-game-development-chapter-2/)
 * [video] [Building Embedded TUIs with Rust & Ratatui — Tokyo Rust Meetup 2025](https://www.youtube.com/watch?v=F04kQMKwrwQ)
 
 ### Research
