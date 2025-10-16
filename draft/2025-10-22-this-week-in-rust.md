@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+  * [Integration Testing Rust Binary Crates](https://www.unwoundstack.com/blog/integration-testing-rust-binaries.html)
 ### Research
 
 ### Miscellaneous
