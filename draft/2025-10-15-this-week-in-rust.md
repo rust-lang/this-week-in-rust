@@ -38,19 +38,33 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Program management update — September 2025](https://blog.rust-lang.org/inside-rust/2025/10/14/program-management-update-2025-09/)
 
 ### Foundation
+* [Rust Foundation Board Updates](https://rustfoundation.org/media/introducing-the-rust-foundations-newest-project-directors-october-2025/)
 
 ### Newsletters
+* [This Month in Rust OSDev: September 2025](https://rust-osdev.com/this-month/2025-09/)
 
 ### Project/Tooling Updates
 * [Gccrs after libcore](https://lwn.net/SubscriberLink/1040197/0733825193ca1f04/)
 * [Announcing Heave 0.1.0: an EAV data model rust library that can persist custom structs onto a SQLite DB with no friction at all!](https://www.rustydonkey.dev/blog/2025.10.08_introduction_to_heave/)
+* [Linebender in September 2025](https://linebender.org/blog/tmil-21/)
+* [egui 0.33.0 - `egui::Plugin`, better kerning, kitdiff viewer](https://github.com/emilk/egui/releases/tag/0.33.0)
+* [Making Slint Desktop-Ready](https://slint.dev/blog/making-slint-desktop-ready)
+* [Avian Physics 0.4](https://joonaa.dev/blog/09/avian-0-4)
+* [rustc_codegen_gcc: Progress Report #38](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-38)
+* [CGP v0.5.0 Release - Auto dispatchers, extensible datatype improvements, monadic computation, RTN emulation, modular serde, and more](https://contextgeneric.dev/blog/v0-5-0-release/)
 
 * [Diesel-Async 0.7](https://blog.weiznich.de/blog/diesel-async-0-7/)
 
 ### Observations/Thoughts
+* [We need (at least) ergonomic, explicit handles](https://smallcultfollowing.com/babysteps/blog/2025/10/13/ergonomic-explicit-handles/)
+* [To panic or not to panic](https://www.ncameron.org/blog/to-panic-or-not-to-panic/)
 * [Recursive type state in Rust](https://www.jessestuart.ca/posts/2025-10-10-recursive-type-state-in-rust/)
+* [Talk about memory safety at ONE Conference](https://tweedegolf.nl/en/blog/195/talk-about-memory-safety-at-one-conference)
+* [A Little Rust Trait Limitation](https://www.thecodedmessage.com/posts/rust-trait-limitation/)
+* [video] [Oxidize Conference 2025](https://www.youtube.com/playlist?list=PLilpJp3WAOvcn5_VDv3VIkQzniMWl_BfO)
 * [video] [Rust 2025: 400K Salaries, AI, Defence & Borrow Checker — Jon Gjengset on Rust & the Future of Coding](https://www.youtube.com/watch?v=nOSxuaDgl3s)
 * [audio] [Netstack.FM Episode 9 – gRPC with Lucio Franco](https://netstack.fm/#episode-9)
 
@@ -65,7 +79,8 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-[🦀 Pack of 50+ Free (CC0 license) Ferris illustrations with different emotions, poses and situations in PNG and SVG 🦀](https://github.com/MariaLetta/free-ferris-pack)
+* [Rust Maintainers Fund - RustNL](https://rustnl.org/fund/)
+* [🦀 Pack of 50+ Free (CC0 license) Ferris illustrations with different emotions, poses and situations in PNG and SVG 🦀](https://github.com/MariaLetta/free-ferris-pack)
 
 ## Crate of the Week
 
