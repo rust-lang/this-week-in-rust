@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Gccrs after libcore](https://lwn.net/SubscriberLink/1040197/0733825193ca1f04/)
+* [A new API for interrupt-aware spinlocks](https://lwn.net/SubscriberLink/1039374/664ea18bb8a3c1a8/)
 * [Announcing Heave 0.1.0: an EAV data model rust library that can persist custom structs onto a SQLite DB with no friction at all!](https://www.rustydonkey.dev/blog/2025.10.08_introduction_to_heave/)
 * [GuardianDB 0.10.15 - Introducing: the embedded iroh node](https://www.willsearch.com.br/?page_id=19)
 * [Linebender in September 2025](https://linebender.org/blog/tmil-21/)
