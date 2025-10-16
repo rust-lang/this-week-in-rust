@@ -64,6 +64,7 @@ and just ask the editors to select the category.
 * [Recursive type state in Rust](https://www.jessestuart.ca/posts/2025-10-10-recursive-type-state-in-rust/)
 * [Talk about memory safety at ONE Conference](https://tweedegolf.nl/en/blog/195/talk-about-memory-safety-at-one-conference)
 * [A Little Rust Trait Limitation](https://www.thecodedmessage.com/posts/rust-trait-limitation/)
+* [Effects in Rust (and Koka)](https://aloso.foo/blog/2025-10-10-effects/)
 * [video] [Oxidize Conference 2025](https://www.youtube.com/playlist?list=PLilpJp3WAOvcn5_VDv3VIkQzniMWl_BfO)
 * [video] [Rust 2025: 400K Salaries, AI, Defence & Borrow Checker — Jon Gjengset on Rust & the Future of Coding](https://www.youtube.com/watch?v=nOSxuaDgl3s)
 * [audio] [Netstack.FM Episode 9 – gRPC with Lucio Franco](https://netstack.fm/#episode-9)
