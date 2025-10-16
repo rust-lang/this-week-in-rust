@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Zero Cost Composition and the Power of GATs](https://orxfun.github.io/orxfun-notes/#/zero-cost-composition-2025-10-15)
+
 ### Research
 
 ### Miscellaneous
