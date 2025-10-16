@@ -85,7 +85,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [mitsein](https://github.com/olson-sean-k/mitsein), a library of non-empty collections.
+
+Thanks to [Nik Revenco](https://users.rust-lang.org/t/crate-of-the-week/2704/1481) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -139,7 +141,64 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+420 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-10-07..2025-10-14
+
+#### Compiler
+* [add a new `wasm32-wasip3` target to Rust](https://github.com/rust-lang/rust/pull/147205)
+* [Global Variable Naming: evaluate constants lazily](https://github.com/rust-lang/rust/pull/146869)
+* [`DepNodeColor` tweaks](https://github.com/rust-lang/rust/pull/147423)
+* [perform InstSimplify before ReferencePropagation](https://github.com/rust-lang/rust/pull/147483)
+* [refactor AddCallGuards in two loops](https://github.com/rust-lang/rust/pull/147477)
+* [split `overlapping_{inherent,trait}_impls`](https://github.com/rust-lang/rust/pull/147502)
+* [validate `CopyForDeref` and `DerefTemps` better and remove them from runtime MIR](https://github.com/rust-lang/rust/pull/145513)
+
+#### Library
+* [move more code to `RawVec::finish_grow`](https://github.com/rust-lang/rust/pull/147124)
+* [port the implemention of SIMD intrinsics from Miri to const-eval](https://github.com/rust-lang/rust/pull/146568)
+* [specialize `slice::fill` to use memset when possible](https://github.com/rust-lang/rust/pull/147457)
+* [stabilize `NonZero<u*>::div_ceil`](https://github.com/rust-lang/rust/pull/147562)
+
+#### Cargo
+* [Reorganize build-dir layout](https://github.com/rust-lang/cargo/pull/15947)
+* [add: Report a missing source error for workspace dependencies](https://github.com/rust-lang/cargo/pull/16063)
+* [script: Default bin.name to package.name](https://github.com/rust-lang/cargo/pull/16064)
+* [script: Store cargo script lockfiles in build-dir](https://github.com/rust-lang/cargo/pull/16087)
+* [tree: Switch from `--depth public` to `--edges public`](https://github.com/rust-lang/cargo/pull/16081)
+* [allow to rustfix `unused_variables` lint](https://github.com/rust-lang/cargo/pull/16082)
+* [fix regression that swallowed json diagnostic explanations](https://github.com/rust-lang/cargo/pull/16075)
+
+#### Rustdoc
+* [rustdoc: Don't serialize & deserialize data that doesn't go over the wire](https://github.com/rust-lang/rust/pull/147402)
+* [rustdoc: a small performance improvement: only allocate new string if there are DOS backlines in highlight.rs](https://github.com/rust-lang/rust/pull/147443)
+
+#### Clippy
+* [`multiple_inherent_impl`: Add config option to target specific scope](https://github.com/rust-lang/rust-clippy/pull/15843)
+* [`zero_repeat_side_effects`: don't suggest unnecessary braces around stmts](https://github.com/rust-lang/rust-clippy/pull/15826)
+* [`clone_on_ref_ptr`: only name the generic type if possible](https://github.com/rust-lang/rust-clippy/pull/15740)
+* [`collapsible_match`: exclude binding modes from `struct` field pattern suggestions](https://github.com/rust-lang/rust-clippy/pull/15608)
+* [`zero_repeat_side_effects`: don't suggest unsuggestable types](https://github.com/rust-lang/rust-clippy/pull/15815)
+* [`legacy_numeric_constants`: add ctxt check for internal macro](https://github.com/rust-lang/rust-clippy/pull/15816)
+* [`manual_unwrap_or`: fix false positive edge case](https://github.com/rust-lang/rust-clippy/pull/15812)
+* [`get_unwrap`: avoid calling `is_type_diagnostic_item` multiple times](https://github.com/rust-lang/rust-clippy/pull/15847)
+* [add `replace_box` lint](https://github.com/rust-lang/rust-clippy/pull/14953)
+* [add lint `unnecessary_option_map_or_else`](https://github.com/rust-lang/rust-clippy/pull/14662)
+* [check structs and enums for `use_self`](https://github.com/rust-lang/rust-clippy/pull/15566)
+* [fix `needless_continue` false positive when match type is not unit or never](https://github.com/rust-lang/rust-clippy/pull/15547)
+* [honor `allow`/`expect` attributes on ADT and `impl Clone` nodes](https://github.com/rust-lang/rust-clippy/pull/15849)
+
+#### Rust-Analyzer
+* [add ide-assist: generate blanket trait impl](https://github.com/rust-lang/rust-analyzer/pull/19771)
+* [add self param completions for trait assoc fn](https://github.com/rust-lang/rust-analyzer/pull/20812)
+* [build rust-analyzer with `--target` for install/pgo xtask](https://github.com/rust-lang/rust-analyzer/pull/20804)
+* [fix .let completion not working for let-chain](https://github.com/rust-lang/rust-analyzer/pull/20526)
+* [fix closure coerced return type for `add_return_type`](https://github.com/rust-lang/rust-analyzer/pull/20816)
+* [fix empty closure completion analysis](https://github.com/rust-lang/rust-analyzer/pull/20824)
+* [fix not applicable c-str and byte-str for `raw_string`](https://github.com/rust-lang/rust-analyzer/pull/20788)
+* [fix not applicable on param in let-stmt for `add_explicit_type`](https://github.com/rust-lang/rust-analyzer/pull/20817)
+* [improve parsing error for `static` and `const`](https://github.com/rust-lang/rust-analyzer/pull/20805)
+* [replace `--show-output` task defaults with `--nocapture`](https://github.com/rust-lang/rust-analyzer/pull/20803)
 
 ### Rust Compiler Performance Triage
 
@@ -380,7 +439,15 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Pointers are quite hard.
+
+– Tim McNamara
+
+> And, as the name implies, pointy.
+
+– [llogiq on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7381109081857724416?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7381109081857724416%2C7381113605926166528%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287381113605926166528%2Curn%3Ali%3Aactivity%3A7381109081857724416%29)
+
+Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1721) for the self-suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
