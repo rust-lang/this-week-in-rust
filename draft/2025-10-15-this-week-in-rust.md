@@ -60,6 +60,8 @@ and just ask the editors to select the category.
 * [series] [The Impatient Programmer's Guide to Bevy and Rust: Chapter 2 - Let There Be a World](https://aibodh.com/posts/bevy-rust-game-development-chapter-2/)
 * [video] [Building Embedded TUIs with Rust & Ratatui — Tokyo Rust Meetup 2025](https://www.youtube.com/watch?v=F04kQMKwrwQ)
 
+* [video] [Build with Naz : Eliminate off by one errors with Rust type system design](https://www.youtube.com/watch?v=IkCUhGAyS9U)
+
 ### Research
 
 ### Miscellaneous
