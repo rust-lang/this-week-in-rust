@@ -76,11 +76,9 @@ and just ask the editors to select the category.
 * [series] [The Impatient Programmer's Guide to Bevy and Rust: Chapter 1 - Let There Be a Player](https://aibodh.com/posts/bevy-rust-game-development-chapter-1/)
 * [series] [The Impatient Programmer's Guide to Bevy and Rust: Chapter 2 - Let There Be a World](https://aibodh.com/posts/bevy-rust-game-development-chapter-2/)
 * [video] [Building Embedded TUIs with Rust & Ratatui — Tokyo Rust Meetup 2025](https://www.youtube.com/watch?v=F04kQMKwrwQ)
-
 * [video] [Build with Naz : Eliminate off by one errors with Rust type system design](https://www.youtube.com/watch?v=IkCUhGAyS9U)
 
 ### Research
-
 * [Papers on C-to-Rust Translation](https://hjaem.info/c-to-rust-papers)
 
 ### Miscellaneous
@@ -441,7 +439,7 @@ https://github.com/rust-lang/this-week-in-rust/issues/3412
 
 -->
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1nknaii/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -461,4 +459,4 @@ Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1721
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1o7upmn/this_week_in_rust_621/)</small>
