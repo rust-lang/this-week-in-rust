@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [Scientific Computing in Rust #11 (October 2025)](https://scientificcomputing.rs/monthly/2025-10)
 
 ### Project/Tooling Updates
 
