@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Generalizing over mutability in Rust](https://alexsaveau.dev/blog/tips/generalizing-over-mutability-in-rust)
 
 ### Rust Walkthroughs
 
