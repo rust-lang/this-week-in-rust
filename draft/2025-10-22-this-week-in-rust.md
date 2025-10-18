@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-- [Launch of `Shove`](https://maguire.tech/posts/shove/)
+- [`Shove` Project Writeup](https://maguire.tech/posts/shove/)
 
 ### Observations/Thoughts
 
