@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+- [fzf-make v0.65.0 is released! (A command line tool that executes commands using fuzzy finder with preview window for make, pnpm, yarn, just, and task.)](https://github.com/kyu08/fzf-make/releases/tag/v0.65.0)
 
 ### Observations/Thoughts
 
