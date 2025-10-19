@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [duration-extender v0.5.0](https://crates.io/crates/duration-extender) - Zero-dep trait for readable `std::time::Duration`: `5.minutes()` or `0.5.seconds()` instead of `Duration::from_secs(300)`. Safe panics on edges; bridges stable Rust. (300 downloads Day 1, 72k r/rust views!)
 
 ### Observations/Thoughts
 
