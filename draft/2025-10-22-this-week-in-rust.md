@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [SeaORM 2.0: new entity format and relational capabilities](https://www.sea-ql.org/blog/2025-10-20-sea-orm-2.0/)
 
 ### Observations/Thoughts
 
