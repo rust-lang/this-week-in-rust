@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [Rust unit testing: spy and dummy test doubles](https://jorgeortiz.dev/posts/rust_unit_testing_test_doubles_spy/)
 
 ### Research
 
