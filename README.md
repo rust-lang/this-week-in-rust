@@ -177,7 +177,7 @@ Use the included `new_contribs.sh` script:
 ## Building
 
 To ensure consistency across development setups, we use a [Docker](https://www.docker.com) container-based
-workflow for building the website and email newsletter. Similarly, we use a `makefile` to Ensure you have Docker installed on your system if
+workflow for building the website and email newsletter. Similarly, we use a `makefile` to ensure you have Docker installed on your system if
 you intend to build the website or email newsletter.
 
 ### Building the website
