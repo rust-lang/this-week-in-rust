@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+- [Danube Messaging - new topic persistence architecture (Wal + Cloud)](https://danube-docs.dev-state.com/architecture/persistence/)
 
 ### Observations/Thoughts
 
