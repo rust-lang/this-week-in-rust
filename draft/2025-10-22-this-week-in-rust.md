@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing C2Rust v0.21](https://immunant.com/blog/2025/10/c2rust_release/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
