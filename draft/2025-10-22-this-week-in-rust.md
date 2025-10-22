@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [A Typed Evaluator in Rust](https://rvarago.github.io/typed-evaluator-in-rust/)
+
 ### Research
 
 ### Miscellaneous
