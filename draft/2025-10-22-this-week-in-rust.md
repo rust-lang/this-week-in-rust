@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Cleanup your lifetime annotations in Rust with Rc and Arc](https://kerkour.com/rust-lifetimes-rc-arc)
 
 * [A Typed Evaluator in Rust](https://rvarago.github.io/typed-evaluator-in-rust/)
 
