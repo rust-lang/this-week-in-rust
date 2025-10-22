@@ -44,10 +44,20 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [Slint 1.14 Released](https://slint.dev/blog/slint-1.14-released)
+  
 ### Observations/Thoughts
+* [Python and Rust interoperability](https://medium.com/google-cloud/python-and-rust-interoperability-a-walkthrough-for-building-a-high-performance-mcp-server-56c04e4b651b)
+* [Controlled Destruction in Rust: Towards Async Drop and Safer Resource Management](https://smallcultfollowing.com/babysteps/blog/2025/10/21/move-destruct-leak/)
+* [Everybody's so Creative!](https://daymare.net/blogs/everbody-so-creative/)
+* [How we organized the Rust Clippy feature freeze](https://blog.goose.love/posts/organizing-a-feature-freeze/)
 
 ### Rust Walkthroughs
+* [Real-Time Results in a Federated Query Engine](https://blog.vega.io/posts/partial_stream/)
+* [Axum: Multi-tenancy (with Hexarch) and Abstracting the Repository](https://crustyengineer.com/blog/axum-multi-tenancy-abstract-repository-layer/)
+*  [Fixing rust-lang stdarch issues in LLVM - Blog - Tweede golf](https://tweedegolf.nl/en/blog/196/fixing-rust-lang-stdarch-issues-in-llvm)
+* [Rust unit testing: spies and dummy test doubles](https://jorgeortiz.dev/posts/rust_unit_testing_test_doubles_spy/)
+
 
 ### Research
 
