@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [SierraDB: A Distributed Event Store Built in Rust](https://tqwewe.com/blog/building-sierradb/)
 * [Announcing C2Rust v0.21](https://immunant.com/blog/2025/10/c2rust_release/)
 
 ### Observations/Thoughts
