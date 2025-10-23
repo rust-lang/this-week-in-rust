@@ -52,7 +52,7 @@ and just ask the editors to select the category.
 * [Announcing C2Rust v0.21](https://immunant.com/blog/2025/10/c2rust_release/)
 * [`Shove` Project Writeup](https://maguire.tech/posts/shove/)
 * [ServiceRadar - Open Source Network Management and Observability](https://news.ycombinator.com/item?id=45624186) 
-
+* [fzf-make v0.65.0 is released! (A command line tool that executes commands using fuzzy finder)](https://github.com/kyu08/fzf-make/releases/tag/v0.65.0)
 * [Diesel Code Audit Report](https://diesel.rs/assets/NGICore%20Diesel%20penetration%20test%20report%202025%201.0.pdf)
 
 ### Observations/Thoughts
