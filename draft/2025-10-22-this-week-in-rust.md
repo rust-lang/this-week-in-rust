@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [ServiceRadar](https://news.ycombinator.com/item?id=45624186) Open Source Network Management and Observability
+* [ServiceRadar - Open Source Network Management and Observability](https://news.ycombinator.com/item?id=45624186) 
 
 ### Observations/Thoughts
 
