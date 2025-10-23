@@ -66,6 +66,7 @@ and just ask the editors to select the category.
 * [A Typed Evaluator in Rust](https://rvarago.github.io/typed-evaluator-in-rust/)
 * [Zero Cost Composition and the Power of GATs](https://orxfun.github.io/orxfun-notes/#/zero-cost-composition-2025-10-15)
 
+  * [Integration Testing Rust Binary Crates](https://www.unwoundstack.com/blog/integration-testing-rust-binaries.html)
 ### Research
 
 ### Miscellaneous
