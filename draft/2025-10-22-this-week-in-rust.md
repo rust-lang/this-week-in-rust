@@ -55,6 +55,7 @@ and just ask the editors to select the category.
 * [Controlled Destruction in Rust: Towards Async Drop and Safer Resource Management](https://smallcultfollowing.com/babysteps/blog/2025/10/21/move-destruct-leak/)
 * [Everybody's so Creative!](https://daymare.net/blogs/everbody-so-creative/)
 * [How we organized the Rust Clippy feature freeze](https://blog.goose.love/posts/organizing-a-feature-freeze/)
+* [Generalizing over mutability in Rust](https://alexsaveau.dev/blog/tips/generalizing-over-mutability-in-rust)
 * [audio] [Netstack.FM Episode 10 – zerocopy with Joshua Liebow-Feeser](https://netstack.fm/#episode-10)
 
 ### Rust Walkthroughs
