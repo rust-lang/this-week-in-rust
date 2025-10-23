@@ -44,16 +44,23 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-- [Danube Messaging - new topic persistence architecture (Wal + Cloud)](https://danube-docs.dev-state.com/architecture/persistence/)
-
+* [Slint 1.14 Released](https://slint.dev/blog/slint-1.14-released)
+* [Danube Messaging - new topic persistence architecture (Wal + Cloud)](https://danube-docs.dev-state.com/architecture/persistence/)
 * [SierraDB: A Distributed Event Store Built in Rust](https://tqwewe.com/blog/building-sierradb/)
 * [Announcing C2Rust v0.21](https://immunant.com/blog/2025/10/c2rust_release/)
 
 ### Observations/Thoughts
-
+* [Python and Rust interoperability](https://medium.com/google-cloud/python-and-rust-interoperability-a-walkthrough-for-building-a-high-performance-mcp-server-56c04e4b651b)
+* [Controlled Destruction in Rust: Towards Async Drop and Safer Resource Management](https://smallcultfollowing.com/babysteps/blog/2025/10/21/move-destruct-leak/)
+* [Everybody's so Creative!](https://daymare.net/blogs/everbody-so-creative/)
+* [How we organized the Rust Clippy feature freeze](https://blog.goose.love/posts/organizing-a-feature-freeze/)
 * [audio] [Netstack.FM Episode 10 – zerocopy with Joshua Liebow-Feeser](https://netstack.fm/#episode-10)
 
 ### Rust Walkthroughs
+* [Real-Time Results in a Federated Query Engine](https://blog.vega.io/posts/partial_stream/)
+* [Axum: Multi-tenancy (with Hexarch) and Abstracting the Repository](https://crustyengineer.com/blog/axum-multi-tenancy-abstract-repository-layer/)
+* [Fixing rust-lang stdarch issues in LLVM - Blog - Tweede golf](https://tweedegolf.nl/en/blog/196/fixing-rust-lang-stdarch-issues-in-llvm)
+* [Rust unit testing: spies and dummy test doubles](https://jorgeortiz.dev/posts/rust_unit_testing_test_doubles_spy/)
 * [Axum Backend Series: Refresh Token Rotation and Reuse Detection](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-refresh-token-rotation/)
 * [Vibe Validation with Lean, ChatGPT-5, & Claude 4.5: Nine Rules for Proving (Rust) Algorithms Correct Without Knowing Formal Methods (Part 1)](https://medium.com/@carlmkadie/vibe-validation-with-lean-chatgpt-5-claude-4-5-part-1-c57b430b3d7a)
 * [A Typed Evaluator in Rust](https://rvarago.github.io/typed-evaluator-in-rust/)
