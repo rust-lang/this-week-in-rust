@@ -69,6 +69,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [September 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/sep-25)
 
 ## Crate of the Week
 
