@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [audio] [Netstack.FM Episode 10 – zerocopy with Joshua Liebow-Feeser](https://netstack.fm/#episode-10)
+
 ### Rust Walkthroughs
 * [Axum Backend Series: Refresh Token Rotation and Reuse Detection](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-refresh-token-rotation/)
 
