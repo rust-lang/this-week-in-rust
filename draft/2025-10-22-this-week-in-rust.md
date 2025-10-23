@@ -38,6 +38,10 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing the New Rust Project Directors](https://blog.rust-lang.org/2025/10/15/announcing-the-new-rust-project-directors-2025/)
+* [docs.rs: changed default targets](https://blog.rust-lang.org/2025/10/16/docsrs-changed-default-targets/)
+* [Infrastructure Team 2025 Q3 Recap and Q4 Plan](https://blog.rust-lang.org/inside-rust/2025/10/16/infrastructure-team-q3-recap-and-q4-plan/)
+* [Renaming the default branch of rust-lang/rust](https://blog.rust-lang.org/inside-rust/2025/10/16/renaming-the-default-branch-of-rust-langrust/)
 
 ### Foundation
 
