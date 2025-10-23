@@ -54,6 +54,8 @@ and just ask the editors to select the category.
 * [ServiceRadar - Open Source Network Management and Observability](https://news.ycombinator.com/item?id=45624186) 
 
 ### Observations/Thoughts
+* [Git considers SHA-256, Rust, LLMs, and more](https://lwn.net/SubscriberLink/1042172/c7e1cdef4a518cc3/)
+* [DebugFS on Rust](https://lwn.net/SubscriberLink/1041095/2ef0281b0fec4d9d/)
 * [Python and Rust interoperability](https://medium.com/google-cloud/python-and-rust-interoperability-a-walkthrough-for-building-a-high-performance-mcp-server-56c04e4b651b)
 * [Controlled Destruction in Rust: Towards Async Drop and Safer Resource Management](https://smallcultfollowing.com/babysteps/blog/2025/10/21/move-destruct-leak/)
 * [Everybody's so Creative!](https://daymare.net/blogs/everbody-so-creative/)
