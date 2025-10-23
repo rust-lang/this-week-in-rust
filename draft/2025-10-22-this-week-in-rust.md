@@ -45,15 +45,19 @@ and just ask the editors to select the category.
 * [Scientific Computing in Rust #11 (October 2025)](https://scientificcomputing.rs/monthly/2025-10)
 
 ### Project/Tooling Updates
-* [fzf-make v0.65.0 is released! (A command line tool that executes commands using fuzzy finder)](https://github.com/kyu08/fzf-make/releases/tag/v0.65.0)
+* [SeaORM 2.0: new entity format and relational capabilities](https://www.sea-ql.org/blog/2025-10-20-sea-orm-2.0/)
 * [Slint 1.14 Released](https://slint.dev/blog/slint-1.14-released)
 * [Danube Messaging - new topic persistence architecture (Wal + Cloud)](https://danube-docs.dev-state.com/architecture/persistence/)
 * [SierraDB: A Distributed Event Store Built in Rust](https://tqwewe.com/blog/building-sierradb/)
 * [Announcing C2Rust v0.21](https://immunant.com/blog/2025/10/c2rust_release/)
 * [`Shove` Project Writeup](https://maguire.tech/posts/shove/)
 * [ServiceRadar - Open Source Network Management and Observability](https://news.ycombinator.com/item?id=45624186) 
+* [fzf-make v0.65.0 is released! (A command line tool that executes commands using fuzzy finder)](https://github.com/kyu08/fzf-make/releases/tag/v0.65.0)
+* [Diesel Code Audit Report](https://diesel.rs/assets/NGICore%20Diesel%20penetration%20test%20report%202025%201.0.pdf)
 
 ### Observations/Thoughts
+* [Git considers SHA-256, Rust, LLMs, and more](https://lwn.net/SubscriberLink/1042172/c7e1cdef4a518cc3/)
+* [DebugFS on Rust](https://lwn.net/SubscriberLink/1041095/2ef0281b0fec4d9d/)
 * [Python and Rust interoperability](https://medium.com/google-cloud/python-and-rust-interoperability-a-walkthrough-for-building-a-high-performance-mcp-server-56c04e4b651b)
 * [Controlled Destruction in Rust: Towards Async Drop and Safer Resource Management](https://smallcultfollowing.com/babysteps/blog/2025/10/21/move-destruct-leak/)
 * [Everybody's so Creative!](https://daymare.net/blogs/everbody-so-creative/)
@@ -130,6 +134,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+
+* [Diesel - Improve documentation for Postgres loading modes](https://github.com/diesel-rs/diesel/issues/4764)
+* [Diesel - Add support for currently unsupported postgres json/jsonb functions](https://github.com/diesel-rs/diesel/issues/4216)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
