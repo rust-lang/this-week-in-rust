@@ -51,6 +51,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Axum Backend Series: Refresh Token Rotation and Reuse Detection](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-refresh-token-rotation/)
 
 * [Vibe Validation with Lean, ChatGPT-5, & Claude 4.5: Nine Rules for Proving (Rust) Algorithms Correct Without Knowing Formal Methods (Part 1)](https://medium.com/@carlmkadie/vibe-validation-with-lean-chatgpt-5-claude-4-5-part-1-c57b430b3d7a)
 * [A Typed Evaluator in Rust](https://rvarago.github.io/typed-evaluator-in-rust/)
