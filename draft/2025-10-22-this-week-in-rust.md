@@ -46,10 +46,13 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [SierraDB: A Distributed Event Store Built in Rust](https://tqwewe.com/blog/building-sierradb/)
+* [Announcing C2Rust v0.21](https://immunant.com/blog/2025/10/c2rust_release/)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+
+* [A Typed Evaluator in Rust](https://rvarago.github.io/typed-evaluator-in-rust/)
 
 ### Research
 
@@ -57,7 +60,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [extend\_mut](https://docs.rs/extend_mut), a library to safely extend the lifetime of an exclusive reference under some constraints.P
+
+Thanks to [Oleksandr Babak](https://users.rust-lang.org/t/crate-of-the-week/2704/1482) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -139,7 +144,61 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+369 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-10-14..2025-10-21
+
+#### Compiler
+* [add a `!=` check to `ChunkedBitSet::union`](https://github.com/rust-lang/rust/pull/147619)
+* [bitset cleanups](https://github.com/rust-lang/rust/pull/147630)
+* [`deduced_param_attrs`: check Freeze on monomorphic types](https://github.com/rust-lang/rust/pull/147695)
+* [deny-by-default never type lints](https://github.com/rust-lang/rust/pull/146167)
+* [improve error message for ambiguous numeric types in closure parameters](https://github.com/rust-lang/rust/pull/147577)
+* [remove boxes from AST list elements](https://github.com/rust-lang/rust/pull/146221)
+* [`TaskDeps` improvements](https://github.com/rust-lang/rust/pull/147508)
+* [`unused_must_use`: Don't warn on `Result<(), Uninhabited>` or `ControlFlow<Uninhabited, ()>`](https://github.com/rust-lang/rust/pull/147382)
+* [use regular Vec in BitSet](https://github.com/rust-lang/rust/pull/147644)
+
+#### Library
+* [const `mem::drop`](https://github.com/rust-lang/rust/pull/147708)
+* [constify basic Clone impls](https://github.com/rust-lang/rust/pull/146976)
+* [iter repeat: panic on last](https://github.com/rust-lang/rust/pull/147258)
+* [stabilise `rotate_left` and `rotate_right` in `[_]` as `const fn` items](https://github.com/rust-lang/rust/pull/146841)
+* [stabilize `rwlock_downgrade` library feature](https://github.com/rust-lang/rust/pull/143191)
+
+#### Cargo
+* [`check`: Fix suggested command for bin package](https://github.com/rust-lang/cargo/pull/16127)
+* [`script`: Remove name sanitiztion outside what is strictly required](https://github.com/rust-lang/cargo/pull/16120)
+* [`script`: Tweak cargo script build-dir / target-dir](https://github.com/rust-lang/cargo/pull/16086)
+
+#### Rustdoc
+* [search: stringdex 0.0.2](https://github.com/rust-lang/rust/pull/147660)
+* [fix passes order so intra-doc links are collected after stripping passes](https://github.com/rust-lang/rust/pull/147809)
+
+#### Clippy
+* [`empty_enum`: don't lint if all variants happen to be `cfg`-d out](https://github.com/rust-lang/rust-clippy/pull/15911)
+* [`option_option`: split part of diagnostic message into help message](https://github.com/rust-lang/rust-clippy/pull/15870)
+* [`unnecessary_safety_comment` Some fixes regarding comments above attributes](https://github.com/rust-lang/rust-clippy/pull/15678)
+* [allow `explicit_write` in tests](https://github.com/rust-lang/rust-clippy/pull/15862)
+* [dereference argument of `manual_div_ceil()` if needed](https://github.com/rust-lang/rust-clippy/pull/15706)
+* [`manual_rotate`: also recognize non-consts](https://github.com/rust-lang/rust-clippy/pull/15402)
+* [overhaul `mutex_{atomic,integer}`](https://github.com/rust-lang/rust-clippy/pull/15632)
+
+#### Rust-Analyzer
+* [parser: Don't error on frontmatter](https://github.com/rust-lang/rust-analyzer/pull/20854)
+* [improve fixture support](https://github.com/rust-lang/rust-analyzer/pull/20855)
+* [fix invalid RestPat for `convert_tuple_struct_to_named_struct`](https://github.com/rust-lang/rust-analyzer/pull/20880)
+* [fix missing RestPat for `convert_named_struct_to_tuple_struct`](https://github.com/rust-lang/rust-analyzer/pull/20872)
+* [don't make `convert_to_guarded_return` applicable on `let-else`](https://github.com/rust-lang/rust-analyzer/pull/20838)
+* [fix `signature_help` to proto conversion creating invalid utf16 offsets](https://github.com/rust-lang/rust-analyzer/pull/20876)
+* [support `break` with value in completions](https://github.com/rust-lang/rust-analyzer/pull/20673)
+* [support `else` blocks with `!` return type in `convert_to_guarded_return`](https://github.com/rust-lang/rust-analyzer/pull/20758)
+* [support `match` inside `if` in `pull_assignment_up`](https://github.com/rust-lang/rust-analyzer/pull/20772)
+* [migrate more stuff to the next solver](https://github.com/rust-lang/rust-analyzer/pull/20841)
+* [migrate variance to the next solver and remove lint allows from its stuff](https://github.com/rust-lang/rust-analyzer/pull/20867)
+* [rip Chalk out of the codebase 🎉](https://github.com/rust-lang/rust-analyzer/pull/20873)
+* [support underscore suffix parameter hide inlayHints](https://github.com/rust-lang/rust-analyzer/pull/20858)
+* [use `FileId::MAX` for id assertion in `PathInterner::intern`](https://github.com/rust-lang/rust-analyzer/pull/20757)
 
 ### Rust Compiler Performance Triage
 
@@ -347,7 +406,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> There used to be recurring questions about mod vs use in the user forum, until I've added a note to the error message [...] and I think it largely solved the problem
+
+– [Kornel on rust-internals](https://internals.rust-lang.org/t/curly-brace-support-for-mod/23437/51)
+
+Thanks to [Noratrieb](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1722) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
