@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 * [SierraDB: A Distributed Event Store Built in Rust](https://tqwewe.com/blog/building-sierradb/)
 * [Announcing C2Rust v0.21](https://immunant.com/blog/2025/10/c2rust_release/)
 
+* [ServiceRadar - Open Source Network Management and Observability](https://news.ycombinator.com/item?id=45624186) 
+
 ### Observations/Thoughts
 * [Python and Rust interoperability](https://medium.com/google-cloud/python-and-rust-interoperability-a-walkthrough-for-building-a-high-performance-mcp-server-56c04e4b651b)
 * [Controlled Destruction in Rust: Towards Async Drop and Safer Resource Management](https://smallcultfollowing.com/babysteps/blog/2025/10/21/move-destruct-leak/)
