@@ -44,10 +44,10 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [Git considers SHA-256, Rust, LLMs, and more](https://lwn.net/SubscriberLink/1042172/c7e1cdef4a518cc3/)
-* [DebugFS on Rust](https://lwn.net/SubscriberLink/1041095/2ef0281b0fec4d9d/)
 
 ### Observations/Thoughts
+* [Git considers SHA-256, Rust, LLMs, and more](https://lwn.net/SubscriberLink/1042172/c7e1cdef4a518cc3/)
+* [DebugFS on Rust](https://lwn.net/SubscriberLink/1041095/2ef0281b0fec4d9d/)
 
 ### Rust Walkthroughs
 
