@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 * [Scientific Computing in Rust #11 (October 2025)](https://scientificcomputing.rs/monthly/2025-10)
 
 ### Project/Tooling Updates
+* [SeaORM 2.0: new entity format and relational capabilities](https://www.sea-ql.org/blog/2025-10-20-sea-orm-2.0/)
 * [Slint 1.14 Released](https://slint.dev/blog/slint-1.14-released)
 * [Danube Messaging - new topic persistence architecture (Wal + Cloud)](https://danube-docs.dev-state.com/architecture/persistence/)
 * [SierraDB: A Distributed Event Store Built in Rust](https://tqwewe.com/blog/building-sierradb/)
