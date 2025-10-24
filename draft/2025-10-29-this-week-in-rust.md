@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [This week in Heave (2025.10.24): I added the possibility to load entities from DB using complex filter conditions! (Heave is a Rust EAV data model implementation persisting data onto a SQLite DB)](https://www.rustydonkey.dev/blog/2025.10.24_this_week_in_heave/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
