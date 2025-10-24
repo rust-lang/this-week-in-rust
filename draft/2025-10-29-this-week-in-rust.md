@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Burn 0.19.0 Release: Quantization, Distributed Training, and LLVM Backend](https://burn.dev/blog/release-0.19.0/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
