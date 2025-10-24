@@ -262,7 +262,7 @@ which are reaching a decision. Express your opinions now.
 * [Move annotation for profiling compiler-generated moves and copies.](https://github.com/rust-lang/compiler-team/issues/928)
 * [Use `llvm-bitcode-linker` as the default linker for nvptx64-nvidia-cuda](https://github.com/rust-lang/compiler-team/issues/927)
 
-[Leadership Council](https://github.com/rust-lang/leadership-council/issues?q=state%3Aopen%20label%3Afinal-comment-period)
+##### [Leadership Council](https://github.com/rust-lang/leadership-council/issues?q=state%3Aopen%20label%3Afinal-comment-period)
 * [Delegate GSoC money spending to the t-mentorship team](https://github.com/rust-lang/leadership-council/issues/232)
 
 *No Items entered Final Comment Period this week for
