@@ -1,6 +1,6 @@
 FROM python:3.8.16-slim
 
-# Must run from base `twir` directory... Makefile takes care of this.
+# Must run from base `twir` directory... justfile takes care of this.
 WORKDIR /usr/twir
 
 # Install deps and set locales
@@ -35,7 +35,7 @@ COPY plugins plugins
 COPY themes themes
 COPY pelicanconf.py pelicanconf.py
 
-# make build && make generate-website && make host-website needs these scripts
+# just website && just email needs these scripts
 COPY publishing/*.sh .
 RUN chmod +x *.sh
 
