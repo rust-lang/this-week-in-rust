@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Rust for JavaScript Engineers - Connect-4 Interactivity](https://www.afloat.boats/posts/rust-for-javascript-engineers-interactivity)
 
 ### Research
 
