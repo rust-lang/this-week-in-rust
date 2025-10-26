@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Data Analysis in Rust](https://ericfecteau.ca/data/rust-data-analysis/index.html)
 
 ### Research
 
