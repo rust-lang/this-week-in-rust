@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Rari v0.3.0: Rust-based React framework with SSR - 12x faster, 10x higher throughput than Next.js](https://ryanskinner.com/posts/the-rari-ssr-breakthrough-12x-faster-10x-higher-throughput-than-nextjs)
 
 ### Observations/Thoughts
 
