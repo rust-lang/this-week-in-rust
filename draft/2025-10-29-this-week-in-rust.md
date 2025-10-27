@@ -141,7 +141,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Mostly negative week, coming almost entirely from adding sizedness bounds in [#142712](https://github.com/rust-lang/rust/pull/142712). Other than that, we got a nice win for async code from state transform optimization in [#147493](https://github.com/rust-lang/rust/pull/147493) and quite a few smaller improvements from codegen optimization in [#147890](https://github.com/rust-lang/rust/pull/147890).
+
+Triage done by **@panstromek**.
+Revision range: [4068bafe..23fced0f](https://perf.rust-lang.org/?start=4068bafedd8ba724e332a5221c06a6fa531a30d2&end=23fced0fcc5e0ec260d25f04a8b78b269e5e90f0&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.7%  | [0.2%, 3.7%]    | 113   |
+| Regressions ❌ <br /> (secondary)  | 0.5%  | [0.1%, 1.7%]    | 75    |
+| Improvements ✅ <br /> (primary)   | -0.4% | [-0.7%, -0.2%]  | 3     |
+| Improvements ✅ <br /> (secondary) | -2.3% | [-20.8%, -0.1%] | 30    |
+| All ❌✅ (primary)                 | 0.7%  | [-0.7%, 3.7%]   | 116   |
+
+
+2 Regressions, 2 Improvements, 7 Mixed; 2 of them in rollups
+42 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/5bd82e7d3c9f06ad2cc7265068e11730f6c965c1/triage/2025/2025-10-27.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
