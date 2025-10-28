@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Yelken's Last Alpha Release and Intro to Yelken Cloud](https://blog.yelken.io/last-alpha-and-yelken-cloud/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
