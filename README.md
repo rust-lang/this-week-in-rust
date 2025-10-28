@@ -39,7 +39,6 @@ license](http://mit-license.org/).
 * [joelmarcey](https://github.com/joelmarcey)
 * [bennyvasquez](https://github.com/bennyvasquez)
 
-
 ## PRs for next issue are now being accepted
 
 To propose content for inclusion in the next newsletter (found in the `drafts/`
