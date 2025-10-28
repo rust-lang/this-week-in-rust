@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [A hard rain's a-gonna fall: decoding JSON in Rust](https://bitfieldconsulting.com/posts/hard-rain-json-rust)
+
 ### Rust Walkthroughs
 
 ### Research
