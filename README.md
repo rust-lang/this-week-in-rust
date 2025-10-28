@@ -10,14 +10,14 @@ license](http://mit-license.org/).
 
 * [nellshamrell](https://github.com/nellshamrell)
 * [llogiq](https://github.com/llogiq)
-* [cdmistman](https://github.com/cdmistman)
 * [ericseppanen](https://github.com/ericseppanen)
 * [extrawurst](https://github.com/extrawurst)
 * [U007D](https://github.com/U007D) 
-* [joelmarcey](https://github.com/joelmarcey)
 * [mariannegoldin](https://github.com/mariannegoldin)
-* [bennyvasquez](https://github.com/bennyvasquez)
 * [bdillo](https://github.com/bdillo)
+* [opeolluwa](https://github.com/opeolluwa)
+* [bnchi](https://github.com/bnchi)
+* [KannanPalani57](https://github.com/KannanPalani57)
 * [tzilist](https://github.com/tzilist)
 
 ## Language Reviewers
@@ -27,6 +27,18 @@ license](http://mit-license.org/).
 * [matheus-consoli](https://github.com/matheus-consoli) - Portuguese
 * [MATRIXKOO](https://github.com/MATRIXKOO) - Chinese
 * [Folyd](https://github.com/Folyd) - Chinese
+
+## Alumni Editors
+
+* [emberian](https://github.com/emberian)
+* [nasa42](https://github.com/nasa42)
+* [Flavsditz](https://github.com/Flavsditz)
+* [brson](https://github.com/brson)
+* [andrewpollack](https://github.com/andrewpollack)
+* [cdmistman](https://github.com/cdmistman)
+* [joelmarcey](https://github.com/joelmarcey)
+* [bennyvasquez](https://github.com/bennyvasquez)
+
 
 ## PRs for next issue are now being accepted
 
