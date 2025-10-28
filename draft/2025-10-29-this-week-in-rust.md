@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [audio] [Netstack.FM — Episode 11 – Modern networking in Firefox with Max Inden](https://netstack.fm/#episode-11)
+
 ### Rust Walkthroughs
 
 ### Research
