@@ -48,6 +48,9 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Building a Coding Agent in Rust: Introduction](https://blog.0xshadow.dev/posts/coding-agent-in-rust/coding-agent-in-rust-introduction/)
+* [video] [Rust Axum 0.8 Backend Engineering | Hello World](https://www.youtube.com/watch?v=Imb6vJkD0Vc)
+* [video] [Building Coding Agent in Rust | Project Setup](https://www.youtube.com/watch?v=tQJTuYkZ4u8&t=1s)
 
 ### Research
 
