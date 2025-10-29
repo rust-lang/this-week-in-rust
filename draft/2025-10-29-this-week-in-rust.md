@@ -83,7 +83,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [tower-resilience](https://github.com/joshrotenberg/tower-resilience), a library offering resilience features for tower.
+
+Thanks to [Josh Rotenberg](https://users.rust-lang.org/t/crate-of-the-week/2704/1483) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -167,7 +169,77 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+463 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-10-21..2025-10-28
+
+#### Compiler
+* [`-Znext-solver` instantiate predicate binder without recanonicalizing goal](https://github.com/rust-lang/rust/pull/146725)
+* [`hir_analysis`: add missing sizedness bounds](https://github.com/rust-lang/rust/pull/142712)
+* [add NonNull pattern types](https://github.com/rust-lang/rust/pull/142339)
+* [add a fast path for lowering trivial consts](https://github.com/rust-lang/rust/pull/148040) (great speedup!)
+* [do not lifetime-extend array/slice indices](https://github.com/rust-lang/rust/pull/147083)
+* [deduce `captures(none)` for a return place and parameters](https://github.com/rust-lang/rust/pull/147890)
+* [privacy: introduce some caching to type visiting in `DefIdVisitorSkeleton`](https://github.com/rust-lang/rust/pull/147486)
+
+#### Library
+* [add `FromIterator` impls for `ascii::Char`s to String`s`](https://github.com/rust-lang/rust/pull/141445)
+* [add `String::replace_first` and `String::replace_last`](https://github.com/rust-lang/rust/pull/134316)
+* [add new `inherit_handles` flag to CommandExt trait](https://github.com/rust-lang/rust/pull/115501)
+* [const Cell methods](https://github.com/rust-lang/rust/pull/147788)
+* [const `select_unpredictable`](https://github.com/rust-lang/rust/pull/145939)
+* [create UTF-8 version of `OsStr`/`OsString`](https://github.com/rust-lang/rust/pull/147932)
+
+#### Cargo
+* [git: support shallow fetch for Git CLI backend](https://github.com/rust-lang/cargo/pull/16156)
+* [make shell completion variables private](https://github.com/rust-lang/cargo/pull/16144)
+
+#### Rustdoc
+* [Check `doc(cfg())` even of private/hidden items](https://github.com/rust-lang/rust/pull/147991)
+* [`--emit=depinfo` output to stdout via `-`](https://github.com/rust-lang/rust/pull/147762)
+
+#### Clippy
+* [`manual_let_else`: wrap expressions ending with `'}'`](https://github.com/rust-lang/rust-clippy/pull/15919)
+* [`match_as_ref`: suggest `as_ref` when the reference needs to be cast](https://github.com/rust-lang/rust-clippy/pull/15934)
+* [`needless_if`: don't expand macro invocations in the suggestion](https://github.com/rust-lang/rust-clippy/pull/15960)
+* [`manual_option_as_slice`: improve diagnostics](https://github.com/rust-lang/rust-clippy/pull/15926)
+* [`match_as_ref`: improve diagnostics](https://github.com/rust-lang/rust-clippy/pull/15928)
+* [`unnecessary_{find,filter}_map`: make diagnostic spans more precise](https://github.com/rust-lang/rust-clippy/pull/15929)
+* [`{option,result}_map_unit_fn`: fix and clean-up tests, make suggestions multiline](https://github.com/rust-lang/rust-clippy/pull/15871)
+* [consider labels of inline asm as conditionally executed](https://github.com/rust-lang/rust-clippy/pull/15676)
+* [fix `len_zero` false positive on unstable methods](https://github.com/rust-lang/rust-clippy/pull/15894)
+* [lint precedence possible ambiguity between closure and method call](https://github.com/rust-lang/rust-clippy/pull/14421)
+
+#### Rust-Analyzer
+* [add an Extension Config API](https://github.com/rust-lang/rust-analyzer/pull/20837)
+* [avoid calling `specializes()` query on crates that do not define `#![feature(specialization)]`](https://github.com/rust-lang/rust-analyzer/pull/20921)
+* [add "Flip range expression" assist](https://github.com/rust-lang/rust-analyzer/pull/20705)
+* [add "Remove `else` branches" assist](https://github.com/rust-lang/rust-analyzer/pull/19918)
+* [provide an option to not show derives near the ADT for "Goto Implementations" or "Implementations" codelens](https://github.com/rust-lang/rust-analyzer/pull/20186)
+* [when renaming `self` to other name, change callers method method call syntax to assoc fn syntax](https://github.com/rust-lang/rust-analyzer/pull/20369)
+* [add `#[doc = include_str!("…")]` completion](https://github.com/rust-lang/rust-analyzer/pull/20755)
+* [add shorthand record field completions](https://github.com/rust-lang/rust-analyzer/pull/20831)
+* [add type keyword completions](https://github.com/rust-lang/rust-analyzer/pull/20571)
+* [complete `else` in more expressions](https://github.com/rust-lang/rust-analyzer/pull/20658)
+* [complete `let` before expression in `if`](https://github.com/rust-lang/rust-analyzer/pull/20912)
+* [consider all matches for flyimport even when searched with a qualifier](https://github.com/rust-lang/rust-analyzer/pull/20919)
+* [fix array inhabitedness check](https://github.com/rust-lang/rust-analyzer/pull/20905)
+* [fix casts and use typed syntax tree API in `convert_to_guarded_return`](https://github.com/rust-lang/rust-analyzer/pull/20759)
+* [handle `if`-`let` in `convert_to_guarded_return`](https://github.com/rust-lang/rust-analyzer/pull/20764)
+* [handle shorthand field patterns in `destructure_tuple_binding`](https://github.com/rust-lang/rust-analyzer/pull/20712)
+* [implement `Interner::impl_specializes()`](https://github.com/rust-lang/rust-analyzer/pull/20893)
+* [improve field completion parentheses heuristic](https://github.com/rust-lang/rust-analyzer/pull/20889)
+* [improve handling of missing names in `MethodCallExpr`](https://github.com/rust-lang/rust-analyzer/pull/20886)
+* [improve handling of the `env!` macro](https://github.com/rust-lang/rust-analyzer/pull/20554)
+* [improve incomplete statement heuristic](https://github.com/rust-lang/rust-analyzer/pull/20670)
+* [lower async block/closures correctly](https://github.com/rust-lang/rust-analyzer/pull/20895)
+* [offer `add_braces` on assignments](https://github.com/rust-lang/rust-analyzer/pull/20844)
+* [offer `invert_if` on `else`](https://github.com/rust-lang/rust-analyzer/pull/20771)
+* [place new module outside `impl` block in `extract_module`](https://github.com/rust-lang/rust-analyzer/pull/20589)
+* [support `let`-chains in `replace_is_method_with_if_let_method`](https://github.com/rust-lang/rust-analyzer/pull/20913)
+* [reduce `client_commands` allocations in proto conversion](https://github.com/rust-lang/rust-analyzer/pull/20922)
+* [remove `hir-ty/src/next_solver/mapping.rs`](https://github.com/rust-lang/rust-analyzer/pull/20896)
+* [semantic type for logical not](https://github.com/rust-lang/rust-analyzer/pull/20891)
 
 ### Rust Compiler Performance Triage
 
@@ -384,7 +456,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Petition to add an `unwise` keyword in Rust
+
+– [James Logan on hachyderm.io](https://hachyderm.io/@ponderingpothos/115403971956993021)
+
+Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1724) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
