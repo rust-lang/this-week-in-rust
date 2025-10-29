@@ -63,6 +63,8 @@ and just ask the editors to select the category.
 * [video] [Rust Axum 0.8 Backend Engineering | Hello World](https://www.youtube.com/watch?v=Imb6vJkD0Vc)
 * [video] [Building Coding Agent in Rust | Project Setup](https://www.youtube.com/watch?v=tQJTuYkZ4u8&t=1s)
 
+* [Vibe Validation with Lean, ChatGPT-5, & Claude 4.5: Nine Rules for Proving (Rust) Algorithms Correct Without Knowing Formal Methods (Part 2)](https://medium.com/@carlmkadie/081e0f06886d)
+
 ### Research
 
 - [Supporting `VIEW`s in Diesel](https://blog.weiznich.de/blog/diesel-infer-sql-nullablity/)
