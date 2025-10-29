@@ -45,29 +45,38 @@ and just ask the editors to select the category.
 * [The Embedded Rustacean Issue #57](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-57)
 
 ### Project/Tooling Updates
+* [Introducing Apache Fory™](https://fory.apache.org/blog/fory_rust_versatile_serialization_framework/)
 * [SeaORM 2.0: Entity First Workflow](https://www.sea-ql.org/blog/2025-10-30-sea-orm-2.0/)
 * [Rari v0.3.0: Rust-based React framework with SSR - 12x faster, 10x higher throughput than Next.js](https://ryanskinner.com/posts/the-rari-ssr-breakthrough-12x-faster-10x-higher-throughput-than-nextjs)
-
 * [Burn 0.19.0 Release: Quantization, Distributed Training, and LLVM Backend](https://burn.dev/blog/release-0.19.0/)
-
 * [Yelken's Last Alpha Release and Intro to Yelken Cloud](https://blog.yelken.io/last-alpha-and-yelken-cloud/)
+* [Capnproto 0.22 — async methods](https://dwrensha.github.io/capnproto-rust/2025/10/27/0.22-release.html)
+* [Fyrox 1.0.0-rc.1](https://fyrox.rs/blog/post/fyrox-game-engine-1-0-0-rc-1/)
+* [Boa release v0.21](https://boajs.dev/blog/2025/10/22/boa-release-21)
+* [Typst: Typst 0.14: Now accessible](https://typst.app/blog/2025/typst-0.14/)
+* [iroh-blobs 0.95](https://www.iroh.computer/blog/iroh-blobs-0-95-new-features)
 
 ### Observations/Thoughts
-
+* [Explicit capture clauses](https://smallcultfollowing.com/babysteps/blog/2025/10/22/explicit-capture-clauses/)
+* [Closure captures](https://andwass.github.io/rust/2025/10/23/closure-captures.html)
+* [Recent Rust Changes](https://www.ncameron.org/blog/recent-rust-changes/)
 * [A hard rain's a-gonna fall: decoding JSON in Rust](https://bitfieldconsulting.com/posts/hard-rain-json-rust)
+* [GSoC ‘25 Work Product: Parallel Macro Expansion](https://lorrens.me/2025/10/26/GSoC-Parallel-Macro-Expansion.html)
+* [When O3 is 2x slower than O2](https://cat-solstice.github.io/test-pqueue/)
 * [audio] [Netstack.FM — Episode 11 – Modern networking in Firefox with Max Inden](https://netstack.fm/#episode-11)
+* [audio] [What's New in Rust 1.81 through 1.84](https://rustacean-station.org/episode/rust-1.81-1.82-1.83-1.84/)
 
 ### Rust Walkthroughs
 * [Data Analysis in Rust](https://ericfecteau.ca/data/rust-data-analysis/index.html)
 * [How to Avoid Fighting Rust Borrow Checker](https://qouteall.fun/qouteall-blog/2025/How%20to%20Avoid%20Fighting%20Rust%20Borrow%20Checker)
 * [Rust Unit Testing: Mocks and flexible verification](https://jorgeortiz.dev/posts/rust_unit_testing_test_doubles_mock/)
 * [Building a Coding Agent in Rust: Introduction](https://blog.0xshadow.dev/posts/coding-agent-in-rust/coding-agent-in-rust-introduction/)
+* [Teddy Bear Trash Compactor](https://internet.place/content/teddy-bear-trash-compactor/)
 * [video] [Rust Axum 0.8 Backend Engineering | Hello World](https://www.youtube.com/watch?v=Imb6vJkD0Vc)
 * [video] [Building Coding Agent in Rust | Project Setup](https://www.youtube.com/watch?v=tQJTuYkZ4u8&t=1s)
 * [Vibe Validation with Lean, ChatGPT-5, & Claude 4.5: Nine Rules for Proving (Rust) Algorithms Correct Without Knowing Formal Methods (Part 2)](https://medium.com/@carlmkadie/081e0f06886d)
 
 ### Research
-
 - [Supporting `VIEW`s in Diesel](https://blog.weiznich.de/blog/diesel-infer-sql-nullablity/)
 
 ### Miscellaneous
