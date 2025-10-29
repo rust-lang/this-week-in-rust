@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 
 * [Burn 0.19.0 Release: Quantization, Distributed Training, and LLVM Backend](https://burn.dev/blog/release-0.19.0/)
 
+* [Yelken's Last Alpha Release and Intro to Yelken Cloud](https://blog.yelken.io/last-alpha-and-yelken-cloud/)
+
 ### Observations/Thoughts
 
 * [A hard rain's a-gonna fall: decoding JSON in Rust](https://bitfieldconsulting.com/posts/hard-rain-json-rust)
