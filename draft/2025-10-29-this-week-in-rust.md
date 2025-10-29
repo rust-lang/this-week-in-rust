@@ -60,6 +60,7 @@ and just ask the editors to select the category.
 * [Explicit capture clauses](https://smallcultfollowing.com/babysteps/blog/2025/10/22/explicit-capture-clauses/)
 * [Closure captures](https://andwass.github.io/rust/2025/10/23/closure-captures.html)
 * [Recent Rust Changes](https://www.ncameron.org/blog/recent-rust-changes/)
+* [How Signal uses Rust to secure the communications of millions of people](https://kerkour.com/signal-app-rust)
 * [A hard rain's a-gonna fall: decoding JSON in Rust](https://bitfieldconsulting.com/posts/hard-rain-json-rust)
 * [GSoC ‘25 Work Product: Parallel Macro Expansion](https://lorrens.me/2025/10/26/GSoC-Parallel-Macro-Expansion.html)
 * [When O3 is 2x slower than O2](https://cat-solstice.github.io/test-pqueue/)
