@@ -68,7 +68,6 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Data Analysis in Rust](https://ericfecteau.ca/data/rust-data-analysis/index.html)
-* [Rust unit testing: mock test doubles](https://jorgeortiz.dev/posts/rust_unit_testing_test_doubles_mock/)
 * [How to Avoid Fighting Rust Borrow Checker](https://qouteall.fun/qouteall-blog/2025/How%20to%20Avoid%20Fighting%20Rust%20Borrow%20Checker)
 * [Rust Unit Testing: Mocks and flexible verification](https://jorgeortiz.dev/posts/rust_unit_testing_test_doubles_mock/)
 * [Building a Coding Agent in Rust: Introduction](https://blog.0xshadow.dev/posts/coding-agent-in-rust/coding-agent-in-rust-introduction/)
