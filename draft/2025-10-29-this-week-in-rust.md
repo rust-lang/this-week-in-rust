@@ -56,6 +56,8 @@ and just ask the editors to select the category.
 * [Typst: Typst 0.14: Now accessible](https://typst.app/blog/2025/typst-0.14/)
 * [iroh-blobs 0.95](https://www.iroh.computer/blog/iroh-blobs-0-95-new-features)
 
+* [This week in Heave (2025.10.24)](https://www.rustydonkey.dev/blog/2025.10.24_this_week_in_heave/)
+
 ### Observations/Thoughts
 * [Explicit capture clauses](https://smallcultfollowing.com/babysteps/blog/2025/10/22/explicit-capture-clauses/)
 * [Closure captures](https://andwass.github.io/rust/2025/10/23/closure-captures.html)
