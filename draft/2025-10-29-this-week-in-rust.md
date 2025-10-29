@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 * [SeaORM 2.0: Entity First Workflow](https://www.sea-ql.org/blog/2025-10-30-sea-orm-2.0/)
 * [Rari v0.3.0: Rust-based React framework with SSR - 12x faster, 10x higher throughput than Next.js](https://ryanskinner.com/posts/the-rari-ssr-breakthrough-12x-faster-10x-higher-throughput-than-nextjs)
 
+* [Burn 0.19.0 Release: Quantization, Distributed Training, and LLVM Backend](https://burn.dev/blog/release-0.19.0/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
