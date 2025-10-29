@@ -58,12 +58,12 @@ and just ask the editors to select the category.
 * [audio] [Netstack.FM — Episode 11 – Modern networking in Firefox with Max Inden](https://netstack.fm/#episode-11)
 
 ### Rust Walkthroughs
+* [Data Analysis in Rust](https://ericfecteau.ca/data/rust-data-analysis/index.html)
 * [How to Avoid Fighting Rust Borrow Checker](https://qouteall.fun/qouteall-blog/2025/How%20to%20Avoid%20Fighting%20Rust%20Borrow%20Checker)
 * [Rust Unit Testing: Mocks and flexible verification](https://jorgeortiz.dev/posts/rust_unit_testing_test_doubles_mock/)
 * [Building a Coding Agent in Rust: Introduction](https://blog.0xshadow.dev/posts/coding-agent-in-rust/coding-agent-in-rust-introduction/)
 * [video] [Rust Axum 0.8 Backend Engineering | Hello World](https://www.youtube.com/watch?v=Imb6vJkD0Vc)
 * [video] [Building Coding Agent in Rust | Project Setup](https://www.youtube.com/watch?v=tQJTuYkZ4u8&t=1s)
-
 * [Vibe Validation with Lean, ChatGPT-5, & Claude 4.5: Nine Rules for Proving (Rust) Algorithms Correct Without Knowing Formal Methods (Part 2)](https://medium.com/@carlmkadie/081e0f06886d)
 
 ### Research
