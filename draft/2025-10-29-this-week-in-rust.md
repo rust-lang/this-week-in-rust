@@ -65,6 +65,7 @@ and just ask the editors to select the category.
 * [A hard rain's a-gonna fall: decoding JSON in Rust](https://bitfieldconsulting.com/posts/hard-rain-json-rust)
 * [GSoC ‘25 Work Product: Parallel Macro Expansion](https://lorrens.me/2025/10/26/GSoC-Parallel-Macro-Expansion.html)
 * [When O3 is 2x slower than O2](https://cat-solstice.github.io/test-pqueue/)
+* [The (rust) Clippy Changelog Cat Contest, a brief retrospective](https://blog.goose.love/posts/history-of-clippy-changelog-cat/)
 * [audio] [Netstack.FM — Episode 11 – Modern networking in Firefox with Max Inden](https://netstack.fm/#episode-11)
 * [audio] [What's New in Rust 1.81 through 1.84](https://rustacean-station.org/episode/rust-1.81-1.82-1.83-1.84/)
 
