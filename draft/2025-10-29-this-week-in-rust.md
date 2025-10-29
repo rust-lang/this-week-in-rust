@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [How Signal uses Rust to secure the communications of millions of people](https://kerkour.com/signal-app-rust)
 * [A hard rain's a-gonna fall: decoding JSON in Rust](https://bitfieldconsulting.com/posts/hard-rain-json-rust)
 * [audio] [Netstack.FM — Episode 11 – Modern networking in Firefox with Max Inden](https://netstack.fm/#episode-11)
 
