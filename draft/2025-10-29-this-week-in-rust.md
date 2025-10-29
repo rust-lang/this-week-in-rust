@@ -180,9 +180,9 @@ which are reaching a decision. Express your opinions now.
 * [Replace `rustc_target::specTarget::arch` string with enum](https://github.com/rust-lang/compiler-team/issues/926)
 * [Run main rust-analyzer tests in rust-lang/rust CI](https://github.com/rust-lang/compiler-team/issues/923)
 * [Turn emscripten-wasm-eh unwinding ABI on by default](https://github.com/rust-lang/compiler-team/issues/920)
-* [disposition: has concerns] [target tier 3 support for hexagon-unknown-qurt](https://github.com/rust-lang/compiler-team/issues/919)
-* [disposition: has concerns] [Proposal for a dedicated test suite for the parallel frontend](https://github.com/rust-lang/compiler-team/issues/906)
-* [disposition: has concerns] [Give integer literals a sign instead of relying on negation expressions](https://github.com/rust-lang/compiler-team/issues/835)
+* [target tier 3 support for hexagon-unknown-qurt](https://github.com/rust-lang/compiler-team/issues/919)
+* [Proposal for a dedicated test suite for the parallel frontend](https://github.com/rust-lang/compiler-team/issues/906)
+* [Give integer literals a sign instead of relying on negation expressions](https://github.com/rust-lang/compiler-team/issues/835)
 * [Also enable ICE file dumps on stable](https://github.com/rust-lang/compiler-team/issues/809)
 * [New Tier-3 target proposal: `loongarch64-linux-android`](https://github.com/rust-lang/compiler-team/issues/806)
 
