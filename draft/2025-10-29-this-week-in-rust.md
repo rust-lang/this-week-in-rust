@@ -55,7 +55,6 @@ and just ask the editors to select the category.
 * [Boa release v0.21](https://boajs.dev/blog/2025/10/22/boa-release-21)
 * [Typst: Typst 0.14: Now accessible](https://typst.app/blog/2025/typst-0.14/)
 * [iroh-blobs 0.95](https://www.iroh.computer/blog/iroh-blobs-0-95-new-features)
-
 * [This week in Heave (2025.10.24)](https://www.rustydonkey.dev/blog/2025.10.24_this_week_in_heave/)
 
 ### Observations/Thoughts
@@ -76,12 +75,13 @@ and just ask the editors to select the category.
 * [Building a Coding Agent in Rust: Introduction](https://blog.0xshadow.dev/posts/coding-agent-in-rust/coding-agent-in-rust-introduction/)
 * [Teddy Bear Trash Compactor](https://internet.place/content/teddy-bear-trash-compactor/)
 * [Rust for JavaScript Engineers - Connect-4 Interactivity](https://www.afloat.boats/posts/rust-for-javascript-engineers-interactivity)
+* [Cleanup your lifetime annotations in Rust with Rc and Arc](https://kerkour.com/rust-lifetimes-rc-arc)
 * [video] [Rust Axum 0.8 Backend Engineering | Hello World](https://www.youtube.com/watch?v=Imb6vJkD0Vc)
 * [video] [Building Coding Agent in Rust | Project Setup](https://www.youtube.com/watch?v=tQJTuYkZ4u8&t=1s)
 * [Vibe Validation with Lean, ChatGPT-5, & Claude 4.5: Nine Rules for Proving (Rust) Algorithms Correct Without Knowing Formal Methods (Part 2)](https://medium.com/@carlmkadie/081e0f06886d)
 
 ### Research
-- [Supporting `VIEW`s in Diesel](https://blog.weiznich.de/blog/diesel-infer-sql-nullablity/)
+* [Supporting `VIEW`s in Diesel](https://blog.weiznich.de/blog/diesel-infer-sql-nullablity/)
 
 ### Miscellaneous
 
