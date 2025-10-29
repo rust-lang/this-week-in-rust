@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [audio] [Netstack.FM — Episode 11 – Modern networking in Firefox with Max Inden](https://netstack.fm/#episode-11)
+
 ### Rust Walkthroughs
 * [Rust Unit Testing: Mocks and flexible verification](https://jorgeortiz.dev/posts/rust_unit_testing_test_doubles_mock/)
 * [Building a Coding Agent in Rust: Introduction](https://blog.0xshadow.dev/posts/coding-agent-in-rust/coding-agent-in-rust-introduction/)
