@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #57](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-57)
 
 ### Project/Tooling Updates
 * [SeaORM 2.0: Entity First Workflow](https://www.sea-ql.org/blog/2025-10-30-sea-orm-2.0/)
