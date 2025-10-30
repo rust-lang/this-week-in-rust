@@ -367,7 +367,7 @@ This Week in Rust is edited by:
 * [nellshamrell](https://github.com/nellshamrell)
 * [llogiq](https://github.com/llogiq)
 * [ericseppanen](https://github.com/ericseppanen)
-* [extrawurst](https://github.com/extrawurst) 
+* [extrawurst](https://github.com/extrawurst)
 * [U007D](https://github.com/U007D)
 * [mariannegoldin](https://github.com/mariannegoldin)
 * [bdillo](https://github.com/bdillo)
