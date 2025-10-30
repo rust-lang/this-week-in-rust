@@ -159,7 +159,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [privacy: introduce some caching to type visiting in `DefIdVisitorSkeleton`](https://github.com/rust-lang/rust/pull/147486)
 
 #### Library
-* [add `FromIterator` impls for `ascii::Char`s to String`s`](https://github.com/rust-lang/rust/pull/141445)
+* [add `FromIterator` impls for `ascii::Char`s to `String`s](https://github.com/rust-lang/rust/pull/141445)
 * [add `String::replace_first` and `String::replace_last`](https://github.com/rust-lang/rust/pull/134316)
 * [add new `inherit_handles` flag to CommandExt trait](https://github.com/rust-lang/rust/pull/115501)
 * [const Cell methods](https://github.com/rust-lang/rust/pull/147788)
