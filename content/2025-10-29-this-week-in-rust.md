@@ -37,10 +37,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
 ### Newsletters
 * [The Embedded Rustacean Issue #57](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-57)
 
@@ -77,14 +73,12 @@ and just ask the editors to select the category.
 * [Teddy Bear Trash Compactor](https://internet.place/content/teddy-bear-trash-compactor/)
 * [Rust for JavaScript Engineers - Connect-4 Interactivity](https://www.afloat.boats/posts/rust-for-javascript-engineers-interactivity)
 * [Cleanup your lifetime annotations in Rust with Rc and Arc](https://kerkour.com/rust-lifetimes-rc-arc)
+* [Vibe Validation with Lean, ChatGPT-5, & Claude 4.5: Nine Rules for Proving (Rust) Algorithms Correct Without Knowing Formal Methods (Part 2)](https://medium.com/@carlmkadie/081e0f06886d)
 * [video] [Rust Axum 0.8 Backend Engineering | Hello World](https://www.youtube.com/watch?v=Imb6vJkD0Vc)
 * [video] [Building Coding Agent in Rust | Project Setup](https://www.youtube.com/watch?v=tQJTuYkZ4u8&t=1s)
-* [Vibe Validation with Lean, ChatGPT-5, & Claude 4.5: Nine Rules for Proving (Rust) Algorithms Correct Without Knowing Formal Methods (Part 2)](https://medium.com/@carlmkadie/081e0f06886d)
 
 ### Research
 * [Supporting `VIEW`s in Diesel](https://blog.weiznich.de/blog/diesel-infer-sql-nullablity/)
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -135,7 +129,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
-- [Diesel - https://github.com/diesel-rs/diesel/issues/4840](https://github.com/diesel-rs/diesel/issues/4840)
+* [Diesel - https://github.com/diesel-rs/diesel/issues/4840](https://github.com/diesel-rs/diesel/issues/4840)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -145,8 +139,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-<!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+*No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -464,7 +457,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1nknaii/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
