@@ -268,7 +268,7 @@ which are reaching a decision. Express your opinions now.
 * [Stabilize s390x `vector` target feature and `is_s390x_feature_detected!` macro](https://github.com/rust-lang/rust/pull/145656)
 * [Update bundled musl to 1.2.5](https://github.com/rust-lang/rust/pull/142682)
 
-[Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20%20label%3Afinal-comment-period) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html)
+##### [Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20%20label%3Afinal-comment-period) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html)
 * [Use v0 mangling by default on nightly](https://github.com/rust-lang/compiler-team/issues/938)
 * [Use `annotate-snippets` as the default emitter on nightly](https://github.com/rust-lang/compiler-team/issues/937)
 * [Creating a new maintainable debuginfo test suite](https://github.com/rust-lang/compiler-team/issues/936)
@@ -284,7 +284,7 @@ which are reaching a decision. Express your opinions now.
 * [Also enable ICE file dumps on stable](https://github.com/rust-lang/compiler-team/issues/809)
 * [New Tier-3 target proposal: `loongarch64-linux-android`](https://github.com/rust-lang/compiler-team/issues/806)
 
-[Leadership Council](https://github.com/rust-lang/leadership-council/issues?q=state%3Aopen%20label%3Afinal-comment-period)
+##### [Leadership Council](https://github.com/rust-lang/leadership-council/issues?q=state%3Aopen%20label%3Afinal-comment-period)
 * [Proposal: Require all project team members to have Zulip IDs](https://github.com/rust-lang/leadership-council/issues/228)
 
 *No Items entered Final Comment Period this week for
