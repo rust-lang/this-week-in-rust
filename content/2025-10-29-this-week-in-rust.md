@@ -259,7 +259,7 @@ which are reaching a decision. Express your opinions now.
 * [Add some conversion trait impls](https://github.com/rust-lang/rust/pull/145504)
 * [Tracking Issue for `Duration::from_nanos_u128`](https://github.com/rust-lang/rust/issues/139201)
 * [Tracking Issue for `core_slice_as_array`.](https://github.com/rust-lang/rust/issues/133508)
-* [TryFrom\<integer\> for bool](https://github.com/rust-lang/rust/pull/147400)
+* [`TryFrom<integer>` for `bool`](https://github.com/rust-lang/rust/pull/147400)
 * [Tracking Issue for slice::array_windows](https://github.com/rust-lang/rust/issues/75027)
 * [Tracking issue for `#![feature(maybe_uninit_slice)]`](https://github.com/rust-lang/rust/issues/63569)
 * [Tracking Issue for `lazy_get`](https://github.com/rust-lang/rust/issues/129333)
