@@ -159,7 +159,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [privacy: introduce some caching to type visiting in `DefIdVisitorSkeleton`](https://github.com/rust-lang/rust/pull/147486)
 
 #### Library
-* [add `FromIterator` impls for `ascii::Char`s to String`s`](https://github.com/rust-lang/rust/pull/141445)
+* [add `FromIterator` impls for `ascii::Char`s to `String`s](https://github.com/rust-lang/rust/pull/141445)
 * [add `String::replace_first` and `String::replace_last`](https://github.com/rust-lang/rust/pull/134316)
 * [add new `inherit_handles` flag to CommandExt trait](https://github.com/rust-lang/rust/pull/115501)
 * [const Cell methods](https://github.com/rust-lang/rust/pull/147788)
@@ -259,7 +259,7 @@ which are reaching a decision. Express your opinions now.
 * [Add some conversion trait impls](https://github.com/rust-lang/rust/pull/145504)
 * [Tracking Issue for `Duration::from_nanos_u128`](https://github.com/rust-lang/rust/issues/139201)
 * [Tracking Issue for `core_slice_as_array`.](https://github.com/rust-lang/rust/issues/133508)
-* [TryFrom\<integer\> for bool](https://github.com/rust-lang/rust/pull/147400)
+* [`TryFrom<integer>` for `bool`](https://github.com/rust-lang/rust/pull/147400)
 * [Tracking Issue for slice::array_windows](https://github.com/rust-lang/rust/issues/75027)
 * [Tracking issue for `#![feature(maybe_uninit_slice)]`](https://github.com/rust-lang/rust/issues/63569)
 * [Tracking Issue for `lazy_get`](https://github.com/rust-lang/rust/issues/129333)
@@ -268,7 +268,7 @@ which are reaching a decision. Express your opinions now.
 * [Stabilize s390x `vector` target feature and `is_s390x_feature_detected!` macro](https://github.com/rust-lang/rust/pull/145656)
 * [Update bundled musl to 1.2.5](https://github.com/rust-lang/rust/pull/142682)
 
-[Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20%20label%3Afinal-comment-period) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html)
+##### [Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20%20label%3Afinal-comment-period) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html)
 * [Use v0 mangling by default on nightly](https://github.com/rust-lang/compiler-team/issues/938)
 * [Use `annotate-snippets` as the default emitter on nightly](https://github.com/rust-lang/compiler-team/issues/937)
 * [Creating a new maintainable debuginfo test suite](https://github.com/rust-lang/compiler-team/issues/936)
@@ -284,7 +284,7 @@ which are reaching a decision. Express your opinions now.
 * [Also enable ICE file dumps on stable](https://github.com/rust-lang/compiler-team/issues/809)
 * [New Tier-3 target proposal: `loongarch64-linux-android`](https://github.com/rust-lang/compiler-team/issues/806)
 
-[Leadership Council](https://github.com/rust-lang/leadership-council/issues?q=state%3Aopen%20label%3Afinal-comment-period)
+##### [Leadership Council](https://github.com/rust-lang/leadership-council/issues?q=state%3Aopen%20label%3Afinal-comment-period)
 * [Proposal: Require all project team members to have Zulip IDs](https://github.com/rust-lang/leadership-council/issues/228)
 
 *No Items entered Final Comment Period this week for
