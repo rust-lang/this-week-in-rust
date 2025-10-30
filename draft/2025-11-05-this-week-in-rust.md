@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Developing UEFI in Rust with Patina](https://opendevicepartnership.github.io/patina/introduction.html)
 
 ### Observations/Thoughts
 
