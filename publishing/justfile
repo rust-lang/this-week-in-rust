@@ -1,12 +1,15 @@
-#!/bin/sh
-
+# This Week in Rust - Publishing Tools
 # TODO: Make sure running from latest "main" branch commit
+
+# Show available recipes
+help:
+	@just --list
 
 # Typical flows:
 #
-# 1. `make website`
+# 1. `just website`
 # 	 The first workflow will generate the desired website, landing
-#    the end contents in the local "output-website/" directory. This is the 
+#    the end contents in the local "output-website/" directory. This is the
 #    equivalent of running `pelican --delete-output-directory content`
 #    from a properly instantantiated environment.
 #
@@ -16,62 +19,76 @@
 #
 #    Output: `output-website/`
 #
-# 2. `make copy-website-contents`
+# 2. `just copy-website-contents`
 #    This workflow will sync the `output-website/` directory from above, and sync
 #    it with the directory passed to it. Used for syncing state with
 #    this-week-in-rust.github.io repo.
 #
-# 3. `make email`
+# 3. `just email`
 #    This workflow will generate the desired email template, landing
-#    the end contents in the local "email/" directory. This is the 
+#    the end contents in the local "email/" directory. This is the
 #    equivalent of running `USE_EMAIL_THEME=1 pelican --delete-output-directory content`
 #    from a properly instantantiated environment, and running
 #    `juice --web-resources-images false /juice/in.html /juice/out.html` on the latest content post.
-# 
+#
 #    $ build clean generate-email optimize-email
 #
 #	 Output: `email/<NUMBER>-<YEAR>-<MONTH>-<DAY>-email.html`
 #
 
+# Generate and host website locally
 website: generate-website host-website
+
+# Copy website contents to this-week-in-rust.github.io repo
 copy-website-contents:
-	@./copy_website_content_to_repo.sh
+	./copy_website_content_to_repo.sh
+
+# Generate and optimize email template
 email: generate-email optimize-email
 
-build:
+# Build Docker image
+docker-build:
 	cd .. && docker build -t twir -f publishing/Dockerfile . && cd -
 
+# Clean website output directories
 clean-website:
-	@rm -rf output/ && rm -rf output-website/ && rm -rf juice/
-clean-email:
-	@rm -rf output/ && rm -rf output-email-format/ && rm -rf email/ && rm -rf juice/
+	rm -rf output/ output-website/ juice/
 
-generate-website: build clean-website
+# Clean email output directories
+clean-email:
+	rm -rf output/ output-email-format/ email/ juice/
+
+# Generate website content
+generate-website: docker-build clean-website
 	@echo "Generating website..."
-	@docker run -it \
-		-v $(shell pwd)/output-website:/usr/twir/output \
-		twir:latest 
+	docker run -it \
+		-v {{justfile_directory()}}/output-website:/usr/twir/output \
+		twir:latest
 	@echo "Finished generating website."
 
+# Host website locally on port 8000
 host-website:
 	@echo "Hosting website..."
-	@docker run -it \
+	docker run -it \
 		-p 8000:8000 \
-	 	-v $(shell pwd)/output-website:/usr/twir/output:ro \
+	 	-v {{justfile_directory()}}/output-website:/usr/twir/output:ro \
 		-it \
 		twir:latest \
 		bash run_server.sh
 	@echo "Finished hosting website."
 	@echo ""
-	@echo "To sync contents with your local 'this-week-in-rust.github.io' repo, run \033[1;33m'make copy-website-contents'\033[0m"
+	@echo "To sync contents with your local 'this-week-in-rust.github.io' repo, run 'just copy-website-contents'"
 
-generate-email: build clean-email
+# Generate email content
+generate-email: docker-build clean-email
 	@echo "Generating email..."
-	@docker run -it \
+	mkdir -p output-email-format
+	docker run -it \
 		-e USE_EMAIL_THEME=1 \
-		-v $(shell pwd)/output-email-format:/usr/twir/output \
+		-v {{justfile_directory()}}/output-email-format:/usr/twir/output \
 		twir:latest
 
+# Optimize email HTML for delivery
 optimize-email:
 	@echo "Generating optimized email..."
-	@OUTPUT_PREFIX=output-email-format ./create_optimized_email.sh
+	OUTPUT_PREFIX=output-email-format ./create_optimized_email.sh
