@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+- [Ghosts in the Compilation](https://predr.ag/blog/ghosts-in-the-compilation/)
 
 ### Rust Walkthroughs
 
