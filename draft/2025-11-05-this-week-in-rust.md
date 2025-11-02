@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [`esp-hal` 1.0.0 release announcement](https://developer.espressif.com/blog/2025/10/esp-hal-1/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
