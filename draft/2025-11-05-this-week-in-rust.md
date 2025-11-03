@@ -141,7 +141,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Mostly positive week. We saw a great performance win implemented by [#148040](https://github.com/rust-lang/rust/pull/148040) and [#148182](https://github.com/rust-lang/rust/pull/148182), which optimizes crates with a lot of trivial constants.
+
+Triage done by **@kobzol**.
+
+Revision range: [23fced0f..35ebdf9b](https://perf.rust-lang.org/?start=23fced0fcc5e0ec260d25f04a8b78b269e5e90f0&end=35ebdf9ba1414456dfe1cb6a6b13ebae80e99734&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.8%  | [0.1%, 2.9%]    | 22    |
+| Regressions ❌ <br /> (secondary)  | 0.5%  | [0.1%, 1.7%]    | 48    |
+| Improvements ✅ <br /> (primary)   | -2.8% | [-16.4%, -0.1%] | 102   |
+| Improvements ✅ <br /> (secondary) | -1.9% | [-8.0%, -0.1%]  | 51    |
+| All ❌✅ (primary)                 | -2.1% | [-16.4%, 2.9%]  | 124   |
+
+4 Regressions, 6 Improvements, 7 Mixed; 7 of them in rollups
+36 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/057eaab3021d6bc301bba06b69e7e1cfdb4f9c3d/triage/2025/2025-11-03.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
