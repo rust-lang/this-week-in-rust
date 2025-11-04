@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [Rust Unit Testing Test Doubles: Fakes](https://jorgeortiz.dev/posts/rust_unit_testing_test_doubles_fake/)
 
 ### Research
 
