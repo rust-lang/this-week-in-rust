@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Building Next Generation Rail Systems With Rust: Tom Praderio of Parallel](https://filtra.io/rust/interviews/parallel-nov-25)
 
 ## Crate of the Week
 
