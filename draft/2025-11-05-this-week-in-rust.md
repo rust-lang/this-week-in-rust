@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 * [Developing UEFI in Rust with Patina](https://opendevicepartnership.github.io/patina/introduction.html)
 
 * [`esp-hal` 1.0.0 release announcement](https://developer.espressif.com/blog/2025/10/esp-hal-1/)
+* [Announcing `cgp-serde`: A modular serialization library for Serde powered by CGP](https://contextgeneric.dev/blog/cgp-serde-release/)
+* [CGP v0.6.0 Release - Major ergonomic improvements for provider and context implementations](https://contextgeneric.dev/blog/v0-6-0-release/)
 
 ### Observations/Thoughts
 - [Ghosts in the Compilation](https://predr.ag/blog/ghosts-in-the-compilation/)
