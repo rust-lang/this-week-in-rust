@@ -187,9 +187,21 @@ Use the included `new_contribs.sh` script:
 
 ## Building
 
-To ensure consistency across development setups, we use a [Docker](https://www.docker.com) container-based
-workflow for building the website and email newsletter. Similarly, we use a `makefile` to ensure you have Docker installed on your system if
-you intend to build the website or email newsletter.
+To ensure consistency across development setups, we use a
+[Docker](https://www.docker.com) container-based workflow for building the
+website and email newsletter. Similarly, we use [Just](https://just.systems/) to
+ensure you have Docker installed on your system if you intend to build the
+website or email newsletter.
+
+### Install Just
+
+To install Just you have
+[many options](https://just.systems/man/en/packages.html); we recommend using
+Cargo:
+
+```sh
+cargo install just
+```
 
 ### Building the website
 
@@ -207,7 +219,7 @@ cd publishing
 - Run the Docker build and website local-host command:
 
 ```sh
-make website
+just website
 ```
 
 - View the website locally at default
@@ -237,7 +249,7 @@ cd publishing
 - Run the Docker build and website local-host command:
 
 ```sh
-make email
+just email
 ```
 
 - View the email newsletter formatting of specific posts at
