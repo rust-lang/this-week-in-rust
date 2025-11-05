@@ -60,6 +60,7 @@ and just ask the editors to select the category.
 * [Image Classification in Rust with Tch-rs (Torch bindings)](https://www.djamware.com/post/690864cde87a290bcfebeebe/image-classification-in-rust-with-tchrs-torch-bindings)
 * [video] [Building Coding Agent in Rust | Implement Chat CLI | Part-2](https://www.youtube.com/watch?v=N21aCBICHLU)
 * [Inside Rust's std and parking_lot mutexes - who wins?](https://blog.cuongle.dev/p/inside-rusts-std-and-parking-lot-mutexes-who-win)
+* [Diesel Workshop Slides from RustWeek2025](https://blog.weiznich.de/rustweek_2025.html#/title-slide)
 
 ### Research
 
@@ -138,6 +139,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Motor OS - Improve rush (the shell in Motor OS)](https://github.com/moturus/motor-os/issues/33)
 * [Motor OS - Make imager configurable](https://github.com/moturus/motor-os/issues/24)
 * [Motor OS - Port libc/llvm/rustc](https://github.com/moturus/motor-os/issues/26)
+* [Diesel - Improve documentation for Postgres loading modesdocumentation](https://github.com/diesel-rs/diesel/issues/4764)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
