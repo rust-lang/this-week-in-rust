@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [Rust Trends Issue #71: Production Rust at Internet Scale](https://rust-trends.com/newsletter/production-rust-internet-scale)
 
 ### Project/Tooling Updates
 
