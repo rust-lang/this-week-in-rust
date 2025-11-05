@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [audio] [Netstack.FM Episode 12 – Oxide Networking with Ryan Goodfellow](https://netstack.fm/#episode-12)
+
 ### Rust Walkthroughs
 * [Building a Coding Agent in Rust: Implementing Chat Feature](https://blog.0xshadow.dev/posts/coding-agent-in-rust/coding-agent-in-rust-chat/)
 * [Image Classification in Rust with Tch-rs (Torch bindings)](https://www.djamware.com/post/690864cde87a290bcfebeebe/image-classification-in-rust-with-tchrs-torch-bindings)
