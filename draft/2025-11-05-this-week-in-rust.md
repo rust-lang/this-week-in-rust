@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 * [Rust Trends Issue #71: Production Rust at Internet Scale](https://rust-trends.com/newsletter/production-rust-internet-scale)
 
 ### Project/Tooling Updates
+* [Developing UEFI in Rust with Patina](https://opendevicepartnership.github.io/patina/introduction.html)
 
 * [`esp-hal` 1.0.0 release announcement](https://developer.espressif.com/blog/2025/10/esp-hal-1/)
 
