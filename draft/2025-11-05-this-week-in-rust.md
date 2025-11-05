@@ -49,7 +49,9 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Building a Coding Agent in Rust: Implementing Chat Feature](https://blog.0xshadow.dev/posts/coding-agent-in-rust/coding-agent-in-rust-chat/)
 * [Image Classification in Rust with Tch-rs (Torch bindings)](https://www.djamware.com/post/690864cde87a290bcfebeebe/image-classification-in-rust-with-tchrs-torch-bindings)
+* [video] [Building Coding Agent in Rust | Implement Chat CLI | Part-2](https://www.youtube.com/watch?v=N21aCBICHLU)
 
 ### Research
 
