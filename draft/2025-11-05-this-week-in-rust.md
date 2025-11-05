@@ -58,6 +58,8 @@ and just ask the editors to select the category.
 * [Image Classification in Rust with Tch-rs (Torch bindings)](https://www.djamware.com/post/690864cde87a290bcfebeebe/image-classification-in-rust-with-tchrs-torch-bindings)
 * [video] [Building Coding Agent in Rust | Implement Chat CLI | Part-2](https://www.youtube.com/watch?v=N21aCBICHLU)
 
+* [Inside Rust's std and parking_lot mutexes - who wins?](https://blog.cuongle.dev/p/inside-rusts-std-and-parking-lot-mutexes-who-win)
+
 ### Research
 
 ### Miscellaneous
