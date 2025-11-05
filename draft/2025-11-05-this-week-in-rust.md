@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 * [`esp-hal` 1.0.0 release announcement](https://developer.espressif.com/blog/2025/10/esp-hal-1/)
 
 ### Observations/Thoughts
+* [Rust is eating the world: From embedded firmware to cross-platform applications, databases and big servers](https://kerkour.com/rust-is-eating-the-world)
 - [Ghosts in the Compilation](https://predr.ag/blog/ghosts-in-the-compilation/)
 
 * [audio] [Netstack.FM Episode 12 – Oxide Networking with Ryan Goodfellow](https://netstack.fm/#episode-12)
