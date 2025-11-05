@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [Rust Trends Issue #71: Production Rust at Internet Scale](https://rust-trends.com/newsletter/production-rust-internet-scale)
 
 ### Project/Tooling Updates
 
@@ -49,15 +50,19 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Building a Coding Agent in Rust: Implementing Chat Feature](https://blog.0xshadow.dev/posts/coding-agent-in-rust/coding-agent-in-rust-chat/)
+* [Image Classification in Rust with Tch-rs (Torch bindings)](https://www.djamware.com/post/690864cde87a290bcfebeebe/image-classification-in-rust-with-tchrs-torch-bindings)
 * [video] [Building Coding Agent in Rust | Implement Chat CLI | Part-2](https://www.youtube.com/watch?v=N21aCBICHLU)
 
 ### Research
 
 ### Miscellaneous
+* [Building Next Generation Rail Systems With Rust: Tom Praderio of Parallel](https://filtra.io/rust/interviews/parallel-nov-25)
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [dioxus](https://docs.rs/dioxus), a framework for building cross-platform apps.
+
+Thanks to [llogiq](https://users.rust-lang.org/t/crate-of-the-week/2704/1484) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -121,7 +126,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-<!-- * [ - ]() -->
+* [Motor OS - Improve rush (the shell in Motor OS)](https://github.com/moturus/motor-os/issues/33)
+* [Motor OS - Make imager configurable](https://github.com/moturus/motor-os/issues/24)
+* [Motor OS - Port libc/llvm/rustc](https://github.com/moturus/motor-os/issues/26)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
@@ -135,15 +142,104 @@ Are you a new or experienced speaker looking for a place to share something cool
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
+* [**TokioConf 2026**](https://tokio.rs/blog/2025-09-26-announcing-tokio-conf-cfp)| CFP closes 2025-12-08 | Portland, Oregon, USA | 2026-04-20
+
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+480 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-10-28..2025-11-04
+
+#### Compiler
+* [`rustc_codegen`: fix musttail returns for cast/indirect ABIs](https://github.com/rust-lang/rust/pull/148240)
+* [accept trivial consts based on trivial consts](https://github.com/rust-lang/rust/pull/148182)
+* [add LLVM range attributes to slice length parameters](https://github.com/rust-lang/rust/pull/148350)
+* [adjust successor iterators](https://github.com/rust-lang/rust/pull/148157)
+* [allow check builds with binaries for the dummy codegen backend](https://github.com/rust-lang/rust/pull/148299)
+* [allow codegen backends to indicate which crate types they support](https://github.com/rust-lang/rust/pull/148177)
+* [better warning message for crate type unsupported by codegen backend](https://github.com/rust-lang/rust/pull/148400)
+* [contract variable declarations](https://github.com/rust-lang/rust/pull/144444)
+* [fix deferred cast checks using the wrong body for determining constness](https://github.com/rust-lang/rust/pull/148287)
+* [fix types being marked as dead when they are inferred generic arguments](https://github.com/rust-lang/rust/pull/148262)
+* [implement pin-project in pattern matching for `&pin mut|const T`](https://github.com/rust-lang/rust/pull/139751)
+* [miscellaneous const-generics-related fixes](https://github.com/rust-lang/rust/pull/147642)
+* [remove `QPath::LangItem`](https://github.com/rust-lang/rust/pull/148193)
+* [stabilize -Zno-jump-tables into -Cjump-tables=bool](https://github.com/rust-lang/rust/pull/145974)
+* [when a trait isn't implemented, but another similar impl is found, point at it](https://github.com/rust-lang/rust/pull/145640)
+
+#### Library
+* [add `from_fn_ptr` to `Waker` and `LocalWaker`](https://github.com/rust-lang/rust/pull/146057)
+* [add SliceIndex wrapper types Last and `Clamp<Idx>`](https://github.com/rust-lang/rust/pull/146260)
+* [constify Range functions](https://github.com/rust-lang/rust/pull/146573)
+* [constify trait aliases](https://github.com/rust-lang/rust/pull/144291)
+* [implement VecDeque `extend_from_within` and `prepend_from_within`](https://github.com/rust-lang/rust/pull/147161)
+* [implement `VecDeque::extract_if`](https://github.com/rust-lang/rust/pull/147780)
+* [implement `strip_circumfix` lib feature](https://github.com/rust-lang/rust/pull/147947)
+* [smart pointer `(try_)map`](https://github.com/rust-lang/rust/pull/144420)
+* [stabilize `fmt::from_fn`](https://github.com/rust-lang/rust/pull/145915)
+
+#### Cargo
+* [`build-analysis`: JSONL-based logging infra](https://github.com/rust-lang/cargo/pull/16150)
+* [`build-analysis`: emit timing-info log](https://github.com/rust-lang/cargo/pull/16179)
+* [`config-include`: add optional field support](https://github.com/rust-lang/cargo/pull/16180)
+* [`config-include`: support inline and array of tables](https://github.com/rust-lang/cargo/pull/16174)
+* [support array of any types in Cargo config](https://github.com/rust-lang/cargo/pull/16103)
+
+#### Rustdoc
+* [search: Include extern crates when filtering on `import`](https://github.com/rust-lang/rust/pull/148301)
+* [Include attribute and derive macros when filtering on "macros"](https://github.com/rust-lang/rust/pull/148176)
+* [use configured target modifiers when collecting doctests](https://github.com/rust-lang/rust/pull/148068)
+
+#### Clippy
+* [`search_is_some`: Fix when the closure spans multiple lines](https://github.com/rust-lang/rust-clippy/pull/15902)
+* [`double_parens`: don't lint in proc-macros](https://github.com/rust-lang/rust-clippy/pull/15939)
+* [`let_and_return`: disallow `_any_` text between let and return](https://github.com/rust-lang/rust-clippy/pull/16006)
+* [`use_debug`: don't get confused by nested `Debug` impls](https://github.com/rust-lang/rust-clippy/pull/15946)
+* [`incompatible_msrv`: Don't check the const MSRV for uncalled functions](https://github.com/rust-lang/rust-clippy/pull/15795)
+* [`manual_unwrap_or(_default)`: don't lint if not safe to move scrutinee](https://github.com/rust-lang/rust-clippy/pull/15817)
+* [extend `needless_collect`](https://github.com/rust-lang/rust-clippy/pull/14361)
+* [fix `replace_box` false positive when the box is moved](https://github.com/rust-lang/rust-clippy/pull/15984)
+* [improve doc comment code language tag parsing, don't use a full parser](https://github.com/rust-lang/rust-clippy/pull/15967)
+
+#### Rust-Analyzer
+* [add ide-assist: `convert_range_for_to_while`](https://github.com/rust-lang/rust-analyzer/pull/20565)
+* [support memory profiling with dhat](https://github.com/rust-lang/rust-analyzer/pull/20927)
+* [fix missing other assoc items for `generate_blanket_trait_impl`](https://github.com/rust-lang/rust-analyzer/pull/20957)
+* [fix not applicable on while for `replace_is_method_with_if_let_method`](https://github.com/rust-lang/rust-analyzer/pull/20915)
+* [canonicalize `custom-target.json` paths when fetching sysroot metadata](https://github.com/rust-lang/rust-analyzer/pull/20964)
+* [consider more expression types as `in_value`](https://github.com/rust-lang/rust-analyzer/pull/20961)
+* [expand literals with wrong suffixes into `LitKind::Err`](https://github.com/rust-lang/rust-analyzer/pull/20963)
+* [false positive syntax errors on frontmatter](https://github.com/rust-lang/rust-analyzer/pull/20942)
+* [fix handling of blocks modules that are not the root module](https://github.com/rust-lang/rust-analyzer/pull/20930)
+* [improve error recovery when parsing malformed function return types](https://github.com/rust-lang/rust-analyzer/pull/20934)
+* [properly support opaques](https://github.com/rust-lang/rust-analyzer/pull/20906)
+* [resolve `target-dir` more precisely](https://github.com/rust-lang/rust-analyzer/pull/20920)
+* [show proper async function signatures in the signature help](https://github.com/rust-lang/rust-analyzer/pull/20931)
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Mostly positive week. We saw a great performance win implemented by [#148040](https://github.com/rust-lang/rust/pull/148040) and [#148182](https://github.com/rust-lang/rust/pull/148182), which optimizes crates with a lot of trivial constants.
+
+Triage done by **@kobzol**.
+
+Revision range: [23fced0f..35ebdf9b](https://perf.rust-lang.org/?start=23fced0fcc5e0ec260d25f04a8b78b269e5e90f0&end=35ebdf9ba1414456dfe1cb6a6b13ebae80e99734&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.8%  | [0.1%, 2.9%]    | 22    |
+| Regressions ❌ <br /> (secondary)  | 0.5%  | [0.1%, 1.7%]    | 48    |
+| Improvements ✅ <br /> (primary)   | -2.8% | [-16.4%, -0.1%] | 102   |
+| Improvements ✅ <br /> (secondary) | -1.9% | [-8.0%, -0.1%]  | 51    |
+| All ❌✅ (primary)                 | -2.1% | [-16.4%, 2.9%]  | 124   |
+
+4 Regressions, 6 Improvements, 7 Mixed; 7 of them in rollups
+36 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/057eaab3021d6bc301bba06b69e7e1cfdb4f9c3d/triage/2025/2025-11-03.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -361,7 +457,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> If someone opens a PR introducing C++ to your Rust project, that code is free as in "use after"
+
+– [Predrag Gruevski on Mastodon]()
+
+Thanks to [Brett Witty](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1726) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
