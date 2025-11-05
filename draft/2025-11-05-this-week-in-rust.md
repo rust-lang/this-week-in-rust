@@ -56,7 +56,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [dioxus](https://docs.rs/dioxus), a framework for building cross-platform apps.
+
+Thanks to [llogiq](https://users.rust-lang.org/t/crate-of-the-week/2704/1484) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -142,7 +144,75 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+480 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-10-28..2025-11-04
+
+#### Compiler
+* [`rustc_codegen`: fix musttail returns for cast/indirect ABIs](https://github.com/rust-lang/rust/pull/148240)
+* [accept trivial consts based on trivial consts](https://github.com/rust-lang/rust/pull/148182)
+* [add LLVM range attributes to slice length parameters](https://github.com/rust-lang/rust/pull/148350)
+* [adjust successor iterators](https://github.com/rust-lang/rust/pull/148157)
+* [allow check builds with binaries for the dummy codegen backend](https://github.com/rust-lang/rust/pull/148299)
+* [allow codegen backends to indicate which crate types they support](https://github.com/rust-lang/rust/pull/148177)
+* [better warning message for crate type unsupported by codegen backend](https://github.com/rust-lang/rust/pull/148400)
+* [contract variable declarations](https://github.com/rust-lang/rust/pull/144444)
+* [fix deferred cast checks using the wrong body for determining constness](https://github.com/rust-lang/rust/pull/148287)
+* [fix types being marked as dead when they are inferred generic arguments](https://github.com/rust-lang/rust/pull/148262)
+* [implement pin-project in pattern matching for `&pin mut|const T`](https://github.com/rust-lang/rust/pull/139751)
+* [miscellaneous const-generics-related fixes](https://github.com/rust-lang/rust/pull/147642)
+* [remove `QPath::LangItem`](https://github.com/rust-lang/rust/pull/148193)
+* [stabilize -Zno-jump-tables into -Cjump-tables=bool](https://github.com/rust-lang/rust/pull/145974)
+* [when a trait isn't implemented, but another similar impl is found, point at it](https://github.com/rust-lang/rust/pull/145640)
+
+#### Library
+* [add `from_fn_ptr` to `Waker` and `LocalWaker`](https://github.com/rust-lang/rust/pull/146057)
+* [add SliceIndex wrapper types Last and `Clamp<Idx>`](https://github.com/rust-lang/rust/pull/146260)
+* [constify Range functions](https://github.com/rust-lang/rust/pull/146573)
+* [constify trait aliases](https://github.com/rust-lang/rust/pull/144291)
+* [implement VecDeque `extend_from_within` and `prepend_from_within`](https://github.com/rust-lang/rust/pull/147161)
+* [implement `VecDeque::extract_if`](https://github.com/rust-lang/rust/pull/147780)
+* [implement `strip_circumfix` lib feature](https://github.com/rust-lang/rust/pull/147947)
+* [smart pointer `(try_)map`](https://github.com/rust-lang/rust/pull/144420)
+* [stabilize `fmt::from_fn`](https://github.com/rust-lang/rust/pull/145915)
+
+#### Cargo
+* [`build-analysis`: JSONL-based logging infra](https://github.com/rust-lang/cargo/pull/16150)
+* [`build-analysis`: emit timing-info log](https://github.com/rust-lang/cargo/pull/16179)
+* [`config-include`: add optional field support](https://github.com/rust-lang/cargo/pull/16180)
+* [`config-include`: support inline and array of tables](https://github.com/rust-lang/cargo/pull/16174)
+* [support array of any types in Cargo config](https://github.com/rust-lang/cargo/pull/16103)
+
+#### Rustdoc
+* [search: Include extern crates when filtering on `import`](https://github.com/rust-lang/rust/pull/148301)
+* [Include attribute and derive macros when filtering on "macros"](https://github.com/rust-lang/rust/pull/148176)
+* [use configured target modifiers when collecting doctests](https://github.com/rust-lang/rust/pull/148068)
+
+#### Clippy
+* [`search_is_some`: Fix when the closure spans multiple lines](https://github.com/rust-lang/rust-clippy/pull/15902)
+* [`double_parens`: don't lint in proc-macros](https://github.com/rust-lang/rust-clippy/pull/15939)
+* [`let_and_return`: disallow `_any_` text between let and return](https://github.com/rust-lang/rust-clippy/pull/16006)
+* [`use_debug`: don't get confused by nested `Debug` impls](https://github.com/rust-lang/rust-clippy/pull/15946)
+* [`incompatible_msrv`: Don't check the const MSRV for uncalled functions](https://github.com/rust-lang/rust-clippy/pull/15795)
+* [`manual_unwrap_or(_default)`: don't lint if not safe to move scrutinee](https://github.com/rust-lang/rust-clippy/pull/15817)
+* [extend `needless_collect`](https://github.com/rust-lang/rust-clippy/pull/14361)
+* [fix `replace_box` false positive when the box is moved](https://github.com/rust-lang/rust-clippy/pull/15984)
+* [improve doc comment code language tag parsing, don't use a full parser](https://github.com/rust-lang/rust-clippy/pull/15967)
+
+#### Rust-Analyzer
+* [add ide-assist: `convert_range_for_to_while`](https://github.com/rust-lang/rust-analyzer/pull/20565)
+* [support memory profiling with dhat](https://github.com/rust-lang/rust-analyzer/pull/20927)
+* [fix missing other assoc items for `generate_blanket_trait_impl`](https://github.com/rust-lang/rust-analyzer/pull/20957)
+* [fix not applicable on while for `replace_is_method_with_if_let_method`](https://github.com/rust-lang/rust-analyzer/pull/20915)
+* [canonicalize `custom-target.json` paths when fetching sysroot metadata](https://github.com/rust-lang/rust-analyzer/pull/20964)
+* [consider more expression types as `in_value`](https://github.com/rust-lang/rust-analyzer/pull/20961)
+* [expand literals with wrong suffixes into `LitKind::Err`](https://github.com/rust-lang/rust-analyzer/pull/20963)
+* [false positive syntax errors on frontmatter](https://github.com/rust-lang/rust-analyzer/pull/20942)
+* [fix handling of blocks modules that are not the root module](https://github.com/rust-lang/rust-analyzer/pull/20930)
+* [improve error recovery when parsing malformed function return types](https://github.com/rust-lang/rust-analyzer/pull/20934)
+* [properly support opaques](https://github.com/rust-lang/rust-analyzer/pull/20906)
+* [resolve `target-dir` more precisely](https://github.com/rust-lang/rust-analyzer/pull/20920)
+* [show proper async function signatures in the signature help](https://github.com/rust-lang/rust-analyzer/pull/20931)
 
 ### Rust Compiler Performance Triage
 
@@ -383,7 +453,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> If someone opens a PR introducing C++ to your Rust project, that code is free as in "use after"
+
+– [Predrag Gruevski on Mastodon]()
+
+Thanks to [Brett Witty](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1726) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
