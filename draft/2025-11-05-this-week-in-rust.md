@@ -38,20 +38,30 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Project goals for 2025H2 | Rust Blog](https://blog.rust-lang.org/2025/10/28/project-goals-2025h2/)
+* [Announcing Rust 1.91.0 | Rust Blog](https://blog.rust-lang.org/2025/10/30/Rust-1.91.0/)
 
 ### Foundation
+* [Announcing the Rust Foundation Maintainers Fund - The Rust Foundation](https://rustfoundation.org/media/announcing-the-rust-foundation-maintainers-fund/)
 
 ### Newsletters
 * [Rust Trends Issue #71: Production Rust at Internet Scale](https://rust-trends.com/newsletter/production-rust-internet-scale)
+* [This Month in Redox - October 2025 - Redox - Your Next(Gen) OS](https://www.redox-os.org/news/this-month-251031/)
 
 ### Project/Tooling Updates
 * [Developing UEFI in Rust with Patina](https://opendevicepartnership.github.io/patina/introduction.html)
-
+* [Announcing cgp-serde: A modular serialization library for Serde pow...](https://contextgeneric.dev/blog/cgp-serde-release/)
 * [`esp-hal` 1.0.0 release announcement](https://developer.espressif.com/blog/2025/10/esp-hal-1/)
 
 ### Observations/Thoughts
-- [Ghosts in the Compilation](https://predr.ag/blog/ghosts-in-the-compilation/)
-
+* [Ghosts in the Compilation](https://predr.ag/blog/ghosts-in-the-compilation/)
+* [Patterns for Defensive Programming in Rust | corrode Rust Consulting](https://corrode.dev/blog/defensive-programming/)
+* [Cloudflare with Edward Wang & Kevin Guthrie - Rust in Production Po...](https://corrode.dev/podcast/s05e03-cloudflare/)
+* [Neural Networks with Candle](https://pranitha.dev/posts/neural-networks-with-candle/)
+* [Async Rust - Part 18 of Idiomatic Rust in Simple Steps](https://www.youtube.com/watch?v=_x61dSP4ZKM&t=379s)
+* [The state of SIMD in Rust in 2025](https://shnatsel.medium.com/the-state-of-simd-in-rust-in-2025-32c263e5f53d)
+* [video] [Building Next Generation Rail Systems With Rust: Tom Praderio of Pa...](https://www.youtube.com/watch?v=Ga2YDNDHQsM)
+* [video] [Are we desktop yet? - Victoria Brekenfeld | EuroRust 2025](https://www.youtube.com/watch?v=0ZrD2oYabn4&feature=youtu.be)
 * [audio] [Netstack.FM Episode 12 – Oxide Networking with Ryan Goodfellow](https://netstack.fm/#episode-12)
 
 ### Rust Walkthroughs
@@ -60,11 +70,16 @@ and just ask the editors to select the category.
 * [Image Classification in Rust with Tch-rs (Torch bindings)](https://www.djamware.com/post/690864cde87a290bcfebeebe/image-classification-in-rust-with-tchrs-torch-bindings)
 * [video] [Building Coding Agent in Rust | Implement Chat CLI | Part-2](https://www.youtube.com/watch?v=N21aCBICHLU)
 * [Inside Rust's std and parking_lot mutexes - who wins?](https://blog.cuongle.dev/p/inside-rusts-std-and-parking-lot-mutexes-who-win)
+* [Building a Coding Agent in Rust: Implementing Chat Feature | 0xshad...](https://blog.0xshadow.dev/posts/coding-agent-in-rust/coding-agent-in-rust-chat/)
+* [Positron - Only the Future Is Certain](https://positron.solutions/articles/building-nicely-with-rust-and-nix)
+* [Getting Started with Rust and ClickHouse](https://www.svix.com/blog/getting-started-with-rust-and-clickhouse/)
+* [`SocketAddrV6` is not roundtrip serializable · sunshowers](https://sunshowers.io/posts/socketaddrv6-not-roundtrip/)
+* [Building Next Generation Rail Systems With Rust: Tom Praderio of Parallel](https://filtra.io/rust/interviews/parallel-nov-25)
 
 ### Research
 
 ### Miscellaneous
-* [Building Next Generation Rail Systems With Rust: Tom Praderio of Parallel](https://filtra.io/rust/interviews/parallel-nov-25)
+* [Can-t stop till you get enough](https://cant.bearblog.dev/can-t-stop-till-you-get-enough/)
 
 ## Crate of the Week
 
