@@ -60,6 +60,7 @@ and just ask the editors to select the category.
 * [Neural Networks with Candle](https://pranitha.dev/posts/neural-networks-with-candle/)
 * [Async Rust - Part 18 of Idiomatic Rust in Simple Steps](https://www.youtube.com/watch?v=_x61dSP4ZKM&t=379s)
 * [The state of SIMD in Rust in 2025](https://shnatsel.medium.com/the-state-of-simd-in-rust-in-2025-32c263e5f53d)
+* [Rust is eating the world: From embedded firmware to cross-platform applications, databases and big servers](https://kerkour.com/rust-is-eating-the-world)
 * [video] [Building Next Generation Rail Systems With Rust: Tom Praderio of Parallel](https://www.youtube.com/watch?v=Ga2YDNDHQsM)
 * [video] [Are we desktop yet? - Victoria Brekenfeld | EuroRust 2025](https://www.youtube.com/watch?v=0ZrD2oYabn4&feature=youtu.be)
 * [audio] [Netstack.FM Episode 12 – Oxide Networking with Ryan Goodfellow](https://netstack.fm/#episode-12)
