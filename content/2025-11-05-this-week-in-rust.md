@@ -454,7 +454,7 @@ Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/r
 
 > If someone opens a PR introducing C++ to your Rust project, that code is free as in "use after"
 
-– [Predrag Gruevski on Mastodon]()
+– [Predrag Gruevski on Mastodon](https://hachyderm.io/@predrag/115475147692306391)
 
 Thanks to [Brett Witty](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1726) for the suggestion!
 
