@@ -139,7 +139,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Motor OS - Improve rush (the shell in Motor OS)](https://github.com/moturus/motor-os/issues/33)
 * [Motor OS - Make imager configurable](https://github.com/moturus/motor-os/issues/24)
 * [Motor OS - Port libc/llvm/rustc](https://github.com/moturus/motor-os/issues/26)
-* [Diesel - Improve documentation for Postgres loading modesdocumentation](https://github.com/diesel-rs/diesel/issues/4764)
+* [Diesel - Improve documentation for Postgres loading modes](https://github.com/diesel-rs/diesel/issues/4764)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
