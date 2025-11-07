@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+- [Tokuin 0.1.2: Load Testing LLMs from the Terminal](https://noos.blog/posts/tokuin-token-tooling-for-llm-builders/) – deep dive into the Rust-built `tokuin` CLI: a token/cost estimator turned async load-testing harness for LLM APIs, complete with real-time metrics, provider plugins, and cross-platform installers.
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
