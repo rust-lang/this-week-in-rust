@@ -98,11 +98,9 @@ The editors of This Week in Rust do reserve the right to make the decision about
 
 There are further guidelines for the Events Section
 
-We include:
-* Events/workshops that are free of charge
+We prefer to include events/workshops that are free of charge. 
 
-We do not include:
-* Commercial offerings
+We generally do not include commercial offerings, with exceptions for conferences and similar educational offerings. 
 
 ## Link style guidelines:
 
