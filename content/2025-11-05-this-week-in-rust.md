@@ -461,6 +461,7 @@ Thanks to [Brett Witty](https://users.rust-lang.org/t/twir-quote-of-the-week/328
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
 This Week in Rust is edited by:
+
 * [nellshamrell](https://github.com/nellshamrell)
 * [llogiq](https://github.com/llogiq)
 * [ericseppanen](https://github.com/ericseppanen)
