@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+[Matching Wildcards in Rust](https://developforperformance.com/MatchingWildcardsInRust.html)
 
 ### Research
 
