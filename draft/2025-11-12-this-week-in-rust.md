@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-- [semver-query: semantic versioning data query tool](https://github.com/zak905/semver-query
+- [semver-query: semantic versioning data query tool](https://github.com/zak905/semver-query)
 
 ### Observations/Thoughts
 
