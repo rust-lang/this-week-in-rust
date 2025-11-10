@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Rust Hashing Cheat Sheet](https://bd103.github.io/blog/2025-11-10-rust-hashing-cheat-sheet/)
+
 ### Research
 
 ### Miscellaneous
