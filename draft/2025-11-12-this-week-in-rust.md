@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[channels-console - real-time monitoring, metrics and logs for Rust channels](https://github.com/pawurb/channels-console)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
