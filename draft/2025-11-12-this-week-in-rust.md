@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [qstr: Cache-efficient, stack-allocated string types](https://github.com/tindzk/qstr)
 
 ### Observations/Thoughts
 
