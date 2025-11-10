@@ -220,7 +220,7 @@ Rusty Events between 2025-11-12 - 2025-12-10 🦀
     * [**👋 Community Catch Up**](https://www.meetup.com/women-in-rust/events/311068632/)
 * 2025-11-12 | Virtual (Boulder, CO, US) | [Boulder Elixir](https://www.meetup.com/boulder-elixir/events/)
     * [**Integrating Elixir and Apache DataFusion with Rustler**](https://www.meetup.com/boulder-elixir/events/310996627/)
-* 2025-11-12 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.club)
+* 2025-11-12 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.github.io)
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/yhe1xrhe)
 * 2025-11-13 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/events/)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/310849154/)
@@ -228,7 +228,7 @@ Rusty Events between 2025-11-12 - 2025-12-10 🦀
     * [**Rust Readers Discord Discussion: Macros**](https://www.meetup.com/dallasrust/events/311109181/)
 * 2025-11-18 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/events/)
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/310002262/)
-* 2025-11-19 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.club)
+* 2025-11-19 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.github.io)
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/l2xukapz)
 * 2025-11-19 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/events/)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/309926564/)
@@ -242,7 +242,7 @@ Rusty Events between 2025-11-12 - 2025-12-10 🦀
     * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/305361446/)
 * 2025-11-25 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
     * [**Data-Intensive Systems in Rust: Safety, Speed, Concurrency**](https://www.meetup.com/women-in-rust/events/311534469/)
-* 2025-11-26 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.club)
+* 2025-11-26 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.github.io)
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/q5tjirkt)
 * 2025-11-30 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
     * [**Rust Readers Discord Discussion: Macros**](https://www.meetup.com/dallasrust/events/311109188/)
@@ -250,8 +250,6 @@ Rusty Events between 2025-11-12 - 2025-12-10 🦀
     * [**Advent of Code - Kick Off!**](https://www.meetup.com/women-in-rust/events/311068648/)
 * 2025-12-03 | Virtual (Buffalo, NY, US) | [Buffalo Rust Meetup](https://www.meetup.com/buffalo-rust-meetup/events/)
     * [**Buffalo Rust User Group**](https://www.meetup.com/buffalo-rust-meetup/events/305304242/)
-* 2025-12-03 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.club)
-    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/yf2t878c)
 * 2025-12-03 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/wqzhftyhcqbfb/)
 
@@ -266,8 +264,6 @@ Rusty Events between 2025-11-12 - 2025-12-10 🦀
 ### Europe
 * 2025-11-05 | Bergen, NO | [Hubbel kodeklubb](https://www.meetup.com/bergen-html-css-meetup-group/events/)
     * [**Workshop c# - nr 1 av 2 - grunnleggende nivå**](https://www.meetup.com/bergen-html-css-meetup-group/events/311784113/)
-* 2025-11-05 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.club)
-    * [**Rust Girona Hack & Learn 11 2025**](https://luma.com/xl8ob0tn)
 * 2025-11-05 | Köln, DE | [Rust Cologne](https://www.meetup.com/rust-cologne-bonn/events/)
     * [**Rust in November: Small Crates Cult**](https://www.meetup.com/rustcologne/events/311767026/)
 * 2025-11-05 | Oslo, NO | [Rust Oslo](https://www.meetup.com/rust-oslo)
@@ -316,6 +312,8 @@ Rusty Events between 2025-11-12 - 2025-12-10 🦀
     * [**Rust Meetup Prague @ Barclays**](https://www.meetup.com/rust-prague/events/311846118/)
 * 2025-12-03 | Oxford, UK | [Oxford ACCU/Rust Meetup.](https://www.meetup.com/oxford-rust-meetup-group/events/)
     * [**Rust/ACCU meetup.**](https://www.meetup.com/oxford-rust-meetup-group/events/nnrkttyhcqbfb/)
+* 2025-12-03 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.github.io)
+    * [**Rust Girona Hack & Learn 12 2025**](https://luma.com/8ncu1p8l)
 
 ### North America
 * 2025-11-06 | Montréal, QC, CA | [Rust Montréal](https://www.meetup.com/rust-montreal/events/)
