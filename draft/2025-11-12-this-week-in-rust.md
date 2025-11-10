@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [semver-query: semantic versioning data query tool](https://github.com/zak905/semver-query
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
@@ -52,8 +54,6 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-
-- [semver-query](https://github.com/zak905/semver-query): semantic versioning data query tool written in Rust used for automating the process of selecting a package or artifact version that match certain criteria.
 
 ## Crate of the Week
 
