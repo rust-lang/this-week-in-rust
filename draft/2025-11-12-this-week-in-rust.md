@@ -141,7 +141,17 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Mostly quiet week, with the majority of changes coming from the standard
+library work towards removal of Copy specialization
+([#135634](https://github.com/rust-lang/rust/pull/135634)).
+
+Triage done by **@simulacrum**.
+Revision range: [35ebdf9b..055d0d6a](https://perf.rust-lang.org/?start=35ebdf9ba1414456dfe1cb6a6b13ebae80e99734&end=055d0d6aaf937cc11b3d2a5b5725972723b7f3c6&absolute=false&stat=instructions%3Au)
+
+3 Regressions, 1 Improvement, 7 Mixed; 3 of them in rollups
+37 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2025/2025-11-10.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
