@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [audio] [Netstack.FM Episode 13 –  Inside Ping Proxies with Joseph Dye](https://netstack.fm/#episode-13)
+
 ### Rust Walkthroughs
 
 ### Research
