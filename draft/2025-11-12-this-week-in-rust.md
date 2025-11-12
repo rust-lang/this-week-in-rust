@@ -303,6 +303,8 @@ Rusty Events between 2025-11-12 - 2025-12-10 🦀
     * [**Rust meetup #80**](https://www.meetup.com/rust-paris/events/311461594/)
 * 2025-11-14 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/stockholm-rust/events/)
     * [**Rust Meetup @Magello**](https://www.meetup.com/stockholm-rust/events/311844163/)
+* 2025-11-18 | Bergen, NO | [Rust Bergen](https://www.meetup.com/bergen-rust-new-technology/events/)
+    * [**Bevy, Compilers & Algebraic Data Types @ Zrch**](https://www.meetup.com/de-DE/bergen-rust-new-technology/events/311630543)
 * 2025-11-18 | Leipzig, SN, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/)
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/308592257/)
 * 2025-11-19 | Ostrava, CZ | [TechMeetup Ostrava](https://www.meetup.com/techmeetupostrava/events/)
