@@ -50,7 +50,7 @@ and just ask the editors to select the category.
 * [Tokuin 0.1.2: Load Testing LLMs from the Terminal](https://noos.blog/posts/tokuin-token-tooling-for-llm-builders/)
 * [semver-query: semantic versioning data query tool](https://github.com/zak905/semver-query)
 * [SeaORM 2.0: Strongly-Typed Column](https://www.sea-ql.org/blog/2025-11-11-sea-orm-2.0/)
-* [Tako 0.5.0](https://rust-dd.com/post/tako-v-0-5-0-road-to-v-1-0-0)
+* [Tako 0.5.0 road to v1.0.0](https://rust-dd.com/post/tako-v-0-5-0-road-to-v-1-0-0)
 
 ### Observations/Thoughts
 * [audio] [Netstack.FM Episode 13 – Inside Ping Proxies with Joseph Dye](https://netstack.fm/#episode-13)
