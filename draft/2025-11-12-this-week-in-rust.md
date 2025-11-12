@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #58](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-58)
 
 ### Project/Tooling Updates
 * [Tokuin 0.1.2: Load Testing LLMs from the Terminal](https://noos.blog/posts/tokuin-token-tooling-for-llm-builders/)
