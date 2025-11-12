@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 * [The Embedded Rustacean Issue #58](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-58)
 
 ### Project/Tooling Updates
+* [qstr: Cache-efficient, stack-allocated string types](https://github.com/tindzk/qstr)
 * [Tokuin 0.1.2: Load Testing LLMs from the Terminal](https://noos.blog/posts/tokuin-token-tooling-for-llm-builders/)
 * [semver-query: semantic versioning data query tool](https://github.com/zak905/semver-query)
 
