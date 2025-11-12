@@ -310,10 +310,10 @@ Rusty Events between 2025-11-12 - 2025-12-10 🦀
     * [**November Talks: Exotically Sized Types and ...**](https://www.meetup.com/rust-and-friends/events/311753411/)
 * 2025-11-28 | Prague, CZ | [Rust Prague](https://www.meetup.com/rust-prague/events/)
     * [**Rust Meetup Prague @ Barclays**](https://www.meetup.com/rust-prague/events/311846118/)
-* 2025-12-03 | Oxford, UK | [Oxford ACCU/Rust Meetup.](https://www.meetup.com/oxford-rust-meetup-group/events/)
-    * [**Rust/ACCU meetup.**](https://www.meetup.com/oxford-rust-meetup-group/events/nnrkttyhcqbfb/)
 * 2025-12-03 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.github.io)
     * [**Rust Girona Hack & Learn 12 2025**](https://luma.com/8ncu1p8l)
+* 2025-12-03 | Oxford, UK | [Oxford ACCU/Rust Meetup.](https://www.meetup.com/oxford-rust-meetup-group/events/)
+    * [**Rust/ACCU meetup.**](https://www.meetup.com/oxford-rust-meetup-group/events/nnrkttyhcqbfb/)
 
 ### North America
 * 2025-11-06 | Montréal, QC, CA | [Rust Montréal](https://www.meetup.com/rust-montreal/events/)
