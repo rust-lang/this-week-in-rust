@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 * [SeaORM 2.0: Strongly-Typed Column](https://www.sea-ql.org/blog/2025-11-11-sea-orm-2.0/)
 
 ### Observations/Thoughts
+* [audio] [Netstack.FM Episode 13 – Inside Ping Proxies with Joseph Dye](https://netstack.fm/#episode-13)
 
 ### Rust Walkthroughs
 * [Rust Hashing Cheat Sheet](https://bd103.github.io/blog/2025-11-10-rust-hashing-cheat-sheet/)
