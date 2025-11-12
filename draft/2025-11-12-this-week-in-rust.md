@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Tokuin 0.1.2: Load Testing LLMs from the Terminal](https://noos.blog/posts/tokuin-token-tooling-for-llm-builders/)
 
 ### Observations/Thoughts
 
@@ -52,6 +53,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+
 
 ## Crate of the Week
 
