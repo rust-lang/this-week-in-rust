@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 * [Tokuin 0.1.2: Load Testing LLMs from the Terminal](https://noos.blog/posts/tokuin-token-tooling-for-llm-builders/)
 * [semver-query: semantic versioning data query tool](https://github.com/zak905/semver-query)
 * [SeaORM 2.0: Strongly-Typed Column](https://www.sea-ql.org/blog/2025-11-11-sea-orm-2.0/)
+* [LLMs: nanoGPT model in Rust - arrowspace v0.22.0 released](https://www.tuned.org.uk/posts/009_llms_nanogpt_model_in_rust)
+* [InterpN: Fast Interpolation](https://jlogan.dev/blog/2025/11/10/2025-11-10-interpn-fast-interpolation/)
 
 ### Observations/Thoughts
 * [audio] [Netstack.FM Episode 13 – Inside Ping Proxies with Joseph Dye](https://netstack.fm/#episode-13)
