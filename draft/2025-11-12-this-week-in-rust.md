@@ -75,9 +75,11 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [automesh](https://docs.rs/automesh), a crate for high-performance automatic mesh generation in Rust.
 
-[Please submit your suggestions and votes for next week][submit_crate]!
+Thanks to [Michael R. Buche](https://users.rust-lang.org/t/crate-of-the-week/2704/1485) for the self-suggestion!
+
+[Please submit your suggestions and votes for neMichael R. Buchext week][submit_crate]!
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
@@ -135,7 +137,60 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+409 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-11-04..2025-11-11
+
+#### Compiler
+* [add LLVM realtime sanitizer](https://github.com/rust-lang/rust/pull/147935)
+* [don't completely reset `HeadUsages`](https://github.com/rust-lang/rust/pull/148649)
+* [use annotate-snippets by default on nightly](https://github.com/rust-lang/rust/pull/148188)
+* [implement SIMD funnel shifts in const-eval/Miri](https://github.com/rust-lang/rust/pull/147534)
+* [recover `[T: N]` as `[T; N]`](https://github.com/rust-lang/rust/pull/148680)
+
+#### Library
+* [add Allocator proxy impls for Box, Rc, and Arc](https://github.com/rust-lang/rust/pull/148539)
+* [add `extend_front` to VecDeque with specialization like extend](https://github.com/rust-lang/rust/pull/146861)
+* [add alignment parameter to `simd_masked_{load,store}`](https://github.com/rust-lang/rust/pull/147355)
+* [constify `ControlFlow` methods with unstable bounds](https://github.com/rust-lang/rust/pull/148285)
+* [constify `ControlFlow` methods without unstable bounds](https://github.com/rust-lang/rust/pull/148248)
+* [constify result unwrap unchecked](https://github.com/rust-lang/rust/pull/148333)
+* [optimize path components iteration on platforms that don't have prefixes](https://github.com/rust-lang/rust/pull/148084)
+* [stabilize `as_array` in `[_]` and `*const [_]`; stabilise `as_mut_array` in `[_]` and `*mut [_]`](https://github.com/rust-lang/rust/pull/147540)
+* [stabilize `vec_deque_pop_if`](https://github.com/rust-lang/rust/pull/145992)
+* [stabilize s390x `vector` target feature and `is_s390x_feature_detected!` macro](https://github.com/rust-lang/rust/pull/145656)
+* [stop specializing on `Copy`](https://github.com/rust-lang/rust/pull/135634)
+
+#### Cargo
+* [`cli`: Refer to commands, not subcommands](https://github.com/rust-lang/cargo/pull/16226)
+* [`completions`: don't wrap completion item help in parenthesis](https://github.com/rust-lang/cargo/pull/16215)
+* [add native completions for `--package` on various commands](https://github.com/rust-lang/cargo/pull/16210)
+
+#### Rustdoc
+* [search: remove broken index special case](https://github.com/rust-lang/rust/pull/148563)
+* [properly highlight shebang, frontmatter & weak keywords in source code pages and code blocks](https://github.com/rust-lang/rust/pull/148230)
+
+#### Clippy
+* [perf: `manual_is_power_of_two`: perform the `is_integer_literal` check first](https://github.com/rust-lang/rust-clippy/pull/16050)
+* [consider type conversion that won't overflow](https://github.com/rust-lang/rust-clippy/pull/15950)
+* [don't flag `cfg(test)` as multiple inherent impl](https://github.com/rust-lang/rust-clippy/pull/16041)
+* [fix `match_single_binding` suggesting wrongly inside tuple](https://github.com/rust-lang/rust-clippy/pull/15539)
+* [fix `missing_asserts_for_indexing` changing `assert_eq` to `assert`](https://github.com/rust-lang/rust-clippy/pull/16040)
+* [fix `missing_inline_in_public_items` failing to fulfill `expect` in `--test` build](https://github.com/rust-lang/rust-clippy/pull/15320)
+* [fix `mod_module_files` false positive for tests in workspaces](https://github.com/rust-lang/rust-clippy/pull/16048)
+* [fix `nonminimal_bool` wrongly unmangled terms](https://github.com/rust-lang/rust-clippy/pull/16017)
+* [fix `useless_let_if_seq` false negative when `if` is in the last expr of block](https://github.com/rust-lang/rust-clippy/pull/16063)
+
+#### Rust-Analyzer
+* [support rename after adding loop label](https://github.com/rust-lang/rust-analyzer/pull/20985)
+* [add block on postfix `.const` completion](https://github.com/rust-lang/rust-analyzer/pull/21003)
+* [fix panicking while resolving callable sigs for `AsyncFnMut`](https://github.com/rust-lang/rust-analyzer/pull/20971)
+* [handle guards in `replace_if_let_with_match`](https://github.com/rust-lang/rust-analyzer/pull/20542)
+* [handle method calls in `apply_demorgan`](https://github.com/rust-lang/rust-analyzer/pull/20973)
+* [parse `impl ! {}`](https://github.com/rust-lang/rust-analyzer/pull/20972)
+* [move safe computation out of unsafe block](https://github.com/rust-lang/rust-analyzer/pull/20977)
+* [perf: only populate public items in dependency symbol index](https://github.com/rust-lang/rust-analyzer/pull/20997)
+* [perf: reduce memory usage of symbol index](https://github.com/rust-lang/rust-analyzer/pull/20994)
 
 ### Rust Compiler Performance Triage
 
@@ -337,7 +392,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Making your `unsafe` very tiny is sort of like putting caution markings *on* the lethally strong robot arm with no proximity sensors, rather than on the door into the protective cage.
+
+– [Stephan Sokolow on lobste.rs](https://lobste.rs/c/0vkdmo)
+
+Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1727) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
