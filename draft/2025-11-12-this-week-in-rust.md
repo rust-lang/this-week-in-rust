@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 * [Tokuin 0.1.2: Load Testing LLMs from the Terminal](https://noos.blog/posts/tokuin-token-tooling-for-llm-builders/)
 * [semver-query: semantic versioning data query tool](https://github.com/zak905/semver-query)
 * [SeaORM 2.0: Strongly-Typed Column](https://www.sea-ql.org/blog/2025-11-11-sea-orm-2.0/)
+* [LLMs: nanoGPT model in Rust - arrowspace v0.22.0 released](https://www.tuned.org.uk/posts/009_llms_nanogpt_model_in_rust)
+* [InterpN: Fast Interpolation](https://jlogan.dev/blog/2025/11/10/2025-11-10-interpn-fast-interpolation/)
 * [Tako 0.5.0 road to v1.0.0](https://rust-dd.com/post/tako-v-0-5-0-road-to-v-1-0-0)
 
 ### Observations/Thoughts
@@ -120,7 +122,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
-<!-- or if none - *No Calls for participation were submitted this week.* -->
+*No Calls for participation were submitted this week.*
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -132,6 +134,8 @@ Are you a new or experienced speaker looking for a place to share something cool
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+
+* [**TokioConf 2026**](https://tokio.rs/blog/2025-09-26-announcing-tokio-conf-cfp)| CFP closes 2025-12-08 | Portland, Oregon, USA | 2026-04-20
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
