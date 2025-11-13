@@ -227,7 +227,7 @@ which are reaching a decision. Express your opinions now.
 * [Stabilize `-Zremap-path-scope`](https://github.com/rust-lang/rust/pull/147611)
 * [error out when `repr(align)` exceeds COFF limit](https://github.com/rust-lang/rust/pull/142638)
 
-[Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20%20label%3Afinal-comment-period) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html)
+##### [Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20%20label%3Afinal-comment-period) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html)
 * [target tier 3 support for hexagon-unknown-qurt](https://github.com/rust-lang/compiler-team/issues/919)
 * [Proposal for a dedicated test suite for the parallel frontend](https://github.com/rust-lang/compiler-team/issues/906)
 * [Proposal for Adapt Stack Protector for Rust](https://github.com/rust-lang/compiler-team/issues/841)
