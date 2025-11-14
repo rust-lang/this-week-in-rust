@@ -76,7 +76,7 @@ This week's crate is [automesh](https://docs.rs/automesh), a crate for high-perf
 
 Thanks to [Michael R. Buche](https://users.rust-lang.org/t/crate-of-the-week/2704/1485) for the self-suggestion!
 
-[Please submit your suggestions and votes for neMichael R. Buchext week][submit_crate]!
+[Please submit your suggestions and votes for next week][submit_crate]!
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
