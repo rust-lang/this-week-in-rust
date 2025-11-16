@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [Rust Trends Issue #72: From Experimental to Enterprise: Rust's Production Moment](https://rust-trends.com/newsletter/experimental-to-enterprise-rust-production)
+
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
