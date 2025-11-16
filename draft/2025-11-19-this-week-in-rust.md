@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [lowess 0.1.0](https://crates.io/crates/lowess) - Production-grade LOWESS (Locally Weighted Scatterplot Smoothing) implementation for scientific computing. Features robust statistics with confidence/prediction intervals, automatic parameter selection via cross-validation, parallel execution, and streaming support for large datasets. Designed for genomics, bioinformatics, and time series analysis.
 
 ### Observations/Thoughts
 
