@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [audio] [Netstack.FM Episode 14 –  Roto And Cascade with Terts and Arya from NLnet Labs](https://netstack.fm/#episode-14)
+
 ### Rust Walkthroughs
 
 ### Research
