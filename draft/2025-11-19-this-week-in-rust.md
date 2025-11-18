@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [Rust Unit Tests: Assertion libraries](https://jorgeortiz.dev/posts/rust_unit_testing_assertion_libraries/)
+- [Rust Unit Tests: Using a mocking library](https://jorgeortiz.dev/posts/rust_unit_testing_mocking_library/)
 
 ### Research
 
