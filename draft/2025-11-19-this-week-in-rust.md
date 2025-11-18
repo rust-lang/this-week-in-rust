@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [cargo cat](crates.io/crates/cat-ascii-faces), a cargo-subcommand to put a random ascii cat face on your terminal.
+
+Thanks to [Alejandra Gonzáles](https://users.rust-lang.org/t/crate-of-the-week/2704/1490) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -137,7 +139,51 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+427 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-11-11..2025-11-18
+
+ #### Compiler
+* [add new `function_casts_as_integer` lint](https://github.com/rust-lang/rust/pull/141470)
+* [miri: initial implementation of wildcard provenence for tree borrows](https://github.com/rust-lang/miri/pull/4630)
+ #### Library
+* [new `format_args!()` and `fmt::Arguments` implementation](https://github.com/rust-lang/rust/pull/148789)
+* [`vec_recycle`: implementation](https://github.com/rust-lang/rust/pull/148416)
+* [implement `Read::read_array`](https://github.com/rust-lang/rust/pull/148850)
+* [stabilize `char_max_len`](https://github.com/rust-lang/rust/pull/145610)
+* [stabilize `duration_from_nanos_u128`](https://github.com/rust-lang/rust/pull/148587)
+* [stabilize `extern_system_varargs`](https://github.com/rust-lang/rust/pull/145954)
+* [stabilize `vec_into_raw_parts`](https://github.com/rust-lang/rust/pull/148827)
+* [constify `ManuallyDrop::take`](https://github.com/rust-lang/rust/pull/148752)
+* [constify `mem::take`](https://github.com/rust-lang/rust/pull/148757)
+* [remove `rustc_inherit_overflow_checks` from `position()` in slice iterators](https://github.com/rust-lang/rust/pull/148944)
+ #### Cargo
+* [`cli`: add support for completing `--config` values in Bash](https://github.com/rust-lang/cargo/pull/16245)
+* [`tree`: support long forms for --format variables](https://github.com/rust-lang/cargo/pull/16204)
+* [`config`: fallback to non-canonical path for workspace-path-hash](https://github.com/rust-lang/cargo/pull/16248)
+* [`manifest`: point out when a key belongs to config](https://github.com/rust-lang/cargo/pull/16256)
+* [`package`: all tar entries timestamp be the same](https://github.com/rust-lang/cargo/pull/16242)
+* [do not lock the artifact-dir for check builds](https://github.com/rust-lang/cargo/pull/16230)
+* [add unstable rustc-unicode flag](https://github.com/rust-lang/cargo/pull/16243)
+ #### Rustdoc
+* [Fix invalid jump to def macro link generation](https://github.com/rust-lang/rust/pull/148080)
+* [don't ignore path distance for doc aliases](https://github.com/rust-lang/rust/pull/147701)
+* [don't pass `RenderOptions` to `DocContext`](https://github.com/rust-lang/rust/pull/147832)
+* [microoptimize `render_item,` move stuff out of common path](https://github.com/rust-lang/rust/pull/148877)
+* [quality of life changes](https://github.com/rust-lang/rust/pull/148466)
+ #### Clippy
+* [`ok_expect`: add autofix](https://github.com/rust-lang/rust-clippy/pull/15867)
+* [{`unnecessary`, `panicking`}`_unwrap`: lint field accesses](https://github.com/rust-lang/rust-clippy/pull/15949)
+* [`equatable_if_let`: don't suggest `=` in const context](https://github.com/rust-lang/rust-clippy/pull/16092)
+* [`rc_buffer`: don't touch the path to `Rc`/`Arc` in the suggestion](https://github.com/rust-lang/rust-clippy/pull/15803)
+* [`incompatible_msrv`: don't check the contents of any `std` macro](https://github.com/rust-lang/rust-clippy/pull/16083)
+* [add a `doc_paragraphs_missing_punctuation` lint](https://github.com/rust-lang/rust-clippy/pull/15758)
+* [fix `single_range_in_vec_init` false positive for explicit `Range`](https://github.com/rust-lang/rust-clippy/pull/16043)
+* [fix `sliced_string_as_bytes` false positive with a `RangeFull`](https://github.com/rust-lang/rust-clippy/pull/15873)
+* [fix website history interactions](https://github.com/rust-lang/rust-clippy/pull/16060)
+* [rework `missing_docs_in_private_items`](https://github.com/rust-lang/rust-clippy/pull/14741)
+ #### Rust-Analyzer
+* [fix removed feature `doc_auto_cfg` for `smol_str` lib](https://github.com/rust-lang/rust-analyzer/pull/21021)
 
 ### Rust Compiler Performance Triage
 
@@ -342,7 +388,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> We adopted Rust for its security and are seeing a 1000x reduction in memory safety vulnerability density compared to Android’s C and C++ code. But the biggest surprise was Rust's impact on software delivery. With Rust changes having a 4x lower rollback rate and spending 25% less time in code review, the safer path is now also the faster one.
+
+– [Jeff Vander Stoep on the Google Android blog](https://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html)
+
+Thanks to [binarycat](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1728) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
