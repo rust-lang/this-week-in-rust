@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [audio] [Netstack.FM Episode 14 –  Roto And Cascade with Terts and Arya from NLnet Labs](https://netstack.fm/#episode-14)
 * [Improving the Incremental System in the Rust Compiler](https://blog.goose.love/posts/improving-the-incremental-system-in-the-rust-compiler/)
 * [Truly First-Class Custom Smart Pointers](https://nadrieril.github.io/blog/2025/11/11/truly-first-class-custom-smart-pointers.html)
 * [Pinning is a kind of static borrow](https://nadrieril.github.io/blog/2025/11/12/pinning-is-a-kind-of-static-borrow.html)
