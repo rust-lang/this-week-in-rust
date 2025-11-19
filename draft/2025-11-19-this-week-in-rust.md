@@ -58,6 +58,8 @@ and just ask the editors to select the category.
 * [Pinning is a kind of static borrow](https://nadrieril.github.io/blog/2025/11/12/pinning-is-a-kind-of-static-borrow.html)
 
 ### Rust Walkthroughs
+- [Rust Unit Tests: Assertion libraries](https://jorgeortiz.dev/posts/rust_unit_testing_assertion_libraries/)
+- [Rust Unit Tests: Using a mocking library](https://jorgeortiz.dev/posts/rust_unit_testing_mocking_library/)
 
 ### Research
 
