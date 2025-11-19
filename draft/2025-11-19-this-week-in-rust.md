@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [GuardianDB v0.11.28: Complete migration from tracing to slog, batch processor integrated with the Iroh backend, and GuardianDB is now available on crates.io.](https://www.willsearch.com.br/blog/2025/11/18/whats-new-in-guardiandb-v0-11-18/)
+* [GuardianDB v0.11.28](https://www.willsearch.com.br/blog/2025/11/18/whats-new-in-guardiandb-v0-11-18/)
 
 ### Observations/Thoughts
 
