@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Pinning is a kind of static borrow](https://nadrieril.github.io/blog/2025/11/12/pinning-is-a-kind-of-static-borrow.html)
+
 ### Rust Walkthroughs
 
 ### Research
