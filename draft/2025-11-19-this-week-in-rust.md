@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [GuardianDB v0.11.28](https://www.willsearch.com.br/blog/2025/11/18/whats-new-in-guardiandb-v0-11-18/)
+* [The current state of Linux architecture support](https://lwn.net/SubscriberLink/1045363/60611dc5ec3f7099/)
 
 ### Observations/Thoughts
 
