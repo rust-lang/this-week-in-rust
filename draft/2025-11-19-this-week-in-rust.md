@@ -57,6 +57,7 @@ and just ask the editors to select the category.
 * [The current state of Linux architecture support](https://lwn.net/SubscriberLink/1045363/60611dc5ec3f7099/)
 
 ### Observations/Thoughts
+* [How Cloudflare uses Rust to serve (and break) millions of websites at 50+ millions requests per second](https://kerkour.com/how-cloudflare-uses-rust)
 
 * [audio] [Netstack.FM Episode 14 –  Roto And Cascade with Terts and Arya from NLnet Labs](https://netstack.fm/#episode-14)
 * [Improving the Incremental System in the Rust Compiler](https://blog.goose.love/posts/improving-the-incremental-system-in-the-rust-compiler/)
