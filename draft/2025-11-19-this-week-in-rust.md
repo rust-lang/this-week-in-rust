@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [Scientific Computing in Rust #12 (November 2025)](https://scientificcomputing.rs/monthly/2025-11)
 
 * [Secure-by-design firmware development with Wasefire](https://opensource.googleblog.com/2025/11/secure-by-design-firmware-development-with-wasefire.html)
 
