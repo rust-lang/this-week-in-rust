@@ -38,40 +38,46 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-
 * [Launching the 2025 State of Rust Survey](https://blog.rust-lang.org/2025/11/17/launching-the-2025-state-of-rust-survey)
 * [Google Summer of Code 2025 results](https://blog.rust-lang.org/2025/11/18/gsoc-2025-results/)
+* [Project goals update — October 2025](https://blog.rust-lang.org/2025/11/19/project-goals-update-october-2025/)
+* [Project goals update — September 2025](https://blog.rust-lang.org/2025/11/19/Project-Goals-2025-September-Update/)
 
 ### Foundation
 
 ### Newsletters
 * [Scientific Computing in Rust #12 (November 2025)](https://scientificcomputing.rs/monthly/2025-11)
-
 * [Secure-by-design firmware development with Wasefire](https://opensource.googleblog.com/2025/11/secure-by-design-firmware-development-with-wasefire.html)
-
 * [Rust Trends Issue #72: From Experimental to Enterprise: Rust's Production Moment](https://rust-trends.com/newsletter/experimental-to-enterprise-rust-production)
 
 ### Project/Tooling Updates
-
 * [GuardianDB v0.11.28](https://www.willsearch.com.br/blog/2025/11/18/whats-new-in-guardiandb-v0-11-18/)
 * [The current state of Linux architecture support](https://lwn.net/SubscriberLink/1045363/60611dc5ec3f7099/)
 
 ### Observations/Thoughts
-
 * [audio] [Netstack.FM Episode 14 –  Roto And Cascade with Terts and Arya from NLnet Labs](https://netstack.fm/#episode-14)
 * [Improving the Incremental System in the Rust Compiler](https://blog.goose.love/posts/improving-the-incremental-system-in-the-rust-compiler/)
 * [Truly First-Class Custom Smart Pointers](https://nadrieril.github.io/blog/2025/11/11/truly-first-class-custom-smart-pointers.html)
 * [Pinning is a kind of static borrow](https://nadrieril.github.io/blog/2025/11/12/pinning-is-a-kind-of-static-borrow.html)
 * [Rust in Android: move fast and fix things](https://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html)
-
+* [Match it again Sam](https://www.sminez.dev/match-it-again-sam/)
+* [Humanity is stained by the sins of C and no LLM can rewrite them away to Rust](https://kirancodes.me/posts/log-sins-of-c.html)
+* [UV and Ruff: Turbocharging Python Development with Rust-Powered Tools](https://www.devtoolsacademy.com/blog/uv-and-ruff-turbocharging-python-development-with-rust-powered-tools/)
+* [A Function Inliner for Wasmtime and Cranelift](https://fitzgen.com/2025/11/19/inliner.html)
 
 ### Rust Walkthroughs
 - [Rust Unit Tests: Assertion libraries](https://jorgeortiz.dev/posts/rust_unit_testing_assertion_libraries/)
 - [Rust Unit Tests: Using a mocking library](https://jorgeortiz.dev/posts/rust_unit_testing_mocking_library/)
+* [A Practical Guide to Transitioning to Memory-Safe Languages](https://queue.acm.org/detail.cfm?id=3773096)
+* [Building WebSocket Protocol in Apache Iggy using io_uring and Completion Based I/O Architecture](https://iggy.apache.org/blogs/2025/11/17/websocket-io-uring/)
+* [Building serverless applications with Rust on AWS Lambda](https://aws.amazon.com/blogs/compute/building-serverless-applications-with-rust-on-aws-lambda/)
+* [Disallow code usage with a custom `clippy.toml`](https://www.schneems.com/2025/11/19/find-accidental-code-usage-with-a-custom-clippytoml/)
 
 ### Research
 
 ### Miscellaneous
+* [Absurd Rust? Never!](https://academy.fpblock.com/blog/absurd-rust-never/?share=1)
+* [video] [Linus Torvalds — Speaks up on the Rust Divide and saying NO](https://www.youtube.com/watch?v=amyKC9lJe3Q)
 * [October 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/oct-25)
 * [Rust’s Strategic Advantage](https://sysid.github.io/rusts-strategic-advantage/)
 
