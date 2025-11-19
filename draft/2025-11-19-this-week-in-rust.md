@@ -60,6 +60,8 @@ and just ask the editors to select the category.
 * [Improving the Incremental System in the Rust Compiler](https://blog.goose.love/posts/improving-the-incremental-system-in-the-rust-compiler/)
 * [Truly First-Class Custom Smart Pointers](https://nadrieril.github.io/blog/2025/11/11/truly-first-class-custom-smart-pointers.html)
 * [Pinning is a kind of static borrow](https://nadrieril.github.io/blog/2025/11/12/pinning-is-a-kind-of-static-borrow.html)
+* [Rust in Android: move fast and fix things](https://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html)
+
 
 ### Rust Walkthroughs
 - [Rust Unit Tests: Assertion libraries](https://jorgeortiz.dev/posts/rust_unit_testing_assertion_libraries/)
