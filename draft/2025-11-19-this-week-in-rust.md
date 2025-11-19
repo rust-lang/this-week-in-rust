@@ -72,7 +72,8 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-[Rust’s Strategic Advantage](https://sysid.github.io/rusts-strategic-advantage/)
+* [October 2025 Rust Jobs Report](https://filtra.io/rust/jobs-report/oct-25)
+* [Rust’s Strategic Advantage](https://sysid.github.io/rusts-strategic-advantage/)
 
 ## Crate of the Week
 
