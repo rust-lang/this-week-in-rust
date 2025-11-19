@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Launching the 2025 State of Rust Survey](https://blog.rust-lang.org/2025/11/17/launching-the-2025-state-of-rust-survey)
 * [Google Summer of Code 2025 results](https://blog.rust-lang.org/2025/11/18/gsoc-2025-results/)
 
 ### Foundation
