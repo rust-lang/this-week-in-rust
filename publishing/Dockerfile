@@ -36,7 +36,7 @@ COPY themes themes
 COPY pelicanconf.py pelicanconf.py
 
 # just website && just email needs these scripts
-COPY publishing/*.sh .
+COPY publishing/*.sh ./
 RUN chmod +x *.sh
 
 CMD ["pelican", "--delete-output-directory", "content"]
