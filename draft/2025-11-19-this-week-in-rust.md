@@ -274,8 +274,6 @@ Rusty Events between 2025-11-19 - 2025-12-17 🦀
     * [**Rust Meetup @ Monumental X Zed**](https://www.meetup.com/rust-amsterdam-group/events/311829267/)
 * 2025-11-20 | Luzern, CH | [Rust Luzern](https://www.meetup.com/rust-luzern/)
     * [**2025 Rust Talks Luzern #3: Crate Walkthroughs @ Noser Engineering AG**](https://www.meetup.com/rust-luzern/events/311410681/)
-* 2025-11-26 | Bergen, NO | [Hubbel kodeklubb](https://www.meetup.com/bergen-html-css-meetup-group/)
-    * [**Workshop c# - nr 2 av 2 - grunnleggende nivå**](https://www.meetup.com/bergen-html-css-meetup-group/events/311784127/)
 * 2025-11-26 | Bern, CH | [Rust Bern](https://www.meetup.com/rust-bern)
     * [**2025 Rust Talks Bern #5 @Source Engineers**](https://www.meetup.com/rust-bern/events/311792568/)
 * 2025-11-27 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
