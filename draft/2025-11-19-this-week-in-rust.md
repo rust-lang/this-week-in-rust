@@ -147,7 +147,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-Positive week, most notably because of the new format_args!() and fmt::Arguments implementation from [#148789](https://github.com/rust-lang/rust/pull/148789). Another notable improvement came from moving some between some compiler stages to save memory and unnecessary tree traversals in [#148706](https://github.com/rust-lang/rust/pull/148706)
+Positive week, most notably because of the new format_args!() and fmt::Arguments implementation from [#148789](https://github.com/rust-lang/rust/pull/148789). Another notable improvement came from moving some computations from one compiler stage to another to save memory and unnecessary tree traversals in [#148706](https://github.com/rust-lang/rust/pull/148706)
 
 Triage done by **@panstromek**.
 Revision range: [055d0d6a..6159a440](https://perf.rust-lang.org/?start=055d0d6aaf937cc11b3d2a5b5725972723b7f3c6&end=6159a44067ebce42b38f062cc7df267a1348e092&absolute=false&stat=instructions%3Au)
