@@ -43,17 +43,26 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [Secure-by-design firmware development with Wasefire](https://opensource.googleblog.com/2025/11/secure-by-design-firmware-development-with-wasefire.html)
+
 ### Project/Tooling Updates
+
+* [GuardianDB v0.11.28](https://www.willsearch.com.br/blog/2025/11/18/whats-new-in-guardiandb-v0-11-18/)
+* [The current state of Linux architecture support](https://lwn.net/SubscriberLink/1045363/60611dc5ec3f7099/)
 
 ### Observations/Thoughts
 
 * [audio] [Netstack.FM Episode 14 –  Roto And Cascade with Terts and Arya from NLnet Labs](https://netstack.fm/#episode-14)
+* [Improving the Incremental System in the Rust Compiler](https://blog.goose.love/posts/improving-the-incremental-system-in-the-rust-compiler/)
+* [Truly First-Class Custom Smart Pointers](https://nadrieril.github.io/blog/2025/11/11/truly-first-class-custom-smart-pointers.html)
+* [Pinning is a kind of static borrow](https://nadrieril.github.io/blog/2025/11/12/pinning-is-a-kind-of-static-borrow.html)
 
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+[Rust’s Strategic Advantage](https://sysid.github.io/rusts-strategic-advantage/)
 
 ## Crate of the Week
 
@@ -120,9 +129,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-<!-- * [ - ]() -->
-<!-- or if none - *No Calls for participation were submitted this week.* -->
+* [GuardianDB - Create and translate documentation to English](https://github.com/wmaslonek/guardian-db/issues/3)
+* [GuardianDB - Increase test coverage (currently 13%)](https://github.com/wmaslonek/guardian-db/issues/4)
+* [GuardianDB - Create cohesive usage examples](https://github.com/wmaslonek/guardian-db/issues/5)
+* [GuardianDB - Backend Iroh IPFS Node](https://github.com/wmaslonek/guardian-db/issues/6)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -131,9 +141,12 @@ If you are a Rust project owner and are looking for contributors, please submit 
 ### CFP - Events
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
+* [**Rustikon 2026**](https://sessionize.com/rustikon-2026/) \| CFP closes: 2025-11-24 23:59 \| Warsaw, Poland \| Event: 2025-03-19–2025-03-20 [Event website](https://www.rustikon.dev/)<!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+
+* [**RustWeek 2026**](https://sessionize.com/rustweek-2026/)| CFP closes 2025-12-31 | Utrecht, The Netherlands | 2026-05-19 - 2026-05-20
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -282,6 +295,8 @@ Rusty Events between 2025-11-19 - 2025-12-17 🦀
     * [**Workshop c# - nr 2 av 2 - grunnleggende nivå**](https://www.meetup.com/bergen-html-css-meetup-group/events/311784127/)
 * 2025-11-26 | Bern, CH | [Rust Bern](https://www.meetup.com/rust-bern/events/)
     * [**2025 Rust Talks Bern #5 @Source Engineers**](https://www.meetup.com/rust-bern/events/311792568/)
+* 2025-11-27 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
+    * [**Rust Meetup #16: Christian Meusel - Oxidizing Step by Step**](https://rust-augsburg.github.io/meetup/Meetup_16.html)
 * 2025-11-27 | Barcelona, ES | [BcnRust](https://www.meetup.com/bcnrust/events/)
     * [**19th BcnRust Meetup**](https://www.meetup.com/bcnrust/events/311787736/)
 * 2025-11-27 | Edinburgh, UK | [Rust and Friends](https://www.meetup.com/rust-edi/events/)
