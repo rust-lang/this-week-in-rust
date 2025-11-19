@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 * [GuardianDB v0.11.28](https://www.willsearch.com.br/blog/2025/11/18/whats-new-in-guardiandb-v0-11-18/)
 
 ### Observations/Thoughts
+* [How Cloudflare uses Rust to serve (and break) millions of websites at 50+ millions requests per second](https://kerkour.com/how-cloudflare-uses-rust)
 
 ### Rust Walkthroughs
 
