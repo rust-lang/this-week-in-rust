@@ -286,6 +286,8 @@ Rusty Events between 2025-11-19 - 2025-12-17 🦀
     * [**Workshop c# - nr 2 av 2 - grunnleggende nivå**](https://www.meetup.com/bergen-html-css-meetup-group/events/311784127/)
 * 2025-11-26 | Bern, CH | [Rust Bern](https://www.meetup.com/rust-bern/events/)
     * [**2025 Rust Talks Bern #5 @Source Engineers**](https://www.meetup.com/rust-bern/events/311792568/)
+* 2025-11-27 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
+    * [**Rust Meetup #16: Christian Meusel - Oxidizing Step by Step**](https://rust-augsburg.github.io/meetup/Meetup_16.html)
 * 2025-11-27 | Barcelona, ES | [BcnRust](https://www.meetup.com/bcnrust/events/)
     * [**19th BcnRust Meetup**](https://www.meetup.com/bcnrust/events/311787736/)
 * 2025-11-27 | Edinburgh, UK | [Rust and Friends](https://www.meetup.com/rust-edi/events/)
