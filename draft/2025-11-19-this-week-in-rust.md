@@ -174,7 +174,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Positive week, most notably because of the new format_args!() and fmt::Arguments implementation from [#148789](https://github.com/rust-lang/rust/pull/148789). Another notable improvement came from moving some computations from one compiler stage to another to save memory and unnecessary tree traversals in [#148706](https://github.com/rust-lang/rust/pull/148706)
+
+Triage done by **@panstromek**.
+Revision range: [055d0d6a..6159a440](https://perf.rust-lang.org/?start=055d0d6aaf937cc11b3d2a5b5725972723b7f3c6&end=6159a44067ebce42b38f062cc7df267a1348e092&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 1.6%  | [0.2%, 5.6%]    | 11    |
+| Regressions ❌ <br /> (secondary)  | 0.3%  | [0.1%, 1.1%]    | 26    |
+| Improvements ✅ <br /> (primary)   | -0.8% | [-4.5%, -0.1%]  | 161   |
+| Improvements ✅ <br /> (secondary) | -1.4% | [-38.1%, -0.1%] | 168   |
+| All ❌✅ (primary)                 | -0.6% | [-4.5%, 5.6%]   | 172   |
+
+
+2 Regressions, 4 Improvements, 10 Mixed; 4 of them in rollups
+48 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/8cb481daaea8c43b1d694184b0a58fa93001ece6/triage/2025/2025-11-19.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
