@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.15.1](https://blog.rust-lang.org/2017/02/09/Rust-1.15.1.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.15.1](https://blog.rust-lang.org/2017/02/09/Rust-1.15.1.html). 🎉🎈
 * [rustc compiler team design sprint -- summary](http://smallcultfollowing.com/babysteps/blog/2017/02/12/compiler-design-sprint-summary/).
 * [Specialization, coherence, and API evolution](https://aturon.github.io/blog/2017/02/06/specialization-and-coherence/).
 * [Safer microcontrollers almost here](http://dylanmckay.io/blog/rust/avr/llvm/2017/02/09/safer-microcontrollers-almost-here.html). Rust on AVR microcontrollers.

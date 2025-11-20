@@ -17,7 +17,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.14](https://blog.rust-lang.org/2016/12/22/Rust-1.14.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.14](https://blog.rust-lang.org/2016/12/22/Rust-1.14.html). 🎉🎈
 * [Four years with Rust](http://words.steveklabnik.com/four-years-with-rust).
 * [Rust CI / release infrastructure changes](https://internals.rust-lang.org/t/rust-ci-release-infrastructure-changes/4489).
 * [Getting started with Tokio](https://lukesteensen.com/2016/12/getting-started-with-tokio/).

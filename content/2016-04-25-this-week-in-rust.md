@@ -20,7 +20,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.8](http://blog.rust-lang.org/2016/04/14/Rust-1.8.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.8](http://blog.rust-lang.org/2016/04/14/Rust-1.8.html). 🎉🎈
 * [Writing an OS in Rust: Kernel heap](http://os.phil-opp.com/kernel-heap.html). Part of the series [Writing an OS in Rust](http://os.phil-opp.com/).
 * [Learn you a Rust III - Lifetimes 101](http://pro.theta.eu.org/2016/04/16/lyar-lifetimes.html). Part of the series [Learn you a Rust for great good!](http://pro.theta.eu.org/2016/03/12/learn-you-a-rust-for-great-good.html).
 * [PoC: using LLVM’s profile guided optimization in Rust](https://unhandledexpression.com/2016/04/14/using-llvm-pgo-in-rust/).

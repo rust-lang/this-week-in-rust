@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.10](https://blog.rust-lang.org/2016/07/07/Rust-1.10.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.10](https://blog.rust-lang.org/2016/07/07/Rust-1.10.html). 🎉🎈
 * [Refining Rust's RFCs](https://aturon.github.io/blog/2016/07/05/rfc-refinement/).
 * [Translating C to Rust using Corrode (and how you can help)](http://jamey.thesharps.us/2016/07/translating-c-to-rust-and-how-you-can.html).
 * [Rust and Rest](http://lucumr.pocoo.org/2016/7/10/rust-rest/). Lessons Learned from talking to Sentry's HTTP API from Rust.

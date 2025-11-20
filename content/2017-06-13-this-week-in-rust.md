@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.18](https://blog.rust-lang.org/2017/06/08/Rust-1.18.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.18](https://blog.rust-lang.org/2017/06/08/Rust-1.18.html). 🎉🎈
 * [Rustup 1.4.0 released](https://users.rust-lang.org/t/rustup-1-4-0-released/11268).
 * [How MutexGuard was Sync when it should not have been](https://www.ralfj.de/blog/2017/06/09/mutexguard-sync.html).
 * [Exploring Rust's standard library: system calls and errors](https://people.gnome.org/~federico/blog/rust-libstd-syscalls-and-errors.html).

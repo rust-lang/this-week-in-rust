@@ -29,7 +29,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Project Updates
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.12.1](https://blog.rust-lang.org/2016/10/20/Rust-1.12.1.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.12.1](https://blog.rust-lang.org/2016/10/20/Rust-1.12.1.html). 🎉🎈
 * [Introducing Rust Language Server, source release](https://internals.rust-lang.org/t/introducing-rust-language-server-source-release/4209). RLS provides a service that runs in the background, providing IDEs, editors, and other tools with information about Rust programs.
 * [Facebook is writing a Mercurial server in Rust](https://groups.google.com/forum/#!topic/mozilla.dev.version-control/nh4fITFlEMk).
 * [Announcing Cage: Develop and deploy complex Docker applications](http://blog.faraday.io/announcing-cage-develop-and-deploy-complex-docker-applications/).

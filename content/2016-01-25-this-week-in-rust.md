@@ -21,7 +21,7 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [brson](
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.6](http://blog.rust-lang.org/2016/01/21/Rust-1.6.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.6](http://blog.rust-lang.org/2016/01/21/Rust-1.6.html). 🎉🎈
 * [Rust, BigData and my laptop](http://www.poumeyrol.fr/2016/01/15/Awkward-zone/).
 * [pdf][You can't spell trust without Rust](https://cdn.rawgit.com/Gankro/thesis/master/thesis.pdf). Analysis of the semantics and expressiveness of Rust’s type system.
 * [Libmacro - an API for procedural macros to interact with the compiler](http://www.ncameron.org/blog/libmacro/).

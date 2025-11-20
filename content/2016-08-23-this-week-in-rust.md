@@ -18,14 +18,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.11](https://blog.rust-lang.org/2016/08/18/Rust-1.11.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.11](https://blog.rust-lang.org/2016/08/18/Rust-1.11.html). 🎉🎈
 * [A year of Rust and DNS](https://bluejekyll.github.io/blog/rust/dns/2016/08/21/a-year-of-rust-and-dns.html). Benjamin Fry talks about his experience developing [trust-dns
 ](https://github.com/bluejekyll/trust-dns) - a Rust based DNS server.
 * [GC support in Rust: API design](https://manishearth.github.io/blog/2016/08/18/gc-support-in-rust-api-design/).
 * [Writing a JPEG decoder in Rust - Part 2: Implementation I](https://mht.technology/post/jpeg-rust-2/).
 * [A Tokio echo server in 35 lines](https://pyfisch.org/blog/tokio-echo-server/). Tokio is a network application framework for Rust.
 * [Filters everywhere](http://beyermatthias.de/blog/2016/08/22/filters-everywhere/). Short intro to the "filters" crate and remaining issues.
-* [<img alt="fire" class="emoji" title=":fire:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/fire.png?v=0"> discussion] [The `?` operator will be harmful to Rust](https://internals.rust-lang.org/t/the-operator-will-be-harmful-to-rust/3882).
+* [🔥 discussion] [The `?` operator will be harmful to Rust](https://internals.rust-lang.org/t/the-operator-will-be-harmful-to-rust/3882).
 * [slides] [Rust: Systems programming for everyone](https://pnkfelix.github.io/presentations/qcon-london2016-deploy/qcon-london2016.html).
 * [podcast] [New Rustacean bonus episode 6](http://www.newrustacean.com/show_notes/bonus/_6/). Building (and celebrating) all the little, not-so-glorious pieces of the Rust ecosystem.
 

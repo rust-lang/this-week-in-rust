@@ -21,7 +21,7 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [brson](
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.5](http://blog.rust-lang.org/2015/12/10/Rust-1.5.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.5](http://blog.rust-lang.org/2015/12/10/Rust-1.5.html). 🎉🎈
 * [Building an iOS app in Rust, Part 3](https://www.bignerdranch.com/blog/building-an-ios-app-in-rust-part-3/). Passing owned objects between Rust and iOS.
 * [Writing an OS in Rust: Accessing and modifying page tables](http://os.phil-opp.com/modifying-page-tables.html). Part of the series [Writing an OS in Rust](http://os.phil-opp.com/).
 * [Rust programming: Creating a Phoronix reader application](https://www.gitbook.com/book/mmstick/rust-programming-phoronix-reader-how-to/details)

@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.15](https://blog.rust-lang.org/2017/02/02/Rust-1.15.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.15](https://blog.rust-lang.org/2017/02/02/Rust-1.15.html). 🎉🎈
 * [Rust's 2017 roadmap](https://blog.rust-lang.org/2017/02/06/roadmap.html).
 * [Announcing Diesel 0.10.0](https://github.com/diesel-rs/diesel/releases/tag/v0.10.0). Diesel now works on Rust stable.
 * [Rocket v0.2](https://rocket.rs/news/2017-02-06-version-0.2/). Managed state & more.
