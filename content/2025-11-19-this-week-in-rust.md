@@ -43,8 +43,6 @@ and just ask the editors to select the category.
 * [Project goals update — October 2025](https://blog.rust-lang.org/2025/11/19/project-goals-update-october-2025/)
 * [Project goals update — September 2025](https://blog.rust-lang.org/2025/11/19/Project-Goals-2025-September-Update/)
 
-### Foundation
-
 ### Newsletters
 * [Scientific Computing in Rust #12 (November 2025)](https://scientificcomputing.rs/monthly/2025-11)
 * [Secure-by-design firmware development with Wasefire](https://opensource.googleblog.com/2025/11/secure-by-design-firmware-development-with-wasefire.html)
@@ -72,8 +70,6 @@ and just ask the editors to select the category.
 * [Building WebSocket Protocol in Apache Iggy using io_uring and Completion Based I/O Architecture](https://iggy.apache.org/blogs/2025/11/17/websocket-io-uring/)
 * [Building serverless applications with Rust on AWS Lambda](https://aws.amazon.com/blogs/compute/building-serverless-applications-with-rust-on-aws-lambda/)
 * [Disallow code usage with a custom `clippy.toml`](https://www.schneems.com/2025/11/19/find-accidental-code-usage-with-a-custom-clippytoml/)
-
-### Research
 
 ### Miscellaneous
 * [Absurd Rust? Never!](https://academy.fpblock.com/blog/absurd-rust-never/?share=1)
@@ -404,7 +400,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1ow6s90/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -432,4 +428,4 @@ This Week in Rust is edited by:
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1p1q0zt/this_week_in_rust_626/)</small>
