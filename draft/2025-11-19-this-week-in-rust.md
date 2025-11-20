@@ -143,10 +143,10 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-11-11..2025-11-18
 
- #### Compiler
+#### Compiler
 * [add new `function_casts_as_integer` lint](https://github.com/rust-lang/rust/pull/141470)
 * [miri: initial implementation of wildcard provenence for tree borrows](https://github.com/rust-lang/miri/pull/4630)
- #### Library
+#### Library
 * [new `format_args!()` and `fmt::Arguments` implementation](https://github.com/rust-lang/rust/pull/148789)
 * [`vec_recycle`: implementation](https://github.com/rust-lang/rust/pull/148416)
 * [implement `Read::read_array`](https://github.com/rust-lang/rust/pull/148850)
@@ -157,7 +157,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [constify `ManuallyDrop::take`](https://github.com/rust-lang/rust/pull/148752)
 * [constify `mem::take`](https://github.com/rust-lang/rust/pull/148757)
 * [remove `rustc_inherit_overflow_checks` from `position()` in slice iterators](https://github.com/rust-lang/rust/pull/148944)
- #### Cargo
+#### Cargo
 * [`cli`: add support for completing `--config` values in Bash](https://github.com/rust-lang/cargo/pull/16245)
 * [`tree`: support long forms for --format variables](https://github.com/rust-lang/cargo/pull/16204)
 * [`config`: fallback to non-canonical path for workspace-path-hash](https://github.com/rust-lang/cargo/pull/16248)
@@ -165,13 +165,13 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [`package`: all tar entries timestamp be the same](https://github.com/rust-lang/cargo/pull/16242)
 * [do not lock the artifact-dir for check builds](https://github.com/rust-lang/cargo/pull/16230)
 * [add unstable rustc-unicode flag](https://github.com/rust-lang/cargo/pull/16243)
- #### Rustdoc
+#### Rustdoc
 * [Fix invalid jump to def macro link generation](https://github.com/rust-lang/rust/pull/148080)
 * [don't ignore path distance for doc aliases](https://github.com/rust-lang/rust/pull/147701)
 * [don't pass `RenderOptions` to `DocContext`](https://github.com/rust-lang/rust/pull/147832)
 * [microoptimize `render_item,` move stuff out of common path](https://github.com/rust-lang/rust/pull/148877)
 * [quality of life changes](https://github.com/rust-lang/rust/pull/148466)
- #### Clippy
+#### Clippy
 * [`ok_expect`: add autofix](https://github.com/rust-lang/rust-clippy/pull/15867)
 * [{`unnecessary`, `panicking`}`_unwrap`: lint field accesses](https://github.com/rust-lang/rust-clippy/pull/15949)
 * [`equatable_if_let`: don't suggest `=` in const context](https://github.com/rust-lang/rust-clippy/pull/16092)
@@ -182,7 +182,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [fix `sliced_string_as_bytes` false positive with a `RangeFull`](https://github.com/rust-lang/rust-clippy/pull/15873)
 * [fix website history interactions](https://github.com/rust-lang/rust-clippy/pull/16060)
 * [rework `missing_docs_in_private_items`](https://github.com/rust-lang/rust-clippy/pull/14741)
- #### Rust-Analyzer
+#### Rust-Analyzer
 * [fix removed feature `doc_auto_cfg` for `smol_str` lib](https://github.com/rust-lang/rust-analyzer/pull/21021)
 
 ### Rust Compiler Performance Triage
