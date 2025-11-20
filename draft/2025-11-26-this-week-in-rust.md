@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [video] [Interview: Christian Legnitto, Maintainer: rust-gpu, rust-cuda](https://www.youtube.com/watch?v=monOq_uHHcg)
 
 ### Newsletters
 
