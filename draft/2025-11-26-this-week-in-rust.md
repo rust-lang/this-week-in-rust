@@ -44,11 +44,11 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [loglens-core](https://github.com/Caelrith/loglens-core) - A zero-config structured log parsing engine (JSON/Logfmt/Nginx)
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
+* [From P95 Alert to Root Cause: A LogLens Troubleshooting Workflow](https://www.getloglens.com/blog/posts/005.html)
 ### Research
 
 ### Miscellaneous
