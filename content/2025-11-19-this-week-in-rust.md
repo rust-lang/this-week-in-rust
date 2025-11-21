@@ -135,11 +135,11 @@ If you are a Rust project owner and are looking for contributors, please submit 
 ### CFP - Events
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
-* [**Rustikon 2026**](https://sessionize.com/rustikon-2026/) \| CFP closes: 2025-11-24 23:59 \| Warsaw, Poland \| Event: 2025-03-19–2025-03-20 [Event website](https://www.rustikon.dev/)<!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
+* [**Rustikon 2026**](https://sessionize.com/rustikon-2026/)| CFP closes 2025-11-24 | Warsaw, Poland | 2025-03-19 - 2025-03-20 | [Event Website](https://www.rustikon.dev/)
 * [**TokioConf 2026**](https://tokio.rs/blog/2025-09-26-announcing-tokio-conf-cfp)| CFP closes 2025-12-08 | Portland, Oregon, USA | 2026-04-20
 * [**RustWeek 2026**](https://sessionize.com/rustweek-2026/)| CFP closes 2025-12-31 | Utrecht, The Netherlands | 2026-05-19 - 2026-05-20
 
