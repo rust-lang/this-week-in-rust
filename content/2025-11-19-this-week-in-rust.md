@@ -79,7 +79,7 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-This week's crate is [cargo cat](crates.io/crates/cat-ascii-faces), a cargo-subcommand to put a random ascii cat face on your terminal.
+This week's crate is [cargo cat](https://crates.io/crates/cat-ascii-faces), a cargo-subcommand to put a random ascii cat face on your terminal.
 
 Thanks to [Alejandra Gonzáles](https://users.rust-lang.org/t/crate-of-the-week/2704/1490) for the self-suggestion!
 
