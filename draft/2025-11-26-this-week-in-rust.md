@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Running real-time Rust](https://tweedegolf.nl/en/blog/198/running-real-time-rust)
 
 ### Rust Walkthroughs
 
