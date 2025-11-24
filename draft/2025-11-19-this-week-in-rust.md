@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Toyota's "Tip Of The Spear" Is Choosing Rust](https://filtra.io/rust/interviews/woven-by-toyota-nov-25)
 
 ## Crate of the Week
 
