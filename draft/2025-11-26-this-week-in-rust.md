@@ -56,6 +56,22 @@ and just ask the editors to select the category.
 ## Crate of the Week
 
 <!-- COTW goes here -->
+Fluxion:
+100% Rust-idiomatic implementation of composite Rx extensions for stream aggregation with ordering guarantee, friendly fluent API, bullet-proof testing and top-notch documentation. Now supporting error propagation and handling.
+
+https://github.com/umbgtt10/fluxion
+
+Check the [README](https://github.com/umbgtt10/fluxion/blob/main/README.md) for:
+ - Ready-to-use code examples
+ - Reviews
+ - Assessments
+ - Benchmarks
+ - Integration guides
+ - Roadmap
+
+[PITCH](https://github.com/umbgtt10/fluxion/blob/main/PITCH.md)
+
+
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -137,7 +153,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+New, idiomatic and friendly way to aggregate Rust async streams with ordering guarantee: https://github.com/umbgtt10/fluxion
 
 ### Rust Compiler Performance Triage
 
