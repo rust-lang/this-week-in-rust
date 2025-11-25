@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Hotaru 0.7.6: A lightweight full-stack Rust web framework with new LApp!/LUrl!/LPattern! macros and built-in constructor](https://github.com/Field-of-Dreams-Studio/hotaru)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
