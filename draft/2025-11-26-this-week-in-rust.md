@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Describing binary data with Deku](https://codeconstruct.com.au/docs/deku-elf-parser/)
+
 ### Research
 
 ### Miscellaneous
