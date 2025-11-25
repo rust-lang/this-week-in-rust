@@ -141,7 +141,25 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Only a handful of performance-related changes landed this week. The largest one was changing the default name mangling scheme in nightly to the v0 version, which produces slightly larger symbol names, so it had a small negative effect on binary sizes and compilation time.
+
+Triage done by **@kobzol**.
+Revision range: [6159a440..b64df9d1](https://perf.rust-lang.org/?start=6159a44067ebce42b38f062cc7df267a1348e092&end=b64df9d1012f2482b54a4d959548cf8fc67e820c&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.9%  | [0.3%, 2.7%]   | 48    |
+| Regressions ❌ <br /> (secondary)  | 0.9%  | [0.2%, 2.1%]   | 25    |
+| Improvements ✅ <br /> (primary)   | -0.5% | [-6.8%, -0.1%] | 33    |
+| Improvements ✅ <br /> (secondary) | -0.5% | [-1.4%, -0.1%] | 53    |
+| All ❌✅ (primary)                 | 0.4%  | [-6.8%, 2.7%]  | 81    |
+
+1 Regression, 2 Improvements, 5 Mixed; 1 of them in rollups
+28 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/abaa823dbb9569ddf8d5c8a9fa4738106a4eb947/triage/2025/2025-11-25.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
