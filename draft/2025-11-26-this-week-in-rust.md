@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [Hotaru 0.7.6: A lightweight full-stack Rust web framework with new LApp!/LUrl!/LPattern! macros and built-in constructor](https://github.com/Field-of-Dreams-Studio/hotaru)
+* [Hotaru 0.7.6](https://github.com/Field-of-Dreams-Studio/hotaru) - A lightweight full-stack Rust web framework with declarative `endpoint!` macro for routing, `middleware!` macro with inheritance via `..` pattern, multi-protocol support (HTTP/custom TCP on single port), built-in template engine, and new macros for lazy static declarations
 
 ### Observations/Thoughts
 
