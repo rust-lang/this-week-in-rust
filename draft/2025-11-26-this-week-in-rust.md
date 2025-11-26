@@ -201,7 +201,7 @@ Let us know if you would like your PRs, Tracking Issues or RFCs to be tracked as
 Rusty Events between 2025-11-26 - 2025-12-24 🦀
 
 ### Virtual
-* 2025-11-26 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona) | | [Silicon Girona](https://silicongirona.github.io)
+* 2025-11-26 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.github.io)
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/q5tjirkt)
 * 2025-11-27 | Virtual (Buenos Aires, AR) | [Rust en Español](https://www.meetup.com/rust-argentina)
     * [**Meet de Noviembre - Async Runtimes, parte 2!**](https://www.meetup.com/rust-argentina/events/312061828/)
