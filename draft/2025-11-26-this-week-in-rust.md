@@ -45,17 +45,27 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [Hotaru 0.7.6](https://crates.io/crates/hotaru) - A lightweight full-stack Rust web framework. Bug Fixes & Syntax Sugar added in 0.7.6:
-  - The `.worker()` method now properly configures the number of worker threads - each App instance creates its own independent tokio runtime with the specified worker count
-  - New `LApp!`, `LUrl!`, and `LPattern!` macros for simplified lazy static declarations with less boilerplate:
+* [Hotaru](https://crates.io/crates/hotaru) - A new lightweight full-stack Rust web framework focused on simplicity and productivity. Key features include:
+  - Declarative `endpoint!` macro for routing with typed URL parameters (`/users/<int:id>`)
+  - `middleware!` macro with protocol inheritance via `..` pattern
+  - Multi-protocol support: HTTP/HTTPS, WebSocket, and custom TCP protocols on a single port
+  - Built-in Akari template engine integration
+  - `HttpSafety` for per-endpoint request validation and size limits
+  - CLI scaffolding tool (`hotaru new my_app`)
+  - Modular crate ecosystem: hotaru_core, hotaru_meta, hotaru_lib, htmstd
     ```rust
-    // Old way
-    pub static APP: SApp = Lazy::new(|| App::new().build());
-    // New way
-    LApp!(APP = App::new().build());
+    use hotaru::prelude::*;
+
+    LApp!(APP = App::new().binding("127.0.0.1:3000").build());
+
+    endpoint! {
+        APP.url("/users/<int:id>"),
+        pub get_user<HTTP> {
+            let user_id = req.param("id");
+            json_response(json!({ "id": user_id }))
+        }
+    }
     ```
-  - Fixed CLI tool (`hotaru new`/`hotaru init`) to generate correct `endpoint!` macro syntax
-  - Built-in constructor implementation (similar to `ctor` crate) for Linux, macOS, and Windows - no external dependencies needed by default
 
 ### Observations/Thoughts
 
