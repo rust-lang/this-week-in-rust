@@ -201,24 +201,6 @@ Let us know if you would like your PRs, Tracking Issues or RFCs to be tracked as
 Rusty Events between 2025-11-26 - 2025-12-24 🦀
 
 ### Virtual
-* 2025-11-19 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
-    * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/309926564/)
-* 2025-11-19 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
-    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/l2xukapz)
-* 2025-11-20 | Hybrid (Seattle, WA, US) | [Seattle Rust User Group](https://www.meetup.com/join-srug)
-    * [**November, 2025 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/seattle-rust-user-group/events/311351673/)
-* 2025-11-20 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
-    * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/306046642/)
-* 2025-11-20 | Virtual (Charlottesville, VA, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup)
-    * [**Tock, a Rust based Operating System Part #1**](https://www.meetup.com/charlottesville-rust-meetup/events/311705915/)
-* 2025-11-23 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
-    * [**Rust Readers Discord Discussion: Macros**](https://www.meetup.com/dallasrust/events/311109183/)
-* 2025-11-25 | Virtual (Boulder, CO, US) | [Boulder Elixir](https://www.meetup.com/boulder-elixir/events/)
-    * [**Integrating Elixir and Apache DataFusion with Rustler**](https://www.meetup.com/boulder-elixir/events/310996627/)
-* 2025-11-25 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
-    * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/305361446/)
-* 2025-11-25 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
-    * [**Data-Intensive Systems in Rust: Safety, Speed, Concurrency**](https://www.meetup.com/women-in-rust/events/311534469/)
 * 2025-11-26 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona) | [Silicon Girona](https://silicongirona.github.io)
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/q5tjirkt)
 * 2025-11-27 | Virtual (Buenos Aires, AR) | [Rust en Español](https://www.meetup.com/rust-argentina)
@@ -254,19 +236,7 @@ Rusty Events between 2025-11-26 - 2025-12-24 🦀
 * 2025-12-17 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/6v2rorp3)
 
-### Asia
-* 2025-11-20 | Tokyo, JP | [Tokyo Rust Meetup](https://www.meetup.com/tokyo-rust-meetup/)
-    * [**Tracing Rust at Scale**](https://www.meetup.com/tokyo-rust-meetup/events/311817069/)
-
 ### Europe
-* 2025-11-19 | Ostrava, CZ | [TechMeetup Ostrava](https://www.meetup.com/techmeetupostrava/)
-    * [**QA Circle**](https://www.meetup.com/techmeetupostrava/events/311581090/)
-* 2025-11-20 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus)
-    * [**Social Night**](https://www.meetup.com/rust-aarhus/events/311502123/)
-* 2025-11-20 | Amsterdam, NL | [Rust Developers Amsterdam Group](https://www.meetup.com/rust-amsterdam-group)
-    * [**Rust Meetup @ Monumental X Zed**](https://www.meetup.com/rust-amsterdam-group/events/311829267/)
-* 2025-11-20 | Luzern, CH | [Rust Luzern](https://www.meetup.com/rust-luzern/)
-    * [**2025 Rust Talks Luzern #3: Crate Walkthroughs @ Noser Engineering AG**](https://www.meetup.com/rust-luzern/events/311410681/)
 * 2025-11-26 | Bern, CH | [Rust Bern](https://www.meetup.com/rust-bern)
     * [**2025 Rust Talks Bern #5 @Source Engineers**](https://www.meetup.com/rust-bern/events/311792568/)
 * 2025-11-27 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
@@ -287,20 +257,12 @@ Rusty Events between 2025-11-26 - 2025-12-24 🦀
     * [**Rust Munich 2025 / 4 - Hacking Evening**](https://www.meetup.com/rust-munich/events/307105932/)
 * 2025-12-10 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/308944053/)
-* 2025-12-16 | Leipzig, SN, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig)
-    * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/308592258/)
 * 2025-12-16 | Bergen, NO | [Rust Bergen](https://www.meetup.com/bergen-rust-new-technology/events/)
     * [**Rust Bergen #3 @ Zrch**](https://www.meetup.com/de-de/bergen-rust-new-technology/events/312037597)
+* 2025-12-16 | Leipzig, SN, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig)
+    * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/308592258/)
 
 ### North America
-* 2025-11-19 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
-    * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/309926564/)
-* 2025-11-20 | Hybrid (Seattle, WA, US) | [Seattle Rust User Group](https://www.meetup.com/join-srug)
-    * [**November, 2025 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/seattle-rust-user-group/events/311351673/)
-* 2025-11-20 | Spokane, WA, US | [Spokane Rust](https://www.meetup.com/spokane-rust)
-    * [**Monthly Rust Meetup: Embedded Primer & Free-Coding**](https://www.meetup.com/spokane-rust/events/311863560/)
-* 2025-11-23 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust)
-    * [**Inman Rust Lunch & Hackathon, Nov 23**](https://www.meetup.com/bostonrust/events/311917854/)
 * 2025-11-26 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx)
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/310457310/)
 * 2025-11-26 | Phoenix, AZ, US | [Desert Rust](https://www.meetup.com/desert-rustaceans)
@@ -332,9 +294,6 @@ Rusty Events between 2025-11-26 - 2025-12-24 🦀
 * 2025-12-17 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/309926569/)
 
-### Oceania
-* 2025-12-11 | Brisbane City, QL, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane)
-    * [**Rust Meetup Dec 2025**](https://www.meetup.com/rust-brisbane/events/312027415/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
