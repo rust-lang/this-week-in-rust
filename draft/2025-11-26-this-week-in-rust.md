@@ -48,8 +48,8 @@ and just ask the editors to select the category.
 * [SeaORM 2.0: Nested ActiveModel and Cascade Operations](https://www.sea-ql.org/blog/2025-11-25-sea-orm-2.0/)
 
 ### Observations/Thoughts
+* [Running real-time Rust](https://tweedegolf.nl/en/blog/198/running-real-time-rust)
 * [How Cloudflare uses Rust to serve (and break) millions of websites at 50+ millions requests per second](https://kerkour.com/how-cloudflare-uses-rust)
-
 * [audio] [Netstack.FM episode 15 — Pingora with Edward and Noah from Cloudflare](https://netstack.fm/#episode-15)
 
 ### Rust Walkthroughs
