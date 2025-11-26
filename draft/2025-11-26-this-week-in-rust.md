@@ -45,27 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [Hotaru](https://crates.io/crates/hotaru) - A new lightweight full-stack Rust web framework focused on simplicity and productivity. Key features include:
-  - Declarative `endpoint!` macro for routing with typed URL parameters (`/users/<int:id>`)
-  - `middleware!` macro with protocol inheritance via `..` pattern
-  - Multi-protocol support: HTTP/HTTPS, WebSocket, and custom TCP protocols on a single port
-  - Built-in Akari template engine integration
-  - `HttpSafety` for per-endpoint request validation and size limits
-  - CLI scaffolding tool (`hotaru new my_app`)
-  - Modular crate ecosystem: hotaru_core, hotaru_meta, hotaru_lib, htmstd
-    ```rust
-    use hotaru::prelude::*;
-
-    LApp!(APP = App::new().binding("127.0.0.1:3000").build());
-
-    endpoint! {
-        APP.url("/users/\<int:id\>"),
-        pub get_user\<HTTP\> {
-            let user_id = req.param("id");
-            json_response(json!({ "id": user_id }))
-        }
-    }
-    ```
+* [Hotaru](https://crates.io/crates/hotaru) - A new lightweight full-stack Rust web framework by [@Redstone-D](https://github.com/Redstone-D) and [@JerrySu5379](https://github.com/JerrySu5379) at [Field-of-Dreams-Studio](https://github.com/Field-of-Dreams-Studio). Features declarative `endpoint!` and `middleware!` macros, multi-protocol support (HTTP/WebSocket/custom TCP on single port), the `..` pattern for middleware inheritance, and built-in Akari template engine. Includes comprehensive [documentation](https://fds.rs/hotaru), [4-part Quick Tutorial](https://github.com/Field-of-Dreams-Studio/hotaru/blob/master/QUICK_TUTORIAL.md), [HTTP Documentation](https://github.com/Field-of-Dreams-Studio/hotaru/blob/master/HOTARU_HTTP_DOC.md), [Style Guide](https://github.com/Field-of-Dreams-Studio/hotaru/blob/master/HOTARU_STYLE.md), and [Benchmark Results vs Actix-web](https://github.com/Field-of-Dreams-Studio/hotaru/blob/master/BENCHMARK_RESULTS.md)
 
 ### Observations/Thoughts
 
