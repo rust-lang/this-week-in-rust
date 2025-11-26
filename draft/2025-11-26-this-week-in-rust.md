@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [SeaORM 2.0: Nested ActiveModel and Cascade Operations](https://www.sea-ql.org/blog/2025-11-25-sea-orm-2.0/)
 
+* [Hotaru](https://crates.io/crates/hotaru) - A new lightweight full-stack Rust web framework by [Field-of-Dreams-Studio (https://github.com/Field-of-Dreams-Studio).
+
 ### Observations/Thoughts
 * [Running real-time Rust](https://tweedegolf.nl/en/blog/198/running-real-time-rust)
 * [How Cloudflare uses Rust to serve (and break) millions of websites at 50+ millions requests per second](https://kerkour.com/how-cloudflare-uses-rust)
