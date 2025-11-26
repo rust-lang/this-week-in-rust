@@ -58,7 +58,7 @@ and just ask the editors to select the category.
 * [Running real-time Rust](https://tweedegolf.nl/en/blog/198/running-real-time-rust)
 * [How Cloudflare uses Rust to serve (and break) millions of websites at 50+ millions requests per second](https://kerkour.com/how-cloudflare-uses-rust)
 * [audio] [Netstack.FM episode 15 — Pingora with Edward and Noah from Cloudflare](https://netstack.fm/#episode-15)
-* [video] [Grind: Java Deserves Modern Tooling*](https://www.youtube.com/watch?v=-mOby4FPRXg&t=553s)
+* [video] [Grind: Java Deserves Modern Tooling*](https://www.youtube.com/watch?v=-mOby4FPRXg)
 ### Rust Walkthroughs
 - [Rust Unit Testing: File reading](https://jorgeortiz.dev/posts/rust_unit_testing_file_reading/)
 * [A look at Rust from 2012](https://purplesyringa.moe/blog/a-look-at-rust-from-2012/)
