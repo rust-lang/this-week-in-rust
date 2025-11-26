@@ -57,6 +57,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [JetBrains supports the open source Rust projects Ratatui and Biome](https://blog.jetbrains.com/blog/2025/11/18/open-source-in-focus-projects-we-re-proud-to-support/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
