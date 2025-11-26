@@ -59,8 +59,8 @@ and just ask the editors to select the category.
     LApp!(APP = App::new().binding("127.0.0.1:3000").build());
 
     endpoint! {
-        APP.url("/users/<int:id>"),
-        pub get_user<HTTP> {
+        APP.url("/users/\<int:id\>"),
+        pub get_user\<HTTP\> {
             let user_id = req.param("id");
             json_response(json!({ "id": user_id }))
         }
