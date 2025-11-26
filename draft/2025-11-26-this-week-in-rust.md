@@ -45,7 +45,17 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [Hotaru 0.7.6](https://github.com/Field-of-Dreams-Studio/hotaru) - A lightweight full-stack Rust web framework with declarative `endpoint!` macro for routing, `middleware!` macro with inheritance via `..` pattern, multi-protocol support (HTTP/custom TCP on single port), built-in template engine, and new macros for lazy static declarations
+* [Hotaru 0.7.6](https://crates.io/crates/hotaru) - A lightweight full-stack Rust web framework. Bug Fixes & Syntax Sugar added in 0.7.6:
+  - The `.worker()` method now properly configures the number of worker threads - each App instance creates its own independent tokio runtime with the specified worker count
+  - New `LApp!`, `LUrl!`, and `LPattern!` macros for simplified lazy static declarations with less boilerplate:
+    ```rust
+    // Old way
+    pub static APP: SApp = Lazy::new(|| App::new().build());
+    // New way
+    LApp!(APP = App::new().build());
+    ```
+  - Fixed CLI tool (`hotaru new`/`hotaru init`) to generate correct `endpoint!` macro syntax
+  - Built-in constructor implementation (similar to `ctor` crate) for Linux, macOS, and Windows - no external dependencies needed by default
 
 ### Observations/Thoughts
 
