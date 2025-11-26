@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [SeaORM 2.0: Nested ActiveModel and Cascade Operations](https://www.sea-ql.org/blog/2025-11-25-sea-orm-2.0/)
 
 ### Observations/Thoughts
 * [How Cloudflare uses Rust to serve (and break) millions of websites at 50+ millions requests per second](https://kerkour.com/how-cloudflare-uses-rust)
