@@ -201,7 +201,7 @@ Let us know if you would like your PRs, Tracking Issues or RFCs to be tracked as
 Rusty Events between 2025-11-26 - 2025-12-24 🦀
 
 ### Virtual
-* 2025-11-26 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
+* 2025-11-26 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona) | | [Silicon Girona](https://silicongirona.github.io)
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/q5tjirkt)
 * 2025-11-27 | Virtual (Buenos Aires, AR) | [Rust en Español](https://www.meetup.com/rust-argentina)
     * [**Meet de Noviembre - Async Runtimes, parte 2!**](https://www.meetup.com/rust-argentina/events/312061828/)
@@ -229,8 +229,6 @@ Rusty Events between 2025-11-26 - 2025-12-24 🦀
     * [**December, 2025 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/seattle-rust-user-group/events/311351054/)
 * 2025-12-11 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/306046672/)
-* 2025-12-11 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris)
-    * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/310728572/)
 * 2025-12-16 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc)
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/310002338/)
 * 2025-12-17 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
