@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 * [How Cloudflare uses Rust to serve (and break) millions of websites at 50+ millions requests per second](https://kerkour.com/how-cloudflare-uses-rust)
 
 ### Rust Walkthroughs
+- [Rust Unit Testing: File reading](https://jorgeortiz.dev/posts/rust_unit_testing_file_reading/)
 
 ### Research
 
