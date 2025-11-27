@@ -52,21 +52,21 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 * [Running real-time Rust](https://tweedegolf.nl/en/blog/198/running-real-time-rust)
+* [A look at Rust from 2012](https://purplesyringa.moe/blog/a-look-at-rust-from-2012/)
+* [Making the case that Cargo features could be improved to alleviate Rust compile times](https://saghm.com/cargo-features-rust-compile-times/)
 * [How Cloudflare uses Rust to serve (and break) millions of websites at 50+ millions requests per second](https://kerkour.com/how-cloudflare-uses-rust)
 * [audio] [Netstack.FM episode 15 — Pingora with Edward and Noah from Cloudflare](https://netstack.fm/#episode-15)
 * [video] [Grind: Java Deserves Modern Tooling*](https://www.youtube.com/watch?v=-mOby4FPRXg)
 
 ### Rust Walkthroughs
 * [Rust Unit Testing: File reading](https://jorgeortiz.dev/posts/rust_unit_testing_file_reading/)
-* [A look at Rust from 2012](https://purplesyringa.moe/blog/a-look-at-rust-from-2012/)
 * [Practical Performance Lessons from Apache DataFusion](https://greptime.com/blogs/2025-11-25-datafusion)
 * [Describing binary data with Deku](https://codeconstruct.com.au/docs/deku-elf-parser/)
-* [Making the case that Cargo features could be improved to alleviate Rust compile times](https://saghm.com/cargo-features-rust-compile-times/)
-* [filtra.io | Toyota's "Tip Of The Spear" Is Choosing Rust](https://filtra.io/rust/interviews/woven-by-toyota-nov-25)
 
 ### Miscellaneous
 * [Rust For Linux Kernel Co-Maintainer Formally Steps Down](https://www.phoronix.com/news/Alex-Gaynor-Rust-Maintainer)
 * [JetBrains supports the open source Rust projects Ratatui and Biome](https://blog.jetbrains.com/blog/2025/11/18/open-source-in-focus-projects-we-re-proud-to-support/)
+* [filtra.io | Toyota's "Tip Of The Spear" Is Choosing Rust](https://filtra.io/rust/interviews/woven-by-toyota-nov-25)
 
 ## Crate of the Week
 
