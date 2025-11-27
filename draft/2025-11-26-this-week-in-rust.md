@@ -58,7 +58,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 - [Rust Unit Testing: File reading](https://jorgeortiz.dev/posts/rust_unit_testing_file_reading/)
-
+* [Practical Performance Lessons from Apache DataFusion](https://greptime.com/blogs/2025-11-25-datafusion)
 * [Describing binary data with Deku](https://codeconstruct.com.au/docs/deku-elf-parser/)
 
 ### Research
