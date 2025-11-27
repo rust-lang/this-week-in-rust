@@ -48,7 +48,6 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [SeaORM 2.0: Nested ActiveModel and Cascade Operations](https://www.sea-ql.org/blog/2025-11-25-sea-orm-2.0/)
 * [Symbolica 1.0: Symbolic mathematics in Rust](https://symbolica.io/posts/stable_release/)
-* [Hotaru](https://crates.io/crates/hotaru) - A new lightweight full-stack Rust web framework by [Field-of-Dreams-Studio] (https://github.com/Field-of-Dreams-Studio).
 * [APT Rust requirement raises questions](https://lwn.net/SubscriberLink/1046841/c7ac9fabff6244af/)
 
 ### Observations/Thoughts
