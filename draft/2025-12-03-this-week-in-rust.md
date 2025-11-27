@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Cross-Compiling Rust for Raspberry Pi and making CI](https://sysdev.me/2025/11/27/cross-compiling-rust-for-raspberry-pi)
+
 ### Research
 
 ### Miscellaneous
