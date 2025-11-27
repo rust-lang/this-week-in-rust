@@ -42,18 +42,13 @@ and just ask the editors to select the category.
 * [Interview with Jan David Nose | Rust Blog](https://blog.rust-lang.org/2025/11/25/interview-with-jan-david-nose/)
 * [This Development-cycle in Cargo: 1.92 | Inside Rust Blog](https://blog.rust-lang.org/inside-rust/2025/11/24/this-development-cycle-in-cargo-1.92/)
 
-
 ### Foundation
 * [video] [Interview: Christian Legnitto, Maintainer: rust-gpu, rust-cuda](https://www.youtube.com/watch?v=monOq_uHHcg)
-
-### Newsletters
 
 ### Project/Tooling Updates
 * [SeaORM 2.0: Nested ActiveModel and Cascade Operations](https://www.sea-ql.org/blog/2025-11-25-sea-orm-2.0/)
 * [Symbolica 1.0: Symbolic mathematics in Rust](https://symbolica.io/posts/stable_release/)
-
 * [Hotaru](https://crates.io/crates/hotaru) - A new lightweight full-stack Rust web framework by [Field-of-Dreams-Studio] (https://github.com/Field-of-Dreams-Studio).
-
 * [APT Rust requirement raises questions](https://lwn.net/SubscriberLink/1046841/c7ac9fabff6244af/)
 
 ### Observations/Thoughts
@@ -61,6 +56,7 @@ and just ask the editors to select the category.
 * [How Cloudflare uses Rust to serve (and break) millions of websites at 50+ millions requests per second](https://kerkour.com/how-cloudflare-uses-rust)
 * [audio] [Netstack.FM episode 15 — Pingora with Edward and Noah from Cloudflare](https://netstack.fm/#episode-15)
 * [video] [Grind: Java Deserves Modern Tooling*](https://www.youtube.com/watch?v=-mOby4FPRXg)
+
 ### Rust Walkthroughs
 - [Rust Unit Testing: File reading](https://jorgeortiz.dev/posts/rust_unit_testing_file_reading/)
 * [A look at Rust from 2012](https://purplesyringa.moe/blog/a-look-at-rust-from-2012/)
@@ -68,7 +64,6 @@ and just ask the editors to select the category.
 * [Describing binary data with Deku](https://codeconstruct.com.au/docs/deku-elf-parser/)
 * [Making the case that Cargo features could be improved to alleviate Rust compile times](https://saghm.com/cargo-features-rust-compile-times/)
 * [filtra.io | Toyota's "Tip Of The Spear" Is Choosing Rust](https://filtra.io/rust/interviews/woven-by-toyota-nov-25)
-### Research
 
 ### Miscellaneous
 * [Rust For Linux Kernel Co-Maintainer Formally Steps Down](https://www.phoronix.com/news/Alex-Gaynor-Rust-Maintainer)
@@ -445,7 +440,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1ow6s90/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
