@@ -57,7 +57,7 @@ and just ask the editors to select the category.
 * [video] [Grind: Java Deserves Modern Tooling*](https://www.youtube.com/watch?v=-mOby4FPRXg)
 
 ### Rust Walkthroughs
-- [Rust Unit Testing: File reading](https://jorgeortiz.dev/posts/rust_unit_testing_file_reading/)
+* [Rust Unit Testing: File reading](https://jorgeortiz.dev/posts/rust_unit_testing_file_reading/)
 * [A look at Rust from 2012](https://purplesyringa.moe/blog/a-look-at-rust-from-2012/)
 * [Practical Performance Lessons from Apache DataFusion](https://greptime.com/blogs/2025-11-25-datafusion)
 * [Describing binary data with Deku](https://codeconstruct.com.au/docs/deku-elf-parser/)
