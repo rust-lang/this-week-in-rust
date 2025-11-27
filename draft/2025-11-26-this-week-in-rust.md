@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 * [Hotaru](https://crates.io/crates/hotaru) - A new lightweight full-stack Rust web framework by [Field-of-Dreams-Studio (https://github.com/Field-of-Dreams-Studio).
 
+* [APT Rust requirement raises questions](https://lwn.net/SubscriberLink/1046841/c7ac9fabff6244af/)
+
 ### Observations/Thoughts
 * [Running real-time Rust](https://tweedegolf.nl/en/blog/198/running-real-time-rust)
 * [How Cloudflare uses Rust to serve (and break) millions of websites at 50+ millions requests per second](https://kerkour.com/how-cloudflare-uses-rust)
