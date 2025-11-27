@@ -128,9 +128,9 @@ Are you a new or experienced speaker looking for a place to share something cool
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
-* [**Rustikon 2026**](https://sessionize.com/rustikon-2026/)| CFP closes 2025-11-24 | Warsaw, Poland | 2025-03-19 - 2025-03-20 | [Event Website](https://www.rustikon.dev/)
-* [**TokioConf 2026**](https://tokio.rs/blog/2025-09-26-announcing-tokio-conf-cfp)| CFP closes 2025-12-08 | Portland, Oregon, USA | 2026-04-20
-* [**RustWeek 2026**](https://sessionize.com/rustweek-2026/)| CFP closes 2025-12-31 | Utrecht, The Netherlands | 2026-05-19 - 2026-05-20
+* [**Rustikon 2026**](https://sessionize.com/rustikon-2026/) | CFP closes 2025-11-24 | Warsaw, Poland | 2025-03-19 - 2025-03-20 | [Event Website](https://www.rustikon.dev/)
+* [**TokioConf 2026**](https://tokio.rs/blog/2025-09-26-announcing-tokio-conf-cfp) | CFP closes 2025-12-08 | Portland, Oregon, USA | 2026-04-20
+* [**RustWeek 2026**](https://sessionize.com/rustweek-2026/) | CFP closes 2025-12-31 | Utrecht, The Netherlands | 2026-05-19 - 2026-05-20
 
 
 
@@ -142,7 +142,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-11-18..2025-11-25
 
- #### Compiler
+#### Compiler
 * [allow unnormalized types in drop elaboration](https://github.com/rust-lang/rust/pull/148719)
 * [avoid encoding non-constness or non-asyncness in metadata](https://github.com/rust-lang/rust/pull/149054)
 * [fix MaybeUninit codegen using GVN](https://github.com/rust-lang/rust/pull/147827)
@@ -155,7 +155,8 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [sess: default to v0 symbol mangling on nightly](https://github.com/rust-lang/rust/pull/89917)
 * [turn moves into copies after copy propagation](https://github.com/rust-lang/rust/pull/147804)
 * [warn against calls which mutate an interior mutable `const`-item](https://github.com/rust-lang/rust/pull/148407)
- #### Library
+
+#### Library
 * [add `bit_width` for unsigned `NonZero<T>`](https://github.com/rust-lang/rust/pull/148797)
 * [alloc: fix `Debug` implementation of `ExtractIf`](https://github.com/rust-lang/rust/pull/147035)
 * [make SIMD intrinsics available in `const`-contexts](https://github.com/rust-lang/rust/pull/147521)
@@ -165,7 +166,8 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [v0 mangling for std on nightly](https://github.com/rust-lang/rust/pull/149148)
 * [hashbrown: add `HashTable` methods related to the raw bucket index](https://github.com/rust-lang/hashbrown/pull/657)
 * [hashbrown: allow providing the key at insertion time for EntryRef](https://github.com/rust-lang/hashbrown/pull/579)
- #### Cargo
+
+#### Cargo
 * [`docs(guide)`: When suggesting alt dev profile, link to related issue](https://github.com/rust-lang/cargo/pull/16275)
 * [`feat(generate-lockfile)`: Add unstable --publish-time flag](https://github.com/rust-lang/cargo/pull/16265)
 * [`feat(tree)`: Add more native completions](https://github.com/rust-lang/cargo/pull/16296)
@@ -177,16 +179,19 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [enable `CARGO_CFG_DEBUG_ASSERTIONS` in build scripts based on profile](https://github.com/rust-lang/cargo/pull/16160)
 * [feat: emit a warning when both `package.publish` and `--index` are specified](https://github.com/rust-lang/cargo/pull/16268)
 * [test: re-enable test since not flaky anymore](https://github.com/rust-lang/cargo/pull/16287)
- #### Rustdoc
+
+#### Rustdoc
 * [rustdoc-json: add rlib path to ExternalCrate to enable robust crate resolution](https://github.com/rust-lang/rust/pull/149043)
 * [rustdoc: make mergeable crate info more usable](https://github.com/rust-lang/rust/pull/148234)
- #### Clippy
+
+#### Clippy
 * [`explicit_deref_methods`: don't lint in `impl Deref(Mut)`](https://github.com/rust-lang/rust-clippy/pull/16113)
 * [add `large-error-ignored` config-knob](https://github.com/rust-lang/rust-clippy/pull/15697)
 * [fix `useless_asref` suggests wrongly when used in ctor](https://github.com/rust-lang/rust-clippy/pull/16115)
 * [fix wrongly unmangled macros for `transmute_ptr_to_ptr` and `transmute_bytes_to_str`](https://github.com/rust-lang/rust-clippy/pull/16105)
 * [taking a raw pointer on a union field is a safe operation](https://github.com/rust-lang/rust-clippy/pull/16079)
- #### Rust-Analyzer
+
+#### Rust-Analyzer
 * [add `unsafe(…)` attribute completion](https://github.com/rust-lang/rust-analyzer/pull/21047)
 * [add pretty number for `add_explicit_enum_discriminant`](https://github.com/rust-lang/rust-analyzer/pull/20559)
 * [add semantic tokens for deprecated items](https://github.com/rust-lang/rust-analyzer/pull/21100)
