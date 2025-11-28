@@ -263,17 +263,6 @@ Revision range: [6159a440..b64df9d1](https://perf.rust-lang.org/?start=6159a4406
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Use either
-* [Item title](Item URL)
-  - or
-* *No RFCs were approved this week.*
--->
-
-### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
-
-Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
-are the RFCs that were approved for implementation this week:
-
 * *No RFCs were approved this week.*
 
 ### Final Comment Period
