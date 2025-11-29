@@ -45,6 +45,16 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+#### Codestats 0.3.1 Released!
+
+[Codestats](https://github.com/trypsynth/codestats) is a lightning-fast CLI tool for generating detailed statistics about any folder of source code. It respects `.gitignore` files, symlinks, and hidden files — all fully configurable.
+
+The new v0.3.1 release comes with major performance improvements: it can analyze an entire 100+ GB home directory, including over 3 GB of code, in just over 8 seconds, with zero caching.
+
+Codestats supports 350+ programming languages, detects languages via file extensions, shebangs, and even comment/keyword syntax, and can output results in multiple formats: human-readable, CSV, and JSON, with more actively being developed.
+
+If you need a high-performance, accessible, no-nonsense code analyzer, give it a try!
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
