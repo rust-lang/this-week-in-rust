@@ -20,7 +20,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.9](http://blog.rust-lang.org/2016/05/26/Rust-1.9.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.9](http://blog.rust-lang.org/2016/05/26/Rust-1.9.html). 🎉🎈
 * [The Path to Rust](https://thesquareplanet.com/blog/the-path-to-rust/). Why Rust might be right for you.
 * [How do I convert a `&str` to a `String` in Rust](https://mgattozzi.github.io/2016/05/26/how-do-i-str-string.html)? A series of "How do I do X in Rust?" articles aimed at beginners.
 * [Catching Exceptions](http://os.phil-opp.com/catching-exceptions.html). Part of the series [Writing an OS in Rust](http://os.phil-opp.com/).

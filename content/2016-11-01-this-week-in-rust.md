@@ -34,7 +34,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Project Updates
 
-* <img alt="jack_o_lantern" class="emoji" title=":jack_o_lantern:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/jack_o_lantern.png?v=0"> [Happy Halloween from Ferris](https://i.imgur.com/mNfEWCA.jpg)! <img alt="jack_o_lantern" class="emoji" title=":jack_o_lantern:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/jack_o_lantern.png?v=0">. (Credit: [carols10cents & kibwen](https://www.reddit.com/r/rust/comments/5a8qca/happy_halloween_from_ferris/)).
+* 🎃 [Happy Halloween from Ferris](https://i.imgur.com/mNfEWCA.jpg)! 🎃. (Credit: [carols10cents & kibwen](https://www.reddit.com/r/rust/comments/5a8qca/happy_halloween_from_ferris/)).
 * The community team is hosting a hybrid hack event on November 19th/20th centered around the African/European time zones. If you are interested in participating, or supplying topics to work on, please head to the [novemb.rs](http://novemb.rs) website.
 * [Spectral fluent assertions 0.5.0 released.](https://github.com/cfrancia/spectral)
 

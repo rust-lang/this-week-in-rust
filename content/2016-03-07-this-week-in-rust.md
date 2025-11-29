@@ -20,7 +20,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.7](http://blog.rust-lang.org/2016/03/02/Rust-1.7.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.7](http://blog.rust-lang.org/2016/03/02/Rust-1.7.html). 🎉🎈
 * [Memory Management in Rust and Swift](https://medium.com/@itchyankles/memory-management-in-rust-and-swift-8ecda3cdf5b7).
 * [Rust and Swift](http://www.chriskrycho.com/rust-and-swift.html). An ongoing series of blog posts comparing Rust and Swift.
 * [Lambda architecture with differential dataflow](http://www.poumeyrol.fr/2016/02/29/Query2-in-differential-dataflow/). Part #7 of a series about a BigData in Rust experiment.

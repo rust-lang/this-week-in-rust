@@ -66,20 +66,18 @@ bblum did some trait/fn/closure bounds
 [here](https://github.com/mozilla/rust/pull/7354), but I don't really
 understand what they do or their significance. He said:
 
-{% blockquote %}
-it changes the way traits/closures and captured data fulfill kind bounds, so
-you can restrict or loosen the requirements instead of having the fixed
-defaults of "can only capture Send things in ~fn/~Trait"
-
-one example is that you can add the extra requirement of Freeze, so you can
-put existential data inside of ARCs
-
-see https://github.com/mozilla/rust/blob/master/src/test/run-pass/trait-bounds-in-arc.rs
-
-http://smallcultfollowing.com/babysteps/blog/2013/06/11/data-parallelism-in-rust/
-is another, more complicated but less contrived, example for how they would be
-useful
-{% endblockquote %}
+> it changes the way traits/closures and captured data fulfill kind bounds, so
+> you can restrict or loosen the requirements instead of having the fixed
+> defaults of "can only capture Send things in ~fn/~Trait"
+> 
+> one example is that you can add the extra requirement of Freeze, so you can
+> put existential data inside of ARCs
+> 
+> see https://github.com/mozilla/rust/blob/master/src/test/run-pass/trait-bounds-in-arc.rs
+> 
+> http://smallcultfollowing.com/babysteps/blog/2013/06/11/data-parallelism-in-rust/
+> is another, more complicated but less contrived, example for how they would be
+> useful
 
 # Meetings
 

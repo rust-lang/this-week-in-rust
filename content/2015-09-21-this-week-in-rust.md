@@ -21,7 +21,7 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42) and [llog
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.3](http://blog.rust-lang.org/2015/09/17/Rust-1.3.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.3](http://blog.rust-lang.org/2015/09/17/Rust-1.3.html). 🎉🎈
 * [Asynchronous IO in Rust](https://blog.skcript.com/asynchronous-io-in-rust-36b623e7b965).
 * [An introduction to timely dataflow](https://github.com/frankmcsherry/blog/blob/7a1174e80134c8ce5338d5c62864a2aae835da04/posts/2015-09-14.md). Dataflow computational model written in Rust.
 * [An introduction to timely dataflow, part 2.](https://github.com/frankmcsherry/blog/blob/master/posts/2015-09-18.md). Writing super-powerful operators that do whatever you want to the streams.

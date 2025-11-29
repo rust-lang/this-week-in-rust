@@ -81,11 +81,9 @@ The proposed syntax for alloc expressions is `new (provider) expr`, with `new
 expr` becoming the replacement for the current `~expr`. This would allow
 custom smart pointers. pcwalton ended the meeting with a huge cliff hanger
 
-{% blockquote %}
-I've been meaning to talk a little bit today about simplifying the
-mut-borrowing story in regards to this, we may be able to effect a large
-simplification on the language
-{% endblockquote %}
+> I've been meaning to talk a little bit today about simplifying the
+> mut-borrowing story in regards to this, we may be able to effect a large
+> simplification on the language
 
 Personally, I think [kimundi's proposal][kim] has a lot of promise, and the
 syntax is more pleasing to me. It wasn't brought up at the meeting, though.

@@ -45,20 +45,20 @@ past few days, but a bunch happened earlier this week.
   IR better, reducing compile time, and also allowing better optimization,
   reducing binary size.
 
-{% blockquote @dotdash https://github.com/mozilla/rust/pull/7259 %}
-They reduce compile times by about 10% in total.
-{% endblockquote %}
+> They reduce compile times by about 10% in total.
 
-{% blockquote @dotdash https://github.com/mozilla/rust/pull/7186 %}
-Reduces the size of librustc by about 5% and the time required to build
-it by about 10%.
-{% endblockquote %}
+— @dotdash https://github.com/mozilla/rust/pull/7259
 
-{% blockquote @dotdash https://github.com/mozilla/rust/pull/7154 %}
-The resulting code for rustc is about 13% faster (measured up to and
-including the "trans" pass) and the resulting librustc is about 5%
-smaller.
-{% endblockquote %}
+> Reduces the size of librustc by about 5% and the time required to build
+> it by about 10%.
+
+— @dotdash https://github.com/mozilla/rust/pull/7186
+
+> The resulting code for rustc is about 13% faster (measured up to and
+> including the "trans" pass) and the resulting librustc is about 5%
+> smaller.
+
+— @dotdash https://github.com/mozilla/rust/pull/7154
 
 ## Breaking changes
 

@@ -106,14 +106,14 @@ primitives.
 
 # Quotes of the Week
 
-{% blockquote tjc on the Rust-the-game/Rust-the-language confusion %}
-who says you can't make money selling a compiler? You can, as long as you
+> who says you can't make money selling a compiler? You can, as long as you
 convince people it's a video game
-{% endblockquote %}
 
-{% blockquote eddyb %}
-who needs pure functional when you have pure cool?
-{% endblockquote %}
+— tjc on the Rust-the-game/Rust-the-language confusion 
+
+> who needs pure functional when you have pure cool?
+
+— eddyb
 
 # This Week in Servo
 

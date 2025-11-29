@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.13](https://blog.rust-lang.org/2016/11/10/Rust-1.13.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.13](https://blog.rust-lang.org/2016/11/10/Rust-1.13.html). 🎉🎈
 * [Schemers: Build a Scheme Interpreter in Rust - a tutorial for Rust beginners](https://mgattozzi.github.io/2016/11/08/scheme-input.html).
 * [Rapid prototyping C applications with Rust](https://rust-leipzig.github.io/cargo/2016/11/13/rapid-prototyping-c-applications/).
 * [Associated type constructors, part 4: Unifying ATC and HKT](http://smallcultfollowing.com/babysteps/blog/2016/11/09/associated-type-constructors-part-4-unifying-atc-and-hkt/).

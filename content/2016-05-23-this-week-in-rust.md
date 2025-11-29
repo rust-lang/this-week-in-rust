@@ -20,7 +20,7 @@ This week's edition was edited by: [Vikrant](https://github.com/nasa42) and [llo
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [One year of Rust](http://blog.rust-lang.org/2016/05/16/rust-at-one-year.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [One year of Rust](http://blog.rust-lang.org/2016/05/16/rust-at-one-year.html). 🎉🎈
 * [Let's build a web server in Rust](https://dfockler.github.io/2016/05/20/web-server.html).
 * [Creating a basic webservice in Rust](http://hermanradtke.com/2016/05/16/creating-a-basic-webservice-in-rust.html).
 * [Writing GStreamer plugins and elements in Rust](https://coaxion.net/blog/2016/05/writing-gstreamer-plugins-and-elements-in-rust/).

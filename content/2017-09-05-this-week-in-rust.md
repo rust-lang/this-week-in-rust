@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.20](https://blog.rust-lang.org/2017/08/31/Rust-1.20.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.20](https://blog.rust-lang.org/2017/08/31/Rust-1.20.html). 🎉🎈
 * [Rust 2017 survey results](https://blog.rust-lang.org/2017/09/05/Rust-2017-Survey-Results.html).
 * [Welcome cramertj to the lang team](https://internals.rust-lang.org/t/welcome-cramertj-to-the-lang-team/5844)!
 * [elfmalloc performance evaluation - a pure Rust allocator that's competitive on performance with jemalloc](https://github.com/ezrosent/allocators-rs/blob/master/info/elfmalloc-performance.md).

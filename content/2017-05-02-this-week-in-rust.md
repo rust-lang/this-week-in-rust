@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.17](https://blog.rust-lang.org/2017/04/27/Rust-1.17.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.17](https://blog.rust-lang.org/2017/04/27/Rust-1.17.html). 🎉🎈
 * [Helix: Native Ruby extensions without fear](https://usehelix.com/).
 * [bindgen now has a users guide](https://servo.github.io/rust-bindgen/).
 * [Asynchronous Rust for fun & profit](http://xion.io/post/programming/rust-async-closer-look.html).
