@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [3DCF/doc2dataset – Rust document-to-dataset pipeline for RAG & LLM fine-tuning](https://github.com/3DCF-Labs/doc2dataset/tree/main)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
