@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [PGM-Extra](https://crates.io/crates/pgm-extra) - High-performance learned index structures for Rust by [Fox Studio](https://github.com/itsfoxstudio)
 
 ### Observations/Thoughts
 
