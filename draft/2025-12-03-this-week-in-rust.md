@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [rust-rule-engine v1.6.0](https://crates.io/crates/rust-rule-engine) - Enterprise-grade rule engine with Drools compatibility and AI integration
+* [rust-rule-engine v1.6.0](https://crates.io/crates/rust-rule-engine) - A blazing-fast Rust rule engine with RETE algorithm, backward chaining inference, and GRL (Grule Rule Language) syntax.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
