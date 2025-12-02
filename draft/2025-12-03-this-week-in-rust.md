@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [Rust Trends Issue #73: From Lab to Factory: Rust in Production](https://rust-trends.com/newsletter/from-lab-to-factory-rust-in-production)
+
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
