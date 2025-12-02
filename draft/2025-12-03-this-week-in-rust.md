@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Clippy Changelog Cat Contest 1.92](https://github.com/rust-lang/rust-clippy/pull/16158)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
