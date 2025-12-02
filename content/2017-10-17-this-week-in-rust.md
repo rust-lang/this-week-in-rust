@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.21](https://blog.rust-lang.org/2017/10/12/Rust-1.21.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.21](https://blog.rust-lang.org/2017/10/12/Rust-1.21.html). 🎉🎈
 * [IntelliJ Rust 0.2.0 released](https://users.rust-lang.org/t/intellij-rust-0-2-0-released/13419).
 * [str vs String](http://www.ameyalokare.com/rust/2017/10/12/rust-str-vs-String.html).
 * [A little story about the `yes` Unix command](https://matthias-endler.de/2017/yes/).

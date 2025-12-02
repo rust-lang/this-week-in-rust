@@ -131,7 +131,7 @@ decision. Express your opinions now. [This week's FCPs][fcp] are:
 
 ## New RFCs
 
-* [<img src="https://cdn-business.discourse.org/images/emoji/emoji_one/scream.png?v=2" title=":scream:" class="emoji" alt=":scream:"> <img src="https://cdn-business.discourse.org/images/emoji/emoji_one/no_entry.png?v=2" title=":no_entry:" class="emoji" alt=":no_entry:"> <img src="https://cdn-business.discourse.org/images/emoji/emoji_one/exclamation.png?v=2" title=":exclamation:" class="emoji" alt=":exclamation:"> <img src="https://cdn-business.discourse.org/images/emoji/emoji_one/no_good.png?v=2" title=":no_good:" class="emoji" alt=":no_good:"> <img src="https://cdn-business.discourse.org/images/emoji/emoji_one/white_check_mark.png?v=2" title=":white_check_mark:" class="emoji" alt=":white_check_mark:"> <img src="https://cdn-business.discourse.org/images/emoji/emoji_one/sunglasses.png?v=2" title=":sunglasses:" class="emoji" alt=":sunglasses:">      ](https://github.com/rust-lang/rfcs/pull/1565).
+* [😱 ⛔️ ❗️ 🙅 ✅ 😎](https://github.com/rust-lang/rfcs/pull/1565).
 * [Amendment to RFC 1291: Add `errno()` and `set_errno()` to `libc` scope](https://github.com/rust-lang/rfcs/pull/1571).
 * [Standardise stream wrappers like compression, encryption and etc](https://github.com/rust-lang/rfcs/pull/1568).
 * [Normalization for long error codes explanations](https://github.com/rust-lang/rfcs/pull/1567).

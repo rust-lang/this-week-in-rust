@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.16](https://blog.rust-lang.org/2017/03/16/Rust-1.16.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.16](https://blog.rust-lang.org/2017/03/16/Rust-1.16.html). 🎉🎈
 * [A gentle introduction to Rust](https://github.com/stevedonovan/gentle-intro). Series of tutorials to get you started with Rust.
 * [Getting started with Piston, a game library for Rust](https://silverwingedseraph.net/programming/2017/03/13/piston-a-game-library-in-rust.html).
 * [Math with distances in Rust: safety and correctness across units](https://ferrisellis.com/posts/rust-implementing-units-for-types/).

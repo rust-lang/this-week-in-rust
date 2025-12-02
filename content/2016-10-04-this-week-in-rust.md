@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.12](https://blog.rust-lang.org/2016/09/29/Rust-1.12.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.12](https://blog.rust-lang.org/2016/09/29/Rust-1.12.html). 🎉🎈
 * [Ethereum users are recommended to switch to Parity (an Ethereum client written in Rust) to mitigate ongoing DoS attack](https://blog.ethereum.org/2016/09/22/ethereum-network-currently-undergoing-dos-attack/). Further reads - [out of memory bug in Geth client](https://blog.ethereum.org/2016/09/18/security-alert-geth-nodes-crash-due-memory-bug/) and [next steps against transaction spam attack](https://blog.ethereum.org/2016/09/22/transaction-spam-attack-next-steps/).
 * [Optional arguments in Rust 1.12](http://xion.io/post/code/rust-optional-args.html).
 * [Applying Hoare logic to the Rust MIR](https://ticki.github.io/blog/a-hoare-logic-for-rust/). Hoare logic is a formal system with a set of logical rules for reasoning rigorously about the correctness of computer programs (from [Wikipedia article](https://en.wikipedia.org/wiki/Hoare_logic)).

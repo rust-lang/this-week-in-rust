@@ -21,7 +21,7 @@ This week's edition was edited by: [nasa42](https://github.com/nasa42), [brson](
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.4](http://blog.rust-lang.org/2015/10/29/Rust-1.4.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.4](http://blog.rust-lang.org/2015/10/29/Rust-1.4.html). 🎉🎈
 * [This week in Servo 39](http://blog.servo.org/2015/10/26/twis-39/).
 * [This week in Redox 4](http://www.redox-os.org/news/this-week-in-redox-4/).
 * [Rreverrse debugging](https://huonw.github.io/blog/2015/10/rreverse-debugging/). Debugging Rust applications with rr.

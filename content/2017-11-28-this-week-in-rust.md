@@ -16,7 +16,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 ## News & Blog Posts
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.22 (and 1.22.1)](https://blog.rust-lang.org/2017/11/22/Rust-1.22.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.22 (and 1.22.1)](https://blog.rust-lang.org/2017/11/22/Rust-1.22.html). 🎉🎈
 * [GTK Rust tutorials - a series](https://mmstick.github.io/gtkrs-tutorials/).
 * [Writing fast and safe native Node.js modules with Rust](https://blog.risingstack.com/node-js-native-modules-with-rust/).
 * [Improving Ruby performance with Rust](https://blog.codeship.com/improving-ruby-performance-with-rust/).

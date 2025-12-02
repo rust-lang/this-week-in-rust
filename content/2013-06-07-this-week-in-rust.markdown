@@ -98,13 +98,11 @@ will still be a bit before anything final-looking comes up in a PR. See the
 
 Brendan sent in a correction:
 
-{% blockquote %}
-Unfortunately whilst it builds on incoming, due to a bug you can't use it in
-external crates. moonchrome and I am are working on fixing this but it will
-require us to remove the trait heirachy and use macros to generate each type
-(Vec3f, Vec3f32, ... etc.) individually instead. Integer and Boolean vector
-types (present in GLSL) will also be removed.
-{% endblockquote %}
+> Unfortunately whilst it builds on incoming, due to a bug you can't use it in
+> external crates. moonchrome and I am are working on fixing this but it will
+> require us to remove the trait heirachy and use macros to generate each type
+> (Vec3f, Vec3f32, ... etc.) individually instead. Integer and Boolean vector
+> types (present in GLSL) will also be removed.
 
 [is6045]: https://github.com/mozilla/rust/issues/6045
 [is6881]: https://github.com/mozilla/rust/pull/6881

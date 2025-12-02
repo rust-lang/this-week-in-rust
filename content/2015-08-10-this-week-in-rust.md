@@ -15,7 +15,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # From the Blogosphere
 
-* <img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0"><img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"> [Announcing Rust 1.2](http://blog.rust-lang.org/2015/08/06/Rust-1.2.html). <img alt="tada" class="emoji" title=":tada:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/tada.png?v=0"><img alt="balloon" class="emoji" title=":balloon:" src="https://cdn.discourse.org/business/images/emoji/emoji_one/balloon.png?v=0">
+* 🎈🎉 [Announcing Rust 1.2](http://blog.rust-lang.org/2015/08/06/Rust-1.2.html). 🎉🎈
 * [Writing Unsafe and Low-Level Code in Rust](http://smallcultfollowing.com/rust-int-variations/imem-umem/guide-unsafe.html).
 * [Creating a PHP Extension to Rust](http://hermanradtke.com/2015/08/03/creating-a-php-extension-to-rust.html).
 * [Objective-C from Rust: objc_msgSend](http://sasheldon.com/blog/2015/08/02/objective-c-from-rust-objc_msgsend/).
