@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [rust-rule-engine v1.6.0](https://crates.io/crates/rust-rule-engine) - Enterprise-grade rule engine with Drools compatibility and AI integration
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
@@ -55,11 +55,11 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+A blazing-fast Rust rule engine with RETE algorithm, backward chaining inference, and GRL (Grule Rule Language) syntax. Features: forward/backward chaining, pattern matching, unification, O(1) rule indexing, TMS, expression evaluation, method calls, and custom functions. Production-ready for business rules, expert systems, and decision automation.
+
+Thanks to [tonthatvu](https://github.com/KSD-CO/rust-rule-engine) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
-
-[submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
 ## Calls for Testing
 An important step for RFC implementation is for people to experiment with the
