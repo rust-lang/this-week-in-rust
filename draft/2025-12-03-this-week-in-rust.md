@@ -51,6 +51,7 @@ and just ask the editors to select the category.
 * [audio] [Netstack.FM episode 16 — WebRTC and Sans IO with Martin Algesten](https://netstack.fm/#episode-16)
 
 ### Rust Walkthroughs
+* [The Impatient Programmer's Guide to Bevy and Rust: Chapter 3 - Let The Data Flow](https://aibodh.com/posts/bevy-rust-game-development-chapter-3/)
 * [Cross-Compiling Rust for Raspberry Pi and making CI](https://sysdev.me/2025/11/27/cross-compiling-rust-for-raspberry-pi)
 
 ### Research
