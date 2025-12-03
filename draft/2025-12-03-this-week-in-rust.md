@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 * [Rustls Shortlisted for Two 2025 OpenUK Awards](https://rustfoundation.org/media/rustls-shortlisted-for-two-2025-openuk-awards/)
 
 ### Newsletters
-* [Rust Trends Issue #73: From Lab to Factory: Rust in Production](https://rust-trends.com/newsletter/from-lab-to-factory-rust-in-production)
+* [Rust Trends Issue #73: From Lab to Factory: Rust in Production](https://rust-trends.com/newsletter/from-lab-to-factory-rust-in-production/)
 
 ### Project/Tooling Updates
 * [Wasmi 1.0 — WebAssembly Interpreter Stable At Last](https://wasmi-labs.github.io/blog/posts/wasmi-v1.0/)
@@ -63,7 +63,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [The Impatient Programmer's Guide to Bevy and Rust: Chapter 3 - Let The Data Flow](https://aibodh.com/posts/bevy-rust-game-development-chapter-3/)
-* [Cross-Compiling Rust for Raspberry Pi and making CI](https://sysdev.me/2025/11/27/cross-compiling-rust-for-raspberry-pi)
+* [Cross-Compiling Rust for Raspberry Pi and making CI](https://sysdev.me/2025/11/27/cross-compiling-rust-for-raspberry-pi/)
 * [Rootless pings in Rust](https://bou.ke/blog/rust-ping/)
 * [Mutation testing for librsvg](https://viruta.org/mutation-testing-librsvg.html)
 * [video] [impl Rust: One Billion Row Challenge](https://www.youtube.com/watch?v=tCY7p6dVAGE)
