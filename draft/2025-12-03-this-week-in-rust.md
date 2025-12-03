@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 * [Fall Updates: Standard Library Support with vexide 0.8.0!](https://vexide.dev/blog/posts/thanksgiving-update-25/)
 * [3DCF/doc2dataset v0.1.0 – Rust document-to-dataset pipeline for RAG & LLM fine-tuning](https://github.com/3DCF-Labs/doc2dataset/releases/tag/v0.1.0)
 * [PGM-Extra: High-performance learned index structures for Rust](https://github.com/itsfoxstudio/pgm-extra-rs/releases/tag/v1.2.2)
+* [Wasmi 1.0 — WebAssembly Interpreter Stable At Last](https://wasmi-labs.github.io/blog/posts/wasmi-v1.0/)
 
 ### Observations/Thoughts
 * [How CRDTs and Rust are revolutionizing distributed systems and real-time applications](https://kerkour.com/rust-crdt)
