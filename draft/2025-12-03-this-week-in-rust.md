@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Fall Updates: Standard Library Support with vexide 0.8.0!](https://vexide.dev/blog/posts/thanksgiving-update-25/)
 
 ### Observations/Thoughts
 
