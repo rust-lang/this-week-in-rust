@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 * [PGM-Extra: High-performance learned index structures for Rust](https://github.com/itsfoxstudio/pgm-extra-rs/releases/tag/v1.2.2)
 
 ### Observations/Thoughts
+* [How CRDTs and Rust are revolutionizing distributed systems and real-time applications](https://kerkour.com/rust-crdt)
 * [audio] [Netstack.FM episode 16 — WebRTC and Sans IO with Martin Algesten](https://netstack.fm/#episode-16)
 
 ### Rust Walkthroughs
