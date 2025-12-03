@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 * [Fall Updates: Standard Library Support with vexide 0.8.0!](https://vexide.dev/blog/posts/thanksgiving-update-25/)
 
 ### Observations/Thoughts
+* [audio] [Netstack.FM episode 16 — WebRTC and Sans IO with Martin Algesten](https://netstack.fm/#episode-16)
 
 ### Rust Walkthroughs
 * [Cross-Compiling Rust for Raspberry Pi and making CI](https://sysdev.me/2025/11/27/cross-compiling-rust-for-raspberry-pi)
