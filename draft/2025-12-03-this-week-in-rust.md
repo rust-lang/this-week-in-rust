@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [How CRDTs and Rust are revolutionizing distributed systems and real-time applications](https://kerkour.com/rust-crdt)
 
 ### Rust Walkthroughs
 
