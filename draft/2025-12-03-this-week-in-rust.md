@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Fall Updates: Standard Library Support with vexide 0.8.0!](https://vexide.dev/blog/posts/thanksgiving-update-25/)
 * [3DCF/doc2dataset v0.1.0 – Rust document-to-dataset pipeline for RAG & LLM fine-tuning](https://github.com/3DCF-Labs/doc2dataset/releases/tag/v0.1.0)
+* [PGM-Extra: High-performance learned index structures for Rust](https://github.com/itsfoxstudio/pgm-extra-rs/releases/tag/v1.2.2)
 
 ### Observations/Thoughts
 * [audio] [Netstack.FM episode 16 — WebRTC and Sans IO with Martin Algesten](https://netstack.fm/#episode-16)
