@@ -242,8 +242,6 @@ Rusty Events between 2025-12-10 - 2026-01-07 🦀
     * [**December 2025 Rustacean meetup**](https://hasgeek.com/rustbangalore/december-2025-rustacean-meetup/)
 
 ### Europe
-* 2025-12-03 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
-    * [**Rust Girona Hack & Learn 12 2025**](https://luma.com/8ncu1p8l)
 * 2025-12-03 | Oxford, UK | [Oxford ACCU/Rust Meetup.](https://www.meetup.com/oxford-rust-meetup-group)
     * [**Rust/ACCU meetup.**](https://www.meetup.com/oxford-rust-meetup-group/events/311994790/)
 * 2025-12-04 | Vienna, AT | [Rust Vienna](https://www.meetup.com/rust-vienna)
@@ -268,6 +266,8 @@ Rusty Events between 2025-12-10 - 2026-01-07 🦀
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/308592258/)
 * 2025-12-19 | Lyon, FR | [Rust Lyon](https://www.meetup.com/rust-lyon)
     * [**Rust Lyon Meetup #11**](https://www.meetup.com/rust-lyon/events/312180836/)
+* 2026-01-07 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Rust Girona Hack & Learn 01 2026**](https://luma.com/mdymp686)
 
 ### North America
 * 2025-12-04 | México City, MX | [Rust MX](https://www.meetup.com/rust-mx/)
