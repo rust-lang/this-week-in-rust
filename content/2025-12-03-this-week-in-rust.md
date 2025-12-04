@@ -238,7 +238,7 @@ which are reaching a decision. Express your opinions now.
 * [Not linting `irrefutable_let_patterns` on let chains](https://github.com/rust-lang/rust/pull/146832)
 * [Make closure capturing have consistent and correct behaviour around patterns](https://github.com/rust-lang/rust/pull/138961)
 
-[Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20%20label%3Afinal-comment-period) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html)
+##### [Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20%20label%3Afinal-comment-period) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html)
 * [Use `annotate-snippets` as the default emitter](https://github.com/rust-lang/compiler-team/issues/947)
 * [Promote powerpc64-unknown-linux-musl to tier 2 with host tools](https://github.com/rust-lang/compiler-team/issues/946)
 * [Proposal for a dedicated test suite for the parallel frontend](https://github.com/rust-lang/compiler-team/issues/906)
@@ -248,10 +248,10 @@ which are reaching a decision. Express your opinions now.
 * [Also enable ICE file dumps on stable](https://github.com/rust-lang/compiler-team/issues/809)
 * [New Tier-3 target proposal: `loongarch64-linux-android`](https://github.com/rust-lang/compiler-team/issues/806)
 
-[Rust RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+##### [Rust RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 * [Adding a crates.io Security tab](https://github.com/rust-lang/rfcs/pull/3872)
 
-[Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+##### [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 * [feat: stabilize `-Zconfig-include`](https://github.com/rust-lang/cargo/pull/16284)
 
 *No Items entered Final Comment Period this week for
