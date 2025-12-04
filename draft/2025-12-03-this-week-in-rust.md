@@ -68,8 +68,6 @@ and just ask the editors to select the category.
 * [Mutation testing for librsvg](https://viruta.org/mutation-testing-librsvg.html)
 * [video] [impl Rust: One Billion Row Challenge](https://www.youtube.com/watch?v=tCY7p6dVAGE)
 
-### Research
-
 ### Miscellaneous
 * [The Rust Africa Hackathon 2026](https://rustafrica.org/the-future-is-written-in-rust-rust-africa-hackathon-2026/)
 * [Ferrous Systems Achieves IEC 61508 (SIL 2) Certification for Rust Core Library Subset](https://ferrous-systems.com/blog/ferrocene-libcore-news-release/)
@@ -386,7 +384,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1ow6s90/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -414,4 +412,4 @@ This Week in Rust is edited by:
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1pdqeup/this_week_in_rust_628/)</small>
