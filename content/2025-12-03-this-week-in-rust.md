@@ -216,7 +216,7 @@ Revision range: [b64df9d1..eca9d93f](https://perf.rust-lang.org/?start=b64df9d10
 3 Regressions, 1 Improvement, 4 Mixed; 3 of them in rollups
 43 artifact comparisons made in total
 
-See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2025/2025-12-02.md] for details.
+See the [full report](https://github.com/rust-lang/rustc-perf/blob/master/triage/2025/2025-12-02.md) for details.
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -238,20 +238,14 @@ which are reaching a decision. Express your opinions now.
 * [Not linting `irrefutable_let_patterns` on let chains](https://github.com/rust-lang/rust/pull/146832)
 * [Make closure capturing have consistent and correct behaviour around patterns](https://github.com/rust-lang/rust/pull/138961)
 
-[Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20%20label%3Afinal-comment-period) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html)
+##### [Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20%20label%3Afinal-comment-period) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html)
 * [Use `annotate-snippets` as the default emitter](https://github.com/rust-lang/compiler-team/issues/947)
 * [Promote powerpc64-unknown-linux-musl to tier 2 with host tools](https://github.com/rust-lang/compiler-team/issues/946)
-* [Proposal for a dedicated test suite for the parallel frontend](https://github.com/rust-lang/compiler-team/issues/906)
-* [Promote tier 3 riscv32 ESP-IDF targets to tier 2](https://github.com/rust-lang/compiler-team/issues/864)
-* [Proposal for Adapt Stack Protector for Rust](https://github.com/rust-lang/compiler-team/issues/841)
-* [Give integer literals a sign instead of relying on negation expressions](https://github.com/rust-lang/compiler-team/issues/835)
-* [Also enable ICE file dumps on stable](https://github.com/rust-lang/compiler-team/issues/809)
-* [New Tier-3 target proposal: `loongarch64-linux-android`](https://github.com/rust-lang/compiler-team/issues/806)
 
-[Rust RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+##### [Rust RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 * [Adding a crates.io Security tab](https://github.com/rust-lang/rfcs/pull/3872)
 
-[Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+##### [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 * [feat: stabilize `-Zconfig-include`](https://github.com/rust-lang/cargo/pull/16284)
 
 *No Items entered Final Comment Period this week for
