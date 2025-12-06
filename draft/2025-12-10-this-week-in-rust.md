@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [CocoIndex: Thinking in Rust - Ownership, Access, and Memory Safety](https://cocoindex.io/blogs/rust-ownership-access)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
