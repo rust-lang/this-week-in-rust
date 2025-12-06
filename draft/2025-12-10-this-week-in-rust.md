@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Should we get rid of clippy::manual_try_fold?](https://blog.veeso.dev/blog/en/should-we-get-rid-of-clippy-manual-try-fold/)
+
 ### Rust Walkthroughs
 
 ### Research
