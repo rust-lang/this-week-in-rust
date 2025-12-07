@@ -264,6 +264,8 @@ Rusty Events between 2025-12-10 - 2026-01-07 🦀
     * [**Rust Advent of Code Hackathon**](https://www.meetup.com/rust-trondheim/events/312278650/)
 * 2025-12-16 | Bergen, NO | [Rust Bergen](https://www.meetup.com/bergen-rust-new-technology/events/)
     * [**Rust Bergen #3 @ Zrch**](https://www.meetup.com/de-de/bergen-rust-new-technology/events/312037597)
+* 2025-12-16 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community)
+    * [**Rust Hack Night #12: Advent of Code**](https://www.meetup.com/copenhagen-rust-community/events/312295930/)
 * 2025-12-16 | Leipzig, SN, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig)
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/308592258/)
 * 2025-12-19 | Lyon, FR | [Rust Lyon](https://www.meetup.com/rust-lyon)
