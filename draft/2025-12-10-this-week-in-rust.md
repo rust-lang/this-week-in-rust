@@ -141,7 +141,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-Overall result is negative this week, but both main regresions are on track to be addressed. No outstanding changes otherwise.
+Overall result is negative this week, but both main regressions are on track to be addressed. No outstanding changes otherwise.
 
 Triage done by **@panstromek**.
 Revision range: [eca9d93f..55495234](https://perf.rust-lang.org/?start=eca9d93f9057f9a48ff691bd65e7daf2f94c1b67&end=554952348a7dd13851f25789f6bb1061f45c4b60&absolute=false&stat=instructions%3Au)
