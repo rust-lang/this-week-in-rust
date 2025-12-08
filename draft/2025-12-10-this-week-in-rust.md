@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Duper's new superpowers!](https://duper.dev.br/blog/duper-s-new-superpowers.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
