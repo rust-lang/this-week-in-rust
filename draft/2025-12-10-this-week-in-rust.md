@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [YM2149-rs 0.8.0](https://ym2149-rs.org) — Cycle-accurate YM2149/AY-3-8910 chiptune ecosystem: 7 format replayers (YM, SNDH with 68000 CPU,
+* [YM2149-rs 0.8.0](https://ym2149-rs.org/) — Cycle-accurate YM2149/AY-3-8910 chiptune ecosystem: 7 format replayers (YM, SNDH with 68000 CPU,
   AY with Z80, Arkos Tracker), Bevy plugin, CLI player, and WASM browser demo
 
 ### Observations/Thoughts
