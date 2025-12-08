@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Get in Line - superfast SPSC Queue](https://abhikja.in/blog/2025-12-07-get-in-line/)
+
 ### Research
 
 ### Miscellaneous
