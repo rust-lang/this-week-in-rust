@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Postfix Macros and `let place`](https://nadrieril.github.io/blog/2025/12/09/postfix-macros-and-let-place.html)
+
 ### Rust Walkthroughs
 
 ### Research
