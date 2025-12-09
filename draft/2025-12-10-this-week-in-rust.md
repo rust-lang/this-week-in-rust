@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Emulating avx-512 intrinsics in Miri](https://trifectatech.org/blog/emulating-avx-512-intrinsics-in-miri/)
 
 ### Research
 
