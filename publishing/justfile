@@ -48,7 +48,7 @@ copy-website-contents:
 	./copy_website_content_to_repo.sh
 
 # Generate and optimize email template
-email container-engine=default-container-engine: (generate-email container-engine) optimize-email
+email container-engine=default-container-engine: (generate-email container-engine) (optimize-email container-engine)
 
 # Build container engine image (Docker by default)
 container-build container-engine=default-container-engine:
@@ -95,7 +95,7 @@ generate-email container-engine=default-container-engine: (container-build conta
 
 # Optimize email HTML for delivery
 [script("bash")]
-optimize-email:
+optimize-email container-engine=default-container-engine:
 	echo "Generating optimized email..."
 	OUTPUT_PREFIX="output-email-format"
 
@@ -109,7 +109,7 @@ optimize-email:
 	rm -f ${LOCAL_EMAIL_PREFIX}-in.html
 	cp ${LATEST_ISSUE_FULL_PATH} ${LOCAL_EMAIL_PREFIX}-in.html
 
-	podman run \
+	{{container-engine}} run \
 		-v $(pwd)/email:/usr/twir/email \
 		-e LOCAL_EMAIL_PREFIX=${LOCAL_EMAIL_PREFIX} \
 		twir:latest \
