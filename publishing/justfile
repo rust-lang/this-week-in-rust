@@ -36,19 +36,21 @@ help:
 #	 Output: `email/<NUMBER>-<YEAR>-<MONTH>-<DAY>-email.html`
 #
 
+default-container-engine := "docker"
+
 # Generate and host website locally
-website: generate-website host-website
+website container-engine=default-container-engine: (generate-website container-engine) (host-website container-engine)
 
 # Copy website contents to this-week-in-rust.github.io repo
 copy-website-contents:
 	./copy_website_content_to_repo.sh
 
 # Generate and optimize email template
-email: generate-email optimize-email
+email container-engine=default-container-engine: (generate-email container-engine) optimize-email
 
-# Build Docker image
-docker-build:
-	cd .. && docker build -t twir -f publishing/Dockerfile . && cd -
+# Build container engine image (Docker by default)
+container-build container-engine=default-container-engine:
+	cd .. && {{container-engine}} build -t twir -f publishing/Dockerfile . && cd -
 
 # Clean website output directories
 clean-website:
@@ -59,17 +61,18 @@ clean-email:
 	rm -rf output/ output-email-format/ email/ juice/
 
 # Generate website content
-generate-website: docker-build clean-website
+generate-website container-engine=default-container-engine: (container-build container-engine) clean-website
 	@echo "Generating website..."
-	docker run -it \
+	mkdir -p output-website
+	{{container-engine}} run -it \
 		-v {{justfile_directory()}}/output-website:/usr/twir/output \
 		twir:latest
 	@echo "Finished generating website."
 
 # Host website locally on port 8000
-host-website:
+host-website container-engine=default-container-engine:
 	@echo "Hosting website..."
-	docker run -it \
+	{{container-engine}} run -it \
 		-p 8000:8000 \
 	 	-v {{justfile_directory()}}/output-website:/usr/twir/output:ro \
 		-it \
@@ -80,15 +83,45 @@ host-website:
 	@echo "To sync contents with your local 'this-week-in-rust.github.io' repo, run 'just copy-website-contents'"
 
 # Generate email content
-generate-email: docker-build clean-email
+generate-email container-engine=default-container-engine: (container-build container-engine) clean-email
 	@echo "Generating email..."
 	mkdir -p output-email-format
-	docker run -it \
+	{{container-engine}} run -it \
 		-e USE_EMAIL_THEME=1 \
 		-v {{justfile_directory()}}/output-email-format:/usr/twir/output \
 		twir:latest
 
 # Optimize email HTML for delivery
 optimize-email:
-	@echo "Generating optimized email..."
-	OUTPUT_PREFIX=output-email-format ./create_optimized_email.sh
+	#!/bin/bash
+
+	echo "Generating optimized email..."
+
+	OUTPUT_PREFIX="output-email-format"
+
+	source utils.sh
+
+	LOCAL_EMAIL_PREFIX="email/${LATEST_ISSUE_NUMBER}-${LATEST_YEAR}-${LATEST_MONTH}-${LATEST_DAY}"
+	echo "Creating email for ${LATEST_ISSUE_NUMBER}-${LATEST_YEAR}-${LATEST_MONTH}-${LATEST_DAY}"
+
+	# Prepare email directory
+	mkdir -p email
+	rm -f ${LOCAL_EMAIL_PREFIX}-in.html
+	cp ${LATEST_ISSUE_FULL_PATH} ${LOCAL_EMAIL_PREFIX}-in.html
+
+	podman run \
+		-v $(pwd)/email:/usr/twir/email \
+		-e LOCAL_EMAIL_PREFIX=${LOCAL_EMAIL_PREFIX} \
+		twir:latest \
+		bash create_html_friendly_page.sh 
+
+	rm ${LOCAL_EMAIL_PREFIX}-in.html
+
+	printf "\n\n${CYAN_FONT}*****${PURPLE_FONT}*****${CYAN_FONT}*****${PURPLE_FONT}*****${NC}"
+	printf "\n${CYAN_FONT}*****${PURPLE_FONT}*****${CYAN_FONT}*****${PURPLE_FONT}*****${NC}"
+	printf "\n${CYAN_FONT}*****${PURPLE_FONT}*****${CYAN_FONT}*****${PURPLE_FONT}*****${NC}"
+	printf "\n📧 HEY TWiR PUBLISHER..."
+	printf "\nLatest email template found at:  ${YELLOW_FONT}'$(pwd)/${LOCAL_EMAIL_PREFIX}-email.html'${NC}"
+	printf "\n${CYAN_FONT}*****${PURPLE_FONT}*****${CYAN_FONT}*****${PURPLE_FONT}*****${NC}"
+	printf "\n${CYAN_FONT}*****${PURPLE_FONT}*****${CYAN_FONT}*****${PURPLE_FONT}*****${NC}"
+	printf "\n${CYAN_FONT}*****${PURPLE_FONT}*****${CYAN_FONT}*****${PURPLE_FONT}*****${NC}\n\n"
