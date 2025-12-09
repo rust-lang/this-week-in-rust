@@ -36,6 +36,8 @@ help:
 #	 Output: `email/<NUMBER>-<YEAR>-<MONTH>-<DAY>-email.html`
 #
 
+set unstable
+
 default-container-engine := "docker"
 
 # Generate and host website locally
@@ -92,11 +94,9 @@ generate-email container-engine=default-container-engine: (container-build conta
 		twir:latest
 
 # Optimize email HTML for delivery
+[script("bash")]
 optimize-email:
-	#!/bin/bash
-
 	echo "Generating optimized email..."
-
 	OUTPUT_PREFIX="output-email-format"
 
 	source utils.sh
