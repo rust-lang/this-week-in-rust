@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing diesel-guard 0.2.0: Catch unsafe PostgreSQL migrations before they hit production](https://www.reddit.com/r/rust/comments/1phx68w/dieselguard_catch_unsafe_postgresql_migrations/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
