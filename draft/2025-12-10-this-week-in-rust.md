@@ -38,20 +38,32 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Lessons learned from the Rust Vision Doc process](https://blog.rust-lang.org/2025/12/03/lessons-learned-from-the-rust-vision-doc-process/)
+* [Updating Rust's Linux musl targets to 1.2.5](https://blog.rust-lang.org/2025/12/05/Updating-musl-1.2.5/)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Yew 0.22 - For Real This Time](https://yew.rs/blog/2025/11/29/release-0-22)
+* [Ferrocene 25.11.0 now available!](https://ferrous-systems.com/blog/ferrocene-25-11-0/)
 
 ### Observations/Thoughts
+* [Exploring deboa-macros: Ergonomic HTTP Client Macros for Rust](https://medium.com/@ararog/exploring-deboa-macros-ergonomic-http-client-macros-for-rust-d0c3df22e0a7)
+* [Fighting the Client Spaghetti Monster with Rust Traits](http://gnunicorn.org/writings/spaghetti-monster-clients-rust-traits-final-boss/)
+* [Rust unit testing: buffered file reading](https://jorgeortiz.dev/posts/rust_unit_testing_file_buf_reading/)
 
 ### Rust Walkthroughs
+* [Get in Line - superfast SPSC Queue](https://abhikja.in/blog/2025-12-07-get-in-line/)
+* [Emulating avx-512 intrinsics in Miri](https://trifectatech.org/blog/emulating-avx-512-intrinsics-in-miri/)
+* [How to speed up the Rust compiler in December 2025](https://nnethercote.github.io/2025/12/05/how-to-speed-up-the-rust-compiler-in-december-2025.html)
+* [From trees to graphs: speeding up vector search 10x with Hannoy](https://blog.kerollmops.com/from-trees-to-graphs-speeding-up-vector-search-10x-with-hannoy)
 
 ### Research
 
 ### Miscellaneous
+* [video] [AWS re:Invent 2025 - Unleash Rust's potential on AWS (DEV307)](https://www.youtube.com/watch?v=buBBQ5mXAi8)
 
 ## Crate of the Week
 
