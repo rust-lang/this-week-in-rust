@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [mdbook-lint](https://github.com/joshrotenberg/mdbook-lint), a markdown linter geared towards mdbook, but useful with any markdown.
+
+Thanks to [josh rotenberg](https://users.rust-lang.org/t/crate-of-the-week/2704/1502) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -137,7 +139,56 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+494 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-12-02..2025-12-09
+
+#### Compiler
+* [early return on duplicate span lowerings](https://github.com/rust-lang/rust/pull/149060)
+* [miri: support `fstat` in linux](https://github.com/rust-lang/miri/pull/4714)
+
+#### Library
+* [`c_variadic`: make `VaList` abi-compatible with C](https://github.com/rust-lang/rust/pull/141980)
+* [add `#[inline]` to `Layout::is_size_align_valid`](https://github.com/rust-lang/rust/pull/149690)
+* [add `Option::into_flat_iter`](https://github.com/rust-lang/rust/pull/148487)
+* [also introduce `Peekable::next_if_map_mut` next to `next_if_map`](https://github.com/rust-lang/rust/pull/149520)
+* [assume the returned value in `.filter(…).count()`](https://github.com/rust-lang/rust/pull/149495)
+* [implement `Allocator` for `&mut A` where `A: Allocator + ?Sized`](https://github.com/rust-lang/rust/pull/146826)
+* [implement `Vec::from_fn`](https://github.com/rust-lang/rust/pull/149699)
+* [remove initialized-bytes tracking from `BorrowedBuf` and `BorrowedCursor`](https://github.com/rust-lang/rust/pull/148937)
+* [stabilize `array_windows`](https://github.com/rust-lang/rust/pull/148814)
+
+#### Cargo
+* [`lint`: new `implicit_minimum_version_req` lint](https://github.com/rust-lang/cargo/pull/16321)
+* [`timings`: derive concurrency data from unit data](https://github.com/rust-lang/cargo/pull/16350)
+* [`lints`: handle lints separately at ws pkg level](https://github.com/rust-lang/cargo/pull/16367)
+* [`clean`: Optimize (legacy) clean with multiple -p specifiers](https://github.com/rust-lang/cargo/pull/16264)
+* [don't read the config file twice when `$CARGO_HOME` is a symlink](https://github.com/rust-lang/cargo/pull/16325)
+* [support for rustdoc mergeable cross-crate info](https://github.com/rust-lang/cargo/pull/16309)
+
+#### Clippy
+* [`len_without_is_empty`: allow `is_empty(&self)` with `len(&mut self)`](https://github.com/rust-lang/rust-clippy/pull/16194)
+* [fix `map_entry` false positive when it would cause `MutexGuard` to be held across an](https://github.com/rust-lang/rust-clippy/pull/16199)
+* [fix `nonstandard_macro_braces` false negative on macros with empty args](https://github.com/rust-lang/rust-clippy/pull/15601)
+* [fix `panicking_unwrap` false positive on field access with implicit deref](https://github.com/rust-lang/rust-clippy/pull/16196)
+* [fix `tuple_array_conversions` false positive when binded vars are used before conversion](https://github.com/rust-lang/rust-clippy/pull/16197)
+* [fix `useless_conversion` wrongly unmangled macros](https://github.com/rust-lang/rust-clippy/pull/16171)
+* [fix broken `while_let_on_iterator` suggestion for non-sized types](https://github.com/rust-lang/rust-clippy/pull/16100)
+
+#### Rust-Analyzer
+* [add config hide placeholders type hints](https://github.com/rust-lang/rust-analyzer/pull/21203)
+* [fix `make::unnamed_param` result a `untyped_param`](https://github.com/rust-lang/rust-analyzer/pull/21044)
+* [fix nested expr missing semicolon in incomplete-let](https://github.com/rust-lang/rust-analyzer/pull/21198)
+* [fix pub in `enum` variant field for `no_such_field`](https://github.com/rust-lang/rust-analyzer/pull/21221)
+* [allow multiple discover operations](https://github.com/rust-lang/rust-analyzer/pull/21164)
+* [don't implement sizedness check via `all_field_tys()`](https://github.com/rust-lang/rust-analyzer/pull/21215)
+* [fix completion in format strings](https://github.com/rust-lang/rust-analyzer/pull/21210)
+* [fixed impl display to show trait generic args](https://github.com/rust-lang/rust-analyzer/pull/21226)
+* [more proc-macro-srv proto fixes](https://github.com/rust-lang/rust-analyzer/pull/21195)
+* [register `define_opaque` builtin attribute macro](https://github.com/rust-lang/rust-analyzer/pull/21183)
+* [resolve const generic param-env panic in type projection](https://github.com/rust-lang/rust-analyzer/pull/21235)
+* [skip cfg attributes in macro input attribute stripping](https://github.com/rust-lang/rust-analyzer/pull/21205)
+* [no complete unit RetType in resugar async assoc item](https://github.com/rust-lang/rust-analyzer/pull/21222)
 
 ### Rust Compiler Performance Triage
 
@@ -318,7 +369,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> \[..\] if a breaking change is going to happen, it’s much better to make lock automatically panic than to make panics silently unlock.
+
+– [Rain on their blog](https://sunshowers.io/posts/on-poisoning)
+
+Thanks to [hkBst](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1735) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
