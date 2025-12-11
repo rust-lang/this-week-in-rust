@@ -40,10 +40,7 @@ and just ask the editors to select the category.
 ### Official
 * [Lessons learned from the Rust Vision Doc process](https://blog.rust-lang.org/2025/12/03/lessons-learned-from-the-rust-vision-doc-process/)
 * [Updating Rust's Linux musl targets to 1.2.5](https://blog.rust-lang.org/2025/12/05/Updating-musl-1.2.5/)
-
 * [Making it easier to sponsor Rust contributors](https://blog.rust-lang.org/2025/12/08/making-it-easier-to-sponsor-rust-contributors/)
-
-### Foundation
 
 ### Newsletters
 * [The Embedded Rustacean Issue #60](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-60)
@@ -72,8 +69,6 @@ and just ask the editors to select the category.
 * [How to speed up the Rust compiler in December 2025](https://nnethercote.github.io/2025/12/05/how-to-speed-up-the-rust-compiler-in-december-2025.html)
 * [From trees to graphs: speeding up vector search 10x with Hannoy](https://blog.kerollmops.com/from-trees-to-graphs-speeding-up-vector-search-10x-with-hannoy)
 * [series] [Part 1: Tokenization, Building an LLM From Scratch in Rust](https://www.tag1.com/white-paper/part1-tokenization-building-an-llm-from-scratch-in-rust/)
-
-### Research
 
 ### Miscellaneous
 * [Pydantic: The Python Darling That Loves Rust](https://filtra.io/rust/interviews/pydantic-dec-25)
@@ -347,7 +342,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1ow6s90/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
