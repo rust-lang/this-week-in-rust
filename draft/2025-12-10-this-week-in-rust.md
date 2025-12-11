@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Making it easier to sponsor Rust contributors](https://blog.rust-lang.org/2025/12/08/making-it-easier-to-sponsor-rust-contributors/)
+
 ### Foundation
 
 ### Newsletters
