@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 * [Announcing redis-rs 1.0.0 release](https://github.com/redis-rs/redis-rs/blob/main/version1.md)
 * [video] [Recording from the Rust Seoul meetup: Zia, a programming language that defines itself (written in Rust)](https://www.youtube.com/watch?v=LbFTP3pITWU)
 
+* [Announcing diesel-guard 0.2.0: Catch unsafe PostgreSQL migrations before they hit production](https://www.reddit.com/r/rust/comments/1phx68w/dieselguard_catch_unsafe_postgresql_migrations/)
+
 ### Observations/Thoughts
 * [iksemel rusted](https://thinkerf.blogspot.com/2025/12/iksemel-rusted.html)
 
