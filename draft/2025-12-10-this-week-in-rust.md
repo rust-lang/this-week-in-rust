@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [video] [Recording from the Rust Seoul meetup: Zia, a programming language that defines itself (written in Rust)](https://www.youtube.com/watch?v=LbFTP3pITWU)
+
 ### Observations/Thoughts
 * [iksemel rusted](https://thinkerf.blogspot.com/2025/12/iksemel-rusted.html)
 
