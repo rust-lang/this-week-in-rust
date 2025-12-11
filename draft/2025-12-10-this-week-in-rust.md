@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Lessons learned from the Rust Vision Doc process](https://blog.rust-lang.org/2025/12/03/lessons-learned-from-the-rust-vision-doc-process/)
+* [Updating Rust's Linux musl targets to 1.2.5](https://blog.rust-lang.org/2025/12/05/Updating-musl-1.2.5/)
 
 * [Making it easier to sponsor Rust contributors](https://blog.rust-lang.org/2025/12/08/making-it-easier-to-sponsor-rust-contributors/)
 
@@ -47,27 +49,35 @@ and just ask the editors to select the category.
 * [The Embedded Rustacean Issue #60](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-60)
 
 ### Project/Tooling Updates
+* [Yew 0.22 - For Real This Time](https://yew.rs/blog/2025/11/29/release-0-22)
+* [Ferrocene 25.11.0 now available!](https://ferrous-systems.com/blog/ferrocene-25-11-0/)
 * [YM2149-rs 0.8.0 — Cycle-accurate YM2149/AY-3-8910 chiptune ecosystem](https://ym2149-rs.org/)
 * [Duper's new superpowers!](https://duper.dev.br/blog/duper-s-new-superpowers.html)
 * [Announcing redis-rs 1.0.0 release](https://github.com/redis-rs/redis-rs/blob/main/version1.md)
+* [Announcing diesel-guard 0.2.0: Catch unsafe PostgreSQL migrations before they hit production](https://www.reddit.com/r/rust/comments/1phx68w/dieselguard_catch_unsafe_postgresql_migrations/)
 * [video] [Recording from the Rust Seoul meetup: Zia, a programming language that defines itself (written in Rust)](https://www.youtube.com/watch?v=LbFTP3pITWU)
 
-* [Announcing diesel-guard 0.2.0: Catch unsafe PostgreSQL migrations before they hit production](https://www.reddit.com/r/rust/comments/1phx68w/dieselguard_catch_unsafe_postgresql_migrations/)
-
 ### Observations/Thoughts
+* [Exploring deboa-macros: Ergonomic HTTP Client Macros for Rust](https://medium.com/@ararog/exploring-deboa-macros-ergonomic-http-client-macros-for-rust-d0c3df22e0a7)
+* [Fighting the Client Spaghetti Monster with Rust Traits](http://gnunicorn.org/writings/spaghetti-monster-clients-rust-traits-final-boss/)
+* [Rust unit testing: buffered file reading](https://jorgeortiz.dev/posts/rust_unit_testing_file_buf_reading/)
 * [Firecracker deep dive: How Rust and microVMs are revolutionizing cloud infrastructure](https://kerkour.com/firecracker-deep-dive-rust)
 * [iksemel rusted](https://thinkerf.blogspot.com/2025/12/iksemel-rusted.html)
 * [Postfix Macros and `let place`](https://nadrieril.github.io/blog/2025/12/09/postfix-macros-and-let-place.html)
 * [Should we get rid of clippy::manual_try_fold?](https://blog.veeso.dev/blog/en/should-we-get-rid-of-clippy-manual-try-fold/)
 
 ### Rust Walkthroughs
-* [Rust Unit Testing: buffered file reading](https://jorgeortiz.dev/posts/rust_unit_testing_file_buf_reading/)
+* [Get in Line - superfast SPSC Queue](https://abhikja.in/blog/2025-12-07-get-in-line/)
+* [Emulating avx-512 intrinsics in Miri](https://trifectatech.org/blog/emulating-avx-512-intrinsics-in-miri/)
+* [How to speed up the Rust compiler in December 2025](https://nnethercote.github.io/2025/12/05/how-to-speed-up-the-rust-compiler-in-december-2025.html)
+* [From trees to graphs: speeding up vector search 10x with Hannoy](https://blog.kerollmops.com/from-trees-to-graphs-speeding-up-vector-search-10x-with-hannoy)
 * [series] [Part 1: Tokenization, Building an LLM From Scratch in Rust](https://www.tag1.com/white-paper/part1-tokenization-building-an-llm-from-scratch-in-rust/)
 
 ### Research
 
 ### Miscellaneous
 * [Pydantic: The Python Darling That Loves Rust](https://filtra.io/rust/interviews/pydantic-dec-25)
+* [video] [AWS re:Invent 2025 - Unleash Rust's potential on AWS (DEV307)](https://www.youtube.com/watch?v=buBBQ5mXAi8)
 
 ## Crate of the Week
 
