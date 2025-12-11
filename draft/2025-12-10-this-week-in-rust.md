@@ -47,10 +47,10 @@ and just ask the editors to select the category.
 * [The Embedded Rustacean Issue #60](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-60)
 
 ### Project/Tooling Updates
+* [YM2149-rs 0.8.0 — Cycle-accurate YM2149/AY-3-8910 chiptune ecosystem](https://ym2149-rs.org/)
+* [Duper's new superpowers!](https://duper.dev.br/blog/duper-s-new-superpowers.html)
 * [Announcing redis-rs 1.0.0 release](https://github.com/redis-rs/redis-rs/blob/main/version1.md)
 * [video] [Recording from the Rust Seoul meetup: Zia, a programming language that defines itself (written in Rust)](https://www.youtube.com/watch?v=LbFTP3pITWU)
-
-* [Duper's new superpowers!](https://duper.dev.br/blog/duper-s-new-superpowers.html)
 
 ### Observations/Thoughts
 * [iksemel rusted](https://thinkerf.blogspot.com/2025/12/iksemel-rusted.html)
