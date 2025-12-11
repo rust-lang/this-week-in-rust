@@ -67,6 +67,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Pydantic: The Python Darling That Loves Rust](https://filtra.io/rust/interviews/pydantic-dec-25)
 
 ## Crate of the Week
 
