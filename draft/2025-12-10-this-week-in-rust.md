@@ -55,10 +55,9 @@ and just ask the editors to select the category.
 * [Announcing diesel-guard 0.2.0: Catch unsafe PostgreSQL migrations before they hit production](https://www.reddit.com/r/rust/comments/1phx68w/dieselguard_catch_unsafe_postgresql_migrations/)
 
 ### Observations/Thoughts
+* [Firecracker deep dive: How Rust and microVMs are revolutionizing cloud infrastructure](https://kerkour.com/firecracker-deep-dive-rust)
 * [iksemel rusted](https://thinkerf.blogspot.com/2025/12/iksemel-rusted.html)
-
 * [Postfix Macros and `let place`](https://nadrieril.github.io/blog/2025/12/09/postfix-macros-and-let-place.html)
-
 * [Should we get rid of clippy::manual_try_fold?](https://blog.veeso.dev/blog/en/should-we-get-rid-of-clippy-manual-try-fold/)
 
 ### Rust Walkthroughs
