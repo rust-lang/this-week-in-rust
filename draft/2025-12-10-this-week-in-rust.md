@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 * [Announcing redis-rs 1.0.0 release](https://github.com/redis-rs/redis-rs/blob/main/version1.md)
 * [video] [Recording from the Rust Seoul meetup: Zia, a programming language that defines itself (written in Rust)](https://www.youtube.com/watch?v=LbFTP3pITWU)
 
+* [Duper's new superpowers!](https://duper.dev.br/blog/duper-s-new-superpowers.html)
+
 ### Observations/Thoughts
 * [iksemel rusted](https://thinkerf.blogspot.com/2025/12/iksemel-rusted.html)
 
