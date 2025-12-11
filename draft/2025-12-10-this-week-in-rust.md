@@ -42,14 +42,22 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #60](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-60)
 
 ### Project/Tooling Updates
-
 * [Announcing redis-rs 1.0.0 release](https://github.com/redis-rs/redis-rs/blob/main/version1.md)
+* [video] [Recording from the Rust Seoul meetup: Zia, a programming language that defines itself (written in Rust)](https://www.youtube.com/watch?v=LbFTP3pITWU)
 
 ### Observations/Thoughts
+* [iksemel rusted](https://thinkerf.blogspot.com/2025/12/iksemel-rusted.html)
+
+* [Postfix Macros and `let place`](https://nadrieril.github.io/blog/2025/12/09/postfix-macros-and-let-place.html)
+
+* [Should we get rid of clippy::manual_try_fold?](https://blog.veeso.dev/blog/en/should-we-get-rid-of-clippy-manual-try-fold/)
 
 ### Rust Walkthroughs
+* [Rust Unit Testing: buffered file reading](https://jorgeortiz.dev/posts/rust_unit_testing_file_buf_reading/)
+* [series] [Part 1: Tokenization, Building an LLM From Scratch in Rust](https://www.tag1.com/white-paper/part1-tokenization-building-an-llm-from-scratch-in-rust/)
 
 ### Research
 
