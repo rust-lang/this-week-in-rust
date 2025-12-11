@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 * [Postfix Macros and `let place`](https://nadrieril.github.io/blog/2025/12/09/postfix-macros-and-let-place.html)
 
 ### Rust Walkthroughs
+* [series] [Part 1: Tokenization, Building an LLM From Scratch in Rust](https://www.tag1.com/white-paper/part1-tokenization-building-an-llm-from-scratch-in-rust/)
 
 ### Research
 
