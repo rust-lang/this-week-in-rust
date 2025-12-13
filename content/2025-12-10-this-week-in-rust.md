@@ -223,10 +223,10 @@ which are reaching a decision. Express your opinions now.
 * [NFC normalize lifetime identifiers](https://github.com/rust-lang/rust/pull/149192)
 * [don't normalize where-clauses when checking well-formedness](https://github.com/rust-lang/rust/pull/148477)
 
-[Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20%20label%3Afinal-comment-period) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html)
+##### [Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20%20label%3Afinal-comment-period) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html)
 * [Destabilise target-spec-json](https://github.com/rust-lang/compiler-team/issues/944)
 
-[Rust RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+##### [Rust RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 * [RFC: `#[export_visibility = ...]` attribute](https://github.com/rust-lang/rfcs/pull/3834)
 
 *No Items entered Final Comment Period this week for
