@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [The state of the kernel Rust experiment](https://lwn.net/SubscriberLink/1050174/6b6d55c90ce1100f/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
