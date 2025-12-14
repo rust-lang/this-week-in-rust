@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Building Slatron: The Digital TV Scheduling and Automation System](https://justinwoodring.com/blog/introducing-slatron/)
 
 ### Observations/Thoughts
 
