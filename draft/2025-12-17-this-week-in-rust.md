@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [How we made SeaORM synchronous](https://www.sea-ql.org/blog/2025-12-12-sea-orm-2.0/)
 
 ### Observations/Thoughts
 
