@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Supercharging Security Auditing with Rust: An Interview with Caido](https://www.sea-ql.org/interview/2025-12-16-caido/)
 
 ## Crate of the Week
 
