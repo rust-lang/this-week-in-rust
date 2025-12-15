@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Stop Losing Intent: Absent, Null, and Value in Rust](https://minikin.me/blog/presence-rs)
 
 ### Research
 
