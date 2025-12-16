@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+[hotpath-rs - CPU time vs wall-clock time: profiling async Rust](https://hotpath.rs/sampling_comparison) 
+
 ### Research
 
 ### Miscellaneous
