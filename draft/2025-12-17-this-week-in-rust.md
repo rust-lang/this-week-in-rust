@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Secure your Rust projects and improve the developer experience with Dev Containers](https://kerkour.com/rust-devcontainers)
 
 ### Rust Walkthroughs
 
