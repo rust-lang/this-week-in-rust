@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [logos](https://github.com/maciejhirsz/logos), a modern lexer generator.
+
+Thanks to [Sam O'Brien](https://users.rust-lang.org/t/crate-of-the-week/2704/1507) for the (partial self-)suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -137,7 +139,85 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+482 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-12-09..2025-12-16
+
+#### Compiler
+* [`rustc_scalable_vector(N)`](https://github.com/rust-lang/rust/pull/143924)
+* [experimentally add *heterogeneous* `try` blocks](https://github.com/rust-lang/rust/pull/149489)
+* [externally implementable items](https://github.com/rust-lang/rust/pull/146348)
+* [forbid freely casting lifetime bounds of dyn-types](https://github.com/rust-lang/rust/pull/136776)
+* [inherit attributes in delegation](https://github.com/rust-lang/rust/pull/149843)
+* [only resolve main in bin crates](https://github.com/rust-lang/rust/pull/149867)
+* [overhaul filename handling for cross-compiler consistency](https://github.com/rust-lang/rust/pull/149709)
+* [simplify how inline asm handles `MaybeUninit`](https://github.com/rust-lang/rust/pull/149950)
+
+#### Library
+* [add `SystemTime::{MIN,` MAX}](https://github.com/rust-lang/rust/pull/148825)
+* [add `core::hint::prefetch_{read, write}_{data, instruction}`](https://github.com/rust-lang/rust/pull/146948)
+* [constify `DropGuard::dismiss` and trait impls](https://github.com/rust-lang/rust/pull/148755)
+* [fix vec iter zst alignment](https://github.com/rust-lang/rust/pull/149272)
+* [stabilize `const_mul_add`](https://github.com/rust-lang/rust/pull/148052)
+
+#### Cargo
+* [`feat(log)`: make timing messages ready for HTML replay](https://github.com/rust-lang/cargo/pull/16382)
+* [`feat(report)`: cargo report timings HTML replay](https://github.com/rust-lang/cargo/pull/16377)
+* [new: Improve quality of package name error messages](https://github.com/rust-lang/cargo/pull/16398)
+* [package: Don't verify registry for --list](https://github.com/rust-lang/cargo/pull/16341)
+* [`fix(timing)`: more self-contained timing/log data](https://github.com/rust-lang/cargo/pull/16378)
+* [`test(lint)`: redact more due to line got omitted](https://github.com/rust-lang/cargo/pull/16391)
+* [cache submodule into git db](https://github.com/rust-lang/cargo/pull/16246)
+* [downgrade curl-sys to 0.4.83](https://github.com/rust-lang/cargo/pull/16379)
+* [feat: stabilize `-Zconfig-include`](https://github.com/rust-lang/cargo/pull/16284)
+* [fixed incorrect locking logic when artifact-dir == build-dir](https://github.com/rust-lang/cargo/pull/16385)
+* [test: use a larger default term width](https://github.com/rust-lang/cargo/pull/16403)
+
+#### Clippy
+* [`format_push_string`: give a (possibly incomplete) suggestion](https://github.com/rust-lang/rust-clippy/pull/16093)
+* [`manual_saturating_arithmetic`: lint `x.checked_sub(y).unwrap_or_default()`](https://github.com/rust-lang/rust-clippy/pull/15845)
+* [`transmute_ptr_to_ref`: Handle a pointer wrapped in a `struct`](https://github.com/rust-lang/rust-clippy/pull/15948)
+* [`unnecessary_fold`: lint on `fold`s with `Add::add`/`Mul::mul`](https://github.com/rust-lang/rust-clippy/pull/16124)
+* [`match_like_matches_macro`: fix false positive with guards containing `if let`](https://github.com/rust-lang/rust-clippy/pull/15876)
+* [add `needless_type_cast` lint](https://github.com/rust-lang/rust-clippy/pull/16139)
+* [add iterator reduction coverage to `never_loop`](https://github.com/rust-lang/rust-clippy/pull/16222)
+* [count unsafe operations and macro calls once towards the innermost unsafe block](https://github.com/rust-lang/rust-clippy/pull/16117)
+* [do not look for disallowed methods inside desugared code](https://github.com/rust-lang/rust-clippy/pull/16186)
+* [fix `branches-sharing-code` suggests wrongly on `const` and `static`](https://github.com/rust-lang/rust-clippy/pull/15522)
+* [fix `clippy::ref_as_ptr` for non-temporary references in let/const](https://github.com/rust-lang/rust-clippy/pull/16214)
+* [fix `if_not_else` wrong unmangled macros](https://github.com/rust-lang/rust-clippy/pull/15931)
+* [fix `if_then_some_else_none` false positive when encountering `await` codes](https://github.com/rust-lang/rust-clippy/pull/16178)
+* [fix `map_entry` suggests wrongly for insert with cfg-ed out code](https://github.com/rust-lang/rust-clippy/pull/15800)
+* [fix `match_like_matches_macro` wrongly unmangled macros](https://github.com/rust-lang/rust-clippy/pull/16018)
+* [fix `set-contains-or-insert` false positive when set is mutated before `insert`](https://github.com/rust-lang/rust-clippy/pull/16009)
+* [fix `unchecked_time_subtraction` false negative on `Ops::sub` method call](https://github.com/rust-lang/rust-clippy/pull/16233)
+
+#### Rust-Analyzer
+* [fix "Invariant violation: file emitted multiple times" when doing `scip .`](https://github.com/rust-lang/rust-analyzer/pull/21270)
+* [fix `bind_unused_param` applicable on closure](https://github.com/rust-lang/rust-analyzer/pull/21264)
+* [fix assist `and` → `and_then` parameter](https://github.com/rust-lang/rust-analyzer/pull/21239)
+* [fix complete reference for `&mut ty` → `&ty`](https://github.com/rust-lang/rust-analyzer/pull/21278)
+* [fix complete unit return semicolon in arg-list](https://github.com/rust-lang/rust-analyzer/pull/21032)
+* [fix expected type no strip deref](https://github.com/rust-lang/rust-analyzer/pull/21277)
+* [fix indent for `toggle_ignore`](https://github.com/rust-lang/rust-analyzer/pull/21175)
+* [fix invalid logic op for `replace_let_with_if_let`](https://github.com/rust-lang/rust-analyzer/pull/21266)
+* [fix loses label for `convert_for_to_while_let`](https://github.com/rust-lang/rust-analyzer/pull/20754)
+* [fix not applicable fn in closure for `add_return_type`](https://github.com/rust-lang/rust-analyzer/pull/21258)
+* [`#[rustc_deprecated_safe_2024]` can also come as `#[rustc_deprecated_safe_2024(audit_that = "reason")]`](https://github.com/rust-lang/rust-analyzer/pull/21244)
+* [`is_transmutable` always panicking](https://github.com/rust-lang/rust-analyzer/pull/21238)
+* [fix a panic in `ast::TypeBound::kind()`](https://github.com/rust-lang/rust-analyzer/pull/21251)
+* [fix method resolution for incoherent impls when there are two sysroots in the crate graph](https://github.com/rust-lang/rust-analyzer/pull/21273)
+* [implementation of `locals_used` in HIR level](https://github.com/rust-lang/rust-analyzer/pull/21262)
+* [lsp: handle dynamic registration for didSave](https://github.com/rust-lang/rust-analyzer/pull/21253)
+* [prefix json target file with workspace root for sysroot metadata](https://github.com/rust-lang/rust-analyzer/pull/21272)
+* [respect rustc's lint attribute application order](https://github.com/rust-lang/rust-analyzer/pull/21265)
+* [show parameter hint for missing arguments](https://github.com/rust-lang/rust-analyzer/pull/21240)
+* [support `#[feature(associated_type_defaults)]`](https://github.com/rust-lang/rust-analyzer/pull/21243)
+* [support dyn compatibility for old toolchains without `MetaSized`](https://github.com/rust-lang/rust-analyzer/pull/21241)
+* [support the new lowering of `format_args!()`](https://github.com/rust-lang/rust-analyzer/pull/21242)
+* [use `cmark_with_options` to write shortcuts links to the output](https://github.com/rust-lang/rust-analyzer/pull/21276)
+* [include operator overload occurrences in SCIP index](https://github.com/rust-lang/rust-analyzer/pull/21187)
+* [reorder `add_return_type` assist](https://github.com/rust-lang/rust-analyzer/pull/21256)
 
 ### Rust Compiler Performance Triage
 
@@ -302,7 +382,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> I allow my code to be used for training AI on GitHub. Not because I fear AI taking our jobs—but because I’m confident my code will slow it down enough to save us all.
+
+– [王翼翔 on rust-users](https://users.rust-lang.org/t/whats-going-on-with-bincode/136942/3)
+
+Thanks to [Moy2010](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1738) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
