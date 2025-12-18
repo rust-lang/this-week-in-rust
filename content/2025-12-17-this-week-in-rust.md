@@ -41,10 +41,6 @@ and just ask the editors to select the category.
 * [Project goals update — November 2025 | Rust Blog](https://blog.rust-lang.org/2025/12/16/Project-Goals-2025-November-Update.md/)
 * [Announcing Rust 1.92.0 | Rust Blog](https://blog.rust-lang.org/2025/12/11/Rust-1.92.0/)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [How we made SeaORM synchronous](https://www.sea-ql.org/blog/2025-12-12-sea-orm-2.0/)
 * [Building Slatron: The Digital TV Scheduling and Automation System](https://justinwoodring.com/blog/introducing-slatron/)
@@ -65,8 +61,6 @@ and just ask the editors to select the category.
 * [Building Secure OTA Updates for ESP32 Over BLE with Rust](https://gill.net.in/posts/building-secure-ota-updates-for-esp32-over-ble-with-rust/)
 * [Positional Memoization via Proc Macros in a Rust UI Framework](https://tessera-ui.github.io/blog/positional-memoization-via-proc-macros.html)
 * [hotpath-rs - CPU time vs wall-clock time: profiling async Rust](https://hotpath.rs/sampling_comparison) 
-
-### Research
 
 ### Miscellaneous
 * [November '25 Jobs Report](https://filtra.io/rust/jobs-report/nov-25)
@@ -249,13 +243,13 @@ which are reaching a decision. Express your opinions now.
 * [Policy on the use of `rustc_legacy_const_generics` in stdarch](https://github.com/rust-lang/rust/issues/149654)
 * [Tracking Issue for `atomic_try_update`](https://github.com/rust-lang/rust/issues/135894)
 
-[Rust RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+##### [Rust RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 * [build-std: context](https://github.com/rust-lang/rfcs/pull/3873)
 
-[Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+##### [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 * [feat(index): Stabilize pubtime](https://github.com/rust-lang/cargo/pull/16372)
 
-[Leadership Council](https://github.com/rust-lang/leadership-council/issues?q=state%3Aopen%20label%3Afinal-comment-period)
+##### [Leadership Council](https://github.com/rust-lang/leadership-council/issues?q=state%3Aopen%20label%3Afinal-comment-period)
 * [Add alumni policy](https://github.com/rust-lang/leadership-council/pull/218)
 
 *No Items entered Final Comment Period this week for
@@ -338,7 +332,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1plbecs/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -366,4 +360,4 @@ This Week in Rust is edited by:
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1pppcsc/this_week_in_rust_630/)</small>
