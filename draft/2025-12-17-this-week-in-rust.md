@@ -48,7 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-- [Rust Unit Testing: File writing](https://jorgeortiz.dev/posts/rust_unit_testing_file_writing/)
+* [Rust Unit Testing: File writing](https://jorgeortiz.dev/posts/rust_unit_testing_file_writing/)
 
 ### Research
 
