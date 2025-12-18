@@ -44,15 +44,24 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [How we made SeaORM synchronous](https://www.sea-ql.org/blog/2025-12-12-sea-orm-2.0/)
+* [Building Slatron: The Digital TV Scheduling and Automation System](https://justinwoodring.com/blog/introducing-slatron/)
+* [The state of the kernel Rust experiment](https://lwn.net/SubscriberLink/1050174/6b6d55c90ce1100f/)
 
 ### Observations/Thoughts
 
+* [Finding Alignment by Visualizing Music With Rust](https://positron.solutions/articles/finding-alignment-by-visualizing-music)
+
 ### Rust Walkthroughs
+* [Rust Unit Testing: File writing](https://jorgeortiz.dev/posts/rust_unit_testing_file_writing/)
+* [Stop Losing Intent: Absent, Null, and Value in Rust](https://minikin.me/blog/presence-rs)
+* [Getting started: How to Learn Embedded Rust for Beginners](https://blog.implrust.com/posts/2025/12/how-to-learn-embedded-rust/)
 
 ### Research
 
 ### Miscellaneous
 * [November '25 Jobs Report](https://filtra.io/rust/jobs-report/nov-25)
+* [Supercharging Security Auditing with Rust: An Interview with Caido](https://www.sea-ql.org/interview/2025-12-16-caido/)
 
 ## Crate of the Week
 
