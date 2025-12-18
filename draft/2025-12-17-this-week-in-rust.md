@@ -60,6 +60,8 @@ and just ask the editors to select the category.
 
 * [series] [The Impatient Programmer’s Guide to Bevy and Rust: Chapter 4 - Let There Be Collisions](https://aibodh.com/posts/bevy-rust-game-development-chapter-4/)
 
+[hotpath-rs - CPU time vs wall-clock time: profiling async Rust](https://hotpath.rs/sampling_comparison) 
+
 ### Research
 
 ### Miscellaneous
