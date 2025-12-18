@@ -232,7 +232,7 @@ Rusty Events between 2025-12-17 - 2026-01-14 🦀
     * [**In person Rust January 2026 at AWS in Tel Aviv**](https://www.meetup.com/rust-tlv/events/311759516/)
 
 ### Europe
-* 2025-12-18 | London, GB | [London Rust Project Group](https://www.meetup.com/london-rust-project-group/events/)
+* 2025-12-18 | London, UK | [London Rust Project Group](https://www.meetup.com/london-rust-project-group/events/)
     * [**gcc backend**](https://www.meetup.com/london-rust-project-group/events/312443570/)
 * 2025-12-19 | Lyon, FR | [Rust Lyon](https://www.meetup.com/rust-lyon)
     * [**Rust Lyon Meetup #11**](https://www.meetup.com/rust-lyon/events/312180836/)
