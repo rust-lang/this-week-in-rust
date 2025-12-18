@@ -38,6 +38,8 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Project goals update — November 2025 | Rust Blog](https://blog.rust-lang.org/2025/12/16/Project-Goals-2025-November-Update.md/)
+* [Announcing Rust 1.92.0 | Rust Blog](https://blog.rust-lang.org/2025/12/11/Rust-1.92.0/)
 
 ### Foundation
 
@@ -50,17 +52,19 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 * [Secure your Rust projects and improve the developer experience with Dev Containers](https://kerkour.com/rust-devcontainers)
-
+* [Miri: Practical Undefined Behavior Detection for Rust](https://plf.inf.ethz.ch/research/popl26-miri.html)
 * [Finding Alignment by Visualizing Music With Rust](https://positron.solutions/articles/finding-alignment-by-visualizing-music)
-
+* [Rust GCC backend: Why and how](https://blog.guillaume-gomez.fr/articles/2025-12-15+Rust+GCC+backend%3A+Why+and+how)
+  
 ### Rust Walkthroughs
 * [Rust Unit Testing: File writing](https://jorgeortiz.dev/posts/rust_unit_testing_file_writing/)
 * [Stop Losing Intent: Absent, Null, and Value in Rust](https://minikin.me/blog/presence-rs)
 * [Getting started: How to Learn Embedded Rust for Beginners](https://blog.implrust.com/posts/2025/12/how-to-learn-embedded-rust/)
-
+* [Writing a mockable Filesystem trait in Rust without RefCell](https://pyk.sh/blog/2025-12-15-writing-mockable-fs-in-rust-without-refcell)
 * [series] [The Impatient Programmer’s Guide to Bevy and Rust: Chapter 4 - Let There Be Collisions](https://aibodh.com/posts/bevy-rust-game-development-chapter-4/)
-
-[hotpath-rs - CPU time vs wall-clock time: profiling async Rust](https://hotpath.rs/sampling_comparison) 
+* [Building Secure OTA Updates for ESP32 Over BLE with Rust](https://gill.net.in/posts/building-secure-ota-updates-for-esp32-over-ble-with-rust/)
+* [Positional Memoization via Proc Macros in a Rust UI Framework](https://tessera-ui.github.io/blog/positional-memoization-via-proc-macros.html)
+* [hotpath-rs - CPU time vs wall-clock time: profiling async Rust](https://hotpath.rs/sampling_comparison) 
 
 ### Research
 
