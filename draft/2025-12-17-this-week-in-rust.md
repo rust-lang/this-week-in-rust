@@ -58,6 +58,8 @@ and just ask the editors to select the category.
 * [Stop Losing Intent: Absent, Null, and Value in Rust](https://minikin.me/blog/presence-rs)
 * [Getting started: How to Learn Embedded Rust for Beginners](https://blog.implrust.com/posts/2025/12/how-to-learn-embedded-rust/)
 
+* [series] [The Impatient Programmer’s Guide to Bevy and Rust: Chapter 4 - Let There Be Collisions](https://aibodh.com/posts/bevy-rust-game-development-chapter-4/)
+
 ### Research
 
 ### Miscellaneous
