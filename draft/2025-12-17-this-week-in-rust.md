@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 * [Finding Alignment by Visualizing Music With Rust](https://positron.solutions/articles/finding-alignment-by-visualizing-music)
 
 ### Rust Walkthroughs
+* [Rust Unit Testing: File writing](https://jorgeortiz.dev/posts/rust_unit_testing_file_writing/)
 * [Stop Losing Intent: Absent, Null, and Value in Rust](https://minikin.me/blog/presence-rs)
 * [Getting started: How to Learn Embedded Rust for Beginners](https://blog.implrust.com/posts/2025/12/how-to-learn-embedded-rust/)
 
