@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Building Slatron: The Digital TV Scheduling and Automation System](https://justinwoodring.com/blog/introducing-slatron/)
 
 * [The state of the kernel Rust experiment](https://lwn.net/SubscriberLink/1050174/6b6d55c90ce1100f/)
 
