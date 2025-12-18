@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Finding Alignment by Visualizing Music With Rust](https://positron.solutions/articles/finding-alignment-by-visualizing-music)
+
 ### Rust Walkthroughs
 * [Getting started: How to Learn Embedded Rust for Beginners](https://blog.implrust.com/posts/2025/12/how-to-learn-embedded-rust/)
 
