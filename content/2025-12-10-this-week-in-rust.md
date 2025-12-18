@@ -159,7 +159,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 #### Clippy
 * [`len_without_is_empty`: allow `is_empty(&self)` with `len(&mut self)`](https://github.com/rust-lang/rust-clippy/pull/16194)
-* [fix `map_entry` false positive when it would cause `MutexGuard` to be held across an](https://github.com/rust-lang/rust-clippy/pull/16199)
+* [fix `map_entry` false positive when it would cause `MutexGuard` to be held across an await point](https://github.com/rust-lang/rust-clippy/pull/16199)
 * [fix `nonstandard_macro_braces` false negative on macros with empty args](https://github.com/rust-lang/rust-clippy/pull/15601)
 * [fix `panicking_unwrap` false positive on field access with implicit deref](https://github.com/rust-lang/rust-clippy/pull/16196)
 * [fix `tuple_array_conversions` false positive when binded vars are used before conversion](https://github.com/rust-lang/rust-clippy/pull/16197)
