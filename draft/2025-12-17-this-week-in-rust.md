@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [The state of the kernel Rust experiment](https://lwn.net/SubscriberLink/1050174/6b6d55c90ce1100f/)
+
 ### Observations/Thoughts
 
 * [Finding Alignment by Visualizing Music With Rust](https://positron.solutions/articles/finding-alignment-by-visualizing-music)
