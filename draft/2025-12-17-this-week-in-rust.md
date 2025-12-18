@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 * [The state of the kernel Rust experiment](https://lwn.net/SubscriberLink/1050174/6b6d55c90ce1100f/)
 
 ### Observations/Thoughts
+* [Secure your Rust projects and improve the developer experience with Dev Containers](https://kerkour.com/rust-devcontainers)
 
 * [Finding Alignment by Visualizing Music With Rust](https://positron.solutions/articles/finding-alignment-by-visualizing-music)
 
