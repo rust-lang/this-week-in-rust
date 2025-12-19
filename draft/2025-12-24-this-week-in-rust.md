@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [Rust Unit Testing: Basic HTTP Server](https://jorgeortiz.dev/posts/rust_unit_testing_basic_http_srvr/)
 
 ### Research
 
