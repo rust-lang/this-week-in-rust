@@ -45,6 +45,9 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [hk - A Rust operating system kernel](https://github.com/jgarzik/hk)
+* [posixutils-rs adds a professional multi-arch optimizing C99 compiler](https://github.com/rustcoreutils/posixutils-rs)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
