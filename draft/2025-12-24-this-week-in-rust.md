@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Tuitar - A portable guitar training tool & DIY kit](https://github.com/orhun/tuitar/releases/tag/v0.1.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
