@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Meilisearch: From trees to graphs](https://blog.kerollmops.com/from-trees-to-graphs-speeding-up-vector-search-10x-with-hannoy)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
