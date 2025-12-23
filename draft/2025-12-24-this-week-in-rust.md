@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Async Rust Bluetooth Plumbing: Where the Throughput Goes](https://medium.com/@potto_94870/async-rust-bluetooth-plumbing-where-the-throughput-goes-d2cf21430a90)
 
 ### Research
 
