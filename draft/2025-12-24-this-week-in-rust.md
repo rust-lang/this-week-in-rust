@@ -202,6 +202,8 @@ Update CFT, FCP, MCP and RFC sections for TWiR-xxx
 Rusty Events between 2025-12-24 - 2026-01-21 🦀
 
 ### Virtual
+* 2025-12-30 | Virtual (Code Maven, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/)
+    * [**Live Open Source Rust project contribution**](https://www.meetup.com/code-mavens/events/312554028/)
 * 2026-01-03 | Virtual (Kampala, UG) | [Rust Circle Meetup](https://www.eventbrite.com/o/rust-circle-kampala-65249289033)
     * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763888717)
 * 2026-01-07 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
