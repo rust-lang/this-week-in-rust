@@ -212,6 +212,8 @@ Rusty Events between 2025-12-24 - 2026-01-21 🦀
     * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/305361448/)
 * 2025-12-25 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/306046673/)
+* 2025-12-30 | Virtual (Code Maven, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/)
+    * [**Live Open Source Rust project contribution**](https://www.meetup.com/code-mavens/events/312554028/)
 * 2026-01-01 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/306046646/)
 * 2026-01-03 | Virtual (Kampala, UG) | [Rust Circle Meetup](https://www.eventbrite.com/o/rust-circle-kampala-65249289033)
