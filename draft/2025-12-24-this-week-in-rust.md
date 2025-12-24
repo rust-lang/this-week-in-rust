@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [audio] [Netstack.FM episode 19 — Firezone and Zero-Trust Network Security with Thomas Eizinger](https://netstack.fm/#episode-19)
+
 ### Rust Walkthroughs
 
 ### Research
