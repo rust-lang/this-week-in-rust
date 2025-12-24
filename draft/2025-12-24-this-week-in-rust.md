@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 * [audio] [Netstack.FM episode 19 — Firezone and Zero-Trust Network Security with Thomas Eizinger](https://netstack.fm/#episode-19)
 
 ### Rust Walkthroughs
+* [Rust Unit Testing: Basic HTTP Server](https://jorgeortiz.dev/posts/rust_unit_testing_basic_http_srvr/)
 * [Async Rust Bluetooth Plumbing: Where the Throughput Goes](https://medium.com/@potto_94870/async-rust-bluetooth-plumbing-where-the-throughput-goes-d2cf21430a90)
 * [series] [Part 2: Tensor Operations, Building an LLM from Scratch in Rust](https://www.tag1.com/how-to/part2-tensor-operations-building-an-llm-from-scratch/)
 
