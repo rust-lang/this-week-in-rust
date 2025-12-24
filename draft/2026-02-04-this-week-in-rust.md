@@ -39,17 +39,33 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [First look at 2026 Project goals](https://blog.rust-lang.org/inside-rust/2026/02/03/first-look-at-2026-project-goals/)
+
 ### Foundation
 
+* [Rust Foundation Annual Report 2025 + 3-Year Strategy](https://rustfoundation.org/media/annual-report-strategy-2025/)
+
 ### Newsletters
+
+* [This Month in Rust OSDev: January 2026](https://rust-osdev.com/this-month/2026-01/)
 
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
 
+* [video] [Miri: Practical Undefined Behavior Detection for Rust](https://www.youtube.com/watch?v=9A8ZeDIStAs)
+* [audio] [Netstack.FM episode 25 — FOSDEM 2026 special](https://netstack.fm/#episode-25)
+* [audio] [What's New in the Rust 2024 Edition](https://rustacean-station.org/episode/rust-2024-edition/)
+
 ### Rust Walkthroughs
 
+* [How we interfaced single-threaded C++ with multi-threaded Rust](https://antithesis.com/blog/2026/rust_cpp/)
+* [Rust SIMD Benchmark: std::simd vs NEON on Apple M4](https://github.com/Erio-Harrison/simd_benchmark/blob/master/BLOG.md)
+* [Writing iOS XCTests in Rust](https://simlay.net/posts/2026-01-rust-xctesting/)
+
 ### Research
+
+* [Code Quality Analysis of Translations from C to Rust](https://arxiv.org/abs/2602.00840)
 
 ### Miscellaneous
 
