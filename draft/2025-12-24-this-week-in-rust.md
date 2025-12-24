@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [cargo-coupling: Visualizing Coupling in Rust Projects](https://syu-m-5151.hatenablog.com/entry/2025/12/21/152559)
 * [Announcing Asterinas 0.17.0](https://asterinas.github.io/2025/12/19/announcing-asterinas-0.17.0.html)
 
 ### Observations/Thoughts
