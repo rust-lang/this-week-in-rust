@@ -42,13 +42,20 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [Scientific Computing in Rust #13 (December 2025)](https://scientificcomputing.rs/monthly/2025-12)
 
 ### Project/Tooling Updates
 
+* [Announcing Asterinas 0.17.0](https://asterinas.github.io/2025/12/19/announcing-asterinas-0.17.0.html)
+
 ### Observations/Thoughts
 
+* [audio] [Netstack.FM episode 19 — Firezone and Zero-Trust Network Security with Thomas Eizinger](https://netstack.fm/#episode-19)
+
 ### Rust Walkthroughs
-- [Rust Unit Testing: Basic HTTP Server](https://jorgeortiz.dev/posts/rust_unit_testing_basic_http_srvr/)
+* [Rust Unit Testing: Basic HTTP Server](https://jorgeortiz.dev/posts/rust_unit_testing_basic_http_srvr/)
+* [Async Rust Bluetooth Plumbing: Where the Throughput Goes](https://medium.com/@potto_94870/async-rust-bluetooth-plumbing-where-the-throughput-goes-d2cf21430a90)
+* [series] [Part 2: Tensor Operations, Building an LLM from Scratch in Rust](https://www.tag1.com/how-to/part2-tensor-operations-building-an-llm-from-scratch/)
 
 ### Research
 
@@ -132,6 +139,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
+* [**RustWeek 2026**](https://sessionize.com/rustweek-2026/) | CFP closes 2026-01-18 | Utrecht, The Netherlands | 2026-05-19 - 2026-05-20
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
