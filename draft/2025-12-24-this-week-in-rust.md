@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 * [audio] [Netstack.FM episode 19 — Firezone and Zero-Trust Network Security with Thomas Eizinger](https://netstack.fm/#episode-19)
 
 ### Rust Walkthroughs
+* [series] [Part 2: Tensor Operations, Building an LLM from Scratch in Rust](https://www.tag1.com/how-to/part2-tensor-operations-building-an-llm-from-scratch/)
 
 ### Research
 
