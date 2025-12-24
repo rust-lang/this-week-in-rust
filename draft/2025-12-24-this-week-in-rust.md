@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 
 * [cargo-coupling: Visualizing Coupling in Rust Projects](https://syu-m-5151.hatenablog.com/entry/2025/12/21/152559)
 * [Announcing Asterinas 0.17.0](https://asterinas.github.io/2025/12/19/announcing-asterinas-0.17.0.html)
+* [Tuitar - A portable guitar training tool & DIY kit](https://github.com/orhun/tuitar/releases/tag/v0.1.0)
 
 ### Observations/Thoughts
 
