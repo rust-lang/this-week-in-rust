@@ -44,8 +44,6 @@ and just ask the editors to select the category.
 * [Program management update — End of 2025](https://blog.rust-lang.org/inside-rust/2025/12/19/program-management-update--end-of-2025/)
 * [Rustup 1.29.0 beta: Call for Testing!](https://blog.rust-lang.org/inside-rust/2025/12/20/rustup-1.29.0-beta-cft/)
 
-### Foundation
-
 ### Newsletters
 * [The Embedded Rustacean Issue #61](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-61)
 * [Scientific Computing in Rust #13 (December 2025)](https://scientificcomputing.rs/monthly/2025-12)
@@ -69,10 +67,6 @@ and just ask the editors to select the category.
 * [Rust Unit Testing: Basic HTTP Server](https://jorgeortiz.dev/posts/rust_unit_testing_basic_http_srvr/)
 * [Async Rust Bluetooth Plumbing: Where the Throughput Goes](https://medium.com/@potto_94870/async-rust-bluetooth-plumbing-where-the-throughput-goes-d2cf21430a90)
 * [series] [Part 2: Tensor Operations, Building an LLM from Scratch in Rust](https://www.tag1.com/how-to/part2-tensor-operations-building-an-llm-from-scratch/)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -317,7 +311,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1ow6s90/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -345,4 +339,4 @@ This Week in Rust is edited by:
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1pv24hh/this_week_in_rust_631/)</small>
