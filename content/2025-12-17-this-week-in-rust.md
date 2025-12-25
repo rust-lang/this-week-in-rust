@@ -138,7 +138,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [simplify how inline asm handles `MaybeUninit`](https://github.com/rust-lang/rust/pull/149950)
 
 #### Library
-* [add `SystemTime::{MIN,` MAX}](https://github.com/rust-lang/rust/pull/148825)
+* [add `SystemTime::{MIN, MAX}`](https://github.com/rust-lang/rust/pull/148825)
 * [add `core::hint::prefetch_{read, write}_{data, instruction}`](https://github.com/rust-lang/rust/pull/146948)
 * [constify `DropGuard::dismiss` and trait impls](https://github.com/rust-lang/rust/pull/148755)
 * [fix vec iter zst alignment](https://github.com/rust-lang/rust/pull/149272)
