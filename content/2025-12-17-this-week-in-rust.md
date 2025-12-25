@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 * [How we made SeaORM synchronous](https://www.sea-ql.org/blog/2025-12-12-sea-orm-2.0/)
 * [Building Slatron: The Digital TV Scheduling and Automation System](https://justinwoodring.com/blog/introducing-slatron/)
 * [The state of the kernel Rust experiment](https://lwn.net/SubscriberLink/1050174/6b6d55c90ce1100f/)
+* [χrusty χmas! New release of χrust for XML and XSLT](https://gitlab.gnome.org/World/Rust/markup-rs/xml-tech-stack-in-rust/-/wikis/Announcements)
 
 ### Observations/Thoughts
 * [Secure your Rust projects and improve the developer experience with Dev Containers](https://kerkour.com/rust-devcontainers)
