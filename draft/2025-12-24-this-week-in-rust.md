@@ -38,6 +38,11 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [What do people love about Rust?](https://blog.rust-lang.org/2025/12/19/what-do-people-love-about-rust/)
+* [Please submit 2026 Project goal proposals](https://blog.rust-lang.org/inside-rust/2025/12/16/please-submit-2026-project-goal-proposals/)
+* [December 2025 Project Director Update](https://blog.rust-lang.org/inside-rust/2025/12/19/project-director-update/)
+* [Program management update — End of 2025](https://blog.rust-lang.org/inside-rust/2025/12/19/program-management-update--end-of-2025/)
+* [Rustup 1.29.0 beta: Call for Testing!](https://blog.rust-lang.org/inside-rust/2025/12/20/rustup-1.29.0-beta-cft/)
 
 ### Foundation
 
@@ -46,13 +51,18 @@ and just ask the editors to select the category.
 * [Scientific Computing in Rust #13 (December 2025)](https://scientificcomputing.rs/monthly/2025-12)
 
 ### Project/Tooling Updates
-
+* [What's "new" in Miri (and also, there's a Miri paper!)](https://www.ralfj.de/blog/2025/12/22/miri.html)
 * [cargo-coupling: Visualizing Coupling in Rust Projects](https://syu-m-5151.hatenablog.com/entry/2025/12/21/152559)
 * [Announcing Asterinas 0.17.0](https://asterinas.github.io/2025/12/19/announcing-asterinas-0.17.0.html)
 * [Tuitar - A portable guitar training tool & DIY kit](https://github.com/orhun/tuitar/releases/tag/v0.1.0)
+* [Gitoxide in December](https://github.com/GitoxideLabs/gitoxide/discussions/2300)
+* [Announcing GotaTun, the future of WireGuard at Mullvad VPN](https://mullvad.net/en/blog/announcing-gotatun-the-future-of-wireguard-at-mullvad-vpn)
+* [wgpu v28.0.0 - Mesh Shaders, Immediates, and More!](https://github.com/gfx-rs/wgpu/releases/tag/v28.0.0)
+* [rustc_codegen_gcc: Progress Report #39](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-39)
 
 ### Observations/Thoughts
-
+* [Syntactic musings on the fallibility effect](https://blog.yoshuawuyts.com/syntactic-musings-on-the-fallibility-effect/)
+* [Rust’s Block Pattern](https://notgull.net/block-pattern/)
 * [audio] [Netstack.FM episode 19 — Firezone and Zero-Trust Network Security with Thomas Eizinger](https://netstack.fm/#episode-19)
 
 ### Rust Walkthroughs
