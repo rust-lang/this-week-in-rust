@@ -66,7 +66,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [arcshift](https://docs.rs/arcshift), an Arc replacement for read-heavy workloads that supports lock-free atomic replacement.
+
+Thanks to [rustkins](https://users.rust-lang.org/t/crate-of-the-week/2704/1510) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -117,7 +119,70 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+475 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-12-16..2025-12-23
+
+#### Compiler
+* [add `target_feature = "gc"` for Wasm](https://github.com/rust-lang/rust/pull/150111)
+* [better closure requirement propagation](https://github.com/rust-lang/rust/pull/148329)
+* [correctly encode doc attribute metadata](https://github.com/rust-lang/rust/pull/149919)
+* [don't treat asserts as a call in cross-crate inlining](https://github.com/rust-lang/rust/pull/117192)
+* [improve filenames encoding and misc](https://github.com/rust-lang/rust/pull/149989)
+* [make closure capturing have consistent and correct behaviour around patterns](https://github.com/rust-lang/rust/pull/138961)
+* [support recursive delegation](https://github.com/rust-lang/rust/pull/150024)
+
+#### Library
+* [add `try_as_dyn` and `try_as_dyn_mut`](https://github.com/rust-lang/rust/pull/150033)
+* [add const default for OnceCell and OnceLock](https://github.com/rust-lang/rust/pull/149812)
+* [expand `str_as_str` to more types](https://github.com/rust-lang/rust/pull/145933)
+* [make `const BorrowMut` require `const Borrow` and make `const Fn` require `const FnMut`](https://github.com/rust-lang/rust/pull/147939)
+* [hashbrown: add `hash_map::{OccupiedEntry::into_entry`, `VacantEntryRef::insert_entry_with_key}`, make `EntryRef` use `ToOwned` again](https://github.com/rust-lang/hashbrown/pull/670)
+* [hashbrown: add `hash_table::OccupiedEntry::replace_entry_with` to mirror HashMap API](https://github.com/rust-lang/hashbrown/pull/669)
+* [hashbrown: add `hash_table::UnsafeIter`, `iter()` method to various iterators](https://github.com/rust-lang/hashbrown/pull/667)
+
+#### Rustdoc
+* [Add missing close tags in extern crate reexports](https://github.com/rust-lang/rust/pull/150185)
+* [Fix invalid handling of field followed by negated macro call](https://github.com/rust-lang/rust/pull/150099)
+* [generate macro expansion for rust compiler crates docs](https://github.com/rust-lang/rust/pull/150022)
+* [handle macro expansions in types](https://github.com/rust-lang/rust/pull/150221)
+
+#### Clippy
+* [`transmuting_null`: Check const integer casts](https://github.com/rust-lang/rust-clippy/pull/16227)
+* [allow multiline suggestions in `map-unwrap-or`](https://github.com/rust-lang/rust-clippy/pull/16114)
+* [do not attempt to use `nth` with non-usize argument](https://github.com/rust-lang/rust-clippy/pull/16272)
+* [don't emit `collapsible_else_if` lint when all arms contain only `if {} else {}` expressions](https://github.com/rust-lang/rust-clippy/pull/16286)
+* [fix `cmp_null` missing parens in the example](https://github.com/rust-lang/rust-clippy/pull/16282)
+* [fix `empty_enum_variants_with_brackets` misses removing brackets in patterns](https://github.com/rust-lang/rust-clippy/pull/16160)
+* [fix `if_then_some_else_none` suggests wrongly when then ends with comment](https://github.com/rust-lang/rust-clippy/pull/16278)
+* [fix `needless_type_cast` suggesting invalid code for non-literal initializers](https://github.com/rust-lang/rust-clippy/pull/16248)
+* [fix `println_empty_string` suggestion caused error](https://github.com/rust-lang/rust-clippy/pull/16201)
+* [fix `use_self` false positive on type in const generics](https://github.com/rust-lang/rust-clippy/pull/16172)
+* [fix an incorrect error message regarding the size of `usize` and `isize` in `cast_precision_loss`](https://github.com/rust-lang/rust-clippy/pull/14966)
+* [move `collapsible_else_if` to `pedantic`](https://github.com/rust-lang/rust-clippy/pull/16211)
+* [new lint - `same_length_and_capacity`](https://github.com/rust-lang/rust-clippy/pull/15656)
+
+#### Rust-Analyzer
+* [add 'Use of AI tools' section to CONTRIBUTING.md](https://github.com/rust-lang/rust-analyzer/pull/21314)
+* [add BreakExpr completion suggest](https://github.com/rust-lang/rust-analyzer/pull/20521)
+* [add an lsp extension to get failed obligations for a given function](https://github.com/rust-lang/rust-analyzer/pull/21309)
+* [add default varname for TryEnum postfix completion](https://github.com/rust-lang/rust-analyzer/pull/21212)
+* [add guess braces doc `T![]` for `T_`](https://github.com/rust-lang/rust-analyzer/pull/20439)
+* [add ide-assist: `add_explicit_method_call_deref`](https://github.com/rust-lang/rust-analyzer/pull/20996)
+* [complete reference `&T` → `&&T`](https://github.com/rust-lang/rust-analyzer/pull/21289)
+* [introduce `crate_attrs` field in `rust-project.json`](https://github.com/rust-lang/rust-analyzer/pull/21282)
+* [pretty print attributes up to `cfg(false)`](https://github.com/rust-lang/rust-analyzer/pull/21298)
+* [fix applicable on non naked if for `move_guard` assist](https://github.com/rust-lang/rust-analyzer/pull/21293)
+* [fix guess renamed macro braces](https://github.com/rust-lang/rust-analyzer/pull/20438)
+* [fix indent for `convert_iter_for_each_to_for`](https://github.com/rust-lang/rust-analyzer/pull/20595)
+* [fix indent for `merge_nested_if`](https://github.com/rust-lang/rust-analyzer/pull/20577)
+* [fix match arm nested body invalid expected type](https://github.com/rust-lang/rust-analyzer/pull/21291)
+* [fix nested if-let for `merge_nested_if`](https://github.com/rust-lang/rust-analyzer/pull/20576)
+* [fix flycheck generations not being synced for multiple workspaces](https://github.com/rust-lang/rust-analyzer/pull/21326)
+* [more perf improvements, made possible after non-Salsa interneds](https://github.com/rust-lang/rust-analyzer/pull/21307)
+* [non-Salsa-interned solver types - with GC for them](https://github.com/rust-lang/rust-analyzer/pull/21295)
+* [remove conflicting advice](https://github.com/rust-lang/rust-analyzer/pull/20472)
+* [support undotted-self for `this` param closure](https://github.com/rust-lang/rust-analyzer/pull/21166)
 
 ### Rust Compiler Performance Triage
 
@@ -244,7 +309,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> they should just rename `unsafe` to `C` so people can shut up
+
+– [/u/thisismyfavoritename on /r/rust](https://www.reddit.com/r/rust/comments/1pp3y9e/comment/nukdfn4/)
+
+Thanks to [Brian Kung](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1739) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
