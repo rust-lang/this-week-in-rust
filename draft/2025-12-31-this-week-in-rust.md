@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [video] [Building your first APP using the new Hotaru Web Framework!](https://www.youtube.com/watch?v=8pV-o04GuKk)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
