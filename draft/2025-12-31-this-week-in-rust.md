@@ -221,12 +221,18 @@ Rusty Events between 2025-12-31 - 2026-01-28 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254791/)
 * 2026-01-13 | Virtual | [libp2p Events](https://luma.com/libp2p)
     * [**rust-libp2p Open Maintainers Call**](https://luma.com/xov10pef)
+* 2026-01-14 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/4p6rxjc5)
 * 2026-01-15 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/305646023/)
 * 2026-01-20 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/events/)
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/312489197/)
+* 2026-01-21 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/e2ea7hxo)
 * 2026-01-21 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/events/)
     * [**Stack Safety**](https://www.meetup.com/vancouver-rust/events/310619449/)
+* 2026-01-28 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/9h9n0dau)
 
 ### Asia
 * 2026-01-07 | Tel Aviv-yafo, IL | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
