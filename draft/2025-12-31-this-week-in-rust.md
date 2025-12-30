@@ -221,6 +221,8 @@ Rusty Events between 2025-12-31 - 2026-01-28 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254791/)
 * 2026-01-13 | Virtual | [libp2p Events](https://luma.com/libp2p)
     * [**rust-libp2p Open Maintainers Call**](https://luma.com/xov10pef)
+* 2026-01-13 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/)
+    * [**Live Open Source Rust project contribution**](https://www.meetup.com/code-mavens/events/312641560/)
 * 2026-01-15 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/305646023/)
 * 2026-01-20 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/events/)
