@@ -55,6 +55,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Investigating and fixing a nasty clone bug](https://kobzol.github.io/rust/2025/12/30/investigating-and-fixing-a-nasty-clone-bug.html)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
