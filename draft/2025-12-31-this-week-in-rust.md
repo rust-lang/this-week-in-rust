@@ -45,13 +45,20 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Ratatui 0.30.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v030/)
+
 ### Observations/Thoughts
 * [Four Years of Rust: An Odyssey of Failures, Achievements, and Hard Lessons](https://medium.com/@adefemiadeoye/four-years-of-rust-an-odyssey-of-failures-achievements-and-hard-lessons-0da41298a152)
+
+* [audio] [Netstack.FM episode 20 — Netstack.FM New Year Special, 2025 Wrap-Up](https://netstack.fm/#episode-20)
+
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+
+* [Investigating and fixing a nasty clone bug](https://kobzol.github.io/rust/2025/12/30/investigating-and-fixing-a-nasty-clone-bug.html)
 
 ## Crate of the Week
 
