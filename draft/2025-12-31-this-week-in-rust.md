@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Ratatui 0.30.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v030/)
+
 ### Observations/Thoughts
 
 * [audio] [Netstack.FM episode 20 — Netstack.FM New Year Special, 2025 Wrap-Up](https://netstack.fm/#episode-20)
