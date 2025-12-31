@@ -214,8 +214,6 @@ Update CFT, FCP, MCP and RFC sections for TWiR-xxx
 Rusty Events between 2025-12-31 - 2026-01-28 🦀
 
 ### Virtual
-* 2025-12-30 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/)
-    * [**Live Open Source Rust project contribution**](https://www.meetup.com/code-mavens/events/312554028/)
 * 2026-01-03 | Virtual (Kampala, UG) | [Rust Circle Meetup](https://www.eventbrite.com/o/rust-circle-kampala-65249289033)
     * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763888717)
 * 2026-01-07 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
@@ -228,16 +226,24 @@ Rusty Events between 2025-12-31 - 2026-01-28 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254791/)
 * 2026-01-13 | Virtual | [libp2p Events](https://luma.com/libp2p)
     * [**rust-libp2p Open Maintainers Call**](https://luma.com/xov10pef)
+* 2026-01-13 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/events/)
+    * [**Live Open Source Rust project contribution**](https://www.meetup.com/code-mavens/events/312641560/)
 * 2026-01-15 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/305646023/)
 * 2026-01-20 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/events/)
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/312489197/)
 * 2026-01-21 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/events/)
     * [**Stack Safety**](https://www.meetup.com/vancouver-rust/events/310619449/)
+* 2026-01-27 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
+    * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/310254790/)
 
 ### Asia
 * 2026-01-07 | Tel Aviv-yafo, IL | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
     * [**In person Rust January 2026 at AWS in Tel Aviv**](https://www.meetup.com/rust-tlv/events/311759516/)
+* 2026-01-08 | Seoul, KR | [Seoul Rust (Programming Language) Meetup](https://www.meetup.com/rust-seoul-meetup/events/)
+    * [**Seoul Rust Meetup**](https://www.meetup.com/rust-seoul-meetup/events/312645994/)
+* 2026-01-17 | Delhi, IN | [Rust Delhi](https://www.meetup.com/rustdelhi/events/)
+    * [**Rust Delhi Meetup #12**](https://www.meetup.com/rustdelhi/events/312584516/)
 
 ### Europe
 * 2026-01-07 | Amsterdam, NL | [Rust Developers Amsterdam Group](https://www.meetup.com/rust-amsterdam-group/events/)
@@ -254,22 +260,36 @@ Rusty Events between 2025-12-31 - 2026-01-28 🦀
     * [**Rust meetup #82**](https://www.meetup.com/rust-paris/events/312364675/)
 
 ### North America
-* 2025-12-27 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
-    * [**Lechmere Rust Lunch, Dec 27**](https://www.meetup.com/bostonrust/events/312483556/)
+* 2026-01-01 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust/events/)
+    * [**Cancelled**](https://www.meetup.com/stl-rust/events/311396047/)
 * 2026-01-03 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
     * [**Allston Rust Lunch, Jan 3**](https://www.meetup.com/bostonrust/events/312483562/)
+* 2026-01-08 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/events/)
+    * [**Bringing the data lake to the browser with WASM**](https://www.meetup.com/utah-rust/events/312565472/)
 * 2026-01-08 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
     * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/jqvvttyjccblb/)
 * 2026-01-10 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
     * [**Central Cambridge Rust Lunch, Jan 10**](https://www.meetup.com/bostonrust/events/312483605/)
+* 2026-01-13 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/events/)
+    * [**Rust NYC Panel: AI Coding Agents in Rust: What Works, What Breaks**](https://www.meetup.com/rust-nyc/events/312632598/)
+* 2026-01-13 | Spokane, WA, US | [Spokane Rust](https://www.meetup.com/spokane-rust/events/)
+    * [**.NET Conference 2025 Spokane**](https://www.meetup.com/spokane-rust/events/312372555/)
 * 2026-01-15 | Seattle, WA, US | [Seattle Rust User Group](https://www.meetup.com/join-srug/events/)
     * [**Janurary, 2026 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/seattle-rust-user-group/events/311814876/)
 * 2026-01-17 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
     * [**Boston Common Rust Lunch, Jan 17**](https://www.meetup.com/bostonrust/events/312483677/)
+* 2026-01-17 | Herndon, VA, US | [NoVaLUG](https://mobilizon.us/@novalug)
+    * [**Monthly Meeting - Make Brian Lunduke Angry, Program in Rust**](https://mobilizon.us/events/140c5c7c-01f3-4aaa-b218-58289c6b4449)
 * 2026-01-20 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/events/)
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/310403081/)
 * 2026-01-21 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/events/)
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/312185794/)
+* 2026-01-22 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
+    * [**Evening Boston Rust Meetup with Jiff, January 22**](https://www.meetup.com/bostonrust/events/312598080/)
+* 2026-01-24 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
+    * [**Davis Square Rust Lunch, Jan 24**](https://www.meetup.com/bostonrust/events/312483715/)
+* 2026-01-28 | Los Angeles, CA, US | [Rust Los Angeles](https://www.meetup.com/rust-los-angeles/events/)
+    * [**Rust Los Angeles: Building Git-LFS Replacements in Rust**](https://www.meetup.com/rust-los-angeles/events/312267194/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
