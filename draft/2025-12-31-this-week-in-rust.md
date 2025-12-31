@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [wgsl-bindgen](https://github.com/Swoorup/wgsl-bindgen), a binding generator for WGSL, the WebGPU shading language, to be used with [wgpu](https://github.com/gfx-rs/wgpu).
+
+Thanks to [Artem Borisovskiy](https://users.rust-lang.org/t/crate-of-the-week/2704/1511) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -142,7 +144,66 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+297 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-12-23..2025-12-30
+
+#### Compiler
+* [recursive delegation improvements](https://github.com/rust-lang/rust/pull/150347)
+* [miri: fix ICE for particular data race situations](https://github.com/rust-lang/miri/pull/4796)
+* [miri: show a warning when combing native-lib mode and many-seeds](https://github.com/rust-lang/miri/pull/4790)
+* [miri: tree Borrows: improve protector end access child skipping](https://github.com/rust-lang/miri/pull/4766)
+
+#### Library
+* [add `MaybeDangling` to `core`](https://github.com/rust-lang/rust/pull/149775)
+* [alloc: specialize `String::extend` for slices of str](https://github.com/rust-lang/rust/pull/149694)
+* [implement `Duration::div_duration_{floor,ceil}`](https://github.com/rust-lang/rust/pull/149582)
+* [implement flatten for `Option<&Option<T>>` and `Option<&mut Option<T>>`](https://github.com/rust-lang/rust/pull/108671)
+* [optimized implementation for `uN::{gather,scatter}_bits`](https://github.com/rust-lang/rust/pull/149663)
+* [rewrite `String::replace_range`](https://github.com/rust-lang/rust/pull/149447)
+* [stabilize `lazy_get`](https://github.com/rust-lang/rust/pull/150016)
+
+#### Cargo
+* [`index`: Stabilize pubtime](https://github.com/rust-lang/cargo/pull/16372)
+* [`report`: new command `cargo report sessions`](https://github.com/rust-lang/cargo/pull/16428)
+* [`report`: support --manifest-path in `cargo report timings`](https://github.com/rust-lang/cargo/pull/16441)
+* [`resolver`: List features when no close match](https://github.com/rust-lang/cargo/pull/16445)
+* [`toml`: TOML 1.1 parse support](https://github.com/rust-lang/cargo/pull/16415)
+* [`vendor`: recursively filter git files in subdirectories](https://github.com/rust-lang/cargo/pull/16439)
+* [`vendor`: unpack from local-registry cache path](https://github.com/rust-lang/cargo/pull/16435)
+* [`build-rs`: Reduce from 'build' to 'check' where possible](https://github.com/rust-lang/cargo/pull/16444)
+* [experiment: render timing pipeline in SVG](https://github.com/rust-lang/cargo/pull/15091)
+* [patch: Display where the patch was defined in patch-related error messages](https://github.com/rust-lang/cargo/pull/16407)
+
+#### Rustdoc
+* [if line number setting is disabled, do not make line numbers take space](https://github.com/rust-lang/rust/pull/150396)
+* [fix copy code example with line numbers](https://github.com/rust-lang/rust/pull/150395)
+* [fix duplicate Re-exports sections](https://github.com/rust-lang/rust/pull/150362)
+* [fix incorrect type filter name in help popup](https://github.com/rust-lang/rust/pull/150360)
+
+#### Clippy
+* [fix `assertions_on_constants` false positive when there is non-constant value in the condition expr](https://github.com/rust-lang/rust-clippy/pull/16297)
+* [fix `double_parens` false positive on macro repetition patterns](https://github.com/rust-lang/rust-clippy/pull/16301)
+* [fix `obfuscated_if_else` wrongly unmangled macros](https://github.com/rust-lang/rust-clippy/pull/16289)
+* [fix `result_large_err` false negative on closures](https://github.com/rust-lang/rust-clippy/pull/16277)
+* [preserve explicit lifetime information when removing `mut`](https://github.com/rust-lang/rust-clippy/pull/16273)
+* [various fixes for handling of macros](https://github.com/rust-lang/rust-clippy/pull/16296)
+
+#### Rust-Analyzer
+* [add bidirectional messaging proc-macro-srv prototype](https://github.com/rust-lang/rust-analyzer/pull/21249)
+* [add macro segment completion](https://github.com/rust-lang/rust-analyzer/pull/20741)
+* [implement configuration to change sub command for test, bench and doctest](https://github.com/rust-lang/rust-analyzer/pull/21308)
+* [provide a setting to disable showing rename conflicts](https://github.com/rust-lang/rust-analyzer/pull/20193)
+* [stabilize type mismatch diagnostic 🎉](https://github.com/rust-lang/rust-analyzer/pull/21337)
+* [indent for `convert_to_guarded_return`](https://github.com/rust-lang/rust-analyzer/pull/21330)
+* [fix LSP configuration request handling](https://github.com/rust-lang/rust-analyzer/pull/21297)
+* [fix parsing of `format_args!("...", keyword=...)`](https://github.com/rust-lang/rust-analyzer/pull/21351)
+* [fix type inference when hovering on `_`](https://github.com/rust-lang/rust-analyzer/pull/21358)
+* [reenable fixpoint variance](https://github.com/rust-lang/rust-analyzer/pull/21348)
+* [do not really expand builtin derives, instead treat them specifically](https://github.com/rust-lang/rust-analyzer/pull/21200)
+* [pre-allocate some buffers in parsing](https://github.com/rust-lang/rust-analyzer/pull/21353)
+* [reduce channel lock contention for drop-threads](https://github.com/rust-lang/rust-analyzer/pull/21355)
+* [prompt the user in VSCode to add the rust-anaylzer componenet to the toolchain file](https://github.com/rust-lang/rust-analyzer/pull/21359)
 
 ### Rust Compiler Performance Triage
 
@@ -277,7 +338,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> what even is time?!?
+
+– [Ralf Jung on his blog](https://www.ralfj.de/blog/2025/12/22/miri.html)
+
+Thanks to [llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1743) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
