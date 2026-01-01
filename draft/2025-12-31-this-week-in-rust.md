@@ -44,23 +44,27 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-- [rama 0.3.0-alpha.4 is released — modular service framework to move and transform network packets](https://github.com/plabayo/rama/releases/tag/rama-0.3.0-alpha.4)
-- [Ratatui 0.30.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v030/)
+* [reqwest v0.13 - rustls by default](https://seanmonstar.com/blog/reqwest-v013-rustls-default/)
+* [rama 0.3.0-alpha.4 is released — modular service framework to move and transform network packets](https://github.com/plabayo/rama/releases/tag/rama-0.3.0-alpha.4)
+* [Ratatui 0.30.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v030/)
 
 ### Observations/Thoughts
 * [Four Years of Rust: An Odyssey of Failures, Achievements, and Hard Lessons](https://medium.com/@adefemiadeoye/four-years-of-rust-an-odyssey-of-failures-achievements-and-hard-lessons-0da41298a152)
-
+* [Simple Bidirectional Type Inference](https://ettolrach.com/blog/bidirectional_inference.html)
+* [serde's borrowing can be treacherous](https://yossarian.net/til/post/serde-s-borrowing-can-be-treacherous/)
+* [Garbage collection in Rust got a little better](https://claytonwramsey.com/blog/dumpster2/)
 * [audio] [Netstack.FM episode 20 — Netstack.FM New Year Special, 2025 Wrap-Up](https://netstack.fm/#episode-20)
 
 ### Rust Walkthroughs
-
+* [Why is calling my asm function from Rust slower than calling it from C?](https://ohadravid.github.io/posts/2025-12-rav1d-faster-asm/)
+* [Rust Errors Without Dependencies](https://vincents.dev/blog/rust-errors-without-dependencies/)
 * [video] [Building your first APP using the new Hotaru Web Framework!](https://www.youtube.com/watch?v=8pV-o04GuKk)
 
 
 ### Research
 
 ### Miscellaneous
-
+* [audio] [2025 Holiday Special - Rust in Production Podcast](https://corrode.dev/podcast/s05e07-holiday/)
 * [Investigating and fixing a nasty clone bug](https://kobzol.github.io/rust/2025/12/30/investigating-and-fixing-a-nasty-clone-bug.html)
 
 ## Crate of the Week
