@@ -44,23 +44,29 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [ratatui v0.30.0](https://ratatui.rs/highlights/v030/)
 * [reqwest v0.13 - rustls by default](https://seanmonstar.com/blog/reqwest-v013-rustls-default/)
+* [rama 0.3.0-alpha.4 is released — modular service framework to move and transform network packets](https://github.com/plabayo/rama/releases/tag/rama-0.3.0-alpha.4)
+* [Ratatui 0.30.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v030/)
 
 ### Observations/Thoughts
+* [Four Years of Rust: An Odyssey of Failures, Achievements, and Hard Lessons](https://medium.com/@adefemiadeoye/four-years-of-rust-an-odyssey-of-failures-achievements-and-hard-lessons-0da41298a152)
 * [Simple Bidirectional Type Inference](https://ettolrach.com/blog/bidirectional_inference.html)
 * [serde's borrowing can be treacherous](https://yossarian.net/til/post/serde-s-borrowing-can-be-treacherous/)
 * [Garbage collection in Rust got a little better](https://claytonwramsey.com/blog/dumpster2/)
+* [audio] [Netstack.FM episode 20 — Netstack.FM New Year Special, 2025 Wrap-Up](https://netstack.fm/#episode-20)
 
 ### Rust Walkthroughs
 * [Investigating and fixing a nasty clone bug](https://kobzol.github.io/rust/2025/12/30/investigating-and-fixing-a-nasty-clone-bug.html)
 * [Why is calling my asm function from Rust slower than calling it from C?](https://ohadravid.github.io/posts/2025-12-rav1d-faster-asm/)
 * [Rust Errors Without Dependencies](https://vincents.dev/blog/rust-errors-without-dependencies/)
+* [video] [Building your first APP using the new Hotaru Web Framework!](https://www.youtube.com/watch?v=8pV-o04GuKk)
+
 
 ### Research
 
 ### Miscellaneous
 * [audio] [2025 Holiday Special - Rust in Production Podcast](https://corrode.dev/podcast/s05e07-holiday/)
+* [Investigating and fixing a nasty clone bug](https://kobzol.github.io/rust/2025/12/30/investigating-and-fixing-a-nasty-clone-bug.html)
 
 ## Crate of the Week
 
@@ -155,7 +161,27 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+
+Not a lot of changes this week. Overall result is positive, largely thanks to https://github.com/rust-lang/rust/pull/142881, which makes computing an expensive data structure for JumpThreading MIR optimization lazy.
+
+Triage done by **@panstromek**.
+Revision range: [e1212ea7..112a2742](https://perf.rust-lang.org/?start=e1212ea79b38d51954625291c04d2797c4bb8ec5&end=112a274275d77ebc2b892f056a1e2fad141f4f08&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.5%  | [0.1%, 1.7%]   | 11    |
+| Regressions ❌ <br /> (secondary)  | 0.2%  | [0.1%, 0.5%]   | 6     |
+| Improvements ✅ <br /> (primary)   | -0.5% | [-1.3%, -0.1%] | 74    |
+| Improvements ✅ <br /> (secondary) | -0.6% | [-1.8%, -0.2%] | 71    |
+| All ❌✅ (primary)                 | -0.4% | [-1.3%, 1.7%]  | 85    |
+
+
+2 Regressions, 0 Improvements, 3 Mixed; 1 of them in rollups
+37 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/19d2f05e6e3c86fe2496deb4d8ed585375602d78/triage/2025/2025-12-29.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
