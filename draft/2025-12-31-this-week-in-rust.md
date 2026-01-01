@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
+- [rama 0.3.0-alpha.4 is released — modular service framework to move and transform network packets](https://github.com/plabayo/rama/releases/tag/rama-0.3.0-alpha.4)
 - [Ratatui 0.30.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v030/)
 
 ### Observations/Thoughts
