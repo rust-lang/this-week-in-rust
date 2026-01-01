@@ -188,7 +188,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 ### Rust Compiler Performance Triage
 
 
-Not a lot of changes this week. Overall result is positive, largely thanks to https://github.com/rust-lang/rust/pull/142881, which makes computing an expensive data structure for JumpThreading MIR optimization lazy.
+Not a lot of changes this week. Overall result is positive, largely thanks to [#142881](https://github.com/rust-lang/rust/pull/142881), which makes computing an expensive data structure for JumpThreading MIR optimization lazy.
 
 Triage done by **@panstromek**.
 Revision range: [e1212ea7..112a2742](https://perf.rust-lang.org/?start=e1212ea79b38d51954625291c04d2797c4bb8ec5&end=112a274275d77ebc2b892f056a1e2fad141f4f08&absolute=false&stat=instructions%3Au)
