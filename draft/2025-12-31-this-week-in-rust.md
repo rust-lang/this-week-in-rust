@@ -56,7 +56,6 @@ and just ask the editors to select the category.
 * [audio] [Netstack.FM episode 20 — Netstack.FM New Year Special, 2025 Wrap-Up](https://netstack.fm/#episode-20)
 
 ### Rust Walkthroughs
-* [Investigating and fixing a nasty clone bug](https://kobzol.github.io/rust/2025/12/30/investigating-and-fixing-a-nasty-clone-bug.html)
 * [Why is calling my asm function from Rust slower than calling it from C?](https://ohadravid.github.io/posts/2025-12-rav1d-faster-asm/)
 * [Rust Errors Without Dependencies](https://vincents.dev/blog/rust-errors-without-dependencies/)
 * [video] [Building your first APP using the new Hotaru Web Framework!](https://www.youtube.com/watch?v=8pV-o04GuKk)
