@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [video] [Unlocking Cargo. Towards conncurrent cargo builds and cross workspace caching](https://www.youtube.com/watch?v=0QpBeQTJjeo)
+
 ### Rust Walkthroughs
 
 ### Research
