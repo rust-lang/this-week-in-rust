@@ -44,16 +44,21 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
 - [rama 0.3.0-alpha.4 is released — modular service framework to move and transform network packets](https://github.com/plabayo/rama/releases/tag/rama-0.3.0-alpha.4)
+- [Ratatui 0.30.0 is released! - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v030/)
 
 ### Observations/Thoughts
+* [Four Years of Rust: An Odyssey of Failures, Achievements, and Hard Lessons](https://medium.com/@adefemiadeoye/four-years-of-rust-an-odyssey-of-failures-achievements-and-hard-lessons-0da41298a152)
+
+* [audio] [Netstack.FM episode 20 — Netstack.FM New Year Special, 2025 Wrap-Up](https://netstack.fm/#episode-20)
 
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+
+* [Investigating and fixing a nasty clone bug](https://kobzol.github.io/rust/2025/12/30/investigating-and-fixing-a-nasty-clone-bug.html)
 
 ## Crate of the Week
 
@@ -123,6 +128,11 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+
+* [Spindalis - Create an AST parser](https://github.com/lignum-vitae/spindalis/issues/27)
+* [Spindalis - Add procedural macro for definite integral](https://github.com/lignum-vitae/spindalis/issues/39)
+* [Spindalis - Add a function and macro that can expand polynomials](https://github.com/lignum-vitae/spindalis/issues/36)
+* [Spindalis - Add display trait to functions in spindalis core](https://github.com/lignum-vitae/spindalis/issues/43)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
