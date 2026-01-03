@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [video] [Tock, an embedded OS in Rust, overview and demo (3 videos in playlist)](https://www.youtube.com/watch?v=cd10qCP-ciU&list=PLOsuNMzzhUHVTdS0XZYlaN6btnM6CMyuh)
 
 ### Research
 
