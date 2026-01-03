@@ -252,7 +252,9 @@ Rusty Events between 2026-01-07 - 2026-02-04 🦀
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/308592260/)
 * 2026-01-20 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/events/)
     * [**Rust meetup #82**](https://www.meetup.com/rust-paris/events/312364675/)
-
+* 2026-01-26 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
+    * [**Rust Meetup #17](https://rust-augsburg.github.io/meetup/Meetup_17.html)
+    
 ### North America
 * 2026-01-01 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust/events/)
     * [**Cancelled**](https://www.meetup.com/stl-rust/events/311396047/)
