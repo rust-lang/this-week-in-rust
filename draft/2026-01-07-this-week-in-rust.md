@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Releasing Fjall 3.0: log-structured key-value storage engine](https://fjall-rs.github.io/post/fjall-3/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
