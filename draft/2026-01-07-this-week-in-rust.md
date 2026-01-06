@@ -48,7 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
+* [GoF Design Patterns in Rust: Necessary or Optional?](https://codigolinea.com/patrones-de-diseno-gof-en-rust/) (Spanish)
 ### Research
 
 ### Miscellaneous
