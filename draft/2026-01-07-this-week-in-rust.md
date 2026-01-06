@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Danube Messaging v0.6 - Introduces Schema Registry](https://danube-docs.dev-state.com/architecture/schema_registry_architecture/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
