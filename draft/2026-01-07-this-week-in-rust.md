@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Rust At Scale: Scaleway's Big Bet To Become THE European Hyperscaler](https://filtra.io/rust/interviews/scaleway-jan-26)
 
 ## Crate of the Week
 
