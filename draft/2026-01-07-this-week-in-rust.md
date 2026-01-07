@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Introduction to SIMD programming in pure Rust](https://kerkour.com/introduction-rust-simd)
 
 ### Research
 
