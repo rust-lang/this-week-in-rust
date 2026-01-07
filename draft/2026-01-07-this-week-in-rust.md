@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 * [Even Safer Rust with Miri](https://ianwwagner.com/even-safer-rust-with-miri.html)
+* [Ergonomic Async trait objects in Rust](https://ebadf.me/blog/ergonomic-async-trait-objects-rust)
 
 ### Rust Walkthroughs
 * [Introduction to SIMD programming in pure Rust](https://kerkour.com/introduction-rust-simd)
