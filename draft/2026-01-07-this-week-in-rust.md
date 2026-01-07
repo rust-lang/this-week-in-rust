@@ -38,20 +38,23 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-
+* [This Development-cycle in Cargo: 1.93](https://blog.rust-lang.org/inside-rust/2026/01/07/this-development-cycle-in-cargo-1.93/)
+* [Project goals update — December 2025](https://blog.rust-lang.org/2026/01/05/project-goals-2025-december-update/)
 ### Foundation
 
 ### Newsletters
-
+* [This Month in Rust OSDev: December 2025](https://rust-osdev.com/this-month/2025-12/)
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
-
+* [1160 PRs to improve Rust in 2025](https://kobzol.github.io/rust/rustc/2026/01/05/my-rust-contributions-in-2025.html)
+*  [series] [Who Owns the Memory? Part 3: How Big Is your Type?](https://lukefleed.xyz/posts/who-owns-the-memory-pt3/)
 * [Even Safer Rust with Miri](https://ianwwagner.com/even-safer-rust-with-miri.html)
-
+* [ \[uv\] OnceMap: Rust Pattern for Running Concurrent Work Exactly Once](codepointer.substack.com/p/uv-oncemap-rust-pattern-for-running)
+* [Rust At Scale: Scaleway's Big Bet To Become THE European Hyperscaler](https://filtra.io/rust/interviews/scaleway-jan-26)
 ### Rust Walkthroughs
 * [Introduction to SIMD programming in pure Rust](https://kerkour.com/introduction-rust-simd)
-
+* [Stop Forwarding Errors, Start Designing Them](https://fast.github.io/blog/stop-forwarding-errors-start-designing-them/)
 ### Research
 
 ### Miscellaneous
