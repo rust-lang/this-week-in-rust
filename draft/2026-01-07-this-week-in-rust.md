@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Even Safer Rust with Miri](https://ianwwagner.com/even-safer-rust-with-miri.html)
+
 ### Rust Walkthroughs
 
 ### Research
