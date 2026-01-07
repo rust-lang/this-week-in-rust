@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+[Designing APIs for the Pit of Success](https://www.rodriguez.today/articles/designing-rusty-paseto)
 
 ### Rust Walkthroughs
 
