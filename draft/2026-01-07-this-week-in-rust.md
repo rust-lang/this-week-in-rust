@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Rusty CDK, an Infrastructure as Code Experiment](https://medium.com/@sam.van.overmeire/rusty-cdk-an-infrastructure-as-code-experiment-c10ed7804a2a)
 
 * [Even Safer Rust with Miri](https://ianwwagner.com/even-safer-rust-with-miri.html)
 
