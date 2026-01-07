@@ -202,8 +202,6 @@ Update CFT, FCP, MCP and RFC sections for TWiR-xxx
 Rusty Events between 2026-01-07 - 2026-02-04 🦀
 
 ### Virtual
-* 2026-01-03 | Virtual (Kampala, UG) | [Rust Circle Meetup](https://www.eventbrite.com/o/rust-circle-kampala-65249289033)
-    * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763888717)
 * 2026-01-07 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/4p6rxjc5)
 * 2026-01-07 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
@@ -212,10 +210,10 @@ Rusty Events between 2026-01-07 - 2026-02-04 🦀
     * [**Meet, swap, and learn!**](https://www.meetup.com/charlottesville-rust-meetup/events/312321120/)
 * 2026-01-08 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/events/)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/312379275/)
-* 2026-01-13 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
-    * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254791/)
 * 2026-01-13 | Virtual | [libp2p Events](https://luma.com/libp2p)
     * [**rust-libp2p Open Maintainers Call**](https://luma.com/xov10pef)
+* 2026-01-13 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
+    * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254791/)
 * 2026-01-13 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/events/)
     * [**Live Open Source Rust project contribution**](https://www.meetup.com/code-mavens/events/312641560/)
 * 2026-01-15 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
@@ -253,13 +251,9 @@ Rusty Events between 2026-01-07 - 2026-02-04 🦀
 * 2026-01-20 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/events/)
     * [**Rust meetup #82**](https://www.meetup.com/rust-paris/events/312364675/)
 * 2026-01-26 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
-    * [**Rust Meetup #17](https://rust-augsburg.github.io/meetup/Meetup_17.html)
-    
+    * [**Rust Meetup #17**](https://rust-augsburg.github.io/meetup/Meetup_17.html)
+
 ### North America
-* 2026-01-01 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust/events/)
-    * [**Cancelled**](https://www.meetup.com/stl-rust/events/311396047/)
-* 2026-01-03 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
-    * [**Allston Rust Lunch, Jan 3**](https://www.meetup.com/bostonrust/events/312483562/)
 * 2026-01-08 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/events/)
     * [**Bringing the data lake to the browser with WASM**](https://www.meetup.com/utah-rust/events/312565472/)
 * 2026-01-08 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
