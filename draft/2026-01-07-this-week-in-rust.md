@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Releasing Fjall 3.0: log-structured key-value storage engine](https://fjall-rs.github.io/post/fjall-3/)
+
 ### Observations/Thoughts
 * [Rusty CDK, an Infrastructure as Code Experiment](https://medium.com/@sam.van.overmeire/rusty-cdk-an-infrastructure-as-code-experiment-c10ed7804a2a)
 
