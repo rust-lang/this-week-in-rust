@@ -13,3 +13,5 @@ cache
 publishing/email
 publishing/output*
 publishing/juice
+
+draft/cft_rfc_fcp_draft_template.md

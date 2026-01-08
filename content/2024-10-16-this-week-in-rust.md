@@ -50,7 +50,7 @@ and just ask the editors to select the category.
 * [An experiment in async Rust](https://ochagavia.nl/blog/an-experiment-in-async-rust/)
 * [Designing A Fast Concurrent Hash Table](https://ibraheem.ca/posts/designing-papaya/)
 * [Rethinking Builders… with Lazy Generics](https://geo-ant.github.io/blog/2024/rust-rethinking-builders-lazy-generics/)
-* [IPC in Rust](https://pranitha.rs/posts/rust-ipc-ping-pong/)
+* [IPC in Rust](https://pranitha.dev/posts/rust-ipc-ping-pong/)
 * [Serde Trait - Part 3: Deserialization](https://voelklmichael.github.io/Blog/serde-trait-part3.html)
 * [Memory for Nothing: Why Vec&lt;usize&gt; is (probably) a bad idea](https://pwy.io/posts/memory-for-nothing/)
 * [Upgrade the Logging in your Rust Tests](https://tylerjw.dev/posts/20241012-rust-logging-in-tests/)
