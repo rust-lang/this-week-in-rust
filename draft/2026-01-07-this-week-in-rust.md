@@ -58,10 +58,10 @@ and just ask the editors to select the category.
 * [audio] [Netstack.FM episode 21 — GraphQL and Rust with Tom Houlé](https://netstack.fm/#episode-21)
 
 ### Rust Walkthroughs
-* [video] [Tock, an embedded OS in Rust, overview and demo (3 videos in playlist)](https://www.youtube.com/watch?v=cd10qCP-ciU&list=PLOsuNMzzhUHVTdS0XZYlaN6btnM6CMyuh)
 * [Introduction to SIMD programming in pure Rust](https://kerkour.com/introduction-rust-simd)
-
 * [That mockingbird won't sing: a mock API server in Rust](https://bitfieldconsulting.com/posts/mockingbird-wont-sing)
+* [ES] [GoF Design Patterns in Rust: Necessary or Optional?](https://codigolinea.com/patrones-de-diseno-gof-en-rust/)
+* [video] [Tock, an embedded OS in Rust, overview and demo (3 videos in playlist)](https://www.youtube.com/watch?v=cd10qCP-ciU&list=PLOsuNMzzhUHVTdS0XZYlaN6btnM6CMyuh)
 
 ### Research
 
