@@ -57,6 +57,8 @@ and just ask the editors to select the category.
 * [video] [Tock, an embedded OS in Rust, overview and demo (3 videos in playlist)](https://www.youtube.com/watch?v=cd10qCP-ciU&list=PLOsuNMzzhUHVTdS0XZYlaN6btnM6CMyuh)
 * [Introduction to SIMD programming in pure Rust](https://kerkour.com/introduction-rust-simd)
 
+* [That mockingbird won't sing: a mock API server in Rust](https://bitfieldconsulting.com/posts/mockingbird-wont-sing)
+
 ### Research
 
 ### Miscellaneous
