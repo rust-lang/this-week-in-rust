@@ -49,7 +49,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
-* [That mockingbird won't sing: a mock API server in Rust](https://bitfieldconsulting.com/posts/mockingbird-wont-sing) using [`httpmock`](https://httpmock.rs/)
+* [That mockingbird won't sing: a mock API server in Rust](https://bitfieldconsulting.com/posts/mockingbird-wont-sing)
 
 ### Research
 
