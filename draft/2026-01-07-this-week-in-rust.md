@@ -155,7 +155,25 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Not many PRs were merged, as it was still mostly a holiday week. [#149681](https://github.com/rust-lang/rust/pull/149681) caused small regressions across the board, this is pending investigation.
+
+Triage done by **@kobzol**.
+Revision range: [112a2742..7c04f5d2](https://perf.rust-lang.org/?start=112a274275d77ebc2b892f056a1e2fad141f4f08&end=7c04f5d216b5dcfff0a55fc20327a1c519004699&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.5%  | [0.1%, 1.4%]   | 146   |
+| Regressions ❌ <br /> (secondary)  | 0.6%  | [0.0%, 3.5%]   | 91    |
+| Improvements ✅ <br /> (primary)   | -3.1% | [-4.7%, -1.5%] | 2     |
+| Improvements ✅ <br /> (secondary) | -0.7% | [-6.4%, -0.1%] | 15    |
+| All ❌✅ (primary)                 | 0.4%  | [-4.7%, 1.4%]  | 148   |
+
+2 Regressions, 0 Improvements, 7 Mixed; 4 of them in rollups
+51 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/255bac429c3cc0a39f4332d8241af2e95e6d375f/triage/2026/2026-01-06.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
