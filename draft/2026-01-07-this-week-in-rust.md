@@ -42,13 +42,27 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #62](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-62)
 
 ### Project/Tooling Updates
+* [Danube Messaging v0.6 - Introduces Schema Registry](https://danube-docs.dev-state.com/architecture/schema_registry_architecture/)
+* [Releasing Fjall 3.0: log-structured key-value storage engine](https://fjall-rs.github.io/post/fjall-3/)
 
 ### Observations/Thoughts
+* [Rusty CDK, an Infrastructure as Code Experiment](https://medium.com/@sam.van.overmeire/rusty-cdk-an-infrastructure-as-code-experiment-c10ed7804a2a)
+
+* [Even Safer Rust with Miri](https://ianwwagner.com/even-safer-rust-with-miri.html)
+
+* [video] [Unlocking Cargo. Towards conncurrent cargo builds and cross workspace caching](https://www.youtube.com/watch?v=0QpBeQTJjeo)
+
+* [audio] [Netstack.FM episode 21 — GraphQL and Rust with Tom Houlé](https://netstack.fm/#episode-21)
 
 ### Rust Walkthroughs
+* [Introduction to SIMD programming in pure Rust](https://kerkour.com/introduction-rust-simd)
+* [That mockingbird won't sing: a mock API server in Rust](https://bitfieldconsulting.com/posts/mockingbird-wont-sing)
 * [ES] [GoF Design Patterns in Rust: Necessary or Optional?](https://codigolinea.com/patrones-de-diseno-gof-en-rust/)
+* [video] [Tock, an embedded OS in Rust, overview and demo (3 videos in playlist)](https://www.youtube.com/watch?v=cd10qCP-ciU&list=PLOsuNMzzhUHVTdS0XZYlaN6btnM6CMyuh)
+
 ### Research
 
 ### Miscellaneous
@@ -204,6 +218,8 @@ Rusty Events between 2026-01-07 - 2026-02-04 🦀
 ### Virtual
 * 2026-01-03 | Virtual (Kampala, UG) | [Rust Circle Meetup](https://www.eventbrite.com/o/rust-circle-kampala-65249289033)
     * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763888717)
+* 2026-01-07 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/4p6rxjc5)
 * 2026-01-07 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/312102790/)
 * 2026-01-08 | Virtual (Charlottesville, VA, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup/events/)
@@ -216,8 +232,6 @@ Rusty Events between 2026-01-07 - 2026-02-04 🦀
     * [**rust-libp2p Open Maintainers Call**](https://luma.com/xov10pef)
 * 2026-01-13 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/events/)
     * [**Live Open Source Rust project contribution**](https://www.meetup.com/code-mavens/events/312641560/)
-* 2026-01-14 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
-    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/4p6rxjc5)
 * 2026-01-15 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/305646023/)
 * 2026-01-20 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/events/)
@@ -242,17 +256,19 @@ Rusty Events between 2026-01-07 - 2026-02-04 🦀
 ### Europe
 * 2026-01-07 | Amsterdam, NL | [Rust Developers Amsterdam Group](https://www.meetup.com/rust-amsterdam-group/events/)
     * [**Meetup @ Instruqt**](https://www.meetup.com/rust-amsterdam-group/events/312497150/)
-* 2026-01-07 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
-    * [**Rust Girona Hack & Learn 01 2026**](https://luma.com/mdymp686)
 * 2026-01-08 | Geneva, CH | [Post Tenebras Lab](https://www.posttenebraslab.ch)
     * [**Rust Meetup Geneva**](https://www.posttenebraslab.ch/wiki/events/monthly_meeting/rust_meetup)
+* 2026-01-14 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Rust Girona Hack & Learn 01 2026**](https://luma.com/mdymp686)
 * 2026-01-14 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop/events/)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/csvcvtyjccbsb/)
 * 2026-01-20 | Leipzig, SN, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/)
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/308592260/)
 * 2026-01-20 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris/events/)
     * [**Rust meetup #82**](https://www.meetup.com/rust-paris/events/312364675/)
-
+* 2026-01-26 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
+    * [**Rust Meetup #17](https://rust-augsburg.github.io/meetup/Meetup_17.html)
+    
 ### North America
 * 2026-01-01 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust/events/)
     * [**Cancelled**](https://www.meetup.com/stl-rust/events/311396047/)
