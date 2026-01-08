@@ -69,7 +69,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [kameo](https://github.com/tqwewe/kameo), an asynchronous actor framework with clear, trait-based abstractions for actors and typed messages.
+
+Thanks to [edgimar](https://users.rust-lang.org/t/crate-of-the-week/2704/1513) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -119,7 +121,61 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+341 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2025-12-30..2026-01-06
+
+#### Compiler
+* [make inliner cycle detection a fallible process](https://github.com/rust-lang/rust/pull/147361)
+* [remove `Span` from segments of `AttrPath`](https://github.com/rust-lang/rust/pull/149790)
+
+#### Library
+* [`oneshot` Channel](https://github.com/rust-lang/rust/pull/143741)
+* [add `VecDeque::splice`](https://github.com/rust-lang/rust/pull/147247)
+* [add specialization for `deque1.prepend(deque2.drain(range)) (VecDeque::prepend` and `extend_front)`](https://github.com/rust-lang/rust/pull/150595)
+* [avoid index check in `char::to_lowercase` and `char::to_uppercase`](https://github.com/rust-lang/rust/pull/150520)
+* [make specialization of `Vec::extend` and `VecDeque::extend_front` work for `vec::IntoIter` with any `Allocator`, not just `Global`](https://github.com/rust-lang/rust/pull/150597)
+* [implement `TryFrom<char>` for `usize`](https://github.com/rust-lang/rust/pull/146792)
+* [improve alloc `Vec::retain_mut` performance](https://github.com/rust-lang/rust/pull/149784)
+
+#### Cargo
+* [`feat(report)`: add cargo report rebuilds](https://github.com/rust-lang/cargo/pull/16456)
+* [`feat(test-support)`: Use test name for dir when running tests](https://github.com/rust-lang/cargo/pull/16121)
+* [`fix(log)`: add `dependencies` field to `UnitRegistered`](https://github.com/rust-lang/cargo/pull/16448)
+* [any build scripts can now use `cargo::metadata=KEY=VALUE`](https://github.com/rust-lang/cargo/pull/16436)
+* [implement fine grain locking for `build-dir`](https://github.com/rust-lang/cargo/pull/16155)
+* [refactor: migrate some cases to expect/reason](https://github.com/rust-lang/cargo/pull/16461)
+
+#### Clippy
+* [`manual_div_ceil`: Added check for variant `x.next_multiple_of(y) / y`](https://github.com/rust-lang/rust-clippy/pull/16221)
+* [`transmuting_null`: Check single expression const blocks and blocks](https://github.com/rust-lang/rust-clippy/pull/16260)
+* [do not make suggestion machine-applicable if it may change semantics](https://github.com/rust-lang/rust-clippy/pull/16324)
+* [fix `bool_assert_comparison` suggests wrongly for macros](https://github.com/rust-lang/rust-clippy/pull/16280)
+* [fix `implicit_saturating_sub` suggests wrongly on untyped int literal](https://github.com/rust-lang/rust-clippy/pull/16309)
+* [fix `multiple_inherent_impl` false negatives for generic impl blocks](https://github.com/rust-lang/rust-clippy/pull/16284)
+* [fix `needless_for_each` false negative when `for_each` is in the expr of a block](https://github.com/rust-lang/rust-clippy/pull/16295)
+* [fix `new_without_default` misses where clause in `new`](https://github.com/rust-lang/rust-clippy/pull/16268)
+* [fix `redundant_pattern_matching` misses `)` in suggestion span](https://github.com/rust-lang/rust-clippy/pull/16084)
+* [fix `cmp_owned` wrongly unmangled macros](https://github.com/rust-lang/rust-clippy/pull/16331)
+* [move `multiple_bound_locations` to style](https://github.com/rust-lang/rust-clippy/pull/16302)
+
+#### Rust-Analyzer
+* [add useless prefix `try_into_` for `suggest_name`](https://github.com/rust-lang/rust-analyzer/pull/21361)
+* [allow finding references from doc comments](https://github.com/rust-lang/rust-analyzer/pull/21376)
+* [add `#[rust_analyzer::macro_style()]` attribute to control macro completion brace style](https://github.com/rust-lang/rust-analyzer/pull/21370)
+* [add location links for generic parameter type hints](https://github.com/rust-lang/rust-analyzer/pull/21393)
+* [fix incorrect dyn hint in `impl Trait for`](https://github.com/rust-lang/rust-analyzer/pull/21375)
+* [fix source text](https://github.com/rust-lang/rust-analyzer/pull/21397)
+* [don't fire `non_camel_case_types` lint for structs/enums marked with `repr(C)`](https://github.com/rust-lang/rust-analyzer/pull/21374)
+* [have an `upvars_mentioned()` query that only computes what upvars a closure captures](https://github.com/rust-lang/rust-analyzer/pull/21367)
+* [suppress false positive missing assoc item diag on specialization](https://github.com/rust-lang/rust-analyzer/pull/21403)
+* [implement `Span::line()` and `Span::column()` for proc-macro server](https://github.com/rust-lang/rust-analyzer/pull/21405)
+* [migrate `move_arm_cond_to_match_guard` assist to use `SyntaxEditor`](https://github.com/rust-lang/rust-analyzer/pull/21369)
+* [compress token trees for best memory usage](https://github.com/rust-lang/rust-analyzer/pull/21363)
+* [only compute lang items for `#![feature(lang_items)]` crates](https://github.com/rust-lang/rust-analyzer/pull/21396)
+* [re-use scratch allocations for `try_evaluate_obligations`](https://github.com/rust-lang/rust-analyzer/pull/21407)
+* [pre-allocate intern storages with 64kb of data / 1024 elements](https://github.com/rust-lang/rust-analyzer/pull/21390)
+* [proc-macro-srv: support file and `local_file` via bidirectional callbacks](https://github.com/rust-lang/rust-analyzer/pull/21377)
 
 ### Rust Compiler Performance Triage
 
@@ -279,7 +335,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> I find it amazing that by using Rust and Miri I am using tools that are on the edge of fundamental research in Programming Languages. Actual practically usable tools that anyone can use, not arcane code experiments passed around between academics.
+
+– [ZiCog on rust-users](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1744)
+
+Thanks to [Kyllingene](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1745) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
