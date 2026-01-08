@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 
 * [Even Safer Rust with Miri](https://ianwwagner.com/even-safer-rust-with-miri.html)
 
+* [video] [Unlocking Cargo. Towards conncurrent cargo builds and cross workspace caching](https://www.youtube.com/watch?v=0QpBeQTJjeo)
+
 ### Rust Walkthroughs
 * [video] [Tock, an embedded OS in Rust, overview and demo (3 videos in playlist)](https://www.youtube.com/watch?v=cd10qCP-ciU&list=PLOsuNMzzhUHVTdS0XZYlaN6btnM6CMyuh)
 * [Introduction to SIMD programming in pure Rust](https://kerkour.com/introduction-rust-simd)
