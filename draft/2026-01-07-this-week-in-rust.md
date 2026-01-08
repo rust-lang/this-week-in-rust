@@ -42,15 +42,27 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #62](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-62)
 
 ### Project/Tooling Updates
+* [Danube Messaging v0.6 - Introduces Schema Registry](https://danube-docs.dev-state.com/architecture/schema_registry_architecture/)
+* [Releasing Fjall 3.0: log-structured key-value storage engine](https://fjall-rs.github.io/post/fjall-3/)
 
 ### Observations/Thoughts
 * [Designing APIs for the Pit of Success](https://www.rodriguez.today/articles/designing-rusty-paseto)
+* [Rusty CDK, an Infrastructure as Code Experiment](https://medium.com/@sam.van.overmeire/rusty-cdk-an-infrastructure-as-code-experiment-c10ed7804a2a)
+* [Even Safer Rust with Miri](https://ianwwagner.com/even-safer-rust-with-miri.html)
+* [video] [Unlocking Cargo. Towards conncurrent cargo builds and cross workspace caching](https://www.youtube.com/watch?v=0QpBeQTJjeo)
+* [audio] [Netstack.FM episode 21 — GraphQL and Rust with Tom Houlé](https://netstack.fm/#episode-21)
 
 ### Rust Walkthroughs
+* [Introduction to SIMD programming in pure Rust](https://kerkour.com/introduction-rust-simd)
+* [That mockingbird won't sing: a mock API server in Rust](https://bitfieldconsulting.com/posts/mockingbird-wont-sing)
+* [ES] [GoF Design Patterns in Rust: Necessary or Optional?](https://codigolinea.com/patrones-de-diseno-gof-en-rust/)
+* [video] [Tock, an embedded OS in Rust, overview and demo (3 videos in playlist)](https://www.youtube.com/watch?v=cd10qCP-ciU&list=PLOsuNMzzhUHVTdS0XZYlaN6btnM6CMyuh)
 
 ### Research
+* [How Safe is the Rust Ecosystem? A Deep Dive into crates.io](https://mr-leshiy-blog.web.app/blog/crates_io_analysis/)
 
 ### Miscellaneous
 
