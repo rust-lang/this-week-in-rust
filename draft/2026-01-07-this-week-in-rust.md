@@ -55,6 +55,8 @@ and just ask the editors to select the category.
 
 * [video] [Unlocking Cargo. Towards conncurrent cargo builds and cross workspace caching](https://www.youtube.com/watch?v=0QpBeQTJjeo)
 
+* [audio] [Netstack.FM episode 21 — GraphQL and Rust with Tom Houlé](https://netstack.fm/#episode-21)
+
 ### Rust Walkthroughs
 * [video] [Tock, an embedded OS in Rust, overview and demo (3 videos in playlist)](https://www.youtube.com/watch?v=cd10qCP-ciU&list=PLOsuNMzzhUHVTdS0XZYlaN6btnM6CMyuh)
 * [Introduction to SIMD programming in pure Rust](https://kerkour.com/introduction-rust-simd)
