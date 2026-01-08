@@ -1,4 +1,4 @@
-itle: This Week in Rust 633
+Title: This Week in Rust 633
 Number: 633
 Date: 2026-01-07
 Category: This Week in Rust
