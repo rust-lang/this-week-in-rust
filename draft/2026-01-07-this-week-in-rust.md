@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 * [Designing APIs for the Pit of Success](https://www.rodriguez.today/articles/designing-rusty-paseto)
 * [Rusty CDK, an Infrastructure as Code Experiment](https://medium.com/@sam.van.overmeire/rusty-cdk-an-infrastructure-as-code-experiment-c10ed7804a2a)
 * [Even Safer Rust with Miri](https://ianwwagner.com/even-safer-rust-with-miri.html)
+* [Ergonomic Async trait objects in Rust](https://ebadf.me/blog/ergonomic-async-trait-objects-rust)
 * [video] [Unlocking Cargo. Towards conncurrent cargo builds and cross workspace caching](https://www.youtube.com/watch?v=0QpBeQTJjeo)
 * [audio] [Netstack.FM episode 21 — GraphQL and Rust with Tom Houlé](https://netstack.fm/#episode-21)
 
