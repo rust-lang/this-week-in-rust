@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 * [Danube Messaging v0.6 - Introduces Schema Registry](https://danube-docs.dev-state.com/architecture/schema_registry_architecture/)
 * [Releasing Fjall 3.0: log-structured key-value storage engine](https://fjall-rs.github.io/post/fjall-3/)
 
+* [BugStalker v0.4.0 - Modern debugger for Linux x86-64. Written in Rust for Rust programs.](https://www.reddit.com/r/rust/comments/1q4kkqm/bugstalker_v040_released_a_modern_rust_debugger/) now with VSCode support.
+
 ### Observations/Thoughts
 * [Designing APIs for the Pit of Success](https://www.rodriguez.today/articles/designing-rusty-paseto)
 * [Rusty CDK, an Infrastructure as Code Experiment](https://medium.com/@sam.van.overmeire/rusty-cdk-an-infrastructure-as-code-experiment-c10ed7804a2a)
