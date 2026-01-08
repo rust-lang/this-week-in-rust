@@ -50,7 +50,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 ### Research
-[How Safe is the Rust Ecosystem? A Deep Dive into crates.io](https://mr-leshiy-blog.web.app/blog/crates_io_analysis/)
+* [How Safe is the Rust Ecosystem? A Deep Dive into crates.io](https://mr-leshiy-blog.web.app/blog/crates_io_analysis/)
 
 ### Miscellaneous
 
