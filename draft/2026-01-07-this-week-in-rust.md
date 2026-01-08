@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 * [The Embedded Rustacean Issue #62](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-62)
 
 ### Project/Tooling Updates
-
+* [Danube Messaging v0.6 - Introduces Schema Registry](https://danube-docs.dev-state.com/architecture/schema_registry_architecture/)
 * [Releasing Fjall 3.0: log-structured key-value storage engine](https://fjall-rs.github.io/post/fjall-3/)
 
 ### Observations/Thoughts
