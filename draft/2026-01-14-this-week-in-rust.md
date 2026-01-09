@@ -294,6 +294,8 @@ Rusty Events between 2026-01-14 - 2026-02-11 🦀
     * [**Boston Common Rust Lunch, Jan 17**](https://www.meetup.com/bostonrust/events/312483677/)
 * 2026-01-17 | Herndon, VA, US | [NoVaLUG](https://mobilizon.us/@novalug)
     * [**Monthly Meeting - Make Brian Lunduke Angry, Program in Rust**](https://mobilizon.us/events/140c5c7c-01f3-4aaa-b218-58289c6b4449)
+* 2026-01-20 | San Francisco, CA, US | [Svix](https://luma.com/calendar/cal-Cnmn4RR2n4fRUNZ)
+    * [**San Francisco Rust Meetup**](https://luma.com/1wle4wl0)
 * 2026-01-20 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group)
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/310403081/)
 * 2026-01-21 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx)
