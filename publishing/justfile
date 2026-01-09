@@ -59,7 +59,7 @@ clean-email:
 	rm -rf output/ output-email-format/ email/ juice/
 
 # Generate website content
-generate-website: docker-build
+generate-website: docker-build clean-website
 	@echo "Generating website..."
 	docker run -it \
 		-v {{justfile_directory()}}/output-website:/usr/twir/output \
