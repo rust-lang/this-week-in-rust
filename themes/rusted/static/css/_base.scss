@@ -141,6 +141,7 @@ code {
 code {
     padding: 1px 5px;
     color: $code-color;
+    overflow-wrap: break-word;
 }
 
 pre {
