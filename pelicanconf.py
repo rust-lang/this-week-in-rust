@@ -57,12 +57,6 @@ if USE_EMAIL_THEME:
     PLUGINS = ['webassets']
 else:
     PLUGINS = ['webassets', 'neighbors']
-    """
-    Search functionality disabled while troubleshooting performance issues
-    for non-desktop readers. See https://github.com/rust-lang/this-week-in-rust/issues/4271
-    PLUGINS = ['webassets', 'neighbors', 'search']
-    SEARCH_HTML_SELECTOR = "article"
-    """
 
 MARKDOWN = {
     'extension_configs': {

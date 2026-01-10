@@ -19,11 +19,6 @@ ENV LANGUAGE=en_US.UTF-8
 COPY requirements.txt .
 RUN pip3 install -r requirements.txt
 
-# install Stork
-RUN curl https://files.stork-search.net/releases/v1.5.0/stork-ubuntu-20-04 -o stork \
-    && chmod +x stork \
-    && mv ./stork /usr/bin/stork
-
 # install sass/juice
 RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
 RUN apt-get install -y nodejs

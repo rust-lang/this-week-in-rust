@@ -32,9 +32,6 @@
     <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME|striptags }} - Full Atom Feed" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
-    <!-- Search temporarily disabled. See https://github.com/rust-lang/this-week-in-rust/issues/4271
-    <link rel="stylesheet" href="https://files.stork-search.net/basic.css" />
-    <link rel="stylesheet" media="screen and (prefers-color-scheme: dark)" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/stork-dark.css"> -->
     {% assets filters="libsass,cssmin", output="css/web-min.css", "css/main.scss" %}
 
     <link rel="stylesheet" href="/{{ ASSET_URL }}" />
