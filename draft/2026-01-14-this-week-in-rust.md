@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Verify Arch Linux artifacts using VOA/OpenPGP](https://devblog.archlinux.page/2026/verify-arch-linux-artifacts-using-voa-openpgp/)
 
 ### Observations/Thoughts
 
