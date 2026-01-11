@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [🦀 Rust Wrapped 2025](https://open.substack.com/pub/weeklyrust/p/rust-wrapped-2025?utm_campaign=post-expanded-share&utm_medium=web)
 
 ## Crate of the Week
 
