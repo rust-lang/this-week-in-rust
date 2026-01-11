@@ -61,7 +61,6 @@ clean-email:
 # Generate website content
 generate-website: docker-build clean-website
 	@echo "Generating website..."
-	mkdir -p output-website
 	docker run -it \
 		-v {{justfile_directory()}}/output-website:/usr/twir/output \
 		twir:latest
