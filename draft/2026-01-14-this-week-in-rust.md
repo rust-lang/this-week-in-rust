@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [GlueSQL v0.19 adds parameter binding and customizable query planners](https://github.com/gluesql/gluesql/releases/tag/v0.19.0)
 
 ### Observations/Thoughts
 
