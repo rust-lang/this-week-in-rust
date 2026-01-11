@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [diesel-guard](https://github.com/ayarotsky/diesel-guard) `v0.4.0` adds support for SQLx. Learn how this static analysis tool [helps prevent production outages from dangerous migration patterns](https://dev.to/ayarotsky/your-diesel-migrations-might-be-ticking-time-bombs-30g7).
 
 ### Observations/Thoughts
 
