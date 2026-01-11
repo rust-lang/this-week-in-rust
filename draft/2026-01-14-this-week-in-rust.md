@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [This Week in Slatron v1.1: The intelligent TV station manager introduces AI DJ hosts w/ TTS support for DIY hackable TV stations, radio, and digital signage. ](https://justinwoodring.com/blog/this-week-in-slatron-v1-1/)
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
