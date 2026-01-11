@@ -61,11 +61,14 @@ clean-email:
 # Generate website content
 generate-website: docker-build clean-website
 	@echo "Generating website..."
+	mkdir -p output-website
 	docker run -it \
 		-v {{justfile_directory()}}/output-website:/usr/twir/output \
 		twir:latest
-	python3 -m pip install 'pagefind[extended]'
-	python3 -m pagefind --site {{justfile_directory()}}/output-website
+	docker run -it \
+		-v {{justfile_directory()}}/output-website:/usr/twir/output \
+		twir:latest \
+		python3 -m pagefind --site /usr/twir/output
 	@echo "Finished generating website."
 
 # Host website locally on port 8000

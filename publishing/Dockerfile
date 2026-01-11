@@ -1,4 +1,4 @@
-FROM python:3.8.16-slim
+FROM python:3.9.25-slim
 
 # Must run from base `twir` directory... justfile takes care of this.
 WORKDIR /usr/twir
