@@ -185,17 +185,13 @@ Use the included `new_contribs.sh` script:
 
 ## Building
 
-To ensure consistency across development setups, we use a
-[Docker](https://www.docker.com) container-based workflow for building the
-website and email newsletter. Similarly, we use [Just](https://just.systems/) to
-ensure you have Docker installed on your system if you intend to build the
-website or email newsletter.
+To ensure consistency across development setups, we use a container-based workflow for building the website and email newsletter. [Docker](https://www.docker.com) is used by default, but you can use any drop-in Docker replacement, such as [Podman](https://podman.io/).
+
+Similarly, we use [Just](https://just.systems/) to ensure you have Docker or a suitable alternative installed on your system, as well as to run the various commands necessary to build the website or email newsletter.
 
 ### Install Just
 
-To install Just you have
-[many options](https://just.systems/man/en/packages.html); we recommend using
-Cargo:
+To install Just you have [many options](https://just.systems/man/en/packages.html); we recommend using Cargo:
 
 ```sh
 cargo install just
@@ -205,8 +201,7 @@ cargo install just
 
 > [!IMPORTANT]
 >
-> Before attempting to build the website, ensure Docker is in a running state on
-> your system.
+> Before attempting to build the website, ensure Docker or a suitable alternative is running on your system.
 
 - Enter the `publishing/` directory:
 
@@ -220,23 +215,23 @@ cd publishing
 just website
 ```
 
-- View the website locally at default
-  [http://localhost:8000](http://localhost:8000), or specific posts at
-  `http://localhost:8000/blog/{YEAR}/{MONTH}/{DAY}/{ISSUE}/`
+- To use a container engine besides Docker, append the appropriate command at the end:
+
+```sh
+just website podman
+```
+
+- View the website locally at default <http://localhost:8000>, or specific posts at `http://localhost:8000/blog/{YEAR}/{MONTH}/{DAY}/{ISSUE}/`
 
 > [!NOTE]
 >
-> If looking to test the website's search functionality locally, you will need
-> to adjust the
-> [`TESTING_LOCALLY`](https://github.com/rust-lang/this-week-in-rust/blob/dc127f17fcabbf0f058eb3d5a3febba434ddca83/pelicanconf.py#L7)
-> variable to `True`.
+> If looking to test the website's internal links locally, you will need to adjust the [`TESTING_LOCALLY`](https://github.com/rust-lang/this-week-in-rust/blob/dc127f17fcabbf0f058eb3d5a3febba434ddca83/pelicanconf.py#L7) variable to `True`.
 
 ### Building the newsletter
 
 > [!IMPORTANT]
 >
-> Before attempting to build the website, ensure Docker is in a running state on
-> your system.
+> Before attempting to build the newsletter, ensure Docker or a suitable alternative is running on your system.
 
 - Enter the `publishing/` directory:
 
@@ -244,11 +239,16 @@ just website
 cd publishing
 ```
 
-- Run the Docker build and website local-host command:
+- Run the Docker build and newsletter generation command:
 
 ```sh
 just email
 ```
 
-- View the email newsletter formatting of specific posts at
-  `http://localhost:8000/blog/{YEAR}/{MONTH}/{DAY}/{ISSUE}/`
+- To use a container engine besides Docker, append the appropriate command at the end:
+
+```sh
+just email podman
+```
+
+- View the email newsletter formatting of most recent issue at `publishing/email/{ISSUE}.html`, or view the formatting of a specific issue at `publishing/output-email-format/blog/{YEAR}/{MONTH}/{DAY}/{ISSUE}/index.html`.
