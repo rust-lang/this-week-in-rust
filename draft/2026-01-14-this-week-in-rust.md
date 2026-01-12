@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [The Impatient Programmer’s Guide to Bevy and Rust: Chapter 5 - Let There Be Pickups](https://aibodh.com/posts/bevy-rust-game-development-chapter-5/)
+
 ### Research
 
 ### Miscellaneous
