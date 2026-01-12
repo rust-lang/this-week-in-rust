@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [What is maintenance, anyway?](https://blog.rust-lang.org/inside-rust/2026/01/12/what-is-maintenance-anyway/)
+
 ### Foundation
 
 ### Newsletters
