@@ -49,6 +49,9 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [Fast and Safe Image Decoding in Rust](https://www.youtube.com/watch?v=8ANzF7UwbZM)
+* [video] [ere: Compiling Regular Expressions at Build-Time](https://www.youtube.com/watch?v=3SFx-emI5r4)
+
 ### Research
 
 ### Miscellaneous
