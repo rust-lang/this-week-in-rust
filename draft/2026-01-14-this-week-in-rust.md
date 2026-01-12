@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Garbage collection is contrarian](https://trynova.dev/blog/garbage-collection-is-contrarian)
+
 ### Rust Walkthroughs
 
 ### Research
