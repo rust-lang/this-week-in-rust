@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+[ES] [Command Pattern in Rust: When intent doesn't need to be an object](https://codigolinea.com/patron-command-en-rust/) 
 
 ### Research
 
