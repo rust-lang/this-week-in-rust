@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [BugStalker v0.4.0 - Modern debugger for Linux x86-64. Written in Rust for Rust programs.](https://godzie44.github.io/BugStalker/docs/blog/release_0_4) now with VSCode support.
+* [Announcing cadd: a library for painless checked arithmetic and conversions](https://users.rust-lang.org/t/announcing-cadd-a-library-for-painless-checked-arithmetic-and-conversions/137423)
 
 ### Observations/Thoughts
 
