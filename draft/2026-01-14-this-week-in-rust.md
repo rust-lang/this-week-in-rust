@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [audio] [Netstack.FM episode 22 — Rust URL with Simon Sapin](https://netstack.fm/#episode-22)
+
 ### Research
 
 ### Miscellaneous
