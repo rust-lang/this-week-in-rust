@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 * [READ_ONCE(), WRITE_ONCE(), but not for Rust](https://lwn.net/SubscriberLink/1053142/8ec93e58d5d3cc06/)
 * [GuardianDB 0.14.0 - High-performance, local-first decentralized database built on Rust and Iroh](https://www.willsearch.com.br/guardiandb/)
 * [A year of work on the ALPM project](https://devblog.archlinux.page/2026/a-year-of-work-on-the-alpm-project/)
+* [GlueSQL v0.19 adds parameter binding and customizable query planners](https://github.com/gluesql/gluesql/releases/tag/v0.19.0)
 
 ### Observations/Thoughts
 
