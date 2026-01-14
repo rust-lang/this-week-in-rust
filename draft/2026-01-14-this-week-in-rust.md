@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [🦀 Rust Wrapped 2025](https://weeklyrust.substack.com/p/rust-wrapped-2025)
 
 ### Project/Tooling Updates
 
