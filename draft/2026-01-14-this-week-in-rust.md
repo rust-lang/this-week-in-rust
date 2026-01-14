@@ -44,13 +44,15 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+
 * [🦀 Rust Wrapped 2025](https://weeklyrust.substack.com/p/rust-wrapped-2025)
 
 ### Project/Tooling Updates
+
 * [This Week in Slatron v1.1: The intelligent TV station manager introduces AI DJ hosts w/ TTS support for DIY hackable TV stations, radio, and digital signage. ](https://justinwoodring.com/blog/this-week-in-slatron-v1-1/)
 * [SeaORM 2.0 Migration Guide](https://www.sea-ql.org/blog/2026-01-12-sea-orm-2.0/)
 * [Exponential growth continued — cargo-semver-checks 2025 Year in Review](https://predr.ag/blog/cargo-semver-checks-2025-year-in-review/)
-* [BugStalker v0.4.0 - Modern debugger for Linux x86-64. Written in Rust for Rust programs.](https://godzie44.github.io/BugStalker/docs/blog/release_0_4) now with VSCode support.
+* [BugStalker v0.4.0 - Modern debugger for Linux x86-64. Written in Rust for Rust programs.](https://godzie44.github.io/BugStalker/docs/blog/release_0_4/) now with VSCode support.
 * [Announcing cadd: a library for painless checked arithmetic and conversions](https://users.rust-lang.org/t/announcing-cadd-a-library-for-painless-checked-arithmetic-and-conversions/137423)
 * [READ_ONCE(), WRITE_ONCE(), but not for Rust](https://lwn.net/SubscriberLink/1053142/8ec93e58d5d3cc06/)
 * [GuardianDB 0.14.0 - High-performance, local-first decentralized database built on Rust and Iroh](https://www.willsearch.com.br/guardiandb/)
@@ -62,15 +64,14 @@ and just ask the editors to select the category.
 
 * [Garbage collection is contrarian](https://trynova.dev/blog/garbage-collection-is-contrarian)
 * [Virtual Places and Borrow Checker Integration](https://bennolossin.github.io/blog/field-projections/virtual-places-and-borrowck.html)
-
-### Rust Walkthroughs
-* [series] [Part 3: Model Architecture, Building an LLM from Scratch in Rust](https://www.tag1.com/how-to/part3-model-architecture-building-an-llm-from-scratch/)
-
-* [audio] [Netstack.FM episode 22 — Rust URL with Simon Sapin](https://netstack.fm/#episode-22)
-* [The Impatient Programmer’s Guide to Bevy and Rust: Chapter 5 - Let There Be Pickups](https://aibodh.com/posts/bevy-rust-game-development-chapter-5/)
-
 * [video] [Fast and Safe Image Decoding in Rust](https://www.youtube.com/watch?v=8ANzF7UwbZM)
 * [video] [ere: Compiling Regular Expressions at Build-Time](https://www.youtube.com/watch?v=3SFx-emI5r4)
+
+### Rust Walkthroughs
+
+* [series] [Part 3: Model Architecture, Building an LLM from Scratch in Rust](https://www.tag1.com/how-to/part3-model-architecture-building-an-llm-from-scratch/)
+* [The Impatient Programmer’s Guide to Bevy and Rust: Chapter 5 - Let There Be Pickups](https://aibodh.com/posts/bevy-rust-game-development-chapter-5/)
+* [audio] [Netstack.FM episode 22 — Rust URL with Simon Sapin](https://netstack.fm/#episode-22)
 
 ### Research
 
