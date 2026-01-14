@@ -67,6 +67,9 @@ and just ask the editors to select the category.
 * [audio] [Netstack.FM episode 22 — Rust URL with Simon Sapin](https://netstack.fm/#episode-22)
 * [The Impatient Programmer’s Guide to Bevy and Rust: Chapter 5 - Let There Be Pickups](https://aibodh.com/posts/bevy-rust-game-development-chapter-5/)
 
+* [video] [Fast and Safe Image Decoding in Rust](https://www.youtube.com/watch?v=8ANzF7UwbZM)
+* [video] [ere: Compiling Regular Expressions at Build-Time](https://www.youtube.com/watch?v=3SFx-emI5r4)
+
 ### Research
 
 ### Miscellaneous
