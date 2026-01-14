@@ -60,6 +60,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [The State of Rust Cryptography in 2026](https://kerkour.com/rust-cryptography-ecosystem-2026)
 * [Garbage collection is contrarian](https://trynova.dev/blog/garbage-collection-is-contrarian)
 * [Virtual Places and Borrow Checker Integration](https://bennolossin.github.io/blog/field-projections/virtual-places-and-borrowck.html)
 
