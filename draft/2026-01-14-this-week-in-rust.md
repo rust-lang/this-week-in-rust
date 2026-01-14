@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [IBM Quantum: Rust is Real, but Quantum Advantage is Not (Yet)](https://filtra.io/rust/interviews/ibm-quantum-jan-26)
 
 ## Crate of the Week
 
