@@ -39,19 +39,31 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [What is maintenance, anyway?](https://blog.rust-lang.org/inside-rust/2026/01/12/what-is-maintenance-anyway/)
+
 ### Foundation
 
 ### Newsletters
+* [🦀 Rust Wrapped 2025](https://weeklyrust.substack.com/p/rust-wrapped-2025)
 
 ### Project/Tooling Updates
 
+* [Exponential growth continued — cargo-semver-checks 2025 Year in Review](https://predr.ag/blog/cargo-semver-checks-2025-year-in-review/)
 * [BugStalker v0.4.0 - Modern debugger for Linux x86-64. Written in Rust for Rust programs.](https://godzie44.github.io/BugStalker/docs/blog/release_0_4) now with VSCode support.
+* [READ_ONCE(), WRITE_ONCE(), but not for Rust](https://lwn.net/SubscriberLink/1053142/8ec93e58d5d3cc06/)
+* [GuardianDB 0.14.0 - High-performance, local-first decentralized database built on Rust and Iroh](https://www.willsearch.com.br/guardiandb/)
+* [A year of work on the ALPM project](https://devblog.archlinux.page/2026/a-year-of-work-on-the-alpm-project/)
+* [GlueSQL v0.19 adds parameter binding and customizable query planners](https://github.com/gluesql/gluesql/releases/tag/v0.19.0)
+* [diesel-guard: Your Diesel Migrations Might Be Ticking Time Bombs](https://dev.to/ayarotsky/your-diesel-migrations-might-be-ticking-time-bombs-30g7).
 
 ### Observations/Thoughts
+
+* [Virtual Places and Borrow Checker Integration](https://bennolossin.github.io/blog/field-projections/virtual-places-and-borrowck.html)
 
 ### Rust Walkthroughs
 
 * [audio] [Netstack.FM episode 22 — Rust URL with Simon Sapin](https://netstack.fm/#episode-22)
+* [The Impatient Programmer’s Guide to Bevy and Rust: Chapter 5 - Let There Be Pickups](https://aibodh.com/posts/bevy-rust-game-development-chapter-5/)
 
 ### Research
 
@@ -125,6 +137,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+
+* [GuardianDB - Create Benchmarks](https://github.com/wmaslonek/guardian-db/issues/7)
+* [GuardianDB - Create cohesive usage examples](https://github.com/wmaslonek/guardian-db/issues/5)
+* [GuardianDB - Translate documentation to English](https://github.com/wmaslonek/guardian-db/issues/3)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
