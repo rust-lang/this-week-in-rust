@@ -294,7 +294,7 @@ Rusty Events between 2026-01-14 - 2026-02-11 🦀
 * 2026-01-21 | Cambridge, UK | [Cambridge Rust Meetup](https://www.meetup.com/cambridge-rust-meetup)
     * [**Monthly Rust Meetup**](https://www.meetup.com/cambridge-rust-meetup/events/312749221/)
 * 2026-01-26 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
-    * [**Rust Meetup #17**](https://rust-augsburg.github.io/meetup/Meetup_17.html)
+    * [**Rust Meetup #17**: Emily Coaca - Entwicklung des Kernels Update für TockOS](https://rust-augsburg.github.io/meetup/Meetup_17.html)
 * 2026-01-28 | Dortmund, DE | [Rust Dortmund](https://www.meetup.com/rust-dortmund)
     * [**Rust Dortmund Meetup - January 2026**](https://www.meetup.com/rust-dortmund/events/312485262/)
 * 2026-02-04 | Oxford, UK | [Oxford ACCU/Rust Meetup.](https://www.meetup.com/oxford-rust-meetup-group)
