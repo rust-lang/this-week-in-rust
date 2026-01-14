@@ -47,7 +47,7 @@ and just ask the editors to select the category.
 * [🦀 Rust Wrapped 2025](https://weeklyrust.substack.com/p/rust-wrapped-2025)
 
 ### Project/Tooling Updates
-
+* [SeaORM 2.0 Migration Guide](https://www.sea-ql.org/blog/2026-01-12-sea-orm-2.0/)
 * [Exponential growth continued — cargo-semver-checks 2025 Year in Review](https://predr.ag/blog/cargo-semver-checks-2025-year-in-review/)
 * [BugStalker v0.4.0 - Modern debugger for Linux x86-64. Written in Rust for Rust programs.](https://godzie44.github.io/BugStalker/docs/blog/release_0_4) now with VSCode support.
 * [Announcing cadd: a library for painless checked arithmetic and conversions](https://users.rust-lang.org/t/announcing-cadd-a-library-for-painless-checked-arithmetic-and-conversions/137423)
