@@ -39,15 +39,39 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [What is maintenance, anyway?](https://blog.rust-lang.org/inside-rust/2026/01/12/what-is-maintenance-anyway/)
+
 ### Foundation
 
 ### Newsletters
 
+* [🦀 Rust Wrapped 2025](https://weeklyrust.substack.com/p/rust-wrapped-2025)
+
 ### Project/Tooling Updates
+
+* [This Week in Slatron v1.1: The intelligent TV station manager introduces AI DJ hosts w/ TTS support for DIY hackable TV stations, radio, and digital signage. ](https://justinwoodring.com/blog/this-week-in-slatron-v1-1/)
+* [SeaORM 2.0 Migration Guide](https://www.sea-ql.org/blog/2026-01-12-sea-orm-2.0/)
+* [Exponential growth continued — cargo-semver-checks 2025 Year in Review](https://predr.ag/blog/cargo-semver-checks-2025-year-in-review/)
+* [BugStalker v0.4.0 - Modern debugger for Linux x86-64. Written in Rust for Rust programs.](https://godzie44.github.io/BugStalker/docs/blog/release_0_4/) now with VSCode support.
+* [Announcing cadd: a library for painless checked arithmetic and conversions](https://users.rust-lang.org/t/announcing-cadd-a-library-for-painless-checked-arithmetic-and-conversions/137423)
+* [READ_ONCE(), WRITE_ONCE(), but not for Rust](https://lwn.net/SubscriberLink/1053142/8ec93e58d5d3cc06/)
+* [GuardianDB 0.14.0 - High-performance, local-first decentralized database built on Rust and Iroh](https://www.willsearch.com.br/guardiandb/)
+* [A year of work on the ALPM project](https://devblog.archlinux.page/2026/a-year-of-work-on-the-alpm-project/)
+* [GlueSQL v0.19 adds parameter binding and customizable query planners](https://github.com/gluesql/gluesql/releases/tag/v0.19.0)
+* [diesel-guard: Your Diesel Migrations Might Be Ticking Time Bombs](https://dev.to/ayarotsky/your-diesel-migrations-might-be-ticking-time-bombs-30g7).
 
 ### Observations/Thoughts
 
+* [Garbage collection is contrarian](https://trynova.dev/blog/garbage-collection-is-contrarian)
+* [Virtual Places and Borrow Checker Integration](https://bennolossin.github.io/blog/field-projections/virtual-places-and-borrowck.html)
+* [video] [Fast and Safe Image Decoding in Rust](https://www.youtube.com/watch?v=8ANzF7UwbZM)
+* [video] [ere: Compiling Regular Expressions at Build-Time](https://www.youtube.com/watch?v=3SFx-emI5r4)
+
 ### Rust Walkthroughs
+
+* [series] [Part 3: Model Architecture, Building an LLM from Scratch in Rust](https://www.tag1.com/how-to/part3-model-architecture-building-an-llm-from-scratch/)
+* [The Impatient Programmer’s Guide to Bevy and Rust: Chapter 5 - Let There Be Pickups](https://aibodh.com/posts/bevy-rust-game-development-chapter-5/)
+* [audio] [Netstack.FM episode 22 — Rust URL with Simon Sapin](https://netstack.fm/#episode-22)
 
 ### Research
 
@@ -123,6 +147,15 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 * [Diesel - diesel print-schema produces uncompileable schema with column named "table"](https://github.com/diesel-rs/diesel/issues/4928)
+* [GuardianDB - Create Benchmarks](https://github.com/wmaslonek/guardian-db/issues/7)
+* [GuardianDB - Create cohesive usage examples](https://github.com/wmaslonek/guardian-db/issues/5)
+* [GuardianDB - Translate documentation to English](https://github.com/wmaslonek/guardian-db/issues/3)
+* [rung - Add shell completions for bash/zsh/fish](https://github.com/auswm85/rung/issues/18)
+* [rung - Add --quiet flag to suppress non-essential output](https://github.com/auswm85/rung/issues/19)
+* [rung - Support NO_COLOR environment variable](https://github.com/auswm85/rung/issues/20)
+* [rung - Add rung top / rung bottom navigation commands](https://github.com/auswm85/rung/issues/21)
+* [rung - Add rung log command to show stack commits](https://github.com/auswm85/rung/issues/22)
+* [rung - Add integration test for sync with merge conflicts](https://github.com/auswm85/rung/issues/23)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
