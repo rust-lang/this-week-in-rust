@@ -146,6 +146,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
+* [Diesel - diesel print-schema produces uncompileable schema with column named "table"](https://github.com/diesel-rs/diesel/issues/4928)
 * [GuardianDB - Create Benchmarks](https://github.com/wmaslonek/guardian-db/issues/7)
 * [GuardianDB - Create cohesive usage examples](https://github.com/wmaslonek/guardian-db/issues/5)
 * [GuardianDB - Translate documentation to English](https://github.com/wmaslonek/guardian-db/issues/3)
