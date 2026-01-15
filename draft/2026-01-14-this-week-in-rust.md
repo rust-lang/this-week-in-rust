@@ -62,6 +62,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [The State of Rust Cryptography in 2026](https://kerkour.com/rust-cryptography-ecosystem-2026)
 * [Garbage collection is contrarian](https://trynova.dev/blog/garbage-collection-is-contrarian)
 * [Virtual Places and Borrow Checker Integration](https://bennolossin.github.io/blog/field-projections/virtual-places-and-borrowck.html)
 * [video] [Fast and Safe Image Decoding in Rust](https://www.youtube.com/watch?v=8ANzF7UwbZM)
