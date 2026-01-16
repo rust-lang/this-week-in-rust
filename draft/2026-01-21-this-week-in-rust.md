@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [d-engine - A Lightweight Distributed Coordination Engine for Rust](https://dev.to/joshua_c/d-engine-a-lightweight-distributed-coordination-engine-for-rust-210j)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
