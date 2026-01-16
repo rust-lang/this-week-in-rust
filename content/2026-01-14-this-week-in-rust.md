@@ -75,8 +75,7 @@ and just ask the editors to select the category.
 * [audio] [Radar with Jeff Kao](https://corrode.dev/podcast/s05e08-radar/)
 
 ### Rust Walkthroughs
-[ES] [Command Pattern in Rust: When intent doesn't need to be an object](https://codigolinea.com/patron-command-en-rust/) 
-
+* [ES] [Command Pattern in Rust: When intent doesn't need to be an object](https://codigolinea.com/patron-command-en-rust/)
 * [series] [Part 3: Model Architecture, Building an LLM from Scratch in Rust](https://www.tag1.com/how-to/part3-model-architecture-building-an-llm-from-scratch/)
 * [The Impatient Programmer’s Guide to Bevy and Rust: Chapter 5 - Let There Be Pickups](https://aibodh.com/posts/bevy-rust-game-development-chapter-5/)
 * [audio] [Netstack.FM episode 22 — Rust URL with Simon Sapin](https://netstack.fm/#episode-22)
