@@ -45,6 +45,9 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+
+* [Burn 0.20.0 Release: Unifying CPU & GPU kernels with CubeCL](https://burn.dev/blog/release-0.20.0/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
