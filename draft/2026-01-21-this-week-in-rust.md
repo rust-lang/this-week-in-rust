@@ -1,6 +1,6 @@
-Title: This Week in Rust 634
-Number: 634
-Date: 2026-01-14
+Title: This Week in Rust 635
+Number: 635
+Date: 2026-01-21
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -199,7 +199,7 @@ Update CFT, FCP, MCP and RFC sections for TWiR-xxx
 
 ## Upcoming Events
 
-Rusty Events between 2026-01-14 - 2026-02-11 🦀
+Rusty Events between 2026-01-21 - 2026-02-18 🦀
 
 ### Virtual
 * 2026-01-07 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
@@ -215,13 +215,13 @@ Rusty Events between 2026-01-14 - 2026-02-11 🦀
 * 2026-01-13 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254791/)
 * 2026-01-13 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens)
-    * [**Live Open Source Rust project contribution**](https://www.meetup.com/code-mavens/events/312641560/)
+    * [**Rust code reading and open source contribution (UTC 16:00; English)**](https://www.meetup.com/code-mavens/events/312641560/)
 * 2026-01-15 | Hybrid (Seattle, WA, US) | [Seattle Rust User Group](https://www.meetup.com/join-srug)
     * [**Janurary, 2026 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/seattle-rust-user-group/events/311814876/)
 * 2026-01-15 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/305646023/)
 * 2026-01-18 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens)
-    * [**Live Open Source Rust project contribution**](https://www.meetup.com/code-mavens/events/312710291/)
+    * [**Rust code reading and open source contribution (UTC 16:00; English)**](https://www.meetup.com/code-mavens/events/312710291/)
 * 2026-01-20 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc)
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/312489197/)
 * 2026-01-21 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
@@ -267,7 +267,7 @@ Rusty Events between 2026-01-14 - 2026-02-11 🦀
 * 2026-01-21 | Cambridge, UK | [Cambridge Rust Meetup](https://www.meetup.com/cambridge-rust-meetup)
     * [**Monthly Rust Meetup**](https://www.meetup.com/cambridge-rust-meetup/events/312749221/)
 * 2026-01-26 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
-    * [**Rust Meetup #17**](https://rust-augsburg.github.io/meetup/Meetup_17.html)
+    * [**Rust Meetup #17**: Emily Coaca - Entwicklung des Kernels Update für TockOS](https://rust-augsburg.github.io/meetup/Meetup_17.html)
 * 2026-01-28 | Dortmund, DE | [Rust Dortmund](https://www.meetup.com/rust-dortmund)
     * [**Rust Dortmund Meetup - January 2026**](https://www.meetup.com/rust-dortmund/events/312485262/)
 * 2026-02-04 | Oxford, UK | [Oxford ACCU/Rust Meetup.](https://www.meetup.com/oxford-rust-meetup-group)
@@ -294,6 +294,8 @@ Rusty Events between 2026-01-14 - 2026-02-11 🦀
     * [**Boston Common Rust Lunch, Jan 17**](https://www.meetup.com/bostonrust/events/312483677/)
 * 2026-01-17 | Herndon, VA, US | [NoVaLUG](https://mobilizon.us/@novalug)
     * [**Monthly Meeting - Make Brian Lunduke Angry, Program in Rust**](https://mobilizon.us/events/140c5c7c-01f3-4aaa-b218-58289c6b4449)
+* 2026-01-20 | San Francisco, CA, US | [Svix](https://luma.com/calendar/cal-Cnmn4RR2n4fRUNZ)
+    * [**San Francisco Rust Meetup**](https://luma.com/1wle4wl0)
 * 2026-01-20 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group)
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/310403081/)
 * 2026-01-21 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx)
