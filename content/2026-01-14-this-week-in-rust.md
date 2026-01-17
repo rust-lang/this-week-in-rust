@@ -62,6 +62,7 @@ and just ask the editors to select the category.
 * [diesel-guard: Your Diesel Migrations Might Be Ticking Time Bombs](https://dev.to/ayarotsky/your-diesel-migrations-might-be-ticking-time-bombs-30g7).
 * [The Rapier physics engine 2025 review and 2026 goals](https://dimforge.com/blog/2026/01/09/the-year-2025-in-dimforge/)
 * [Tako v0.5.0 → v0.7.1-2: from "nice router" to "mini platform"](https://rust-dd.com/post/tako-v0-5-0-v0-7-1-2-from-nice-router-to-mini-platform)
+* [StarFetch](https://github.com/Linus-Shyu/StarFetch_Core): A high-performance, aesthetically pleasing system information tool written in Rust.
 
 ### Observations/Thoughts
 
