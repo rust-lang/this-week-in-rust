@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [celq v0.2.0: query JSON, YAML, and TOML from the command-line with CEL](https://github.com/IvanIsCoding/celq)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
