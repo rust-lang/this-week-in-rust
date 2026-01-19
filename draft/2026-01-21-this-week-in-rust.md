@@ -1,4 +1,4 @@
- Title: This Week in Rust 635
+Title: This Week in Rust 635
 Number: 635
 Date: 2026-01-21
 Category: This Week in Rust
