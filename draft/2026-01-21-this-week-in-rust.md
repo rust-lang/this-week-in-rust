@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+[AWS Lambda From Scratch](https://forgestream.idverse.com/blog/20260119-lambda-from-scratch/)
+
 ### Research
 
 ### Miscellaneous
