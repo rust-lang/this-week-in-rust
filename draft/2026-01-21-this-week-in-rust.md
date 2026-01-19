@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [skim v1.0.0: fuzzy-finder TUI now uses Ratatui](https://github.com/skim-rs/skim/releases/tag/v1.0.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
