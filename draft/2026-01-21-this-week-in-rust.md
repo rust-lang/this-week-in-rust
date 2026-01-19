@@ -1,4 +1,4 @@
-Title: This Week in Rust 635
+ Title: This Week in Rust 635
 Number: 635
 Date: 2026-01-21
 Category: This Week in Rust
@@ -141,7 +141,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Various changes in both direction, but not much has changed overall.
+
+Triage done by **@panstromek**.
+Revision range: [840245e9..3d087e60](https://perf.rust-lang.org/?start=840245e91b90f22adf9f26d0a0cd98c2416cdef3&end=3d087e6044bddc65723bf42c76fe4cc33a0076b0&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.6%  | [0.1%, 1.6%]    | 21    |
+| Regressions ❌ <br /> (secondary)  | 0.6%  | [0.0%, 2.6%]    | 113   |
+| Improvements ✅ <br /> (primary)   | -0.3% | [-2.1%, -0.2%]  | 37    |
+| Improvements ✅ <br /> (secondary) | -1.2% | [-29.6%, -0.1%] | 37    |
+| All ❌✅ (primary)                 | 0.0%  | [-2.1%, 1.6%]   | 58    |
+
+
+3 Regressions, 4 Improvements, 7 Mixed; 6 of them in rollups
+40 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/98f432f4bae9972f8f320bb0df52c80546cae724/triage/2026/2026-01-19.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
