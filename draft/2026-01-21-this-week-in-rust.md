@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [video] [Rust is not about memory safety](https://www.youtube.com/watch?v=ngTZN09poqk)
+
 ### Rust Walkthroughs
 
 ### Research
