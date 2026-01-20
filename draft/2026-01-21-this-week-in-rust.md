@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [diesel-guard](https://github.com/ayarotsky/diesel-guard/releases/tag/v0.5.0) `v0.5.0` adds SQLx support and 6 new checks, bringing the total to 24.
 
 ### Observations/Thoughts
 
