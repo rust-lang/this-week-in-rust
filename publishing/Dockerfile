@@ -1,4 +1,4 @@
-FROM python:3.9.25-slim
+FROM python:3.8.16-slim
 
 # Must run from base `twir` directory... justfile takes care of this.
 WORKDIR /usr/twir
@@ -23,6 +23,9 @@ RUN pip3 install -r requirements.txt
 RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
 RUN apt-get install -y nodejs
 RUN npm install -g sass juice
+
+RUN curl -L -o pagefind.tar.gz https://github.com/Pagefind/pagefind/releases/download/v1.4.0/pagefind_extended-v1.4.0-aarch64-unknown-linux-musl.tar.gz
+RUN tar -xvf pagefind.tar.gz
 
 # pelican setup
 COPY content content

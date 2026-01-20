@@ -6,4 +6,3 @@ Markdown==3.3.7
 markupsafe==2.0.1
 pelican==4.7.1
 pelican-webassets==2.0.0
-pagefind[extended]==1.4.0
