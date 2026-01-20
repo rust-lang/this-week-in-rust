@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [git-cliff 2.12.0 is released! (a highly customizable changelog generator)](https://git-cliff.org/blog/2.12.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
