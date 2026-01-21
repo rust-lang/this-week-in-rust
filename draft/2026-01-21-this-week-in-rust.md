@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [video] [Rust is not about memory safety](https://www.youtube.com/watch?v=ngTZN09poqk)
+
 ### Rust Walkthroughs
 
 [AWS Lambda From Scratch](https://forgestream.idverse.com/blog/20260119-lambda-from-scratch/)
