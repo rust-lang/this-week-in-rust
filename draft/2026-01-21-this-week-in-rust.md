@@ -57,6 +57,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Elegant and safe concurrency in Rust with async combinators](https://kerkour.com/rust-async-combinators-concurrency)
 [AWS Lambda From Scratch](https://forgestream.idverse.com/blog/20260119-lambda-from-scratch/)
 
 ### Research
