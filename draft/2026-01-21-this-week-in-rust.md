@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [throttled-tracing](https://crates.io/crates/throttled-tracing), a crate of periodic and throttled logging macros.
+
+Thanks to [Paperinik](https://users.rust-lang.org/t/crate-of-the-week/2704/1522) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -137,7 +139,54 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+464 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-01-13..2026-01-20
+
+#### Compiler
+* [`rustc_errors`: Add (heuristic) Syntax Highlighting for `rustc --explain`](https://github.com/rust-lang/rust/pull/150895)
+* [cache derive proc macro expansion with incremental query](https://github.com/rust-lang/rust/pull/145354)
+* [feat: support references in reflection type info](https://github.com/rust-lang/rust/pull/151222)
+
+#### Library
+* [make `Type::of` support unsized types](https://github.com/rust-lang/rust/pull/151019)
+
+#### Cargo
+* [`git`: avoid partial oid got zero padded](https://github.com/rust-lang/cargo/pull/16511)
+* [`lockfile`: switch to `resolver.lockfile-path` config](https://github.com/rust-lang/cargo/pull/16510)
+* [invalidate the whole build cache when `-Zno-embed-metadata` changes](https://github.com/rust-lang/cargo/pull/16513)
+* [moved build-script bins to `deps` directory](https://github.com/rust-lang/cargo/pull/16515)
+* [optimize `cargo locate-project --workspace`](https://github.com/rust-lang/cargo/pull/16423)
+* [store artifact deps in build unit dir](https://github.com/rust-lang/cargo/pull/16519)
+
+#### Rustdoc
+* [fix intra-doc link bugs involving type aliases and associated items](https://github.com/rust-lang/rust/pull/150586)
+* [stop unconditionally evaluating the initializer of associated consts](https://github.com/rust-lang/rust/pull/151232)
+
+#### Clippy
+* [`double_comparisons`: check for expressions such as `x != y && x >= y`](https://github.com/rust-lang/rust-clippy/pull/16033)
+* [`collapsible_span_lint_calls`: use `snippet_with_context` for spans that are likely to contain macro expns](https://github.com/rust-lang/rust-clippy/pull/15881)
+* [`unnecessary_sort_by`: reduce suggestion diffs](https://github.com/rust-lang/rust-clippy/pull/16417)
+* [add `manual_checked_ops` lint](https://github.com/rust-lang/rust-clippy/pull/16149)
+* [add `manual_take` lint](https://github.com/rust-lang/rust-clippy/pull/16368)
+* [do not consider binary operators as commutative by default](https://github.com/rust-lang/rust-clippy/pull/16420)
+* [do not output an error if standard output is full on --help/--version](https://github.com/rust-lang/rust-clippy/pull/16412)
+* [fix `unnecessary_sort_by` false negative on field access](https://github.com/rust-lang/rust-clippy/pull/16406)
+* [post `needless_continue` diagnostic on the right node](https://github.com/rust-lang/rust-clippy/pull/16265)
+* [skip `elidable_lifetime_names` lint for proc-macro generated code](https://github.com/rust-lang/rust-clippy/pull/16402)
+* [suggest `Cstr::count_bytes` in `strlen_on_c_strings`](https://github.com/rust-lang/rust-clippy/pull/16323)
+
+#### Rust-Analyzer
+* [trigger flycheck if non-workspace files get modified](https://github.com/rust-lang/rust-analyzer/pull/21483)
+* [fix false positive precedence in `(2 as i32) < 3`](https://github.com/rust-lang/rust-analyzer/pull/21465)
+* [do not show sysroot dependencies in symbol search](https://github.com/rust-lang/rust-analyzer/pull/21484)
+* [don't produce redundant block in `move_guard`](https://github.com/rust-lang/rust-analyzer/pull/21485)
+* [ensure correct capturing of async fn params even when they use weird patterns](https://github.com/rust-lang/rust-analyzer/pull/21492)
+* [fix path symbol search not respecting re-exports](https://github.com/rust-lang/rust-analyzer/pull/21464)
+* [insert type vars and normalize for the type of a used `static`](https://github.com/rust-lang/rust-analyzer/pull/21491)
+* [lookup flycheck by ID instead of vector index](https://github.com/rust-lang/rust-analyzer/pull/21475)
+* [migrate `unwrap_block` assist to use SyntaxEditor](https://github.com/rust-lang/rust-analyzer/pull/21458)
+* [remove postcard from legacy](https://github.com/rust-lang/rust-analyzer/pull/21466)
 
 ### Rust Compiler Performance Triage
 
@@ -328,7 +377,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> I might suspect that if you are lumping all statically-typed languages into a single bucket without making particular distinction among them, then you might not have fully internalized the implications of union (aka Rust enum aka sum) typed data structures combined with exhaustive pattern matching.
+>
+> I like to call it getting "union-pilled" and it's really hard to accept otherwise statically-typed languages once you become familiar.
+
+– [arwhatever on hacker news](https://news.ycombinator.com/item?id=45043148)
+
+Thanks to [Colin Bennett](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1748) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
