@@ -57,7 +57,9 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
-[AWS Lambda From Scratch](https://forgestream.idverse.com/blog/20260119-lambda-from-scratch/)
+* [AWS Lambda From Scratch](https://forgestream.idverse.com/blog/20260119-lambda-from-scratch/)
+* [Using Oracle db26ai from Rust with the oracle crate - Queries](https://jorgeortiz.dev/posts/rust_use_oracle_db26ai_with_oracle_crate_1/)
+* [Using Oracle db26ai from Rust with the sibyl crate - Queries](https://jorgeortiz.dev/posts/rust_use_oracle_db26ai_with_sibyl_crate_1/)
 
 ### Research
 
