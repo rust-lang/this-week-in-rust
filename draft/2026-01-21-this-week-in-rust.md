@@ -268,6 +268,8 @@ Rusty Events between 2026-01-21 - 2026-02-18 🦀
     * [**Rust Bergen #4 @ Zrch**](https://www.meetup.com/de-de/bergen-rust-new-technology/events/312851079)
 * 2026-01-28 | Dortmund, DE | [Rust Dortmund](https://www.meetup.com/rust-dortmund)
     * [**Rust Dortmund Meetup - January 2026**](https://www.meetup.com/rust-dortmund/events/312485262/)
+* 2026-01-28 | Toulouse, FR | [Rust Toulouse](https://www.meetup.com/rust-community-toulouse)
+    * [**Rust Toulouse Meetup - WASM & Elegant CLI**](https://www.meetup.com/rust-community-toulouse/events/312782796/)
 * 2026-02-14 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
     * [**Rust Girona Hack & Learn 02 2026**](https://luma.com/e0uay6q5)
 * 2026-02-04 | Oxford, UK | [Oxford ACCU/Rust Meetup.](https://www.meetup.com/oxford-rust-meetup-group)
