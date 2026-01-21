@@ -38,16 +38,23 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [What does it take to ship Rust in safety-critical?](https://blog.rust-lang.org/2026/01/14/what-does-it-take-to-ship-rust-in-safety-critical/)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Creusot 0.9.0](https://creusot-rs.github.io/devlog/2026-01-19/)
 
 ### Observations/Thoughts
+* [Stop Allocating Per Label: A Data‑Driven Rust SymbolTable for OTLP/TSDB](https://baarse.substack.com/p/stop-allocating-per-label-a-datadriven)
+* [Profile a Parser Implementation in Rust](https://blog.wybxc.cc/blog/profile-cgrammar/)
+* [Rust's Culture of Semantic Precision](https://www.alilleybrinker.com/mini/rusts-culture-of-semantic-precision/)
 
 ### Rust Walkthroughs
+* [Structuring a Gtk4 Rust App](https://w-graj.net/posts/rust-gtk4-mvpvm/)
+* [Rust's standard library on the GPU](https://www.vectorware.com/blog/rust-std-on-gpu/)
 
 ### Research
 
