@@ -254,6 +254,8 @@ Rusty Events between 2026-01-21 - 2026-02-18 🦀
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/e2ea7hxo)
 * 2026-01-21 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
     * [**Stack Safety**](https://www.meetup.com/vancouver-rust/events/310619449/)
+* 2026-01-26 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens)
+    * [**Rust code reading and open source contribution (UTC 18:00; English)**](https://www.meetup.com/code-mavens/events/312782592/)
 * 2026-01-27 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/310254790/)
 * 2026-01-28 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
