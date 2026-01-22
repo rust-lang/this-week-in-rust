@@ -285,6 +285,8 @@ Rusty Events between 2026-01-21 - 2026-02-18 🦀
     * [**Rust Meetup Prague (January 2026)**](https://www.meetup.com/rust-prague/events/312895761/)
 * 2026-01-28 | Toulouse, FR | [Rust Toulouse](https://www.meetup.com/rust-community-toulouse)
     * [**Rust Toulouse Meetup - WASM & Elegant CLI**](https://www.meetup.com/rust-community-toulouse/events/312782796/)
+* 2026-01-29 | Ostrava, CZ | [MeetUpdate Ostrava](https://www.meetup.com/meetupdate-ostrava)
+    * [**MeetUpdate Ostrava #28: Rust**](https://www.meetup.com/meetupdate-ostrava/events/312747904/)
 * 2026-01-31 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/stockholm-rust)
     * [**Ferris' Fika Forum #23**](https://www.meetup.com/stockholm-rust/events/312919934/)
 * 2026-02-04 | Darmstadt, HE, DE | [Rust Rhein-Main](https://www.meetup.com/rust-rhein-main)
