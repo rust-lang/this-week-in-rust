@@ -260,6 +260,8 @@ Rusty Events between 2026-01-21 - 2026-02-18 🦀
     * [**Lunch & learn: Error Handling in Rust**](https://www.meetup.com/women-in-rust/events/312799344/)
 * 2026-01-28 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/9h9n0dau)
+* 2026-01-28 | Virtual (Lima-Perú, PE) | [Rust Perú](https://rust.pe)
+    * [**Meetup: Rust from Hardware to Web (Embedded + Backend from Scratch)**](https://calendar.app.google/jc9DziLWVTUn1qNVA)    
 * 2026-01-29 | Virtual (Amsterdam, NL) | [Bevy Game Development](https://www.meetup.com/bevy-game-development)
     * [**Bevy Meetup #12**](https://www.meetup.com/bevy-game-development/events/312681343/)
 * 2026-01-29 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
