@@ -301,6 +301,8 @@ Rusty Events between 2026-01-21 - 2026-02-18 🦀
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/312954164/)
 * 2026-02-14 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
     * [**Rust Girona Hack & Learn 02 2026**](https://luma.com/e0uay6q5)
+* 2026-02-18 - 2026-02-19 | London, UK | [Rust Nation UK](https://www.rustnationuk.com/)
+    * [**Rust Nation UK 2026**](https://www.rustnationuk.com/)
 
 ### North America
 * 2026-01-21 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx)
