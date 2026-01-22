@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 * [The Embedded Rustacean Issue #63](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-63)
 
 ### Project/Tooling Updates
+* [diesel-guard v0.5.0 released](https://github.com/ayarotsky/diesel-guard/releases/tag/v0.5.0)
 
 * [d-engine - A Lightweight Distributed Coordination Engine for Rust](https://dev.to/joshua_c/d-engine-a-lightweight-distributed-coordination-engine-for-rust-210j)
 * [govctl: Opinionated CLI tool to enforce RFC-driven AI coding](https://dev.to/lucifer1004/govctl-opinionated-cli-tool-to-enforce-rfc-driven-ai-coding-2ngi)
