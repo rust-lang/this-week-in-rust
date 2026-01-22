@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [What does it take to ship Rust in safety-critical?](https://blog.rust-lang.org/2026/01/14/what-does-it-take-to-ship-rust-in-safety-critical/)
 
 ### Foundation
 
@@ -46,9 +47,8 @@ and just ask the editors to select the category.
 * [Scientific Computing in Rust #14 (January 2026)](https://scientificcomputing.rs/monthly/2026-01)
 
 ### Project/Tooling Updates
+* [Creusot 0.9.0](https://creusot-rs.github.io/devlog/2026-01-19/)
 * [diesel-guard v0.5.0 released](https://github.com/ayarotsky/diesel-guard/releases/tag/v0.5.0)
-
-
 * [skim v1.0.0: fuzzy-finder TUI now uses Ratatui](https://github.com/skim-rs/skim/releases/tag/v1.0.0)
 * [d-engine - A Lightweight Distributed Coordination Engine for Rust](https://dev.to/joshua_c/d-engine-a-lightweight-distributed-coordination-engine-for-rust-210j)
 * [govctl: Opinionated CLI tool to enforce RFC-driven AI coding](https://dev.to/lucifer1004/govctl-opinionated-cli-tool-to-enforce-rfc-driven-ai-coding-2ngi)
@@ -56,13 +56,15 @@ and just ask the editors to select the category.
 * [git-cliff 2.12.0 is released! (a highly customizable changelog generator)](https://git-cliff.org/blog/2.12.0)
 * [Cot v0.5 Released: New Features for Lazy Web Developers](https://mackow.ski/blog/cot-v05-new-features-for-lazy-web-developers/)
 
-
 ### Observations/Thoughts
-
+* [Stop Allocating Per Label: A Data‑Driven Rust SymbolTable for OTLP/TSDB](https://baarse.substack.com/p/stop-allocating-per-label-a-datadriven)
+* [Profile a Parser Implementation in Rust](https://blog.wybxc.cc/blog/profile-cgrammar/)
+* [Rust's Culture of Semantic Precision](https://www.alilleybrinker.com/mini/rusts-culture-of-semantic-precision/)
 * [video] [Rust is not about memory safety](https://www.youtube.com/watch?v=ngTZN09poqk)
 
 ### Rust Walkthroughs
-
+* [Structuring a Gtk4 Rust App](https://w-graj.net/posts/rust-gtk4-mvpvm/)
+* [Rust's standard library on the GPU](https://www.vectorware.com/blog/rust-std-on-gpu/)
 * [Elegant and safe concurrency in Rust with async combinators](https://kerkour.com/rust-async-combinators-concurrency)
 * [AWS Lambda From Scratch](https://forgestream.idverse.com/blog/20260119-lambda-from-scratch/)
 * [Using Oracle db26ai from Rust with the oracle crate - Queries](https://jorgeortiz.dev/posts/rust_use_oracle_db26ai_with_oracle_crate_1/)
