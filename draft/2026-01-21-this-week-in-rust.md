@@ -304,6 +304,8 @@ Rusty Events between 2026-01-21 - 2026-02-18 🦀
 * 2026-02-11 | Reading, UK | [Reading Rust Workshop](https://www.meetup.com/reading-rust-workshop)
     * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/312954164/)
 * 2026-02-12 | Geneva, CH | [Post Tenebras Lab](https://www.posttenebraslab.ch)
+    * [**Reading Rust Meetup**](https://www.meetup.com/reading-rust-workshop/events/312954164/)
+* 2026-02-12 | Geneva, CH | [Post Tenebras Lab](https://www.posttenebraslab.ch)
     * [**Rust Meetup Geneva**](https://www.posttenebraslab.ch/wiki/events/monthly_meeting/rust_meetup)
 * 2026-02-14 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
     * [**Rust Girona Hack & Learn 02 2026**](https://luma.com/e0uay6q5)
