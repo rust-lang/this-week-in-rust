@@ -40,8 +40,6 @@ and just ask the editors to select the category.
 ### Official
 * [What does it take to ship Rust in safety-critical?](https://blog.rust-lang.org/2026/01/14/what-does-it-take-to-ship-rust-in-safety-critical/)
 
-### Foundation
-
 ### Newsletters
 * [The Embedded Rustacean Issue #63](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-63)
 * [Scientific Computing in Rust #14 (January 2026)](https://scientificcomputing.rs/monthly/2026-01)
@@ -69,8 +67,6 @@ and just ask the editors to select the category.
 * [AWS Lambda From Scratch](https://forgestream.idverse.com/blog/20260119-lambda-from-scratch/)
 * [Using Oracle db26ai from Rust with the oracle crate - Queries](https://jorgeortiz.dev/posts/rust_use_oracle_db26ai_with_oracle_crate_1/)
 * [Using Oracle db26ai from Rust with the sibyl crate - Queries](https://jorgeortiz.dev/posts/rust_use_oracle_db26ai_with_sibyl_crate_1/)
-
-### Research
 
 ### Miscellaneous
 * [December '25 Rust Jobs Report](https://filtra.io/rust/jobs-report/dec-25)
@@ -386,7 +382,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1plbecs/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
