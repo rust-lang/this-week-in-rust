@@ -131,7 +131,7 @@ which are reaching a decision. Express your opinions now.
 * [Tracking Issue for AArch64 FEAT_JSCVT](https://github.com/rust-lang/rust/issues/147555)
 * [thread::scope: document how join interacts with TLS destructors](https://github.com/rust-lang/rust/pull/149482)A
 * [Don't try to evaluate const blocks during constant promotion](https://github.com/rust-lang/rust/pull/150557)
-* [implement PartialEq<Vec\<U\>> for [T; N] and &[T; N]](https://github.com/rust-lang/rust/pull/149045)
+* [implement PartialEq\<Vec\<U\>\> for [T; N] and &[T; N]](https://github.com/rust-lang/rust/pull/149045)
 
 ##### [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 * [docs(report): enhance man pages for `cargo report *`](https://github.com/rust-lang/cargo/pull/16430)
