@@ -272,6 +272,8 @@ Rusty Events between 2026-01-21 - 2026-02-18 🦀
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/312187422/)
 * 2026-02-07 | Virtual (Kampala, UG) | [Rust Circle Meetup](https://www.eventbrite.com/o/rust-circle-kampala-65249289033)
     * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587)
+* 2026-02-09 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens)
+    * [**Rust code reading and open source contribution (UTC 18:00; English)**](https://www.meetup.com/code-mavens/events/312985189/)
 * 2026-02-10 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254789/)
 * 2026-02-10 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
