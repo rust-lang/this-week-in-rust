@@ -43,13 +43,16 @@ and just ask the editors to select the category.
 
 ### Newsletters
 * [The Embedded Rustacean Issue #63](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-63)
+* [Scientific Computing in Rust #14 (January 2026)](https://scientificcomputing.rs/monthly/2026-01)
 
 ### Project/Tooling Updates
+* [diesel-guard v0.5.0 released](https://github.com/ayarotsky/diesel-guard/releases/tag/v0.5.0)
 
 * [d-engine - A Lightweight Distributed Coordination Engine for Rust](https://dev.to/joshua_c/d-engine-a-lightweight-distributed-coordination-engine-for-rust-210j)
 * [govctl: Opinionated CLI tool to enforce RFC-driven AI coding](https://dev.to/lucifer1004/govctl-opinionated-cli-tool-to-enforce-rfc-driven-ai-coding-2ngi)
 * [Burn 0.20.0 Release: Unifying CPU & GPU kernels with CubeCL](https://burn.dev/blog/release-0.20.0/)
 * [git-cliff 2.12.0 is released! (a highly customizable changelog generator)](https://git-cliff.org/blog/2.12.0)
+* [Cot v0.5 Released: New Features for Lazy Web Developers](https://mackow.ski/blog/cot-v05-new-features-for-lazy-web-developers/)
 
 ### Observations/Thoughts
 
@@ -58,7 +61,9 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 * [Elegant and safe concurrency in Rust with async combinators](https://kerkour.com/rust-async-combinators-concurrency)
-[AWS Lambda From Scratch](https://forgestream.idverse.com/blog/20260119-lambda-from-scratch/)
+* [AWS Lambda From Scratch](https://forgestream.idverse.com/blog/20260119-lambda-from-scratch/)
+* [Using Oracle db26ai from Rust with the oracle crate - Queries](https://jorgeortiz.dev/posts/rust_use_oracle_db26ai_with_oracle_crate_1/)
+* [Using Oracle db26ai from Rust with the sibyl crate - Queries](https://jorgeortiz.dev/posts/rust_use_oracle_db26ai_with_sibyl_crate_1/)
 
 ### Research
 
