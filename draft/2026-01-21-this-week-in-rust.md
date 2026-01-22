@@ -48,11 +48,14 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [diesel-guard v0.5.0 released](https://github.com/ayarotsky/diesel-guard/releases/tag/v0.5.0)
 
+
+* [skim v1.0.0: fuzzy-finder TUI now uses Ratatui](https://github.com/skim-rs/skim/releases/tag/v1.0.0)
 * [d-engine - A Lightweight Distributed Coordination Engine for Rust](https://dev.to/joshua_c/d-engine-a-lightweight-distributed-coordination-engine-for-rust-210j)
 * [govctl: Opinionated CLI tool to enforce RFC-driven AI coding](https://dev.to/lucifer1004/govctl-opinionated-cli-tool-to-enforce-rfc-driven-ai-coding-2ngi)
 * [Burn 0.20.0 Release: Unifying CPU & GPU kernels with CubeCL](https://burn.dev/blog/release-0.20.0/)
 * [git-cliff 2.12.0 is released! (a highly customizable changelog generator)](https://git-cliff.org/blog/2.12.0)
 * [Cot v0.5 Released: New Features for Lazy Web Developers](https://mackow.ski/blog/cot-v05-new-features-for-lazy-web-developers/)
+
 
 ### Observations/Thoughts
 
