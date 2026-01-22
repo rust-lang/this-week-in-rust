@@ -190,7 +190,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 #### Clippy
 * [A `return` in an iterator closure should not trigger `never_loop`](https://github.com/rust-lang/rust-clippy/pull/16364)
-* [`strlen_on_c_strings`: mention the specific type (`CString or `CStr`)`](https://github.com/rust-lang/rust-clippy/pull/16391)
+* [`strlen_on_c_strings`: mention the specific type (`CString` or `CStr`)](https://github.com/rust-lang/rust-clippy/pull/16391)
 * [`float_point_arithmetic`: respect reduced applicability](https://github.com/rust-lang/rust-clippy/pull/16366)
 * [`single_range_in_vec_init`: don't apply the suggestion automatically](https://github.com/rust-lang/rust-clippy/pull/16365)
 * [`unnecessary_map_or`: respect reduced applicability](https://github.com/rust-lang/rust-clippy/pull/16387)
