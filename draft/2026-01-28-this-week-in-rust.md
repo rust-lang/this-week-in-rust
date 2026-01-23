@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [sheen](https://github.com/arferreira/sheen) - A polished, colorful logging library inspired by charmbracelet/log, featuring structured logging, multiple formatters (Text, JSON, Logfmt), and TTY detection.
 
 ### Observations/Thoughts
 
