@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Rust's standard library on the GPU](https://www.vectorware.com/blog/rust-std-on-gpu/)
 
 ### Rust Walkthroughs
 
