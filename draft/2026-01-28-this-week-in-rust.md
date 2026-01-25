@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rapina](https://github.com/arferreira/rapina) - An opinionated Rust web framework inspired by FastAPI, featuring typed request extractors, built-in authentication patterns, structured errors with trace IDs, automatic OpenAPI generation, and CLI tooling for predictable, production-ready APIs.
 
 ### Observations/Thoughts
 
