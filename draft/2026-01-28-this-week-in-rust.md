@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [kylix-pqc: Pure Rust post-quantum cryptography library](https://crates.io/crates/kylix-pqc) - NIST FIPS 203/204/205 compliant implementation (ML-KEM, ML-DSA, SLH-DSA) with no_std support and SIMD optimizations.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
