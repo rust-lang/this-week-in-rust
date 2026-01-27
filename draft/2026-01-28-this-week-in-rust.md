@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [video] [AI should write rust and only rust ;)]([https://example.com/my_video_article](https://www.youtube.com/watch?v=2lhr-QDWv-k))
+ 
 ### Rust Walkthroughs
 
 ### Research
