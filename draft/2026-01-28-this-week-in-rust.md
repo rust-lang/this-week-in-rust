@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Nio v0.1.0: Embracing Thread-Per-Core Architecture](https://nurmohammed840.github.io/posts/embracing-thread-per-core-architecture/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
