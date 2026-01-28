@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Narwhal](https://github.com/narwhal-io/narwhal) - A highly customizable, lightweight Pub/Sub server designed for edge applications.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
