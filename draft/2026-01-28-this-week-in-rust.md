@@ -62,6 +62,8 @@ and just ask the editors to select the category.
 * [Using Oracle db26ai from Rust with the oracle crate (2)](https://jorgeortiz.dev/posts/rust_use_oracle_db26ai_with_oracle_crate_2/)
 * [Using Oracle db26ai from Rust with the sibyl crate (2)](https://jorgeortiz.dev/posts/rust_use_oracle_db26ai_with_sibyl_crate_2/)
 
+* [series] [The Impatient Programmer's Guide to Bevy and Rust: Chapter 6 - Let There Be Particles](https://aibodh.com/posts/bevy-rust-game-development-chapter-6/)
+
 ### Research
 
 ### Miscellaneous
