@@ -68,6 +68,8 @@ and just ask the editors to select the category.
 
 * [series] [The Impatient Programmer's Guide to Bevy and Rust: Chapter 6 - Let There Be Particles](https://aibodh.com/posts/bevy-rust-game-development-chapter-6/)
 
+* [The Hidden Bottleneck: Blocking in Async Rust](https://cong-or.xyz/blocking-async-rust.html)
+
 ### Research
 
 ### Miscellaneous
