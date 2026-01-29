@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [cai 0.13: User friendly CLI tool for AI tasks](https://github.com/ad-si/cai/releases/tag/v0.13.0)
 
+* [Nio v0.1.0: Embracing Thread-Per-Core Architecture](https://nurmohammed840.github.io/posts/embracing-thread-per-core-architecture/)
+
 ### Observations/Thoughts
 * [Deep dive into Turso, the "SQLite rewrite in Rust"](https://kerkour.com/turso-sqlite)
 
