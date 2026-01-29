@@ -58,6 +58,7 @@ and just ask the editors to select the category.
 * [video] [AI should write rust and only rust ;)](https://www.youtube.com/watch?v=2lhr-QDWv-k)
  
 ### Rust Walkthroughs
+* [series] [Part 4: Training Infrastructure, Building an LLM from Scratch in Rust](https://www.tag1.com/how-to/part4-training-infrastructure-building-an-llm-from-scratch/)
 * [Using Oracle db26ai from Rust with the oracle crate (2)](https://jorgeortiz.dev/posts/rust_use_oracle_db26ai_with_oracle_crate_2/)
 * [Using Oracle db26ai from Rust with the sibyl crate (2)](https://jorgeortiz.dev/posts/rust_use_oracle_db26ai_with_sibyl_crate_2/)
 
