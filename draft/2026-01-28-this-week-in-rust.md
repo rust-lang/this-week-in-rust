@@ -48,6 +48,10 @@ and just ask the editors to select the category.
 
 * [Nio v0.1.0: Embracing Thread-Per-Core Architecture](https://nurmohammed840.github.io/posts/embracing-thread-per-core-architecture/)
 
+* [r3bl_tui v0.7.7: modern async TUI lib — readline, md editor, flexbox, SSH-optimized rendering](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.7.7-tui)
+* [r3bl-cmdr v0.0.25: TUI productivity apps - giti (git helper) and edi (beautiful md editor)](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.0.25-cmdr)
+* [r3bl-build-infra v0.0.1: cargo-rustdoc-fmt — prettier md tables and ref-style links](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.0.1-build-infra)
+
 ### Observations/Thoughts
 * [Deep dive into Turso, the "SQLite rewrite in Rust"](https://kerkour.com/turso-sqlite)
 
