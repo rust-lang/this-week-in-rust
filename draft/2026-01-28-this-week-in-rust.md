@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Vetis: A very tiny, very fast HTTP server in Rust](https://dev.to/rogrio_arajo_55dae16f0d/vetis-a-very-tiny-very-fast-http-server-in-rust-1ldn)
 * [cai 0.13: User friendly CLI tool for AI tasks](https://github.com/ad-si/cai/releases/tag/v0.13.0)
 
 * [Nio v0.1.0: Embracing Thread-Per-Core Architecture](https://nurmohammed840.github.io/posts/embracing-thread-per-core-architecture/)
@@ -62,6 +63,8 @@ and just ask the editors to select the category.
 * [video] [AI should write rust and only rust ;)](https://www.youtube.com/watch?v=2lhr-QDWv-k)
  
 ### Rust Walkthroughs
+* [The complete guide to publishing your first Rust crate to crates.io](https://dev.to/ajitkumar/the-complete-guide-to-publishing-your-first-rust-crate-to-cratesio-14pg)
+
 * [series] [Part 4: Training Infrastructure, Building an LLM from Scratch in Rust](https://www.tag1.com/how-to/part4-training-infrastructure-building-an-llm-from-scratch/)
 * [Using Oracle db26ai from Rust with the oracle crate (2)](https://jorgeortiz.dev/posts/rust_use_oracle_db26ai_with_oracle_crate_2/)
 * [Using Oracle db26ai from Rust with the sibyl crate (2)](https://jorgeortiz.dev/posts/rust_use_oracle_db26ai_with_sibyl_crate_2/)
