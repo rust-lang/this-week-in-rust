@@ -81,7 +81,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [dynamodb-crud](https://github.com/dariocurr/dynamodb-crud), a type-safe API for working with DynamoDB tables.
+
+Thanks to [dario curreri](https://users.rust-lang.org/t/crate-of-the-week/2704/1524) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -136,7 +138,62 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+479 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-01-20..2026-01-27
+
+#### Compiler
+* [`const` blocks as a `mod` item](https://github.com/rust-lang/rust/pull/149174)
+* [improve error message for `assert!()` macro in functions returning bool](https://github.com/rust-lang/rust/pull/151457)
+* [inline constant localized typeck constraint computation](https://github.com/rust-lang/rust/pull/149639)
+
+#### Library
+* [`ptr_aligment_type`: add more APIs](https://github.com/rust-lang/rust/pull/148764)
+* [add `simd_splat` intrinsic](https://github.com/rust-lang/rust/pull/151346)
+* [avoid pulling in unicode when calling `io::Error::kind`](https://github.com/rust-lang/rust/pull/151418)
+* [avoid tearing `dbg!` prints](https://github.com/rust-lang/rust/pull/149869)
+* [constify boolean methods](https://github.com/rust-lang/rust/pull/151489)
+* [ensure that the deadline has passed in `sleep_until`](https://github.com/rust-lang/rust/pull/151494)
+* [fix `is_ascii` performance regression on AVX-512 CPUs when compiling with -C target-cpu=native](https://github.com/rust-lang/rust/pull/151259)
+* [improve `is_ascii` performance on `x86_64` with explicit SSE2 intrinsics](https://github.com/rust-lang/rust/pull/151611)
+* [make `simd_insert_dyn` and `simd_extract_dyn` const](https://github.com/rust-lang/rust/pull/151453)
+* [optimize `vec.extend(slice.to_vec())`, take 2](https://github.com/rust-lang/rust/pull/151337)
+* [use `ByteStr`'s `Display` for `OsStr`](https://github.com/rust-lang/rust/pull/151010)
+
+#### Cargo
+* [add -Z json-target-spec](https://github.com/rust-lang/cargo/pull/16557)
+* [don't check the specific build-std output](https://github.com/rust-lang/cargo/pull/16551)
+* [fix build-std lto test to run on other platforms](https://github.com/rust-lang/cargo/pull/16550)
+* [fix: show `implicit_minimum_version_req` emitted source once per package](https://github.com/rust-lang/cargo/pull/16535)
+* [increase `cache_lock` test timeout](https://github.com/rust-lang/cargo/pull/16545)
+* [lint: Add `redundant_readme` lint](https://github.com/rust-lang/cargo/pull/16552)
+* [lints: Add `non_*_case_features`](https://github.com/rust-lang/cargo/pull/16560)
+* [lints: Add `non_kebab_case_bin` lint](https://github.com/rust-lang/cargo/pull/16524)
+* [lints: Add mutually exclusive `non_{kebab,snake}_case_packages`](https://github.com/rust-lang/cargo/pull/16554)
+* [lints: Pluralize `non_kebab_case_bins`](https://github.com/rust-lang/cargo/pull/16553)
+* [rm: Suggest table flags when none are specified](https://github.com/rust-lang/cargo/pull/16533)
+
+#### Rustdoc
+* [add "Skip to main content" link for keyboard navigation in rustdoc](https://github.com/rust-lang/rust/pull/151482)
+* [Make popover menus content scrollable on mobile devices](https://github.com/rust-lang/rust/pull/151216)
+
+#### Clippy
+* [also ignore cases with comments in `let_and_return`](https://github.com/rust-lang/rust-clippy/pull/16461)
+* [fix `manual_dangling_ptr` false positive when pointee type is not `Sized`](https://github.com/rust-lang/rust-clippy/pull/16469)
+* [fix `test_attr_in_doctest` false positive on `test_harness`](https://github.com/rust-lang/rust-clippy/pull/16454)
+* [make `manual_is_variant_and` to cover manual `is_none_or`](https://github.com/rust-lang/rust-clippy/pull/16424)
+* [`manual_let_else`: add trailing comma to `struct` patterns ending with `..`](https://github.com/rust-lang/rust-clippy/pull/16442)
+* [rhs of short-circuit expression doesn't always run](https://github.com/rust-lang/rust-clippy/pull/16463)
+
+#### Rust-Analyzer
+* [`hir-ty`: add method `references_only_ty_error` to detect type errors](https://github.com/rust-lang/rust-analyzer/pull/21497)
+* [add semicolon for `toggle_macro_delimiter`](https://github.com/rust-lang/rust-analyzer/pull/21522)
+* [correct ungrammar path in patch](https://github.com/rust-lang/rust-analyzer/pull/21523)
+* [`default_field_values`](https://github.com/rust-lang/rust-analyzer/pull/21408)
+* [do not mix the order of builtin/regular derives in "Expand macro recursively"](https://github.com/rust-lang/rust-analyzer/pull/21490)
+* [don't offer `apply_demorgan` on `if let`](https://github.com/rust-lang/rust-analyzer/pull/21499)
+* [fix not complete 'else' before tuple](https://github.com/rust-lang/rust-analyzer/pull/21495)
+* [fix incorrect continue for `convert_range_for_to_while`](https://github.com/rust-lang/rust-analyzer/pull/21514)
 
 ### Rust Compiler Performance Triage
 
@@ -367,7 +424,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Telling a programmer there's already a library to do X is like telling a songwriter there's already a song about love.
+
+– [Pete Cordell cited by @blonk on rust-users](https://users.rust-lang.org/t/i-am-looking-for-feedback-for-my-own-game-engine-which-have-written-in-rust/137509/4)
+
+Thanks to [Kill The Mule](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1752) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
