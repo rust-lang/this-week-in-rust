@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 
 * [Rust vs JavaScript & TypeScript: performance, WebAssembly, and developer experience](https://blog.jetbrains.com/rust/2026/01/27/rust-vs-javascript-typescript/)
 
+* [audio] [Netstack.FM episode 24 — WebAssembly and Rust in Practice, A Conversation with Alex Crichton](https://netstack.fm/#episode-24)
+
 ### Rust Walkthroughs
 * [Using Oracle db26ai from Rust with the oracle crate (2)](https://jorgeortiz.dev/posts/rust_use_oracle_db26ai_with_oracle_crate_2/)
 * [Using Oracle db26ai from Rust with the sibyl crate (2)](https://jorgeortiz.dev/posts/rust_use_oracle_db26ai_with_sibyl_crate_2/)
