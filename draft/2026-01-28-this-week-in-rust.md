@@ -70,8 +70,6 @@ and just ask the editors to select the category.
 * [Designing Error Types in Rust Applications](https://home.expurple.me/posts/designing-error-types-in-rust-applications/)
 * [series] [Part 4: Training Infrastructure, Building an LLM from Scratch in Rust](https://www.tag1.com/how-to/part4-training-infrastructure-building-an-llm-from-scratch/)
 * [Using Oracle db26ai from Rust with the oracle crate (2)](https://jorgeortiz.dev/posts/rust_use_oracle_db26ai_with_oracle_crate_2/)
-* [I packaged my Rust CLI to too many places, here's what I learned](https://ivaniscoding.github.io/posts/rustpackaging1/)
-* [Replacing Protobuf with Rust to go 5 times faster](https://pgdog.dev/blog/replace-protobuf-with-rust)
 * [series] [The Impatient Programmer's Guide to Bevy and Rust: Chapter 6 - Let There Be Particles](https://aibodh.com/posts/bevy-rust-game-development-chapter-6/)
 * [Building a 24MB Offline AI with Rust + Burn](https://snaetwarre.github.io/My-Portofolio/blog/intelligent-disease-detection.html)
 * [The Hidden Bottleneck: Blocking in Async Rust](https://cong-or.xyz/blocking-async-rust.html)
