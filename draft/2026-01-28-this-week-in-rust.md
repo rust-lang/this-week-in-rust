@@ -66,6 +66,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [I packaged my Rust CLI to too many places, here's what I learned](https://ivaniscoding.github.io/posts/rustpackaging1/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
