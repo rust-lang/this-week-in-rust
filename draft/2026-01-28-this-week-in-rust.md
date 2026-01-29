@@ -44,11 +44,23 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [cai 0.13: User friendly CLI tool for AI tasks](https://github.com/ad-si/cai/releases/tag/v0.13.0)
+
+* [Nio v0.1.0: Embracing Thread-Per-Core Architecture](https://nurmohammed840.github.io/posts/embracing-thread-per-core-architecture/)
 
 ### Observations/Thoughts
+* [Deep dive into Turso, the "SQLite rewrite in Rust"](https://kerkour.com/turso-sqlite)
 
+* [Rust vs JavaScript & TypeScript: performance, WebAssembly, and developer experience](https://blog.jetbrains.com/rust/2026/01/27/rust-vs-javascript-typescript/)
+
+* [audio] [Netstack.FM episode 24 — WebAssembly and Rust in Practice, A Conversation with Alex Crichton](https://netstack.fm/#episode-24)
+
+* [video] [AI should write rust and only rust ;)](https://www.youtube.com/watch?v=2lhr-QDWv-k)
+ 
 ### Rust Walkthroughs
 * [series] [Part 4: Training Infrastructure, Building an LLM from Scratch in Rust](https://www.tag1.com/how-to/part4-training-infrastructure-building-an-llm-from-scratch/)
+* [Using Oracle db26ai from Rust with the oracle crate (2)](https://jorgeortiz.dev/posts/rust_use_oracle_db26ai_with_oracle_crate_2/)
+* [Using Oracle db26ai from Rust with the sibyl crate (2)](https://jorgeortiz.dev/posts/rust_use_oracle_db26ai_with_sibyl_crate_2/)
 
 ### Research
 
@@ -122,6 +134,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+
+* [Diesel - Port diesel-cli argument parsing from clap builders to clap derives](https://github.com/diesel-rs/diesel/issues/4955)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
