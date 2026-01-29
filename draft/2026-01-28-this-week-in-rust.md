@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 * [Deep dive into Turso, the "SQLite rewrite in Rust"](https://kerkour.com/turso-sqlite)
 
+* [Rust vs JavaScript & TypeScript: performance, WebAssembly, and developer experience](https://blog.jetbrains.com/rust/2026/01/27/rust-vs-javascript-typescript/)
+
 ### Rust Walkthroughs
 * [Using Oracle db26ai from Rust with the oracle crate (2)](https://jorgeortiz.dev/posts/rust_use_oracle_db26ai_with_oracle_crate_2/)
 * [Using Oracle db26ai from Rust with the sibyl crate (2)](https://jorgeortiz.dev/posts/rust_use_oracle_db26ai_with_sibyl_crate_2/)
