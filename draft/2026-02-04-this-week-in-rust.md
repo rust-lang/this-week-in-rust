@@ -138,7 +138,7 @@ which are reaching a decision. Express your opinions now.
 * [Constify `fmt::from_fn`](https://github.com/rust-lang/rust/pull/150300)
 * [Feature-gate `mut ref` patterns in struct pattern field shorthand](https://github.com/rust-lang/rust/pull/151102)
 * [Tracking Issue for raw-pointer-to-reference conversion methods](https://github.com/rust-lang/rust/issues/122034)
-* [implement PartialEq<Vec<U>> for [T; N] and &[T; N]](https://github.com/rust-lang/rust/pull/149045)
+* [implement PartialEq\<Vec\<U\>\> for \[T; N\] and &\[T; N\]](https://github.com/rust-lang/rust/pull/149045)
 * [thread::scope: document how join interacts with TLS destructors](https://github.com/rust-lang/rust/pull/149482)
 
 ##### [Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20label%3Afinal-comment-period%20state%3Aopen) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html)
@@ -169,7 +169,7 @@ Let us know if you would like your PRs, Tracking Issues or RFCs to be tracked as
 * [Add `derive(Deref)` RFC](https://github.com/rust-lang/rfcs/pull/3911)
 * [Abi Descriptors](https://github.com/rust-lang/rfcs/pull/3910)
 * [Cargo mTLS registry authentication](https://github.com/rust-lang/rfcs/pull/3907)
-* [Let `Option derive `#[must_use]`](https://github.com/rust-lang/rfcs/pull/3906)
+* [Let `Option` derive `#[must_use]`](https://github.com/rust-lang/rfcs/pull/3906)
 * [Version-typed cfgs](https://github.com/rust-lang/rfcs/pull/3905)
 
 ## Upcoming Events
