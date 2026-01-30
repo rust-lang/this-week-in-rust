@@ -246,7 +246,7 @@ which are reaching a decision. Express your opinions now.
 * [Constify `fmt::from_fn`](https://github.com/rust-lang/rust/pull/150300)
 * [Feature-gate `mut ref` patterns in struct pattern field shorthand](https://github.com/rust-lang/rust/pull/151102)
 * [Tracking Issue for raw-pointer-to-reference conversion methods](https://github.com/rust-lang/rust/issues/122034)
-* [implement PartialEq\<Vec\<U\>\> for \[T; N\] and &\[T; N\]](https://github.com/rust-lang/rust/pull/149045)
+* [implement `PartialEq<Vec<U>>` for \[T; N\] and &\[T; N\]](https://github.com/rust-lang/rust/pull/149045)
 * [thread::scope: document how join interacts with TLS destructors](https://github.com/rust-lang/rust/pull/149482)
 
 #### [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
