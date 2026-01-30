@@ -40,16 +40,12 @@ and just ask the editors to select the category.
 ### Official
 * [crates.io: development update | Rust Blog](https://blog.rust-lang.org/2026/01/21/crates-io-development-update/)
 * [Announcing Rust 1.93.0 | Rust Blog](https://blog.rust-lang.org/2026/01/22/Rust-1.93.0/)
-### Foundation
-
-### Newsletters
 
 ### Project/Tooling Updates
 * [Vetis: A very tiny, very fast HTTP server in Rust](https://dev.to/rogrio_arajo_55dae16f0d/vetis-a-very-tiny-very-fast-http-server-in-rust-1ldn)
 * [cai 0.13: User friendly CLI tool for AI tasks](https://github.com/ad-si/cai/releases/tag/v0.13.0)
 * [Nio v0.1.0: Embracing Thread-Per-Core Architecture](https://nurmohammed840.github.io/posts/embracing-thread-per-core-architecture/)
 * [🦀 Compile-Time Reflection Is Finally Here](https://weeklyrust.substack.com/p/compile-time-reflection-is-finally)
-
 * [r3bl_tui v0.7.7: modern async TUI lib — readline, md editor, flexbox, SSH-optimized rendering](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.7.7-tui)
 * [r3bl-cmdr v0.0.25: TUI productivity apps - giti (git helper) and edi (beautiful md editor)](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.0.25-cmdr)
 * [r3bl-build-infra v0.0.1: cargo-rustdoc-fmt — prettier md tables and ref-style links](https://github.com/r3bl-org/r3bl-open-core/releases/tag/v0.0.1-build-infra)
@@ -61,9 +57,9 @@ and just ask the editors to select the category.
 * [Atomic variables are not only about atomicity](https://sander.saares.eu/2026/01/25/atomic-variables-are-not-only-about-atomicity/)
 * [`if let guard` stabilizing path](https://kivooeo.github.io/blog/if-let-guard/)
 * [audio] [Netstack.FM episode 24 — WebAssembly and Rust in Practice, A Conversation with Alex Crichton](https://netstack.fm/#episode-24)
+* [audio] [What's New in Rust 1.88 through 1.90 :: Rustacean Station](https://rustacean-station.org/episode/rust-1.88-1.89-1.90/)
+* [audio] [What's New in Rust 1.85 through 1.87 :: Rustacean Station](https://rustacean-station.org/episode/rust-1.85-1.86-1.87/)
 * [video] [AI should write rust and only rust ;)](https://www.youtube.com/watch?v=2lhr-QDWv-k)
-* [What's New in Rust 1.88 through 1.90 :: Rustacean Station](https://rustacean-station.org/episode/rust-1.88-1.89-1.90/)
-* [What's New in Rust 1.85 through 1.87 :: Rustacean Station](https://rustacean-station.org/episode/rust-1.85-1.86-1.87/)
   
 ### Rust Walkthroughs
 * [The complete guide to publishing your first Rust crate to crates.io](https://dev.to/ajitkumar/the-complete-guide-to-publishing-your-first-rust-crate-to-cratesio-14pg)
@@ -74,11 +70,6 @@ and just ask the editors to select the category.
 * [Building a 24MB Offline AI with Rust + Burn](https://snaetwarre.github.io/My-Portofolio/blog/intelligent-disease-detection.html)
 * [The Hidden Bottleneck: Blocking in Async Rust](https://cong-or.xyz/blocking-async-rust.html)
 * [Replacing Protobuf with Rust to go 5 times faster](https://pgdog.dev/blog/replace-protobuf-with-rust)
-  
-### Research
-
-### Miscellaneous
-
 * [I packaged my Rust CLI to too many places, here's what I learned](https://ivaniscoding.github.io/posts/rustpackaging1/)
 
 ## Crate of the Week
@@ -426,7 +417,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1qkkqi9/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
