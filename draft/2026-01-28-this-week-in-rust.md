@@ -382,6 +382,8 @@ Rusty Events between 2026-01-28 - 2026-02-25 🦀
     * [**Rust Girona Hack & Learn 02 2026**](https://luma.com/e0uay6q5)
 * 2026-02-18 - 2026-02-19 | London, UK | [Rust Nation UK](https://www.rustnationuk.com/)
     * [**Rust Nation UK 2026**](https://www.rustnationuk.com/)
+* 2025-02-24 | Bergen, NO | [Rust Bergen](https://www.meetup.com/bergen-rust-new-technology/events/)
+    * [**Rust Bergen #5 @ Zrch: Doom on Embedded**](https://www.meetup.com/de-de/bergen-rust-new-technology/events/312851079)
 
 ### North America
 * 2026-01-21 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx)
