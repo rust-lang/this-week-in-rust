@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Compiling Rust to readable C with Eurydice](https://lwn.net/SubscriberLink/1055211/0c358474dee845ec/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
