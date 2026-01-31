@@ -27,23 +27,6 @@
       </li>
     </ul>
   </div>
-  <!-- Search temporarily disabled. See https://github.com/rust-lang/this-week-in-rust/issues/4271
-  <div class ="col-md-12">
-    <ul class="list-unstyled search">
-      <li class="nav-header disabled"><h2>Search</h2></li>
-      <div>
-        <p class="subtext">Generic or unspecific search terms may result in unhelpful results - there is currently no exact matching on phrases.</p>
-        <input data-stork="sitesearch" class="form-control"/>
-        <div data-stork="sitesearch-output"></div>
-
-        <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/stork.js"></script>
-        <script>
-          stork.initialize("{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/stork.wasm")
-          stork.downloadIndex("sitesearch", "{{ SITEURL }}/search-index.st")
-          stork.attach("sitesearch")
-        </script>
-      </div>
-    </ul>
-  </div> -->
 </div>
+{% include "_search-bar.html" %}
 {% endblock content %}

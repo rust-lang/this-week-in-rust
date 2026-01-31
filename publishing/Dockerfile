@@ -19,15 +19,13 @@ ENV LANGUAGE=en_US.UTF-8
 COPY requirements.txt .
 RUN pip3 install -r requirements.txt
 
-# install Stork
-RUN curl https://files.stork-search.net/releases/v1.5.0/stork-ubuntu-20-04 -o stork \
-    && chmod +x stork \
-    && mv ./stork /usr/bin/stork
-
 # install sass/juice
 RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
 RUN apt-get install -y nodejs
 RUN npm install -g sass juice
+
+RUN curl -L -o pagefind.tar.gz https://github.com/Pagefind/pagefind/releases/download/v1.4.0/pagefind_extended-v1.4.0-aarch64-unknown-linux-musl.tar.gz
+RUN tar -xvf pagefind.tar.gz
 
 # pelican setup
 COPY content content
