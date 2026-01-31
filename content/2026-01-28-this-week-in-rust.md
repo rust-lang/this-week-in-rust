@@ -226,16 +226,7 @@ Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final
 which are reaching a decision. Express your opinions now.
 
 #### Tracking Issues & PRs
-##### [Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20%20label%3Afinal-comment-period) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html)
-
-* [Proposal for a dedicated test suite for the parallel frontend](https://github.com/rust-lang/compiler-team/issues/906)
-* [Promote tier 3 riscv32 ESP-IDF targets to tier 2](https://github.com/rust-lang/compiler-team/issues/864)
-* [Proposal for Adapt Stack Protector for Rust](https://github.com/rust-lang/compiler-team/issues/841)
-* [Give integer literals a sign instead of relying on negation expressions](https://github.com/rust-lang/compiler-team/issues/835)
-* [Also enable ICE file dumps on stable](https://github.com/rust-lang/compiler-team/issues/809)
-* [New Tier-3 target proposal: loongarch64-linux-android](https://github.com/rust-lang/compiler-team/issues/806)
-
-##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
+##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen)
 
 * [Stabilize `core::hint::cold_path`](https://github.com/rust-lang/rust/pull/151576)
 * [Tracking Issue for minimal const `ControlFlow` methods (`min_const_control_flow`)](https://github.com/rust-lang/rust/issues/148738)
@@ -248,6 +239,12 @@ which are reaching a decision. Express your opinions now.
 * [Tracking Issue for raw-pointer-to-reference conversion methods](https://github.com/rust-lang/rust/issues/122034)
 * [implement `PartialEq<Vec<U>>` for \[T; N\] and &\[T; N\]](https://github.com/rust-lang/rust/pull/149045)
 * [thread::scope: document how join interacts with TLS destructors](https://github.com/rust-lang/rust/pull/149482)
+
+##### [Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20label%3Afinal-comment-period%20state%3Aopen) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html)
+
+* [Proposal for a dedicated test suite for the parallel frontend](https://github.com/rust-lang/compiler-team/issues/906)
+* [Promote tier 3 riscv32 ESP-IDF targets to tier 2](https://github.com/rust-lang/compiler-team/issues/864)
+* [Proposal for Adapt Stack Protector for Rust](https://github.com/rust-lang/compiler-team/issues/841)
 
 #### [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc)
 
