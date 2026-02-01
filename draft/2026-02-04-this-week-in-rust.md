@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [Rust Trends Issue #74: When Meta and Anthropic Choose Rust](https://rust-trends.com/newsletter/when-meta-and-anthropic-choose-rust)
+
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
