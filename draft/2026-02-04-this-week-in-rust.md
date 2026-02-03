@@ -249,7 +249,7 @@ Rusty Events between 2026-02-04 - 2026-03-04 🦀
 * 2026-02-18 - 2026-02-19 | London, UK | [Rust Nation UK](https://www.rustnationuk.com/)
     * [**Rust Nation UK 2026**](https://www.rustnationuk.com/)
 * 2026-02-24 | Bergen, NO | [Rust Bergen](https://www.meetup.com/bergen-rust-new-technology/events/)
-    * [**Rust Bergen #5 @ Zrch: Doom on Embedded**](https://www.meetup.com/de-de/bergen-rust-new-technology/events/312851079)
+    * [**Rust Bergen #5 @ Zrch: Doom on Embedded**](https://www.meetup.com/de-de/bergen-rust-new-technology/events/313109606)
 * 2026-02-24 | Manchester, GB | [Rust Manchester](https://www.meetup.com/rust-manchester/events/)
     * [**Rust Manchester February Talk**](https://www.meetup.com/rust-manchester/events/313172595/)
 * 2026-03-04 | Hamburg, HH, DE | [Rust Meetup Hamburg](https://www.meetup.com/rust-meetup-hamburg/events/)
