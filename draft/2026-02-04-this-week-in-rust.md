@@ -48,7 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
+* [`post.explain_builders().build()`](https://hemomorphic.alexblood.net/posts/builders/)
 ### Research
 
 ### Miscellaneous
