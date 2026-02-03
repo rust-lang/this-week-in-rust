@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Rust for Network Programming](https://dev.to/godofgeeks/rust-for-network-programming-1en5)
 
 ### Rust Walkthroughs
 
