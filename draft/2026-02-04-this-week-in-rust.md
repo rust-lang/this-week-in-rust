@@ -112,7 +112,17 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Overall a positive week for instruction counts (~1% improvement on
+check/debug/opt/doc builds). Cycle counts and memory usage remain broadly
+unchanged across the week though.
+
+Triage done by **@simulacrum**.
+Revision range: [ebf13cca..a60d12cb](https://perf.rust-lang.org/?start=ebf13cca58b551b83133d4895e123f7d1e795111&end=a60d12cbccfbeaf153f3cecb90454aa696ea4b3b&absolute=false&stat=instructions%3Au)
+
+0 Regression, 6 Improvements, 3 Mixed; 3 of them in rollups
+33 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2026/2026-02-02.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
