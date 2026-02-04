@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [vortex](https://github.com/Nehliin/vortex), a linux only `io_uring` based BitTorrent library and TUI.
+
+Thanks to [Nehliin](https://users.rust-lang.org/t/crate-of-the-week/2704/1525) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -108,7 +110,63 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+530 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-01-27..2026-02-03
+
+#### Compiler
+* [pass `DepNode` by reference more places](https://github.com/rust-lang/rust/pull/151881)
+* [tweak `VecCache` to improve performance](https://github.com/rust-lang/rust/pull/138405)
+
+#### Library
+* [add `Option::get_or_try_insert_with`](https://github.com/rust-lang/rust/pull/143650)
+* [add `shift_{left,right}` on slices](https://github.com/rust-lang/rust/pull/151812)
+* [constify `Iterator`, take IV](https://github.com/rust-lang/rust/pull/151281)
+* [constify `fmt::from_fn`](https://github.com/rust-lang/rust/pull/150300)
+* [fix undefined behavior in `VecDeque::splice`](https://github.com/rust-lang/rust/pull/151769)
+* [implement `BinaryHeap::pop_if()`](https://github.com/rust-lang/rust/pull/151829)
+* [implement `TryFrom<integer>` for bool](https://github.com/rust-lang/rust/pull/147400)
+* [slice/ascii: optimize `eq_ignore_ascii_case` with auto-vectorization](https://github.com/rust-lang/rust/pull/147436)
+* [stabilize `feature(push_mut)`](https://github.com/rust-lang/rust/pull/151785)
+* [stabilize `ptr_as_ref_unchecked`](https://github.com/rust-lang/rust/pull/151995)
+* [tweak `SlicePartialEq` to allow MIR-inlining the `compare_bytes` call](https://github.com/rust-lang/rust/pull/150945)
+
+#### Cargo
+* [`lints`: Add `redundant_homepage` lint](https://github.com/rust-lang/cargo/pull/16561)
+* [`lints`: Add unused workspace dependency lint](https://github.com/rust-lang/cargo/pull/16571)
+* [`lints`: Refine redundant metadata lints](https://github.com/rust-lang/cargo/pull/16564)
+* [`script`: Correct style of help message](https://github.com/rust-lang/cargo/pull/16580)
+* [`timings`: Only compute `y_ticks` when the `units` is not empty](https://github.com/rust-lang/cargo/pull/16575)
+* [prevent `cargo init` in home directory](https://github.com/rust-lang/cargo/pull/16566)
+
+#### Rustdoc
+* [Add a marker to tell users that there are hidden (deprecated) items in the search results](https://github.com/rust-lang/rust/pull/151559)
+
+#### Clippy
+* [`doc_paragraphs_missing_punctuation`: allow some non-punctuated paragraphs](https://github.com/rust-lang/rust-clippy/pull/16487)
+* [`str_split`: reduce suggestion diff](https://github.com/rust-lang/rust-clippy/pull/16418)
+* [extend `question_mark` to cover `else if`](https://github.com/rust-lang/rust-clippy/pull/16455)
+* [fix `unwrap_used` and `expect_used` false negative when using fully qualified syntax](https://github.com/rust-lang/rust-clippy/pull/16489)
+* [fix `useless_attribute` false positive on `exported_private_dependencies` lint attributes](https://github.com/rust-lang/rust-clippy/pull/16470)
+* [fix grammar in doc comments in `conf.rs`](https://github.com/rust-lang/rust-clippy/pull/16479)
+* [fix `allow_attributes` false negative on attributes with whitespace](https://github.com/rust-lang/rust-clippy/pull/16497)
+* [`duration_suboptimal_units`: only `Duration` constructors taking `u64` are covered](https://github.com/rust-lang/rust-clippy/pull/16465)
+
+#### Rust-Analyzer
+* [feat: fallback let postfix completions in condition](https://github.com/rust-lang/rust-analyzer/pull/21557)
+* [feat: implement support for `feature(new_range)`](https://github.com/rust-lang/rust-analyzer/pull/21460)
+* [fix: complete inferred type in static](https://github.com/rust-lang/rust-analyzer/pull/21542)
+* [fix: do not panic if rust-analyzer fails to spawn the discover command](https://github.com/rust-lang/rust-analyzer/pull/21534)
+* [fix: fix a panic where an opaque was constrained to an impossible type in method autoderef](https://github.com/rust-lang/rust-analyzer/pull/21533)
+* [fix: fix diagnostics being leaked when diagnostics panic](https://github.com/rust-lang/rust-analyzer/pull/21555)
+* [fix: fix macro matching of `meta` then `=>` or `==`](https://github.com/rust-lang/rust-analyzer/pull/21527)
+* [fix: fix more glob issues](https://github.com/rust-lang/rust-analyzer/pull/21561)
+* [fix: fix upvar analysis of nested closures](https://github.com/rust-lang/rust-analyzer/pull/21564)
+* [fix: handle `Self::EnumVariant` and `Self` on traits in doclinks](https://github.com/rust-lang/rust-analyzer/pull/21528)
+* [implement the new homogeneous & heterogeneous try blocks](https://github.com/rust-lang/rust-analyzer/pull/21572)
+* [make json and postcard protocols explicit, drop generic Codec](https://github.com/rust-lang/rust-analyzer/pull/21548)
+* [make proc-macro bidirectional calls cancellation safe](https://github.com/rust-lang/rust-analyzer/pull/21410)
+* [support else-branch for `move_guard`](https://github.com/rust-lang/rust-analyzer/pull/21508)
 
 ### Rust Compiler Performance Triage
 
@@ -319,7 +377,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> In C++, the muscle memory you develop over time is **avoidant**. You learn not to do certain things. It's a negative memory, not in a pejorative sense, but in the sense that you have to remember what not to do rather than what to do: a list of patterns to avoid, of traps to dodge. And this list keeps growing, because the language doesn't prevent you from falling into the traps, you just have to remember they exist.
+>
+> In Rust, muscle memory is **constructive**. You learn patterns that are inherently correct. You don't have to remember what to avoid because the compiler won't let you do it. Instead of thinking "I must remember not to leave the door open", you learn to build a door that closes by itself.
+
+– [Marco Bollero on dev.to](https://dev.to/marco_bollero_ba3c38ddd27/switching-from-cc-to-rust-the-invisible-checklist-2p9n)
+
+Given an acute lack of suggestions, llogiq is pretty thankful to himself for having found a quote regardless.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
