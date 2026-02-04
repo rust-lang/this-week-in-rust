@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [CGP v0.6.1 Release: Improving Ergonomics and Debugging](https://contextgeneric.dev/blog/v0-6-1-release/)
 
 ### Observations/Thoughts
 
