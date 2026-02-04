@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [video] [[POPL'26] Miri: Practical Undefined Behavior Detection for Rust](https://www.youtube.com/watch?app=desktop&v=9A8ZeDIStAs)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
