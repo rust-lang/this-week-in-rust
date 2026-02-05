@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [What's so great about Rust?](https://bitfieldconsulting.com/posts/why-rust)
+
 ### Rust Walkthroughs
 
 ### Research
