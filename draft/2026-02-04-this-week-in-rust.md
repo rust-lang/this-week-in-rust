@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #64](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-64)
 
 * [Rust Trends Issue #74: When Meta and Anthropic Choose Rust](https://rust-trends.com/newsletter/when-meta-and-anthropic-choose-rust)
 
