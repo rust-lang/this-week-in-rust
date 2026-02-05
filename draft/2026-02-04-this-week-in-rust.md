@@ -43,13 +43,23 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [Rust Trends Issue #74: When Meta and Anthropic Choose Rust](https://rust-trends.com/newsletter/when-meta-and-anthropic-choose-rust)
+
 ### Project/Tooling Updates
 
 * [Compiling Rust to readable C with Eurydice](https://lwn.net/SubscriberLink/1055211/0c358474dee845ec/)
+* [3DCF/doc2dataset v0.2.0](https://github.com/3DCF-Labs/doc2dataset/releases/tag/v0.2.0) – embeddable document-compression [crate](https://crates.io/crates/three-dcf-core) (3DCF encoder + JSONL export helpers) to turn PDFs/markdown/HTML/etc into token-efficient chunks inside your Rust tooling.
+* [kinded v0.5.0 - proc-macro for generating data-free companion enum](https://github.com/greyblake/kinded/releases/tag/v0.5.0)
+* [CGP v0.6.1 Release: Improving Ergonomics and Debugging](https://contextgeneric.dev/blog/v0-6-1-release/)
 
 ### Observations/Thoughts
+* [Rust for Network Programming](https://dev.to/godofgeeks/rust-for-network-programming-1en5)
 
 ### Rust Walkthroughs
+
+* [`post.explain_builders().build()`](https://hemomorphic.alexblood.net/posts/builders/)
+* [Homebrew and One-Line Installers for My Rust CLI: Lessons Learned](https://ivaniscoding.github.io/posts/rustpackaging2/)
+* [series] [The Impatient Programmer's Guide to Bevy and Rust: Chapter 7 - Let There Be Enemies](https://aibodh.com/posts/bevy-rust-game-development-chapter-7/)
 
 ### Research
 
@@ -71,45 +81,16 @@ If you are a feature implementer and would like your RFC to appear in this list,
 `call-for-testing` label to your RFC along with a comment providing testing instructions and/or
 guidance on which aspect(s) of the feature need testing.
 
-<!-- If there are new CfT items this week, include:
+### [Cargo](https://github.com/rust-lang/cargo/issues?q=state%3Aopen%20label%3Acall-for-testing%20state%3Aopen)
 
-  [Repo Name](Repo URL)
-    * [<Feature name>](<Feature URL>)
-        * [Testing steps](<Testing Steps URL>)
+* [Tracking Issue for timing report SVG render backend](https://github.com/rust-lang/cargo/issues/16440)
 
-  - and make note in the item so the authors know to remove the `call-for-testing` label:
-This RFC will appear in the **Call for Testing** section of the next issue (#) of This Week in Rust (TWiR).
-You may remove the `call-for-testing` label.  Please feel free to leave the `call-for-testing` label in place if you would like this RFC to appear again in another issue of TWiR.
-
-  - where `Repo Name` and `Repo URL` are one of:
-[Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
-[Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing),
-[Cargo](https://github.com/rust-lang/cargo/labels/call-for-testing) or
-[Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
-
-  - and `Testing steps` points directly to the procedures the item wants users to exercise.
-
-  - For all `Repo Names` with no new CfT items this week: use (removing the repos for which new
-     CfT items did appear, of course)
-
-* *No calls for testing were issued this week by
-  [Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
-  [Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing),
-  [Cargo](https://github.com/rust-lang/cargo/labels/call-for-testing) or
-  [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing).*
--->
+*No calls for testing were issued this week by
+[Rust](https://github.com/rust-lang/rust/issues?q=state%3Aopen%20label%3Acall-for-testing%20state%3Aopen),
+[Rustup](https://github.com/rust-lang/rustup/issues?q=state%3Aopen%20label%3Acall-for-testing%20state%3Aopen) or
+[Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing%20state%3Aopen).*
 
 [Let us know](https://github.com/rust-lang/this-week-in-rust/issues) if you would like your feature to be tracked as a part of this list.
-
-### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
-
-### [Rust](https://github.com/rust-lang/rust/labels/call-for-testing)
-
-### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
-
-If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
-label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
-need testing.
 
 ## Call for Participation; projects and speakers
 
@@ -124,6 +105,12 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
+* [Spindalis - QR factorisation](https://github.com/lignum-vitae/spindalis/issues/56)
+* [Spindalis - Add a function and macro that can expand polynomials](https://github.com/lignum-vitae/spindalis/issues/36)
+* [Goombay-rs - Add Gotoh algorithm](https://github.com/lignum-vitae/goombay-rs/issues/8)
+* [Goombay-rs - Add Waterman-Smith-Beyer](https://github.com/lignum-vitae/goombay-rs/issues/7)
+* [Goombay-rs - Add functions to LocalAlignmentModel](https://github.com/lignum-vitae/goombay-rs/issues/4)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 [guidelines]:https://github.com/rust-lang/this-week-in-rust?tab=readme-ov-file#call-for-participation-guidelines
@@ -131,7 +118,8 @@ If you are a Rust project owner and are looking for contributors, please submit 
 ### CFP - Events
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
-
+* [**Oxidize Conference](https://pretalx.com/oxidize-conference-2026-2025/cfp) | CFP open until 2026-03-23 | Berlin, Germany | 2026-09-14 - 2026-09-16
+  
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
@@ -149,12 +137,8 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
-
-<!-- Use either
-* [Item title](Item URL)
-  - or
-* *No RFCs were approved this week.*
--->
+* [Trait method impl restrictions (`final` methods)](https://github.com/rust-lang/rfcs/pull/3678)
+* [RFC: `#[export_visibility = ...]` attribute](https://github.com/rust-lang/rfcs/pull/3834)
 
 ### Final Comment Period
 
@@ -162,42 +146,50 @@ Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final
 which are reaching a decision. Express your opinions now.
 
 #### Tracking Issues & PRs
-<!-- Either remove the group from the "No Items Entered Final Comment Period this week for" section
-     and add the item(s) which entered Final comment period:
-##### [Group](Group URL)
-* [Item title](Item URL)
-  - for `disposition-merge` `final-comment-period` items, or
-* [disposition: postpone]
-  - for `disposition-postpone` `final-comment-period` items, or
-* [disposition: close]
-  - for `disposition-close` `final-comment-period` items,
-* [disposition: unspecified]
-  - when `disposition` is unspecified or ensure the group is a part of the
-     "No Items Entered Final Comment Period this week for" section
+##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen)
+
+* [Stabilize `core::hint::cold_path`](https://github.com/rust-lang/rust/pull/151576)
+* [Tracking Issue for minimal const `ControlFlow` methods (`min_const_control_flow`)](https://github.com/rust-lang/rust/issues/148738)
+* [Tracking Issue for `new_range_api` (part of RFC 3550)](https://github.com/rust-lang/rust/issues/125687)
+* [Stabilize `assert_matches`](https://github.com/rust-lang/rust/pull/137487)
+* [resolve: Report more visibility-related early resolution ambiguities for imports](https://github.com/rust-lang/rust/pull/149596)
+* [Add FCW for derive helper attributes that will conflict with built-in attributes](https://github.com/rust-lang/rust/pull/151152)
+* [Constify `fmt::from_fn`](https://github.com/rust-lang/rust/pull/150300)
+* [Feature-gate `mut ref` patterns in struct pattern field shorthand](https://github.com/rust-lang/rust/pull/151102)
+* [Tracking Issue for raw-pointer-to-reference conversion methods](https://github.com/rust-lang/rust/issues/122034)
+* [implement PartialEq\<Vec\<U\>\> for \[T; N\] and &\[T; N\]](https://github.com/rust-lang/rust/pull/149045)
+* [thread::scope: document how join interacts with TLS destructors](https://github.com/rust-lang/rust/pull/149482)
+
+##### [Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20label%3Afinal-comment-period%20state%3Aopen) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html)
+
+* [Proposal for a dedicated test suite for the parallel frontend](https://github.com/rust-lang/compiler-team/issues/906)
+* [Promote tier 3 riscv32 ESP-IDF targets to tier 2](https://github.com/rust-lang/compiler-team/issues/864)
+* [Proposal for Adapt Stack Protector for Rust](https://github.com/rust-lang/compiler-team/issues/841)
+
+#### [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen)
+
+* [docs(report): enhance man pages for `cargo report *`](https://github.com/rust-lang/cargo/pull/16430)
+
+#### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen)
+
+* [Guarantee repr(C) union field offset](https://github.com/rust-lang/reference/pull/2128)
+
 *No Items entered Final Comment Period this week for
-  [Rust RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period),
-  [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc),
-  [Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20%20label%3Afinal-comment-period) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html),
-  [Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc+),
-  [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc),
-  [Leadership Council](https://github.com/rust-lang/leadership-council/issues?q=state%3Aopen%20label%3Afinal-comment-period) or
-  [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc).*
+[Rust RFCs](https://github.com/rust-lang/rfcs/issues?q=state%3Aopen%20label%3Afinal-comment-period%20state%3Aopen),
+[Leadership Council](https://github.com/rust-lang/leadership-council/issues?q=state%3Aopen%20label%3Afinal-comment-period%20state%3Aopen),
+[Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen) or
+[Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen).*
 
 Let us know if you would like your PRs, Tracking Issues or RFCs to be tracked as a part of this list.
--->
 
-#### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-<!-- Use either
-* [Item title](Item URL)
-  - for new items, or
-* [updated] [Item title](Item URL)
-  - for updated items, or
-* *No New or Updated RFCs were created this week.*
--->
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
 
-<!-- Sample commit message
-Update CFT, FCP, MCP and RFC sections for TWiR-xxx
--->
+* [RFC: Natural Method Disambiguation](https://github.com/rust-lang/rfcs/pull/3913)
+* [Add `derive(Deref)` RFC](https://github.com/rust-lang/rfcs/pull/3911)
+* [Abi Descriptors](https://github.com/rust-lang/rfcs/pull/3910)
+* [Cargo mTLS registry authentication](https://github.com/rust-lang/rfcs/pull/3907)
+* [Let `Option` derive `#[must_use]`](https://github.com/rust-lang/rfcs/pull/3906)
+* [Version-typed cfgs](https://github.com/rust-lang/rfcs/pull/3905)
 
 ## Upcoming Events
 
@@ -291,7 +283,7 @@ Rusty Events between 2026-02-04 - 2026-03-04 🦀
 * 2026-02-18 - 2026-02-19 | London, UK | [Rust Nation UK](https://www.rustnationuk.com/)
     * [**Rust Nation UK 2026**](https://www.rustnationuk.com/)
 * 2026-02-24 | Bergen, NO | [Rust Bergen](https://www.meetup.com/bergen-rust-new-technology/events/)
-    * [**Rust Bergen #5 @ Zrch: Doom on Embedded**](https://www.meetup.com/de-de/bergen-rust-new-technology/events/312851079)
+    * [**Rust Bergen #5 @ Zrch: Doom on Embedded**](https://www.meetup.com/de-de/bergen-rust-new-technology/events/313109606)
 
 ### North America
 * 2026-01-28 | Los Angeles, CA, US | [Rust Los Angeles](https://www.meetup.com/rust-los-angeles)
