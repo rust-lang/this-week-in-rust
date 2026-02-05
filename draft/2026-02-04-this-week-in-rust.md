@@ -61,6 +61,7 @@ and just ask the editors to select the category.
 * [`post.explain_builders().build()`](https://hemomorphic.alexblood.net/posts/builders/)
 * [Homebrew and One-Line Installers for My Rust CLI: Lessons Learned](https://ivaniscoding.github.io/posts/rustpackaging2/)
 * [series] [The Impatient Programmer's Guide to Bevy and Rust: Chapter 7 - Let There Be Enemies](https://aibodh.com/posts/bevy-rust-game-development-chapter-7/)
+* [Benchmark 2 decimal crates in floating-point vs fixed-point](https://github.com/WuBingzheng/primitive_fixed_point_decimal/blob/master/benches/README.md)
 
 ### Research
 
