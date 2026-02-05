@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Homebrew and One-Line Installers for My Rust CLI: Lessons Learned](https://ivaniscoding.github.io/posts/rustpackaging2/)
+
 ### Research
 
 ### Miscellaneous
