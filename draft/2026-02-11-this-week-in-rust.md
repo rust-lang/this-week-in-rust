@@ -45,7 +45,6 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [hotpath-rs 0.10 - new release adds an MCP interface for LLMs integration](https://hotpath.rs/mcp)
 
 ### Observations/Thoughts
 
