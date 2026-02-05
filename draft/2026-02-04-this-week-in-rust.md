@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Compiling Rust to readable C with Eurydice](https://lwn.net/SubscriberLink/1055211/0c358474dee845ec/)
 * [3DCF/doc2dataset v0.2.0](https://github.com/3DCF-Labs/doc2dataset/releases/tag/v0.2.0) – embeddable document-compression [crate](https://crates.io/crates/three-dcf-core) (3DCF encoder + JSONL export helpers) to turn PDFs/markdown/HTML/etc into token-efficient chunks inside your Rust tooling.
 * [kinded v0.5.0 - proc-macro for generating data-free companion enum](https://github.com/greyblake/kinded/releases/tag/v0.5.0)
 * [CGP v0.6.1 Release: Improving Ergonomics and Debugging](https://contextgeneric.dev/blog/v0-6-1-release/)
