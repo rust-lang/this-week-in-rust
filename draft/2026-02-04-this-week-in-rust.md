@@ -39,12 +39,16 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [First look at 2026 Project goals](https://blog.rust-lang.org/inside-rust/2026/02/03/first-look-at-2026-project-goals/)
+
 ### Foundation
+
+* [Rust Foundation Annual Report 2025 + 3-Year Strategy](https://rustfoundation.org/media/annual-report-strategy-2025/)
 
 ### Newsletters
 * [The Embedded Rustacean Issue #64](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-64)
-
 * [Rust Trends Issue #74: When Meta and Anthropic Choose Rust](https://rust-trends.com/newsletter/when-meta-and-anthropic-choose-rust)
+* [This Month in Rust OSDev: January 2026](https://rust-osdev.com/this-month/2026-01/)
 
 ### Project/Tooling Updates
 
@@ -55,14 +59,22 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 * [Rust for Network Programming](https://dev.to/godofgeeks/rust-for-network-programming-1en5)
+* [video] [Miri: Practical Undefined Behavior Detection for Rust](https://www.youtube.com/watch?v=9A8ZeDIStAs)
+* [audio] [Netstack.FM episode 25 — FOSDEM 2026 special](https://netstack.fm/#episode-25)
+* [audio] [What's New in the Rust 2024 Edition](https://rustacean-station.org/episode/rust-2024-edition/)
 
 ### Rust Walkthroughs
 
+* [How we interfaced single-threaded C++ with multi-threaded Rust](https://antithesis.com/blog/2026/rust_cpp/)
+* [Rust SIMD Benchmark: std::simd vs NEON on Apple M4](https://github.com/Erio-Harrison/simd_benchmark/blob/master/BLOG.md)
+* [Writing iOS XCTests in Rust](https://simlay.net/posts/2026-01-rust-xctesting/)
 * [`post.explain_builders().build()`](https://hemomorphic.alexblood.net/posts/builders/)
 * [Homebrew and One-Line Installers for My Rust CLI: Lessons Learned](https://ivaniscoding.github.io/posts/rustpackaging2/)
 * [series] [The Impatient Programmer's Guide to Bevy and Rust: Chapter 7 - Let There Be Enemies](https://aibodh.com/posts/bevy-rust-game-development-chapter-7/)
 
 ### Research
+
+* [Code Quality Analysis of Translations from C to Rust](https://arxiv.org/abs/2602.00840)
 
 ### Miscellaneous
 
