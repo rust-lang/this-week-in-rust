@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [s2-lite](https://news.ycombinator.com/item?id=46708055) - An open source, self-hostable server implementation of the S2 durable streams API, backed by object storage.
+* [s2-lite](https://github.com/s2-streamstore/s2?tab=readme-ov-file#s2-lite) - An open source, self-hostable server implementation of the S2 durable streams API, backed by object storage.
 
 ### Observations/Thoughts
 
