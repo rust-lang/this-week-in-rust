@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [kinded v0.5.0](https://github.com/greyblake/kinded/releases/tag/v0.5.0) - proc-macro for generating data-free companion enums, now with `skip_derive`, `attrs` for serde integration, and `const fn kind()`.
+* [kinded v0.5.0 - proc-macro for generating data-free companion enum](https://github.com/greyblake/kinded/releases/tag/v0.5.0)
 
 ### Observations/Thoughts
 
