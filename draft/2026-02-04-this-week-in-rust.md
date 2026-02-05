@@ -44,11 +44,15 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+
 * [kinded v0.5.0 - proc-macro for generating data-free companion enum](https://github.com/greyblake/kinded/releases/tag/v0.5.0)
+* [CGP v0.6.1 Release: Improving Ergonomics and Debugging](https://contextgeneric.dev/blog/v0-6-1-release/)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+
+* [Homebrew and One-Line Installers for My Rust CLI: Lessons Learned](https://ivaniscoding.github.io/posts/rustpackaging2/)
 
 ### Research
 
@@ -94,6 +98,12 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
+* [Spindalis - QR factorisation](https://github.com/lignum-vitae/spindalis/issues/56)
+* [Spindalis - Add a function and macro that can expand polynomials](https://github.com/lignum-vitae/spindalis/issues/36)
+* [Goombay-rs - Add Gotoh algorithm](https://github.com/lignum-vitae/goombay-rs/issues/8)
+* [Goombay-rs - Add Waterman-Smith-Beyer](https://github.com/lignum-vitae/goombay-rs/issues/7)
+* [Goombay-rs - Add functions to LocalAlignmentModel](https://github.com/lignum-vitae/goombay-rs/issues/4)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 [guidelines]:https://github.com/rust-lang/this-week-in-rust?tab=readme-ov-file#call-for-participation-guidelines
@@ -101,7 +111,8 @@ If you are a Rust project owner and are looking for contributors, please submit 
 ### CFP - Events
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
-
+* [**Oxidize Conference](https://pretalx.com/oxidize-conference-2026-2025/cfp) | CFP open until 2026-03-23 | Berlin, Germany | 2026-09-14 - 2026-09-16
+  
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
