@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [The future for Tyr](https://lwn.net/SubscriberLink/1055590/12d48275b6f81988/)
 
 ### Observations/Thoughts
 
