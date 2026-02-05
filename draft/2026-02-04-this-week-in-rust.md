@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [`post.explain_builders().build()`](https://hemomorphic.alexblood.net/posts/builders/)
 * [Homebrew and One-Line Installers for My Rust CLI: Lessons Learned](https://ivaniscoding.github.io/posts/rustpackaging2/)
 
 ### Research
