@@ -94,12 +94,9 @@ If you are a feature implementer and would like your RFC to appear in this list,
 `call-for-testing` label to your RFC along with a comment providing testing instructions and/or
 guidance on which aspect(s) of the feature need testing.
 
-### [Cargo](https://github.com/rust-lang/cargo/issues?q=state%3Aopen%20label%3Acall-for-testing%20state%3Aopen)
-
-* [Tracking Issue for timing report SVG render backend](https://github.com/rust-lang/cargo/issues/16440)
-
 *No calls for testing were issued this week by
 [Rust](https://github.com/rust-lang/rust/issues?q=state%3Aopen%20label%3Acall-for-testing%20state%3Aopen),
+[Cargo](https://github.com/rust-lang/cargo/issues?q=state%3Aopen%20label%3Acall-for-testing%20state%3Aopen),
 [Rustup](https://github.com/rust-lang/rustup/issues?q=state%3Aopen%20label%3Acall-for-testing%20state%3Aopen) or
 [Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing%20state%3Aopen).*
 
@@ -162,8 +159,8 @@ Revision range: [ebf13cca..a60d12cb](https://perf.rust-lang.org/?start=ebf13cca5
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
-* [Trait method impl restrictions (`final` methods)](https://github.com/rust-lang/rfcs/pull/3678)
-* [RFC: `#[export_visibility = ...]` attribute](https://github.com/rust-lang/rfcs/pull/3834)
+
+* [Unsafe fields](https://github.com/rust-lang/rfcs/pull/3458)
 
 ### Final Comment Period
 
@@ -172,49 +169,35 @@ which are reaching a decision. Express your opinions now.
 
 #### Tracking Issues & PRs
 ##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen)
-
-* [Stabilize `core::hint::cold_path`](https://github.com/rust-lang/rust/pull/151576)
-* [Tracking Issue for minimal const `ControlFlow` methods (`min_const_control_flow`)](https://github.com/rust-lang/rust/issues/148738)
-* [Tracking Issue for `new_range_api` (part of RFC 3550)](https://github.com/rust-lang/rust/issues/125687)
-* [Stabilize `assert_matches`](https://github.com/rust-lang/rust/pull/137487)
-* [resolve: Report more visibility-related early resolution ambiguities for imports](https://github.com/rust-lang/rust/pull/149596)
-* [Add FCW for derive helper attributes that will conflict with built-in attributes](https://github.com/rust-lang/rust/pull/151152)
-* [Constify `fmt::from_fn`](https://github.com/rust-lang/rust/pull/150300)
-* [Feature-gate `mut ref` patterns in struct pattern field shorthand](https://github.com/rust-lang/rust/pull/151102)
-* [Tracking Issue for raw-pointer-to-reference conversion methods](https://github.com/rust-lang/rust/issues/122034)
-* [implement PartialEq\<Vec\<U\>\> for \[T; N\] and &\[T; N\]](https://github.com/rust-lang/rust/pull/149045)
-* [thread::scope: document how join interacts with TLS destructors](https://github.com/rust-lang/rust/pull/149482)
+* [Stabilize `if let` guards ( `feature(if_let_guard)` )](https://github.com/rust-lang/rust/pull/141295)
+* [Make operational semantics of pattern matching independent of crate and module](https://github.com/rust-lang/rust/pull/150681)
+* [deprecate `Eq::assert_receiver_is_total_eq` and emit FCW on manual impls](https://github.com/rust-lang/rust/pull/149978)
+* [Stabilize Frontmatter](https://github.com/rust-lang/rust/pull/148051)
 
 ##### [Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20label%3Afinal-comment-period%20state%3Aopen) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html)
 
-* [Proposal for a dedicated test suite for the parallel frontend](https://github.com/rust-lang/compiler-team/issues/906)
-* [Promote tier 3 riscv32 ESP-IDF targets to tier 2](https://github.com/rust-lang/compiler-team/issues/864)
-* [Proposal for Adapt Stack Protector for Rust](https://github.com/rust-lang/compiler-team/issues/841)
+* [For `nvptx64`, drop old CPUs and ISAs - drop support for `target-cpu` \< SM 7.0 and PTX ISA \< 7.0](https://github.com/rust-lang/compiler-team/issues/965)
+* [Create linker subteam/Working Group](https://github.com/rust-lang/compiler-team/issues/964)
+* [Extend the `x.py` policy for `TODO` and `FIXME` to other in-tree projects](https://github.com/rust-lang/compiler-team/issues/963)
 
-#### [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen)
+#### [Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen)
 
-* [docs(report): enhance man pages for `cargo report *`](https://github.com/rust-lang/cargo/pull/16430)
+* [Resolution: "Recursive block" concern](https://github.com/rust-lang/lang-team/issues/365)
 
-#### [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen)
+#### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen)
 
-* [Guarantee repr(C) union field offset](https://github.com/rust-lang/reference/pull/2128)
+* [Can a pointer obtained by casting `&UnsafeCell\<T\>` to `*mut T` be written to?](https://github.com/rust-lang/unsafe-code-guidelines/issues/281)
 
 *No Items entered Final Comment Period this week for
 [Rust RFCs](https://github.com/rust-lang/rfcs/issues?q=state%3Aopen%20label%3Afinal-comment-period%20state%3Aopen),
-[Leadership Council](https://github.com/rust-lang/leadership-council/issues?q=state%3Aopen%20label%3Afinal-comment-period%20state%3Aopen),
-[Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen) or
-[Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen).*
+[Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen),
+[Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen) or
+[Leadership Council](https://github.com/rust-lang/leadership-council/issues?q=state%3Aopen%20label%3Afinal-comment-period%20state%3Aopen).*
 
 Let us know if you would like your PRs, Tracking Issues or RFCs to be tracked as a part of this list.
 
 ### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-
-* [RFC: Natural Method Disambiguation](https://github.com/rust-lang/rfcs/pull/3913)
-* [Add `derive(Deref)` RFC](https://github.com/rust-lang/rfcs/pull/3911)
-* [Abi Descriptors](https://github.com/rust-lang/rfcs/pull/3910)
-* [Cargo mTLS registry authentication](https://github.com/rust-lang/rfcs/pull/3907)
-* [Let `Option` derive `#[must_use]`](https://github.com/rust-lang/rfcs/pull/3906)
-* [Version-typed cfgs](https://github.com/rust-lang/rfcs/pull/3905)
+* *No New or Updated RFCs were created this week.*
 
 ## Upcoming Events
 
