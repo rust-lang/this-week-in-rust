@@ -38,11 +38,9 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-
 * [First look at 2026 Project goals](https://blog.rust-lang.org/inside-rust/2026/02/03/first-look-at-2026-project-goals/)
 
 ### Foundation
-
 * [Rust Foundation Annual Report 2025 + 3-Year Strategy](https://rustfoundation.org/media/annual-report-strategy-2025/)
 
 ### Newsletters
@@ -51,7 +49,6 @@ and just ask the editors to select the category.
 * [This Month in Rust OSDev: January 2026](https://rust-osdev.com/this-month/2026-01/)
 
 ### Project/Tooling Updates
-
 * [Compiling Rust to readable C with Eurydice](https://lwn.net/SubscriberLink/1055211/0c358474dee845ec/)
 * [3DCF/doc2dataset v0.2.0](https://github.com/3DCF-Labs/doc2dataset/releases/tag/v0.2.0) – embeddable document-compression [crate](https://crates.io/crates/three-dcf-core) (3DCF encoder + JSONL export helpers) to turn PDFs/markdown/HTML/etc into token-efficient chunks inside your Rust tooling.
 * [kinded v0.5.0 - proc-macro for generating data-free companion enum](https://github.com/greyblake/kinded/releases/tag/v0.5.0)
@@ -65,7 +62,6 @@ and just ask the editors to select the category.
 * [audio] [What's New in the Rust 2024 Edition](https://rustacean-station.org/episode/rust-2024-edition/)
 
 ### Rust Walkthroughs
-
 * [How we interfaced single-threaded C++ with multi-threaded Rust](https://antithesis.com/blog/2026/rust_cpp/)
 * [Rust SIMD Benchmark: std::simd vs NEON on Apple M4](https://github.com/Erio-Harrison/simd_benchmark/blob/master/BLOG.md)
 * [Writing iOS XCTests in Rust](https://simlay.net/posts/2026-01-rust-xctesting/)
@@ -74,10 +70,7 @@ and just ask the editors to select the category.
 * [series] [The Impatient Programmer's Guide to Bevy and Rust: Chapter 7 - Let There Be Enemies](https://aibodh.com/posts/bevy-rust-game-development-chapter-7/)
 
 ### Research
-
 * [Code Quality Analysis of Translations from C to Rust](https://arxiv.org/abs/2602.00840)
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -313,7 +306,7 @@ Rusty Events between 2026-02-04 - 2026-03-04 🦀
     * [**In person Rust February 2026 at Nuvoton in Herzliya**](https://www.meetup.com/rust-tlv/events/312989544/)
 
 ### Europe
-* 2026-02-04 | Darmstadt, HE, DE | [Rust Rhein-Main](https://www.meetup.com/rust-rhein-main)
+* 2026-02-04 | Darmstadt, DE | [Rust Rhein-Main](https://www.meetup.com/rust-rhein-main)
     * [**Writing a newsletter subscription service with axum**](https://www.meetup.com/rust-rhein-main/events/312798996/)
 * 2026-02-04 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
     * [**Rust Girona Hack & Learn 02 2026**](https://luma.com/e0uay6q5)
@@ -378,7 +371,6 @@ Rusty Events between 2026-02-04 - 2026-03-04 🦀
 * 2026-02-11 | Brisbane City, QL, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane)
     * [**Rust Brisbane Feb 2026**](https://www.meetup.com/rust-brisbane/events/313087789/)
 * 2026-02-11 | Sydney, AU | [Rust Sydney](https://www.meetup.com/rust-sydney)
-* 2026-02-11 | Sydney, AU | [Rust Sydney](https://www.meetup.com/rust-sydney)
     * [**Welcome 🦀 to 2026**](https://www.meetup.com/rust-sydney/events/313074935/)
 * 2026-02-24 | Canberra, AU | [Rust Canberra](https://www.meetup.com/rust-canberra/)
     * [**February Meetup**](https://www.meetup.com/rust-canberra/events/313199994/)
@@ -392,7 +384,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1qkkqi9/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -422,4 +414,4 @@ This Week in Rust is edited by:
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1qwh3hw/this_week_in_rust_637/)</small>
