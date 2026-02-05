@@ -56,6 +56,7 @@ and just ask the editors to select the category.
 * [3DCF/doc2dataset v0.2.0](https://github.com/3DCF-Labs/doc2dataset/releases/tag/v0.2.0) – embeddable document-compression [crate](https://crates.io/crates/three-dcf-core) (3DCF encoder + JSONL export helpers) to turn PDFs/markdown/HTML/etc into token-efficient chunks inside your Rust tooling.
 * [kinded v0.5.0 - proc-macro for generating data-free companion enum](https://github.com/greyblake/kinded/releases/tag/v0.5.0)
 * [CGP v0.6.1 Release: Improving Ergonomics and Debugging](https://contextgeneric.dev/blog/v0-6-1-release/)
+* [s2-lite](https://github.com/s2-streamstore/s2?tab=readme-ov-file#s2-lite) - An open source, self-hostable server implementation of the S2 durable streams API, backed by object storage.
 
 ### Observations/Thoughts
 * [Rust for Network Programming](https://dev.to/godofgeeks/rust-for-network-programming-1en5)
