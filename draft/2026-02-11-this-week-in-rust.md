@@ -54,6 +54,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [How Rolldown Works: High-Performance Code Splitting with Bitset Logic](https://www.atriiy.dev/blog/rolldown-high-performance-code-splitting)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
