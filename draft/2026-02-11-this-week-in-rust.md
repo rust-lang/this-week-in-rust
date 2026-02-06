@@ -297,6 +297,8 @@ Rusty Events between 2026-02-11 - 2026-03-11 🦀
     * [**Allston Rust Lunch, Feb 7**](https://www.meetup.com/bostonrust/events/312483562/)
 * 2026-02-11 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/events/)
     * [**Rust ATX at Cloudflare**](https://www.meetup.com/rust-atx/events/313147803/)
+* 2026-02-12 | Portland, OR, US | [PDXRust](https://www.meetup.com/pdxrust/)
+    * [**Implementing a Window Manager: developer workflows, C bindings, and Rust tooling**](https://www.meetup.com/pdxrust/events/313233869/)
 * 2026-02-12 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust)
     * [**Full Stack Web Development in Rust**](https://www.meetup.com/utah-rust/events/312565489/)
 * 2026-02-17 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group)
