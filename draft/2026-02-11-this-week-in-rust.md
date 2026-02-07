@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [easy-ssh](https://github.com/DarkLichCode/easy-ssh) - A user-friendly SSH client wrapper for Rust, focusing on ergonomics and safety.
 
 ### Observations/Thoughts
 
