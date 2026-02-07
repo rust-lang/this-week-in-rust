@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [Introducing Honeymelon: A Case Study in Building a Better Media Converter](https://dev.to/thavarshan/introducing-honeymelon-a-case-study-in-building-a-better-media-converter-51d9)
 
 ### Observations/Thoughts
 
