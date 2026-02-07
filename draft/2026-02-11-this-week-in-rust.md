@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rustbridge v0.9: Building and bundling Rust shared libraries](https://github.com/jrobhoward/rustbridge/blob/v0.9.1/docs/RELEASE_NOTES_0.9.md)
 
 ### Observations/Thoughts
 
