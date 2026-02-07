@@ -229,7 +229,7 @@ which are reaching a decision. Express your opinions now.
 
 ##### [Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20label%3Afinal-comment-period%20state%3Aopen) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html)
 
-* [For `nvptx64`, drop old CPUs and ISAs - drop support for `target-cpu` \< SM 7.0 and PTX ISA \< 7.0](https://github.com/rust-lang/compiler-team/issues/965)
+* [For `nvptx64`, drop old CPUs and ISAs - drop support for `target-cpu` < SM 7.0 and PTX ISA < 7.0](https://github.com/rust-lang/compiler-team/issues/965)
 * [Create linker subteam/Working Group](https://github.com/rust-lang/compiler-team/issues/964)
 * [Extend the `x.py` policy for `TODO` and `FIXME` to other in-tree projects](https://github.com/rust-lang/compiler-team/issues/963)
 
@@ -239,7 +239,7 @@ which are reaching a decision. Express your opinions now.
 
 #### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen)
 
-* [Can a pointer obtained by casting `&UnsafeCell\<T\>` to `*mut T` be written to?](https://github.com/rust-lang/unsafe-code-guidelines/issues/281)
+* [Can a pointer obtained by casting `&UnsafeCell<T>` to `*mut T` be written to?](https://github.com/rust-lang/unsafe-code-guidelines/issues/281)
 
 *No Items entered Final Comment Period this week for
 [Rust RFCs](https://github.com/rust-lang/rfcs/issues?q=state%3Aopen%20label%3Afinal-comment-period%20state%3Aopen),
