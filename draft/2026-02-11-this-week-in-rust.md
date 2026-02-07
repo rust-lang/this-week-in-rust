@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [Rama @ FOSDEM 2026 — Rethinking network services: Freedom and modularity with Rama](https://fosdem.org/2026/schedule/event/CKANPK-programmable_networking_with_rama/)
+
 ### Research
 
 ### Miscellaneous
