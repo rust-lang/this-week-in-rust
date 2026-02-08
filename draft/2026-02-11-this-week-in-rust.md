@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Ariel OS](https://ariel-os.org/blog/ariel-os-0.3.0/) - A library operating system for secure, memory-safe, low-power IoT
 
 ### Observations/Thoughts
 
