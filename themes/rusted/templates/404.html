@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}
+Page not found · {{ super() }}
+{% endblock title %}
+
+{% block content %}
+<div class="col-md-12">
+  <h2>Page not found</h2>
+  <p>Sorry, but the page you are looking for cannot be found.</p>
+  <p>
+    If you were linked here from a post on r/rust, please check back in a
+    few minutes. The reddit post is put up before the blog post goes live,
+    so that a link to the former can be put at the bottom of the latter.
+  </p>
+</div>
+{% endblock content %}
