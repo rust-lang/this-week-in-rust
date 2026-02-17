@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [PSA: Write Transactions are a Footgun with SQLx and SQLite](https://emschwartz.me/psa-write-transactions-are-a-footgun-with-sqlx-and-sqlite/)
+
 ### Rust Walkthroughs
 
 * [Shipping My Rust CLI to Windows: Lessons Learned (feat. Windows 98 and APE Bonus)](https://ivaniscoding.github.io/posts/rustpackaging4/)
