@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [The first half of the 7.0 merge window](https://lwn.net/SubscriberLink/1057769/964759e4469bd55b/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
