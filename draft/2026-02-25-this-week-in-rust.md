@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [ClawShell: Secure the OpenClaw using OS-level primitives](https://clawshell.org/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
