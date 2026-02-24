@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Introducing Almonds — Your Personal Workspace, Reimagined](https://opeolluwa.github.io/almonds/blog/hello-almonds)
+* [Kon Engine: A 2D game engine built from scratch in Rust (WGPU + SparseSet ECS)](https://github.com/cey0225/kon)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
