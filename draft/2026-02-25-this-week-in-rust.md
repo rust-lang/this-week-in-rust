@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Introducing Almonds — Your Personal Workspace, Reimagined](https://opeolluwa.github.io/almonds/blog/hello-almonds)
+* [diesel-guard v0.7.0: adds Postgres version-aware migration checks](https://github.com/ayarotsky/diesel-guard/releases/tag/v0.7.0)
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
