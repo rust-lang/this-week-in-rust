@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Introducing Almonds — Your Personal Workspace, Reimagined](https://opeolluwa.github.io/almonds/blog/hello-almonds)
+* [SafePilot v0.1: self-hosted AI operations assistant (release)](https://github.com/3DCF-Labs/safepilot/releases/tag/v0.1)
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
