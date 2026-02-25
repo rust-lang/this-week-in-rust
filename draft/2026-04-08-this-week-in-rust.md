@@ -40,12 +40,24 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [docs.rs: building fewer targets by default](https://blog.rust-lang.org/2026/04/04/docsrs-only-default-targets/)
+* [Changes to WebAssembly targets and handling undefined symbols](https://blog.rust-lang.org/2026/04/04/changes-to-webassembly-targets-and-handling-undefined-symbols/)
+* [Leadership Council update — March 2026](https://blog.rust-lang.org/inside-rust/2026/04/06/leadership-council-update/)
+
 ### Foundation
+* [What’s Next for the Rust Innovation Lab?](https://rustfoundation.org/media/whats-next-for-the-rust-innovation-lab/)
+* [Rust Foundation Interop Initiative Update: From Research to Implementation](https://rustfoundation.org/media/rust-foundation-interop-initiative-update-from-research-to-implementation/)
 
 ### Newsletters
 
+* [This Month in Rust OSDev: March 2026](https://rust-osdev.com/this-month/2026-03/)
+
 ### Project/Tooling Updates
 
+* [Surelock](https://notes.brooklynzelenka.com/Blog/Surelock)
+* [Rust for CPython Progress Update April 2026](https://blog.python.org/2026/04/rust-for-cpython-2026-04/)
+* [RustRover 2026.1: Professional Testing With Native cargo-nextest Integration](https://blog.jetbrains.com/rust/2026/04/03/rustrover-2026-1-professional-testing-with-native-cargo-nextest-integration/)
+* [Toasty, an async ORM for Rust, is now on crates.io](https://tokio.rs/blog/2026-04-03-toasty-released)
 * [Processing 1M Chess Games in 15 Seconds with Rust](https://dev.to/chrnx/processing-1m-chess-games-in-15-seconds-with-rust-pe3)
 * [Dumap v1.1: Cross-platform disk usage treemap visualization](https://github.com/jrobhoward/dumap/releases/tag/v1.1.0)
 * [Proxelar 0.4.0: Intercept & Modify Traffic](https://micheletti.io/proxelar-040/)
@@ -54,14 +66,22 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
-- [800 Rust terminal projects in 3 years](https://blog.orhun.dev/800-rust-projects/)
+* [Callgraph analysis](https://ferrous-systems.com/blog/callgraph-analysis/)
+* [Fixing our own problems in the Rust compiler](https://tweedegolf.nl/en/blog/234/fixing-our-own-problems-in-the-rust-compiler)
+* [800 Rust terminal projects in 3 years](https://blog.orhun.dev/800-rust-projects/)
+* [What We Learned Building a Rust Runtime for TypeScript](https://encore.dev/blog/rust-runtime)
+* [audio] [Protocol Shorts: TLS Encrypted Client Hello](https://netstack.fm/#episode-33)
 
 ### Rust Walkthroughs
+
 * [Learn Rust Basics By Building a Brainfuck Interpreter](https://blog.sheerluck.dev/posts/learn-rust-basics-by-building-a-brainfuck-interpreter/)
+* [video] [impl Rust: WAV noise generator](https://www.youtube.com/watch?v=zOTE4BN59u4)
 
 ### Research
 
 ### Miscellaneous
+
+* [video] [Rust/C++ Interop Challenges - Victor Ciura - CppCon 2025](https://www.youtube.com/watch?v=8xqhSy539Pc)
 
 ## Crate of the Week
 
