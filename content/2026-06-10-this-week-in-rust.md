@@ -37,7 +37,13 @@ and just ask the editors to select the category.
 
 -->
 
+### Official
+
+* [How Josh helps Rust manage code across multiple repositories](https://blog.rust-lang.org/inside-rust/2026/06/04/how-josh-helps-rust-manage-code-across-multiple-repositories/)
+* [Maintainer spotlight: Tiffany Pek Yuan (@tiif)](https://blog.rust-lang.org/inside-rust/2026/06/03/maintainer-spotlight-tiffany-pek-yuan-tiif/)
+
 ### Newsletters
+* [This Month in Rust OSDev: May 2026](https://rust-osdev.com/this-month/2026-05/)
 * [The Embedded Rustacean Issue #73](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-73)
 
 ### Project/Tooling Updates
@@ -52,8 +58,13 @@ and just ask the editors to select the category.
 * [Announcing smb2: a very fast pure-Rust SMB2/3 client](https://www.veszelovszki.com/a/smb2/)
 
 ### Observations/Thoughts
+* [Only Bounds](https://smallcultfollowing.com/babysteps/blog/2026/06/09/only-bounds/)
+* [Porting our Django backend to Rust improved the infra usage by 90%](https://wasmer.io/posts/ported-wasmer-backend-django-to-rust)
 * [Decimal Crates Comparison and Benchmark](https://wubingzheng.github.io/en/Decimal-Crates-Comparison.html) | [Chinese version](https://wubingzheng.github.io/zh/Decimal-Crates-Comparison.html)
 * [TeaQL Robot Task Board: a Rust TUI showcase for auditable business workflows](https://teaql.io/blog/robot-task-board-showcase/)
+* [video] [Rayon is NOT for games - use this instead](https://www.youtube.com/watch?v=QFQkqFSg8Z4)
+* [audio] [Veo with Anders Hellerup Madsen and Gorm Casper](https://corrode.dev/podcast/s06e05-veo/)
+
 
 ### Rust Walkthroughs
 * [series] [Who Runs Your Rust Future? Hands-On Intro to Async Rust](https://aibodh.com/posts/async-rust-chapter-1-hands-on-intro-to-async-rust/)
