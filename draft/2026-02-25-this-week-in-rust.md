@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Introducing Almonds — Your Personal Workspace, Reimagined](https://opeolluwa.github.io/almonds/blog/hello-almonds)
+* [CGP has a new website, and why we moved from Zola to Docusaurus](https://contextgeneric.dev/blog/2026/02/21/new-website/)
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
