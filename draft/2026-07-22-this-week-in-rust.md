@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.97.1](https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/)
 
 ### Foundation
 
@@ -45,16 +46,23 @@ and just ask the editors to select the category.
 * [The Embedded Rustacean Issue #76](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-76)
 
 ### Project/Tooling Updates
+* [Announcing Topcoat: a framework for building full-stack reactive web apps with Rust](https://tokio.rs/blog/2026-07-22-announcing-topcoat)
+* [Syn 3.0.0](https://github.com/dtolnay/syn/releases/tag/3.0.0)
+* [What’s New in RustRover 2026.2](https://blog.jetbrains.com/rust/2026/07/22/whats-new-in-rustrover-2026-2/)
 * [kobe 0.35.0: readiness gates and cert recycling](https://github.com/kunobi-ninja/kobe/releases/tag/v0.35.0)
-
 * [Guardian Compute: Decentralized Edge Computing in GuardianDB](https://www.willsearch.com.br/blog/guardian-compute-decentralized-edge-computing-in-guardiandb)
 * [`tracing-reload` - reload layer without panics](https://mladedav.github.io/blog/blog/tracing-reload/)
 * [Introducing OpenTypeless: Voice Input That Actually Works](https://www.opentypeless.com/en/blog/introducing-talkmore)
 * [Reading a Rust crate's capabilities out of its compiled symbols](https://dev.to/booyaka101/reading-a-rust-crates-capabilities-out-of-its-compiled-symbols-58pb)
 
 ### Observations/Thoughts
-
-* [Tokio Gives Progress, Not Ordering: Scheduling 1M Tasks](https://pranitha.dev/posts/tokio-gives-progress-not-ordering)
+* [Battery packs: Let's talk about crates, baby](https://smallcultfollowing.com/babysteps/blog/2026/07/15/battery-packs/)
+* [Capture Clauses as Effects](https://blog.yoshuawuyts.com/capture-clauses-as-effects)
+* [Hardening Rust Code For Production](https://corrode.dev/blog/hardening-rust/)
+* [Tokio Gives Progress, Not Ordering: Scheduling 1M Tasks](https://pranitha.dev/posts/tokio-gives-progress-not-ordering/)
+* [video] [Jon Gjengset: Open Source Maintenance 2026-07-18](https://www.youtube.com/watch?v=bAINppA0BSU)
+* [video] [Rust Release Changelog - 1.97.0](https://www.youtube.com/watch?v=lUoQ3uGSQA0)
+* [audio] [The Rust Foundation with Rebecca Rumbul, Lori Lorusso, and David Wood, Rust Foundation leadership and board](https://corrode.dev/podcast/s06e08-rust-foundation/)
 
 ### Rust Walkthroughs
 * [Two tricky bugs in a Rust daemon](https://dev.to/scripthpp/two-bugs-i-only-found-by-running-my-rust-sync-daemon-against-real-infrastructure-4278)
