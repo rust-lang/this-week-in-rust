@@ -39,13 +39,22 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Announcing Rust 1.96.1 | Rust Blog](https://blog.rust-lang.org/2026/06/30/Rust-1.96.1/)
+* [The many journeys of learning Rust | Rust Blog](https://blog.rust-lang.org/2026/06/25/vision-doc-journeys-to-learning-rust/)
+
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
 
+* [Slint 1.17 Released](https://slint.dev/blog/slint-1.17-released)
+* [rustc_codegen_gcc: Progress Report #42](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-42)
+* [Introducing Test That!](https://hovinen.me/announcements/2026/06/24/introducing-test-that.html)
+
 ### Observations/Thoughts
+
+* [Hoisting Expressions](https://blog.yoshuawuyts.com/hoisting-expressions)
 
 ### Rust Walkthroughs
 
