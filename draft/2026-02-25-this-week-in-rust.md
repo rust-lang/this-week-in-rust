@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [How I Added Zero-Trust Guardrails to 4 MCP Servers Using AgentGateway — and Modernized Legacy COBOL Along the Way](https://dev.to/venkateshwar_raonagala_4/how-i-added-zero-trust-guardrails-to-4-mcp-servers-using-agentgateway-and-modernized-legacy-cobol-1fl8)
 
 ### Research
 
