@@ -44,11 +44,19 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [SeaORM now supports Arrow & Parquet](https://www.sea-ql.org/blog/2026-02-22-sea-orm-arrow/)
+* [Releasing bincode-next v3.0.0-rc.1](https://users.rust-lang.org/t/releasing-bincode-next-v3-0-0-rc-1/138466)
 * [Introducing Almonds — Your Personal Workspace, Reimagined](https://opeolluwa.github.io/almonds/blog/hello-almonds)
 * [CGP has a new website, and why we moved from Zola to Docusaurus](https://contextgeneric.dev/blog/2026/02/21/new-website/)
+* [Hitbox 0.2.0: declarative cache orchestration for async Rust](https://www.reddit.com/r/rust/comments/1qp88he/hitbox_020_async_http_caching_framework_for_rust/)
+
 ### Observations/Thoughts
+* [Achieving Zero Bugs: Rust, Specs, and AI Coding](https://www.borg.org/?p=1472)
 
 ### Rust Walkthroughs
+* [Breaking SHA-2: length extension attacks in practice with Rust](https://kerkour.com/sha256-length-extension-attacks)
+
+* [device-envoy: Making Embedded Fun with Rust, Embassy, and Composable Device Abstractions](https://medium.com/@carlmkadie/device-envoy-making-embedded-fun-31534917414b)
 
 ### Research
 
