@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Compendium, the Friendly Linux x86 Tracer: Enhance via eBPF Support](https://pker.xyz/posts/compendium-ebpf)
 
 ### Observations/Thoughts
 
