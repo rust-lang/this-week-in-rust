@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Fast Python with Rust: a data-oriented approach](https://hackeryarn.com/post/fast-python-with-rust/)
+
 ### Research
 
 ### Miscellaneous
