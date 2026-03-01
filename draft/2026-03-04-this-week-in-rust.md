@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Ply 1.0: Building apps in Rust shouldn't be this hard, so I made Ply](https://plyx.iz.rs/blog/introducing-ply/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
