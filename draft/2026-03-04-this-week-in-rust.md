@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Tutorial: let's make a resumable Pi Spigot with SQLite](https://www.sea-ql.org/blog/2026-02-28-sea-orm-sync/)
 
 ### Research
 
