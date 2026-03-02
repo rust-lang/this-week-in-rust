@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Official
 
+- [2025 State of Rust Survey Results](https://blog.rust-lang.org/2026/03/02/2025-State-Of-Rust-Survey-results/)
+
 ### Foundation
 
 ### Newsletters
