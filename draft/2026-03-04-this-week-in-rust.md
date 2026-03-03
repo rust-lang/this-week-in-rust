@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [office2pdf](office2pdf), a standalone library or binary to generate PDF from OOXML (docx, xlsx, etc.) files.
+
+Thanks to [One](https://users.rust-lang.org/t/crate-of-the-week/2704/1562) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -137,7 +139,42 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+414 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-02-24..2026-03-03
+
+#### Compiler
+* [improve the forcing/promotion functions in `DepKindVTable`](https://github.com/rust-lang/rust/pull/153122)
+* [codegen: Restore `noundef` On `PassMode::Cast` Args In Rust ABI](https://github.com/rust-lang/rust/pull/152864)
+
+#### Library
+* [`BTreeMap::merge` optimized](https://github.com/rust-lang/rust/pull/152418)
+* [make atomic primitives type aliases of `Atomic<T>`](https://github.com/rust-lang/rust/pull/153015)
+* [neon fast path for `str::contains`](https://github.com/rust-lang/rust/pull/152176)
+* [prepare `NonNull` for pattern types](https://github.com/rust-lang/rust/pull/152702)
+* [re-add `#[inline]` to `Eq::assert_fields_are_eq`](https://github.com/rust-lang/rust/pull/153157)
+* [stabilize new `RangeToInclusive` type](https://github.com/rust-lang/rust/pull/152304)
+
+#### Cargo
+* [fix: Inject an edition into scripts](https://github.com/rust-lang/cargo/pull/16678)
+* [help: display manpage for nested commands](https://github.com/rust-lang/cargo/pull/16432)
+* [host-config: fix panic when cross-compiling with host-config](https://github.com/rust-lang/cargo/pull/16674)
+* [toml: show required rust-version in unstable edition error](https://github.com/rust-lang/cargo/pull/16653)
+* [improve parent workspace search error msg](https://github.com/rust-lang/cargo/pull/16669)
+
+#### Clippy
+* [fix `cmp_owned` suggests wrongly on `PathBuf`](https://github.com/rust-lang/rust-clippy/pull/16628)
+* [fix `explicit_counter_loop` false positive when the initializer is not integral](https://github.com/rust-lang/rust-clippy/pull/16647)
+* [fix `suboptimal_flops` false negative on add and sub assign](https://github.com/rust-lang/rust-clippy/pull/16625)
+* [handle core panics in all format lints](https://github.com/rust-lang/rust-clippy/pull/16597)
+
+#### Rust-Analyzer
+* [detect E0804 when casting raw ptr-to-dyn adds auto traits](https://github.com/rust-lang/rust-analyzer/pull/21699)
+* [don't panic on invalid LSP notifications](https://github.com/rust-lang/rust-analyzer/pull/21708)
+* [fix scrutinee expr indent for `replace_if_let_with_match`](https://github.com/rust-lang/rust-analyzer/pull/21698)
+* [no complete `enum` variant qualifier in pat](https://github.com/rust-lang/rust-analyzer/pull/21706)
+* [use `ExprIsRead::Yes` for rhs of binary operators](https://github.com/rust-lang/rust-analyzer/pull/21654)
+* [implement `Span::SpanParent` for proc-macro-srv](https://github.com/rust-lang/rust-analyzer/pull/21669)
 
 ### Rust Compiler Performance Triage
 
@@ -314,7 +351,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> After all, Rust only became as good as it is by going through a rather drastic transformation. At one point it had a GC and Green Threads, famously. There's no substitute for making it exist and seeing how it does on a real problem.
+
+– [scottmcm on rust-users](https://users.rust-lang.org/t/aliased-xor-mutable-core-for-a-high-level-language/138482/22)
+
+Thanks to [Jonas Fassbender](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1755) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
