@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [Danube Messaging migration from ETCD to embeded raft consensus for metadata](https://dev-state.com/posts/migrate_danube_etcd_to_raft/) 
+* [Danube Messaging migration from ETCD to embedded raft consensus for metadata](https://dev-state.com/posts/migrate_danube_etcd_to_raft/) 
 
 ### Observations/Thoughts
 
