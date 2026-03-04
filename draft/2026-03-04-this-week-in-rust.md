@@ -252,7 +252,7 @@ Rusty Events between 2026-03-04 - 2026-04-01 🦀
 ### Europe
 * 2026-03-04 | Barcelona, ES | [BcnRust](https://www.meetup.com/bcnrust)
     * [**Rust at MWC Talent Arena — Workshops + Community Meetup**](https://www.meetup.com/bcnrust/events/313263086/)
-* 2026-03-04 | Hamburg, HH, DE | [Rust Meetup Hamburg](https://www.meetup.com/rust-meetup-hamburg)
+* 2026-03-04 | Hamburg, DE | [Rust Meetup Hamburg](https://www.meetup.com/rust-meetup-hamburg)
     * [**Rust Hack & Learn March 2026**](https://www.meetup.com/rust-meetup-hamburg/events/311942636/)
 * 2026-03-04 | Köln, DE | [Rust Cologne](https://www.meetup.com/rust-cologne-bonn)
     * [**Rust in March: Abstractions, but at what cost?**](https://www.meetup.com/rustcologne/events/313532986/)
@@ -314,7 +314,7 @@ Rusty Events between 2026-03-04 - 2026-04-01 🦀
     * [**Rust-Atl**](https://www.meetup.com/rust-atl/events/311228658/)
 
 ### Oceania
-* 2026-03-12 | Brisbane City, QL, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane)
+* 2026-03-12 | Brisbane City, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane)
     * [**Rust Brisbane Mar 2026**](https://www.meetup.com/rust-brisbane/events/313596218/)
 * 2026-03-26 | Melbourne, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne)
     * [**TBD March Meetup**](https://www.meetup.com/rust-melbourne/events/313471749/)
