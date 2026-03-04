@@ -45,9 +45,14 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [dag_exec: a std-only DAG executor for CPU-heavy pipelines (pruning + bounded parallelism)](https://www.reymom.xyz/blog/rust/2026-03-03-exec_dag-official-release)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+
+* [Designing Backpressure in a Parallel DAG Executor](https://www.reymom.xyz/blog/rust/2026-02-21-backpressure-in-parallel-executor)
+* [Testing Concurrency Invariants in a Parallel Executor](https://www.reymom.xyz/blog/rust/2026-02-24-testing-invariants-atomics)
 
 ### Research
 
