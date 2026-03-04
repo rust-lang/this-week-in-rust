@@ -46,7 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
-10 Questions from a ZK Meetup in Kraków](https://rustarians.com/10-questions-from-a-zk-meetup-in-krakow/
+10 Questions from a ZK Meetup in Kraków](https://rustarians.com/10-questions-from-a-zk-meetup-in-krakow/)
 
 ### Rust Walkthroughs
 
