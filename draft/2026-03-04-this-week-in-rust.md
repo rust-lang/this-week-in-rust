@@ -203,8 +203,6 @@ Rusty Events between 2026-03-04 - 2026-04-01 🦀
 
 ### Virtual
 * 2026-02-25 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/)
-    * [**Getting Started with Rust Part 3: Patterns and Matching**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/313391012/)
-* 2026-02-25 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/fvcjjuv8)
 * 2026-02-26 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/308455923/)
@@ -238,8 +236,8 @@ Rusty Events between 2026-03-04 - 2026-04-01 🦀
     * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/310254785/)
 * 2026-03-24 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
     * [**Lunch & Learn: Crates, Tips & Tricks Lightning Talks - Bring your ideas!**](https://www.meetup.com/women-in-rust/events/312799496/)
-* 2026-03-25 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
-    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/me4jwgxu)
+* 2026-03-25 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
+  * [**Rust Girona Hack & Learn 03 2026**](https://luma.com/vq9w8q0w)
 
 ### Asia
 * 2026-03-22 | Tel Aviv-yafo, IL | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
