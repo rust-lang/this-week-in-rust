@@ -59,6 +59,8 @@ and just ask the editors to select the category.
 * [Designing Backpressure in a Parallel DAG Executor](https://www.reymom.xyz/blog/rust/2026-02-21-backpressure-in-parallel-executor)
 * [Testing Concurrency Invariants in a Parallel Executor](https://www.reymom.xyz/blog/rust/2026-02-24-testing-invariants-atomics)
 
+[audio] [Netstack.FM episode 29 — Hyper With Sean McArthur (Ep 2 Remastered)](https://netstack.fm/#episode-29)
+
 ### Rust Walkthroughs
 * [Apache Iggy's migration journey to thread-per-core architecture powered by io_uring](https://iggy.apache.org/blogs/2026/02/27/thread-per-core-io_uring/)
 * [Formal methods for the unsafe side of the Force](https://antithesis.com/blog/2026/rust_formal_methods/)
