@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 * [Feedr v0.4.0 - Terminal-based RSS feed reader](https://github.com/bahdotsh/feedr/releases/tag/v0.4.0)
 * [dag_exec: DAG executor for CPU-heavy pipelines](https://www.reymom.xyz/blog/rust/2026-03-03-exec_dag-official-release)
 
+* [Ply 1.0: Building apps in Rust shouldn't be this hard](https://plyx.iz.rs/blog/introducing-ply/)
+
 ### Observations/Thoughts
 * [Kovan: From Production MVCC Systems to Wait-Free Memory Reclamation](https://vertexclique.com/blog/kovan-from-prod-to-mr/)
 * [Never snooze a future](https://jacko.io/snooze.html)
