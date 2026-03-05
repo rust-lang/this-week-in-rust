@@ -43,6 +43,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #66](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-66)
 
 ### Project/Tooling Updates
 * [Compendium: Adding eBPF for Kernel-Level Visibility](https://pker.xyz/posts/compendium-ebpf)
