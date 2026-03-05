@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [Feedr v0.4.0 - A feature-rich terminal-based RSS feed reader with a clean and intuitive TUI](https://github.com/bahdotsh/feedr/releases/tag/v0.4.0)
+* [Feedr v0.4.0 - Terminal-based RSS feed reader](https://github.com/bahdotsh/feedr/releases/tag/v0.4.0)
 
 ### Observations/Thoughts
 
