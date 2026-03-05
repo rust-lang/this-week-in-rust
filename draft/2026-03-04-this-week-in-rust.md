@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 * [Supercharge Rust functions with implicit arguments using CGP v0.7.0](https://contextgeneric.dev/blog/v0.7.0-release/)
 * [vscreen: AI agents browser](https://dev.to/lowjax/i-built-a-tool-that-lets-ai-agents-browse-the-real-internet-and-you-can-watch-them-do-it-2fff)
 * [Ply 1.0: Building apps in Rust shouldn't be this hard](https://plyx.iz.rs/blog/introducing-ply/)
+* [TokioConf Update: What to Expect](https://tokio.rs/blog/2026-03-03-tokioconf-update)
 
 ### Observations/Thoughts
 * [Kovan: From Production MVCC Systems to Wait-Free Memory Reclamation](https://vertexclique.com/blog/kovan-from-prod-to-mr/)
