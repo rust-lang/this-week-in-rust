@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [vscreen: Give AI agents a real browser, streamed live over WebRTC](https://dev.to/lowjax/i-built-a-tool-that-lets-ai-agents-browse-the-real-internet-and-you-can-watch-them-do-it-2fff)
+* [vscreen: AI agents browser](https://dev.to/lowjax/i-built-a-tool-that-lets-ai-agents-browse-the-real-internet-and-you-can-watch-them-do-it-2fff)
 
 ### Observations/Thoughts
 
