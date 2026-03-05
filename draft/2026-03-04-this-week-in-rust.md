@@ -69,6 +69,8 @@ and just ask the editors to select the category.
 * [video] [Rust: compiling to WASM to make a browser-based game using canvas](https://artificialworlds.net/blog/2026/02/27/wasm-game/)
 * [video] [Daniel Almeida Interview, Writing a Linux GPU Kernel Driver in Rust](https://youtu.be/rgjTPBRae6I)
 
+* [Fast Python with Rust: a data-oriented approach](https://hackeryarn.com/post/fast-python-with-rust/)
+
 ### Research
 
 ### Miscellaneous
