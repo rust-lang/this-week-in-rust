@@ -47,12 +47,17 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [Feedr v0.4.0 - Terminal-based RSS feed reader](https://github.com/bahdotsh/feedr/releases/tag/v0.4.0)
 
+* [dag_exec: DAG executor for CPU-heavy pipelines](https://www.reymom.xyz/blog/rust/2026-03-03-exec_dag-official-release)
+
 ### Observations/Thoughts
 * [Kovan: From Production MVCC Systems to Wait-Free Memory Reclamation](https://vertexclique.com/blog/kovan-from-prod-to-mr/)
 * [Never snooze a future](https://jacko.io/snooze.html)
 * [Rust zero-cost abstractions vs. SIMD](https://turbopuffer.com/blog/zero-cost)
 * [Nobody ever got fired for using a struct](https://www.feldera.com/blog/nobody-ever-got-fired-for-using-a-struct)
 * [Debugging Reproducibility Issues in Rust Software](https://notes.8pit.net/notes/iqfs.html)
+
+* [Designing Backpressure in a Parallel DAG Executor](https://www.reymom.xyz/blog/rust/2026-02-21-backpressure-in-parallel-executor)
+* [Testing Concurrency Invariants in a Parallel Executor](https://www.reymom.xyz/blog/rust/2026-02-24-testing-invariants-atomics)
 
 ### Rust Walkthroughs
 * [Apache Iggy's migration journey to thread-per-core architecture powered by io_uring](https://iggy.apache.org/blogs/2026/02/27/thread-per-core-io_uring/)
