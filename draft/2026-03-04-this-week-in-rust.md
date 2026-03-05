@@ -43,12 +43,16 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #66](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-66)
 
 ### Project/Tooling Updates
-* [vscreen: AI agents browser](https://dev.to/lowjax/i-built-a-tool-that-lets-ai-agents-browse-the-real-internet-and-you-can-watch-them-do-it-2fff)
+* [Compendium: Adding eBPF for Kernel-Level Visibility](https://pker.xyz/posts/compendium-ebpf)
 * [Danube Messaging migration from ETCD](https://dev-state.com/posts/migrate_danube_etcd_to_raft/) 
 * [Feedr v0.4.0 - Terminal-based RSS feed reader](https://github.com/bahdotsh/feedr/releases/tag/v0.4.0)
 * [dag_exec: DAG executor for CPU-heavy pipelines](https://www.reymom.xyz/blog/rust/2026-03-03-exec_dag-official-release)
+* [Supercharge Rust functions with implicit arguments using CGP v0.7.0](https://contextgeneric.dev/blog/v0.7.0-release/)
+* [vscreen: AI agents browser](https://dev.to/lowjax/i-built-a-tool-that-lets-ai-agents-browse-the-real-internet-and-you-can-watch-them-do-it-2fff)
+* [Ply 1.0: Building apps in Rust shouldn't be this hard](https://plyx.iz.rs/blog/introducing-ply/)
 
 ### Observations/Thoughts
 * [Kovan: From Production MVCC Systems to Wait-Free Memory Reclamation](https://vertexclique.com/blog/kovan-from-prod-to-mr/)
@@ -63,11 +67,14 @@ and just ask the editors to select the category.
 [audio] [Netstack.FM episode 29 — Hyper With Sean McArthur (Ep 2 Remastered)](https://netstack.fm/#episode-29)
 
 ### Rust Walkthroughs
+* [Tutorial: let's make a resumable Pi Spigot with SQLite](https://www.sea-ql.org/blog/2026-02-28-sea-orm-sync/)
 * [Apache Iggy's migration journey to thread-per-core architecture powered by io_uring](https://iggy.apache.org/blogs/2026/02/27/thread-per-core-io_uring/)
 * [Formal methods for the unsafe side of the Force](https://antithesis.com/blog/2026/rust_formal_methods/)
 * [Quantifying the Swiss marriage tax](https://gendx.dev/blog/2026/03/02/swiss-marriage-tax.html)
 * [video] [Rust: compiling to WASM to make a browser-based game using canvas](https://artificialworlds.net/blog/2026/02/27/wasm-game/)
 * [video] [Daniel Almeida Interview, Writing a Linux GPU Kernel Driver in Rust](https://youtu.be/rgjTPBRae6I)
+
+* [Fast Python with Rust: a data-oriented approach](https://hackeryarn.com/post/fast-python-with-rust/)
 
 ### Research
 
