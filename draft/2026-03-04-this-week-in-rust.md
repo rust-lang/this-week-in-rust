@@ -62,6 +62,7 @@ and just ask the editors to select the category.
 [audio] [Netstack.FM episode 29 — Hyper With Sean McArthur (Ep 2 Remastered)](https://netstack.fm/#episode-29)
 
 ### Rust Walkthroughs
+* [Tutorial: let's make a resumable Pi Spigot with SQLite](https://www.sea-ql.org/blog/2026-02-28-sea-orm-sync/)
 * [Apache Iggy's migration journey to thread-per-core architecture powered by io_uring](https://iggy.apache.org/blogs/2026/02/27/thread-per-core-io_uring/)
 * [Formal methods for the unsafe side of the Force](https://antithesis.com/blog/2026/rust_formal_methods/)
 * [Quantifying the Swiss marriage tax](https://gendx.dev/blog/2026/03/02/swiss-marriage-tax.html)
