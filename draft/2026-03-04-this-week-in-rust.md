@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 * [Danube Messaging migration from ETCD](https://dev-state.com/posts/migrate_danube_etcd_to_raft/) 
 * [Feedr v0.4.0 - Terminal-based RSS feed reader](https://github.com/bahdotsh/feedr/releases/tag/v0.4.0)
 * [dag_exec: DAG executor for CPU-heavy pipelines](https://www.reymom.xyz/blog/rust/2026-03-03-exec_dag-official-release)
+* [Supercharge Rust functions with implicit arguments using CGP v0.7.0](https://contextgeneric.dev/blog/v0.7.0-release/)
 
 * [Ply 1.0: Building apps in Rust shouldn't be this hard](https://plyx.iz.rs/blog/introducing-ply/)
 
