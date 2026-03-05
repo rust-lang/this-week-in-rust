@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Compendium: Adding eBPF for Kernel-Level Visibility](https://pker.xyz/posts/compendium-ebpf)
 * [Danube Messaging migration from ETCD](https://dev-state.com/posts/migrate_danube_etcd_to_raft/) 
 * [Feedr v0.4.0 - Terminal-based RSS feed reader](https://github.com/bahdotsh/feedr/releases/tag/v0.4.0)
 * [dag_exec: DAG executor for CPU-heavy pipelines](https://www.reymom.xyz/blog/rust/2026-03-03-exec_dag-official-release)
