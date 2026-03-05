@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [2025 State of Rust Survey Results](https://blog.rust-lang.org/2026/03/02/2025-State-Of-Rust-Survey-results/)
 
 ### Foundation
 
@@ -46,8 +47,18 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Kovan: From Production MVCC Systems to Wait-Free Memory Reclamation](https://vertexclique.com/blog/kovan-from-prod-to-mr/)
+* [Never snooze a future](https://jacko.io/snooze.html)
+* [Rust zero-cost abstractions vs. SIMD](https://turbopuffer.com/blog/zero-cost)
+* [Nobody ever got fired for using a struct](https://www.feldera.com/blog/nobody-ever-got-fired-for-using-a-struct)
+* [Debugging Reproducibility Issues in Rust Software](https://notes.8pit.net/notes/iqfs.html)
 
 ### Rust Walkthroughs
+* [Apache Iggy's migration journey to thread-per-core architecture powered by io_uring](https://iggy.apache.org/blogs/2026/02/27/thread-per-core-io_uring/)
+* [Formal methods for the unsafe side of the Force](https://antithesis.com/blog/2026/rust_formal_methods/)
+* [Quantifying the Swiss marriage tax](https://gendx.dev/blog/2026/03/02/swiss-marriage-tax.html)
+* [video] [Rust: compiling to WASM to make a browser-based game using canvas](https://artificialworlds.net/blog/2026/02/27/wasm-game/)
+* [video] [Daniel Almeida Interview, Writing a Linux GPU Kernel Driver in Rust](https://youtu.be/rgjTPBRae6I)
 
 ### Research
 
