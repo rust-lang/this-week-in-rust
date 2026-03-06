@@ -55,6 +55,7 @@ and just ask the editors to select the category.
 * [Ply 1.0: Building apps in Rust shouldn't be this hard](https://plyx.iz.rs/blog/introducing-ply/)
 
 ### Observations/Thoughts
+* [Using Rust and Postgres for everything: patterns learned over the years](https://kerkour.com/rust-postgres-everything)
 * [Kovan: From Production MVCC Systems to Wait-Free Memory Reclamation](https://vertexclique.com/blog/kovan-from-prod-to-mr/)
 * [Never snooze a future](https://jacko.io/snooze.html)
 * [Rust zero-cost abstractions vs. SIMD](https://turbopuffer.com/blog/zero-cost)
