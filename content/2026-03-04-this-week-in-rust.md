@@ -73,7 +73,7 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-This week's crate is [office2pdf](office2pdf), a standalone library or binary to generate PDF from OOXML (docx, xlsx, etc.) files.
+This week's crate is [office2pdf](https://crates.io/crates/office2pdf), a standalone library or binary to generate PDF from OOXML (docx, xlsx, etc.) files.
 
 Thanks to [One](https://users.rust-lang.org/t/crate-of-the-week/2704/1562) for the suggestion!
 
