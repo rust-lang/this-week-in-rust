@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [mini-agent](https://github.com/RajMandaliya/mini-agent) - A minimal async-first AI agent framework in Rust with multi-provider support (OpenAI, Anthropic, OpenRouter, Ollama)
 
 ### Observations/Thoughts
 
