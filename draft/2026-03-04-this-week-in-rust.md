@@ -80,6 +80,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [TokioConf Update: What to Expect](https://tokio.rs/blog/2026-03-03-tokioconf-update)
 
 ## Crate of the Week
 
