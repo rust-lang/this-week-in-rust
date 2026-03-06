@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [RustCurious lesson 4: Structs and Resources – Copy vs Clone vs Move](https://www.youtube.com/watch?v=r-Ag_21CKBI)
+
 ### Research
 
 ### Miscellaneous
