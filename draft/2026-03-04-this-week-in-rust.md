@@ -40,8 +40,6 @@ and just ask the editors to select the category.
 ### Official
 * [2025 State of Rust Survey Results](https://blog.rust-lang.org/2026/03/02/2025-State-Of-Rust-Survey-results/)
 
-### Foundation
-
 ### Newsletters
 * [The Embedded Rustacean Issue #66](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-66)
 
@@ -61,23 +59,18 @@ and just ask the editors to select the category.
 * [Rust zero-cost abstractions vs. SIMD](https://turbopuffer.com/blog/zero-cost)
 * [Nobody ever got fired for using a struct](https://www.feldera.com/blog/nobody-ever-got-fired-for-using-a-struct)
 * [Debugging Reproducibility Issues in Rust Software](https://notes.8pit.net/notes/iqfs.html)
-
 * [Designing Backpressure in a Parallel DAG Executor](https://www.reymom.xyz/blog/rust/2026-02-21-backpressure-in-parallel-executor)
 * [Testing Concurrency Invariants in a Parallel Executor](https://www.reymom.xyz/blog/rust/2026-02-24-testing-invariants-atomics)
-
-[audio] [Netstack.FM episode 29 — Hyper With Sean McArthur (Ep 2 Remastered)](https://netstack.fm/#episode-29)
+* [audio] [Netstack.FM episode 29 — Hyper With Sean McArthur (Ep 2 Remastered)](https://netstack.fm/#episode-29)
 
 ### Rust Walkthroughs
 * [Tutorial: let's make a resumable Pi Spigot with SQLite](https://www.sea-ql.org/blog/2026-02-28-sea-orm-sync/)
 * [Apache Iggy's migration journey to thread-per-core architecture powered by io_uring](https://iggy.apache.org/blogs/2026/02/27/thread-per-core-io_uring/)
 * [Formal methods for the unsafe side of the Force](https://antithesis.com/blog/2026/rust_formal_methods/)
 * [Quantifying the Swiss marriage tax](https://gendx.dev/blog/2026/03/02/swiss-marriage-tax.html)
+* [Fast Python with Rust: a data-oriented approach](https://hackeryarn.com/post/fast-python-with-rust/)
 * [video] [Rust: compiling to WASM to make a browser-based game using canvas](https://artificialworlds.net/blog/2026/02/27/wasm-game/)
 * [video] [Daniel Almeida Interview, Writing a Linux GPU Kernel Driver in Rust](https://youtu.be/rgjTPBRae6I)
-
-* [Fast Python with Rust: a data-oriented approach](https://hackeryarn.com/post/fast-python-with-rust/)
-
-### Research
 
 ### Miscellaneous
 * [TokioConf Update: What to Expect](https://tokio.rs/blog/2026-03-03-tokioconf-update)
@@ -378,7 +371,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1qkkqi9/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
