@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rustaceans.AI: community for Rust developers using AI in their development workflow](https://rustaceans.ai/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
