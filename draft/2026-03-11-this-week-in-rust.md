@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [RusTorch: A PyTorch-like deep learning framework in pure Rust](https://github.com/Genius-apple/RusTorch)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
