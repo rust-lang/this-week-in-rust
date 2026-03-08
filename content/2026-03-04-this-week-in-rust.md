@@ -51,6 +51,7 @@ and just ask the editors to select the category.
 * [Supercharge Rust functions with implicit arguments using CGP v0.7.0](https://contextgeneric.dev/blog/v0.7.0-release/)
 * [vscreen: AI agents browser](https://dev.to/lowjax/i-built-a-tool-that-lets-ai-agents-browse-the-real-internet-and-you-can-watch-them-do-it-2fff)
 * [Ply 1.0: Building apps in Rust shouldn't be this hard](https://plyx.iz.rs/blog/introducing-ply/)
+* [Argus](https://github.com/tokamak-network/Argus) — Open-source Ethereum attack detection with opcode-level replay, built with ethrex LEVM and axum.
 
 ### Observations/Thoughts
 * [Using Rust and Postgres for everything: patterns learned over the years](https://kerkour.com/rust-postgres-everything)
