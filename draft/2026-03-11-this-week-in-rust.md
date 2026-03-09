@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [zyn — a template engine for Rust proc macros with zero-overhead components, diagnostics, and typed attribute parsing](https://github.com/aacebo/zyn)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
