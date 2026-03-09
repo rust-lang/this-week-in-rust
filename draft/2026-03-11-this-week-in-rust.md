@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+[ZK snarks for rust developer part 1/8](https://rustarians.com/polynomials-in-zk-snarks/)
 
 ### Research
 
