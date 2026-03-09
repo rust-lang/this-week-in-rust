@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Signing Rust Binaries Shouldn't Require Shell Scripts](https://d34dl0ck.me/cargo-codesign/index.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
