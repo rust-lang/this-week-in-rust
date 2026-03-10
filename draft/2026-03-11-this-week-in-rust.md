@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [ClickHouse meets SeaORM: Arrow-powered data pipeline](https://www.sea-ql.org/blog/2026-03-08-sea-clickhouse/)
 
 ### Observations/Thoughts
 
