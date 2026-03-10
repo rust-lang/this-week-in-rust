@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* There is an ongoing discussion about the role of AI and the Rust project. [Many project members posted comments into a hackmd and elsewhere](https://nikomatsakis.github.io/rust-project-perspectives-on-ai/all-comments.html) and those comments have been combined into a [comprehensive summary](https://nikomatsakis.github.io/rust-project-perspectives-on-ai/feb27-summary.html).
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
