@@ -173,7 +173,7 @@ git log --author=bors --since='MM/DD/YYYY 12:00PM' --until='MM/DD/YYYY 12:00PM' 
 edit in vim to get rid of everything but PR number, copy into clipboard
 
 ```
-for pr in $(xsel -ob); do firefox https://github.com/mozilla/rust/pull/$pr; sleep 0.07; done
+for pr in $(xsel -ob); do firefox https://github.com/rust-lang/rust/pull/$pr; sleep 0.07; done
 ```
 
 wait a long time...
