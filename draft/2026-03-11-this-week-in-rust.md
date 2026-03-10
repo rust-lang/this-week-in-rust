@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [mdterm v1.0.0 - A terminal-based Markdown browser written in Rust](https://github.com/bahdotsh/mdterm/releases/tag/v1.0.0)
 
 ### Observations/Thoughts
 
