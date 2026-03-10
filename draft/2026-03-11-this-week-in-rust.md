@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [audio] [Netstack.FM episode 30 — uReq with Martin Algesten](https://netstack.fm/#episode-30)
+
 ### Rust Walkthroughs
 
 ### Research
