@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [OpenTelemetry for Rust Developers - The Complete Implementation Guide](https://signoz.io/blog/opentelemetry-rust/)
+
 ### Research
 
 ### Miscellaneous
