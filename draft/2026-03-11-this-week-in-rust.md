@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [My Rust dev setup in 2026](https://bitfieldconsulting.com/posts/rust-dev-tools)
+
 ### Rust Walkthroughs
 
 ### Research
