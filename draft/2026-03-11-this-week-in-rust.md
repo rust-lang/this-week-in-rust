@@ -257,6 +257,8 @@ Rusty Events between 2026-03-11 - 2026-04-08 🦀
     * [**Rust Dortmund Meetup - Intro to Embedded Rust - March**](https://www.meetup.com/rust-dortmund/events/313338784/)
 * 2026-03-19 - 2026-03-20 | Warsaw, PL | [Rustikon](https://www.rustikon.dev/)
     * [**Rustikon Conference**](https://www.rustikon.dev/)
+* 2026-03-23 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
+    * [**Rust Meetup #18**: Ludwig Weinzierl - Bevy: Spielentwicklung mit Rust](https://rust-augsburg.github.io/meetup/Meetup_18.html)
 * 2026-03-24 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus)
     * [**Hack Night - Advent of Code**](https://www.meetup.com/rust-aarhus/events/313284304/)
 * 2026-03-24 | Manchester, UK | [Rust Manchester](https://www.meetup.com/rust-manchester)
