@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [[video](https://www.youtube.com/watch?v=gXIfP-W9074)] [How to stop fighting with coherence and start writing context-generic trait impls - RustLab 2025 transcript](https://contextgeneric.dev/blog/rustlab-2025-coherence)
 
 ### Rust Walkthroughs
 
