@@ -37,22 +37,35 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
 
+### Official
+* [Announcing Rust 1.94.0 | Rust Blog](https://blog.rust-lang.org/2026/03/05/Rust-1.94.0/)
 ### Foundation
 
 ### Newsletters
+* [🦀 State of Rust Survey Findings](https://weeklyrust.substack.com/p/state-of-rust-survey-findings)
 
 ### Project/Tooling Updates
+* [Release 0.7.0 · uutils/coreutils](https://github.com/uutils/coreutils/releases/tag/0.7.0)
 
 ### Observations/Thoughts
+* [symbolic derivatives and the rust rewrite of RE# | ian erik varatalu](https://iev.ee/blog/symbolic-derivatives-and-the-rust-rewrite-of-resharp/)
+
+* [The State of Allocators in 2026](https://cetra3.github.io/blog/state-of-allocators-2026/)
+* [series] [FORTRAN to Rust: part 1](https://zaynar.co.uk/posts/f2rust-1/)
+* [The Cost of Indirection in Rust](https://blog.sebastiansastre.co/posts/cost-of-indirection-in-rust/)
+
 
 ### Rust Walkthroughs
+* [How to stop fighting with coherence and start writing context-generic trait impls](https://contextgeneric.dev/blog/rustlab-2025-coherence/)
+* [Rewriting Our Database in Rust](https://medium.com/airtable-eng/rewriting-our-database-in-rust-f64e37a482ef)
+* [OpenTelemetry for Rust Developers - The Complete Implementation Guide](https://signoz.io/blog/opentelemetry-rust/)
 
 ### Research
 
 ### Miscellaneous
-
+* [Rust Shined Over Python for My CLI Tool - Smiling Dev Blog](https://smiling.dev/blog/rust-shined-over-python-for-my-cli-tool/)
+* [Write small Rust scripts](https://llogiq.github.io/2026/03/05/auto.html)
 ## Crate of the Week
 
 <!-- COTW goes here -->
