@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [sentencex](https://github.com/wikimedia/sentencex), a fast sentence segmentation library.
+
+Thanks to [Santhosh Thottingal](https://users.rust-lang.org/t/crate-of-the-week/2704/1564) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -137,7 +139,52 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+483 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-03-03..2026-03-10
+
+#### Compiler
+* [enable `PassMode::Indirect { on_stack: true, .. }` tail call arguments](https://github.com/rust-lang/rust/pull/153361)
+
+#### Library
+* [constify `Vec::{into, from}_raw_parts{_in|_alloc}`](https://github.com/rust-lang/rust/pull/153399)
+* [implement `MaybeDangling` compiler support](https://github.com/rust-lang/rust/pull/150447)
+* [stabilize `control_flow_ok`](https://github.com/rust-lang/rust/pull/152911)
+
+#### Cargo
+* [`compile`: Turn warning summaries into errors also](https://github.com/rust-lang/cargo/pull/16721)
+* [`fix`: Switch from ad-hoc to structured warnings](https://github.com/rust-lang/cargo/pull/16711)
+* [`script`: surpress `unused_features` lint for embedded](https://github.com/rust-lang/cargo/pull/16714)
+* [`tests`: allow for 'could not' as well as couldn't in test output](https://github.com/rust-lang/cargo/pull/16698)
+* [add missing truncate when writing `.crate` files](https://github.com/rust-lang/cargo/pull/16688)
+* [ignore implicit std dependencies in `unused-crate-dependencies` lint](https://github.com/rust-lang/cargo/pull/16677)
+* [let git decide when to run gc](https://github.com/rust-lang/cargo/pull/16459)
+* [split `build-dir` lock into dedicated lock](https://github.com/rust-lang/cargo/pull/16708)
+
+#### Clippy
+* [add `manual_pop_if` lint](https://github.com/rust-lang/rust-clippy/pull/16582)
+* [`doc_paragraphs_missing_punctuation`: Trim picture symbols](https://github.com/rust-lang/rust-clippy/pull/16514)
+* [do not materialize snippets when it is not needed to](https://github.com/rust-lang/rust-clippy/pull/16666)
+* [fix ICE in `match_same_arms`](https://github.com/rust-lang/rust-clippy/pull/16685)
+* [fix ICE in `swap_binop()`](https://github.com/rust-lang/rust-clippy/pull/16659)
+* [fix ICE when using the `min_generic_const_args` incomplete feature](https://github.com/rust-lang/rust-clippy/pull/16692)
+* [fix `infinite_loop` wrong suggestion inside conditional branches](https://github.com/rust-lang/rust-clippy/pull/16619)
+* [fix `redundant_closure` suggests wrongly when local is derefed to callable](https://github.com/rust-lang/rust-clippy/pull/16648)
+* [fix `unnecessary_safety_comment` false positive on code blocks inside inner docs](https://github.com/rust-lang/rust-clippy/pull/16559)
+* [fix semicolon-inside-block inside `try_blocks`](https://github.com/rust-lang/rust-clippy/pull/16697)
+* [optimize `allow_unwrap_types` evaluation to eliminate performance regression](https://github.com/rust-lang/rust-clippy/pull/16652)
+
+#### Rust-Analyzer
+* [do not re-query source roots per crate in analysis-stats](https://github.com/rust-lang/rust-analyzer/pull/21788)
+* [offer `destructure_struct_binding` on self param](https://github.com/rust-lang/rust-analyzer/pull/21687)
+* [when going to def on `?` on `Result` that goes through `From`, go to the `From` impl](https://github.com/rust-lang/rust-analyzer/pull/21752)
+* [add `has_pending` methods to `Incoming`/`Outgoing`/`ReqQueue` in `lsp_server`](https://github.com/rust-lang/rust-analyzer/pull/21755)
+* [`cfg_select` supports non token-tree tokens](https://github.com/rust-lang/rust-analyzer/pull/21705)
+* [align `is_rust()` with rustc by correcting constructor ABI in next solver](https://github.com/rust-lang/rust-analyzer/pull/21726)
+* [do not use PostAnalysis TypingMode for IDE method resolution](https://github.com/rust-lang/rust-analyzer/pull/21750)
+* [file watcher should watch directories recursively](https://github.com/rust-lang/rust-analyzer/pull/21771)
+* [fix wrong descend range for `add_missing_match_arms`](https://github.com/rust-lang/rust-analyzer/pull/21728)
+* [offer block `.let` in ref-expr in match arm](https://github.com/rust-lang/rust-analyzer/pull/21671)
 
 ### Rust Compiler Performance Triage
 
@@ -336,7 +383,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Happy "Clippy, you are very helpful" day for those who celebrates!
+
+– [Manpacket on functional.cafe](https://functional.cafe/@manpacket/116178060408287449)
+
+Despite a lamentable lack of suggestions, llogiq is exceedingly pleased with his choice.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
