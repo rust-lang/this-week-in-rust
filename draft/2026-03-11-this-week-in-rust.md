@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [The Anatomy of a 500ns Parser: Porting libphonenumber to Rust](https://dev.to/vloldik/the-anatomy-of-a-500ns-parser-porting-libphonenumber-to-rust-3daa) - Vladislav Kashin
+* [The Anatomy of a 500ns Parser: Porting libphonenumber to Rust](https://dev.to/vloldik/the-anatomy-of-a-500ns-parser-porting-libphonenumber-to-rust-3daa)
 * [ClickHouse meets SeaORM: Arrow-powered data pipeline](https://www.sea-ql.org/blog/2026-03-08-sea-clickhouse/)
 
 * [Rustaceans.AI: community for Rust developers using AI in their development workflow](https://rustaceans.ai/)
