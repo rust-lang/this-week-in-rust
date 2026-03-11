@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Rust is slowly but surely eating PostgreSQL: Deep dive into Neon, ParadeDB, PgDog and more](https://kerkour.com/rust-eating-postgres)
 
 ### Rust Walkthroughs
 
