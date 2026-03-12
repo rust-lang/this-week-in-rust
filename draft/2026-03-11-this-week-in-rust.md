@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 * [Rustaceans.AI](https://rustaceans.ai/)
 * [Leptodon 1.0.0: UI toolkit for the Leptos WASM framework](https://www.openanalytics.eu/blog/2026/03/09/leptodon-1.0.0/)
 
+* [Signing Rust Binaries Shouldn't Require Shell Scripts](https://d34dl0ck.me/cargo-codesign/index.html)
+
 ### Observations/Thoughts
 * [Why SeaORM over JavaScript client database options?](https://opeolluwa.github.io/almonds/blog/why-not-js-database)
 * [Rust is slowly but surely eating PostgreSQL: Deep dive into Neon, ParadeDB, PgDog and more](https://kerkour.com/rust-eating-postgres)
