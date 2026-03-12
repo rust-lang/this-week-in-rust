@@ -50,6 +50,8 @@ scattered about.
 """
 }
 
+DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives', '404']
+
 PLUGIN_PATHS = ["plugins"]
 
 # Don't add next/previous buttons search functionality for email.
