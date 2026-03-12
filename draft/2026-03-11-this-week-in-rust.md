@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 * [Rust is slowly but surely eating PostgreSQL: Deep dive into Neon, ParadeDB, PgDog and more](https://kerkour.com/rust-eating-postgres)
 * [What Happens When You Constrain an Event-Driven System to Three Primitives](https://www.rodriguez.today/articles/emergent-event-driven-workflows)
 
+* [My Rust dev setup in 2026](https://bitfieldconsulting.com/posts/rust-dev-tools)
+
 ### Rust Walkthroughs
 
 ### Research
