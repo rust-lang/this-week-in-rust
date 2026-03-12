@@ -58,6 +58,8 @@ and just ask the editors to select the category.
 
 * [audio] [Netstack.FM episode 30 — uReq with Martin Algesten](https://netstack.fm/#episode-30)
 
+* [Weighing up Zngur and CXX for Rust/C++ Interop](https://www.kdab.com/weighing-up-zngur-and-cxx-for-rustc-interop/)
+
 ### Rust Walkthroughs
 - [Get in Line (Part 2) - Vyukov's Queue and its specializations](https://abhikja.in/blog/2026-03-10-get-in-line-part-2/)
 
