@@ -45,15 +45,24 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [The Anatomy of a 500ns Parser: Porting libphonenumber to Rust](https://dev.to/vloldik/the-anatomy-of-a-500ns-parser-porting-libphonenumber-to-rust-3daa)
+* [mini-agent: A Rust AI Agent Framework](https://dev.to/rajmandaliya/building-a-rust-ai-agent-framework-from-scratch-what-i-learned-3o23)
 * [ClickHouse meets SeaORM: Arrow-powered data pipeline](https://www.sea-ql.org/blog/2026-03-08-sea-clickhouse/)
-
-* [Rustaceans.AI: community for Rust developers using AI in their development workflow](https://rustaceans.ai/)
-* [Leptodon 1.0.0: a new UI toolkit for the Leptos WASM framework](https://www.openanalytics.eu/blog/2026/03/09/leptodon-1.0.0/)
+* [Rustaceans.AI](https://rustaceans.ai/)
+* [Leptodon 1.0.0: UI toolkit for the Leptos WASM framework](https://www.openanalytics.eu/blog/2026/03/09/leptodon-1.0.0/)
 
 ### Observations/Thoughts
+* [Why SeaORM over JavaScript client database options?](https://opeolluwa.github.io/almonds/blog/why-not-js-database)
 * [Rust is slowly but surely eating PostgreSQL: Deep dive into Neon, ParadeDB, PgDog and more](https://kerkour.com/rust-eating-postgres)
+* [What Happens When You Constrain an Event-Driven System to Three Primitives](https://www.rodriguez.today/articles/emergent-event-driven-workflows)
+
+* [My Rust dev setup in 2026](https://bitfieldconsulting.com/posts/rust-dev-tools)
+
+* [audio] [Netstack.FM episode 30 — uReq with Martin Algesten](https://netstack.fm/#episode-30)
+
+* [Weighing up Zngur and CXX for Rust/C++ Interop](https://www.kdab.com/weighing-up-zngur-and-cxx-for-rustc-interop/)
 
 ### Rust Walkthroughs
+- [Get in Line (Part 2) - Vyukov's Queue and its specializations](https://abhikja.in/blog/2026-03-10-get-in-line-part-2/)
 
 ### Research
 
@@ -125,7 +134,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-<!-- * [ - ]() -->
+* [diesel-guard - REFRESH MATERIALIZED VIEW without CONCURRENTLY](https://github.com/ayarotsky/diesel-guard/issues/89)
+* [diesel-guard - ADD CHECK CONSTRAINT without NOT VALID](https://github.com/ayarotsky/diesel-guard/issues/88)
+* [diesel-guard - ADD FOREIGN KEY without NOT VALID](https://github.com/ayarotsky/diesel-guard/issues/87)
+* [diesel-guard - no lock_timeout/statement_timeout before DDL](https://github.com/ayarotsky/diesel-guard/issues/97)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
