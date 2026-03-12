@@ -56,6 +56,8 @@ and just ask the editors to select the category.
 
 * [My Rust dev setup in 2026](https://bitfieldconsulting.com/posts/rust-dev-tools)
 
+* [audio] [Netstack.FM episode 30 — uReq with Martin Algesten](https://netstack.fm/#episode-30)
+
 ### Rust Walkthroughs
 - [Get in Line (Part 2) - Vyukov's Queue and its specializations](https://abhikja.in/blog/2026-03-10-get-in-line-part-2/)
 
