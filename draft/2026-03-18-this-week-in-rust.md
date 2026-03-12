@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Building Rust Procedural Macros Without quote!: Introducing zyn](https://aacebo.hashnode.dev/building-rust-procedural-macros-without-quote-introducing-zyn)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
