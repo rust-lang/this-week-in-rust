@@ -37,13 +37,16 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
 
+### Official
+* [Announcing Rust 1.94.0 | Rust Blog](https://blog.rust-lang.org/2026/03/05/Rust-1.94.0/)
 ### Foundation
 
 ### Newsletters
+* [🦀 State of Rust Survey Findings](https://weeklyrust.substack.com/p/state-of-rust-survey-findings)
 
 ### Project/Tooling Updates
+* [Release 0.7.0 · uutils/coreutils](https://github.com/uutils/coreutils/releases/tag/0.7.0)
 * [mdterm v1.0.0 - A terminal-based Markdown browser](https://github.com/bahdotsh/mdterm/releases/tag/v1.0.0)
 * [The Anatomy of a 500ns Parser: Porting libphonenumber to Rust](https://dev.to/vloldik/the-anatomy-of-a-500ns-parser-porting-libphonenumber-to-rust-3daa)
 * [mini-agent: A Rust AI Agent Framework](https://dev.to/rajmandaliya/building-a-rust-ai-agent-framework-from-scratch-what-i-learned-3o23)
@@ -54,24 +57,28 @@ and just ask the editors to select the category.
 * [Signing Rust Binaries Shouldn't Require Shell Scripts](https://d34dl0ck.me/cargo-codesign/index.html)
 
 ### Observations/Thoughts
+* [symbolic derivatives and the rust rewrite of RE# | ian erik varatalu](https://iev.ee/blog/symbolic-derivatives-and-the-rust-rewrite-of-resharp/)
+* [The State of Allocators in 2026](https://cetra3.github.io/blog/state-of-allocators-2026/)
+* [series] [FORTRAN to Rust: part 1](https://zaynar.co.uk/posts/f2rust-1/)
+* [The Cost of Indirection in Rust](https://blog.sebastiansastre.co/posts/cost-of-indirection-in-rust/)
 * [Why SeaORM over JavaScript client database options?](https://opeolluwa.github.io/almonds/blog/why-not-js-database)
 * [Rust is slowly but surely eating PostgreSQL: Deep dive into Neon, ParadeDB, PgDog and more](https://kerkour.com/rust-eating-postgres)
 * [What Happens When You Constrain an Event-Driven System to Three Primitives](https://www.rodriguez.today/articles/emergent-event-driven-workflows)
-
 * [My Rust dev setup in 2026](https://bitfieldconsulting.com/posts/rust-dev-tools)
-
 * [audio] [Netstack.FM episode 30 — uReq with Martin Algesten](https://netstack.fm/#episode-30)
-
 * [Weighing up Zngur and CXX for Rust/C++ Interop](https://www.kdab.com/weighing-up-zngur-and-cxx-for-rustc-interop/)
-
 ### Rust Walkthroughs
 * [ZK snarks for rust developer part 1/8](https://rustarians.com/polynomials-in-zk-snarks/)
 * [Get in Line (Part 2) - Vyukov's Queue and its specializations](https://abhikja.in/blog/2026-03-10-get-in-line-part-2/)
+* [How to stop fighting with coherence and start writing context-generic trait impls](https://contextgeneric.dev/blog/rustlab-2025-coherence/)
+* [Rewriting Our Database in Rust](https://medium.com/airtable-eng/rewriting-our-database-in-rust-f64e37a482ef)
+* [OpenTelemetry for Rust Developers - The Complete Implementation Guide](https://signoz.io/blog/opentelemetry-rust/)
 
 ### Research
 
 ### Miscellaneous
-
+* [Rust Shined Over Python for My CLI Tool - Smiling Dev Blog](https://smiling.dev/blog/rust-shined-over-python-for-my-cli-tool/)
+* [Write small Rust scripts](https://llogiq.github.io/2026/03/05/auto.html)
 ## Crate of the Week
 
 This week's crate is [sentencex](https://github.com/wikimedia/sentencex), a fast sentence segmentation library.
