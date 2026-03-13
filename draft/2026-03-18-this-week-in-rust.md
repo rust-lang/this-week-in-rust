@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Patching LMDB: How We Made Meilisearch’s Vector Store 333% Faster](https://blog.kerollmops.com/patching-lmdb-how-we-made-meilisearch-s-vector-store-333-faster)
+
 ### Research
 
 ### Miscellaneous
