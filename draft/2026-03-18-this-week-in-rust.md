@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [How to Check Code Coverage in Rust](https://barretts.club/posts/how-to-test-code-coverage-rust-2026/)
+
 ### Research
 
 ### Miscellaneous
