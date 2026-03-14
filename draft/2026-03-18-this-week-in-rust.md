@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [loadgen-rs - h2load-compatible HTTP benchmark client written in Rust, supporting HTTP/1.1, HTTP/2, and HTTP/3 (QUIC)](https://blog.none.at/blog/2026/2026-03-01-loadgen-rs/)
 
 ### Observations/Thoughts
 
