@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Introducing pgtui, a Postgres TUI client](https://kdwarn.net/programming/blog/227)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
