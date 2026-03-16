@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [bnum v0.14.0: a lot of big improvements!](https://github.com/isaacholt100/bnum/releases/tag/v0.14.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
