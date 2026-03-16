@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Free TokioConf tickets for contributors and open source maintainers](https://tokio.rs/blog/2026-03-12-tokioconf-oss-tickets)
 
 ## Crate of the Week
 
