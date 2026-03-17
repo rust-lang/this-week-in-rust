@@ -260,6 +260,8 @@ Rusty Events between 2026-03-18 - 2026-04-15 🦀
     * [**Rust Manchester March Code Night**](https://www.meetup.com/rust-manchester/events/313495449/)
 * 2026-03-24 | Trondheim, NO | [Rust Trondheim](https://www.meetup.com/rust-trondheim)
     * [**Rust projects - show and tell in March**](https://www.meetup.com/rust-trondheim/events/313537618/)
+* 2026-03-25 | Dresden, DE | [Rust Dresden](https://github.com/rust-dresden)
+    * [**First Meetup**](https://github.com/rust-dresden/rust-dresden/discussions/7)
 * 2026-03-26 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris)
     * [**Rust meetup #84**](https://www.meetup.com/rust-paris/events/313646981/)
 * 2026-03-27 | Paris, FR | [Rust in Paris](https://www.rustinparis.com/)
