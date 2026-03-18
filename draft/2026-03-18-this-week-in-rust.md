@@ -42,18 +42,25 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #67](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-67)
 
 ### Project/Tooling Updates
 
 * [Introducing pgtui, a Postgres TUI client](https://kdwarn.net/programming/blog/227)
+* [Building Rust Procedural Macros Without quote!: Introducing zyn](https://aacebo.hashnode.dev/building-rust-procedural-macros-without-quote-introducing-zyn)
+* [bnum v0.14.0: a lot of big improvements!](https://github.com/isaacholt100/bnum/releases/tag/v0.14.0)
+* [ClawShell: Secure the OpenClaw using OS-level primitives](https://runta.com/blog/introducing-clawshell/)
 
 ### Observations/Thoughts
+
+* [audio] [Netstack.FM episode 31 — Protocol Shorts: MITM Proxies and Transparent L4 Interception](https://netstack.fm/#episode-31)
 
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
+* [Free TokioConf tickets for contributors and open source maintainers](https://tokio.rs/blog/2026-03-12-tokioconf-oss-tickets)
 
 ## Crate of the Week
 
@@ -262,6 +269,8 @@ Rusty Events between 2026-03-18 - 2026-04-15 🦀
     * [**Rust Manchester March Code Night**](https://www.meetup.com/rust-manchester/events/313495449/)
 * 2026-03-24 | Trondheim, NO | [Rust Trondheim](https://www.meetup.com/rust-trondheim)
     * [**Rust projects - show and tell in March**](https://www.meetup.com/rust-trondheim/events/313537618/)
+* 2026-03-25 | Dresden, DE | [Rust Dresden](https://github.com/rust-dresden)
+    * [**First Meetup**](https://github.com/rust-dresden/rust-dresden/discussions/7)
 * 2026-03-26 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris)
     * [**Rust meetup #84**](https://www.meetup.com/rust-paris/events/313646981/)
 * 2026-03-27 | Paris, FR | [Rust in Paris](https://www.rustinparis.com/)
