@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 * [audio] [Netstack.FM episode 31 — Protocol Shorts: MITM Proxies and Transparent L4 Interception](https://netstack.fm/#episode-31)
 
 ### Rust Walkthroughs
+* [Building small and secure Docker images for Rust: scratch vs alpine vs debian](https://kerkour.com/rust-docker-small-secure-images)
 
 ### Research
 
