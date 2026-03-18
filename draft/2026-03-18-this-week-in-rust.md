@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 * [The Embedded Rustacean Issue #67](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-67)
 
 ### Project/Tooling Updates
+* [loadgen-rs - h2load-compatible HTTP benchmark client written in Rust, supporting HTTP/1.1, HTTP/2, and HTTP/3 (QUIC)](https://blog.none.at/blog/2026/2026-03-01-loadgen-rs/)
 
 * [Introducing pgtui, a Postgres TUI client](https://kdwarn.net/programming/blog/227)
 * [Building Rust Procedural Macros Without quote!: Introducing zyn](https://aacebo.hashnode.dev/building-rust-procedural-macros-without-quote-introducing-zyn)
