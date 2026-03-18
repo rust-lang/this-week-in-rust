@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [grab](https://github.com/anwitars/grab), a command-line tool to quickly convert CSV to JSON.
+
+Thanks to [Gábor Maksa](https://users.rust-lang.org/t/crate-of-the-week/2704/1565) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -137,7 +139,41 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+427 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-03-10..2026-03-17
+
+#### Compiler
+* [provide better suggestions for inference errors on `.collect()?`](https://github.com/rust-lang/rust/pull/153925)
+
+#### Library
+* [add `From` impls for wrapper types](https://github.com/rust-lang/rust/pull/146013)
+* [in `Option::get_or_insert_with()`, forget the `None` instead of dropping it](https://github.com/rust-lang/rust/pull/148562)
+* [fixed `VecDeque::splice()` not filling the buffer correctly when resizing the buffer on start = end range](https://github.com/rust-lang/rust/pull/152258)
+
+#### Cargo
+* [`CARGO_TARGET_DIR` doesn't have to be relative](https://github.com/rust-lang/cargo/pull/16735)
+* [`shell`: Support OSC 9;4 progress on ptyxis](https://github.com/rust-lang/cargo/pull/16730)
+* [`compile`: Stop on denying warnings without --keep-going](https://github.com/rust-lang/cargo/pull/16725)
+* [avoid panic for package specs with an empty fragment](https://github.com/rust-lang/cargo/pull/16754)
+* [util: exclude from iCloud Drive sync on macOS](https://github.com/rust-lang/cargo/pull/16728)
+
+#### Rustdoc
+* [`rustdoc-json`: Add optional support for rkyv (de)serialization](https://github.com/rust-lang/rust/pull/153283)
+
+#### Clippy
+* [fix `match_same_arms` false positive with associated consts](https://github.com/rust-lang/rust-clippy/pull/16701)
+* [fix: `question_mark` suggestion caused error](https://github.com/rust-lang/rust-clippy/pull/16656)
+* [refactor implementation of `unnecessary_{option,result}_map_or_else`](https://github.com/rust-lang/rust-clippy/pull/15889)
+
+#### Rust-Analyzer
+* [don't trigger GC on slow tests](https://github.com/rust-lang/rust-analyzer/pull/21827)
+* [SCIP generation should prime caches in parallel](https://github.com/rust-lang/rust-analyzer/pull/21828)
+* [add naming convention validation for `union` types](https://github.com/rust-lang/rust-analyzer/pull/21794)
+* [handle multi-byte UTF-8 identifiers in `NameGenerator::suggest_name`](https://github.com/rust-lang/rust-analyzer/pull/21793)
+* [infer generic args for trait ref and its assoc type](https://github.com/rust-lang/rust-analyzer/pull/21820)
+* [remove angle brackets if all lifetime args removed in inline type alias code assist](https://github.com/rust-lang/rust-analyzer/pull/21784)
+* [replace make usage with SyntaxFactory in few ide-assists utils methods](https://github.com/rust-lang/rust-analyzer/pull/21826)
 
 ### Rust Compiler Performance Triage
 
@@ -320,7 +356,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> What we collectively build, beyond the code artifacts that the compiler+tools are, is a group of people who come back, who learn, who share their understanding, who align their tastes, who take input from the community, etc etc. Merging an LLM-generated PR feeds only the “we have code that works” part of the Project; it’s not participating in all the other feedback cycles that make the project alive.
+
+– [Nadrieril on the Rust Project Perspectives on AI](https://nikomatsakis.github.io/rust-project-perspectives-on-ai/feb27-summary.html#codebases-are-more-than-code)
+
+Despite another week without a suggestion, llogiq is pleased with his choice.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
