@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [audio] [Netstack.FM episode 31 — Protocol Shorts: MITM Proxies and Transparent L4 Interception](https://netstack.fm/#episode-31)
+
 ### Rust Walkthroughs
 
 ### Research
