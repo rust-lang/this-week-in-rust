@@ -267,6 +267,8 @@ Rusty Events between 2026-03-18 - 2026-04-15 🦀
     * [**Rustikon Conference**](https://www.rustikon.dev/)
 * 2026-03-23 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
     * [**Rust Meetup #18**: Ludwig Weinzierl - Bevy: Spielentwicklung mit Rust](https://rust-augsburg.github.io/meetup/Meetup_18.html)
+* 2026-03-23 | Amsterdam, NL | [Open Source SecurityCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/open-source-securitycon/)
+    * [**Open Source SecurityCon EU 2026**](https://rustfoundation.org/event/open-source-securitycon-eu-2026/)
 * 2026-03-24 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus)
     * [**Hack Night - Advent of Code**](https://www.meetup.com/rust-aarhus/events/313284304/)
 * 2026-03-24 | Manchester, UK | [Rust Manchester](https://www.meetup.com/rust-manchester)
@@ -329,7 +331,7 @@ Rusty Events between 2026-03-18 - 2026-04-15 🦀
     * [**Encontro do Rust-SP (migrado pro Lumma)**](https://www.meetup.com/rust-sao-paulo-meetup/events/313446400/)
 * 2026-04-11 | Argentina, AR | [Oxidar Org](https://luma.com/user/oxidar)
     * [**Oxidar.org Hackaton - Snakear - ¡Veni a hackear con Rust!**](https://luma.com/5f51ey45)
-    
+
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
 Email the [Rust Community Team][community] for access.
