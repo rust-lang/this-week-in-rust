@@ -42,16 +42,31 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #67](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-67)
 
 ### Project/Tooling Updates
+* [loadgen-rs - h2load-compatible HTTP benchmark client written in Rust, supporting HTTP/1.1, HTTP/2, and HTTP/3 (QUIC)](https://blog.none.at/blog/2026/2026-03-01-loadgen-rs/)
+
+* [Introducing pgtui, a Postgres TUI client](https://kdwarn.net/programming/blog/227)
+* [Building Rust Procedural Macros Without quote!: Introducing zyn](https://aacebo.hashnode.dev/building-rust-procedural-macros-without-quote-introducing-zyn)
+* [bnum v0.14.0: a lot of big improvements!](https://github.com/isaacholt100/bnum/releases/tag/v0.14.0)
+* [ClawShell: Secure the OpenClaw using OS-level primitives](https://runta.com/blog/introducing-clawshell/)
 
 ### Observations/Thoughts
 
+* [How to use storytelling to fit inline assembly into Rust](https://www.ralfj.de/blog/2026/03/13/inline-asm.html)
+* [audio] [Netstack.FM episode 31 — Protocol Shorts: MITM Proxies and Transparent L4 Interception](https://netstack.fm/#episode-31)
+
 ### Rust Walkthroughs
+
+* [Patching LMDB: How We Made Meilisearch’s Vector Store 333% Faster](https://blog.kerollmops.com/patching-lmdb-how-we-made-meilisearch-s-vector-store-333-faster)
+* [How to Check Code Coverage in Rust](https://barretts.club/posts/how-to-test-code-coverage-rust-2026/)
+* [video] [RustCurious lesson 4: Structs and Resources – Copy vs Clone vs Move](https://www.youtube.com/watch?v=r-Ag_21CKBI)
 
 ### Research
 
 ### Miscellaneous
+* [Free TokioConf tickets for contributors and open source maintainers](https://tokio.rs/blog/2026-03-12-tokioconf-oss-tickets)
 
 ## Crate of the Week
 
