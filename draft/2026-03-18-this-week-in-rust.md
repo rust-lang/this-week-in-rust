@@ -52,7 +52,7 @@ and just ask the editors to select the category.
 * [bnum v0.14.0: a lot of big improvements!](https://github.com/isaacholt100/bnum/releases/tag/v0.14.0)
 * [ClawShell: Secure the OpenClaw using OS-level primitives](https://runta.com/blog/introducing-clawshell/)
 * [Giff v1.1.0: A terminal UI for git diffs with interactive rebase support](https://github.com/bahdotsh/giff/releases/tag/v1.1.0)
-* [mdterm v1.5.0: A terminal-based Markdown browser](https://github.com/bahdotsh/giff/releases/tag/v1.1.0)
+* [mdterm v1.5.0: A terminal-based Markdown browser](https://github.com/bahdotsh/mdterm/releases/tag/v1.5.0)
 
 ### Observations/Thoughts
 
