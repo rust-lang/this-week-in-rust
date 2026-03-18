@@ -51,6 +51,7 @@ and just ask the editors to select the category.
 * [Building Rust Procedural Macros Without quote!: Introducing zyn](https://aacebo.hashnode.dev/building-rust-procedural-macros-without-quote-introducing-zyn)
 * [bnum v0.14.0: a lot of big improvements!](https://github.com/isaacholt100/bnum/releases/tag/v0.14.0)
 * [ClawShell: Secure the OpenClaw using OS-level primitives](https://runta.com/blog/introducing-clawshell/)
+* [flodl - A Rust-native deep learning framework built on libtorch](https://github.com/fab2s/floDl)
 
 ### Observations/Thoughts
 
@@ -62,6 +63,7 @@ and just ask the editors to select the category.
 * [Patching LMDB: How We Made Meilisearch’s Vector Store 333% Faster](https://blog.kerollmops.com/patching-lmdb-how-we-made-meilisearch-s-vector-store-333-faster)
 * [How to Check Code Coverage in Rust](https://barretts.club/posts/how-to-test-code-coverage-rust-2026/)
 * [video] [RustCurious lesson 4: Structs and Resources – Copy vs Clone vs Move](https://www.youtube.com/watch?v=r-Ag_21CKBI)
+* [impl Drop for Tensor: How Rust replaced five layers of GPU memory management](https://flodl.dev/blog/impl-drop-for-tensor)
 
 ### Research
 
