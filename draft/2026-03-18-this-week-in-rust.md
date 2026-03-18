@@ -312,7 +312,9 @@ Rusty Events between 2026-03-18 - 2026-04-15 🦀
 ### South America
 * 2026-03-21 | São Paulo, BR | [Rust São Paulo Meetup](https://www.meetup.com/rust-sao-paulo-meetup)
     * [**Encontro do Rust-SP (migrado pro Lumma)**](https://www.meetup.com/rust-sao-paulo-meetup/events/313446400/)
-
+* 2026-04-11 | Argentina, AR | [Oxidar Org](https://luma.com/user/oxidar)
+    * [**Oxidar.org Hackaton - Snakear - ¡Veni a hackear con Rust!**](https://luma.com/5f51ey45)
+    
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
 Email the [Rust Community Team][community] for access.
