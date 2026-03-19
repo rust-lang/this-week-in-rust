@@ -75,6 +75,7 @@ and just ask the editors to select the category.
 * [video] [Rust-powered SpacetimeDB is 1000x Faster? Founder Explains](https://www.youtube.com/watch?v=qfKBv3A0CVs)
 
 ### Rust Walkthroughs
+* [Building small and secure Docker images for Rust: scratch vs alpine vs debian](https://kerkour.com/rust-docker-small-secure-images)
 
 * [Patching LMDB: How We Made Meilisearch’s Vector Store 333% Faster](https://blog.kerollmops.com/patching-lmdb-how-we-made-meilisearch-s-vector-store-333-faster)
 * [Creating a DAW in Rust - Playing Audio](https://whoisryosuke.com/blog/2026/creating-a-daw-in-rust/)
