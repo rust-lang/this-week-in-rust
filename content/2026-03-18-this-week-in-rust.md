@@ -39,8 +39,8 @@ and just ask the editors to select the category.
 
 ### Official
 
-* [Announcing rustup 1.29.0 | Rust Blog](https://blog.rust-lang.org/2026/03/12/Rustup-1.29.0/)
-* [Call for Testing: Build Dir Layout v2 | Rust Blog](https://blog.rust-lang.org/2026/03/13/call-for-testing-build-dir-layout-v2/)
+* [Announcing rustup 1.29.0](https://blog.rust-lang.org/2026/03/12/Rustup-1.29.0/)
+* [Call for Testing: Build Dir Layout v2](https://blog.rust-lang.org/2026/03/13/call-for-testing-build-dir-layout-v2/)
 
 ### Newsletters
 
