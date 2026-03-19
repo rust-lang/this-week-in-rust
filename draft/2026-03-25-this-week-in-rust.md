@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+- [Introducing dial9: A flight recorder for Tokio](https://tokio.rs/blog/2026-03-18-dial9)
 
 ### Observations/Thoughts
 
