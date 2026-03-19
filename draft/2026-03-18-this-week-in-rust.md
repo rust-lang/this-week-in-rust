@@ -63,6 +63,7 @@ and just ask the editors to select the category.
 * [mdterm v1.5.0: A terminal-based Markdown browser](https://github.com/bahdotsh/mdterm/releases/tag/v1.5.0)
 * [flodl - A Rust-native deep learning framework built on libtorch](https://flodl.dev/blog/impl-drop-for-tensor)
 * [Cot v0.6: Lazy Underneath](https://mackow.ski/blog/cot-v06-lazy-underneath/)
+*  [flodl - A Rust-native deep learning framework built on libtorch](https://crates.io/crates/flodl)
 
 ### Observations/Thoughts
 
