@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[mtp-rs: pure-Rust MTP library, up to 4x faster than libmtp](https://www.veszelovszki.com/a/mtp-rs/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
