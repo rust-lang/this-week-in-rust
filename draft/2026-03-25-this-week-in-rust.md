@@ -137,6 +137,10 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
+#### Compiler
+
+* [Introduce #[diagnostic::on_move(message)]](https://github.com/rust-lang/rust/pull/150935)
+
 <!-- Rust updates go here -->
 
 ### Rust Compiler Performance Triage
