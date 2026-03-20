@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [vigil-rs: A Rust Service Supervisor for Containers with PIP 1 handling](https://blog.none.at/blog/2026/2026-03-21-virgil/)
 
 ### Observations/Thoughts
 
