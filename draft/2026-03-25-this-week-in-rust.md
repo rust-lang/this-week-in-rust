@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [OfficeMD - fast Office document extraction for LLMs and agents, converting DOCX, XLSX, CSV, PPTX, and PDF into markdown and structured JSON](https://github.com/ThomAub/officemd)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
