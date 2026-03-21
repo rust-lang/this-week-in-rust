@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [Ferox](https://dev.to/frkdrgt/i-built-a-postgresql-client-in-rust-because-dbeaver-was-eating-my-ram-1eg1) — A native PostgreSQL client in Rust with minimal RAM footprint. No Electron, no JVM — pure Rust with egui + tokio-postgres.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
