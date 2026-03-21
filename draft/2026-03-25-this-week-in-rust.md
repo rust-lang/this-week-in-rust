@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Markdown Knowledge Graph for Humans and AI Agents](https://dev.to/gimalay/markdown-knowledge-graph-for-humans-and-agents-43c4)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
