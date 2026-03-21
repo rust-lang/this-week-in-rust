@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [halloy 2026.5 - desktop IRC client with IRCv3 capabilities](https://github.com/squidowl/halloy/releases/tag/2026.5)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
