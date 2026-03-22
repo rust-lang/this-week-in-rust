@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Banish v1.3.0: Becoming a Framework](https://github.com/LoganFlaherty/banish/releases/tag/v1.3.0) - A declarative framework for rule-based state machines in Rust. This release adds async support, runtime dispatch, block attributes, transition guards, and variable scoping, completing the foundation of the framework.
 
 ### Observations/Thoughts
 
