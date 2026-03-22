@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [video] [Batty: Supervised Agent Execution for Software Teams — Demo](https://www.youtube.com/watch?v=2wmBcUnq0vw)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
