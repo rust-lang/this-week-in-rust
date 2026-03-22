@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Elaborating Rust Traits to Dictionary-Passing Style](https://nadrieril.github.io/blog/2026/03/20/dictionary-passing-style.html)
+
 ### Rust Walkthroughs
 
 ### Research
