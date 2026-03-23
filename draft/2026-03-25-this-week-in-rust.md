@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Ariel OS v0.4.0 released: tooling upgrades, enables BLE on esp32 and other improvements](https://www.reddit.com/r/rust/comments/1rx43l2/ariel_os_v040_released/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
