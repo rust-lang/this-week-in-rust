@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Zellij 0.44: native Windows support, new Rust APIs, remote sessions](https://zellij.dev/news/remote-sessions-windows-cli/)
 
 ### Observations/Thoughts
 
