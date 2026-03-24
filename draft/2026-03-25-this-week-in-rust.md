@@ -44,8 +44,10 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [openai-oxide v0.9.8: Idiomatic OpenAI client for Rust with persistent WebSockets, structured outputs, WASM support, and Node/Python bindings](https://github.com/fortunto2/openai-oxide)
 
 ### Observations/Thoughts
+* [I ported the OpenAI Python SDK to Rust in 5 days with Claude Code](https://dev.to/fortunto2/squeezing-every-millisecond-from-the-openai-api-in-rust-4b11)
 
 ### Rust Walkthroughs
 
