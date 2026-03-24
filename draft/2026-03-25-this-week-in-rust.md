@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+[ZK snarks for rust developer part 2/8](https://rustarians.com/roots-of-unity/)
 
 ### Research
 
