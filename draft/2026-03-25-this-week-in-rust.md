@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Rust in Intersec's lib-common, Part 1: Integrating Rust in a C Build System](https://techtalk.intersec.com/2026/03/rust-in-lib-common-part-1-integrating-rust-in-a-waf-based-c-build-system/)
 
 ### Research
 
