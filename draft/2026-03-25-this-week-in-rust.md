@@ -46,10 +46,14 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [Bookokrat v0.3.8: A terminal EPUB / PDF Book Reader now supports DJVU](https://github.com/bugzmanov/bookokrat/releases/tag/v0.3.8)
+* [flodl v0.1.5: benchmarking Rust vs PyTorch on 7 models — up to 30% faster with 3-20x tighter variance](https://flodl.dev/blog/benchmarks)
+* [Zero-copy Protobuf and ConnectRPC for Rust](https://dev.to/iainmcgin/zero-copy-protobuf-and-connectrpc-for-rust-1m3e)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Building pentest devices with Rust and ESP32 microcontrollers](https://kerkour.com/rust-esp32-pentest)
+* [Rust in Intersec's lib-common, Part 1: Integrating Rust in a C Build System](https://techtalk.intersec.com/2026/03/rust-in-lib-common-part-1-integrating-rust-in-a-waf-based-c-build-system/)
 
 ### Research
 
@@ -225,6 +229,8 @@ Rusty Events between 2026-03-25 - 2026-04-22 🦀
     * [**Rust Girona Hack & Learn 03 2026**](https://luma.com/vq9w8q0w)
 * 2026-03-26 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/308455925/)
+* 2026-03-31 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens)
+    * [**Web development using axum in Rust - part 1**](https://www.meetup.com/code-mavens/events/313944077/)
 * 2026-04-01 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/me4jwgxu)
 * 2026-04-01 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
