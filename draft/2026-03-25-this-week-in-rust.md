@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [indxr v0.2.0](https://github.com/bahdotsh/indxr/releases/tag/v0.2.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
