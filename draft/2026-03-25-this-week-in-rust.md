@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [indxr v0.2.0](https://github.com/bahdotsh/indxr/releases/tag/v0.2.0)
+* [indxr v0.2.0: A fast codebase indexer that provides AI agents with structural maps of source code via an MCP server](https://github.com/bahdotsh/indxr/releases/tag/v0.2.0)
 
 ### Observations/Thoughts
 
