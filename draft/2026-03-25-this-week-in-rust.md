@@ -211,6 +211,8 @@ Rusty Events between 2026-03-25 - 2026-04-22 🦀
     * [**Rust Girona Hack & Learn 03 2026**](https://luma.com/vq9w8q0w)
 * 2026-03-26 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/308455925/)
+* 2026-03-31 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens)
+    * [**Web development using axum in Rust - part 1**](https://www.meetup.com/code-mavens/events/313944077/)
 * 2026-04-01 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/me4jwgxu)
 * 2026-04-01 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
