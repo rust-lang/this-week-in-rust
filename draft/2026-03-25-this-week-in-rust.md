@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Bookokrat v0.3.8: A terminal EPUB / PDF Book Reader now supports DJVU](https://github.com/bugzmanov/bookokrat/releases/tag/v0.3.8)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
