@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Building pentest devices with Rust and an ESP32-C6](https://kerkour.com/rust-esp32-pentest)
 
 ### Rust Walkthroughs
 
