@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [flodl v0.1.3: benchmarking Rust vs PyTorch on 7 models — up to 30% faster with 3-20x tighter variance](https://flodl.dev/blog/benchmarks)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
