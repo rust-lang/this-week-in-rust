@@ -38,17 +38,39 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [What we heard about Rust's challenges](https://blog.rust-lang.org/2026/03/20/rust-challenges/)
+* [Security advisory for Cargo](https://blog.rust-lang.org/2026/03/21/cve-2026-33056/)
 
 ### Foundation
+* [Canonical Joins the Rust Foundation as a Gold Member](https://rustfoundation.org/media/canonical-joins-the-rust-foundation-as-a-gold-member/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Fyrox 1.0.0](https://fyrox.rs/blog/post/fyrox-game-engine-1-0-0/)
+
+* [Edge.js: running Node.js safely in a WebAssembly sandbox with Wasmer and WASIX](https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox)
+* [Bookokrat v0.3.8: A terminal EPUB / PDF Book Reader now supports DJVU](https://github.com/bugzmanov/bookokrat/releases/tag/v0.3.8)
+* [flodl v0.1.5: benchmarking Rust vs PyTorch on 7 models — up to 30% faster with 3-20x tighter variance](https://flodl.dev/blog/benchmarks)
+* [Zero-copy Protobuf and ConnectRPC for Rust](https://dev.to/iainmcgin/zero-copy-protobuf-and-connectrpc-for-rust-1m3e)
 
 ### Observations/Thoughts
+* [Deadlocking a Tokio Mutex without Holding a Lock](https://www.e6data.com/blog/deadlocking-tokio-mutex-without-holding-lock)
+* [The Good, the Bad, and the Leaky: jemalloc, bumpalo, and mimalloc in meilisearch](https://blog.kerollmops.com/the-good-the-bad-and-the-leaky-jemalloc-bumpalo-and-mimalloc-in-meilisearch)
+* [Maximally minimal view types](https://smallcultfollowing.com/babysteps/blog/2026/03/21/view-types-max-min/)
+* [Matching Puzzle Pieces and Disappointing Benchmarks](https://llogiq.github.io/2026/03/20/case.html)
+* [What If Traits Carried Values](https://nadrieril.github.io/blog/2026/03/22/what-if-traits-carried-values.html)
+* [An effect notation based on with-clauses and blocks](https://blog.yoshuawuyts.com/a-with-based-effect-notation)
+* [Rust threads on the GPU](https://www.vectorware.com/blog/threads-on-gpu)
 
 ### Rust Walkthroughs
-[ZK snarks for rust developer part 2/8](https://rustarians.com/roots-of-unity/)
+* [ZK snarks for rust developer part 2/8](https://rustarians.com/roots-of-unity/)
+* [Introducing dial9: a flight recorder for Tokio](https://tokio.rs/blog/2026-03-18-dial9)
+* [Let's see Paul Allen's SIMD CSV parser](https://chunkofcoal.com/posts/simd-csv/)
+* [Building an LSP Server with Rust is surprisingly easy and fun](https://codeinput.com/blog/lsp-server)
+* [An Incoherent Rust](https://www.boxyuwu.blog/posts/an-incoherent-rust/)
+* [Building pentest devices with Rust and ESP32 microcontrollers](https://kerkour.com/rust-esp32-pentest)
+* [Rust in Intersec's lib-common, Part 1: Integrating Rust in a C Build System](https://techtalk.intersec.com/2026/03/rust-in-lib-common-part-1-integrating-rust-in-a-waf-based-c-build-system/)
 
 ### Research
 
@@ -122,6 +144,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+
+* [Wild Almonds — Appimage fails to start](https://github.com/opeolluwa/almonds/issues/75)
+* [Wild Almonds — implement workspace for user_preference](https://github.com/opeolluwa/almonds/issues/116)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -221,6 +246,8 @@ Rusty Events between 2026-03-25 - 2026-04-22 🦀
     * [**Rust Girona Hack & Learn 03 2026**](https://luma.com/vq9w8q0w)
 * 2026-03-26 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/308455925/)
+* 2026-03-31 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens)
+    * [**Web development using axum in Rust - part 1**](https://www.meetup.com/code-mavens/events/313944077/)
 * 2026-04-01 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/me4jwgxu)
 * 2026-04-01 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
