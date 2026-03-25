@@ -64,6 +64,7 @@ and just ask the editors to select the category.
 * [Rust threads on the GPU](https://www.vectorware.com/blog/threads-on-gpu)
 
 ### Rust Walkthroughs
+* [ZK snarks for rust developer part 2/8](https://rustarians.com/roots-of-unity/)
 * [Introducing dial9: a flight recorder for Tokio](https://tokio.rs/blog/2026-03-18-dial9)
 * [Let's see Paul Allen's SIMD CSV parser](https://chunkofcoal.com/posts/simd-csv/)
 * [Building an LSP Server with Rust is surprisingly easy and fun](https://codeinput.com/blog/lsp-server)
