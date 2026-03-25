@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 * [Canonical Joins the Rust Foundation as a Gold Member](https://rustfoundation.org/media/canonical-joins-the-rust-foundation-as-a-gold-member/)
 
 ### Newsletters
+* [Scientific Computing in Rust #16 (March 2026)](https://scientificcomputing.rs/monthly/2026-03)
 
 ### Project/Tooling Updates
 * [Fyrox 1.0.0](https://fyrox.rs/blog/post/fyrox-game-engine-1-0-0/)
