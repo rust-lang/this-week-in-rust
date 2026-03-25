@@ -54,6 +54,8 @@ and just ask the editors to select the category.
 * [flodl v0.1.5: benchmarking Rust vs PyTorch on 7 models — up to 30% faster with 3-20x tighter variance](https://flodl.dev/blog/benchmarks)
 * [Zero-copy Protobuf and ConnectRPC for Rust](https://dev.to/iainmcgin/zero-copy-protobuf-and-connectrpc-for-rust-1m3e)
 
+[mtp-rs: pure-Rust MTP library, up to 4x faster than libmtp](https://www.veszelovszki.com/a/mtp-rs/)
+
 ### Observations/Thoughts
 * [Deadlocking a Tokio Mutex without Holding a Lock](https://www.e6data.com/blog/deadlocking-tokio-mutex-without-holding-lock)
 * [The Good, the Bad, and the Leaky: jemalloc, bumpalo, and mimalloc in meilisearch](https://blog.kerollmops.com/the-good-the-bad-and-the-leaky-jemalloc-bumpalo-and-mimalloc-in-meilisearch)
