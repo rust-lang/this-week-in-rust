@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Edge.js: running Node.js safely in a WebAssembly sandbox with Wasmer and WASIX](https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
