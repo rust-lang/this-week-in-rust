@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Building pentest devices with Rust and ESP32 microcontrollers](https://kerkour.com/rust-esp32-pentest)
 
 ### Research
 
