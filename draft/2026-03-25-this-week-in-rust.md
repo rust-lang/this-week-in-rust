@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 * [Scientific Computing in Rust #16 (March 2026)](https://scientificcomputing.rs/monthly/2026-03)
 
 ### Project/Tooling Updates
+* [Introducing dial9: A flight recorder for Tokio](https://tokio.rs/blog/2026-03-18-dial9)
 * [Zellij 0.44: native Windows support, new Rust APIs, remote sessions](https://zellij.dev/news/remote-sessions-windows-cli/)
 * [vigil-rs: A Rust Service Supervisor for Containers with PIP 1 handling](https://blog.none.at/blog/2026/2026-03-21-virgil/)
 * [Fyrox 1.0.0](https://fyrox.rs/blog/post/fyrox-game-engine-1-0-0/)
@@ -71,7 +72,6 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [ZK snarks for rust developer part 2/8](https://rustarians.com/roots-of-unity/)
-* [Introducing dial9: a flight recorder for Tokio](https://tokio.rs/blog/2026-03-18-dial9)
 * [Let's see Paul Allen's SIMD CSV parser](https://chunkofcoal.com/posts/simd-csv/)
 * [Building an LSP Server with Rust is surprisingly easy and fun](https://codeinput.com/blog/lsp-server)
 * [An Incoherent Rust](https://www.boxyuwu.blog/posts/an-incoherent-rust/)
