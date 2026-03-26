@@ -83,7 +83,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [noq](https://github.com/n0-computer/noq), a general purpose implementation of the [QUIC transport protocol](https://www.rfc-editor.org/rfc/rfc9000.html) in pure rust.
+
+Thanks to [Brendan O'Brien](https://users.rust-lang.org/t/crate-of-the-week/2704/1569) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -171,7 +173,81 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+433 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-03-17..2026-03-24
+
+#### Compiler
+* [fix some suggestions of the `for-loops-over-fallibles` lint](https://github.com/rust-lang/rust/pull/153913)
+* [guard patterns: lowering to THIR](https://github.com/rust-lang/rust/pull/153828)
+* [introduce `#[diagnostic::on_move(message)]`](https://github.com/rust-lang/rust/pull/150935)
+* [make `par_slice` consistent with single-threaded execution](https://github.com/rust-lang/rust/pull/153768)
+* [privacy: fix type privacy holes in RPITITs](https://github.com/rust-lang/rust/pull/152543)
+
+#### Library
+* [add APIs for dealing with titlecase](https://github.com/rust-lang/rust/pull/122668)
+* [add `is_disconnected` functions to mpsc and mpmc channels](https://github.com/rust-lang/rust/pull/153170)
+* [implement `BinaryHeap::as_mut_slice`](https://github.com/rust-lang/rust/pull/154011)
+* [make `OsString::truncate` a no-op when `len > current_len`](https://github.com/rust-lang/rust/pull/152998)
+* [optimize 128-bit integer formatting](https://github.com/rust-lang/rust/pull/154077)
+* [optimize `BTreeMap::append()` using CursorMut](https://github.com/rust-lang/rust/pull/153107)
+* [`vec::Drain::fill`: avoid reference to uninitialized memory](https://github.com/rust-lang/rust/pull/154138)
+* [unstable impl of `From<{i64, u64}> for f128`](https://github.com/rust-lang/rust/pull/154012)
+
+#### Cargo
+* [clean: Validate that `target_dir` is not a file](https://github.com/rust-lang/cargo/pull/16765)
+* [`cli`: Add support for completing `--config` argument values with `native-completions`](https://github.com/rust-lang/cargo/pull/16249)
+* [`cli`: complete `--config` and `--color` before command](https://github.com/rust-lang/cargo/pull/16780)
+* [`compile`: Make build.warnings ignore non-local deps](https://github.com/rust-lang/cargo/pull/16760)
+* [fix `symlink_and_directory` when running in a long target dir name](https://github.com/rust-lang/cargo/pull/16775)
+* [detect circular publish dependency cycle in workspace publish](https://github.com/rust-lang/cargo/pull/16722)
+* [fix fetching non-standard git refspecs on non-github repos](https://github.com/rust-lang/cargo/pull/16768)
+* [warn when installing with a non-default toolchain](https://github.com/rust-lang/cargo/pull/16131)
+
+#### Clippy
+* [add `BinaryHeap::pop_if()` to `manual_pop_if`](https://github.com/rust-lang/rust-clippy/pull/16734)
+* [fix `collapsible_match` false positive when the pat binding is moved or mutated](https://github.com/rust-lang/rust-clippy/pull/16708)
+* [perf: `manual_is_ascii_check,` remove 822 million instructions](https://github.com/rust-lang/rust-clippy/pull/16755)
+
+#### Rust-Analyzer
+* [add `ops::AddAssign` implement for IndentLevel](https://github.com/rust-lang/rust-analyzer/pull/20601)
+* [add applicable on LetExpr for `unwrap_tuple`](https://github.com/rust-lang/rust-analyzer/pull/20600)
+* [add applicable on let-else branch for `unwrap_block`](https://github.com/rust-lang/rust-analyzer/pull/21473)
+* [add auto trait name for `generate_trait_from_impl`](https://github.com/rust-lang/rust-analyzer/pull/20299)
+* [add fixes for `non_exhaustive_let` diagnostic](https://github.com/rust-lang/rust-analyzer/pull/20762)
+* [add mapping to syntax factory constructor methods](https://github.com/rust-lang/rust-analyzer/pull/21832)
+* [add nested lifetime support for `add_lifetime_to_type`](https://github.com/rust-lang/rust-analyzer/pull/20628)
+* [add partial selection for `merge_imports`](https://github.com/rust-lang/rust-analyzer/pull/20566)
+* [add wrap multiple attr for `wrap_unwrap_cfg_attr`](https://github.com/rust-lang/rust-analyzer/pull/20625)
+* [change `test_name` placeholder to `executable_arg`](https://github.com/rust-lang/rust-analyzer/pull/21395)
+* [complete block .let in closure expression](https://github.com/rust-lang/rust-analyzer/pull/21756)
+* [offer `'add_braces'` on bin-expr assignment](https://github.com/rust-lang/rust-analyzer/pull/21850)
+* [offer on let-expr for `inline_local_variable`](https://github.com/rust-lang/rust-analyzer/pull/21775)
+* [fix asm sym operand parsing for parenthesized expr fragments](https://github.com/rust-lang/rust-analyzer/pull/21588)
+* [fix indent for `convert_closure_to_fn`](https://github.com/rust-lang/rust-analyzer/pull/20594)
+* [fix indent for `trait_impl_redundant_assoc_item`](https://github.com/rust-lang/rust-analyzer/pull/20681)
+* [fix not applicable on empty `struct` for `no_such_field`](https://github.com/rust-lang/rust-analyzer/pull/20614)
+* [fix other predicate for `replace_is_method_with_if_let_method`](https://github.com/rust-lang/rust-analyzer/pull/21787)
+* [fix postfix completion indentation compensation](https://github.com/rust-lang/rust-analyzer/pull/21324)
+* [fix tuple `struct` pat expected type](https://github.com/rust-lang/rust-analyzer/pull/21333)
+* [add `ident_pat` qualifier to fully fn param](https://github.com/rust-lang/rust-analyzer/pull/21768)
+* [don't add a second semicolon after postfix completions](https://github.com/rust-lang/rust-analyzer/pull/21839)
+* [fill match arms on last comma and empty expr](https://github.com/rust-lang/rust-analyzer/pull/21822)
+* [fix overlap edit on record to tuple assist uses self](https://github.com/rust-lang/rust-analyzer/pull/21817)
+* [incorrect flychecks with multiple workspaces](https://github.com/rust-lang/rust-analyzer/pull/21709)
+* [offer on const like path-expr for `'extract_variable'`](https://github.com/rust-lang/rust-analyzer/pull/21809)
+* [replace TODO placeholders in next-solver IrPrint with proper formatting](https://github.com/rust-lang/rust-analyzer/pull/21779)
+* [implement signature type inference](https://github.com/rust-lang/rust-analyzer/pull/21823)
+* [improve tmp iterator variable name for `convert_for_to_while_let`](https://github.com/rust-lang/rust-analyzer/pull/20979)
+* [migrate `convert_from_to_tryfrom` assist to SyntaxEditor API](https://github.com/rust-lang/rust-analyzer/pull/21843)
+* [project json compatibility improvements](https://github.com/rust-lang/rust-analyzer/pull/21423)
+* [project json compatibility improvements](https://github.com/rust-lang/rust-analyzer/pull/21423)
+* [remove doc comments for `generate_trait_from_impl`](https://github.com/rust-lang/rust-analyzer/pull/20407)
+* [remove outdated TODO](https://github.com/rust-lang/rust-analyzer/pull/21845)
+* [remove the mapping for `expr_underscore` from the syntax factory constructor](https://github.com/rust-lang/rust-analyzer/pull/21848)
+* [replace direct usage of make with syntax factory and migrate assist to syntaxEditor](https://github.com/rust-lang/rust-analyzer/pull/21847)
+* [support WhileExpr and ForExpr for `add_label_to_loop`](https://github.com/rust-lang/rust-analyzer/pull/20984)
+* [support more runnable kinds in project JSON](https://github.com/rust-lang/rust-analyzer/pull/21424)
 
 ### Rust Compiler Performance Triage
 
@@ -366,7 +442,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Code does not become better out of thin air just because you rewrite it in #rustlang. 
+
+– [allp on mastodon](https://mastodon.online/@alip/116275090869947511)
+
+Despite a third week gone by without a suggestion, llogiq is unrelenting in his quest to find a quote worth your while.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
