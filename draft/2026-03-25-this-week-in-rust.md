@@ -60,6 +60,8 @@ and just ask the editors to select the category.
 * [mtp-rs: pure-Rust MTP library, up to 4x faster than libmtp](https://www.veszelovszki.com/a/mtp-rs/)
 * [video] [Batty: Supervised Agent Execution for Software Teams — Demo](https://www.youtube.com/watch?v=2wmBcUnq0vw)
 
+* [indxr v0.2.0: A fast codebase indexer and MCP server for AI coding agents](https://github.com/bahdotsh/indxr/releases/tag/v0.2.0)
+
 ### Observations/Thoughts
 * [Deadlocking a Tokio Mutex without Holding a Lock](https://www.e6data.com/blog/deadlocking-tokio-mutex-without-holding-lock)
 * [The Good, the Bad, and the Leaky: jemalloc, bumpalo, and mimalloc in meilisearch](https://blog.kerollmops.com/the-good-the-bad-and-the-leaky-jemalloc-bumpalo-and-mimalloc-in-meilisearch)
