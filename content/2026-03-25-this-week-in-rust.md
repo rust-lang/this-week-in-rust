@@ -59,9 +59,7 @@ and just ask the editors to select the category.
 * [Zero-copy Protobuf and ConnectRPC for Rust](https://dev.to/iainmcgin/zero-copy-protobuf-and-connectrpc-for-rust-1m3e)
 * [mtp-rs: pure-Rust MTP library, up to 4x faster than libmtp](https://www.veszelovszki.com/a/mtp-rs/)
 * [video] [Batty: Supervised Agent Execution for Software Teams — Demo](https://www.youtube.com/watch?v=2wmBcUnq0vw)
-
 * [indxr v0.2.0: A fast codebase indexer and MCP server for AI coding agents](https://github.com/bahdotsh/indxr/releases/tag/v0.2.0)
-
 * [halloy 2026.5 - desktop IRC client with IRCv3 capabilities](https://github.com/squidowl/halloy/releases/tag/2026.5)
 
 ### Observations/Thoughts
@@ -72,7 +70,6 @@ and just ask the editors to select the category.
 * [What If Traits Carried Values](https://nadrieril.github.io/blog/2026/03/22/what-if-traits-carried-values.html)
 * [An effect notation based on with-clauses and blocks](https://blog.yoshuawuyts.com/a-with-based-effect-notation)
 * [Rust threads on the GPU](https://www.vectorware.com/blog/threads-on-gpu)
-
 * [Elaborating Rust Traits to Dictionary-Passing Style](https://nadrieril.github.io/blog/2026/03/20/dictionary-passing-style.html)
 
 ### Rust Walkthroughs
@@ -82,10 +79,6 @@ and just ask the editors to select the category.
 * [An Incoherent Rust](https://www.boxyuwu.blog/posts/an-incoherent-rust/)
 * [Building pentest devices with Rust and ESP32 microcontrollers](https://kerkour.com/rust-esp32-pentest)
 * [Rust in Intersec's lib-common, Part 1: Integrating Rust in a C Build System](https://techtalk.intersec.com/2026/03/rust-in-lib-common-part-1-integrating-rust-in-a-waf-based-c-build-system/)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -420,7 +413,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1rmra27/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
