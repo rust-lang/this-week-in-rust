@@ -387,7 +387,7 @@ Rusty Events between 2026-03-25 - 2026-04-22 🦀
     * [**April, 2026 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/seattle-rust-user-group/events/313873177/)
 * 2026-04-18 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
     * [**Harvard Square Rust Lunch, Apr 18**](https://www.meetup.com/bostonrust/events/313883701/)
-* 2026-04-20 - 2026-04-22 | Portland, OR | (Tokio)(https://tokio.rs/)
+* 2026-04-20 - 2026-04-22 | Portland, OR | [Tokio](https://tokio.rs/)
     * [**TokioConf 2026**](https://www.tokioconf.com/)
 * 2026-04-21 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/events/)
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/313918531/)
