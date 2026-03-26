@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 * [Scientific Computing in Rust #16 (March 2026)](https://scientificcomputing.rs/monthly/2026-03)
 
 ### Project/Tooling Updates
+* [Ferox - A native PostgreSQL client in Rust](https://dev.to/frkdrgt/i-built-a-postgresql-client-in-rust-because-dbeaver-was-eating-my-ram-1eg1)
 * [Introducing dial9: A flight recorder for Tokio](https://tokio.rs/blog/2026-03-18-dial9)
 * [Zellij 0.44: native Windows support, new Rust APIs, remote sessions](https://zellij.dev/news/remote-sessions-windows-cli/)
 * [vigil-rs: A Rust Service Supervisor for Containers with PIP 1 handling](https://blog.none.at/blog/2026/2026-03-21-virgil/)
