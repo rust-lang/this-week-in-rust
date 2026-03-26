@@ -256,6 +256,8 @@ Rusty Events between 2026-04-01 - 2026-04-29 🦀
     * [**Rust/ACCU meetup.**](https://www.meetup.com/oxford-rust-meetup-group/events/312664491/)
 * 2026-04-02 | London, GB | [Rust London User Group](https://www.meetup.com/rust-london-user-group/events/)
     * [**LDN Talks Spring Community Showcase**](https://www.meetup.com/rust-london-user-group/events/313816694/)
+* 2026-04-02 | Toulouse, FR | [Rust Toulouse](https://www.meetup.com/rust-community-toulouse)
+    * [**Rust Toulouse Meetup - Release, Servers & Ray Tracing Demystified**](https://www.meetup.com/rust-community-toulouse/events/312782796/)
 * 2026-04-03 | Edinburgh, GB | [Rust and Friends](https://www.meetup.com/rust-edi/events/)
     * [**Rust and Friends (daytime coffee)**](https://www.meetup.com/rust-and-friends/events/313898258/)
 * 2026-04-07 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel/events/)
