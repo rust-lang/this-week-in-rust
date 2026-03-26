@@ -219,7 +219,27 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+
+Lot of mixed results this week. One big regression from [#152931](https://github.com/rust-lang/rust/pull/152931) makes the results look pretty negative, but otherwise the week was fairly quiet.
+
+Triage done by **@panstromek**.
+Revision range: [5b61449e..6f22f613](https://perf.rust-lang.org/?start=5b61449ed85a670f1dd3fca6a8c759ee0b451b66&end=6f22f61305478df09f9a4523743f85d9f558c3d7&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 1.0%  | [0.1%, 4.2%]   | 27    |
+| Regressions ❌ <br /> (secondary)  | 0.2%  | [0.0%, 0.6%]   | 36    |
+| Improvements ✅ <br /> (primary)   | -0.1% | [-0.2%, -0.1%] | 3     |
+| Improvements ✅ <br /> (secondary) | -0.3% | [-2.8%, -0.0%] | 14    |
+| All ❌✅ (primary)                 | 0.9%  | [-0.2%, 4.2%]  | 30    |
+
+
+1 Regression, 1 Improvement, 4 Mixed; 1 of them in rollups
+32 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/75edcf889ba56f439f91a3c576388d9969dc5a16/triage/2026/2026-03-24.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
