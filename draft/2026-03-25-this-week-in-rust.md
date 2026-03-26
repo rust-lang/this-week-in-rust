@@ -163,6 +163,9 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
+* [**EuroRust**](https://sessionize.com/eurorust-2026/) | CFP open until 2026-04-27 | Barcelona, Spain | 2026-10-14 - 2026-10-17
+* [**NDC Techtown 2026**](https://pretalx.com/oxidize-conference-2026-2025/cfp) | CFP open until 2026-05-03 | Kongsberg, Norway | 2026-09-21 - 2026-09-24
+
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
