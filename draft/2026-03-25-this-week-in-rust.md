@@ -66,6 +66,8 @@ and just ask the editors to select the category.
 * [An effect notation based on with-clauses and blocks](https://blog.yoshuawuyts.com/a-with-based-effect-notation)
 * [Rust threads on the GPU](https://www.vectorware.com/blog/threads-on-gpu)
 
+* [Elaborating Rust Traits to Dictionary-Passing Style](https://nadrieril.github.io/blog/2026/03/20/dictionary-passing-style.html)
+
 ### Rust Walkthroughs
 * [ZK snarks for rust developer part 2/8](https://rustarians.com/roots-of-unity/)
 * [Introducing dial9: a flight recorder for Tokio](https://tokio.rs/blog/2026-03-18-dial9)
