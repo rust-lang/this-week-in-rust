@@ -48,15 +48,13 @@ and just ask the editors to select the category.
 * [Scientific Computing in Rust #16 (March 2026)](https://scientificcomputing.rs/monthly/2026-03)
 
 ### Project/Tooling Updates
+* [vigil-rs: A Rust Service Supervisor for Containers with PIP 1 handling](https://blog.none.at/blog/2026/2026-03-21-virgil/)
 * [Fyrox 1.0.0](https://fyrox.rs/blog/post/fyrox-game-engine-1-0-0/)
-
 * [Edge.js: running Node.js safely in a WebAssembly sandbox with Wasmer and WASIX](https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox)
 * [Bookokrat v0.3.8: A terminal EPUB / PDF Book Reader now supports DJVU](https://github.com/bugzmanov/bookokrat/releases/tag/v0.3.8)
 * [flodl v0.1.5: benchmarking Rust vs PyTorch on 7 models — up to 30% faster with 3-20x tighter variance](https://flodl.dev/blog/benchmarks)
 * [Zero-copy Protobuf and ConnectRPC for Rust](https://dev.to/iainmcgin/zero-copy-protobuf-and-connectrpc-for-rust-1m3e)
-
-[mtp-rs: pure-Rust MTP library, up to 4x faster than libmtp](https://www.veszelovszki.com/a/mtp-rs/)
-
+* [mtp-rs: pure-Rust MTP library, up to 4x faster than libmtp](https://www.veszelovszki.com/a/mtp-rs/)
 * [video] [Batty: Supervised Agent Execution for Software Teams — Demo](https://www.youtube.com/watch?v=2wmBcUnq0vw)
 
 ### Observations/Thoughts
