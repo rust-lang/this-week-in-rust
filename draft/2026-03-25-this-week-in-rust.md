@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 * [Scientific Computing in Rust #16 (March 2026)](https://scientificcomputing.rs/monthly/2026-03)
 
 ### Project/Tooling Updates
+* [Zellij 0.44: native Windows support, new Rust APIs, remote sessions](https://zellij.dev/news/remote-sessions-windows-cli/)
 * [vigil-rs: A Rust Service Supervisor for Containers with PIP 1 handling](https://blog.none.at/blog/2026/2026-03-21-virgil/)
 * [Fyrox 1.0.0](https://fyrox.rs/blog/post/fyrox-game-engine-1-0-0/)
 * [Edge.js: running Node.js safely in a WebAssembly sandbox with Wasmer and WASIX](https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox)
