@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[Myth Engine - A compiler-style RenderGraph for cross-platform rendering (Rust/wgpu)](https://github.com/panxinmiao/myth)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
