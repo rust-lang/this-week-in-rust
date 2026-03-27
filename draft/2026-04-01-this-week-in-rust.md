@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Banish v1.3.0: Becoming a Framework]([(https://github.com/LoganFlaherty/banish/releases/tag/v1.3.1]) - a declarative framework for rule-based state machines.
 
 ### Observations/Thoughts
 
