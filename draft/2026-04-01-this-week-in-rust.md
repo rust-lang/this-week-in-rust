@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Building a guitar trainer with embedded Rust](https://blog.orhun.dev/introducing-tuitar/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
