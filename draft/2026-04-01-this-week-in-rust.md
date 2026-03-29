@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Building a Crash-Safe Email Queue in Rust](https://ferax564.github.io/rustqueue/blog/crash-safe-email-queue.html)
+
 ### Research
 
 ### Miscellaneous
