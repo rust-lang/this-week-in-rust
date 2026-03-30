@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-[RustGrep: simple search for 114 Rust blogs](https://rustgrep.dev)
+[RustGrep: simple search for 114 Rust blogs](https://rustgrep.dev/)
 
 ### Observations/Thoughts
 
