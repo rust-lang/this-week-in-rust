@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+[ZK snarks for rust developer part 3/8](https://rustarians.com/execution-trace/)
+
 ### Research
 
 ### Miscellaneous
