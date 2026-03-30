@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[Portable Async Rust: Targeting Embassy, Tokio and WASM from One Codebase](https://aimdb.dev/blog/building-aimdb-one-async-api)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
