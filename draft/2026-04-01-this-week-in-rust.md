@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [macpow — real-time power monitor TUI for Apple Silicon](https://github.com/k06a/macpow)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
