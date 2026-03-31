@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Breaking The AI Infra Monopoly With Rust- Tracel AI](https://filtra.io/rust/interviews/tracel-mar-26)
 
 ## Crate of the Week
 
