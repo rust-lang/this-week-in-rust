@@ -238,6 +238,8 @@ Rusty Events between 2026-04-01 - 2026-04-29 🦀
     * [**Lunch & Learn: From Protobuf to Production - A Guide to gRPC in Rust**](https://www.meetup.com/women-in-rust/events/313505777/)
 
 ### Asia
+* 2026-04-11 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
+    * [**April 2026/Pre-Conference Rustacean meetup**](https://hasgeek.com/rustbangalore/april-2026-pre-conference-rustacean-meetup/)
 * 2026-04-17 | Bangalore, IN | [Rust India](https://rustindia.org/)
     * [**Rust India Workshop**](https://rustindia.org/schedule)
 * 2026-04-18 | Bangalore, IN | [Rust India](https://rustindia.org/)
@@ -262,6 +264,8 @@ Rusty Events between 2026-04-01 - 2026-04-29 🦀
     * [**Rust Meetup #15 @ letsboot**](https://www.meetup.com/rust-basel/events/313765547/)
 * 2026-04-07 | Frankfurt, DE | [Rust Rhein-Main](https://www.meetup.com/rust-rhein-main)
     * [**Building a drone from scratch with Rust (and some hardware)**](https://www.meetup.com/rust-rhein-main/events/314051660/)
+* 2026-04-08 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Rust Girona Hack & Learn 04 2026**](https://luma.com/z8aoscr9)
 * 2026-04-09 | Geneva, CH | [Rust Meetup Geneva](https://www.posttenebraslab.ch/wiki/events/start)
     * [**Rust Meetup Geneva**](https://www.posttenebraslab.ch/wiki/events/monthly_meeting/rust_meetup)
 * 2026-04-09 | Oslo, NO | [Rust Oslo](https://www.meetup.com/rust-oslo)
