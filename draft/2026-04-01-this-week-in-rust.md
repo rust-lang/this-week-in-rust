@@ -45,9 +45,11 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-[Myth Engine - A compiler-style RenderGraph for cross-platform rendering (Rust/wgpu)](https://github.com/panxinmiao/myth)
+[Myth Engine - A compiler-style RenderGraph for cross-platform rendering (Rust/wgpu)](https://github.com/panxinmiao/myth/releases/tag/0.1.1)
 
 ### Observations/Thoughts
+
+[Building an SSA-Based Declarative Render Graph in Rust](https://github.com/panxinmiao/myth/blob/main/docs/RenderGraph.md)
 
 ### Rust Walkthroughs
 
