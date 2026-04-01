@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [tsastat](https://github.com/AnkurRathore/tsastat), a high-resolution Thread State Analysis (TSA) tool for Linux.
+
+Thanks to [Ankur Rathore](https://users.rust-lang.org/t/crate-of-the-week/2704/1574) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -137,7 +139,66 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+487 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-03-24..2026-03-31
+
+#### Compiler
+* [add `x86_64-unknown-linux-gnu{m,t}san` target which enables {M,T}San by default](https://github.com/rust-lang/rust/pull/152757)
+* [add `-Zsanitize=kernel-hwaddress`](https://github.com/rust-lang/rust/pull/153049)
+
+#### Library
+* [constify `Step` trait and all of its `impl`ementations](https://github.com/rust-lang/rust/pull/153821)
+* [constify comparisons and `Clone` for `core::mem::Alignment`](https://github.com/rust-lang/rust/pull/154512)
+* [constify const Fn*: Destruct](https://github.com/rust-lang/rust/pull/153874)
+* [don't drop arguments' temporaries in `dbg!`](https://github.com/rust-lang/rust/pull/154074)
+* [don't fuse in `MapWindows`](https://github.com/rust-lang/rust/pull/154190)
+* [implement `unchecked_funnel_{shl,shr}`](https://github.com/rust-lang/rust/pull/154153)
+* [reimplement `hash_map!` macro](https://github.com/rust-lang/rust/pull/154322)
+* [make `PinCoerceUnsized` require `Deref`](https://github.com/rust-lang/rust/pull/149218)
+* [stabilize new RangeFrom type and iterator](https://github.com/rust-lang/rust/pull/153380)
+* [`trim_prefix` for paths](https://github.com/rust-lang/rust/pull/154320)
+
+#### Cargo
+* [`resolver`: better match rustc in error styling](https://github.com/rust-lang/cargo/pull/16795)
+* [`build`: cover more behavior of `build.warnings`](https://github.com/rust-lang/cargo/pull/16785)
+* [`build`: make it easier to review `build.warnings` behavior](https://github.com/rust-lang/cargo/pull/16788)
+
+#### Rustdoc
+* [rustdoc rejects html emits with json output](https://github.com/rust-lang/rust/pull/154421)
+
+#### Rustfmt
+* [prevent panic when rewritng associated item delegations](https://github.com/rust-lang/rust/pull/154454)
+
+#### Clippy
+* [add `manual_option_zip` lint (`a.and_then(|x| b.map(|y| (x, y)))`)](https://github.com/rust-lang/rust-clippy/pull/16600)
+* [impl `manual_noop_waker` lint](https://github.com/rust-lang/rust-clippy/pull/16687)
+* [`explicit_counter_loop`: suggest `.take(n)` for `for _ in 0..n` co…](https://github.com/rust-lang/rust-clippy/pull/16658)
+* [`iter_kv_map`: handle identity map for `map` and `flat_map`](https://github.com/rust-lang/rust-clippy/pull/16743)
+* [`manual_pop_if`: lint more cases, even if we do not provide a suggestion](https://github.com/rust-lang/rust-clippy/pull/16683)
+* [fix `collapsible_if` false positive when the inner if contains cfg](https://github.com/rust-lang/rust-clippy/pull/16757)
+* [preserve parentheses in suggestion in presence of cascaded casts](https://github.com/rust-lang/rust-clippy/pull/16483)
+* [perf: reduce `matching_root_macro_call` usage (23b → 22.24b)](https://github.com/rust-lang/rust-clippy/pull/16756)
+
+#### Rust-Analyzer
+* [fix not applicable on ambiguous ident pat for `merge_match_arms`](https://github.com/rust-lang/rust-analyzer/pull/21411)
+* [complete envs in nested `env!()`](https://github.com/rust-lang/rust-analyzer/pull/21902)
+* [correct `type_or_const` param index bound in `debug_assert`](https://github.com/rust-lang/rust-analyzer/pull/21879)
+* [correct missing-args messages for `sched_getaffinity` and getenv shims](https://github.com/rust-lang/rust-analyzer/pull/21881)
+* [don't panic unmerge arm on trailing pipe](https://github.com/rust-lang/rust-analyzer/pull/21904)
+* [fix block lowering in ast id map](https://github.com/rust-lang/rust-analyzer/pull/21907)
+* [keep comments for 'Fill match arms'](https://github.com/rust-lang/rust-analyzer/pull/21744)
+* [postfix completions include nots prefix-expr](https://github.com/rust-lang/rust-analyzer/pull/21903)
+* [skip usages inside macro expansions in destructure struct/tuple binding](https://github.com/rust-lang/rust-analyzer/pull/21838)
+* [turn back `TyLoweringContext.store` to self after lowering parent defaults](https://github.com/rust-lang/rust-analyzer/pull/21871)
+* [wrap `Option<>` for `desugar_try_expr_let_else`](https://github.com/rust-lang/rust-analyzer/pull/21860)
+* [wrap `Result<>` for `desugar_try_expr_let_else`](https://github.com/rust-lang/rust-analyzer/pull/21865)
+* [wrap ty-anchor in non-path type constuctor](https://github.com/rust-lang/rust-analyzer/pull/21876)
+* [fully implement `VariantFields expression support`](https://github.com/rust-lang/rust-analyzer/pull/21900)
+* [hookup Signature Inference in more places](https://github.com/rust-lang/rust-analyzer/pull/21859)
+* [only allocate item blocks if they actually contain items or statement macros](https://github.com/rust-lang/rust-analyzer/pull/21901)
+* [remove `Arc` from `GenericParams` and `AstIdMap`](https://github.com/rust-lang/rust-analyzer/pull/21897)
+* [remove generate trait impl text intransitive from utils](https://github.com/rust-lang/rust-analyzer/pull/21870)
 
 ### Rust Compiler Performance Triage
 
@@ -322,7 +383,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> When you do cursed things, problems find you.
+
+– [Folkert de Vries on the trifecta tech blog](https://trifectatech.org/blog/fixing-our-own-problems-in-the-rust-compiler)
+
+We have gone four weeks bare of suggestions for quotes. llogiq is still fine with his choice, but he'd be much more happy if any of you would help him in his search.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
