@@ -202,14 +202,10 @@ Update CFT, FCP, MCP and RFC sections for TWiR-xxx
 Rusty Events between 2026-04-01 - 2026-04-29 🦀
 
 ### Virtual
-* 2026-03-25 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
-    * [**Rust Girona Hack & Learn 03 2026**](https://luma.com/vq9w8q0w)
 * 2026-03-26 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/308455925/)
 * 2026-03-31 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens)
     * [**Web development using axum in Rust - part 1**](https://www.meetup.com/code-mavens/events/313944077/)
-* 2026-04-01 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
-    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/me4jwgxu)
 * 2026-04-01 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/313656388/)
 * 2026-04-02 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris)
@@ -222,12 +218,18 @@ Rusty Events between 2026-04-01 - 2026-04-29 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254784/)
 * 2026-04-14 | Virtual (London, GB) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
     * [**👋 Community Catch Up**](https://www.meetup.com/women-in-rust/events/313506013/)
+* 2026-04-15 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Weekly coding session**](https://luma.com/jia7wtfv)
 * 2026-04-15 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/events/)
     * [**Nushell**](https://www.meetup.com/vancouver-rust/events/313471712/)
 * 2026-04-19 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
     * [**Rust Deep Learning: Third Sunday**](https://www.meetup.com/dallasrust/events/313846195/)
 * 2026-04-21 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/events/)
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/313846195/)
+* 2026-04-22 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Weekly coding session**](https://luma.com/26dvwb85)
+* 2026-04-29 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Weekly coding session**](https://luma.com/8hi2xywi)
 
 ### Asia
 * 2026-03-28 | Delhi, IN | [Rust Delhi](https://www.meetup.com/rustdelhi/events/)
@@ -262,6 +264,8 @@ Rusty Events between 2026-04-01 - 2026-04-29 🦀
     * [**Rust and Friends (daytime coffee)**](https://www.meetup.com/rust-and-friends/events/313898258/)
 * 2026-04-07 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel/events/)
     * [**Rust Meetup #15 @ letsboot**](https://www.meetup.com/rust-basel/events/313765547/)
+* 2026-04-08 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Rust Girona Hack & Learn 04 2026**](https://luma.com/z8aoscr9)
 * 2026-04-09 | Geneva, CH | [Rust Meetup Geneva](https://www.posttenebraslab.ch/wiki/events/start)
     * [**Rust Meetup Geneva**](https://www.posttenebraslab.ch/wiki/events/monthly_meeting/rust_meetup)
 * 2026-04-09 | Oslo, NO | [Rust Oslo](https://www.meetup.com/rust-oslo/events/)
