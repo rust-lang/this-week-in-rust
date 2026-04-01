@@ -38,17 +38,23 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-
+* [Announcing Rust 1.94.1](https://blog.rust-lang.org/2026/03/26/1.94.1-release/)
+* [Program management update — February 2026 ](https://blog.rust-lang.org/inside-rust/2026/03/27/program-management-update-2026-02/)
 ### Foundation
-
+* [Rust Foundation Joins Datadog’s Open Source Program](https://rustfoundation.org/media/rust-foundation-joins-datadogs-open-source-program/)
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [Ntpd-rs: it's about time!](https://discourse.ubuntu.com/t/ntpd-rs-its-about-time/79154)
+* [octopos: xv6 based operating system for risc-v in rust](https://www.boranseckin.com/projects/octopos)
 ### Observations/Thoughts
-
+* [video] [🦀 Rust (mir) compiler bites: Closures — thou shalt not name this struct](https://www.youtube.com/watch?v=OxK5pNvC20Y)
+* [filtra.io | Breaking The AI Infra Monopoly With Rust- Tracel AI](https://filtra.io/rust/interviews/tracel-mar-26)
+* [Rust: Memory safety in kernel space | OSHub](https://oshub.org/users/OSHub/posts/rust-memory-safety-in-kernel-space-9178dd)
+* [Fixing our own problems in the Rust compiler](https://trifectatech.org/blog/fixing-our-own-problems-in-the-rust-compiler/)
+* [video] [How C++ Finally Beats Rust at JSON Serialization](https://www.youtube.com/watch?v=Mcgk3CxHYMs)
 ### Rust Walkthroughs
-
+* [Adding WASM Plugins to Your App](https://blog.ar-ms.me/thoughts/adding-wasm-plugins-to-your-app/)
 ### Research
 
 ### Miscellaneous
