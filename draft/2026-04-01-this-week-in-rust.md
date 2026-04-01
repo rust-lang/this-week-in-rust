@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Adding a Scripting Engine to a Rust CLI with Rhai](https://dev.to/ayarotsky/adding-a-scripting-engine-to-a-rust-cli-with-rhai-56g1)
+
 ### Research
 
 ### Miscellaneous
