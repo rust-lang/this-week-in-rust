@@ -202,12 +202,6 @@ Update CFT, FCP, MCP and RFC sections for TWiR-xxx
 Rusty Events between 2026-04-01 - 2026-04-29 🦀
 
 ### Virtual
-* 2026-03-25 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
-    * [**Rust Girona Hack & Learn 03 2026**](https://luma.com/vq9w8q0w)
-* 2026-03-26 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
-    * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/308455925/)
-* 2026-03-31 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens)
-    * [**Web development using axum in Rust - part 1**](https://www.meetup.com/code-mavens/events/313944077/)
 * 2026-04-01 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/me4jwgxu)
 * 2026-04-01 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
@@ -230,24 +224,12 @@ Rusty Events between 2026-04-01 - 2026-04-29 🦀
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/313846195/)
 
 ### Asia
-* 2026-03-28 | Delhi, IN | [Rust Delhi](https://www.meetup.com/rustdelhi/events/)
-    * [**Rust Delhi Meetup #13**](https://www.meetup.com/rustdelhi/events/313777790/)
-* 2026-04-17 | Bangalore, IN, [Rust India](https://rustindia.org/)
+* 2026-04-17 | Bangalore, IN | [Rust India](https://rustindia.org/)
     * [**Rust India Workshop**](https://rustindia.org/schedule)
-* 2026-04-18 | Bangalore, IN, [Rust India](https://rustindia.org/)
+* 2026-04-18 | Bangalore, IN | [Rust India](https://rustindia.org/)
     * [**Rust India Conference**](https://rustindia.org/schedule)
 
 ### Europe
-* 2026-03-25 | Dresden, DE | [Rust Dresden](https://github.com/rust-dresden)
-    * [**First Meetup**](https://github.com/rust-dresden/rust-dresden/discussions/7)
-* 2026-03-26 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/events/)
-    * [**Rust meetup #66 sponsored by Adapt!**](https://www.meetup.com/copenhagen-rust-community/events/313833635/)
-* 2026-03-26 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris)
-    * [**Rust meetup #84**](https://www.meetup.com/rust-paris/events/313646981/)
-* 2026-03-27 | Paris, FR | [Rust in Paris](https://www.rustinparis.com/)
-    * [**Rust in Paris**](https://www.rustinparis.com/)
-* 2026-03-28 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/stockholm-rust/events/)
-    * [**Ferris' Fika Forum #25**](https://www.meetup.com/stockholm-rust/events/313749232/)
 * 2026-04-01 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
     * [**Rust Berlin Talks: The next generation**](https://www.meetup.com/rust-berlin/events/313783250/)
 * 2026-04-01 | Edinburgh, GB | [Rust and Friends](https://www.meetup.com/rust-edi/events/)
@@ -270,14 +252,6 @@ Rusty Events between 2026-04-01 - 2026-04-29 🦀
     * [**Native GUIs with Rust**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313813853/)
 
 ### North America
-* 2026-03-25 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx)
-    * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/313653030/)
-* 2026-03-25 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc)
-    * [**Rust NYC's Digital Asset Adoption Special**](https://www.meetup.com/rust-nyc/events/313713085/)
-* 2026-03-26 | Atlanta, GA, US | [Rust Atlanta](https://www.meetup.com/rust-atl)
-    * [**Rust-Atl**](https://www.meetup.com/rust-atl/events/311228658/)
-* 2026-03-28 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
-    * [**Chinatown Rust Lunch, Mar 28**](https://www.meetup.com/bostonrust/events/313883686/)
 * 2026-04-02 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
     * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/313543900/)
 * 2026-04-02 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust)
@@ -294,16 +268,12 @@ Rusty Events between 2026-04-01 - 2026-04-29 🦀
     * [**April, 2026 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/seattle-rust-user-group/events/313873177/)
 * 2026-04-18 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
     * [**Harvard Square Rust Lunch, Apr 18**](https://www.meetup.com/bostonrust/events/313883701/)
-* 2026-04-20 - 2026-04-22 | Portland, OR | (Tokio)(https://tokio.rs/)
+* 2026-04-20 - 2026-04-22 | Portland, OR | [Tokio](https://tokio.rs/)
     * [**TokioConf 2026**](https://www.tokioconf.com/)
 * 2026-04-21 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group/events/)
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/313918531/)
 * 2026-04-22 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/events/)
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/xvkdgtyjcgbdc/)
-
-### Oceania
-* 2026-03-26 | Melbourne, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne)
-    * [**TBD March Meetup**](https://www.meetup.com/rust-melbourne/events/313471749/)
 
 ### South America
 * 2026-04-11 | Argentina, AR | [Oxidar Org](https://luma.com/user/oxidar)
