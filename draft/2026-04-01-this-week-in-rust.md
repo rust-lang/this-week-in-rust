@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [jsongrep is faster than {jq, jmespath, jsonpath-rust, jql}](https://micahkepe.com/blog/jsongrep/)
 * [SeqPacker: 11 bin-packing algorithms in Rust for LLM sequence packing](https://alphakhaw.com/blog/seqpacker-bin-packing-algorithms-rust-llm)
 - [Building a guitar trainer with embedded Rust](https://blog.orhun.dev/introducing-tuitar/)
 [flodl v0.2.2: PyTorch parity in Rust: 30+ modules, 15 losses, 7 optimizers, 769 tests](https://flodl.dev/blog/pytorch-parity)
