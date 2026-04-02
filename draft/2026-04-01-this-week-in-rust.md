@@ -159,7 +159,27 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+We had some infrastructure troubles this week which prevented some rollup PRs from generating their
+"unrolled" builds, which made rollup regression investigation more complicated, although we were
+able to locate and revert the largest rollup regressions in the end. [#154304](https://github.com/rust-lang/rust/pull/154304) brought some nice improvements by optimizing the query system.
+
+Triage done by **@kobzol**.
+Revision range: [6f22f613..cf7da0b7](https://perf.rust-lang.org/?start=6f22f61305478df09f9a4523743f85d9f558c3d7&end=cf7da0b7277cad05b79f91b60c290aa08a17a6f0&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.4%  | [0.1%, 1.2%]   | 4     |
+| Regressions ❌ <br /> (secondary)  | 0.3%  | [0.1%, 0.5%]   | 12    |
+| Improvements ✅ <br /> (primary)   | -0.8% | [-6.2%, -0.2%] | 58    |
+| Improvements ✅ <br /> (secondary) | -0.4% | [-1.9%, -0.1%] | 28    |
+| All ❌✅ (primary)                 | -0.8% | [-6.2%, 1.2%]  | 62    |
+
+3 Regressions, 4 Improvements, 2 Mixed; 2 of them in rollups
+35 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/23c7a57ddd710830f9ae14d2676718587e9dc412/triage/2026/2026-03-31.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
