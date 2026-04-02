@@ -40,24 +40,23 @@ and just ask the editors to select the category.
 ### Official
 * [Announcing Rust 1.94.1](https://blog.rust-lang.org/2026/03/26/1.94.1-release/)
 * [Program management update — February 2026 ](https://blog.rust-lang.org/inside-rust/2026/03/27/program-management-update-2026-02/)
+
 ### Foundation
 * [Rust Foundation Joins Datadog’s Open Source Program](https://rustfoundation.org/media/rust-foundation-joins-datadogs-open-source-program/)
-### Newsletters
 
 ### Project/Tooling Updates
 * [Ntpd-rs: it's about time!](https://discourse.ubuntu.com/t/ntpd-rs-its-about-time/79154)
-* [octopos: xv6 based operating system for risc-v in rust](https://www.boranseckin.com/projects/octopos)
-* [blogr v0.5.0 - Write, edit, and publish your blog without ever leaving your terminal](https://github.com/bahdotsh/blogr/releases/tag/v0.5.0)
-* [feedr v0.7.0 - A feature-rich terminal-based RSS/Atom feed reader](https://github.com/bahdotsh/feedr/releases/tag/v0.7.0)
-* [mdterm v2.0.0 - A terminal-based Markdown browser](https://github.com/bahdotsh/mdterm/releases/tag/v2.0.0)
-
-[RustGrep: simple search for 114 Rust blogs](https://rustgrep.dev/)
+* [octopos: OS for risc-v in rust](https://www.boranseckin.com/projects/octopos)
+* [Building a guitar trainer with embedded Rust](https://blog.orhun.dev/introducing-tuitar/)
+* [blogr v0.5.0 - blog without from your terminal](https://github.com/bahdotsh/blogr/releases/tag/v0.5.0)
+* [feedr v0.7.0 - terminal-based RSS/Atom feed reader](https://github.com/bahdotsh/feedr/releases/tag/v0.7.0)
+* [mdterm v2.0.0 - terminal-based Markdown browser](https://github.com/bahdotsh/mdterm/releases/tag/v2.0.0)
+* [RustGrep: simple search for 114 Rust blogs](https://rustgrep.dev/)
 * [Rust's next-generation trait solver](https://lwn.net/SubscriberLink/1063124/fcf747e51a5974f2/)
-[Portable Async Rust: Targeting Embassy, Tokio and WASM from One Codebase](https://aimdb.dev/blog/building-aimdb-one-async-api)
-- [jsongrep is faster than {jq, jmespath, jsonpath-rust, jql}](https://micahkepe.com/blog/jsongrep/)
-* [SeqPacker: 11 bin-packing algorithms in Rust for LLM sequence packing](https://alphakhaw.com/blog/seqpacker-bin-packing-algorithms-rust-llm)
-- [Building a guitar trainer with embedded Rust](https://blog.orhun.dev/introducing-tuitar/)
-[flodl v0.2.2: PyTorch parity in Rust: 30+ modules, 15 losses, 7 optimizers, 769 tests](https://flodl.dev/blog/pytorch-parity)
+* [Portable Async Rust](https://aimdb.dev/blog/building-aimdb-one-async-api)
+* [jsongrep faster than {jq, jmespath, jsonpath-rust, jql}](https://micahkepe.com/blog/jsongrep/)
+* [SeqPacker: 11 bin-packing algorithms in Rust](https://alphakhaw.com/blog/seqpacker-bin-packing-algorithms-rust-llm)
+* [flodl v0.2.2: PyTorch parity in Rust](https://flodl.dev/blog/pytorch-parity)
 
 ### Observations/Thoughts
 * [filtra.io | Breaking The AI Infra Monopoly With Rust- Tracel AI](https://filtra.io/rust/interviews/tracel-mar-26)
@@ -73,10 +72,6 @@ and just ask the editors to select the category.
 * [ZK snarks for rust developer part 3/8](https://rustarians.com/execution-trace/)
 * [Building a Crash-Safe Email Queue in Rust](https://ferax564.github.io/rustqueue/blog/crash-safe-email-queue.html)
 * [Adding a Scripting Engine to a Rust CLI with Rhai](https://dev.to/ayarotsky/adding-a-scripting-engine-to-a-rust-cli-with-rhai-56g1)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
