@@ -48,7 +48,7 @@ and just ask the editors to select the category.
 * [Ntpd-rs: it's about time!](https://discourse.ubuntu.com/t/ntpd-rs-its-about-time/79154)
 * [octopos: OS for risc-v in rust](https://www.boranseckin.com/projects/octopos)
 * [Building a guitar trainer with embedded Rust](https://blog.orhun.dev/introducing-tuitar/)
-* [blogr v0.5.0 - blog without from your terminal](https://github.com/bahdotsh/blogr/releases/tag/v0.5.0)
+* [blogr v0.5.0 - blog without leaving your terminal](https://github.com/bahdotsh/blogr/releases/tag/v0.5.0)
 * [feedr v0.7.0 - terminal-based RSS/Atom feed reader](https://github.com/bahdotsh/feedr/releases/tag/v0.7.0)
 * [mdterm v2.0.0 - terminal-based Markdown browser](https://github.com/bahdotsh/mdterm/releases/tag/v2.0.0)
 * [RustGrep: simple search for 114 Rust blogs](https://rustgrep.dev/)
