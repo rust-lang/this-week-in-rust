@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 * [Bugs that the Rust compiler catches for you: The revolution of compiler-enforced correctness](https://kerkour.com/rust-compiler-correctness-bugs)
+* [I ported the OpenAI Python SDK to Rust in 5 days with Claude Code](https://dev.to/fortunto2/squeezing-every-millisecond-from-the-openai-api-in-rust-4b11)
 
 ### Rust Walkthroughs
 
