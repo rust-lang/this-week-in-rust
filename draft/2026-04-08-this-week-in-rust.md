@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Building Postgres compatibility in Rust: pgwire and DataFusion](https://greptime.com/blogs/2026-04-01-greptimedb-postgresql-compatibility)
+
 ### Research
 
 ### Miscellaneous
