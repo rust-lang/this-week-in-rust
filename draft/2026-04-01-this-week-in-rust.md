@@ -45,10 +45,21 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [jsongrep is faster than {jq, jmespath, jsonpath-rust, jql}](https://micahkepe.com/blog/jsongrep/)
+* [SeqPacker: 11 bin-packing algorithms in Rust for LLM sequence packing](https://alphakhaw.com/blog/seqpacker-bin-packing-algorithms-rust-llm)
+- [Building a guitar trainer with embedded Rust](https://blog.orhun.dev/introducing-tuitar/)
+[flodl v0.2.2: PyTorch parity in Rust: 30+ modules, 15 losses, 7 optimizers, 769 tests](https://flodl.dev/blog/pytorch-parity)
+
 ### Observations/Thoughts
+
 * [Fixing our own problems in the Rust compiler](https://trifectatech.org/blog/fixing-our-own-problems-in-the-rust-compiler/)
+* [Bugs that the Rust compiler catches for you: The revolution of compiler-enforced correctness](https://kerkour.com/rust-compiler-correctness-bugs)
+* [I ported the OpenAI Python SDK to Rust in 5 days with Claude Code](https://dev.to/fortunto2/squeezing-every-millisecond-from-the-openai-api-in-rust-4b11)
 
 ### Rust Walkthroughs
+
+* [Building a Crash-Safe Email Queue in Rust](https://ferax564.github.io/rustqueue/blog/crash-safe-email-queue.html)
+* [Adding a Scripting Engine to a Rust CLI with Rhai](https://dev.to/ayarotsky/adding-a-scripting-engine-to-a-rust-cli-with-rhai-56g1)
 
 ### Research
 
@@ -133,6 +144,7 @@ Are you a new or experienced speaker looking for a place to share something cool
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+* [**NDC Techtown**](https://ndctechtown.com/call-for-papers) | 2024-04-14 | Kongsberg, Norway | 2024-09-09 to 12.
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -217,8 +229,12 @@ Rusty Events between 2026-04-01 - 2026-04-29 🦀
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/313345237/)
 * 2026-04-04 | Virtual (Kampala, UG) | [Rust Circle Meetup](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587)
     * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587)
+* 2026-04-07 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens)
+    * [**Web development using axum in Rust - part 2**](https://www.meetup.com/code-mavens/events/313944233/)
 * 2026-04-09 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/308455926/)
+* 2026-04-14 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens)
+    * [**Web development using axum in Rust - part 3**](https://www.meetup.com/code-mavens/events/314072969/)
 * 2026-04-14 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254784/)
 * 2026-04-14 | Virtual (London, GB) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
@@ -257,6 +273,8 @@ Rusty Events between 2026-04-01 - 2026-04-29 🦀
     * [**Rust/ACCU meetup.**](https://www.meetup.com/oxford-rust-meetup-group/events/312664491/)
 * 2026-04-02 | London, GB | [Rust London User Group](https://www.meetup.com/rust-london-user-group/events/)
     * [**LDN Talks Spring Community Showcase**](https://www.meetup.com/rust-london-user-group/events/313816694/)
+* 2026-04-02 | Toulouse, FR | [Rust Toulouse](https://www.meetup.com/rust-community-toulouse)
+    * [**Rust Toulouse Meetup - Release, Servers & Ray Tracing Demystified**](https://www.meetup.com/rust-community-toulouse/events/313650892/)
 * 2026-04-03 | Edinburgh, GB | [Rust and Friends](https://www.meetup.com/rust-edi/events/)
     * [**Rust and Friends (daytime coffee)**](https://www.meetup.com/rust-and-friends/events/313898258/)
 * 2026-04-07 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel/events/)
