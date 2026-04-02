@@ -55,6 +55,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Building a Crash-Safe Email Queue in Rust](https://ferax564.github.io/rustqueue/blog/crash-safe-email-queue.html)
 * [Adding a Scripting Engine to a Rust CLI with Rhai](https://dev.to/ayarotsky/adding-a-scripting-engine-to-a-rust-cli-with-rhai-56g1)
 
 ### Research
