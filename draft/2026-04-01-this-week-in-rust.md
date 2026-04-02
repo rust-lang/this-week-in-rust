@@ -44,6 +44,9 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [blogr v0.5.0 - Write, edit, and publish your blog without ever leaving your terminal](https://github.com/bahdotsh/blogr/releases/tag/v0.5.0)
+* [feedr v0.7.0 - A feature-rich terminal-based RSS/Atom feed reader](https://github.com/bahdotsh/feedr/releases/tag/v0.7.0)
+* [mdterm v2.0.0 - A terminal-based Markdown browser](https://github.com/bahdotsh/mdterm/releases/tag/v2.0.0)
 
 [RustGrep: simple search for 114 Rust blogs](https://rustgrep.dev/)
 * [Rust's next-generation trait solver](https://lwn.net/SubscriberLink/1063124/fcf747e51a5974f2/)
