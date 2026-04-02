@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rust's next-generation trait solver](https://lwn.net/SubscriberLink/1063124/fcf747e51a5974f2/)
 [Portable Async Rust: Targeting Embassy, Tokio and WASM from One Codebase](https://aimdb.dev/blog/building-aimdb-one-async-api)
 - [jsongrep is faster than {jq, jmespath, jsonpath-rust, jql}](https://micahkepe.com/blog/jsongrep/)
 * [SeqPacker: 11 bin-packing algorithms in Rust for LLM sequence packing](https://alphakhaw.com/blog/seqpacker-bin-packing-algorithms-rust-llm)
