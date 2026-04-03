@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 * [Giving (Open Source) University Exams in the Age of Chatbots](https://ploum.net/2026-01-19-exam-with-chatbots.html)
+* [How Microsoft Vaporized a Trillion Dollars, Pt. 2](https://isolveproblems.substack.com/p/how-microsoft-vaporized-a-trillion-8f4)
 
 ### Rust Walkthroughs
 
