@@ -57,6 +57,8 @@ and just ask the editors to select the category.
 
 <!-- COTW goes here -->
 
+* [batty-cli](https://crates.io/crates/batty-cli) — A Rust CLI that supervises teams of AI coding agents in tmux. Define roles in YAML, dispatch tasks from a Markdown kanban board, isolate work in git worktrees, and gate merges on passing tests. Synchronous daemon — no async runtime.
+
 [Please submit your suggestions and votes for next week][submit_crate]!
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
