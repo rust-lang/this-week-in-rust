@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Dumap v1.1: Cross-platform disk usage treemap visualization](https://github.com/jrobhoward/dumap/releases/tag/v1.1.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
