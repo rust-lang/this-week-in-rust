@@ -45,6 +45,9 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [burn-speech-training: speech model training pipeline for Burn](https://github.com/dnvt/burn-speech-training/releases/tag/v0.1.0) — CTC training, MFCC extraction, LibriSpeech loader, SpeechOcean762 evaluation. First speech training example for the Burn ML framework.
+* [speech-prep 0.1.4: speech-focused audio preprocessing](https://github.com/dnvt/speech-prep/releases/tag/v0.1.4) — VAD, format detection, WAV decoding, noise reduction, and speech-aligned chunking.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
