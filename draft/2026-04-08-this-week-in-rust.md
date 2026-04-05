@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Proxelar 0.4.0: Intercept & Modify Traffic](https://micheletti.io/proxelar-040/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
