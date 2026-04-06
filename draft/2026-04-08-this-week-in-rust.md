@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [amoxide: composable, context-aware shell aliases](https://d34dl0ck.me/amoxide-aliases-that-know-where-you-are/index.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
