@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Ply 1.1: Building Polished UIs in Rust](https://plyx.iz.rs/blog/ply-1-1/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
