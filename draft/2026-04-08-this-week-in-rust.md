@@ -27,6 +27,7 @@ Each submitted link should be of the form:
 
 * [Title of the linked Page](https://example.com/my_article)
 
+
 If you add a link to a non-text content please prefix it with `[video]` or `[audio]`:
 
 * [video] [Title of the linked video](https://example.com/my_video_article)
@@ -56,6 +57,7 @@ and just ask the editors to select the category.
 - [800 Rust terminal projects in 3 years](https://blog.orhun.dev/800-rust-projects/)
 
 ### Rust Walkthroughs
+* [Learn Rust Basics By Building a Brainfuck Interpreter](https://blog.sheerluck.dev/posts/learn-rust-basics-by-building-a-brainfuck-interpreter/)
 
 ### Research
 
