@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [800 Rust terminal projects in 3 years](https://blog.orhun.dev/800-rust-projects/)
+
 ### Rust Walkthroughs
 
 ### Research
