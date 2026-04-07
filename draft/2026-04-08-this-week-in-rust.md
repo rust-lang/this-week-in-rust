@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [slopc: a proc macro that replaces todo!() with LLM-generated code at compile time](https://github.com/shorwood/slopc)
+* [slopc: a proc macro that replaces todo!() with LLM-generated code at compile time](https://dev.to/shorwood/slopc-the-curse-rust-maintainers-never-anticipated-1j67)
 
 ### Observations/Thoughts
 
