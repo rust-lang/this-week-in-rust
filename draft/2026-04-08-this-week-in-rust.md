@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Processing 1M Chess Games in 15 Seconds with Rust](https://dev.to/chrnx/processing-1m-chess-games-in-15-seconds-with-rust-pe3)
 * [Dumap v1.1: Cross-platform disk usage treemap visualization](https://github.com/jrobhoward/dumap/releases/tag/v1.1.0)
 * [Proxelar 0.4.0: Intercept & Modify Traffic](https://micheletti.io/proxelar-040/)
 * [amoxide: composable, context-aware shell aliases](https://d34dl0ck.me/amoxide-composable-context-aware-shell-aliases/index.html)
