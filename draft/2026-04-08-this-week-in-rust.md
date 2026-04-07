@@ -51,10 +51,12 @@ and just ask the editors to select the category.
 * [Proxelar 0.4.0: Intercept & Modify Traffic](https://micheletti.io/proxelar-040/)
 * [amoxide: composable, context-aware shell aliases](https://d34dl0ck.me/amoxide-composable-context-aware-shell-aliases/index.html)
 * [Ply 1.1: Building Polished UIs in Rust](https://plyx.iz.rs/blog/ply-1-1/)
+* [Myth Engine: A compiler-style RenderGraph for cross-platform rendering](https://github.com/panxinmiao/myth/blob/main/CHANGELOG.md)
 
 ### Observations/Thoughts
 
 - [800 Rust terminal projects in 3 years](https://blog.orhun.dev/800-rust-projects/)
+- [Building an SSA-Based Declarative Render Graph in Rust](https://github.com/panxinmiao/myth/blob/main/docs/RenderGraph.md)
 
 ### Rust Walkthroughs
 * [Learn Rust Basics By Building a Brainfuck Interpreter](https://blog.sheerluck.dev/posts/learn-rust-basics-by-building-a-brainfuck-interpreter/)
