@@ -26,6 +26,7 @@ Please read README.md for guidance on submissions.
 Each submitted link should be of the form:
 
 * [Title of the linked Page](https://example.com/my_article)
+* [Learn Rust Basics By Building a Brainfuck Interpreter](https://blog.sheerluck.dev/posts/learn-rust-basics-by-building-a-brainfuck-interpreter/)
 
 If you add a link to a non-text content please prefix it with `[video]` or `[audio]`:
 
