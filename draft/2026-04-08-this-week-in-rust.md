@@ -64,6 +64,8 @@ and just ask the editors to select the category.
 * [Learn Rust Basics By Building a Brainfuck Interpreter](https://blog.sheerluck.dev/posts/learn-rust-basics-by-building-a-brainfuck-interpreter/)
 * [How uv Works Under the Hood](https://noos.blog/posts/uv-how-it-works-under-the-hood/)
 
+* [Building Postgres compatibility in Rust: pgwire and DataFusion](https://greptime.com/blogs/2026-04-01-greptimedb-postgresql-compatibility)
+
 ### Research
 
 ### Miscellaneous
