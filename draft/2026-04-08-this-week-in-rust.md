@@ -65,6 +65,7 @@ and just ask the editors to select the category.
 * [How uv Works Under the Hood](https://noos.blog/posts/uv-how-it-works-under-the-hood/)
 
 * [Building Postgres compatibility in Rust: pgwire and DataFusion](https://greptime.com/blogs/2026-04-01-greptimedb-postgresql-compatibility)
+* [video] [Build with Naz : Eliminate busy waiting with Rust Condvar](https://www.youtube.com/watch?v=7Rqys8ikfk0)
 
 ### Research
 
