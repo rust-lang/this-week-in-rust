@@ -51,6 +51,7 @@ and just ask the editors to select the category.
 * [Proxelar 0.4.0: Intercept & Modify Traffic](https://micheletti.io/proxelar-040/)
 * [amoxide: composable, context-aware shell aliases](https://d34dl0ck.me/amoxide-composable-context-aware-shell-aliases/index.html)
 * [Ply 1.1: Building Polished UIs in Rust](https://plyx.iz.rs/blog/ply-1-1/)
+* [rustunnel: Open-source tunnel alternative solution with self-hosted or managed service with pay as you go model.](https://github.com/joaoh82/rustunnel)
 
 ### Observations/Thoughts
 
