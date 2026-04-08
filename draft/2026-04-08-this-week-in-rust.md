@@ -59,6 +59,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Learn Rust Basics By Building a Brainfuck Interpreter](https://blog.sheerluck.dev/posts/learn-rust-basics-by-building-a-brainfuck-interpreter/)
+* [How uv Works Under the Hood](https://noos.blog/posts/uv-how-it-works-under-the-hood/)
 
 ### Research
 
