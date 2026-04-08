@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [Supply chain nightmare: How Rust will be attacked and what we can do to mitigate the inevitable](https://kerkour.com/rust-supply-chain-nightmare)
 - [800 Rust terminal projects in 3 years](https://blog.orhun.dev/800-rust-projects/)
 
 ### Rust Walkthroughs
