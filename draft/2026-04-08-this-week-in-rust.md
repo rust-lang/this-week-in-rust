@@ -53,7 +53,7 @@ and just ask the editors to select the category.
 * [amoxide: composable, context-aware shell aliases](https://d34dl0ck.me/amoxide-composable-context-aware-shell-aliases/index.html)
 * [Ply 1.1: Building Polished UIs in Rust](https://plyx.iz.rs/blog/ply-1-1/)
 * [Myth Engine: A compiler-style RenderGraph for cross-platform rendering](https://github.com/panxinmiao/myth/blob/main/CHANGELOG.md)
-* [flodl v0.3.0: Two GPUs, one bug, and a CLI](https://flodl.dev/2026/04/08/multi-gpu-cli)
+* [flodl v0.3.0: Two GPUs, one bug, and a CLI](https://flodl.dev/multi-gpu-cli)
 
 ### Observations/Thoughts
 
