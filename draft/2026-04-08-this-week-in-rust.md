@@ -55,6 +55,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 - [800 Rust terminal projects in 3 years](https://blog.orhun.dev/800-rust-projects/)
+- [What We Learned Building a Rust Runtime for TypeScript](https://encore.dev/blog/rust-runtime)
 
 ### Rust Walkthroughs
 * [Learn Rust Basics By Building a Brainfuck Interpreter](https://blog.sheerluck.dev/posts/learn-rust-basics-by-building-a-brainfuck-interpreter/)
