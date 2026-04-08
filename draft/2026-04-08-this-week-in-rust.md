@@ -266,6 +266,10 @@ Rusty Events between 2026-04-08 - 2026-05-06 🦀
     * [**Native GUIs with Rust**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313813853/)
 * 2026-04-23 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus)
     * [**Talk Night and Birthday Party at MFT Energy**](https://www.meetup.com/rust-aarhus/events/313910468/)
+* 2026-04-24 - 2026-04-26  | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
+    * [**Future Week Augsburg**: Road to Game Jam – Spielend Bevy und Rust lernen bei Tuxedo Computers](https://www.tuxedocomputers.com/de/Road-to-Game-Jam-2026-Bevy-Workshop.tuxedo)
+* 2026-05-02 | Augsburg, DE | [Rust Munich](https://rust-munich.de/) and [Rust Augsburg](https://rust-augsburg.github.io/meetup)
+    * [**Augsburger Linux-Infotag 2026**: Gemeinschaftsstand Rust Augsburg und Rust München](https://www.luga.de/static/LIT-2026/)
 
 ### North America
 * 2026-04-02 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
