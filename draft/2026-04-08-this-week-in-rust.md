@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [slopc: The cursed macro Rust maintainers never anticipated](https://dev.to/shorwood/slopc-the-curse-rust-maintainers-never-anticipated-1j67)
 * [Processing 1M Chess Games in 15 Seconds with Rust](https://dev.to/chrnx/processing-1m-chess-games-in-15-seconds-with-rust-pe3)
 * [Dumap v1.1: Cross-platform disk usage treemap visualization](https://github.com/jrobhoward/dumap/releases/tag/v1.1.0)
 * [Proxelar 0.4.0: Intercept & Modify Traffic](https://micheletti.io/proxelar-040/)
