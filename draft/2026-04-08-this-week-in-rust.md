@@ -212,6 +212,8 @@ Rusty Events between 2026-04-08 - 2026-05-06 🦀
     * [**Weekly coding session**](https://luma.com/8hi2xywi)
 * 2026-05-01 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris)
     * [**Hacker's Hike 0x1**](https://www.meetup.com/rust-noris/events/312788983/)
+* 2026-05-02 | Virtual (Kampala, UG) | [Rust Circle Meetup](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587)
+    * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763928837)
 * 2026-05-03 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Rust Deep Learning: First Sunday**](https://www.meetup.com/dallasrust/events/314036479/)
 * 2026-05-06 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs)
@@ -226,7 +228,7 @@ Rusty Events between 2026-04-08 - 2026-05-06 🦀
     * [**Rust India Conference**](https://rustindia.org/schedule)
 
 ### Europe
-* 2026-04-08 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
+* 2026-04-08 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
     * [**Rust Girona Hack & Learn 04 2026**](https://luma.com/z8aoscr9)
 * 2026-04-09 | Geneva, CH | [Rust Meetup Geneva](https://www.posttenebraslab.ch/wiki/events/start)
     * [**Rust Meetup Geneva**](https://www.posttenebraslab.ch/wiki/events/monthly_meeting/rust_meetup)
