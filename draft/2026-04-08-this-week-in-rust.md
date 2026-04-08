@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [selinux-explain](https://github.com/mattiabandini1/selinux-explain) - A CLI tool that translates cryptic SELinux AVC denials into plain English with exact fix commands.
+* [selinux-explain](https://dev.to/mattiabandini1/i-got-tired-of-setenforce-0-so-i-built-a-tool-in-rust-to-actually-understand-selinux-denials-24ie) - A CLI tool that translates cryptic SELinux AVC denials into plain English with exact fix commands.
 
 ### Observations/Thoughts
 
