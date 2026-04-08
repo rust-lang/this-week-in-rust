@@ -286,8 +286,6 @@ Rusty Events between 2026-04-08 - 2026-05-06 🦀
     * [**Rust Brisbane Apr 2026**](https://www.meetup.com/rust-brisbane/events/313975190/)
 
 ### South America
-* 2026-04-11 | Buenos Aires, AR | [Rust en Español](https://www.meetup.com/rust-argentina)
-    * [**Oxidar.org Hackaton - Snakear - ¡Veni a hackear con Rust!**](https://www.meetup.com/rust-argentina/events/313857456/)
 * 2026-04-11 | Buenos Aires, AR | [Oxidar Org](https://luma.com/user/oxidar)
     * [**Oxidar.org Hackaton - Snakear - ¡Veni a hackear con Rust!**](https://luma.com/5f51ey45)
 * 2026-04-17 | Rio de Janeiro, BR | [Meetups Rust RJ](https://luma.com/calendar/cal-z65k0aMSe7DaqKv)
