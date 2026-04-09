@@ -39,7 +39,6 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-
 * [docs.rs: building fewer targets by default](https://blog.rust-lang.org/2026/04/04/docsrs-only-default-targets/)
 * [Changes to WebAssembly targets and handling undefined symbols](https://blog.rust-lang.org/2026/04/04/changes-to-webassembly-targets-and-handling-undefined-symbols/)
 * [Leadership Council update — March 2026](https://blog.rust-lang.org/inside-rust/2026/04/06/leadership-council-update/)
@@ -49,12 +48,9 @@ and just ask the editors to select the category.
 * [Rust Foundation Interop Initiative Update: From Research to Implementation](https://rustfoundation.org/media/rust-foundation-interop-initiative-update-from-research-to-implementation/)
 
 ### Newsletters
-
 * [This Month in Rust OSDev: March 2026](https://rust-osdev.com/this-month/2026-03/)
 
 ### Project/Tooling Updates
-* [selinux-explain](https://dev.to/mattiabandini1/i-got-tired-of-setenforce-0-so-i-built-a-tool-in-rust-to-actually-understand-selinux-denials-24ie)
-
 * [Surelock](https://notes.brooklynzelenka.com/Blog/Surelock)
 * [Rust for CPython Progress Update April 2026](https://blog.python.org/2026/04/rust-for-cpython-2026-04/)
 * [RustRover 2026.1: Professional Testing With Native cargo-nextest Integration](https://blog.jetbrains.com/rust/2026/04/03/rustrover-2026-1-professional-testing-with-native-cargo-nextest-integration/)
@@ -66,28 +62,24 @@ and just ask the editors to select the category.
 * [amoxide: composable, context-aware shell aliases](https://d34dl0ck.me/amoxide-composable-context-aware-shell-aliases/index.html)
 * [Ply 1.1: Building Polished UIs in Rust](https://plyx.iz.rs/blog/ply-1-1/)
 * [Myth Engine: A compiler-style RenderGraph for cross-platform rendering](https://github.com/panxinmiao/myth/blob/main/CHANGELOG.md)
+* [selinux-explain](https://dev.to/mattiabandini1/i-got-tired-of-setenforce-0-so-i-built-a-tool-in-rust-to-actually-understand-selinux-denials-24ie)
 
 ### Observations/Thoughts
-
 * [Callgraph analysis](https://ferrous-systems.com/blog/callgraph-analysis/)
 * [Fixing our own problems in the Rust compiler](https://tweedegolf.nl/en/blog/234/fixing-our-own-problems-in-the-rust-compiler)
 * [800 Rust terminal projects in 3 years](https://blog.orhun.dev/800-rust-projects/)
 * [What We Learned Building a Rust Runtime for TypeScript](https://encore.dev/blog/rust-runtime)
+* [Supply chain nightmare: How Rust will be attacked and what we can do to mitigate the inevitable](https://kerkour.com/rust-supply-chain-nightmare)
+* [Building an SSA-Based Declarative Render Graph in Rust](https://github.com/panxinmiao/myth/blob/main/docs/RenderGraph.md)
 * [audio] [Protocol Shorts: TLS Encrypted Client Hello](https://netstack.fm/#episode-33)
-- [Supply chain nightmare: How Rust will be attacked and what we can do to mitigate the inevitable](https://kerkour.com/rust-supply-chain-nightmare)
-- [Building an SSA-Based Declarative Render Graph in Rust](https://github.com/panxinmiao/myth/blob/main/docs/RenderGraph.md)
 
 ### Rust Walkthroughs
-
 * [Learn Rust Basics By Building a Brainfuck Interpreter](https://blog.sheerluck.dev/posts/learn-rust-basics-by-building-a-brainfuck-interpreter/)
-* [video] [impl Rust: WAV noise generator](https://www.youtube.com/watch?v=zOTE4BN59u4)
 * [How uv Works Under the Hood](https://noos.blog/posts/uv-how-it-works-under-the-hood/)
 * [Building Postgres compatibility in Rust: pgwire and DataFusion](https://greptime.com/blogs/2026-04-01-greptimedb-postgresql-compatibility)
-
-### Research
+* [video] [impl Rust: WAV noise generator](https://www.youtube.com/watch?v=zOTE4BN59u4)
 
 ### Miscellaneous
-
 * [video] [Rust/C++ Interop Challenges - Victor Ciura - CppCon 2025](https://www.youtube.com/watch?v=8xqhSy539Pc)
 
 ## Crate of the Week
@@ -129,7 +121,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
-* [Wild Almonds — Shared Audio Player library for flutter and Tauri](https://github.com/opeolluwa/almonds/issues/144)
+* [**Wild Almonds — Shared Audio Player library for flutter and Tauri**](https://github.com/opeolluwa/almonds/issues/144)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -142,7 +134,7 @@ Are you a new or experienced speaker looking for a place to share something cool
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
-* [**NDC Techtown**](https://ndctechtown.com/call-for-papers) | CFP open until 2024-04-14 | Kongsberg, Norway | 2024-09-09 - 2026-09-12.
+* [**NDC Techtown**](https://ndctechtown.com/call-for-papers) | CFP open until 2026-04-14 | Kongsberg, Norway | 2026-09-09 - 2026-09-12.
 * [**EuroRust**](https://sessionize.com/eurorust-2026/) | CFP open until 2026-04-27 | Barcelona, Spain | 2026-10-14 - 2026-10-17
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
@@ -343,10 +335,10 @@ Rusty Events between 2026-04-08 - 2026-05-06 🦀
     * [**Native GUIs with Rust**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313813853/)
 * 2026-04-23 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus)
     * [**Talk Night and Birthday Party at MFT Energy**](https://www.meetup.com/rust-aarhus/events/313910468/)
-* 2026-04-24 - 2026-04-26  | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
-    * [**Future Week Augsburg**: Road to Game Jam – Spielend Bevy und Rust lernen bei Tuxedo Computers](https://www.tuxedocomputers.com/de/Road-to-Game-Jam-2026-Bevy-Workshop.tuxedo)
+* 2026-04-24 - 2026-04-26 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
+    * [**Future Week Augsburg: Road to Game Jam – Spielend Bevy und Rust lernen bei Tuxedo Computers**](https://www.tuxedocomputers.com/de/Road-to-Game-Jam-2026-Bevy-Workshop.tuxedo)
 * 2026-05-02 | Augsburg, DE | [Rust Munich](https://rust-munich.de/) and [Rust Augsburg](https://rust-augsburg.github.io/meetup)
-    * [**Augsburger Linux-Infotag 2026**: Gemeinschaftsstand Rust Augsburg und Rust München](https://www.luga.de/static/LIT-2026/)
+    * [**Augsburger Linux-Infotag 2026: Gemeinschaftsstand Rust Augsburg und Rust München**](https://www.luga.de/static/LIT-2026/)
 * 2026-05-04 | Frankfurt, DE | [Rust Rhein-Main](https://www.meetup.com/rust-rhein-main)
     * [**Writing a stock portfolio simulation in Rust with Leptos**](https://www.meetup.com/rust-rhein-main/events/314051688/)
 
@@ -409,7 +401,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1rmra27/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -437,4 +429,4 @@ This Week in Rust is edited by:
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1sgc0kt/this_week_in_rust_646/)</small>
