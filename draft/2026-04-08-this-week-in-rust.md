@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 * [This Month in Rust OSDev: March 2026](https://rust-osdev.com/this-month/2026-03/)
 
 ### Project/Tooling Updates
+* [selinux-explain](https://dev.to/mattiabandini1/i-got-tired-of-setenforce-0-so-i-built-a-tool-in-rust-to-actually-understand-selinux-denials-24ie)
 
 * [Surelock](https://notes.brooklynzelenka.com/Blog/Surelock)
 * [Rust for CPython Progress Update April 2026](https://blog.python.org/2026/04/rust-for-cpython-2026-04/)
