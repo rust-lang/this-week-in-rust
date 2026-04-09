@@ -74,7 +74,6 @@ and just ask the editors to select the category.
 * [What We Learned Building a Rust Runtime for TypeScript](https://encore.dev/blog/rust-runtime)
 * [audio] [Protocol Shorts: TLS Encrypted Client Hello](https://netstack.fm/#episode-33)
 - [Supply chain nightmare: How Rust will be attacked and what we can do to mitigate the inevitable](https://kerkour.com/rust-supply-chain-nightmare)
-- [800 Rust terminal projects in 3 years](https://blog.orhun.dev/800-rust-projects/)
 - [Building an SSA-Based Declarative Render Graph in Rust](https://github.com/panxinmiao/myth/blob/main/docs/RenderGraph.md)
 
 ### Rust Walkthroughs
