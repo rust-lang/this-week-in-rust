@@ -72,7 +72,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [aimdb-core](https://crates.io/crates/aimdb-core), a type-safe and platform-agnostic data pipeline where the Rust type system is the schema and trait implementations define its behavior.
+
+Thanks to [sounds.like.lx](https://users.rust-lang.org/t/crate-of-the-week/2704/1583) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -122,7 +124,78 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+479 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-03-31..2026-04-07
+
+#### Compiler
+* [compute the result of a projection type with region errors](https://github.com/rust-lang/rust/pull/153105)
+* [make `layout_of` cycles fatal errors](https://github.com/rust-lang/rust/pull/153960)
+* [properly generalize unevaluated consts](https://github.com/rust-lang/rust/pull/154053)
+
+#### Library
+* [add integer truncation and extension methods](https://github.com/rust-lang/rust/pull/154356)
+* [debugger visualizers: optimize lookup behavior](https://github.com/rust-lang/rust/pull/147552)
+* [impl `Step` for `NonZero<u*>`](https://github.com/rust-lang/rust/pull/127534)
+* [introduce `#[diagnostic::on_move]` on `Arc`](https://github.com/rust-lang/rust/pull/154669)
+* [make `substr_range` and `subslice_range` return the new `Range` type](https://github.com/rust-lang/rust/pull/154707)
+* [more informative `Debug for vec::ExtractIf`](https://github.com/rust-lang/rust/pull/154581)
+* [stabilize new Range type and iterator](https://github.com/rust-lang/rust/pull/154620)
+
+#### Cargo
+* [`lints`: Emit `unused_dependencies` lint](https://github.com/rust-lang/cargo/pull/16600)
+* [`compile`: Don't hide hard warnings with build.warnings=allow](https://github.com/rust-lang/cargo/pull/16827)
+* [`compile`: build.warnings=allow should not hide denied diagnostics](https://github.com/rust-lang/cargo/pull/16824)
+* [`install`: Ignore resolver.lockfile-path](https://github.com/rust-lang/cargo/pull/16823)
+* [add frame-pointers profile option](https://github.com/rust-lang/cargo/pull/16742)
+* [set CARGO env var during rustc -vV probe](https://github.com/rust-lang/cargo/pull/16811)
+* [send Content-Type header with cargo publish requests](https://github.com/rust-lang/cargo/pull/16832)
+* [simplified build script bin names in new layout](https://github.com/rust-lang/cargo/pull/16812)
+* [split out `cargo-util-terminal`](https://github.com/rust-lang/cargo/pull/16809)
+* [warn on invalid jobserver file descriptors](https://github.com/rust-lang/cargo/pull/16843)
+
+#### Clippy
+* [`unsafe_removed_from_name`: skip linting when renaming to `'_'`](https://github.com/rust-lang/rust-clippy/pull/16802)
+* [unnecessary type cast causing a compile error](https://github.com/rust-lang/rust-clippy/pull/16796)
+* [multiple fixes to false negatives of `question_mark`](https://github.com/rust-lang/rust-clippy/pull/16769)
+* [perf: disable `nonminimal_bool` by default](https://github.com/rust-lang/rust-clippy/pull/16761)
+* [rework `expr_use_ctxt` into an iterator over successive use sites](https://github.com/rust-lang/rust-clippy/pull/16784)
+* [unneeded wildcard improvement](https://github.com/rust-lang/rust-clippy/pull/16733)
+
+#### Rust-Analyzer
+* [add support for folding ranges for chained expressions](https://github.com/rust-lang/rust-analyzer/pull/19659)
+* [implement thin-arrow completion in fn return position](https://github.com/rust-lang/rust-analyzer/pull/21012)
+* [offer on tail-expr with else-branch for `if_let_to_guarded` assist](https://github.com/rust-lang/rust-analyzer/pull/21912)
+* [support labeled block for `convert_to_guarded_return`](https://github.com/rust-lang/rust-analyzer/pull/21919)
+* [support macro expansion in `#[doc = ...]` attributes](https://github.com/rust-lang/rust-analyzer/pull/21928)
+* [fix extract function invalid self param](https://github.com/rust-lang/rust-analyzer/pull/20864)
+* [add semicolon for postfix format unit like snippets](https://github.com/rust-lang/rust-analyzer/pull/21955)
+* [fix a cycle in bounds lowering](https://github.com/rust-lang/rust-analyzer/pull/21915)
+* [fix extract variable on arg with comma](https://github.com/rust-lang/rust-analyzer/pull/21936)
+* [fix indent for `convert_let_else_to_match`](https://github.com/rust-lang/rust-analyzer/pull/21938)
+* [fix param inlayHints on empty expr and comma](https://github.com/rust-lang/rust-analyzer/pull/21926)
+* [fix stale diagnostics when a custom check command is configured](https://github.com/rust-lang/rust-analyzer/pull/21738)
+* [fix `SyntaxEditor` upmapping of nodes with mapped ancestor that aren't mapped themselves](https://github.com/rust-lang/rust-analyzer/pull/21962)
+* [improve inserted order for `trait_impl_redundant_assoc_item`](https://github.com/rust-lang/rust-analyzer/pull/21695)
+* [load rust-analyzer.toml for virtual workspaces](https://github.com/rust-lang/rust-analyzer/pull/21704)
+* [not suggest name in nested type in variant](https://github.com/rust-lang/rust-analyzer/pull/21927)
+* [offer `'type_mismatch'` some fixes inside macro](https://github.com/rust-lang/rust-analyzer/pull/21952)
+* [offer on empty else block for `'convert_let_else_to_match'`](https://github.com/rust-lang/rust-analyzer/pull/21954)
+* [report `expected type, found {` in parser](https://github.com/rust-lang/rust-analyzer/pull/21951)
+* [silence type mismatch diagnostic when type is unknown](https://github.com/rust-lang/rust-analyzer/pull/21942)
+* [support cfg-ing array elements](https://github.com/rust-lang/rust-analyzer/pull/21935)
+* [support filesystems that don't send Create events](https://github.com/rust-lang/rust-analyzer/pull/21844)
+* [support multiple snippet placeholders in VS Code extension](https://github.com/rust-lang/rust-analyzer/pull/21940)
+* [unconditionally pass `--include-ignored` for test runnables](https://github.com/rust-lang/rust-analyzer/pull/21921)
+* [use the correct project root when there are multiple workspaces](https://github.com/rust-lang/rust-analyzer/pull/21922)
+* [wrap parentheses on guard for `replace_if_let_with_match`](https://github.com/rust-lang/rust-analyzer/pull/21937)
+* [impl Display type hint inlay hints at the end of the line](https://github.com/rust-lang/rust-analyzer/pull/21322)
+* [implement `feature(more_qualified_paths)`](https://github.com/rust-lang/rust-analyzer/pull/19956)
+* [make matching brace work when cursor not at bracket](https://github.com/rust-lang/rust-analyzer/pull/21792)
+* [move mutability responsibility from caller to `edit_algo`](https://github.com/rust-lang/rust-analyzer/pull/21931)
+* [move syntax editor initialization invariants to its constructor](https://github.com/rust-lang/rust-analyzer/pull/21960)
+* [publish no-server to Code Marketplace and OpenVSX](https://github.com/rust-lang/rust-analyzer/pull/21516)
+* [replace add trait assoc items to impl with its factory variant](https://github.com/rust-lang/rust-analyzer/pull/21930)
 
 ### Rust Compiler Performance Triage
 
@@ -311,7 +384,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Rust *tried* to have polymorphic generics in the early pre-1.0 days, and they quite reasonably *gave up* because it was too much work. For real Swift, great fucking working for getting all of this to work!
+
+– [Aria Desires on her blog](https://faultlore.com/blah/dsts-are-polymorphic-generics/#polymorphic-compilation-of-generics)
+
+[llogiq](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1757) thanks himself for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
