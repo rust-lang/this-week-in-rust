@@ -69,9 +69,9 @@ and just ask the editors to select the category.
 * [Fixing our own problems in the Rust compiler](https://tweedegolf.nl/en/blog/234/fixing-our-own-problems-in-the-rust-compiler)
 * [800 Rust terminal projects in 3 years](https://blog.orhun.dev/800-rust-projects/)
 * [What We Learned Building a Rust Runtime for TypeScript](https://encore.dev/blog/rust-runtime)
+* [Supply chain nightmare: How Rust will be attacked and what we can do to mitigate the inevitable](https://kerkour.com/rust-supply-chain-nightmare)
+* [Building an SSA-Based Declarative Render Graph in Rust](https://github.com/panxinmiao/myth/blob/main/docs/RenderGraph.md)
 * [audio] [Protocol Shorts: TLS Encrypted Client Hello](https://netstack.fm/#episode-33)
-- [Supply chain nightmare: How Rust will be attacked and what we can do to mitigate the inevitable](https://kerkour.com/rust-supply-chain-nightmare)
-- [Building an SSA-Based Declarative Render Graph in Rust](https://github.com/panxinmiao/myth/blob/main/docs/RenderGraph.md)
 
 ### Rust Walkthroughs
 * [Learn Rust Basics By Building a Brainfuck Interpreter](https://blog.sheerluck.dev/posts/learn-rust-basics-by-building-a-brainfuck-interpreter/)
