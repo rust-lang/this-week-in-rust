@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [haproxy-spoe-rs: A Rust SPOA Agent Library for HAProxy](https://blog.none.at/blog/2026/2026-04-12-haproxy-spoa-rs/)
 
 ### Observations/Thoughts
 
