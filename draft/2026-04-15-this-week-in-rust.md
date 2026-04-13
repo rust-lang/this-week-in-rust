@@ -50,6 +50,10 @@ and just ask the editors to select the category.
 
 * [Sinbo: a CLI snippet manager, store code snippets locally with fuzzy search, encryption, and shell completions](https://dev.to/yourusername/your-post-url](https://dev.to/opmr0/i-built-a-cli-snippet-manager-in-rust-because-i-was-tired-of-googling-the-same-things-4j4g )
 
+* [Meganeura v0.2](https://github.com/kvark/meganeura/blob/c9bee12df045708df98c5ceeed5c7c087e48d301/CHANGELOG.md#v02-14-apr-2026): a cross-platform Neural Network training and inference library in Rust.
+* [Blade XR Asteroids](https://kvark.github.io/blade/xr/2026/03/21/blade-xr-asteroids.html): OpenXR support with Asteroids demo in [Blade](https://github.com/kvark/blade).
+* [Fileman](https://kvark.github.io/application/2026/03/14/fileman.html) - a cross-platform 2-panel file manager made with [blade](https://github.com/kvark/blade/tree/main/blade-graphics) + [egui](https://www.egui.rs/).
+
 ### Observations/Thoughts
 
 * [audio] [Netstack.FM episode 34 — Tokio with Carl Lerche (Ep 5 Remastered)](https://netstack.fm/#episode-34)
