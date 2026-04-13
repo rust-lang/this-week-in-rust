@@ -139,7 +139,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+* [RustNet: A Real-Time Network Traffic Analysis TUI](https://netbeez.net/blog/rustnet/)
 
 ### Rust Compiler Performance Triage
 
