@@ -45,6 +45,9 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Blade XR Asteroids](https://kvark.github.io/blade/xr/2026/03/21/blade-xr-asteroids.html): OpenXR support with Asteroids demo in [Blade](https://github.com/kvark/blade).
+* [Fileman](https://kvark.github.io/application/2026/03/14/fileman.html) - a cross-platform 2-panel file manager made with [blade](https://github.com/kvark/blade/tree/main/blade-graphics) + [egui](https://www.egui.rs/).
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
