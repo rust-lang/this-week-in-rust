@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Profiling Rust: A Flamegraph vs PGO, BOLT, and Native CPU Targeting](https://alphakhaw.com/blog/seqpacker-profiling-rust-flamegraph-pgo-bolt)
+
 ### Research
 
 ### Miscellaneous
