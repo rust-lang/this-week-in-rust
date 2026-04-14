@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Infrastructure Team 2026 Q1 Recap and Q2 Plan](https://blog.rust-lang.org/inside-rust/2026/04/14/infrastructure-team-q1-recap-and-q2-plan/)
 
 ### Foundation
 
@@ -47,17 +48,24 @@ and just ask the editors to select the category.
 * [haproxy-spoe-rs: A Rust SPOA Agent Library for HAProxy](https://blog.none.at/blog/2026/2026-04-12-haproxy-spoa-rs/)
 * [Fresh 0.2.23: Terminal IDE adds Windows-1251 encoding, customizable status bar, and faster file finder](https://github.com/sinelaw/fresh/releases/tag/v0.2.23)
 * [KAIO v0.2.0: Writing GPU Kernels in Rust at 92.5% of cuBLAS](https://netviper.gr/blog/kaio-v020/)
-
 * [Sinbo: a CLI snippet manager, store code snippets locally with fuzzy search, encryption, and shell completions](https://dev.to/yourusername/your-post-url](https://dev.to/opmr0/i-built-a-cli-snippet-manager-in-rust-because-i-was-tired-of-googling-the-same-things-4j4g )
 
 ### Observations/Thoughts
-
+* [Debloat your async Rust](https://tweedegolf.nl/en/blog/235/debloat-your-async-rust)
+* [The acyclic e-graph: Cranelift's mid-end optimizer](https://cfallin.org/blog/2026/04/09/aegraph/)
+* [Rust should have stable tail calls](https://trifectatech.org/blog/tail-calls-project-goal/)
+* [Flat Error Codes Are Not Enough](https://home.expurple.me/posts/flat-error-codes-are-not-enough/)
+* [No one owes you supply-chain security](https://purplesyringa.moe/blog/no-one-owes-you-supply-chain-security/)
+* [Everything Should Be Typed: Scalar Types Are Not Enough](https://sot.dev/everything-should-be-typed.html)
+* [Borrow-checking surprises](https://www.scattered-thoughts.net/writing/borrow-checking-surprises/)
 * [audio] [Netstack.FM episode 34 — Tokio with Carl Lerche (Ep 5 Remastered)](https://netstack.fm/#episode-34)
 
 ### Rust Walkthroughs
-
-* [video] [Build with Naz : Eliminate busy waiting with Rust Condvar](https://www.youtube.com/watch?v=HvCptpU5r_4)
+* [Untangling Tokio and Rayon in production: From 2s latency spikes to 94ms flat](https://posthog.com/blog/untangling-rayon-and-tokio)
+* [Understanding Traceroute](https://tech.stonecharioteer.com/posts/2026/traceroute/)
+* [Bringing Rust to the Pixel Baseband](https://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html)
 * [Fixing DNS tail latency with a 5-line config and a 50-line function](https://numa.rs/blog/posts/fixing-doh-tail-latency.html)
+* [video] [Build with Naz : Eliminate busy waiting with Rust Condvar](https://www.youtube.com/watch?v=HvCptpU5r_4)
 
 ### Research
 
