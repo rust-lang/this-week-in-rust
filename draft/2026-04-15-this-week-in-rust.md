@@ -58,6 +58,7 @@ and just ask the editors to select the category.
 
 * [video] [Build with Naz : Eliminate busy waiting with Rust Condvar](https://www.youtube.com/watch?v=HvCptpU5r_4)
 * [Fixing DNS tail latency with a 5-line config and a 50-line function](https://numa.rs/blog/posts/fixing-doh-tail-latency.html)
+* [Debloat your async Rust](https://tweedegolf.nl/en/blog/235/debloat-your-async-rust)
 
 ### Research
 
