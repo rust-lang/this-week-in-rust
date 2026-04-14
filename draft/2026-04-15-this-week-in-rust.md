@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 * [KAIO v0.2.0: Writing GPU Kernels in Rust at 92.5% of cuBLAS](https://netviper.gr/blog/kaio-v020/)
 
 * [Sinbo: a CLI snippet manager, store code snippets locally with fuzzy search, encryption, and shell completions](https://dev.to/yourusername/your-post-url](https://dev.to/opmr0/i-built-a-cli-snippet-manager-in-rust-because-i-was-tired-of-googling-the-same-things-4j4g )
+* [eilmeldung: a fast and customizable RSS reader for the terminal based on news-flash and supporting many RSS providers](https://github.com/christo-auer/eilmeldung)
 
 ### Observations/Thoughts
 
