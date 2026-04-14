@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [RaTeX: A Cross-Platform LaTeX Rendering Engine with a Rust Core](https://github.com/erweixin/RaTeX)
 * [haproxy-spoe-rs: A Rust SPOA Agent Library for HAProxy](https://blog.none.at/blog/2026/2026-04-12-haproxy-spoa-rs/)
 * [Fresh 0.2.23: Terminal IDE adds Windows-1251 encoding, customizable status bar, and faster file finder](https://github.com/sinelaw/fresh/releases/tag/v0.2.23)
 * [KAIO v0.2.0: Writing GPU Kernels in Rust at 92.5% of cuBLAS](https://netviper.gr/blog/kaio-v020/)
