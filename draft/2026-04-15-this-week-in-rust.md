@@ -44,12 +44,15 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [KAIO v0.2.0: Writing GPU Kernels in Rust at 92.5% of cuBLAS](https://netviper.gr/blog/kaio-v020/)
 
 ### Observations/Thoughts
 
 * [audio] [Netstack.FM episode 34 — Tokio with Carl Lerche (Ep 5 Remastered)](https://netstack.fm/#episode-34)
 
 ### Rust Walkthroughs
+
+* [Fixing DNS tail latency with a 5-line config and a 50-line function](https://numa.rs/blog/posts/fixing-doh-tail-latency.html)
 
 ### Research
 
