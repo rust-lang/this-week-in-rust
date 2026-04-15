@@ -65,7 +65,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [Myth Engine](https://github.com/panxinmiao/myth), a high-performance, cross-platform rendering engine.
+
+Thanks to [Pan Xinmiao](https://users.rust-lang.org/t/crate-of-the-week/2704/1590) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -147,7 +149,86 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+519 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-04-07..2026-04-14
+
+#### Compiler
+* [add `#![unstable_removed(..)]` attribute to track removed features](https://github.com/rust-lang/rust/pull/153335)
+* [add suggestion to `.to_owned()` used on `Cow` when borrowing](https://github.com/rust-lang/rust/pull/154646)
+* [avoid stack overflow in FindExprBySpan](https://github.com/rust-lang/rust/pull/153888)
+* [enable `#[diagnostic::on_const]` for local impls](https://github.com/rust-lang/rust/pull/154609)
+* [introduce a `#[diagnostic::on_unknown]` attribute](https://github.com/rust-lang/rust/pull/152901)
+* [reduce size of `ImportData`](https://github.com/rust-lang/rust/pull/155167)
+* [`ty::Alias` refactor](https://github.com/rust-lang/rust/pull/154758)
+* [semantic checks of `impl` restrictions](https://github.com/rust-lang/rust/pull/154661)
+* [stabilize s390x vector registers](https://github.com/rust-lang/rust/pull/154184)
+* [store `chunk_domain_size` explicitly in `Chunk`](https://github.com/rust-lang/rust/pull/147802)
+
+#### Library
+* [add `const Default` impls for `LazyCell` and `LazyLock`](https://github.com/rust-lang/rust/pull/154929)
+* [constify some `Iterator` methods](https://github.com/rust-lang/rust/pull/154729)
+* [constify DoubleEndedIterator](https://github.com/rust-lang/rust/pull/151898)
+* [constify `Step for NonZero<u*>`](https://github.com/rust-lang/rust/pull/154825)
+* [don't leak internal temporaries from `dbg!`](https://github.com/rust-lang/rust/pull/154994)
+* [explicitly forget the zero remaining elements in `vec::IntoIter::fold()`](https://github.com/rust-lang/rust/pull/148486)
+* [impl const Residual for ControlFlow](https://github.com/rust-lang/rust/pull/155142)
+* [initial functions to start on transmute v2](https://github.com/rust-lang/rust/pull/155084)
+* [introduce `#[diagnostic::on_move]` on `Rc`](https://github.com/rust-lang/rust/pull/154678)
+* [make `Box/Rc/Arc::into_array` allocator-aware (and add doctest)](https://github.com/rust-lang/rust/pull/154925)
+* [stabilize feature `int_lowest_highest_one`](https://github.com/rust-lang/rust/pull/155147)
+* [stabilize feature `isolate_most_least_significant_one`](https://github.com/rust-lang/rust/pull/155130)
+* [stabilize feature `uint_bit_width`](https://github.com/rust-lang/rust/pull/155131)
+
+#### Cargo
+* [clean: add target directory validation](https://github.com/rust-lang/cargo/pull/16712)
+* [`manifest`: allow git dependency alongside alternate registry](https://github.com/rust-lang/cargo/pull/16810)
+* [`auth`: add auth scheme hint to token rejected error for alt registries](https://github.com/rust-lang/cargo/pull/16794)
+* [`core`: use `closest_msg` to suggest similar member name for mistyped `-p`](https://github.com/rust-lang/cargo/pull/16844)
+* [`lints`: ignore `unused_crate_dependencies` status](https://github.com/rust-lang/cargo/pull/16877)
+* [`toml`: force script edition warnings on quiet](https://github.com/rust-lang/cargo/pull/16848)
+* [copy cargo clean target-dir validation tests to `clean_new_layout.rs`](https://github.com/rust-lang/cargo/pull/16878)
+* [never include use extra-filename in build scripts](https://github.com/rust-lang/cargo/pull/16855)
+* [support target.'cfg(..)'.rustdocflags analogously to rustflags](https://github.com/rust-lang/cargo/pull/16846)
+
+#### Rustdoc
+* [fix pattern types rendering](https://github.com/rust-lang/rust/pull/154955)
+* [dep-info for standalone markdown inputs](https://github.com/rust-lang/rust/pull/154352)
+* [inherit inline attributes for declarative macros](https://github.com/rust-lang/rust/pull/154902)
+
+#### Clippy
+* [`fn_to_numeric_cast_any`: do not warn cast to raw pointer](https://github.com/rust-lang/rust-clippy/pull/14109)
+* [even more fixes for handling of macros](https://github.com/rust-lang/rust-clippy/pull/16443)
+* [extend `manual_filter` to cover `and_then`](https://github.com/rust-lang/rust-clippy/pull/16456)
+* [fix `unused_async` false positive for stubs with args](https://github.com/rust-lang/rust-clippy/pull/16832)
+* [fix wrong suggestion for `println_empty_string` with non-parenthesis delimiters](https://github.com/rust-lang/rust-clippy/pull/16846)
+* [truncate constants to target type in comparison](https://github.com/rust-lang/rust-clippy/pull/16782)
+
+#### Rust-Analyzer
+* [changes to build scripts and config.toml should always refresh](https://github.com/rust-lang/rust-analyzer/pull/21969)
+* [demoting completion relevance when an inherent impl already exists](https://github.com/rust-lang/rust-analyzer/pull/22031)
+* [enhance runnable command placeholders](https://github.com/rust-lang/rust-analyzer/pull/21978)
+* [support `impl` and `mut` restrictions](https://github.com/rust-lang/rust-analyzer/pull/22022)
+* [fix `[env]` in `.cargo/config.toml` overriding process environment variables](https://github.com/rust-lang/rust-analyzer/pull/21995)
+* [fix rustfmt relative custom command](https://github.com/rust-lang/rust-analyzer/pull/22010)
+* [MIR evaluation of sized &T with recursive const fn](https://github.com/rust-lang/rust-analyzer/pull/22030)
+* [check coercion, not unification, in "Fill `struct` fields", as the criteria to use an existing local as the field's value](https://github.com/rust-lang/rust-analyzer/pull/21971)
+* [complete variants of hidden enums through public aliases](https://github.com/rust-lang/rust-analyzer/pull/22003)
+* [consider the context of the path for `ImportAssets`](https://github.com/rust-lang/rust-analyzer/pull/21973)
+* [diagnose cfged-out crate](https://github.com/rust-lang/rust-analyzer/pull/21981)
+* [disable the fix for missing-fields when the fields are private](https://github.com/rust-lang/rust-analyzer/pull/21977)
+* [enable vscode suggest in strings](https://github.com/rust-lang/rust-analyzer/pull/22018)
+* [fix `ref_match` position when keyword prefix](https://github.com/rust-lang/rust-analyzer/pull/21999)
+* [improve add some on block like expression](https://github.com/rust-lang/rust-analyzer/pull/21953)
+* [improve label on `add_missing_match_arms` assist](https://github.com/rust-lang/rust-analyzer/pull/21920)
+* [no complete term expressions on qualified path](https://github.com/rust-lang/rust-analyzer/pull/22009)
+* [no deref index-expr for `extract_function`](https://github.com/rust-lang/rust-analyzer/pull/22025)
+* [no imports on type anchor qualified path](https://github.com/rust-lang/rust-analyzer/pull/22012)
+* [parse `cfg_attr` and `cfg` specially](https://github.com/rust-lang/rust-analyzer/pull/21965)
+* [handle token mutability in edit flow as well](https://github.com/rust-lang/rust-analyzer/pull/21975)
+* [migrate extract `struct` from `enum` variant to new SyntaxEditor and Port whitespace heuristics to SyntaxEditor](https://github.com/rust-lang/rust-analyzer/pull/21996)
+* [replace make from generate single field `struct` from with SyntaxFactory](https://github.com/rust-lang/rust-analyzer/pull/21997)
+* [unwrap unnecessary result return type in `view_crate_graph`](https://github.com/rust-lang/rust-analyzer/pull/21992)
 
 ### Rust Compiler Performance Triage
 
@@ -340,7 +421,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+[/quote]
+
+> the amount of times that I spend 15 min in the docs + coding which end up in a monstrous `or().flatten().map().is_ok_and()` only to get slapped by clippy saying `replace your monster with this single function please` is way too high 😀
+
+– [Teufelchen on RIOT off-topic matrix chat](https://matrix.to/#/!zcNfLwklXSZMQlTOLN:matrix.org/$1dc35m_KEs4r2vCu3DJ44NCjrrz3EtxWBQUdRQzlBe4)
+
+Thanks to [chrysn](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1760) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
