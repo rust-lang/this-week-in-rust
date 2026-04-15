@@ -52,8 +52,6 @@ and just ask the editors to select the category.
 
 * [Sinbo: a CLI snippet manager, store code snippets locally with fuzzy search, encryption, and shell completions](https://dev.to/yourusername/your-post-url](https://dev.to/opmr0/i-built-a-cli-snippet-manager-in-rust-because-i-was-tired-of-googling-the-same-things-4j4g )
 
-* [claudectl — a ratatui TUI for monitoring and managing Claude Code sessions](https://github.com/mercurialsolo/claudectl)
-
 ### Observations/Thoughts
 
 * [audio] [Netstack.FM episode 34 — Tokio with Carl Lerche (Ep 5 Remastered)](https://netstack.fm/#episode-34)
@@ -64,6 +62,7 @@ and just ask the editors to select the category.
 * [Fixing DNS tail latency with a 5-line config and a 50-line function](https://numa.rs/blog/posts/fixing-doh-tail-latency.html)
 * [Debloat your async Rust](https://tweedegolf.nl/en/blog/235/debloat-your-async-rust)
 * [Learn Rust Ownership and Borrowing By Building Mini Grep](https://blog.sheerluck.dev/posts/learn-rust-ownership-by-building-mini-grep/)
+* [claudectl: Building a TUI Dashboard for AI Coding Agents in Rust](https://mercurialsolo.github.io/posts/claudectl-tui-dashboard/)
 
 ### Research
 
