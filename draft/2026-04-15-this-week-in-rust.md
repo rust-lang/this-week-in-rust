@@ -51,6 +51,7 @@ and just ask the editors to select the category.
 * [RustNet: A Real-Time Network Traffic Analysis TUI](https://netbeez.net/blog/rustnet/)
 
 * [Sinbo: a CLI snippet manager, store code snippets locally with fuzzy search, encryption, and shell completions](https://dev.to/yourusername/your-post-url](https://dev.to/opmr0/i-built-a-cli-snippet-manager-in-rust-because-i-was-tired-of-googling-the-same-things-4j4g )
+* [tailscale-rs v0.2.0: our new Rust library preview](https://tailscale.com/blog/tailscale-rs-rust-tsnet-library-preview)
 
 ### Observations/Thoughts
 
