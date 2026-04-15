@@ -55,6 +55,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 * [audio] [Netstack.FM episode 34 — Tokio with Carl Lerche (Ep 5 Remastered)](https://netstack.fm/#episode-34)
+* [Okay, what ACTUALLY uses Rust?](https://blog.goose.love/posts/what-actually-uses-rust/)
 
 ### Rust Walkthroughs
 
