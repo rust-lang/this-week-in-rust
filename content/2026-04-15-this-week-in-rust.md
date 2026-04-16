@@ -40,10 +40,6 @@ and just ask the editors to select the category.
 ### Official
 * [Infrastructure Team 2026 Q1 Recap and Q2 Plan](https://blog.rust-lang.org/inside-rust/2026/04/14/infrastructure-team-q1-recap-and-q2-plan/)
 
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
 * [pquantum.dev: Post-Quantum Cryptography in Rust](https://pquantum.dev/)
 * [haproxy-spoe-rs: A Rust SPOA Agent Library for HAProxy](https://blog.none.at/blog/2026/2026-04-12-haproxy-spoa-rs/)
@@ -78,10 +74,6 @@ and just ask the editors to select the category.
 * [A minimal VMM in Rust with KVM](https://gigapotential.dev/blog/minimal-vmm-in-rust-with-kvm-hypervisor/)
 * [claudectl: Building a TUI Dashboard for AI Coding Agents in Rust](https://mercurialsolo.github.io/posts/claudectl-tui-dashboard/)
 * [video] [Build with Naz : Eliminate busy waiting with Rust Condvar](https://www.youtube.com/watch?v=HvCptpU5r_4)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -340,7 +332,7 @@ Rusty Events between 2026-04-15 - 2026-05-13 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254782/)
 * 2026-05-12 | Virtual (London, GB) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
     * [**👋 Community Catch Up**](https://www.meetup.com/women-in-rust/events/313506068/)
-* 2026-05-07 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
+* 2026-05-13 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
     * [**Weekly coding session**](https://luma.com/ooub1kt0)
 
 ### Asia
@@ -420,11 +412,9 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1rmra27/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
-
-[/quote]
 
 > the amount of times that I spend 15 min in the docs + coding which end up in a monstrous `or().flatten().map().is_ok_and()` only to get slapped by clippy saying `replace your monster with this single function please` is way too high 😀
 
@@ -450,4 +440,4 @@ This Week in Rust is edited by:
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1smskwm/this_week_in_rust_647/)</small>
