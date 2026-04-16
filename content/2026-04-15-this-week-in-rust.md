@@ -40,6 +40,9 @@ and just ask the editors to select the category.
 ### Official
 * [Infrastructure Team 2026 Q1 Recap and Q2 Plan](https://blog.rust-lang.org/inside-rust/2026/04/14/infrastructure-team-q1-recap-and-q2-plan/)
 
+### Foundation
+* RustConf 2026 [schedule](https://rustconf.com/schedule/) and [registration](https://rustconf.com/register?utm_source=this_week_in_rust&utm_medium=newsletter&utm_campaign=week_apr13) are live! Early bird ticket prices are available through April 29.
+
 ### Project/Tooling Updates
 * [pquantum.dev: Post-Quantum Cryptography in Rust](https://pquantum.dev/)
 * [haproxy-spoe-rs: A Rust SPOA Agent Library for HAProxy](https://blog.none.at/blog/2026/2026-04-12-haproxy-spoa-rs/)
