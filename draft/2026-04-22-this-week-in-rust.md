@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing mtp-mount: pure-Rust FUSE mount for MTP devices](https://www.veszelovszki.com/a/mtp-mount/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
