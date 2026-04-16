@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 * [tailscale-rs v0.2.0: our new Rust library preview](https://tailscale.com/blog/tailscale-rs-rust-tsnet-library-preview)
 * [Sinbo: a CLI snippet manager, store code snippets locally with fuzzy search, encryption, and shell completions](https://dev.to/opmr0/i-built-a-cli-snippet-manager-in-rust-because-i-was-tired-of-googling-the-same-things-4j4g )
 
+* [flodl v0.4.0: heterogeneous multi-GPU DDP with faster training and better convergence than solo GPU](https://flodl.dev/blog/ddp-benchmark)
+
 ### Observations/Thoughts
 
 * [A Roadmap for Building an Extended Standard Library for Rust](https://kerkour.com/rust-extended-standard-library)
