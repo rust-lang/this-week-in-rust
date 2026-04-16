@@ -50,19 +50,27 @@ and just ask the editors to select the category.
 * [KAIO v0.2.0: Writing GPU Kernels in Rust at 92.5% of cuBLAS](https://netviper.gr/blog/kaio-v020/)
 * [RustNet: A Real-Time Network Traffic Analysis TUI](https://netbeez.net/blog/rustnet/)
 * [AimDB: The Next Era of Software Architecture Is Data-First](https://aimdb.dev/blog/data-driven-design)
+* [tailscale-rs v0.2.0: our new Rust library preview](https://tailscale.com/blog/tailscale-rs-rust-tsnet-library-preview)
+* [Sinbo: a CLI snippet manager, store code snippets locally with fuzzy search, encryption, and shell completions](https://dev.to/opmr0/i-built-a-cli-snippet-manager-in-rust-because-i-was-tired-of-googling-the-same-things-4j4g )
 
-* [Sinbo: a CLI snippet manager, store code snippets locally with fuzzy search, encryption, and shell completions](https://dev.to/yourusername/your-post-url](https://dev.to/opmr0/i-built-a-cli-snippet-manager-in-rust-because-i-was-tired-of-googling-the-same-things-4j4g )
+* [flodl v0.4.0: heterogeneous multi-GPU DDP with faster training and better convergence than solo GPU](https://flodl.dev/blog/ddp-benchmark)
 
 ### Observations/Thoughts
 
+* [A Roadmap for Building an Extended Standard Library for Rust](https://kerkour.com/rust-extended-standard-library)
 * [audio] [Netstack.FM episode 34 — Tokio with Carl Lerche (Ep 5 Remastered)](https://netstack.fm/#episode-34)
+* [Okay, what ACTUALLY uses Rust?](https://blog.goose.love/posts/what-actually-uses-rust/)
 
 ### Rust Walkthroughs
 
+* [Profiling Rust: A Flamegraph vs PGO, BOLT, and Native CPU Targeting](https://alphakhaw.com/blog/seqpacker-profiling-rust-flamegraph-pgo-bolt)
+* [Bulletproof Rust Web: An opinionated guide to production-grade Axum applications](https://gruberb.github.io/bulletproof-rust-web/)
 * [video] [Build with Naz : Eliminate busy waiting with Rust Condvar](https://www.youtube.com/watch?v=HvCptpU5r_4)
 * [Fixing DNS tail latency with a 5-line config and a 50-line function](https://numa.rs/blog/posts/fixing-doh-tail-latency.html)
 * [Debloat your async Rust](https://tweedegolf.nl/en/blog/235/debloat-your-async-rust)
 * [Learn Rust Ownership and Borrowing By Building Mini Grep](https://blog.sheerluck.dev/posts/learn-rust-ownership-by-building-mini-grep/)
+* [A minimal VMM in Rust with KVM](https://gigapotential.dev/blog/minimal-vmm-in-rust-with-kvm-hypervisor/)
+* [claudectl: Building a TUI Dashboard for AI Coding Agents in Rust](https://mercurialsolo.github.io/posts/claudectl-tui-dashboard/)
 
 ### Research
 
