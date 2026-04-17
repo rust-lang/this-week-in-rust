@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Caching Expensive Functions in Rust with `cached`](https://kocharhook.com/post/5/caching-expensive-functions-in-rust/)
+
 ### Research
 
 ### Miscellaneous
