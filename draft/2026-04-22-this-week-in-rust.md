@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [batty: migrating an AI agent supervisor from tmux screen-scraping to typed JSON protocols](https://github.com/battysh/batty)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
