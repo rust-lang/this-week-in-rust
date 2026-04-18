@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [axum-harness: agent-native backend architecture template for Axum — semantic-first, topology-late, multi-agent harness](https://github.com/openclosed-org/axum-harness/blob/main/docs/launch.md)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
