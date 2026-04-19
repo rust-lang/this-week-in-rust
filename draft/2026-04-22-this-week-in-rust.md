@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Building Semantic Version Control in Rust](https://therohansharma.com/semantic-version-control-rust)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
