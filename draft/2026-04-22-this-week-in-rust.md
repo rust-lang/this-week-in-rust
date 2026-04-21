@@ -47,7 +47,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
-- [Learning rust through an LLM to develop a TUI RSS reader (and what I tell my students)](https://raw.githubusercontent.com/christo-auer/eilmeldung/refs/heads/main/docs/llm-development.md)
+- [Learning rust through an LLM to develop a TUI RSS reader (and what I tell my students)](https://github.com/christo-auer/eilmeldung/blob/main/docs/llm-development.md)
 
 ### Rust Walkthroughs
 
