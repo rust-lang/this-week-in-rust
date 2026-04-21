@@ -40,8 +40,6 @@ and just ask the editors to select the category.
 ### Official
 * [Infrastructure Team 2026 Q1 Recap and Q2 Plan](https://blog.rust-lang.org/inside-rust/2026/04/14/infrastructure-team-q1-recap-and-q2-plan/)
 
-### Foundation
-
 ### Project/Tooling Updates
 * [pquantum.dev: Post-Quantum Cryptography in Rust](https://pquantum.dev/)
 * [haproxy-spoe-rs: A Rust SPOA Agent Library for HAProxy](https://blog.none.at/blog/2026/2026-04-12-haproxy-spoa-rs/)
