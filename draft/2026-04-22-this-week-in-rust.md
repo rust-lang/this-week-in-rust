@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [lean-decimal: 2~6X faster than `rust_decimal`](https://github.com/WuBingzheng/lean-decimal/blob/main/benches/README.md)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
