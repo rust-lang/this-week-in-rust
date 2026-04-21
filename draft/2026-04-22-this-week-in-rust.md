@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [wrkflw v0.8.0 - Validate and Run GitHub Actions locally.](https://github.com/bahdotsh/wrkflw/releases/tag/v0.8.0)
+
 * [Building Semantic Version Control in Rust](https://therohansharma.com/semantic-version-control-rust)
 
 ### Observations/Thoughts
