@@ -229,6 +229,8 @@ Rusty Events between 2026-04-22 - 2026-05-20 🦀
     * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/310254783/)
 * 2026-04-28 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
     * [**Lunch & Learn: From Protobuf to Production - A Guide to gRPC in Rust**](https://www.meetup.com/women-in-rust/events/313505777/)
+* 2026-04-28 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens)
+    * [**Web development using axum in Rust - part 4**](https://www.meetup.com/code-mavens/events/314401473/)
 * 2026-04-29 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
     * [**Weekly coding session**](https://luma.com/8hi2xywi)
 * 2026-05-01 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris)
