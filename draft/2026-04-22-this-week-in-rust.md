@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [Building Semantic Version Control in Rust](https://therohansharma.com/semantic-version-control-rust)
+* [Oxanus v1.0 - Job processing library](https://github.com/pragmaplatform/oxanus/releases/tag/v1.0)
 
 ### Observations/Thoughts
 
