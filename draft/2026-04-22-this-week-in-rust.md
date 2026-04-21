@@ -120,7 +120,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
-<!-- or if none - *No Calls for participation were submitted this week.* -->
+
+* [rust-cookbook - Add Asynchronous section with tokio runtime recipes](https://github.com/rust-lang-nursery/rust-cookbook/issues/759) ([other high impact examples](https://github.com/rust-lang-nursery/rust-cookbook/issues?q=is%3Aissue%20state%3Aopen%20label%3Aexample))
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
