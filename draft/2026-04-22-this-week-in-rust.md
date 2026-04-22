@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [Building Semantic Version Control in Rust](https://therohansharma.com/semantic-version-control-rust)
+* [One Sized trait does not fit all](https://lwn.net/SubscriberLink/1067220/f4b7acbc7ce7d1fa/)
 
 ### Observations/Thoughts
 
