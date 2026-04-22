@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [farben](https://github.com/razkar-studio/farben), a German-named macro crate for terminal colors.
+
+Thanks to [Nik Revenco](https://users.rust-lang.org/t/crate-of-the-week/2704/1597) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -137,7 +139,59 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+542 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-04-14..2026-04-21
+
+#### Compiler
+* [don't hash `DelayedLints`](https://github.com/rust-lang/rust/pull/155248)
+* [refactor FnDecl and FnSig non-type fields into a new wrapper type](https://github.com/rust-lang/rust/pull/155223)
+* [suggest removing `&` when awaiting a reference to a future](https://github.com/rust-lang/rust/pull/154933)
+* [suggest returning a reference for unsized place from a closure](https://github.com/rust-lang/rust/pull/152162)
+
+#### Library
+* [abort in core](https://github.com/rust-lang/rust/pull/154604)
+* [constify `Index`(`Mut`), `Deref`(`Mut`) for `Vec`](https://github.com/rust-lang/rust/pull/155054)
+* [core/num: implement feature `integer_cast_extras`](https://github.com/rust-lang/rust/pull/154664)
+* [`core::unicode`: Replace `Cased` table with `Lt`](https://github.com/rust-lang/rust/pull/154699)
+* [libtest: use binary search for --exact test filtering](https://github.com/rust-lang/rust/pull/154865)
+* [move `std::io::ErrorKind` to `core::io`](https://github.com/rust-lang/rust/pull/154654)
+
+#### Rustdoc
+* [fix `redundant_explicit_links` incorrectly firing (or not firing) under certain scenarios](https://github.com/rust-lang/rust/pull/155435)
+* [preserve `doc(cfg)` on locally re-exported type aliases](https://github.com/rust-lang/rust/pull/154970)
+
+#### Clippy
+* [add MSRV check for `manual_noop_waker`](https://github.com/rust-lang/rust-clippy/pull/16850)
+* [add `useless_borrows_in_formatting` lint](https://github.com/rust-lang/rust-clippy/pull/16523)
+* [do not propose to refactor when no variant constructor is used](https://github.com/rust-lang/rust-clippy/pull/16867)
+* [do not trigger `let_and_return` on `let else`](https://github.com/rust-lang/rust-clippy/pull/16829)
+* [extend `byte_char_slices` to cover arrays](https://github.com/rust-lang/rust-clippy/pull/16770)
+* [extend `zst_offset` lint to detect `NonNull<T>` offset calculations](https://github.com/rust-lang/rust-clippy/pull/16888)
+* [fix a case where `collapsible_match` suggested a transformation that changes runtime behavior](https://github.com/rust-lang/rust-clippy/pull/16878)
+* [fix `cloned_ref_to_slice_refs` false negative on `to_owned()`](https://github.com/rust-lang/rust-clippy/pull/16329)
+* [fix `expect_fun_call` suggests wrongly for string slicing](https://github.com/rust-lang/rust-clippy/pull/16752)
+* [fix `for_kv_map` false negative when using `iter` and `iter_mut`](https://github.com/rust-lang/rust-clippy/pull/16830)
+* [parenthesize `AssocOp::Cast` in suggestion when replacement operator is `<` to avoid parse error](https://github.com/rust-lang/rust-clippy/pull/16848)
+* [`useless_conversion`: do not lint `(a..b).into_iter()` (for edition migration)](https://github.com/rust-lang/rust-clippy/pull/16891)
+
+#### Rust-Analyzer
+* [`completion`: reduce relevance for deprecated items](https://github.com/rust-lang/rust-analyzer/pull/22085)
+* [remove duplicate lints](https://github.com/rust-lang/rust-analyzer/pull/22054)
+* [allow crate authors to declare that their trait prefers to be imported `as _`](https://github.com/rust-lang/rust-analyzer/pull/21740)
+* [do not complete unstable items that use an internal feature](https://github.com/rust-lang/rust-analyzer/pull/22044)
+* [exclude refs(find all refs) from deps and stdlib](https://github.com/rust-lang/rust-analyzer/pull/21906)
+* [support extract variable in macro call](https://github.com/rust-lang/rust-analyzer/pull/21487)
+* [add parentheses on record expr for `replace_let_with_if_let`](https://github.com/rust-lang/rust-analyzer/pull/22067)
+* [adjust name of `extract_type_alias`](https://github.com/rust-lang/rust-analyzer/pull/22070)
+* [allow ambiguity in assoc type shorthand if they resolve to the same assoc type, between supertraits this time](https://github.com/rust-lang/rust-analyzer/pull/22032)
+* [port call expr type checking and closure upvar inference from rustc](https://github.com/rust-lang/rust-analyzer/pull/22101)
+* [respect `#[deprecated]` attr when deciding if a `ModuleDef` completion is `deprecated`](https://github.com/rust-lang/rust-analyzer/pull/22083)
+* [some fixes for `upvars_mentioned()`](https://github.com/rust-lang/rust-analyzer/pull/22055)
+* [use `ProofTreeVisitor` for unsized coercion](https://github.com/rust-lang/rust-analyzer/pull/22096)
+* [parse `type const` items](https://github.com/rust-lang/rust-analyzer/pull/22046)
+* [perf: do not check solver's cache validity on every access](https://github.com/rust-lang/rust-analyzer/pull/22104)
+* [sync function call args check fudging with rustc](https://github.com/rust-lang/rust-analyzer/pull/22092)
 
 ### Rust Compiler Performance Triage
 
@@ -328,7 +382,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> in Rust we pay the price of composition up-front
+
+– [Nadieril on rust zulip](https://rust-lang.zulipchat.com/#narrow/channel/213817-t-lang/topic/broken.20and.20un-fixable.20parts.20of.20Rust/near/587758938)
+
+Thanks to [Nadieril](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1763) for the self-suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
