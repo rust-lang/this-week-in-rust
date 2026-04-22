@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [Building Semantic Version Control in Rust](https://therohansharma.com/semantic-version-control-rust)
+* [flodl 0.5.2: HuggingFace, in Rust](https://flodl.dev/blog/huggingface)
 
 ### Observations/Thoughts
 
