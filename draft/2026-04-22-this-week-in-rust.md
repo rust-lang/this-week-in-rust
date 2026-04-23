@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 
 * [Building Semantic Version Control in Rust](https://therohansharma.com/semantic-version-control-rust)
 * [One Sized trait does not fit all](https://lwn.net/SubscriberLink/1067220/f4b7acbc7ce7d1fa/)
+* [tinyboot v0.4.0 Released — The API is Stable](https://aaronqian.com/log/2026-04-22-tinyboot-v040-released/)
 
 ### Observations/Thoughts
 
