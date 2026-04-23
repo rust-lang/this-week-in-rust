@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [lean-decimal: 2~6X faster than `rust_decimal`](https://github.com/WuBingzheng/lean-decimal/blob/main/benches/README.md)
 * [Building Semantic Version Control in Rust](https://therohansharma.com/semantic-version-control-rust)
 * [Oxanus v1.0 - Job processing library](https://github.com/pragmaplatform/oxanus/releases/tag/v1.0)
 * [flodl 0.5.2: HuggingFace, in Rust](https://flodl.dev/blog/huggingface)
@@ -56,8 +57,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
-- [Cryptographic Right Answers: Post Quantum and Rust Edition](https://kerkour.com/post-quantum-cryptography-recommendations-rust)
-- [Learning rust through an LLM to develop a TUI RSS reader (and what I tell my students)](https://github.com/christo-auer/eilmeldung/blob/main/docs/llm-development.md)
+* [Cryptographic Right Answers: Post Quantum and Rust Edition](https://kerkour.com/post-quantum-cryptography-recommendations-rust)
+* [Learning rust through an LLM to develop a TUI RSS reader (and what I tell my students)](https://github.com/christo-auer/eilmeldung/blob/main/docs/llm-development.md)
 
 ### Rust Walkthroughs
 
