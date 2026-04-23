@@ -46,14 +46,20 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [Building Semantic Version Control in Rust](https://therohansharma.com/semantic-version-control-rust)
+* [Oxanus v1.0 - Job processing library](https://github.com/pragmaplatform/oxanus/releases/tag/v1.0)
+* [flodl 0.5.2: HuggingFace, in Rust](https://flodl.dev/blog/huggingface)
+* [One Sized trait does not fit all](https://lwn.net/SubscriberLink/1067220/f4b7acbc7ce7d1fa/)
+* [tinyboot v0.4.0 Released — The API is Stable](https://aaronqian.com/log/2026-04-22-tinyboot-v040-released/)
 
 ### Observations/Thoughts
 
-- [Learning rust through an LLM to develop a TUI RSS reader (and what I tell my students)](https://github.com/christo-auer/eilmeldung/blob/main/docs/llm-development.md)
+* [Cryptographic Right Answers: Post Quantum and Rust Edition](https://kerkour.com/post-quantum-cryptography-recommendations-rust)
+* [Learning rust through an LLM to develop a TUI RSS reader (and what I tell my students)](https://github.com/christo-auer/eilmeldung/blob/main/docs/llm-development.md)
 
 ### Rust Walkthroughs
 
 * [The Impatient Programmer's Guide to Bevy and Rust: Chapter 12 - Let There Be Networking](https://aibodh.com/posts/bevy-rust-game-development-chapter-12/)
+* [A minimal VMM in Rust with Apple Hypervisor](https://gigapotential.dev/blog/minimal-vmm-in-rust-with-apple-hypervisor/)
 
 ### Research
 
@@ -231,6 +237,8 @@ Rusty Events between 2026-04-22 - 2026-05-20 🦀
     * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/310254783/)
 * 2026-04-28 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
     * [**Lunch & Learn: From Protobuf to Production - A Guide to gRPC in Rust**](https://www.meetup.com/women-in-rust/events/313505777/)
+* 2026-04-28 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens)
+    * [**Web development using axum in Rust - part 4**](https://www.meetup.com/code-mavens/events/314401473/)
 * 2026-04-29 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
     * [**Weekly coding session**](https://luma.com/8hi2xywi)
 * 2026-05-01 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris)
