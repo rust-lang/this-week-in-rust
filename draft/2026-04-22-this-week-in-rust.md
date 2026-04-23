@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Foundation
 
+* RustConf 2026 [schedule](https://rustconf.com/schedule/) and [registration](https://rustconf.com/register) are live! Early bird ticket prices are available through April 29.
+
 ### Newsletters
 
 ### Project/Tooling Updates
