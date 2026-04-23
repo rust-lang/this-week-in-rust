@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [axum-harness: agent-native backend architecture template for Axum — semantic-first, topology-late, multi-agent harness](https://github.com/openclosed-org/axum-harness/blob/main/docs/launch.md)
 * [lean-decimal: 2~6X faster than `rust_decimal`](https://github.com/WuBingzheng/lean-decimal/blob/main/benches/README.md)
 * [Building Semantic Version Control in Rust](https://therohansharma.com/semantic-version-control-rust)
 * [Oxanus v1.0 - Job processing library](https://github.com/pragmaplatform/oxanus/releases/tag/v1.0)
