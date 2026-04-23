@@ -54,13 +54,12 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
-* [Cryptographic Right Answers: Post Quantum and Rust Edition](https://kerkour.com/post-quantum-cryptography-recommendations-rust)
-* [Learning rust through an LLM to develop a TUI RSS reader (and what I tell my students)](https://github.com/christo-auer/eilmeldung/blob/main/docs/llm-development.md)
+- [Cryptographic Right Answers: Post Quantum and Rust Edition](https://kerkour.com/post-quantum-cryptography-recommendations-rust)
+- [Learning rust through an LLM to develop a TUI RSS reader (and what I tell my students)](https://github.com/christo-auer/eilmeldung/blob/main/docs/llm-development.md)
 
 ### Rust Walkthroughs
 
-* [The Impatient Programmer's Guide to Bevy and Rust: Chapter 12 - Let There Be Networking](https://aibodh.com/posts/bevy-rust-game-development-chapter-12/)
-* [A minimal VMM in Rust with Apple Hypervisor](https://gigapotential.dev/blog/minimal-vmm-in-rust-with-apple-hypervisor/)
+- [A minimal VMM in Rust with Apple Hypervisor](https://gigapotential.dev/blog/minimal-vmm-in-rust-with-apple-hypervisor/)
 
 ### Research
 
