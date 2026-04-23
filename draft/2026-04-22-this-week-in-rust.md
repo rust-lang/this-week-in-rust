@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 * [flodl 0.5.2: HuggingFace, in Rust](https://flodl.dev/blog/huggingface)
 * [One Sized trait does not fit all](https://lwn.net/SubscriberLink/1067220/f4b7acbc7ce7d1fa/)
 * [tinyboot v0.4.0 Released — The API is Stable](https://aaronqian.com/log/2026-04-22-tinyboot-v040-released/)
+* [Danube Messaging adds Key-Shared subscriptions](https://danube-docs.dev-state.com/architecture/key_shared_architecture/)
 
 ### Observations/Thoughts
 
