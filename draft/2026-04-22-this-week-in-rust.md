@@ -38,7 +38,8 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-
+* [crates.io: Help test our new web frontend](https://blog.rust-lang.org/inside-rust/2026/04/17/crates-io-svelte-public-testing/)
+* [Announcing Rust 1.95.0 | Rust Blog](https://blog.rust-lang.org/2026/04/16/Rust-1.95.0/)
 ### Foundation
 
 * RustConf 2026 [schedule](https://rustconf.com/schedule/) and [registration](https://rustconf.com/register) are live! Early bird ticket prices are available through April 29.
@@ -54,15 +55,21 @@ and just ask the editors to select the category.
 * [flodl 0.5.2: HuggingFace, in Rust](https://flodl.dev/blog/huggingface)
 * [One Sized trait does not fit all](https://lwn.net/SubscriberLink/1067220/f4b7acbc7ce7d1fa/)
 * [tinyboot v0.4.0 Released — The API is Stable](https://aaronqian.com/log/2026-04-22-tinyboot-v040-released/)
+* [Slint 1.16 Released](https://slint.dev/blog/slint-1.16-released)
 * [Danube Messaging adds Key-Shared subscriptions](https://danube-docs.dev-state.com/architecture/key_shared_architecture/)
 
 ### Observations/Thoughts
-
 * [Cryptographic Right Answers: Post Quantum and Rust Edition](https://kerkour.com/post-quantum-cryptography-recommendations-rust)
 * [Learning rust through an LLM to develop a TUI RSS reader (and what I tell my students)](https://github.com/christo-auer/eilmeldung/blob/main/docs/llm-development.md)
+* [What Happens When You Build an Inode-Style Vector in Rust](https://sot.dev/inode-style-vector-in-rust.html)
+* [Ownership & Borrowing
+versus Reference Counting](https://slicker.me/rust/ownership_and_borrowing_vs_reference_counting.html)
+* [The Edge of Safe Rust](https://kyju.org/blog/tokioconf-2026/)
+* [video][Third Online Func Prog Sweden 2026](https://www.youtube.com/watch?v=fboHzVVfknU&t=340s)
 
 ### Rust Walkthroughs
-
+* [video][Build a Full Stack Twitter Clone web application in Rust (Axum & Leptos)](https://www.youtube.com/watch?v=WmGv-lZgr7M)
+* [The Impatient Programmer's Guide to Bevy and Rust: Chapter 12 - Let There Be Networking](https://aibodh.com/posts/bevy-rust-game-development-chapter-12/)
 * [video] [RustCurious lesson 6: Enums and Polymorphism](https://www.youtube.com/watch?v=7dXQLr014JU)
 * [A minimal VMM in Rust with Apple Hypervisor](https://gigapotential.dev/blog/minimal-vmm-in-rust-with-apple-hypervisor/)
 
