@@ -86,10 +86,12 @@ If you submit an LLM-written article to TWiR, we request that the LLM authorship
 
 There are further guidelines for the Projects/Tooling Updates Section
 
+* Each contributor is limited to submitting one project each week - we get a lot of project submissions per week and need to limit the amount per contributor.
+
 We include:
 * Updates on tooling when in long form or framed as a tutorial (this can be through a blog, through GitHub, through a newsletter, and more) - it must have a high amount of Rust specific info (examples in Rust, notes on things learned about Rust in the process of creating/updating the project, etc.)
 * Updates on tooling that call out specific contributors - it is wonderful to highlight all the great people contributing to Rust OSS projects (Note - the update still must include a high amount of Rust specific info)
-* Changelogs of projects (though we strongly prefer the changelogs be accompanied with details on the changes, guides to using the changes, etc.)
+* Release notes/changelogs when they include more information than just the changelog - they need to include useful information about why you made the changes, how to use the changes, the things you learned in the process of making the changes, etc. It is ok to use LLMs to assist in writing this, but they must follow our LLM generated contents rules about disclosure.
 
 We do not include:
 * Links that are solely to a GitHub repo or crate on crates.io. While we would love to include these, there are too many being created/updated every week for us to include them all. We encourage you to write up an introduction to your project with examples, information you learned through creating the project, changes you recently made to the project, etc.
