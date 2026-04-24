@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [A Gopher Meets a Crab](https://miren.dev/blog/gopher-meets-crab)
+
 ### Rust Walkthroughs
 
 ### Research
