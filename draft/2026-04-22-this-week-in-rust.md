@@ -331,6 +331,8 @@ Rusty Events between 2026-04-22 - 2026-05-20 🦀
     * [**Rust-Atl**](https://www.meetup.com/rust-atl/events/311228662/)
 * 2026-05-07 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust/events/)
     * [**Open Project Night**](https://www.meetup.com/stl-rust/events/313807225/)
+* 2026-05-20 | San Francisco, CA, US | [Bay Area Rust Meetup](https://luma.com/bayarearust)
+    * [**Bay Area Rust Meetup**](https://luma.com/9j3q5ejl)
 
 ### South America
 * 2026-04-17 | Rio de Janeiro, BR | [Meetups Rust RJ](https://luma.com/calendar/cal-z65k0aMSe7DaqKv)
