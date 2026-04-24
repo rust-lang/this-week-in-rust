@@ -120,6 +120,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 
 * [rust-cookbook - Add Asynchronous section with tokio runtime recipes](https://github.com/rust-lang-nursery/rust-cookbook/issues/759) ([other high impact examples](https://github.com/rust-lang-nursery/rust-cookbook/issues?q=is%3Aissue%20state%3Aopen%20label%3Aexample))
+* [wacp-platform - Fix test-only clippy drifts in `wacp-runtime/tests.rs` + `console-db/queries/tests.rs`](https://github.com/AAkil98/wacp-platform/issues/2) ([other good first issues](https://github.com/AAkil98/wacp-platform/labels/good%20first%20issue))
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
