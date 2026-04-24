@@ -48,7 +48,6 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [wrkflw v0.8.0 - Validate and Run GitHub Actions locally.](https://github.com/bahdotsh/wrkflw/releases/tag/v0.8.0)
 * [axum-harness: agent-native backend architecture template for Axum — semantic-first, topology-late, multi-agent harness](https://github.com/openclosed-org/axum-harness/blob/main/docs/launch.md)
 * [lean-decimal: 2~6X faster than `rust_decimal`](https://github.com/WuBingzheng/lean-decimal/blob/main/benches/README.md)
 * [Building Semantic Version Control in Rust](https://therohansharma.com/semantic-version-control-rust)
@@ -59,6 +58,7 @@ and just ask the editors to select the category.
 * [Slint 1.16 Released](https://slint.dev/blog/slint-1.16-released)
 * [Danube Messaging adds Key-Shared subscriptions](https://danube-docs.dev-state.com/architecture/key_shared_architecture/)
 * [Announcing mtp-mount: pure-Rust FUSE mount for MTP devices](https://www.veszelovszki.com/a/mtp-mount/)
+* [wrkflw v0.8.0 - Validate and Run GitHub Actions locally.](https://github.com/bahdotsh/wrkflw/releases/tag/v0.8.0)
 
 ### Observations/Thoughts
 * [Cryptographic Right Answers: Post Quantum and Rust Edition](https://kerkour.com/post-quantum-cryptography-recommendations-rust)
