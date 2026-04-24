@@ -86,7 +86,7 @@ If you submit an LLM-written article to TWiR, we request that the LLM authorship
 
 There are further guidelines for the Projects/Tooling Updates Section
 
-* Each contributor is limited to submitting one project each week - we've had people submitting 3-4 project updates in one pull request
+* Each contributor is limited to submitting one project each week - we get a lot of project submissions per week and need to limit the amount per contributor.
 
 We include:
 * Updates on tooling when in long form or framed as a tutorial (this can be through a blog, through GitHub, through a newsletter, and more) - it must have a high amount of Rust specific info (examples in Rust, notes on things learned about Rust in the process of creating/updating the project, etc.)
