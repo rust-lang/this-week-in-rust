@@ -64,10 +64,10 @@ and just ask the editors to select the category.
 * [Ownership & Borrowing
 versus Reference Counting](https://slicker.me/rust/ownership_and_borrowing_vs_reference_counting.html)
 * [The Edge of Safe Rust](https://kyju.org/blog/tokioconf-2026/)
-* [video][Third Online Func Prog Sweden 2026](https://www.youtube.com/watch?v=fboHzVVfknU&t=340s)
+* [video] [Third Online Func Prog Sweden 2026](https://www.youtube.com/watch?v=fboHzVVfknU&t=340s)
 
 ### Rust Walkthroughs
-* [video][Build a Full Stack Twitter Clone web application in Rust (Axum & Leptos)](https://www.youtube.com/watch?v=WmGv-lZgr7M)
+* [video] [Build a Full Stack Twitter Clone web application in Rust (Axum & Leptos)](https://www.youtube.com/watch?v=WmGv-lZgr7M)
 * [The Impatient Programmer's Guide to Bevy and Rust: Chapter 12 - Let There Be Networking](https://aibodh.com/posts/bevy-rust-game-development-chapter-12/)
 * [video] [RustCurious lesson 6: Enums and Polymorphism](https://www.youtube.com/watch?v=7dXQLr014JU)
 * [A minimal VMM in Rust with Apple Hypervisor](https://gigapotential.dev/blog/minimal-vmm-in-rust-with-apple-hypervisor/)
