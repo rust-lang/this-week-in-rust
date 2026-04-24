@@ -42,16 +42,21 @@ and just ask the editors to select the category.
 * [Announcing Rust 1.95.0 | Rust Blog](https://blog.rust-lang.org/2026/04/16/Rust-1.95.0/)
 ### Foundation
 
+* RustConf 2026 [schedule](https://rustconf.com/schedule/) and [registration](https://rustconf.com/register) are live! Early bird ticket prices are available through April 29.
+
 ### Newsletters
 
 ### Project/Tooling Updates
 
+* [axum-harness: agent-native backend architecture template for Axum — semantic-first, topology-late, multi-agent harness](https://github.com/openclosed-org/axum-harness/blob/main/docs/launch.md)
+* [lean-decimal: 2~6X faster than `rust_decimal`](https://github.com/WuBingzheng/lean-decimal/blob/main/benches/README.md)
 * [Building Semantic Version Control in Rust](https://therohansharma.com/semantic-version-control-rust)
 * [Oxanus v1.0 - Job processing library](https://github.com/pragmaplatform/oxanus/releases/tag/v1.0)
 * [flodl 0.5.2: HuggingFace, in Rust](https://flodl.dev/blog/huggingface)
 * [One Sized trait does not fit all](https://lwn.net/SubscriberLink/1067220/f4b7acbc7ce7d1fa/)
 * [tinyboot v0.4.0 Released — The API is Stable](https://aaronqian.com/log/2026-04-22-tinyboot-v040-released/)
 * [Slint 1.16 Released](https://slint.dev/blog/slint-1.16-released)
+* [Danube Messaging adds Key-Shared subscriptions](https://danube-docs.dev-state.com/architecture/key_shared_architecture/)
 
 ### Observations/Thoughts
 * [Cryptographic Right Answers: Post Quantum and Rust Edition](https://kerkour.com/post-quantum-cryptography-recommendations-rust)
@@ -65,6 +70,7 @@ versus Reference Counting](https://slicker.me/rust/ownership_and_borrowing_vs_re
 ### Rust Walkthroughs
 * [video][Build a Full Stack Twitter Clone web application in Rust (Axum & Leptos)](https://www.youtube.com/watch?v=WmGv-lZgr7M)
 * [The Impatient Programmer's Guide to Bevy and Rust: Chapter 12 - Let There Be Networking](https://aibodh.com/posts/bevy-rust-game-development-chapter-12/)
+* [video] [RustCurious lesson 6: Enums and Polymorphism](https://www.youtube.com/watch?v=7dXQLr014JU)
 * [A minimal VMM in Rust with Apple Hypervisor](https://gigapotential.dev/blog/minimal-vmm-in-rust-with-apple-hypervisor/)
 
 ### Research
