@@ -74,6 +74,8 @@ versus Reference Counting](https://slicker.me/rust/ownership_and_borrowing_vs_re
 * [video] [RustCurious lesson 6: Enums and Polymorphism](https://www.youtube.com/watch?v=7dXQLr014JU)
 * [A minimal VMM in Rust with Apple Hypervisor](https://gigapotential.dev/blog/minimal-vmm-in-rust-with-apple-hypervisor/)
 
+* [Caching Expensive Functions in Rust with `cached`](https://kocharhook.com/post/5/caching-expensive-functions-in-rust/)
+
 ### Research
 
 ### Miscellaneous
