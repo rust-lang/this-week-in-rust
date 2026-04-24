@@ -57,6 +57,7 @@ and just ask the editors to select the category.
 * [tinyboot v0.4.0 Released — The API is Stable](https://aaronqian.com/log/2026-04-22-tinyboot-v040-released/)
 * [Slint 1.16 Released](https://slint.dev/blog/slint-1.16-released)
 * [Danube Messaging adds Key-Shared subscriptions](https://danube-docs.dev-state.com/architecture/key_shared_architecture/)
+* [Announcing mtp-mount: pure-Rust FUSE mount for MTP devices](https://www.veszelovszki.com/a/mtp-mount/)
 
 ### Observations/Thoughts
 * [Cryptographic Right Answers: Post Quantum and Rust Edition](https://kerkour.com/post-quantum-cryptography-recommendations-rust)
