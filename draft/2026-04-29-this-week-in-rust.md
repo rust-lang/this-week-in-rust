@@ -153,7 +153,17 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Relatively few perf-affecting changes this week. Perf report is more positive
+than users should see due to the `-Zincremental-verify-ich` related
+improvements in [#155473](https://github.com/rust-lang/rust/pull/155473).
+
+Triage done by **@simulacrum**.
+Revision range: [9ab01ae5..ca9a134e](https://perf.rust-lang.org/?start=9ab01ae53c416f89fe256b79588a76dcbcdc9290&end=ca9a134e0985765ded9cfdde4030a5df4db7e2bd&absolute=false&stat=instructions%3Au)
+
+1 Regression, 5 Improvements, 3 Mixed; 3 of them in rollups
+32 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2026/2026-04-27.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
