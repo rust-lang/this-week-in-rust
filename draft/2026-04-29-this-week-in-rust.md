@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 
 ### Research
 
+* [Performance of Rust language](https://raw.githubusercontent.com/yugr/rust-slides/main/EN.pdf)
+
 ### Miscellaneous
 
 ## Crate of the Week
