@@ -42,6 +42,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #70](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-70)
 * [Scientific Computing in Rust #17 (April 2026)](https://scientificcomputing.rs/monthly/2026-04)
 
 ### Project/Tooling Updates
