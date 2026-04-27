@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [kache v0.0.35: safer setup and daemon restarts for Rust build caching](https://github.com/kunobi-ninja/kache/releases/tag/v0.0.35)
 * [menhera-cooldown: Announcing the crates.io Cooldown Proxy — mitigating supply-chain attacks through delayed availability](https://www.menhera.org/crates-io-cooldown-proxy-mitigating-supply-chain-attacks/)
 
 ### Observations/Thoughts
