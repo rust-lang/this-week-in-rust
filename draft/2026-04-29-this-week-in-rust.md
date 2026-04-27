@@ -42,13 +42,20 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #70](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-70)
+* [Scientific Computing in Rust #17 (April 2026)](https://scientificcomputing.rs/monthly/2026-04)
 
 ### Project/Tooling Updates
 
 * [menhera-cooldown: Announcing the crates.io Cooldown Proxy — mitigating supply-chain attacks through delayed availability](https://www.menhera.org/crates-io-cooldown-proxy-mitigating-supply-chain-attacks/)
 * [Nutype 0.7.0 - newtype with guarantees now supports conditional `cfg_attr` derives](https://github.com/greyblake/nutype/releases/tag/v0.7.0)
+* [AimDB: Reactive Pipelines as the Engine of the Data-First Architecture](https://aimdb.dev/blog/reactive-pipelines)
+
+* [pyscan v2.1.0: Python Dependency Vulnerability Scanner - Released with SBOM support and Reachability Heuristics](https://ohaswin.github.io/blog/pyscan-v2/)
 
 ### Observations/Thoughts
+
+* [A Gopher Meets a Crab](https://miren.dev/blog/gopher-meets-crab)
 
 ### Rust Walkthroughs
 
@@ -132,6 +139,8 @@ If you are a Rust project owner and are looking for contributors, please submit 
 ### CFP - Events
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
+
+* [**Scientific Computing in Rust 2026**](https://scientificcomputing.rs/2026/submit-talk)| CFP closes 2026-06-05 | held virtually on 2026-07-08 to 2026-07-10
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
