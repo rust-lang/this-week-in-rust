@@ -56,6 +56,7 @@ and just ask the editors to select the category.
 * [Danube Messaging adds Key-Shared subscriptions](https://danube-docs.dev-state.com/architecture/key_shared_architecture/)
 * [Announcing mtp-mount: pure-Rust FUSE mount for MTP devices](https://www.veszelovszki.com/a/mtp-mount/)
 * [wrkflw v0.8.0 - Validate and Run GitHub Actions locally.](https://github.com/bahdotsh/wrkflw/releases/tag/v0.8.0)
+* [lean-ctx v3.4.4 - Context runtime for AI coding agents with 46 MCP tools, reducing LLM token costs by 60-99%](https://github.com/yvgude/lean-ctx)
 
 ### Observations/Thoughts
 * [Cryptographic Right Answers: Post Quantum and Rust Edition](https://kerkour.com/post-quantum-cryptography-recommendations-rust)
