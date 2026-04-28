@@ -62,6 +62,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [awesome axum](https://github.com/szabgab/awesome-axum)
 
 ## Crate of the Week
 
