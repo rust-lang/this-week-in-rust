@@ -59,6 +59,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [device-envoy-esp: Making Embedded ESP32 Fun: With Rust, Embassy, and Composable Device Abstractions](https://medium.com/@carlmkadie/device-envoy-esp-making-embedded-esp32-fun-872e251b88f3)
+
 ### Research
 
 ### Miscellaneous
