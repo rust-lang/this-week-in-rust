@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 * [AimDB: Reactive Pipelines as the Engine of the Data-First Architecture](https://aimdb.dev/blog/reactive-pipelines)
 
 * [pyscan v2.1.0: Python Dependency Vulnerability Scanner - Released with SBOM support and Reachability Heuristics](https://ohaswin.github.io/blog/pyscan-v2/)
+* [BerryCode v0.4.1: A native IDE for the Bevy game engine, written in Bevy + bevy_egui + egui itself and rendered end-to-end on WGPU](https://github.com/KyosukeIshizu1008/berryscode)
 
 ### Observations/Thoughts
 
