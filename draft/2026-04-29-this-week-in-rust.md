@@ -254,8 +254,6 @@ Rusty Events between 2026-04-29 - 2026-05-27 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254782/)
 * 2026-05-12 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
     * [**👋 Community Catch Up**](https://www.meetup.com/women-in-rust/events/313506068/)
-* 2026-05-13 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
-    * [**Weekly coding session**](https://luma.com/ooub1kt0)
 * 2026-05-17 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
     * [**Rust Deep Learning: Third Sunday**](https://www.meetup.com/dallasrust/events/314329043/)
 * 2026-05-19 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc/events/)
