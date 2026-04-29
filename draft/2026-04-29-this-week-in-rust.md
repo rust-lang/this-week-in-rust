@@ -51,7 +51,7 @@ and just ask the editors to select the category.
 * [cargo-cooldown 0.3.0: a Cargo wrapper for supply-chain cooldowns, now faster and more stable](https://github.com/dertin/cargo-cooldown/releases/tag/v0.3.0)
 * [Nutype 0.7.0 - newtype with guarantees now supports conditional `cfg_attr` derives](https://github.com/greyblake/nutype/releases/tag/v0.7.0)
 * [AimDB: Reactive Pipelines as the Engine of the Data-First Architecture](https://aimdb.dev/blog/reactive-pipelines)
-
+* [rkik-nts 1.0.0: a high-level Rust Network Time Security (RFC 8915) client library](https://github.com/aguacero7/rkik-nts/releases/tag/v1.0.0)
 * [pyscan v2.1.0: Python Dependency Vulnerability Scanner - Released with SBOM support and Reachability Heuristics](https://ohaswin.github.io/blog/pyscan-v2/)
 * [flodl 0.5.3: HuggingFace, both ways (30 head cells bit-exact, universal `Trainer` for transparent fine-tuning)](https://flodl.dev/blog/huggingface-both-ways)
 
