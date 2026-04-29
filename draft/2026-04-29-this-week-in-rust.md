@@ -312,6 +312,8 @@ Rusty Events between 2026-04-29 - 2026-05-27 🦀
 ### North America
 * 2026-04-30 | Atlanta, GA, US | [Rust Atlanta](https://www.meetup.com/rust-atl)
     * [**Rust-Atl**](https://www.meetup.com/rust-atl/events/311228662/)
+* 2026-04-30 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
+    * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/314225247/)
 * 2026-05-02 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust)
     * [**Alewife Rust Lunch, May 2**](https://www.meetup.com/bostonrust/events/314480527/)
 * 2026-05-07 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust)
