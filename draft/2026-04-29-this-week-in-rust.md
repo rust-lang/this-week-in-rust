@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 * [Nutype 0.7.0 - newtype with guarantees now supports conditional `cfg_attr` derives](https://github.com/greyblake/nutype/releases/tag/v0.7.0)
 * [AimDB: Reactive Pipelines as the Engine of the Data-First Architecture](https://aimdb.dev/blog/reactive-pipelines)
 
+* [lean-ctx: Building a Context Runtime for AI Coding Agents in Rust — tree-sitter, Thompson Sampling, and shell pattern compression](https://github.com/yvgude/lean-ctx/blob/main/blog/twir-lean-ctx.md)
 * [pyscan v2.1.0: Python Dependency Vulnerability Scanner - Released with SBOM support and Reachability Heuristics](https://ohaswin.github.io/blog/pyscan-v2/)
 * [flodl 0.5.3: HuggingFace, both ways (30 head cells bit-exact, universal `Trainer` for transparent fine-tuning)](https://flodl.dev/blog/huggingface-both-ways)
 
