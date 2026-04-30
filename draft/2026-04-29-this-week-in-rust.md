@@ -46,21 +46,26 @@ and just ask the editors to select the category.
 * [Scientific Computing in Rust #17 (April 2026)](https://scientificcomputing.rs/monthly/2026-04)
 
 ### Project/Tooling Updates
-
+* [lean-ctx: Building a Context Runtime for AI Coding Agents in Rust — tree-sitter, Thompson Sampling, and shell pattern compression](https://github.com/yvgude/lean-ctx/blob/main/blog/twir-lean-ctx.md)
+* [Zed is 1.0](https://zed.dev/blog/zed-1-0)
+* [Niri v26.04](https://github.com/niri-wm/niri/releases/tag/v26.04)
+* [Announcing Symposium (2026-04-21) - Symposium](https://symposium.dev/blog/announcing-symposium.html)
 * [menhera-cooldown: Announcing the crates.io Cooldown Proxy — mitigating supply-chain attacks through delayed availability](https://www.menhera.org/crates-io-cooldown-proxy-mitigating-supply-chain-attacks/)
 * [cargo-cooldown 0.3.0: a Cargo wrapper for supply-chain cooldowns, now faster and more stable](https://github.com/dertin/cargo-cooldown/releases/tag/v0.3.0)
 * [Nutype 0.7.0 - newtype with guarantees now supports conditional `cfg_attr` derives](https://github.com/greyblake/nutype/releases/tag/v0.7.0)
 * [AimDB: Reactive Pipelines as the Engine of the Data-First Architecture](https://aimdb.dev/blog/reactive-pipelines)
-
-* [lean-ctx: Building a Context Runtime for AI Coding Agents in Rust — tree-sitter, Thompson Sampling, and shell pattern compression](https://github.com/yvgude/lean-ctx/blob/main/blog/twir-lean-ctx.md)
 * [pyscan v2.1.0: Python Dependency Vulnerability Scanner - Released with SBOM support and Reachability Heuristics](https://ohaswin.github.io/blog/pyscan-v2/)
 * [flodl 0.5.3: HuggingFace, both ways (30 head cells bit-exact, universal `Trainer` for transparent fine-tuning)](https://flodl.dev/blog/huggingface-both-ways)
 * [Blade XR Asteroids](https://kvark.github.io/blade/xr/2026/03/21/blade-xr-asteroids.html)
 
 ### Observations/Thoughts
 
-* [All databases will eventually be (re)written in Rust](https://kerkour.com/rust-databases)
+* [Bugs Rust Won't Catch](https://corrode.dev/blog/bugs-rust-wont-catch/)
 * [A Gopher Meets a Crab](https://miren.dev/blog/gopher-meets-crab)
+* [Using Rust to Build a $1 Handheld Gaming Console](https://chrisdell.info/using-rust-to-build-a-1-dollar-handheld-gaming-console/)
+* [All databases will eventually be (re)written in Rust](https://kerkour.com/rust-databases)
+* [video] [Rust India Conference 2026 — Full Talk Recordings](https://www.youtube.com/playlist?list=PLbcv9d2YUhnbCxJmjB_4RbjUBgq6exSGs)
+* [audio] [Helsing with Jon Gjengset](https://corrode.dev/podcast/s06e02-helsing/)
 
 ### Rust Walkthroughs
 * [Build a JSON Parser in Rust from Scratch](https://blog.sheerluck.dev/posts/learn-rust-structs-enums-pattern-matching-by-building-a-json-parser/)
@@ -68,6 +73,8 @@ and just ask the editors to select the category.
 * [device-envoy-esp: Making Embedded ESP32 Fun: With Rust, Embassy, and Composable Device Abstractions](https://medium.com/@carlmkadie/device-envoy-esp-making-embedded-esp32-fun-872e251b88f3)
 
 * [Rust Projects - Write a Redis Clone - Version 2.0.0](https://rust-projects-write-a-redis-clone.github.io/)
+
+* [video] [Rust Parallelism with Rayon - Use ALL CPUs](https://www.youtube.com/watch?v=ZC6UWzX3Xug)
 
 ### Research
 
