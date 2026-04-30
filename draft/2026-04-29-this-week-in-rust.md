@@ -65,6 +65,8 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Build a JSON Parser in Rust from Scratch](https://blog.sheerluck.dev/posts/learn-rust-structs-enums-pattern-matching-by-building-a-json-parser/)
 
+* [device-envoy-esp: Making Embedded ESP32 Fun: With Rust, Embassy, and Composable Device Abstractions](https://medium.com/@carlmkadie/device-envoy-esp-making-embedded-esp32-fun-872e251b88f3)
+
 ### Research
 
 ### Miscellaneous
