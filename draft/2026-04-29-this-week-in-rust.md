@@ -67,6 +67,8 @@ and just ask the editors to select the category.
 
 * [device-envoy-esp: Making Embedded ESP32 Fun: With Rust, Embassy, and Composable Device Abstractions](https://medium.com/@carlmkadie/device-envoy-esp-making-embedded-esp32-fun-872e251b88f3)
 
+* [Rust Projects - Write a Redis Clone - Version 2.0.0](https://rust-projects-write-a-redis-clone.github.io/)
+
 ### Research
 
 * [Performance of Rust language](https://raw.githubusercontent.com/yugr/rust-slides/main/EN.pdf)
