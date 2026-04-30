@@ -63,6 +63,7 @@ and just ask the editors to select the category.
 * [A Gopher Meets a Crab](https://miren.dev/blog/gopher-meets-crab)
 
 ### Rust Walkthroughs
+* [Build a JSON Parser in Rust from Scratch](https://blog.sheerluck.dev/posts/learn-rust-structs-enums-pattern-matching-by-building-a-json-parser/)
 
 ### Research
 
