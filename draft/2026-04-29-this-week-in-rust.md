@@ -57,6 +57,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [All databases will eventually be (re)written in Rust](https://kerkour.com/rust-databases)
 * [A Gopher Meets a Crab](https://miren.dev/blog/gopher-meets-crab)
 
 ### Rust Walkthroughs
