@@ -54,7 +54,7 @@ and just ask the editors to select the category.
 
 * [pyscan v2.1.0: Python Dependency Vulnerability Scanner - Released with SBOM support and Reachability Heuristics](https://ohaswin.github.io/blog/pyscan-v2/)
 * [flodl 0.5.3: HuggingFace, both ways (30 head cells bit-exact, universal `Trainer` for transparent fine-tuning)](https://flodl.dev/blog/huggingface-both-ways)
-* [Blade XR Asteroids](https://kvark.github.io/blade/xr/2026/03/21/blade-xr-asteroids.html): OpenXR support with Asteroids demo in [Blade](https://github.com/kvark/blade)
+* [Blade XR Asteroids](https://kvark.github.io/blade/xr/2026/03/21/blade-xr-asteroids.html)
 
 ### Observations/Thoughts
 
