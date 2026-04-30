@@ -51,7 +51,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
-* [Rust Projects - Write a Redis Clone - Version 2.0.0](https://rust-projects-write-a-redis-clone.github.io/) - A free hands-on guide for building a Redis-like database in Rust.
+* [Rust Projects - Write a Redis Clone - Version 2.0.0](https://rust-projects-write-a-redis-clone.github.io/)
 
 ### Research
 
