@@ -361,7 +361,7 @@ Rusty Events between 2025-08-06 - 2025-09-03 🦀
 
 * 2025-08-11 | Christchurch, NZ | [Christchurch Rust Meetup Group](https://www.meetup.com/christchurch-rustlang-meetup-group)
   * [**Christchurch Rust Meetup**](https://www.meetup.com/christchurch-rustlang-meetup-group/events/308880707)
-* 2025-08-26 | Barton, AC, AU | [Canberra Rust User Group (CRUG)](https://www.meetup.com/rust-canberra)
+* 2025-08-26 | Barton, ACT, AU | [Canberra Rust User Group (CRUG)](https://www.meetup.com/rust-canberra)
   * [**August Meetup**](https://www.meetup.com/rust-canberra/events/308746519)
 * 2025-08-27 * 2025-08-30 | Wellington, NZ | [Rust Forge](https://rustforgeconf.com/)
   * [**Rust Forge**](https://rustforgeconf.com/)

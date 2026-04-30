@@ -332,7 +332,7 @@ Rusty Events between 2026-05-06 - 2026-06-03 🦀
 ### Oceania
 * 2026-05-14 | Melbourne, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne)
     * [**Rust Melbourne - May 2026**](https://www.meetup.com/rust-melbourne/events/314260890/)
-* 2026-05-26 | Barton, AC, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra)
+* 2026-05-26 | Barton, ACT, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra)
     * [**May Meetup**](https://www.meetup.com/rust-canberra/events/314050576/)
 
 ### South America

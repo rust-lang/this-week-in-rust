@@ -445,9 +445,9 @@ Rusty Events between 2025-02-19 - 2025-03-19 🦀
     * [**Rust Hacking in Person **](https://www.meetup.com/san-francisco-rust-study-group/events/302638264)
 
 ### Oceania
-* 2025-02-24 | Collingwood, VI, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne/events/)
+* 2025-02-24 | Collingwood, VIC, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne/events/)
     * [**February 2025 Rust Melbourne Meetup**](https://www.meetup.com/rust-melbourne/events/306040785)
-* 2025-02-25 | Barton, AC, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
+* 2025-02-25 | Barton, ACT, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
     * [**February Meetup**](https://www.meetup.com/rust-canberra/events/306090406)
 * 2025-02-27 | Auckland, NZ | [Rust AKL](https://www.meetup.com/rust-akl/events/)
     * [**Rust:7 Years Maintaining a Commercial Unicode Tool + Peace: Automation Framework**](https://www.meetup.com/rust-akl/events/306198434)

@@ -297,11 +297,11 @@ Rusty Events between 2025-04-09 - 2025-05-07 🦀
     * [**Boston Common Rust Lunch, May 3**](https://www.meetup.com/bostonrust/events/306845368)
 
 ### Oceania
-* 2025-04-09 | Sydney, NS, AU | [Rust Sydney](https://www.meetup.com/rust-sydney/events/)
+* 2025-04-09 | Sydney, NSW, AU | [Rust Sydney](https://www.meetup.com/rust-sydney/events/)
     * [**Crab 🦀 X 🕳️🐇**](https://www.meetup.com/rust-sydney/events/306978026)
 * 2025-04-14 | Christchurch, NZ | [Christchurch Rust Meetup Group](https://www.meetup.com/christchurch-rustlang-meetup-group/events/)
     * [**Christchurch Rust Meetup**](https://www.meetup.com/christchurch-rustlang-meetup-group/events/306841248)
-* 2025-04-22 | Barton, AC, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
+* 2025-04-22 | Barton, ACT, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
     * [**April Meetup**](https://www.meetup.com/rust-canberra/events/306425557)
 
 If you are running a Rust event please add it to the [calendar] to get

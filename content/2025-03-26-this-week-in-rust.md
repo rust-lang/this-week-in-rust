@@ -341,7 +341,7 @@ Rusty Events between 2025-03-26 - 2025-04-23 🦀
 ### Oceania
 * 2025-04-14 | Christchurch, NZ | [Christchurch Rust Meetup Group](https://www.meetup.com/christchurch-rustlang-meetup-group/events/)
     * [**Christchurch Rust Meetup**](https://www.meetup.com/christchurch-rustlang-meetup-group/events/306841248)
-* 2025-04-22 | Barton, AC, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
+* 2025-04-22 | Barton, ACT, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
     * [**April Meetup**](https://www.meetup.com/rust-canberra/events/306425557)
 
 ### South America

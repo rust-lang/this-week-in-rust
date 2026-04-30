@@ -389,7 +389,7 @@ Rusty Events between 2025-06-11 - 2025-07-09 🦀
     * [**Alewife Rust Lunch, July 6**](https://www.meetup.com/bostonrust/events/307936287)
 
 ### Oceania
-* 2025-06-11 | Sydney, NS, AU | [Rust Sydney](https://www.meetup.com/rust-sydney/events/)
+* 2025-06-11 | Sydney, NSW, AU | [Rust Sydney](https://www.meetup.com/rust-sydney/events/)
     * [**Crab time June 🦀**](https://www.meetup.com/rust-sydney/events/308325643)
 * 2025-06-16 | Christchurch, NZ | [Christchurch Rust Meetup Group](https://www.meetup.com/christchurch-rustlang-meetup-group)
     * [**Christchurch Rust Meetup**](https://www.meetup.com/christchurch-rustlang-meetup-group/events/307808896)

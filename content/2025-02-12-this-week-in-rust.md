@@ -433,9 +433,9 @@ Rusty Events between 2025-02-12 - 2025-03-12 🦀
     * [**Davis Square Rust Lunch, Mar 10**](https://www.meetup.com/bostonrust/events/305805192)
 
 ### Oceania
-* 2025-02-24 | Collingwood, VI, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne/events/)
+* 2025-02-24 | Collingwood, VIC, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne/events/)
     * [**February 2025 Rust Melbourne Meetup**](https://www.meetup.com/rust-melbourne/events/306040785)
-* 2025-02-25 | Barton, AC, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
+* 2025-02-25 | Barton, ACT, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
     * [**February Meetup**](https://www.meetup.com/rust-canberra/events/306090406)
 * 2025-03-04 | Perth, WA, AU | [Rust Perth Meetup Group](https://www.meetup.com/perth-rust-meetup-group/events/)
     * [**How Orica is using Rust in their workplace**](https://www.meetup.com/perth-rust-meetup-group/events/306131753)
