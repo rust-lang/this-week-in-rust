@@ -37,29 +37,24 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
 ### Newsletters
 * [The Embedded Rustacean Issue #70](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-70)
 * [Scientific Computing in Rust #17 (April 2026)](https://scientificcomputing.rs/monthly/2026-04)
 
 ### Project/Tooling Updates
-* [lean-ctx: Building a Context Runtime for AI Coding Agents in Rust — tree-sitter, Thompson Sampling, and shell pattern compression](https://github.com/yvgude/lean-ctx/blob/main/blog/twir-lean-ctx.md)
+* [lean-ctx: A Context Runtime for AI Coding Agents](https://github.com/yvgude/lean-ctx/blob/main/blog/twir-lean-ctx.md)
 * [Zed is 1.0](https://zed.dev/blog/zed-1-0)
 * [Niri v26.04](https://github.com/niri-wm/niri/releases/tag/v26.04)
-* [Announcing Symposium (2026-04-21) - Symposium](https://symposium.dev/blog/announcing-symposium.html)
-* [menhera-cooldown: Announcing the crates.io Cooldown Proxy — mitigating supply-chain attacks through delayed availability](https://www.menhera.org/crates-io-cooldown-proxy-mitigating-supply-chain-attacks/)
-* [cargo-cooldown 0.3.0: a Cargo wrapper for supply-chain cooldowns, now faster and more stable](https://github.com/dertin/cargo-cooldown/releases/tag/v0.3.0)
-* [Nutype 0.7.0 - newtype with guarantees now supports conditional `cfg_attr` derives](https://github.com/greyblake/nutype/releases/tag/v0.7.0)
+* [Announcing Symposium](https://symposium.dev/blog/announcing-symposium.html)
+* [menhera-cooldown: The crates.io Cooldown Proxy](https://www.menhera.org/crates-io-cooldown-proxy-mitigating-supply-chain-attacks/)
+* [cargo-cooldown 0.3.0: a Cargo wrapper for supply-chain cooldowns](https://github.com/dertin/cargo-cooldown/releases/tag/v0.3.0)
+* [Nutype 0.7.0](https://github.com/greyblake/nutype/releases/tag/v0.7.0)
 * [AimDB: Reactive Pipelines as the Engine of the Data-First Architecture](https://aimdb.dev/blog/reactive-pipelines)
-* [pyscan v2.1.0: Python Dependency Vulnerability Scanner - Released with SBOM support and Reachability Heuristics](https://ohaswin.github.io/blog/pyscan-v2/)
-* [flodl 0.5.3: HuggingFace, both ways (30 head cells bit-exact, universal `Trainer` for transparent fine-tuning)](https://flodl.dev/blog/huggingface-both-ways)
+* [pyscan v2.1.0: Python Dependency Vulnerability Scanner](https://ohaswin.github.io/blog/pyscan-v2/)
+* [flodl 0.5.3](https://flodl.dev/blog/huggingface-both-ways)
 * [Blade XR Asteroids](https://kvark.github.io/blade/xr/2026/03/21/blade-xr-asteroids.html)
 
 ### Observations/Thoughts
-
 * [Bugs Rust Won't Catch](https://corrode.dev/blog/bugs-rust-wont-catch/)
 * [A Gopher Meets a Crab](https://miren.dev/blog/gopher-meets-crab)
 * [Using Rust to Build a $1 Handheld Gaming Console](https://chrisdell.info/using-rust-to-build-a-1-dollar-handheld-gaming-console/)
@@ -69,15 +64,11 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Build a JSON Parser in Rust from Scratch](https://blog.sheerluck.dev/posts/learn-rust-structs-enums-pattern-matching-by-building-a-json-parser/)
-
 * [device-envoy-esp: Making Embedded ESP32 Fun: With Rust, Embassy, and Composable Device Abstractions](https://medium.com/@carlmkadie/device-envoy-esp-making-embedded-esp32-fun-872e251b88f3)
-
 * [Rust Projects - Write a Redis Clone - Version 2.0.0](https://rust-projects-write-a-redis-clone.github.io/)
-
 * [video] [Rust Parallelism with Rayon - Use ALL CPUs](https://www.youtube.com/watch?v=ZC6UWzX3Xug)
 
 ### Research
-
 * [Performance of Rust language](https://raw.githubusercontent.com/yugr/rust-slides/main/EN.pdf)
 
 ### Miscellaneous
@@ -128,13 +119,12 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-* [**Scientific Computing in Rust 2026**](https://scientificcomputing.rs/2026/submit-talk)| CFP closes 2026-06-05 | held virtually on 2026-07-08 to 2026-07-10
-
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
 * [**EuroRust 2026**](https://sessionize.com/eurorust-2026/)| 2026-05-04 (extended) | Barcelona, Spain | 2026-10-14 – 2026-10-17
 * [**NDC Techtown**](https://ndctechtown.com/call-for-papers) | 2026-05-03 | Kongsberg, Norway | 2026-09-21 to 23.
+* [**Scientific Computing in Rust 2026**](https://scientificcomputing.rs/2026/submit-talk)| 2026-06-05 | Virtual | 2026-07-08 - 2026-07-10
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -355,7 +345,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1sobu1s/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
