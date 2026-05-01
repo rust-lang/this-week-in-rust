@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Qorx 1.0.2: local context resolution runtime in Rust](https://bbrainfuckk.github.io/qorx/QORX_1_0_2_RUST.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
