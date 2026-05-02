@@ -44,6 +44,22 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+### Project: The Land of Rust
+
+**Link:** https://github.com/huvaxstra/land-of-rust
+
+**Description:**
+
+"The Land of Rust" is a story-driven children's book that teaches Rust programming to kids (ages 9+) and absolute beginners.
+
+The story follows **Ferris the Crab**, a space astronaut whose spaceship crashes on Earth. To repair it, he must learn Rust by communicating with an old Earth computer. Complex concepts like Ownership, Borrowing, Lifetimes, and Traits are explained using fun, everyday metaphors (e.g. Ownership as a toy borrowing club, Lifetimes as yogurt expiration dates).
+
+**Current status:**
+- 8 chapters are now complete
+- Includes a teacher’s guide and mini projects
+- Fully open source
+
+This project aims to make Rust more accessible and enjoyable as a first programming language for young learners.
 
 ### Observations/Thoughts
 
