@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [RustCurious lesson 7: Arrays and Slices](https://www.youtube.com/watch?v=JWfVqDEkQQw)
+
 ### Research
 
 ### Miscellaneous
