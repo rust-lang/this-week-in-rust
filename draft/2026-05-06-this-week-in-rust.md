@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [cargo-chronoscope: a live TUI + GitHub Action for tracking Cargo build-time regressions](https://github.com/ymw0407/cargo-chronoscope) — records each `cargo build` to a local SQLite database, classifies per-crate compile times against historical baselines (mean ± 2σ), and posts a sticky PR comment with the diff. Differs from `cargo --timings` in that it tracks builds across time rather than analysing a single one.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
