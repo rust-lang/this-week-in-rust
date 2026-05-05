@@ -230,6 +230,8 @@ Rusty Events between 2026-05-06 - 2026-06-03 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254782/)
 * 2026-05-12 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
     * [**👋 Community Catch Up**](https://www.meetup.com/women-in-rust/events/313506068/)
+* 2026-05-05 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens)
+    * [**Introduction to database access using Rust SQLx**](https://www.meetup.com/code-mavens/events/314642118/)
 * 2026-05-17 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Rust Deep Learning: Third Sunday**](https://www.meetup.com/dallasrust/events/314329043/)
 * 2026-05-19 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc)
