@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [audio] [Netstack.FM episode 37 — dial9: from black box to insight in Tokio](https://netstack.fm/#episode-37)
+
 ### Rust Walkthroughs
 
 * [Writing Middlewares for Rust Lambda Functions](https://loige.co/writing-middlewares-for-rust-lambda-functions/)
