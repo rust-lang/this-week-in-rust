@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [rkik-nts 1.0.0: a high-level Rust Network Time Security (RFC 8915) client library](https://github.com/aguacero7/rkik-nts/releases/tag/v1.0.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
