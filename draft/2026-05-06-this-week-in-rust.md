@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Google Summer of Code 2026 selected projects](https://blog.rust-lang.org/2026/04/30/gsoc-2026-selected-projects/)
 
 ### Foundation
 
@@ -49,9 +50,17 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [One week of view_types](https://scrabsha.dev/articles/one-week-of-view-types.html)
+* [Async Rust never left the MVP state](https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state)
+* [stable specialization in Rust](https://goldstein.lol/posts/stable-specialization/)
+* [Your Clippy Config Should Be Stricter](https://emschwartz.me/your-clippy-config-should-be-stricter/)
+* [Your Clippy Config Should Be Stricter-er](https://billylevin.dev/posts/clippy-config/)
+
 ### Rust Walkthroughs
 
+* [oops, cubic macro!](https://bal-e.org/blog/2026/oops-cubic-macro/)
 * [Writing Middlewares for Rust Lambda Functions](https://loige.co/writing-middlewares-for-rust-lambda-functions/)
+* [video] [RustCurious 7: Arrays and Slices](https://www.youtube.com/watch?v=JWfVqDEkQQw)
 
 ### Research
 
