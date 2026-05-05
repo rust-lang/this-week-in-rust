@@ -145,7 +145,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This week's result is pretty much neutral. It looks negative in icount numbers, but that's spurious, wall time remained largely unchanged. Some big performance improvements landed in the new solver, which is not enabled by default, yet.
+
+Triage done by **@panstromek**.
+Revision range: [ca9a134e..1d72d7e8](https://perf.rust-lang.org/?start=ca9a134e0985765ded9cfdde4030a5df4db7e2bd&end=1d72d7e8136faaebad3a85eeed432e6ea1b2ffab&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ? <br /> (primary)    | 0.6%  | [0.2%, 1.2%]   | 106   |
+| Regressions ? <br /> (secondary)  | 0.7%  | [0.2%, 2.4%]   | 67    |
+| Improvements ? <br /> (primary)   | -0.6% | [-1.7%, -0.2%] | 66    |
+| Improvements ? <br /> (secondary) | -0.6% | [-2.8%, -0.0%] | 60    |
+| All ?? (primary)                 | 0.1%  | [-1.7%, 1.2%]  | 172   |
+
+
+1 Regression, 2 Improvements, 9 Mixed; 5 of them in rollups
+34 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/477a72d1755b1b8adb3c4b7eef2ed34e0c954de7/triage/2026/2026-05-05.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
