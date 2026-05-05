@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 * [Rust Trends Issue 77 - Rust Sharpens the Craft](https://rust-trends.com/newsletter/rust-sharpens-the-craft/)
 
 ### Project/Tooling Updates
+* [Imgclip: A Cross-Platform CLI for Clipboard ↔ Image File Conversion](https://dev.to/alex_yan_6135f8195a1a3b01/imgclip-a-cross-platform-cli-for-clipboard-image-file-conversion-2i1l)
 
 ### Observations/Thoughts
 
