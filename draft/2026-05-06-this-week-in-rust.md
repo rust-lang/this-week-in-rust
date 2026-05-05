@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Connectors: Where AimDB Meets the Real World](https://aimdb.dev/blog/connectors-where-aimdb-meets-the-real-world)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
