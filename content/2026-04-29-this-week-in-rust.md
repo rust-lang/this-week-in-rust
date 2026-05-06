@@ -78,6 +78,10 @@ and just ask the editors to select the category.
 
 <!-- COTW goes here -->
 
+This week's crate is [dithr](https://github.com/pbkx/dithr), a buffer-first dithering and halftoning library.
+
+Thanks to [pbkx](https://users.rust-lang.org/t/crate-of-the-week/2704/1598) for the self-suggestion!
+
 [Please submit your suggestions and votes for next week][submit_crate]!
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
@@ -131,6 +135,69 @@ If you are an event organizer hoping to expand the reach of your event, please s
 ## Updates from the Rust Project
 
 <!-- Rust updates go here -->
+
+480 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-04-21..2026-04-28
+
+#### Compiler
+* [`AliasTerm` refactor](https://github.com/rust-lang/rust/pull/155392)
+* [add `on_unmatch_args` diagnostic attribute](https://github.com/rust-lang/rust/pull/154794)
+* [eliminate `CrateMetadataRef`](https://github.com/rust-lang/rust/pull/155663)
+* [fix performance regression introduced in #142531 by excluding `Storage{Live,Dead}` from CGU size estimation](https://github.com/rust-lang/rust/pull/155491)
+* [prefer `-1` for `None`](https://github.com/rust-lang/rust/pull/155473)
+* [prevent deref coercions in `pin!`](https://github.com/rust-lang/rust/pull/153457)
+* [streamline `CrateMetadataRef` construction in `provide_one!`](https://github.com/rust-lang/rust/pull/155628)
+
+#### Library
+* [constify `Vec` comparisons](https://github.com/rust-lang/rust/pull/155565)
+* [exposing Float Masks](https://github.com/rust-lang/rust/pull/154372)
+* [fix heap overflow in `slice::join` caused by misbehaving Borrow](https://github.com/rust-lang/rust/pull/155708)
+* [generalize IO Traits for `Arc<T>` where `&T: IoTrait`](https://github.com/rust-lang/rust/pull/155684)
+* [maintain `CStringArray` null-termination even if `Vec::push` panics](https://github.com/rust-lang/rust/pull/155774)
+* [move `std::io::RawOsError` to `core::io`](https://github.com/rust-lang/rust/pull/155574)
+* [implement more traits for field-representing types](https://github.com/rust-lang/rust/pull/155588)
+
+#### Cargo
+* [clean: do not error if explicitly specified target-dir does not exist](https://github.com/rust-lang/cargo/pull/16934)
+* [`compile`: stabilize `build.warnings`](https://github.com/rust-lang/cargo/pull/16796)
+* [`compile`: ignore unused deps if also transitive](https://github.com/rust-lang/cargo/pull/16935)
+* [`compile`: Log all ignored unused externs](https://github.com/rust-lang/cargo/pull/16920)
+
+#### Clippy
+* [`manual_assert_eq`: new lint](https://github.com/rust-lang/rust-clippy/pull/16025)
+* [new module style lint: `inline_modules`](https://github.com/rust-lang/rust-clippy/pull/16732)
+* [`needless_ifs`: handle vertical tab as whitespace to avoid false negative](https://github.com/rust-lang/rust-clippy/pull/16845)
+* [`inline_modules`: fix the rust version the lint was introduced in](https://github.com/rust-lang/rust-clippy/pull/16907)
+* [make `unused_format_specs` catch width issues](https://github.com/rust-lang/rust-clippy/pull/16542)
+* [fix `from_over_into` false positive with conflicting blanket From impl](https://github.com/rust-lang/rust-clippy/pull/16881)
+* [fix wrong `question_mark` suggestion when match arm body is a destructuring assignment](https://github.com/rust-lang/rust-clippy/pull/16863)
+
+#### Rust-Analyzer
+* [add .new postfix completion based on expected type (rust-lang/r…](https://github.com/rust-lang/rust-analyzer/pull/22132)
+* [add `unwrap_block`, offer `unwrap_block` and `unwrap_branch`](https://github.com/rust-lang/rust-analyzer/pull/22179)
+* [handle if `matches!()` for `replace_if_let_with_match`](https://github.com/rust-lang/rust-analyzer/pull/22079)
+* [offer on compound assign for `replace_arith_op`](https://github.com/rust-lang/rust-analyzer/pull/22180)
+* [offer on non-block matcharm for `unwrap_branch`](https://github.com/rust-lang/rust-analyzer/pull/22184)
+* [when renaming a field, rename variables in constructors as well](https://github.com/rust-lang/rust-analyzer/pull/21979)
+* [fix trait auto import appearing again when trait already been imported as `_`](https://github.com/rust-lang/rust-analyzer/pull/22142)
+* [avoid prelude paths when `imports.preferPrelude` is false](https://github.com/rust-lang/rust-analyzer/pull/22098)
+* [define the ABI of functions inside extern blocks as the ABI of the extern block](https://github.com/rust-lang/rust-analyzer/pull/22183)
+* [fix closure capture hints being misplaced for async closures](https://github.com/rust-lang/rust-analyzer/pull/22166)
+* [generate-method skips trait impl blocks when picking insertion site](https://github.com/rust-lang/rust-analyzer/pull/22124)
+* [keep the same nonce when cloning a `RootDatabase`](https://github.com/rust-lang/rust-analyzer/pull/22192)
+* [make `InferenceResult::binding_mode()` fallible](https://github.com/rust-lang/rust-analyzer/pull/22195)
+* [mark `enum` variants as deprecated when their parent `enum` is deprecated](https://github.com/rust-lang/rust-analyzer/pull/22116)
+* [no complete where kw after qualified path](https://github.com/rust-lang/rust-analyzer/pull/22154)
+* [offer on `!` for `apply_demorgan_iterator`](https://github.com/rust-lang/rust-analyzer/pull/22151)
+* [offer on `is_some_and` etc. for `apply_demorgan_iterator`](https://github.com/rust-lang/rust-analyzer/pull/22150)
+* [parse `return #[attr] expr`](https://github.com/rust-lang/rust-analyzer/pull/22170)
+* [parse impl restrictions after the visibility](https://github.com/rust-lang/rust-analyzer/pull/22169)
+* [pass `proc_macro_cwd` to `Analysis::from_single_file()`](https://github.com/rust-lang/rust-analyzer/pull/22122)
+* [suppress infer vars in monomorphization](https://github.com/rust-lang/rust-analyzer/pull/22135)
+* [migrate replace qualified name with use to SyntaxEditor](https://github.com/rust-lang/rust-analyzer/pull/22125)
+* [perf: optimize allocation strategies of output/parser/event](https://github.com/rust-lang/rust-analyzer/pull/22078)
+* [remove generate impl non syntax factory variant](https://github.com/rust-lang/rust-analyzer/pull/22121)
 
 ### Rust Compiler Performance Triage
 
@@ -350,6 +417,12 @@ Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/r
 # Quote of the Week
 
 <!-- QOTW goes here -->
+
+> Sometimes, the best projects are the ones you never thought you could build.
+
+– [Chris Dell on his blog](https://chrisdell.info/using-rust-to-build-a-1-dollar-handheld-gaming-console/)
+
+Another week bereft of any quote suggestions. llogiq is glad to have found this anyway.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
