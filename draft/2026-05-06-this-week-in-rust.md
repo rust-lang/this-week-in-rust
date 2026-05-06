@@ -56,6 +56,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [RustCurious lesson 7: Arrays and Slices](https://www.youtube.com/watch?v=JWfVqDEkQQw)
 * [Writing Middlewares for Rust Lambda Functions](https://loige.co/writing-middlewares-for-rust-lambda-functions/)
 * [Learn Error Handling in Rust By Building a TOML Config Parser](https://blog.sheerluck.dev/posts/learn-error-hanlding-in-rust/)
 
