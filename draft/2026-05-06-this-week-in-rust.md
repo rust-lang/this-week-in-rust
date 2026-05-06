@@ -216,6 +216,8 @@ Rusty Events between 2026-05-06 - 2026-06-03 🦀
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/308455928/)
 * 2026-05-07 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/313345240/)
+* 2026-05-09 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Learning Rust the Hard Way: Building a TUI Chess Game**](https://luma.com/u436v3d7)
 * 2026-05-12 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254782/)
 * 2026-05-12 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
