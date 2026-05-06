@@ -206,16 +206,6 @@ Update CFT, FCP, MCP and RFC sections for TWiR-xxx
 Rusty Events between 2026-05-06 - 2026-06-03 🦀
 
 ### Virtual
-* 2026-04-29 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
-    * [**Weekly coding session**](https://luma.com/8hi2xywi)
-* 2026-05-01 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris)
-    * [**Hacker's Hike 0x1**](https://www.meetup.com/rust-noris/events/312788983/)
-* 2026-05-02 | Virtual (Kampala, UG) | [Rust Circle Meetup](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587)
-    * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763928837)
-* 2026-05-03 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
-    * [**Rust Deep Learning: First Sunday**](https://www.meetup.com/dallasrust/events/314036479/)
-* 2026-05-05 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens)
-    * [**Rust code reading and open source contribution**](https://www.meetup.com/code-mavens/events/314538967/)
 * 2026-05-06 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff)
     * [**Practical introduction to SIMD**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/314301861/)
 * 2026-05-06 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
@@ -258,22 +248,6 @@ Rusty Events between 2026-05-06 - 2026-06-03 🦀
     * [**May 2026 Rustacean meetup**](https://hasgeek.com/rustbangalore/may-2026-rustacean-meetup/)
 
 ### Europe
-* 2026-04-29 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community)
-    * [**Rust meetup #67**](https://www.meetup.com/copenhagen-rust-community/events/314279730/)
-* 2026-04-29 | Paris, FR | [Paris Rustaceans](https://www.eventbrite.fr/o/74289178383)
-    * [**Rust Meetup in Paris**](https://www.eventbrite.fr/e/rust-meetup-in-paris-tickets-1984135342220)
-* 2026-04-30 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin)
-    * [**Rust Berlin Talks: The next generation**](https://www.meetup.com/rust-berlin/events/314292918/)
-* 2026-04-30 | Manchester, GB | [Rust Manchester](https://www.meetup.com/rust-manchester/events/)
-    * [**Rust Manchester April Talk**](https://www.meetup.com/rust-manchester/events/314229892/)
-* 2026-05-02 | Augsburg, DE | [Rust Munich](https://rust-munich.de/) and [Rust Augsburg](https://rust-augsburg.github.io/meetup)
-    * [**Augsburger Linux-Infotag 2026: Gemeinschaftsstand Rust Augsburg und Rust München**](https://www.luga.de/static/LIT-2026/)
-* 2026-05-04 | Amsterdam, NH, NL | [Rust Developers Amsterdam Group](https://www.meetup.com/rust-amsterdam-group)
-    * [**Rust Meetup @ JetBrains**](https://www.meetup.com/rust-amsterdam-group/events/314268909/)
-* 2026-05-04 | Frankfurt, DE | [Rust Rhein-Main](https://www.meetup.com/rust-rhein-main)
-    * [**Writing a stock portfolio simulation in Rust with Leptos**](https://www.meetup.com/rust-rhein-main/events/314051688/)
-* 2026-05-05 | Olomouc, CZ | [Rust Moravia](https://www.meetup.com/rust-moravia)
-    * [**5. Rust Moravia Meetup (Ukaž testy!)**](https://www.meetup.com/rust-moravia/events/314218493/)
 * 2026-05-06 | Milano, MI, IT | [Rust Language Milan](https://www.meetup.com/rust-language-milano)
     * [**Rust Milan @ Python Milano: Python or Rust? Yes!**](https://www.meetup.com/rust-language-milan/events/314521855/)
 * 2026-05-06 | Oxford, UK | [Oxford ACCU/Rust Meetup.](https://www.meetup.com/oxford-rust-meetup-group)
@@ -302,12 +276,6 @@ Rusty Events between 2026-05-06 - 2026-06-03 🦀
     * [**Rust Manchester May Code Night**](https://www.meetup.com/rust-manchester/events/314452972/)
 
 ### North America
-* 2026-04-30 | Atlanta, GA, US | [Rust Atlanta](https://www.meetup.com/rust-atl)
-    * [**Rust-Atl**](https://www.meetup.com/rust-atl/events/311228662/)
-* 2026-04-30 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
-    * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/314225247/)
-* 2026-05-02 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust)
-    * [**Alewife Rust Lunch, May 2**](https://www.meetup.com/bostonrust/events/314480527/)
 * 2026-05-07 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust)
     * [**Open Project Night**](https://www.meetup.com/stl-rust/events/313807225/)
 * 2026-05-09 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust)
