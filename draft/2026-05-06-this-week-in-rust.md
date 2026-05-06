@@ -222,6 +222,8 @@ Rusty Events between 2026-05-06 - 2026-06-03 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254782/)
 * 2026-05-12 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
     * [**👋 Community Catch Up**](https://www.meetup.com/women-in-rust/events/313506068/)
+* 2026-05-12 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/events/)
+    * [**Introduction to database access using Rust SQLx**](https://www.meetup.com/code-mavens/events/314642118/)
 * 2026-05-17 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Rust Deep Learning: Third Sunday**](https://www.meetup.com/dallasrust/events/314329043/)
 * 2026-05-19 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc)
@@ -250,8 +252,6 @@ Rusty Events between 2026-05-06 - 2026-06-03 🦀
     * [**Rust by Example - Flow of Control**](https://www.meetup.com/johannesburg-rust-meetup/events/314614331/)
 
 ### Asia
-* 2026-05-12 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/events/)
-    * [**Introduction to database access using Rust SQLx**](https://www.meetup.com/code-mavens/events/314642118/)
 * 2026-05-13 | Malaysia, MY | [Rust Meetup Malaysia](https://docs.google.com/forms/d/e/1FAIpQLSfMh6PA05ujl3lS59tJU3DcLHGVZ1zjzJhl49hXEHU7e6vsQA/viewform)
     * [**Rust Meetup May 2026**](https://docs.google.com/forms/d/e/1FAIpQLSfMh6PA05ujl3lS59tJU3DcLHGVZ1zjzJhl49hXEHU7e6vsQA/viewform)
 * 2026-05-14 | Seoul, KR | [Seoul Rust (Programming Language) Meetup](https://www.meetup.com/rust-seoul-meetup)
