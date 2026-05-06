@@ -73,45 +73,13 @@ If you are a feature implementer and would like your RFC to appear in this list,
 `call-for-testing` label to your RFC along with a comment providing testing instructions and/or
 guidance on which aspect(s) of the feature need testing.
 
-<!-- If there are new CfT items this week, include:
-
-  [Repo Name](Repo URL)
-    * [<Feature name>](<Feature URL>)
-        * [Testing steps](<Testing Steps URL>)
-
-  - and make note in the item so the authors know to remove the `call-for-testing` label:
-This RFC will appear in the **Call for Testing** section of the next issue (#) of This Week in Rust (TWiR).
-You may remove the `call-for-testing` label.  Please feel free to leave the `call-for-testing` label in place if you would like this RFC to appear again in another issue of TWiR.
-
-  - where `Repo Name` and `Repo URL` are one of:
-[Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
-[Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing),
-[Cargo](https://github.com/rust-lang/cargo/labels/call-for-testing) or
-[Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
-
-  - and `Testing steps` points directly to the procedures the item wants users to exercise.
-
-  - For all `Repo Names` with no new CfT items this week: use (removing the repos for which new
-     CfT items did appear, of course)
-
-* *No calls for testing were issued this week by
-  [Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
-  [Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing),
-  [Cargo](https://github.com/rust-lang/cargo/labels/call-for-testing) or
-  [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing).*
--->
+*No calls for testing were issued this week by
+[Rust](https://github.com/rust-lang/rust/issues?q=state%3Aopen%20label%3Acall-for-testing%20state%3Aopen),
+[Cargo](https://github.com/rust-lang/cargo/issues?q=state%3Aopen%20label%3Acall-for-testing%20state%3Aopen),
+[Rustup](https://github.com/rust-lang/rustup/issues?q=state%3Aopen%20label%3Acall-for-testing%20state%3Aopen) or
+[Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing%20state%3Aopen).*
 
 [Let us know](https://github.com/rust-lang/this-week-in-rust/issues) if you would like your feature to be tracked as a part of this list.
-
-### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
-
-### [Rust](https://github.com/rust-lang/rust/labels/call-for-testing)
-
-### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
-
-If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
-label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
-need testing.
 
 ## Call for Participation; projects and speakers
 
