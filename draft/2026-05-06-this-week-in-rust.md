@@ -50,10 +50,12 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 * [audio] [Netstack.FM episode 37 — dial9: from black box to insight in Tokio](https://netstack.fm/#episode-37)
+* [Your Clippy Config Should Be Stricter](https://emschwartz.me/your-clippy-config-should-be-stricter/)
 
 ### Rust Walkthroughs
 
 * [Writing Middlewares for Rust Lambda Functions](https://loige.co/writing-middlewares-for-rust-lambda-functions/)
+* [Learn Error Handling in Rust By Building a TOML Config Parser](https://blog.sheerluck.dev/posts/learn-error-hanlding-in-rust/)
 
 ### Research
 
@@ -228,6 +230,8 @@ Rusty Events between 2026-05-06 - 2026-06-03 🦀
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/308455928/)
 * 2026-05-07 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/313345240/)
+* 2026-05-09 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Learning Rust the Hard Way: Building a TUI Chess Game**](https://luma.com/u436v3d7)
 * 2026-05-12 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254782/)
 * 2026-05-12 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
