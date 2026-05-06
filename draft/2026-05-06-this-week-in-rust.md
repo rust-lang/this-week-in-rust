@@ -282,6 +282,8 @@ Rusty Events between 2026-05-06 - 2026-06-03 🦀
     * [**Building LLMs from scratch**](https://www.meetup.com/oxford-rust-meetup-group/events/314456933/)
 * 2026-05-07 | Edinburgh, UK | [Rust and Friends](https://www.meetup.com/rust-edi)
     * [**Rust May Talks: Aetherus + Bevy**](https://www.meetup.com/rust-and-friends/events/314300802/)
+* 2026-05-11 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
+    * [**Rust Meetup #19**: Tiago Manczak - Game On with Rust & Pico](https://rust-augsburg.github.io/meetup/Meetup_19.html)
 * 2026-05-13 | Girona, ES | [Rust Girona](https://luma.com/rust-girona)
     * [**Rust Girona Hack & Learn 05 2026**](https://luma.com/ooub1kt0)
 * 2026-05-14 | Switzerland, CH | [PostTenebrasLab](https://www.posttenebraslab.ch/wiki/events/start)
