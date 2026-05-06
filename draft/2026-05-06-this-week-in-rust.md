@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [audio] [Netstack.FM episode 37 — dial9: from black box to insight in Tokio](https://netstack.fm/#episode-37)
 * [Your Clippy Config Should Be Stricter](https://emschwartz.me/your-clippy-config-should-be-stricter/)
 
 ### Rust Walkthroughs
