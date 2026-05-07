@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Fresh 0.3.4: Ansi-native 'terminal' theme matches the system's theme; UI for Live Grep + custom grep providers; persistent 'dock' split; Verilog/VHDL support; and much more](https://github.com/sinelaw/fresh/releases/tag/v0.3.4)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
