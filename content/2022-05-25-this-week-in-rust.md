@@ -263,9 +263,9 @@ Rusty Events between 2022-05-25 - 2022-06-22 🦀
 
 ### Oceania
 
-* 2022-05-26 | Brisbane City, QL, AU | [Rust Brisbane](https://www.meetup.com/Rust-Brisbane/)
+* 2022-05-26 | Brisbane City, QLD, AU | [Rust Brisbane](https://www.meetup.com/Rust-Brisbane/)
     * [**May Meetup**](https://www.meetup.com/Rust-Brisbane/events/285665676/)
-* 2022-06-17 | Melbourne, VI, AU | [Rust Melbourne](https://www.meetup.com/Rust-Melbourne/)
+* 2022-06-17 | Melbourne, VIC, AU | [Rust Melbourne](https://www.meetup.com/Rust-Melbourne/)
     * [**June 2022 Meetup**](https://www.meetup.com/Rust-Melbourne/events/285962368/)
 
 If you are running a Rust event please add it to the [calendar] to get

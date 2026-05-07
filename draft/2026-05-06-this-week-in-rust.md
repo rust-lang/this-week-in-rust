@@ -47,24 +47,36 @@ and just ask the editors to select the category.
 * [Rust Trends Issue 77 - Rust Sharpens the Craft](https://rust-trends.com/newsletter/rust-sharpens-the-craft/)
 
 ### Project/Tooling Updates
+* [Imgclip: A Cross-Platform CLI for Clipboard ↔ Image File Conversion](https://dev.to/alex_yan_6135f8195a1a3b01/imgclip-a-cross-platform-cli-for-clipboard-image-file-conversion-2i1l)
+
+* [Connectors: Where AimDB Meets the Real World](https://aimdb.dev/blog/connectors-where-aimdb-meets-the-real-world)
+
+* [rkik-nts 1.0.0: a high-level Rust Network Time Security (RFC 8915) client library](https://github.com/aguacero7/rkik-nts/releases/tag/v1.0.0)
+
+* [unix-ancillary 0.2.2 — safe SCM_RIGHTS fd-passing for Rust](https://github.com/MohibShaikh/unix-ancillary/releases/tag/v0.2.2)
+
+* [kache 0.2.0: zero-copy, content-addressed Rust build cache (RUSTC_WRAPPER)](https://github.com/kunobi-ninja/kache/releases/tag/v0.2.0)
 
 ### Observations/Thoughts
-
 * [One week of view_types](https://scrabsha.dev/articles/one-week-of-view-types.html)
 * [Async Rust never left the MVP state](https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state)
 * [stable specialization in Rust](https://goldstein.lol/posts/stable-specialization/)
 * [Your Clippy Config Should Be Stricter](https://emschwartz.me/your-clippy-config-should-be-stricter/)
 * [Your Clippy Config Should Be Stricter-er](https://billylevin.dev/posts/clippy-config/)
+* [The `Sync` bound nobody asked for](https://verrchu.github.io/blog/1-the-sync-bound-nobody-asked-for/)
+* [Cross-platform Rust: Analyzing how WhatsApp, Signal and more are shipping Rust to billions of devices](https://kerkour.com/rust-cross-platform-apps)
+* [audio] [Netstack.FM episode 37 — dial9: from black box to insight in Tokio](https://netstack.fm/#episode-37)
 
 ### Rust Walkthroughs
-
 * [oops, cubic macro!](https://bal-e.org/blog/2026/oops-cubic-macro/)
+* [video] [RustCurious lesson 7: Arrays and Slices](https://www.youtube.com/watch?v=JWfVqDEkQQw)
 * [Writing Middlewares for Rust Lambda Functions](https://loige.co/writing-middlewares-for-rust-lambda-functions/)
-* [video] [RustCurious 7: Arrays and Slices](https://www.youtube.com/watch?v=JWfVqDEkQQw)
+* [Learn Error Handling in Rust By Building a TOML Config Parser](https://blog.sheerluck.dev/posts/learn-error-hanlding-in-rust/)
 
 ### Research
 
 ### Miscellaneous
+* [Awesome SQLx Resources](https://github.com/szabgab/awesome-sqlx)
 
 ## Crate of the Week
 
@@ -154,7 +166,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This week's result is pretty much neutral. It looks negative in icount numbers, but that's spurious, wall time remained largely unchanged. Some big performance improvements landed in the new solver, which is not enabled by default, yet.
+
+Triage done by **@panstromek**.
+Revision range: [ca9a134e..1d72d7e8](https://perf.rust-lang.org/?start=ca9a134e0985765ded9cfdde4030a5df4db7e2bd&end=1d72d7e8136faaebad3a85eeed432e6ea1b2ffab&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ? <br /> (primary)    | 0.6%  | [0.2%, 1.2%]   | 106   |
+| Regressions ? <br /> (secondary)  | 0.7%  | [0.2%, 2.4%]   | 67    |
+| Improvements ? <br /> (primary)   | -0.6% | [-1.7%, -0.2%] | 66    |
+| Improvements ? <br /> (secondary) | -0.6% | [-2.8%, -0.0%] | 60    |
+| All ?? (primary)                 | 0.1%  | [-1.7%, 1.2%]  | 172   |
+
+
+1 Regression, 2 Improvements, 9 Mixed; 5 of them in rollups
+34 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/477a72d1755b1b8adb3c4b7eef2ed34e0c954de7/triage/2026/2026-05-05.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -235,6 +266,8 @@ Rusty Events between 2026-05-06 - 2026-06-03 🦀
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/308455928/)
 * 2026-05-07 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/313345240/)
+* 2026-05-09 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Learning Rust the Hard Way: Building a TUI Chess Game**](https://luma.com/u436v3d7)
 * 2026-05-12 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254782/)
 * 2026-05-12 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
@@ -345,7 +378,7 @@ Rusty Events between 2026-05-06 - 2026-06-03 🦀
 ### Oceania
 * 2026-05-14 | Melbourne, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne)
     * [**Rust Melbourne - May 2026**](https://www.meetup.com/rust-melbourne/events/314260890/)
-* 2026-05-26 | Barton, AC, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra)
+* 2026-05-26 | Barton, ACT, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra)
     * [**May Meetup**](https://www.meetup.com/rust-canberra/events/314050576/)
 
 ### South America

@@ -323,7 +323,7 @@ Rusty Events between 2026-02-11 - 2026-03-11 🦀
     * [**MIT Rust Lunch, Mar 7**](https://www.meetup.com/bostonrust/events/313208584/)
 
 ### Oceania
-* 2026-02-11 | Brisbane City, QL, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane)
+* 2026-02-11 | Brisbane City, QLD, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane)
     * [**Rust Brisbane Feb 2026**](https://www.meetup.com/rust-brisbane/events/313087789/)
 * 2026-02-11 | Sydney, AU | [Rust Sydney](https://www.meetup.com/rust-sydney)
     * [**Welcome 🦀 to 2026**](https://www.meetup.com/rust-sydney/events/313074935/)

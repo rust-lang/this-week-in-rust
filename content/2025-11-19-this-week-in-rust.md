@@ -388,7 +388,7 @@ Rusty Events between 2025-11-19 - 2025-12-17 🦀
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/309926569/)
 
 ### Oceania
-* 2025-12-11 | Brisbane City, QL, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane)
+* 2025-12-11 | Brisbane City, QLD, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane)
     * [**Rust Meetup Dec 2025**](https://www.meetup.com/rust-brisbane/events/312027415/)
 
 If you are running a Rust event please add it to the [calendar] to get

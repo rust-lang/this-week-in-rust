@@ -386,7 +386,7 @@ Rusty Events between 2026-04-01 - 2026-04-29 🦀
     * [**South Station Rust Lunch, Apr 25**](https://www.meetup.com/bostonrust/events/313883704/)
 
 ### Oceania
-* 2026-04-09 | Brisbane City, QL, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane)
+* 2026-04-09 | Brisbane City, QLD, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane)
     * [**Rust Brisbane Apr 2026**](https://www.meetup.com/rust-brisbane/events/313975190/)
 
 ### South America

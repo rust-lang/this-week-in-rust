@@ -403,9 +403,9 @@ Rusty Events between 2025-06-18 - 2025-07-16 🦀
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/307931266)
 
 ### Oceania
-* 2025-06-24 | Barton, AC, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
+* 2025-06-24 | Barton, ACT, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
     * [**June Meetup**](https://www.meetup.com/rust-canberra/events/307520854)
-* 2025-06-30 | Collingwood, VI, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne/events/)
+* 2025-06-30 | Collingwood, VIC, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne/events/)
     * [**June 2025 Mini Rust Melbourne Meetup**](https://www.meetup.com/rust-melbourne/events/308546374)
 
 ### South America
