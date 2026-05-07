@@ -57,6 +57,8 @@ and just ask the editors to select the category.
 
 * [kache 0.2.0: zero-copy, content-addressed Rust build cache (RUSTC_WRAPPER)](https://github.com/kunobi-ninja/kache/releases/tag/v0.2.0)
 
+* [Fileman](https://kvark.github.io/application/2026/03/14/fileman.html) - a cross-platform 2-panel file manager
+
 ### Observations/Thoughts
 * [One week of view_types](https://scrabsha.dev/articles/one-week-of-view-types.html)
 * [Async Rust never left the MVP state](https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state)
