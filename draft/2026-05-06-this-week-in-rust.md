@@ -46,23 +46,29 @@ and just ask the editors to select the category.
 * [Rust Trends Issue 77 - Rust Sharpens the Craft](https://rust-trends.com/newsletter/rust-sharpens-the-craft/)
 
 ### Project/Tooling Updates
+* [Imgclip: A Cross-Platform CLI for Clipboard ↔ Image File Conversion](https://dev.to/alex_yan_6135f8195a1a3b01/imgclip-a-cross-platform-cli-for-clipboard-image-file-conversion-2i1l)
 
 * [Connectors: Where AimDB Meets the Real World](https://aimdb.dev/blog/connectors-where-aimdb-meets-the-real-world)
+
+* [rkik-nts 1.0.0: a high-level Rust Network Time Security (RFC 8915) client library](https://github.com/aguacero7/rkik-nts/releases/tag/v1.0.0)
 
 ### Observations/Thoughts
 
 * [The `Sync` bound nobody asked for](https://verrchu.github.io/blog/1-the-sync-bound-nobody-asked-for/)
+* [Cross-platform Rust: Analyzing how WhatsApp, Signal and more are shipping Rust to billions of devices](https://kerkour.com/rust-cross-platform-apps)
 * [audio] [Netstack.FM episode 37 — dial9: from black box to insight in Tokio](https://netstack.fm/#episode-37)
 * [Your Clippy Config Should Be Stricter](https://emschwartz.me/your-clippy-config-should-be-stricter/)
 
 ### Rust Walkthroughs
 
+* [video] [RustCurious lesson 7: Arrays and Slices](https://www.youtube.com/watch?v=JWfVqDEkQQw)
 * [Writing Middlewares for Rust Lambda Functions](https://loige.co/writing-middlewares-for-rust-lambda-functions/)
 * [Learn Error Handling in Rust By Building a TOML Config Parser](https://blog.sheerluck.dev/posts/learn-error-hanlding-in-rust/)
 
 ### Research
 
 ### Miscellaneous
+* [Awesome SQLx Resources](https://github.com/szabgab/awesome-sqlx)
 
 ## Crate of the Week
 
