@@ -47,7 +47,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [Fileman](https://kvark.github.io/application/2026/03/14/fileman.html) - a cross-platform 2-panel file manager made with [blade](https://github.com/kvark/blade/tree/main/blade-graphics) + [egui](https://www.egui.rs/).
+* [Fileman](https://kvark.github.io/application/2026/03/14/fileman.html) - a cross-platform 2-panel file manager
 
 ### Observations/Thoughts
 
