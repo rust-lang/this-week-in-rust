@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [bincheck: binary hardening flag checker for ELF/PE/Mach-O](https://dev.to/kazu11max17/are-you-still-checking-binary-hardening-by-hand-i-built-bincheck-in-rust-2lnn)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
