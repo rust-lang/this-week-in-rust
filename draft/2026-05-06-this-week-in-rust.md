@@ -54,6 +54,8 @@ and just ask the editors to select the category.
 
 * [unix-ancillary 0.2.2 — safe SCM_RIGHTS fd-passing for Rust](https://github.com/MohibShaikh/unix-ancillary/releases/tag/v0.2.2)
 
+* [kache 0.2.0: zero-copy, content-addressed Rust build cache (RUSTC_WRAPPER)](https://github.com/kunobi-ninja/kache/releases/tag/v0.2.0)
+
 ### Observations/Thoughts
 
 * [Cross-platform Rust: Analyzing how WhatsApp, Signal and more are shipping Rust to billions of devices](https://kerkour.com/rust-cross-platform-apps)
