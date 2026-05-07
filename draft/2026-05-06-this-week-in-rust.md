@@ -64,6 +64,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Awesome SQLx Resources](https://github.com/szabgab/awesome-sqlx)
 
 ## Crate of the Week
 
