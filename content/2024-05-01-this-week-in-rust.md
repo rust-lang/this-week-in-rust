@@ -374,7 +374,7 @@ Rusty Events between 2024-05-01 - 2024-05-29 🦀
 
 ### Oceania
 
-* 2024-05-02 | Brisbane City, QL, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane/)
+* 2024-05-02 | Brisbane City, QLD, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane/)
     * [**May Meetup**](https://www.meetup.com/rust-brisbane/events/300647409/)
 
 If you are running a Rust event please add it to the [calendar] to get

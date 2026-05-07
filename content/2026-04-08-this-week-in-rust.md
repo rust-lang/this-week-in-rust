@@ -383,7 +383,7 @@ Rusty Events between 2026-04-08 - 2026-05-06 🦀
     * [**Rust-Atl**](https://www.meetup.com/rust-atl/events/311228662/)
 
 ### Oceania
-* 2026-04-09 | Brisbane City, QL, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane)
+* 2026-04-09 | Brisbane City, QLD, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane)
     * [**Rust Brisbane Apr 2026**](https://www.meetup.com/rust-brisbane/events/313975190/)
 
 ### South America

@@ -366,7 +366,7 @@ Rusty Events between 2025-06-25 - 2025-07-23 🦀
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/xvkdgtyhckbfc)
 
 ### Oceania
-* 2025-06-30 | Collingwood, VI, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne/events/)
+* 2025-06-30 | Collingwood, VIC, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne/events/)
     * [**June 2025 Mini Rust Melbourne Meetup**](https://www.meetup.com/rust-melbourne/events/308546374)
 * 2025-07-01 | Christchurch, NZ | [Christchurch Rust Meetup Group](https://www.meetup.com/christchurch-rustlang-meetup-group/events/)
     * [**July 2025 Christchurch Rust Meetup**](https://www.meetup.com/christchurch-rustlang-meetup-group/events/308605782)

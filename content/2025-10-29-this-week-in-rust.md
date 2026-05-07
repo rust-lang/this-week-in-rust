@@ -438,7 +438,7 @@ Rusty Events between 2025-10-29 - 2025-11-26 🦀
 
 
 ### Oceania
-* 2025-10-29 | Barton, AC, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
+* 2025-10-29 | Barton, ACT, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
     * [**October Meetup**](https://www.meetup.com/rust-canberra/events/311234237/)
 * 2025-11-11 | Christchurch, NZ | [Christchurch Rust Meetup Group](https://www.meetup.com/christchurch-rustlang-meetup-group/events/)
     * [**Christchurch Rust Meetup**](https://www.meetup.com/christchurch-rustlang-meetup-group/events/311685331/)

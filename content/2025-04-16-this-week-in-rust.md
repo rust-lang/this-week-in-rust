@@ -351,7 +351,7 @@ Rusty Events between 2025-04-16 - 2025-05-14 🦀
     * [**Porter Square Rust Lunch, May 11**](https://www.meetup.com/bostonrust/events/306845728)
 
 ### Oceania
-* 2025-04-22 | Barton, AC, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
+* 2025-04-22 | Barton, ACT, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
     * [**April Meetup**](https://www.meetup.com/rust-canberra/events/306425557)
 
 If you are running a Rust event please add it to the [calendar] to get
