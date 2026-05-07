@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [unix-ancillary 0.2.2 — safe SCM_RIGHTS fd-passing for Rust, hardened against fd leaks on macOS and fuzz-tested](https://github.com/MohibShaikh/unix-ancillary/releases/tag/v0.2.2)
+* [unix-ancillary 0.2.2 — safe SCM_RIGHTS fd-passing for Rust](https://github.com/MohibShaikh/unix-ancillary/releases/tag/v0.2.2)
 
 ### Observations/Thoughts
 
