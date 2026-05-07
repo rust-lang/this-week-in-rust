@@ -47,13 +47,19 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Connectors: Where AimDB Meets the Real World](https://aimdb.dev/blog/connectors-where-aimdb-meets-the-real-world)
+
 ### Observations/Thoughts
 
 * [Cross-platform Rust: Analyzing how WhatsApp, Signal and more are shipping Rust to billions of devices](https://kerkour.com/rust-cross-platform-apps)
+* [audio] [Netstack.FM episode 37 — dial9: from black box to insight in Tokio](https://netstack.fm/#episode-37)
+* [Your Clippy Config Should Be Stricter](https://emschwartz.me/your-clippy-config-should-be-stricter/)
 
 ### Rust Walkthroughs
 
+* [video] [RustCurious lesson 7: Arrays and Slices](https://www.youtube.com/watch?v=JWfVqDEkQQw)
 * [Writing Middlewares for Rust Lambda Functions](https://loige.co/writing-middlewares-for-rust-lambda-functions/)
+* [Learn Error Handling in Rust By Building a TOML Config Parser](https://blog.sheerluck.dev/posts/learn-error-hanlding-in-rust/)
 
 ### Research
 
