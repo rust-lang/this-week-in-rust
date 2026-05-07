@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 
 * [Connectors: Where AimDB Meets the Real World](https://aimdb.dev/blog/connectors-where-aimdb-meets-the-real-world)
 
+* [rkik-nts 1.0.0: a high-level Rust Network Time Security (RFC 8915) client library](https://github.com/aguacero7/rkik-nts/releases/tag/v1.0.0)
+
 ### Observations/Thoughts
 
 * [Cross-platform Rust: Analyzing how WhatsApp, Signal and more are shipping Rust to billions of devices](https://kerkour.com/rust-cross-platform-apps)
