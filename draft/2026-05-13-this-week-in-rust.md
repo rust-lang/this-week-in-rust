@@ -52,7 +52,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
-
+* [Announcing the 2026 Rust-Edu Refresh and CFP](https://rust-edu.org/news/call-for-participation/)
 ## Crate of the Week
 
 <!-- COTW goes here -->
