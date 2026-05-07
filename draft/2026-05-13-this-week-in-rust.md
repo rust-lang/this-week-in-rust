@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [ferrous-browser v0.1.0: A zero-overhead, async-first Chrome DevTools Protocol library for high-concurrency web scraping in Rust](https://crates.io/crates/ferrous-browser)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
