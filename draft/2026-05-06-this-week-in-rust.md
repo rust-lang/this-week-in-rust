@@ -38,6 +38,7 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Google Summer of Code 2026 selected projects](https://blog.rust-lang.org/2026/04/30/gsoc-2026-selected-projects/)
 
 ### Foundation
 
@@ -57,14 +58,17 @@ and just ask the editors to select the category.
 * [kache 0.2.0: zero-copy, content-addressed Rust build cache (RUSTC_WRAPPER)](https://github.com/kunobi-ninja/kache/releases/tag/v0.2.0)
 
 ### Observations/Thoughts
-
+* [One week of view_types](https://scrabsha.dev/articles/one-week-of-view-types.html)
+* [Async Rust never left the MVP state](https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state)
+* [stable specialization in Rust](https://goldstein.lol/posts/stable-specialization/)
+* [Your Clippy Config Should Be Stricter](https://emschwartz.me/your-clippy-config-should-be-stricter/)
+* [Your Clippy Config Should Be Stricter-er](https://billylevin.dev/posts/clippy-config/)
 * [The `Sync` bound nobody asked for](https://verrchu.github.io/blog/1-the-sync-bound-nobody-asked-for/)
 * [Cross-platform Rust: Analyzing how WhatsApp, Signal and more are shipping Rust to billions of devices](https://kerkour.com/rust-cross-platform-apps)
 * [audio] [Netstack.FM episode 37 — dial9: from black box to insight in Tokio](https://netstack.fm/#episode-37)
-* [Your Clippy Config Should Be Stricter](https://emschwartz.me/your-clippy-config-should-be-stricter/)
 
 ### Rust Walkthroughs
-
+* [oops, cubic macro!](https://bal-e.org/blog/2026/oops-cubic-macro/)
 * [video] [RustCurious lesson 7: Arrays and Slices](https://www.youtube.com/watch?v=JWfVqDEkQQw)
 * [Writing Middlewares for Rust Lambda Functions](https://loige.co/writing-middlewares-for-rust-lambda-functions/)
 * [Learn Error Handling in Rust By Building a TOML Config Parser](https://blog.sheerluck.dev/posts/learn-error-hanlding-in-rust/)
