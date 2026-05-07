@@ -80,7 +80,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [burn](https://github.com/tracel-ai/burn), a tensor and deep learning library.
+
+Thanks to [Jonas](https://users.rust-lang.org/t/crate-of-the-week/2704/1604) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -162,7 +164,72 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+504 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-04-28..2026-05-05
+
+#### Compiler
+* [canonicalize free regions from inputs as placeholders in root univ](https://github.com/rust-lang/rust/pull/155487)
+
+#### Library
+* [don't reload length in `String::push`](https://github.com/rust-lang/rust/pull/155847)
+
+#### Cargo
+* [`feat(lints)`: Add deny-by-default `text_direction_codepoint` lints](https://github.com/rust-lang/cargo/pull/16950)
+* [`fix(compile)`: Where possible, hint about misplaced deps](https://github.com/rust-lang/cargo/pull/16940)
+* [`fix(config): [env]` relative paths definition](https://github.com/rust-lang/cargo/pull/16957)
+* [`fix(config)`: normalize included config paths](https://github.com/rust-lang/cargo/pull/16964)
+* [remove curl dependency from crates-io crate](https://github.com/rust-lang/cargo/pull/16936)
+
+#### Rustdoc
+* [fix `doc_cfg` feature on reexports](https://github.com/rust-lang/rust/pull/156073)
+* [preserve parent doc cfg for `macro_export` macros](https://github.com/rust-lang/rust/pull/155954)
+
+#### Clippy
+* [add a check for some followed by filter](https://github.com/rust-lang/rust-clippy/pull/15745)
+* [fix `bad_bit_mask` ICE for overloaded bit ops](https://github.com/rust-lang/rust-clippy/pull/16937)
+* [`needless_return_with_question_mark` trigger in async functions](https://github.com/rust-lang/rust-clippy/pull/16952)
+
+#### Rust-Analyzer
+* [`diagnostics`: add handler for E0130](https://github.com/rust-lang/rust-analyzer/pull/22197)
+* [add AssocItemList `add_item` editor variant](https://github.com/rust-lang/rust-analyzer/pull/22245)
+* [expand glob import on cyclic import fail](https://github.com/rust-lang/rust-analyzer/pull/22244)
+* [add diagnostic for E0784](https://github.com/rust-lang/rust-analyzer/pull/22202)
+* [allow renaming of elided lifetimes](https://github.com/rust-lang/rust-analyzer/pull/22178)
+* [diagnose trait errors 🎉](https://github.com/rust-lang/rust-analyzer/pull/22186)
+* [emit a diagnostic for `non_exhaustive struct` when constructed](https://github.com/rust-lang/rust-analyzer/pull/22193)
+* [offer on if-expr with else-if for `convert_to_guarded_return`](https://github.com/rust-lang/rust-analyzer/pull/22199)
+* [support if-else in value on postfix completions](https://github.com/rust-lang/rust-analyzer/pull/22222)
+* [add missing exprs to visiting](https://github.com/rust-lang/rust-analyzer/pull/22214)
+* [add missing solver lang items](https://github.com/rust-lang/rust-analyzer/pull/22274)
+* [add semicolon after expr in stmt for `unwrap_branch`](https://github.com/rust-lang/rust-analyzer/pull/22217)
+* [catch `#[rustc_reservation_impl = "reason"]`](https://github.com/rust-lang/rust-analyzer/pull/22282)
+* [don't fetch diagnostics until proc-macros are loaded](https://github.com/rust-lang/rust-analyzer/pull/22272)
+* [don't panic on `impl ?Sized` for `introduce_named_type_parameter`](https://github.com/rust-lang/rust-analyzer/pull/22265)
+* [fix `unwrap_branch` in `match_arm`](https://github.com/rust-lang/rust-analyzer/pull/22247)
+* [fix stack overflow on projection display](https://github.com/rust-lang/rust-analyzer/pull/22215)
+* [handle empty expr in tuple expr](https://github.com/rust-lang/rust-analyzer/pull/22201)
+* [improve `prettify_macro_expansion()`](https://github.com/rust-lang/rust-analyzer/pull/22058)
+* [improve whitespaces for trait item complete](https://github.com/rust-lang/rust-analyzer/pull/22240)
+* [infer the expected type as the return type for async blocks defined by async fns](https://github.com/rust-lang/rust-analyzer/pull/22275)
+* [port array and ref exprs inference from rustc](https://github.com/rust-lang/rust-analyzer/pull/22271)
+* [qualify .new path and no complete generic params](https://github.com/rust-lang/rust-analyzer/pull/22210)
+* [remove usage of `references_error()` in upvar inference](https://github.com/rust-lang/rust-analyzer/pull/22276)
+* [show the user's message for `#[must_use]`](https://github.com/rust-lang/rust-analyzer/pull/22253)
+* [use `Pattern_White_Space` for whitespace handling](https://github.com/rust-lang/rust-analyzer/pull/22008)
+* [various fixes for `lower_coroutine_body_with_moved_arguments()`](https://github.com/rust-lang/rust-analyzer/pull/22207)
+* [wrap top level or patterns in parens in `convert_match_to_let_else`](https://github.com/rust-lang/rust-analyzer/pull/22229)
+* [hir-ty: emit diagnostic for unused `#[must_use]` values](https://github.com/rust-lang/rust-analyzer/pull/22239)
+* [ide-diagnostics: emit error for duplicate field in record expression](https://github.com/rust-lang/rust-analyzer/pull/22235)
+* [ide-diagnostics: emit error for mismatched array pattern length](https://github.com/rust-lang/rust-analyzer/pull/22238)
+* [migrate generate function to SyntaxEditor](https://github.com/rust-lang/rust-analyzer/pull/22159)
+* [perf: cache more things that are related to lang items (paren traits, children/sibling assoc types/functions) but are not lang items themselves](https://github.com/rust-lang/rust-analyzer/pull/22280)
+* [perf: do not intern `AdtDef`](https://github.com/rust-lang/rust-analyzer/pull/22187)
+* [perf: improve performance of integer-based symbols](https://github.com/rust-lang/rust-analyzer/pull/22267)
+* [remove add predicate for Where syntax](https://github.com/rust-lang/rust-analyzer/pull/22246)
+* [remove unused a method in `edit_in_place`](https://github.com/rust-lang/rust-analyzer/pull/22242)
+* [replace insert use and insert use as alias with its editor variant](https://github.com/rust-lang/rust-analyzer/pull/22241)
+* [use syntaxFactory in generic arg instead of vanilla make](https://github.com/rust-lang/rust-analyzer/pull/22243)
 
 ### Rust Compiler Performance Triage
 
@@ -394,7 +461,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> From a business standpoint, we should have reasonable confidence that it’ll stick around and be healthy for more than 10 years. We’d also like a robust ecosystem of code and tools that we can rely on, and experts we can hire.
+
+– [David Anderson on the tailscale blog](https://tailscale.com/blog/tailscale-rs-rust-tsnet-library-preview)
+
+Thanks to [Ivan Fraixedes](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1764) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
