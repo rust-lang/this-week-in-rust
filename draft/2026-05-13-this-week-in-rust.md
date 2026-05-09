@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Minarrow](https://github.com/pbower/minarrow) is a Rust-first columnar data library with Apache Arrow compatibility. It provides concrete typed arrays, SIMD-aligned buffer storage, fast clean and incremental builds, low dependency weight, Arrow-compatible layout and interop, and zero-copy paths into Polars and Python tooling.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
