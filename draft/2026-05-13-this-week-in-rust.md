@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [cloakrs v0.1.0 - PII detection and masking engine with checksum validation](https://github.com/kadir/cloakrs)
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
