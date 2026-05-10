@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Oryxis 0.6 released: a Rust-native SSH client built on iced, with AWS discovery, P2P sync and an embedded alacritty terminal](https://github.com/wilsonglasser/oryxis/releases/tag/v0.6.0)
 
 ### Observations/Thoughts
 
