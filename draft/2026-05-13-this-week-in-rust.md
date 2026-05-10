@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[chess-tui: Play chess in your terminal](https://github.com/thomas-mauran/chess-tui)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
