@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Auralis](https://github.com/chh-itt/auralis) — an async-first reactive kernel for Rust. Two crates: `auralis-signal` (zero deps, zero unsafe) provides `Signal<T>`, `Memo<T>`, the `memo!` macro, and change-detection futures. `auralis-task` adds `TaskScope` (structured concurrency with BFS cancellation), a priority executor, `timer::sleep`, and context DI. Demos include [egui](https://github.com/chh-itt/auralis/tree/main/demos/egui-demo), [Wasm](https://github.com/chh-itt/auralis/tree/main/demos/wasm-counter), and [CLI](https://github.com/chh-itt/auralis/tree/main/demos/cli-multitask). Core insight: *reactive = pausable async tasks; lifecycle = ownership + structured concurrency.*
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
