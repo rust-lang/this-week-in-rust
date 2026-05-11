@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [An Introduction to Programming, using ECS & EBP in Rust](https://root-11.github.io/intro-book/) - a 44-chapter book that teaches programming from first principles of data-oriented design, entity-component-systems, and existence-based processing, with Rust as the only language. No prior programming experience assumed. The through-line is a small ecosystem simulator that grows from one hundred creatures to a hundred million streamed ones.
+
 ### Research
 
 ### Miscellaneous
