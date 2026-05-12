@@ -45,6 +45,10 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [undoredo](https://github.com/mikwielgus/undoredo) — Undo-redo in Rust using
+deltas, snapshots or commands for arbitrary data structures with convenience
+implementations for many standard and third-party types.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
