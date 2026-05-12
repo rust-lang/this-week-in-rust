@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [ex_ratatui](https://github.com/mcass19/ex_ratatui) — Elixir bindings for ratatui via Rustler NIFs. Including cell-buffer session API for non-terminal renderers (e.g. embedded framebuffers) and built-in SSH and Erlang-distribution transport for remote attach. Precompiled NIFs for Linux, macOS, Windows.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
