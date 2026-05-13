@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [cuda-oxide](https://github.com/NVlabs/cuda-oxide) - We just open-sourced cuda-oxide, an experimental rustc backend for writing CUDA kernels in pure Rust: no DSLs, no FFI bindings, and no source-to-source step. Host code and `#[kernel]` device code can live in the same `.rs` file, and `cargo oxide build` produces a host binary plus PTX through a Rust MIR -> Pliron -> LLVM -> PTX pipeline.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
