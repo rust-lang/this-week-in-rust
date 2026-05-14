@@ -79,7 +79,7 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 * [Awesome SQLx Resources](https://github.com/szabgab/awesome-sqlx)
-* [Incrementally Rewriting Bun's Zig in Rust: Why](https://github.com/oven-sh/bun/blob/claude/phase-a-port/docs/rust-rewrite-plan.md#why)
+* [Incrementally Rewriting Bun's Zig in Rust: Why](https://github.com/oven-sh/bun/blob/eeb4d9fdf6e9a7bdd45388d7f3a03dcf570839ad/docs/rust-rewrite-plan.md#why)
 
 ## Crate of the Week
 
