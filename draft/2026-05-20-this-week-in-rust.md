@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 * [ex_ratatui](https://hexdocs.pm/ex_ratatui): Elixir bindings for ratatui via Rustler NIFs.
 
+* [swpui: a TUI for case-aware search and replace](https://beeb.li/blog/introducing-swpui)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
