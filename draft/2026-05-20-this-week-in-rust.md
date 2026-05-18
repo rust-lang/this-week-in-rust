@@ -236,6 +236,8 @@ Rusty Events between 2026-05-20 - 2026-06-17 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254780/)
 * 2026-06-10 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
     * [**Weekly coding session**](https://luma.com/3bcnx1jb)
+* 2026-06-17 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Weekly coding session**](https://luma.com/ekws5nr4)
 
 ### Asia
 * 2026-05-13 | Malaysia, MY | [Rust Meetup Malaysia](https://docs.google.com/forms/d/e/1FAIpQLSfMh6PA05ujl3lS59tJU3DcLHGVZ1zjzJhl49hXEHU7e6vsQA/viewform)
@@ -248,8 +250,6 @@ Rusty Events between 2026-05-20 - 2026-06-17 🦀
     * [**AI Agents and Open Source LLM (Call for Speakers)**](https://www.meetup.com/wasm-rust-meetup/events/314750465/)
 
 ### Europe
-* 2026-05-13 | Girona, ES | [Rust Girona](https://luma.com/rust-girona)
-    * [**Rust Girona Hack & Learn 05 2026**](https://luma.com/ooub1kt0)
 * 2026-05-14 | Switzerland, CH | [PostTenebrasLab](https://www.posttenebraslab.ch/wiki/events/start)
     * [**Rust Meetup Geneva**](https://www.posttenebraslab.ch/wiki/events/monthly_meeting/rust_meetup)
 * 2026-05-18 - 2026-05-23 | Utrecht, NL | [RustWeek 2026](https://2026.rustweek.org/)
@@ -276,6 +276,8 @@ Rusty Events between 2026-05-20 - 2026-06-17 🦀
     * [**Rust Berlin Talks: The next generation**](https://www.meetup.com/rust-berlin/events/314396588/)
 * 2026-06-03 | Dublin, IE | [Rust Dublin](https://www.meetup.com/rust-dublin/events/)
     * [**Join us live and INPERSON for Rust 261**](https://www.meetup.com/rust-dublin/events/314689875/)
+* 2026-06-03 | Girona, ES | [Rust Girona](https://lu.ma/rust-girona)
+    * [**Rust Girona Hack & Learn 06 2026**](https://luma.com/4bmlc7qd)
 
 
 ### North America
