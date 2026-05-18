@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [ex_ratatui](https://hexdocs.pm/ex_ratatui): Elixir bindings for ratatui via Rustler NIFs.
+* [OmniScope](https://github.com/Timwood0x10/OmniScope): A Cross-Language LLVM IR Static Analyzer Targeting Unsafe/FFI Boundariesby
 
 ### Observations/Thoughts
 
