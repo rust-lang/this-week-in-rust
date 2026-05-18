@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [ex_ratatui](https://hexdocs.pm/ex_ratatui): Elixir bindings for ratatui via Rustler NIFs.
+* [What the Graph Owes](https://aimdb.dev/blog/graph-owes): Connectors That Drive Outputs
 
 ### Observations/Thoughts
 
