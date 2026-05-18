@@ -46,7 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [ex_ratatui](https://hexdocs.pm/ex_ratatui): Elixir bindings for ratatui via Rustler NIFs.
-
+* [Savitri Network](https://github.com/Savitri-Network/savitri-network) : A Rust DAG network that trains AI via federated learning embedded in its consensus mechanism.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
@@ -120,8 +120,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-<!-- * [ - ]() -->
+<!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->  
+<!-- * [ Savitri Network - Phase 2.6 sub-task 6 — Quality-detection FSM]([https://github.com/Savitri-Network/savitri-network/issues/40]) --> 
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
