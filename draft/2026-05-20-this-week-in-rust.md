@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [How to benchmark Rust code with Gungraun](https://bencher.dev/learn/benchmarking/rust/gungraun/)
+
 ### Research
 
 ### Miscellaneous
