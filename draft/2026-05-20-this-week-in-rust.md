@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [ex_ratatui](https://hexdocs.pm/ex_ratatui): Elixir bindings for ratatui via Rustler NIFs.
+* [Oryxis 0.7](https://github.com/wilsonglasser/oryxis/releases/tag/v0.7.0): a Rust-native SSH client.
 
 ### Observations/Thoughts
 
