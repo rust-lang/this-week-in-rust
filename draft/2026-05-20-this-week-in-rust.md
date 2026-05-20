@@ -52,7 +52,7 @@ and just ask the editors to select the category.
 
 * [Tonic is joining the gRPC project](https://luciofranco.com/blog/tonic-joins-grpc/)
 * [Toasty 0.6.0 - What is new?](https://tokio.rs/blog/2026-05-15-announcing-toasty-0-6-0)
-* [ex_ratatui](https://hexdocs.pm/ex_ratatui): Elixir bindings for ratatui via Rustler NIFs.
+* [ex_ratatui](https://hexdocs.pm/ex_ratatui/index.html): Elixir bindings for ratatui via Rustler NIFs.
 * [citum](https://citum.org/): a new Rust citation processor and associated tools.
 * [cargo-crap: Finding Untested Complexity in AI-Generated Rust Code](https://minikin.me/blog/cargo-crap)
 * [What the Graph Owes](https://aimdb.dev/blog/graph-owes): Connectors That Drive Outputs
