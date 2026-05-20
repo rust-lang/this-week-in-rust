@@ -56,10 +56,9 @@ and just ask the editors to select the category.
 * [Why I built wrkflw](https://blog.gokuls.in/posts/why-i-built-wrkflw.html)
 
 ### Rust Walkthroughs
+
 * [Learn Rust Lifetimes by Building a Generic LRU Cache](https://blog.sheerluck.dev/posts/learn-rust-lifetimes-by-building-a-lru-cache/)
-
 * [How to benchmark Rust code with Gungraun](https://bencher.dev/learn/benchmarking/rust/gungraun/)
-
 * [Book: An Introduction to Programming, using ECS & EBP in Rust](https://root-11.github.io/intro-book/)
 
 ### Research
