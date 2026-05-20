@@ -58,6 +58,8 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Learn Rust Lifetimes by Building a Generic LRU Cache](https://blog.sheerluck.dev/posts/learn-rust-lifetimes-by-building-a-lru-cache/)
 
+* [How to benchmark Rust code with Gungraun](https://bencher.dev/learn/benchmarking/rust/gungraun/)
+
 ### Research
 
 ### Miscellaneous
