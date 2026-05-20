@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Why I built wrkflw](https://blog.gokuls.in/posts/why-i-built-wrkflw.html)
+
 ### Rust Walkthroughs
 * [Learn Rust Lifetimes by Building a Generic LRU Cache](https://blog.sheerluck.dev/posts/learn-rust-lifetimes-by-building-a-lru-cache/)
 
