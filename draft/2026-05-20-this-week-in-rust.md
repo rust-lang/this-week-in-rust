@@ -47,8 +47,13 @@ and just ask the editors to select the category.
 
 * [ex_ratatui](https://hexdocs.pm/ex_ratatui): Elixir bindings for ratatui via Rustler NIFs.
 * [citum](https://citum.org/): a new Rust citation processor and associated tools.
+* [cargo-crap: Finding Untested Complexity in AI-Generated Rust Code](https://minikin.me/blog/cargo-crap)
+* [What the Graph Owes](https://aimdb.dev/blog/graph-owes): Connectors That Drive Outputs
+* [swpui: a TUI for case-aware search and replace](https://beeb.li/blog/introducing-swpui)
 
 ### Observations/Thoughts
+
+* [Why I built wrkflw](https://blog.gokuls.in/posts/why-i-built-wrkflw.html)
 
 ### Rust Walkthroughs
 * [Learn Rust Lifetimes by Building a Generic LRU Cache](https://blog.sheerluck.dev/posts/learn-rust-lifetimes-by-building-a-lru-cache/)
