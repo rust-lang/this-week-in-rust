@@ -51,7 +51,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
-* [An Introduction to Programming, using ECS & EBP in Rust](https://root-11.github.io/intro-book/) - a 44-chapter book teaching data-oriented design, ECS, and EBP from scratch in Rust, with no prior programming experience assumed.
+* [Book: An Introduction to Programming, using ECS & EBP in Rust](https://root-11.github.io/intro-book/)
 
 ### Research
 
