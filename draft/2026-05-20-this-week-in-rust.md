@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Scaling Rust codebases: Lessons learned organizing large projects and managing errors](https://kerkour.com/rust-organize-large-projects-code-error-handling)
 * [Why I built wrkflw](https://blog.gokuls.in/posts/why-i-built-wrkflw.html)
 
 ### Rust Walkthroughs
