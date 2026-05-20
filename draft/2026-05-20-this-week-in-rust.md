@@ -46,7 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [ex_ratatui](https://hexdocs.pm/ex_ratatui): Elixir bindings for ratatui via Rustler NIFs.
-* [citum](https://citum.org): a new Rust citation processor and associated tools.
+* [citum](https://citum.org/): a new Rust citation processor and associated tools.
 
 ### Observations/Thoughts
 
