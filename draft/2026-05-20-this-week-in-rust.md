@@ -60,6 +60,8 @@ and just ask the editors to select the category.
 
 * [How to benchmark Rust code with Gungraun](https://bencher.dev/learn/benchmarking/rust/gungraun/)
 
+* [Book: An Introduction to Programming, using ECS & EBP in Rust](https://root-11.github.io/intro-book/)
+
 ### Research
 
 ### Miscellaneous
