@@ -84,7 +84,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [cargo-crap](https://github.com/minikin/cargo-crap), a cargo subcommand to calculate the Change Risk Anti-Patterns metric for a crate.
+
+Despite a lamentable lack of suggestions, llogiq is pleased with his choice.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -136,7 +138,63 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+369 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-05-12..2026-05-19
+
+#### Compiler
+* [add Swift function call ABI](https://github.com/rust-lang/rust/pull/155815)
+* [implement pinned drop sugar](https://github.com/rust-lang/rust/pull/156452)
+
+#### Library
+* [`map_try_insert` changes](https://github.com/rust-lang/rust/pull/155360)
+* [implement `OsStr::split_at`](https://github.com/rust-lang/rust/pull/156444)
+* [implement `into_array` for `Vec<T>`](https://github.com/rust-lang/rust/pull/156234)
+* [move `std::io::Cursor` to `core::io`](https://github.com/rust-lang/rust/pull/156428)
+* [move `std::io::util` to `core::io`](https://github.com/rust-lang/rust/pull/156431)
+* [widen the result of `widening_mul`](https://github.com/rust-lang/rust/pull/156644)
+
+#### Cargo
+* [`clean`: respect `build.target` config for `clean -p`](https://github.com/rust-lang/cargo/pull/16988)
+* [`diag`: Consolidate verify/run diagnostics passes](https://github.com/rust-lang/cargo/pull/16989)
+* [`diag`: Report deferred diagnostics like other diagnostics](https://github.com/rust-lang/cargo/pull/16994)
+* [`diag`: Pull in the parse pass](https://github.com/rust-lang/cargo/pull/17008)
+* [`lints`: Avoid compiling where possible](https://github.com/rust-lang/cargo/pull/17007)
+* [drop `-Zunstable-options` for `rustdoc --emit`](https://github.com/rust-lang/cargo/pull/17002)
+
+#### Rustdoc
+* [stabilize `--emit` flag](https://github.com/rust-lang/rust/pull/146220)
+* [correctly handle associated items in rustdoc macro expansion](https://github.com/rust-lang/rust/pull/156587)
+* [correctness & perf improvements to link-to-definition](https://github.com/rust-lang/rust/pull/156413)
+* [properly support macros with multiple kinds](https://github.com/rust-lang/rust/pull/152449)
+
+#### Clippy
+* [fix `duration_suboptimal_units` for small literals](https://github.com/rust-lang/rust-clippy/pull/16922)
+* [fix arithmetic side effects false positive](https://github.com/rust-lang/rust-clippy/pull/17011)
+
+#### Rust-Analyzer
+* [add diagnostic for E0029](https://github.com/rust-lang/rust-analyzer/pull/22347)
+* [add diagnostic for E0614](https://github.com/rust-lang/rust-analyzer/pull/22380)
+* [add diagnostic for E0638](https://github.com/rust-lang/rust-analyzer/pull/22355)
+* [add handler for E0040](https://github.com/rust-lang/rust-analyzer/pull/22378)
+* [encode the name instead of index in `EnumVariantId`](https://github.com/rust-lang/rust-analyzer/pull/22329)
+* [fix assist `qualify_path` loses path segment](https://github.com/rust-lang/rust-analyzer/pull/22354)
+* [add param on result methods for `replace_method_eager_lazy`](https://github.com/rust-lang/rust-analyzer/pull/22335)
+* [complete `ref_match` in macro](https://github.com/rust-lang/rust-analyzer/pull/22399)
+* [fully support pattern types](https://github.com/rust-lang/rust-analyzer/pull/22368)
+* [handle usages in macro for `extract_function`](https://github.com/rust-lang/rust-analyzer/pull/22344)
+* [no complete module colons before exists colons](https://github.com/rust-lang/rust-analyzer/pull/22386)
+* [no lint unsized adt `self_ty` missing bounded assoc](https://github.com/rust-lang/rust-analyzer/pull/22363)
+* [not complete same name inherent deref methods](https://github.com/rust-lang/rust-analyzer/pull/22376)
+* [only ref match non-unknown value items](https://github.com/rust-lang/rust-analyzer/pull/22367)
+* [show Run lens for fn main in bench targets](https://github.com/rust-lang/rust-analyzer/pull/22357)
+* [handle `TyKind::{Pat,UnsafeBinder}` in `has_drop_glue`](https://github.com/rust-lang/rust-analyzer/pull/22384)
+* [implement `pattern_type` macro](https://github.com/rust-lang/rust-analyzer/pull/22082)
+* [method-resolution: emit error for method calls with illegal Sized bound](https://github.com/rust-lang/rust-analyzer/pull/22372)
+* [migrate `inline_call` assist to SyntaxFactory](https://github.com/rust-lang/rust-analyzer/pull/22352)
+* [perf: provide access to `RootDatabase`'s `LineIndex` for the proc macro protocol](https://github.com/rust-lang/rust-analyzer/pull/22191)
+* [show `const` in the signature help if applicable](https://github.com/rust-lang/rust-analyzer/pull/22358)
+* [show `unsafe` in the signature help if applicable](https://github.com/rust-lang/rust-analyzer/pull/22381)
 
 ### Rust Compiler Performance Triage
 
@@ -308,7 +366,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Posts like this are useful for those of us who like to help, and who work on rustc to make it more helpful, by letting us learn about what kinds of mistakes people make.
+
+– [Kevin Reid on rust-users](https://users.rust-lang.org/t/slightly-surprising-behavior-of-a-while-loop/140117/5)
+
+Thanks to [firebits.io](https://users.rust-lang.org/t/crate-of-the-week/2704/1605) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
