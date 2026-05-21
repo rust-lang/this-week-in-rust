@@ -63,6 +63,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Scaling Rust codebases: Lessons learned organizing large projects and managing errors](https://kerkour.com/rust-organize-large-projects-code-error-handling)
 * [Migrating from Go to Rust](https://corrode.dev/learn/migration-guides/go-to-rust/)
 * [Why I built wrkflw](https://blog.gokuls.in/posts/why-i-built-wrkflw.html)
 * [video] [Rust's God Mode](https://www.youtube.com/watch?v=VIsKIzFz_zA)
