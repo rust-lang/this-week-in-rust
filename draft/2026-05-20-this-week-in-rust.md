@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 * [Tonic is joining the gRPC project](https://luciofranco.com/blog/tonic-joins-grpc/)
 * [Toasty 0.6.0 - What is new?](https://tokio.rs/blog/2026-05-15-announcing-toasty-0-6-0)
 * [ex_ratatui](https://hexdocs.pm/ex_ratatui): Elixir bindings for ratatui via Rustler NIFs.
+* [ghr: a Rust TUI for managing GitHub pull requests, issues, notifications, and reviews](https://catcoding.me/ghr/)
 * [OmniScope](https://medium.com/@jinhopers/in-depth-llvm-ir-how-omniscope-tracks-ownership-across-languages-2919e418ca61): A Cross-Language LLVM IR Static Analyzer Targeting Unsafe/FFI Boundariesby
 * [citum](https://citum.org/): a new Rust citation processor and associated tools.
 * [cargo-crap: Finding Untested Complexity in AI-Generated Rust Code](https://minikin.me/blog/cargo-crap)
