@@ -46,11 +46,14 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [ex_ratatui](https://hexdocs.pm/ex_ratatui): Elixir bindings for ratatui via Rustler NIFs.
+
+* [OmniScope](https://medium.com/@jinhopers/in-depth-llvm-ir-how-omniscope-tracks-ownership-across-languages-2919e418ca61): A Cross-Language LLVM IR Static Analyzer Targeting Unsafe/FFI Boundariesby
 * [citum](https://citum.org/): a new Rust citation processor and associated tools.
 * [cargo-crap: Finding Untested Complexity in AI-Generated Rust Code](https://minikin.me/blog/cargo-crap)
 * [What the Graph Owes](https://aimdb.dev/blog/graph-owes): Connectors That Drive Outputs
 * [swpui: a TUI for case-aware search and replace](https://beeb.li/blog/introducing-swpui)
 * [kache 0.3.0: zero-copy efficient worktree compilation](https://kunobi.ninja/blog/kache-update)
+
 
 ### Observations/Thoughts
 
