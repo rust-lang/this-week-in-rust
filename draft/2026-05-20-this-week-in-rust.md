@@ -39,14 +39,20 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Project goals update — April 2026 (end of 2025H2)](https://blog.rust-lang.org/2026/05/18/project-goals-2026-04/)
+* [Program management update — April 2026](https://blog.rust-lang.org/inside-rust/2026/05/13/program-management-update--april-2026/)
+
 ### Foundation
 
 ### Newsletters
 
+* [This Month in Rust OSDev: April 2026](https://rust-osdev.com/this-month/2026-04/)
+
 ### Project/Tooling Updates
 
+* [Tonic is joining the gRPC project](https://luciofranco.com/blog/tonic-joins-grpc/)
+* [Toasty 0.6.0 - What is new?](https://tokio.rs/blog/2026-05-15-announcing-toasty-0-6-0)
 * [ex_ratatui](https://hexdocs.pm/ex_ratatui): Elixir bindings for ratatui via Rustler NIFs.
-
 * [OmniScope](https://medium.com/@jinhopers/in-depth-llvm-ir-how-omniscope-tracks-ownership-across-languages-2919e418ca61): A Cross-Language LLVM IR Static Analyzer Targeting Unsafe/FFI Boundariesby
 * [citum](https://citum.org/): a new Rust citation processor and associated tools.
 * [cargo-crap: Finding Untested Complexity in AI-Generated Rust Code](https://minikin.me/blog/cargo-crap)
@@ -57,13 +63,19 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Migrating from Go to Rust](https://corrode.dev/learn/migration-guides/go-to-rust/)
 * [Why I built wrkflw](https://blog.gokuls.in/posts/why-i-built-wrkflw.html)
+* [video] [Rust's God Mode](https://www.youtube.com/watch?v=VIsKIzFz_zA)
+* [video] [How Rust engineered the perfect async runtime](https://www.youtube.com/watch?v=FUg1y-yv6cs)
 
 ### Rust Walkthroughs
+
+* [5× faster fast_blur in image-rs](https://apas.tel/blog/optimizing-image-rs-blur)
+* [Finding the Time Part 2 - Rust Async and the Arm Generic Timer](https://thejpster.org.uk/blog/blog-2026-05-17/)
+* [Parsing Godot .tres files and walking the resource graph](https://assethoard.com/blog/parsing-godot-tres-files)
+* [Rust x GBA: Setup and Pixels](https://jonahnestrick.com/blog/rust-gba-tutorial-1/)
 * [Learn Rust Lifetimes by Building a Generic LRU Cache](https://blog.sheerluck.dev/posts/learn-rust-lifetimes-by-building-a-lru-cache/)
-
 * [How to benchmark Rust code with Gungraun](https://bencher.dev/learn/benchmarking/rust/gungraun/)
-
 * [Book: An Introduction to Programming, using ECS & EBP in Rust](https://root-11.github.io/intro-book/)
 
 ### Research
