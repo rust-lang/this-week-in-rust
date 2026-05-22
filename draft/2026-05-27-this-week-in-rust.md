@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [slintcn 0.22: shadcn/ui-style copy-paste components for Slint native apps](https://github.com/stevekwon211/slintcn/blob/main/docs/INTRODUCING_SLINTCN.md)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
