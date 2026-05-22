@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Zerobase: encrypted zero-knowledge KV+SQL store in pure Rust](https://github.com/ODev-M/ZeroBase)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
