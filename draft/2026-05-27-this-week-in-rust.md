@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [rgx v0.12.3 released — terminal regex debugger with step-through execution, 3 engines, code generation, and live stream filtering](https://github.com/brevity1swos/rgx/releases/tag/v0.12.3)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
