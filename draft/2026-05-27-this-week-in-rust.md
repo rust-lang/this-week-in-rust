@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [splog: a log viewer TUI with automatic tag categorization](https://www.sextianbytes.fr/blog/imperfect-by-design/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
