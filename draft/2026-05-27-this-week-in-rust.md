@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Video] [Nine Ways to do Inheritance in Rust, a Language without Inheritance](https://www.youtube.com/watch?v=3IyKC5EtNkM) Seattle Rust Users Group/Rust Videos
+
 ### Research
 
 ### Miscellaneous
