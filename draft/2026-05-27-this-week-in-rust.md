@@ -45,9 +45,13 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [snarf: a cache-line false sharing linter for Rust structs](https://github.com/cong-or/snarf)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+
+* [The Slowdown That Doesn't Show Up in Profiles](https://cong-or.xyz/false-sharing-cache-lines.html)
 
 ### Research
 
