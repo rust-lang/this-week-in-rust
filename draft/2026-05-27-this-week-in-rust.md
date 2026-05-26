@@ -46,6 +46,10 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [slintcn 0.22: shadcn/ui-style copy-paste components for Slint native apps](https://github.com/stevekwon211/slintcn/blob/main/docs/INTRODUCING_SLINTCN.md)
+* [kafko](https://crates.io/crates/kafko) - An in-process log with Kafka-like semantics for Rust:
+    topics, partitions, offset-based reads, replay, retention, and per-topic compression - all
+    without a broker, a network hop, or a JVM. v0.1.1 adds `Producer::send_batch` for atomic
+    single-round-trip batched appends. ([github](https://github.com/Vadimus1983/kafko))
 
 ### Observations/Thoughts
 
