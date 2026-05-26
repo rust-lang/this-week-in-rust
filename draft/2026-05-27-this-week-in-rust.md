@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Building an AsyncIO executor for the 3DS](https://blog.cat-girl.gay/3ds-async-part-one/)
+
 ### Research
 
 ### Miscellaneous
