@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [audio] [Netstack.FM episode 38 — Building and testing network stacks with Rama](https://netstack.fm/#episode-38)
+
 ### Rust Walkthroughs
 
 ### Research
