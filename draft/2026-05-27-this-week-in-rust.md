@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [serde-const-default v0.1: Removes boilerplate when using const values as field defaults](https://github.com/ifsheldon/serde-const-default/releases/tag/v0.1)
 * [slintcn 0.22: shadcn/ui-style copy-paste components for Slint native apps](https://github.com/stevekwon211/slintcn/blob/main/docs/INTRODUCING_SLINTCN.md)
 
 ### Observations/Thoughts
