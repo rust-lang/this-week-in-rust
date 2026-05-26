@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [BoquilaHUB 0.5: AIs for Nature. Now it includes SOTA AI bioacoustics models and embeddings models](https://github.com/boquila/boquilahub/releases/tag/v0.5)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
