@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Physical AI Needs a Typed World Model, Not a Vector DB](https://aimdb.dev/blog/typed-world-model)
+
 ### Rust Walkthroughs
 
 ### Research
