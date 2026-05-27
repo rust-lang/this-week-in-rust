@@ -50,7 +50,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
+[Laissez-Faire Errors](https://hemomorphic.alexblood.net/posts/laissez-faire-errors/)
 ### Research
 
 ### Miscellaneous
