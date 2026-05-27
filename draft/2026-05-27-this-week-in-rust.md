@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Rust Patterns & Engineering How-Tos](https://microsoft.github.io/RustTraining/rust-patterns-book/)
+
 ### Research
 
 ### Miscellaneous
