@@ -55,6 +55,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Content-addressed Rust builds (or, what kache actually caches)](https://kunobi.ninja/blog/what-kache-actually-caches)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
