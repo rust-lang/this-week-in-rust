@@ -209,7 +209,7 @@ Rusty Events between 2026-05-27 - 2026-06-24 🦀
 * 2026-06-02 | Virtual | [libp2p Events](https://luma.com/libp2p)
     * [**rust-libp2p Open Maintainers Call**](https://luma.com/ukfh0mcf)
 * 2026-06-02 | Virtual (Tel Aviv-yafo, IL) | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv)
-    * [**שיחה חופשית ווירטואלית על ראסט**](https://www.meetup.com/rust-tlv/events/314871990/)
+    * [**‎שיחה חופשית ווירטואלית על ראסט**](https://www.meetup.com/rust-tlv/events/314871990/)
 * 2026-06-03 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/314691782/)
 * 2026-06-04 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
