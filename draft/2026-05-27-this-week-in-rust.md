@@ -286,6 +286,8 @@ Rusty Events between 2026-05-27 - 2026-06-24 🦀
     * [**Boston Common Rust Lunch, June 6**](https://www.meetup.com/bostonrust/events/314480539/)
 * 2026-06-11 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust)
     * [**Utah Rust June Meetup**](https://www.meetup.com/utah-rust/events/314696643/)
+* 2026-06-11 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
+    * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/314825006/)
 * 2026-06-11 | San Diego, CA, US | [San Diego Rust](https://www.meetup.com/san-diego-rust)
     * [**San Diego Rust June Meetup - Back in person!**](https://www.meetup.com/san-diego-rust/events/313721899/)
 * 2026-06-16 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group)
