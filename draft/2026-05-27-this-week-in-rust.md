@@ -202,6 +202,8 @@ Rusty Events between 2026-05-27 - 2026-06-24 🦀
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/308455930/)
 * 2026-06-04 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris/events/)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/313345241/)
+* 2026-06-04 | Virtual (Tel Aviv-yafo, IL) | [Code Mavens 🦀 - 🐍 - 🐪](https://www.meetup.com/code-mavens/)
+    * [**Exploring FalkorDB - Learning to use a Graph Database in Rust**](https://www.meetup.com/code-mavens/events/314979560/) 
 * 2026-06-07 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
     * [**Rust Deep Learning: First Sunday**](https://www.meetup.com/dallasrust/events/314095285/)
 * 2026-06-09 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
