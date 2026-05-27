@@ -143,7 +143,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This week was largely positive, with most of the improvements coming from algorithm change in visibility checking: [#156228](https://github.com/rust-lang/rust/pull/156228).
+
+Triage done by **@panstromek**.
+Revision range: [281c97c3..783eb8c8](https://perf.rust-lang.org/?start=281c97c3240a9abd984ca0c6a2cd7389115e80d5&end=783eb8c8682ddde0807c60ed8293670ef523794f&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.4%  | [0.1%, 0.7%]   | 5     |
+| Regressions ❌ <br /> (secondary)  | 0.5%  | [0.1%, 1.1%]   | 16    |
+| Improvements ✅ <br /> (primary)   | -0.9% | [-6.6%, -0.1%] | 164   |
+| Improvements ✅ <br /> (secondary) | -0.4% | [-1.3%, -0.1%] | 51    |
+| All ❌✅ (primary)                 | -0.9% | [-6.6%, 0.7%]  | 169   |
+
+
+2 Regressions, 2 Improvements, 5 Mixed; 2 of them in rollups
+34 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/4e9e90ee6ec008cadd1f351541185eff56319998/triage/2026/2026-05-25.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
