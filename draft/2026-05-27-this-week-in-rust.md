@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Keep calm and use (Rust) monorepos](https://kerkour.com/rust-monorepos)
+
 ### Rust Walkthroughs
 
 ### Research
