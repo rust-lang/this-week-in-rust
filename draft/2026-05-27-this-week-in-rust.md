@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [serde-const-default v0.1: Removes boilerplate when using const values as field defaults](https://github.com/ifsheldon/serde-const-default/releases/tag/v0.1)
 * [BoquilaHUB 0.5: AIs for Nature. Now it includes SOTA AI bioacoustics models and embeddings models](https://github.com/boquila/boquilahub/releases/tag/v0.5)
 * [splog: a log viewer TUI with automatic tag categorization](https://www.sextianbytes.fr/blog/imperfect-by-design/)
 * [rgx v0.12.3 — Building a regex debugger for the terminal in Rust](https://dev.to/brevity1swos/building-a-regex-debugger-for-the-terminal-in-rust-977)
