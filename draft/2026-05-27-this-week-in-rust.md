@@ -94,7 +94,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [inline\_tweak](https://docs.rs/inline_tweak), a crate to embed tweakable constants inside your Rust application without full recompilation.
+
+Thanks to [Kill The Mule](https://users.rust-lang.org/t/crate-of-the-week/2704/1607) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -145,7 +147,73 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+352 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-05-19..2026-05-26
+
+#### Compiler
+* [`rustc_on_unimplemented`: introduce format specifiers](https://github.com/rust-lang/rust/pull/156161)
+* [account for proc macro spans in `do_not_recommend` diagnostics](https://github.com/rust-lang/rust/pull/156763)
+* [implement fast path for `derive(PartialOrd)` when deriving `Ord`](https://github.com/rust-lang/rust/pull/155598)
+* [make bitset `would_modify_words` more vectorzer-friendly](https://github.com/rust-lang/rust/pull/153640)
+* [parse `mut` restrictions](https://github.com/rust-lang/rust/pull/156824)
+* [stop needing materialized places for most intrinsics](https://github.com/rust-lang/rust/pull/156116)
+
+#### Library
+* [add unstable Share trait](https://github.com/rust-lang/rust/pull/156828)
+* [stabilize `bool_to_result`](https://github.com/rust-lang/rust/pull/156594)
+* [use strongly typed wrapped indices in `VecDeque`](https://github.com/rust-lang/rust/pull/152112)
+
+#### Cargo
+* [compiler: forward verbose flag to rustc for local crates](https://github.com/rust-lang/cargo/pull/17006)
+* [don't use the network for a publish dry-run test](https://github.com/rust-lang/cargo/pull/17027)
+* [break out `RegistryConfig` and `crate_url` for interpreting `RegistryConfig::dl`](https://github.com/rust-lang/cargo/pull/17011)
+* [fix CVE-2026-5222 and CVE-2026-5223](https://github.com/rust-lang/cargo/pull/17031)
+* [artifact: remove compat mode from artifacts](https://github.com/rust-lang/cargo/pull/17016)
+
+#### Rustdoc
+* [stabilize `--remap-path-prefix` in rustdoc](https://github.com/rust-lang/rust/pull/155307)
+
+#### Clippy
+* [`useless_format`: fire on wrapped in a block-producing macro](https://github.com/rust-lang/rust-clippy/pull/17060)
+* [`return` can be removed from the last stmt of a block if it has an expr](https://github.com/rust-lang/rust-clippy/pull/16959)
+* [add check for midpoint using multiplication by `0.5` and `>> 1`](https://github.com/rust-lang/rust-clippy/pull/17025)
+* [avoid unnecessary `String` allocations in `MinifyingSugg` arithmetic ops](https://github.com/rust-lang/rust-clippy/pull/17057)
+* [extend `clippy::missing_safety_doc` to unsafe fields](https://github.com/rust-lang/rust-clippy/pull/16767)
+* [fix `manual_range_contains` NAN handling](https://github.com/rust-lang/rust-clippy/pull/17065)
+* [fix error message for `useless_borrows_in_formatting` for mutable borrows](https://github.com/rust-lang/rust-clippy/pull/17036)
+* [move `unnecessary_get_then_check` to `complexity`](https://github.com/rust-lang/rust-clippy/pull/16998)
+* [simplify `is_some() && …unwrap()` to `is_some_and` in `unit_arg`](https://github.com/rust-lang/rust-clippy/pull/17055)
+
+#### Rust-Analyzer
+* [`diagnostics: mut_ref` binding feature diagnostic](https://github.com/rust-lang/rust-analyzer/pull/22406)
+* [`assists/add_reference_here: _modify_` the reference type when dealing with `&T->&mut T`](https://github.com/rust-lang/rust-analyzer/pull/22342)
+* [`cfg`: correct separator index in CfgDiff disable loop](https://github.com/rust-lang/rust-analyzer/pull/22426)
+* [`hir-ty`: saturate float-to-uint cast in const eval](https://github.com/rust-lang/rust-analyzer/pull/22430)
+* [`test-utils`: drain `inactive_regions` by `inactive_line_region`](https://github.com/rust-lang/rust-analyzer/pull/22427)
+* [add diagnostic for E0033](https://github.com/rust-lang/rust-analyzer/pull/22411)
+* [add diagnostic for E0608](https://github.com/rust-lang/rust-analyzer/pull/22404)
+* [completions imports exclude supports sub items](https://github.com/rust-lang/rust-analyzer/pull/22416)
+* [filter package-scoped features](https://github.com/rust-lang/rust-analyzer/pull/22432)
+* [`extract_module` missing import for macro calls](https://github.com/rust-lang/rust-analyzer/pull/22437)
+* [add `type_match` score for `struct_pat`](https://github.com/rust-lang/rust-analyzer/pull/22452)
+* [allow wildcard params in foreign fn declarations](https://github.com/rust-lang/rust-analyzer/pull/22415)
+* [analysis expected ty in `enum` variant](https://github.com/rust-lang/rust-analyzer/pull/22449)
+* [autoimport `enum` variants](https://github.com/rust-lang/rust-analyzer/pull/22385)
+* [do not autoref in method probe in path mode](https://github.com/rust-lang/rust-analyzer/pull/22392)
+* [do not complete semicolon in match-expr place](https://github.com/rust-lang/rust-analyzer/pull/22408)
+* [do not consider the path of the macro in a macro call to be inside a macro call](https://github.com/rust-lang/rust-analyzer/pull/22397)
+* [emit diagnostic for rest array patterns without fixed-length arrays](https://github.com/rust-lang/rust-analyzer/pull/22424)
+* [fix `SyntaxContext::root`s technically overlapping valid interneds](https://github.com/rust-lang/rust-analyzer/pull/21566)
+* [flip `coerce_never type_mismatch` tys](https://github.com/rust-lang/rust-analyzer/pull/22451)
+* [have a specific error for unimplemented builtin macros](https://github.com/rust-lang/rust-analyzer/pull/22383)
+* [no suggest ref match when expected generic ref](https://github.com/rust-lang/rust-analyzer/pull/22409)
+* [no use sad pattern on happy arm with guard](https://github.com/rust-lang/rust-analyzer/pull/22369)
+* [normalize expected tuple `struct` pat field](https://github.com/rust-lang/rust-analyzer/pull/22425)
+* [refactor handling of generic params in `hir::Type`](https://github.com/rust-lang/rust-analyzer/pull/22252)
+* [support named consts in range pattern types](https://github.com/rust-lang/rust-analyzer/pull/22396)
+* [use grouped annotation for `add_label_to_loop`](https://github.com/rust-lang/rust-analyzer/pull/22419)
+* [provide better incrementality for modules](https://github.com/rust-lang/rust-analyzer/pull/22322)
 
 ### Rust Compiler Performance Triage
 
@@ -334,7 +402,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> This overflows the trait solver today as well as my brain
+
+– [Nadrieril on their blog](https://nadrieril.github.io/blog/2026/05/14/when-can-traits-depend-on-themselves.html)
+
+Thanks to [Theemathas](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1774) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
