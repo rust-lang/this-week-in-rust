@@ -45,8 +45,6 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [snarf: a cache-line false sharing linter for Rust structs](https://github.com/cong-or/snarf)
-
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
