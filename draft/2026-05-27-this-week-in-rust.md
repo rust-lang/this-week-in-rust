@@ -59,6 +59,8 @@ and just ask the editors to select the category.
 
 * [The reflex of deriving `serde` traits](https://verrchu.github.io/blog/3-the-reflex-of-deriving-serde-traits/)
 
+* [audio] [Netstack.FM episode 38 — Building and testing network stacks with Rama](https://netstack.fm/#episode-38)
+
 ### Rust Walkthroughs
 * [Learn Rust HashMap and Iterators by Building a Git Object Store Reader](https://blog.sheerluck.dev/posts/learn-hashmap-iterators-by-building-a-git-object-store-reader/)
 * [Learn the Basics of Bevy by Building and Deploying Pong to Itch.io](https://blog.sheerluck.dev/posts/learn-the-basics-of-bevy-by-building-and-deploying-pong-to-itch-io/)
