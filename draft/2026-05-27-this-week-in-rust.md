@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [UI tests are the guardrails an AI needs: the story of clipboardwire](https://davefx.com/en/2026/05/clipboardwire-construction-story/)
 * [slintcn 0.22: shadcn/ui-style copy-paste components for Slint native apps](https://github.com/stevekwon211/slintcn/blob/main/docs/INTRODUCING_SLINTCN.md)
 
 ### Observations/Thoughts
