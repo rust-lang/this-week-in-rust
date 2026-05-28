@@ -64,6 +64,8 @@ and just ask the editors to select the category.
 
 * [Physical AI Needs a Typed World Model, Not a Vector DB](https://aimdb.dev/blog/typed-world-model)
 
+* [Keep calm and use (Rust) monorepos](https://kerkour.com/rust-monorepos)
+
 ### Rust Walkthroughs
 
 * [Laissez-Faire Errors](https://hemomorphic.alexblood.net/posts/laissez-faire-errors/)
