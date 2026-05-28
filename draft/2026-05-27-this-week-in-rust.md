@@ -65,12 +65,12 @@ and just ask the editors to select the category.
 * [Physical AI Needs a Typed World Model, Not a Vector DB](https://aimdb.dev/blog/typed-world-model)
 
 ### Rust Walkthroughs
+
+* [Laissez-Faire Errors](https://hemomorphic.alexblood.net/posts/laissez-faire-errors/)
 * [Learn Rust HashMap and Iterators by Building a Git Object Store Reader](https://blog.sheerluck.dev/posts/learn-hashmap-iterators-by-building-a-git-object-store-reader/)
 * [Learn the Basics of Bevy by Building and Deploying Pong to Itch.io](https://blog.sheerluck.dev/posts/learn-the-basics-of-bevy-by-building-and-deploying-pong-to-itch-io/)
-
 * [The Slowdown That Doesn't Show Up in Profiles](https://cong-or.xyz/false-sharing-cache-lines.html)
 * [Video] [Nine Ways to do Inheritance in Rust, a Language without Inheritance](https://www.youtube.com/watch?v=3IyKC5EtNkM)
-
 * [Building an AsyncIO executor for the 3DS](https://blog.cat-girl.gay/3ds-async-part-one/)
 
 ### Research
