@@ -66,6 +66,8 @@ and just ask the editors to select the category.
 * [The Slowdown That Doesn't Show Up in Profiles](https://cong-or.xyz/false-sharing-cache-lines.html)
 * [Video] [Nine Ways to do Inheritance in Rust, a Language without Inheritance](https://www.youtube.com/watch?v=3IyKC5EtNkM)
 
+* [Building an AsyncIO executor for the 3DS](https://blog.cat-girl.gay/3ds-async-part-one/)
+
 ### Research
 
 ### Miscellaneous
