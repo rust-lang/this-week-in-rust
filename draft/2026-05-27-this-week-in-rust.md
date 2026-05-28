@@ -60,6 +60,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 * [The Slowdown That Doesn't Show Up in Profiles](https://cong-or.xyz/false-sharing-cache-lines.html)
+* [Video] [Nine Ways to do Inheritance in Rust, a Language without Inheritance](https://www.youtube.com/watch?v=3IyKC5EtNkM)
 
 ### Research
 
