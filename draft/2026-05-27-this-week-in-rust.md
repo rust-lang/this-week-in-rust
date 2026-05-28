@@ -63,7 +63,6 @@ and just ask the editors to select the category.
 * [Noroboto: Lying Fonts and Mitigation in Rust](https://tritium.legal/blog/noroboto)
 * [Erasing Existentials](https://wolfgirl.dev/blog/2026-05-20-erasing-existentials/)
 * [libwce: the entropy layer of a wavelet codec, on its own](https://yogthos.net/posts/2026-05-24-libwce.html)
-* [Building an AsyncIO executor for the 3DS (pt 1!)](https://blog.cat-girl.gay/3ds-async-part-one/)
 * [Tech Notes: Theseus: translating win32 to wasm](https://neugierig.org/software/blog/2026/05/theseus-wasm.html)
 * [audio] [Rust for Linux Live with Alice Ryhl and Greg Kroah-Hartman](https://corrode.dev/podcast/s06e04-rust4linux/)
 * [video] [Can a QR code be made of stars?](https://www.youtube.com/watch?v=RbmkNSqMvZY)
