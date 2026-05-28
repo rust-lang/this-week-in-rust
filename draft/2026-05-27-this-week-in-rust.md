@@ -37,10 +37,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
 ### Newsletters
 
 * [Scientific Computing in Rust #18 (May 2026)](https://scientificcomputing.rs/monthly/2026-05)
@@ -64,17 +60,13 @@ and just ask the editors to select the category.
 * [Erasing Existentials](https://wolfgirl.dev/blog/2026-05-20-erasing-existentials/)
 * [libwce: the entropy layer of a wavelet codec, on its own](https://yogthos.net/posts/2026-05-24-libwce.html)
 * [Tech Notes: Theseus: translating win32 to wasm](https://neugierig.org/software/blog/2026/05/theseus-wasm.html)
-* [audio] [Rust for Linux Live with Alice Ryhl and Greg Kroah-Hartman](https://corrode.dev/podcast/s06e04-rust4linux/)
-* [video] [Can a QR code be made of stars?](https://www.youtube.com/watch?v=RbmkNSqMvZY)
 * [Bevy Game Engine Explained Visually](https://aibodh.com/posts/bevy-game-engine/)
-
 * [The reflex of deriving `serde` traits](https://verrchu.github.io/blog/3-the-reflex-of-deriving-serde-traits/)
-
-* [audio] [Netstack.FM episode 38 — Building and testing network stacks with Rama](https://netstack.fm/#episode-38)
-
 * [Physical AI Needs a Typed World Model, Not a Vector DB](https://aimdb.dev/blog/typed-world-model)
-
 * [Keep calm and use (Rust) monorepos](https://kerkour.com/rust-monorepos)
+* [audio] [Rust for Linux Live with Alice Ryhl and Greg Kroah-Hartman](https://corrode.dev/podcast/s06e04-rust4linux/)
+* [audio] [Netstack.FM episode 38 — Building and testing network stacks with Rama](https://netstack.fm/#episode-38)
+* [video] [Can a QR code be made of stars?](https://www.youtube.com/watch?v=RbmkNSqMvZY)
 
 ### Rust Walkthroughs
 
@@ -83,10 +75,8 @@ and just ask the editors to select the category.
 * [Learn Rust HashMap and Iterators by Building a Git Object Store Reader](https://blog.sheerluck.dev/posts/learn-hashmap-iterators-by-building-a-git-object-store-reader/)
 * [Learn the Basics of Bevy by Building and Deploying Pong to Itch.io](https://blog.sheerluck.dev/posts/learn-the-basics-of-bevy-by-building-and-deploying-pong-to-itch-io/)
 * [The Slowdown That Doesn't Show Up in Profiles](https://cong-or.xyz/false-sharing-cache-lines.html)
-* [Video] [Nine Ways to do Inheritance in Rust, a Language without Inheritance](https://www.youtube.com/watch?v=3IyKC5EtNkM)
 * [Building an AsyncIO executor for the 3DS](https://blog.cat-girl.gay/3ds-async-part-one/)
-
-### Research
+* [video] [Nine Ways to do Inheritance in Rust, a Language without Inheritance](https://www.youtube.com/watch?v=3IyKC5EtNkM)
 
 ### Miscellaneous
 
@@ -142,6 +132,7 @@ Are you a new or experienced speaker looking for a place to share something cool
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+- *No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -398,7 +389,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1sobu1s/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
