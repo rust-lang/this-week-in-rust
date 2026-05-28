@@ -47,6 +47,9 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [gitoxide - May 26](https://github.com/GitoxideLabs/gitoxide/discussions/2621)
+* [hyper User Survey 2025 Results](https://seanmonstar.com/blog/hyper-user-survey-2025-results/)
+* [Rust Update: gRPC Welcomes Tonic!](https://grpc.io/blog/grpc-welcomes-tonic/)
 * [serde-const-default v0.1: Removes boilerplate when using const values as field defaults](https://github.com/ifsheldon/serde-const-default/releases/tag/v0.1)
 * [BoquilaHUB 0.5: AIs for Nature. Now it includes SOTA AI bioacoustics models and embeddings models](https://github.com/boquila/boquilahub/releases/tag/v0.5)
 * [splog: a log viewer TUI with automatic tag categorization](https://www.sextianbytes.fr/blog/imperfect-by-design/)
@@ -56,6 +59,13 @@ and just ask the editors to select the category.
 * [Releasing dtact v0.2.2 and rssn-advanced v0.1.0: the next generation async concurrent engine and scientific computing engine](https://users.rust-lang.org/t/releasing-dtact-v0-2-2-and-rssn-advanced-v0-1-0/140278)
 
 ### Observations/Thoughts
+
+* [Noroboto: Lying Fonts and Mitigation in Rust](https://tritium.legal/blog/noroboto)
+* [Erasing Existentials](https://wolfgirl.dev/blog/2026-05-20-erasing-existentials/)
+* [libwce: the entropy layer of a wavelet codec, on its own](https://yogthos.net/posts/2026-05-24-libwce.html)
+* [Tech Notes: Theseus: translating win32 to wasm](https://neugierig.org/software/blog/2026/05/theseus-wasm.html)
+* [audio] [Rust for Linux Live with Alice Ryhl and Greg Kroah-Hartman](https://corrode.dev/podcast/s06e04-rust4linux/)
+* [video] [Can a QR code be made of stars?](https://www.youtube.com/watch?v=RbmkNSqMvZY)
 * [Bevy Game Engine Explained Visually](https://aibodh.com/posts/bevy-game-engine/)
 
 * [The reflex of deriving `serde` traits](https://verrchu.github.io/blog/3-the-reflex-of-deriving-serde-traits/)
