@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 * [slintcn 0.22: shadcn/ui-style copy-paste components for Slint native apps](https://github.com/stevekwon211/slintcn/blob/main/docs/INTRODUCING_SLINTCN.md)
 
 ### Observations/Thoughts
+* [Bevy Game Engine Explained Visually](https://aibodh.com/posts/bevy-game-engine/)
 
 * [The reflex of deriving `serde` traits](https://verrchu.github.io/blog/3-the-reflex-of-deriving-serde-traits/)
 
