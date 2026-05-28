@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [When "ICE failed" is the only error you ever see — a case for hand-rolling protocols in a diagnostic tool](https://medium.com/@jamalag/when-ice-failed-is-the-only-error-you-ever-see-0e7ac8e794b7)
 
 ### Observations/Thoughts
 
