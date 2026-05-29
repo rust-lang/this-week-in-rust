@@ -51,7 +51,7 @@ TRACKING_PARAMETERS = set([
     'utm_content',
 ])
 
-# A list of section titles that will trigger duplicate-tag detection.
+# A list of section titles that will trigger strict checks.
 STRICT_TITLES = [
     'updates from rust community',
 ]
@@ -82,13 +82,21 @@ def check_truncated_title(tag):
     if title and title.endswith('...') and len(title) == 70:
         warnings.warn(f'truncated link title: {repr(title)}')
 
+def check_domain(domain, url):
+  if domain.lower() == "github.com":
+    warnings.warn(f"link {url} is to github.com -- we do not usually include links directly to GitHub repos; "
+      "please double check our guidelines here: https://github.com/rust-lang/this-week-in-rust#projectstooling-updates")
+  elif domain.lower() == "crates.io":
+    warnings.warn(f"link {url} is to crates.io -- we do not usually include links directly to crates on crates.io; "
+      "please double check our guidelines here: https://github.com/rust-lang/this-week-in-rust#projectstooling-updates")
 
 def extract_links(html):
     """ Return a list of links from this file.
 
     Links will only be returned if they are within a section deemed "strict".
-    This allows us to ignore links that are deliberately repeated (to this
-    github repo and twitter account, for example).
+    This allows us to ignore links that are deliberately repeated or don't
+    follow usual contribution guidelines (to this github repo and twitter
+    account, for example).
 
     Side-effects:
     - If links are malformed, warnings may be recorded. See `parse_url`
@@ -205,8 +213,9 @@ def parse_url(link):
     # need to warn about
     reconstituted = urllib.parse.urlunsplit((scheme, loc, path, query, frag))
 
-    return reconstituted
+    check_domain(loc, link)
 
+    return reconstituted
 
 def inspect_file(filename):
     LOG.info(f'inspecting file {filename}')
