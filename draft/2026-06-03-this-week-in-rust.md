@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Phantom Click — Cross-platform auto-clicker with TUI, GUI, and MCP server for AI assistants](https://github.com/halimbahae/phantom-click)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
