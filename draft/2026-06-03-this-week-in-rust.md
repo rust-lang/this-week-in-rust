@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [PRECC: a PreToolUse hook that fixes coding-agent shell commands before they run](https://github.com/precc-cli/precc)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
