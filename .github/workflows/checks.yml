@@ -1,5 +1,13 @@
 name: Correctness Checks
-on: [push, pull_request]
+on:
+  pull_request:
+
+  # We avoid running the push event on PR branches so that
+  # they are instead run through pull_request and we get the merge base
+  # for use below.
+  push:
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -13,6 +21,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: false
+          fetch-depth: 0
       - name: Install Python dependencies
         uses: py-actions/py-dependency-install@9c419aa98bfb42280bdae2b0a736befd9b01e3b1 # v4
         with:
@@ -20,7 +29,23 @@ jobs:
           update-pip: "false"
           update-setuptools: "false"
           update-wheel: "false"
+      - name: Compute diff base
+        id: base
+        shell: bash
+        run: |
+            if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+                BASE="$(git merge-base \
+                    "${{ github.event.pull_request.base.sha }}" \
+                    "${{ github.event.pull_request.head.sha }}")"
+            elif [[ "${{ github.event_name }}" == "push" ]]; then
+                BASE="${{ github.event.before }}"
+            else
+                echo "Unsupported event: ${{ github.event_name }}" >&2
+                exit 1
+            fi
+
+            echo "base=$BASE" >> "$GITHUB_OUTPUT"
       - name: inspect_links
-        run: python3 tools/inspect_links.py --num-warn 5
+        run: python3 tools/inspect_links.py --since "${{ steps.base.outputs.base }}"
       - name: inspect_markdown
         run: python3 tools/inspect_markdown.py --num-recent 5

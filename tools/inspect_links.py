@@ -7,12 +7,14 @@ Inspect a set of markdown files, and warn if there are:
 """
 
 import argparse
+from typing import Union
 import bs4
 import logging
 import markdown
 import os
 import re
 import sys
+import pygit2
 import urllib.parse
 
 LOG = logging.getLogger(__name__)
@@ -26,15 +28,17 @@ class Warnings:
         self.warnings = []
         self.silent = False
 
-    def silence(self, val):
-        self.silent = val
-
     def warn(self, msg):
         if not self.silent:
             self.warnings.append(msg)
 
     def get(self):
         return self.warnings
+
+    def get_and_clear(self):
+        to_return = self.warnings
+        self.warnings = []
+        return to_return
 
 
 # The singleton object that gathers warnings, for later reporting.
@@ -51,7 +55,7 @@ TRACKING_PARAMETERS = set([
     'utm_content',
 ])
 
-# A list of section titles that will trigger duplicate-tag detection.
+# A list of section titles that will trigger strict checks.
 STRICT_TITLES = [
     'updates from rust community',
 ]
@@ -82,13 +86,21 @@ def check_truncated_title(tag):
     if title and title.endswith('...') and len(title) == 70:
         warnings.warn(f'truncated link title: {repr(title)}')
 
+def check_domain(domain, url):
+  if domain.lower() == "github.com":
+    warnings.warn(f"link {url} is to github.com -- we do not usually include links directly to GitHub repos; "
+      "please double check our guidelines here: https://github.com/rust-lang/this-week-in-rust#projectstooling-updates")
+  elif domain.lower() == "crates.io":
+    warnings.warn(f"link {url} is to crates.io -- we do not usually include links directly to crates on crates.io; "
+      "please double check our guidelines here: https://github.com/rust-lang/this-week-in-rust#projectstooling-updates")
 
 def extract_links(html):
     """ Return a list of links from this file.
 
     Links will only be returned if they are within a section deemed "strict".
-    This allows us to ignore links that are deliberately repeated (to this
-    github repo and twitter account, for example).
+    This allows us to ignore links that are deliberately repeated or don't
+    follow usual contribution guidelines (to this github repo and twitter
+    account, for example).
 
     Side-effects:
     - If links are malformed, warnings may be recorded. See `parse_url`
@@ -205,12 +217,21 @@ def parse_url(link):
     # need to warn about
     reconstituted = urllib.parse.urlunsplit((scheme, loc, path, query, frag))
 
+    check_domain(loc, link)
+
     return reconstituted
 
-
-def inspect_file(filename):
+def inspect_file(filename, *, tree: Union[pygit2.Tree, None] = None):
     LOG.info(f'inspecting file {filename}')
-    md_text = open(filename).read()
+    if tree:
+        if filename in tree:
+            md_text = tree[filename].data.decode('utf-8')
+        else:
+            # When looking at old commits, missing files are ok -- they were just added later
+            LOG.debug(f'skipping missing file in tree: {filename}')
+            return []
+    else:
+        md_text = open(filename).read()
     html = markdown.markdown(md_text)
     links = extract_links(html)
     LOG.debug(f'examining {len(links)} links')
@@ -247,17 +268,12 @@ def get_recent_files(dirs, count):
     return listing
 
 
-def inspect_files(file_list, num_warn):
+def inspect_files(file_list: list[str], *, tree: Union[pygit2.Tree, None] = None):
     """ Inspect a set of files, storing warnings about duplicate links. """
     linkset = {}
 
-    # If we inspect 5 files (enumerated 0-4), and want to warn on 2,
-    # then the warnings start at N=3 (length - 1 - num_warn).
-    warn_index = len(file_list) - 1 - num_warn
-
     for index, file in enumerate(file_list):
-        warnings.silence(index < warn_index)
-        links = inspect_file(file)
+        links = inspect_file(file, tree=tree)
         LOG.debug(f'found links: {links}')
         for link in links:
             collision = linkset.get(link)
@@ -274,15 +290,36 @@ def main():
                         help="Directory paths to inspect (colon separated)")
     parser.add_argument('--num-recent', default=25, type=int,
                         help="Number of recent files to inspect")
-    parser.add_argument('--num-warn', default=1, type=int,
-                        help="Number of recent files to warn about")
+    parser.add_argument('--since', default=None, type=str,
+                        help="Show only warnings which appear after the given git commit")
     parser.add_argument('--debug', action='store_true')
     args = parser.parse_args()
     if args.debug:
         LOG.setLevel(logging.DEBUG)
     LOG.debug(f'command-line arguments: {args}')
     file_list = get_recent_files(args.paths, args.num_recent)
-    inspect_files(file_list, args.num_warn)
+    inspect_files(file_list)
+
+    warns = warnings.get_and_clear()
+
+    if args.since:
+        try:
+            tree = pygit2.Repository(".").revparse_single(args.since).tree
+        except KeyError:
+            raise ValueError(f'no such commit: {args.since}')
+
+        LOG.info(f"inspecting files since commit {args.since}")
+        inspect_files(file_list, tree=tree)
+        old_warns = set(warnings.get_and_clear())
+        warns = [w for w in warns if w not in old_warns]
+
+    if warns:
+        print("warnings exist:")
+        for w in warns:
+            print(w)
+        sys.exit(1)
+    else:
+        print("everything is ok!")
 
 
 def setup_logging():
@@ -293,12 +330,3 @@ def setup_logging():
 if __name__ == "__main__":
     setup_logging()
     main()
-
-    warns = warnings.get()
-    if warns:
-        print("warnings exist:")
-        for w in warns:
-            print(w)
-        sys.exit(1)
-    else:
-        print("everything is ok!")
