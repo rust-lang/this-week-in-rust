@@ -221,7 +221,7 @@ def parse_url(link):
 
     return reconstituted
 
-def inspect_file(filename, tree: Union[pygit2.Tree, None] = None):
+def inspect_file(filename, *, tree: Union[pygit2.Tree, None] = None):
     LOG.info(f'inspecting file {filename}')
     if tree:
         if filename in tree:
