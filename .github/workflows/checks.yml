@@ -1,5 +1,13 @@
 name: Correctness Checks
-on: [push, pull_request]
+on:
+  pull_request:
+
+  # We avoid running the push event on PR branches so that
+  # they are instead run through pull_request and we get the merge base
+  # for use below.
+  push:
+    branches:
+      - main
 
 permissions:
   contents: read
