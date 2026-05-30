@@ -32,6 +32,9 @@ class Warnings:
         if not self.silent:
             self.warnings.append(msg)
 
+    def get(self):
+        return self.warnings
+
     def get_and_clear(self):
         to_return = self.warnings
         self.warnings = []
