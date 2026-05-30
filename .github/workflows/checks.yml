@@ -1,5 +1,5 @@
 name: Correctness Checks
-on: [push, pull_request, workflow_dispatch]
+on: [push, pull_request]
 
 permissions:
   contents: read
@@ -20,7 +20,23 @@ jobs:
           update-pip: "false"
           update-setuptools: "false"
           update-wheel: "false"
+      - name: Compute diff base
+        id: base
+        shell: bash
+        run: |
+            if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+                BASE="$(git merge-base \
+                    "${{ github.event.pull_request.base.sha }}" \
+                    "${{ github.event.pull_request.head.sha }}")"
+            elif [[ "${{ github.event_name }}" == "push" ]]; then
+                BASE="${{ github.event.before }}"
+            else
+                echo "Unsupported event: ${{ github.event_name }}" >&2
+                exit 1
+            fi
+
+            echo "base=$BASE" >> "$GITHUB_OUTPUT"
       - name: inspect_links
-        run: python3 tools/inspect_links.py --num-warn 5
+        run: python3 tools/inspect_links.py --since "${{ steps.base.outputs.base }}"
       - name: inspect_markdown
         run: python3 tools/inspect_markdown.py --num-recent 5
