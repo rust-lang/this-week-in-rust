@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Cross-platform desktop automation through accessibility APIs](https://crowecawcaw.github.io/general/2026/05/30/accessibility-for-computer-use.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
