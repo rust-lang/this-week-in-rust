@@ -244,6 +244,8 @@ Rusty Events between 2026-06-03 - 2026-07-01 🦀
 ### Asia
 * 2026-06-02 | Beijing, CN | [Voice AI and Rust Meetup (Rust for AI, lowcoderust.com)](https://www.meetup.com/wasm-rust-meetup/events/)
     * [**AI Agents and Open Source LLM (Call for Speakers)**](https://www.meetup.com/wasm-rust-meetup/events/314750465/)
+* 2026-08-22 | Noida, IN | [SciPy India](https://scipy.in/) X [Rust Delhi](https://rustdelhi.in/)
+    * [**Scientific Computing in Rust and Python**](https://scipy.in/sci-py-rs/)
 
 ### Europe
 * 2026-05-28 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community)
