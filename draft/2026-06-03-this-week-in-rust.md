@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [RustCurious lesson 8: Generics and Monomorphization](https://www.youtube.com/watch?v=WTmjbKk1EIk)
+
 ### Research
 
 ### Miscellaneous
