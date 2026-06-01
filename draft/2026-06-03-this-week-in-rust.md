@@ -44,10 +44,12 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+[r1cs-plonkish-air: Fibonacci arithmetization written as: R1CS, Plonkish and AIR in plain Rust, stdlib only](https://github.com/adamsmo/r1cs-plonkish-air)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+[ZK snarks for Rust developers: R1CS vs Plonkish vs AIR](https://rustarians.com/r1cs-vs-plonkish-vs-air)
 
 ### Research
 
