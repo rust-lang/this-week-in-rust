@@ -141,7 +141,26 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This week we saw nice wins across the board thanks to merging several compiler queries together ([#155678](https://github.com/rust-lang/rust/pull/155678)), and also substantial improvements in `doc` performance thanks to
+doing less work when sorting trait impls ([#157179](https://github.com/rust-lang/rust/pull/157179)).
+
+Triage done by **@Kobzol**.
+Revision range: [783eb8c8..4804ad7e](https://perf.rust-lang.org/?start=783eb8c8682ddde0807c60ed8293670ef523794f&end=4804ad7e93e1b31f4605b7083871d0d3d85a2afe&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.3%  | [0.1%, 0.7%]   | 14    |
+| Regressions ❌ <br /> (secondary)  | 0.4%  | [0.1%, 0.9%]   | 39    |
+| Improvements ✅ <br /> (primary)   | -0.9% | [-6.8%, -0.2%] | 111   |
+| Improvements ✅ <br /> (secondary) | -1.1% | [-2.9%, -0.1%] | 53    |
+| All ❌✅ (primary)                 | -0.8% | [-6.8%, 0.7%]  | 125   |
+
+3 Regressions, 1 Improvement, 2 Mixed; 4 of them in rollups
+35 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/4a082d37cfd5006c8313e55bab306ea41f091714/triage/2026/2026-06-01.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
