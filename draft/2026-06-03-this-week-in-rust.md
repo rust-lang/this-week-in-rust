@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Test B](https://b.example)
+
 ### Foundation
 
 ### Newsletters
