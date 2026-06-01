@@ -1,0 +1,155 @@
+name: Comment Merge
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: read
+
+concurrency:
+  group: comment-merge-main
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    name: Merge PR from comment
+    runs-on: ubuntu-24.04
+    if: >-
+      github.event.issue.pull_request
+      && contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
+    env:
+      BASE_BRANCH: main
+      GH_TOKEN: ${{ secrets.MERGE_BOT_TOKEN || github.token }}
+      PR_NUMBER: ${{ github.event.issue.number }}
+      REPO: ${{ github.repository }}
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+    steps:
+      - name: Check merge command
+        id: command
+        shell: bash
+        env:
+          COMMENT_BODY: ${{ github.event.comment.body }}
+        run: |
+          set -euo pipefail
+
+          merge=false
+          while IFS= read -r line || [[ -n "$line" ]]; do
+            line="${line%$'\r'}"
+            if [[ "$line" =~ ^/merge([[:space:]]|$) ]]; then
+              merge=true
+              break
+            fi
+          done <<< "$COMMENT_BODY"
+
+          if [[ "$merge" == "true" ]]; then
+            echo "merge=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "merge=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Read pull request metadata
+        id: pr
+        if: steps.command.outputs.merge == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          pr_json="$(mktemp)"
+          gh api "repos/${REPO}/pulls/${PR_NUMBER}" > "$pr_json"
+
+          state="$(jq -r '.state' "$pr_json")"
+          draft="$(jq -r '.draft' "$pr_json")"
+          base_ref="$(jq -r '.base.ref' "$pr_json")"
+          head_sha="$(jq -r '.head.sha' "$pr_json")"
+          head_label="$(jq -r '.head.label' "$pr_json")"
+          title="$(jq -r '.title' "$pr_json")"
+
+          if [[ "$state" != "open" ]]; then
+            echo "::error::Pull request #${PR_NUMBER} is not open."
+            exit 1
+          fi
+
+          if [[ "$draft" == "true" ]]; then
+            echo "::error::Pull request #${PR_NUMBER} is a draft."
+            exit 1
+          fi
+
+          if [[ "$base_ref" != "$BASE_BRANCH" ]]; then
+            echo "::error::Pull request #${PR_NUMBER} targets ${base_ref}, not ${BASE_BRANCH}."
+            exit 1
+          fi
+
+          {
+            echo "base_ref=$base_ref"
+            echo "head_sha=$head_sha"
+            echo "head_label=$head_label"
+            echo "title=$title"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Checkout main
+        if: steps.command.outputs.merge == 'true'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.pr.outputs.base_ref }}
+          fetch-depth: 0
+          token: ${{ secrets.MERGE_BOT_TOKEN || github.token }}
+
+      - name: Merge PR head into main and push
+        id: merge
+        if: steps.command.outputs.merge == 'true'
+        shell: bash
+        env:
+          BASE_REF: ${{ steps.pr.outputs.base_ref }}
+          HEAD_LABEL: ${{ steps.pr.outputs.head_label }}
+          HEAD_SHA: ${{ steps.pr.outputs.head_sha }}
+          TITLE: ${{ steps.pr.outputs.title }}
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git fetch --no-tags --prune origin \
+            "+refs/pull/${PR_NUMBER}/head:refs/remotes/pull/${PR_NUMBER}/head"
+
+          actual_head="$(git rev-parse "refs/remotes/pull/${PR_NUMBER}/head")"
+          if [[ "$actual_head" != "$HEAD_SHA" ]]; then
+            echo "::error::Pull request #${PR_NUMBER} moved from ${HEAD_SHA} to ${actual_head}; retry /merge."
+            exit 1
+          fi
+
+          git merge --no-ff \
+            -m "Merge pull request #${PR_NUMBER} from ${HEAD_LABEL}" \
+            -m "$TITLE" \
+            "refs/remotes/pull/${PR_NUMBER}/head"
+
+          merge_sha="$(git rev-parse HEAD)"
+          short_sha="$(git rev-parse --short=12 HEAD)"
+
+          git push origin "HEAD:refs/heads/${BASE_REF}"
+
+          {
+            echo "merge_sha=$merge_sha"
+            echo "short_sha=$short_sha"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Report success
+        if: success() && steps.command.outputs.merge == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh pr comment "$PR_NUMBER" --repo "$REPO" \
+            --body "Merged via \`/merge\` as \`${{ steps.merge.outputs.short_sha }}\`."
+
+      - name: Report failure
+        if: failure() && steps.command.outputs.merge == 'true'
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh pr comment "$PR_NUMBER" --repo "$REPO" \
+            --body "I could not complete \`/merge\`. See ${RUN_URL} for details."

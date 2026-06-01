@@ -1,0 +1,2 @@
+# Preserve independent additions when multiple PRs edit the shared draft.
+draft/** merge=union
