@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [One year of Roto, the compiled scripting language for Rust](https://blog.nlnetlabs.nl/one-year-of-roto-the-compiled-scripting-language-for-rust/)
+* [xa11y: cross-platform desktop automation via native accessibility APIs](https://crowecawcaw.github.io/general/2026/05/30/accessibility-for-computer-use.html)
 * [halloy 2026.7 - now supports IRCv3 reply, redact, metadata, bot mode and more!](https://github.com/squidowl/halloy/releases/tag/2026.7)
 * [Building a Native Markdown Previewer for AI-Generated Docs with Rust and WebView](https://vorojar.github.io/md-preview/rust-webview-ai-docs.html)
 
