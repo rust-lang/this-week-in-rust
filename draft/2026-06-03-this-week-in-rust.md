@@ -58,6 +58,8 @@ and just ask the editors to select the category.
 
 ### Research
 
+* [Counterfactuals via the Causal Monad in Rust](https://www.deepcausality.com/blog/counterfactuals-via-the-causal-monad/)
+
 ### Miscellaneous
 
 ## Crate of the Week
