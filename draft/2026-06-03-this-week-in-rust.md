@@ -48,7 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-[ZK snarks for Rust developers: R1CS vs Plonkish vs AIR](https://rustarians.com/r1cs-vs-plonkish-vs-air)
+[ZK snarks for Rust developers: R1CS vs Plonkish vs AIR](https://rustarians.com/r1cs-plonkish-air)
 
 ### Research
 
