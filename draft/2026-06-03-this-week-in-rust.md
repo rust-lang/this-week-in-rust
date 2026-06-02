@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Launching the Rust Foundation Maintainers Fund](https://blog.rust-lang.org/2026/06/02/launching-the-rust-foundation-maintainers-fund)
+
 ### Foundation
 
 ### Newsletters
