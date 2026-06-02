@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Learn Rust Closures By Building a Tiny Rule-Based Linter](https://blog.sheerluck.dev/posts/learn-rust-closures-by-building-a-tiny-linter/)
+* [Learn Bevy States, Timers, and Grid Movement by Building Snake](https://blog.sheerluck.dev/posts/learn-bevy-states-timers-by-building-snake/)
 
 ### Research
 
