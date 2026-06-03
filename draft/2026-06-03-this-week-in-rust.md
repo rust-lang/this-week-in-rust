@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Async Rust: deep dive into cooperative scheduling and Tokio's architecture](https://kerkour.com/async-rust-cooperative-scheduling-tokio)
 * [Nine Ways to Do Inheritance in Rust, a Language Without Inheritance](https://medium.com/@carlmkadie/nine-ways-to-do-inheritance-in-rust-a-language-without-inheritance-14825bf1e215?v=1)
 
 ### Rust Walkthroughs
