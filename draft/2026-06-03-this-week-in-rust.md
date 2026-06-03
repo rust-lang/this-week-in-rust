@@ -84,45 +84,13 @@ If you are a feature implementer and would like your RFC to appear in this list,
 `call-for-testing` label to your RFC along with a comment providing testing instructions and/or
 guidance on which aspect(s) of the feature need testing.
 
-<!-- If there are new CfT items this week, include:
-
-  [Repo Name](Repo URL)
-    * [<Feature name>](<Feature URL>)
-        * [Testing steps](<Testing Steps URL>)
-
-  - and make note in the item so the authors know to remove the `call-for-testing` label:
-This RFC will appear in the **Call for Testing** section of the next issue (#) of This Week in Rust (TWiR).
-You may remove the `call-for-testing` label.  Please feel free to leave the `call-for-testing` label in place if you would like this RFC to appear again in another issue of TWiR.
-
-  - where `Repo Name` and `Repo URL` are one of:
-[Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
-[Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing),
-[Cargo](https://github.com/rust-lang/cargo/labels/call-for-testing) or
-[Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
-
-  - and `Testing steps` points directly to the procedures the item wants users to exercise.
-
-  - For all `Repo Names` with no new CfT items this week: use (removing the repos for which new
-     CfT items did appear, of course)
-
-* *No calls for testing were issued this week by
-  [Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
-  [Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing),
-  [Cargo](https://github.com/rust-lang/cargo/labels/call-for-testing) or
-  [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing).*
--->
+*No calls for testing were issued this week by
+[Rust](https://github.com/rust-lang/rust/issues?q=state%3Aopen%20label%3Acall-for-testing%20state%3Aopen),
+[Cargo](https://github.com/rust-lang/cargo/issues?q=state%3Aopen%20label%3Acall-for-testing%20state%3Aopen),
+[Rustup](https://github.com/rust-lang/rustup/issues?q=state%3Aopen%20label%3Acall-for-testing%20state%3Aopen) or
+[Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing%20state%3Aopen).*
 
 [Let us know](https://github.com/rust-lang/this-week-in-rust/issues) if you would like your feature to be tracked as a part of this list.
-
-### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
-
-### [Rust](https://github.com/rust-lang/rust/labels/call-for-testing)
-
-### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
-
-If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
-label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
-need testing.
 
 ## Call for Participation; projects and speakers
 
@@ -235,11 +203,7 @@ Revision range: [783eb8c8..4804ad7e](https://perf.rust-lang.org/?start=783eb8c86
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-<!-- Use either
-* [Item title](Item URL)
-  - or
 * *No RFCs were approved this week.*
--->
 
 ### Final Comment Period
 
@@ -247,42 +211,49 @@ Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final
 which are reaching a decision. Express your opinions now.
 
 #### Tracking Issues & PRs
-<!-- Either remove the group from the "No Items Entered Final Comment Period this week for" section
-     and add the item(s) which entered Final comment period:
-##### [Group](Group URL)
-* [Item title](Item URL)
-  - for `disposition-merge` `final-comment-period` items, or
-* [disposition: postpone]
-  - for `disposition-postpone` `final-comment-period` items, or
-* [disposition: close]
-  - for `disposition-close` `final-comment-period` items,
-* [disposition: unspecified]
-  - when `disposition` is unspecified or ensure the group is a part of the
-     "No Items Entered Final Comment Period this week for" section
+
+##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen)
+* [Tracking Issue for `strip_circumfix`](https://github.com/rust-lang/rust/issues/147946)
+* [Tracking issue for CommandExt::show_window](https://github.com/rust-lang/rust/issues/127544)
+* [Tracking Issue for `path_set_times`](https://github.com/rust-lang/rust/issues/147455)
+* [Tracking Issue for `nonzero_from_str_radix`](https://github.com/rust-lang/rust/issues/152193)
+* [Tracking Issue for LoongArch CRC Intrinsics](https://github.com/rust-lang/rust/issues/156908)
+* [Tracking Issue for `Vec::from_fn`](https://github.com/rust-lang/rust/issues/149698)
+* [Add `Step::forward/backward_overflowing` to enable RangeInclusive loop optimizations](https://github.com/rust-lang/rust/pull/155114)
+* [Stabilize `core::range::{legacy, RangeFull, RangeTo}`](https://github.com/rust-lang/rust/pull/156629)
+* [Tracking Issue for box_as_ptr](https://github.com/rust-lang/rust/issues/129090)
+* [Tracking Issue for explicit-endian String::from_utf16](https://github.com/rust-lang/rust/issues/116258)
+* [Reduce `unreachable-code` churn after `todo!()`](https://github.com/rust-lang/rust/pull/149543)
+* [make repr_transparent_non_zst_fields a hard error](https://github.com/rust-lang/rust/pull/155299)
+* [Tracking Issue for algebraic floating point methods](https://github.com/rust-lang/rust/issues/136469)
+* [riscv: promote d, e, and f target_features to CfgStableToggleUnstable](https://github.com/rust-lang/rust/pull/156188)
+* [Tracking Issue for `PathBuf::into_string`](https://github.com/rust-lang/rust/issues/156203)
+
+##### [Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20label%3Afinal-comment-period%20state%3Aopen) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html)
+* [Desugar async blocks in HIR instead of MIR](https://github.com/rust-lang/compiler-team/issues/997)
+* [Test new solver and polonius alpha on CI](https://github.com/rust-lang/compiler-team/issues/996)
+* [Add `-Zllvm-target-feature target` \*modifier\* to directly set LLVM-level target features, and deprecate doing that with `-Ctarget-feature`](https://github.com/rust-lang/compiler-team/issues/994)
+* [Set requirements for windows-gnu](https://github.com/rust-lang/compiler-team/issues/993)
+* [Create a new Tier 3 target: `powerpc64le-unknown-none`](https://github.com/rust-lang/compiler-team/issues/988)
+* [Add flag to pass MSRV/`package.rust-version` for use by lints](https://github.com/rust-lang/compiler-team/issues/950)
+* [Optimize `repr(Rust)` enums by omitting tags in more cases involving uninhabited variants.](https://github.com/rust-lang/compiler-team/issues/922)
+* [Promote tier 3 riscv32 ESP-IDF targets to tier 2](https://github.com/rust-lang/compiler-team/issues/864)
+* [Proposal for Adapt Stack Protector for Rust](https://github.com/rust-lang/compiler-team/issues/841)
+
+##### [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen)
+* [Can references to uninhabited types ever be valid?](https://github.com/rust-lang/unsafe-code-guidelines/issues/413)
+
 *No Items entered Final Comment Period this week for
-  [Rust RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period),
-  [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc),
-  [Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20%20label%3Afinal-comment-period) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html),
-  [Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc+),
-  [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc),
-  [Leadership Council](https://github.com/rust-lang/leadership-council/issues?q=state%3Aopen%20label%3Afinal-comment-period) or
-  [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc).*
-
+[Rust RFCs](https://github.com/rust-lang/rfcs/issues?q=state%3Aopen%20label%3Afinal-comment-period%20state%3Aopen),
+[Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen),
+[Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen),
+[Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen) or
+[Leadership Council](https://github.com/rust-lang/leadership-council/issues?q=state%3Aopen%20label%3Afinal-comment-period%20state%3Aopen).*
 Let us know if you would like your PRs, Tracking Issues or RFCs to be tracked as a part of this list.
--->
 
-#### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-<!-- Use either
-* [Item title](Item URL)
-  - for new items, or
-* [updated] [Item title](Item URL)
-  - for updated items, or
-* *No New or Updated RFCs were created this week.*
--->
-
-<!-- Sample commit message
-Update CFT, FCP, MCP and RFC sections for TWiR-xxx
--->
+### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+* [BTF relocations](https://github.com/rust-lang/rfcs/pull/3966)
+* [`--allow-unstable-flags`: Allow unstable flags on stable](https://github.com/rust-lang/rfcs/pull/3965)
 
 ## Upcoming Events
 
