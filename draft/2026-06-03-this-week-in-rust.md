@@ -51,6 +51,7 @@ and just ask the editors to select the category.
 * [xa11y: cross-platform desktop automation via native accessibility APIs](https://crowecawcaw.github.io/general/2026/05/30/accessibility-for-computer-use.html)
 * [halloy 2026.7 - now supports IRCv3 reply, redact, metadata, bot mode and more!](https://github.com/squidowl/halloy/releases/tag/2026.7)
 * [Building a Native Markdown Previewer for AI-Generated Docs with Rust and WebView](https://vorojar.github.io/md-preview/rust-webview-ai-docs.html)
+* [TeaQL Robot Task Board](https://github.com/teaql/robot-task-board) - A runnable Rust + Ratatui + SQLite TUI demo showing visible query intent, generated SQL, faceted counts, optimistic updates, and audit-style traces for business-domain code.
 
 ### Observations/Thoughts
 
