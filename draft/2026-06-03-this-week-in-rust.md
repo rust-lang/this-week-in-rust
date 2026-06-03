@@ -68,7 +68,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [remyx](https://github.com/manuelgdlvh/remyx), a framework for building TUIs on top of Ratatui.
+
+Thanks to [Manuel Garcia de la Vega](https://users.rust-lang.org/t/crate-of-the-week/2704/1608) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -151,7 +153,59 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+500 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-05-26..2026-06-02
+
+#### Compiler
+* [expand async drops during drop elaboration](https://github.com/rust-lang/rust/pull/156649)
+* [`offload_kernel` macro expansion](https://github.com/rust-lang/rust/pull/156642)
+* [`std::offload` sharedmem](https://github.com/rust-lang/rust/pull/154835)
+
+#### Library
+* [constify Iterator-related methods and functions](https://github.com/rust-lang/rust/pull/156390)
+* [move `IoSlice` and `IoSliceMut` to `core::io`](https://github.com/rust-lang/rust/pull/155849)
+* [specialize Clone of array IntoIter](https://github.com/rust-lang/rust/pull/156634)
+* [stabilize `Path::is_empty`](https://github.com/rust-lang/rust/pull/157065)
+* [stop needing an alloca for `catch_unwind`](https://github.com/rust-lang/rust/pull/156867)
+
+#### Cargo
+* [`diag`: Add the `'cargo::default'` group](https://github.com/rust-lang/cargo/pull/17033)
+* [`diag`: Report summaries for `unused_deps`](https://github.com/rust-lang/cargo/pull/17034)
+* [add `--output-format=json` to cargo doc as an unstable option](https://github.com/rust-lang/cargo/pull/17025)
+* [add edition for scripts anytime we mutate the manifest](https://github.com/rust-lang/cargo/pull/17038)
+
+#### Rustdoc
+* [avoid ICE when rendering body-less type consts](https://github.com/rust-lang/rust/pull/156851)
+* [correctly propagate cfgs for glob reexports](https://github.com/rust-lang/rust/pull/157039)
+* [deterministic sorting for `doc_cfg` badges](https://github.com/rust-lang/rust/pull/156401)
+* [fix ICE on delegated async functions](https://github.com/rust-lang/rust/pull/157223)
+* [optimize impl sorting](https://github.com/rust-lang/rust/pull/157179)
+* [separate the caches for synthetic auto trait & blanket impls](https://github.com/rust-lang/rust/pull/157171)
+
+#### Clippy
+* [add `unused_async_trait_impl` lint](https://github.com/rust-lang/rust-clippy/pull/16244)
+* [add new lint: `for_unbounded_range`](https://github.com/rust-lang/rust-clippy/pull/16257)
+* [added new lint for `map_or(..., identity)`](https://github.com/rust-lang/rust-clippy/pull/16052)
+* [`redundant_pattern_match`: improve suggestions](https://github.com/rust-lang/rust-clippy/pull/17116)
+* [faster `has_arg`](https://github.com/rust-lang/rust-clippy/pull/17112)
+* [fold all early lint passes into one statically-combined pass](https://github.com/rust-lang/rust-clippy/pull/17132)
+* [fold all late lint passes into one statically-combined pass](https://github.com/rust-lang/rust-clippy/pull/17124)
+* [memoize `first_node_in_macro` for consecutive queries](https://github.com/rust-lang/rust-clippy/pull/17134)
+* [skip disabled off-by-default doc reparses](https://github.com/rust-lang/rust-clippy/pull/17126)
+
+#### Rust-Analyzer
+* [always use crates from sysroot in proc-macro-srv](https://github.com/rust-lang/rust-analyzer/pull/22500)
+* [enable salsa feature for syntax-bridge](https://github.com/rust-lang/rust-analyzer/pull/22504)
+* [also consider library features internal](https://github.com/rust-lang/rust-analyzer/pull/22498)
+* [do not fill both `drop()` and `pin_drop()` in the "fill missing members" assist](https://github.com/rust-lang/rust-analyzer/pull/22508)
+* [fix extract variable in token tree replace range](https://github.com/rust-lang/rust-analyzer/pull/22447)
+* [port block and loop inference from rustc](https://github.com/rust-lang/rust-analyzer/pull/22473)
+* [try to improve completion ranking](https://github.com/rust-lang/rust-analyzer/pull/22503)
+* [use add deref in assign instead add `&mut` for value](https://github.com/rust-lang/rust-analyzer/pull/22457)
+* [kill proc-macro-srv processes on shutdown](https://github.com/rust-lang/rust-analyzer/pull/22506)
+* [remove direct use of make constructor with editor make](https://github.com/rust-lang/rust-analyzer/pull/22477)
+* [remove make from rename and prettify macro expansion](https://github.com/rust-lang/rust-analyzer/pull/22484)
 
 ### Rust Compiler Performance Triage
 
@@ -355,7 +409,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> If memory safety bugs were Waldo (Wally): finding them in C programs is a "Where's Waldo?" game, and Rust's `unsafe` simplifies it to "Is *this* Waldo?"
+
+– [kornel on rust-users](https://users.rust-lang.org/t/is-unsafe-rust-worse-than-c/140286/25)
+
+Thanks to [Moy2010](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1776) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
