@@ -51,6 +51,7 @@ and just ask the editors to select the category.
 * [xa11y: cross-platform desktop automation via native accessibility APIs](https://crowecawcaw.github.io/general/2026/05/30/accessibility-for-computer-use.html)
 * [halloy 2026.7 - now supports IRCv3 reply, redact, metadata, bot mode and more!](https://github.com/squidowl/halloy/releases/tag/2026.7)
 * [Building a Native Markdown Previewer for AI-Generated Docs with Rust and WebView](https://vorojar.github.io/md-preview/rust-webview-ai-docs.html)
+* [kache 0.4.1: kache key correctness, C/C++ caching, and first-class Windows](https://kunobi.ninja/blog/kache-v0-4-1)
 
 ### Observations/Thoughts
 
