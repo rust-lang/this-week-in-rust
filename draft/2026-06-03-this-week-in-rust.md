@@ -137,6 +137,11 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 * [MD Preview - Package MD Preview for Homebrew Cask](https://github.com/vorojar/md-preview/issues/19)
+* [OpenSlate - Test Health Check Endpoint](https://github.com/MrSheerluck/openslate/issues/7)
+* [OpenSlate - Test Login Endpoint](https://github.com/MrSheerluck/openslate/issues/8)
+* [OpenSlate - Test Notes CRUD Endpoint](https://github.com/MrSheerluck/openslate/issues/9)
+* [OpenSlate - Test Search Endpoint](https://github.com/MrSheerluck/openslate/issues/10)
+* [OpenSlate - Test Preference Endpoint](https://github.com/MrSheerluck/openslate/issues/11)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
