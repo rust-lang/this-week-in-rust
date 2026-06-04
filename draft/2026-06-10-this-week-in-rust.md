@@ -260,7 +260,7 @@ Rusty Events between 2026-06-10 - 2026-07-08 🦀
     * [**Rustmeet**](https://rustmeet.eu/)
 * 2026-06-16 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig)
     * [**Interactive: Everything is Open Source**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313813937/)
-* 2026-06-16 | Milano, IT | [Rust Language Milan](https://www.meetup.com/rust-language-milan)
+* 2026-06-16 | Milano, IT | [Rust Language Milan](https://www.meetup.com/rust-language-milano)
     * [**Real-time planning in Rust: SolverForge & SERIO**](https://www.meetup.com/rust-language-milan/events/314766950/)
 * 2026-06-18 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus)
     * [**Talk Night at Danske Commodities**](https://www.meetup.com/rust-aarhus/events/314965238/)
