@@ -59,9 +59,10 @@ and just ask the editors to select the category.
 * [Async Rust: deep dive into cooperative scheduling and Tokio's architecture](https://kerkour.com/async-rust-cooperative-scheduling-tokio)
 
 ### Rust Walkthroughs
+
+* [ZK snarks for Rust developers: R1CS vs Plonkish vs AIR](https://rustarians.com/r1cs-plonkish-air)
 * [Learn Rust Closures By Building a Tiny Rule-Based Linter](https://blog.sheerluck.dev/posts/learn-rust-closures-by-building-a-tiny-linter/)
 * [Learn Bevy States, Timers, and Grid Movement by Building Snake](https://blog.sheerluck.dev/posts/learn-bevy-states-timers-by-building-snake/)
-
 * [video] [RustCurious lesson 8: Generics and Monomorphization](https://www.youtube.com/watch?v=WTmjbKk1EIk)
 
 ### Research
