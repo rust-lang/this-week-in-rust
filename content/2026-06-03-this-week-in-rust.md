@@ -37,6 +37,9 @@ and just ask the editors to select the category.
 
 -->
 
+### Foundation
+* [Help Fund the People Who Build Rust - The Rust Foundation](https://rustfoundation.org/media/help-fund-the-people-who-build-rust/)
+
 ### Official
 
 * [Launching the Rust Foundation Maintainers Fund](https://blog.rust-lang.org/2026/06/02/launching-the-rust-foundation-maintainers-fund)
@@ -48,11 +51,14 @@ and just ask the editors to select the category.
 * [halloy 2026.7 - now supports IRCv3 reply, redact, metadata, bot mode and more!](https://github.com/squidowl/halloy/releases/tag/2026.7)
 * [Building a Native Markdown Previewer for AI-Generated Docs with Rust and WebView](https://vorojar.github.io/md-preview/rust-webview-ai-docs.html)
 * [BPF in the agentic era](https://lwn.net/SubscriberLink/1075067/6e0bbea2010794b8/)
+* [gRPC-Rust Roadmap](https://grpc.io/blog/grpc-rust-roadmap/)
+* [Announcing Zstandard in Rust](https://trifectatech.org/blog/announcing-zstandard-in-rust/)
 
 ### Observations/Thoughts
 
 * [Nine Ways to Do Inheritance in Rust, a Language Without Inheritance](https://medium.com/@carlmkadie/nine-ways-to-do-inheritance-in-rust-a-language-without-inheritance-14825bf1e215?v=1)
 * [Async Rust: deep dive into cooperative scheduling and Tokio's architecture](https://kerkour.com/async-rust-cooperative-scheduling-tokio)
+* [Memory safety is a matter of life and death | joshlf.com](https://joshlf.com/posts/memory-safety-life-and-death/)
 
 ### Rust Walkthroughs
 
@@ -60,6 +66,7 @@ and just ask the editors to select the category.
 * [Learn Rust Closures By Building a Tiny Rule-Based Linter](https://blog.sheerluck.dev/posts/learn-rust-closures-by-building-a-tiny-linter/)
 * [Learn Bevy States, Timers, and Grid Movement by Building Snake](https://blog.sheerluck.dev/posts/learn-bevy-states-timers-by-building-snake/)
 * [video] [RustCurious lesson 8: Generics and Monomorphization](https://www.youtube.com/watch?v=WTmjbKk1EIk)
+* [A Grammar-First Approach to Parser Combinators in Rust](https://blog.arnedebo.com/posts/a-grammar-first-approach-to-parser-combinators/)
 
 ### Research
 
