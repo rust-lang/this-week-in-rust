@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rustwing: scaffold Axum + SQLx backends with generated OpenAPI docs](https://github.com/creativebash/rustwing)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
