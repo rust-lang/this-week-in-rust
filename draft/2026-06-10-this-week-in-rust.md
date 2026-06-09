@@ -55,6 +55,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [series] [Who Runs Your Rust Future? Hands-On Intro to Async Rust](https://aibodh.com/posts/async-rust-chapter-1-hands-on-intro-to-async-rust/)
 * [Extend MySQL Using Rust](https://villagesql.com/blog/rust/)
 
 ### Research
