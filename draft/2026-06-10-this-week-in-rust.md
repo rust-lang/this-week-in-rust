@@ -119,6 +119,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+* [cuda-oxide Windows fork - test the Windows MSVC release on more CUDA/Windows setups](https://github.com/ansidium/cuda-oxide-windows/issues/1)
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
