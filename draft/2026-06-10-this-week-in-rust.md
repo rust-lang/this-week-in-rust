@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Extend MySQL Using Rust](https://villagesql.com/blog/rust/)
+
 ### Research
 
 ### Miscellaneous
