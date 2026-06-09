@@ -274,6 +274,8 @@ Rusty Events between 2026-06-10 - 2026-07-08 🦀
     * [**Real-time planning in Rust: SolverForge & SERIO**](https://www.meetup.com/rust-language-milan/events/314766950/)
 * 2026-06-18 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus)
     * [**Talk Night at Danske Commodities**](https://www.meetup.com/rust-aarhus/events/314965238/)
+* 2026-06-19 | Dresden, DE | [Rust Dresden](https://github.com/rust-dresden)
+    * [**Second Meetup**](https://pretix.eu/rust-dresden/on-location-2)
 * 2026-06-23 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris)
     * [**Rust meetup #86**](https://www.meetup.com/rust-paris/events/315040676/)
 * 2026-06-25 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin)
