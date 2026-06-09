@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+- [OmniScope 0.2.0 released:FFI static detection tool based on LLVM IR](https://medium.com/p/dc57a4631f8b?postPublishedType=initial)
 
 ### Observations/Thoughts
 
