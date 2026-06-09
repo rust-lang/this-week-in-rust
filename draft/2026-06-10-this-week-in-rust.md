@@ -42,14 +42,21 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #73](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-73)
 
 ### Project/Tooling Updates
 
+* [Oryxis SSH 0.8: split panes](https://github.com/wilsonglasser/oryxis/releases/tag/v0.8.0)
+* [Ratatui 0.30.1 is released - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v0301/)
+
 ### Observations/Thoughts
+
+* [Decimal Crates Comparison and Benchmark](https://wubingzheng.github.io/en/Decimal-Crates-Comparison.html) | [Chinese version](https://wubingzheng.github.io/zh/Decimal-Crates-Comparison.html)
 
 ### Rust Walkthroughs
 
 * [series] [Who Runs Your Rust Future? Hands-On Intro to Async Rust](https://aibodh.com/posts/async-rust-chapter-1-hands-on-intro-to-async-rust/)
+* [Extend MySQL Using Rust](https://villagesql.com/blog/rust/)
 
 ### Research
 
@@ -121,6 +128,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+* [cuda-oxide Windows fork - test the Windows MSVC release on more CUDA/Windows setups](https://github.com/ansidium/cuda-oxide-windows/issues/1)
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
