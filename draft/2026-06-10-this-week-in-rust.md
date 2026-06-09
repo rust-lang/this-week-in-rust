@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing Asterinas 0.18.0](https://asterinas.github.io/2026/06/04/announcing-asterinas-0.18.0.html)
 * [Oryxis SSH 0.8: split panes](https://github.com/wilsonglasser/oryxis/releases/tag/v0.8.0)
 * [Ratatui 0.30.1 is released - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v0301/)
 
