@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rustwing: scaffold Axum + SQLx backends with generated OpenAPI docs](https://github.com/creativebash/rustwing)
 * [Ratatui 0.30.1 is released - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v0301/)
 
 ### Observations/Thoughts
