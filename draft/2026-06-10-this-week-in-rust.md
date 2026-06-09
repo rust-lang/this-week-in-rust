@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Decimal Crates Comparison and Benchmark](https://wubingzheng.github.io/en/Decimal-Crates-Comparison.html) | [Chinese version](https://wubingzheng.github.io/zh/Decimal-Crates-Comparison.html)
+
 ### Rust Walkthroughs
 
 * [Extend MySQL Using Rust](https://villagesql.com/blog/rust/)
