@@ -139,6 +139,11 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [openslate - add integration tests for auth middleware and logout in api/src/auth.rs](https://github.com/MrSheerluck/openslate/issues/106)
 * [openslate - add integration tests for media endpoints (DB layer) in api/src/media.rs](https://github.com/MrSheerluck/openslate/issues/85)
 * [openslate - add unit tests for ext_from_mime() and filename_from_url() in api/src/media.rs](https://github.com/MrSheerluck/openslate/issues/40)
+* [reliakit - add a typed_csv example to the umbrella crate](https://github.com/satyakwok/reliakit/issues/91)
+* [reliakit - implement CsvField for char](https://github.com/satyakwok/reliakit/issues/92)
+* [reliakit - implement CsvField for the core::net address types](https://github.com/satyakwok/reliakit/issues/107)
+* [reliakit - write a short "which resilience block do I use?" guide](https://github.com/satyakwok/reliakit/issues/95)
+* [reliakit - extract a reusable rolling-window counter from RollingBreaker](https://github.com/satyakwok/reliakit/issues/94)
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
