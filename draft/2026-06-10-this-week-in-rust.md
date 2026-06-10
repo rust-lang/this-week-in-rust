@@ -60,6 +60,7 @@ and just ask the editors to select the category.
 * [series] [Who Runs Your Rust Future? Hands-On Intro to Async Rust](https://aibodh.com/posts/async-rust-chapter-1-hands-on-intro-to-async-rust/)
 * [Extend MySQL Using Rust](https://villagesql.com/blog/rust/)
 * [Learn Rust Smart Pointers and Interior Mutability by Building Git Commit Graph Viewer](https://blog.sheerluck.dev/posts/learn-rust-smart-pointers-and-interior-mutability-by-building-git-commit-graph-viewer/)
+* * [heap underflow: classic algorithm solutions in idiomatic Rust, runnable in the browser](https://rustarians.com/heap-underflow/)
 
 ### Research
 
