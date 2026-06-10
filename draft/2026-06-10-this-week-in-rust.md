@@ -45,21 +45,24 @@ and just ask the editors to select the category.
 * [The Embedded Rustacean Issue #73](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-73)
 
 ### Project/Tooling Updates
-- [OmniScope 0.2.0 released:FFI static detection tool based on LLVM IR](https://medium.com/p/dc57a4631f8b?postPublishedType=initial)
-
+* [OmniScope 0.2.0 released:FFI static detection tool based on LLVM IR](https://medium.com/p/dc57a4631f8b?postPublishedType=initial)
 * [Announcing Asterinas 0.18.0](https://asterinas.github.io/2026/06/04/announcing-asterinas-0.18.0.html)
 * [Oryxis SSH 0.8: split panes](https://github.com/wilsonglasser/oryxis/releases/tag/v0.8.0)
 * [Ratatui 0.30.1 is released - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v0301/)
 * [Pico de Gallo - a USB-attached protocol bridge for developing embedded-hal drivers on your laptop](https://felipebalbi.github.io/pico-de-gallo/)
+* [kache 0.5.0: designing a correct compile-cache key](https://kunobi.ninja/blog/kache-v0-5-0)
 
 ### Observations/Thoughts
 
 * [Decimal Crates Comparison and Benchmark](https://wubingzheng.github.io/en/Decimal-Crates-Comparison.html) | [Chinese version](https://wubingzheng.github.io/zh/Decimal-Crates-Comparison.html)
+* [TeaQL Robot Task Board: a Rust TUI showcase for auditable business workflows](https://teaql.io/blog/robot-task-board-showcase/)
 
 ### Rust Walkthroughs
 
 * [series] [Who Runs Your Rust Future? Hands-On Intro to Async Rust](https://aibodh.com/posts/async-rust-chapter-1-hands-on-intro-to-async-rust/)
 * [Extend MySQL Using Rust](https://villagesql.com/blog/rust/)
+* [Learn Rust Smart Pointers and Interior Mutability by Building Git Commit Graph Viewer](https://blog.sheerluck.dev/posts/learn-rust-smart-pointers-and-interior-mutability-by-building-git-commit-graph-viewer/)
+* * [heap underflow: classic algorithm solutions in idiomatic Rust, runnable in the browser](https://rustarians.com/heap-underflow/)
 
 ### Research
 
@@ -132,6 +135,13 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 * [cuda-oxide Windows fork - test the Windows MSVC release on more CUDA/Windows setups](https://github.com/ansidium/cuda-oxide-windows/issues/1)
+* [openslate - add unit tests for slugify() in api/src/notes.rs](https://github.com/MrSheerluck/openslate/issues/38)
+* [openslate - add integration tests for notes CRUD in api/src/notes.rs](https://github.com/MrSheerluck/openslate/issues/70)
+* [openslate - add integration tests for auth flow in api/src/users.rs](https://github.com/MrSheerluck/openslate/issues/96)
+* [openslate - add unit tests for build_fts_query() in api/src/search.rs](https://github.com/MrSheerluck/openslate/issues/89)
+* [openslate - add integration tests for auth middleware and logout in api/src/auth.rs](https://github.com/MrSheerluck/openslate/issues/106)
+* [openslate - add integration tests for media endpoints (DB layer) in api/src/media.rs](https://github.com/MrSheerluck/openslate/issues/85)
+* [openslate - add unit tests for ext_from_mime() and filename_from_url() in api/src/media.rs](https://github.com/MrSheerluck/openslate/issues/40)
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
