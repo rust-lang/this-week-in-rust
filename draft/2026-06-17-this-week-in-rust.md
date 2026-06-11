@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Ktav: a JSON-shaped config format with no quotes, commas, or indentation — design notes and FFI strategy across 7 language bindings](https://dev.to/phpcraftdream/ktav-i-got-fed-up-with-every-config-format-so-i-built-one-with-no-quotes-no-commas-no-54an)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
