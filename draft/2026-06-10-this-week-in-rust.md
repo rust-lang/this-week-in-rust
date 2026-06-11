@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 * [@utoo/pack: A Next-Generation Build Tool Based on Turbopack](https://utoo.land/en/docs/blog/utoopack-intro)
 * [Pico de Gallo - a USB-attached protocol bridge for developing embedded-hal drivers on your laptop](https://felipebalbi.github.io/pico-de-gallo/)
 * [kache 0.5.0: designing a correct compile-cache key](https://kunobi.ninja/blog/kache-v0-5-0)
+* [Announcing smb2: a very fast pure-Rust SMB2/3 client](https://www.veszelovszki.com/a/smb2/)
 
 ### Observations/Thoughts
 
