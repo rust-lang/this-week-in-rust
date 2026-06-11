@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Basin: Numerical Optimization in Rust](https://jolars.co/blog/2026-06-10-basin/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
