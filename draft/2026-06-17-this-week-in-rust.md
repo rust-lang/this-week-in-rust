@@ -1,6 +1,6 @@
-Title: This Week in Rust 655
-Number: 655
-Date: 2026-06-10
+Title: This Week in Rust 656
+Number: 656
+Date: 2026-06-17
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -42,30 +42,12 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
-* [The Embedded Rustacean Issue #73](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-73)
 
 ### Project/Tooling Updates
-* [Announcing stdx, Rust's extended standard library](https://kerkour.com/stdx)
-* [OmniScope 0.2.0 released:FFI static detection tool based on LLVM IR](https://medium.com/p/dc57a4631f8b?postPublishedType=initial)
-* [Announcing Asterinas 0.18.0](https://asterinas.github.io/2026/06/04/announcing-asterinas-0.18.0.html)
-* [Oryxis SSH 0.8: split panes](https://github.com/wilsonglasser/oryxis/releases/tag/v0.8.0)
-* [Ratatui 0.30.1 is released - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v0301/)
-* [@utoo/pack: A Next-Generation Build Tool Based on Turbopack](https://utoo.land/en/docs/blog/utoopack-intro)
-* [Pico de Gallo - a USB-attached protocol bridge for developing embedded-hal drivers on your laptop](https://felipebalbi.github.io/pico-de-gallo/)
-* [kache 0.5.0: designing a correct compile-cache key](https://kunobi.ninja/blog/kache-v0-5-0)
-* [Announcing smb2: a very fast pure-Rust SMB2/3 client](https://www.veszelovszki.com/a/smb2/)
 
 ### Observations/Thoughts
 
-* [Decimal Crates Comparison and Benchmark](https://wubingzheng.github.io/en/Decimal-Crates-Comparison.html) | [Chinese version](https://wubingzheng.github.io/zh/Decimal-Crates-Comparison.html)
-* [TeaQL Robot Task Board: a Rust TUI showcase for auditable business workflows](https://teaql.io/blog/robot-task-board-showcase/)
-
 ### Rust Walkthroughs
-
-* [series] [Who Runs Your Rust Future? Hands-On Intro to Async Rust](https://aibodh.com/posts/async-rust-chapter-1-hands-on-intro-to-async-rust/)
-* [Extend MySQL Using Rust](https://villagesql.com/blog/rust/)
-* [Learn Rust Smart Pointers and Interior Mutability by Building Git Commit Graph Viewer](https://blog.sheerluck.dev/posts/learn-rust-smart-pointers-and-interior-mutability-by-building-git-commit-graph-viewer/)
-* * [heap underflow: classic algorithm solutions in idiomatic Rust, runnable in the browser](https://rustarians.com/heap-underflow/)
 
 ### Research
 
@@ -73,9 +55,7 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-This week's crate is [rustion](https://github.com/handewo/rustion), a SSH bastion server.
-
-Thanks to [handewo](https://users.rust-lang.org/t/crate-of-the-week/2704/1610) for the self-suggestion!
+<!-- COTW goes here -->
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -89,13 +69,45 @@ If you are a feature implementer and would like your RFC to appear in this list,
 `call-for-testing` label to your RFC along with a comment providing testing instructions and/or
 guidance on which aspect(s) of the feature need testing.
 
-*No calls for testing were issued this week by
-[Rust](https://github.com/rust-lang/rust/issues?q=state%3Aopen%20label%3Acall-for-testing%20state%3Aopen),
-[Cargo](https://github.com/rust-lang/cargo/issues?q=state%3Aopen%20label%3Acall-for-testing%20state%3Aopen),
-[Rustup](https://github.com/rust-lang/rustup/issues?q=state%3Aopen%20label%3Acall-for-testing%20state%3Aopen) or
-[Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing%20state%3Aopen).*
+<!-- If there are new CfT items this week, include:
+
+  [Repo Name](Repo URL)
+    * [<Feature name>](<Feature URL>)
+        * [Testing steps](<Testing Steps URL>)
+
+  - and make note in the item so the authors know to remove the `call-for-testing` label:
+This RFC will appear in the **Call for Testing** section of the next issue (#) of This Week in Rust (TWiR).
+You may remove the `call-for-testing` label.  Please feel free to leave the `call-for-testing` label in place if you would like this RFC to appear again in another issue of TWiR.
+
+  - where `Repo Name` and `Repo URL` are one of:
+[Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
+[Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing),
+[Cargo](https://github.com/rust-lang/cargo/labels/call-for-testing) or
+[Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
+
+  - and `Testing steps` points directly to the procedures the item wants users to exercise.
+
+  - For all `Repo Names` with no new CfT items this week: use (removing the repos for which new
+     CfT items did appear, of course)
+
+* *No calls for testing were issued this week by
+  [Rust](https://github.com/rust-lang/rust/labels/call-for-testing),
+  [Rust language RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing),
+  [Cargo](https://github.com/rust-lang/cargo/labels/call-for-testing) or
+  [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing).*
+-->
 
 [Let us know](https://github.com/rust-lang/this-week-in-rust/issues) if you would like your feature to be tracked as a part of this list.
+
+### [RFCs](https://github.com/rust-lang/rfcs/issues?q=label%3Acall-for-testing)
+
+### [Rust](https://github.com/rust-lang/rust/labels/call-for-testing)
+
+### [Rustup](https://github.com/rust-lang/rustup/labels/call-for-testing)
+
+If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
+label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
+need testing.
 
 ## Call for Participation; projects and speakers
 
@@ -107,19 +119,6 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-* [cuda-oxide Windows fork - test the Windows MSVC release on more CUDA/Windows setups](https://github.com/ansidium/cuda-oxide-windows/issues/1)
-* [openslate - add unit tests for slugify() in api/src/notes.rs](https://github.com/MrSheerluck/openslate/issues/38)
-* [openslate - add integration tests for notes CRUD in api/src/notes.rs](https://github.com/MrSheerluck/openslate/issues/70)
-* [openslate - add integration tests for auth flow in api/src/users.rs](https://github.com/MrSheerluck/openslate/issues/96)
-* [openslate - add unit tests for build_fts_query() in api/src/search.rs](https://github.com/MrSheerluck/openslate/issues/89)
-* [openslate - add integration tests for auth middleware and logout in api/src/auth.rs](https://github.com/MrSheerluck/openslate/issues/106)
-* [openslate - add integration tests for media endpoints (DB layer) in api/src/media.rs](https://github.com/MrSheerluck/openslate/issues/85)
-* [openslate - add unit tests for ext_from_mime() and filename_from_url() in api/src/media.rs](https://github.com/MrSheerluck/openslate/issues/40)
-* [reliakit - add a typed_csv example to the umbrella crate](https://github.com/satyakwok/reliakit/issues/91)
-* [reliakit - implement CsvField for char](https://github.com/satyakwok/reliakit/issues/92)
-* [reliakit - implement CsvField for the core::net address types](https://github.com/satyakwok/reliakit/issues/107)
-* [reliakit - write a short "which resilience block do I use?" guide](https://github.com/satyakwok/reliakit/issues/95)
-* [reliakit - extract a reusable rolling-window counter from RollingBreaker](https://github.com/satyakwok/reliakit/issues/94)
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
@@ -138,93 +137,22 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-526 pull requests were [merged in the last week][merged]
-
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-06-02..2026-06-09
-
-#### Compiler
-* [add `extern "tail"` calling convention](https://github.com/rust-lang/rust/pull/157016)
-* [add very basic "comptime" fn implementation](https://github.com/rust-lang/rust/pull/148820)
-* [avoid `unreachable_code` on required return values](https://github.com/rust-lang/rust/pull/157009)
-* [cleanup and optimize `render_impls`](https://github.com/rust-lang/rust/pull/157540)
-* [macros: report unbound metavariables directly](https://github.com/rust-lang/rust/pull/156155)
-* [rewrite `rustc_span::symbol::Interner` to avoid double hashing](https://github.com/rust-lang/rust/pull/157252)
-* [staticlib hide internal symbols](https://github.com/rust-lang/rust/pull/155338)
-
-#### Library
-* [add APIs for case folding to the standard library](https://github.com/rust-lang/rust/pull/154742)
-* [add `_value` API for number literals in proc-macro](https://github.com/rust-lang/rust/pull/154608)
-* [further optimize `SliceIndex<str>` impl for `Range<usize>`](https://github.com/rust-lang/rust/pull/156119)
-* [improve TLS codegen by marking the panic/init path as cold](https://github.com/rust-lang/rust/pull/143511)
-* [perf: use `get_unchecked` for `TwoWaySearcher`](https://github.com/rust-lang/rust/pull/155607)
-* [stabilize `PathBuf::into_string`](https://github.com/rust-lang/rust/pull/156840)
-* [stabilize `Result::map_or_default` and `Option::map_or_default`](https://github.com/rust-lang/rust/pull/156222)
-
-#### Cargo
-* [strip CR from `cargo:token-from-stdout`](https://github.com/rust-lang/cargo/pull/17081)
-
-#### Rustdoc
-* [IXCRE: preserve sizedness bounds on type params belonging to the parent item](https://github.com/rust-lang/rust/pull/157262)
-* [don't link `doc(hidden)` associated type projections](https://github.com/rust-lang/rust/pull/157438)
-* [fix trait impl ordering](https://github.com/rust-lang/rust/pull/157233)
-* [render `impl` restriction](https://github.com/rust-lang/rust/pull/157310)
-
-#### Clippy
-* [support `iter_mut` in `ITER_NEXT_SLICE`](https://github.com/rust-lang/rust-clippy/pull/17122)
-* [`borrowed_box`: clean-up, improve suggestion message](https://github.com/rust-lang/rust-clippy/pull/17173)
-* [`double_must_use`: make the lint machine-applicable in single-attribute case](https://github.com/rust-lang/rust-clippy/pull/17144)
-* [`iter_cloned_collect`: split off the suggestion from the main message](https://github.com/rust-lang/rust-clippy/pull/17174)
-* [add `manual_isolate_lowest_one` lint](https://github.com/rust-lang/rust-clippy/pull/17037)
-* [detect more ranges in `single_range_in_vec_init`](https://github.com/rust-lang/rust-clippy/pull/17146)
-* [do not trigger `inline_trait_bounds` on auto-derived code](https://github.com/rust-lang/rust-clippy/pull/17131)
-* [extend `extra_unused_lifetimes` for spurious `for<'a>`](https://github.com/rust-lang/rust-clippy/pull/17031)
-* [`large_const_arrays`: check nested large arrays](https://github.com/rust-lang/rust-clippy/pull/17141)
-* [fix `explicit_counter_loop` false positive when the counter is only modified inside the `else` block of `let...else` binding](https://github.com/rust-lang/rust-clippy/pull/17023)
-* [fix `result_large_err` and `result_unit_err` not triggering on async functions](https://github.com/rust-lang/rust-clippy/pull/17130)
-* [fix `unused_async_trait_impl` suggestions with return statements](https://github.com/rust-lang/rust-clippy/pull/17181)
-* [fix lints duplications in `unknown_attribute` and `renamed_builtin_attr`](https://github.com/rust-lang/rust-clippy/pull/17164)
-* [obtaining the metadata of a const pointer is a const operation](https://github.com/rust-lang/rust-clippy/pull/17121)
-* [perf: avoid cloning associated items in `empty_line_after`](https://github.com/rust-lang/rust-clippy/pull/17135)
-* [perf: skip the `boxed_local` walk for functions without a Box parameter](https://github.com/rust-lang/rust-clippy/pull/17168)
-* [perf: skip the `inline_always` relevance walk for items without the attribute](https://github.com/rust-lang/rust-clippy/pull/17137)
-
-#### Rust-Analyzer
-* [`feat(diagnostics)`: emit error for infer vars in non-inference contexts](https://github.com/rust-lang/rust-analyzer/pull/22469)
-* [adopt uv's AI policy](https://github.com/rust-lang/rust-analyzer/pull/22505)
-* [distribute windows builts with mimalloc](https://github.com/rust-lang/rust-analyzer/pull/22495)
-* [lower field defaults to `rustc_type_ir::Const`s](https://github.com/rust-lang/rust-analyzer/pull/22481)
-* [`RunnableKind::Test` should map to `project_json::RunnableKind::TestOne`](https://github.com/rust-lang/rust-analyzer/pull/22522)
-* [`extract_function` misses `&mut` for `container[i].mut_method()`](https://github.com/rust-lang/rust-analyzer/pull/22523)
-* [do not emit a "type annotations needed" error on `include_bytes!()` where the array length cannot be inferred](https://github.com/rust-lang/rust-analyzer/pull/22520)
-* [no generate unused generic params in trait sign](https://github.com/rust-lang/rust-analyzer/pull/22519)
-* [parse OR pattern types](https://github.com/rust-lang/rust-analyzer/pull/22524)
-* [rename schema subItems with `sub_items`](https://github.com/rust-lang/rust-analyzer/pull/22444)
-* [implement `rust-analyzer/evaluatePredicate` lsp extension](https://github.com/rust-lang/rust-analyzer/pull/22448)
-* [parse unnamed `enum` variants](https://github.com/rust-lang/rust-analyzer/pull/22512)
+<!-- Rust updates go here -->
 
 ### Rust Compiler Performance Triage
 
-A fairly noisy week, with a bunch of small regressions contained within,
-leading to a slight increase on average in instruction counts. This week had a
-lot of large rollups, likely due to some CI problems, but thankfully many of
-those came with pre-triaged perf results by the time (thank you to those
-triagers!). Roughly similar slight regressions for cycles and wall times across
-the week.
-
-Triage done by **@simulacrum**.
-Revision range: [4804ad7e..f3ef3bd8](https://perf.rust-lang.org/?start=4804ad7e93e1b31f4605b7083871d0d3d85a2afe&end=f3ef3bd882dd24a275a60701a67c3bb330edd8c1&absolute=false&stat=instructions%3Au)
-
-2 Regressions, 0 Improvements, 10 Mixed; 5 of them in rollups
-32 artifact comparisons made in total
-
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2026/2026-06-08.md)
+<!-- Perf results go here -->
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-* [`#![register_{attribute,lint}_tool]`](https://github.com/rust-lang/rfcs/pull/3808)
+<!-- Use either
+* [Item title](Item URL)
+  - or
+* *No RFCs were approved this week.*
+-->
 
 ### Final Comment Period
 
@@ -232,39 +160,46 @@ Every week, [the team](https://www.rust-lang.org/team.html) announces the 'final
 which are reaching a decision. Express your opinions now.
 
 #### Tracking Issues & PRs
-
-##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen)
-* [Document panic in `RangeInclusive::from(legacy::RangeInclusive)`](https://github.com/rust-lang/rust/pull/155421)
-* [Tracking Issue for explicit-endian String::from_utf16](https://github.com/rust-lang/rust/issues/116258)
-* [Tracking Issue for `substr_range` and related methods](https://github.com/rust-lang/rust/issues/126769)
-* [Decide and document where stdarch intrinsics are allowed to diverge from asm behavior](https://github.com/rust-lang/rust/issues/153990)
-* [Document that `ManuallyDrop`'s Box interaction has been fixed](https://github.com/rust-lang/rust/pull/155750)
-* [Add temporary scope to assert_eq and assert_ne](https://github.com/rust-lang/rust/pull/155739)
-* [Clean up crate type names to fix dylib vs staticlib confusion](https://github.com/rust-lang/rust/issues/153863)
-* [Add `T: PartialEq` bounds to derived `StructuralPartialEq` impls.](https://github.com/rust-lang/rust/pull/156807)
-* [stabilize feature `float_algebraic`](https://github.com/rust-lang/rust/pull/157029)
-
-##### [Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20label%3Afinal-comment-period%20state%3Aopen) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html)
-* [Deny todo!() in tidy](https://github.com/rust-lang/compiler-team/issues/999)
-
-##### [Leadership Council](https://github.com/rust-lang/leadership-council/issues?q=state%3Aopen%20label%3Afinal-comment-period%20state%3Aopen)
-* [Rust All Hands 2027](https://github.com/rust-lang/leadership-council/issues/300)
-
+<!-- Either remove the group from the "No Items Entered Final Comment Period this week for" section
+     and add the item(s) which entered Final comment period:
+##### [Group](Group URL)
+* [Item title](Item URL)
+  - for `disposition-merge` `final-comment-period` items, or
+* [disposition: postpone]
+  - for `disposition-postpone` `final-comment-period` items, or
+* [disposition: close]
+  - for `disposition-close` `final-comment-period` items,
+* [disposition: unspecified]
+  - when `disposition` is unspecified or ensure the group is a part of the
+     "No Items Entered Final Comment Period this week for" section
 *No Items entered Final Comment Period this week for
-[Rust RFCs](https://github.com/rust-lang/rfcs/issues?q=state%3Aopen%20label%3Afinal-comment-period%20state%3Aopen),
-[Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen),
-[Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen),
-[Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen) or
-[Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen).*
+  [Rust RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period),
+  [Cargo](https://github.com/rust-lang/cargo/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc),
+  [Compiler Team](https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change%20%20label%3Afinal-comment-period) [(MCPs only)](https://forge.rust-lang.org/compiler/mcp.html),
+  [Language Team](https://github.com/rust-lang/lang-team/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc+),
+  [Language Reference](https://github.com/rust-lang/reference/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc),
+  [Leadership Council](https://github.com/rust-lang/leadership-council/issues?q=state%3Aopen%20label%3Afinal-comment-period) or
+  [Unsafe Code Guidelines](https://github.com/rust-lang/unsafe-code-guidelines/issues?q=is%3Aopen+label%3Afinal-comment-period+sort%3Aupdated-desc).*
 
 Let us know if you would like your PRs, Tracking Issues or RFCs to be tracked as a part of this list.
+-->
 
-### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
-* [RFC for convenient, explicit closure capture using move($expr) expressions](https://github.com/rust-lang/rfcs/pull/3968)
+#### [New and Updated RFCs](https://github.com/rust-lang/rfcs/pulls)
+<!-- Use either
+* [Item title](Item URL)
+  - for new items, or
+* [updated] [Item title](Item URL)
+  - for updated items, or
+* *No New or Updated RFCs were created this week.*
+-->
+
+<!-- Sample commit message
+Update CFT, FCP, MCP and RFC sections for TWiR-xxx
+-->
 
 ## Upcoming Events
 
-Rusty Events between 2026-06-10 - 2026-07-08 🦀
+Rusty Events between 2026-06-17 - 2026-07-15 🦀
 
 ### Virtual
 * 2026-06-10 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
@@ -381,11 +316,7 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-> It's a footgun, yes, but it's a sound footgun.
-
-– [Prof. Dr. Ralf Jung on github](https://github.com/rust-lang/rust/pull/155750#discussion_r3356323620)
-
-Thanks to [Theemathas](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1779) for the suggestion!
+<!-- QOTW goes here -->
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
