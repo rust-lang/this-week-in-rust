@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 * [The Embedded Rustacean Issue #73](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-73)
 
 ### Project/Tooling Updates
-- [Announcing stdx, Rust's extended standard library: simplicity, performance and supply chain security for everyone](https://kerkour.com/stdx)
+- [Announcing stdx, Rust's extended standard library](https://kerkour.com/stdx)
 - [OmniScope 0.2.0 released:FFI static detection tool based on LLVM IR](https://medium.com/p/dc57a4631f8b?postPublishedType=initial)
 
 * [Announcing Asterinas 0.18.0](https://asterinas.github.io/2026/06/04/announcing-asterinas-0.18.0.html)
