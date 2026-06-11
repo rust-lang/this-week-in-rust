@@ -73,7 +73,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [rustion](https://github.com/handewo/rustion), a SSH bastion server.
+
+Thanks to [handewo](https://users.rust-lang.org/t/crate-of-the-week/2704/1610) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -136,7 +138,69 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+526 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-06-02..2026-06-09
+
+#### Compiler
+* [add `extern "tail"` calling convention](https://github.com/rust-lang/rust/pull/157016)
+* [add very basic "comptime" fn implementation](https://github.com/rust-lang/rust/pull/148820)
+* [avoid `unreachable_code` on required return values](https://github.com/rust-lang/rust/pull/157009)
+* [cleanup and optimize `render_impls`](https://github.com/rust-lang/rust/pull/157540)
+* [macros: report unbound metavariables directly](https://github.com/rust-lang/rust/pull/156155)
+* [rewrite `rustc_span::symbol::Interner` to avoid double hashing](https://github.com/rust-lang/rust/pull/157252)
+* [staticlib hide internal symbols](https://github.com/rust-lang/rust/pull/155338)
+
+#### Library
+* [add APIs for case folding to the standard library](https://github.com/rust-lang/rust/pull/154742)
+* [add `_value` API for number literals in proc-macro](https://github.com/rust-lang/rust/pull/154608)
+* [further optimize `SliceIndex<str>` impl for `Range<usize>`](https://github.com/rust-lang/rust/pull/156119)
+* [improve TLS codegen by marking the panic/init path as cold](https://github.com/rust-lang/rust/pull/143511)
+* [perf: use `get_unchecked` for `TwoWaySearcher`](https://github.com/rust-lang/rust/pull/155607)
+* [stabilize `PathBuf::into_string`](https://github.com/rust-lang/rust/pull/156840)
+* [stabilize `Result::map_or_default` and `Option::map_or_default`](https://github.com/rust-lang/rust/pull/156222)
+
+#### Cargo
+* [strip CR from `cargo:token-from-stdout`](https://github.com/rust-lang/cargo/pull/17081)
+
+#### Rustdoc
+* [IXCRE: preserve sizedness bounds on type params belonging to the parent item](https://github.com/rust-lang/rust/pull/157262)
+* [don't link `doc(hidden)` associated type projections](https://github.com/rust-lang/rust/pull/157438)
+* [fix trait impl ordering](https://github.com/rust-lang/rust/pull/157233)
+* [render `impl` restriction](https://github.com/rust-lang/rust/pull/157310)
+
+#### Clippy
+* [support `iter_mut` in `ITER_NEXT_SLICE`](https://github.com/rust-lang/rust-clippy/pull/17122)
+* [`borrowed_box`: clean-up, improve suggestion message](https://github.com/rust-lang/rust-clippy/pull/17173)
+* [`double_must_use`: make the lint machine-applicable in single-attribute case](https://github.com/rust-lang/rust-clippy/pull/17144)
+* [`iter_cloned_collect`: split off the suggestion from the main message](https://github.com/rust-lang/rust-clippy/pull/17174)
+* [add `manual_isolate_lowest_one` lint](https://github.com/rust-lang/rust-clippy/pull/17037)
+* [detect more ranges in `single_range_in_vec_init`](https://github.com/rust-lang/rust-clippy/pull/17146)
+* [do not trigger `inline_trait_bounds` on auto-derived code](https://github.com/rust-lang/rust-clippy/pull/17131)
+* [extend `extra_unused_lifetimes` for spurious `for<'a>`](https://github.com/rust-lang/rust-clippy/pull/17031)
+* [`large_const_arrays`: check nested large arrays](https://github.com/rust-lang/rust-clippy/pull/17141)
+* [fix `explicit_counter_loop` false positive when the counter is only modified inside the `else` block of `let...else` binding](https://github.com/rust-lang/rust-clippy/pull/17023)
+* [fix `result_large_err` and `result_unit_err` not triggering on async functions](https://github.com/rust-lang/rust-clippy/pull/17130)
+* [fix `unused_async_trait_impl` suggestions with return statements](https://github.com/rust-lang/rust-clippy/pull/17181)
+* [fix lints duplications in `unknown_attribute` and `renamed_builtin_attr`](https://github.com/rust-lang/rust-clippy/pull/17164)
+* [obtaining the metadata of a const pointer is a const operation](https://github.com/rust-lang/rust-clippy/pull/17121)
+* [perf: avoid cloning associated items in `empty_line_after`](https://github.com/rust-lang/rust-clippy/pull/17135)
+* [perf: skip the `boxed_local` walk for functions without a Box parameter](https://github.com/rust-lang/rust-clippy/pull/17168)
+* [perf: skip the `inline_always` relevance walk for items without the attribute](https://github.com/rust-lang/rust-clippy/pull/17137)
+
+#### Rust-Analyzer
+* [`feat(diagnostics)`: emit error for infer vars in non-inference contexts](https://github.com/rust-lang/rust-analyzer/pull/22469)
+* [adopt uv's AI policy](https://github.com/rust-lang/rust-analyzer/pull/22505)
+* [distribute windows builts with mimalloc](https://github.com/rust-lang/rust-analyzer/pull/22495)
+* [lower field defaults to `rustc_type_ir::Const`s](https://github.com/rust-lang/rust-analyzer/pull/22481)
+* [`RunnableKind::Test` should map to `project_json::RunnableKind::TestOne`](https://github.com/rust-lang/rust-analyzer/pull/22522)
+* [`extract_function` misses `&mut` for `container[i].mut_method()`](https://github.com/rust-lang/rust-analyzer/pull/22523)
+* [do not emit a "type annotations needed" error on `include_bytes!()` where the array length cannot be inferred](https://github.com/rust-lang/rust-analyzer/pull/22520)
+* [no generate unused generic params in trait sign](https://github.com/rust-lang/rust-analyzer/pull/22519)
+* [parse OR pattern types](https://github.com/rust-lang/rust-analyzer/pull/22524)
+* [rename schema subItems with `sub_items`](https://github.com/rust-lang/rust-analyzer/pull/22444)
+* [implement `rust-analyzer/evaluatePredicate` lsp extension](https://github.com/rust-lang/rust-analyzer/pull/22448)
+* [parse unnamed `enum` variants](https://github.com/rust-lang/rust-analyzer/pull/22512)
 
 ### Rust Compiler Performance Triage
 
@@ -317,7 +381,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> It's a footgun, yes, but it's a sound footgun.
+
+– [Prof. Dr. Ralf Jung on github](https://github.com/rust-lang/rust/pull/155750#discussion_r3356323620)
+
+Thanks to [Theemathas](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1779) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
