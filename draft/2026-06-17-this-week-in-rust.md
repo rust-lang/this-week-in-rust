@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [videos] [RustWeek 2026 by RustNL, all talks playlist](https://www.youtube.com/watch?v=PrfMpCaIh0k&list=PL8Q1w7Ff68DBpmF38rcIAf8Z9Gj2TnlgM)
+
 ### Rust Walkthroughs
 
 ### Research
@@ -232,7 +234,7 @@ Rusty Events between 2026-06-17 - 2026-07-15 🦀
     * [**Rust Deep Learning: First Sunday**](https://www.meetup.com/dallasrust/events/314095287/)
 * 2026-07-07 | Virtual (London, GB) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
     * [**👋 Community Catch Up**](https://www.meetup.com/women-in-rust/events/315060981/)
-    
+
 ### Europe
 * 2026-06-10 | Köln, DE | [Rust Cologne](https://www.meetup.com/rust-cologne-bonn/events/)
     * [**Rust in June: Speedy Rust**](https://www.meetup.com/rustcologne/events/315090338/)
