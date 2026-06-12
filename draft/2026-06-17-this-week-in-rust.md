@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [The iPad was on Tailscale](https://www.p2claw.com/blog/2026-06-09-the-ipad-was-on-tailscale/)
+
 ### Rust Walkthroughs
 
 ### Research
