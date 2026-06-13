@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [I built EVM from scratch. Again.](https://sergey-melnychuk.github.io/2026/05/23/yevm/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
