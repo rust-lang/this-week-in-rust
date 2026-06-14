@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [ZamSync: offline-first Rust sync engine for degraded networks -- WAL-based, mTLS, ChaCha20-Poly1305 encryption, 448k events/sec](https://github.com/Etoile-Bleu/ZamSync)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
