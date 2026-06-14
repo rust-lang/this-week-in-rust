@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Carboxyl 0.1.0-rc: a Servo-based browser for the terminal](https://github.com/carboxyl-rs/carboxyl/releases/tag/v0.1.0-servo-rc.1)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
