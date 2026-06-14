@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 * [I built EVM from scratch. Again.](https://sergey-melnychuk.github.io/2026/05/23/yevm/)
 * [processkit 1.0: async process tree management](https://zelanton.github.io/processkit/)
 * [Basin: Numerical Optimization in Rust](https://jolars.co/blog/2026-06-10-basin/)
+* [Carboxyl 0.1.0-rc: A servo-based browser for the terminal](https://github.com/carboxyl-rs/carboxyl/releases/tag/v0.1.0-servo-rc.1)
 
 ### Observations/Thoughts
 * [Why stdx is not on crates.io](https://kerkour.com/stdx-cratesio)
