@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [statsvg_rs: GitHub stats SVG cards rendered in Rust -- re-generated every 6 hours via GitHub Actions, published to GitHub Pages, no servers, no API rate limits](https://github.com/akshay2211/statsvg_rs)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
