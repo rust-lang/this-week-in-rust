@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Building a provider-agnostic LLM layer in Rust with Rig](https://smista.ai/blog/how-we-built-a-provider-agnostic-llm-layer-in-rust-with-rig)
+
 ### Research
 
 ### Miscellaneous
