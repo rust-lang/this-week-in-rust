@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [video] [RustWeek 2026 talk recordings](https://2026.rustweek.org/blog/2026-06-10-rustweek-recordings-published/)
 
 ## Crate of the Week
 
