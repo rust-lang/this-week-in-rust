@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [processkit 1.0: async child-process management with whole-tree kill-on-drop for tokio](https://zelanton.github.io/processkit/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
