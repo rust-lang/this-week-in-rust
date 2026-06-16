@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 
 * [I built EVM from scratch. Again.](https://sergey-melnychuk.github.io/2026/05/23/yevm/)
 * [processkit 1.0: async process tree management](https://zelanton.github.io/processkit/)
+* [litchee 0.1.0: an async Rust client for the full Lichess API with OAuth2 PKCE](https://github.com/obazin/litchee/releases/tag/v0.1.0)
 * [Basin: Numerical Optimization in Rust](https://jolars.co/blog/2026-06-10-basin/)
 
 ### Observations/Thoughts
