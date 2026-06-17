@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [ZamSync: offline-first Rust sync engine for degraded networks -- WAL-based, mTLS, ChaCha20-Poly1305 encryption, 448k events/sec](https://github.com/Etoile-Bleu/ZamSync)
+* [ZamSync: offline-first Rust sync engine](https://dev.to/etoile_bleu/-i-built-a-sync-engine-for-clinics-that-run-on-2g-and-lose-power-mid-transfer-here-is-why-and-18od)
 
 ### Observations/Thoughts
 
@@ -297,7 +297,7 @@ Rusty Events between 2026-06-17 - 2026-07-15 🦀
 
 ### Oceania
 * 2026-06-11 | Brisbane City, QL, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane/events/)
-    * [**Rust Brisbane • June 2026**](https://www.meetup.com/rust-brisbane/events/315092980/)
+    * [**Rust Brisbane - June 2026**](https://www.meetup.com/rust-brisbane/events/315092980/)
 * 2026-06-25 | Melbourne, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne)
     * [**Rust Melbourne June 2026**](https://www.meetup.com/rust-melbourne/events/315039461/)
 
