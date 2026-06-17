@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [processkit 1.0: async child-process management with whole-tree kill-on-drop for tokio](https://zelanton.github.io/processkit/)
+* [processkit 1.0: async process tree management](https://zelanton.github.io/processkit/)
 * [Basin: Numerical Optimization in Rust](https://jolars.co/blog/2026-06-10-basin/)
 
 ### Observations/Thoughts
