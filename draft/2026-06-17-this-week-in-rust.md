@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [I built EVM from scratch. Again.](https://sergey-melnychuk.github.io/2026/05/23/yevm/)
 * [processkit 1.0: async process tree management](https://zelanton.github.io/processkit/)
 * [Basin: Numerical Optimization in Rust](https://jolars.co/blog/2026-06-10-basin/)
 
