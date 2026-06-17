@@ -46,10 +46,15 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [processkit 1.0: async child-process management with whole-tree kill-on-drop for tokio](https://zelanton.github.io/processkit/)
+* [Basin: Numerical Optimization in Rust](https://jolars.co/blog/2026-06-10-basin/)
 
 ### Observations/Thoughts
+* [Why stdx is not on crates.io](https://kerkour.com/stdx-cratesio)
+
+* [videos] [RustWeek 2026 by RustNL, all talks playlist](https://www.youtube.com/watch?v=PrfMpCaIh0k&list=PL8Q1w7Ff68DBpmF38rcIAf8Z9Gj2TnlgM)
 
 ### Rust Walkthroughs
+* [Learn Rust Concurrency By Building a Thread Pool](https://blog.sheerluck.dev/posts/learn-rust-concurrency-by-building-a-thread-pool/)
 
 ### Research
 
@@ -125,6 +130,13 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [solana-infra-doctor - List exit codes in `sol-doctor --help`](https://github.com/satyakwok/solana-infra-doctor/issues/77)
 * [solana-infra-doctor - Make the invalid-URL error suggest the expected scheme](https://github.com/satyakwok/solana-infra-doctor/issues/78)
 * [solana-infra-doctor - Add a glossary of RPC readiness terms](https://github.com/satyakwok/solana-infra-doctor/issues/79)
+* [openslate - add unit tests for slugify() in api/src/notes.rs](https://github.com/MrSheerluck/openslate/issues/38)
+* [openslate - add integration tests for notes CRUD in api/src/notes.rs](https://github.com/MrSheerluck/openslate/issues/70)
+* [openslate - add integration tests for auth flow in api/src/users.rs](https://github.com/MrSheerluck/openslate/issues/96)
+* [openslate - add unit tests for build_fts_query() in api/src/search.rs](https://github.com/MrSheerluck/openslate/issues/89)
+* [openslate - add integration tests for auth middleware and logout in api/src/auth.rs](https://github.com/MrSheerluck/openslate/issues/106)
+* [openslate - add integration tests for media endpoints (DB layer) in api/src/media.rs](https://github.com/MrSheerluck/openslate/issues/85)
+* [openslate - add unit tests for ext_from_mime() and filename_from_url() in api/src/media.rs](https://github.com/MrSheerluck/openslate/issues/40)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
@@ -237,7 +249,7 @@ Rusty Events between 2026-06-17 - 2026-07-15 🦀
     * [**Rust Deep Learning: First Sunday**](https://www.meetup.com/dallasrust/events/314095287/)
 * 2026-07-07 | Virtual (London, GB) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
     * [**👋 Community Catch Up**](https://www.meetup.com/women-in-rust/events/315060981/)
-    
+
 ### Europe
 * 2026-06-10 | Köln, DE | [Rust Cologne](https://www.meetup.com/rust-cologne-bonn/events/)
     * [**Rust in June: Speedy Rust**](https://www.meetup.com/rustcologne/events/315090338/)
