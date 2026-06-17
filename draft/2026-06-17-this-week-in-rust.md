@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [numax v0.1.0 – first stable release of the numax distributed WASM runtime](https://github.com/GianIac/numax/)
+* [numax v0.1.0 – first stable release of the numax distributed WASM runtime](https://github.com/GianIac/numax/releases/tag/v0.1.0)
 
 ### Observations/Thoughts
 
