@@ -57,6 +57,8 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [Learn Rust Concurrency By Building a Thread Pool](https://blog.sheerluck.dev/posts/learn-rust-concurrency-by-building-a-thread-pool/)
 
+* [Building a provider-agnostic LLM layer in Rust with Rig](https://smista.ai/blog/how-we-built-a-provider-agnostic-llm-layer-in-rust-with-rig)
+
 ### Research
 
 ### Miscellaneous
