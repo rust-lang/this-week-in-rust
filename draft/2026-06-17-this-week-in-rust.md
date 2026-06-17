@@ -45,15 +45,29 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [I built EVM from scratch. Again.](https://sergey-melnychuk.github.io/2026/05/23/yevm/)
+* [processkit 1.0: async process tree management](https://zelanton.github.io/processkit/)
+* [Basin: Numerical Optimization in Rust](https://jolars.co/blog/2026-06-10-basin/)
 * [ZamSync: offline-first Rust sync engine](https://dev.to/etoile_bleu/-i-built-a-sync-engine-for-clinics-that-run-on-2g-and-lose-power-mid-transfer-here-is-why-and-18od)
 
 ### Observations/Thoughts
+* [Why stdx is not on crates.io](https://kerkour.com/stdx-cratesio)
+
+* [videos] [RustWeek 2026 by RustNL, all talks playlist](https://www.youtube.com/watch?v=PrfMpCaIh0k&list=PL8Q1w7Ff68DBpmF38rcIAf8Z9Gj2TnlgM)
+
+* [How memory safety CVEs differ between Rust and C/C++](https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html)
+
+* [The iPad was on Tailscale](https://www.p2claw.com/blog/2026-06-09-the-ipad-was-on-tailscale/)
 
 ### Rust Walkthroughs
+* [Learn Rust Concurrency By Building a Thread Pool](https://blog.sheerluck.dev/posts/learn-rust-concurrency-by-building-a-thread-pool/)
+
+* [Building a provider-agnostic LLM layer in Rust with Rig](https://smista.ai/blog/how-we-built-a-provider-agnostic-llm-layer-in-rust-with-rig)
 
 ### Research
 
 ### Miscellaneous
+* [video] [RustWeek 2026 talk recordings](https://2026.rustweek.org/blog/2026-06-10-rustweek-recordings-published/)
 
 ## Crate of the Week
 
@@ -122,6 +136,16 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
+* [solana-infra-doctor - List exit codes in `sol-doctor --help`](https://github.com/satyakwok/solana-infra-doctor/issues/77)
+* [solana-infra-doctor - Make the invalid-URL error suggest the expected scheme](https://github.com/satyakwok/solana-infra-doctor/issues/78)
+* [solana-infra-doctor - Add a glossary of RPC readiness terms](https://github.com/satyakwok/solana-infra-doctor/issues/79)
+* [openslate - add unit tests for slugify() in api/src/notes.rs](https://github.com/MrSheerluck/openslate/issues/38)
+* [openslate - add integration tests for notes CRUD in api/src/notes.rs](https://github.com/MrSheerluck/openslate/issues/70)
+* [openslate - add integration tests for auth flow in api/src/users.rs](https://github.com/MrSheerluck/openslate/issues/96)
+* [openslate - add unit tests for build_fts_query() in api/src/search.rs](https://github.com/MrSheerluck/openslate/issues/89)
+* [openslate - add integration tests for auth middleware and logout in api/src/auth.rs](https://github.com/MrSheerluck/openslate/issues/106)
+* [openslate - add integration tests for media endpoints (DB layer) in api/src/media.rs](https://github.com/MrSheerluck/openslate/issues/85)
+* [openslate - add unit tests for ext_from_mime() and filename_from_url() in api/src/media.rs](https://github.com/MrSheerluck/openslate/issues/40)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
@@ -234,7 +258,7 @@ Rusty Events between 2026-06-17 - 2026-07-15 🦀
     * [**Rust Deep Learning: First Sunday**](https://www.meetup.com/dallasrust/events/314095287/)
 * 2026-07-07 | Virtual (London, GB) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
     * [**👋 Community Catch Up**](https://www.meetup.com/women-in-rust/events/315060981/)
-    
+
 ### Europe
 * 2026-06-10 | Köln, DE | [Rust Cologne](https://www.meetup.com/rust-cologne-bonn/events/)
     * [**Rust in June: Speedy Rust**](https://www.meetup.com/rustcologne/events/315090338/)
@@ -297,7 +321,7 @@ Rusty Events between 2026-06-17 - 2026-07-15 🦀
 
 ### Oceania
 * 2026-06-11 | Brisbane City, QL, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane/events/)
-    * [**Rust Brisbane - June 2026**](https://www.meetup.com/rust-brisbane/events/315092980/)
+    * [**Rust Brisbane • June 2026**](https://www.meetup.com/rust-brisbane/events/315092980/)
 * 2026-06-25 | Melbourne, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne)
     * [**Rust Melbourne June 2026**](https://www.meetup.com/rust-melbourne/events/315039461/)
 
