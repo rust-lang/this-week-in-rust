@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [kache 0.6.0: cross-clone build-cache convergence on Firefox (8.45×), now with clang-cl/Windows C/C++ caching](https://github.com/kunobi-ninja/kache/releases/tag/v0.6.0)
+* [kache 0.6.0: a shareable Rust + C/C++ build cache](https://github.com/kunobi-ninja/kache/releases/tag/v0.6.0)
 
 ### Observations/Thoughts
 
