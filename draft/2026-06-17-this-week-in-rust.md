@@ -56,6 +56,8 @@ and just ask the editors to select the category.
 
 * [How memory safety CVEs differ between Rust and C/C++](https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html)
 
+* [The iPad was on Tailscale](https://www.p2claw.com/blog/2026-06-09-the-ipad-was-on-tailscale/)
+
 ### Rust Walkthroughs
 * [Learn Rust Concurrency By Building a Thread Pool](https://blog.sheerluck.dev/posts/learn-rust-concurrency-by-building-a-thread-pool/)
 
