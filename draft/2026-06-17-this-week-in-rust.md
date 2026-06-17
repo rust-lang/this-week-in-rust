@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Universal Context Pipeline: a local-first MCP server that grounds LLMs in your own files](https://github.com/akshay2211/universal-context-pipeline)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
