@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* Fearless Concurrency on the GPU (cuTile Rust) (https://arxiv.org/abs/2606.15991): A system for writing memory-safe, data-race-free GPU kernels in Rust, with a data-race-freedom result and B200 benchmarks.
 
 ### Observations/Thoughts
 
