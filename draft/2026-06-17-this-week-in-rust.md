@@ -44,15 +44,25 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Iroh 1.0 - Dial Keys, not IPs](https://www.iroh.computer/blog/v1)
+* [Diplomat: Multi-language FFI for Rust libraries](https://manishearth.github.io/blog/2026/06/14/diplomat-multi-language-ffi-for-rust-libraries/)
 
 ### Observations/Thoughts
+* [zlib-rs in Firefox](https://trifectatech.org/blog/zlib-rs-in-firefox/)
+* [Rust Prevents Data Races, Not Race Conditions](https://corrode.dev/blog/rust-prevents-data-races-not-race-conditions/)
+* [Build your project Zig-style](https://fnordig.de/2026/06/16/build-your-project-zig-style/)
+* [How memory safety CVEs differ between Rust and C/C++](https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html)
 
 ### Rust Walkthroughs
 * [Learn Rust Concurrency By Building a Thread Pool](https://blog.sheerluck.dev/posts/learn-rust-concurrency-by-building-a-thread-pool/)
+* [There Is Life Before Main in Rust](https://grack.com/blog/2026/06/11/life-before-main/)
+* [Async Task Locals From Scratch](https://wolfgirl.dev/blog/2026-06-16-async-task-locals-from-scratch/)
+* [Fearless Embedded Rust: Driving a Lego Car with a Pico W](https://dystroy.org/blog/picomobile/)
 
 ### Research
 
 ### Miscellaneous
+* [video][RustWeek 2026 All Talks](https://www.youtube.com/playlist?list=PL8Q1w7Ff68DBpmF38rcIAf8Z9Gj2TnlgM)
 
 ## Crate of the Week
 
