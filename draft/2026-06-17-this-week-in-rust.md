@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [rust-nano-vm: 12 ms cold-start microVM via MAP_PRIVATE](https://github.com/ip888/rust-nano-vm/blob/main/docs/blog/01-mmap-private.md): how a single-binary Rust microVM gets ~12 ms cold starts and ~0.5 MiB per fork by mapping the snapshot RAM `MAP_PRIVATE` — ~50 lines of `unsafe`, the rest is `#[forbid(unsafe_code)]`. Includes a full vCPU + LAPIC + FPU + MSR snapshot/restore in <1000 lines via `kvm-bindings`' `serde` feature.
 
 ### Observations/Thoughts
 * [Why stdx is not on crates.io](https://kerkour.com/stdx-cratesio)
