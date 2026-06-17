@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 
 * [videos] [RustWeek 2026 by RustNL, all talks playlist](https://www.youtube.com/watch?v=PrfMpCaIh0k&list=PL8Q1w7Ff68DBpmF38rcIAf8Z9Gj2TnlgM)
 
+* [How memory safety CVEs differ between Rust and C/C++](https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html)
+
 ### Rust Walkthroughs
 * [Learn Rust Concurrency By Building a Thread Pool](https://blog.sheerluck.dev/posts/learn-rust-concurrency-by-building-a-thread-pool/)
 
