@@ -44,9 +44,9 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [cuTile Rust - Fearless Concurrency on the GPU](https://arxiv.org/abs/2606.15991): A system for writing memory-safe, data-race-free GPU kernels in Rust, with a data-race-freedom result and B200 benchmarks.
 * [Iroh 1.0 - Dial Keys, not IPs](https://www.iroh.computer/blog/v1)
 * [Diplomat: Multi-language FFI for Rust libraries](https://manishearth.github.io/blog/2026/06/14/diplomat-multi-language-ffi-for-rust-libraries/)
-
 * [I built EVM from scratch. Again.](https://sergey-melnychuk.github.io/2026/05/23/yevm/)
 * [processkit 1.0: async process tree management](https://zelanton.github.io/processkit/)
 * [litchee: Rust Lichess API client](https://github.com/obazin/litchee/releases/tag/v0.1.0)
