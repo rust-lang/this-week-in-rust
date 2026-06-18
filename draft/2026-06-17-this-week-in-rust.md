@@ -214,7 +214,29 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+
+This week we had quite a lot of changes, a few small regressions that were a bit tough to diagnose, but the week is largely positive, overall.
+Notably, we got one massive improvement on the next-solver benchmark in #[156187](https://github.com/rust-lang/rust/pull/156187),
+and a nice speedup for incremental in [#157781](https://github.com/rust-lang/rust/pull/157781).
+
+Triage done by **@panstromek**.
+Revision range: [f3ef3bd8..b5d46ecb](https://perf.rust-lang.org/?start=f3ef3bd882dd24a275a60701a67c3bb330edd8c1&end=b5d46ecb51c3e4134b82570cfe718f093daa6390&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.4%  | [0.2%, 0.6%]    | 22    |
+| Regressions ❌ <br /> (secondary)  | 0.5%  | [0.1%, 2.0%]    | 40    |
+| Improvements ✅ <br /> (primary)   | -1.8% | [-5.9%, -0.1%]  | 125   |
+| Improvements ✅ <br /> (secondary) | -3.8% | [-69.4%, -0.1%] | 90    |
+| All ❌✅ (primary)                 | -1.5% | [-5.9%, 0.6%]   | 147   |
+
+
+1 Regression, 4 Improvements, 8 Mixed; 5 of them in rollups
+28 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/d36b1ad8679b65efbb98252fbb93f72a7d90d4c6/triage/2026/2026-06-16.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
