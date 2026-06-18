@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [cargo-shed 0.1.0](https://github.com/moooossee/cargo-shed/releases/tag/v0.1.0) - a Cargo subcommand and Rust library for finding dependency bloat, risky feature selections, duplicate crate versions, and safe cleanup opportunities in Rust projects.
+  
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
