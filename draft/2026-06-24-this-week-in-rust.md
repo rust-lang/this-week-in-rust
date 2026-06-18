@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Adding a post-quantum hybrid handshake to a Rust VPN](https://dev.to/alexandr_litvinov/adding-a-post-quantum-hybrid-handshake-to-a-rust-vpn-pk8)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
