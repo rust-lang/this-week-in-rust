@@ -36,26 +36,19 @@ If you don't know which category to use, feel free to submit a PR anyway
 and just ask the editors to select the category.
 
 -->
-
-### Official
-
-### Foundation
-
-### Newsletters
-
 ### Project/Tooling Updates
-* [cuTile Rust - Fearless Concurrency on the GPU](https://arxiv.org/abs/2606.15991): A system for writing memory-safe, data-race-free GPU kernels in Rust, with a data-race-freedom result and B200 benchmarks.
+* [cuTile Rust - Fearless Concurrency on the GPU, memory-safe, data-race-free GPU kernels, B200 benchmarks](https://arxiv.org/abs/2606.15991)
 * [Iroh 1.0 - Dial Keys, not IPs](https://www.iroh.computer/blog/v1)
-* [Diplomat: Multi-language FFI for Rust libraries](https://manishearth.github.io/blog/2026/06/14/diplomat-multi-language-ffi-for-rust-libraries/)
+* [Diplomat - Multi-language FFI for Rust libraries](https://manishearth.github.io/blog/2026/06/14/diplomat-multi-language-ffi-for-rust-libraries/)
 * [I built EVM from scratch. Again.](https://sergey-melnychuk.github.io/2026/05/23/yevm/)
-* [processkit 1.0: async process tree management](https://zelanton.github.io/processkit/)
+* [processkit 1.0 - async process tree management](https://zelanton.github.io/processkit/)
 * [litchee: Rust Lichess API client](https://github.com/obazin/litchee/releases/tag/v0.1.0)
-* [Basin: Numerical Optimization in Rust](https://jolars.co/blog/2026-06-10-basin/)
-* [Carboxyl 0.1.0-rc: A servo-based browser for the terminal](https://github.com/carboxyl-rs/carboxyl/releases/tag/v0.1.0-servo-rc.1)
-* [kache 0.6.0: a shareable Rust + C/C++ build cache](https://github.com/kunobi-ninja/kache/releases/tag/v0.6.0)
-* [numax v0.1.0 – first stable release of the numax distributed WASM runtime](https://github.com/GianIac/numax/releases/tag/v0.1.0)
-* [ZamSync: offline-first Rust sync engine](https://dev.to/etoile_bleu/-i-built-a-sync-engine-for-clinics-that-run-on-2g-and-lose-power-mid-transfer-here-is-why-and-18od)
-* [Ktav — a quote-free config format](https://dev.to/phpcraftdream/ktav-i-got-fed-up-with-every-config-format-so-i-built-one-with-no-quotes-no-commas-no-54an)
+* [Basin - Numerical Optimization in Rust](https://jolars.co/blog/2026-06-10-basin/)
+* [Carboxyl 0.1.0-rc - A servo-based browser for the terminal](https://github.com/carboxyl-rs/carboxyl/releases/tag/v0.1.0-servo-rc.1)
+* [kache 0.6.0 - a shareable Rust + C/C++ build cache](https://github.com/kunobi-ninja/kache/releases/tag/v0.6.0)
+* [numax v0.1.0 - first stable release of the numax distributed WASM runtime](https://github.com/GianIac/numax/releases/tag/v0.1.0)
+* [ZamSync - offline-first Rust sync engine](https://dev.to/etoile_bleu/-i-built-a-sync-engine-for-clinics-that-run-on-2g-and-lose-power-mid-transfer-here-is-why-and-18od)
+* [Ktav - a quote-free config format](https://dev.to/phpcraftdream/ktav-i-got-fed-up-with-every-config-format-so-i-built-one-with-no-quotes-no-commas-no-54an)
 
 ### Observations/Thoughts
 * [zlib-rs in Firefox](https://trifectatech.org/blog/zlib-rs-in-firefox/)
@@ -71,10 +64,7 @@ and just ask the editors to select the category.
 * [There Is Life Before Main in Rust](https://grack.com/blog/2026/06/11/life-before-main/)
 * [Async Task Locals From Scratch](https://wolfgirl.dev/blog/2026-06-16-async-task-locals-from-scratch/)
 * [Fearless Embedded Rust: Driving a Lego Car with a Pico W](https://dystroy.org/blog/picomobile/)
-
 * [Building a provider-agnostic LLM layer in Rust with Rig](https://smista.ai/blog/how-we-built-a-provider-agnostic-llm-layer-in-rust-with-rig)
-
-### Research
 
 ### Miscellaneous
 * [video] [RustWeek 2026 talk recordings](https://2026.rustweek.org/blog/2026-06-10-rustweek-recordings-published/)
@@ -90,6 +80,7 @@ Thanks to [Arne Code](https://users.rust-lang.org/t/crate-of-the-week/2704/1611)
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
 ## Calls for Testing
+
 An important step for RFC implementation is for people to experiment with the
 implementation and give feedback, especially before stabilization.
 
@@ -222,7 +213,6 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [use ASCII lowercase for dylib extensions check](https://github.com/rust-lang/rust-analyzer/pull/22585)
 
 ### Rust Compiler Performance Triage
-
 
 This week we had quite a lot of changes, a few small regressions that were a bit tough to diagnose, but the week is largely positive, overall.
 Notably, we got one massive improvement on the next-solver benchmark in #[156187](https://github.com/rust-lang/rust/pull/156187),
@@ -403,7 +393,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1ttbtf5/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
