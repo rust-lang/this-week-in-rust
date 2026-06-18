@@ -72,7 +72,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [marser](https://github.com/ArneCode/marser), a parser combinator library with a twist.
+
+Thanks to [Arne Code](https://users.rust-lang.org/t/crate-of-the-week/2704/1611) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -132,7 +134,83 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+527 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-06-09..2026-06-16
+
+#### Compiler
+* [`obligations_for_self_ty`: skip irrelevant goals (recompute `sub_root` from `stalled_vars)`](https://github.com/rust-lang/rust/pull/156187)
+* [`codegen_ssa`: peel trans. wrappers on scalable vecs](https://github.com/rust-lang/rust/pull/157768)
+* [add a check for impossible predicates to `trivial_const`](https://github.com/rust-lang/rust/pull/156934)
+* [add unstable loop unrolling hint attributes](https://github.com/rust-lang/rust/pull/156816)
+* [improve polymorphization of raw pointer formatting](https://github.com/rust-lang/rust/pull/157714)
+* [introduce `#[diagnostic::on_type_error(message)]`](https://github.com/rust-lang/rust/pull/155200)
+* [perf: reuse green-marking's edge walk when promoting a node](https://github.com/rust-lang/rust/pull/157781)
+
+#### Library
+* [add `or_try_*` variants for `HashMap` and `BTreeMap` Entry APIs](https://github.com/rust-lang/rust/pull/157355)
+* [make `BorrowedBuf` and `BorrowedCursor` generic over the data](https://github.com/rust-lang/rust/pull/149749)
+* [replace printables table with `unicode_data.rs` tables](https://github.com/rust-lang/rust/pull/155527)
+* [stabilize `#![feature(box_as_ptr)]`](https://github.com/rust-lang/rust/pull/157876)
+* [stabilize `core::range::{legacy, RangeFull, RangeTo}`](https://github.com/rust-lang/rust/pull/156629)
+* [stabilize `int_format_into` feature](https://github.com/rust-lang/rust/pull/152544)
+* [stabilize `nonzero_from_str_radix`](https://github.com/rust-lang/rust/pull/157877)
+* [stabilize feature `float_algebraic`](https://github.com/rust-lang/rust/pull/157029)
+
+#### Cargo
+* [`trim-paths`: emit `CARGO_TRIM_PATHS_REMAP` for build.rs](https://github.com/rust-lang/cargo/pull/17104)
+* [`diag`: Give diagnostics the same display path behavior as rustc](https://github.com/rust-lang/cargo/pull/17101)
+* [`diag`: Report all errors, in order](https://github.com/rust-lang/cargo/pull/17095)
+* [`publish`: avoid false deadlock when `to_confirm` is non-empty](https://github.com/rust-lang/cargo/pull/17071)
+* [`resolver`: move yank policy to resolver layer](https://github.com/rust-lang/cargo/pull/17083)
+
+#### Rustdoc
+* [also run lint `unused_doc_comments`](https://github.com/rust-lang/rust/pull/141000)
+* [cleanup and (micro-)optimize `print_where_clause`](https://github.com/rust-lang/rust/pull/157874)
+* [correct doctest span for trailing semicolon after item](https://github.com/rust-lang/rust/pull/157740)
+* [don't strip hidden items in `AliasedNonLocalStripper`](https://github.com/rust-lang/rust/pull/157838)
+* [some more lazy formatting](https://github.com/rust-lang/rust/pull/157796)
+
+#### Rustfmt
+* [add `doc_comment_code_block_small_heuristics`, to override `use_small_heuristics` in doc code](https://github.com/rust-lang/rustfmt/pull/6616)
+* [stabilize `hex_literal_case`](https://github.com/rust-lang/rustfmt/pull/6935)
+
+#### Clippy
+* [new `by_ref_peekable_peek` lint](https://github.com/rust-lang/rust-clippy/pull/17042)
+* [add `with_capacity_zero` lint](https://github.com/rust-lang/rust-clippy/pull/17192)
+* [`mem_replace_with_default`: also emit inside macros](https://github.com/rust-lang/rust-clippy/pull/17191)
+* [`infallible_destructuring_match`: clean-up, split off the suggestion from the main message](https://github.com/rust-lang/rust-clippy/pull/17175)
+* [`manual_is_variant_and`: lint `result.ok().is_some_and(f)`](https://github.com/rust-lang/rust-clippy/pull/17184)
+* [`needless_borrow`: same-name methods false positive](https://github.com/rust-lang/rust-clippy/pull/17171)
+* [`unnecessary_lazy_evaluations`: handle closure `->`](https://github.com/rust-lang/rust-clippy/pull/17216)
+* [deprecate the `from_iter_instead_of_collect` lint](https://github.com/rust-lang/rust-clippy/pull/17208)
+* [remove `is_integer_const`](https://github.com/rust-lang/rust-clippy/pull/17204)
+* [do not trigger `ref_patterns` lint on automatically derived code](https://github.com/rust-lang/rust-clippy/pull/17250)
+* [enhance never loop](https://github.com/rust-lang/rust-clippy/pull/17145)
+* [add profile-specific configuration for disallowed methods and types](https://github.com/rust-lang/rust-clippy/pull/15779)
+* [fix `collapsible_match` suggests wrongly when match body has no braces](https://github.com/rust-lang/rust-clippy/pull/16749)
+* [fix `unnecessary_sort_by` reverse suggestion using wrong closure parameter name](https://github.com/rust-lang/rust-clippy/pull/16868)
+* [fix redundant closure call async false positive](https://github.com/rust-lang/rust-clippy/pull/17107)
+* [perf: check `is_in_test` last in `incompatible_msrv`](https://github.com/rust-lang/rust-clippy/pull/17218)
+* [perf: check the token kind before extracting source in early literal lints](https://github.com/rust-lang/rust-clippy/pull/17219)
+* [perf: match expression shape before MSRV check in `cloned_ref_to_slice_refs`](https://github.com/rust-lang/rust-clippy/pull/17220)
+* [perf: skip `doc_markdown` text collection and word scan when the lint is allowed](https://github.com/rust-lang/rust-clippy/pull/17217)
+* [perf: skip `single_component_path_imports` module walk when nothing to lint](https://github.com/rust-lang/rust-clippy/pull/17225)
+
+#### Rust-Analyzer
+* [create directory for `cargo xtask metrics rustc_tests`](https://github.com/rust-lang/rust-analyzer/pull/22562)
+* [don't count C-variadic `...` as a parameter for fn pointers](https://github.com/rust-lang/rust-analyzer/pull/22575)
+* [support flyimport exclude variants](https://github.com/rust-lang/rust-analyzer/pull/22549)
+* [fix destructuring assignments not introducing moves](https://github.com/rust-lang/rust-analyzer/pull/22566)
+* [offer inline macro in macro call and proc macro](https://github.com/rust-lang/rust-analyzer/pull/22584)
+* [prefer bench command when target is bench to avoid cargo run](https://github.com/rust-lang/rust-analyzer/pull/22591)
+* [supports inline variable in macro](https://github.com/rust-lang/rust-analyzer/pull/22551)
+* [use package id as argument to `--package` if package is not unique](https://github.com/rust-lang/rust-analyzer/pull/22574)
+* [assist `inline_type_alias` work on ADT definitions](https://github.com/rust-lang/rust-analyzer/pull/22545)
+* [perf: defer initial workspace flycheck until cache priming completes](https://github.com/rust-lang/rust-analyzer/pull/22579)
+* [remove docs about removed `analysis-bench` command](https://github.com/rust-lang/rust-analyzer/pull/22561)
+* [remove unnecessary feature flags from tests](https://github.com/rust-lang/rust-analyzer/pull/22571)
+* [use ASCII lowercase for dylib extensions check](https://github.com/rust-lang/rust-analyzer/pull/22585)
 
 ### Rust Compiler Performance Triage
 
@@ -298,7 +376,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> "The never type is named after the date of its stabilization" was a good joke while it lasted.
+
+– [Sergey "Shnatsel" Davidoff on /r/rust](https://www.reddit.com/r/rust/comments/1u1v53c/the_never_type_is_likely_to_stabilize_soon/oqss8ii/)
+
+Thanks to [Dos Moonen](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1780) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
