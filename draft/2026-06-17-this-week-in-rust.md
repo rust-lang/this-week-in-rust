@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 * [Basin: Numerical Optimization in Rust](https://jolars.co/blog/2026-06-10-basin/)
 * [Carboxyl 0.1.0-rc: A servo-based browser for the terminal](https://github.com/carboxyl-rs/carboxyl/releases/tag/v0.1.0-servo-rc.1)
 * [kache 0.6.0: a shareable Rust + C/C++ build cache](https://github.com/kunobi-ninja/kache/releases/tag/v0.6.0)
+* [numax v0.1.0 – first stable release of the numax distributed WASM runtime](https://github.com/GianIac/numax/releases/tag/v0.1.0)
 
 ### Observations/Thoughts
 * [zlib-rs in Firefox](https://trifectatech.org/blog/zlib-rs-in-firefox/)
