@@ -56,6 +56,7 @@ and just ask the editors to select the category.
 * [numax v0.1.0 – first stable release of the numax distributed WASM runtime](https://github.com/GianIac/numax/releases/tag/v0.1.0)
 * [ZamSync: offline-first Rust sync engine](https://dev.to/etoile_bleu/-i-built-a-sync-engine-for-clinics-that-run-on-2g-and-lose-power-mid-transfer-here-is-why-and-18od)
 * [Ktav — a quote-free config format](https://dev.to/phpcraftdream/ktav-i-got-fed-up-with-every-config-format-so-i-built-one-with-no-quotes-no-commas-no-54an)
+* [Danube Messaging: Tiered Storage Architecture for At-Least-Once Delivery](https://danube-messaging.com/durability/overview/)
 
 ### Observations/Thoughts
 * [zlib-rs in Firefox](https://trifectatech.org/blog/zlib-rs-in-firefox/)
