@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [ANIMUS v4.0: an autonomous Rust system with a self-auditing knowledge graph, running a local LLM via llama.cpp on consumer GPU](https://github.com/shellhack/animus-ai)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
