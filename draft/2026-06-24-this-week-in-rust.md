@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [solow — a from-scratch, fully-verified statistics & econometrics toolkit for Rust](https://github.com/benovamurat/solow)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
