@@ -55,6 +55,8 @@ and just ask the editors to select the category.
 * [kache 0.6.0: a shareable Rust + C/C++ build cache](https://github.com/kunobi-ninja/kache/releases/tag/v0.6.0)
 * [numax v0.1.0 – first stable release of the numax distributed WASM runtime](https://github.com/GianIac/numax/releases/tag/v0.1.0)
 
+* [ZamSync: offline-first Rust sync engine](https://dev.to/etoile_bleu/-i-built-a-sync-engine-for-clinics-that-run-on-2g-and-lose-power-mid-transfer-here-is-why-and-18od)
+
 ### Observations/Thoughts
 * [zlib-rs in Firefox](https://trifectatech.org/blog/zlib-rs-in-firefox/)
 * [Rust Prevents Data Races, Not Race Conditions](https://corrode.dev/blog/rust-prevents-data-races-not-race-conditions/)
