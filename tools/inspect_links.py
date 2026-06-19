@@ -19,7 +19,6 @@ import pygit2
 import urllib.parse
 
 LOG = logging.getLogger(__name__)
-LOG.setLevel(logging.INFO)
 
 
 class Diagnostics:
@@ -296,8 +295,11 @@ def main():
     parser.add_argument('--debug', action='store_true')
     args = parser.parse_args()
     if args.debug:
-        LOG.setLevel(logging.DEBUG)
+        logging.basicConfig(level=logging.DEBUG)
+    else:
+        logging.basicConfig(level=logging.INFO)
     LOG.debug(f'command-line arguments: {args}')
+
     file_list = get_recent_files(args.paths, args.num_recent)
     inspect_files(file_list)
 
@@ -319,23 +321,17 @@ def main():
         warnings = []
 
     if errors or warnings:
-        print("diagnostics exist:")
+        LOG.info("diagnostics exist:")
         for d in errors:
             print(f"* error: {d}")
         for d in warnings:
             print(f"* warning: {d}")
     else:
-        print("everything is ok!")
+        LOG.info("everything is ok!")
 
     if errors:
         sys.exit(1)
 
 
-def setup_logging():
-    log_stdout = logging.StreamHandler(sys.stdout)
-    logging.getLogger('').addHandler(log_stdout)
-
-
 if __name__ == "__main__":
-    setup_logging()
     main()

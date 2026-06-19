@@ -12,7 +12,11 @@ import argparse
 import bs4
 import markdown
 import sys
-from inspect_links import diagnostics, get_recent_files, setup_logging
+from inspect_links import diagnostics, get_recent_files
+import logging
+
+
+LOG = logging.getLogger(__name__)
 
 """
 This is a collection of html tags that have appeared in past issues.
@@ -75,18 +79,18 @@ def main():
 
 
 if __name__ == "__main__":
-    setup_logging()
+    logging.basicConfig(level=logging.INFO)
     main()
 
     errors, warnings = diagnostics.drain_errors_and_warnings()
     # TODO: if we want warnings here, add/reuse the --show-warnings and --since logic from inspect_links.py
     assert not warnings, "we don't expect warnings in this script"
     if errors:
-        print("errors exist:")
+        LOG.info("errors exist:")
         for d in errors:
             print(f"* error: {d}")
     else:
-        print("everything is ok!")
+        LOG.info("everything is ok!")
 
     if errors:
         sys.exit(1)
