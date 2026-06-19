@@ -12,7 +12,7 @@ import argparse
 import bs4
 import markdown
 import sys
-from inspect_links import get_recent_files, setup_logging, warnings
+from inspect_links import diagnostics, get_recent_files, setup_logging
 
 """
 This is a collection of html tags that have appeared in past issues.
@@ -34,11 +34,11 @@ def render_file(filename):
 
         # Empty backticks don't make much sense.
         if line.count('``') > 0:
-            warnings.warn(f'{filename}: found empty backticks: "{line}"')
+            diagnostics.error(f'{filename}: found empty backticks: "{line}"')
 
         c = line.count('`')
         if c % 2 != 0:
-            warnings.warn(f'{filename}: found odd backticks: "{line}"')
+            diagnostics.error(f'{filename}: found odd backticks: "{line}"')
 
     html = markdown.markdown(md_text)
     return html
@@ -50,11 +50,11 @@ def check_tags(html, file):
     for tag in bs4.BeautifulSoup(html, 'html.parser').find_all():
         if tag.name not in VALID_TAGS:
             tag_str = str(tag)[:50]
-            warnings.warn(
+            diagnostics.error(
                 f'{file}: unrecognized tag {tag.name} in "{tag_str}"')
         if tag.name == 'li':
             if tag.get_text() == '':
-                warnings.warn(f'{file}: empty <{tag.name}> tag after {prev_tag}')
+                diagnostics.error(f'{file}: empty <{tag.name}> tag after {prev_tag}')
         prev_tag = tag
 
 def main():
@@ -78,11 +78,15 @@ if __name__ == "__main__":
     setup_logging()
     main()
 
-    warns = warnings.get()
-    if warns:
-        print("warnings exist:")
-        for w in warns:
-            print(w)
-        sys.exit(1)
+    errors, warnings = diagnostics.drain_errors_and_warnings()
+    # TODO: if we want warnings here, add/reuse the --show-warnings and --since logic from inspect_links.py
+    assert not warnings, "we don't expect warnings in this script"
+    if errors:
+        print("errors exist:")
+        for d in errors:
+            print(f"* error: {d}")
     else:
         print("everything is ok!")
+
+    if errors:
+        sys.exit(1)
