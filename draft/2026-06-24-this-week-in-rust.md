@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [m-vis 0.4.0-rc1 is released - A lightweight cross-platform memory visualizer and leak detector tool](https://github.com/SickleFire/m-vis)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
