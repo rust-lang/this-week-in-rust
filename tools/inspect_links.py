@@ -47,6 +47,9 @@ warnings = Warnings()
 # A regex that matches filenames to inspect.
 RE_FILENAME = re.compile(r'\d\d\d\d-\d\d-\d\d-this-week-in-rust.md$')
 
+# A regex that matches bare GitHub repo URLs.
+RE_GITHUB_REPO = re.compile(r'https://github.com/[^/]+/[^/]+/?[^/]*$')
+
 # A block-list of tracking parameters
 TRACKING_PARAMETERS = set([
     'utm_source',
@@ -86,9 +89,9 @@ def check_truncated_title(tag):
     if title and title.endswith('...') and len(title) == 70:
         warnings.warn(f'truncated link title: {repr(title)}')
 
-def check_domain(domain, url):
-  if domain.lower() == "github.com":
-    warnings.warn(f"link {url} is to github.com -- we do not usually include links directly to GitHub repos; "
+def check_suspicious(domain, url):
+  if RE_GITHUB_REPO.match(url):
+    warnings.warn(f"link {url} is directly to a GitHub repo; "
       "please double check our guidelines here: https://github.com/rust-lang/this-week-in-rust#projectstooling-updates")
   elif domain.lower() == "crates.io":
     warnings.warn(f"link {url} is to crates.io -- we do not usually include links directly to crates on crates.io; "
@@ -217,8 +220,7 @@ def parse_url(link):
     # need to warn about
     reconstituted = urllib.parse.urlunsplit((scheme, loc, path, query, frag))
 
-    # Disabled since it's currently failing on the main branch: checks are too strict
-    # check_domain(loc, link)
+    check_suspicious(loc, link)
 
     return reconstituted
 
