@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [12 ms microVM cold start via MAP_PRIVATE](https://github.com/ip888/rust-nano-vm/blob/main/docs/blog/01-mmap-private.md) — how `MAP_PRIVATE` CoW gives rust-nano-vm ~12 ms cold starts and ~0.5 MiB private memory per fork.
 
 ### Observations/Thoughts
 
