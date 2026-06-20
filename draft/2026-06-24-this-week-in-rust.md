@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Releasing bincode-next v3.1.1 (v3 stabilization release!)](https://users.rust-lang.org/t/releasing-bincode-next-v3-1-1-v3-stabilization-release/140842/)
 
 ### Observations/Thoughts
 
