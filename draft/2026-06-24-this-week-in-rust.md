@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [RustCurious lesson 9: Traits are Interfaces](https://www.youtube.com/watch?v=RKojTb9IVJc)
+
 ### Research
 
 ### Miscellaneous
