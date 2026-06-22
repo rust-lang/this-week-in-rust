@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rustty 1.34 - a cross-platform SSH/SFTP/FTP/RDP client and connection manager built with Rust and Tauri](https://github.com/Aleixenandros/Rustty/releases/tag/v1.34.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
