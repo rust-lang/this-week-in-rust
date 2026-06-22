@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Danube Messaging: Tiered Storage Architecture for At-Least-Once Delivery](https://danube-messaging.com/durability/overview/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
