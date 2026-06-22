@@ -1,21 +1,22 @@
 use anyhow::{anyhow, bail, Context, Result};
-use clap::Parser;
-use git2::{Commit, FetchOptions, Oid, Repository, Signature, StatusOptions};
+use clap::{Parser, Subcommand};
+use git2::{
+    Commit, Cred, CredentialType, FetchOptions, Oid, RemoteCallbacks, Repository, Signature,
+    StatusOptions,
+};
+use log::{info, warn};
 use octocrab::Octocrab;
 use regex::Regex;
 use serde::Deserialize;
-use std::collections::{BTreeMap, BTreeSet, HashMap};
+use std::collections::{BTreeMap, BTreeSet};
 use std::env;
 use std::fs;
-use std::io::Write;
 use std::path::{Path, PathBuf};
-use std::process::Command;
-use tempfile::Builder;
 
 const DEFAULT_REMOTE: &str = "rust-lang/this-week-in-rust";
 const DEFAULT_BASE: &str = "main";
 const COMMUNITY_HEADING: &str = "## Updates from Rust Community";
-const MARKER_PREFIX: &str = "<!-- submerge-pr:";
+const MARKER_TOKEN: &str = "submerge-pr:";
 
 #[derive(Debug, Parser)]
 #[command(
@@ -23,6 +24,20 @@ const MARKER_PREFIX: &str = "<!-- submerge-pr:";
     about = "Aggregate one-link TWiR submission PRs into a local multi-parent merge commit"
 )]
 pub struct Args {
+    #[command(subcommand)]
+    pub command: CommandArgs,
+}
+
+#[derive(Debug, Subcommand)]
+pub enum CommandArgs {
+    /// Discover eligible PRs and write an editable merge buffer.
+    Fetch(FetchArgs),
+    /// Read an edited merge buffer and create the local multi-parent merge commit.
+    Merge(MergeArgs),
+}
+
+#[derive(Debug, Parser)]
+pub struct FetchArgs {
     /// GitHub repository to inspect, as owner/name.
     #[arg(long, default_value = DEFAULT_REMOTE)]
     pub repo: String,
@@ -35,17 +50,44 @@ pub struct Args {
     #[arg(long)]
     pub draft: Option<PathBuf>,
 
-    /// Editor command. Defaults to $EDITOR.
+    /// Editable Markdown buffer to write. Defaults to the selected draft file.
     #[arg(long)]
-    pub editor: Option<String>,
+    pub output: Option<PathBuf>,
+
+    /// Allow tracked local modifications before writing the intermediate draft.
+    #[arg(long)]
+    pub allow_dirty: bool,
+
+    /// Print the editable merge buffer instead of writing files.
+    #[arg(long)]
+    pub dry_run: bool,
+}
+
+#[derive(Debug, Parser)]
+pub struct MergeArgs {
+    /// GitHub repository to fetch PR heads from, as owner/name.
+    #[arg(long, default_value = DEFAULT_REMOTE)]
+    pub repo: String,
+
+    /// Draft file to update. Defaults to the latest draft/YYYY-MM-DD-this-week-in-rust.md.
+    #[arg(long)]
+    pub draft: Option<PathBuf>,
+
+    /// Configured git remote to fetch PR heads from. Defaults to a matching upstream/origin remote.
+    #[arg(long)]
+    pub git_remote: Option<String>,
+
+    /// Explicit git URL to fetch PR heads from. Overrides --git-remote.
+    #[arg(long)]
+    pub git_url: Option<String>,
+
+    /// Edited Markdown buffer to read. Defaults to the selected draft file.
+    #[arg(long)]
+    pub input: Option<PathBuf>,
 
     /// Allow tracked local modifications before running.
     #[arg(long)]
     pub allow_dirty: bool,
-
-    /// Build the editable merge buffer and print a summary without opening an editor or committing.
-    #[arg(long)]
-    pub dry_run: bool,
 }
 
 #[derive(Debug, Clone, PartialEq, Eq)]
@@ -56,8 +98,24 @@ pub struct Submission {
     pub pr_url: String,
     pub url: String,
     pub head_sha: String,
+    pub ci_state: CiState,
     pub section: String,
     pub line: String,
+}
+
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub enum CiState {
+    Success,
+    Failure,
+}
+
+impl CiState {
+    fn emoji(self) -> &'static str {
+        match self {
+            CiState::Success => "✅",
+            CiState::Failure => "❌",
+        }
+    }
 }
 
 #[derive(Debug, Clone, PartialEq, Eq)]
@@ -117,18 +175,49 @@ struct ApiFile {
     patch: Option<String>,
 }
 
+#[derive(Debug, Deserialize)]
+struct ApiCheckRuns {
+    total_count: u64,
+    check_runs: Vec<ApiCheckRun>,
+}
+
+#[derive(Debug, Deserialize)]
+struct ApiCheckRun {
+    status: String,
+    conclusion: Option<String>,
+}
+
+#[derive(Debug, Deserialize)]
+struct ApiCombinedStatus {
+    state: String,
+    statuses: Vec<ApiStatus>,
+}
+
+#[derive(Debug, Deserialize)]
+struct ApiStatus {
+    state: String,
+}
+
 #[derive(Debug, Clone, PartialEq, Eq)]
 pub struct EditedBuffer {
     pub final_text: String,
-    pub included_prs: BTreeSet<u64>,
+    pub included: Vec<Submission>,
 }
 
 pub async fn run(args: Args) -> Result<()> {
+    match args.command {
+        CommandArgs::Fetch(args) => run_fetch(args).await,
+        CommandArgs::Merge(args) => run_merge(args),
+    }
+}
+
+async fn run_fetch(args: FetchArgs) -> Result<()> {
+    info!("opening git repository");
     let repo = Repository::discover(".").context("open git repository")?;
     if !args.allow_dirty {
+        info!("checking tracked worktree status");
         ensure_tracked_worktree_clean(&repo)?;
     }
-
     let workdir = repo
         .workdir()
         .ok_or_else(|| anyhow!("submerge must run in a non-bare repository"))?;
@@ -137,16 +226,28 @@ pub async fn run(args: Args) -> Result<()> {
         None => find_latest_draft(workdir)?,
     };
     let draft_rel = normalize_repo_relative_path(workdir, &draft)?;
+    info!("using draft {}", draft_rel.display());
     let draft_text = fs::read_to_string(workdir.join(&draft_rel))
         .with_context(|| format!("read {}", draft_rel.display()))?;
 
     let (owner, name) = parse_repo_name(&args.repo)?;
-    let client = github_client()?;
+    let (client, authenticated) = github_client()?;
+    if authenticated {
+        info!("using authenticated GitHub API client");
+    } else {
+        warn!("GITHUB_TOKEN/GH_TOKEN is not set; GitHub API requests are unauthenticated and may be rate-limited");
+    }
+    info!(
+        "listing open PRs for {}/{} targeting {}",
+        owner, name, args.base
+    );
     let pulls = fetch_open_pulls(&client, owner, name, &args.base).await?;
+    info!("found {} open PRs", pulls.len());
     let mut submissions = Vec::new();
     let mut skipped = Vec::new();
 
     for pull in pulls {
+        info!("checking PR #{}: {}", pull.number, pull.title);
         if pull.draft {
             skipped.push(SkippedPr {
                 pr: pull.number,
@@ -166,7 +267,12 @@ pub async fn run(args: Args) -> Result<()> {
 
         let files = fetch_pr_files(&client, owner, name, pull.number).await?;
         match classify_pr(&pull, &files, &draft_rel) {
-            Ok(submission) => submissions.push(submission),
+            Ok(mut submission) => {
+                info!("checking CI state for PR #{}", submission.pr);
+                submission.ci_state =
+                    fetch_ci_state(&client, owner, name, &submission.head_sha).await?;
+                submissions.push(submission);
+            }
             Err(reason) => skipped.push(SkippedPr {
                 pr: pull.number,
                 title: pull.title,
@@ -176,6 +282,7 @@ pub async fn run(args: Args) -> Result<()> {
     }
 
     submissions.sort_by_key(|submission| submission.pr);
+    info!("classification complete");
     print_summary(&submissions, &skipped);
 
     if submissions.is_empty() {
@@ -188,35 +295,73 @@ pub async fn run(args: Args) -> Result<()> {
         return Ok(());
     }
 
-    let edited = edit_buffer(&buffer, args.editor.as_deref())?;
-    let parsed = parse_edited_buffer(&edited)?;
-    if parsed.included_prs.is_empty() {
-        bail!("edited buffer did not retain any PR markers");
+    let output = match args.output {
+        Some(path) => normalize_repo_relative_path(workdir, &path)?,
+        None => draft_rel.clone(),
+    };
+    fs::write(workdir.join(&output), buffer)
+        .with_context(|| format!("write editable buffer {}", output.display()))?;
+    println!("wrote editable buffer to {}", output.display());
+    println!(
+        "edit {}, run any checks you want, then run: submerge merge",
+        output.display()
+    );
+    Ok(())
+}
+
+fn run_merge(args: MergeArgs) -> Result<()> {
+    info!("opening git repository");
+    let repo = Repository::discover(".").context("open git repository")?;
+    let workdir = repo
+        .workdir()
+        .ok_or_else(|| anyhow!("submerge must run in a non-bare repository"))?;
+
+    let draft = match args.draft {
+        Some(path) => path,
+        None => find_latest_draft(workdir)?,
+    };
+    let draft_rel = normalize_repo_relative_path(workdir, &draft)?;
+    info!("using draft {}", draft_rel.display());
+    let input_rel = match args.input {
+        Some(path) => normalize_repo_relative_path(workdir, &path)?,
+        None => draft_rel.clone(),
+    };
+
+    if !args.allow_dirty {
+        info!("checking tracked worktree status");
+        if input_rel == draft_rel {
+            ensure_tracked_worktree_clean_except(&repo, &draft_rel)?;
+        } else {
+            ensure_tracked_worktree_clean(&repo)?;
+        }
     }
 
-    let submission_by_pr: HashMap<u64, Submission> = submissions
-        .iter()
-        .map(|submission| (submission.pr, submission.clone()))
-        .collect();
-    let included: Vec<Submission> = parsed
-        .included_prs
-        .iter()
-        .map(|pr| {
-            submission_by_pr
-                .get(pr)
-                .cloned()
-                .ok_or_else(|| anyhow!("edited buffer references unknown PR #{pr}"))
-        })
-        .collect::<Result<_>>()?;
+    info!("reading edited buffer {}", input_rel.display());
+    let edited = fs::read_to_string(workdir.join(&input_rel))
+        .with_context(|| format!("read edited buffer {}", input_rel.display()))?;
+    info!("parsing edited buffer");
+    let parsed = parse_edited_buffer(&edited)?;
+    if parsed.included.is_empty() {
+        bail!("edited buffer did not retain any PR markers");
+    }
+    info!("retained {} PRs", parsed.included.len());
 
-    let parent_oids = fetch_and_verify_pr_heads(&repo, &args.repo, &included)?;
+    info!("fetching retained PR heads");
+    let parent_oids = fetch_and_verify_pr_heads(
+        &repo,
+        &args.repo,
+        args.git_remote.as_deref(),
+        args.git_url.as_deref(),
+        &parsed.included,
+    )?;
+    info!("creating local merge commit");
     let commit_oid = create_merge_commit(
         &repo,
         workdir,
         &draft_rel,
         &parsed.final_text,
-        &included,
-        &skipped,
+        &parsed.included,
+        &[],
         &parent_oids,
     )?;
 
@@ -234,15 +379,19 @@ fn parse_repo_name(repo: &str) -> Result<(&str, &str)> {
     Ok((owner, name))
 }
 
-fn github_client() -> Result<Octocrab> {
+fn github_client() -> Result<(Octocrab, bool)> {
     let token = env::var("GITHUB_TOKEN")
         .or_else(|_| env::var("GH_TOKEN"))
         .ok();
     let mut builder = Octocrab::builder();
+    let authenticated = token.is_some();
     if let Some(token) = token {
         builder = builder.personal_token(token);
     }
-    builder.build().context("build GitHub client")
+    Ok((
+        builder.build().context("build GitHub client")?,
+        authenticated,
+    ))
 }
 
 async fn fetch_open_pulls(
@@ -326,6 +475,53 @@ async fn fetch_pr_files(
         page += 1;
     }
     Ok(files)
+}
+
+async fn fetch_ci_state(client: &Octocrab, owner: &str, name: &str, sha: &str) -> Result<CiState> {
+    #[derive(serde::Serialize)]
+    struct CheckRunParams {
+        per_page: u8,
+    }
+
+    #[derive(serde::Serialize)]
+    struct EmptyParams {}
+
+    let check_runs: ApiCheckRuns = client
+        .get(
+            format!("/repos/{owner}/{name}/commits/{sha}/check-runs"),
+            Some(&CheckRunParams { per_page: 100 }),
+        )
+        .await
+        .with_context(|| format!("list check runs for {sha}"))?;
+    let combined_status: ApiCombinedStatus = client
+        .get(
+            format!("/repos/{owner}/{name}/commits/{sha}/status"),
+            Some(&EmptyParams {}),
+        )
+        .await
+        .with_context(|| format!("read combined status for {sha}"))?;
+
+    let has_check_runs = check_runs.total_count > 0;
+    let check_runs_ok = check_runs.check_runs.iter().all(|check| {
+        check.status == "completed"
+            && matches!(
+                check.conclusion.as_deref(),
+                Some("success" | "skipped" | "neutral")
+            )
+    });
+
+    let has_statuses = !combined_status.statuses.is_empty();
+    let combined_state_ok = combined_status.state == "success"
+        && combined_status
+            .statuses
+            .iter()
+            .all(|status| status.state == "success");
+
+    if (has_check_runs || has_statuses) && check_runs_ok && (!has_statuses || combined_state_ok) {
+        Ok(CiState::Success)
+    } else {
+        Ok(CiState::Failure)
+    }
 }
 
 fn classify_pr(
@@ -429,6 +625,7 @@ fn classify_pr(
         pr_url: pull.url.clone(),
         url,
         head_sha: pull.head_sha.clone(),
+        ci_state: CiState::Failure,
         section,
         line,
     })
@@ -493,8 +690,12 @@ fn build_edit_buffer(draft_text: &str, submissions: &[Submission]) -> Result<Str
         }
         for submission in section_submissions {
             out.push(format!(
-                "<!-- submerge-pr:{} sha={} url={} author={} -->",
-                submission.pr, submission.head_sha, submission.pr_url, submission.author
+                "<!-- {} submerge-pr:{} sha={} url={} author={} -->",
+                submission.ci_state.emoji(),
+                submission.pr,
+                submission.head_sha,
+                submission.pr_url,
+                submission.author
             ));
             out.push(submission.line.clone());
         }
@@ -513,21 +714,23 @@ fn build_edit_buffer(draft_text: &str, submissions: &[Submission]) -> Result<Str
 
 fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
     let marker_re = Regex::new(
-        r"^<!-- submerge-pr:(?P<pr>\d+) sha=(?P<sha>[0-9a-fA-F]{40}) url=(?P<url>\S+) author=(?P<author>.*?) -->$",
+        r"^<!-- (?:(?P<ci>✅|❌) )?submerge-pr:(?P<pr>\d+) sha=(?P<sha>[0-9a-fA-F]{40}) url=(?P<url>\S+) author=(?P<author>.*?) -->$",
     )?;
-    let mut included = BTreeSet::new();
+    let mut seen_prs = BTreeSet::new();
+    let mut included = Vec::new();
     let mut output = Vec::new();
     let lines: Vec<&str> = text.lines().collect();
     let mut idx = 0;
+    let mut current_section: Option<String> = None;
 
     while idx < lines.len() {
         let line = lines[idx];
-        if line.trim_start().starts_with(MARKER_PREFIX) {
+        if line.trim_start().starts_with("<!--") && line.contains(MARKER_TOKEN) {
             let captures = marker_re
                 .captures(line.trim())
                 .ok_or_else(|| anyhow!("malformed submerge marker: {line}"))?;
             let pr: u64 = captures["pr"].parse()?;
-            if !included.insert(pr) {
+            if !seen_prs.insert(pr) {
                 bail!("duplicate marker for PR #{pr}");
             }
 
@@ -538,13 +741,33 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
             if probe >= lines.len() {
                 bail!("PR #{pr} marker is not followed by a list item");
             }
-            if parse_submission_line(lines[probe]).is_none() {
-                bail!(
+            let (title, url) = parse_submission_line(lines[probe]).ok_or_else(|| {
+                anyhow!(
                     "PR #{pr} marker is followed by an invalid list item: {}",
                     lines[probe]
-                );
-            }
+                )
+            })?;
+            let section = current_section
+                .clone()
+                .ok_or_else(|| anyhow!("PR #{pr} marker appears before a section heading"))?;
+            included.push(Submission {
+                pr,
+                title,
+                author: captures["author"].to_string(),
+                pr_url: captures["url"].to_string(),
+                url,
+                head_sha: captures["sha"].to_string(),
+                ci_state: match captures.name("ci").map(|m| m.as_str()) {
+                    Some("✅") => CiState::Success,
+                    _ => CiState::Failure,
+                },
+                section,
+                line: lines[probe].to_string(),
+            });
         } else {
+            if let Some(section) = line.strip_prefix("### ").map(str::trim) {
+                current_section = Some(section.to_string());
+            }
             output.push(line.to_string());
         }
         idx += 1;
@@ -553,49 +776,45 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
     let trailing_newline = if text.ends_with('\n') { "\n" } else { "" };
     Ok(EditedBuffer {
         final_text: format!("{}{}", output.join("\n"), trailing_newline),
-        included_prs: included,
+        included,
     })
-}
-
-fn edit_buffer(initial: &str, editor: Option<&str>) -> Result<String> {
-    let editor = editor
-        .map(str::to_string)
-        .or_else(|| env::var("EDITOR").ok())
-        .ok_or_else(|| anyhow!("$EDITOR is not set; pass --editor or use --dry-run"))?;
-
-    let mut file = Builder::new()
-        .prefix("submerge-")
-        .suffix(".md")
-        .tempfile()
-        .context("create editor temp file")?;
-    file.write_all(initial.as_bytes())?;
-    file.flush()?;
-
-    let status = Command::new(editor)
-        .arg(file.path())
-        .status()
-        .context("run editor")?;
-    if !status.success() {
-        bail!("editor exited with status {status}");
-    }
-
-    fs::read_to_string(file.path()).context("read edited buffer")
 }
 
 fn fetch_and_verify_pr_heads(
     repo: &Repository,
     remote_repo: &str,
+    git_remote: Option<&str>,
+    git_url: Option<&str>,
     submissions: &[Submission],
 ) -> Result<Vec<Oid>> {
-    let remote_url = format!("https://github.com/{remote_repo}.git");
+    let remote_url = remote_url_for_repo(repo, remote_repo, git_remote, git_url)?;
     let mut remote = repo
         .remote_anonymous(&remote_url)
         .with_context(|| format!("open anonymous remote {remote_url}"))?;
 
+    let git_token = env::var("GITHUB_TOKEN")
+        .or_else(|_| env::var("GH_TOKEN"))
+        .ok();
+    let mut callbacks = RemoteCallbacks::new();
+    callbacks.credentials(move |_url, username_from_url, allowed| {
+        if allowed.contains(CredentialType::SSH_KEY) {
+            Cred::ssh_key_from_agent(username_from_url.unwrap_or("git"))
+        } else if allowed.contains(CredentialType::USER_PASS_PLAINTEXT) {
+            if let Some(token) = git_token.as_deref() {
+                Cred::userpass_plaintext("x-access-token", token)
+            } else {
+                Cred::default()
+            }
+        } else {
+            Cred::default()
+        }
+    });
     let mut fetch_options = FetchOptions::new();
+    fetch_options.remote_callbacks(callbacks);
 
     let mut oids = Vec::new();
     for submission in submissions {
+        info!("fetching PR #{} from {}", submission.pr, remote_url);
         let local_ref = format!("refs/submerge/pr-{}", submission.pr);
         let refspec = format!("+refs/pull/{}/head:{local_ref}", submission.pr);
         remote
@@ -619,6 +838,109 @@ fn fetch_and_verify_pr_heads(
         oids.push(oid);
     }
     Ok(oids)
+}
+
+fn remote_url_for_repo(
+    repo: &Repository,
+    remote_repo: &str,
+    git_remote: Option<&str>,
+    git_url: Option<&str>,
+) -> Result<String> {
+    if let Some(url) = git_url {
+        let normalized = normalize_git_url_for_libgit2(url);
+        info!("using explicit git URL {normalized}");
+        return Ok(normalized);
+    }
+
+    if let Some(remote_name) = git_remote {
+        let remote = repo
+            .find_remote(remote_name)
+            .with_context(|| format!("read remote {remote_name}"))?;
+        let url = remote
+            .url()
+            .with_context(|| format!("read URL for remote {remote_name}"))?;
+        let normalized = normalize_git_url_for_libgit2(url);
+        info!("using git remote {remote_name}: {normalized}");
+        return Ok(normalized);
+    }
+
+    let remotes = repo.remotes().context("list git remotes")?;
+    let mut matching_remotes = Vec::new();
+
+    for remote_name in remotes.iter().filter_map(|name| name.ok().flatten()) {
+        let remote = repo
+            .find_remote(remote_name)
+            .with_context(|| format!("read remote {remote_name}"))?;
+        let Ok(url) = remote.url() else {
+            continue;
+        };
+        if github_remote_matches(url, remote_repo) {
+            matching_remotes.push((remote_name.to_string(), url.to_string()));
+        }
+    }
+
+    if let Some((name, url)) = matching_remotes
+        .iter()
+        .find(|(name, _url)| name == "upstream")
+    {
+        let normalized = normalize_git_url_for_libgit2(url);
+        info!("using git remote {name}: {normalized}");
+        return Ok(normalized);
+    }
+
+    if let Some((name, url)) = matching_remotes
+        .iter()
+        .find(|(name, _url)| name == "origin")
+    {
+        let normalized = normalize_git_url_for_libgit2(url);
+        info!("using git remote {name}: {normalized}");
+        return Ok(normalized);
+    }
+
+    if let Some((name, url)) = matching_remotes.iter().find(|(_name, url)| is_ssh_url(url)) {
+        let normalized = normalize_git_url_for_libgit2(url);
+        info!("using git remote {name}: {normalized}");
+        return Ok(normalized);
+    }
+
+    if let Some((name, url)) = matching_remotes.first() {
+        let normalized = normalize_git_url_for_libgit2(url);
+        info!("using git remote {name}: {normalized}");
+        return Ok(normalized);
+    }
+
+    let fallback = normalize_git_url_for_libgit2(&format!("git@github.com:{remote_repo}.git"));
+    info!("no configured remote matched {remote_repo}; falling back to {fallback}");
+    Ok(fallback)
+}
+
+fn github_remote_matches(url: &str, remote_repo: &str) -> bool {
+    let normalized_url = url
+        .trim_end_matches(".git")
+        .trim_end_matches('/')
+        .to_ascii_lowercase();
+    let normalized_repo = remote_repo.trim_end_matches(".git").to_ascii_lowercase();
+    normalized_url.ends_with(&format!("github.com/{normalized_repo}"))
+        || normalized_url.ends_with(&format!("github.com:{normalized_repo}"))
+}
+
+fn is_ssh_url(url: &str) -> bool {
+    url.starts_with("git@github.com:") || url.starts_with("ssh://")
+}
+
+fn normalize_git_url_for_libgit2(url: &str) -> String {
+    if url.contains("://") {
+        return url.to_string();
+    }
+
+    let Some((user_host, path)) = url.split_once(':') else {
+        return url.to_string();
+    };
+    if !user_host.contains('@') {
+        return url.to_string();
+    }
+
+    format!("ssh://{}/{}", user_host, path.trim_start_matches('/'))
 }
 
 fn create_merge_commit(
@@ -692,21 +1014,33 @@ fn commit_message(included: &[Submission], skipped: &[SkippedPr]) -> String {
 }
 
 fn ensure_tracked_worktree_clean(repo: &Repository) -> Result<()> {
+    ensure_tracked_worktree_clean_with_allowed(repo, None)
+}
+
+fn ensure_tracked_worktree_clean_except(repo: &Repository, allowed_path: &Path) -> Result<()> {
+    ensure_tracked_worktree_clean_with_allowed(repo, Some(allowed_path))
+}
+
+fn ensure_tracked_worktree_clean_with_allowed(
+    repo: &Repository,
+    allowed_path: Option<&Path>,
+) -> Result<()> {
     let mut opts = StatusOptions::new();
     opts.include_untracked(false)
         .recurse_untracked_dirs(false)
         .renames_head_to_index(true);
     let statuses = repo.statuses(Some(&mut opts)).context("read git status")?;
-    if statuses.is_empty() {
-        return Ok(());
-    }
-
     let paths = statuses
         .iter()
         .filter_map(|entry| entry.path().ok().map(str::to_string))
+        .filter(|path| allowed_path != Some(Path::new(path)))
         .take(10)
         .collect::<Vec<_>>()
         .join(", ");
+    if paths.is_empty() {
+        return Ok(());
+    }
+
     bail!("tracked worktree is not clean: {paths}");
 }
 
@@ -854,14 +1188,18 @@ mod tests {
             pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/42".to_string(),
             url: "https://example.com/post".to_string(),
             head_sha: "0123456789abcdef0123456789abcdef01234567".to_string(),
+            ci_state: CiState::Success,
             section: "Project/Tooling Updates".to_string(),
             line: "* [Example](https://example.com/post)".to_string(),
         }];
         let buffer = build_edit_buffer(draft, &submissions).unwrap();
-        assert!(buffer.contains("submerge-pr:42"));
+        assert!(buffer.contains("<!-- ✅ submerge-pr:42"));
 
         let parsed = parse_edited_buffer(&buffer).unwrap();
-        assert!(parsed.included_prs.contains(&42));
+        assert_eq!(parsed.included.len(), 1);
+        assert_eq!(parsed.included[0].pr, 42);
+        assert_eq!(parsed.included[0].title, "Example");
+        assert_eq!(parsed.included[0].ci_state, CiState::Success);
         assert!(!parsed.final_text.contains("submerge-pr:42"));
         assert!(parsed
             .final_text
@@ -870,9 +1208,69 @@ mod tests {
 
     #[test]
     fn parse_edit_buffer_rejects_duplicate_markers() {
-        let text = "<!-- submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 url=https://example.com author=alice -->\n* [Example](https://example.com)\n<!-- submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 url=https://example.com author=alice -->\n* [Example](https://example.com)\n";
+        let text = "### Project/Tooling Updates\n<!-- ✅ submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 url=https://example.com author=alice -->\n* [Example](https://example.com)\n<!-- ❌ submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 url=https://example.com author=alice -->\n* [Example](https://example.com)\n";
         let err = parse_edited_buffer(text).unwrap_err();
         assert!(err.to_string().contains("duplicate"));
+    }
+
+    #[test]
+    fn parse_edit_buffer_reconstructs_submission_from_comments() {
+        let text = "### Project/Tooling Updates\n<!-- ❌ submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 url=https://github.com/rust-lang/this-week-in-rust/pull/42 author=alice -->\n* [Edited Title](https://example.com/edited)\n";
+        let parsed = parse_edited_buffer(text).unwrap();
+
+        assert_eq!(parsed.included.len(), 1);
+        assert_eq!(parsed.included[0].pr, 42);
+        assert_eq!(parsed.included[0].title, "Edited Title");
+        assert_eq!(parsed.included[0].url, "https://example.com/edited");
+        assert_eq!(
+            parsed.included[0].pr_url,
+            "https://github.com/rust-lang/this-week-in-rust/pull/42"
+        );
+        assert_eq!(parsed.included[0].ci_state, CiState::Failure);
+        assert_eq!(parsed.included[0].section, "Project/Tooling Updates");
+        assert!(!parsed.final_text.contains("submerge-pr"));
+    }
+
+    #[test]
+    fn finds_matching_configured_ssh_remote() {
+        let dir = tempfile::tempdir().unwrap();
+        let repo = Repository::init(dir.path()).unwrap();
+        repo.remote("origin", "git@github.com:jder/this-week-in-rust.git")
+            .unwrap();
+        repo.remote("upstream", "git@github.com:rust-lang/this-week-in-rust.git")
+            .unwrap();
+
+        let url = remote_url_for_repo(&repo, "rust-lang/this-week-in-rust", None, None).unwrap();
+        assert_eq!(url, "ssh://git@github.com/rust-lang/this-week-in-rust.git");
+    }
+
+    #[test]
+    fn normalizes_scp_style_ssh_url_for_libgit2() {
+        assert_eq!(
+            normalize_git_url_for_libgit2("git@github.com:rust-lang/this-week-in-rust.git"),
+            "ssh://git@github.com/rust-lang/this-week-in-rust.git"
+        );
+        assert_eq!(
+            normalize_git_url_for_libgit2("https://github.com/rust-lang/this-week-in-rust.git"),
+            "https://github.com/rust-lang/this-week-in-rust.git"
+        );
+    }
+
+    #[test]
+    fn explicit_git_url_overrides_remotes() {
+        let dir = tempfile::tempdir().unwrap();
+        let repo = Repository::init(dir.path()).unwrap();
+        repo.remote("upstream", "git@github.com:rust-lang/this-week-in-rust.git")
+            .unwrap();
+
+        let url = remote_url_for_repo(
+            &repo,
+            "rust-lang/this-week-in-rust",
+            None,
+            Some("git@github.com:jder/this-week-in-rust.git"),
+        )
+        .unwrap();
+        assert_eq!(url, "ssh://git@github.com/jder/this-week-in-rust.git");
     }
 
     #[test]
@@ -925,6 +1323,7 @@ mod tests {
             pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/7".to_string(),
             url: "https://example.com/post".to_string(),
             head_sha: pr_parent.to_string(),
+            ci_state: CiState::Success,
             section: "Project/Tooling Updates".to_string(),
             line: "* [Example](https://example.com/post)".to_string(),
         };
