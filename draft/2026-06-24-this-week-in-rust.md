@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+[Rust Foundation Trusted Training Program Launches, Giving Learners a Mark of Quality to Trust](https://rustfoundation.org/media/rust-foundation-trusted-training-program-launches-giving-learners-a-mark-of-quality-to-trust/)
 
 ### Newsletters
 
