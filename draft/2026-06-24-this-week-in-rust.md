@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rewriting the world in Rust](https://bitfieldconsulting.com/posts/rewrite-in-rust)
+
 ### Rust Walkthroughs
 
 ### Research
