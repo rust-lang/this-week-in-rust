@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [hotpath-rs 0.18: Profiling Async and Concurrent Rust - Channels and Lock Contention](https://hotpath.rs/blog/profiling-async-rust)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
