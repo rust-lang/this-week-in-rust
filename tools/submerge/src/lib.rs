@@ -555,7 +555,6 @@ fn classify_pr(
 
 #[derive(Default)]
 struct ItemCapture {
-    start: usize,
     section: Option<String>,
     links: Vec<LinkCapture>,
     current_link: Option<LinkCapture>,
@@ -574,7 +573,7 @@ fn extract_markdown_link_items(text: &str) -> Vec<MarkdownLinkItem> {
     let mut heading: Option<(HeadingLevel, String)> = None;
     let mut item_stack: Vec<ItemCapture> = Vec::new();
 
-    for (event, range) in MarkdownParser::new(text).into_offset_iter() {
+    for event in MarkdownParser::new(text) {
         match event {
             Event::Start(Tag::Heading { level, .. }) => {
                 heading = Some((level, String::new()));
@@ -599,7 +598,6 @@ fn extract_markdown_link_items(text: &str) -> Vec<MarkdownLinkItem> {
             }
             Event::Start(Tag::Item) => {
                 item_stack.push(ItemCapture {
-                    start: range.start,
                     section: if in_community {
                         current_section.clone()
                     } else {
@@ -612,7 +610,7 @@ fn extract_markdown_link_items(text: &str) -> Vec<MarkdownLinkItem> {
             Event::End(TagEnd::Item) => {
                 if let Some(item) = item_stack.pop() {
                     if item_stack.is_empty() {
-                        collect_markdown_link_item(text, item, range.end, &mut items);
+                        collect_markdown_link_item(item, &mut items);
                     }
                 }
             }
@@ -667,33 +665,24 @@ fn extract_markdown_link_items(text: &str) -> Vec<MarkdownLinkItem> {
     items
 }
 
-fn collect_markdown_link_item(
-    text: &str,
-    item: ItemCapture,
-    end: usize,
-    items: &mut Vec<MarkdownLinkItem>,
-) {
+fn collect_markdown_link_item(item: ItemCapture, items: &mut Vec<MarkdownLinkItem>) {
     let Some(section) = item.section else {
         return;
     };
     if item.links.len() != 1 {
         return;
     }
-    let Some(line) = text.get(item.start..end).map(str::trim_end) else {
-        return;
-    };
-    if line.contains('\n') || !line.trim_start().starts_with('*') {
-        return;
-    }
     let link = &item.links[0];
     if link.title.trim().is_empty() || link.url.trim().is_empty() {
         return;
     }
+    let title = link.title.trim();
+    let url = link.url.trim();
     items.push(MarkdownLinkItem {
         section,
-        title: link.title.trim().to_string(),
-        url: link.url.to_string(),
-        line: line.to_string(),
+        title: title.to_string(),
+        url: url.to_string(),
+        line: format!("* [{title}]({url})"),
     });
 }
 
@@ -1125,6 +1114,21 @@ mod tests {
         )
         .unwrap();
         assert_eq!(submission.section, "New Section");
+    }
+
+    #[test]
+    fn normalizes_seeded_submission_line() {
+        let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n";
+        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n- [New item](https://example.com/new)\n";
+        let submission = classify_pr(
+            &pull(6),
+            &[file("", 1, 0)],
+            Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
+        )
+        .unwrap();
+        assert_eq!(submission.line, "* [New item](https://example.com/new)");
     }
 
     #[test]
