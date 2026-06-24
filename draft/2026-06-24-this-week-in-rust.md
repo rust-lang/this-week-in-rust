@@ -42,6 +42,8 @@ and just ask the editors to select the category.
 ### Foundation
 [Rust Foundation Trusted Training Program Launches, Giving Learners a Mark of Quality to Trust](https://rustfoundation.org/media/rust-foundation-trusted-training-program-launches-giving-learners-a-mark-of-quality-to-trust/)
 
+[Rust Commercial Network Launches to Bring Commercial Users of Rust Language Together](https://rustfoundation.org/media/rust-commercial-network-launches-to-bring-commercial-users-of-rust-language-together/)
+
 ### Newsletters
 
 ### Project/Tooling Updates
