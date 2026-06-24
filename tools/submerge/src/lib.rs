@@ -12,6 +12,7 @@ use octocrab::{
     params::State,
     Octocrab,
 };
+use pulldown_cmark::{Event, HeadingLevel, Parser as MarkdownParser, Tag, TagEnd};
 use regex::Regex;
 use std::collections::{BTreeMap, BTreeSet};
 use std::env;
@@ -117,8 +118,17 @@ struct PullSummary {
     author: String,
     url: String,
     head_sha: String,
+    base_sha: String,
     draft: bool,
     base_ref: String,
+}
+
+#[derive(Debug, Clone, PartialEq, Eq, PartialOrd, Ord)]
+struct MarkdownLinkItem {
+    section: String,
+    title: String,
+    url: String,
+    line: String,
 }
 
 #[derive(Debug, Clone, PartialEq, Eq)]
@@ -189,7 +199,31 @@ async fn run_fetch(args: FetchArgs) -> Result<()> {
         }
 
         let files = fetch_pr_files(&client, owner, name, pull.number).await?;
-        match classify_pr(&pull, &files, &draft_rel) {
+        let base_text =
+            match fetch_file_text(&client, owner, name, &draft_rel, &pull.base_sha).await {
+                Ok(text) => text,
+                Err(error) => {
+                    skipped.push(SkippedPr {
+                        pr: pull.number,
+                        title: pull.title,
+                        reason: format!("could not read base draft: {error:#}"),
+                    });
+                    continue;
+                }
+            };
+        let head_text =
+            match fetch_file_text(&client, owner, name, &draft_rel, &pull.head_sha).await {
+                Ok(text) => text,
+                Err(error) => {
+                    skipped.push(SkippedPr {
+                        pr: pull.number,
+                        title: pull.title,
+                        reason: format!("could not read head draft: {error:#}"),
+                    });
+                    continue;
+                }
+            };
+        match classify_pr(&pull, &files, &draft_rel, &base_text, &head_text) {
             Ok(mut submission) => {
                 info!("checking CI state for PR #{}", submission.pr);
                 submission.ci_state =
@@ -379,8 +413,41 @@ fn pull_summary(pull: PullRequest) -> Result<PullSummary> {
         author,
         url,
         head_sha: head.sha,
+        base_sha: base.sha,
         draft: pull.draft.unwrap_or(false),
         base_ref: base.ref_field,
+    })
+}
+
+async fn fetch_file_text(
+    client: &Octocrab,
+    owner: &str,
+    name: &str,
+    path: &Path,
+    reference: &str,
+) -> Result<String> {
+    let mut contents = client
+        .repos(owner, name)
+        .get_content()
+        .path(path.to_string_lossy())
+        .r#ref(reference)
+        .send()
+        .await
+        .with_context(|| format!("read {} at {}", path.display(), reference))?;
+    let mut items = contents.take_items();
+    if items.len() != 1 {
+        bail!(
+            "expected one content item for {} at {}, got {}",
+            path.display(),
+            reference,
+            items.len()
+        );
+    }
+    items.remove(0).decoded_content().ok_or_else(|| {
+        anyhow!(
+            "GitHub did not return decodable content for {}",
+            path.display()
+        )
     })
 }
 
@@ -435,6 +502,8 @@ fn classify_pr(
     pull: &PullSummary,
     files: &[DiffEntry],
     draft_rel: &Path,
+    base_text: &str,
+    head_text: &str,
 ) -> std::result::Result<Submission, String> {
     if files.len() != 1 {
         return Err(format!("changes {} files", files.len()));
@@ -448,94 +517,184 @@ fn classify_pr(
             draft_rel.display()
         ));
     }
-    if file.deletions != 0 {
-        return Err(format!("has {} deletions", file.deletions));
+
+    let base_items = extract_markdown_link_items(base_text);
+    let head_items = extract_markdown_link_items(head_text);
+    let mut candidates: Vec<_> = head_items
+        .into_iter()
+        .filter(|head| {
+            !base_items.iter().any(|base| {
+                base.section == head.section && base.title == head.title && base.url == head.url
+            })
+        })
+        .collect();
+
+    if candidates.is_empty() {
+        return Err("does not add a valid community link item".to_string());
     }
-    if file.additions == 0 {
-        return Err("has no additions".to_string());
-    }
-
-    let patch = file
-        .patch
-        .as_deref()
-        .ok_or_else(|| "GitHub did not include a parseable patch".to_string())?;
-
-    let mut community = false;
-    let mut current_section: Option<String> = None;
-    let mut candidates = Vec::new();
-    let mut non_whitespace_additions = Vec::new();
-
-    for raw in patch.lines() {
-        if raw.starts_with("@@") || raw.starts_with("---") || raw.starts_with("+++") {
-            continue;
-        }
-        let Some(marker) = raw.as_bytes().first().copied() else {
-            continue;
-        };
-        if !matches!(marker, b' ' | b'+') {
-            continue;
-        }
-        let line = &raw[1..];
-        if line.trim() == COMMUNITY_HEADING {
-            community = true;
-            current_section = None;
-        } else if line.starts_with("## ") {
-            community = false;
-            current_section = None;
-        } else if line.starts_with("### ") {
-            let section = line.trim_start_matches("### ").trim().to_string();
-            if community || is_known_community_section(&section) {
-                community = true;
-                current_section = Some(section);
-            } else {
-                current_section = None;
-            }
-        }
-
-        if marker == b'+' {
-            if line.trim().is_empty() {
-                continue;
-            }
-            non_whitespace_additions.push(line.to_string());
-            if let Some((title, url)) = parse_submission_line(line) {
-                let section = current_section
-                    .clone()
-                    .ok_or_else(|| "link is not inside a community subsection".to_string())?;
-                if !is_known_community_section(&section) {
-                    return Err(format!(
-                        "link is in unsupported community section {section:?}"
-                    ));
-                }
-                candidates.push((title, url, section, line.to_string()));
-            }
-        }
-    }
-
     if candidates.len() != 1 {
-        if candidates.is_empty() && !non_whitespace_additions.is_empty() {
-            return Err("does not add a valid one-line markdown list item".to_string());
-        }
-        return Err(format!("adds {} valid link items", candidates.len()));
-    }
-    if non_whitespace_additions.len() != 1 {
         return Err(format!(
-            "adds {} non-whitespace lines, not one",
-            non_whitespace_additions.len()
+            "adds {} valid community link items",
+            candidates.len()
         ));
     }
 
-    let (title, url, section, line) = candidates.remove(0);
+    let candidate = candidates.remove(0);
     Ok(Submission {
         pr: pull.number,
-        title,
+        title: candidate.title,
         author: pull.author.clone(),
         pr_url: pull.url.clone(),
-        url,
+        url: candidate.url,
         head_sha: pull.head_sha.clone(),
         ci_state: CiState::Failure,
-        section,
-        line,
+        section: candidate.section,
+        line: candidate.line,
     })
+}
+
+#[derive(Default)]
+struct ItemCapture {
+    start: usize,
+    section: Option<String>,
+    links: Vec<LinkCapture>,
+    current_link: Option<LinkCapture>,
+}
+
+#[derive(Default)]
+struct LinkCapture {
+    title: String,
+    url: String,
+}
+
+fn extract_markdown_link_items(text: &str) -> Vec<MarkdownLinkItem> {
+    let mut items = Vec::new();
+    let mut in_community = false;
+    let mut current_section: Option<String> = None;
+    let mut heading: Option<(HeadingLevel, String)> = None;
+    let mut item_stack: Vec<ItemCapture> = Vec::new();
+
+    for (event, range) in MarkdownParser::new(text).into_offset_iter() {
+        match event {
+            Event::Start(Tag::Heading { level, .. }) => {
+                heading = Some((level, String::new()));
+            }
+            Event::End(TagEnd::Heading(_)) => {
+                if let Some((level, title)) = heading.take() {
+                    let title = title.trim();
+                    match level {
+                        HeadingLevel::H2 => {
+                            in_community = title == COMMUNITY_HEADING.trim_start_matches("## ");
+                            current_section = None;
+                        }
+                        HeadingLevel::H3 if in_community => {
+                            current_section = Some(title.to_string());
+                        }
+                        HeadingLevel::H3 => {
+                            current_section = None;
+                        }
+                        _ => {}
+                    }
+                }
+            }
+            Event::Start(Tag::Item) => {
+                item_stack.push(ItemCapture {
+                    start: range.start,
+                    section: if in_community {
+                        current_section.clone()
+                    } else {
+                        None
+                    },
+                    links: Vec::new(),
+                    current_link: None,
+                });
+            }
+            Event::End(TagEnd::Item) => {
+                if let Some(item) = item_stack.pop() {
+                    if item_stack.is_empty() {
+                        collect_markdown_link_item(text, item, range.end, &mut items);
+                    }
+                }
+            }
+            Event::Start(Tag::Link { dest_url, .. }) => {
+                if let Some(item) = item_stack.last_mut() {
+                    item.current_link = Some(LinkCapture {
+                        title: String::new(),
+                        url: dest_url.to_string(),
+                    });
+                }
+            }
+            Event::End(TagEnd::Link) => {
+                if let Some(item) = item_stack.last_mut() {
+                    if let Some(link) = item.current_link.take() {
+                        item.links.push(link);
+                    }
+                }
+            }
+            Event::Text(value)
+            | Event::Code(value)
+            | Event::InlineMath(value)
+            | Event::DisplayMath(value)
+            | Event::Html(value)
+            | Event::InlineHtml(value)
+            | Event::FootnoteReference(value) => {
+                if let Some((_level, title)) = heading.as_mut() {
+                    title.push_str(&value);
+                }
+                if let Some(link) = item_stack
+                    .last_mut()
+                    .and_then(|item| item.current_link.as_mut())
+                {
+                    link.title.push_str(&value);
+                }
+            }
+            Event::SoftBreak | Event::HardBreak => {
+                if let Some((_level, title)) = heading.as_mut() {
+                    title.push(' ');
+                }
+                if let Some(link) = item_stack
+                    .last_mut()
+                    .and_then(|item| item.current_link.as_mut())
+                {
+                    link.title.push(' ');
+                }
+            }
+            Event::Rule | Event::TaskListMarker(_) => {}
+            _ => {}
+        }
+    }
+
+    items
+}
+
+fn collect_markdown_link_item(
+    text: &str,
+    item: ItemCapture,
+    end: usize,
+    items: &mut Vec<MarkdownLinkItem>,
+) {
+    let Some(section) = item.section else {
+        return;
+    };
+    if item.links.len() != 1 {
+        return;
+    }
+    let Some(line) = text.get(item.start..end).map(str::trim_end) else {
+        return;
+    };
+    if line.contains('\n') || !line.trim_start().starts_with('*') {
+        return;
+    }
+    let link = &item.links[0];
+    if link.title.trim().is_empty() || link.url.trim().is_empty() {
+        return;
+    }
+    items.push(MarkdownLinkItem {
+        section,
+        title: link.title.trim().to_string(),
+        url: link.url.to_string(),
+        line: line.to_string(),
+    });
 }
 
 fn parse_submission_line(line: &str) -> Option<(String, String)> {
@@ -556,20 +715,6 @@ fn parse_submission_line(line: &str) -> Option<(String, String)> {
         captures.name("title")?.as_str().to_string(),
         captures.name("url")?.as_str().to_string(),
     ))
-}
-
-fn is_known_community_section(section: &str) -> bool {
-    matches!(
-        section,
-        "Official"
-            | "Foundation"
-            | "Newsletters"
-            | "Project/Tooling Updates"
-            | "Observations/Thoughts"
-            | "Rust Walkthroughs"
-            | "Research"
-            | "Miscellaneous"
-    )
 }
 
 fn build_edit_buffer(draft_text: &str, submissions: &[Submission]) -> Result<String> {
@@ -909,6 +1054,7 @@ mod tests {
             author: "alice".to_string(),
             url: format!("https://github.com/rust-lang/this-week-in-rust/pull/{number}"),
             head_sha: "0123456789abcdef0123456789abcdef01234567".to_string(),
+            base_sha: "abcdef0123456789abcdef0123456789abcdef01".to_string(),
             draft: false,
             base_ref: "main".to_string(),
         }
@@ -933,63 +1079,82 @@ mod tests {
 
     #[test]
     fn classifies_one_link_submission() {
-        let patch = r#"@@ -44,6 +44,7 @@ and just ask the editors to select the category.
- ### Project/Tooling Updates
-+* [Ratatui 0.30.2 is released](https://ratatui.rs/highlights/v0302/)
- 
- ### Observations/Thoughts"#;
+        let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n### Observations/Thoughts\n";
+        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Ratatui 0.30.2 is released](https://ratatui.rs/highlights/v0302/)\n\n### Observations/Thoughts\n";
         let submission = classify_pr(
             &pull(1),
-            &[file(patch, 1, 0)],
+            &[file("", 1, 0)],
             Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
         )
         .unwrap();
         assert_eq!(submission.section, "Project/Tooling Updates");
         assert_eq!(submission.title, "Ratatui 0.30.2 is released");
+        assert_eq!(
+            submission.line,
+            "* [Ratatui 0.30.2 is released](https://ratatui.rs/highlights/v0302/)"
+        );
     }
 
     #[test]
     fn allows_one_link_plus_blank_line() {
-        let patch = r#"@@ -44,6 +44,8 @@ and just ask the editors to select the category.
- ### Project/Tooling Updates
-+* [m-vis 0.4.0-rc1 is released](https://github.com/SickleFire/m-vis)
-+
- 
- ### Observations/Thoughts"#;
+        let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n### Observations/Thoughts\n";
+        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [m-vis 0.4.0-rc1 is released](https://github.com/SickleFire/m-vis)\n\n\n### Observations/Thoughts\n";
         let submission = classify_pr(
             &pull(2),
-            &[file(patch, 2, 0)],
+            &[file("", 2, 0)],
             Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
         )
         .unwrap();
         assert_eq!(submission.pr, 2);
     }
 
     #[test]
-    fn skips_event_blocks() {
-        let patch = r#"@@ -254,6 +254,8 @@ Rusty Events between 2026-06-24 - 2026-07-22
- * 2026-06-25 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/events/)
-+* 2026-06-25 | Toulouse, FR | [Rust Toulouse](https://www.meetup.com/rust-community-toulouse/)
-+    * [**Rust Toulouse Meetup - Bevy & ESP32**](https://www.meetup.com/rust-community-toulouse/events/314947457/)
- * 2026-07-02 | Edinburgh, GB | [Rust and Friends](https://www.meetup.com/rust-edi/events/)"#;
-        let err = classify_pr(
-            &pull(3),
-            &[file(patch, 2, 0)],
+    fn accepts_any_community_subsection() {
+        let base = "## Updates from Rust Community\n\n### New Section\n\n";
+        let head = "## Updates from Rust Community\n\n### New Section\n* [New item](https://example.com/new)\n";
+        let submission = classify_pr(
+            &pull(5),
+            &[file("", 1, 0)],
             Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
         )
-        .unwrap_err();
-        assert!(err.contains("non-whitespace") || err.contains("valid one-line"));
+        .unwrap();
+        assert_eq!(submission.section, "New Section");
     }
 
     #[test]
-    fn skips_deletions() {
+    fn skips_event_blocks() {
+        let base = "## Upcoming Events\n\n* 2026-06-25 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/events/)\n";
+        let head = "## Upcoming Events\n\n* 2026-06-25 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/events/)\n* 2026-06-25 | Toulouse, FR | [Rust Toulouse](https://www.meetup.com/rust-community-toulouse/)\n    * [**Rust Toulouse Meetup - Bevy & ESP32**](https://www.meetup.com/rust-community-toulouse/events/314947457/)\n";
         let err = classify_pr(
-            &pull(4),
-            &[file("", 1, 1)],
+            &pull(3),
+            &[file("", 2, 0)],
             Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
         )
         .unwrap_err();
-        assert!(err.contains("deletions"));
+        assert!(err.contains("valid community link item"));
+    }
+
+    #[test]
+    fn skips_when_no_new_link_item() {
+        let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing](https://example.com)\n";
+        let head = base;
+        let err = classify_pr(
+            &pull(4),
+            &[file("", 0, 0)],
+            Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
+        )
+        .unwrap_err();
+        assert!(err.contains("valid community link item"));
     }
 
     #[test]
