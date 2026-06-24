@@ -122,6 +122,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
+* [AimDB - Non-blocking fallible `try_produce` for bounded / non-overwriting buffers](https://github.com/aimdb-dev/aimdb/issues/116)
+* [AimDB - Add minimal example: hello-mailbox-async](https://github.com/aimdb-dev/aimdb/issues/99)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 [guidelines]:https://github.com/rust-lang/this-week-in-rust?tab=readme-ov-file#call-for-participation-guidelines
