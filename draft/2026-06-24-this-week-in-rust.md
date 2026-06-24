@@ -49,6 +49,10 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Video] [BAML: a new programming language (created in Rust)](https://www.youtube.com/watch?v=X8GDc2AtbG8)
+* [Video] [The Future of Version Control](https://www.youtube.com/watch?v=O3YWQvNqwHc)
+* [Video] [Borrowing Beauty: My Beginner's Quest to Create Approachable Bevy & Rust Code](https://www.youtube.com/watch?v=1Xz1E_27Uqc)
+
 ### Research
 
 ### Miscellaneous
