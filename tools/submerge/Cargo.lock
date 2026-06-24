@@ -1840,6 +1840,7 @@ dependencies = [
  "octocrab",
  "regex",
  "serde",
+ "serde_json",
  "tempfile",
  "tokio",
 ]

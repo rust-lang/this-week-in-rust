@@ -5,9 +5,14 @@ use git2::{
     StatusOptions,
 };
 use log::{info, warn};
-use octocrab::Octocrab;
+use octocrab::{
+    models::{
+        pulls::PullRequest, repos::DiffEntry, CheckRuns, CheckStatus, CombinedStatus, StatusState,
+    },
+    params::State,
+    Octocrab,
+};
 use regex::Regex;
-use serde::Deserialize;
 use std::collections::{BTreeMap, BTreeSet};
 use std::env;
 use std::fs;
@@ -114,68 +119,6 @@ struct PullSummary {
     head_sha: String,
     draft: bool,
     base_ref: String,
-}
-
-#[derive(Debug, Clone)]
-struct ChangedFile {
-    filename: String,
-    additions: u64,
-    deletions: u64,
-    patch: Option<String>,
-}
-
-#[derive(Debug, Deserialize)]
-struct ApiPull {
-    number: u64,
-    title: String,
-    html_url: String,
-    draft: Option<bool>,
-    user: ApiUser,
-    head: ApiBranch,
-    base: ApiBranch,
-}
-
-#[derive(Debug, Deserialize)]
-struct ApiUser {
-    login: String,
-}
-
-#[derive(Debug, Deserialize)]
-struct ApiBranch {
-    #[serde(rename = "ref")]
-    ref_name: String,
-    sha: String,
-}
-
-#[derive(Debug, Deserialize)]
-struct ApiFile {
-    filename: String,
-    additions: u64,
-    deletions: u64,
-    patch: Option<String>,
-}
-
-#[derive(Debug, Deserialize)]
-struct ApiCheckRuns {
-    total_count: u64,
-    check_runs: Vec<ApiCheckRun>,
-}
-
-#[derive(Debug, Deserialize)]
-struct ApiCheckRun {
-    status: String,
-    conclusion: Option<String>,
-}
-
-#[derive(Debug, Deserialize)]
-struct ApiCombinedStatus {
-    state: String,
-    statuses: Vec<ApiStatus>,
-}
-
-#[derive(Debug, Deserialize)]
-struct ApiStatus {
-    state: String,
 }
 
 #[derive(Debug, Clone, PartialEq, Eq)]
@@ -374,43 +317,21 @@ async fn fetch_open_pulls(
     name: &str,
     base: &str,
 ) -> Result<Vec<PullSummary>> {
-    #[derive(serde::Serialize)]
-    struct Params<'a> {
-        state: &'a str,
-        base: &'a str,
-        per_page: u8,
-        page: u32,
-    }
+    let page = client
+        .pulls(owner, name)
+        .list()
+        .state(State::Open)
+        .base(base)
+        .per_page(100)
+        .send()
+        .await
+        .with_context(|| format!("list open PRs for {owner}/{name}"))?;
+    let pulls = client
+        .all_pages(page)
+        .await
+        .with_context(|| format!("list all open PR pages for {owner}/{name}"))?;
 
-    let mut page = 1;
-    let mut pulls = Vec::new();
-    loop {
-        let route = format!("/repos/{owner}/{name}/pulls");
-        let params = Params {
-            state: "open",
-            base,
-            per_page: 100,
-            page,
-        };
-        let batch: Vec<ApiPull> = client
-            .get(route, Some(&params))
-            .await
-            .with_context(|| format!("list open PRs for {owner}/{name}"))?;
-        if batch.is_empty() {
-            break;
-        }
-        pulls.extend(batch.into_iter().map(|pull| PullSummary {
-            number: pull.number,
-            title: pull.title,
-            author: pull.user.login,
-            url: pull.html_url,
-            head_sha: pull.head.sha,
-            draft: pull.draft.unwrap_or(false),
-            base_ref: pull.base.ref_name,
-        }));
-        page += 1;
-    }
-    Ok(pulls)
+    pulls.into_iter().map(pull_summary).collect()
 }
 
 async fn fetch_pr_files(
@@ -418,37 +339,49 @@ async fn fetch_pr_files(
     owner: &str,
     name: &str,
     pr: u64,
-) -> Result<Vec<ChangedFile>> {
-    #[derive(serde::Serialize)]
-    struct Params {
-        per_page: u8,
-        page: u32,
-    }
+) -> Result<Vec<DiffEntry>> {
+    let page = client
+        .pulls(owner, name)
+        .list_files(pr)
+        .await
+        .with_context(|| format!("list files for PR #{pr}"))?;
+    client
+        .all_pages(page)
+        .await
+        .with_context(|| format!("list all file pages for PR #{pr}"))
+}
 
-    let mut page = 1;
-    let mut files = Vec::new();
-    loop {
-        let route = format!("/repos/{owner}/{name}/pulls/{pr}/files");
-        let params = Params {
-            per_page: 100,
-            page,
-        };
-        let batch: Vec<ApiFile> = client
-            .get(route, Some(&params))
-            .await
-            .with_context(|| format!("list files for PR #{pr}"))?;
-        if batch.is_empty() {
-            break;
-        }
-        files.extend(batch.into_iter().map(|file| ChangedFile {
-            filename: file.filename,
-            additions: file.additions,
-            deletions: file.deletions,
-            patch: file.patch,
-        }));
-        page += 1;
-    }
-    Ok(files)
+fn pull_summary(pull: PullRequest) -> Result<PullSummary> {
+    let number = pull
+        .number
+        .ok_or_else(|| anyhow!("GitHub PR response is missing number"))?;
+    let title = pull
+        .title
+        .ok_or_else(|| anyhow!("GitHub PR #{number} response is missing title"))?;
+    let author = pull
+        .user
+        .ok_or_else(|| anyhow!("GitHub PR #{number} response is missing user"))?
+        .login;
+    let url = pull
+        .html_url
+        .ok_or_else(|| anyhow!("GitHub PR #{number} response is missing html_url"))?
+        .to_string();
+    let head = pull
+        .head
+        .ok_or_else(|| anyhow!("GitHub PR #{number} response is missing head"))?;
+    let base = pull
+        .base
+        .ok_or_else(|| anyhow!("GitHub PR #{number} response is missing base"))?;
+
+    Ok(PullSummary {
+        number,
+        title,
+        author,
+        url,
+        head_sha: head.sha,
+        draft: pull.draft.unwrap_or(false),
+        base_ref: base.ref_field,
+    })
 }
 
 async fn fetch_ci_state(client: &Octocrab, owner: &str, name: &str, sha: &str) -> Result<CiState> {
@@ -460,14 +393,14 @@ async fn fetch_ci_state(client: &Octocrab, owner: &str, name: &str, sha: &str) -
     #[derive(serde::Serialize)]
     struct EmptyParams {}
 
-    let check_runs: ApiCheckRuns = client
+    let check_runs: CheckRuns = client
         .get(
             format!("/repos/{owner}/{name}/commits/{sha}/check-runs"),
             Some(&CheckRunParams { per_page: 100 }),
         )
         .await
         .with_context(|| format!("list check runs for {sha}"))?;
-    let combined_status: ApiCombinedStatus = client
+    let combined_status: CombinedStatus = client
         .get(
             format!("/repos/{owner}/{name}/commits/{sha}/status"),
             Some(&EmptyParams {}),
@@ -477,7 +410,7 @@ async fn fetch_ci_state(client: &Octocrab, owner: &str, name: &str, sha: &str) -
 
     let has_check_runs = check_runs.total_count > 0;
     let check_runs_ok = check_runs.check_runs.iter().all(|check| {
-        check.status == "completed"
+        check.status == Some(CheckStatus::Completed)
             && matches!(
                 check.conclusion.as_deref(),
                 Some("success" | "skipped" | "neutral")
@@ -485,11 +418,11 @@ async fn fetch_ci_state(client: &Octocrab, owner: &str, name: &str, sha: &str) -
     });
 
     let has_statuses = !combined_status.statuses.is_empty();
-    let combined_state_ok = combined_status.state == "success"
+    let combined_state_ok = combined_status.state == StatusState::Success
         && combined_status
             .statuses
             .iter()
-            .all(|status| status.state == "success");
+            .all(|status| status.state == StatusState::Success);
 
     if (has_check_runs || has_statuses) && check_runs_ok && (!has_statuses || combined_state_ok) {
         Ok(CiState::Success)
@@ -500,7 +433,7 @@ async fn fetch_ci_state(client: &Octocrab, owner: &str, name: &str, sha: &str) -
 
 fn classify_pr(
     pull: &PullSummary,
-    files: &[ChangedFile],
+    files: &[DiffEntry],
     draft_rel: &Path,
 ) -> std::result::Result<Submission, String> {
     if files.len() != 1 {
@@ -981,13 +914,21 @@ mod tests {
         }
     }
 
-    fn file(patch: &str, additions: u64, deletions: u64) -> ChangedFile {
-        ChangedFile {
-            filename: "draft/2026-06-24-this-week-in-rust.md".to_string(),
-            additions,
-            deletions,
-            patch: Some(patch.to_string()),
-        }
+    fn file(patch: &str, additions: u64, deletions: u64) -> DiffEntry {
+        serde_json::from_value(serde_json::json!({
+            "sha": "0123456789abcdef0123456789abcdef01234567",
+            "filename": "draft/2026-06-24-this-week-in-rust.md",
+            "status": "modified",
+            "additions": additions,
+            "deletions": deletions,
+            "changes": additions + deletions,
+            "blob_url": null,
+            "raw_url": null,
+            "contents_url": "https://api.github.com/repos/rust-lang/this-week-in-rust/contents/draft/2026-06-24-this-week-in-rust.md",
+            "patch": patch,
+            "previous_filename": null
+        }))
+        .unwrap()
     }
 
     #[test]
