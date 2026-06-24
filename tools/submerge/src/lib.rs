@@ -82,7 +82,6 @@ pub struct Submission {
     pub title: String,
     pub author: String,
     pub pr_url: String,
-    pub url: String,
     pub head_sha: String,
     pub ci_state: CiState,
     pub section: String,
@@ -124,10 +123,9 @@ struct PullSummary {
 }
 
 #[derive(Debug, Clone, PartialEq, Eq, PartialOrd, Ord)]
-struct MarkdownLinkItem {
+struct MarkdownListItem {
     section: String,
     title: String,
-    url: String,
     line: String,
 }
 
@@ -518,23 +516,23 @@ fn classify_pr(
         ));
     }
 
-    let base_items = extract_markdown_link_items(base_text);
-    let head_items = extract_markdown_link_items(head_text);
+    let base_items = extract_markdown_list_items(base_text);
+    let head_items = extract_markdown_list_items(head_text);
     let mut candidates: Vec<_> = head_items
         .into_iter()
         .filter(|head| {
-            !base_items.iter().any(|base| {
-                base.section == head.section && base.title == head.title && base.url == head.url
-            })
+            !base_items
+                .iter()
+                .any(|base| base.section == head.section && base.title == head.title)
         })
         .collect();
 
     if candidates.is_empty() {
-        return Err("does not add a valid community link item".to_string());
+        return Err("does not add a valid community list item".to_string());
     }
     if candidates.len() != 1 {
         return Err(format!(
-            "adds {} valid community link items",
+            "adds {} valid community list items",
             candidates.len()
         ));
     }
@@ -545,7 +543,6 @@ fn classify_pr(
         title: candidate.title,
         author: pull.author.clone(),
         pr_url: pull.url.clone(),
-        url: candidate.url,
         head_sha: pull.head_sha.clone(),
         ci_state: CiState::Failure,
         section: candidate.section,
@@ -555,25 +552,19 @@ fn classify_pr(
 
 #[derive(Default)]
 struct ItemCapture {
+    start: usize,
     section: Option<String>,
-    links: Vec<LinkCapture>,
-    current_link: Option<LinkCapture>,
-}
-
-#[derive(Default)]
-struct LinkCapture {
     title: String,
-    url: String,
 }
 
-fn extract_markdown_link_items(text: &str) -> Vec<MarkdownLinkItem> {
+fn extract_markdown_list_items(text: &str) -> Vec<MarkdownListItem> {
     let mut items = Vec::new();
     let mut in_community = false;
     let mut current_section: Option<String> = None;
     let mut heading: Option<(HeadingLevel, String)> = None;
     let mut item_stack: Vec<ItemCapture> = Vec::new();
 
-    for event in MarkdownParser::new(text) {
+    for (event, range) in MarkdownParser::new(text).into_offset_iter() {
         match event {
             Event::Start(Tag::Heading { level, .. }) => {
                 heading = Some((level, String::new()));
@@ -598,37 +589,23 @@ fn extract_markdown_link_items(text: &str) -> Vec<MarkdownLinkItem> {
             }
             Event::Start(Tag::Item) => {
                 item_stack.push(ItemCapture {
+                    start: range.start,
                     section: if in_community {
                         current_section.clone()
                     } else {
                         None
                     },
-                    links: Vec::new(),
-                    current_link: None,
+                    title: String::new(),
                 });
             }
             Event::End(TagEnd::Item) => {
                 if let Some(item) = item_stack.pop() {
                     if item_stack.is_empty() {
-                        collect_markdown_link_item(item, &mut items);
+                        collect_markdown_list_item(text, item, range.end, &mut items);
                     }
                 }
             }
-            Event::Start(Tag::Link { dest_url, .. }) => {
-                if let Some(item) = item_stack.last_mut() {
-                    item.current_link = Some(LinkCapture {
-                        title: String::new(),
-                        url: dest_url.to_string(),
-                    });
-                }
-            }
-            Event::End(TagEnd::Link) => {
-                if let Some(item) = item_stack.last_mut() {
-                    if let Some(link) = item.current_link.take() {
-                        item.links.push(link);
-                    }
-                }
-            }
+            Event::Start(Tag::Link { .. }) | Event::End(TagEnd::Link) => {}
             Event::Text(value)
             | Event::Code(value)
             | Event::InlineMath(value)
@@ -639,22 +616,16 @@ fn extract_markdown_link_items(text: &str) -> Vec<MarkdownLinkItem> {
                 if let Some((_level, title)) = heading.as_mut() {
                     title.push_str(&value);
                 }
-                if let Some(link) = item_stack
-                    .last_mut()
-                    .and_then(|item| item.current_link.as_mut())
-                {
-                    link.title.push_str(&value);
+                if let Some(item) = item_stack.last_mut() {
+                    item.title.push_str(&value);
                 }
             }
             Event::SoftBreak | Event::HardBreak => {
                 if let Some((_level, title)) = heading.as_mut() {
                     title.push(' ');
                 }
-                if let Some(link) = item_stack
-                    .last_mut()
-                    .and_then(|item| item.current_link.as_mut())
-                {
-                    link.title.push(' ');
+                if let Some(item) = item_stack.last_mut() {
+                    item.title.push(' ');
                 }
             }
             Event::Rule | Event::TaskListMarker(_) => {}
@@ -665,45 +636,43 @@ fn extract_markdown_link_items(text: &str) -> Vec<MarkdownLinkItem> {
     items
 }
 
-fn collect_markdown_link_item(item: ItemCapture, items: &mut Vec<MarkdownLinkItem>) {
+fn collect_markdown_list_item(
+    text: &str,
+    item: ItemCapture,
+    end: usize,
+    items: &mut Vec<MarkdownListItem>,
+) {
     let Some(section) = item.section else {
         return;
     };
-    if item.links.len() != 1 {
+    let title = normalize_markdown_text(&item.title);
+    if title.is_empty() {
         return;
     }
-    let link = &item.links[0];
-    if link.title.trim().is_empty() || link.url.trim().is_empty() {
+    let Some(line) = text.get(item.start..end).map(str::trim_end) else {
+        return;
+    };
+    if line.contains('\n') {
         return;
     }
-    let title = link.title.trim();
-    let url = link.url.trim();
-    items.push(MarkdownLinkItem {
+    items.push(MarkdownListItem {
         section,
-        title: title.to_string(),
-        url: url.to_string(),
-        line: format!("* [{title}]({url})"),
+        title,
+        line: line.to_string(),
     });
 }
 
-fn parse_submission_line(line: &str) -> Option<(String, String)> {
-    if line != line.trim_start() {
-        return None;
-    }
-    let trimmed = line.trim_end();
-    if !trimmed.starts_with("* ") {
-        return None;
-    }
+fn normalize_markdown_text(text: &str) -> String {
+    text.split_whitespace().collect::<Vec<_>>().join(" ")
+}
 
-    let re = Regex::new(
-        r#"^\* (?:(?:\[(?:video|audio|series|[A-Z]{2,5})\])\s+)*\[(?P<title>[^\]\n]+)\]\((?P<url>https?://[^)\s]+)\)\s*$"#,
-    )
-    .ok()?;
-    let captures = re.captures(trimmed)?;
-    Some((
-        captures.name("title")?.as_str().to_string(),
-        captures.name("url")?.as_str().to_string(),
-    ))
+fn parse_submission_line(line: &str) -> Option<String> {
+    let wrapped = format!("{}\n\n### Edited\n{}\n", COMMUNITY_HEADING, line.trim_end());
+    let mut items = extract_markdown_list_items(&wrapped);
+    if items.len() != 1 {
+        return None;
+    }
+    Some(items.remove(0).title)
 }
 
 fn build_edit_buffer(draft_text: &str, submissions: &[Submission]) -> Result<String> {
@@ -782,7 +751,7 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
             if probe >= lines.len() {
                 bail!("PR #{pr} marker is not followed by a list item");
             }
-            let (title, url) = parse_submission_line(lines[probe]).ok_or_else(|| {
+            let title = parse_submission_line(lines[probe]).ok_or_else(|| {
                 anyhow!(
                     "PR #{pr} marker is followed by an invalid list item: {}",
                     lines[probe]
@@ -796,7 +765,6 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
                 title,
                 author: captures["author"].to_string(),
                 pr_url: captures["url"].to_string(),
-                url,
                 head_sha: captures["sha"].to_string(),
                 ci_state: match captures.name("ci").map(|m| m.as_str()) {
                     Some("✅") => CiState::Success,
@@ -1117,7 +1085,7 @@ mod tests {
     }
 
     #[test]
-    fn normalizes_seeded_submission_line() {
+    fn preserves_seeded_submission_line() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n- [New item](https://example.com/new)\n";
         let submission = classify_pr(
@@ -1128,7 +1096,46 @@ mod tests {
             head,
         )
         .unwrap();
-        assert_eq!(submission.line, "* [New item](https://example.com/new)");
+        assert_eq!(submission.line, "- [New item](https://example.com/new)");
+    }
+
+    #[test]
+    fn accepts_list_item_with_embedded_link_text() {
+        let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n";
+        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* Rust 1.88 has a nice writeup at [release notes](https://blog.rust-lang.org/)\n";
+        let submission = classify_pr(
+            &pull(7),
+            &[file("", 1, 0)],
+            Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
+        )
+        .unwrap();
+        assert_eq!(
+            submission.title,
+            "Rust 1.88 has a nice writeup at release notes"
+        );
+        assert_eq!(
+            submission.line,
+            "* Rust 1.88 has a nice writeup at [release notes](https://blog.rust-lang.org/)"
+        );
+    }
+
+    #[test]
+    fn accepts_list_item_without_link() {
+        let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n";
+        let head =
+            "## Updates from Rust Community\n\n### Project/Tooling Updates\n* Rustaceans announced a thing\n";
+        let submission = classify_pr(
+            &pull(8),
+            &[file("", 1, 0)],
+            Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
+        )
+        .unwrap();
+        assert_eq!(submission.title, "Rustaceans announced a thing");
+        assert_eq!(submission.line, "* Rustaceans announced a thing");
     }
 
     #[test]
@@ -1143,11 +1150,11 @@ mod tests {
             head,
         )
         .unwrap_err();
-        assert!(err.contains("valid community link item"));
+        assert!(err.contains("valid community list item"));
     }
 
     #[test]
-    fn skips_when_no_new_link_item() {
+    fn skips_when_no_new_list_item() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing](https://example.com)\n";
         let head = base;
         let err = classify_pr(
@@ -1158,7 +1165,7 @@ mod tests {
             head,
         )
         .unwrap_err();
-        assert!(err.contains("valid community link item"));
+        assert!(err.contains("valid community list item"));
     }
 
     #[test]
@@ -1169,7 +1176,6 @@ mod tests {
             title: "Example".to_string(),
             author: "alice".to_string(),
             pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/42".to_string(),
-            url: "https://example.com/post".to_string(),
             head_sha: "0123456789abcdef0123456789abcdef01234567".to_string(),
             ci_state: CiState::Success,
             section: "Project/Tooling Updates".to_string(),
@@ -1204,7 +1210,6 @@ mod tests {
         assert_eq!(parsed.included.len(), 1);
         assert_eq!(parsed.included[0].pr, 42);
         assert_eq!(parsed.included[0].title, "Edited Title");
-        assert_eq!(parsed.included[0].url, "https://example.com/edited");
         assert_eq!(
             parsed.included[0].pr_url,
             "https://github.com/rust-lang/this-week-in-rust/pull/42"
@@ -1212,6 +1217,20 @@ mod tests {
         assert_eq!(parsed.included[0].ci_state, CiState::Failure);
         assert_eq!(parsed.included[0].section, "Project/Tooling Updates");
         assert!(!parsed.final_text.contains("submerge-pr"));
+    }
+
+    #[test]
+    fn parse_edit_buffer_accepts_embedded_or_missing_links() {
+        let text = "### Project/Tooling Updates\n<!-- ❌ submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 url=https://github.com/rust-lang/this-week-in-rust/pull/42 author=alice -->\n* Read more in [release notes](https://example.com) today\n<!-- ❌ submerge-pr:43 sha=0123456789abcdef0123456789abcdef01234567 url=https://github.com/rust-lang/this-week-in-rust/pull/43 author=bob -->\n* Plain community announcement\n";
+        let parsed = parse_edited_buffer(text).unwrap();
+
+        assert_eq!(parsed.included.len(), 2);
+        assert_eq!(parsed.included[0].title, "Read more in release notes today");
+        assert_eq!(parsed.included[1].title, "Plain community announcement");
+        assert!(parsed
+            .final_text
+            .contains("* Read more in [release notes](https://example.com) today"));
+        assert!(parsed.final_text.contains("* Plain community announcement"));
     }
 
     #[test]
@@ -1268,7 +1287,6 @@ mod tests {
             title: "Example".to_string(),
             author: "alice".to_string(),
             pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/7".to_string(),
-            url: "https://example.com/post".to_string(),
             head_sha: pr_parent.to_string(),
             ci_state: CiState::Success,
             section: "Project/Tooling Updates".to_string(),
