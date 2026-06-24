@@ -252,7 +252,7 @@ Rusty Events between 2026-06-24 - 2026-07-22 🦀
     * [**Ferris' Fika Forum #27**](https://www.meetup.com/stockholm-rust/events/315371143/)
 * 2026-07-02 | Edinburgh, UK | [Rust and Friends](https://www.meetup.com/rust-edi)
     * [**Bevy, Bits, & Cats (Rust July Talks)**](https://www.meetup.com/rust-and-friends/events/314941098/)
-* 2026-07-02 | Enschede, OV, NL | [Baseflow Tech Meetups](https://www.meetup.com/dutch-rust-meetup)
+* 2026-07-02 | Enschede, NL | [Baseflow Tech Meetups](https://www.meetup.com/dutch-rust-meetup)
     * [**AI Summit**](https://www.meetup.com/baseflow-tech-meetups/events/315099547/)
 * 2026-07-08 | Dublin, IE | [Rust Dublin](https://www.meetup.com/rust-dublin)
     * [**Join us live and INPERSON for Rust 262**](https://www.meetup.com/rust-dublin/events/315150327/)
