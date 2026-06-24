@@ -80,6 +80,7 @@ pub struct MergeArgs {
 pub struct Submission {
     pub pr: u64,
     pub title: String,
+    pub pr_title: String,
     pub author: String,
     pub pr_url: String,
     pub head_sha: String,
@@ -108,6 +109,7 @@ pub struct SkippedPr {
     pub pr: u64,
     pub title: String,
     pub reason: String,
+    pub url: String,
 }
 
 #[derive(Debug, Clone)]
@@ -166,7 +168,11 @@ async fn run_fetch(args: FetchArgs) -> Result<()> {
     if authenticated {
         info!("using authenticated GitHub API client");
     } else {
-        warn!("GITHUB_TOKEN/GH_TOKEN is not set; GitHub API requests are unauthenticated and may be rate-limited");
+        warn!(
+            "GITHUB_TOKEN/GH_TOKEN is not set; GitHub API requests are unauthenticated and may be rate-limited. \
+Create a fine-grained personal access token at https://github.com/settings/personal-access-tokens/new; \
+no repository permissions are needed because tokens can read public repositories."
+        );
     }
     info!(
         "listing open PRs for {}/{} targeting {}",
@@ -184,6 +190,7 @@ async fn run_fetch(args: FetchArgs) -> Result<()> {
                 pr: pull.number,
                 title: pull.title,
                 reason: "draft PR".to_string(),
+                url: pull.url,
             });
             continue;
         }
@@ -192,6 +199,7 @@ async fn run_fetch(args: FetchArgs) -> Result<()> {
                 pr: pull.number,
                 title: pull.title,
                 reason: format!("targets {}, not {}", pull.base_ref, DEFAULT_BASE),
+                url: pull.url,
             });
             continue;
         }
@@ -205,6 +213,7 @@ async fn run_fetch(args: FetchArgs) -> Result<()> {
                         pr: pull.number,
                         title: pull.title,
                         reason: format!("could not read base draft: {error:#}"),
+                        url: pull.url,
                     });
                     continue;
                 }
@@ -217,6 +226,7 @@ async fn run_fetch(args: FetchArgs) -> Result<()> {
                         pr: pull.number,
                         title: pull.title,
                         reason: format!("could not read head draft: {error:#}"),
+                        url: pull.url,
                     });
                     continue;
                 }
@@ -232,6 +242,7 @@ async fn run_fetch(args: FetchArgs) -> Result<()> {
                 pr: pull.number,
                 title: pull.title,
                 reason,
+                url: pull.url,
             }),
         }
     }
@@ -541,6 +552,7 @@ fn classify_pr(
     Ok(Submission {
         pr: pull.number,
         title: candidate.title,
+        pr_title: pull.title.clone(),
         author: pull.author.clone(),
         pr_url: pull.url.clone(),
         head_sha: pull.head_sha.clone(),
@@ -700,12 +712,13 @@ fn build_edit_buffer(draft_text: &str, submissions: &[Submission]) -> Result<Str
         }
         for submission in section_submissions {
             out.push(format!(
-                "<!-- {} submerge-pr:{} sha={} url={} author={} -->",
+                "<!-- {} submerge-pr:{} sha={} url={} author={} title={} -->",
                 submission.ci_state.emoji(),
                 submission.pr,
                 submission.head_sha,
                 submission.pr_url,
-                submission.author
+                submission.author,
+                marker_comment_value(&submission.pr_title)
             ));
             out.push(submission.line.clone());
         }
@@ -722,9 +735,17 @@ fn build_edit_buffer(draft_text: &str, submissions: &[Submission]) -> Result<Str
     Ok(format!("{}{}", out.join("\n"), trailing_newline))
 }
 
+fn marker_comment_value(value: &str) -> String {
+    value
+        .replace("-->", "-- >")
+        .replace(['\r', '\n'], " ")
+        .trim()
+        .to_string()
+}
+
 fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
     let marker_re = Regex::new(
-        r"^<!-- (?:(?P<ci>✅|❌) )?submerge-pr:(?P<pr>\d+) sha=(?P<sha>[0-9a-fA-F]{40}) url=(?P<url>\S+) author=(?P<author>.*?) -->$",
+        r"^<!-- (?:(?P<ci>✅|❌) )?submerge-pr:(?P<pr>\d+) sha=(?P<sha>[0-9a-fA-F]{40}) url=(?P<url>\S+) author=(?P<author>\S+)(?: title=(?P<pr_title>.*?))? -->$",
     )?;
     let mut seen_prs = BTreeSet::new();
     let mut included = Vec::new();
@@ -763,6 +784,11 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
             included.push(Submission {
                 pr,
                 title,
+                pr_title: captures
+                    .name("pr_title")
+                    .map(|m| m.as_str())
+                    .unwrap_or("")
+                    .to_string(),
                 author: captures["author"].to_string(),
                 pr_url: captures["url"].to_string(),
                 head_sha: captures["sha"].to_string(),
@@ -912,13 +938,20 @@ fn commit_message(included: &[Submission], skipped: &[SkippedPr]) -> String {
     if !skipped.is_empty() {
         message.push_str("\nSkipped PRs:\n");
         for skipped in skipped {
-            message.push_str(&format!(
-                "- #{} {}: {}\n",
-                skipped.pr, skipped.title, skipped.reason
-            ));
+            message.push_str(&format!("- {}\n", format_skipped_pr_summary(skipped)));
         }
     }
     message
+}
+
+fn format_skipped_pr_summary(skipped: &SkippedPr) -> String {
+    format!(
+        "#{} {} ({}) {}/files",
+        skipped.pr,
+        skipped.title,
+        skipped.reason,
+        skipped.url.trim_end_matches('/')
+    )
 }
 
 fn ensure_tracked_worktree_clean(repo: &Repository) -> Result<()> {
@@ -949,7 +982,7 @@ fn ensure_tracked_worktree_clean_with_allowed(
         return Ok(());
     }
 
-    bail!("tracked worktree is not clean: {paths}");
+    bail!("tracked worktree is not clean: {paths}; use --allow-dirty to run anyway");
 }
 
 fn find_latest_draft(workdir: &Path) -> Result<PathBuf> {
@@ -993,9 +1026,9 @@ fn print_summary(submissions: &[Submission], skipped: &[SkippedPr]) {
             submission.pr, submission.section, submission.line
         );
     }
-    println!("skipped PRs: {}", skipped.len());
+    println!("non-eligible PRs: {}", skipped.len());
     for skipped in skipped {
-        println!("  #{} {}: {}", skipped.pr, skipped.title, skipped.reason);
+        println!("  {}", format_skipped_pr_summary(skipped));
     }
 }
 
@@ -1174,6 +1207,7 @@ mod tests {
         let submissions = vec![Submission {
             pr: 42,
             title: "Example".to_string(),
+            pr_title: "Add example link".to_string(),
             author: "alice".to_string(),
             pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/42".to_string(),
             head_sha: "0123456789abcdef0123456789abcdef01234567".to_string(),
@@ -1183,11 +1217,13 @@ mod tests {
         }];
         let buffer = build_edit_buffer(draft, &submissions).unwrap();
         assert!(buffer.contains("<!-- ✅ submerge-pr:42"));
+        assert!(buffer.contains("title=Add example link -->"));
 
         let parsed = parse_edited_buffer(&buffer).unwrap();
         assert_eq!(parsed.included.len(), 1);
         assert_eq!(parsed.included[0].pr, 42);
         assert_eq!(parsed.included[0].title, "Example");
+        assert_eq!(parsed.included[0].pr_title, "Add example link");
         assert_eq!(parsed.included[0].ci_state, CiState::Success);
         assert!(!parsed.final_text.contains("submerge-pr:42"));
         assert!(parsed
@@ -1210,6 +1246,7 @@ mod tests {
         assert_eq!(parsed.included.len(), 1);
         assert_eq!(parsed.included[0].pr, 42);
         assert_eq!(parsed.included[0].title, "Edited Title");
+        assert_eq!(parsed.included[0].pr_title, "");
         assert_eq!(
             parsed.included[0].pr_url,
             "https://github.com/rust-lang/this-week-in-rust/pull/42"
@@ -1217,6 +1254,24 @@ mod tests {
         assert_eq!(parsed.included[0].ci_state, CiState::Failure);
         assert_eq!(parsed.included[0].section, "Project/Tooling Updates");
         assert!(!parsed.final_text.contains("submerge-pr"));
+    }
+
+    #[test]
+    fn parse_edit_buffer_reads_marker_pr_title() {
+        let text = "### Project/Tooling Updates\n<!-- ❌ submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 url=https://github.com/rust-lang/this-week-in-rust/pull/42 author=alice title=Add a helpful link -->\n* [Edited Title](https://example.com/edited)\n";
+        let parsed = parse_edited_buffer(text).unwrap();
+
+        assert_eq!(parsed.included.len(), 1);
+        assert_eq!(parsed.included[0].title, "Edited Title");
+        assert_eq!(parsed.included[0].pr_title, "Add a helpful link");
+    }
+
+    #[test]
+    fn marker_comment_value_does_not_close_comment() {
+        assert_eq!(
+            marker_comment_value("Title --> with\nnewline"),
+            "Title -- > with newline"
+        );
     }
 
     #[test]
@@ -1237,6 +1292,44 @@ mod tests {
     fn uses_in_code_public_github_endpoint() {
         let url = public_git_url().unwrap();
         assert_eq!(url, "https://github.com/rust-lang/this-week-in-rust.git");
+    }
+
+    #[test]
+    fn formats_non_eligible_pr_summary_with_changes_url() {
+        let skipped = SkippedPr {
+            pr: 1234,
+            title: "Not a submission".to_string(),
+            reason: "changes 2 files".to_string(),
+            url: "https://github.com/rust-lang/this-week-in-rust/pull/1234".to_string(),
+        };
+
+        assert_eq!(
+            format_skipped_pr_summary(&skipped),
+            "#1234 Not a submission (changes 2 files) https://github.com/rust-lang/this-week-in-rust/pull/1234/files"
+        );
+    }
+
+    #[test]
+    fn dirty_worktree_error_mentions_allow_dirty() {
+        let dir = tempfile::tempdir().unwrap();
+        let mut opts = RepositoryInitOptions::new();
+        opts.initial_head("main");
+        let repo = Repository::init_opts(dir.path(), &opts).unwrap();
+        fs::write(dir.path().join("tracked.txt"), "clean\n").unwrap();
+
+        let mut index = repo.index().unwrap();
+        index.add_path(Path::new("tracked.txt")).unwrap();
+        index.write().unwrap();
+        let tree_id = index.write_tree().unwrap();
+        let tree = repo.find_tree(tree_id).unwrap();
+        let sig = Signature::now("Test", "test@example.com").unwrap();
+        repo.commit(Some("HEAD"), &sig, &sig, "base", &tree, &[])
+            .unwrap();
+        drop(tree);
+
+        fs::write(dir.path().join("tracked.txt"), "dirty\n").unwrap();
+        let err = ensure_tracked_worktree_clean(&repo).unwrap_err();
+        assert!(err.to_string().contains("--allow-dirty"));
     }
 
     #[test]
@@ -1285,6 +1378,7 @@ mod tests {
         let submission = Submission {
             pr: 7,
             title: "Example".to_string(),
+            pr_title: "Add example link".to_string(),
             author: "alice".to_string(),
             pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/7".to_string(),
             head_sha: pr_parent.to_string(),
