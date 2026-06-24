@@ -202,20 +202,6 @@ Update CFT, FCP, MCP and RFC sections for TWiR-xxx
 Rusty Events between 2026-06-24 - 2026-07-22 🦀
 
 ### Virtual
-* 2026-06-17 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
-    * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/314000478/)
-* 2026-06-17 | Virtual (Girona, ES) | [Rust Girona](https://lu.ma/rust-girona)
-    * [**Weekly coding session**](https://luma.com/ekws5nr4)
-* 2026-06-18 | Hybrid (Seattle, WA, US) | [Seattle Rust User Group](https://www.meetup.com/join-srug)
-    * [**June, 2026 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/seattle-rust-user-group/events/314236370/)
-* 2026-06-18 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
-    * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/308455931/)
-* 2026-06-21 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
-    * [**Rust Deep Learning: Third Sunday**](https://www.meetup.com/dallasrust/events/314329044/)
-* 2026-06-23 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
-    * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/310254779/)
-* 2026-06-23 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
-    * [**Lunch & Learn: What the heck are monads - and how do we fake them in Rust**](https://www.meetup.com/women-in-rust/events/313767883/)
 * 2026-07-01 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/315210366/)
 * 2026-07-02 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
@@ -232,22 +218,8 @@ Rusty Events between 2026-06-24 - 2026-07-22 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254778/)
 * 2026-07-15 | Virtual (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust/events/)
     * [**Jiff**](https://www.meetup.com/vancouver-rust/events/314233743/)
-    
+
 ### Europe
-* 2026-06-18 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus)
-    * [**Talk Night at Danske Commodities**](https://www.meetup.com/rust-aarhus/events/314965238/)
-* 2026-06-18 | Edinburgh, GB | [Rust and Friends](https://www.meetup.com/rust-edi/events/)
-    * [**Rust and Friends comes to Glasgow! (daytime coffee)**](https://www.meetup.com/rust-and-friends/events/315093492/)
-* 2026-06-18 | Edinburgh, GB | [Rust and Friends](https://www.meetup.com/rust-edi/events/)
-    * [**Rust and Friends comes to Glasgow! (evening pub)**](https://www.meetup.com/rust-and-friends/events/315093500/)
-* 2026-06-18 | Barcelona, ES | [BcnRust](https://www.meetup.com/bcnrust/events/)
-    * [**21st BcnRust Meetup**](https://www.meetup.com/bcnrust/events/315094938/)
-* 2026-06-19 | Dresden, DE | [Rust Dresden](https://github.com/rust-dresden)
-    * [**Second Meetup**](https://pretix.eu/rust-dresden/on-location-2)
-* 2026-06-23 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris)
-    * [**Rust meetup #86**](https://www.meetup.com/rust-paris/events/315040676/)
-* 2026-06-23 | Warsaw, PL | [Rust Warsaw](https://luma.com/rust.in.warsaw)
-    * [**Rust Warsaw Meetup: June 2026**](https://luma.com/djs7ntfx)
 * 2026-06-24 | Manchester, GB | [Rust Manchester](https://www.meetup.com/rust-manchester/events/)
     * [**Rust Manchester June Talks**](https://www.meetup.com/rust-manchester/events/315200163/)
 * 2026-06-25 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin)
@@ -265,16 +237,7 @@ Rusty Events between 2026-06-24 - 2026-07-22 🦀
 * 2026-07-09 | Switzerland, CH | [PostTenebrasLab](https://www.posttenebraslab.ch/wiki/events/start)
     * [**Rust Meetup Geneva**](https://www.posttenebraslab.ch/wiki/events/monthly_meeting/rust_meetup)
 
-
 ### North America
-* 2026-06-17 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
-    * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/314000478/)
-* 2026-06-18 | Hybrid (Seattle, WA, US) | [Seattle Rust User Group](https://www.meetup.com/join-srug)
-    * [**June, 2026 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/seattle-rust-user-group/events/314236370/)
-* 2026-06-18 | Nashville, TN, US | [Music City Rust Developers](https://www.meetup.com/music-city-rust-developers/events/)
-    * [**Community Meetup**](https://www.meetup.com/music-city-rust-developers/events/315213927/)
-* 2026-06-20 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
-    * [**Northeastern Rust Lunch, June 20**](https://www.meetup.com/bostonrust/events/315225854/)
 * 2026-06-24 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx/events/)
     * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/315105633/)
 * 2026-06-24 | Los Angeles, CA, US | [Rust Los Angeles](https://www.meetup.com/rust-los-angeles)
@@ -297,10 +260,6 @@ Rusty Events between 2026-06-24 - 2026-07-22 🦀
 ### Oceania
 * 2026-06-25 | Melbourne, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne)
     * [**Rust Melbourne June 2026**](https://www.meetup.com/rust-melbourne/events/315039461/)
-
-### South America
-* 2026-06-18 | Florianópolis, BR | [Rust SC](https://luma.com/rust-sc)
-    * [**Rust Floripa**](https://luma.com/acinctdf)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
