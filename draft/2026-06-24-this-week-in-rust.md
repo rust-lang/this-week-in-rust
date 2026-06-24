@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Deep dive into iroh: A replacement for WireGuard or a peer-to-peer layer for your application?](https://kerkour.com/iroh-v1-p2p)
 
 ### Rust Walkthroughs
 
