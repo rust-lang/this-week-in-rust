@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [A data race that doesn't compile](https://corentin-core.github.io/posts/ruxe-type-level-disjointness/)
+
 ### Research
 
 ### Miscellaneous
