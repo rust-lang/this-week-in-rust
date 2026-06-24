@@ -1,8 +1,7 @@
 use anyhow::{anyhow, bail, Context, Result};
 use clap::{Parser, Subcommand};
 use git2::{
-    Commit, Cred, CredentialType, FetchOptions, Oid, RemoteCallbacks, Repository, Signature,
-    StatusOptions,
+    Commit, Cred, FetchOptions, Oid, RemoteCallbacks, Repository, Signature, StatusOptions,
 };
 use log::{info, warn};
 use octocrab::{
@@ -821,23 +820,14 @@ fn fetch_and_verify_pr_heads(repo: &Repository, submissions: &[Submission]) -> R
         .remote_anonymous(&remote_url)
         .with_context(|| format!("open anonymous remote {remote_url}"))?;
 
-    let git_token = env::var("GITHUB_TOKEN")
-        .or_else(|_| env::var("GH_TOKEN"))
-        .ok();
-    let mut callbacks = RemoteCallbacks::new();
-    callbacks.credentials(move |_url, _username_from_url, allowed| {
-        if allowed.contains(CredentialType::USER_PASS_PLAINTEXT) {
-            if let Some(token) = git_token.as_deref() {
-                Cred::userpass_plaintext("x-access-token", token)
-            } else {
-                Cred::default()
-            }
-        } else {
-            Cred::default()
-        }
-    });
     let mut fetch_options = FetchOptions::new();
-    fetch_options.remote_callbacks(callbacks);
+    if let Ok(git_token) = env::var("GITHUB_TOKEN").or_else(|_| env::var("GH_TOKEN")) {
+        let mut callbacks = RemoteCallbacks::new();
+        callbacks.credentials(move |_url, _username_from_url, _allowed| {
+            Cred::userpass_plaintext("x-access-token", &git_token)
+        });
+        fetch_options.remote_callbacks(callbacks);
+    }
 
     let mut oids = Vec::new();
     for submission in submissions {
