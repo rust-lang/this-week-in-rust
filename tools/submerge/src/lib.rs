@@ -38,14 +38,6 @@ pub enum CommandArgs {
 
 #[derive(Debug, Parser)]
 pub struct FetchArgs {
-    /// GitHub repository to inspect, as owner/name.
-    #[arg(long, default_value = DEFAULT_REMOTE)]
-    pub repo: String,
-
-    /// Base branch to inspect.
-    #[arg(long, default_value = DEFAULT_BASE)]
-    pub base: String,
-
     /// Draft file to update. Defaults to the latest draft/YYYY-MM-DD-this-week-in-rust.md.
     #[arg(long)]
     pub draft: Option<PathBuf>,
@@ -65,21 +57,9 @@ pub struct FetchArgs {
 
 #[derive(Debug, Parser)]
 pub struct MergeArgs {
-    /// GitHub repository to fetch PR heads from, as owner/name.
-    #[arg(long, default_value = DEFAULT_REMOTE)]
-    pub repo: String,
-
     /// Draft file to update. Defaults to the latest draft/YYYY-MM-DD-this-week-in-rust.md.
     #[arg(long)]
     pub draft: Option<PathBuf>,
-
-    /// Configured git remote to fetch PR heads from. Defaults to a matching upstream/origin remote.
-    #[arg(long)]
-    pub git_remote: Option<String>,
-
-    /// Explicit git URL to fetch PR heads from. Overrides --git-remote.
-    #[arg(long)]
-    pub git_url: Option<String>,
 
     /// Edited Markdown buffer to read. Defaults to the selected draft file.
     #[arg(long)]
@@ -230,7 +210,7 @@ async fn run_fetch(args: FetchArgs) -> Result<()> {
     let draft_text = fs::read_to_string(workdir.join(&draft_rel))
         .with_context(|| format!("read {}", draft_rel.display()))?;
 
-    let (owner, name) = parse_repo_name(&args.repo)?;
+    let (owner, name) = parse_repo_name(DEFAULT_REMOTE)?;
     let (client, authenticated) = github_client()?;
     if authenticated {
         info!("using authenticated GitHub API client");
@@ -239,9 +219,9 @@ async fn run_fetch(args: FetchArgs) -> Result<()> {
     }
     info!(
         "listing open PRs for {}/{} targeting {}",
-        owner, name, args.base
+        owner, name, DEFAULT_BASE
     );
-    let pulls = fetch_open_pulls(&client, owner, name, &args.base).await?;
+    let pulls = fetch_open_pulls(&client, owner, name, DEFAULT_BASE).await?;
     info!("found {} open PRs", pulls.len());
     let mut submissions = Vec::new();
     let mut skipped = Vec::new();
@@ -256,11 +236,11 @@ async fn run_fetch(args: FetchArgs) -> Result<()> {
             });
             continue;
         }
-        if pull.base_ref != args.base {
+        if pull.base_ref != DEFAULT_BASE {
             skipped.push(SkippedPr {
                 pr: pull.number,
                 title: pull.title,
-                reason: format!("targets {}, not {}", pull.base_ref, args.base),
+                reason: format!("targets {}, not {}", pull.base_ref, DEFAULT_BASE),
             });
             continue;
         }
@@ -347,13 +327,7 @@ fn run_merge(args: MergeArgs) -> Result<()> {
     info!("retained {} PRs", parsed.included.len());
 
     info!("fetching retained PR heads");
-    let parent_oids = fetch_and_verify_pr_heads(
-        &repo,
-        &args.repo,
-        args.git_remote.as_deref(),
-        args.git_url.as_deref(),
-        &parsed.included,
-    )?;
+    let parent_oids = fetch_and_verify_pr_heads(&repo, &parsed.included)?;
     info!("creating local merge commit");
     let commit_oid = create_merge_commit(
         &repo,
@@ -780,14 +754,8 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
     })
 }
 
-fn fetch_and_verify_pr_heads(
-    repo: &Repository,
-    remote_repo: &str,
-    git_remote: Option<&str>,
-    git_url: Option<&str>,
-    submissions: &[Submission],
-) -> Result<Vec<Oid>> {
-    let remote_url = remote_url_for_repo(repo, remote_repo, git_remote, git_url)?;
+fn fetch_and_verify_pr_heads(repo: &Repository, submissions: &[Submission]) -> Result<Vec<Oid>> {
+    let remote_url = public_git_url()?;
     let mut remote = repo
         .remote_anonymous(&remote_url)
         .with_context(|| format!("open anonymous remote {remote_url}"))?;
@@ -796,10 +764,8 @@ fn fetch_and_verify_pr_heads(
         .or_else(|_| env::var("GH_TOKEN"))
         .ok();
     let mut callbacks = RemoteCallbacks::new();
-    callbacks.credentials(move |_url, username_from_url, allowed| {
-        if allowed.contains(CredentialType::SSH_KEY) {
-            Cred::ssh_key_from_agent(username_from_url.unwrap_or("git"))
-        } else if allowed.contains(CredentialType::USER_PASS_PLAINTEXT) {
+    callbacks.credentials(move |_url, _username_from_url, allowed| {
+        if allowed.contains(CredentialType::USER_PASS_PLAINTEXT) {
             if let Some(token) = git_token.as_deref() {
                 Cred::userpass_plaintext("x-access-token", token)
             } else {
@@ -840,107 +806,14 @@ fn fetch_and_verify_pr_heads(
     Ok(oids)
 }
 
-fn remote_url_for_repo(
-    repo: &Repository,
-    remote_repo: &str,
-    git_remote: Option<&str>,
-    git_url: Option<&str>,
-) -> Result<String> {
-    if let Some(url) = git_url {
-        let normalized = normalize_git_url_for_libgit2(url);
-        info!("using explicit git URL {normalized}");
-        return Ok(normalized);
-    }
-
-    if let Some(remote_name) = git_remote {
-        let remote = repo
-            .find_remote(remote_name)
-            .with_context(|| format!("read remote {remote_name}"))?;
-        let url = remote
-            .url()
-            .with_context(|| format!("read URL for remote {remote_name}"))?;
-        let normalized = normalize_git_url_for_libgit2(url);
-        info!("using git remote {remote_name}: {normalized}");
-        return Ok(normalized);
-    }
-
-    let remotes = repo.remotes().context("list git remotes")?;
-    let mut matching_remotes = Vec::new();
-
-    for remote_name in remotes.iter().filter_map(|name| name.ok().flatten()) {
-        let remote = repo
-            .find_remote(remote_name)
-            .with_context(|| format!("read remote {remote_name}"))?;
-        let Ok(url) = remote.url() else {
-            continue;
-        };
-        if github_remote_matches(url, remote_repo) {
-            matching_remotes.push((remote_name.to_string(), url.to_string()));
-        }
-    }
-
-    if let Some((name, url)) = matching_remotes
-        .iter()
-        .find(|(name, _url)| name == "upstream")
-    {
-        let normalized = normalize_git_url_for_libgit2(url);
-        info!("using git remote {name}: {normalized}");
-        return Ok(normalized);
-    }
-
-    if let Some((name, url)) = matching_remotes
-        .iter()
-        .find(|(name, _url)| name == "origin")
-    {
-        let normalized = normalize_git_url_for_libgit2(url);
-        info!("using git remote {name}: {normalized}");
-        return Ok(normalized);
-    }
-
-    if let Some((name, url)) = matching_remotes.iter().find(|(_name, url)| is_ssh_url(url)) {
-        let normalized = normalize_git_url_for_libgit2(url);
-        info!("using git remote {name}: {normalized}");
-        return Ok(normalized);
-    }
-
-    if let Some((name, url)) = matching_remotes.first() {
-        let normalized = normalize_git_url_for_libgit2(url);
-        info!("using git remote {name}: {normalized}");
-        return Ok(normalized);
-    }
-
-    let fallback = normalize_git_url_for_libgit2(&format!("git@github.com:{remote_repo}.git"));
-    info!("no configured remote matched {remote_repo}; falling back to {fallback}");
-    Ok(fallback)
-}
-
-fn github_remote_matches(url: &str, remote_repo: &str) -> bool {
-    let normalized_url = url
-        .trim_end_matches(".git")
+fn public_git_url() -> Result<String> {
+    let normalized_repo = DEFAULT_REMOTE
+        .trim()
         .trim_end_matches('/')
-        .to_ascii_lowercase();
-    let normalized_repo = remote_repo.trim_end_matches(".git").to_ascii_lowercase();
-    normalized_url.ends_with(&format!("github.com/{normalized_repo}"))
-        || normalized_url.ends_with(&format!("github.com:{normalized_repo}"))
-}
-
-fn is_ssh_url(url: &str) -> bool {
-    url.starts_with("git@github.com:") || url.starts_with("ssh://")
-}
-
-fn normalize_git_url_for_libgit2(url: &str) -> String {
-    if url.contains("://") {
-        return url.to_string();
-    }
-
-    let Some((user_host, path)) = url.split_once(':') else {
-        return url.to_string();
-    };
-    if !user_host.contains('@') {
-        return url.to_string();
-    }
-
-    format!("ssh://{}/{}", user_host, path.trim_start_matches('/'))
+        .trim_end_matches(".git")
+        .trim_end_matches('/');
+    let (owner, name) = parse_repo_name(normalized_repo)?;
+    Ok(format!("https://github.com/{owner}/{name}.git"))
 }
 
 fn create_merge_commit(
@@ -1232,45 +1105,9 @@ mod tests {
     }
 
     #[test]
-    fn finds_matching_configured_ssh_remote() {
-        let dir = tempfile::tempdir().unwrap();
-        let repo = Repository::init(dir.path()).unwrap();
-        repo.remote("origin", "git@github.com:jder/this-week-in-rust.git")
-            .unwrap();
-        repo.remote("upstream", "git@github.com:rust-lang/this-week-in-rust.git")
-            .unwrap();
-
-        let url = remote_url_for_repo(&repo, "rust-lang/this-week-in-rust", None, None).unwrap();
-        assert_eq!(url, "ssh://git@github.com/rust-lang/this-week-in-rust.git");
-    }
-
-    #[test]
-    fn normalizes_scp_style_ssh_url_for_libgit2() {
-        assert_eq!(
-            normalize_git_url_for_libgit2("git@github.com:rust-lang/this-week-in-rust.git"),
-            "ssh://git@github.com/rust-lang/this-week-in-rust.git"
-        );
-        assert_eq!(
-            normalize_git_url_for_libgit2("https://github.com/rust-lang/this-week-in-rust.git"),
-            "https://github.com/rust-lang/this-week-in-rust.git"
-        );
-    }
-
-    #[test]
-    fn explicit_git_url_overrides_remotes() {
-        let dir = tempfile::tempdir().unwrap();
-        let repo = Repository::init(dir.path()).unwrap();
-        repo.remote("upstream", "git@github.com:rust-lang/this-week-in-rust.git")
-            .unwrap();
-
-        let url = remote_url_for_repo(
-            &repo,
-            "rust-lang/this-week-in-rust",
-            None,
-            Some("git@github.com:jder/this-week-in-rust.git"),
-        )
-        .unwrap();
-        assert_eq!(url, "ssh://git@github.com/jder/this-week-in-rust.git");
+    fn uses_in_code_public_github_endpoint() {
+        let url = public_git_url().unwrap();
+        assert_eq!(url, "https://github.com/rust-lang/this-week-in-rust.git");
     }
 
     #[test]
