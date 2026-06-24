@@ -40,14 +40,25 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
-
+* [Rust Foundation Welcomes OpenAI As Platinum Member](https://rustfoundation.org/media/rust-foundation-welcomes-openai-as-platinum-member-announces-donation-to-rust-project/)
+* [Rust Commercial Network Launches to Unite Commercial Users of Rust](https://rustfoundation.org/media/rust-commercial-network-launches-to-bring-commercial-users-of-rust-language-together/)
+* [Mainmatter Is Bringing Hands-On Rust Training](https://rustfoundation.org/media/mainmatter-is-bringing-hands-on-rust-training-to-upskilling-week-in-barcelona/)
 ### Newsletters
+* [The Embedded Rustacean Issue #74](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-74)
 
 ### Project/Tooling Updates
+* [Bevy 0.19](https://bevy.org/news/bevy-0-19)
+* [Rust PNG crate gets even faster, used by GNOME and Chromium](https://blog.image-rs.org/2026/06/18/png-adoption.html)
 
 ### Observations/Thoughts
+* [How we found a bug in the hyper HTTP library](https://blog.cloudflare.com/hyper-bug/)
+* [ClickHouse with Alexey Milovidov and Austin Bonander](https://corrode.dev/podcast/s06e06-clickhouse/)
+* [Profiling Async and Concurrent Rust: Channels and Lock Contention](https://hotpath.rs/blog/profiling-async-rust)
+
 
 ### Rust Walkthroughs
+* [Migrating LiteLLM to Rust - Building the Fastest and Litest AI Gateway](https://docs.litellm.ai/blog/litellm-rust-launch)
+* [Safe SIMD in Rust, even on the inside](https://medium.com/@shnatsel/safe-simd-in-rust-even-on-the-inside-c6f1ff381828)
 
 ### Research
 
