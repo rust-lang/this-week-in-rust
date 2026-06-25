@@ -61,7 +61,6 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 * [How we found a bug in the hyper HTTP library](https://blog.cloudflare.com/hyper-bug/)
 * [ClickHouse with Alexey Milovidov and Austin Bonander](https://corrode.dev/podcast/s06e06-clickhouse/)
-* [Profiling Async and Concurrent Rust: Channels and Lock Contention](https://hotpath.rs/blog/profiling-async-rust)
 * [Deep dive into iroh: A replacement for WireGuard or a peer-to-peer layer for your application?](https://kerkour.com/iroh-v1-p2p)
 * [Optimizing #\[sqlx::test\] rebuild time](https://kobzol.github.io/rust/2026/06/21/optimizing-sqlx-test-rebuild-time.html)
 * [Rewriting the world in Rust](https://bitfieldconsulting.com/posts/rewrite-in-rust)
