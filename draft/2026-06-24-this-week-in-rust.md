@@ -46,10 +46,13 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [Ratatui 0.30.2 is released - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v0302/)
+* [Adding a post-quantum hybrid handshake to a Rust VPN](https://dev.to/alexandr_litvinov/adding-a-post-quantum-hybrid-handshake-to-a-rust-vpn-pk8)
 
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+
+* [Porting 300,000 Lines of C++ and Perl to Rust: A Dual-Oracle Media Metadata Engine](https://medium.com/@vbasky/porting-200-000-lines-of-c-to-rust-building-a-byte-identical-mediainfo-replacement-8e9b587d469a)
 
 ### Research
 
@@ -256,6 +259,8 @@ Rusty Events between 2026-06-24 - 2026-07-22 🦀
     * [**Rust Berlin Talks: The next generation**](https://www.meetup.com/rust-berlin/events/314396600/)
 * 2026-06-25 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/events/)
     * [**Rust meetup #69**](https://www.meetup.com/copenhagen-rust-community/events/315214426/)
+* 2026-06-25 | Toulouse, FR | [Rust Toulouse](https://www.meetup.com/rust-community-toulouse/)
+    * [**Rust Toulouse Meetup - Bevy & ESP32**](https://www.meetup.com/rust-community-toulouse/events/314947457/)
 * 2026-07-02 | Edinburgh, GB | [Rust and Friends](https://www.meetup.com/rust-edi/events/)
     * [**Bevy, Bits, & Cats (Rust July Talks)**](https://www.meetup.com/rust-and-friends/events/314941098/)
 * 2026-07-02 | Enschede, OV, NL | [Baseflow Tech Meetups](https://www.meetup.com/dutch-rust-meetup/events/)
