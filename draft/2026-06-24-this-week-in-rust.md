@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 * [hotpath-rs 0.18: Profiling Async and Concurrent Rust - Channels and Lock Contention](https://hotpath.rs/blog/profiling-async-rust)
 
 ### Observations/Thoughts
+* [Deep dive into iroh: A replacement for WireGuard or a peer-to-peer layer for your application?](https://kerkour.com/iroh-v1-p2p)
 
 * [Optimizing #\[sqlx::test\] rebuild time](https://kobzol.github.io/rust/2026/06/21/optimizing-sqlx-test-rebuild-time.html)
 
