@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [kache 0.7.0: caching real-world C/C++ trees](https://github.com/kunobi-ninja/kache/releases/tag/v0.7.0)
 * [New Feature in GuardianDB: Introducing the ODM (Object Document Mapper) Layer](https://www.willsearch.com.br/blog/2026/06/23/new-feature-in-guardiandb-introducing-the-odm-object-document-mapper-layer/)
 * [Safe SIMD in Rust, even on the inside](https://shnatsel.medium.com/safe-simd-in-rust-even-on-the-inside-c6f1ff381828)
 * [Ratatui 0.30.2 is released - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v0302/)
