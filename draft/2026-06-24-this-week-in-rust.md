@@ -78,7 +78,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [cargo-rdme](https://github.com/orium/cargo-rdme), a 
+
+Thanks to [Diogo Sousa](https://users.rust-lang.org/t/crate-of-the-week/2704/1616) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -163,7 +165,67 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+515 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-06-16..2026-06-23
+
+#### Compiler
+* [implement `#[diagnostic::on_unknown]` for modules](https://github.com/rust-lang/rust/pull/157926)
+* [outline part of `evaluate_goal_raw` into its own `#[cold]` function](https://github.com/rust-lang/rust/pull/158042)
+* [preserve `track_caller` for by-value dyn vtable shims](https://github.com/rust-lang/rust/pull/157967)
+
+#### Library
+* [add `io::Read::read_le` and `io::Read::read_be`](https://github.com/rust-lang/rust/pull/156983)
+* [constify `TryFrom<Vec>` for array](https://github.com/rust-lang/rust/pull/155616)
+* [`impl [const] Default for BTreeMap`](https://github.com/rust-lang/rust/pull/157878)
+* [stabilize `str_from_utf16_endian`](https://github.com/rust-lang/rust/pull/157912)
+* [stabilize `strip_circumfix`](https://github.com/rust-lang/rust/pull/158012)
+* [stabilize `substr_range` and `subslice_range`](https://github.com/rust-lang/rust/pull/141266)
+
+#### Cargo
+* [`diag`: Support `build.warnings` for cargo lints](https://github.com/rust-lang/cargo/pull/17112)
+* [`add`: list too-new versions and how to override](https://github.com/rust-lang/cargo/pull/17117)
+* [`host-config`: dont apply target config to host artifacts](https://github.com/rust-lang/cargo/pull/17123)
+* [`install`: Run cargo lints like rustc lints](https://github.com/rust-lang/cargo/pull/17107)
+* [`resolver`: hint how to resolve too-new versions](https://github.com/rust-lang/cargo/pull/17118)
+* [`test`: skip dwp uplift test without packed debuginfo](https://github.com/rust-lang/cargo/pull/17127)
+* [add Solaris fcntl file locking](https://github.com/rust-lang/cargo/pull/17110)
+* [`-Zmin-publish-age`](https://github.com/rust-lang/cargo/pull/17012) (RFC [#3923](https://rust-lang.github.io/rfcs/3923-cargo-min-publish-age.html))
+* [improved the test error messages when 'rustc -V' fails](https://github.com/rust-lang/cargo/pull/17108)
+* [remove windows-sys dependencies older than 0.61](https://github.com/rust-lang/cargo/pull/17115)
+
+#### Clippy
+* [add lint to suggest `as_chunks` over `chunks_exact` with constant](https://github.com/rust-lang/rust-clippy/pull/16931)
+* [new `unnecessary_unwrap_unchecked`: lint](https://github.com/rust-lang/rust-clippy/pull/16252)
+* [`extra_unused_type_parameters`: don't suggest an autofix](https://github.com/rust-lang/rust-clippy/pull/15907)
+* [`let_underscore_future`: skip bindings with an explicit type annotation](https://github.com/rust-lang/rust-clippy/pull/17001)
+* [avoid ICE when evaluating constants containing unsized type args](https://github.com/rust-lang/rust-clippy/pull/16976)
+* [avoid `map_unwrap_or` fix when default is adjusted](https://github.com/rust-lang/rust-clippy/pull/16928)
+* [do not check for unused lifetimes in expanded code](https://github.com/rust-lang/rust-clippy/pull/17256)
+* [don't trigger `unnecessary_box_returns` when the size depends on generics](https://github.com/rust-lang/rust-clippy/pull/17249)
+* [find a shared context for the format string and the `format!` call](https://github.com/rust-lang/rust-clippy/pull/17243)
+* [fix OOM panic for large types on uninit check](https://github.com/rust-lang/rust-clippy/pull/17205)
+* [fix `std_instead_of_core`: false positives for `core::io`/MSRV](https://github.com/rust-lang/rust-clippy/pull/16964)
+* [`manual_slice_fill` detect for in loops over `&mut [T; N]` slices](https://github.com/rust-lang/rust-clippy/pull/16926)
+* [merge comment and cfg checking in `matches` lint pass](https://github.com/rust-lang/rust-clippy/pull/17239)
+* [perf: check the method name first in `or_fun_call`](https://github.com/rust-lang/rust-clippy/pull/17266)
+* [perf: compare method names before type queries in three lint passes](https://github.com/rust-lang/rust-clippy/pull/17265)
+* [perf: run structural checks before const context queries in `question_mark, manual_clamp` and ranges](https://github.com/rust-lang/rust-clippy/pull/17275)
+* [perf: skip `match_same_arms` work when the lint is allowed](https://github.com/rust-lang/rust-clippy/pull/17272)
+* [perf: skip tokenizing in `span_contains_cfg` when no '#' is present](https://github.com/rust-lang/rust-clippy/pull/17226)
+* [treat `!` the same as `-` in `unnecessary_cast`](https://github.com/rust-lang/rust-clippy/pull/17278)
+
+#### Rust-Analyzer
+* [`assists/replace_match_with_if_let`: don't parenthesize if-let guards](https://github.com/rust-lang/rust-analyzer/pull/22618)
+* [`implements_trait_unique_with_infcx`: only forbid the self type from being an error type](https://github.com/rust-lang/rust-analyzer/pull/22617)
+* [bye bye ted](https://github.com/rust-lang/rust-analyzer/pull/22516)
+* [do not visit nodes in GC multiple times](https://github.com/rust-lang/rust-analyzer/pull/22627)
+* [MIR eval mixed bit and byte sizes](https://github.com/rust-lang/rust-analyzer/pull/22594)
+* [check for `#[cfg]s` in tail expression macros](https://github.com/rust-lang/rust-analyzer/pull/22599)
+* [crash on static constants in array length positions](https://github.com/rust-lang/rust-analyzer/pull/22601)
+* [don't complete `.await` on receivers of unknown type](https://github.com/rust-lang/rust-analyzer/pull/22486)
+* [don't panic on out-of-range integer literals in const positions](https://github.com/rust-lang/rust-analyzer/pull/22621)
+* [migrate merge imports to editor](https://github.com/rust-lang/rust-analyzer/pull/22351)
 
 ### Rust Compiler Performance Triage
 
@@ -305,8 +367,6 @@ Rusty Events between 2026-06-24 - 2026-07-22 🦀
     * [**Join us live and INPERSON for Rust 262**](https://www.meetup.com/rust-dublin/events/315150327/)
 * 2026-07-09 | Switzerland, CH | [PostTenebrasLab](https://www.posttenebraslab.ch/wiki/events/start)
     * [**Rust Meetup Geneva**](https://www.posttenebraslab.ch/wiki/events/monthly_meeting/rust_meetup)
-* 2026-07-21 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig)
-    * [**Supercharge Rust funcs with implicit arguments and context-generic programming**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313816470/)
 
 ### North America
 * 2026-06-24 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx)
@@ -361,7 +421,12 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> I think this is the wrong decision, and I wish the lang team had stabilized the Late type instead.
+Better Late than Never.
+
+– [/u/CouteauBleu on /r/rust](https://www.reddit.com/r/rust/comments/1u1v53c/the_never_type_is_likely_to_stabilize_soon/oqsxf3v/)
+
+Thanks to [Theemathas](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1782) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
