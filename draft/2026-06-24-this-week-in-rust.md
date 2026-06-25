@@ -58,6 +58,8 @@ and just ask the editors to select the category.
 
 * [Optimizing #\[sqlx::test\] rebuild time](https://kobzol.github.io/rust/2026/06/21/optimizing-sqlx-test-rebuild-time.html)
 
+* [Rewriting the world in Rust](https://bitfieldconsulting.com/posts/rewrite-in-rust)
+
 ### Rust Walkthroughs
 * [Learn Rust Async/Await, Tokio, and TCP Networking by Building an HTTP/1.1 Server](https://blog.sheerluck.dev/posts/learn-rust-async-await-by-building-an-http-server/)
 * [Building Breakout in Bevy: Step by Step](https://blog.sheerluck.dev/posts/build-breakout-in-bevy-step-by-step/)
