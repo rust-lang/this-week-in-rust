@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rayfish: Your own private network. No servers, no setup.](https://rayfish.xyz/blog/01-introducing-rayfish)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
