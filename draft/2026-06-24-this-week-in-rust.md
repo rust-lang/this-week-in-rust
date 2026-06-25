@@ -44,12 +44,24 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [kache 0.7.0: caching real-world C/C++ trees](https://github.com/kunobi-ninja/kache/releases/tag/v0.7.0)
+* [New Feature in GuardianDB: Introducing the ODM (Object Document Mapper) Layer](https://www.willsearch.com.br/blog/2026/06/23/new-feature-in-guardiandb-introducing-the-odm-object-document-mapper-layer/)
+* [Safe SIMD in Rust, even on the inside](https://shnatsel.medium.com/safe-simd-in-rust-even-on-the-inside-c6f1ff381828)
+* [Ratatui 0.30.2 is released - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v0302/)
+* [Adding a post-quantum hybrid handshake to a Rust VPN](https://dev.to/alexandr_litvinov/adding-a-post-quantum-hybrid-handshake-to-a-rust-vpn-pk8)
+* [From Julia to Rust: a differentiable tensor stack for scientific computing in the agentic AI era](https://tensor4all.org/blog/introducing-tenferro-rs/)
+
+* [hotpath-rs 0.18: Profiling Async and Concurrent Rust - Channels and Lock Contention](https://hotpath.rs/blog/profiling-async-rust)
 
 ### Observations/Thoughts
+
+* [Optimizing #\[sqlx::test\] rebuild time](https://kobzol.github.io/rust/2026/06/21/optimizing-sqlx-test-rebuild-time.html)
 
 ### Rust Walkthroughs
 * [Learn Rust Async/Await, Tokio, and TCP Networking by Building an HTTP/1.1 Server](https://blog.sheerluck.dev/posts/learn-rust-async-await-by-building-an-http-server/)
 * [Building Breakout in Bevy: Step by Step](https://blog.sheerluck.dev/posts/build-breakout-in-bevy-step-by-step/)
+* [Porting 300,000 Lines of C++ and Perl to Rust: A Dual-Oracle Media Metadata Engine](https://medium.com/@vbasky/porting-200-000-lines-of-c-to-rust-building-a-byte-identical-mediainfo-replacement-8e9b587d469a)
+* [video] [RustCurious lesson 9: Traits are Interfaces](https://www.youtube.com/watch?v=RKojTb9IVJc)
 
 ### Research
 
@@ -256,6 +268,8 @@ Rusty Events between 2026-06-24 - 2026-07-22 🦀
     * [**Rust Berlin Talks: The next generation**](https://www.meetup.com/rust-berlin/events/314396600/)
 * 2026-06-25 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/events/)
     * [**Rust meetup #69**](https://www.meetup.com/copenhagen-rust-community/events/315214426/)
+* 2026-06-25 | Toulouse, FR | [Rust Toulouse](https://www.meetup.com/rust-community-toulouse/)
+    * [**Rust Toulouse Meetup - Bevy & ESP32**](https://www.meetup.com/rust-community-toulouse/events/314947457/)
 * 2026-07-02 | Edinburgh, GB | [Rust and Friends](https://www.meetup.com/rust-edi/events/)
     * [**Bevy, Bits, & Cats (Rust July Talks)**](https://www.meetup.com/rust-and-friends/events/314941098/)
 * 2026-07-02 | Enschede, OV, NL | [Baseflow Tech Meetups](https://www.meetup.com/dutch-rust-meetup/events/)
