@@ -40,34 +40,39 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Rust Foundation Welcomes OpenAI As Platinum Member](https://rustfoundation.org/media/rust-foundation-welcomes-openai-as-platinum-member-announces-donation-to-rust-project/)
+* [Rust Commercial Network Launches to Unite Commercial Users of Rust](https://rustfoundation.org/media/rust-commercial-network-launches-to-bring-commercial-users-of-rust-language-together/)
+* [Mainmatter Is Bringing Hands-On Rust Training](https://rustfoundation.org/media/mainmatter-is-bringing-hands-on-rust-training-to-upskilling-week-in-barcelona/)
 
 ### Newsletters
+* [The Embedded Rustacean Issue #74](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-74)
 
 ### Project/Tooling Updates
+* [Bevy 0.19](https://bevy.org/news/bevy-0-19)
+* [Rust PNG crate gets even faster, used by GNOME and Chromium](https://blog.image-rs.org/2026/06/18/png-adoption.html)
 * [kache 0.7.0: caching real-world C/C++ trees](https://github.com/kunobi-ninja/kache/releases/tag/v0.7.0)
 * [New Feature in GuardianDB: Introducing the ODM (Object Document Mapper) Layer](https://www.willsearch.com.br/blog/2026/06/23/new-feature-in-guardiandb-introducing-the-odm-object-document-mapper-layer/)
 * [Safe SIMD in Rust, even on the inside](https://shnatsel.medium.com/safe-simd-in-rust-even-on-the-inside-c6f1ff381828)
 * [Ratatui 0.30.2 is released - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v0302/)
 * [Adding a post-quantum hybrid handshake to a Rust VPN](https://dev.to/alexandr_litvinov/adding-a-post-quantum-hybrid-handshake-to-a-rust-vpn-pk8)
 * [From Julia to Rust: a differentiable tensor stack for scientific computing in the agentic AI era](https://tensor4all.org/blog/introducing-tenferro-rs/)
-
 * [hotpath-rs 0.18: Profiling Async and Concurrent Rust - Channels and Lock Contention](https://hotpath.rs/blog/profiling-async-rust)
 
 ### Observations/Thoughts
+* [How we found a bug in the hyper HTTP library](https://blog.cloudflare.com/hyper-bug/)
+* [ClickHouse with Alexey Milovidov and Austin Bonander](https://corrode.dev/podcast/s06e06-clickhouse/)
 * [Deep dive into iroh: A replacement for WireGuard or a peer-to-peer layer for your application?](https://kerkour.com/iroh-v1-p2p)
-
 * [Optimizing #\[sqlx::test\] rebuild time](https://kobzol.github.io/rust/2026/06/21/optimizing-sqlx-test-rebuild-time.html)
-
 * [Rewriting the world in Rust](https://bitfieldconsulting.com/posts/rewrite-in-rust)
 
 ### Rust Walkthroughs
+* [Migrating LiteLLM to Rust - Building the Fastest and Litest AI Gateway](https://docs.litellm.ai/blog/litellm-rust-launch)
+* [Safe SIMD in Rust, even on the inside](https://medium.com/@shnatsel/safe-simd-in-rust-even-on-the-inside-c6f1ff381828)
 * [Learn Rust Async/Await, Tokio, and TCP Networking by Building an HTTP/1.1 Server](https://blog.sheerluck.dev/posts/learn-rust-async-await-by-building-an-http-server/)
 * [Building Breakout in Bevy: Step by Step](https://blog.sheerluck.dev/posts/build-breakout-in-bevy-step-by-step/)
 * [Porting 300,000 Lines of C++ and Perl to Rust: A Dual-Oracle Media Metadata Engine](https://medium.com/@vbasky/porting-200-000-lines-of-c-to-rust-building-a-byte-identical-mediainfo-replacement-8e9b587d469a)
-* [video] [RustCurious lesson 9: Traits are Interfaces](https://www.youtube.com/watch?v=RKojTb9IVJc)
-
 * [A data race that doesn't compile](https://corentin-core.github.io/posts/ruxe-type-level-disjointness/)
-
+* [video] [RustCurious lesson 9: Traits are Interfaces](https://www.youtube.com/watch?v=RKojTb9IVJc)
 * [Video] [BAML: a new programming language (created in Rust)](https://www.youtube.com/watch?v=X8GDc2AtbG8)
 * [Video] [The Future of Version Control](https://www.youtube.com/watch?v=O3YWQvNqwHc)
 * [Video] [Borrowing Beauty: My Beginner's Quest to Create Approachable Bevy & Rust Code](https://www.youtube.com/watch?v=1Xz1E_27Uqc)
