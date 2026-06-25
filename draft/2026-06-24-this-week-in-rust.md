@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Optimizing #\[sqlx::test\] rebuild time](https://kobzol.github.io/rust/2026/06/21/optimizing-sqlx-test-rebuild-time.html)
+
 ### Rust Walkthroughs
 * [Porting 300,000 Lines of C++ and Perl to Rust: A Dual-Oracle Media Metadata Engine](https://medium.com/@vbasky/porting-200-000-lines-of-c-to-rust-building-a-byte-identical-mediainfo-replacement-8e9b587d469a)
 * [video] [RustCurious lesson 9: Traits are Interfaces](https://www.youtube.com/watch?v=RKojTb9IVJc)
