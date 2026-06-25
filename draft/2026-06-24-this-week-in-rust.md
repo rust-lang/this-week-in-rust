@@ -44,11 +44,10 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [New Feature in GuardianDB: Introducing the ODM (Object Document Mapper) Layer](https://www.willsearch.com.br/blog/2026/06/23/new-feature-in-guardiandb-introducing-the-odm-object-document-mapper-layer/)
 * [Safe SIMD in Rust, even on the inside](https://shnatsel.medium.com/safe-simd-in-rust-even-on-the-inside-c6f1ff381828)
-
 * [Ratatui 0.30.2 is released - a Rust library for cooking up terminal user interfaces](https://ratatui.rs/highlights/v0302/)
 * [Adding a post-quantum hybrid handshake to a Rust VPN](https://dev.to/alexandr_litvinov/adding-a-post-quantum-hybrid-handshake-to-a-rust-vpn-pk8)
-
 * [From Julia to Rust: a differentiable tensor stack for scientific computing in the agentic AI era](https://tensor4all.org/blog/introducing-tenferro-rs/)
 
 ### Observations/Thoughts
