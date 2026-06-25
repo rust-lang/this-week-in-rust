@@ -77,7 +77,7 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-This week's crate is [cargo-rdme](https://github.com/orium/cargo-rdme), a 
+This week's crate is [cargo-rdme](https://github.com/orium/cargo-rdme), a cargo command to create your README from your crate’s documentation.
 
 Thanks to [Diogo Sousa](https://users.rust-lang.org/t/crate-of-the-week/2704/1616) for the self-suggestion!
 
