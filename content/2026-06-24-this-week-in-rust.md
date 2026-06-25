@@ -37,8 +37,6 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
 ### Foundation
 * [Rust Foundation Welcomes OpenAI As Platinum Member](https://rustfoundation.org/media/rust-foundation-welcomes-openai-as-platinum-member-announces-donation-to-rust-project/)
 * [Rust Commercial Network Launches to Unite Commercial Users of Rust](https://rustfoundation.org/media/rust-commercial-network-launches-to-bring-commercial-users-of-rust-language-together/)
@@ -76,10 +74,6 @@ and just ask the editors to select the category.
 * [Video] [BAML: a new programming language (created in Rust)](https://www.youtube.com/watch?v=X8GDc2AtbG8)
 * [Video] [The Future of Version Control](https://www.youtube.com/watch?v=O3YWQvNqwHc)
 * [Video] [Borrowing Beauty: My Beginner's Quest to Create Approachable Bevy & Rust Code](https://www.youtube.com/watch?v=1Xz1E_27Uqc)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -377,7 +371,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1ttbtf5/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -406,4 +400,4 @@ This Week in Rust is edited by:
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1uewqig/this_week_in_rust_657/)</small>
