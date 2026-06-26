@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Axiom OS: per-read file integrity in a no_std kernel via block-level BLAKE3](https://github.com/abhiprd2000/axiom-os-kernel)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
