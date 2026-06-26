@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [ds4-rs-metal: DeepSeek-V4-Flash inference in Rust + Metal on Apple Silicon, at or ahead of the antirez C reference](https://github.com/yijunyu/ds4-rs-metal)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
