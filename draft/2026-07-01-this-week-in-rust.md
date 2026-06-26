@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rustacean: a cross-linked Rust knowledge brain where every example is compile-checked in CI (edition 2024)](https://agricidaniel.github.io/rustacean/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
