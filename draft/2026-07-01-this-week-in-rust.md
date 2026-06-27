@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Inside RSSH: one Rust crate, three binaries, and the Tauri lessons along the way](https://github.com/shihuili1218/rssh/blob/main/docs/article_arch_en.md)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
