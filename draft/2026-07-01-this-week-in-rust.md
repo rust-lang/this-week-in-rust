@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rustty 1.38 – accessibility & keyboard nav](https://github.com/Aleixenandros/Rustty/releases/tag/v1.38.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
