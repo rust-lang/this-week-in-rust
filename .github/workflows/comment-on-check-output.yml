@@ -1,0 +1,154 @@
+name: Comment on PR Check Output
+
+# This workflow runs using the definition from main and can write to pull
+# requests. It only reads the untrusted artifact produced by Correctness Checks
+# and posts a comment if that artifact contains check output.
+on:
+  workflow_run:
+    workflows: ["Correctness Checks"]
+    types: [completed]
+
+permissions:
+  actions: read
+  pull-requests: write
+
+jobs:
+  comment:
+    name: Comment on PR check output
+    # Correctness Checks also runs on pushes to main. Only PR runs upload the
+    # artifact that contains a PR number and check output.
+    if: ${{ github.event.workflow_run.event == 'pull_request' }}
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Download PR check output
+        id: download
+        uses: actions/download-artifact@v5
+        with:
+          name: pr-check-output
+          path: ${{ runner.temp }}/pr-check-output
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ github.token }}
+
+      - name: Comment on PR check output
+        shell: bash
+        env:
+          CHECK_OUTPUT_DIR: ${{ runner.temp }}/pr-check-output
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GH_TOKEN: ${{ github.token }}
+          RUN_HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          RUN_URL: ${{ github.event.workflow_run.html_url }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import re
+          import subprocess
+          import sys
+          import tempfile
+          from pathlib import Path
+          from typing import Optional
+
+          MAX_COMMENT_LENGTH = 60000
+
+          output_dir = Path(os.environ["CHECK_OUTPUT_DIR"])
+          repository = os.environ["GITHUB_REPOSITORY"]
+          run_head_sha = os.environ["RUN_HEAD_SHA"]
+          run_url = os.environ["RUN_URL"]
+
+          def read_pr_number() -> Optional[str]:
+              path = output_dir / "pr-number.txt"
+              if not path.exists():
+                  print("No pull request number artifact found for workflow run; skipping comment.")
+                  return None
+
+              value = path.read_text().strip()
+              if not value:
+                  print("No pull request number artifact found for workflow run; skipping comment.")
+                  return None
+
+              if not re.fullmatch(r"[0-9]+", value):
+                  raise ValueError(f"invalid pull request number artifact: {value!r}")
+              return value
+
+          def section(title: str, filename: str) -> Optional[str]:
+              path = output_dir / filename
+              if not path.exists():
+                  return None
+
+              output = path.read_text().strip()
+              if not output:
+                  return None
+
+              return f"### {title}\n\n{output}\n"
+
+          def build_comment() -> Optional[str]:
+              sections = [
+                  section("Link check", "inspect-links-pr.txt"),
+                  section("Markdown check", "inspect-markdown-pr.txt"),
+              ]
+              sections = [item for item in sections if item]
+              if not sections:
+                  print("No check output found; skipping comment.")
+                  return None
+
+              details = f"\n\nYou can see more details here: {run_url}"
+              check_output = "\n\n".join(sections)
+              body = (
+                  "Thank you for your contribution to This Week in Rust! "
+                  "Our automated checks found some possible issues with these changes:\n\n"
+                  f"{check_output}"
+              )
+
+              if len(body) + len(details) > MAX_COMMENT_LENGTH:
+                  body = body[:MAX_COMMENT_LENGTH - len(details)]
+
+              return body + details
+
+          def run_gh(args: list[str]) -> subprocess.CompletedProcess[str]:
+              return subprocess.run(
+                  ["gh", *args],
+                  check=True,
+                  text=True,
+                  capture_output=True,
+              )
+
+          def validate_pr_head(pr_number: str) -> bool:
+              result = run_gh(["api", f"repos/{repository}/pulls/{pr_number}", "--jq", ".head.sha"])
+              pr_head_sha = result.stdout.strip()
+              if pr_head_sha != run_head_sha:
+                  print("Pull request head SHA no longer matches workflow run; skipping stale comment.")
+                  return False
+              return True
+
+          def post_comment(pr_number: str, body: str) -> None:
+              with tempfile.NamedTemporaryFile("w", encoding="utf-8", suffix=".json") as input_file:
+                  json.dump({"body": body}, input_file)
+                  input_file.flush()
+                  run_gh(
+                      [
+                          "api",
+                          "--method",
+                          "POST",
+                          f"repos/{repository}/issues/{pr_number}/comments",
+                          "--input",
+                          input_file.name,
+                      ]
+                  )
+
+          try:
+              pr_number = read_pr_number()
+              if not pr_number:
+                  raise SystemExit(0)
+
+              if not validate_pr_head(pr_number):
+                  raise SystemExit(0)
+
+              body = build_comment()
+              if not body:
+                  raise SystemExit(0)
+
+              post_comment(pr_number, body)
+          except subprocess.CalledProcessError as exc:
+              sys.stderr.write(exc.stderr)
+              raise
+          PY
