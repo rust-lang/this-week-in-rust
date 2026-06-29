@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [GuardianDB 0.17.0: Secure namespaces, Iroh 1.0, and the arrival of the ODM](https://www.willsearch.com.br/blog/2026/06/25/guardiandb-0-17-0-secure-namespaces-iroh-1-0-and-the-arrival-of-the-odm/)
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
@@ -118,6 +118,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [GuardianDB 0.17.0 - Replication and Sharding](https://github.com/wmaslonek/guardian-db/issues/16)
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
