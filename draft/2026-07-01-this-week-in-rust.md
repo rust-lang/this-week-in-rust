@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [rustfmt is great](https://github.com/rust-lang/rustfmt)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
