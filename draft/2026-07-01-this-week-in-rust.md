@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [A file format that destroys itself a little every time you open it](https://www.aravpanwar.com/writing/a-file-format-that-destroys-itself/)
+
 ### Rust Walkthroughs
 
 ### Research
