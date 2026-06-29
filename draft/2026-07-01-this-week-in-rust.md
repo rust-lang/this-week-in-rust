@@ -49,7 +49,6 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Learn SQL and SQLx by Building a Book Library CLI in Rust](https://blog.sheerluck.dev/posts/learn-sql-and-sqlx-by-building-a-book-library-cli-in-rust/)
-* [Learn the Basics of Bevy 0.19 by Building and Deploying Pong to Itch.io](https://blog.sheerluck.dev/posts/learn-the-basics-of-bevy-by-building-and-deploying-pong-to-itch-io/)
 
 ### Research
 
