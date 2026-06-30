@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Building a real-time voice-agent runtime in Rust: no GIL, one binary, 2,000 calls a box](https://dev.to/iam_suriyan_b9078a5b3a553/building-a-real-time-voice-agent-runtime-in-rust-no-gil-one-binary-2000-calls-a-box-12ko)
 
 ### Observations/Thoughts
 
