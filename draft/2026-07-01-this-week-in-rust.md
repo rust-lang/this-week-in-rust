@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Flowcat: a native-Rust runtime for real-time voice agents (one binary, no GIL, in-process SIP/RTP)](https://github.com/AreevAI/flowcat)
 
 ### Observations/Thoughts
 
