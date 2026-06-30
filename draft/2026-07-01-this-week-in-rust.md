@@ -51,7 +51,6 @@ and just ask the editors to select the category.
 * [How I Found Out 52% of My Knowledge Graph Was Duplicates (and What I Did About It)](https://dev.to/ernesto_arias_148b35bc25d/-how-i-found-out-52-of-my-knowledge-graph-was-duplicates-and-what-i-did-about-it-3coh)
 
 
-
 ### Rust Walkthroughs
 
 ### Research
