@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [mqtt-typed-client 0.2](https://github.com/holovskyi/mqtt-typed-client) - a type-safe async MQTT client on top of rumqttc: declare topics as structs with `#[mqtt_topic("...")]` and get typed publish/subscribe, parameter parsing via FromStr, and tree-based routing instead of hand-written `format!()` and `split('/')`. [Write-up](https://holovskyi.github.io/blog/typed-mqtt-topics-for-rust/).
+* [mqtt-typed-client 0.2](https://holovskyi.github.io/blog/typed-mqtt-topics-for-rust/) - a type-safe async MQTT client on top of rumqttc: declare topics as structs with `#[mqtt_topic("...")]` and get typed publish/subscribe, parameter parsing via FromStr, and tree-based routing instead of hand-written `format!()` and `split('/')`.
 
 ### Observations/Thoughts
 
