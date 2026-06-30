@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [series] [Reasoning About Async Rust with State Machines](https://aibodh.com/posts/async-rust-chapter-2-what-async-fn-compiles-into/)
+
 ### Research
 
 ### Miscellaneous
