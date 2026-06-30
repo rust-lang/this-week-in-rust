@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [AimDB: Bring Your Own Connector](https://aimdb.dev/blog/aimdb-bring-your-own-connector)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
