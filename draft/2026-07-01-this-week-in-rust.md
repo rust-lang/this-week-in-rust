@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Warbell — a castle-defense action-RPG built with Bevy 0.19](https://miskibin.github.io/warbell/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
