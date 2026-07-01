@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+[I built a macOS FTP client entirely in Rust - no Electron, no webview](https://dev.to/gregorymc86/i-built-a-macos-ftp-client-entirely-in-rust-no-electron-no-webview-2a8i)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
