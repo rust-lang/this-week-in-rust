@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [We put a Redis server inside our runtime](https://encore.dev/blog/redis-runtime)
+
 ### Rust Walkthroughs
 
 ### Research
