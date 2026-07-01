@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [kache 0.8.0: zero-copy restores on Windows (ReFS)](https://github.com/kunobi-ninja/kache/releases/tag/v0.8.0)
 
 ### Observations/Thoughts
 
