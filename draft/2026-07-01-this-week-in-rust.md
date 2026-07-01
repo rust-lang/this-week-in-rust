@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [A Novel Approach to Rust Error Handling](https://jtjlehi.github.io/2026/06/25/novel-rust-error-handling.html)
+
 ### Rust Walkthroughs
 
 ### Research
