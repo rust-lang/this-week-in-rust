@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [The C to Rust Migration Book](https://mainmatter.com/c-to-rust-migration-book/)
+
 ### Research
 
 ### Miscellaneous
