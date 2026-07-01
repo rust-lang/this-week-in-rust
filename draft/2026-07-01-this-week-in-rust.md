@@ -230,12 +230,20 @@ Rusty Events between 2026-07-01 - 2026-07-29 🦀
     * [**Lunch & Learn: Learning Rust as First Programming Language**](https://www.meetup.com/women-in-rust/events/315102297/)
 * 2026-07-21 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc)
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/315279653/)
+* 2026-07-28 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
+    * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/310254777/)
 
 ### Asia
 * 2026-07-18 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**July 2026 Rustacean Meetup**](https://hasgeek.com/rustbangalore/july-2026-rustacean-meetup/)
 
 ### Europe
+* 2026-07-01 | Köln, DE | [Rust Cologne](https://www.meetup.com/rust-cologne-bonn)
+    * [**Rust in July: Vecs and Strings and Slices, Oh My!**](https://www.meetup.com/rustcologne/events/315404678/)
+* 2026-07-01 | Manchester, UK | [Rust Manchester](https://www.meetup.com/rust-manchester)
+    * [**Rust Manchester June Talks**](https://www.meetup.com/rust-manchester/events/315200163/)
+* 2026-07-01 | Oxford, UK | [Oxford ACCU/Rust Meetup.](https://www.meetup.com/oxford-rust-meetup-group)
+    * [**Building a file system from scratch**](https://www.meetup.com/oxford-rust-meetup-group/events/315409335/)
 * 2026-07-02 | Edinburgh, UK | [Rust and Friends](https://www.meetup.com/rust-edi)
     * [**Bevy, Bits, & Cats (Rust July Talks)**](https://www.meetup.com/rust-and-friends/events/314941098/)
 * 2026-07-02 | Enschede, NL | [Baseflow Tech Meetups](https://www.meetup.com/dutch-rust-meetup)
@@ -244,6 +252,14 @@ Rusty Events between 2026-07-01 - 2026-07-29 🦀
     * [**Join us live and INPERSON for Rust 262**](https://www.meetup.com/rust-dublin/events/315150327/)
 * 2026-07-09 | Switzerland, CH | [PostTenebrasLab](https://www.posttenebraslab.ch/wiki/events/start)
     * [**Rust Meetup Geneva**](https://www.posttenebraslab.ch/wiki/events/monthly_meeting/rust_meetup)
+* 2026-07-21 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig)
+    * [**Supercharge Rust funcs with implicit arguments and context-generic programming**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313816470/)
+* 2026-07-23 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin)
+    * [**Rust Berlin Talks: The next generation**](https://www.meetup.com/rust-berlin/events/315484101/)
+* 2026-07-23 | London, UK | [London Rust Project Group](https://www.meetup.com/london-rust-project-group)
+    * [**Rama modular service framework for Rust**](https://www.meetup.com/london-rust-project-group/events/315366453/)
+* 2026-07-23 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris)
+    * [**Rust meetup #87**](https://www.meetup.com/rust-paris/events/315309633/)
 
 ### North America
 * 2026-07-02 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust)
@@ -272,6 +288,8 @@ Rusty Events between 2026-07-01 - 2026-07-29 🦀
 ### Oceania
 * 2026-07-21 | Barton, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra)
     * [**July Meetup**](https://www.meetup.com/rust-canberra/events/315307280/)
+* 2026-07-23 | Perth, AU | [Rust Perth Meetup Group](https://www.meetup.com/perth-rust-meetup-group)
+    * [**Rust Perth: July Meetup!**](https://www.meetup.com/perth-rust-meetup-group/events/315451138/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
