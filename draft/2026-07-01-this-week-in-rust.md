@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [deconvolution](https://github.com/pbkx/deconvolution), a image deconvolution and restoration library.
+
+Thanks to [pbkx](https://users.rust-lang.org/t/crate-of-the-week/2704/1621) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -137,7 +139,45 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+426 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-06-23..2026-06-30
+
+#### Compiler
+* [drop the full-crate AST walk in `check_unused`](https://github.com/rust-lang/rust/pull/157996)
+* [make `stable_crate_ids` reads lock-free after crate loading](https://github.com/rust-lang/rust/pull/158185)
+* [rework lint pass running](https://github.com/rust-lang/rust/pull/158239)
+* [simplify some `proc_macro` things](https://github.com/rust-lang/rust/pull/157271)
+
+#### Library
+* [add `io::ErrorKind::TooManyOpenFiles`](https://github.com/rust-lang/rust/pull/158326)
+* [expand `OptionFlatten`'s iterator methods](https://github.com/rust-lang/rust/pull/153097)
+* [move `std::io::Error` into `core`](https://github.com/rust-lang/rust/pull/155625)
+* [optimize network address parser](https://github.com/rust-lang/rust/pull/158053)
+
+#### Cargo
+* [add `-Zhint-msrv` flag](https://github.com/rust-lang/cargo/pull/17106)
+
+#### Clippy
+* [`filter_map_next`: clean-up, overhaul suggestions](https://github.com/rust-lang/rust-clippy/pull/17237)
+* [`chunks_exact_to_as_chunks`: Prevent syntactically invalid suggestions](https://github.com/rust-lang/rust-clippy/pull/17318)
+* [`chunks_exact_to_as_chunks`: Use correct method name in message](https://github.com/rust-lang/rust-clippy/pull/17317)
+* [`chunks_exact_to_as_chunks`: Pick iter method depending on mut-ness](https://github.com/rust-lang/rust-clippy/pull/17316)
+* [`non_ascii_literal`, `invisible_characters`: don't suggest a fix on raw strings](https://github.com/rust-lang/rust-clippy/pull/17302)
+* [create a single `ConstEvalCtxt` in `expr_eagerness`](https://github.com/rust-lang/rust-clippy/pull/17228)
+* [detect new range types in `higher::Range`](https://github.com/rust-lang/rust-clippy/pull/17299)
+* [do not trigger `manual_option_zip` when map receiver is a lazy evaluated expression](https://github.com/rust-lang/rust-clippy/pull/17270)
+* [enhance `needless_late_init` to cover grouped assignments](https://github.com/rust-lang/rust-clippy/pull/16746)
+* [fix: `borrow_as_ptr` is triggered on generated code](https://github.com/rust-lang/rust-clippy/pull/17257)
+
+#### Rust-Analyzer
+* [add diagnostic for E0596](https://github.com/rust-lang/rust-analyzer/pull/22466)
+* [add fixes add '.await' for `type_mismatch`](https://github.com/rust-lang/rust-analyzer/pull/22645)
+* [crash on lowering consts with associated types](https://github.com/rust-lang/rust-analyzer/pull/22646)
+* [crash when hovering on anonymous consts](https://github.com/rust-lang/rust-analyzer/pull/22640)
+* [only run `Drop::drop` when implemented](https://github.com/rust-lang/rust-analyzer/pull/22582)
+* [mark `inline_convert_while_ascii()` as `unsafe`](https://github.com/rust-lang/rust-analyzer/pull/22633)
+* [switch out lsp-types for gen-lsp-types](https://github.com/rust-lang/rust-analyzer/pull/22115)
 
 ### Rust Compiler Performance Triage
 
@@ -312,7 +352,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> I *do* rather hope anyone using `-Zllvm-target-features` or any stabilized form thereof would know that they are getting a conversation with the dragon directly and they should mind their words carefully if they do not wish to be barbecued by it and served over a nice plate of iron filings.
+
+– [workingjubilee on rust zulip](https://rust-lang.zulipchat.com/#narrow/channel/233931-t-compiler.2Fmajor-changes/topic/Add.20.60-Zllvm-target-feature.60.20target.20.2Amodif.E2.80.A6.20compiler-team.23994/near/606147265)
+
+Thanks to [Tomáš Šedovič](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1784) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
