@@ -20,7 +20,7 @@ use std::path::{Path, PathBuf};
 
 const DEFAULT_REMOTE: &str = "rust-lang/this-week-in-rust";
 const DEFAULT_BASE: &str = "main";
-const COMMUNITY_HEADING: &str = "## Updates from Rust Community";
+const COMMUNITY_HEADING: &str = "Updates from Rust Community";
 const MARKER_TOKEN: &str = "submerge-pr:";
 
 #[derive(Debug, Parser)]
@@ -585,7 +585,7 @@ fn extract_markdown_list_items(text: &str) -> Vec<MarkdownListItem> {
                     let title = title.trim();
                     match level {
                         HeadingLevel::H2 => {
-                            in_community = title == COMMUNITY_HEADING.trim_start_matches("## ");
+                            in_community = title == COMMUNITY_HEADING;
                             current_section = None;
                         }
                         HeadingLevel::H3 if in_community => {
@@ -678,7 +678,7 @@ fn normalize_markdown_text(text: &str) -> String {
 }
 
 fn parse_submission_line(line: &str) -> Option<String> {
-    let wrapped = format!("{}\n\n### Edited\n{}\n", COMMUNITY_HEADING, line.trim_end());
+    let wrapped = format!("## {}\n\n### Edited\n{}\n", COMMUNITY_HEADING, line.trim_end());
     let mut items = extract_markdown_list_items(&wrapped);
     if items.len() != 1 {
         return None;
