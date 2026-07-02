@@ -56,18 +56,12 @@ jobs:
             status="$?"
             cat "$CHECK_OUTPUT_FILE"
 
-            if [[ "$status" -eq 0 ]]; then
-                echo "failed=false" >> "$GITHUB_OUTPUT"
-            else
-                echo "failed=true" >> "$GITHUB_OUTPUT"
-            fi
-
-            exit 0
+            exit "$status"
       - name: inspect_markdown for main
         if: ${{ github.event_name == 'push' }}
         run: python3 tools/inspect_markdown.py --num-recent 5
       - name: inspect_markdown for pull request
-        if: ${{ github.event_name == 'pull_request' }}
+        if: ${{ !cancelled() && github.event_name == 'pull_request' }}
         id: inspect_markdown_pr
         shell: bash
         env:
@@ -78,22 +72,16 @@ jobs:
             status="$?"
             cat "$CHECK_OUTPUT_FILE"
 
-            if [[ "$status" -eq 0 ]]; then
-                echo "failed=false" >> "$GITHUB_OUTPUT"
-            else
-                echo "failed=true" >> "$GITHUB_OUTPUT"
-            fi
-
-            exit 0
+            exit "$status"
       # Upload the check output so the workflow_run workflow can fetch it later.
       # That follow-up workflow has permission to write PR comments, unlike this
       # pull_request workflow which runs on possibly-untrusted forks.
       - name: Prepare PR check output metadata
-        if: ${{ github.event_name == 'pull_request' }}
+        if: ${{ !cancelled() && github.event_name == 'pull_request' }}
         shell: bash
         run: echo "${{ github.event.pull_request.number }}" > "${{ runner.temp }}/pr-number.txt"
       - name: Upload PR check output
-        if: ${{ github.event_name == 'pull_request' }}
+        if: ${{ !cancelled() && github.event_name == 'pull_request' }}
         uses: actions/upload-artifact@v4
         with:
           name: pr-check-output
@@ -102,6 +90,3 @@ jobs:
             ${{ runner.temp }}/inspect-links-pr.txt
             ${{ runner.temp }}/inspect-markdown-pr.txt
           if-no-files-found: ignore
-      - name: Fail PR check on errors
-        if: ${{ github.event_name == 'pull_request' && (steps.inspect_links_pr.outputs.failed == 'true' || steps.inspect_markdown_pr.outputs.failed == 'true') }}
-        run: exit 1
