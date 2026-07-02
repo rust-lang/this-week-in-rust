@@ -148,7 +148,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
-
+* [AimDB - Add minimal example: hello-single-latest](https://github.com/aimdb-dev/aimdb/issues/93)
+* [AimDB - Wire `.transform()` and `.transform_join()` into stage profiling](https://github.com/aimdb-dev/aimdb/issues/109)
 * [edid-info - Increase test coverage with real EDID data](https://github.com/SzilvasiPeter/edid-info/issues/1)
 * [edid-info - Finalize CTA-861 extension implementation](https://github.com/SzilvasiPeter/edid-info/issues/2)
 * [edid-info - Support additional EDID extension block types](https://github.com/SzilvasiPeter/edid-info/issues/3)
