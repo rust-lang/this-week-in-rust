@@ -276,8 +276,11 @@ def inspect_files(file_list: list[str], *, tree: Union[pygit2.Tree, None] = None
         for link in links:
             collision = linkset.get(link)
             if collision:
-                diagnostics.error(
-                    f"possible duplicate link {link} in file {file} (also found in {collision}")
+                if file == collision:
+                    diagnostics.error(f"possible duplicate link {link} found twice in {file}")
+                else:
+                    diagnostics.error(
+                        f"possible duplicate link {link} in file {file} (also found in {collision})")
             else:
                 linkset[link] = file
 
