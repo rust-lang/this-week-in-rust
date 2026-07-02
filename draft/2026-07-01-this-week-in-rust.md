@@ -126,7 +126,7 @@ which are reaching a decision. Express your opinions now.
 #### Tracking Issues & PRs
 
 ##### [Rust](https://github.com/rust-lang/rust/issues?q=is%3Aopen%20label%3Afinal-comment-period%20sort%3Aupdated-desc%20state%3Aopen)
-* [Tracking Issue for LocalKey<Cell>::update](https://github.com/rust-lang/rust/issues/143989)
+* [Tracking Issue for LocalKey/<Cell/>::update](https://github.com/rust-lang/rust/issues/143989)
 * [Tracking Issue for `{str, [T], Path}::trim_prefix` and `{str, [T]}::trim_suffix`](https://github.com/rust-lang/rust/issues/142312)
 * [Stabilize c-variadic function definitions](https://github.com/rust-lang/rust/pull/155697)
 * [Tracking Issue for layout information behind pointers](https://github.com/rust-lang/rust/issues/69835)
