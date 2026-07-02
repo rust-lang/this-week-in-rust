@@ -58,6 +58,8 @@ and just ask the editors to select the category.
 * [Warbell — a castle-defense action-RPG built with Bevy 0.19](https://miskibin.github.io/warbell/)
 
 
+[I built a macOS FTP client entirely in Rust - no Electron, no webview](https://dev.to/gregorymc86/i-built-a-macos-ftp-client-entirely-in-rust-no-electron-no-webview-2a8i)
+
 ### Observations/Thoughts
 * [The Unglamorous Side of Rust Web Development](https://blog.jetbrains.com/rust/2026/06/25/rust-web-development-2026/)
 * [How I Found Out 52% of My Knowledge Graph Was Duplicates (and What I Did About It)](https://dev.to/ernesto_arias_148b35bc25d/-how-i-found-out-52-of-my-knowledge-graph-was-duplicates-and-what-i-did-about-it-3coh)
