@@ -39,6 +39,9 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Announcing Rust 1.96.1 | Rust Blog](https://blog.rust-lang.org/2026/06/30/Rust-1.96.1/)
+* [The many journeys of learning Rust | Rust Blog](https://blog.rust-lang.org/2026/06/25/vision-doc-journeys-to-learning-rust/)
+
 ### Foundation
 * [Rust Foundation Trusted Training Program Launches, Giving Learners a Mark of Quality to Trust](https://rustfoundation.org/media/rust-foundation-trusted-training-program-launches-giving-learners-a-mark-of-quality-to-trust/)
 
@@ -60,6 +63,10 @@ and just ask the editors to select the category.
 
 [I built a macOS FTP client entirely in Rust - no Electron, no webview](https://dev.to/gregorymc86/i-built-a-macos-ftp-client-entirely-in-rust-no-electron-no-webview-2a8i)
 
+* [Slint 1.17 Released](https://slint.dev/blog/slint-1.17-released)
+* [rustc_codegen_gcc: Progress Report #42](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-42)
+* [Introducing Test That!](https://hovinen.me/announcements/2026/06/24/introducing-test-that.html)
+
 ### Observations/Thoughts
 * [The Unglamorous Side of Rust Web Development](https://blog.jetbrains.com/rust/2026/06/25/rust-web-development-2026/)
 * [How I Found Out 52% of My Knowledge Graph Was Duplicates (and What I Did About It)](https://dev.to/ernesto_arias_148b35bc25d/-how-i-found-out-52-of-my-knowledge-graph-was-duplicates-and-what-i-did-about-it-3coh)
@@ -72,6 +79,8 @@ and just ask the editors to select the category.
 [Designing a cross-platform terminal memory visualizer in Rust](https://dev.to/sicklefire/designing-a-cross-platform-terminal-memory-visualizer-in-rust-2365)
 
 [Your Rust Service Isn't Leaking — It Could Be the Allocator](https://pranitha.dev/posts/rust-and-memory-allocators)
+
+* [Hoisting Expressions](https://blog.yoshuawuyts.com/hoisting-expressions)
 
 ### Rust Walkthroughs
 * [Measure, Don't Guess: Building viser, a Content-Adaptive Video Encoding Optimizer in Rust](https://medium.com/@vbasky/measure-dont-guess-building-viser-a-content-adaptive-video-encoding-optimizer-in-rust-7675edd6943a)
