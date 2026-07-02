@@ -40,14 +40,39 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Rust Foundation Trusted Training Program Launches, Giving Learners a Mark of Quality to Trust](https://rustfoundation.org/media/rust-foundation-trusted-training-program-launches-giving-learners-a-mark-of-quality-to-trust/)
+
 
 ### Newsletters
+* [Scientific Computing in Rust #19 (June 2026)](https://scientificcomputing.rs/monthly/2026-06)
+
 
 ### Project/Tooling Updates
+* [Introducing Test That!: A rich test assertion library for Rust from the original author of GoogleTest Rust](https://hovinen.me/announcements/2026/06/24/introducing-test-that.html)
+* [Inside RSSH: one Rust crate, three binaries, and the Tauri lessons along the way](https://github.com/shihuili1218/rssh/blob/main/docs/article_arch_en.md)
+* [Rustty 1.38 – accessibility & keyboard nav](https://github.com/Aleixenandros/Rustty/releases/tag/v1.38.0)
+* [GuardianDB 0.17.0: Secure namespaces, Iroh 1.0, and the arrival of the ODM](https://www.willsearch.com.br/blog/2026/06/25/guardiandb-0-17-0-secure-namespaces-iroh-1-0-and-the-arrival-of-the-odm/)
+* [Building a real-time voice-agent runtime in Rust: no GIL, one binary, 2,000 calls a box](https://dev.to/iam_suriyan_b9078a5b3a553/building-a-real-time-voice-agent-runtime-in-rust-no-gil-one-binary-2000-calls-a-box-12ko)
+* [AimDB: Bring Your Own Connector](https://aimdb.dev/blog/aimdb-bring-your-own-connector)
+* [kache 0.8.0: zero-copy restores on Windows (ReFS)](https://github.com/kunobi-ninja/kache/releases/tag/v0.8.0)
+* [Warbell — a castle-defense action-RPG built with Bevy 0.19](https://miskibin.github.io/warbell/)
+
 
 ### Observations/Thoughts
+* [The Unglamorous Side of Rust Web Development](https://blog.jetbrains.com/rust/2026/06/25/rust-web-development-2026/)
+* [How I Found Out 52% of My Knowledge Graph Was Duplicates (and What I Did About It)](https://dev.to/ernesto_arias_148b35bc25d/-how-i-found-out-52-of-my-knowledge-graph-was-duplicates-and-what-i-did-about-it-3coh)
+* [A Novel Approach to Rust Error Handling](https://jtjlehi.github.io/2026/06/25/novel-rust-error-handling.html)
+* [We put a Redis server inside our runtime](https://encore.dev/blog/redis-runtime)
+* [High-performance Rust: Understanding and eliminating memory fragmentation](https://kerkour.com/rust-high-performance-memory-fragmentation-allocations)
+* [AI and worktrees are filling our disks: kache storage, measured](https://kunobi.ninja/blog/kache-storage-worktrees)
+
 
 ### Rust Walkthroughs
+* [Measure, Don't Guess: Building viser, a Content-Adaptive Video Encoding Optimizer in Rust](https://medium.com/@vbasky/measure-dont-guess-building-viser-a-content-adaptive-video-encoding-optimizer-in-rust-7675edd6943a)
+* [Learn SQL and SQLx by Building a Book Library CLI in Rust](https://blog.sheerluck.dev/posts/learn-sql-and-sqlx-by-building-a-book-library-cli-in-rust/)
+* [series] [Reasoning About Async Rust with State Machines](https://aibodh.com/posts/async-rust-chapter-2-what-async-fn-compiles-into/)
+* [The C to Rust Migration Book](https://mainmatter.com/c-to-rust-migration-book/)
+
 
 ### Research
 
