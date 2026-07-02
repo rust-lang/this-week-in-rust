@@ -69,6 +69,8 @@ and just ask the editors to select the category.
 * [AI and worktrees are filling our disks: kache storage, measured](https://kunobi.ninja/blog/kache-storage-worktrees)
 
 
+[Designing a cross-platform terminal memory visualizer in Rust](https://dev.to/sicklefire/designing-a-cross-platform-terminal-memory-visualizer-in-rust-2365)
+
 ### Rust Walkthroughs
 * [Measure, Don't Guess: Building viser, a Content-Adaptive Video Encoding Optimizer in Rust](https://medium.com/@vbasky/measure-dont-guess-building-viser-a-content-adaptive-video-encoding-optimizer-in-rust-7675edd6943a)
 * [Learn SQL and SQLx by Building a Book Library CLI in Rust](https://blog.sheerluck.dev/posts/learn-sql-and-sqlx-by-building-a-book-library-cli-in-rust/)
