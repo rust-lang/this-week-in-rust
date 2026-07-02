@@ -711,15 +711,15 @@ fn build_edit_buffer(draft_text: &str, submissions: &[Submission]) -> Result<Str
         }
         for submission in section_submissions {
             out.push(format!(
-                "<!-- {} submerge-pr:{} sha={} url={} author={} title={} -->",
+                "{} <!-- {} url={} submerge-pr:{} sha={} author={} title={} -->",
+                submission.line,
                 submission.ci_state.emoji(),
+                submission.pr_url,
                 submission.pr,
                 submission.head_sha,
-                submission.pr_url,
                 submission.author,
                 marker_comment_value(&submission.pr_title)
             ));
-            out.push(submission.line.clone());
         }
         out.push(String::new());
     }
@@ -744,7 +744,7 @@ fn marker_comment_value(value: &str) -> String {
 
 fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
     let marker_re = Regex::new(
-        r"^<!-- (?:(?P<ci>✅|❌) )?submerge-pr:(?P<pr>\d+) sha=(?P<sha>[0-9a-fA-F]{40}) url=(?P<url>\S+) author=(?P<author>\S+)(?: title=(?P<pr_title>.*?))? -->$",
+        r"^(?P<item>.*?)\s*<!-- (?:(?P<ci>✅|❌) )?url=(?P<url>\S+) submerge-pr:(?P<pr>\d+) sha=(?P<sha>[0-9a-fA-F]{40}) author=(?P<author>\S+)(?: title=(?P<pr_title>.*?))? -->\s*$",
     )?;
     let mut seen_prs = BTreeSet::new();
     let mut included = Vec::new();
@@ -755,26 +755,20 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
 
     while idx < lines.len() {
         let line = lines[idx];
-        if line.trim_start().starts_with("<!--") && line.contains(MARKER_TOKEN) {
+        if line.contains(MARKER_TOKEN) {
             let captures = marker_re
-                .captures(line.trim())
+                .captures(line)
                 .ok_or_else(|| anyhow!("malformed submerge marker: {line}"))?;
             let pr: u64 = captures["pr"].parse()?;
             if !seen_prs.insert(pr) {
                 bail!("duplicate marker for PR #{pr}");
             }
 
-            let mut probe = idx + 1;
-            while probe < lines.len() && lines[probe].trim().is_empty() {
-                probe += 1;
-            }
-            if probe >= lines.len() {
-                bail!("PR #{pr} marker is not followed by a list item");
-            }
-            let title = parse_submission_line(lines[probe]).ok_or_else(|| {
+            let item_line = captures["item"].trim_end();
+            let title = parse_submission_line(item_line).ok_or_else(|| {
                 anyhow!(
-                    "PR #{pr} marker is followed by an invalid list item: {}",
-                    lines[probe]
+                    "PR #{pr} marker is attached to an invalid list item: {}",
+                    item_line
                 )
             })?;
             let section = current_section
@@ -796,8 +790,9 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
                     _ => CiState::Failure,
                 },
                 section,
-                line: lines[probe].to_string(),
+                line: item_line.to_string(),
             });
+            output.push(item_line.to_string());
         } else {
             if let Some(section) = line.strip_prefix("### ").map(str::trim) {
                 current_section = Some(section.to_string());
@@ -1206,7 +1201,7 @@ mod tests {
             line: "* [Example](https://example.com/post)".to_string(),
         }];
         let buffer = build_edit_buffer(draft, &submissions).unwrap();
-        assert!(buffer.contains("<!-- ✅ submerge-pr:42"));
+        assert!(buffer.contains("* [Example](https://example.com/post) <!-- ✅ url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42"));
         assert!(buffer.contains("title=Add example link -->"));
 
         let parsed = parse_edited_buffer(&buffer).unwrap();
@@ -1223,14 +1218,14 @@ mod tests {
 
     #[test]
     fn parse_edit_buffer_rejects_duplicate_markers() {
-        let text = "### Project/Tooling Updates\n<!-- ✅ submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 url=https://example.com author=alice -->\n* [Example](https://example.com)\n<!-- ❌ submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 url=https://example.com author=alice -->\n* [Example](https://example.com)\n";
+        let text = "### Project/Tooling Updates\n* [Example](https://example.com) <!-- ✅ url=https://example.com submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n* [Example](https://example.com) <!-- ❌ url=https://example.com submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n";
         let err = parse_edited_buffer(text).unwrap_err();
         assert!(err.to_string().contains("duplicate"));
     }
 
     #[test]
     fn parse_edit_buffer_reconstructs_submission_from_comments() {
-        let text = "### Project/Tooling Updates\n<!-- ❌ submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 url=https://github.com/rust-lang/this-week-in-rust/pull/42 author=alice -->\n* [Edited Title](https://example.com/edited)\n";
+        let text = "### Project/Tooling Updates\n* [Edited Title](https://example.com/edited) <!-- ❌ url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n";
         let parsed = parse_edited_buffer(text).unwrap();
 
         assert_eq!(parsed.included.len(), 1);
@@ -1248,7 +1243,7 @@ mod tests {
 
     #[test]
     fn parse_edit_buffer_reads_marker_pr_title() {
-        let text = "### Project/Tooling Updates\n<!-- ❌ submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 url=https://github.com/rust-lang/this-week-in-rust/pull/42 author=alice title=Add a helpful link -->\n* [Edited Title](https://example.com/edited)\n";
+        let text = "### Project/Tooling Updates\n* [Edited Title](https://example.com/edited) <!-- ❌ url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice title=Add a helpful link -->\n";
         let parsed = parse_edited_buffer(text).unwrap();
 
         assert_eq!(parsed.included.len(), 1);
@@ -1266,7 +1261,7 @@ mod tests {
 
     #[test]
     fn parse_edit_buffer_accepts_embedded_or_missing_links() {
-        let text = "### Project/Tooling Updates\n<!-- ❌ submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 url=https://github.com/rust-lang/this-week-in-rust/pull/42 author=alice -->\n* Read more in [release notes](https://example.com) today\n<!-- ❌ submerge-pr:43 sha=0123456789abcdef0123456789abcdef01234567 url=https://github.com/rust-lang/this-week-in-rust/pull/43 author=bob -->\n* Plain community announcement\n";
+        let text = "### Project/Tooling Updates\n* Read more in [release notes](https://example.com) today <!-- ❌ url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n* Plain community announcement <!-- ❌ url=https://github.com/rust-lang/this-week-in-rust/pull/43 submerge-pr:43 sha=0123456789abcdef0123456789abcdef01234567 author=bob -->\n";
         let parsed = parse_edited_buffer(text).unwrap();
 
         assert_eq!(parsed.included.len(), 2);
