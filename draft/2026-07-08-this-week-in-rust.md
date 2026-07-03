@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Clickable euler diagram of all the Rust week talks](https://seanborg.tech/tiny-blog/rust-week-ven-diagram/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
