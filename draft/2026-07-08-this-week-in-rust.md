@@ -36,7 +36,8 @@ If you don't know which category to use, feel free to submit a PR anyway
 and just ask the editors to select the category.
 
 -->
-* [copper-rs v1.0.0](https://copper-robotics.com/whats-new/copper-rs-v100): the open source deterministic robotics OS is now stable.
+* [copper-rs v1.0.0](https://www.copper-robotics.com/whats-new/copper-rs-v100):
+the open source deterministic robotics OS is now stable.
 
 ### Official
 
