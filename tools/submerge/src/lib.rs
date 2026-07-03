@@ -1,15 +1,15 @@
-use anyhow::{anyhow, bail, Context, Result};
+use anyhow::{Context, Result, anyhow, bail};
 use clap::{Parser, Subcommand};
 use git2::{
     Commit, Cred, FetchOptions, Oid, RemoteCallbacks, Repository, Signature, StatusOptions,
 };
 use log::{info, warn};
 use octocrab::{
+    Octocrab,
     models::{
-        pulls::PullRequest, repos::DiffEntry, CheckRuns, CheckStatus, CombinedStatus, StatusState,
+        CheckRuns, CheckStatus, CombinedStatus, StatusState, pulls::PullRequest, repos::DiffEntry,
     },
     params::State,
-    Octocrab,
 };
 use pulldown_cmark::{Event, HeadingLevel, Parser as MarkdownParser, Tag, TagEnd};
 use regex::Regex;
@@ -47,10 +47,6 @@ pub struct FetchArgs {
     #[arg(long)]
     pub draft: Option<PathBuf>,
 
-    /// Editable Markdown buffer to write. Defaults to the selected draft file.
-    #[arg(long)]
-    pub output: Option<PathBuf>,
-
     /// Allow tracked local modifications before writing the intermediate draft.
     #[arg(long)]
     pub allow_dirty: bool,
@@ -65,10 +61,6 @@ pub struct MergeArgs {
     /// Draft file to update. Defaults to the latest draft/YYYY-MM-DD-this-week-in-rust.md.
     #[arg(long)]
     pub draft: Option<PathBuf>,
-
-    /// Edited Markdown buffer to read. Defaults to the selected draft file.
-    #[arg(long)]
-    pub input: Option<PathBuf>,
 
     /// Allow tracked local modifications before running.
     #[arg(long)]
@@ -103,11 +95,11 @@ impl CiState {
     }
 }
 
-#[derive(Debug, Clone, PartialEq, Eq)]
+#[derive(Debug)]
 pub struct SkippedPr {
     pub pr: u64,
     pub title: String,
-    pub reason: String,
+    pub reason: anyhow::Error,
     pub url: String,
 }
 
@@ -188,7 +180,7 @@ no repository permissions are needed because tokens can read public repositories
             skipped.push(SkippedPr {
                 pr: pull.number,
                 title: pull.title,
-                reason: "draft PR".to_string(),
+                reason: anyhow!("draft PR"),
                 url: pull.url,
             });
             continue;
@@ -197,7 +189,7 @@ no repository permissions are needed because tokens can read public repositories
             skipped.push(SkippedPr {
                 pr: pull.number,
                 title: pull.title,
-                reason: format!("targets {}, not {}", pull.base_ref, DEFAULT_BASE),
+                reason: anyhow!("targets {}, not {}", pull.base_ref, DEFAULT_BASE),
                 url: pull.url,
             });
             continue;
@@ -211,7 +203,7 @@ no repository permissions are needed because tokens can read public repositories
                     skipped.push(SkippedPr {
                         pr: pull.number,
                         title: pull.title,
-                        reason: format!("could not read base draft: {error:#}"),
+                        reason: error.context("reading base draft"),
                         url: pull.url,
                     });
                     continue;
@@ -224,7 +216,7 @@ no repository permissions are needed because tokens can read public repositories
                     skipped.push(SkippedPr {
                         pr: pull.number,
                         title: pull.title,
-                        reason: format!("could not read head draft: {error:#}"),
+                        reason: anyhow!("could not read head draft: {error:#}"),
                         url: pull.url,
                     });
                     continue;
@@ -260,16 +252,12 @@ no repository permissions are needed because tokens can read public repositories
         return Ok(());
     }
 
-    let output = match args.output {
-        Some(path) => normalize_repo_relative_path(workdir, &path)?,
-        None => draft_rel.clone(),
-    };
-    fs::write(workdir.join(&output), buffer)
-        .with_context(|| format!("write editable buffer {}", output.display()))?;
-    println!("wrote editable buffer to {}", output.display());
+    fs::write(workdir.join(&draft_rel), buffer)
+        .with_context(|| format!("write editable buffer {}", draft_rel.display()))?;
+    println!("wrote editable buffer to {}", draft_rel.display());
     println!(
         "edit {}, run any checks you want, then run: submerge merge",
-        output.display()
+        draft_rel.display()
     );
     Ok(())
 }
@@ -287,23 +275,15 @@ fn run_merge(args: MergeArgs) -> Result<()> {
     };
     let draft_rel = normalize_repo_relative_path(workdir, &draft)?;
     info!("using draft {}", draft_rel.display());
-    let input_rel = match args.input {
-        Some(path) => normalize_repo_relative_path(workdir, &path)?,
-        None => draft_rel.clone(),
-    };
 
     if !args.allow_dirty {
         info!("checking tracked worktree status");
-        if input_rel == draft_rel {
-            ensure_tracked_worktree_clean_except(&repo, &draft_rel)?;
-        } else {
-            ensure_tracked_worktree_clean(&repo)?;
-        }
+        ensure_tracked_worktree_clean_except(&repo, &draft_rel)?;
     }
 
-    info!("reading edited buffer {}", input_rel.display());
-    let edited = fs::read_to_string(workdir.join(&input_rel))
-        .with_context(|| format!("read edited buffer {}", input_rel.display()))?;
+    info!("reading edited buffer {}", draft_rel.display());
+    let edited = fs::read_to_string(workdir.join(&draft_rel))
+        .with_context(|| format!("read edited buffer {}", draft_rel.display()))?;
     info!("parsing edited buffer");
     let parsed = parse_edited_buffer(&edited)?;
     if parsed.included.is_empty() {
@@ -512,18 +492,14 @@ fn classify_pr(
     draft_rel: &Path,
     base_text: &str,
     head_text: &str,
-) -> std::result::Result<Submission, String> {
+) -> Result<Submission> {
     if files.len() != 1 {
-        return Err(format!("changes {} files", files.len()));
+        bail!("changes {} files", files.len());
     }
 
     let file = &files[0];
     if Path::new(&file.filename) != draft_rel {
-        return Err(format!(
-            "changes {}, not {}",
-            file.filename,
-            draft_rel.display()
-        ));
+        bail!("changes {}, not {}", file.filename, draft_rel.display());
     }
 
     let base_items = extract_markdown_list_items(base_text);
@@ -538,13 +514,10 @@ fn classify_pr(
         .collect();
 
     if candidates.is_empty() {
-        return Err("does not add a valid community list item".to_string());
+        bail!("does not add a valid community list item");
     }
     if candidates.len() != 1 {
-        return Err(format!(
-            "adds {} valid community list items",
-            candidates.len()
-        ));
+        bail!("adds {} valid community list items", candidates.len());
     }
 
     let candidate = candidates.remove(0);
@@ -610,10 +583,10 @@ fn extract_markdown_list_items(text: &str) -> Vec<MarkdownListItem> {
                 });
             }
             Event::End(TagEnd::Item) => {
-                if let Some(item) = item_stack.pop() {
-                    if item_stack.is_empty() {
-                        collect_markdown_list_item(text, item, range.end, &mut items);
-                    }
+                if let Some(item) = item_stack.pop()
+                    && item_stack.is_empty()
+                {
+                    collect_markdown_list_item(text, item, range.end, &mut items);
                 }
             }
             Event::Start(Tag::Link { .. }) | Event::End(TagEnd::Link) => {}
@@ -678,7 +651,11 @@ fn normalize_markdown_text(text: &str) -> String {
 }
 
 fn parse_submission_line(line: &str) -> Option<String> {
-    let wrapped = format!("## {}\n\n### Edited\n{}\n", COMMUNITY_HEADING, line.trim_end());
+    let wrapped = format!(
+        "## {}\n\n### Edited\n{}\n",
+        COMMUNITY_HEADING,
+        line.trim_end()
+    );
     let mut items = extract_markdown_list_items(&wrapped);
     if items.len() != 1 {
         return None;
@@ -742,71 +719,207 @@ fn marker_comment_value(value: &str) -> String {
         .to_string()
 }
 
+#[derive(Default)]
+struct EditedItemCapture {
+    start: usize,
+    section: Option<String>,
+    markers: Vec<MarkerCapture>,
+}
+
+#[derive(Debug, Clone)]
+struct MarkerCapture {
+    start: usize,
+    end: usize,
+    text: String,
+}
+
 fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
-    let marker_re = Regex::new(
-        r"^(?P<item>.*?)\s*<!-- (?:(?P<ci>✅|❌) )?url=(?P<url>\S+) submerge-pr:(?P<pr>\d+) sha=(?P<sha>[0-9a-fA-F]{40}) author=(?P<author>\S+)(?: title=(?P<pr_title>.*?))? -->\s*$",
-    )?;
     let mut seen_prs = BTreeSet::new();
     let mut included = Vec::new();
-    let mut output = Vec::new();
-    let lines: Vec<&str> = text.lines().collect();
-    let mut idx = 0;
+    let mut marker_ranges = Vec::new();
+    let mut in_community = false;
     let mut current_section: Option<String> = None;
+    let mut heading: Option<(HeadingLevel, String)> = None;
+    let mut item_stack: Vec<EditedItemCapture> = Vec::new();
 
-    while idx < lines.len() {
-        let line = lines[idx];
-        if line.contains(MARKER_TOKEN) {
-            let captures = marker_re
-                .captures(line)
-                .ok_or_else(|| anyhow!("malformed submerge marker: {line}"))?;
-            let pr: u64 = captures["pr"].parse()?;
-            if !seen_prs.insert(pr) {
-                bail!("duplicate marker for PR #{pr}");
+    for (event, range) in MarkdownParser::new(text).into_offset_iter() {
+        match event {
+            Event::Start(Tag::Heading { level, .. }) => {
+                heading = Some((level, String::new()));
             }
+            Event::End(TagEnd::Heading(_)) => {
+                if let Some((level, title)) = heading.take() {
+                    let title = title.trim();
+                    match level {
+                        HeadingLevel::H2 => {
+                            in_community = title == COMMUNITY_HEADING;
+                            current_section = None;
+                        }
+                        HeadingLevel::H3 if in_community => {
+                            current_section = Some(title.to_string());
+                        }
+                        HeadingLevel::H3 => {
+                            current_section = None;
+                        }
+                        _ => {}
+                    }
+                }
+            }
+            Event::Start(Tag::Item) => {
+                item_stack.push(EditedItemCapture {
+                    start: range.start,
+                    section: if in_community {
+                        current_section.clone()
+                    } else {
+                        None
+                    },
+                    markers: Vec::new(),
+                });
+            }
+            Event::End(TagEnd::Item) => {
+                let Some(item) = item_stack.pop() else {
+                    continue;
+                };
+                if !item_stack.is_empty() || item.markers.is_empty() {
+                    continue;
+                }
+                if item.markers.len() != 1 {
+                    bail!("list item contains {} submerge markers", item.markers.len());
+                }
+                let section = item.section.ok_or_else(|| {
+                    anyhow!("submerge marker appears outside a community section")
+                })?;
+                let marker = &item.markers[0];
+                let item_text = text
+                    .get(item.start..range.end)
+                    .ok_or_else(|| anyhow!("could not read marked list item text"))?
+                    .trim_end();
+                if item_text.contains('\n') {
+                    bail!("submerge marker is attached to a multi-line list item: {item_text}");
+                }
+                let local_marker_start = marker.start - item.start;
+                let local_marker_end = marker.end - item.start;
+                let Some(item_line) = item_text.get(..local_marker_start).map(str::trim_end) else {
+                    bail!("submerge marker has invalid offsets");
+                };
+                let suffix = item_text
+                    .get(local_marker_end..)
+                    .ok_or_else(|| anyhow!("submerge marker has invalid offsets"))?;
+                if !suffix.trim().is_empty() {
+                    bail!("submerge marker must be at the end of its list item: {item_text}");
+                }
 
-            let item_line = captures["item"].trim_end();
-            let title = parse_submission_line(item_line).ok_or_else(|| {
-                anyhow!(
-                    "PR #{pr} marker is attached to an invalid list item: {}",
-                    item_line
-                )
-            })?;
-            let section = current_section
-                .clone()
-                .ok_or_else(|| anyhow!("PR #{pr} marker appears before a section heading"))?;
-            included.push(Submission {
-                pr,
-                title,
-                pr_title: captures
-                    .name("pr_title")
-                    .map(|m| m.as_str())
-                    .unwrap_or("")
-                    .to_string(),
-                author: captures["author"].to_string(),
-                pr_url: captures["url"].to_string(),
-                head_sha: captures["sha"].to_string(),
-                ci_state: match captures.name("ci").map(|m| m.as_str()) {
-                    Some("✅") => CiState::Success,
-                    _ => CiState::Failure,
-                },
-                section,
-                line: item_line.to_string(),
-            });
-            output.push(item_line.to_string());
-        } else {
-            if let Some(section) = line.strip_prefix("### ").map(str::trim) {
-                current_section = Some(section.to_string());
+                let marker_attrs = parse_marker_attrs(&marker.text)?;
+                if !seen_prs.insert(marker_attrs.pr) {
+                    bail!("duplicate marker for PR #{}", marker_attrs.pr);
+                }
+                let title = parse_submission_line(item_line).ok_or_else(|| {
+                    anyhow!(
+                        "PR #{} marker is attached to an invalid list item: {}",
+                        marker_attrs.pr,
+                        item_line
+                    )
+                })?;
+                included.push(Submission {
+                    pr: marker_attrs.pr,
+                    title,
+                    pr_title: marker_attrs.pr_title,
+                    author: marker_attrs.author,
+                    pr_url: marker_attrs.url,
+                    head_sha: marker_attrs.sha,
+                    ci_state: marker_attrs.ci_state,
+                    section,
+                    line: item_line.to_string(),
+                });
+                marker_ranges.push((item.start, marker.start, marker.end));
             }
-            output.push(line.to_string());
+            Event::Text(value)
+            | Event::Code(value)
+            | Event::InlineMath(value)
+            | Event::DisplayMath(value)
+            | Event::FootnoteReference(value) => {
+                if let Some((_level, title)) = heading.as_mut() {
+                    title.push_str(&value);
+                }
+            }
+            Event::Html(value) | Event::InlineHtml(value) => {
+                if let Some(item) = item_stack.last_mut() {
+                    if value.contains(MARKER_TOKEN) {
+                        item.markers.push(MarkerCapture {
+                            start: range.start,
+                            end: range.end,
+                            text: value.to_string(),
+                        });
+                    }
+                } else if value.contains(MARKER_TOKEN) {
+                    bail!("submerge marker appears outside a list item: {value}");
+                }
+                if let Some((_level, title)) = heading.as_mut() {
+                    title.push_str(&value);
+                }
+            }
+            Event::SoftBreak | Event::HardBreak => {
+                if let Some((_level, title)) = heading.as_mut() {
+                    title.push(' ');
+                }
+            }
+            _ => {}
         }
-        idx += 1;
     }
 
-    let trailing_newline = if text.ends_with('\n') { "\n" } else { "" };
     Ok(EditedBuffer {
-        final_text: format!("{}{}", output.join("\n"), trailing_newline),
+        final_text: remove_marker_comments(text, &marker_ranges),
         included,
     })
+}
+
+#[derive(Debug, Clone)]
+struct MarkerAttrs {
+    pr: u64,
+    url: String,
+    sha: String,
+    author: String,
+    pr_title: String,
+    ci_state: CiState,
+}
+
+fn parse_marker_attrs(marker: &str) -> Result<MarkerAttrs> {
+    let marker_re = Regex::new(
+        r"^<!-- (?:(?P<ci>✅|❌) )?url=(?P<url>\S+) submerge-pr:(?P<pr>\d+) sha=(?P<sha>[0-9a-fA-F]{40}) author=(?P<author>\S+)(?: title=(?P<pr_title>.*?))? -->$",
+    )?;
+    let captures = marker_re
+        .captures(marker.trim())
+        .ok_or_else(|| anyhow!("malformed submerge marker: {marker}"))?;
+    Ok(MarkerAttrs {
+        pr: captures["pr"].parse()?,
+        url: captures["url"].to_string(),
+        sha: captures["sha"].to_string(),
+        author: captures["author"].to_string(),
+        pr_title: captures
+            .name("pr_title")
+            .map(|m| m.as_str())
+            .unwrap_or("")
+            .to_string(),
+        ci_state: match captures.name("ci").map(|m| m.as_str()) {
+            Some("✅") => CiState::Success,
+            _ => CiState::Failure,
+        },
+    })
+}
+
+fn remove_marker_comments(text: &str, marker_ranges: &[(usize, usize, usize)]) -> String {
+    let mut out = text.to_string();
+    for (item_start, marker_start, marker_end) in marker_ranges.iter().rev() {
+        let mut removal_start = *marker_start;
+        while removal_start > *item_start {
+            match text.as_bytes()[removal_start - 1] {
+                b' ' | b'\t' => removal_start -= 1,
+                _ => break,
+            }
+        }
+        out.replace_range(removal_start..*marker_end, "");
+    }
+    out
 }
 
 fn fetch_and_verify_pr_heads(repo: &Repository, submissions: &[Submission]) -> Result<Vec<Oid>> {
@@ -951,6 +1064,23 @@ fn ensure_tracked_worktree_clean_with_allowed(
     repo: &Repository,
     allowed_path: Option<&Path>,
 ) -> Result<()> {
+    let paths = dirty_paths(repo)?
+        .filter(|path| allowed_path != Some(path.as_path()))
+        .take(10)
+        .collect::<Vec<_>>();
+    if paths.is_empty() {
+        return Ok(());
+    }
+
+    let paths = paths
+        .iter()
+        .map(|path| path.display().to_string())
+        .collect::<Vec<_>>()
+        .join(", ");
+    bail!("tracked worktree is not clean: {paths}; use --allow-dirty to run anyway");
+}
+
+fn dirty_paths(repo: &Repository) -> Result<std::vec::IntoIter<PathBuf>> {
     let mut opts = StatusOptions::new();
     opts.include_untracked(false)
         .recurse_untracked_dirs(false)
@@ -958,16 +1088,9 @@ fn ensure_tracked_worktree_clean_with_allowed(
     let statuses = repo.statuses(Some(&mut opts)).context("read git status")?;
     let paths = statuses
         .iter()
-        .filter_map(|entry| entry.path().ok().map(str::to_string))
-        .filter(|path| allowed_path != Some(Path::new(path)))
-        .take(10)
-        .collect::<Vec<_>>()
-        .join(", ");
-    if paths.is_empty() {
-        return Ok(());
-    }
-
-    bail!("tracked worktree is not clean: {paths}; use --allow-dirty to run anyway");
+        .filter_map(|entry| entry.path().ok().map(PathBuf::from))
+        .collect::<Vec<_>>();
+    Ok(paths.into_iter())
 }
 
 fn find_latest_draft(workdir: &Path) -> Result<PathBuf> {
@@ -1142,8 +1265,7 @@ mod tests {
     #[test]
     fn accepts_list_item_without_link() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n";
-        let head =
-            "## Updates from Rust Community\n\n### Project/Tooling Updates\n* Rustaceans announced a thing\n";
+        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* Rustaceans announced a thing\n";
         let submission = classify_pr(
             &pull(8),
             &[file("", 1, 0)],
@@ -1168,7 +1290,7 @@ mod tests {
             head,
         )
         .unwrap_err();
-        assert!(err.contains("valid community list item"));
+        assert!(err.to_string().contains("valid community list item"));
     }
 
     #[test]
@@ -1183,7 +1305,7 @@ mod tests {
             head,
         )
         .unwrap_err();
-        assert!(err.contains("valid community list item"));
+        assert!(err.to_string().contains("valid community list item"));
     }
 
     #[test]
@@ -1211,21 +1333,23 @@ mod tests {
         assert_eq!(parsed.included[0].pr_title, "Add example link");
         assert_eq!(parsed.included[0].ci_state, CiState::Success);
         assert!(!parsed.final_text.contains("submerge-pr:42"));
-        assert!(parsed
-            .final_text
-            .contains("* [Example](https://example.com/post)"));
+        assert!(
+            parsed
+                .final_text
+                .contains("* [Example](https://example.com/post)")
+        );
     }
 
     #[test]
     fn parse_edit_buffer_rejects_duplicate_markers() {
-        let text = "### Project/Tooling Updates\n* [Example](https://example.com) <!-- ✅ url=https://example.com submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n* [Example](https://example.com) <!-- ❌ url=https://example.com submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n";
+        let text = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Example](https://example.com) <!-- ✅ url=https://example.com submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n* [Example](https://example.com) <!-- ❌ url=https://example.com submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n";
         let err = parse_edited_buffer(text).unwrap_err();
         assert!(err.to_string().contains("duplicate"));
     }
 
     #[test]
     fn parse_edit_buffer_reconstructs_submission_from_comments() {
-        let text = "### Project/Tooling Updates\n* [Edited Title](https://example.com/edited) <!-- ❌ url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n";
+        let text = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Edited Title](https://example.com/edited) <!-- ❌ url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n";
         let parsed = parse_edited_buffer(text).unwrap();
 
         assert_eq!(parsed.included.len(), 1);
@@ -1243,7 +1367,7 @@ mod tests {
 
     #[test]
     fn parse_edit_buffer_reads_marker_pr_title() {
-        let text = "### Project/Tooling Updates\n* [Edited Title](https://example.com/edited) <!-- ❌ url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice title=Add a helpful link -->\n";
+        let text = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Edited Title](https://example.com/edited) <!-- ❌ url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice title=Add a helpful link -->\n";
         let parsed = parse_edited_buffer(text).unwrap();
 
         assert_eq!(parsed.included.len(), 1);
@@ -1261,15 +1385,17 @@ mod tests {
 
     #[test]
     fn parse_edit_buffer_accepts_embedded_or_missing_links() {
-        let text = "### Project/Tooling Updates\n* Read more in [release notes](https://example.com) today <!-- ❌ url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n* Plain community announcement <!-- ❌ url=https://github.com/rust-lang/this-week-in-rust/pull/43 submerge-pr:43 sha=0123456789abcdef0123456789abcdef01234567 author=bob -->\n";
+        let text = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* Read more in [release notes](https://example.com) today <!-- ❌ url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n* Plain community announcement <!-- ❌ url=https://github.com/rust-lang/this-week-in-rust/pull/43 submerge-pr:43 sha=0123456789abcdef0123456789abcdef01234567 author=bob -->\n";
         let parsed = parse_edited_buffer(text).unwrap();
 
         assert_eq!(parsed.included.len(), 2);
         assert_eq!(parsed.included[0].title, "Read more in release notes today");
         assert_eq!(parsed.included[1].title, "Plain community announcement");
-        assert!(parsed
-            .final_text
-            .contains("* Read more in [release notes](https://example.com) today"));
+        assert!(
+            parsed
+                .final_text
+                .contains("* Read more in [release notes](https://example.com) today")
+        );
         assert!(parsed.final_text.contains("* Plain community announcement"));
     }
 
@@ -1284,7 +1410,7 @@ mod tests {
         let skipped = SkippedPr {
             pr: 1234,
             title: "Not a submission".to_string(),
-            reason: "changes 2 files".to_string(),
+            reason: anyhow!("changes 2 files"),
             url: "https://github.com/rust-lang/this-week-in-rust/pull/1234".to_string(),
         };
 
