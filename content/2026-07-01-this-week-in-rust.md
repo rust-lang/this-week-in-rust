@@ -51,7 +51,6 @@ and just ask the editors to select the category.
 * [Slint 1.17 Released](https://slint.dev/blog/slint-1.17-released)
 * [rustc_codegen_gcc: Progress Report #42](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-42)
 * [Introducing Test That!](https://hovinen.me/announcements/2026/06/24/introducing-test-that.html)
-* [Introducing Test That!: A rich test assertion library for Rust from the original author of GoogleTest Rust](https://hovinen.me/announcements/2026/06/24/introducing-test-that.html)
 * [Inside RSSH: one Rust crate, three binaries, and the Tauri lessons along the way](https://github.com/shihuili1218/rssh/blob/main/docs/article_arch_en.md)
 * [Rustty 1.38 – accessibility & keyboard nav](https://github.com/Aleixenandros/Rustty/releases/tag/v1.38.0)
 * [GuardianDB 0.17.0: Secure namespaces, Iroh 1.0, and the arrival of the ODM](https://www.willsearch.com.br/blog/2026/06/25/guardiandb-0-17-0-secure-namespaces-iroh-1-0-and-the-arrival-of-the-odm/)
