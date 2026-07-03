@@ -55,7 +55,7 @@ def check_tags(html, file):
         if tag.name not in VALID_TAGS:
             tag_str = str(tag)[:50]
             diagnostics.error(
-                f'{file}: unrecognized tag {tag.name} in "{tag_str}"')
+                f'{file}: unrecognized tag "{tag.name}" in `{tag_str}`')
         if tag.name == 'li':
             if tag.get_text() == '':
                 diagnostics.error(f'{file}: empty <{tag.name}> tag after {prev_tag}')
