@@ -156,6 +156,12 @@ pub struct EditedBuffer {
     pub included: Vec<Submission>,
 }
 
+struct CommandContext {
+    repo: Repository,
+    workdir: PathBuf,
+    draft_rel: PathBuf,
+}
+
 pub async fn run(args: Args) -> Result<()> {
     match args.command {
         CommandArgs::Fetch(args) => run_fetch(args).await,
@@ -164,23 +170,13 @@ pub async fn run(args: Args) -> Result<()> {
 }
 
 async fn run_fetch(args: FetchArgs) -> Result<()> {
-    info!("opening git repository");
-    let repo = Repository::discover(".").context("open git repository")?;
+    let context = command_context(args.draft)?;
     if !args.allow_dirty {
         info!("checking tracked worktree status");
-        ensure_tracked_worktree_clean(&repo)?;
+        ensure_tracked_worktree_clean(&context.repo)?;
     }
-    let workdir = repo
-        .workdir()
-        .ok_or_else(|| anyhow!("submerge must run in a non-bare repository"))?;
-    let draft = match args.draft {
-        Some(path) => path,
-        None => find_latest_draft(workdir)?,
-    };
-    let draft_rel = normalize_repo_relative_path(workdir, &draft)?;
-    info!("using draft {}", draft_rel.display());
-    let draft_text = fs::read_to_string(workdir.join(&draft_rel))
-        .with_context(|| format!("read {}", draft_rel.display()))?;
+    let draft_text = fs::read_to_string(context.workdir.join(&context.draft_rel))
+        .with_context(|| format!("read {}", context.draft_rel.display()))?;
 
     let (owner, name) = parse_repo_name(DEFAULT_REMOTE)?;
     let (client, authenticated) = github_client()?;
@@ -204,7 +200,7 @@ no repository permissions are needed because tokens can read public repositories
 
     for pull in pulls {
         info!("checking PR #{}: {}", pull.number, pull.title);
-        match fetch_submission(&client, owner, name, &draft_rel, &pull).await {
+        match fetch_submission(&client, owner, name, &context.draft_rel, &pull).await {
             Ok(submission) => submissions.push(submission),
             Err(reason) => skipped.push(SkippedPr {
                 pr: pull.number,
@@ -229,12 +225,12 @@ no repository permissions are needed because tokens can read public repositories
         return Ok(());
     }
 
-    fs::write(workdir.join(&draft_rel), buffer)
-        .with_context(|| format!("write editable buffer {}", draft_rel.display()))?;
-    println!("wrote editable buffer to {}", draft_rel.display());
+    fs::write(context.workdir.join(&context.draft_rel), buffer)
+        .with_context(|| format!("write editable buffer {}", context.draft_rel.display()))?;
+    println!("wrote editable buffer to {}", context.draft_rel.display());
     println!(
         "edit {}, run any checks you want, then run: submerge merge",
-        draft_rel.display()
+        context.draft_rel.display()
     );
     Ok(())
 }
@@ -268,27 +264,16 @@ async fn fetch_submission(
 }
 
 fn run_merge(args: MergeArgs) -> Result<()> {
-    info!("opening git repository");
-    let repo = Repository::discover(".").context("open git repository")?;
-    let workdir = repo
-        .workdir()
-        .ok_or_else(|| anyhow!("submerge must run in a non-bare repository"))?;
-
-    let draft = match args.draft {
-        Some(path) => path,
-        None => find_latest_draft(workdir)?,
-    };
-    let draft_rel = normalize_repo_relative_path(workdir, &draft)?;
-    info!("using draft {}", draft_rel.display());
+    let context = command_context(args.draft)?;
 
     if !args.allow_dirty {
         info!("checking tracked worktree status");
-        ensure_tracked_worktree_clean_except(&repo, &draft_rel)?;
+        ensure_tracked_worktree_clean_except(&context.repo, &context.draft_rel)?;
     }
 
-    info!("reading edited buffer {}", draft_rel.display());
-    let edited = fs::read_to_string(workdir.join(&draft_rel))
-        .with_context(|| format!("read edited buffer {}", draft_rel.display()))?;
+    info!("reading edited buffer {}", context.draft_rel.display());
+    let edited = fs::read_to_string(context.workdir.join(&context.draft_rel))
+        .with_context(|| format!("read edited buffer {}", context.draft_rel.display()))?;
     info!("parsing edited buffer");
     let parsed = parse_edited_buffer(&edited)?;
     if parsed.included.is_empty() {
@@ -297,20 +282,39 @@ fn run_merge(args: MergeArgs) -> Result<()> {
     info!("retained {} PRs", parsed.included.len());
 
     info!("fetching retained PR heads");
-    let parent_oids = fetch_and_verify_pr_heads(&repo, &parsed.included)?;
+    let parent_oids = fetch_and_verify_pr_heads(&context.repo, &parsed.included)?;
     info!("creating local merge commit");
     let commit_oid = create_merge_commit(
-        &repo,
-        workdir,
-        &draft_rel,
+        &context.repo,
+        &context.workdir,
+        &context.draft_rel,
         &parsed.final_text,
         &parsed.included,
-        &[],
         &parent_oids,
     )?;
 
     println!("created local merge commit {commit_oid}");
     Ok(())
+}
+
+fn command_context(draft: Option<PathBuf>) -> Result<CommandContext> {
+    info!("opening git repository");
+    let repo = Repository::discover(".").context("open git repository")?;
+    let workdir = repo
+        .workdir()
+        .ok_or_else(|| anyhow!("submerge must run in a non-bare repository"))?
+        .to_path_buf();
+    let draft = match draft {
+        Some(path) => path,
+        None => find_latest_draft(&workdir)?,
+    };
+    let draft_rel = normalize_repo_relative_path(&workdir, &draft)?;
+    info!("using draft {}", draft_rel.display());
+    Ok(CommandContext {
+        repo,
+        workdir,
+        draft_rel,
+    })
 }
 
 fn parse_repo_name(repo: &str) -> Result<(&str, &str)> {
@@ -1002,7 +1006,6 @@ fn create_merge_commit(
     draft_rel: &Path,
     final_text: &str,
     included: &[Submission],
-    skipped: &[SkippedPr],
     pr_parent_oids: &[Oid],
 ) -> Result<Oid> {
     let draft_abs = workdir.join(draft_rel);
@@ -1034,7 +1037,7 @@ fn create_merge_commit(
         .signature()
         .or_else(|_| Signature::now("submerge", "submerge@example.invalid"))
         .context("create commit signature")?;
-    let message = commit_message(included, skipped);
+    let message = commit_message(included);
     repo.commit(
         Some("HEAD"),
         &signature,
@@ -1046,19 +1049,13 @@ fn create_merge_commit(
     .context("create merge commit")
 }
 
-fn commit_message(included: &[Submission], skipped: &[SkippedPr]) -> String {
+fn commit_message(included: &[Submission]) -> String {
     let mut message = String::from("Submerge TWiR submissions\n\nIncluded PRs:\n");
     for submission in included {
         message.push_str(&format!(
             "- #{} {} ({})\n",
             submission.pr, submission.title, submission.author
         ));
-    }
-    if !skipped.is_empty() {
-        message.push_str("\nSkipped PRs:\n");
-        for skipped in skipped {
-            message.push_str(&format!("- {}\n", format_skipped_pr_summary(skipped)));
-        }
     }
     message
 }
@@ -1524,7 +1521,6 @@ mod tests {
             Path::new("draft/2026-06-24-this-week-in-rust.md"),
             "new\n",
             &[submission],
-            &[],
             &[pr_parent],
         )
         .unwrap();
