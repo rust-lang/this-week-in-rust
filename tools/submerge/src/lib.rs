@@ -692,14 +692,9 @@ fn build_edit_buffer(draft_text: &str, submissions: &[Submission]) -> Result<Str
         }
         for submission in section_submissions {
             out.push(format!(
-                "{} <!-- {} url={} submerge-pr:{} sha={} author={} title={} -->",
+                "{} {}",
                 submission.line,
-                submission.ci_state.emoji(),
-                submission.pr_url,
-                submission.pr,
-                submission.head_sha,
-                submission.author,
-                marker_comment_value(&submission.pr_title)
+                MarkerAttrs::from_submission(submission).to_comment()
             ));
         }
         out.push(String::new());
@@ -713,14 +708,6 @@ fn build_edit_buffer(draft_text: &str, submissions: &[Submission]) -> Result<Str
 
     let trailing_newline = if draft_text.ends_with('\n') { "\n" } else { "" };
     Ok(format!("{}{}", out.join("\n"), trailing_newline))
-}
-
-fn marker_comment_value(value: &str) -> String {
-    value
-        .replace("-->", "-- >")
-        .replace(['\r', '\n'], " ")
-        .trim()
-        .to_string()
 }
 
 #[derive(Default)]
@@ -813,7 +800,7 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
                     bail!("submerge marker must be at the end of its list item: {item_text}");
                 }
 
-                let marker_attrs = parse_marker_attrs(&marker.text)?;
+                let marker_attrs = MarkerAttrs::parse(&marker.text)?;
                 if !seen_prs.insert(marker_attrs.pr) {
                     bail!("duplicate marker for PR #{}", marker_attrs.pr);
                 }
@@ -887,28 +874,61 @@ struct MarkerAttrs {
     ci_state: CiState,
 }
 
-fn parse_marker_attrs(marker: &str) -> Result<MarkerAttrs> {
-    let marker_re = Regex::new(
-        r"^<!-- (?:(?P<ci>✅|❌) )?url=(?P<url>\S+) submerge-pr:(?P<pr>\d+) sha=(?P<sha>[0-9a-fA-F]{40}) author=(?P<author>\S+)(?: title=(?P<pr_title>.*?))? -->$",
-    )?;
-    let captures = marker_re
-        .captures(marker.trim())
-        .ok_or_else(|| anyhow!("malformed submerge marker: {marker}"))?;
-    Ok(MarkerAttrs {
-        pr: captures["pr"].parse()?,
-        url: captures["url"].to_string(),
-        sha: captures["sha"].to_string(),
-        author: captures["author"].to_string(),
-        pr_title: captures
-            .name("pr_title")
-            .map(|m| m.as_str())
-            .unwrap_or("")
-            .to_string(),
-        ci_state: match captures.name("ci").map(|m| m.as_str()) {
-            Some("✅") => CiState::Success,
-            _ => CiState::Failure,
-        },
-    })
+impl MarkerAttrs {
+    fn from_submission(submission: &Submission) -> Self {
+        Self {
+            pr: submission.pr,
+            url: submission.pr_url.clone(),
+            sha: submission.head_sha.clone(),
+            author: submission.author.clone(),
+            pr_title: submission.pr_title.clone(),
+            ci_state: submission.ci_state,
+        }
+    }
+
+    fn parse(marker: &str) -> Result<Self> {
+        let marker_re = Regex::new(
+            r"^<!-- (?:(?P<ci>✅|❌) )?url=(?P<url>\S+) submerge-pr:(?P<pr>\d+) sha=(?P<sha>[0-9a-fA-F]{40}) author=(?P<author>\S+)(?: title=(?P<pr_title>.*?))? -->$",
+        )?;
+        let captures = marker_re
+            .captures(marker.trim())
+            .ok_or_else(|| anyhow!("malformed submerge marker: {marker}"))?;
+        Ok(Self {
+            pr: captures["pr"].parse()?,
+            url: captures["url"].to_string(),
+            sha: captures["sha"].to_string(),
+            author: captures["author"].to_string(),
+            pr_title: captures
+                .name("pr_title")
+                .map(|m| m.as_str())
+                .unwrap_or("")
+                .to_string(),
+            ci_state: match captures.name("ci").map(|m| m.as_str()) {
+                Some("✅") => CiState::Success,
+                _ => CiState::Failure,
+            },
+        })
+    }
+
+    fn to_comment(&self) -> String {
+        format!(
+            "<!-- {} url={} submerge-pr:{} sha={} author={} title={} -->",
+            self.ci_state.emoji(),
+            self.url,
+            self.pr,
+            self.sha,
+            self.author,
+            marker_comment_value(&self.pr_title)
+        )
+    }
+}
+
+fn marker_comment_value(value: &str) -> String {
+    value
+        .replace("-->", "-- >")
+        .replace(['\r', '\n'], " ")
+        .trim()
+        .to_string()
 }
 
 fn remove_marker_comments(text: &str, marker_ranges: &[(usize, usize, usize)]) -> String {
