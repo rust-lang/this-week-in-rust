@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Packaging the World's Video in Pure Rust: Building sheathe, an HLS/DASH/CMAF Media Packager Validated Against Shaka Packager](https://medium.com/@vbasky/packaging-the-worlds-video-in-pure-rust-ff1f6b884fec)
+
 ### Research
 
 ### Miscellaneous
