@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Xcelerator Solver v0.1.0 -- deterministic symbolic regression, now on crates.io](https://github.com/TeamXcelerator/xcelerator-solver/releases/tag/v0.1.0)
 
 ### Observations/Thoughts
 
