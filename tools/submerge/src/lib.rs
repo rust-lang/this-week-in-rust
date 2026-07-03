@@ -80,6 +80,34 @@ pub struct Submission {
     pub line: String,
 }
 
+#[derive(Debug, Clone, PartialEq, Eq)]
+struct SubmissionCandidate {
+    pr: u64,
+    title: String,
+    pr_title: String,
+    author: String,
+    pr_url: String,
+    head_sha: String,
+    section: String,
+    line: String,
+}
+
+impl SubmissionCandidate {
+    fn with_ci_state(self, ci_state: CiState) -> Submission {
+        Submission {
+            pr: self.pr,
+            title: self.title,
+            pr_title: self.pr_title,
+            author: self.author,
+            pr_url: self.pr_url,
+            head_sha: self.head_sha,
+            ci_state,
+            section: self.section,
+            line: self.line,
+        }
+    }
+}
+
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum CiState {
     Success,
@@ -232,11 +260,11 @@ async fn fetch_submission(
     let head_text = fetch_file_text(client, owner, name, draft_rel, &pull.head_sha)
         .await
         .context("could not read head draft")?;
-    let mut submission = classify_pr(pull, &files, draft_rel, &base_text, &head_text)?;
+    let candidate = classify_pr(pull, &files, draft_rel, &base_text, &head_text)?;
 
-    info!("checking CI state for PR #{}", submission.pr);
-    submission.ci_state = fetch_ci_state(client, owner, name, &submission.head_sha).await?;
-    Ok(submission)
+    info!("checking CI state for PR #{}", candidate.pr);
+    let ci_state = fetch_ci_state(client, owner, name, &candidate.head_sha).await?;
+    Ok(candidate.with_ci_state(ci_state))
 }
 
 fn run_merge(args: MergeArgs) -> Result<()> {
@@ -469,7 +497,7 @@ fn classify_pr(
     draft_rel: &Path,
     base_text: &str,
     head_text: &str,
-) -> Result<Submission> {
+) -> Result<SubmissionCandidate> {
     if files.len() != 1 {
         bail!("changes {} files", files.len());
     }
@@ -498,14 +526,13 @@ fn classify_pr(
     }
 
     let candidate = candidates.remove(0);
-    Ok(Submission {
+    Ok(SubmissionCandidate {
         pr: pull.number,
         title: candidate.title,
         pr_title: pull.title.clone(),
         author: pull.author.clone(),
         pr_url: pull.url.clone(),
         head_sha: pull.head_sha.clone(),
-        ci_state: CiState::Failure,
         section: candidate.section,
         line: candidate.line,
     })
