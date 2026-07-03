@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [wickra](https://github.com/wickra-lib/wickra) — streaming-first technical indicators with a Rust core, native Python/Node/WASM bindings and a C ABI for C, C++, C#, Go, Java and R. 514 indicators, O(1) per tick, zero dependencies.
+* [wickra — Rust quickstart](https://docs.wickra.org/Quickstart-Rust) — streaming-first technical indicators: one Rust core (an `Indicator` trait with O(1) `update()`, `batch()` and composable `Chain`s) plus native Python/Node/WASM bindings and a C ABI for C, C++, C#, Go, Java and R. 514 indicators across 24 families, zero dependencies.
 
 ### Observations/Thoughts
 
