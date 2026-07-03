@@ -176,59 +176,8 @@ no repository permissions are needed because tokens can read public repositories
 
     for pull in pulls {
         info!("checking PR #{}: {}", pull.number, pull.title);
-        if pull.draft {
-            skipped.push(SkippedPr {
-                pr: pull.number,
-                title: pull.title,
-                reason: anyhow!("draft PR"),
-                url: pull.url,
-            });
-            continue;
-        }
-        if pull.base_ref != DEFAULT_BASE {
-            skipped.push(SkippedPr {
-                pr: pull.number,
-                title: pull.title,
-                reason: anyhow!("targets {}, not {}", pull.base_ref, DEFAULT_BASE),
-                url: pull.url,
-            });
-            continue;
-        }
-
-        let files = fetch_pr_files(&client, owner, name, pull.number).await?;
-        let base_text =
-            match fetch_file_text(&client, owner, name, &draft_rel, &pull.base_sha).await {
-                Ok(text) => text,
-                Err(error) => {
-                    skipped.push(SkippedPr {
-                        pr: pull.number,
-                        title: pull.title,
-                        reason: error.context("reading base draft"),
-                        url: pull.url,
-                    });
-                    continue;
-                }
-            };
-        let head_text =
-            match fetch_file_text(&client, owner, name, &draft_rel, &pull.head_sha).await {
-                Ok(text) => text,
-                Err(error) => {
-                    skipped.push(SkippedPr {
-                        pr: pull.number,
-                        title: pull.title,
-                        reason: anyhow!("could not read head draft: {error:#}"),
-                        url: pull.url,
-                    });
-                    continue;
-                }
-            };
-        match classify_pr(&pull, &files, &draft_rel, &base_text, &head_text) {
-            Ok(mut submission) => {
-                info!("checking CI state for PR #{}", submission.pr);
-                submission.ci_state =
-                    fetch_ci_state(&client, owner, name, &submission.head_sha).await?;
-                submissions.push(submission);
-            }
+        match fetch_submission(&client, owner, name, &draft_rel, &pull).await {
+            Ok(submission) => submissions.push(submission),
             Err(reason) => skipped.push(SkippedPr {
                 pr: pull.number,
                 title: pull.title,
@@ -260,6 +209,34 @@ no repository permissions are needed because tokens can read public repositories
         draft_rel.display()
     );
     Ok(())
+}
+
+async fn fetch_submission(
+    client: &Octocrab,
+    owner: &str,
+    name: &str,
+    draft_rel: &Path,
+    pull: &PullSummary,
+) -> Result<Submission> {
+    if pull.draft {
+        bail!("draft PR");
+    }
+    if pull.base_ref != DEFAULT_BASE {
+        bail!("targets {}, not {}", pull.base_ref, DEFAULT_BASE);
+    }
+
+    let files = fetch_pr_files(client, owner, name, pull.number).await?;
+    let base_text = fetch_file_text(client, owner, name, draft_rel, &pull.base_sha)
+        .await
+        .context("could not read base draft")?;
+    let head_text = fetch_file_text(client, owner, name, draft_rel, &pull.head_sha)
+        .await
+        .context("could not read head draft")?;
+    let mut submission = classify_pr(pull, &files, draft_rel, &base_text, &head_text)?;
+
+    info!("checking CI state for PR #{}", submission.pr);
+    submission.ci_state = fetch_ci_state(client, owner, name, &submission.head_sha).await?;
+    Ok(submission)
 }
 
 fn run_merge(args: MergeArgs) -> Result<()> {
