@@ -539,6 +539,55 @@ fn classify_pr(
 }
 
 #[derive(Default)]
+struct MarkdownSectionTracker {
+    in_community: bool,
+    current_section: Option<String>,
+    heading: Option<(HeadingLevel, String)>,
+}
+
+impl MarkdownSectionTracker {
+    fn start_heading(&mut self, level: HeadingLevel) {
+        self.heading = Some((level, String::new()));
+    }
+
+    fn push_text(&mut self, text: &str) {
+        if let Some((_level, title)) = self.heading.as_mut() {
+            title.push_str(text);
+        }
+    }
+
+    fn push_break(&mut self) {
+        if let Some((_level, title)) = self.heading.as_mut() {
+            title.push(' ');
+        }
+    }
+
+    fn end_heading(&mut self) {
+        let Some((level, title)) = self.heading.take() else {
+            return;
+        };
+        let title = title.trim();
+        match level {
+            HeadingLevel::H2 => {
+                self.in_community = title == COMMUNITY_HEADING;
+                self.current_section = None;
+            }
+            HeadingLevel::H3 if self.in_community => {
+                self.current_section = Some(title.to_string());
+            }
+            HeadingLevel::H3 => {
+                self.current_section = None;
+            }
+            _ => {}
+        }
+    }
+
+    fn current_section(&self) -> Option<String> {
+        self.current_section.clone()
+    }
+}
+
+#[derive(Default)]
 struct ItemCapture {
     start: usize,
     section: Option<String>,
@@ -547,42 +596,21 @@ struct ItemCapture {
 
 fn extract_markdown_list_items(text: &str) -> Vec<MarkdownListItem> {
     let mut items = Vec::new();
-    let mut in_community = false;
-    let mut current_section: Option<String> = None;
-    let mut heading: Option<(HeadingLevel, String)> = None;
+    let mut sections = MarkdownSectionTracker::default();
     let mut item_stack: Vec<ItemCapture> = Vec::new();
 
     for (event, range) in MarkdownParser::new(text).into_offset_iter() {
         match event {
             Event::Start(Tag::Heading { level, .. }) => {
-                heading = Some((level, String::new()));
+                sections.start_heading(level);
             }
             Event::End(TagEnd::Heading(_)) => {
-                if let Some((level, title)) = heading.take() {
-                    let title = title.trim();
-                    match level {
-                        HeadingLevel::H2 => {
-                            in_community = title == COMMUNITY_HEADING;
-                            current_section = None;
-                        }
-                        HeadingLevel::H3 if in_community => {
-                            current_section = Some(title.to_string());
-                        }
-                        HeadingLevel::H3 => {
-                            current_section = None;
-                        }
-                        _ => {}
-                    }
-                }
+                sections.end_heading();
             }
             Event::Start(Tag::Item) => {
                 item_stack.push(ItemCapture {
                     start: range.start,
-                    section: if in_community {
-                        current_section.clone()
-                    } else {
-                        None
-                    },
+                    section: sections.current_section(),
                     title: String::new(),
                 });
             }
@@ -601,17 +629,13 @@ fn extract_markdown_list_items(text: &str) -> Vec<MarkdownListItem> {
             | Event::Html(value)
             | Event::InlineHtml(value)
             | Event::FootnoteReference(value) => {
-                if let Some((_level, title)) = heading.as_mut() {
-                    title.push_str(&value);
-                }
+                sections.push_text(&value);
                 if let Some(item) = item_stack.last_mut() {
                     item.title.push_str(&value);
                 }
             }
             Event::SoftBreak | Event::HardBreak => {
-                if let Some((_level, title)) = heading.as_mut() {
-                    title.push(' ');
-                }
+                sections.push_break();
                 if let Some(item) = item_stack.last_mut() {
                     item.title.push(' ');
                 }
@@ -728,42 +752,21 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
     let mut seen_prs = BTreeSet::new();
     let mut included = Vec::new();
     let mut marker_ranges = Vec::new();
-    let mut in_community = false;
-    let mut current_section: Option<String> = None;
-    let mut heading: Option<(HeadingLevel, String)> = None;
+    let mut sections = MarkdownSectionTracker::default();
     let mut item_stack: Vec<EditedItemCapture> = Vec::new();
 
     for (event, range) in MarkdownParser::new(text).into_offset_iter() {
         match event {
             Event::Start(Tag::Heading { level, .. }) => {
-                heading = Some((level, String::new()));
+                sections.start_heading(level);
             }
             Event::End(TagEnd::Heading(_)) => {
-                if let Some((level, title)) = heading.take() {
-                    let title = title.trim();
-                    match level {
-                        HeadingLevel::H2 => {
-                            in_community = title == COMMUNITY_HEADING;
-                            current_section = None;
-                        }
-                        HeadingLevel::H3 if in_community => {
-                            current_section = Some(title.to_string());
-                        }
-                        HeadingLevel::H3 => {
-                            current_section = None;
-                        }
-                        _ => {}
-                    }
-                }
+                sections.end_heading();
             }
             Event::Start(Tag::Item) => {
                 item_stack.push(EditedItemCapture {
                     start: range.start,
-                    section: if in_community {
-                        current_section.clone()
-                    } else {
-                        None
-                    },
+                    section: sections.current_section(),
                     markers: Vec::new(),
                 });
             }
@@ -829,9 +832,7 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
             | Event::InlineMath(value)
             | Event::DisplayMath(value)
             | Event::FootnoteReference(value) => {
-                if let Some((_level, title)) = heading.as_mut() {
-                    title.push_str(&value);
-                }
+                sections.push_text(&value);
             }
             Event::Html(value) | Event::InlineHtml(value) => {
                 if let Some(item) = item_stack.last_mut() {
@@ -845,14 +846,10 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
                 } else if value.contains(MARKER_TOKEN) {
                     bail!("submerge marker appears outside a list item: {value}");
                 }
-                if let Some((_level, title)) = heading.as_mut() {
-                    title.push_str(&value);
-                }
+                sections.push_text(&value);
             }
             Event::SoftBreak | Event::HardBreak => {
-                if let Some((_level, title)) = heading.as_mut() {
-                    title.push(' ');
-                }
+                sections.push_break();
             }
             _ => {}
         }
