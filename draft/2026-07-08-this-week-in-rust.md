@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [dlt-tui 1.1.0 - a fast TUI viewer for automotive DLT (AUTOSAR Diagnostic Log and Trace) files](https://github.com/tkmsikd/dlt-tui/releases/tag/v1.1.0)
 
 ### Observations/Thoughts
 
