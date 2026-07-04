@@ -53,6 +53,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [video] [Rust Berlin Meetup 25/06/2026 Livestream](https://www.youtube.com/watch?v=SGR5qBdwk30)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
