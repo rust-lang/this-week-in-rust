@@ -77,7 +77,7 @@ pub struct Submission {
     pub pr_url: String,
     pub head_sha: String,
     section: String,
-    line: String,
+    item: String,
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
@@ -119,7 +119,7 @@ struct PullSummary {
 struct MarkdownListItem {
     section: String,
     title: String,
-    line: String,
+    item: String,
 }
 
 #[derive(Debug, Clone, PartialEq, Eq)]
@@ -510,7 +510,7 @@ fn classify_pr(
         pr_url: pull.url.clone(),
         head_sha: pull.head_sha.clone(),
         section: candidate.section,
-        line: candidate.line,
+        item: candidate.item,
     })
 }
 
@@ -637,16 +637,13 @@ fn collect_markdown_list_item(
     if title.is_empty() {
         return;
     }
-    let Some(line) = text.get(item.start..end).map(str::trim_end) else {
+    let Some(item_text) = text.get(item.start..end).map(str::trim_end) else {
         return;
     };
-    if line.contains('\n') {
-        return;
-    }
     items.push(MarkdownListItem {
         section,
         title,
-        line: line.to_string(),
+        item: item_text.to_string(),
     });
 }
 
@@ -654,11 +651,11 @@ fn normalize_markdown_text(text: &str) -> String {
     text.split_whitespace().collect::<Vec<_>>().join(" ")
 }
 
-fn parse_submission_line(line: &str) -> Option<String> {
+fn parse_submission_item(item: &str) -> Option<String> {
     let wrapped = format!(
         "## {}\n\n### Edited\n{}\n",
         COMMUNITY_HEADING,
-        line.trim_end()
+        item.trim_end()
     );
     let mut items = extract_markdown_list_items(&wrapped);
     if items.len() != 1 {
@@ -691,11 +688,7 @@ fn build_edit_buffer(draft_text: &str, submissions: &[(Submission, CiState)]) ->
             bail!("draft contains duplicate section heading {section:?}");
         }
         for (submission, ci_state) in section_submissions {
-            out.push(format!(
-                "{} {}",
-                submission.line,
-                marker::Attrs::from_submission(submission, *ci_state).to_comment()
-            ));
+            out.push(mark_submission_item(submission, *ci_state));
         }
         out.push(String::new());
     }
@@ -708,6 +701,19 @@ fn build_edit_buffer(draft_text: &str, submissions: &[(Submission, CiState)]) ->
 
     let trailing_newline = if draft_text.ends_with('\n') { "\n" } else { "" };
     Ok(format!("{}{}", out.join("\n"), trailing_newline))
+}
+
+fn mark_submission_item(submission: &Submission, ci_state: CiState) -> String {
+    let comment = marker::Attrs::from_submission(submission, ci_state).to_comment();
+    match submission.item.find('\n') {
+        Some(index) => format!(
+            "{} {}{}",
+            &submission.item[..index],
+            comment,
+            &submission.item[index..]
+        ),
+        None => format!("{} {}", submission.item, comment),
+    }
 }
 
 #[derive(Default)]
@@ -757,31 +763,27 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
                     .get(item.start..range.end)
                     .ok_or_else(|| anyhow!("could not read marked list item text"))?
                     .trim_end();
-                // The merge step records one final line per retained PR.
-                if item_text.contains('\n') {
-                    bail!("submerge marker is attached to a multi-line list item: {item_text}");
-                }
                 let local_marker_start = marker.start - item.start;
                 let local_marker_end = marker.end - item.start;
-                let Some(item_line) = item_text.get(..local_marker_start).map(str::trim_end) else {
+                if local_marker_start > item_text.len() || local_marker_end > item_text.len() {
                     bail!("submerge marker has invalid offsets");
-                };
-                let suffix = item_text
-                    .get(local_marker_end..)
-                    .ok_or_else(|| anyhow!("submerge marker has invalid offsets"))?;
-                if !suffix.trim().is_empty() {
-                    bail!("submerge marker must be at the end of its list item: {item_text}");
                 }
+                let item_without_marker = marker::remove_comments(
+                    item_text,
+                    &[(0, local_marker_start, local_marker_end)],
+                )
+                .trim_end()
+                .to_string();
 
                 let marker_attrs = marker::Attrs::parse(&marker.text)?;
                 if !seen_prs.insert(marker_attrs.pr) {
                     bail!("duplicate marker for PR #{}", marker_attrs.pr);
                 }
-                let title = parse_submission_line(item_line).ok_or_else(|| {
+                let title = parse_submission_item(&item_without_marker).ok_or_else(|| {
                     anyhow!(
                         "PR #{} marker is attached to an invalid list item: {}",
                         marker_attrs.pr,
-                        item_line
+                        item_without_marker
                     )
                 })?;
                 included.push(Submission {
@@ -792,7 +794,7 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
                     pr_url: marker_attrs.url,
                     head_sha: marker_attrs.sha,
                     section,
-                    line: item_line.to_string(),
+                    item: item_without_marker,
                 });
                 marker_ranges.push((item.start, marker.start, marker.end));
             }
@@ -1032,7 +1034,7 @@ fn print_summary(submissions: &[(Submission, CiState)], skipped: &[SkippedPr]) {
     for (submission, _ci_state) in submissions {
         println!(
             "  #{} [{}] {}",
-            submission.pr, submission.section, submission.line
+            submission.pr, submission.section, submission.item
         );
     }
     println!("non-eligible PRs: {}", skipped.len());
@@ -1091,7 +1093,7 @@ mod tests {
         assert_eq!(submission.section, "Project/Tooling Updates");
         assert_eq!(submission.title, "Ratatui 0.30.2 is released");
         assert_eq!(
-            submission.line,
+            submission.item,
             "* [Ratatui 0.30.2 is released](https://ratatui.rs/highlights/v0302/)"
         );
     }
@@ -1127,7 +1129,7 @@ mod tests {
     }
 
     #[test]
-    fn preserves_seeded_submission_line() {
+    fn preserves_seeded_submission_item() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n- [New item](https://example.com/new)\n";
         let submission = classify_pr(
@@ -1138,7 +1140,7 @@ mod tests {
             head,
         )
         .unwrap();
-        assert_eq!(submission.line, "- [New item](https://example.com/new)");
+        assert_eq!(submission.item, "- [New item](https://example.com/new)");
     }
 
     #[test]
@@ -1158,7 +1160,7 @@ mod tests {
             "Rust 1.88 has a nice writeup at release notes"
         );
         assert_eq!(
-            submission.line,
+            submission.item,
             "* Rust 1.88 has a nice writeup at [release notes](https://blog.rust-lang.org/)"
         );
     }
@@ -1176,7 +1178,26 @@ mod tests {
         )
         .unwrap();
         assert_eq!(submission.title, "Rustaceans announced a thing");
-        assert_eq!(submission.line, "* Rustaceans announced a thing");
+        assert_eq!(submission.item, "* Rustaceans announced a thing");
+    }
+
+    #[test]
+    fn classifies_single_multiline_list_item() {
+        let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n";
+        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [New item](https://example.com/new)\n    * extra detail\n";
+        let submission = classify_pr(
+            &pull(9),
+            &[file("", 2, 0)],
+            Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
+        )
+        .unwrap();
+        assert_eq!(submission.title, "New item");
+        assert_eq!(
+            submission.item,
+            "* [New item](https://example.com/new)\n    * extra detail"
+        );
     }
 
     #[test]
@@ -1221,7 +1242,7 @@ mod tests {
                 pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/42".to_string(),
                 head_sha: "0123456789abcdef0123456789abcdef01234567".to_string(),
                 section: "Project/Tooling Updates".to_string(),
-                line: "* [Example](https://example.com/post)".to_string(),
+                item: "* [Example](https://example.com/post)".to_string(),
             },
             CiState::Success,
         )];
@@ -1298,6 +1319,41 @@ mod tests {
                 .contains("* Read more in [release notes](https://example.com) today")
         );
         assert!(parsed.final_text.contains("* Plain community announcement"));
+    }
+
+    #[test]
+    fn build_and_parse_edit_buffer_with_multiline_item() {
+        let draft = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n";
+        let submissions = vec![(
+            Submission {
+                pr: 42,
+                title: "Example".to_string(),
+                pr_title: "Add example link".to_string(),
+                author: "alice".to_string(),
+                pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/42".to_string(),
+                head_sha: "0123456789abcdef0123456789abcdef01234567".to_string(),
+                section: "Project/Tooling Updates".to_string(),
+                item: "* [Example](https://example.com/post)\n    * extra detail".to_string(),
+            },
+            CiState::Success,
+        )];
+        let buffer = build_edit_buffer(draft, &submissions).unwrap();
+        assert!(buffer.contains("* [Example](https://example.com/post) <!-- ✅ url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42"));
+        assert!(buffer.contains("    * extra detail"));
+
+        let parsed = parse_edited_buffer(&buffer).unwrap();
+        assert_eq!(parsed.included.len(), 1);
+        assert_eq!(parsed.included[0].title, "Example");
+        assert_eq!(
+            parsed.included[0].item,
+            "* [Example](https://example.com/post)\n    * extra detail"
+        );
+        assert!(
+            parsed
+                .final_text
+                .contains("* [Example](https://example.com/post)\n    * extra detail")
+        );
+        assert!(!parsed.final_text.contains("submerge-pr:42"));
     }
 
     #[test]
@@ -1395,7 +1451,7 @@ mod tests {
             pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/7".to_string(),
             head_sha: pr_parent.to_string(),
             section: "Project/Tooling Updates".to_string(),
-            line: "* [Example](https://example.com/post)".to_string(),
+            item: "* [Example](https://example.com/post)".to_string(),
         };
         let oid = create_merge_commit(
             &repo,
