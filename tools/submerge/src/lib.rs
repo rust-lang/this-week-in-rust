@@ -75,37 +75,8 @@ pub struct Submission {
     pub author: String,
     pub pr_url: String,
     pub head_sha: String,
-    pub ci_state: CiState,
-    pub section: String,
-    pub line: String,
-}
-
-#[derive(Debug, Clone, PartialEq, Eq)]
-struct SubmissionCandidate {
-    pr: u64,
-    title: String,
-    pr_title: String,
-    author: String,
-    pr_url: String,
-    head_sha: String,
     section: String,
     line: String,
-}
-
-impl SubmissionCandidate {
-    fn with_ci_state(self, ci_state: CiState) -> Submission {
-        Submission {
-            pr: self.pr,
-            title: self.title,
-            pr_title: self.pr_title,
-            author: self.author,
-            pr_url: self.pr_url,
-            head_sha: self.head_sha,
-            ci_state,
-            section: self.section,
-            line: self.line,
-        }
-    }
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
@@ -211,7 +182,7 @@ no repository permissions are needed because tokens can read public repositories
         }
     }
 
-    submissions.sort_by_key(|submission| submission.pr);
+    submissions.sort_by_key(|(submission, _ci_state)| submission.pr);
     info!("classification complete");
     print_summary(&submissions, &skipped);
 
@@ -241,7 +212,7 @@ async fn fetch_submission(
     name: &str,
     draft_rel: &Path,
     pull: &PullSummary,
-) -> Result<Submission> {
+) -> Result<(Submission, CiState)> {
     if pull.draft {
         bail!("draft PR");
     }
@@ -256,11 +227,11 @@ async fn fetch_submission(
     let head_text = fetch_file_text(client, owner, name, draft_rel, &pull.head_sha)
         .await
         .context("could not read head draft")?;
-    let candidate = classify_pr(pull, &files, draft_rel, &base_text, &head_text)?;
+    let submission = classify_pr(pull, &files, draft_rel, &base_text, &head_text)?;
 
-    info!("checking CI state for PR #{}", candidate.pr);
-    let ci_state = fetch_ci_state(client, owner, name, &candidate.head_sha).await?;
-    Ok(candidate.with_ci_state(ci_state))
+    info!("checking CI state for PR #{}", submission.pr);
+    let ci_state = fetch_ci_state(client, owner, name, &submission.head_sha).await?;
+    Ok((submission, ci_state))
 }
 
 fn run_merge(args: MergeArgs) -> Result<()> {
@@ -501,7 +472,7 @@ fn classify_pr(
     draft_rel: &Path,
     base_text: &str,
     head_text: &str,
-) -> Result<SubmissionCandidate> {
+) -> Result<Submission> {
     if files.len() != 1 {
         bail!("changes {} files", files.len());
     }
@@ -530,7 +501,7 @@ fn classify_pr(
     }
 
     let candidate = candidates.remove(0);
-    Ok(SubmissionCandidate {
+    Ok(Submission {
         pr: pull.number,
         title: candidate.title,
         pr_title: pull.title.clone(),
@@ -695,13 +666,13 @@ fn parse_submission_line(line: &str) -> Option<String> {
     Some(items.remove(0).title)
 }
 
-fn build_edit_buffer(draft_text: &str, submissions: &[Submission]) -> Result<String> {
-    let mut grouped: BTreeMap<&str, Vec<&Submission>> = BTreeMap::new();
-    for submission in submissions {
+fn build_edit_buffer(draft_text: &str, submissions: &[(Submission, CiState)]) -> Result<String> {
+    let mut grouped: BTreeMap<&str, Vec<(&Submission, CiState)>> = BTreeMap::new();
+    for (submission, ci_state) in submissions {
         grouped
             .entry(submission.section.as_str())
             .or_default()
-            .push(submission);
+            .push((submission, *ci_state));
     }
 
     let mut out = Vec::new();
@@ -718,11 +689,11 @@ fn build_edit_buffer(draft_text: &str, submissions: &[Submission]) -> Result<Str
         if !inserted.insert(section.to_string()) {
             bail!("draft contains duplicate section heading {section:?}");
         }
-        for submission in section_submissions {
+        for (submission, ci_state) in section_submissions {
             out.push(format!(
                 "{} {}",
                 submission.line,
-                MarkerAttrs::from_submission(submission).to_comment()
+                MarkerAttrs::from_submission(submission, *ci_state).to_comment()
             ));
         }
         out.push(String::new());
@@ -825,7 +796,6 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
                     author: marker_attrs.author,
                     pr_url: marker_attrs.url,
                     head_sha: marker_attrs.sha,
-                    ci_state: marker_attrs.ci_state,
                     section,
                     line: item_line.to_string(),
                 });
@@ -876,14 +846,14 @@ struct MarkerAttrs {
 }
 
 impl MarkerAttrs {
-    fn from_submission(submission: &Submission) -> Self {
+    fn from_submission(submission: &Submission, ci_state: CiState) -> Self {
         Self {
             pr: submission.pr,
             url: submission.pr_url.clone(),
             sha: submission.head_sha.clone(),
             author: submission.author.clone(),
             pr_title: submission.pr_title.clone(),
-            ci_state: submission.ci_state,
+            ci_state,
         }
     }
 
@@ -1144,9 +1114,9 @@ fn normalize_repo_relative_path(workdir: &Path, path: &Path) -> Result<PathBuf> 
     }
 }
 
-fn print_summary(submissions: &[Submission], skipped: &[SkippedPr]) {
+fn print_summary(submissions: &[(Submission, CiState)], skipped: &[SkippedPr]) {
     println!("eligible submissions: {}", submissions.len());
-    for submission in submissions {
+    for (submission, _ci_state) in submissions {
         println!(
             "  #{} [{}] {}",
             submission.pr, submission.section, submission.line
@@ -1329,17 +1299,19 @@ mod tests {
     #[test]
     fn build_and_parse_edit_buffer() {
         let draft = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n### Observations/Thoughts\n";
-        let submissions = vec![Submission {
-            pr: 42,
-            title: "Example".to_string(),
-            pr_title: "Add example link".to_string(),
-            author: "alice".to_string(),
-            pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/42".to_string(),
-            head_sha: "0123456789abcdef0123456789abcdef01234567".to_string(),
-            ci_state: CiState::Success,
-            section: "Project/Tooling Updates".to_string(),
-            line: "* [Example](https://example.com/post)".to_string(),
-        }];
+        let submissions = vec![(
+            Submission {
+                pr: 42,
+                title: "Example".to_string(),
+                pr_title: "Add example link".to_string(),
+                author: "alice".to_string(),
+                pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/42".to_string(),
+                head_sha: "0123456789abcdef0123456789abcdef01234567".to_string(),
+                section: "Project/Tooling Updates".to_string(),
+                line: "* [Example](https://example.com/post)".to_string(),
+            },
+            CiState::Success,
+        )];
         let buffer = build_edit_buffer(draft, &submissions).unwrap();
         assert!(buffer.contains("* [Example](https://example.com/post) <!-- ✅ url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42"));
         assert!(buffer.contains("title=Add example link -->"));
@@ -1349,7 +1321,6 @@ mod tests {
         assert_eq!(parsed.included[0].pr, 42);
         assert_eq!(parsed.included[0].title, "Example");
         assert_eq!(parsed.included[0].pr_title, "Add example link");
-        assert_eq!(parsed.included[0].ci_state, CiState::Success);
         assert!(!parsed.final_text.contains("submerge-pr:42"));
         assert!(
             parsed
@@ -1378,7 +1349,6 @@ mod tests {
             parsed.included[0].pr_url,
             "https://github.com/rust-lang/this-week-in-rust/pull/42"
         );
-        assert_eq!(parsed.included[0].ci_state, CiState::Failure);
         assert_eq!(parsed.included[0].section, "Project/Tooling Updates");
         assert!(!parsed.final_text.contains("submerge-pr"));
     }
@@ -1511,7 +1481,6 @@ mod tests {
             author: "alice".to_string(),
             pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/7".to_string(),
             head_sha: pr_parent.to_string(),
-            ci_state: CiState::Success,
             section: "Project/Tooling Updates".to_string(),
             line: "* [Example](https://example.com/post)".to_string(),
         };
