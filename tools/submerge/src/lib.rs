@@ -19,7 +19,9 @@ use std::path::{Path, PathBuf};
 
 mod marker;
 
-const DEFAULT_REMOTE: &str = "rust-lang/this-week-in-rust";
+const GITHUB_OWNER: &str = "rust-lang";
+const GITHUB_REPO: &str = "this-week-in-rust";
+const PUBLIC_GIT_URL: &str = "https://github.com/rust-lang/this-week-in-rust.git";
 const DEFAULT_BASE: &str = "main";
 const COMMUNITY_HEADING: &str = "Updates from Rust Community";
 
@@ -111,9 +113,7 @@ struct PullSummary {
     author: String,
     url: String,
     head_sha: String,
-    base_sha: String,
     draft: bool,
-    base_ref: String,
 }
 
 #[derive(Debug, Clone, PartialEq, Eq, PartialOrd, Ord)]
@@ -151,7 +151,6 @@ async fn run_fetch(args: FetchArgs) -> Result<()> {
     let draft_text = fs::read_to_string(context.workdir.join(&context.draft_rel))
         .with_context(|| format!("read {}", context.draft_rel.display()))?;
 
-    let (owner, name) = parse_repo_name(DEFAULT_REMOTE)?;
     let (client, authenticated) = github_client()?;
     if authenticated {
         info!("using authenticated GitHub API client");
@@ -164,16 +163,25 @@ no repository permissions are needed because tokens can read public repositories
     }
     info!(
         "listing open PRs for {}/{} targeting {}",
-        owner, name, DEFAULT_BASE
+        GITHUB_OWNER, GITHUB_REPO, DEFAULT_BASE
     );
-    let pulls = fetch_open_pulls(&client, owner, name, DEFAULT_BASE).await?;
+    let pulls = fetch_open_pulls(&client, GITHUB_OWNER, GITHUB_REPO, DEFAULT_BASE).await?;
     info!("found {} open PRs", pulls.len());
     let mut submissions = Vec::new();
     let mut skipped = Vec::new();
 
     for pull in pulls {
         info!("checking PR #{}: {}", pull.number, pull.title);
-        match fetch_submission(&client, owner, name, &context.draft_rel, &pull).await {
+        match fetch_submission(
+            &client,
+            GITHUB_OWNER,
+            GITHUB_REPO,
+            &context.draft_rel,
+            &draft_text,
+            &pull,
+        )
+        .await
+        {
             Ok(submission) => submissions.push(submission),
             Err(reason) => skipped.push(SkippedPr {
                 pr: pull.number,
@@ -213,23 +221,18 @@ async fn fetch_submission(
     owner: &str,
     name: &str,
     draft_rel: &Path,
+    base_text: &str,
     pull: &PullSummary,
 ) -> Result<(Submission, CiState)> {
     if pull.draft {
         bail!("draft PR");
     }
-    if pull.base_ref != DEFAULT_BASE {
-        bail!("targets {}, not {}", pull.base_ref, DEFAULT_BASE);
-    }
 
     let files = fetch_pr_files(client, owner, name, pull.number).await?;
-    let base_text = fetch_file_text(client, owner, name, draft_rel, &pull.base_sha)
-        .await
-        .context("could not read base draft")?;
     let head_text = fetch_file_text(client, owner, name, draft_rel, &pull.head_sha)
         .await
         .context("could not read head draft")?;
-    let submission = classify_pr(pull, &files, draft_rel, &base_text, &head_text)?;
+    let submission = classify_pr(pull, &files, draft_rel, base_text, &head_text)?;
 
     info!("checking CI state for PR #{}", submission.pr);
     let ci_state = fetch_ci_state(client, owner, name, &submission.head_sha).await?;
@@ -288,16 +291,6 @@ fn command_context(draft: Option<PathBuf>) -> Result<CommandContext> {
         workdir,
         draft_rel,
     })
-}
-
-fn parse_repo_name(repo: &str) -> Result<(&str, &str)> {
-    let (owner, name) = repo
-        .split_once('/')
-        .ok_or_else(|| anyhow!("repo must be in owner/name form"))?;
-    if owner.is_empty() || name.is_empty() {
-        bail!("repo must be in owner/name form");
-    }
-    Ok((owner, name))
 }
 
 fn github_client() -> Result<(Octocrab, bool)> {
@@ -373,9 +366,6 @@ fn pull_summary(pull: PullRequest) -> Result<PullSummary> {
     let head = pull
         .head
         .ok_or_else(|| anyhow!("GitHub PR #{number} response is missing head"))?;
-    let base = pull
-        .base
-        .ok_or_else(|| anyhow!("GitHub PR #{number} response is missing base"))?;
 
     Ok(PullSummary {
         number,
@@ -383,9 +373,7 @@ fn pull_summary(pull: PullRequest) -> Result<PullSummary> {
         author,
         url,
         head_sha: head.sha,
-        base_sha: base.sha,
         draft: pull.draft.unwrap_or(false),
-        base_ref: base.ref_field,
     })
 }
 
@@ -821,10 +809,9 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
 }
 
 fn fetch_and_verify_pr_heads(repo: &Repository, submissions: &[Submission]) -> Result<Vec<Oid>> {
-    let remote_url = public_git_url()?;
     let mut remote = repo
-        .remote_anonymous(&remote_url)
-        .with_context(|| format!("open anonymous remote {remote_url}"))?;
+        .remote_anonymous(PUBLIC_GIT_URL)
+        .with_context(|| format!("open anonymous remote {PUBLIC_GIT_URL}"))?;
 
     let mut fetch_options = FetchOptions::new();
     if let Ok(git_token) = env::var("GITHUB_TOKEN").or_else(|_| env::var("GH_TOKEN")) {
@@ -837,7 +824,7 @@ fn fetch_and_verify_pr_heads(repo: &Repository, submissions: &[Submission]) -> R
 
     let mut oids = Vec::new();
     for submission in submissions {
-        info!("fetching PR #{} from {}", submission.pr, remote_url);
+        info!("fetching PR #{} from {}", submission.pr, PUBLIC_GIT_URL);
         let local_ref = format!("refs/submerge/pr-{}", submission.pr);
         let refspec = format!("+refs/pull/{}/head:{local_ref}", submission.pr);
         remote
@@ -861,16 +848,6 @@ fn fetch_and_verify_pr_heads(repo: &Repository, submissions: &[Submission]) -> R
         oids.push(oid);
     }
     Ok(oids)
-}
-
-fn public_git_url() -> Result<String> {
-    let normalized_repo = DEFAULT_REMOTE
-        .trim()
-        .trim_end_matches('/')
-        .trim_end_matches(".git")
-        .trim_end_matches('/');
-    let (owner, name) = parse_repo_name(normalized_repo)?;
-    Ok(format!("https://github.com/{owner}/{name}.git"))
 }
 
 fn create_merge_commit(
@@ -1043,9 +1020,7 @@ mod tests {
             author: "alice".to_string(),
             url: format!("https://github.com/rust-lang/this-week-in-rust/pull/{number}"),
             head_sha: "0123456789abcdef0123456789abcdef01234567".to_string(),
-            base_sha: "abcdef0123456789abcdef0123456789abcdef01".to_string(),
             draft: false,
-            base_ref: "main".to_string(),
         }
     }
 
@@ -1434,12 +1409,6 @@ mod tests {
                 .contains("* [Example](https://example.com/post)\n    * extra detail")
         );
         assert!(!parsed.final_text.contains("submerge-pr:42"));
-    }
-
-    #[test]
-    fn uses_in_code_public_github_endpoint() {
-        let url = public_git_url().unwrap();
-        assert_eq!(url, "https://github.com/rust-lang/this-week-in-rust.git");
     }
 
     #[test]
