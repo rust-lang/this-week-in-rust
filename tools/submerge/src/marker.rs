@@ -35,7 +35,7 @@ impl Attrs {
 
     pub(crate) fn parse(marker: &str) -> Result<Self> {
         let marker_re = Regex::new(
-            r"^<!-- (?:(?P<ci>✅|❌) )?url=(?P<url>\S+) submerge-pr:(?P<pr>\d+) sha=(?P<sha>[0-9a-fA-F]{40}) author=(?P<author>\S+)(?: title=(?P<pr_title>.*?))? -->$",
+            r"^<!-- (?:(?P<ci>✅|❌|❓) )?url=(?P<url>\S+) submerge-pr:(?P<pr>\d+) sha=(?P<sha>[0-9a-fA-F]{40}) author=(?P<author>\S+)(?: title=(?P<pr_title>.*?))? -->$",
         )?;
         let captures = marker_re
             .captures(marker.trim())
@@ -52,7 +52,8 @@ impl Attrs {
                 .to_string(),
             ci_state: match captures.name("ci").map(|m| m.as_str()) {
                 Some("✅") => CiState::Success,
-                _ => CiState::Failure,
+                Some("❌") => CiState::Failure,
+                _ => CiState::Unknown,
             },
         })
     }

@@ -6,9 +6,7 @@ use git2::{
 use log::{info, warn};
 use octocrab::{
     Octocrab,
-    models::{
-        CheckRuns, CheckStatus, CombinedStatus, StatusState, pulls::PullRequest, repos::DiffEntry,
-    },
+    models::{CheckRuns, CheckStatus, pulls::PullRequest, repos::DiffEntry},
     params::State,
 };
 use pulldown_cmark::{Event, HeadingLevel, Parser as MarkdownParser, Tag, TagEnd};
@@ -70,12 +68,12 @@ pub struct MergeArgs {
 
 #[derive(Debug, Clone, PartialEq, Eq)]
 pub struct Submission {
-    pub pr: u64,
-    pub title: String,
-    pub pr_title: String,
-    pub author: String,
-    pub pr_url: String,
-    pub head_sha: String,
+    pr: u64,
+    title: String,
+    pr_title: String,
+    author: String,
+    pr_url: String,
+    head_sha: String,
     section: String,
     item: String,
 }
@@ -84,6 +82,7 @@ pub struct Submission {
 pub enum CiState {
     Success,
     Failure,
+    Unknown,
 }
 
 impl CiState {
@@ -91,6 +90,7 @@ impl CiState {
         match self {
             CiState::Success => "✅",
             CiState::Failure => "❌",
+            CiState::Unknown => "❓",
         }
     }
 }
@@ -426,9 +426,6 @@ async fn fetch_ci_state(client: &Octocrab, owner: &str, name: &str, sha: &str) -
         per_page: u8,
     }
 
-    #[derive(serde::Serialize)]
-    struct EmptyParams {}
-
     let check_runs: CheckRuns = client
         .get(
             format!("/repos/{owner}/{name}/commits/{sha}/check-runs"),
@@ -436,34 +433,34 @@ async fn fetch_ci_state(client: &Octocrab, owner: &str, name: &str, sha: &str) -
         )
         .await
         .with_context(|| format!("list check runs for {sha}"))?;
-    let combined_status: CombinedStatus = client
-        .get(
-            format!("/repos/{owner}/{name}/commits/{sha}/status"),
-            Some(&EmptyParams {}),
-        )
-        .await
-        .with_context(|| format!("read combined status for {sha}"))?;
+    Ok(classify_check_runs(&check_runs))
+}
 
-    let has_check_runs = check_runs.total_count > 0;
-    let check_runs_ok = check_runs.check_runs.iter().all(|check| {
-        check.status == Some(CheckStatus::Completed)
-            && matches!(
-                check.conclusion.as_deref(),
-                Some("success" | "skipped" | "neutral")
-            )
-    });
+fn classify_check_runs(check_runs: &CheckRuns) -> CiState {
+    if check_runs.total_count == 0 || check_runs.check_runs.is_empty() {
+        return CiState::Unknown;
+    }
 
-    let has_statuses = !combined_status.statuses.is_empty();
-    let combined_state_ok = combined_status.state == StatusState::Success
-        && combined_status
-            .statuses
-            .iter()
-            .all(|status| status.state == StatusState::Success);
+    let mut saw_pending = false;
+    for check in &check_runs.check_runs {
+        match check.status {
+            Some(CheckStatus::Completed) => match check.conclusion.as_deref() {
+                Some("success" | "skipped" | "neutral") => {}
+                _ => return CiState::Failure,
+            },
+            Some(CheckStatus::Queued | CheckStatus::InProgress) | None => {
+                saw_pending = true;
+            }
+            Some(_) => {
+                saw_pending = true;
+            }
+        }
+    }
 
-    if (has_check_runs || has_statuses) && check_runs_ok && (!has_statuses || combined_state_ok) {
-        Ok(CiState::Success)
+    if saw_pending {
+        CiState::Unknown
     } else {
-        Ok(CiState::Failure)
+        CiState::Success
     }
 }
 
@@ -1078,6 +1075,69 @@ mod tests {
         .unwrap()
     }
 
+    fn check_runs(value: serde_json::Value) -> CheckRuns {
+        serde_json::from_value(value).unwrap()
+    }
+
+    #[test]
+    fn ci_state_is_unknown_without_check_runs() {
+        let check_runs = check_runs(serde_json::json!({
+            "total_count": 0,
+            "check_runs": []
+        }));
+
+        assert_eq!(classify_check_runs(&check_runs), CiState::Unknown);
+    }
+
+    #[test]
+    fn ci_state_is_unknown_with_pending_check_run() {
+        let check_runs = check_runs(serde_json::json!({
+            "total_count": 1,
+            "check_runs": [
+                {
+                    "status": "in_progress",
+                    "conclusion": null
+                }
+            ]
+        }));
+
+        assert_eq!(classify_check_runs(&check_runs), CiState::Unknown);
+    }
+
+    #[test]
+    fn ci_state_failure_wins_over_pending_check_run() {
+        let check_runs = check_runs(serde_json::json!({
+            "total_count": 2,
+            "check_runs": [
+                {
+                    "status": "in_progress",
+                    "conclusion": null
+                },
+                {
+                    "status": "completed",
+                    "conclusion": "failure"
+                }
+            ]
+        }));
+
+        assert_eq!(classify_check_runs(&check_runs), CiState::Failure);
+    }
+
+    #[test]
+    fn ci_state_success_with_successful_check_run() {
+        let check_runs = check_runs(serde_json::json!({
+            "total_count": 1,
+            "check_runs": [
+                {
+                    "status": "completed",
+                    "conclusion": "success"
+                }
+            ]
+        }));
+
+        assert_eq!(classify_check_runs(&check_runs), CiState::Success);
+    }
+
     #[test]
     fn classifies_one_link_submission() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n### Observations/Thoughts\n";
@@ -1303,6 +1363,28 @@ mod tests {
             marker::comment_value("Title --> with\nnewline"),
             "Title -- > with newline"
         );
+    }
+
+    #[test]
+    fn build_edit_buffer_uses_question_mark_for_unknown_ci() {
+        let draft = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n";
+        let submissions = vec![(
+            Submission {
+                pr: 42,
+                title: "Example".to_string(),
+                pr_title: "Add example link".to_string(),
+                author: "alice".to_string(),
+                pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/42".to_string(),
+                head_sha: "0123456789abcdef0123456789abcdef01234567".to_string(),
+                section: "Project/Tooling Updates".to_string(),
+                item: "* [Example](https://example.com/post)".to_string(),
+            },
+            CiState::Unknown,
+        )];
+
+        let buffer = build_edit_buffer(draft, &submissions).unwrap();
+
+        assert!(buffer.contains("* [Example](https://example.com/post) <!-- ❓ url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42"));
     }
 
     #[test]
