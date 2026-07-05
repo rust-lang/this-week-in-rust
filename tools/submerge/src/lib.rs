@@ -18,10 +18,11 @@ use std::env;
 use std::fs;
 use std::path::{Path, PathBuf};
 
+mod marker;
+
 const DEFAULT_REMOTE: &str = "rust-lang/this-week-in-rust";
 const DEFAULT_BASE: &str = "main";
 const COMMUNITY_HEADING: &str = "Updates from Rust Community";
-const MARKER_TOKEN: &str = "submerge-pr:";
 
 #[derive(Debug, Parser)]
 #[command(
@@ -693,7 +694,7 @@ fn build_edit_buffer(draft_text: &str, submissions: &[(Submission, CiState)]) ->
             out.push(format!(
                 "{} {}",
                 submission.line,
-                MarkerAttrs::from_submission(submission, *ci_state).to_comment()
+                marker::Attrs::from_submission(submission, *ci_state).to_comment()
             ));
         }
         out.push(String::new());
@@ -713,14 +714,7 @@ fn build_edit_buffer(draft_text: &str, submissions: &[(Submission, CiState)]) ->
 struct EditedItemCapture {
     start: usize,
     section: Option<String>,
-    markers: Vec<MarkerCapture>,
-}
-
-#[derive(Debug, Clone)]
-struct MarkerCapture {
-    start: usize,
-    end: usize,
-    text: String,
+    markers: Vec<marker::Capture>,
 }
 
 fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
@@ -763,6 +757,7 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
                     .get(item.start..range.end)
                     .ok_or_else(|| anyhow!("could not read marked list item text"))?
                     .trim_end();
+                // The merge step records one final line per retained PR.
                 if item_text.contains('\n') {
                     bail!("submerge marker is attached to a multi-line list item: {item_text}");
                 }
@@ -778,7 +773,7 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
                     bail!("submerge marker must be at the end of its list item: {item_text}");
                 }
 
-                let marker_attrs = MarkerAttrs::parse(&marker.text)?;
+                let marker_attrs = marker::Attrs::parse(&marker.text)?;
                 if !seen_prs.insert(marker_attrs.pr) {
                     bail!("duplicate marker for PR #{}", marker_attrs.pr);
                 }
@@ -810,14 +805,14 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
             }
             Event::Html(value) | Event::InlineHtml(value) => {
                 if let Some(item) = item_stack.last_mut() {
-                    if value.contains(MARKER_TOKEN) {
-                        item.markers.push(MarkerCapture {
+                    if value.contains(marker::TOKEN) {
+                        item.markers.push(marker::Capture {
                             start: range.start,
                             end: range.end,
                             text: value.to_string(),
                         });
                     }
-                } else if value.contains(MARKER_TOKEN) {
+                } else if value.contains(marker::TOKEN) {
                     bail!("submerge marker appears outside a list item: {value}");
                 }
                 sections.push_text(&value);
@@ -830,91 +825,9 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
     }
 
     Ok(EditedBuffer {
-        final_text: remove_marker_comments(text, &marker_ranges),
+        final_text: marker::remove_comments(text, &marker_ranges),
         included,
     })
-}
-
-#[derive(Debug, Clone)]
-struct MarkerAttrs {
-    pr: u64,
-    url: String,
-    sha: String,
-    author: String,
-    pr_title: String,
-    ci_state: CiState,
-}
-
-impl MarkerAttrs {
-    fn from_submission(submission: &Submission, ci_state: CiState) -> Self {
-        Self {
-            pr: submission.pr,
-            url: submission.pr_url.clone(),
-            sha: submission.head_sha.clone(),
-            author: submission.author.clone(),
-            pr_title: submission.pr_title.clone(),
-            ci_state,
-        }
-    }
-
-    fn parse(marker: &str) -> Result<Self> {
-        let marker_re = Regex::new(
-            r"^<!-- (?:(?P<ci>✅|❌) )?url=(?P<url>\S+) submerge-pr:(?P<pr>\d+) sha=(?P<sha>[0-9a-fA-F]{40}) author=(?P<author>\S+)(?: title=(?P<pr_title>.*?))? -->$",
-        )?;
-        let captures = marker_re
-            .captures(marker.trim())
-            .ok_or_else(|| anyhow!("malformed submerge marker: {marker}"))?;
-        Ok(Self {
-            pr: captures["pr"].parse()?,
-            url: captures["url"].to_string(),
-            sha: captures["sha"].to_string(),
-            author: captures["author"].to_string(),
-            pr_title: captures
-                .name("pr_title")
-                .map(|m| m.as_str())
-                .unwrap_or("")
-                .to_string(),
-            ci_state: match captures.name("ci").map(|m| m.as_str()) {
-                Some("✅") => CiState::Success,
-                _ => CiState::Failure,
-            },
-        })
-    }
-
-    fn to_comment(&self) -> String {
-        format!(
-            "<!-- {} url={} submerge-pr:{} sha={} author={} title={} -->",
-            self.ci_state.emoji(),
-            self.url,
-            self.pr,
-            self.sha,
-            self.author,
-            marker_comment_value(&self.pr_title)
-        )
-    }
-}
-
-fn marker_comment_value(value: &str) -> String {
-    value
-        .replace("-->", "-- >")
-        .replace(['\r', '\n'], " ")
-        .trim()
-        .to_string()
-}
-
-fn remove_marker_comments(text: &str, marker_ranges: &[(usize, usize, usize)]) -> String {
-    let mut out = text.to_string();
-    for (item_start, marker_start, marker_end) in marker_ranges.iter().rev() {
-        let mut removal_start = *marker_start;
-        while removal_start > *item_start {
-            match text.as_bytes()[removal_start - 1] {
-                b' ' | b'\t' => removal_start -= 1,
-                _ => break,
-            }
-        }
-        out.replace_range(removal_start..*marker_end, "");
-    }
-    out
 }
 
 fn fetch_and_verify_pr_heads(repo: &Repository, submissions: &[Submission]) -> Result<Vec<Oid>> {
@@ -1366,7 +1279,7 @@ mod tests {
     #[test]
     fn marker_comment_value_does_not_close_comment() {
         assert_eq!(
-            marker_comment_value("Title --> with\nnewline"),
+            marker::comment_value("Title --> with\nnewline"),
             "Title -- > with newline"
         );
     }
