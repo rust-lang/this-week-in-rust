@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [logdrain: Fast, Embeddable Log-Template Mining in Rust](https://thekeeper.io/blog/logdrain-log-template-mining-in-rust/)
 
 ### Rust Walkthroughs
 
