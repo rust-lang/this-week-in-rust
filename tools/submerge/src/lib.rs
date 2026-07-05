@@ -6,8 +6,9 @@ use git2::{
 use log::{info, warn};
 use octocrab::{
     Octocrab,
-    models::{CheckRuns, CheckStatus, pulls::PullRequest, repos::DiffEntry},
+    models::{checks::ListCheckRuns, pulls::PullRequest, repos::DiffEntry},
     params::State,
+    params::repos::Commitish,
 };
 use pulldown_cmark::{Event, HeadingLevel, Parser as MarkdownParser, Tag, TagEnd};
 use regex::Regex;
@@ -421,37 +422,27 @@ async fn fetch_file_text(
 }
 
 async fn fetch_ci_state(client: &Octocrab, owner: &str, name: &str, sha: &str) -> Result<CiState> {
-    #[derive(serde::Serialize)]
-    struct CheckRunParams {
-        per_page: u8,
-    }
-
-    let check_runs: CheckRuns = client
-        .get(
-            format!("/repos/{owner}/{name}/commits/{sha}/check-runs"),
-            Some(&CheckRunParams { per_page: 100 }),
-        )
+    let check_runs = client
+        .checks(owner, name)
+        .list_check_runs_for_git_ref(Commitish(sha.to_string()))
+        .per_page(100)
+        .send()
         .await
         .with_context(|| format!("list check runs for {sha}"))?;
     Ok(classify_check_runs(&check_runs))
 }
 
-fn classify_check_runs(check_runs: &CheckRuns) -> CiState {
+fn classify_check_runs(check_runs: &ListCheckRuns) -> CiState {
     if check_runs.total_count == 0 || check_runs.check_runs.is_empty() {
         return CiState::Unknown;
     }
 
     let mut saw_pending = false;
     for check in &check_runs.check_runs {
-        match check.status {
-            Some(CheckStatus::Completed) => match check.conclusion.as_deref() {
-                Some("success" | "skipped" | "neutral") => {}
-                _ => return CiState::Failure,
-            },
-            Some(CheckStatus::Queued | CheckStatus::InProgress) | None => {
-                saw_pending = true;
-            }
-            Some(_) => {
+        match check.conclusion.as_deref() {
+            Some("success" | "skipped" | "neutral") => {}
+            Some(_) => return CiState::Failure,
+            None => {
                 saw_pending = true;
             }
         }
@@ -1075,8 +1066,31 @@ mod tests {
         .unwrap()
     }
 
-    fn check_runs(value: serde_json::Value) -> CheckRuns {
+    fn check_runs(value: serde_json::Value) -> ListCheckRuns {
         serde_json::from_value(value).unwrap()
+    }
+
+    fn check_run(conclusion: Option<&str>) -> serde_json::Value {
+        serde_json::json!({
+            "id": 1,
+            "node_id": "CR_kwDOAZBsV88AAAA",
+            "details_url": null,
+            "head_sha": "0123456789abcdef0123456789abcdef01234567",
+            "url": "https://api.github.com/repos/rust-lang/this-week-in-rust/check-runs/1",
+            "html_url": null,
+            "conclusion": conclusion,
+            "output": {
+                "title": null,
+                "summary": null,
+                "text": null,
+                "annotations_count": 0,
+                "annotations_url": "https://api.github.com/repos/rust-lang/this-week-in-rust/check-runs/1/annotations"
+            },
+            "started_at": null,
+            "completed_at": null,
+            "name": "Run Markdown Checks",
+            "pull_requests": []
+        })
     }
 
     #[test]
@@ -1093,12 +1107,7 @@ mod tests {
     fn ci_state_is_unknown_with_pending_check_run() {
         let check_runs = check_runs(serde_json::json!({
             "total_count": 1,
-            "check_runs": [
-                {
-                    "status": "in_progress",
-                    "conclusion": null
-                }
-            ]
+            "check_runs": [check_run(None)]
         }));
 
         assert_eq!(classify_check_runs(&check_runs), CiState::Unknown);
@@ -1109,14 +1118,8 @@ mod tests {
         let check_runs = check_runs(serde_json::json!({
             "total_count": 2,
             "check_runs": [
-                {
-                    "status": "in_progress",
-                    "conclusion": null
-                },
-                {
-                    "status": "completed",
-                    "conclusion": "failure"
-                }
+                check_run(None),
+                check_run(Some("failure"))
             ]
         }));
 
@@ -1127,12 +1130,7 @@ mod tests {
     fn ci_state_success_with_successful_check_run() {
         let check_runs = check_runs(serde_json::json!({
             "total_count": 1,
-            "check_runs": [
-                {
-                    "status": "completed",
-                    "conclusion": "success"
-                }
-            ]
+            "check_runs": [check_run(Some("success"))]
         }));
 
         assert_eq!(classify_check_runs(&check_runs), CiState::Success);
