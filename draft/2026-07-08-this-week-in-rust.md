@@ -141,7 +141,28 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+
+This week was dominated by wild swings in benchmarks of the new-solver, which is not enabled by default, yet.
+Apart from that, we got a very few notable changes, only one unexpected speedup from a bugfix in rustdoc.
+
+Triage done by **@panstromek**.
+Revision range: [7dc2c162..3659db0d](https://perf.rust-lang.org/?start=7dc2c162b9c197aaa76a6f9e7534569537830a01&end=3659db0d3e2cd634c766fcda79ed118eca31a9fd&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean   | range           | count |
+|:----------------------------------:|:------:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.2%   | [0.2%, 0.2%]    | 3     |
+| Regressions ❌ <br /> (secondary)  | 162.1% | [0.2%, 1116.3%] | 20    |
+| Improvements ✅ <br /> (primary)   | -1.4%  | [-8.4%, -0.1%]  | 7     |
+| Improvements ✅ <br /> (secondary) | -1.1%  | [-8.4%, -0.1%]  | 11    |
+| All ❌✅ (primary)                 | -0.9%  | [-8.4%, 0.2%]   | 10    |
+
+
+1 Regression, 1 Improvement, 4 Mixed; 3 of them in rollups
+17 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/9f1bc6e374b5ae202366df1cbef850b79be8c641/triage/2026/2026-07-06.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
