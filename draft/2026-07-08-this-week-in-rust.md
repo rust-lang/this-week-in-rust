@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Nectar: a Rust-like language that compiles your whole web app to WebAssembly](https://buildnectar.com) - a from-scratch language and compiler written in Rust (with a borrow checker and fine-grained signals) that compiles UI, state, and logic to WebAssembly with no virtual DOM and no GC. Includes a live 10,000-item demo and a side-by-side against Svelte 5.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
