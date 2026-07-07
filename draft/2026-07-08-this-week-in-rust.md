@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+[b0nker](https://op3kay.dev/writing/b0nker)
+
 ### Research
 
 ### Miscellaneous
