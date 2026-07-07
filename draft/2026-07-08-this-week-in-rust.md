@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Maintainer spotlight: Gen Li (@rami3l)](https://blog.rust-lang.org/inside-rust/2026/07/07/maintainer-spotlight-gen-li-rami3l/)
+
 ### Foundation
 
 ### Newsletters
