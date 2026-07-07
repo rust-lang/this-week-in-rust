@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [rama v0.3.0](https://plabayo.tech/blog/rama-0-3)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
