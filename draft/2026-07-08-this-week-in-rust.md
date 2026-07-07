@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Building A Rust-Native Memory Lifecycle CLI For AI Agents](https://terminallylazy.github.io/Tree-Ring-Memory/launch/rust-native-agent-memory-cli.md)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
