@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [k8s-scale-app-rs: Small Rust CLI that either scales a Kubernetes Deployment to a fixed replica count or triggers a rolling restart on it, via the Kubernetes API](https://github.com/git001/k8s-scale-app-rs)
+* [k8s-scale-app-rs: Small Rust CLI that either scales a Kubernetes Deployment to a fixed replica count or triggers a rolling restart on it, via the Kubernetes API]([https://github.com/git001/k8s-scale-app-rs](https://blog.none.at/blog/2026/2026-07-06-k8s-scale-app-rs/))
 
 ### Observations/Thoughts
 
