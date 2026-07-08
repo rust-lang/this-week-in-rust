@@ -38,20 +38,40 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Maintainer spotlight: Gen Li (@rami3l)](https://blog.rust-lang.org/inside-rust/2026/07/07/maintainer-spotlight-gen-li-rami3l/)
 
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #75](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-75)
 
 ### Project/Tooling Updates
+* [Rayfish: Your own private network. No servers, no setup.](https://rayfish.xyz/blog/01-introducing-rayfish)
+- [rama v0.3.0](https://plabayo.tech/blog/rama-0-3)
+* [kache 0.9.0: supply-chain hardening + read-only CI cache](https://github.com/kunobi-ninja/kache/releases/tag/v0.9.0)
+* [GuardianDB - PostgreSQL and P2P/Local-First Together](https://www.willsearch.com.br/blog/2026/07/04/meet-guardiandbs-new-postgresql-compatibility-layer/)
+* [Nectar: a Rust-like language that compiles your whole web app to WebAssembly](https://buildnectar.com/)
+* [logdrain: Fast, Embeddable Log-Template Mining in Rust](https://thekeeper.io/blog/logdrain-log-template-mining-in-rust/)
+* [sheathe: Packaging the World's Video in Pure Rust](https://medium.com/@vbasky/packaging-the-worlds-video-in-pure-rust-ff1f6b884fec)
+* [wickra: streaming-first technical indicators](https://docs.wickra.org/Quickstart-Rust)
+* [Xcelerator Solver v0.1.0 -- deterministic symbolic regression](https://github.com/TeamXcelerator/xcelerator-solver/releases/tag/v0.1.0)
+* [dlt-tui 1.1.0 - a fast TUI viewer for automotive DLT (AUTOSAR Diagnostic Log and Trace) files](https://github.com/tkmsikd/dlt-tui/releases/tag/v1.1.0)
+* [RSSH v0.2.11 — terminal workflows, safer SSH key import, and observable AI ops](https://github.com/shihuili1218/rssh/releases/tag/v0.2.11)
+* [k8s-scale-app-rs: Scale or Restart a Kubernetes Deployment from a CronJob](https://blog.none.at/blog/2026/2026-07-06-k8s-scale-app-rs/)
+* [M-vis v0.5.0-rc1 update](https://dev.to/sicklefire/m-vis-v050-rc1-update-11cp)
 
 ### Observations/Thoughts
+* [video] [Rust Berlin Meetup 25/06/2026 Livestream](https://www.youtube.com/watch?v=SGR5qBdwk30)
 
 ### Rust Walkthroughs
+* [series] [Bevy Tutorial: Build Your First 3D Editor - Create a 3D Space on an Infinite Grid](https://aibodh.com/posts/bevy-tutorial-build-your-first-3d-editor-in-rust/)
+* [Learn Axum Basics and Routing by Building a URL Shortener](https://blog.sheerluck.dev/posts/learn-axum-basics-and-routing-by-building-a-url-shortener/)
 
 ### Research
 
 ### Miscellaneous
+* [Clickable euler diagram of all the Rust week talks](https://seanborg.tech/tiny-blog/rust-week-ven-diagram/)
+
 
 ## Crate of the Week
 
