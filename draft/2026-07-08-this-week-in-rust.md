@@ -59,6 +59,7 @@ and just ask the editors to select the category.
 * [RSSH v0.2.11 — terminal workflows, safer SSH key import, and observable AI ops](https://github.com/shihuili1218/rssh/releases/tag/v0.2.11)
 * [k8s-scale-app-rs: Scale or Restart a Kubernetes Deployment from a CronJob](https://blog.none.at/blog/2026/2026-07-06-k8s-scale-app-rs/)
 * [M-vis v0.5.0-rc1 update](https://dev.to/sicklefire/m-vis-v050-rc1-update-11cp)
+* [RootAsRole: v4.0.0 Major release](https://github.com/LeChatP/RootAsRole/releases/tag/v4.0.0)
 
 ### Observations/Thoughts
 * [video] [Rust Berlin Meetup 25/06/2026 Livestream](https://www.youtube.com/watch?v=SGR5qBdwk30)
