@@ -47,7 +47,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [Rayfish: Your own private network. No servers, no setup.](https://rayfish.xyz/blog/01-introducing-rayfish)
-- [rama v0.3.0](https://plabayo.tech/blog/rama-0-3)
+- [rama v0.3.0 — network service framework ready to be used by the wider Rust community](https://plabayo.tech/blog/rama-0-3)
 * [kache 0.9.0: supply-chain hardening + read-only CI cache](https://github.com/kunobi-ninja/kache/releases/tag/v0.9.0)
 * [GuardianDB - PostgreSQL and P2P/Local-First Together](https://www.willsearch.com.br/blog/2026/07/04/meet-guardiandbs-new-postgresql-compatibility-layer/)
 * [Nectar: a Rust-like language that compiles your whole web app to WebAssembly](https://buildnectar.com/)
@@ -66,6 +66,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 * [series] [Bevy Tutorial: Build Your First 3D Editor - Create a 3D Space on an Infinite Grid](https://aibodh.com/posts/bevy-tutorial-build-your-first-3d-editor-in-rust/)
 * [Learn Axum Basics and Routing by Building a URL Shortener](https://blog.sheerluck.dev/posts/learn-axum-basics-and-routing-by-building-a-url-shortener/)
+* [series] [Rama 101.1: HTTPS clients and layers of abstraction](https://plabayo.tech/blog/rama-101-1-https-clients-and-abstractions)
 
 ### Research
 
