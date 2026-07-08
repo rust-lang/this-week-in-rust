@@ -62,6 +62,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 * [video] [Rust Berlin Meetup 25/06/2026 Livestream](https://www.youtube.com/watch?v=SGR5qBdwk30)
+* [Why RustCrypto is slow: Deep dive into SIMD instructions and hardware acceleration](https://kerkour.com/rustcrypto-slow-simd-rust)
 
 ### Rust Walkthroughs
 * [series] [Bevy Tutorial: Build Your First 3D Editor - Create a 3D Space on an Infinite Grid](https://aibodh.com/posts/bevy-tutorial-build-your-first-3d-editor-in-rust/)
