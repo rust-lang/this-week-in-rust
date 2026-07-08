@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [apis-saltans](https://crates.io/crates/apis-saltans-core), a Zigbee implementation including a coordinator API.
+
+Thanks to [Richard Neumann](https://users.rust-lang.org/t/crate-of-the-week/2704/1627) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -137,7 +139,100 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+598 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-06-30..2026-07-07
+
+#### Compiler
+* [enable eager `param_env` norm in new solver](https://github.com/rust-lang/rust/pull/156976)
+* [lint on `core::ffi::c_void` as a return type](https://github.com/rust-lang/rust/pull/156379)
+* [polish some macro parsing code](https://github.com/rust-lang/rust/pull/158577)
+* [resolve: no allocation in `resolve_ident_in(_local)_module_*`](https://github.com/rust-lang/rust/pull/158604)
+* [simplify option-iterator flattening in the compiler](https://github.com/rust-lang/rust/pull/158627)
+* [stabilize `#[my_macro] mod foo;` (part of `proc_macro_hygiene`)](https://github.com/rust-lang/rust/pull/157857)
+
+#### Library
+* [add `std::io::cursor::WriteThroughCursor`](https://github.com/rust-lang/rust/pull/158537)
+* [implement `Box::as_non_null()`](https://github.com/rust-lang/rust/pull/157347)
+* [implement `DoubleEndedIterator::next_chunk_back`](https://github.com/rust-lang/rust/pull/156737)
+* [implement `IntoIterator` for `[&[mut]] Box<[T; N], A>`](https://github.com/rust-lang/rust/pull/134021)
+* [implement `ptr::{read,write}_unaligned` via `repr(packed)`](https://github.com/rust-lang/rust/pull/158427)
+* [move `SizeHint` and `IoHandle` to `core::io`](https://github.com/rust-lang/rust/pull/158539)
+* [move `std::io::Seek` to `core::io`](https://github.com/rust-lang/rust/pull/158540)
+* [optimize `ArrayChunks::try_rfold` with `DoubleEndedIterator::next_chunk_back`](https://github.com/rust-lang/rust/pull/158704)
+* [stabilize `feature(atomic_from_mut)`](https://github.com/rust-lang/rust/pull/158573)
+
+#### Cargo
+* [`bindeps`: register transitive artifact targets](https://github.com/rust-lang/cargo/pull/17135)
+* [avoid cloning parsed TOML manifest in `ManifestErrorContext`](https://github.com/rust-lang/cargo/pull/17167)
+* [avoid extra clone of parsed TOML manifest](https://github.com/rust-lang/cargo/pull/17176)
+* [remove unneeded cloning when parsing package index](https://github.com/rust-lang/cargo/pull/17178)
+* [change HashMaps and HashSets in Cargo to use Fxhasher](https://github.com/rust-lang/cargo/pull/17169)
+* [do not pass lint rustflags when `--cap-lints=allow` is set](https://github.com/rust-lang/cargo/pull/17174)
+* [fixed `Compilation::deps_output` only taking the last dep](https://github.com/rust-lang/cargo/pull/17164)
+* [pre-allocate a few vectors](https://github.com/rust-lang/cargo/pull/17177)
+* [stabilize `build-dir` layout v2](https://github.com/rust-lang/cargo/pull/16807)
+* [use a set when checking visited workspace members](https://github.com/rust-lang/cargo/pull/17180)
+
+#### Rustdoc
+* [fix crash when trying to inline foreign item which cannot have attributes](https://github.com/rust-lang/rust/pull/158751)
+* [show use-site paths for unevaluated const array lengths](https://github.com/rust-lang/rust/pull/158334)
+
+#### Clippy
+* [`chunks_exact_to_as_chunks`: Don't report expressions with const parameters](https://github.com/rust-lang/rust-clippy/pull/17319)
+* [`chunks_exact_to_as_chunks`: Don't report expressions with type params](https://github.com/rust-lang/rust-clippy/pull/17360)
+* [`missing_trait_methods`: MSRV/unstable awareness](https://github.com/rust-lang/rust-clippy/pull/17309)
+* [`vec_init_then_push`: don't lint pushes from a macro expansion](https://github.com/rust-lang/rust-clippy/pull/17289)
+* [`inline_modules`: ignore `cfg(test)` modules in test builds](https://github.com/rust-lang/rust-clippy/pull/17346)
+* [`match_same_arms`: keep arm-level expectations working under an outer allow](https://github.com/rust-lang/rust-clippy/pull/17345)
+* [`unnecessary_operation`: avoid bad `!` suggestions](https://github.com/rust-lang/rust-clippy/pull/17341)
+* [`unnecessary_unwrap_unchecked`: don't trigger inside the `_unchecked` fn](https://github.com/rust-lang/rust-clippy/pull/17351)
+* [add required parentheses when the `needless_bool` suggestion is an operand](https://github.com/rust-lang/rust-clippy/pull/17348)
+* [fix ICE when resolving local in `unnecessary_unwrap_unchecked`](https://github.com/rust-lang/rust-clippy/pull/17353)
+* [fix `infinite_loop` false positive inside gen blocks](https://github.com/rust-lang/rust-clippy/pull/17311)
+* [fix `manual_c_str_literals` suggestion when the trailing backslash is escaped](https://github.com/rust-lang/rust-clippy/pull/17358)
+* [fix `strlen_on_c_strings` incorrect suggestion logic](https://github.com/rust-lang/rust-clippy/pull/17337)
+* [fix `suspicious_operation_groupings` duplications](https://github.com/rust-lang/rust-clippy/pull/17323)
+* [lint bit width](https://github.com/rust-lang/rust-clippy/pull/16902)
+* [optimize `Msrv::meets` calls](https://github.com/rust-lang/rust-clippy/pull/17338)
+* [bail out of unicode lint scans when the snippet is pure ASCII](https://github.com/rust-lang/rust-clippy/pull/17273)
+* [skip the HIR parent walk in `is_in_test_function` when there are no test items](https://github.com/rust-lang/rust-clippy/pull/17224)
+* [place generated impl block after the existing impl block](https://github.com/rust-lang/rust-clippy/pull/17366)
+* [refactor `StringAdd` lint pass](https://github.com/rust-lang/rust-clippy/pull/17333)
+* [refactor `suspicious_xor_used_as_pow`](https://github.com/rust-lang/rust-clippy/pull/17334)
+* [remove `lower_ty` in `uninhabited_reference`](https://github.com/rust-lang/rust-clippy/pull/17293)
+* [respect the configured MSRV in `manual_is_variant_and`'s `map() == Some(_)` rewrite](https://github.com/rust-lang/rust-clippy/pull/17328)
+* [rewrite `mut_mut`](https://github.com/rust-lang/rust-clippy/pull/17332)
+* [rewrite `redundant_else` as a late pass](https://github.com/rust-lang/rust-clippy/pull/17329)
+* [rewrite `tuple_array_conversions`](https://github.com/rust-lang/rust-clippy/pull/17354)
+
+#### Rust-Analyzer
+* [SCIP: exclude leading/trailing trivia in definition ranges](https://github.com/rust-lang/rust-analyzer/pull/22595)
+* [SCIP: remove dead `inlay_hints` field](https://github.com/rust-lang/rust-analyzer/pull/22708)
+* [`feat(ide-diagnostics)`: add diagnostics for invalid union patterns (E0784)](https://github.com/rust-lang/rust-analyzer/pull/22433)
+* [`internal(query-group-macro)`: remove the arity test](https://github.com/rust-lang/rust-analyzer/pull/22704)
+* [add tree top method to Syntax node](https://github.com/rust-lang/rust-analyzer/pull/22668)
+* [add handler for E0627](https://github.com/rust-lang/rust-analyzer/pull/22665)
+* [supports multi arms for `replace_match_with_if_let`](https://github.com/rust-lang/rust-analyzer/pull/22231)
+* [fix UB in `smol_str borsh_non_utf8` test cases](https://github.com/rust-lang/rust-analyzer/pull/22690)
+* [fix generic param for `generate_default_from_enum_variant`](https://github.com/rust-lang/rust-analyzer/pull/20362)
+* [`walkthrough_create_project` file not packaged](https://github.com/rust-lang/rust-analyzer/pull/22703)
+* [assertion failure on closure with unbound function](https://github.com/rust-lang/rust-analyzer/pull/22677)
+* [avoid panic in `convert_tuple_struct_to_named_struct` on nested pattern usage](https://github.com/rust-lang/rust-analyzer/pull/22613)
+* [configuration syntax for nvim-lsp](https://github.com/rust-lang/rust-analyzer/pull/22649)
+* [correct resolution to value when it shares the same name with type](https://github.com/rust-lang/rust-analyzer/pull/22706)
+* [exclude impls on the error type from impl enumeration](https://github.com/rust-lang/rust-analyzer/pull/22619)
+* [fix crash on `extract_variable` when selecting unresolved macro call](https://github.com/rust-lang/rust-analyzer/pull/22705)
+* [fix crash on completion inside macros](https://github.com/rust-lang/rust-analyzer/pull/22715)
+* [fix handling of params of coroutine fns](https://github.com/rust-lang/rust-analyzer/pull/22673)
+* [handle more cases of cfgs in expr store lowering](https://github.com/rust-lang/rust-analyzer/pull/22675)
+* [no generate with default assoc item](https://github.com/rust-lang/rust-analyzer/pull/22488)
+* [panics in `unwrap_return_type`, `remove_underscore`, and `promote_local_to_const`](https://github.com/rust-lang/rust-analyzer/pull/22674)
+* [hoist attribute qualifier segment collection](https://github.com/rust-lang/rust-analyzer/pull/22711)
+* [reduce parser joint-token allocation](https://github.com/rust-lang/rust-analyzer/pull/22709)
+* [project-model: don't pass metadata extra args to sysroot](https://github.com/rust-lang/rust-analyzer/pull/22676)
+* [project-model: introduce cargo.configPath](https://github.com/rust-lang/rust-analyzer/pull/22679)
+* [provide startup time to ready log point and associated benchmark](https://github.com/rust-lang/rust-analyzer/pull/22581)
 
 ### Rust Compiler Performance Triage
 
@@ -304,7 +399,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> if a ptr is dereferenced in a forest and nobody hears it, is it sound?
+
+– [Kornel on rust-users](https://users.rust-lang.org/t/does-the-indirection-of-a-pointer-immediately-create-a-reference/141071/10)
+
+Thanks to [Cerber-Ursi](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1785) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
