@@ -60,6 +60,7 @@ and just ask the editors to select the category.
 * [RSSH v0.2.11 — terminal workflows, safer SSH key import, and observable AI ops](https://github.com/shihuili1218/rssh/releases/tag/v0.2.11)
 * [k8s-scale-app-rs: Scale or Restart a Kubernetes Deployment from a CronJob](https://blog.none.at/blog/2026/2026-07-06-k8s-scale-app-rs/)
 * [M-vis v0.5.0-rc1 update](https://dev.to/sicklefire/m-vis-v050-rc1-update-11cp)
+* [RootAsRole: v4.0.0 Major release, secure execution, new logo](https://github.com/LeChatP/RootAsRole/releases/tag/v4.0.0)
 * [A Cross-Platform Rust UI Framework via Qt’s Bridging Technology](https://www.qt.io/blog/rust-ui-framework-via-bridging-technology)
 * [Jam Programming Language](https://rapha.land/jam-programming-language/)
 * [Sōzu 2.1.0: UDP load balancing for the programmable edge](https://www.clever.cloud/blog/company/2026/07/01/sozu-2-1-0-udp-load-balancer-programmable-edge/)
