@@ -67,6 +67,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 * [video] [Rust Berlin Meetup 25/06/2026 Livestream](https://www.youtube.com/watch?v=SGR5qBdwk30)
+* [Investigating why RustCrypto is slow: Deep dive into SIMD instructions and hardware acceleration](https://kerkour.com/rustcrypto-slow-simd-rust)
 * [bool as u32](https://parsa.wtf/cast/)
 * [A Rust-to-Lean Verification Pipeline with AI Provers: An Experience Report](https://arxiv.org/html/2605.30106)
 * [Work In Progress Rust](https://blog.dureuill.net/articles/wip/)
