@@ -82,6 +82,8 @@ and just ask the editors to select the category.
 * [Learn Axum Basics and Routing by Building a URL Shortener](https://blog.sheerluck.dev/posts/learn-axum-basics-and-routing-by-building-a-url-shortener/)
 * [series] [Rama 101.1: HTTPS clients and layers of abstraction](https://plabayo.tech/blog/rama-101-1-https-clients-and-abstractions)
 
+[b0nker](https://op3kay.dev/writing/b0nker)
+
 ### Research
 
 ### Miscellaneous
