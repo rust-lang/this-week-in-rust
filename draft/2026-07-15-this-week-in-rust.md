@@ -46,7 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
-
+* [Open Source Security Podcast: Rust Foundation Maintainers Fund with Lori and Niko (https://opensourcesecurity.io/2026/2026-07-rfmf-lori-niko/)]
 ### Rust Walkthroughs
 
 ### Research
