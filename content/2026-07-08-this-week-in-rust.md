@@ -41,8 +41,6 @@ and just ask the editors to select the category.
 * [Maintainer spotlight: Gen Li (@rami3l)](https://blog.rust-lang.org/inside-rust/2026/07/07/maintainer-spotlight-gen-li-rami3l/)
 * [Together for a healthier Clippy](https://blog.rust-lang.org/inside-rust/2026/07/06/unite-for-clippy/)
 
-### Foundation
-
 ### Newsletters
 * [The Embedded Rustacean Issue #75](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-75)
 
@@ -82,14 +80,10 @@ and just ask the editors to select the category.
 * [series] [Bevy Tutorial: Build Your First 3D Editor - Create a 3D Space on an Infinite Grid](https://aibodh.com/posts/bevy-tutorial-build-your-first-3d-editor-in-rust/)
 * [Learn Axum Basics and Routing by Building a URL Shortener](https://blog.sheerluck.dev/posts/learn-axum-basics-and-routing-by-building-a-url-shortener/)
 * [series] [Rama 101.1: HTTPS clients and layers of abstraction](https://plabayo.tech/blog/rama-101-1-https-clients-and-abstractions)
-
-[b0nker](https://op3kay.dev/writing/b0nker)
-
-### Research
+* [b0nker: a minimal container runtime written in Rust](https://op3kay.dev/writing/b0nker)
 
 ### Miscellaneous
 * [Clickable euler diagram of all the Rust week talks](https://seanborg.tech/tiny-blog/rust-week-ven-diagram/)
-
 
 ## Crate of the Week
 
@@ -426,7 +420,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1ttbtf5/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
