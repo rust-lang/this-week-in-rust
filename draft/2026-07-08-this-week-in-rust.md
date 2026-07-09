@@ -60,6 +60,7 @@ and just ask the editors to select the category.
 * [RSSH v0.2.11 — terminal workflows, safer SSH key import, and observable AI ops](https://github.com/shihuili1218/rssh/releases/tag/v0.2.11)
 * [k8s-scale-app-rs: Scale or Restart a Kubernetes Deployment from a CronJob](https://blog.none.at/blog/2026/2026-07-06-k8s-scale-app-rs/)
 * [M-vis v0.5.0-rc1 update](https://dev.to/sicklefire/m-vis-v050-rc1-update-11cp)
+* [FlareDB: An Apache Beam Native Streaming Database built in Rust](https://ganeshsivakumar.substack.com/p/flaredb)
 * [mqtt-typed-client 0.2: a type-safe async MQTT client on rumqttc](https://holovskyi.github.io/blog/typed-mqtt-topics-for-rust/)
 * [RootAsRole: v4.0.0 Major release, secure execution, new logo](https://github.com/LeChatP/RootAsRole/releases/tag/v4.0.0)
 * [A Cross-Platform Rust UI Framework via Qt’s Bridging Technology](https://www.qt.io/blog/rust-ui-framework-via-bridging-technology)
