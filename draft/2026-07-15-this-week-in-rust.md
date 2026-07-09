@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Scope 0.5.0: a cross-platform serial-monitor TUI with RTT and Lua plugins](https://github.com/matheuswhite/scope-rs/releases/tag/v0.5.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
