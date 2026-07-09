@@ -65,6 +65,7 @@ and just ask the editors to select the category.
 * [A Cross-Platform Rust UI Framework via Qt’s Bridging Technology](https://www.qt.io/blog/rust-ui-framework-via-bridging-technology)
 * [Jam Programming Language](https://rapha.land/jam-programming-language/)
 * [Sōzu 2.1.0: UDP load balancing for the programmable edge](https://www.clever.cloud/blog/company/2026/07/01/sozu-2-1-0-udp-load-balancer-programmable-edge/)
+* [b0nker: a minimal container runtime written in Rust](https://op3kay.dev/writing/b0nker)
 
 ### Observations/Thoughts
 * [video] [Rust Berlin Meetup 25/06/2026 Livestream](https://www.youtube.com/watch?v=SGR5qBdwk30)
@@ -80,7 +81,6 @@ and just ask the editors to select the category.
 * [series] [Bevy Tutorial: Build Your First 3D Editor - Create a 3D Space on an Infinite Grid](https://aibodh.com/posts/bevy-tutorial-build-your-first-3d-editor-in-rust/)
 * [Learn Axum Basics and Routing by Building a URL Shortener](https://blog.sheerluck.dev/posts/learn-axum-basics-and-routing-by-building-a-url-shortener/)
 * [series] [Rama 101.1: HTTPS clients and layers of abstraction](https://plabayo.tech/blog/rama-101-1-https-clients-and-abstractions)
-* [b0nker: a minimal container runtime written in Rust](https://op3kay.dev/writing/b0nker)
 
 ### Miscellaneous
 * [Clickable euler diagram of all the Rust week talks](https://seanborg.tech/tiny-blog/rust-week-ven-diagram/)
@@ -448,4 +448,4 @@ This Week in Rust is edited by:
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1ureq0r/this_week_in_rust_659/)</small>
