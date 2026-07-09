@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 
 ### Official
 * [Maintainer spotlight: Gen Li (@rami3l)](https://blog.rust-lang.org/inside-rust/2026/07/07/maintainer-spotlight-gen-li-rami3l/)
+* [Together for a healthier Clippy](https://blog.rust-lang.org/inside-rust/2026/07/06/unite-for-clippy/)
 
 ### Foundation
 
@@ -59,9 +60,17 @@ and just ask the editors to select the category.
 * [RSSH v0.2.11 — terminal workflows, safer SSH key import, and observable AI ops](https://github.com/shihuili1218/rssh/releases/tag/v0.2.11)
 * [k8s-scale-app-rs: Scale or Restart a Kubernetes Deployment from a CronJob](https://blog.none.at/blog/2026/2026-07-06-k8s-scale-app-rs/)
 * [M-vis v0.5.0-rc1 update](https://dev.to/sicklefire/m-vis-v050-rc1-update-11cp)
+* [A Cross-Platform Rust UI Framework via Qt’s Bridging Technology](https://www.qt.io/blog/rust-ui-framework-via-bridging-technology)
+* [Jam Programming Language](https://rapha.land/jam-programming-language/)
+* [Sōzu 2.1.0: UDP load balancing for the programmable edge](https://www.clever.cloud/blog/company/2026/07/01/sozu-2-1-0-udp-load-balancer-programmable-edge/)
 
 ### Observations/Thoughts
 * [video] [Rust Berlin Meetup 25/06/2026 Livestream](https://www.youtube.com/watch?v=SGR5qBdwk30)
+* [bool as u32](https://parsa.wtf/cast/)
+* [A Rust-to-Lean Verification Pipeline with AI Provers: An Experience Report](https://arxiv.org/html/2605.30106)
+* [Work In Progress Rust](https://blog.dureuill.net/articles/wip/)
+* [video] [OpenAI just spent $600k on Rust](https://www.youtube.com/watch?v=Fk165jYfHpc)
+* [audio] [Rising Academies with Dylan Brown - Rust in Production Podcast](https://corrode.dev/podcast/s06e07-rising-academies/)
 
 ### Rust Walkthroughs
 * [series] [Bevy Tutorial: Build Your First 3D Editor - Create a 3D Space on an Infinite Grid](https://aibodh.com/posts/bevy-tutorial-build-your-first-3d-editor-in-rust/)
