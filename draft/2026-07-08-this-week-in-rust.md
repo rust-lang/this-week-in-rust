@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 * [The Embedded Rustacean Issue #75](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-75)
 
 ### Project/Tooling Updates
+* [copper-rs v1.0.0](https://www.copper-robotics.com/whats-new/copper-rs-v100): the open source deterministic robotics OS is now stable.
 * [Rayfish: Your own private network. No servers, no setup.](https://rayfish.xyz/blog/01-introducing-rayfish)
 - [rama v0.3.0 — network service framework ready to be used by the wider Rust community](https://plabayo.tech/blog/rama-0-3)
 * [kache 0.9.0: supply-chain hardening + read-only CI cache](https://github.com/kunobi-ninja/kache/releases/tag/v0.9.0)
