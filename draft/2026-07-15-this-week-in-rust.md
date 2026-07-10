@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [cochlea 0.1.0: a headless, deterministic audio engine for AI agents](https://richer-richard.github.io/cochlea/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
