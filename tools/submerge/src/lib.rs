@@ -87,16 +87,6 @@ pub enum CiState {
     Unknown,
 }
 
-impl CiState {
-    fn emoji(self) -> &'static str {
-        match self {
-            CiState::Success => "✅",
-            CiState::Failure => "❌",
-            CiState::Unknown => "❓",
-        }
-    }
-}
-
 #[derive(Debug)]
 pub struct SkippedPr {
     pub pr: u64,
@@ -184,7 +174,7 @@ no repository permissions are needed because tokens can read public repositories
         }
     }
 
-    submissions.sort_by_key(|(submission, _ci_state)| submission.pr);
+    submissions.sort_by_key(|submission| submission.pr);
     info!("classification complete");
     print_summary(&submissions, &skipped);
 
@@ -215,7 +205,7 @@ async fn fetch_submission(
     draft_rel: &Path,
     base_text: &str,
     pull: &PullSummary,
-) -> Result<(Submission, CiState)> {
+) -> Result<Submission> {
     if pull.draft {
         bail!("draft PR");
     }
@@ -228,7 +218,8 @@ async fn fetch_submission(
 
     info!("checking CI state for PR #{}", submission.pr);
     let ci_state = fetch_ci_state(client, owner, name, &submission.head_sha).await?;
-    Ok((submission, ci_state))
+    ensure_ci_success(submission.pr, ci_state)?;
+    Ok(submission)
 }
 
 fn run_merge(args: MergeArgs) -> Result<()> {
@@ -435,6 +426,20 @@ fn classify_check_runs(check_runs: &ListCheckRuns) -> CiState {
     }
 }
 
+fn ensure_ci_success(pr: u64, ci_state: CiState) -> Result<()> {
+    match ci_state {
+        CiState::Success => Ok(()),
+        CiState::Failure => {
+            warn!("skipping PR #{pr}: CI is failing");
+            bail!("CI is failing");
+        }
+        CiState::Unknown => {
+            warn!("skipping PR #{pr}: CI status is unknown or pending");
+            bail!("CI status is unknown or pending");
+        }
+    }
+}
+
 fn classify_pr(
     pull: &PullSummary,
     files: &[DiffEntry],
@@ -465,13 +470,13 @@ fn classify_pr(
     })
 }
 
-fn build_edit_buffer(draft_text: &str, submissions: &[(Submission, CiState)]) -> Result<String> {
-    let mut grouped: BTreeMap<&str, Vec<(&Submission, CiState)>> = BTreeMap::new();
-    for (submission, ci_state) in submissions {
+fn build_edit_buffer(draft_text: &str, submissions: &[Submission]) -> Result<String> {
+    let mut grouped: BTreeMap<&str, Vec<&Submission>> = BTreeMap::new();
+    for submission in submissions {
         grouped
             .entry(submission.section.as_str())
             .or_default()
-            .push((submission, *ci_state));
+            .push(submission);
     }
 
     let mut out = Vec::new();
@@ -488,8 +493,8 @@ fn build_edit_buffer(draft_text: &str, submissions: &[(Submission, CiState)]) ->
         if !inserted.insert(section.to_string()) {
             bail!("draft contains duplicate section heading {section:?}");
         }
-        for (submission, ci_state) in section_submissions {
-            out.push(mark_submission_item(submission, *ci_state));
+        for submission in section_submissions {
+            out.push(mark_submission_item(submission));
         }
         out.push(String::new());
     }
@@ -504,8 +509,8 @@ fn build_edit_buffer(draft_text: &str, submissions: &[(Submission, CiState)]) ->
     Ok(format!("{}{}", out.join("\n"), trailing_newline))
 }
 
-fn mark_submission_item(submission: &Submission, ci_state: CiState) -> String {
-    let comment = marker::Attrs::from_submission(submission, ci_state).to_comment();
+fn mark_submission_item(submission: &Submission) -> String {
+    let comment = marker::Attrs::from_submission(submission).to_comment();
     match submission.item.find('\n') {
         Some(index) => format!(
             "{} {}{}",
@@ -824,9 +829,9 @@ fn normalize_repo_relative_path(workdir: &Path, path: &Path) -> Result<PathBuf> 
     }
 }
 
-fn print_summary(submissions: &[(Submission, CiState)], skipped: &[SkippedPr]) {
+fn print_summary(submissions: &[Submission], skipped: &[SkippedPr]) {
     println!("eligible submissions: {}", submissions.len());
-    for (submission, _ci_state) in submissions {
+    for submission in submissions {
         println!(
             "  #{} [{}] {}",
             submission.pr, submission.section, submission.item
@@ -939,6 +944,23 @@ mod tests {
         }));
 
         assert_eq!(classify_check_runs(&check_runs), CiState::Success);
+    }
+
+    #[test]
+    fn accepts_successful_ci() {
+        ensure_ci_success(42, CiState::Success).unwrap();
+    }
+
+    #[test]
+    fn rejects_failing_ci() {
+        let err = ensure_ci_success(42, CiState::Failure).unwrap_err();
+        assert_eq!(err.to_string(), "CI is failing");
+    }
+
+    #[test]
+    fn rejects_unknown_or_pending_ci() {
+        let err = ensure_ci_success(42, CiState::Unknown).unwrap_err();
+        assert_eq!(err.to_string(), "CI status is unknown or pending");
     }
 
     #[test]
@@ -1226,20 +1248,17 @@ mod tests {
     #[test]
     fn build_and_parse_edit_buffer() {
         let draft = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n### Observations/Thoughts\n";
-        let submissions = vec![(
-            Submission {
-                pr: 42,
-                pr_title: "Add example link".to_string(),
-                author: "alice".to_string(),
-                pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/42".to_string(),
-                head_sha: "0123456789abcdef0123456789abcdef01234567".to_string(),
-                section: "Project/Tooling Updates".to_string(),
-                item: "* [Example](https://example.com/post)".to_string(),
-            },
-            CiState::Success,
-        )];
+        let submissions = vec![Submission {
+            pr: 42,
+            pr_title: "Add example link".to_string(),
+            author: "alice".to_string(),
+            pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/42".to_string(),
+            head_sha: "0123456789abcdef0123456789abcdef01234567".to_string(),
+            section: "Project/Tooling Updates".to_string(),
+            item: "* [Example](https://example.com/post)".to_string(),
+        }];
         let buffer = build_edit_buffer(draft, &submissions).unwrap();
-        assert!(buffer.contains("* [Example](https://example.com/post) <!-- ✅ url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42"));
+        assert!(buffer.contains("* [Example](https://example.com/post) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42"));
         assert!(buffer.contains("title=Add example link -->"));
 
         let parsed = parse_edited_buffer(&buffer).unwrap();
@@ -1256,14 +1275,14 @@ mod tests {
 
     #[test]
     fn parse_edit_buffer_rejects_duplicate_markers() {
-        let text = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Example](https://example.com) <!-- ✅ url=https://example.com submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n* [Example](https://example.com) <!-- ❌ url=https://example.com submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n";
+        let text = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Example](https://example.com) <!-- url=https://example.com submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n* [Example](https://example.com) <!-- url=https://example.com submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n";
         let err = parse_edited_buffer(text).unwrap_err();
         assert!(err.to_string().contains("duplicate"));
     }
 
     #[test]
     fn parse_edit_buffer_reconstructs_submission_from_comments() {
-        let text = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Edited Title](https://example.com/edited) <!-- ❌ url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n";
+        let text = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Edited Title](https://example.com/edited) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n";
         let parsed = parse_edited_buffer(text).unwrap();
 
         assert_eq!(parsed.included.len(), 1);
@@ -1279,7 +1298,7 @@ mod tests {
 
     #[test]
     fn parse_edit_buffer_reads_marker_pr_title() {
-        let text = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Edited Title](https://example.com/edited) <!-- ❌ url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice title=Add a helpful link -->\n";
+        let text = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Edited Title](https://example.com/edited) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice title=Add a helpful link -->\n";
         let parsed = parse_edited_buffer(text).unwrap();
 
         assert_eq!(parsed.included.len(), 1);
@@ -1295,29 +1314,27 @@ mod tests {
     }
 
     #[test]
-    fn build_edit_buffer_uses_question_mark_for_unknown_ci() {
+    fn build_edit_buffer_omits_ci_status() {
         let draft = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n";
-        let submissions = vec![(
-            Submission {
-                pr: 42,
-                pr_title: "Add example link".to_string(),
-                author: "alice".to_string(),
-                pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/42".to_string(),
-                head_sha: "0123456789abcdef0123456789abcdef01234567".to_string(),
-                section: "Project/Tooling Updates".to_string(),
-                item: "* [Example](https://example.com/post)".to_string(),
-            },
-            CiState::Unknown,
-        )];
+        let submissions = vec![Submission {
+            pr: 42,
+            pr_title: "Add example link".to_string(),
+            author: "alice".to_string(),
+            pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/42".to_string(),
+            head_sha: "0123456789abcdef0123456789abcdef01234567".to_string(),
+            section: "Project/Tooling Updates".to_string(),
+            item: "* [Example](https://example.com/post)".to_string(),
+        }];
 
         let buffer = build_edit_buffer(draft, &submissions).unwrap();
 
-        assert!(buffer.contains("* [Example](https://example.com/post) <!-- ❓ url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42"));
+        assert!(buffer.contains("* [Example](https://example.com/post) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42"));
+        assert!(!buffer.contains(['✅', '❌', '❓']));
     }
 
     #[test]
     fn parse_edit_buffer_accepts_embedded_or_missing_links() {
-        let text = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* Read more in [release notes](https://example.com) today <!-- ❌ url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n* Plain community announcement <!-- ❌ url=https://github.com/rust-lang/this-week-in-rust/pull/43 submerge-pr:43 sha=0123456789abcdef0123456789abcdef01234567 author=bob -->\n";
+        let text = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* Read more in [release notes](https://example.com) today <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n* Plain community announcement <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/43 submerge-pr:43 sha=0123456789abcdef0123456789abcdef01234567 author=bob -->\n";
         let parsed = parse_edited_buffer(text).unwrap();
 
         assert_eq!(parsed.included.len(), 2);
@@ -1332,20 +1349,17 @@ mod tests {
     #[test]
     fn build_and_parse_edit_buffer_with_multiline_item() {
         let draft = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n";
-        let submissions = vec![(
-            Submission {
-                pr: 42,
-                pr_title: "Add example link".to_string(),
-                author: "alice".to_string(),
-                pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/42".to_string(),
-                head_sha: "0123456789abcdef0123456789abcdef01234567".to_string(),
-                section: "Project/Tooling Updates".to_string(),
-                item: "* [Example](https://example.com/post)\n    * extra detail".to_string(),
-            },
-            CiState::Success,
-        )];
+        let submissions = vec![Submission {
+            pr: 42,
+            pr_title: "Add example link".to_string(),
+            author: "alice".to_string(),
+            pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/42".to_string(),
+            head_sha: "0123456789abcdef0123456789abcdef01234567".to_string(),
+            section: "Project/Tooling Updates".to_string(),
+            item: "* [Example](https://example.com/post)\n    * extra detail".to_string(),
+        }];
         let buffer = build_edit_buffer(draft, &submissions).unwrap();
-        assert!(buffer.contains("* [Example](https://example.com/post) <!-- ✅ url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42"));
+        assert!(buffer.contains("* [Example](https://example.com/post) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42"));
         assert!(buffer.contains("    * extra detail"));
 
         let parsed = parse_edited_buffer(&buffer).unwrap();

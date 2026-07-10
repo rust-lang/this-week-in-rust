@@ -1,4 +1,4 @@
-use crate::{CiState, Submission};
+use crate::Submission;
 use anyhow::{Result, anyhow};
 use regex::Regex;
 
@@ -18,24 +18,22 @@ pub(crate) struct Attrs {
     pub(crate) sha: String,
     pub(crate) author: String,
     pub(crate) pr_title: String,
-    ci_state: CiState,
 }
 
 impl Attrs {
-    pub(crate) fn from_submission(submission: &Submission, ci_state: CiState) -> Self {
+    pub(crate) fn from_submission(submission: &Submission) -> Self {
         Self {
             pr: submission.pr,
             url: submission.pr_url.clone(),
             sha: submission.head_sha.clone(),
             author: submission.author.clone(),
             pr_title: submission.pr_title.clone(),
-            ci_state,
         }
     }
 
     pub(crate) fn parse(marker: &str) -> Result<Self> {
         let marker_re = Regex::new(
-            r"^<!-- (?:(?P<ci>✅|❌|❓) )?url=(?P<url>\S+) submerge-pr:(?P<pr>\d+) sha=(?P<sha>[0-9a-fA-F]{40}) author=(?P<author>\S+)(?: title=(?P<pr_title>.*?))? -->$",
+            r"^<!-- url=(?P<url>\S+) submerge-pr:(?P<pr>\d+) sha=(?P<sha>[0-9a-fA-F]{40}) author=(?P<author>\S+)(?: title=(?P<pr_title>.*?))? -->$",
         )?;
         let captures = marker_re
             .captures(marker.trim())
@@ -50,18 +48,12 @@ impl Attrs {
                 .map(|m| m.as_str())
                 .unwrap_or("")
                 .to_string(),
-            ci_state: match captures.name("ci").map(|m| m.as_str()) {
-                Some("✅") => CiState::Success,
-                Some("❌") => CiState::Failure,
-                _ => CiState::Unknown,
-            },
         })
     }
 
     pub(crate) fn to_comment(&self) -> String {
         format!(
-            "<!-- {} url={} submerge-pr:{} sha={} author={} title={} -->",
-            self.ci_state.emoji(),
+            "<!-- url={} submerge-pr:{} sha={} author={} title={} -->",
             self.url,
             self.pr,
             self.sha,

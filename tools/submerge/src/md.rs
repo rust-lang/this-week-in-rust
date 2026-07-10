@@ -43,9 +43,7 @@ impl SectionTracker {
     }
 
     pub(crate) fn end_heading(&mut self) -> Option<(HeadingLevel, String)> {
-        let Some((level, title)) = self.heading.take() else {
-            return None;
-        };
+        let (level, title) = self.heading.take()?;
         let title = title.trim();
         if title.is_empty() {
             return None;
@@ -284,5 +282,5 @@ fn markdown_list_items(text: &str) -> Vec<ListItem> {
 }
 
 pub(crate) fn is_single_list_item(item: &str) -> bool {
-    markdown_list_items(item).into_iter().count() == 1
+    markdown_list_items(item).len() == 1
 }
