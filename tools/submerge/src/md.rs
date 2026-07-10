@@ -17,11 +17,6 @@ struct ComparableEvent {
     section: Option<String>,
 }
 
-impl PartialEq for ComparableEvent {
-    fn eq(&self, other: &Self) -> bool {
-        self.event == other.event
-    }
-}
 
 #[derive(Default)]
 pub(crate) struct SectionTracker {
@@ -99,14 +94,14 @@ fn changed_event_range(old: &[ComparableEvent], new: &[ComparableEvent]) -> Resu
     let prefix_len = old
         .iter()
         .zip(new)
-        .take_while(|(old, new)| old == new)
+        .take_while(|(old, new)| old.event == new.event)
         .count();
 
     let suffix_len = old[prefix_len..]
         .iter()
         .rev()
         .zip(new[prefix_len..].iter().rev())
-        .take_while(|(old, new)| old == new)
+        .take_while(|(old, new)| old.event == new.event)
         .count();
 
     let old_changed = prefix_len..old.len() - suffix_len;
