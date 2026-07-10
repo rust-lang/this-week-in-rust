@@ -10,7 +10,7 @@ use octocrab::{
     params::State,
     params::repos::Commitish,
 };
-use pulldown_cmark::{Event, HeadingLevel, Parser as MarkdownParser, Tag, TagEnd};
+use pulldown_cmark::{Event, Parser as MarkdownParser, Tag, TagEnd};
 use regex::Regex;
 use std::collections::{BTreeMap, BTreeSet};
 use std::env;
@@ -18,12 +18,12 @@ use std::fs;
 use std::path::{Path, PathBuf};
 
 mod marker;
+mod md;
 
 const GITHUB_OWNER: &str = "rust-lang";
 const GITHUB_REPO: &str = "this-week-in-rust";
 const PUBLIC_GIT_URL: &str = "https://github.com/rust-lang/this-week-in-rust.git";
 const DEFAULT_BASE: &str = "main";
-const COMMUNITY_HEADING: &str = "Updates from Rust Community";
 
 #[derive(Debug, Parser)]
 #[command(
@@ -72,7 +72,6 @@ pub struct MergeArgs {
 #[derive(Debug, Clone, PartialEq, Eq)]
 pub struct Submission {
     pr: u64,
-    title: String,
     pr_title: String,
     author: String,
     pr_url: String,
@@ -114,13 +113,6 @@ struct PullSummary {
     url: String,
     head_sha: String,
     draft: bool,
-}
-
-#[derive(Debug, Clone, PartialEq, Eq, PartialOrd, Ord)]
-struct MarkdownListItem {
-    section: String,
-    title: String,
-    item: String,
 }
 
 #[derive(Debug, Clone, PartialEq, Eq)]
@@ -459,185 +451,18 @@ fn classify_pr(
         bail!("changes {}, not {}", file.filename, draft_rel.display());
     }
 
-    let base_items = extract_markdown_list_items(base_text);
-    let head_items = extract_markdown_list_items(head_text);
-    let mut candidates: Vec<_> = head_items
-        .into_iter()
-        .filter(|head| {
-            !base_items
-                .iter()
-                .any(|base| base.section == head.section && base.title == head.title)
-        })
-        .collect();
-
-    if candidates.is_empty() {
-        bail!("does not add a valid community list item");
-    }
-    if candidates.len() != 1 {
-        bail!("adds {} valid community list items", candidates.len());
-    }
-
-    let candidate = candidates.remove(0);
+    let candidate = md::find_single_added_community_list_item(base_text, head_text)?;
     Ok(Submission {
         pr: pull.number,
-        title: candidate.title,
         pr_title: pull.title.clone(),
         author: pull.author.clone(),
         pr_url: pull.url.clone(),
         head_sha: pull.head_sha.clone(),
-        section: candidate.section,
+        section: candidate
+            .section
+            .expect("community list items have sections"),
         item: candidate.item,
     })
-}
-
-#[derive(Default)]
-struct MarkdownSectionTracker {
-    in_community: bool,
-    current_section: Option<String>,
-    heading: Option<(HeadingLevel, String)>,
-}
-
-impl MarkdownSectionTracker {
-    fn start_heading(&mut self, level: HeadingLevel) {
-        self.heading = Some((level, String::new()));
-    }
-
-    fn push_text(&mut self, text: &str) {
-        if let Some((_level, title)) = self.heading.as_mut() {
-            title.push_str(text);
-        }
-    }
-
-    fn push_break(&mut self) {
-        if let Some((_level, title)) = self.heading.as_mut() {
-            title.push(' ');
-        }
-    }
-
-    fn end_heading(&mut self) {
-        let Some((level, title)) = self.heading.take() else {
-            return;
-        };
-        let title = title.trim();
-        match level {
-            HeadingLevel::H2 => {
-                self.in_community = title == COMMUNITY_HEADING;
-                self.current_section = None;
-            }
-            HeadingLevel::H3 if self.in_community => {
-                self.current_section = Some(title.to_string());
-            }
-            HeadingLevel::H3 => {
-                self.current_section = None;
-            }
-            _ => {}
-        }
-    }
-
-    fn current_section(&self) -> Option<String> {
-        self.current_section.clone()
-    }
-}
-
-#[derive(Default)]
-struct ItemCapture {
-    start: usize,
-    section: Option<String>,
-    title: String,
-}
-
-fn extract_markdown_list_items(text: &str) -> Vec<MarkdownListItem> {
-    let mut items = Vec::new();
-    let mut sections = MarkdownSectionTracker::default();
-    let mut item_stack: Vec<ItemCapture> = Vec::new();
-
-    for (event, range) in MarkdownParser::new(text).into_offset_iter() {
-        match event {
-            Event::Start(Tag::Heading { level, .. }) => {
-                sections.start_heading(level);
-            }
-            Event::End(TagEnd::Heading(_)) => {
-                sections.end_heading();
-            }
-            Event::Start(Tag::Item) => {
-                item_stack.push(ItemCapture {
-                    start: range.start,
-                    section: sections.current_section(),
-                    title: String::new(),
-                });
-            }
-            Event::End(TagEnd::Item) => {
-                if let Some(item) = item_stack.pop()
-                    && item_stack.is_empty()
-                {
-                    collect_markdown_list_item(text, item, range.end, &mut items);
-                }
-            }
-            Event::Start(Tag::Link { .. }) | Event::End(TagEnd::Link) => {}
-            Event::Text(value)
-            | Event::Code(value)
-            | Event::InlineMath(value)
-            | Event::DisplayMath(value)
-            | Event::Html(value)
-            | Event::InlineHtml(value)
-            | Event::FootnoteReference(value) => {
-                sections.push_text(&value);
-                if let Some(item) = item_stack.last_mut() {
-                    item.title.push_str(&value);
-                }
-            }
-            Event::SoftBreak | Event::HardBreak => {
-                sections.push_break();
-                if let Some(item) = item_stack.last_mut() {
-                    item.title.push(' ');
-                }
-            }
-            Event::Rule | Event::TaskListMarker(_) => {}
-            _ => {}
-        }
-    }
-
-    items
-}
-
-fn collect_markdown_list_item(
-    text: &str,
-    item: ItemCapture,
-    end: usize,
-    items: &mut Vec<MarkdownListItem>,
-) {
-    let Some(section) = item.section else {
-        return;
-    };
-    let title = normalize_markdown_text(&item.title);
-    if title.is_empty() {
-        return;
-    }
-    let Some(item_text) = text.get(item.start..end).map(str::trim_end) else {
-        return;
-    };
-    items.push(MarkdownListItem {
-        section,
-        title,
-        item: item_text.to_string(),
-    });
-}
-
-fn normalize_markdown_text(text: &str) -> String {
-    text.split_whitespace().collect::<Vec<_>>().join(" ")
-}
-
-fn parse_submission_item(item: &str) -> Option<String> {
-    let wrapped = format!(
-        "## {}\n\n### Edited\n{}\n",
-        COMMUNITY_HEADING,
-        item.trim_end()
-    );
-    let mut items = extract_markdown_list_items(&wrapped);
-    if items.len() != 1 {
-        return None;
-    }
-    Some(items.remove(0).title)
 }
 
 fn build_edit_buffer(draft_text: &str, submissions: &[(Submission, CiState)]) -> Result<String> {
@@ -703,7 +528,7 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
     let mut seen_prs = BTreeSet::new();
     let mut included = Vec::new();
     let mut marker_ranges = Vec::new();
-    let mut sections = MarkdownSectionTracker::default();
+    let mut sections = md::SectionTracker::default();
     let mut item_stack: Vec<EditedItemCapture> = Vec::new();
 
     for (event, range) in MarkdownParser::new(text).into_offset_iter() {
@@ -755,16 +580,15 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
                 if !seen_prs.insert(marker_attrs.pr) {
                     bail!("duplicate marker for PR #{}", marker_attrs.pr);
                 }
-                let title = parse_submission_item(&item_without_marker).ok_or_else(|| {
-                    anyhow!(
+                if !md::is_single_list_item(&item_without_marker) {
+                    bail!(
                         "PR #{} marker is attached to an invalid list item: {}",
                         marker_attrs.pr,
                         item_without_marker
-                    )
-                })?;
+                    );
+                }
                 included.push(Submission {
                     pr: marker_attrs.pr,
-                    title,
                     pr_title: marker_attrs.pr_title,
                     author: marker_attrs.author,
                     pr_url: marker_attrs.url,
@@ -904,10 +728,16 @@ fn commit_message(included: &[Submission]) -> String {
     for submission in included {
         message.push_str(&format!(
             "- #{} {} ({})\n",
-            submission.pr, submission.title, submission.author
+            submission.pr,
+            submission_item_summary(submission),
+            submission.author
         ));
     }
     message
+}
+
+fn submission_item_summary(submission: &Submission) -> &str {
+    submission.item.lines().next().unwrap_or("").trim()
 }
 
 fn format_skipped_pr_summary(skipped: &SkippedPr) -> String {
@@ -1124,7 +954,6 @@ mod tests {
         )
         .unwrap();
         assert_eq!(submission.section, "Project/Tooling Updates");
-        assert_eq!(submission.title, "Ratatui 0.30.2 is released");
         assert_eq!(
             submission.item,
             "* [Ratatui 0.30.2 is released](https://ratatui.rs/highlights/v0302/)"
@@ -1162,6 +991,21 @@ mod tests {
     }
 
     #[test]
+    fn accepts_first_item_in_empty_section() {
+        let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n";
+        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [New item](https://example.com/new)\n";
+        let submission = classify_pr(
+            &pull(17),
+            &[file("", 1, 0)],
+            Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
+        )
+        .unwrap();
+        assert_eq!(submission.item, "* [New item](https://example.com/new)");
+    }
+
+    #[test]
     fn preserves_seeded_submission_item() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n- [New item](https://example.com/new)\n";
@@ -1189,10 +1033,6 @@ mod tests {
         )
         .unwrap();
         assert_eq!(
-            submission.title,
-            "Rust 1.88 has a nice writeup at release notes"
-        );
-        assert_eq!(
             submission.item,
             "* Rust 1.88 has a nice writeup at [release notes](https://blog.rust-lang.org/)"
         );
@@ -1210,7 +1050,6 @@ mod tests {
             head,
         )
         .unwrap();
-        assert_eq!(submission.title, "Rustaceans announced a thing");
         assert_eq!(submission.item, "* Rustaceans announced a thing");
     }
 
@@ -1226,11 +1065,25 @@ mod tests {
             head,
         )
         .unwrap();
-        assert_eq!(submission.title, "New item");
         assert_eq!(
             submission.item,
             "* [New item](https://example.com/new)\n    * extra detail"
         );
+    }
+
+    #[test]
+    fn allows_whitespace_lines_around_one_added_item() {
+        let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n### Observations/Thoughts\n";
+        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n* [New item](https://example.com/new)\n   \n\n### Observations/Thoughts\n";
+        let submission = classify_pr(
+            &pull(13),
+            &[file("", 3, 0)],
+            Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
+        )
+        .unwrap();
+        assert_eq!(submission.item, "* [New item](https://example.com/new)");
     }
 
     #[test]
@@ -1260,7 +1113,98 @@ mod tests {
             head,
         )
         .unwrap_err();
-        assert!(err.to_string().contains("valid community list item"));
+        assert!(!err.to_string().is_empty());
+    }
+
+    #[test]
+    fn rejects_removed_existing_item_even_with_one_addition() {
+        let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing](https://example.com/old)\n";
+        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [New](https://example.com/new)\n";
+        let err = classify_pr(
+            &pull(10),
+            &[file("", 1, 1)],
+            Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
+        )
+        .unwrap_err();
+        assert!(!err.to_string().is_empty());
+    }
+
+    #[test]
+    fn rejects_added_section_with_one_item() {
+        let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n";
+        let head = "## Updates from Rust Community\n\n### New Section\n* [New](https://example.com/new)\n\n### Project/Tooling Updates\n";
+        let err = classify_pr(
+            &pull(11),
+            &[file("", 3, 0)],
+            Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
+        )
+        .unwrap_err();
+        assert!(!err.to_string().is_empty());
+    }
+
+    #[test]
+    fn rejects_existing_item_edit_plus_one_addition() {
+        let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing](https://example.com/old)\n";
+        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing changed](https://example.com/old)\n* [New](https://example.com/new)\n";
+        let err = classify_pr(
+            &pull(12),
+            &[file("", 2, 1)],
+            Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
+        )
+        .unwrap_err();
+        assert!(!err.to_string().is_empty());
+    }
+
+    #[test]
+    fn rejects_nested_addition_to_existing_item() {
+        let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing](https://example.com/old)\n";
+        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing](https://example.com/old)\n    * extra detail\n";
+        let err = classify_pr(
+            &pull(14),
+            &[file("", 1, 0)],
+            Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
+        )
+        .unwrap_err();
+        assert!(!err.to_string().is_empty());
+    }
+
+    #[test]
+    fn rejects_split_non_whitespace_additions() {
+        let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n### Observations/Thoughts\n";
+        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [New](https://example.com/new)\n\n### Observations/Thoughts\n* [Other](https://example.com/other)\n";
+        let err = classify_pr(
+            &pull(15),
+            &[file("", 2, 0)],
+            Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
+        )
+        .unwrap_err();
+        assert!(err.to_string().contains("multiple blocks"));
+    }
+
+    #[test]
+    fn rejects_unrelated_content_with_one_valid_item() {
+        let base =
+            "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n## Upcoming Events\n";
+        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [New](https://example.com/new)\n\n## Upcoming Events\nRandom event note\n";
+        let err = classify_pr(
+            &pull(16),
+            &[file("", 2, 0)],
+            Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
+        )
+        .unwrap_err();
+        assert!(err.to_string().contains("multiple blocks"));
     }
 
     #[test]
@@ -1269,7 +1213,6 @@ mod tests {
         let submissions = vec![(
             Submission {
                 pr: 42,
-                title: "Example".to_string(),
                 pr_title: "Add example link".to_string(),
                 author: "alice".to_string(),
                 pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/42".to_string(),
@@ -1286,7 +1229,6 @@ mod tests {
         let parsed = parse_edited_buffer(&buffer).unwrap();
         assert_eq!(parsed.included.len(), 1);
         assert_eq!(parsed.included[0].pr, 42);
-        assert_eq!(parsed.included[0].title, "Example");
         assert_eq!(parsed.included[0].pr_title, "Add example link");
         assert!(!parsed.final_text.contains("submerge-pr:42"));
         assert!(
@@ -1310,7 +1252,6 @@ mod tests {
 
         assert_eq!(parsed.included.len(), 1);
         assert_eq!(parsed.included[0].pr, 42);
-        assert_eq!(parsed.included[0].title, "Edited Title");
         assert_eq!(parsed.included[0].pr_title, "");
         assert_eq!(
             parsed.included[0].pr_url,
@@ -1326,7 +1267,6 @@ mod tests {
         let parsed = parse_edited_buffer(text).unwrap();
 
         assert_eq!(parsed.included.len(), 1);
-        assert_eq!(parsed.included[0].title, "Edited Title");
         assert_eq!(parsed.included[0].pr_title, "Add a helpful link");
     }
 
@@ -1344,7 +1284,6 @@ mod tests {
         let submissions = vec![(
             Submission {
                 pr: 42,
-                title: "Example".to_string(),
                 pr_title: "Add example link".to_string(),
                 author: "alice".to_string(),
                 pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/42".to_string(),
@@ -1366,8 +1305,6 @@ mod tests {
         let parsed = parse_edited_buffer(text).unwrap();
 
         assert_eq!(parsed.included.len(), 2);
-        assert_eq!(parsed.included[0].title, "Read more in release notes today");
-        assert_eq!(parsed.included[1].title, "Plain community announcement");
         assert!(
             parsed
                 .final_text
@@ -1382,7 +1319,6 @@ mod tests {
         let submissions = vec![(
             Submission {
                 pr: 42,
-                title: "Example".to_string(),
                 pr_title: "Add example link".to_string(),
                 author: "alice".to_string(),
                 pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/42".to_string(),
@@ -1398,7 +1334,6 @@ mod tests {
 
         let parsed = parse_edited_buffer(&buffer).unwrap();
         assert_eq!(parsed.included.len(), 1);
-        assert_eq!(parsed.included[0].title, "Example");
         assert_eq!(
             parsed.included[0].item,
             "* [Example](https://example.com/post)\n    * extra detail"
@@ -1494,7 +1429,6 @@ mod tests {
 
         let submission = Submission {
             pr: 7,
-            title: "Example".to_string(),
             pr_title: "Add example link".to_string(),
             author: "alice".to_string(),
             pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/7".to_string(),
