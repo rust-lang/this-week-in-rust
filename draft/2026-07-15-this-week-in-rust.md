@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [prost-protovalidate 0.6 — buf.validate (protovalidate) for prost and buffa: compile-time codegen + runtime CEL, 2872/2872 conformance](https://github.com/zs-dima/prost-protovalidate/releases/tag/v0.6.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
