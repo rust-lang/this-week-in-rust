@@ -10,11 +10,17 @@ pub(crate) struct ListItem {
     pub(crate) item: String,
 }
 
-#[derive(Debug, Clone, PartialEq)]
+#[derive(Debug, Clone)]
 struct ComparableEvent {
     event: Event<'static>,
     range: Range<usize>,
     section: Option<String>,
+}
+
+impl PartialEq for ComparableEvent {
+    fn eq(&self, other: &Self) -> bool {
+        self.event == other.event
+    }
 }
 
 #[derive(Default)]
@@ -69,6 +75,10 @@ impl SectionTracker {
     pub(crate) fn current_section(&self) -> Option<String> {
         self.current_section.clone()
     }
+
+    pub(crate) fn in_heading(&self) -> bool {
+        self.heading.is_some()
+    }
 }
 
 pub(crate) fn find_single_added_community_list_item(
@@ -77,7 +87,7 @@ pub(crate) fn find_single_added_community_list_item(
 ) -> Result<ListItem> {
     let base_events = comparable_events(base_text);
     let head_events = comparable_events(head_text);
-    let inserted_range = single_inserted_event_range(&base_events, &head_events)?;
+    let inserted_range = changed_event_range(&base_events, &head_events)?;
     let item = single_inserted_item(head_text, &head_events[inserted_range])?;
     if item.section.is_none() {
         bail!("does not add a valid community list item");
@@ -85,32 +95,26 @@ pub(crate) fn find_single_added_community_list_item(
     Ok(item)
 }
 
-fn single_inserted_event_range(
-    base: &[ComparableEvent],
-    head: &[ComparableEvent],
-) -> Result<Range<usize>> {
-    let mut prefix_len = 0;
-    while prefix_len < base.len()
-        && prefix_len < head.len()
-        && base[prefix_len].event == head[prefix_len].event
-    {
-        prefix_len += 1;
-    }
+fn changed_event_range(old: &[ComparableEvent], new: &[ComparableEvent]) -> Result<Range<usize>> {
+    let prefix_len = old
+        .iter()
+        .zip(new)
+        .take_while(|(old, new)| old == new)
+        .count();
 
-    let mut suffix_len = 0;
-    while suffix_len < base.len() - prefix_len
-        && suffix_len < head.len() - prefix_len
-        && base[base.len() - 1 - suffix_len].event == head[head.len() - 1 - suffix_len].event
-    {
-        suffix_len += 1;
-    }
+    let suffix_len = old[prefix_len..]
+        .iter()
+        .rev()
+        .zip(new[prefix_len..].iter().rev())
+        .take_while(|(old, new)| old == new)
+        .count();
 
-    let base_middle = prefix_len..base.len() - suffix_len;
-    let head_middle = prefix_len..head.len() - suffix_len;
-    if base_middle.is_empty() {
-        Ok(head_middle)
-    } else if event_range_contains_item(&head[head_middle]) {
-        let base_has_item = event_range_contains_item(&base[base_middle]);
+    let old_changed = prefix_len..old.len() - suffix_len;
+    let new_changed = prefix_len..new.len() - suffix_len;
+    if old_changed.is_empty() {
+        Ok(new_changed)
+    } else if event_range_contains_item(&new[new_changed]) {
+        let base_has_item = event_range_contains_item(&old[old_changed]);
         if base_has_item {
             bail!("adds to an existing markdown list item");
         }
@@ -203,17 +207,14 @@ fn item_is_indented(text: &str, item_start: usize) -> bool {
 fn comparable_events(text: &str) -> Vec<ComparableEvent> {
     let mut events = Vec::new();
     let mut sections = SectionTracker::default();
-    let mut heading_depth = 0;
 
     for (event, range) in MarkdownParser::new(text).into_offset_iter() {
         match &event {
             Event::Start(Tag::Heading { level, .. }) => {
-                heading_depth += 1;
                 sections.start_heading(*level);
             }
             Event::End(TagEnd::Heading(_)) => {
                 sections.end_heading();
-                heading_depth -= 1;
             }
             Event::Text(value)
             | Event::Code(value)
@@ -230,8 +231,8 @@ fn comparable_events(text: &str) -> Vec<ComparableEvent> {
             _ => {}
         }
 
-        if heading_depth == 0
-            && let Some(event) = comparable_event(&event)
+        if !sections.in_heading()
+            && let Some(event) = meaningful_event(&event)
         {
             events.push(ComparableEvent {
                 event,
@@ -244,7 +245,7 @@ fn comparable_events(text: &str) -> Vec<ComparableEvent> {
     events
 }
 
-fn comparable_event(event: &Event<'_>) -> Option<Event<'static>> {
+fn meaningful_event(event: &Event<'_>) -> Option<Event<'static>> {
     match event {
         Event::SoftBreak | Event::HardBreak => None,
         _ => Some(event.clone().into_static()),
@@ -288,8 +289,5 @@ fn markdown_list_items(text: &str) -> Vec<ListItem> {
 }
 
 pub(crate) fn is_single_list_item(item: &str) -> bool {
-    markdown_list_items(item)
-        .into_iter()
-        .count()
-        == 1
+    markdown_list_items(item).into_iter().count() == 1
 }

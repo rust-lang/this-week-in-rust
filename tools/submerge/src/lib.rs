@@ -1006,6 +1006,22 @@ mod tests {
     }
 
     #[test]
+    fn ignores_shifted_ranges_for_unchanged_following_content() {
+        let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\nExisting paragraph after the insertion point.\n";
+        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [New item](https://example.com/new)\n\nExisting paragraph after the insertion point.\n";
+        let submission = classify_pr(
+            &pull(18),
+            &[file("", 2, 0)],
+            Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
+        )
+        .unwrap();
+        assert_eq!(submission.section, "Project/Tooling Updates");
+        assert_eq!(submission.item, "* [New item](https://example.com/new)");
+    }
+
+    #[test]
     fn preserves_seeded_submission_item() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n- [New item](https://example.com/new)\n";
