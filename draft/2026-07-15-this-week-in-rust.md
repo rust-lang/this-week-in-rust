@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [What I learned building a self-corrupting file format in Rust](https://www.aravpanwar.com/writing/building-decayfmt-in-rust/)
+
 ### Research
 
 ### Miscellaneous
