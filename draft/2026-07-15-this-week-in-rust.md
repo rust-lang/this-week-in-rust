@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [plaza 1.0: a ratatui package-manager TUI that searches pacman, the AUR, apt, dnf, and Flatpak at once](https://github.com/StaszeKrk/plaza/releases/tag/v1.0.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
