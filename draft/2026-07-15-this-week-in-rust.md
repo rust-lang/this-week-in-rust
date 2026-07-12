@@ -45,13 +45,9 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [CleitonForge: neutral Rust quantum circuit benchmarking found a silent Rz sign convention bug (fidelity=0) in a Rust simulator](https://github.com/cleitonaugusto/CleitonForge)
-
-* [CleitonForge: neutral Rust quantum circuit benchmarking found a silent Rz sign convention bug (fidelity=0) in a Rust simulator](https://github.com/cleitonaugusto/CleitonForge)
+* [We benchmarked 4 Rust quantum simulators — three agreed, one didn't (and we found why)](https://dev.to/cleiton_augusto_/we-benchmarked-4-rust-quantum-simulators-three-agreed-one-didnt-4dd2)
 
 ### Observations/Thoughts
-
-* [Why do some Rust quantum simulators use the opposite Rz gate sign convention from OpenQASM 3?](https://quantumcomputing.stackexchange.com/questions/46362/)
 
 * [Why do some Rust quantum simulators use the opposite Rz gate sign convention from OpenQASM 3?](https://quantumcomputing.stackexchange.com/questions/46362/)
 
