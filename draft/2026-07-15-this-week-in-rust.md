@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Danube v0.15.1: native Apache Iceberg integration for streaming-to-lakehouse export](https://github.com/danube-messaging/danube/releases/tag/v0.15.1)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
