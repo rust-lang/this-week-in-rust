@@ -142,7 +142,27 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This week many new optimizations landed, making this a very good week for performance.
+The only real regression was a fix for a miscompile that will likely be re-landed in the future.
+
+Triage done by **@JonathanBrouwer**.
+Revision range: [3659db0d..5503df87](https://perf.rust-lang.org/?start=3659db0d3e2cd634c766fcda79ed118eca31a9fd&end=5503df87342a73d0c29126a7e08dc9c1255c46ad&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.3%  | [0.2%, 0.4%]    | 3     |
+| Regressions ❌ <br /> (secondary)  | 0.9%  | [0.1%, 2.5%]    | 25    |
+| Improvements ✅ <br /> (primary)   | -1.2% | [-9.9%, -0.2%]  | 195   |
+| Improvements ✅ <br /> (secondary) | -3.4% | [-92.1%, -0.1%] | 174   |
+| All ❌✅ (primary)                 | -1.2% | [-9.9%, 0.4%]   | 198   |
+
+
+2 Regressions, 10 Improvements, 10 Mixed; 7 of them in rollups
+36 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/212da2d63f1edf2ab22293547a99f0fbf8cb68a8/triage/2026/2026-07-13.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
