@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [kobe 0.33.0: a Rust operator for instant CI Kubernetes clusters](https://github.com/kunobi-ninja/kobe/releases/tag/v0.33.0)
 
 ### Observations/Thoughts
 
