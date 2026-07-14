@@ -17,7 +17,6 @@ struct ComparableEvent {
     section: Option<String>,
 }
 
-
 #[derive(Default)]
 pub(crate) struct SectionTracker {
     in_community: bool,

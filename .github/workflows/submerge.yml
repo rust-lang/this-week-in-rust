@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   check:
-    name: Clippy and tests
+    name: Format, clippy, and tests
     runs-on: ubuntu-24.04
     defaults:
       run:
@@ -28,7 +28,9 @@ jobs:
         run: |
           rustup update stable --no-self-update
           rustup default stable
-          rustup component add clippy
+          rustup component add clippy rustfmt
+      - name: Rustfmt
+        run: cargo fmt --check
       - name: Clippy
         run: cargo clippy --locked --all-targets --all-features -- -D warnings
       - name: Test
