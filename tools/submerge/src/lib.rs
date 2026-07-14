@@ -550,15 +550,19 @@ fn build_edit_buffer(draft_text: &str, submissions: &[Submission]) -> Result<Str
 
 fn mark_submission_item(submission: &Submission) -> String {
     let comment = marker::Attrs::from_submission(submission).to_comment();
-    match submission.item.find('\n') {
-        Some(index) => format!(
-            "{} {}{}",
-            &submission.item[..index],
-            comment,
-            &submission.item[index..]
-        ),
-        None => format!("{} {}", submission.item, comment),
+    let item = normalize_initial_list_marker(&submission.item);
+    match item.find('\n') {
+        Some(index) => format!("{} {}{}", &item[..index], comment, &item[index..]),
+        None => format!("{item} {comment}"),
     }
+}
+
+fn normalize_initial_list_marker(item: &str) -> String {
+    let item = item.trim_start();
+    let marker_end = item
+        .find(char::is_whitespace)
+        .expect("submission item has a valid Markdown list marker");
+    format!("*{}", &item[marker_end..])
 }
 
 #[derive(Default)]
@@ -1222,9 +1226,9 @@ mod tests {
     }
 
     #[test]
-    fn preserves_seeded_submission_item() {
+    fn normalizes_indented_submission_item_in_edit_buffer() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n";
-        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n- [New item](https://example.com/new)\n";
+        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n  - [New item](https://example.com/new)\n";
         let submission = classify_pr(
             &pull(6),
             &[file("", 1, 0)],
@@ -1233,7 +1237,10 @@ mod tests {
             head,
         )
         .unwrap();
-        assert_eq!(submission.item, "- [New item](https://example.com/new)");
+        assert_eq!(submission.item, "  - [New item](https://example.com/new)");
+
+        let buffer = build_edit_buffer(base, &[submission]).unwrap();
+        assert!(buffer.contains("\n* [New item](https://example.com/new) <!--"));
     }
 
     #[test]
@@ -1534,7 +1541,7 @@ mod tests {
             pr_url: Url::parse("https://github.com/rust-lang/this-week-in-rust/pull/42").unwrap(),
             head_sha: "0123456789abcdef0123456789abcdef01234567".parse().unwrap(),
             section: "Project/Tooling Updates".to_string(),
-            item: "* [Example](https://example.com/post)\n    * extra detail".to_string(),
+            item: "- [Example](https://example.com/post)\n    * extra detail".to_string(),
         }];
         let buffer = build_edit_buffer(draft, &submissions).unwrap();
         assert!(buffer.contains("* [Example](https://example.com/post) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42"));
@@ -1552,6 +1559,18 @@ mod tests {
                 .contains("* [Example](https://example.com/post)\n    * extra detail")
         );
         assert!(!parsed.final_text.contains("submerge-pr:42"));
+    }
+
+    #[test]
+    fn normalizes_initial_list_markers() {
+        assert_eq!(normalize_initial_list_marker("- item"), "* item");
+        assert_eq!(normalize_initial_list_marker("+ item"), "* item");
+        assert_eq!(normalize_initial_list_marker("1. item"), "* item");
+        assert_eq!(normalize_initial_list_marker("   - item"), "* item");
+        assert_eq!(
+            normalize_initial_list_marker("- item\n    + nested detail"),
+            "* item\n    + nested detail"
+        );
     }
 
     #[test]
