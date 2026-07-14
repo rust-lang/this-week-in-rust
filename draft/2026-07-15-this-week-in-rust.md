@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Guardian Sentinel. The Terminal User Interface for Guardian Decentralized Database - P2P](https://www.willsearch.com.br/sentinel/)
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
