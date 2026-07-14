@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [kache 0.10.0: instant download dedup, no more polling](https://github.com/kunobi-ninja/kache/releases/tag/v0.10.0)
 
 ### Observations/Thoughts
 
