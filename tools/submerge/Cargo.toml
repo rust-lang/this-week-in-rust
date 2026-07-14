@@ -7,9 +7,23 @@ edition = "2024"
 anyhow = "1.0.100"
 clap = { version = "4.5.53", features = ["derive"] }
 env_logger = "0.11.8"
-git2 = { version = "0.21.0", features = ["https"] }
+gix = { version = "0.85.0", default-features = false, features = [
+    "blocking-http-transport-reqwest-rust-tls",
+    "sha1",
+    "status",
+    "tree-editor",
+] }
 log = "0.4.29"
-octocrab = "0.53.1"
+octocrab = { version = "0.53.1", default-features = false, features = [
+    "default-client",
+    "follow-redirect",
+    "jwt-rust-crypto",
+    "retry",
+    "rustls",
+    "rustls-aws-lc-rs",
+    "timeout",
+    "tracing",
+] }
 pulldown-cmark = "0.13.4"
 regex = "1.12.2"
 serde = { version = "1.0.228", features = ["derive"] }

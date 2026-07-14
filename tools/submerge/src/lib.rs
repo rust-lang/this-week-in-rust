@@ -1,8 +1,6 @@
 use anyhow::{Context, Result, anyhow, bail};
 use clap::{Parser, Subcommand};
-use git2::{
-    Commit, Cred, FetchOptions, Oid, RemoteCallbacks, Repository, Signature, StatusOptions,
-};
+use gix::{ObjectId, Repository};
 use log::{info, warn};
 use octocrab::{
     Octocrab,
@@ -28,7 +26,7 @@ const DEFAULT_BASE: &str = "main";
 #[derive(Debug, Parser)]
 #[command(
     name = "submerge",
-    about = "Aggregate one-link TWiR submission PRs into a local multi-parent merge commit"
+    about = "Aggregate one-list-item TWiR submission PRs into a local multi-parent merge commit"
 )]
 pub struct Args {
     #[command(subcommand)]
@@ -74,7 +72,9 @@ pub struct Submission {
     pr: u64,
     pr_title: String,
     author: String,
+    // codex: use a proper URL type please and below (from url crate)
     pr_url: String,
+    // codex: does gix give us a type for this, too?
     head_sha: String,
     section: String,
     item: String,
@@ -114,6 +114,7 @@ pub struct EditedBuffer {
 struct CommandContext {
     repo: Repository,
     workdir: PathBuf,
+    /// Path to draft, relative to the git workdir.
     draft_rel: PathBuf,
 }
 
@@ -134,6 +135,7 @@ async fn run_fetch(args: FetchArgs) -> Result<()> {
         .with_context(|| format!("read {}", context.draft_rel.display()))?;
 
     let (client, authenticated) = github_client()?;
+    // codex: let's push this warning logic into github_client
     if authenticated {
         info!("using authenticated GitHub API client");
     } else {
@@ -206,6 +208,7 @@ async fn fetch_submission(
     base_text: &str,
     pull: &PullSummary,
 ) -> Result<Submission> {
+    // codex: can we filter for drafts in the initial query?
     if pull.draft {
         bail!("draft PR");
     }
@@ -258,7 +261,7 @@ fn run_merge(args: MergeArgs) -> Result<()> {
 
 fn command_context(draft: Option<PathBuf>) -> Result<CommandContext> {
     info!("opening git repository");
-    let repo = Repository::discover(".").context("open git repository")?;
+    let repo = gix::discover(".").context("open git repository")?;
     let workdir = repo
         .workdir()
         .ok_or_else(|| anyhow!("submerge must run in a non-bare repository"))?
@@ -316,12 +319,12 @@ async fn fetch_open_pulls(
 
 async fn fetch_pr_files(
     client: &Octocrab,
-    owner: &str,
-    name: &str,
+    repo_owner: &str,
+    repo_name: &str,
     pr: u64,
 ) -> Result<Vec<DiffEntry>> {
     let page = client
-        .pulls(owner, name)
+        .pulls(repo_owner, repo_name)
         .list_files(pr)
         .await
         .with_context(|| format!("list files for PR #{pr}"))?;
@@ -375,6 +378,7 @@ async fn fetch_file_text(
         .send()
         .await
         .with_context(|| format!("read {} at {}", path.display(), reference))?;
+    // codex: when could this return > 1 item? or is this a sanity check? (in which case, assert?)
     let mut items = contents.take_items();
     if items.len() != 1 {
         bail!(
@@ -411,6 +415,7 @@ fn classify_check_runs(check_runs: &ListCheckRuns) -> CiState {
     let mut saw_pending = false;
     for check in &check_runs.check_runs {
         match check.conclusion.as_deref() {
+            // codex: are there no consts we can use for this in octocrab? (if not fine to leave as is)
             Some("success" | "skipped" | "neutral") => {}
             Some(_) => return CiState::Failure,
             None => {
@@ -426,6 +431,7 @@ fn classify_check_runs(check_runs: &ListCheckRuns) -> CiState {
     }
 }
 
+// codex: this method is trivial, let's inline in caller and drop the tests
 fn ensure_ci_success(pr: u64, ci_state: CiState) -> Result<()> {
     match ci_state {
         CiState::Success => Ok(()),
@@ -637,35 +643,34 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
     })
 }
 
-fn fetch_and_verify_pr_heads(repo: &Repository, submissions: &[Submission]) -> Result<Vec<Oid>> {
+fn fetch_and_verify_pr_heads(
+    repo: &Repository,
+    submissions: &[Submission],
+) -> Result<Vec<ObjectId>> {
     let mut remote = repo
-        .remote_anonymous(PUBLIC_GIT_URL)
+        .remote_at(PUBLIC_GIT_URL)
         .with_context(|| format!("open anonymous remote {PUBLIC_GIT_URL}"))?;
-
-    let mut fetch_options = FetchOptions::new();
-    if let Ok(git_token) = env::var("GITHUB_TOKEN").or_else(|_| env::var("GH_TOKEN")) {
-        let mut callbacks = RemoteCallbacks::new();
-        callbacks.credentials(move |_url, _username_from_url, _allowed| {
-            Cred::userpass_plaintext("x-access-token", &git_token)
-        });
-        fetch_options.remote_callbacks(callbacks);
-    }
-
     let mut oids = Vec::new();
     for submission in submissions {
         info!("fetching PR #{} from {}", submission.pr, PUBLIC_GIT_URL);
         let local_ref = format!("refs/submerge/pr-{}", submission.pr);
         let refspec = format!("+refs/pull/{}/head:{local_ref}", submission.pr);
         remote
-            .fetch(
-                &[refspec.as_str()],
-                Some(&mut fetch_options),
-                Some("submerge fetch"),
-            )
+            .replace_refspecs([refspec.as_str()], gix::remote::Direction::Fetch)
+            .with_context(|| format!("configure fetch for PR #{}", submission.pr))?;
+        let mut progress = gix::progress::Discard;
+        remote
+            .connect(gix::remote::Direction::Fetch)
+            .with_context(|| format!("connect to fetch PR #{}", submission.pr))?
+            .prepare_fetch(&mut progress, Default::default())
+            .with_context(|| format!("prepare fetch for PR #{}", submission.pr))?
+            .receive(&mut progress, &std::sync::atomic::AtomicBool::new(false))
             .with_context(|| format!("fetch PR #{}", submission.pr))?;
         let oid = repo
-            .refname_to_id(&local_ref)
-            .with_context(|| format!("resolve fetched ref {local_ref}"))?;
+            .find_reference(&local_ref)
+            .with_context(|| format!("resolve fetched ref {local_ref}"))?
+            .id()
+            .detach();
         if oid.to_string() != submission.head_sha {
             bail!(
                 "PR #{} head changed: GitHub reported {}, fetched {}",
@@ -685,47 +690,68 @@ fn create_merge_commit(
     draft_rel: &Path,
     final_text: &str,
     included: &[Submission],
-    pr_parent_oids: &[Oid],
-) -> Result<Oid> {
+    pr_parent_oids: &[ObjectId],
+) -> Result<ObjectId> {
     let draft_abs = workdir.join(draft_rel);
     fs::write(&draft_abs, final_text).with_context(|| format!("write {}", draft_rel.display()))?;
 
-    let mut index = repo.index().context("open index")?;
+    let head_oid = repo.head_id().context("resolve HEAD commit")?.detach();
+    let head_tree_oid = repo.head_tree_id().context("resolve HEAD tree")?.detach();
+    let blob_oid = repo
+        .write_blob(final_text.as_bytes())
+        .context("write draft blob")?
+        .detach();
+    let draft_rel = draft_rel
+        .to_str()
+        .ok_or_else(|| anyhow!("draft path is not valid UTF-8: {}", draft_rel.display()))?;
+    let mut tree_editor = repo.edit_tree(head_tree_oid).context("edit HEAD tree")?;
+    tree_editor
+        .upsert(draft_rel, gix::object::tree::EntryKind::Blob, blob_oid)
+        .with_context(|| format!("add {draft_rel} to tree"))?;
+    let tree_oid = tree_editor.write().context("write tree")?.detach();
+
+    let mut index = repo
+        .index_from_tree(tree_oid.as_ref())
+        .context("create index from merge tree")?;
     index
-        .add_path(draft_rel)
-        .with_context(|| format!("add {} to index", draft_rel.display()))?;
-    index.write().context("write index")?;
-    let tree_oid = index.write_tree().context("write tree")?;
-    let tree = repo.find_tree(tree_oid).context("find written tree")?;
+        .write(gix::index::write::Options::default())
+        .context("write index")?;
 
-    let head = repo
-        .head()?
-        .peel_to_commit()
-        .context("resolve HEAD commit")?;
-    let mut parent_commits = Vec::with_capacity(pr_parent_oids.len() + 1);
-    parent_commits.push(head);
+    let mut parents = Vec::with_capacity(pr_parent_oids.len() + 1);
+    parents.push(head_oid);
     for oid in pr_parent_oids {
-        parent_commits.push(
-            repo.find_commit(*oid)
-                .with_context(|| format!("find fetched PR parent {oid}"))?,
-        );
+        repo.find_commit(*oid)
+            .with_context(|| format!("find fetched PR parent {oid}"))?;
+        parents.push(*oid);
     }
-    let parent_refs: Vec<&Commit<'_>> = parent_commits.iter().collect();
 
-    let signature = repo
-        .signature()
-        .or_else(|_| Signature::now("submerge", "submerge@example.invalid"))
-        .context("create commit signature")?;
+    let signature = commit_signature(repo)?;
+    let mut committer_time = gix::date::parse::TimeBuf::default();
+    let mut author_time = gix::date::parse::TimeBuf::default();
     let message = commit_message(included);
-    repo.commit(
-        Some("HEAD"),
-        &signature,
-        &signature,
+    repo.commit_as(
+        signature.to_ref(&mut committer_time),
+        signature.to_ref(&mut author_time),
+        "HEAD",
         &message,
-        &tree,
-        &parent_refs,
+        tree_oid,
+        parents,
     )
     .context("create merge commit")
+    .map(|id| id.detach())
+}
+
+fn commit_signature(repo: &Repository) -> Result<gix::actor::Signature> {
+    match repo.committer() {
+        Some(signature) => signature?
+            .to_owned()
+            .context("read configured commit signature"),
+        None => Ok(gix::actor::Signature {
+            name: "submerge".into(),
+            email: "submerge@example.invalid".into(),
+            time: gix::date::Time::now_local_or_utc(),
+        }),
+    }
 }
 
 fn commit_message(included: &[Submission]) -> String {
@@ -784,20 +810,24 @@ fn ensure_tracked_worktree_clean_with_allowed(
 }
 
 fn dirty_paths(repo: &Repository) -> Result<std::vec::IntoIter<PathBuf>> {
-    let mut opts = StatusOptions::new();
-    opts.include_untracked(false)
-        .recurse_untracked_dirs(false)
-        .renames_head_to_index(true);
-    let statuses = repo.statuses(Some(&mut opts)).context("read git status")?;
+    let statuses = repo
+        .status(gix::progress::Discard)
+        .context("prepare git status")?
+        .untracked_files(gix::status::UntrackedFiles::None)
+        .into_iter(Vec::<gix::bstr::BString>::new())
+        .context("read git status")?;
     let paths = statuses
-        .iter()
-        .filter_map(|entry| entry.path().ok().map(PathBuf::from))
-        .collect::<Vec<_>>();
-    Ok(paths.into_iter())
+        .map(|entry| {
+            let entry = entry.context("read git status entry")?;
+            Ok(gix::path::from_bstr(entry.location()).into_owned())
+        })
+        .collect::<Result<BTreeSet<_>>>()?;
+    Ok(paths.into_iter().collect::<Vec<_>>().into_iter())
 }
 
 fn find_latest_draft(workdir: &Path) -> Result<PathBuf> {
     let draft_dir = workdir.join("draft");
+    // codex: can you pull this to a lazy static at the top of the file, mostly to make it clearly configurable there
     let re = Regex::new(r"^\d{4}-\d{2}-\d{2}-this-week-in-rust\.md$")?;
     let mut files = fs::read_dir(&draft_dir)
         .with_context(|| format!("read {}", draft_dir.display()))?
@@ -846,7 +876,75 @@ fn print_summary(submissions: &[Submission], skipped: &[SkippedPr]) {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use git2::{IndexAddOption, RepositoryInitOptions};
+
+    fn test_signature() -> gix::actor::Signature {
+        gix::actor::Signature {
+            name: "Test".into(),
+            email: "test@example.com".into(),
+            time: gix::date::Time::now_utc(),
+        }
+    }
+
+    fn tree_with_file(
+        repo: &Repository,
+        base_tree: ObjectId,
+        path: &str,
+        content: &str,
+    ) -> ObjectId {
+        let blob = repo.write_blob(content.as_bytes()).unwrap().detach();
+        let mut editor = repo.edit_tree(base_tree).unwrap();
+        editor
+            .upsert(path, gix::object::tree::EntryKind::Blob, blob)
+            .unwrap();
+        editor.write().unwrap().detach()
+    }
+
+    fn write_index(repo: &Repository, tree: ObjectId) {
+        let mut index = repo.index_from_tree(tree.as_ref()).unwrap();
+        index.write(gix::index::write::Options::default()).unwrap();
+    }
+
+    fn commit_to_head(
+        repo: &Repository,
+        message: &str,
+        tree: ObjectId,
+        parents: impl IntoIterator<Item = ObjectId>,
+    ) -> ObjectId {
+        let signature = test_signature();
+        let mut committer_time = gix::date::parse::TimeBuf::default();
+        let mut author_time = gix::date::parse::TimeBuf::default();
+        repo.commit_as(
+            signature.to_ref(&mut committer_time),
+            signature.to_ref(&mut author_time),
+            "HEAD",
+            message,
+            tree,
+            parents,
+        )
+        .unwrap()
+        .detach()
+    }
+
+    fn new_commit(
+        repo: &Repository,
+        message: &str,
+        tree: ObjectId,
+        parents: impl IntoIterator<Item = ObjectId>,
+    ) -> ObjectId {
+        let signature = test_signature();
+        let mut committer_time = gix::date::parse::TimeBuf::default();
+        let mut author_time = gix::date::parse::TimeBuf::default();
+        repo.new_commit_as(
+            signature.to_ref(&mut committer_time),
+            signature.to_ref(&mut author_time),
+            message,
+            tree,
+            parents,
+        )
+        .unwrap()
+        .id()
+        .detach()
+    }
 
     fn pull(number: u64) -> PullSummary {
         PullSummary {
@@ -878,6 +976,11 @@ mod tests {
 
     fn check_runs(value: serde_json::Value) -> ListCheckRuns {
         serde_json::from_value(value).unwrap()
+    }
+
+    #[tokio::test]
+    async fn github_client_builds() {
+        github_client().unwrap();
     }
 
     fn check_run(conclusion: Option<&str>) -> serde_json::Value {
@@ -1394,20 +1497,11 @@ mod tests {
     #[test]
     fn dirty_worktree_error_mentions_allow_dirty() {
         let dir = tempfile::tempdir().unwrap();
-        let mut opts = RepositoryInitOptions::new();
-        opts.initial_head("main");
-        let repo = Repository::init_opts(dir.path(), &opts).unwrap();
+        let repo = gix::init(dir.path()).unwrap();
         fs::write(dir.path().join("tracked.txt"), "clean\n").unwrap();
-
-        let mut index = repo.index().unwrap();
-        index.add_path(Path::new("tracked.txt")).unwrap();
-        index.write().unwrap();
-        let tree_id = index.write_tree().unwrap();
-        let tree = repo.find_tree(tree_id).unwrap();
-        let sig = Signature::now("Test", "test@example.com").unwrap();
-        repo.commit(Some("HEAD"), &sig, &sig, "base", &tree, &[])
-            .unwrap();
-        drop(tree);
+        let tree = tree_with_file(&repo, repo.empty_tree().id, "tracked.txt", "clean\n");
+        write_index(&repo, tree);
+        commit_to_head(&repo, "base", tree, []);
 
         fs::write(dir.path().join("tracked.txt"), "dirty\n").unwrap();
         let err = ensure_tracked_worktree_clean(&repo).unwrap_err();
@@ -1417,45 +1511,23 @@ mod tests {
     #[test]
     fn create_merge_commit_updates_head_and_worktree_clean() {
         let dir = tempfile::tempdir().unwrap();
-        let mut opts = RepositoryInitOptions::new();
-        opts.initial_head("main");
-        let repo = Repository::init_opts(dir.path(), &opts).unwrap();
+        let repo = gix::init(dir.path()).unwrap();
         fs::create_dir(dir.path().join("draft")).unwrap();
         fs::write(
             dir.path().join("draft/2026-06-24-this-week-in-rust.md"),
             "old\n",
         )
         .unwrap();
-
-        let mut index = repo.index().unwrap();
-        index
-            .add_all(["draft"].iter(), IndexAddOption::DEFAULT, None)
-            .unwrap();
-        index.write().unwrap();
-        let tree_id = index.write_tree().unwrap();
-        let tree = repo.find_tree(tree_id).unwrap();
-        let sig = Signature::now("Test", "test@example.com").unwrap();
-        let base = repo
-            .commit(Some("HEAD"), &sig, &sig, "base", &tree, &[])
-            .unwrap();
-
-        fs::write(dir.path().join("other.txt"), "parent\n").unwrap();
-        let mut index = repo.index().unwrap();
-        index
-            .add_all(["other.txt"].iter(), IndexAddOption::DEFAULT, None)
-            .unwrap();
-        index.write().unwrap();
-        let tree_id = index.write_tree().unwrap();
-        let tree = repo.find_tree(tree_id).unwrap();
-        let base_commit = repo.find_commit(base).unwrap();
-        let pr_parent = repo
-            .commit(None, &sig, &sig, "pr parent", &tree, &[&base_commit])
-            .unwrap();
-        drop(tree);
-        drop(base_commit);
-
-        repo.set_head_detached(base).unwrap();
-        repo.checkout_head(None).unwrap();
+        let base_tree = tree_with_file(
+            &repo,
+            repo.empty_tree().id,
+            "draft/2026-06-24-this-week-in-rust.md",
+            "old\n",
+        );
+        write_index(&repo, base_tree);
+        let base = commit_to_head(&repo, "base", base_tree, []);
+        let pr_tree = tree_with_file(&repo, base_tree, "other.txt", "parent\n");
+        let pr_parent = new_commit(&repo, "pr parent", pr_tree, [base]);
 
         let submission = Submission {
             pr: 7,
@@ -1476,7 +1548,7 @@ mod tests {
         )
         .unwrap();
         let commit = repo.find_commit(oid).unwrap();
-        assert_eq!(commit.parent_count(), 2);
+        assert_eq!(commit.parent_ids().count(), 2);
         assert_eq!(
             fs::read_to_string(dir.path().join("draft/2026-06-24-this-week-in-rust.md")).unwrap(),
             "new\n"
