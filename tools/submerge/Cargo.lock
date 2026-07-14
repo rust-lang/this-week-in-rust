@@ -3396,6 +3396,7 @@ dependencies = [
  "similar",
  "tempfile",
  "tokio",
+ "url",
 ]
 
 [[package]]

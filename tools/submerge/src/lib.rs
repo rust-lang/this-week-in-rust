@@ -14,6 +14,8 @@ use std::collections::{BTreeMap, BTreeSet};
 use std::env;
 use std::fs;
 use std::path::{Path, PathBuf};
+use std::sync::LazyLock;
+use url::Url;
 
 mod marker;
 mod md;
@@ -22,6 +24,9 @@ const GITHUB_OWNER: &str = "rust-lang";
 const GITHUB_REPO: &str = "this-week-in-rust";
 const PUBLIC_GIT_URL: &str = "https://github.com/rust-lang/this-week-in-rust.git";
 const DEFAULT_BASE: &str = "main";
+static DRAFT_FILENAME_RE: LazyLock<Regex> = LazyLock::new(|| {
+    Regex::new(r"^\d{4}-\d{2}-\d{2}-this-week-in-rust\.md$").expect("valid draft filename regex")
+});
 
 #[derive(Debug, Parser)]
 #[command(
@@ -72,10 +77,8 @@ pub struct Submission {
     pr: u64,
     pr_title: String,
     author: String,
-    // codex: use a proper URL type please and below (from url crate)
-    pr_url: String,
-    // codex: does gix give us a type for this, too?
-    head_sha: String,
+    pr_url: Url,
+    head_sha: ObjectId,
     section: String,
     item: String,
 }
@@ -92,7 +95,7 @@ pub struct SkippedPr {
     pub pr: u64,
     pub title: String,
     pub reason: anyhow::Error,
-    pub url: String,
+    pub url: Url,
 }
 
 #[derive(Debug, Clone)]
@@ -100,8 +103,9 @@ struct PullSummary {
     number: u64,
     title: String,
     author: String,
-    url: String,
-    head_sha: String,
+    url: Url,
+    base_sha: ObjectId,
+    head_sha: ObjectId,
     draft: bool,
 }
 
@@ -134,17 +138,7 @@ async fn run_fetch(args: FetchArgs) -> Result<()> {
     let draft_text = fs::read_to_string(context.workdir.join(&context.draft_rel))
         .with_context(|| format!("read {}", context.draft_rel.display()))?;
 
-    let (client, authenticated) = github_client()?;
-    // codex: let's push this warning logic into github_client
-    if authenticated {
-        info!("using authenticated GitHub API client");
-    } else {
-        warn!(
-            "GITHUB_TOKEN/GH_TOKEN is not set; GitHub API requests are unauthenticated and may be rate-limited. \
-Create a fine-grained personal access token at https://github.com/settings/personal-access-tokens/new; \
-no repository permissions are needed because tokens can read public repositories."
-        );
-    }
+    let client = github_client()?;
     info!(
         "listing open PRs for {}/{} targeting {}",
         GITHUB_OWNER, GITHUB_REPO, DEFAULT_BASE
@@ -205,23 +199,45 @@ async fn fetch_submission(
     owner: &str,
     name: &str,
     draft_rel: &Path,
-    base_text: &str,
+    current_text: &str,
     pull: &PullSummary,
 ) -> Result<Submission> {
-    // codex: can we filter for drafts in the initial query?
     if pull.draft {
         bail!("draft PR");
     }
 
     let files = fetch_pr_files(client, owner, name, pull.number).await?;
-    let head_text = fetch_file_text(client, owner, name, draft_rel, &pull.head_sha)
+    // Use the PR's base to determine what it adds even if main has moved since it was opened.
+    let base_text = fetch_file_text(client, owner, name, draft_rel, pull.base_sha)
+        .await
+        .context("could not read base draft")?;
+    let head_text = fetch_file_text(client, owner, name, draft_rel, pull.head_sha)
         .await
         .context("could not read head draft")?;
-    let submission = classify_pr(pull, &files, draft_rel, base_text, &head_text)?;
+    let submission = classify_submission(
+        pull,
+        &files,
+        draft_rel,
+        current_text,
+        &base_text,
+        &head_text,
+    )?;
 
     info!("checking CI state for PR #{}", submission.pr);
-    let ci_state = fetch_ci_state(client, owner, name, &submission.head_sha).await?;
-    ensure_ci_success(submission.pr, ci_state)?;
+    match fetch_ci_state(client, owner, name, submission.head_sha).await? {
+        CiState::Success => {}
+        CiState::Failure => {
+            warn!("skipping PR #{}: CI is failing", submission.pr);
+            bail!("CI is failing");
+        }
+        CiState::Unknown => {
+            warn!(
+                "skipping PR #{}: CI status is unknown or pending",
+                submission.pr
+            );
+            bail!("CI status is unknown or pending");
+        }
+    }
     Ok(submission)
 }
 
@@ -279,19 +295,22 @@ fn command_context(draft: Option<PathBuf>) -> Result<CommandContext> {
     })
 }
 
-fn github_client() -> Result<(Octocrab, bool)> {
+fn github_client() -> Result<Octocrab> {
     let token = env::var("GITHUB_TOKEN")
         .or_else(|_| env::var("GH_TOKEN"))
         .ok();
     let mut builder = Octocrab::builder();
-    let authenticated = token.is_some();
     if let Some(token) = token {
+        info!("using authenticated GitHub API client");
         builder = builder.personal_token(token);
+    } else {
+        warn!(
+            "GITHUB_TOKEN/GH_TOKEN is not set; GitHub API requests are unauthenticated and may be rate-limited. \
+Create a fine-grained personal access token at https://github.com/settings/personal-access-tokens/new; \
+no repository permissions are needed because tokens can read public repositories."
+        );
     }
-    Ok((
-        builder.build().context("build GitHub client")?,
-        authenticated,
-    ))
+    builder.build().context("build GitHub client")
 }
 
 async fn fetch_open_pulls(
@@ -347,18 +366,29 @@ fn pull_summary(pull: PullRequest) -> Result<PullSummary> {
         .login;
     let url = pull
         .html_url
-        .ok_or_else(|| anyhow!("GitHub PR #{number} response is missing html_url"))?
-        .to_string();
+        .ok_or_else(|| anyhow!("GitHub PR #{number} response is missing html_url"))?;
+    let base = pull
+        .base
+        .ok_or_else(|| anyhow!("GitHub PR #{number} response is missing base"))?;
     let head = pull
         .head
         .ok_or_else(|| anyhow!("GitHub PR #{number} response is missing head"))?;
+    let base_sha = base
+        .sha
+        .parse()
+        .with_context(|| format!("GitHub PR #{number} response has invalid base SHA"))?;
+    let head_sha = head
+        .sha
+        .parse()
+        .with_context(|| format!("GitHub PR #{number} response has invalid head SHA"))?;
 
     Ok(PullSummary {
         number,
         title,
         author,
         url,
-        head_sha: head.sha,
+        base_sha,
+        head_sha,
         draft: pull.draft.unwrap_or(false),
     })
 }
@@ -368,17 +398,16 @@ async fn fetch_file_text(
     owner: &str,
     name: &str,
     path: &Path,
-    reference: &str,
+    reference: ObjectId,
 ) -> Result<String> {
     let mut contents = client
         .repos(owner, name)
         .get_content()
         .path(path.to_string_lossy())
-        .r#ref(reference)
+        .r#ref(reference.to_string())
         .send()
         .await
         .with_context(|| format!("read {} at {}", path.display(), reference))?;
-    // codex: when could this return > 1 item? or is this a sanity check? (in which case, assert?)
     let mut items = contents.take_items();
     if items.len() != 1 {
         bail!(
@@ -396,7 +425,12 @@ async fn fetch_file_text(
     })
 }
 
-async fn fetch_ci_state(client: &Octocrab, owner: &str, name: &str, sha: &str) -> Result<CiState> {
+async fn fetch_ci_state(
+    client: &Octocrab,
+    owner: &str,
+    name: &str,
+    sha: ObjectId,
+) -> Result<CiState> {
     let check_runs = client
         .checks(owner, name)
         .list_check_runs_for_git_ref(Commitish(sha.to_string()))
@@ -415,7 +449,6 @@ fn classify_check_runs(check_runs: &ListCheckRuns) -> CiState {
     let mut saw_pending = false;
     for check in &check_runs.check_runs {
         match check.conclusion.as_deref() {
-            // codex: are there no consts we can use for this in octocrab? (if not fine to leave as is)
             Some("success" | "skipped" | "neutral") => {}
             Some(_) => return CiState::Failure,
             None => {
@@ -428,21 +461,6 @@ fn classify_check_runs(check_runs: &ListCheckRuns) -> CiState {
         CiState::Unknown
     } else {
         CiState::Success
-    }
-}
-
-// codex: this method is trivial, let's inline in caller and drop the tests
-fn ensure_ci_success(pr: u64, ci_state: CiState) -> Result<()> {
-    match ci_state {
-        CiState::Success => Ok(()),
-        CiState::Failure => {
-            warn!("skipping PR #{pr}: CI is failing");
-            bail!("CI is failing");
-        }
-        CiState::Unknown => {
-            warn!("skipping PR #{pr}: CI status is unknown or pending");
-            bail!("CI status is unknown or pending");
-        }
     }
 }
 
@@ -468,12 +486,27 @@ fn classify_pr(
         pr_title: pull.title.clone(),
         author: pull.author.clone(),
         pr_url: pull.url.clone(),
-        head_sha: pull.head_sha.clone(),
+        head_sha: pull.head_sha,
         section: candidate
             .section
             .expect("community list items have sections"),
         item: candidate.item,
     })
+}
+
+fn classify_submission(
+    pull: &PullSummary,
+    files: &[DiffEntry],
+    draft_rel: &Path,
+    current_text: &str,
+    base_text: &str,
+    head_text: &str,
+) -> Result<Submission> {
+    let submission = classify_pr(pull, files, draft_rel, base_text, head_text)?;
+    if md::contains_list_item(current_text, &submission.section, &submission.item) {
+        bail!("submission is already present in current draft");
+    }
+    Ok(submission)
 }
 
 fn build_edit_buffer(draft_text: &str, submissions: &[Submission]) -> Result<String> {
@@ -687,7 +720,7 @@ fn fetch_and_verify_pr_heads(
             .with_context(|| format!("resolve fetched ref {local_ref}"))?
             .id()
             .detach();
-        if oid.to_string() != submission.head_sha {
+        if oid != submission.head_sha {
             bail!(
                 "PR #{} head changed: GitHub reported {}, fetched {}",
                 submission.pr,
@@ -793,7 +826,7 @@ fn format_skipped_pr_summary(skipped: &SkippedPr) -> String {
         skipped.pr,
         skipped.title,
         skipped.reason,
-        skipped.url.trim_end_matches('/')
+        skipped.url.as_str().trim_end_matches('/')
     )
 }
 
@@ -843,15 +876,13 @@ fn dirty_paths(repo: &Repository) -> Result<std::vec::IntoIter<PathBuf>> {
 
 fn find_latest_draft(workdir: &Path) -> Result<PathBuf> {
     let draft_dir = workdir.join("draft");
-    // codex: can you pull this to a lazy static at the top of the file, mostly to make it clearly configurable there
-    let re = Regex::new(r"^\d{4}-\d{2}-\d{2}-this-week-in-rust\.md$")?;
     let mut files = fs::read_dir(&draft_dir)
         .with_context(|| format!("read {}", draft_dir.display()))?
         .filter_map(|entry| entry.ok())
         .filter_map(|entry| {
             let name = entry.file_name();
             let name = name.to_string_lossy();
-            if re.is_match(&name) {
+            if DRAFT_FILENAME_RE.is_match(&name) {
                 Some(PathBuf::from("draft").join(name.as_ref()))
             } else {
                 None
@@ -967,8 +998,12 @@ mod tests {
             number,
             title: format!("PR {number}"),
             author: "alice".to_string(),
-            url: format!("https://github.com/rust-lang/this-week-in-rust/pull/{number}"),
-            head_sha: "0123456789abcdef0123456789abcdef01234567".to_string(),
+            url: Url::parse(&format!(
+                "https://github.com/rust-lang/this-week-in-rust/pull/{number}"
+            ))
+            .unwrap(),
+            base_sha: "fedcba9876543210fedcba9876543210fedcba98".parse().unwrap(),
+            head_sha: "0123456789abcdef0123456789abcdef01234567".parse().unwrap(),
             draft: false,
         }
     }
@@ -1066,23 +1101,6 @@ mod tests {
     }
 
     #[test]
-    fn accepts_successful_ci() {
-        ensure_ci_success(42, CiState::Success).unwrap();
-    }
-
-    #[test]
-    fn rejects_failing_ci() {
-        let err = ensure_ci_success(42, CiState::Failure).unwrap_err();
-        assert_eq!(err.to_string(), "CI is failing");
-    }
-
-    #[test]
-    fn rejects_unknown_or_pending_ci() {
-        let err = ensure_ci_success(42, CiState::Unknown).unwrap_err();
-        assert_eq!(err.to_string(), "CI status is unknown or pending");
-    }
-
-    #[test]
     fn classifies_one_link_submission() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n### Observations/Thoughts\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Ratatui 0.30.2 is released](https://ratatui.rs/highlights/v0302/)\n\n### Observations/Thoughts\n";
@@ -1098,6 +1116,47 @@ mod tests {
         assert_eq!(
             submission.item,
             "* [Ratatui 0.30.2 is released](https://ratatui.rs/highlights/v0302/)"
+        );
+    }
+
+    #[test]
+    fn accepts_pr_based_before_locally_merged_submissions() {
+        let pr_base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n### Observations/Thoughts\n";
+        let current = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Already merged](https://example.com/existing)\n\n### Observations/Thoughts\n";
+        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [New submission](https://example.com/new)\n\n### Observations/Thoughts\n";
+        let submission = classify_submission(
+            &pull(8380),
+            &[file("", 2, 0)],
+            Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            current,
+            pr_base,
+            head,
+        )
+        .unwrap();
+
+        let buffer = build_edit_buffer(current, &[submission]).unwrap();
+        assert!(buffer.contains("[Already merged](https://example.com/existing)"));
+        assert!(buffer.contains("[New submission](https://example.com/new)"));
+    }
+
+    #[test]
+    fn skips_submission_already_merged_into_current_draft() {
+        let pr_base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n### Observations/Thoughts\n";
+        let current = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Already merged](https://example.com/existing)\n\n### Observations/Thoughts\n";
+        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Already merged](https://example.com/existing)\n\n### Observations/Thoughts\n";
+        let err = classify_submission(
+            &pull(8372),
+            &[file("", 2, 0)],
+            Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            current,
+            pr_base,
+            head,
+        )
+        .unwrap_err();
+
+        assert_eq!(
+            err.to_string(),
+            "submission is already present in current draft"
         );
     }
 
@@ -1371,8 +1430,8 @@ mod tests {
             pr: 42,
             pr_title: "Add example link".to_string(),
             author: "alice".to_string(),
-            pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/42".to_string(),
-            head_sha: "0123456789abcdef0123456789abcdef01234567".to_string(),
+            pr_url: Url::parse("https://github.com/rust-lang/this-week-in-rust/pull/42").unwrap(),
+            head_sha: "0123456789abcdef0123456789abcdef01234567".parse().unwrap(),
             section: "Project/Tooling Updates".to_string(),
             item: "* [Example](https://example.com/post)".to_string(),
         }];
@@ -1408,7 +1467,7 @@ mod tests {
         assert_eq!(parsed.included[0].pr, 42);
         assert_eq!(parsed.included[0].pr_title, "");
         assert_eq!(
-            parsed.included[0].pr_url,
+            parsed.included[0].pr_url.as_str(),
             "https://github.com/rust-lang/this-week-in-rust/pull/42"
         );
         assert_eq!(parsed.included[0].section, "Project/Tooling Updates");
@@ -1439,8 +1498,8 @@ mod tests {
             pr: 42,
             pr_title: "Add example link".to_string(),
             author: "alice".to_string(),
-            pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/42".to_string(),
-            head_sha: "0123456789abcdef0123456789abcdef01234567".to_string(),
+            pr_url: Url::parse("https://github.com/rust-lang/this-week-in-rust/pull/42").unwrap(),
+            head_sha: "0123456789abcdef0123456789abcdef01234567".parse().unwrap(),
             section: "Project/Tooling Updates".to_string(),
             item: "* [Example](https://example.com/post)".to_string(),
         }];
@@ -1472,8 +1531,8 @@ mod tests {
             pr: 42,
             pr_title: "Add example link".to_string(),
             author: "alice".to_string(),
-            pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/42".to_string(),
-            head_sha: "0123456789abcdef0123456789abcdef01234567".to_string(),
+            pr_url: Url::parse("https://github.com/rust-lang/this-week-in-rust/pull/42").unwrap(),
+            head_sha: "0123456789abcdef0123456789abcdef01234567".parse().unwrap(),
             section: "Project/Tooling Updates".to_string(),
             item: "* [Example](https://example.com/post)\n    * extra detail".to_string(),
         }];
@@ -1501,7 +1560,7 @@ mod tests {
             pr: 1234,
             title: "Not a submission".to_string(),
             reason: anyhow!("changes 2 files"),
-            url: "https://github.com/rust-lang/this-week-in-rust/pull/1234".to_string(),
+            url: Url::parse("https://github.com/rust-lang/this-week-in-rust/pull/1234").unwrap(),
         };
 
         assert_eq!(
@@ -1549,8 +1608,8 @@ mod tests {
             pr: 7,
             pr_title: "Add example link".to_string(),
             author: "alice".to_string(),
-            pr_url: "https://github.com/rust-lang/this-week-in-rust/pull/7".to_string(),
-            head_sha: pr_parent.to_string(),
+            pr_url: Url::parse("https://github.com/rust-lang/this-week-in-rust/pull/7").unwrap(),
+            head_sha: pr_parent,
             section: "Project/Tooling Updates".to_string(),
             item: "* [Example](https://example.com/post)".to_string(),
         };

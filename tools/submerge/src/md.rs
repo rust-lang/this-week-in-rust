@@ -284,3 +284,10 @@ fn markdown_list_items(text: &str) -> Vec<ListItem> {
 pub(crate) fn is_single_list_item(item: &str) -> bool {
     markdown_list_items(item).len() == 1
 }
+
+pub(crate) fn contains_list_item(text: &str, section: &str, item: &str) -> bool {
+    markdown_list_items(text)
+        .iter()
+        // TODO: Compare canonicalized URLs so equivalent links are recognized as the same item.
+        .any(|candidate| candidate.section.as_deref() == Some(section) && candidate.item == item)
+}

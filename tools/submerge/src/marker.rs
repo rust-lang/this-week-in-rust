@@ -1,6 +1,8 @@
 use crate::Submission;
 use anyhow::{Result, anyhow};
+use gix::ObjectId;
 use regex::Regex;
+use url::Url;
 
 pub(crate) const TOKEN: &str = "submerge-pr:";
 
@@ -14,8 +16,8 @@ pub(crate) struct Capture {
 #[derive(Debug, Clone)]
 pub(crate) struct Attrs {
     pub(crate) pr: u64,
-    pub(crate) url: String,
-    pub(crate) sha: String,
+    pub(crate) url: Url,
+    pub(crate) sha: ObjectId,
     pub(crate) author: String,
     pub(crate) pr_title: String,
 }
@@ -25,7 +27,7 @@ impl Attrs {
         Self {
             pr: submission.pr,
             url: submission.pr_url.clone(),
-            sha: submission.head_sha.clone(),
+            sha: submission.head_sha,
             author: submission.author.clone(),
             pr_title: submission.pr_title.clone(),
         }
@@ -40,8 +42,8 @@ impl Attrs {
             .ok_or_else(|| anyhow!("malformed submerge marker: {marker}"))?;
         Ok(Self {
             pr: captures["pr"].parse()?,
-            url: captures["url"].to_string(),
-            sha: captures["sha"].to_string(),
+            url: Url::parse(&captures["url"])?,
+            sha: captures["sha"].parse()?,
             author: captures["author"].to_string(),
             pr_title: captures
                 .name("pr_title")
