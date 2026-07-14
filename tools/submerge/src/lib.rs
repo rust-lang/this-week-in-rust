@@ -650,22 +650,38 @@ fn fetch_and_verify_pr_heads(
     let mut remote = repo
         .remote_at(PUBLIC_GIT_URL)
         .with_context(|| format!("open anonymous remote {PUBLIC_GIT_URL}"))?;
+    let refspecs = submissions
+        .iter()
+        .map(|submission| {
+            format!(
+                "+refs/pull/{}/head:refs/submerge/pr-{}",
+                submission.pr, submission.pr
+            )
+        })
+        .collect::<Vec<_>>();
+    remote
+        .replace_refspecs(
+            refspecs.iter().map(String::as_str),
+            gix::remote::Direction::Fetch,
+        )
+        .context("configure PR head fetch")?;
+    info!(
+        "fetching {} PR heads from {}",
+        submissions.len(),
+        PUBLIC_GIT_URL
+    );
+    let mut progress = gix::progress::Discard;
+    remote
+        .connect(gix::remote::Direction::Fetch)
+        .context("connect to fetch PR heads")?
+        .prepare_fetch(&mut progress, Default::default())
+        .context("prepare PR head fetch")?
+        .receive(&mut progress, &std::sync::atomic::AtomicBool::new(false))
+        .context("fetch PR heads")?;
+
     let mut oids = Vec::new();
     for submission in submissions {
-        info!("fetching PR #{} from {}", submission.pr, PUBLIC_GIT_URL);
         let local_ref = format!("refs/submerge/pr-{}", submission.pr);
-        let refspec = format!("+refs/pull/{}/head:{local_ref}", submission.pr);
-        remote
-            .replace_refspecs([refspec.as_str()], gix::remote::Direction::Fetch)
-            .with_context(|| format!("configure fetch for PR #{}", submission.pr))?;
-        let mut progress = gix::progress::Discard;
-        remote
-            .connect(gix::remote::Direction::Fetch)
-            .with_context(|| format!("connect to fetch PR #{}", submission.pr))?
-            .prepare_fetch(&mut progress, Default::default())
-            .with_context(|| format!("prepare fetch for PR #{}", submission.pr))?
-            .receive(&mut progress, &std::sync::atomic::AtomicBool::new(false))
-            .with_context(|| format!("fetch PR #{}", submission.pr))?;
         let oid = repo
             .find_reference(&local_ref)
             .with_context(|| format!("resolve fetched ref {local_ref}"))?
