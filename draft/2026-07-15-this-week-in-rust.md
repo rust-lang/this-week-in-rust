@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [I red-teamed my own LLM security gateway (Rust) in four passes — every detection gap and how I closed it](https://dev.to/akavlabs_69/i-red-teamed-my-own-llm-security-gateway-in-four-passes-heres-every-gap-i-found-5cl9)
+
 ### Rust Walkthroughs
 
 ### Research
