@@ -1,0 +1,37 @@
+name: Submerge CI
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/submerge.yml"
+      - "tools/submerge/**"
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Format, clippy, and tests
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        working-directory: tools/submerge
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Install Rust toolchain
+        run: |
+          rustup update stable --no-self-update
+          rustup default stable
+          rustup component add clippy rustfmt
+      - name: Rustfmt
+        run: cargo fmt --check
+      - name: Clippy
+        run: cargo clippy --locked --all-targets --all-features -- -D warnings
+      - name: Test
+        run: cargo test --locked --all-features
