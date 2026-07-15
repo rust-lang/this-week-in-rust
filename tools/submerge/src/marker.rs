@@ -4,7 +4,7 @@ use gix::ObjectId;
 use regex::Regex;
 use url::Url;
 
-pub(crate) const TOKEN: &str = "submerge-pr:";
+pub(crate) const TOKEN: &str = "submerge-pr=";
 
 #[derive(Debug, Clone)]
 pub(crate) struct Capture {
@@ -34,9 +34,11 @@ impl Attrs {
     }
 
     pub(crate) fn parse(marker: &str) -> Result<Self> {
-        let marker_re = Regex::new(
-            r"^<!-- url=(?P<url>\S+) submerge-pr:(?P<pr>\d+) sha=(?P<sha>[0-9a-fA-F]{40}) author=(?P<author>\S+)(?: title=(?P<pr_title>.*?))? -->$",
-        )?;
+        // TODO: use JSON or html attr format parsing or something
+        let marker_re = Regex::new(&format!(
+            r"^<!-- url=(?P<url>\S+) {}(?P<pr>\d+) sha=(?P<sha>[0-9a-fA-F]{{40}}) author=(?P<author>\S+)(?: title=(?P<pr_title>.*?))? -->$",
+            regex::escape(TOKEN)
+        ))?;
         let captures = marker_re
             .captures(marker.trim())
             .ok_or_else(|| anyhow!("malformed submerge marker: {marker}"))?;
@@ -55,17 +57,18 @@ impl Attrs {
 
     pub(crate) fn to_comment(&self) -> String {
         format!(
-            "<!-- url={} submerge-pr:{} sha={} author={} title={} -->",
+            "<!-- url={} {}{} sha={} author={} title={} -->",
             self.url,
+            TOKEN,
             self.pr,
             self.sha,
             self.author,
-            comment_value(&self.pr_title)
+            comment_escape(&self.pr_title)
         )
     }
 }
 
-pub(crate) fn comment_value(value: &str) -> String {
+pub(crate) fn comment_escape(value: &str) -> String {
     value
         .replace("-->", "-- >")
         .replace(['\r', '\n'], " ")

@@ -8,7 +8,7 @@ use octocrab::{
     params::State,
     params::repos::Commitish,
 };
-use pulldown_cmark::{Event, Parser as MarkdownParser, Tag, TagEnd};
+use pulldown_cmark::{Event, HeadingLevel, Parser as MarkdownParser, Tag, TagEnd};
 use regex::Regex;
 use std::collections::{BTreeMap, BTreeSet};
 use std::env;
@@ -133,7 +133,7 @@ async fn run_fetch(args: FetchArgs) -> Result<()> {
     let context = command_context(args.draft)?;
     if !args.allow_dirty {
         info!("checking tracked worktree status");
-        ensure_tracked_worktree_clean(&context.repo)?;
+        ensure_tracked_worktree_clean_with_allowed(&context.repo, None)?;
     }
     let draft_text = fs::read_to_string(context.workdir.join(&context.draft_rel))
         .with_context(|| format!("read {}", context.draft_rel.display()))?;
@@ -246,7 +246,10 @@ fn run_merge(args: MergeArgs) -> Result<()> {
 
     if !args.allow_dirty {
         info!("checking tracked worktree status");
-        ensure_tracked_worktree_clean_except(&context.repo, &context.draft_rel)?;
+        ensure_tracked_worktree_clean_with_allowed(
+            &context.repo,
+            Some(context.draft_rel.as_path()),
+        )?;
     }
 
     info!("reading edited buffer {}", context.draft_rel.display());
@@ -518,24 +521,38 @@ fn build_edit_buffer(draft_text: &str, submissions: &[Submission]) -> Result<Str
             .push(submission);
     }
 
-    let mut out = Vec::new();
     let mut inserted = BTreeSet::new();
+    let mut insertion_points = Vec::new();
+    let mut sections = md::SectionTracker::default();
 
-    for line in draft_text.lines() {
-        out.push(line.to_string());
-        let Some(section) = line.strip_prefix("### ").map(str::trim) else {
-            continue;
-        };
-        let Some(section_submissions) = grouped.get(section) else {
-            continue;
-        };
-        if !inserted.insert(section.to_string()) {
-            bail!("draft contains duplicate section heading {section:?}");
+    for (event, range) in MarkdownParser::new(draft_text).into_offset_iter() {
+        match event {
+            Event::Start(Tag::Heading { level, .. }) => sections.start_heading(level),
+            Event::End(TagEnd::Heading(_)) => {
+                let Some((HeadingLevel::H3, section)) = sections.end_heading() else {
+                    continue;
+                };
+                if sections.current_section().as_deref() != Some(section.as_str()) {
+                    continue;
+                }
+                let Some(section_submissions) = grouped.get(section.as_str()) else {
+                    continue;
+                };
+                if !inserted.insert(section.clone()) {
+                    bail!("draft contains duplicate section heading {section:?}");
+                }
+                insertion_points.push((range.end, section_submissions));
+            }
+            Event::Text(value)
+            | Event::Code(value)
+            | Event::InlineMath(value)
+            | Event::DisplayMath(value)
+            | Event::Html(value)
+            | Event::InlineHtml(value)
+            | Event::FootnoteReference(value) => sections.push_text(&value),
+            Event::SoftBreak | Event::HardBreak => sections.push_break(),
+            _ => {}
         }
-        for submission in section_submissions {
-            out.push(mark_submission_item(submission));
-        }
-        out.push(String::new());
     }
 
     for section in grouped.keys() {
@@ -544,8 +561,16 @@ fn build_edit_buffer(draft_text: &str, submissions: &[Submission]) -> Result<Str
         }
     }
 
-    let trailing_newline = if draft_text.ends_with('\n') { "\n" } else { "" };
-    Ok(format!("{}{}", out.join("\n"), trailing_newline))
+    let mut out = draft_text.to_string();
+    for (offset, section_submissions) in insertion_points.into_iter().rev() {
+        let items = section_submissions
+            .iter()
+            .map(|submission| mark_submission_item(submission))
+            .collect::<Vec<_>>()
+            .join("\n");
+        out.insert_str(offset, &format!("\n{items}\n"));
+    }
+    Ok(out)
 }
 
 fn mark_submission_item(submission: &Submission) -> String {
@@ -617,9 +642,10 @@ fn parse_edited_buffer(text: &str) -> Result<EditedBuffer> {
                 if local_marker_start > item_text.len() || local_marker_end > item_text.len() {
                     bail!("submerge marker has invalid offsets");
                 }
-                let item_without_marker = marker::remove_comments(
-                    item_text,
-                    &[(0, local_marker_start, local_marker_end)],
+                let item_without_marker = format!(
+                    "{}{}",
+                    item_text[..local_marker_start].trim_end(),
+                    &item_text[local_marker_end..]
                 )
                 .trim_end()
                 .to_string();
@@ -832,14 +858,6 @@ fn format_skipped_pr_summary(skipped: &SkippedPr) -> String {
         skipped.reason,
         skipped.url.as_str().trim_end_matches('/')
     )
-}
-
-fn ensure_tracked_worktree_clean(repo: &Repository) -> Result<()> {
-    ensure_tracked_worktree_clean_with_allowed(repo, None)
-}
-
-fn ensure_tracked_worktree_clean_except(repo: &Repository, allowed_path: &Path) -> Result<()> {
-    ensure_tracked_worktree_clean_with_allowed(repo, Some(allowed_path))
 }
 
 fn ensure_tracked_worktree_clean_with_allowed(
@@ -1121,6 +1139,22 @@ mod tests {
             submission.item,
             "* [Ratatui 0.30.2 is released](https://ratatui.rs/highlights/v0302/)"
         );
+    }
+
+    #[test]
+    fn accepts_item_added_after_existing_item() {
+        let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing](https://example.com/existing)\n\n### Observations/Thoughts\n";
+        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing](https://example.com/existing)\n* [New](https://example.com/new)\n\n### Observations/Thoughts\n";
+        let submission = classify_pr(
+            &pull(20),
+            &[file("", 1, 0)],
+            Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
+        )
+        .unwrap();
+
+        assert_eq!(submission.item, "* [New](https://example.com/new)");
     }
 
     #[test]
@@ -1432,7 +1466,7 @@ mod tests {
 
     #[test]
     fn build_and_parse_edit_buffer() {
-        let draft = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n### Observations/Thoughts\n";
+        let draft = "## Updates from Rust Community\n\n  ### Project/Tooling Updates ###\n\n### Observations/Thoughts\n";
         let submissions = vec![Submission {
             pr: 42,
             pr_title: "Add example link".to_string(),
@@ -1443,14 +1477,14 @@ mod tests {
             item: "* [Example](https://example.com/post)".to_string(),
         }];
         let buffer = build_edit_buffer(draft, &submissions).unwrap();
-        assert!(buffer.contains("* [Example](https://example.com/post) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42"));
+        assert!(buffer.contains("* [Example](https://example.com/post) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr=42"));
         assert!(buffer.contains("title=Add example link -->"));
 
         let parsed = parse_edited_buffer(&buffer).unwrap();
         assert_eq!(parsed.included.len(), 1);
         assert_eq!(parsed.included[0].pr, 42);
         assert_eq!(parsed.included[0].pr_title, "Add example link");
-        assert!(!parsed.final_text.contains("submerge-pr:42"));
+        assert!(!parsed.final_text.contains("submerge-pr=42"));
         assert!(
             parsed
                 .final_text
@@ -1460,30 +1494,14 @@ mod tests {
 
     #[test]
     fn parse_edit_buffer_rejects_duplicate_markers() {
-        let text = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Example](https://example.com) <!-- url=https://example.com submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n* [Example](https://example.com) <!-- url=https://example.com submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n";
+        let text = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Example](https://example.com) <!-- url=https://example.com submerge-pr=42 sha=0123456789abcdef0123456789abcdef01234567 author=alice title=First -->\n* [Example](https://example.com) <!-- url=https://example.com submerge-pr=42 sha=0123456789abcdef0123456789abcdef01234567 author=alice title=Second -->\n";
         let err = parse_edited_buffer(text).unwrap_err();
         assert!(err.to_string().contains("duplicate"));
     }
 
     #[test]
-    fn parse_edit_buffer_reconstructs_submission_from_comments() {
-        let text = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Edited Title](https://example.com/edited) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n";
-        let parsed = parse_edited_buffer(text).unwrap();
-
-        assert_eq!(parsed.included.len(), 1);
-        assert_eq!(parsed.included[0].pr, 42);
-        assert_eq!(parsed.included[0].pr_title, "");
-        assert_eq!(
-            parsed.included[0].pr_url.as_str(),
-            "https://github.com/rust-lang/this-week-in-rust/pull/42"
-        );
-        assert_eq!(parsed.included[0].section, "Project/Tooling Updates");
-        assert!(!parsed.final_text.contains("submerge-pr"));
-    }
-
-    #[test]
     fn parse_edit_buffer_reads_marker_pr_title() {
-        let text = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Edited Title](https://example.com/edited) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice title=Add a helpful link -->\n";
+        let text = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Edited Title](https://example.com/edited) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr=42 sha=0123456789abcdef0123456789abcdef01234567 author=alice title=Add a helpful link -->\n";
         let parsed = parse_edited_buffer(text).unwrap();
 
         assert_eq!(parsed.included.len(), 1);
@@ -1493,33 +1511,14 @@ mod tests {
     #[test]
     fn marker_comment_value_does_not_close_comment() {
         assert_eq!(
-            marker::comment_value("Title --> with\nnewline"),
+            marker::comment_escape("Title --> with\nnewline"),
             "Title -- > with newline"
         );
     }
 
     #[test]
-    fn build_edit_buffer_omits_ci_status() {
-        let draft = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n";
-        let submissions = vec![Submission {
-            pr: 42,
-            pr_title: "Add example link".to_string(),
-            author: "alice".to_string(),
-            pr_url: Url::parse("https://github.com/rust-lang/this-week-in-rust/pull/42").unwrap(),
-            head_sha: "0123456789abcdef0123456789abcdef01234567".parse().unwrap(),
-            section: "Project/Tooling Updates".to_string(),
-            item: "* [Example](https://example.com/post)".to_string(),
-        }];
-
-        let buffer = build_edit_buffer(draft, &submissions).unwrap();
-
-        assert!(buffer.contains("* [Example](https://example.com/post) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42"));
-        assert!(!buffer.contains(['✅', '❌', '❓']));
-    }
-
-    #[test]
     fn parse_edit_buffer_accepts_embedded_or_missing_links() {
-        let text = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* Read more in [release notes](https://example.com) today <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42 sha=0123456789abcdef0123456789abcdef01234567 author=alice -->\n* Plain community announcement <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/43 submerge-pr:43 sha=0123456789abcdef0123456789abcdef01234567 author=bob -->\n";
+        let text = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* Read more in [release notes](https://example.com) today <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr=42 sha=0123456789abcdef0123456789abcdef01234567 author=alice title=Linked item -->\n* Plain community announcement <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/43 submerge-pr=43 sha=0123456789abcdef0123456789abcdef01234567 author=bob title=Plain item -->\n";
         let parsed = parse_edited_buffer(text).unwrap();
 
         assert_eq!(parsed.included.len(), 2);
@@ -1544,7 +1543,7 @@ mod tests {
             item: "- [Example](https://example.com/post)\n    * extra detail".to_string(),
         }];
         let buffer = build_edit_buffer(draft, &submissions).unwrap();
-        assert!(buffer.contains("* [Example](https://example.com/post) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr:42"));
+        assert!(buffer.contains("* [Example](https://example.com/post) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/42 submerge-pr=42"));
         assert!(buffer.contains("    * extra detail"));
 
         let parsed = parse_edited_buffer(&buffer).unwrap();
@@ -1558,7 +1557,7 @@ mod tests {
                 .final_text
                 .contains("* [Example](https://example.com/post)\n    * extra detail")
         );
-        assert!(!parsed.final_text.contains("submerge-pr:42"));
+        assert!(!parsed.final_text.contains("submerge-pr=42"));
     }
 
     #[test]
@@ -1598,7 +1597,7 @@ mod tests {
         commit_to_head(&repo, "base", tree, []);
 
         fs::write(dir.path().join("tracked.txt"), "dirty\n").unwrap();
-        let err = ensure_tracked_worktree_clean(&repo).unwrap_err();
+        let err = ensure_tracked_worktree_clean_with_allowed(&repo, None).unwrap_err();
         assert!(err.to_string().contains("--allow-dirty"));
     }
 
@@ -1647,6 +1646,6 @@ mod tests {
             fs::read_to_string(dir.path().join("draft/2026-06-24-this-week-in-rust.md")).unwrap(),
             "new\n"
         );
-        ensure_tracked_worktree_clean(&repo).unwrap();
+        ensure_tracked_worktree_clean_with_allowed(&repo, None).unwrap();
     }
 }

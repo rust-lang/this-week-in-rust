@@ -4,20 +4,25 @@ Aggregate one-link TWiR submission PRs into a local multi-parent merge commit.
 
 ## Workflow
 
-First you'll want to install submerge, which (temporarily) is done like this:
+First you'll want to install submerge:
 
 ```
 # (from your this-week-in-rust git checkout)
-git remote add jder https://github.com/jder/this-week-in-rust.git
-git remote update jder
-git switch --detach jder/submerge
+git remote update
 cargo install --path tools/submerge
+```
+
+If you don't have a `GITHUB_TOKEN` in your environment, get one from [here](https://github.com/settings/personal-access-tokens/new).
+It only needs "Pulic Repository" access and you don't need to add any permissions. This is used for fetching
+the this-week-in-rust repository content with higher rate limits.
+
+```
+export GITHUB_TOKEN=<your token from github>
 ```
 
 ### Start a clean branch from main
 
 ```
-git remote update
 git switch -c $(date +%Y-%m-%d)-links origin/main
 ```
 
@@ -52,4 +57,5 @@ submerge merge
 This will create a single commit which merges all the PRs still in the draft together. 
 
 ### Open a PR from your branch
+
 Merging this PR will close all the submission PRs which you left in the draft.
