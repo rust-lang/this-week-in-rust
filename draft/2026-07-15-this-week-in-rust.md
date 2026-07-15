@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [We compiled our TypeScript parser to WASM](https://encore.dev/blog/typescript-parser-wasm)
+
 ### Rust Walkthroughs
 
 ### Research
