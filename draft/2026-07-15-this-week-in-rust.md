@@ -243,6 +243,8 @@ Rusty Events between 2026-07-15 - 2026-08-12 🦀
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254776/)
 * 2026-08-12 | Virtual (Girona, ES) | [Rust Girona](https://luma.com/rust-girona)
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/f2hnzrug)
+* 2026-07-19 | Virtual (Bangalore, IN) | [Embedded Rust Discord](https://discord.gg/VJyv3NfVdw)
+    * [**Silicon Sundays**](https://discord.gg/6gwCNpFP?event=1526087936234225814)
 
 ### Asia
 * 2026-07-18 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
