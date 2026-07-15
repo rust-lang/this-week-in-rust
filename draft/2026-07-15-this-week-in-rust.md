@@ -38,16 +38,22 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.97.0](https://blog.rust-lang.org/2026/07/09/Rust-1.97.0/)
+* [crates.io: development update](https://blog.rust-lang.org/2026/07/13/crates-io-development-update/)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Rewriting Bun in Rust](https://bun.com/blog/bun-in-rust)
+* [Announcing BullMQ for Rust](https://bullmq.io/news/260712/rust-release/)
 
 ### Observations/Thoughts
+* [Moving a Rust WebRTC SFU to thread-per-core](https://pulsebeam.dev/blog/moving-to-thread-per-core)
 
 ### Rust Walkthroughs
+* [Fearless Embedded Rust: A FPV Lego car](https://dystroy.org/blog/picamobile/)
 
 ### Research
 
