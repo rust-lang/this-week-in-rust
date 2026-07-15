@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Understanding the Rust hype for the busy developer](https://kerkour.com/rust-hype)
 
 ### Rust Walkthroughs
 
