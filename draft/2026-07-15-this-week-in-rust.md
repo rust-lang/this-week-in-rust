@@ -244,8 +244,7 @@ Rusty Events between 2026-07-15 - 2026-08-12 🦀
 * 2026-08-05 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
   * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/315210367/)
 * 2026-07-19 | Virtual (Bangalore, IN) | [Embedded Rust Discord](https://discord.gg/VJyv3NfVdw)
-  * [**Silicon Sundays**](https://discord.gg/6gwCNpFP?event=1526087936234225814)
-
+    * [**Silicon Sundays**](https://discord.gg/6gwCNpFP?event=1526087936234225814)
 
 ### Asia
 * 2026-07-18 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
