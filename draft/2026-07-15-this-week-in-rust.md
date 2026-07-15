@@ -48,7 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
+* [video] [Backend Concepts in Rust: HTTP Servers](https://www.youtube.com/watch?v=DJhhy6YQe8k)
 ### Research
 
 ### Miscellaneous
