@@ -51,6 +51,7 @@ and just ask the editors to select the category.
 * [kobe 0.33.0: a Rust operator for instant CI Kubernetes clusters](https://github.com/kunobi-ninja/kobe/releases/tag/v0.33.0)
 * [Elara Mesh: what the black box for AI agents actually does](https://navigatorbuilds.github.io/elara-mesh/blog/black-box-for-ai-agents.html)
 * [kache 0.10.0: instant download dedup, no more polling](https://github.com/kunobi-ninja/kache/releases/tag/v0.10.0)
+* [Nova v0.2.1: give an LLM agent control of the macOS and Windows desktop — a single self-contained Rust MCP server (Set-of-Mark screenshots, Accessibility/UIA clicks, on-device OCR)](https://github.com/bigduu/Nova/releases/tag/v0.2.1)
 
 
 ### Observations/Thoughts
