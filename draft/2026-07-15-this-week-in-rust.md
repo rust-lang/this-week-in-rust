@@ -61,7 +61,7 @@ and just ask the editors to select the category.
 * [Faster Rust tests in CI with parallel steps](https://abundance.build/blog/2026-07-11-faster-rust-tests-in-ci-with-parallel-steps/)
 * [video] [The Only Diagram You Need to Understand Rust Ownership](https://www.youtube.com/watch?v=fugcSHD-9Jw)
 * [We compiled our TypeScript parser to WASM](https://encore.dev/blog/typescript-parser-wasm)
-
+* [Understanding the Rust hype for the busy developer](https://kerkour.com/rust-hype)
 * [I red-teamed my own LLM security gateway (Rust) in four passes — every detection gap and how I closed it](https://dev.to/akavlabs_69/i-red-teamed-my-own-llm-security-gateway-in-four-passes-heres-every-gap-i-found-5cl9)
 
 ### Rust Walkthroughs
