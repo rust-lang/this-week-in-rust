@@ -76,7 +76,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [dashu](https://crates.io/crates/dashu), a pure Rust set of libraries of arbitrary precision numbers.
+
+Thanks to [JacobZ](https://users.rust-lang.org/t/crate-of-the-week/2704/1628) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -128,7 +130,79 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+550 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-07-07..2026-07-14
+
+#### Compiler
+* [inline some `Symbol` functions](https://github.com/rust-lang/rust/pull/158931)
+* [predicate/clause cleanups](https://github.com/rust-lang/rust/pull/157104)
+* [remove some AST `tokens` fields](https://github.com/rust-lang/rust/pull/158942)
+* [resolver: wrap arenas in `WorkerLocal`](https://github.com/rust-lang/rust/pull/159019)
+* [rework read deduplication with pooled read recorders](https://github.com/rust-lang/rust/pull/158794)
+* [shrink `mir::Statement` to 40 bytes](https://github.com/rust-lang/rust/pull/159012)
+* [shrink no-op drop elaboration](https://github.com/rust-lang/rust/pull/157491)
+* [specialize common `(1, 1)` case for arg unification](https://github.com/rust-lang/rust/pull/158865)
+* [use SmallVec for return places in MIR](https://github.com/rust-lang/rust/pull/158842)
+
+#### Library
+* [add explicit `Iterator::count` impl for `ChunkBy`](https://github.com/rust-lang/rust/pull/158866)
+* [allow `Allocator`s to be used as `#[global_allocator]`s](https://github.com/rust-lang/rust/pull/157153)
+* [fix multiple logic bugs in `Arc::make_mut`](https://github.com/rust-lang/rust/pull/158876)
+* [implement feature `char_to_u32`](https://github.com/rust-lang/rust/pull/158940)
+* [make volatile operations const](https://github.com/rust-lang/rust/pull/159092)
+* [move `std::io::Write` to `core::io`](https://github.com/rust-lang/rust/pull/158541)
+* [stabilize `String::from_utf8_lossy_owned`](https://github.com/rust-lang/rust/pull/159099)
+* [stabilize `VecDeque::retain_back` from `truncate_front`](https://github.com/rust-lang/rust/pull/151379)
+
+#### Cargo
+* [`install`: Move --debug to Compilation options](https://github.com/rust-lang/cargo/pull/17199)
+* [`source`: incorrect duplicate package warning](https://github.com/rust-lang/cargo/pull/17204)
+* [fix manifest schema generation: `TomlDebugInfo` enum-variants doesn't renamed](https://github.com/rust-lang/cargo/pull/17202)
+* [dont apply host-config gating to stable behavior](https://github.com/rust-lang/cargo/pull/17198)
+* [reduce library search path length in new build dir layout](https://github.com/rust-lang/cargo/pull/17191)
+* [reduce rustc `-L` args used in the new `build-dir` layout](https://github.com/rust-lang/cargo/pull/17168)
+* [rename `-Zno-embed-metadata` to `-Zembed-metadata=no`](https://github.com/rust-lang/cargo/pull/17149)
+* [test: fix race in `cargo_compile_with_invalid_code_in_deps`](https://github.com/rust-lang/cargo/pull/17203)
+
+#### Clippy
+* [add new lints: `rest_pattern_accessible_field` and `unnecessary_rest_pattern`](https://github.com/rust-lang/rust-clippy/pull/15000)
+* [new lint: `definition_in_module_root`](https://github.com/rust-lang/rust-clippy/pull/16965)
+* [`arbitrary_source_item_ordering`: add configurable trait impl item ordering modes](https://github.com/rust-lang/rust-clippy/pull/17343)
+* [`tests_outside_test_module`: put code in backticks in the lint message](https://github.com/rust-lang/rust-clippy/pull/17387)
+* [count length of the first paragraph by its text](https://github.com/rust-lang/rust-clippy/pull/17215)
+* [fix `suboptimal_flops` false negative with ambiguous float literals](https://github.com/rust-lang/rust-clippy/pull/16980)
+* [partly disable `unneeded_wildcard_pattern` when `rest_pattern_accessible_field` is enabled](https://github.com/rust-lang/rust-clippy/pull/17416)
+* [respect the configured MSRV in `implicit_saturating_sub`'s `if x != 0 { x -= 1 }` rewrite](https://github.com/rust-lang/rust-clippy/pull/17404)
+* [trigger `single_element_loop` if the block contains only a final expression](https://github.com/rust-lang/rust-clippy/pull/16513)
+* [optimize `nonstandard_macro_braces` by 99.9683% (1.1b → 351K)](https://github.com/rust-lang/rust-clippy/pull/16808)
+* [perf: bail out of the `disallowed_methods` rule if the disallowed list is empty](https://github.com/rust-lang/rust-clippy/pull/17381)
+
+#### Rust-Analyzer
+* [ask for disclosure in AI contributions](https://github.com/rust-lang/rust-analyzer/pull/22771)
+* [add fixes for array length for `type_mismatch`](https://github.com/rust-lang/rust-analyzer/pull/22734)
+* [add parens in transformed dyn type in ref type](https://github.com/rust-lang/rust-analyzer/pull/22741)
+* [avoid panic in merge imports on trailing path separator](https://github.com/rust-lang/rust-analyzer/pull/22736)
+* [change some things for `#[doc = macro!()]` expansion](https://github.com/rust-lang/rust-analyzer/pull/22654)
+* [clamp cttz const-eval result to type width](https://github.com/rust-lang/rust-analyzer/pull/22770)
+* [correctly handled cfg'ed tail expr, take 2](https://github.com/rust-lang/rust-analyzer/pull/22751)
+* [crash on code actions when an unresolved module is present](https://github.com/rust-lang/rust-analyzer/pull/22749)
+* [crash when computing diagnostics with MIR and error types](https://github.com/rust-lang/rust-analyzer/pull/22707)
+* [don't complete default in default impl](https://github.com/rust-lang/rust-analyzer/pull/22744)
+* [early late classification of lifetimes](https://github.com/rust-lang/rust-analyzer/pull/22283)
+* [fix `render_const_using_debug_impl` constructing outdated std layouts](https://github.com/rust-lang/rust-analyzer/pull/22583)
+* [fix proc macros `TokenStream::from_str()` for doc comments](https://github.com/rust-lang/rust-analyzer/pull/22735)
+* [hide private fields on hover depending on context](https://github.com/rust-lang/rust-analyzer/pull/22464)
+* [make lsp-server `Response` type closer aligned to JSON-RPC](https://github.com/rust-lang/rust-analyzer/pull/22753)
+* [pretty assoc const when trait in macro](https://github.com/rust-lang/rust-analyzer/pull/22535)
+* [reimplement `crate_supports_no_std` syntactic heuristic](https://github.com/rust-lang/rust-analyzer/pull/22747)
+* [resolve non-plain paths in blocks correctly](https://github.com/rust-lang/rust-analyzer/pull/22773)
+* [support Cargo 1.97.0 lockfile path setting](https://github.com/rust-lang/rust-analyzer/pull/22683)
+* [hir-ty: walk container exprs for `unused_must_use`](https://github.com/rust-lang/rust-analyzer/pull/22405)
+* [fix onEnter erroneously deleting/interpreting `$foo`](https://github.com/rust-lang/rust-analyzer/pull/22768)
+* [suggest code action fixes produced from diagnostics under cursor, even if they have effects elsewhere](https://github.com/rust-lang/rust-analyzer/pull/22726)
+* [treat library files as truly client immutable](https://github.com/rust-lang/rust-analyzer/pull/22777)
+* [turn `BlockLoc` into a tracked struct, take 3](https://github.com/rust-lang/rust-analyzer/pull/22534)
 
 ### Rust Compiler Performance Triage
 
@@ -304,7 +378,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Thank you for your PR, but please edit the description like you are a chainsaw-wielding maniac that just discovered the sentences are young adults who came to the lake at summer camp after sunset.
+
+– [workingjubilee on Rust github](https://github.com/rust-lang/rust/pull/159039#issuecomment-4931084997)
+
+Thanks to [Theemathas](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1786) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
