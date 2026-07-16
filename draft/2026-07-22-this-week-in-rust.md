@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Nova v0.2.1: computer-use MCP server](https://github.com/bigduu/Nova/releases/tag/v0.2.1)
 
 ### Observations/Thoughts
 
