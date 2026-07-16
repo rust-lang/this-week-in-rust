@@ -1,0 +1,37 @@
+[package]
+name = "submerge"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+clap = { version = "4.5.53", features = ["derive"] }
+env_logger = "0.11.8"
+gix = { version = "0.85.0", default-features = false, features = [
+    "blocking-http-transport-reqwest-rust-tls",
+    "sha1",
+    "status",
+    "tree-editor",
+] }
+log = "0.4.29"
+octocrab = { version = "0.53.1", default-features = false, features = [
+    "default-client",
+    "follow-redirect",
+    "jwt-rust-crypto",
+    "retry",
+    "rustls",
+    "rustls-aws-lc-rs",
+    "timeout",
+    "tracing",
+] }
+pulldown-cmark = "0.13.4"
+regex = "1.12.2"
+serde = { version = "1.0.228", features = ["derive"] }
+similar = "3.1.1"
+tempfile = "3.23.0"
+tokio = { version = "1.48.0", features = ["macros", "rt-multi-thread"] }
+url = "2.5.7"
+
+[dev-dependencies]
+serde_json = "1.0.145"
+tempfile = "3.23.0"
