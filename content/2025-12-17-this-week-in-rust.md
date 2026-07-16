@@ -336,7 +336,7 @@ Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/r
 
 # Quote of the Week
 
-> I allow my code to be used for training AI on GitHub. Not because I fear AI taking our jobs—but because I’m confident my code will slow it down enough to save us all.
+> I allow my code to be used for training AI on GitHub. Not because I do not fear AI taking our jobs—but because I’m confident my code will slow it down enough to save us all.
 
 – [王翼翔 on rust-users](https://users.rust-lang.org/t/whats-going-on-with-bincode/136942/3)
 
