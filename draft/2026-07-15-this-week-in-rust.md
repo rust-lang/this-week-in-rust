@@ -46,14 +46,13 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
-- [Rust, Embedded Rust, and µFerris: An Open Source Learner Board Built Around Seeed Studio XIAO](https://www.seeedstudio.com/blog/2026/07/07/rust-embedded-rust-and-uferris-an-open-source-learner-board-built-around-seeed-studio-xiao/)
 
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
-- [Oxidize XIAO — An Embedded Rust Community Program](https://blog.theembeddedrustacean.com/oxidize-xiao)
+* [Oxidize XIAO — An Embedded Rust Community Program](https://blog.theembeddedrustacean.com/oxidize-xiao)
 
 ## Crate of the Week
 
