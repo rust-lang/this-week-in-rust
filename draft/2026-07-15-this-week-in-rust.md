@@ -62,6 +62,8 @@ and just ask the editors to select the category.
 * [video] [The Only Diagram You Need to Understand Rust Ownership](https://www.youtube.com/watch?v=fugcSHD-9Jw)
 * [We compiled our TypeScript parser to WASM](https://encore.dev/blog/typescript-parser-wasm)
 
+* [I red-teamed my own LLM security gateway (Rust) in four passes — every detection gap and how I closed it](https://dev.to/akavlabs_69/i-red-teamed-my-own-llm-security-gateway-in-four-passes-heres-every-gap-i-found-5cl9)
+
 ### Rust Walkthroughs
 * [video] [Backend Concepts in Rust: HTTP Servers](https://www.youtube.com/watch?v=DJhhy6YQe8k)
 * [Fearless Embedded Rust: A FPV Lego car](https://dystroy.org/blog/picamobile/)
