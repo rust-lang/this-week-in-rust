@@ -76,6 +76,7 @@ and just ask the editors to select the category.
 ### Research
 
 ### Miscellaneous
+* [Oxidize XIAO — An Embedded Rust Community Program](https://blog.theembeddedrustacean.com/oxidize-xiao)
 
 ## Crate of the Week
 
