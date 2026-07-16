@@ -63,6 +63,7 @@ and just ask the editors to select the category.
 * [We compiled our TypeScript parser to WASM](https://encore.dev/blog/typescript-parser-wasm)
 
 ### Rust Walkthroughs
+* [video] [Backend Concepts in Rust: HTTP Servers](https://www.youtube.com/watch?v=DJhhy6YQe8k)
 * [Fearless Embedded Rust: A FPV Lego car](https://dystroy.org/blog/picamobile/)
 * [What I learned building a self-corrupting file format in Rust](https://www.aravpanwar.com/writing/building-decayfmt-in-rust/)
 * [Come Async You Are](https://corentin-core.github.io/posts/ruxe-async-runtime-agnostic/)
