@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [winit now has comprehensive cross-platform drag-and-drop support, exposing most of the power of the underlying OS APIs](https://github.com/rust-windowing/winit/pull/4571)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
