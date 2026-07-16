@@ -58,6 +58,8 @@ and just ask the editors to select the category.
 * [video] [The Only Diagram You Need to Understand Rust Ownership](https://www.youtube.com/watch?v=fugcSHD-9Jw)
 
 
+* [We compiled our TypeScript parser to WASM](https://encore.dev/blog/typescript-parser-wasm)
+
 ### Rust Walkthroughs
 * [What I learned building a self-corrupting file format in Rust](https://www.aravpanwar.com/writing/building-decayfmt-in-rust/)
 * [Come Async You Are](https://corentin-core.github.io/posts/ruxe-async-runtime-agnostic/)
