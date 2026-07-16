@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [sigid 1.0.0](https://github.com/dmitrymarison/sigid): a layered, zero-dependency 128-bit unique ID generator ecosystem with a strict `no_std` core, flexible customization, and native UUIDv7 interop.
+
 
 ### Observations/Thoughts
 
