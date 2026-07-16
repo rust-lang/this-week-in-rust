@@ -56,6 +56,8 @@ and just ask the editors to select the category.
 * [Elara Mesh: what the black box for AI agents actually does](https://navigatorbuilds.github.io/elara-mesh/blog/black-box-for-ai-agents.html)
 * [kache 0.10.0: instant download dedup, no more polling](https://github.com/kunobi-ninja/kache/releases/tag/v0.10.0)
 
+* [cochlea 0.1.0: a headless, deterministic audio engine for AI agents](https://richer-richard.github.io/cochlea/)
+
 ### Observations/Thoughts
 * [Moving a Rust WebRTC SFU to thread-per-core](https://pulsebeam.dev/blog/moving-to-thread-per-core)
 * [Faster Rust tests in CI with parallel steps](https://abundance.build/blog/2026-07-11-faster-rust-tests-in-ci-with-parallel-steps/)
