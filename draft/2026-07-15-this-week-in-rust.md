@@ -59,6 +59,7 @@ and just ask the editors to select the category.
 * [cochlea 0.1.0: a headless, deterministic audio engine for AI agents](https://richer-richard.github.io/cochlea/)
 
 ### Observations/Thoughts
+* [Open Source Security Podcast: Rust Foundation Maintainers Fund with Lori and Niko](https://opensourcesecurity.io/2026/2026-07-rfmf-lori-niko/)
 * [Moving a Rust WebRTC SFU to thread-per-core](https://pulsebeam.dev/blog/moving-to-thread-per-core)
 * [Faster Rust tests in CI with parallel steps](https://abundance.build/blog/2026-07-11-faster-rust-tests-in-ci-with-parallel-steps/)
 * [video] [The Only Diagram You Need to Understand Rust Ownership](https://www.youtube.com/watch?v=fugcSHD-9Jw)
