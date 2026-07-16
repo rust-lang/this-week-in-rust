@@ -38,12 +38,16 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Announcing Rust 1.97.0](https://blog.rust-lang.org/2026/07/09/Rust-1.97.0/)
+* [crates.io: development update](https://blog.rust-lang.org/2026/07/13/crates-io-development-update/)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Rewriting Bun in Rust](https://bun.com/blog/bun-in-rust)
+* [Announcing BullMQ for Rust](https://bullmq.io/news/260712/rust-release/)
 * [prost-protovalidate 0.6 — buf.validate (protovalidate) for prost and buffa: compile-time codegen + runtime CEL, 2872/2872 conformance](https://github.com/zs-dima/prost-protovalidate/releases/tag/v0.6.0)
 * [plaza 1.0: a ratatui package-manager TUI that searches pacman, the AUR, apt, dnf, and Flatpak at once](https://github.com/StaszeKrk/plaza/releases/tag/v1.0.0)
 * [Danube v0.15.1: native Apache Iceberg integration for streaming-to-lakehouse export](https://github.com/danube-messaging/danube/releases/tag/v0.15.1)
@@ -52,18 +56,16 @@ and just ask the editors to select the category.
 * [Elara Mesh: what the black box for AI agents actually does](https://navigatorbuilds.github.io/elara-mesh/blog/black-box-for-ai-agents.html)
 * [kache 0.10.0: instant download dedup, no more polling](https://github.com/kunobi-ninja/kache/releases/tag/v0.10.0)
 
-
 ### Observations/Thoughts
+* [Moving a Rust WebRTC SFU to thread-per-core](https://pulsebeam.dev/blog/moving-to-thread-per-core)
 * [Faster Rust tests in CI with parallel steps](https://abundance.build/blog/2026-07-11-faster-rust-tests-in-ci-with-parallel-steps/)
 * [video] [The Only Diagram You Need to Understand Rust Ownership](https://www.youtube.com/watch?v=fugcSHD-9Jw)
-
-
 * [We compiled our TypeScript parser to WASM](https://encore.dev/blog/typescript-parser-wasm)
 
 ### Rust Walkthroughs
+* [Fearless Embedded Rust: A FPV Lego car](https://dystroy.org/blog/picamobile/)
 * [What I learned building a self-corrupting file format in Rust](https://www.aravpanwar.com/writing/building-decayfmt-in-rust/)
 * [Come Async You Are](https://corentin-core.github.io/posts/ruxe-async-runtime-agnostic/)
-
 
 ### Research
 
