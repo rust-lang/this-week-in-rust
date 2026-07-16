@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [crimson-crab v0.1.0 - a production-grade Rust SDK for the Claude API (streaming, tool use, prompt caching, batches)](https://github.com/singhpratech/crimson-crab/releases/tag/v0.1.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
