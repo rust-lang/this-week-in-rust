@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [muskitty-html5-parser: an LLM-agent-built HTML5 parser, 100% WPT tree construction, 0 unsafe](https://crates.io/crates/muskitty-html5-parser) -- An experiment in specification-guided LLM codegen: the agent was given the WHATWG HTML spec and a three-rule constitution (spec > WPT > Chromium, safe-first, spec-first), then left to iterate against WPT. Tokenizer: 99.8%. Tree builder: 100% including adoption agency & template. Human wrote the test-feedback loop; LLM wrote the Rust. [LLM authorship disclosed](https://github.com/muskitty-dev/muskitty-html5-parser/blob/main/LLM_GENERATION.md). [Source](https://github.com/muskitty-dev/muskitty-html5-parser)
 
 ### Observations/Thoughts
 
