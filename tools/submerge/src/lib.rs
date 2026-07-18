@@ -970,6 +970,7 @@ fn print_summary(submissions: &[Submission], skipped: &[SkippedPr]) {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use test_log::test;
 
     fn test_signature() -> gix::actor::Signature {
         gix::actor::Signature {
@@ -1304,7 +1305,7 @@ mod tests {
             head,
         )
         .unwrap();
-        assert_eq!(submission.item, "  - [New item](https://example.com/new)");
+        assert_eq!(submission.item, "- [New item](https://example.com/new)");
 
         let buffer = build_edit_buffer(base, &[submission]).unwrap();
         assert!(buffer.contains("\n* [New item](https://example.com/new) <!--"));
@@ -1478,7 +1479,7 @@ mod tests {
             head,
         )
         .unwrap_err();
-        assert!(err.to_string().contains("multiple blocks"));
+        assert!(err.to_string().contains("multiple items"));
     }
 
     #[test]
@@ -1494,7 +1495,7 @@ mod tests {
             head,
         )
         .unwrap_err();
-        assert!(err.to_string().contains("multiple blocks"));
+        assert!(err.to_string().contains("unexpected"));
     }
 
     #[test]
