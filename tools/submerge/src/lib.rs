@@ -99,6 +99,7 @@ pub struct SkippedPr {
 }
 
 #[derive(Debug)]
+#[allow(clippy::large_enum_variant)]
 enum ClassifiedSubmission {
     Ignore(anyhow::Error),
     Success(Submission),

@@ -168,7 +168,7 @@ fn comparable_events(text: &str) -> Vec<ComparableEvent> {
                     ) -> Option<Range<usize>> {
                         // find the end:
                         let mut nesting = 1;
-                        while let Some((e, range)) = iter.next() {
+                        for (e, range) in iter.by_ref() {
                             match e {
                                 Event::Start(Tag::Item) => nesting += 1,
                                 Event::End(TagEnd::Item) => nesting -= 1,
