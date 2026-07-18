@@ -1193,6 +1193,22 @@ mod tests {
     }
 
     #[test]
+    fn accepts_item_added_before_existing_item() {
+        let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing](https://example.com/existing)\n\n### Observations/Thoughts\n";
+        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [New](https://example.com/new)\n* [Existing](https://example.com/existing)\n\n### Observations/Thoughts\n";
+        let submission = classify_pr(
+            &pull(21),
+            &[file("", 1, 0)],
+            Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
+        )
+        .unwrap();
+
+        assert_eq!(submission.item, "* [New](https://example.com/new)");
+    }
+
+    #[test]
     fn accepts_pr_based_before_locally_merged_submissions() {
         let pr_base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n### Observations/Thoughts\n";
         let current = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Already merged](https://example.com/existing)\n\n### Observations/Thoughts\n";
