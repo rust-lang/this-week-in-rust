@@ -2,7 +2,6 @@ use anyhow::{Result, anyhow, bail};
 use log::debug;
 use pulldown_cmark::{Event, HeadingLevel, Parser as MarkdownParser, Tag, TagEnd};
 use similar::{Algorithm, DiffOp, capture_diff_slices};
-use std::hash::Hash;
 use std::ops::Range;
 
 const COMMUNITY_HEADING: &str = "Updates from Rust Community";
@@ -11,26 +10,6 @@ const COMMUNITY_HEADING: &str = "Updates from Rust Community";
 pub(crate) struct ListItem {
     pub(crate) section: Option<String>,
     pub(crate) item: String,
-}
-
-#[derive(Debug, Clone)]
-struct EventWithLocation {
-    event: ComparableEvent,
-    range: Range<usize>,
-}
-
-impl PartialEq for EventWithLocation {
-    fn eq(&self, other: &Self) -> bool {
-        self.event == other.event
-    }
-}
-
-impl Eq for EventWithLocation {}
-
-impl Hash for EventWithLocation {
-    fn hash<H: std::hash::Hasher>(&self, state: &mut H) {
-        self.event.hash(state);
-    }
 }
 
 #[derive(Debug, Clone, PartialEq, Eq, Hash)]
@@ -113,8 +92,8 @@ pub(crate) fn find_single_added_community_list_item(
 }
 
 fn single_inserted_item(
-    base_events: &[EventWithLocation],
-    head_events: &[EventWithLocation],
+    base_events: &[ComparableEvent],
+    head_events: &[ComparableEvent],
 ) -> Result<ListItem> {
     let mut inserted = None;
     for op in capture_diff_slices(Algorithm::Myers, base_events, head_events) {
@@ -131,11 +110,7 @@ fn single_inserted_item(
                     bail!("submission inserts multiple items");
                 }
 
-                if let EventWithLocation {
-                    event: ComparableEvent::ListItem(item),
-                    ..
-                } = &head_events[new_index]
-                {
+                if let ComparableEvent::ListItem(item) = &head_events[new_index] {
                     inserted = Some(item.clone());
                 }
             }
@@ -147,7 +122,10 @@ fn single_inserted_item(
     inserted.ok_or(anyhow!("no list item inserted"))
 }
 
-fn comparable_events(text: &str) -> Vec<EventWithLocation> {
+/// Produce a list of events, noramlized to chunks of non-list-item content
+/// (with whitespace changes ignored)
+/// and top-level list items, so we can then easily find added list items.
+fn comparable_events(text: &str) -> Vec<ComparableEvent> {
     let mut events = Vec::new();
     let mut sections = SectionTracker::default();
 
@@ -178,9 +156,12 @@ fn comparable_events(text: &str) -> Vec<EventWithLocation> {
 
         if !sections.in_heading() {
             match event {
-                Event::Start(Tag::List(_)) | Event::End(TagEnd::List(_)) => {} // ignore added/removed lists (the items are what matter)
-                Event::SoftBreak | Event::HardBreak => {}                      // skip newlines
+                // ignore added/removed lists (the items are what matter)
+                Event::Start(Tag::List(_)) | Event::End(TagEnd::List(_)) => {}
+                // skip newlines
+                Event::SoftBreak | Event::HardBreak => {}
                 Event::Start(Tag::Item) => {
+                    // Collect the (possibly-nested) list item into a single thing to compare
                     let start_range = range.clone();
                     fn end_of_item<'a, I: Iterator<Item = (Event<'a>, Range<usize>)>>(
                         iter: &mut I,
@@ -202,18 +183,12 @@ fn comparable_events(text: &str) -> Vec<EventWithLocation> {
 
                     let end_range = end_of_item(&mut md_events).expect("list item has an end");
                     let text = &text[start_range.start..end_range.end];
-                    events.push(EventWithLocation {
-                        event: ComparableEvent::ListItem(ListItem {
-                            section: sections.current_section(),
-                            item: text.trim().into(),
-                        }),
-                        range: start_range.start..range.end,
-                    });
+                    events.push(ComparableEvent::ListItem(ListItem {
+                        section: sections.current_section(),
+                        item: text.trim().into(),
+                    }));
                 }
-                _ => events.push(EventWithLocation {
-                    event: ComparableEvent::Raw(text[range.clone()].into()),
-                    range,
-                }),
+                _ => events.push(ComparableEvent::Raw(text[range].into())),
             }
         }
     }
@@ -224,7 +199,7 @@ fn comparable_events(text: &str) -> Vec<EventWithLocation> {
 fn markdown_list_items(text: &str) -> Vec<ListItem> {
     comparable_events(text)
         .into_iter()
-        .filter_map(|e| match e.event {
+        .filter_map(|e| match e {
             ComparableEvent::ListItem(i) => Some(i),
             _ => None,
         })
