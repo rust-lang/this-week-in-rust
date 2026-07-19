@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [ferrovec: a dependency-light HNSW vector index in Rust that compiles to WebAssembly for in-browser semantic search](https://github.com/singhpratech/ferrovec)
+* [ferrovec: dependency-light HNSW vector search in Rust, compiled to WebAssembly for private in-browser semantic search](https://singhpratech.github.io/ferrovec/)
 
 ### Observations/Thoughts
 
