@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [OrdoFP 0.1.0 released — a functional-programming toolbelt for Rust (HList, GAT type classes, optics, effects, monad transformers)](https://github.com/ordokr/ordofp/releases/tag/v0.1.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
