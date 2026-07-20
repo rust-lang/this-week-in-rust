@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [Guardian Compute: Decentralized Edge Computing in GuardianDB](https://www.willsearch.com.br/blog/guardian-compute-decentralized-edge-computing-in-guardiandb)
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
