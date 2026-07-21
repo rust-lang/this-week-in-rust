@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-[`tracing-reload` - implementing a layer to reload other layers in `tracing` that actually works](https://mladedav.github.io/blog/blog/tracing-reload/)
+[`tracing-reload` - reload layer without panics](https://mladedav.github.io/blog/blog/tracing-reload/)
 
 ### Observations/Thoughts
 
