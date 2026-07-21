@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [video] [Build with Naz - Ep 21: High Performance Flat 2D Arrays in Rust (SIMD, L1 cache)](https://www.youtube.com/watch?v=tIrSvJFRxAg)
+
 ### Research
 
 ### Miscellaneous
