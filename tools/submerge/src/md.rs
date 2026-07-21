@@ -122,7 +122,7 @@ fn single_inserted_item(
     inserted.ok_or(anyhow!("no list item inserted"))
 }
 
-/// Produce a list of events, noramlized to chunks of non-list-item content
+/// Produce a list of events, normalized to chunks of non-list-item content
 /// (with whitespace changes ignored)
 /// and top-level list items, so we can then easily find added list items.
 fn comparable_events(text: &str) -> Vec<ComparableEvent> {
