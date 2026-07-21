@@ -878,7 +878,7 @@ fn submission_item_summary(submission: &Submission) -> &str {
 
 fn format_skipped_pr_summary(skipped: &SkippedPr) -> String {
     format!(
-        "#{} {} {}/files:\n{:?}",
+        "#{} {} {}/files:\n{:?}\n\n",
         skipped.pr,
         skipped.title,
         skipped.url.as_str().trim_end_matches('/'),
@@ -955,16 +955,18 @@ fn normalize_repo_relative_path(workdir: &Path, path: &Path) -> Result<PathBuf> 
 }
 
 fn print_summary(submissions: &[Submission], skipped: &[SkippedPr]) {
+    println!("---");
     println!("eligible submissions: {}", submissions.len());
     for submission in submissions {
         println!(
-            "  #{} [{}] {}",
+            "#{} [{}] {}",
             submission.pr, submission.section, submission.item
         );
     }
+    println!("---");
     println!("non-eligible PRs: {}", skipped.len());
     for skipped in skipped {
-        println!("  {}", format_skipped_pr_summary(skipped));
+        println!("{}", format_skipped_pr_summary(skipped));
     }
 }
 
@@ -1634,7 +1636,7 @@ mod tests {
 
         assert_eq!(
             format_skipped_pr_summary(&skipped),
-            "#1234 Not a submission https://github.com/rust-lang/this-week-in-rust/pull/1234/files:\nchanges 2 files"
+            "#1234 Not a submission https://github.com/rust-lang/this-week-in-rust/pull/1234/files:\nchanges 2 files\n\n"
         );
     }
 
@@ -1649,7 +1651,7 @@ mod tests {
 
         assert_eq!(
             format_skipped_pr_summary(&skipped),
-            "#1234 Not a submission https://github.com/rust-lang/this-week-in-rust/pull/1234/files:\nsubmission failed validation\n\nCaused by:\n    changes 2 files"
+            "#1234 Not a submission https://github.com/rust-lang/this-week-in-rust/pull/1234/files:\nsubmission failed validation\n\nCaused by:\n    changes 2 files\n\n"
         );
     }
 
