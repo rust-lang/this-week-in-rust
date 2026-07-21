@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 * [Tokio Gives Progress, Not Ordering: Scheduling 1M Tasks](https://pranitha.dev/posts/tokio-gives-progress-not-ordering)
+* [video] [Livestream: Rust in Ubuntu](https://www.youtube.com/live/Doqwh1b4QyA)
 
 ### Rust Walkthroughs
 * [Two tricky bugs in a Rust daemon](https://dev.to/scripthpp/two-bugs-i-only-found-by-running-my-rust-sync-daemon-against-real-infrastructure-4278)
