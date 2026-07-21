@@ -49,6 +49,9 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [video] [Backend Concepts in Rust: Securely Managing App Secrets](https://www.youtube.com/watch?v=u91eX3J6lPU)
+
+* [video] [Build with Naz - Ep 21: High Performance Flat 2D Arrays in Rust (SIMD, L1 cache)](https://www.youtube.com/watch?v=tIrSvJFRxAg)
+
 ### Research
 
 ### Miscellaneous
