@@ -48,7 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
+* [video] [Backend Concepts in Rust: Managing App Secrets](https://www.youtube.com/watch?v=u91eX3J6lPU)
 ### Research
 
 ### Miscellaneous
