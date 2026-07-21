@@ -65,9 +65,11 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [rag-gate](https://crates.io/crates/rag-gate), an inference-time confidence middleware for RAG pipelines.
 
-[Please submit your suggestions and votes for next week][submit_crate]!
+It sits as a wire-level proxy between your client and any OpenAI-compatible LLM API, intercepts the token stream in real time, and gates generation into **ANSWER**, **ABSTAIN**, or **ESCALATE** based on mean token logprob confidence — a signal already computed for free during inference, with no post-hoc LLM judge required.
+
+Thanks to [ajanm007](https://github.com/ajanm007) for the self-suggestion!
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
