@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 * [Introducing OpenTypeless: Voice Input That Actually Works](https://www.opentypeless.com/en/blog/introducing-talkmore)
 * [Reading a Rust crate's capabilities out of its compiled symbols](https://dev.to/booyaka101/reading-a-rust-crates-capabilities-out-of-its-compiled-symbols-58pb)
 
+* [flodl 0.6.0: multi-host heterogeneous DDP - mismatched GPUs across hosts beat the fastest card alone](https://flodl.dev/blog/then-the-cpu-died)
+
 ### Observations/Thoughts
 
 * [Tokio Gives Progress, Not Ordering: Scheduling 1M Tasks](https://pranitha.dev/posts/tokio-gives-progress-not-ordering)
