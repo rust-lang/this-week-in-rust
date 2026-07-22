@@ -283,6 +283,8 @@ Rusty Events between 2026-07-22 - 2026-08-19 🦀
     * [**Rust Poland x Kraków #10**](https://www.meetup.com/rust-poland-meetup/events/315582674/)
 * 2026-07-30 | Manchester, GB | [Rust Manchester](https://www.meetup.com/rust-manchester/events/)
     * [**Rust Manchester July Code Night**](https://www.meetup.com/rust-manchester/events/315037685/)
+* 2026-07-30 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/)
+    * [**Rust meetup #70 — Rama: a modular service framework to move and transform network packets**](https://www.meetup.com/copenhagen-rust-community/events/315767999)
 
 ### North America
 * 2026-07-15 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
