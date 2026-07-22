@@ -49,7 +49,7 @@ and just ask the editors to select the category.
 * [`tracing-reload` - reload layer without panics](https://mladedav.github.io/blog/blog/tracing-reload/)
 * [Introducing OpenTypeless: Voice Input That Actually Works](https://www.opentypeless.com/en/blog/introducing-talkmore)
 * [Reading a Rust crate's capabilities out of its compiled symbols](https://dev.to/booyaka101/reading-a-rust-crates-capabilities-out-of-its-compiled-symbols-58pb)
-* [cochlea 0.3.0: melody read-back, MFCC timbre, a master limiter, and MIDI import for the deterministic agent-audio engine](https://richer-richard.github.io/cochlea/)
+* [cochlea 0.3.0: melody read-back, MFCC timbre, a master limiter, and MIDI import for the deterministic agent-audio engine](https://richer-richard.github.io/cochlea/determinism.html#030-additions-2026-07-22)
 
 ### Observations/Thoughts
 
