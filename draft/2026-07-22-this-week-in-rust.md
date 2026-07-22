@@ -277,6 +277,8 @@ Rusty Events between 2026-07-22 - 2026-08-19 🦀
     * [**LDN Talks: July 2026 Antithesis Takeover**](https://www.meetup.com/rust-london-user-group/events/315612916/)
 * 2026-07-23 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris)
     * [**Rust meetup #87**](https://www.meetup.com/rust-paris/events/315309633/)
+* 2026-07-27 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
+    * [**Rust Meetup #20**: Julian Dickert - Supply chain security in Rust: Evaluating crates for production](https://rust-augsburg.github.io/meetup/Meetup_20.html)
 * 2026-07-29 | Poland, PL | [Rust Poland](https://www.meetup.com/rust-poland-meetup)
     * [**Rust Poland x Kraków #10**](https://www.meetup.com/rust-poland-meetup/events/315582674/)
 * 2026-07-30 | Manchester, GB | [Rust Manchester](https://www.meetup.com/rust-manchester/events/)
