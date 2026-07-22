@@ -67,7 +67,6 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 * [video] [Livestream: Rust in Ubuntu](https://www.youtube.com/live/Doqwh1b4QyA)
-
 * [Tokio Gives Progress, Not Ordering: Scheduling 1M Tasks](https://pranitha.dev/posts/tokio-gives-progress-not-ordering)
 
 ### Rust Walkthroughs
