@@ -60,6 +60,7 @@ and just ask the editors to select the category.
 * [Two tricky bugs in a Rust daemon](https://dev.to/scripthpp/two-bugs-i-only-found-by-running-my-rust-sync-daemon-against-real-infrastructure-4278)
 * [video] [Backend Concepts in Rust: Securely Managing App Secrets](https://www.youtube.com/watch?v=u91eX3J6lPU)
 * [video] [Build with Naz - Ep 21: High Performance Flat 2D Arrays in Rust (SIMD, L1 cache)](https://www.youtube.com/watch?v=tIrSvJFRxAg)
+* [I hash-chained my agent's audit log. Then I found 13 breaks in it — all mine, all benign.](https://kriyanative.com/blog/13-chain-breaks/)
 
 ### Research
 
