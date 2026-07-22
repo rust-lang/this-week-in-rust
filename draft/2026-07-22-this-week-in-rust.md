@@ -46,7 +46,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [kobe 0.35.0: readiness gates and cert recycling](https://github.com/kunobi-ninja/kobe/releases/tag/v0.35.0)
-* [Comhad: A ranger-style tui cyberduck replacement for browsing S3](https://github.com/Eoin-McMahon/comhad)
+* [Comhad v0.1.0: a ranger-style tui cyberduck replacement for browsing S3](https://github.com/Eoin-McMahon/comhad/releases/tag/v0.1.0)
 
 * [Guardian Compute: Decentralized Edge Computing in GuardianDB](https://www.willsearch.com.br/blog/guardian-compute-decentralized-edge-computing-in-guardiandb)
 * [`tracing-reload` - reload layer without panics](https://mladedav.github.io/blog/blog/tracing-reload/)
