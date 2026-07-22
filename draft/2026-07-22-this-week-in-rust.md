@@ -46,7 +46,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 * [kobe 0.35.0: readiness gates and cert recycling](https://github.com/kunobi-ninja/kobe/releases/tag/v0.35.0)
-* [hwatu: a daemon-based WebKitGTK browser for tiling WMs with ~13ms window spawn](https://github.com/hongnoul/hwatu)
+* [hwatu: a daemon-based WebKitGTK browser for tiling WMs with ~13ms window spawn](https://hongnoul.github.io/hwatu/)
 
 * [Guardian Compute: Decentralized Edge Computing in GuardianDB](https://www.willsearch.com.br/blog/guardian-compute-decentralized-edge-computing-in-guardiandb)
 * [`tracing-reload` - reload layer without panics](https://mladedav.github.io/blog/blog/tracing-reload/)
