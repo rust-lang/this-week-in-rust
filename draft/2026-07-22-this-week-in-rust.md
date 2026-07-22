@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rust service hardening and production checklist](https://kerkour.com/rust-service-hardening-and-production-checklist)
 * [Tokio Gives Progress, Not Ordering: Scheduling 1M Tasks](https://pranitha.dev/posts/tokio-gives-progress-not-ordering)
 
 ### Rust Walkthroughs
