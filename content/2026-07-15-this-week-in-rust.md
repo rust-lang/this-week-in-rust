@@ -51,7 +51,6 @@ and just ask the editors to select the category.
 * [kobe 0.33.0: a Rust operator for instant CI Kubernetes clusters](https://github.com/kunobi-ninja/kobe/releases/tag/v0.33.0)
 * [Elara Mesh: what the black box for AI agents actually does](https://navigatorbuilds.github.io/elara-mesh/blog/black-box-for-ai-agents.html)
 * [kache 0.10.0: instant download dedup, no more polling](https://github.com/kunobi-ninja/kache/releases/tag/v0.10.0)
-
 * [cochlea 0.1.0: a headless, deterministic audio engine for AI agents](https://richer-richard.github.io/cochlea/)
 
 ### Observations/Thoughts
