@@ -48,9 +48,9 @@ and just ask the editors to select the category.
 
 * [Nova v0.2.1: computer-use MCP server](https://github.com/bigduu/Nova/releases/tag/v0.2.1)
 * [winit now has comprehensive cross-platform drag-and-drop support, exposing most of the power of the underlying OS APIs](https://github.com/rust-windowing/winit/pull/4571)
-* [sigid 1.0.0](https://github.com/dmitrymarison/sigid): a layered, zero-dependency 128-bit unique ID generator ecosystem with a strict `no_std` core, flexible customization, and native UUIDv7 interop.
+* [sigid 1.0.0](https://github.com/dmitrymarison/sigid)
 * [crimson-crab v0.1.0 - a production-grade Rust SDK for the Claude API (streaming, tool use, prompt caching, batches)](https://github.com/singhpratech/crimson-crab/releases/tag/v0.1.0)
-* [muskitty-html5-parser: an LLM-agent-built HTML5 parser, 100% WPT tree construction, 0 unsafe](https://github.com/muskitty-dev/muskitty-html5-parser#readme) -- An experiment in specification-guided LLM codegen: the agent was given the WHATWG HTML spec and a three-rule constitution (spec > WPT > Chromium, safe-first, spec-first), then left to iterate against WPT. Tokenizer: 99.8%. Tree builder: 100% including adoption agency & template. Human wrote the test-feedback loop; LLM wrote the Rust. [LLM authorship disclosed](https://github.com/muskitty-dev/muskitty-html5-parser/blob/main/LLM_GENERATION.md).
+* [muskitty-html5-parser: an LLM-agent-built HTML5 parser, 100% WPT tree construction, 0 unsafe](https://github.com/muskitty-dev/muskitty-html5-parser#readme) 
 * [ferrovec: dependency-light HNSW vector search in Rust, compiled to WebAssembly for private in-browser semantic search](https://singhpratech.github.io/ferrovec/)
 * [OrdoFP 0.1.0 released — a functional-programming toolbelt for Rust (HList, GAT type classes, optics, effects, monad transformers)](https://github.com/ordokr/ordofp/releases/tag/v0.1.0)
 * [Freya 0.4](https://freyaui.dev/posts/0.4)
