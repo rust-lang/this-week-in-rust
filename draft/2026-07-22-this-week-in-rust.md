@@ -45,6 +45,18 @@ and just ask the editors to select the category.
 * [The Embedded Rustacean Issue #76](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-76)
 
 ### Project/Tooling Updates
+
+* [Nova v0.2.1: computer-use MCP server](https://github.com/bigduu/Nova/releases/tag/v0.2.1)
+* [winit now has comprehensive cross-platform drag-and-drop support, exposing most of the power of the underlying OS APIs](https://github.com/rust-windowing/winit/pull/4571)
+* [sigid 1.0.0](https://github.com/dmitrymarison/sigid): a layered, zero-dependency 128-bit unique ID generator ecosystem with a strict `no_std` core, flexible customization, and native UUIDv7 interop.
+* [crimson-crab v0.1.0 - a production-grade Rust SDK for the Claude API (streaming, tool use, prompt caching, batches)](https://github.com/singhpratech/crimson-crab/releases/tag/v0.1.0)
+* [muskitty-html5-parser: an LLM-agent-built HTML5 parser, 100% WPT tree construction, 0 unsafe](https://github.com/muskitty-dev/muskitty-html5-parser#readme) -- An experiment in specification-guided LLM codegen: the agent was given the WHATWG HTML spec and a three-rule constitution (spec > WPT > Chromium, safe-first, spec-first), then left to iterate against WPT. Tokenizer: 99.8%. Tree builder: 100% including adoption agency & template. Human wrote the test-feedback loop; LLM wrote the Rust. [LLM authorship disclosed](https://github.com/muskitty-dev/muskitty-html5-parser/blob/main/LLM_GENERATION.md).
+* [ferrovec: dependency-light HNSW vector search in Rust, compiled to WebAssembly for private in-browser semantic search](https://singhpratech.github.io/ferrovec/)
+* [OrdoFP 0.1.0 released — a functional-programming toolbelt for Rust (HList, GAT type classes, optics, effects, monad transformers)](https://github.com/ordokr/ordofp/releases/tag/v0.1.0)
+* [Freya 0.4](https://freyaui.dev/posts/0.4)
+* [buildline: merging cargo and ninja's build profiling into one timeline](https://dev.to/nabsei/buildline-merging-cargo-and-ninjas-build-profiling-into-one-timeline-2373)
+* [cochlea 0.3.0: melody read-back, MFCC timbre, a master limiter, and MIDI import for the deterministic agent-audio engine](https://richer-richard.github.io/cochlea/determinism.html#030-additions-2026-07-22)
+* [flodl 0.6.0: multi-host heterogeneous DDP - mismatched GPUs across hosts beat the fastest card alone](https://flodl.dev/blog/then-the-cpu-died)
 * [kobe 0.35.0: readiness gates and cert recycling](https://github.com/kunobi-ninja/kobe/releases/tag/v0.35.0)
 
 * [Guardian Compute: Decentralized Edge Computing in GuardianDB](https://www.willsearch.com.br/blog/guardian-compute-decentralized-edge-computing-in-guardiandb)
@@ -54,9 +66,13 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [video] [Livestream: Rust in Ubuntu](https://www.youtube.com/live/Doqwh1b4QyA)
+
 * [Tokio Gives Progress, Not Ordering: Scheduling 1M Tasks](https://pranitha.dev/posts/tokio-gives-progress-not-ordering)
 
 ### Rust Walkthroughs
+
+* [I hash-chained my agent's audit log. Then I found 13 breaks in it — all mine, all benign.](https://kriyanative.com/blog/13-chain-breaks/)
 * [Two tricky bugs in a Rust daemon](https://dev.to/scripthpp/two-bugs-i-only-found-by-running-my-rust-sync-daemon-against-real-infrastructure-4278)
 * [video] [Backend Concepts in Rust: Securely Managing App Secrets](https://www.youtube.com/watch?v=u91eX3J6lPU)
 * [video] [Build with Naz - Ep 21: High Performance Flat 2D Arrays in Rust (SIMD, L1 cache)](https://www.youtube.com/watch?v=tIrSvJFRxAg)
