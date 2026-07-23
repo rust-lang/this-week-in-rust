@@ -40,8 +40,6 @@ and just ask the editors to select the category.
 ### Official
 * [Announcing Rust 1.97.1](https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/)
 
-### Foundation
-
 ### Newsletters
 * [The Embedded Rustacean Issue #76](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-76)
 
@@ -65,7 +63,6 @@ and just ask the editors to select the category.
 * [kobe 0.35.0: readiness gates and cert recycling](https://github.com/kunobi-ninja/kobe/releases/tag/v0.35.0)
 * [hwatu: a daemon-based WebKitGTK browser for tiling WMs with ~13ms window spawn](https://hongnoul.github.io/hwatu/)
 * [kache 0.11.0: broader compiler coverage and libc-aware keys](https://github.com/kunobi-ninja/kache/releases/tag/v0.11.0)
-* [Guardian Compute: Decentralized Edge Computing in GuardianDB](https://www.willsearch.com.br/blog/guardian-compute-decentralized-edge-computing-in-guardiandb)
 * [`tracing-reload` - reload layer without panics](https://mladedav.github.io/blog/blog/tracing-reload/)
 * [Introducing OpenTypeless: Voice Input That Actually Works](https://www.opentypeless.com/en/blog/introducing-talkmore)
 * [Reading a Rust crate's capabilities out of its compiled symbols](https://dev.to/booyaka101/reading-a-rust-crates-capabilities-out-of-its-compiled-symbols-58pb)
@@ -75,22 +72,17 @@ and just ask the editors to select the category.
 * [Capture Clauses as Effects](https://blog.yoshuawuyts.com/capture-clauses-as-effects)
 * [Hardening Rust Code For Production](https://corrode.dev/blog/hardening-rust/)
 * [Tokio Gives Progress, Not Ordering: Scheduling 1M Tasks](https://pranitha.dev/posts/tokio-gives-progress-not-ordering/)
+* [Rust service hardening and production checklist](https://kerkour.com/rust-service-hardening-and-production-checklist)
+* [audio] [The Rust Foundation with Rebecca Rumbul, Lori Lorusso, and David Wood, Rust Foundation leadership and board](https://corrode.dev/podcast/s06e08-rust-foundation/)
 * [video] [Jon Gjengset: Open Source Maintenance 2026-07-18](https://www.youtube.com/watch?v=bAINppA0BSU)
 * [video] [Rust Release Changelog - 1.97.0](https://www.youtube.com/watch?v=lUoQ3uGSQA0)
-* [audio] [The Rust Foundation with Rebecca Rumbul, Lori Lorusso, and David Wood, Rust Foundation leadership and board](https://corrode.dev/podcast/s06e08-rust-foundation/)
-* [Rust service hardening and production checklist](https://kerkour.com/rust-service-hardening-and-production-checklist)
 * [video] [Livestream: Rust in Ubuntu](https://www.youtube.com/live/Doqwh1b4QyA)
 
 ### Rust Walkthroughs
-
 * [I hash-chained my agent's audit log. Then I found 13 breaks in it — all mine, all benign.](https://kriyanative.com/blog/13-chain-breaks/)
 * [Two tricky bugs in a Rust daemon](https://dev.to/scripthpp/two-bugs-i-only-found-by-running-my-rust-sync-daemon-against-real-infrastructure-4278)
 * [video] [Backend Concepts in Rust: Securely Managing App Secrets](https://www.youtube.com/watch?v=u91eX3J6lPU)
 * [video] [Build with Naz - Ep 21: High Performance Flat 2D Arrays in Rust (SIMD, L1 cache)](https://www.youtube.com/watch?v=tIrSvJFRxAg)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -130,6 +122,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+- *No Calls for participation were submitted this week.*
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -141,6 +134,7 @@ Are you a new or experienced speaker looking for a place to share something cool
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+- *No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -413,7 +407,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1ttbtf5/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -441,4 +435,4 @@ This Week in Rust is edited by:
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1v41dgv/this_week_in_rust_661/)</small>
