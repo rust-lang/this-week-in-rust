@@ -67,6 +67,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Rust service hardening and production checklist](https://kerkour.com/rust-service-hardening-and-production-checklist)
 * [video] [Livestream: Rust in Ubuntu](https://www.youtube.com/live/Doqwh1b4QyA)
 * [Tokio Gives Progress, Not Ordering: Scheduling 1M Tasks](https://pranitha.dev/posts/tokio-gives-progress-not-ordering)
 
