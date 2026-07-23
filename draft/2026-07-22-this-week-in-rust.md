@@ -45,7 +45,8 @@ and just ask the editors to select the category.
 * [The Embedded Rustacean Issue #76](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-76)
 
 ### Project/Tooling Updates
-
+* [kobe 0.35.0: readiness gates and cert recycling](https://github.com/kunobi-ninja/kobe/releases/tag/v0.35.0)
+* [Comhad v0.1.0: a ranger-style tui cyberduck replacement for browsing S3](https://github.com/Eoin-McMahon/comhad/releases/tag/v0.1.0)
 * [Nova v0.2.1: computer-use MCP server](https://github.com/bigduu/Nova/releases/tag/v0.2.1)
 * [winit now has comprehensive cross-platform drag-and-drop support, exposing most of the power of the underlying OS APIs](https://github.com/rust-windowing/winit/pull/4571)
 * [sigid 1.0.0](https://github.com/dmitrymarison/sigid)
