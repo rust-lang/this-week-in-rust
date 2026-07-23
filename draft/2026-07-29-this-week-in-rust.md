@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [High-Performance Flat 2D Arrays in Rust with SIMD, L1 Cache](https://developerlife.com/2026/07/14/build-high-performance-flat-2d-arrays-in-rust/)
+
 ### Rust Walkthroughs
 
 ### Research
