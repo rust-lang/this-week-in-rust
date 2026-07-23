@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [exiftool-rs 0.7.0: a pure-Rust reimplementation of ExifTool, now with localized `-lang` values](https://github.com/Le-Syl21/exiftool-rs)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
