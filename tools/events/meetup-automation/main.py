@@ -13,6 +13,7 @@ from country_code_to_continent import country_code_to_continent
 from generate_events_meetup import TwirMeetupClient
 from event import Event
 from utils import read_meetup_group_urls
+from city_to_state_map import update_state_from_city
 
 
 logger = logging.getLogger(__name__)
@@ -49,6 +50,10 @@ def main():
     # Group by virtual or by continent.
     events = group_virtual_continent(events)
 
+    # update state letter code for events based on city name using our mapping
+    events = update_state_from_city(events)
+
+    # return;
     # if json is specified, output as json. Otherwise print in a nice TWIR-formatted way
     if args.json:
         # convert our events to a json-friendly format
@@ -124,7 +129,7 @@ def remove_duplicate_events(events: List[Event]) -> List[Event]:
             checked.append(event)
 
     return checked
-            
+
 
 if __name__ == "__main__":
     main()
