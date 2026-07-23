@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Sharing Rust build work across Cargo worktrees with cargo-reapi](https://github.com/TamedTornado/cargo-reapi/blob/main/docs/introducing-cargo-reapi.md)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
