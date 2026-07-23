@@ -301,6 +301,8 @@ Rusty Events between 2026-07-29 - 2026-08-26 🦀
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/314997215/)
 * 2026-08-19 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
     * [**Dealing with Dependencies**](https://www.meetup.com/vancouver-rust/events/314105333/)
+* 2026-08-19 | San Francisco, CA, US | [Rust Bay Area](https://luma.com/bayarearust)
+    * [**Rust Bay Area August Meetup**](https://luma.com/00f2s7q9)
 
 ### Oceania
 * 2026-07-23 | Perth, AU | [Rust Perth Meetup Group](https://www.meetup.com/perth-rust-meetup-group)
