@@ -58,6 +58,7 @@ and just ask the editors to select the category.
 * [cochlea 0.3.0: melody read-back, MFCC timbre, a master limiter, and MIDI import for the deterministic agent-audio engine](https://richer-richard.github.io/cochlea/determinism.html#030-additions-2026-07-22)
 * [flodl 0.6.0: multi-host heterogeneous DDP - mismatched GPUs across hosts beat the fastest card alone](https://flodl.dev/blog/then-the-cpu-died)
 * [kobe 0.35.0: readiness gates and cert recycling](https://github.com/kunobi-ninja/kobe/releases/tag/v0.35.0)
+* [kache 0.11.0: broader compiler coverage and libc-aware keys](https://github.com/kunobi-ninja/kache/releases/tag/v0.11.0)
 
 * [Guardian Compute: Decentralized Edge Computing in GuardianDB](https://www.willsearch.com.br/blog/guardian-compute-decentralized-edge-computing-in-guardiandb)
 * [`tracing-reload` - reload layer without panics](https://mladedav.github.io/blog/blog/tracing-reload/)
