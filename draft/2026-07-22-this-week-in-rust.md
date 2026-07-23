@@ -326,6 +326,8 @@ Rusty Events between 2026-07-22 - 2026-08-19 🦀
     * [**Evening Boston Rust Meetup at Red Hat, Aug 4**](https://www.meetup.com/bostonrust/events/314660176/)
 * 2026-08-06 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust/events/)
     * [**Shipping Temporal: How a Global Rust Ecosystem Built Chrome’s Newest Web API**](https://www.meetup.com/stl-rust/events/314701905/)
+* 2026-08-15 | San Francisco, CA, US | [Flower](https://flowercomputer.com/)
+    * [**BOG-A-THON 3**](https://partiful.com/e/juWAwRs3XMWP7s9wLNWK)
 
 ### South America
 * 2026-08-08 | São Paulo, SP | [Rust-SP](https://luma.com/calendar/cal-bif2oHITU1aVvsr)
