@@ -98,6 +98,19 @@ pub struct SkippedPr {
     pub url: Url,
 }
 
+#[derive(Debug)]
+#[allow(clippy::large_enum_variant)]
+enum ClassifiedSubmission {
+    Ignore(anyhow::Error),
+    Success(Submission),
+}
+
+impl ClassifiedSubmission {
+    fn new_ignore(reason: anyhow::Error) -> Self {
+        Self::Ignore(reason)
+    }
+}
+
 #[derive(Debug, Clone)]
 struct PullSummary {
     number: u64,
@@ -159,9 +172,10 @@ async fn run_fetch(args: FetchArgs) -> Result<()> {
             &pull,
         )
         .await
+        .with_context(|| format!("could not fetch PR #{}", pull.number))?
         {
-            Ok(submission) => submissions.push(submission),
-            Err(reason) => skipped.push(SkippedPr {
+            ClassifiedSubmission::Success(submission) => submissions.push(submission),
+            ClassifiedSubmission::Ignore(reason) => skipped.push(SkippedPr {
                 pr: pull.number,
                 title: pull.title,
                 reason,
@@ -201,44 +215,56 @@ async fn fetch_submission(
     draft_rel: &Path,
     current_text: &str,
     pull: &PullSummary,
-) -> Result<Submission> {
+) -> Result<ClassifiedSubmission> {
     if pull.draft {
-        bail!("draft PR");
+        return Ok(ClassifiedSubmission::new_ignore(anyhow!("draft PR")));
     }
 
-    let files = fetch_pr_files(client, owner, name, pull.number).await?;
+    let files = fetch_pr_files(client, owner, name, pull.number)
+        .await
+        .with_context(|| format!("could not fetch changed files for PR #{}", pull.number))?;
     // Use the PR's base to determine what it adds even if main has moved since it was opened.
     let base_text = fetch_file_text(client, owner, name, draft_rel, pull.base_sha)
         .await
-        .context("could not read base draft")?;
+        .with_context(|| format!("could not fetch base draft for PR #{}", pull.number))?;
     let head_text = fetch_file_text(client, owner, name, draft_rel, pull.head_sha)
         .await
-        .context("could not read head draft")?;
-    let submission = classify_submission(
+        .with_context(|| format!("could not fetch head draft for PR #{}", pull.number))?;
+    let submission = match classify_submission(
         pull,
         &files,
         draft_rel,
         current_text,
         &base_text,
         &head_text,
-    )?;
+    )
+    .context("submission failed validation")
+    {
+        Ok(submission) => submission,
+        Err(reason) => return Ok(ClassifiedSubmission::new_ignore(reason)),
+    };
 
     info!("checking CI state for PR #{}", submission.pr);
-    match fetch_ci_state(client, owner, name, submission.head_sha).await? {
+    match fetch_ci_state(client, owner, name, submission.head_sha)
+        .await
+        .with_context(|| format!("could not fetch CI status for PR #{}", submission.pr))?
+    {
         CiState::Success => {}
         CiState::Failure => {
             warn!("skipping PR #{}: CI is failing", submission.pr);
-            bail!("CI is failing");
+            return Ok(ClassifiedSubmission::new_ignore(anyhow!("CI is failing")));
         }
         CiState::Unknown => {
             warn!(
                 "skipping PR #{}: CI status is unknown or pending",
                 submission.pr
             );
-            bail!("CI status is unknown or pending");
+            return Ok(ClassifiedSubmission::new_ignore(anyhow!(
+                "CI status is unknown or pending"
+            )));
         }
     }
-    Ok(submission)
+    Ok(ClassifiedSubmission::Success(submission))
 }
 
 fn run_merge(args: MergeArgs) -> Result<()> {
@@ -852,11 +878,11 @@ fn submission_item_summary(submission: &Submission) -> &str {
 
 fn format_skipped_pr_summary(skipped: &SkippedPr) -> String {
     format!(
-        "#{} {} ({}) {}/files",
+        "#{} {} {}/files:\n{:?}\n\n",
         skipped.pr,
         skipped.title,
+        skipped.url.as_str().trim_end_matches('/'),
         skipped.reason,
-        skipped.url.as_str().trim_end_matches('/')
     )
 }
 
@@ -929,22 +955,25 @@ fn normalize_repo_relative_path(workdir: &Path, path: &Path) -> Result<PathBuf> 
 }
 
 fn print_summary(submissions: &[Submission], skipped: &[SkippedPr]) {
+    println!("---");
     println!("eligible submissions: {}", submissions.len());
     for submission in submissions {
         println!(
-            "  #{} [{}] {}",
+            "#{} [{}] {}",
             submission.pr, submission.section, submission.item
         );
     }
+    println!("---");
     println!("non-eligible PRs: {}", skipped.len());
     for skipped in skipped {
-        println!("  {}", format_skipped_pr_summary(skipped));
+        println!("{}", format_skipped_pr_summary(skipped));
     }
 }
 
 #[cfg(test)]
 mod tests {
     use super::*;
+    use test_log::test;
 
     fn test_signature() -> gix::actor::Signature {
         gix::actor::Signature {
@@ -1123,6 +1152,14 @@ mod tests {
     }
 
     #[test]
+    fn classified_submission_ignore_keeps_reason() {
+        match ClassifiedSubmission::new_ignore(anyhow!("draft PR")) {
+            ClassifiedSubmission::Ignore(reason) => assert_eq!(reason.to_string(), "draft PR"),
+            ClassifiedSubmission::Success(_) => panic!("expected ignored submission"),
+        }
+    }
+
+    #[test]
     fn classifies_one_link_submission() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n### Observations/Thoughts\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Ratatui 0.30.2 is released](https://ratatui.rs/highlights/v0302/)\n\n### Observations/Thoughts\n";
@@ -1147,6 +1184,22 @@ mod tests {
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing](https://example.com/existing)\n* [New](https://example.com/new)\n\n### Observations/Thoughts\n";
         let submission = classify_pr(
             &pull(20),
+            &[file("", 1, 0)],
+            Path::new("draft/2026-06-24-this-week-in-rust.md"),
+            base,
+            head,
+        )
+        .unwrap();
+
+        assert_eq!(submission.item, "* [New](https://example.com/new)");
+    }
+
+    #[test]
+    fn accepts_item_added_before_existing_item() {
+        let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing](https://example.com/existing)\n\n### Observations/Thoughts\n";
+        let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [New](https://example.com/new)\n* [Existing](https://example.com/existing)\n\n### Observations/Thoughts\n";
+        let submission = classify_pr(
+            &pull(21),
             &[file("", 1, 0)],
             Path::new("draft/2026-06-24-this-week-in-rust.md"),
             base,
@@ -1271,7 +1324,7 @@ mod tests {
             head,
         )
         .unwrap();
-        assert_eq!(submission.item, "  - [New item](https://example.com/new)");
+        assert_eq!(submission.item, "- [New item](https://example.com/new)");
 
         let buffer = build_edit_buffer(base, &[submission]).unwrap();
         assert!(buffer.contains("\n* [New item](https://example.com/new) <!--"));
@@ -1445,7 +1498,7 @@ mod tests {
             head,
         )
         .unwrap_err();
-        assert!(err.to_string().contains("multiple blocks"));
+        assert!(err.to_string().contains("multiple items"));
     }
 
     #[test]
@@ -1461,7 +1514,7 @@ mod tests {
             head,
         )
         .unwrap_err();
-        assert!(err.to_string().contains("multiple blocks"));
+        assert!(err.to_string().contains("unexpected"));
     }
 
     #[test]
@@ -1583,7 +1636,22 @@ mod tests {
 
         assert_eq!(
             format_skipped_pr_summary(&skipped),
-            "#1234 Not a submission (changes 2 files) https://github.com/rust-lang/this-week-in-rust/pull/1234/files"
+            "#1234 Not a submission https://github.com/rust-lang/this-week-in-rust/pull/1234/files:\nchanges 2 files\n\n"
+        );
+    }
+
+    #[test]
+    fn formats_skipped_pr_summary_with_error_context() {
+        let skipped = SkippedPr {
+            pr: 1234,
+            title: "Not a submission".to_string(),
+            reason: anyhow!("changes 2 files").context("submission failed validation"),
+            url: Url::parse("https://github.com/rust-lang/this-week-in-rust/pull/1234").unwrap(),
+        };
+
+        assert_eq!(
+            format_skipped_pr_summary(&skipped),
+            "#1234 Not a submission https://github.com/rust-lang/this-week-in-rust/pull/1234/files:\nsubmission failed validation\n\nCaused by:\n    changes 2 files\n\n"
         );
     }
 
