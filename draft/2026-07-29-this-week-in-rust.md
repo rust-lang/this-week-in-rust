@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [exiftool-rs 0.7.0: localizing ExifTool's PrintConv values, not just its labels](https://github.com/Le-Syl21/exiftool-rs/releases/tag/v0.7.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
