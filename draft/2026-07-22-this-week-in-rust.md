@@ -169,7 +169,31 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+The two most notable changes this week were [#159115](https://github.com/rust-lang/rust/pull/159115),
+which resulted in pretty nice instruction count wins for full incremental builds on several benchmarks,
+and [#159091](https://github.com/rust-lang/rust/pull/159091), which enabled PGO for rustdoc, which
+makes it ~3-4% faster across the board.
+
+There were two large rollups with tiny performance regressions, which made it difficult to find
+the offending PRs.
+
+Triage done by **@Kobzol**.
+Revision range: [5503df87..d527bc9b](https://perf.rust-lang.org/?start=5503df87342a73d0c29126a7e08dc9c1255c46ad&end=d527bc9bfa297ca7fd7f5ae93781eeec42073170&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.4%  | [0.2%, 1.0%]   | 40    |
+| Regressions ❌ <br /> (secondary)  | 0.7%  | [0.2%, 4.6%]   | 69    |
+| Improvements ✅ <br /> (primary)   | -2.0% | [-6.2%, -0.2%] | 136   |
+| Improvements ✅ <br /> (secondary) | -2.6% | [-8.4%, -0.2%] | 119   |
+| All ❌✅ (primary)                 | -1.4% | [-6.2%, 1.0%]  | 176   |
+
+2 Regressions, 3 Improvements, 6 Mixed; 4 of them in rollups
+34 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/189822607d8d09acd85c234b2c245e817591ca67/triage/2026/2026-07-21.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
