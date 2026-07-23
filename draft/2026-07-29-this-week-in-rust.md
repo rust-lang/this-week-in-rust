@@ -44,6 +44,8 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Burin — a retained-mode GUI framework where Signal<T> replaces the dependency graph](https://github.com/chh-itt/burin)
+  — 60 widgets, dual GPU/CPU backend, Taffy incremental layout, Material 3 theme, headless test harness. Built on the [Auralis](https://github.com/chh-itt/auralis) reactive kernel.
 
 ### Observations/Thoughts
 
