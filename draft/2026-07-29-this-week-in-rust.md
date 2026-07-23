@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [afrim 0.7.0: a generic input method framework](https://github.com/fodydev/afrim/releases/tag/v0.7.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
