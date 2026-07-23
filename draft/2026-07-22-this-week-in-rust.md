@@ -83,7 +83,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [xan](https://github.com/medialab/xan), a TUI toolkit to work with CSV files.
+
+Thanks to [Simeon H.K. Fitch](https://users.rust-lang.org/t/crate-of-the-week/2704/1630) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -133,7 +135,76 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+576 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-07-14..2026-07-21
+
+#### Compiler
+* [account for async closures when pointing at lifetime in return type](https://github.com/rust-lang/rust/pull/159256)
+* [comptime inherent impls](https://github.com/rust-lang/rust/pull/157824)
+* [`dep_graph`: deduplicate task reads with an epoch-filtered index recorder](https://github.com/rust-lang/rust/pull/159115)
+* [eagerly check for ambiguity in macro parsing](https://github.com/rust-lang/rust/pull/158976)
+* [implement `#[diagnostic::opaque]` attribute to hide backtraces of macros](https://github.com/rust-lang/rust/pull/158608)
+* [shrink `ast::Expr64`](https://github.com/rust-lang/rust/pull/158720)
+
+#### Library
+* [add explicit `Iterator::count` impl for `str::EncodeUtf16`](https://github.com/rust-lang/rust/pull/159467)
+* [implement `bool::toggle`](https://github.com/rust-lang/rust/pull/159296)
+* [implement `const_binary_search`](https://github.com/rust-lang/rust/pull/159528)
+* [implement `Debug` helpers via `Cell`](https://github.com/rust-lang/rust/pull/159302)
+* [implement `VecDeque::truncate_to_range`](https://github.com/rust-lang/rust/pull/156220)
+* [make `pin!()` more foolproof](https://github.com/rust-lang/rust/pull/158061)
+* [move `std::io::BufRead` to `alloc::io`](https://github.com/rust-lang/rust/pull/158546)
+* [move `std::io::Read` to `alloc::io`](https://github.com/rust-lang/rust/pull/158544)
+* [move `std::io::read_to_string` to `alloc::io`](https://github.com/rust-lang/rust/pull/158545)
+
+#### Cargo
+* [use PGO for Cargo](https://github.com/rust-lang/rust/pull/159149)
+* [`timings`: only report units the job queue actually ran](https://github.com/rust-lang/cargo/pull/17238)
+* [do not include proc-macro deps in rustc search path args](https://github.com/rust-lang/cargo/pull/17236)
+* [include SBOM outputs in fingerprints](https://github.com/rust-lang/cargo/pull/17216)
+* [lazily initialize git2 fetch transports](https://github.com/rust-lang/cargo/pull/17226)
+
+#### Rustdoc
+* [fix auto trait normalization env](https://github.com/rust-lang/rust/pull/159194)
+* [use PGO for rustdoc](https://github.com/rust-lang/rust/pull/159091)
+
+#### Clippy
+* [add `block_scrutinee` lint](https://github.com/rust-lang/rust-clippy/pull/16855)
+* [avoid invalid `ref_as_ptr` suggestions in const/static initializers](https://github.com/rust-lang/rust-clippy/pull/17415)
+* [detect `== 0` on unsigned types as a `manual_clamp` lower bound](https://github.com/rust-lang/rust-clippy/pull/16800)
+* [fix `if_not_else` linting on macro expanded conditions](https://github.com/rust-lang/rust-clippy/pull/17405)
+* [fix `needless_collect` suggests a suggestion that cannot be typed](https://github.com/rust-lang/rust-clippy/pull/17383)
+* [`non_zero_suggestions`: don't lint signed integer div/rem as NonZero](https://github.com/rust-lang/rust-clippy/pull/17385)
+* [`manual_filter`: don't eat comments in the `and_then` suggestion](https://github.com/rust-lang/rust-clippy/pull/17377)
+* [require the use of `as _` for indirectly used traits in clippy sources](https://github.com/rust-lang/rust-clippy/pull/17369)
+* [rewrite `min_ident_chars`](https://github.com/rust-lang/rust-clippy/pull/17362)
+* [use `#[must_use]` determination from the compiler](https://github.com/rust-lang/rust-clippy/pull/16633)
+
+#### Rust-Analyzer
+* [avoid index panic when flycheck list is empty](https://github.com/rust-lang/rust-analyzer/pull/22634)
+* [add capture hints to coroutines](https://github.com/rust-lang/rust-analyzer/pull/22811)
+* [add handler for E0572](https://github.com/rust-lang/rust-analyzer/pull/22813)
+* [do not assume array destructuring assignments with rest pattern are constant-sized](https://github.com/rust-lang/rust-analyzer/pull/22483)
+* [eagerly normalize `.await`'s `IntoFuture::Output`](https://github.com/rust-lang/rust-analyzer/pull/22852)
+* [enable auto trait inference](https://github.com/rust-lang/rust-analyzer/pull/22791)
+* [extract variable preserving whitespace from macro input](https://github.com/rust-lang/rust-analyzer/pull/22792)
+* [fix coroutines not recording binding owners correctly](https://github.com/rust-lang/rust-analyzer/pull/22832)
+* [fix crashes in assists due to `.unwrap()` calls in SyntaxFactory](https://github.com/rust-lang/rust-analyzer/pull/22759)
+* [fix `hir` crate leaking bound variables from skipped binders](https://github.com/rust-lang/rust-analyzer/pull/22810)
+* [fix `InferenceContext:identity_args` using the wrong DefId](https://github.com/rust-lang/rust-analyzer/pull/22855)
+* [fix syntax bridge panic when spilting float](https://github.com/rust-lang/rust-analyzer/pull/22849)
+* [handle `enum` variants in next-solver `generics`](https://github.com/rust-lang/rust-analyzer/pull/22857)
+* [implement lowering of HRTB](https://github.com/rust-lang/rust-analyzer/pull/22818)
+* [invalid `pattern_matching_variant` lowering due to recovery](https://github.com/rust-lang/rust-analyzer/pull/22789)
+* [merge `WherePredicate::ForLifetimes` into `WherePredicate::TypeBound`](https://github.com/rust-lang/rust-analyzer/pull/22867)
+* [only write anon const ty in parent's inference result if it doesn't have its own inference](https://github.com/rust-lang/rust-analyzer/pull/22804)
+* [panic with a function item and a proc macro item having a duplicate name](https://github.com/rust-lang/rust-analyzer/pull/22822)
+* [parser to error on macro type bound](https://github.com/rust-lang/rust-analyzer/pull/22827)
+* [spawn proc-macro servers on requests clearing the client cache](https://github.com/rust-lang/rust-analyzer/pull/22865)
+* [use quote! inside `ast::make::expr_call()`](https://github.com/rust-lang/rust-analyzer/pull/22782)
+* [use `Result` for the lsp-server `Response` payload type](https://github.com/rust-lang/rust-analyzer/pull/22793)
+* [record expressions in types in `ExprScope`](https://github.com/rust-lang/rust-analyzer/pull/22861)
 
 ### Rust Compiler Performance Triage
 
@@ -339,7 +410,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> We were planning on publishing a blog post announcing this at the same time as making the repo public, but ran out of private repo CI usage 😭.
+
+– [Carl Lerche on r/rust](https://www.reddit.com/r/rust/comments/1uzknzl/tokiorstopcoat_a_batteriesincluded_framework_for/oy8k2nn/) about the launch of topcoat
+
+Despite a lamentable lack of suggestions, llogiq is glad to have found this quote.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
