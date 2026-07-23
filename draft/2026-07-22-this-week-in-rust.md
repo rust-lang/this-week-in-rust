@@ -367,6 +367,8 @@ Rusty Events between 2026-07-22 - 2026-08-19 🦀
     * [**Rust LA: Rust in Distributed Systems with Flight Science!**](https://www.meetup.com/rust-los-angeles/events/315376271/)
 * 2026-07-22 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/events/)
     * [**Rust NYC: Write A Custom Coding Agent and wasm_zero**](https://www.meetup.com/rust-nyc/events/315636854/)
+* 2026-07-23 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
+    * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/315418155/)
 * 2026-07-25 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust)
     * [**Porter Square Rust Lunch, July 25**](https://www.meetup.com/bostonrust/events/315582650/)
 * 2026-07-25 | Brooklyn, NY, US | [Flower](https://flowercomputer.com/)
