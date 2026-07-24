@@ -45,8 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [The State of RSigma](https://mostafa.dev/the-state-of-rsigma-7ba0a99020d9), a complete Sigma detection engineering toolkit written in Rust ([rsigma.io](https://rsigma.io/))
-* [The State of RSigma, Part Two: The Loop](https://mostafa.dev/the-state-of-rsigma-part-two-the-loop-c114f379dd78)
+* [RSigma](https://github.com/timescale/rsigma), a complete Sigma detection engineering toolkit in Rust: parser, linter, real-time evaluator, correlation engine, conversion framework, and streaming daemon.
 
 ### Observations/Thoughts
 
