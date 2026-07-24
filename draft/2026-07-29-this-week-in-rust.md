@@ -46,7 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
-
+* [Building Java–Rust Microservices with TeaQL: Models, Events, and Audit Intent](https://teaql.io/blog/java-rust-microservice-integration-with-teaql/) — Lessons from introducing an Axum payment service alongside Java: ownership, async state, decimal money, typed domain APIs, idempotency, and the limits of “no GC” performance claims.
 ### Rust Walkthroughs
 
 ### Research
