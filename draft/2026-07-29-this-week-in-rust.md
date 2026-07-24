@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [Scientific Computing in Rust #20 (July 2026)](https://scientificcomputing.rs/monthly/2026-07)
+
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
