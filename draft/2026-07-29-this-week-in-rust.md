@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Schobio: The loom was wrung](https://codeberg.org/Schobi/Schobio) – a thin Rust layer over the [Schobi](https://codeberg.org/Schobi/Schobi) C work-stealing scheduler, where closures borrow (`&data`, no `Arc`), panics are contained at the FFI boundary, and a `!Send` barrier makes a cross-group wait a compile error. It plays in the high-throughput fork/join class — 455 Mtasks/s at 0.33 µs p50 on an M4 Max (~10× oneTBB), a 16-task fork/join 0.8 µs hot vs rayon's 3 µs+ — stays debuggable (frame-pointer-clean fiber unwinds, a `.natvis` that names which task parked where, Superluminal/uProf/ftrace markers), and is verified top to bottom: a C core proven under CBMC, GenMC and Relacy, plus Kani and loom over the Rust glue.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
