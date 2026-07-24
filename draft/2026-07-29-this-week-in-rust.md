@@ -45,7 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [The State of RSigma: a complete Sigma detection engineering toolkit written in Rust](https://mostafa.dev/the-state-of-rsigma-7ba0a99020d9)
+* [RSigma v0.20.0: reverse conversion from SIEM queries to Sigma, an IR compile/convert backbone, and a STIX 2.1/TAXII toolkit](https://github.com/timescale/rsigma/releases/tag/v0.20.0)
+* [The State of RSigma: a complete Sigma detection engineering toolkit written in Rust](https://mostafa.dev/the-state-of-rsigma-7ba0a99020d9), and its follow-up [The State of RSigma, Part Two: The Loop](https://mostafa.dev/the-state-of-rsigma-part-two-the-loop-c114f379dd78)
 
 ### Observations/Thoughts
 
