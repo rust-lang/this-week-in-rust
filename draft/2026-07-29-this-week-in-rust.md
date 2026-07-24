@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Writing a native Polars plugin in Rust: PII masking with no per-row Python](https://dev.to/fcarvajalbrown/writing-a-native-polars-plugin-in-rust-pii-masking-with-no-per-row-python-2co8)
+
 ### Research
 
 ### Miscellaneous
