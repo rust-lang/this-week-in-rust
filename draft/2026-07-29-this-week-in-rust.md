@@ -54,7 +54,8 @@ and just ask the editors to select the category.
 ### Miscellaneous
 
 ## Crate of the Week
-
+Nomination: [muskitty-html5-tokenizer](https://crates.io/crates/muskitty-html5-tokenizer)
+A `#![forbid(unsafe_code)]`, zero-dependency HTML5 tokenizer hitting 99.8% compliance with the WHATWG specification. As the core component of the MusKitty browser engine, it's battle-tested against the full WPT tokenization test suite. Ideal for anyone building HTML parsers, crawlers, static site generators, or custom rendering pipelines who needs a safe, spec-faithful tokenizer without heavy dependency bloat.
 <!-- COTW goes here -->
 
 [Please submit your suggestions and votes for next week][submit_crate]!
