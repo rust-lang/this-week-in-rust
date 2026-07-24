@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [napwatch: a ratatui TUI for diagnosing macOS "dark wakes" and background battery drain](https://github.com/Tuguberk/napwatch)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
