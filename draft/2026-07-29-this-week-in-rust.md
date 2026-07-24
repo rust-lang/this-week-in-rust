@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [How We Cut a Trading Bot's Reaction Time from ~2 Seconds to Milliseconds — by Moving Only the Hot Path to Rust](https://www.99francs.agency/blog/python-to-rust-trading-bot-migration)
 
 ### Rust Walkthroughs
 
