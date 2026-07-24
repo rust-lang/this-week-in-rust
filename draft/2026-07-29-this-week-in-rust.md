@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [video] [Rust Berlin Talks · 23/07/2026](https://www.youtube.com/watch?v=ut5EHZ2FK0c)
+
 ### Rust Walkthroughs
 
 ### Research
