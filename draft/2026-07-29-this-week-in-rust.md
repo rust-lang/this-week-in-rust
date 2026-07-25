@@ -217,6 +217,8 @@ Rusty Events between 2026-07-29 - 2026-08-26 🦀
     * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587)
 * 2026-08-02 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Rust Deep Learning: First Sunday**](https://www.meetup.com/dallasrust/events/314095294/)
+* 2026-08-03 | Virtual (Global) | [Rust Maven](https://luma.com/rust-maven)
+    * [**Workshop: Add tests to an open source Rust project**](https://luma.com/nwfmsdtf)
 * 2026-08-04 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
     * [**👋 Community Catch Up**](https://www.meetup.com/women-in-rust/events/315213885/)
 * 2026-08-05 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs)
