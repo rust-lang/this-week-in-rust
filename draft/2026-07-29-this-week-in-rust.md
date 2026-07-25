@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [hwatu](https://github.com/hongnoul/hwatu) - a visual verification browser for AI coding agents: a warm WebKitGTK daemon with 13 ms window spawn, one-call rendered page checks, pixel-diff scoring, and an MCP server.
 
 ### Observations/Thoughts
 
