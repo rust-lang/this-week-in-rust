@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [BrewFS: POSIX Files, Transactional Metadata, Object-Storage Scale](https://brewfs.ai/en/blog/introducing-brewfs) introduces [BrewFS](https://github.com/brewfs/brewfs), a Rust-native distributed filesystem positioning itself as a JuiceFS alternative, with stronger results in parts of its matched benchmark.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
