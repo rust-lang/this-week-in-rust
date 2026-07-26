@@ -53,6 +53,7 @@ and just ask the editors to select the category.
 * [kobe 0.37.0: easier to deploy and install](https://github.com/kunobi-ninja/kobe/releases/tag/v0.37.0) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/8482 submerge-pr=8482 sha=2c20ea05be7070d96e800743e4220e31ffa2166a author=emmanuelm41 title=Add kobe 0.37.0 to Project/Tooling Updates -->
 * [kache 0.12.0: pluggable remotes, smarter GC, sharper diagnostics](https://github.com/kunobi-ninja/kache/releases/tag/v0.12.0) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/8483 submerge-pr=8483 sha=1e093f8b34b76e663c5ea069b90a81bc4f0efc01 author=emmanuelm41 title=Add kache 0.12.0 to Project/Tooling Updates -->
 * [Progress toward compiling Linux with gccrs](https://lwn.net/SubscriberLink/1083202/f1ba926cd57ac5c5/) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/8489 submerge-pr=8489 sha=a17d21ae028fa949bba3cb2c829085eea8c050e7 author=ojeda title=Rust LWN articles -->
+* [samkhya 1.2 — a join-cardinality ceiling you can prove](https://singhpratech.github.io/samkhya/)
 
 ### Observations/Thoughts
 
