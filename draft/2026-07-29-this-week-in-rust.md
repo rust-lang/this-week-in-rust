@@ -245,6 +245,8 @@ Rusty Events between 2026-07-29 - 2026-08-26 🦀
     * [**​Rust Mumbai — July Meetup 🦀**](https://luma.com/7ksabwbm/)
 * 2026-07-26 | Pune, IN | [Rust Pune](https://www.meetup.com/rust-pune)
     * [**Rust Pune: July 2026**](https://www.meetup.com/rust-pune/events/315651505/)
+* 2026-08-22 | Noida, IN | [SciPy India](https://scipy.in/) X [Rust Delhi](https://rustdelhi.in/)
+    * [**Scientific Computing in Rust and Python**](https://scipy.in/sci-py-rs/)
 
 ### Europe
 * 2026-07-23 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin)
