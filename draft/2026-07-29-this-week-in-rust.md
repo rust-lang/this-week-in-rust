@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [CuNi 0.1.6: exact multi-target compile to Python, Go, and JavaScript (or refuse) — link interop tutorial](https://github.com/ceedot-rock/cuni/blob/v0.1.6/docs/LINK_TUTORIAL.md)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
