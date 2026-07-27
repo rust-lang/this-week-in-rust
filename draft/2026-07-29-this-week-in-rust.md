@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [wimux 0.1.0 — a native Windows terminal multiplexer in Rust](https://github.com/fabperso/wimux): persistent detached sessions over ConPTY, a TUI, a Tauri GUI and a scriptable CLI on one daemon, plus CDP-driveable browser panes.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
