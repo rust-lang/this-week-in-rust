@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Infinite Context Window for AI with Memory](https://mentedb.com/blog/infinite-context-window-for-ai-with-memory)
 
 ### Observations/Thoughts
 
