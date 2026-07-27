@@ -142,7 +142,22 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Several large improvements landed in the past week:
+
+* rustdoc is on average roughly 16% faster across all of our doc benchmarks:
+  * [rustdoc: Only inline impls for local primitives](https://github.com/rust-lang/rust/pull/159721), 7% faster doc builds
+  * [rustdoc: Only synthesize auto/blanket impls for documented items](https://github.com/rust-lang/rust/pull/159779), another 7% faster doc builds
+  * [rustdoc: Only build extern trait impls if needed](https://github.com/rust-lang/rust/pull/159623), another 10% faster doc builds
+* [Early removal of no-op panic handling in debug builds](https://github.com/rust-lang/rust/pull/143208). This speeds up Cargo by ~4% in cycle count.
+* [Optimize escape_string_symbol()](https://github.com/rust-lang/rust/pull/159609) sped
+  up large `include_bytes!`/`include_str!` through changes to string escaping, avoiding a regression in upcoming LLVM 23 upgrade.
+
+Great to see so many improvements!
+
+Triage done by **@simulacrum**.
+Revision range: [d527bc9b..ad0c9dce](https://perf.rust-lang.org/?start=d527bc9bfa297ca7fd7f5ae93781eeec42073170&end=ad0c9dce27a22416b65946bc0010edaf22ac6c83&absolute=false&stat=instructions%3Au)
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/main/triage/2026/2026-07-27.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
