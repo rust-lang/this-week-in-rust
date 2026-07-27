@@ -48,7 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
+* [video] [series] [What's Inside Axum?](https://www.youtube.com/watch?v=rBzPw6WurN0)
 ### Research
 
 ### Miscellaneous
