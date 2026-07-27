@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Built, not assembled](https://scalix.world/blog/built-not-assembled/)
 
 ### Rust Walkthroughs
 
