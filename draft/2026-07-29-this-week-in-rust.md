@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [cull: jq for HTML — CSS selectors in, JSON/CSV/Markdown out](https://dev.to/rashidathorne/cull-jq-for-html-css-selectors-in-jsoncsvmarkdown-out-5b0d)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
