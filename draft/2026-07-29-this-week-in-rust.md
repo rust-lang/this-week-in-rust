@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [mirador 0.7.0: a terminal dashboard in Rust and ratatui gains an offline `.ics` agenda, hand-parsed on jiff rather than adding 30 crates and 2.3 MB of dependencies](https://github.com/jchultarsky/mirador/releases/tag/v0.7.0)
 
 ### Observations/Thoughts
 
