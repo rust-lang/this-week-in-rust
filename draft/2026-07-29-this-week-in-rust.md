@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [MeigRSS: RSS open source reader in Rust + Tauri + Svelte 5 with AI summaries](https://github.com/GiulioMagini/MeigRSS)
 
 ### Observations/Thoughts
 
