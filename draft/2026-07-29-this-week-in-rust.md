@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [multicalc v0.9.0: Scientific computing for real time embedded systems in no_std rust](https://github.com/kmolan/multicalc-rust)
+* [multicalc v0.9.0: Scientific computing for real time embedded systems in no_std rust](https://github.com/kmolan/multicalc-rust/releases/tag/v0.9.0)
 * [video] [no_std particle filter localization + EKF sensor fusion + obstacle avoidance over a 1kHz loop rate](https://github.com/user-attachments/assets/93dee114-67f6-4124-a20d-88a8be50da6f)
 
 ### Observations/Thoughts
