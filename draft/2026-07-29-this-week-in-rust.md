@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [agent-console: a local terminal dashboard for Codex and Claude Code sessions](https://github.com/buhuipao/agent-console)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
