@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [kobe 0.37.0: easier to deploy and install](https://github.com/kunobi-ninja/kobe/releases/tag/v0.37.0)
 
 ### Observations/Thoughts
 
