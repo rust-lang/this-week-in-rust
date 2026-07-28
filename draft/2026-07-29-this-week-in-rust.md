@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [ESP32 Server: Distributing HTTP/2 streams over TLS](https://c410-f3r.github.io/thoughts/esp32-server-distributing-http2-streams-over-tls)
+
 ### Rust Walkthroughs
 
 ### Research
