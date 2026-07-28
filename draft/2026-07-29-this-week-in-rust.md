@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [kache 0.12.0: pluggable remotes, smarter GC, sharper diagnostics](https://github.com/kunobi-ninja/kache/releases/tag/v0.12.0)
 
 ### Observations/Thoughts
 
