@@ -46,7 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 * [wimux 0.1.0 — a native Windows terminal multiplexer in Rust](https://github.com/fabperso/wimux/releases/tag/v0.1.0): persistent detached sessions over ConPTY, a TUI, a Tauri GUI and a scriptable CLI on one daemon over a postcard protocol on named pipes, plus CDP-driveable browser panes. Release notes cover the architecture and three bugs worth reading about.
 ### Observations/Thoughts
-
+* [Three bugs my AI agents couldn't fix](https://dev.to/fabperso/three-bugs-my-ai-agents-couldnt-fix-13bn): most of a Rust terminal multiplexer was written by AI agents — a write-up of the three bugs they couldn't, covering server-side VT emulation, a focus race in a Tauri GUI, and IPC message flooding.
 ### Rust Walkthroughs
 
 ### Research
