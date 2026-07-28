@@ -44,7 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
-* [Kevat 0.3.0 — fast, resumable copy and move to external drives, now with a GUI on all three platforms](https://kevat.app)
+* [Kevat 0.3.0 — fast, resumable copy and move to external drives, now with a GUI on all three platforms](https://kevat.app/)
 
 ### Observations/Thoughts
 
