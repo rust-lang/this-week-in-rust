@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [flodl 0.7.0: one dashboard view, repeated at every level of a GPU cluster (Rust deep learning on libtorch)](https://flodl.dev/blog/then-i-looked-at-it)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
