@@ -46,6 +46,11 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Improving std::simd::swizzle_dyn](https://shnatsel.github.io/improving-std-simd-swizzle-dyn/)
+* [Query cycles: A compiler murder mystery](https://ferrous-systems.com/blog/query-cycles-a-compiler-murder-mystery/)
+* [GDPatch: a versatile Godot mod loader](https://notnite.com/blog/gdpatch)
+* [Memory Safety Absolutists](https://itsallaboutthebit.com/memory-safety-absolutists/)
+* [C++ to Rust Migration](https://blog.jetbrains.com/rust/2026/07/27/cpp-to-rust-migration/)
 
 ### Rust Walkthroughs
 
