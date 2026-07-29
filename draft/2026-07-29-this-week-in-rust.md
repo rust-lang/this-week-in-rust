@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [agent-console: a local terminal dashboard for Codex and Claude Code sessions](https://github.com/buhuipao/agent-console)
+* [Why I built a control plane for Codex and Claude Code instead of another AI chat UI](https://dev.to/buhuipao/why-i-built-a-control-plane-for-codex-and-claude-code-instead-of-another-ai-chat-ui-27hl)
 
 ### Observations/Thoughts
 
