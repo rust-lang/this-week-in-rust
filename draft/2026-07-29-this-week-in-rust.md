@@ -65,6 +65,7 @@ and just ask the editors to select the category.
 ### Rust Walkthroughs
 
 * [video] [series] [What's Inside Axum?](https://www.youtube.com/watch?v=rBzPw6WurN0) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/8474 submerge-pr=8474 sha=9df694959a639527840297987cba9e83234d7460 author=opeolluwa title=add video series -->
+* [series] [Rama 101.2: Core Concepts](https://plabayo.tech/blog/rama-101-2-core-concepts)
 
 ### Research
 
