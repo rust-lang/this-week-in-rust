@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [afrim 0.7.0: a generic input method framework](https://github.com/fodydev/afrim/releases/tag/v0.7.0)
 * [Sharing Rust build work across Cargo worktrees with cargo-reapi](https://github.com/TamedTornado/cargo-reapi/blob/main/docs/introducing-cargo-reapi.md)
 * [exiftool-rs 0.7.0: localizing ExifTool's PrintConv values, not just its labels](https://github.com/Le-Syl21/exiftool-rs/releases/tag/v0.7.0)
 * [Announcing SeaORM 2.0](https://www.sea-ql.org/blog/2026-07-27-sea-orm-2.0/)
