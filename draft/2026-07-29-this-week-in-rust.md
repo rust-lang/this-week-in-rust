@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 * [kache 0.12.0: pluggable remotes, smarter GC, sharper diagnostics](https://github.com/kunobi-ninja/kache/releases/tag/v0.12.0)
 * [Progress toward compiling Linux with gccrs](https://lwn.net/SubscriberLink/1083202/f1ba926cd57ac5c5/)
 * [flodl 0.7.0: one dashboard view, repeated at every level](https://flodl.dev/blog/then-i-looked-at-it)
+* [samkhya 1.2.1 — the join-cardinality ceiling becomes provable](https://github.com/singhpratech/samkhya/releases/tag/v1.2.1)
 
 ### Observations/Thoughts
 
