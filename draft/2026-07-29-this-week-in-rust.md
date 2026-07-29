@@ -43,28 +43,28 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
-* [Scientific Computing in Rust #20 (July 2026)](https://scientificcomputing.rs/monthly/2026-07) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/8458 submerge-pr=8458 sha=40a2e60fa3ea1f39612508f82b56935b50e59def author=trappitsch title=add scientific computing in rust monthly #20 -->
+* [Scientific Computing in Rust #20 (July 2026)](https://scientificcomputing.rs/monthly/2026-07)
 
 ### Project/Tooling Updates
 
-* [Sharing Rust build work across Cargo worktrees with cargo-reapi](https://github.com/TamedTornado/cargo-reapi/blob/main/docs/introducing-cargo-reapi.md) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/8448 submerge-pr=8448 sha=398ec52ef66fb1644763b9f001a1419a6ac10166 author=TamedTornado title=Add cargo-reapi tooling update -->
-* [exiftool-rs 0.7.0: localizing ExifTool's PrintConv values, not just its labels](https://github.com/Le-Syl21/exiftool-rs/releases/tag/v0.7.0) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/8449 submerge-pr=8449 sha=1fca7181f5f317739ad9ccd3bae3b3cbffb870a2 author=Le-Syl21 title=Add exiftool-rs 0.7.0 to Project/Tooling Updates -->
-* [Announcing SeaORM 2.0](https://www.sea-ql.org/blog/2026-07-27-sea-orm-2.0/) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/8475 submerge-pr=8475 sha=bd08dc453d36f5d5d0a382ff6ea4d4d81e2844ca author=tyt2y3 title=Announcing SeaORM 2.0 -->
-* [kobe 0.37.0: easier to deploy and install](https://github.com/kunobi-ninja/kobe/releases/tag/v0.37.0) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/8482 submerge-pr=8482 sha=2c20ea05be7070d96e800743e4220e31ffa2166a author=emmanuelm41 title=Add kobe 0.37.0 to Project/Tooling Updates -->
-* [kache 0.12.0: pluggable remotes, smarter GC, sharper diagnostics](https://github.com/kunobi-ninja/kache/releases/tag/v0.12.0) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/8483 submerge-pr=8483 sha=1e093f8b34b76e663c5ea069b90a81bc4f0efc01 author=emmanuelm41 title=Add kache 0.12.0 to Project/Tooling Updates -->
-* [Progress toward compiling Linux with gccrs](https://lwn.net/SubscriberLink/1083202/f1ba926cd57ac5c5/) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/8489 submerge-pr=8489 sha=a17d21ae028fa949bba3cb2c829085eea8c050e7 author=ojeda title=Rust LWN articles -->
+* [Sharing Rust build work across Cargo worktrees with cargo-reapi](https://github.com/TamedTornado/cargo-reapi/blob/main/docs/introducing-cargo-reapi.md)
+* [exiftool-rs 0.7.0: localizing ExifTool's PrintConv values, not just its labels](https://github.com/Le-Syl21/exiftool-rs/releases/tag/v0.7.0)
+* [Announcing SeaORM 2.0](https://www.sea-ql.org/blog/2026-07-27-sea-orm-2.0/)
+* [kobe 0.37.0: easier to deploy and install](https://github.com/kunobi-ninja/kobe/releases/tag/v0.37.0)
+* [kache 0.12.0: pluggable remotes, smarter GC, sharper diagnostics](https://github.com/kunobi-ninja/kache/releases/tag/v0.12.0)
+* [Progress toward compiling Linux with gccrs](https://lwn.net/SubscriberLink/1083202/f1ba926cd57ac5c5/)
 
 ### Observations/Thoughts
 
-* [High-Performance Flat 2D Arrays in Rust with SIMD, L1 Cache](https://developerlife.com/2026/07/14/build-high-performance-flat-2d-arrays-in-rust/) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/8450 submerge-pr=8450 sha=91ccbd903ce7435d4642e384d2ee866ade12bf83 author=nazmulidris title=Add article on using flat 2d arrays to leverage SIMD and L1 cache peformance in Rust -->
-* [Building Java–Rust Microservices with TeaQL: Models, Events, and Audit Intent](https://teaql.io/blog/java-rust-microservice-integration-with-teaql/) — Lessons from introducing an Axum payment service alongside Java: ownership, async state, decimal money, typed domain APIs, idempotency, and the limits of “no GC” performance claims. <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/8456 submerge-pr=8456 sha=3712a8cbbac58ab77a68496f68c545836b64f9e6 author=philipgreat title=Add Java–Rust microservice article to Observations/Thoughts -->
-* [video] [Rust Berlin Talks · 23/07/2026](https://www.youtube.com/watch?v=ut5EHZ2FK0c) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/8457 submerge-pr=8457 sha=03fa817af16b21796d70bcf6319bef3ea378fe64 author=orhun title=Add Rust Berlin Talks July recording -->
-* [How We Cut a Trading Bot's Reaction Time from ~2 Seconds to Milliseconds — by Moving Only the Hot Path to Rust](https://www.99francs.agency/blog/python-to-rust-trading-bot-migration) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/8461 submerge-pr=8461 sha=d61abc99ae9c4475a1108abceb59d5c25fe95821 author=avvinokurov title=Add article: moving only the hot path of a trading bot from Python to Rust -->
-* [ESP32 Server: Distributing HTTP/2 streams over TLS](https://c410-f3r.github.io/thoughts/esp32-server-distributing-http2-streams-over-tls) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/8486 submerge-pr=8486 sha=c1b7baf180706b07a0e76065c50c6a290ee49f27 author=c410-f3r title=Add article: Distributing HTTP/2 streams over TLS -->
+* [High-Performance Flat 2D Arrays in Rust with SIMD, L1 Cache](https://developerlife.com/2026/07/14/build-high-performance-flat-2d-arrays-in-rust/)
+* [Building Java–Rust Microservices with TeaQL: Models, Events, and Audit Intent](https://teaql.io/blog/java-rust-microservice-integration-with-teaql/) — Lessons from introducing an Axum payment service alongside Java: ownership, async state, decimal money, typed domain APIs, idempotency, and the limits of “no GC” performance claims.
+* [video] [Rust Berlin Talks · 23/07/2026](https://www.youtube.com/watch?v=ut5EHZ2FK0c)
+* [How We Cut a Trading Bot's Reaction Time from ~2 Seconds to Milliseconds — by Moving Only the Hot Path to Rust](https://www.99francs.agency/blog/python-to-rust-trading-bot-migration)
+* [ESP32 Server: Distributing HTTP/2 streams over TLS](https://c410-f3r.github.io/thoughts/esp32-server-distributing-http2-streams-over-tls)
 
 ### Rust Walkthroughs
 
-* [video] [series] [What's Inside Axum?](https://www.youtube.com/watch?v=rBzPw6WurN0) <!-- url=https://github.com/rust-lang/this-week-in-rust/pull/8474 submerge-pr=8474 sha=9df694959a639527840297987cba9e83234d7460 author=opeolluwa title=add video series -->
+* [video] [series] [What's Inside Axum?](https://www.youtube.com/watch?v=rBzPw6WurN0)
 
 ### Research
 
