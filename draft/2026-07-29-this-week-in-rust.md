@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [How I built a self-improving software factory in Rust](https://mrinal.com/articles/how-i-built-a-self-improving-software-factory/)
+
 ### Rust Walkthroughs
 
 ### Research
