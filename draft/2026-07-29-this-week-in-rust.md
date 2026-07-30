@@ -57,6 +57,7 @@ and just ask the editors to select the category.
 * [Progress toward compiling Linux with gccrs](https://lwn.net/SubscriberLink/1083202/f1ba926cd57ac5c5/)
 * [flodl 0.7.0: one dashboard view, repeated at every level](https://flodl.dev/blog/then-i-looked-at-it)
 * [samkhya 1.2.1 — the join-cardinality ceiling becomes provable](https://github.com/singhpratech/samkhya/releases/tag/v1.2.1)
+* [StromaDB 0.2.0: valid-time for many-edges, interval-valued timeline reads, incrementally maintained rule verdicts](https://github.com/katsut/stromadb/releases/tag/v0.2.0)
 
 ### Observations/Thoughts
 * [Improving std::simd::swizzle_dyn](https://shnatsel.github.io/improving-std-simd-swizzle-dyn/)
