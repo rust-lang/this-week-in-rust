@@ -302,12 +302,6 @@ Let us know if you would like your PRs, Tracking Issues or RFCs to be tracked as
 Rusty Events between 2026-07-29 - 2026-08-26 🦀
 
 ### Virtual
-* 2026-07-24 | Virtual (Girona, ES) | [Rust Girona](https://luma.com/rust-girona)
-    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/hd8mlw56)
-* 2026-07-28 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
-    * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/310254777/)
-* 2026-07-28 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc)
-    * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/315279653/)
 * 2026-07-30 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/312045928/)
 * 2026-07-31 | Virtual (Girona, ES) | [Rust Girona](https://luma.com/rust-girona)
@@ -342,26 +336,10 @@ Rusty Events between 2026-07-29 - 2026-08-26 🦀
     * [**Rust's extended standard library**](https://www.meetup.com/johannesburg-rust-meetup/events/315750593/)
 
 ### Asia
-* 2026-07-25 | Mumbai, IN | [Rust Mumbai](https://luma.com/mumbai)
-    * [**​Rust Mumbai — July Meetup 🦀**](https://luma.com/7ksabwbm/)
-* 2026-07-26 | Pune, IN | [Rust Pune](https://www.meetup.com/rust-pune)
-    * [**Rust Pune: July 2026**](https://www.meetup.com/rust-pune/events/315651505/)
 * 2026-08-22 | Noida, IN | [SciPy India](https://scipy.in/) X [Rust Delhi](https://rustdelhi.in/)
     * [**Scientific Computing in Rust and Python**](https://scipy.in/sci-py-rs/)
 
 ### Europe
-* 2026-07-23 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin)
-    * [**Rust Berlin Talks: The next generation**](https://www.meetup.com/rust-berlin/events/315484101/)
-* 2026-07-23 | London, UK | [Rust London User Group](https://www.meetup.com/rust-london-user-group)
-    * [**LDN Talks: July 2026 Antithesis Takeover**](https://www.meetup.com/rust-london-user-group/events/315612916/)
-* 2026-07-23 | London, UK | [London Rust Project Group](https://www.meetup.com/london-rust-project-group)
-    * [**Rama modular service framework for Rust**](https://www.meetup.com/london-rust-project-group/events/315366453/)
-* 2026-07-23 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris)
-    * [**Rust meetup #87**](https://www.meetup.com/rust-paris/events/315309633/)
-* 2026-07-25 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/stockholm-rust)
-    * [**Ferris' Fika Forum #28**](https://www.meetup.com/stockholm-rust/events/315749994/)
-* 2026-07-27 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
-    * [**Rust Meetup #20: Julian Dickert - Supply chain security in Rust: Evaluating crates for production**](https://rust-augsburg.github.io/meetup/Meetup_20.html)
 * 2026-07-29 | Poland, PL | [Rust Poland](https://www.meetup.com/rust-poland-meetup)
     * [**Rust Poland x Kraków #10**](https://www.meetup.com/rust-poland-meetup/events/315582674/)
 * 2026-07-30 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community)
@@ -374,18 +352,6 @@ Rusty Events between 2026-07-29 - 2026-08-26 🦀
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313816474/)
 
 ### North America
-* 2026-07-22 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx)
-    * [**Rust Lunch - Fareground**](https://www.meetup.com/rust-atx/events/xvkdgtyjckbdc/)
-* 2026-07-22 | Los Angeles, CA, US | [Rust Los Angeles](https://www.meetup.com/rust-los-angeles)
-    * [**Rust LA: Rust in Distributed Systems with Flight Science!**](https://www.meetup.com/rust-los-angeles/events/315376271/)
-* 2026-07-22 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/events/)
-    * [**Rust NYC: Write A Custom Coding Agent and wasm_zero**](https://www.meetup.com/rust-nyc/events/315636854/)
-* 2026-07-23 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
-    * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/315418155/)
-* 2026-07-25 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust)
-    * [**Porter Square Rust Lunch, July 25**](https://www.meetup.com/bostonrust/events/315582650/)
-* 2026-07-25 | Brooklyn, NY, US | [Flower](https://flowercomputer.com/)
-    * [**BOG-A-THON 2**](https://partiful.com/e/Vq9fyDNCMSO7ia4ulK5b)
 * 2026-07-30 | Atlanta, GA, US | [Rust Atlanta](https://www.meetup.com/rust-atl)
     * [**Rust-Atl**](https://www.meetup.com/rust-atl/events/313539329/)
 * 2026-08-01 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust)
@@ -408,8 +374,6 @@ Rusty Events between 2026-07-29 - 2026-08-26 🦀
     * [**Rust Bay Area August Meetup**](https://luma.com/00f2s7q9)
 
 ### Oceania
-* 2026-07-23 | Perth, AU | [Rust Perth Meetup Group](https://www.meetup.com/perth-rust-meetup-group)
-    * [**Rust Perth: July Meetup!**](https://www.meetup.com/perth-rust-meetup-group/events/315451138/)
 * 2026-07-30 | Melbourne, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne)
     * [**Rust Melbourne July 2026**](https://www.meetup.com/rust-melbourne/events/315039480/)
 
