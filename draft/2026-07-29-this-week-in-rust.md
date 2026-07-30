@@ -338,6 +338,8 @@ Rusty Events between 2026-07-29 - 2026-08-26 🦀
     * [**August, 2026 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/seattle-rust-user-group/events/314520814/)
 * 2026-08-20 | Virtual (Charlottesville, VA, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup)
     * [**Tock OS Part #5 — Wireless Communication with the IEEE 802.15.4 protocol**](https://www.meetup.com/charlottesville-rust-meetup/events/315733791/)
+* 2026-08-21 | Virtual (Girona, ES) | [Rust Girona](https://luma.com/rust-girona)
+    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/1bm27cah)
 * 2026-08-25 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/310254775/)
 
@@ -346,6 +348,8 @@ Rusty Events between 2026-07-29 - 2026-08-26 🦀
     * [**Rust's extended standard library**](https://www.meetup.com/johannesburg-rust-meetup/events/315750593/)
 
 ### Asia
+* 2026-08-22 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
+    * [**August 2026 Rustacean Meetup**](https://hasgeek.com/rustbangalore/august-2026-rustacean-meetup/)
 * 2026-08-22 | Delhi, IN | [Rust Delhi](https://www.meetup.com/rustdelhi)
     * [**Rust Delhi X SciPy India Meetup**](https://www.meetup.com/rustdelhi/events/315185336/)
 * 2026-08-22 | Noida, IN | [SciPy India](https://scipy.in/)
