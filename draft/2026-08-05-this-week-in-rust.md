@@ -45,6 +45,9 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [RSigma v0.20.0 release](https://github.com/timescale/rsigma/releases/tag/v0.20.0)
+* [The State of RSigma](https://mostafa.dev/the-state-of-rsigma-7ba0a99020d9), and [Part Two: The Loop](https://mostafa.dev/the-state-of-rsigma-part-two-the-loop-c114f379dd78)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
