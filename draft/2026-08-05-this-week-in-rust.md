@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Proxelar 0.5.0: sessions, rules, and more ways to capture traffic](https://micheletti.io/proxelar-050/)
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
