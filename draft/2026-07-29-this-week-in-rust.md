@@ -43,11 +43,39 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [Scientific Computing in Rust #20 (July 2026)](https://scientificcomputing.rs/monthly/2026-07)
+
 ### Project/Tooling Updates
 
+* [afrim 0.7.0: a generic input method framework](https://github.com/fodydev/afrim/releases/tag/v0.7.0)
+* [Sharing Rust build work across Cargo worktrees with cargo-reapi](https://github.com/TamedTornado/cargo-reapi/blob/main/docs/introducing-cargo-reapi.md)
+* [exiftool-rs 0.7.0: localizing ExifTool's PrintConv values, not just its labels](https://github.com/Le-Syl21/exiftool-rs/releases/tag/v0.7.0)
+* [Announcing SeaORM 2.0](https://www.sea-ql.org/blog/2026-07-27-sea-orm-2.0/)
+* [kobe 0.37.0: easier to deploy and install](https://github.com/kunobi-ninja/kobe/releases/tag/v0.37.0)
+* [kache 0.12.0: pluggable remotes, smarter GC, sharper diagnostics](https://github.com/kunobi-ninja/kache/releases/tag/v0.12.0)
+* [Progress toward compiling Linux with gccrs](https://lwn.net/SubscriberLink/1083202/f1ba926cd57ac5c5/)
+* [flodl 0.7.0: one dashboard view, repeated at every level](https://flodl.dev/blog/then-i-looked-at-it)
+* [samkhya 1.2.1 — the join-cardinality ceiling becomes provable](https://github.com/singhpratech/samkhya/releases/tag/v1.2.1)
+
 ### Observations/Thoughts
+* [Improving std::simd::swizzle_dyn](https://shnatsel.github.io/improving-std-simd-swizzle-dyn/)
+* [Query cycles: A compiler murder mystery](https://ferrous-systems.com/blog/query-cycles-a-compiler-murder-mystery/)
+* [GDPatch: a versatile Godot mod loader](https://notnite.com/blog/gdpatch)
+* [Memory Safety Absolutists](https://itsallaboutthebit.com/memory-safety-absolutists/)
+* [C++ to Rust Migration](https://blog.jetbrains.com/rust/2026/07/27/cpp-to-rust-migration/)
+
+* [High-Performance Flat 2D Arrays in Rust with SIMD, L1 Cache](https://developerlife.com/2026/07/14/build-high-performance-flat-2d-arrays-in-rust/)
+* [Building Java–Rust Microservices with TeaQL: Models, Events, and Audit Intent](https://teaql.io/blog/java-rust-microservice-integration-with-teaql/) — Lessons from introducing an Axum payment service alongside Java: ownership, async state, decimal money, typed domain APIs, idempotency, and the limits of “no GC” performance claims.
+* [video] [Rust Berlin Talks · 23/07/2026](https://www.youtube.com/watch?v=ut5EHZ2FK0c)
+* [How We Cut a Trading Bot's Reaction Time from ~2 Seconds to Milliseconds — by Moving Only the Hot Path to Rust](https://www.99francs.agency/blog/python-to-rust-trading-bot-migration)
+* [ESP32 Server: Distributing HTTP/2 streams over TLS](https://c410-f3r.github.io/thoughts/esp32-server-distributing-http2-streams-over-tls)
 
 ### Rust Walkthroughs
+
+* [No Tokens Yet Does Not Mean a Rust LLM Stream Is Safe to Retry](https://ai-router.hashnode.dev/rust-llm-stream-retry-safety)
+* [series] [Rama 101.2: Core Concepts](https://plabayo.tech/blog/rama-101-2-core-concepts)
+* [video] [series] [What's Inside Axum?](https://www.youtube.com/watch?v=rBzPw6WurN0)
+
 
 ### Research
 
@@ -55,7 +83,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [cargo-efmt](https://codeberg.org/filmroellchen/cargo-efmt), a drop-in replacement for cargo fmt to support `.editorconfig`.
+
+Thanks to [kleines Filmröllchen](https://users.rust-lang.org/t/crate-of-the-week/2704/1632) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -105,11 +135,113 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+570 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-07-21..2026-07-28
+
+#### Compiler
+* [apply RemoveNoopLandingPads post-monomorphization](https://github.com/rust-lang/rust/pull/143208)
+* [closures inherit `#[optimize]` from the enclosing function by default](https://github.com/rust-lang/rust/pull/158901)
+* [fix `bool` calling convention for aarch64, etc](https://github.com/rust-lang/rust/pull/159317)
+* [optimize `escape_string_symbol()`](https://github.com/rust-lang/rust/pull/159609)
+* [`proc_macro`: Fix `cfg_attr` inner attrs in file modules](https://github.com/rust-lang/rust/pull/159695)
+* [resolve: more preperation work for parallelizing the import resolution loop](https://github.com/rust-lang/rust/pull/159440)
+* [stabilize c-variadic function definitions](https://github.com/rust-lang/rust/pull/155697)
+
+#### Library
+* [constify `vec![1, 2, 3]` macro](https://github.com/rust-lang/rust/pull/155795)
+* [core: implement `Rng` for references](https://github.com/rust-lang/rust/pull/159435)
+* [define a `Simd` type in `minicore`](https://github.com/rust-lang/rust/pull/159656)
+* [implement `CovariantUnsafeCell`](https://github.com/rust-lang/rust/pull/159738)
+* [implement `str::copy_from_str`](https://github.com/rust-lang/rust/pull/159846)
+* [iter: extend `step_by` specialization to cover `StepBy<RangeIter<{integer}>>`](https://github.com/rust-lang/rust/pull/159518)
+* [move `std::io::buffered` to `alloc::io`](https://github.com/rust-lang/rust/pull/158547)
+* [num: improve error messages for `TryFromIntError`](https://github.com/rust-lang/rust/pull/156225)
+* [str: add ASCII fast path to `word_to_titlecase`](https://github.com/rust-lang/rust/pull/159271)
+* [switch implementations of `thread_local!` for WASI](https://github.com/rust-lang/rust/pull/159733)
+
+#### Cargo
+* [add haiku's dylib path](https://github.com/rust-lang/cargo/pull/17248)
+* [`diag`: bound transitive unused dependency traversal](https://github.com/rust-lang/cargo/pull/17251)
+* [`git`: Hide git fetch output without progress](https://github.com/rust-lang/cargo/pull/17243)
+* [`git`: Suggest libgit2 if git-cli fails](https://github.com/rust-lang/cargo/pull/17252)
+* [`test`: gate trim-paths tests on split debuginfo support](https://github.com/rust-lang/cargo/pull/17256)
+* [`toml`: warn on hyphenated lint names and duplicates](https://github.com/rust-lang/cargo/pull/17051)
+* [allow setting `-Zembed-metadata` value from the config](https://github.com/rust-lang/cargo/pull/17266)
+* [enable build-dir layout v2 on nightly by default](https://github.com/rust-lang/cargo/pull/17258)
+* [zsh completion: Add `-p` and `--package` flags for `cargo add`](https://github.com/rust-lang/cargo/pull/17247)
+
+#### Rustfmt
+* [allow file not found errors for external mods annotated with `#[my_macro]`](https://github.com/rust-lang/rust/pull/159737)
+* [discover modules via `cfg_select!`](https://github.com/rust-lang/rust/pull/158372)
+
+#### Rustdoc
+* [add paths for linked associated items](https://github.com/rust-lang/rust/pull/156474)
+* [Retrieve `cfg_attr` information for derived impls for `doc_cfg` feature](https://github.com/rust-lang/rust/pull/159722)
+* [only build extern trait impls if needed](https://github.com/rust-lang/rust/pull/159623)
+* [only inline impls for local primitives](https://github.com/rust-lang/rust/pull/159721)
+
+#### Clippy
+* [add `EULER_GAMMA` and `GOLDEN_RATIO` to `approx_constant`](https://github.com/rust-lang/rust-clippy/pull/17441)
+* [add `assert_is_empty` lint](https://github.com/rust-lang/rust-clippy/pull/17149)
+* [apply safety comment to compound assignment statement](https://github.com/rust-lang/rust-clippy/pull/17044)
+* [`blocks_in_conditions`: Don't lint if the block creates temporarie…](https://github.com/rust-lang/rust-clippy/pull/17420)
+* [call `in_external_macro` after running other checks in various places](https://github.com/rust-lang/rust-clippy/pull/17294)
+* [do not trigger `clippy::exit` when expression comes from an external macro](https://github.com/rust-lang/rust-clippy/pull/17105)
+* [`duration_suboptimal_units`: print the complete method name in the suggestion](https://github.com/rust-lang/rust-clippy/pull/17002)
+* [extend `branches_sharing_code` to match arms with a shared tail](https://github.com/rust-lang/rust-clippy/pull/17313)
+* [`min_ident_chars` lint short idents even if follows trait naming](https://github.com/rust-lang/rust-clippy/pull/16741)
+* [`multiple_unsafe_ops_per_block`: false positive in with taking an reference to a static, but not reading/writing it](https://github.com/rust-lang/rust-clippy/pull/17461)
+* [fix `four_forward_slashes` false positive on inner doc comments](https://github.com/rust-lang/rust-clippy/pull/17448)
+* [`lint-page`: add accessible labels to filters](https://github.com/rust-lang/rust-clippy/pull/17434)
+* [new lint: `nonnull_unchecked_on_box_ptr`](https://github.com/rust-lang/rust-clippy/pull/17336)
+* [perf: avoid per-call type and path work in `unnecessary_mut_passed`](https://github.com/rust-lang/rust-clippy/pull/17227)
+* [perf: find tab groups in doc comments without allocating](https://github.com/rust-lang/rust-clippy/pull/17410)
+* [rewrite `EndianBytes` lint pass](https://github.com/rust-lang/rust-clippy/pull/17363)
+
+#### Rust-Analyzer
+* [add diagnostic for `struct` patterns which don't specify sub-patterns for its fields](https://github.com/rust-lang/rust-analyzer/pull/22851)
+* [add parentheses for invert general expression](https://github.com/rust-lang/rust-analyzer/pull/22898)
+* [attach db on worker threads in parallel analysis-stats inference](https://github.com/rust-lang/rust-analyzer/pull/22905)
+* [change unsupported toolchain version to match reality](https://github.com/rust-lang/rust-analyzer/pull/22876)
+* [discover protocol should only parse stdout](https://github.com/rust-lang/rust-analyzer/pull/22903)
+* [do not detect `#[rust_analyzer]` as `#[rust_analyzer::rust_fixture]`](https://github.com/rust-lang/rust-analyzer/pull/22881)
+* [don't offer `replace_qualified_name_with_use` on an unqualified path](https://github.com/rust-lang/rust-analyzer/pull/22919)
+* [don't panic on a qualified path whose trait is not a trait](https://github.com/rust-lang/rust-analyzer/pull/22930)
+* [don't pick a discriminant type larger than typeck's](https://github.com/rust-lang/rust-analyzer/pull/22932)
+* [fix stale lock file](https://github.com/rust-lang/rust-analyzer/pull/22908)
+* [fix `.zip(None)` call](https://github.com/rust-lang/rust-analyzer/pull/22924)
+* [give `impl_trait_with_diagnostics` a cycle result](https://github.com/rust-lang/rust-analyzer/pull/22923)
+* [make analysis-stats progress bar Unicode-safe](https://github.com/rust-lang/rust-analyzer/pull/22909)
+* [`merge_imports` panic on invalid paths](https://github.com/rust-lang/rust-analyzer/pull/22892)
+* [panic on macro-defined structs with unknown fields](https://github.com/rust-lang/rust-analyzer/pull/22843)
+* [prefer `alloc` over `std` paths when `preferNoStd` is set](https://github.com/rust-lang/rust-analyzer/pull/22918)
+* [record obligation chain for unimplemented trait diagnostics and show it](https://github.com/rust-lang/rust-analyzer/pull/22854)
+* [replace detach with delete for `ast::IdentPat`](https://github.com/rust-lang/rust-analyzer/pull/22916)
+* [resolve path on all namespace on `resolve_path`](https://github.com/rust-lang/rust-analyzer/pull/22743)
+* [respect `references.exclude[Tests/Imports]` in references lens](https://github.com/rust-lang/rust-analyzer/pull/22660)
+* [scoped lazy priming](https://github.com/rust-lang/rust-analyzer/pull/22587)
+* [support inactive-code diagnostic in macros](https://github.com/rust-lang/rust-analyzer/pull/22306)
+* [uses bool instead pat ty in guard](https://github.com/rust-lang/rust-analyzer/pull/22896)
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Several large improvements landed in the past week:
+
+* rustdoc is on average roughly 16% faster across all of our doc benchmarks:
+  * [rustdoc: Only inline impls for local primitives](https://github.com/rust-lang/rust/pull/159721), 7% faster doc builds
+  * [rustdoc: Only synthesize auto/blanket impls for documented items](https://github.com/rust-lang/rust/pull/159779), another 7% faster doc builds
+  * [rustdoc: Only build extern trait impls if needed](https://github.com/rust-lang/rust/pull/159623), another 10% faster doc builds
+* [Early removal of no-op panic handling in debug builds](https://github.com/rust-lang/rust/pull/143208). This speeds up Cargo by ~4% in cycle count.
+* [Optimize escape_string_symbol()](https://github.com/rust-lang/rust/pull/159609) sped
+  up large `include_bytes!`/`include_str!` through changes to string escaping, avoiding a regression in upcoming LLVM 23 upgrade.
+
+Great to see so many improvements!
+
+Triage done by **@simulacrum**.
+Revision range: [d527bc9b..ad0c9dce](https://perf.rust-lang.org/?start=d527bc9bfa297ca7fd7f5ae93781eeec42073170&end=ad0c9dce27a22416b65946bc0010edaf22ac6c83&absolute=false&stat=instructions%3Au)
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/main/triage/2026/2026-07-27.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -184,6 +316,8 @@ Rusty Events between 2026-07-29 - 2026-08-26 🦀
     * [**Rust Circle Meetup**](https://www.eventbrite.com/e/rust-circle-meetup-tickets-628763176587)
 * 2026-08-02 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Rust Deep Learning: First Sunday**](https://www.meetup.com/dallasrust/events/314095294/)
+* 2026-08-03 | Virtual (Global) | [Rust Maven](https://luma.com/rust-maven)
+    * [**Workshop: Add tests to an open source Rust project**](https://luma.com/nwfmsdtf)
 * 2026-08-04 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
     * [**👋 Community Catch Up**](https://www.meetup.com/women-in-rust/events/315213885/)
 * 2026-08-05 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs)
@@ -212,6 +346,8 @@ Rusty Events between 2026-07-29 - 2026-08-26 🦀
     * [**​Rust Mumbai — July Meetup 🦀**](https://luma.com/7ksabwbm/)
 * 2026-07-26 | Pune, IN | [Rust Pune](https://www.meetup.com/rust-pune)
     * [**Rust Pune: July 2026**](https://www.meetup.com/rust-pune/events/315651505/)
+* 2026-08-22 | Noida, IN | [SciPy India](https://scipy.in/) X [Rust Delhi](https://rustdelhi.in/)
+    * [**Scientific Computing in Rust and Python**](https://scipy.in/sci-py-rs/)
 
 ### Europe
 * 2026-07-23 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin)
@@ -268,6 +404,8 @@ Rusty Events between 2026-07-29 - 2026-08-26 🦀
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/314997215/)
 * 2026-08-19 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
     * [**Dealing with Dependencies**](https://www.meetup.com/vancouver-rust/events/314105333/)
+* 2026-08-19 | San Francisco, CA, US | [Rust Bay Area](https://luma.com/bayarearust)
+    * [**Rust Bay Area August Meetup**](https://luma.com/00f2s7q9)
 
 ### Oceania
 * 2026-07-23 | Perth, AU | [Rust Perth Meetup Group](https://www.meetup.com/perth-rust-meetup-group)
@@ -292,7 +430,15 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> So let's talk about what the process has looked like for Netstack3. For 11 months, the team has been ramping up a dogfooding program. At peak, that program has seen about 60 devices running nearly 24/7 in developers' homes.
+>
+> Again, if this were any other netstack, we would have expected to uncover a giant mountain of bugs in that time. So, over the past year, how many bugs did the team uncover in the field?
+>
+> Three.
+
+– [Josh Liebow-Feeser on his blog](https://joshlf.com/posts/safety-unsafe-world/)
+
+llogiq again has no one to thank for a suggestion, so he is thankful to himself for finding this quote instead.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
