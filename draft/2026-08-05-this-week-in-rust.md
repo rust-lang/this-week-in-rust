@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Why modern font metrics cannot reproduce Word pagination](https://oxi-dd65f4.gitlab.io/articles/word-pagination-gdi-rounding.html)
 
 ### Research
 
