@@ -58,6 +58,11 @@ and just ask the editors to select the category.
 * [samkhya 1.2.1 — the join-cardinality ceiling becomes provable](https://github.com/singhpratech/samkhya/releases/tag/v1.2.1)
 
 ### Observations/Thoughts
+* [Improving std::simd::swizzle_dyn](https://shnatsel.github.io/improving-std-simd-swizzle-dyn/)
+* [Query cycles: A compiler murder mystery](https://ferrous-systems.com/blog/query-cycles-a-compiler-murder-mystery/)
+* [GDPatch: a versatile Godot mod loader](https://notnite.com/blog/gdpatch)
+* [Memory Safety Absolutists](https://itsallaboutthebit.com/memory-safety-absolutists/)
+* [C++ to Rust Migration](https://blog.jetbrains.com/rust/2026/07/27/cpp-to-rust-migration/)
 
 * [High-Performance Flat 2D Arrays in Rust with SIMD, L1 Cache](https://developerlife.com/2026/07/14/build-high-performance-flat-2d-arrays-in-rust/)
 * [Building Java–Rust Microservices with TeaQL: Models, Events, and Audit Intent](https://teaql.io/blog/java-rust-microservice-integration-with-teaql/) — Lessons from introducing an Axum payment service alongside Java: ownership, async state, decimal money, typed domain APIs, idempotency, and the limits of “no GC” performance claims.
