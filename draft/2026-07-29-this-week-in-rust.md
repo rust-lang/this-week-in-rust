@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [BrewFS: a Rust and JuiceFS-like distributed filesystem](https://brewfs.ai/en/blog/introducing-brewfs) 
 * [afrim 0.7.0: a generic input method framework](https://github.com/fodydev/afrim/releases/tag/v0.7.0)
 * [Sharing Rust build work across Cargo worktrees with cargo-reapi](https://github.com/TamedTornado/cargo-reapi/blob/main/docs/introducing-cargo-reapi.md)
 * [exiftool-rs 0.7.0: localizing ExifTool's PrintConv values, not just its labels](https://github.com/Le-Syl21/exiftool-rs/releases/tag/v0.7.0)
@@ -63,7 +64,6 @@ and just ask the editors to select the category.
 * [GDPatch: a versatile Godot mod loader](https://notnite.com/blog/gdpatch)
 * [Memory Safety Absolutists](https://itsallaboutthebit.com/memory-safety-absolutists/)
 * [C++ to Rust Migration](https://blog.jetbrains.com/rust/2026/07/27/cpp-to-rust-migration/)
-
 * [High-Performance Flat 2D Arrays in Rust with SIMD, L1 Cache](https://developerlife.com/2026/07/14/build-high-performance-flat-2d-arrays-in-rust/)
 * [Building Java–Rust Microservices with TeaQL: Models, Events, and Audit Intent](https://teaql.io/blog/java-rust-microservice-integration-with-teaql/) — Lessons from introducing an Axum payment service alongside Java: ownership, async state, decimal money, typed domain APIs, idempotency, and the limits of “no GC” performance claims.
 * [video] [Rust Berlin Talks · 23/07/2026](https://www.youtube.com/watch?v=ut5EHZ2FK0c)
