@@ -34,6 +34,8 @@ submerge fetch
 
 This will print a list of PRs which are being placed into your local draft copy, as well as the PRs which are not (and a reason for each of the latter).
 
+Note this only fetches PRs which add a single community link and are passing CI. If other cases become common we could extend this!
+
 ### Edit the draft to reorder, remove, or adjust submissions
 Keep the comment metadata attached to each link as you move/edit. The metadata itself shouldn't be edited.
 

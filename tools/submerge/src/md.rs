@@ -1,20 +1,21 @@
 use anyhow::{Result, anyhow, bail};
+use log::debug;
 use pulldown_cmark::{Event, HeadingLevel, Parser as MarkdownParser, Tag, TagEnd};
+use similar::{Algorithm, DiffOp, capture_diff_slices};
 use std::ops::Range;
 
 const COMMUNITY_HEADING: &str = "Updates from Rust Community";
 
-#[derive(Debug, Clone, PartialEq, Eq)]
+#[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub(crate) struct ListItem {
     pub(crate) section: Option<String>,
     pub(crate) item: String,
 }
 
-#[derive(Debug, Clone)]
-struct ComparableEvent {
-    event: Event<'static>,
-    range: Range<usize>,
-    section: Option<String>,
+#[derive(Debug, Clone, PartialEq, Eq, Hash)]
+enum ComparableEvent {
+    ListItem(ListItem),
+    Raw(String),
 }
 
 #[derive(Default)]
@@ -79,128 +80,58 @@ pub(crate) fn find_single_added_community_list_item(
 ) -> Result<ListItem> {
     let base_events = comparable_events(base_text);
     let head_events = comparable_events(head_text);
-    let inserted_range = changed_event_range(&base_events, &head_events)?;
-    let item = single_inserted_item(head_text, &head_events[inserted_range])?;
+
+    debug!("base_events: {base_events:?}");
+    debug!("head_events: {head_events:?}");
+
+    let item = single_inserted_item(&base_events, &head_events)?;
     if item.section.is_none() {
         bail!("does not add a valid community list item");
     }
     Ok(item)
 }
 
-fn changed_event_range(old: &[ComparableEvent], new: &[ComparableEvent]) -> Result<Range<usize>> {
-    let prefix_len = old
-        .iter()
-        .zip(new)
-        .take_while(|(old, new)| old.event == new.event)
-        .count();
-
-    let suffix_len = old[prefix_len..]
-        .iter()
-        .rev()
-        .zip(new[prefix_len..].iter().rev())
-        .take_while(|(old, new)| old.event == new.event)
-        .count();
-
-    let old_changed = prefix_len..old.len() - suffix_len;
-    let new_changed = prefix_len..new.len() - suffix_len;
-    if old_changed.is_empty() {
-        Ok(new_changed)
-    } else if event_range_contains_item(&new[new_changed]) {
-        let base_has_item = event_range_contains_item(&old[old_changed]);
-        if base_has_item {
-            bail!("adds to an existing markdown list item");
-        }
-        bail!("adds multiple blocks");
-    } else {
-        bail!("changes existing markdown content");
-    }
-}
-
-fn event_range_contains_item(events: &[ComparableEvent]) -> bool {
-    events
-        .iter()
-        .any(|event| event.event == Event::Start(Tag::Item))
-}
-
-fn single_inserted_item(text: &str, events: &[ComparableEvent]) -> Result<ListItem> {
-    let mut start_list_seen = false;
-    let mut end_list_seen = false;
-    let mut item_depth = 0;
-    let mut item_start = None;
-    let mut item_end = None;
-    let mut item_section = None;
-
-    for event in events {
-        match &event.event {
-            Event::Start(Tag::List(_)) if item_start.is_none() => {
-                if start_list_seen {
-                    bail!("adds multiple blocks");
+fn single_inserted_item(
+    base_events: &[ComparableEvent],
+    head_events: &[ComparableEvent],
+) -> Result<ListItem> {
+    let mut inserted = None;
+    for op in capture_diff_slices(Algorithm::Myers, base_events, head_events) {
+        match op {
+            DiffOp::Equal { .. } => {}
+            DiffOp::Delete { .. } => bail!("submission deletes existing content"),
+            DiffOp::Insert {
+                new_index,
+                new_len: 1,
+                ..
+            } => {
+                // inserts exactly one thing
+                if inserted.is_some() {
+                    bail!("submission inserts multiple items");
                 }
-                start_list_seen = true;
-            }
-            Event::End(TagEnd::List(_)) if item_end.is_some() => {
-                if end_list_seen {
-                    bail!("adds multiple blocks");
-                }
-                end_list_seen = true;
-            }
-            Event::Start(Tag::Item) => {
-                if item_start.is_none() && item_is_indented(text, event.range.start) {
-                    bail!("adds to an existing markdown list item");
-                }
-                item_depth += 1;
-                if item_depth == 1 {
-                    if item_start.replace(event.range.start).is_some() {
-                        bail!("adds multiple blocks");
-                    }
-                    item_section = event.section.clone();
+
+                if let ComparableEvent::ListItem(item) = &head_events[new_index] {
+                    inserted = Some(item.clone());
                 }
             }
-            Event::End(TagEnd::Item) => {
-                if item_depth == 0 {
-                    bail!("changes existing markdown content");
-                }
-                if item_depth == 1 {
-                    item_end = Some(event.range.end);
-                }
-                item_depth -= 1;
-            }
-            _ if item_start.is_some() && item_end.is_none() => {}
-            _ => bail!("adds multiple blocks"),
+            DiffOp::Insert { .. } => bail!("submission inserts unexpected content"),
+            DiffOp::Replace { .. } => bail!("submission edits existing content"),
         }
     }
 
-    if item_depth != 0 {
-        bail!("changes existing markdown content");
-    }
-    let start = item_start.ok_or_else(|| anyhow!("does not add a valid community list item"))?;
-    let end = item_end.ok_or_else(|| anyhow!("does not add a valid community list item"))?;
-    let item_text = text
-        .get(start..end)
-        .map(str::trim_end)
-        .ok_or_else(|| anyhow!("could not locate added item in head draft"))?;
-    Ok(ListItem {
-        section: item_section,
-        item: item_text.to_string(),
-    })
+    inserted.ok_or(anyhow!("no list item inserted"))
 }
 
-fn item_is_indented(text: &str, item_start: usize) -> bool {
-    let line_start = text[..item_start]
-        .rfind('\n')
-        .map(|index| index + 1)
-        .unwrap_or(0);
-    text[line_start..item_start]
-        .chars()
-        .any(|ch| !matches!(ch, ' ' | '\t'))
-        || item_start > line_start
-}
-
+/// Produce a list of events, normalized to chunks of non-list-item content
+/// (with whitespace changes ignored)
+/// and top-level list items, so we can then easily find added list items.
 fn comparable_events(text: &str) -> Vec<ComparableEvent> {
     let mut events = Vec::new();
     let mut sections = SectionTracker::default();
 
-    for (event, range) in MarkdownParser::new(text).into_offset_iter() {
+    let mut md_events = MarkdownParser::new(text).into_offset_iter();
+    while let Some((event, range)) = md_events.next() {
+        debug!("Processing {event:?}");
         match &event {
             Event::Start(Tag::Heading { level, .. }) => {
                 sections.start_heading(*level);
@@ -223,61 +154,56 @@ fn comparable_events(text: &str) -> Vec<ComparableEvent> {
             _ => {}
         }
 
-        if !sections.in_heading()
-            && let Some(event) = meaningful_event(&event)
-        {
-            events.push(ComparableEvent {
-                event,
-                range,
-                section: sections.current_section(),
-            });
+        if !sections.in_heading() {
+            match event {
+                // ignore added/removed lists (the items are what matter)
+                Event::Start(Tag::List(_)) | Event::End(TagEnd::List(_)) => {}
+                // skip newlines
+                Event::SoftBreak | Event::HardBreak => {}
+                Event::Start(Tag::Item) => {
+                    // Collect the (possibly-nested) list item into a single thing to compare
+                    let start_range = range.clone();
+                    fn end_of_item<'a, I: Iterator<Item = (Event<'a>, Range<usize>)>>(
+                        iter: &mut I,
+                    ) -> Option<Range<usize>> {
+                        // find the end:
+                        let mut nesting = 1;
+                        for (e, range) in iter.by_ref() {
+                            match e {
+                                Event::Start(Tag::Item) => nesting += 1,
+                                Event::End(TagEnd::Item) => nesting -= 1,
+                                _ => {}
+                            }
+                            if nesting == 0 {
+                                return Some(range);
+                            }
+                        }
+                        None
+                    }
+
+                    let end_range = end_of_item(&mut md_events).expect("list item has an end");
+                    let text = &text[start_range.start..end_range.end];
+                    events.push(ComparableEvent::ListItem(ListItem {
+                        section: sections.current_section(),
+                        item: text.trim().into(),
+                    }));
+                }
+                _ => events.push(ComparableEvent::Raw(text[range].into())),
+            }
         }
     }
 
     events
 }
 
-fn meaningful_event(event: &Event<'_>) -> Option<Event<'static>> {
-    match event {
-        Event::SoftBreak | Event::HardBreak => None,
-        _ => Some(event.clone().into_static()),
-    }
-}
-
 fn markdown_list_items(text: &str) -> Vec<ListItem> {
-    let events = comparable_events(text);
-    let mut items = Vec::new();
-    let mut item_depth = 0;
-    let mut item_start = None;
-    let mut item_section = None;
-
-    for event in events {
-        match event.event {
-            Event::Start(Tag::Item) => {
-                item_depth += 1;
-                if item_depth == 1 {
-                    item_start = Some(event.range.start);
-                    item_section = event.section;
-                }
-            }
-            Event::End(TagEnd::Item) => {
-                if item_depth == 1
-                    && let Some(start) = item_start.take()
-                    && let Some(item_text) = text.get(start..event.range.end).map(str::trim_end)
-                    && !item_text.is_empty()
-                {
-                    items.push(ListItem {
-                        section: item_section.take(),
-                        item: item_text.to_string(),
-                    });
-                }
-                item_depth -= 1;
-            }
-            _ => {}
-        }
-    }
-
-    items
+    comparable_events(text)
+        .into_iter()
+        .filter_map(|e| match e {
+            ComparableEvent::ListItem(i) => Some(i),
+            _ => None,
+        })
+        .collect()
 }
 
 pub(crate) fn is_single_list_item(item: &str) -> bool {
