@@ -62,10 +62,10 @@ and just ask the editors to select the category.
 * [Memory Safety Absolutists](https://itsallaboutthebit.com/memory-safety-absolutists/)
 * [C++ to Rust Migration](https://blog.jetbrains.com/rust/2026/07/27/cpp-to-rust-migration/)
 * [High-Performance Flat 2D Arrays in Rust with SIMD, L1 Cache](https://developerlife.com/2026/07/14/build-high-performance-flat-2d-arrays-in-rust/)
-* [Building Java–Rust Microservices with TeaQL: Models, Events, and Audit Intent](https://teaql.io/blog/java-rust-microservice-integration-with-teaql/) — Lessons from introducing an Axum payment service alongside Java: ownership, async state, decimal money, typed domain APIs, idempotency, and the limits of “no GC” performance claims.
-* [video] [Rust Berlin Talks · 23/07/2026](https://www.youtube.com/watch?v=ut5EHZ2FK0c)
+* [Building Java–Rust Microservices with TeaQL: Models, Events, and Audit Intent](https://teaql.io/blog/java-rust-microservice-integration-with-teaql/)
 * [How We Cut a Trading Bot's Reaction Time from ~2 Seconds to Milliseconds — by Moving Only the Hot Path to Rust](https://www.99francs.agency/blog/python-to-rust-trading-bot-migration)
 * [ESP32 Server: Distributing HTTP/2 streams over TLS](https://c410-f3r.github.io/thoughts/esp32-server-distributing-http2-streams-over-tls)
+* [video] [Rust Berlin Talks · 23/07/2026](https://www.youtube.com/watch?v=ut5EHZ2FK0c)
 
 ### Rust Walkthroughs
 
