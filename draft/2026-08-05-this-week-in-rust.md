@@ -44,8 +44,10 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [wimux 0.1.0: a native Windows terminal multiplexer](https://github.com/fabperso/wimux/releases/tag/v0.1.0)
 
 ### Observations/Thoughts
+* [Three bugs my AI agents couldn't fix](https://dev.to/fabperso/three-bugs-my-ai-agents-couldnt-fix-13bn)
 
 ### Rust Walkthroughs
 
