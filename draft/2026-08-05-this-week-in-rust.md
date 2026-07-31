@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Building hooklog on a six-day-old framework](https://github.com/JuanMarchetto/hooklog/blob/main/ARTICLE.md)
+
 ### Research
 
 ### Miscellaneous
