@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing `webrtc` v0.20.0: Async-Friendly, Runtime-Agnostic WebRTC on Sans-I/O Core `rtc`](https://webrtc.rs/blog/2026/07/31/announcing-webrtc-v0.20.0.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
