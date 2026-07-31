@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Stateless Servers, Stateful Payloads: Sessions vs Continuations, Measured in Rust](https://dmitrii.app/stateless-servers-stateful-payloads-sessions-vs-continuations-measured-in-rust/)
+
 ### Rust Walkthroughs
 
 ### Research
