@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [mirador 1.0.0: a personal terminal dashboard](https://github.com/jchultarsky/mirador/releases/tag/v1.0.0)
 
 ### Observations/Thoughts
 
