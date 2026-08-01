@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [amtr: a btop-style context-window monitor for Claude Code sessions, and the forensic autopsy of its own 153-hour build](https://github.com/arian-shamaei/anthropometer/tree/main/docs/autopsy)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
