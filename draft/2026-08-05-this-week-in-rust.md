@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [worbrow 0.2.1](https://github.com/noisystreet/worbrow/releases/tag/v0.2.1) - Agent search CLI driving local headless browsers (self-built CDP/Marionette protocols, no API key) with a stable JSON contract and native MCP tools (web_search / fetch_page)
 
 ### Observations/Thoughts
 
