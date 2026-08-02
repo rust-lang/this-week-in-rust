@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [vairedb 0.1.0](https://github.com/matteobovetti/vairedb/releases/tag/v0.1.0) - VaireDB v0.1.0 is out — our first release! A cloud-native distributed SQL database: PostgreSQL wire compatibility + DuckDB's vectorized engine for analytics at scale. Hash sharding, quorum writes, column pseudonymization.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
