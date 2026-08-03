@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rewriting FalkorDB in Rust](https://www.falkordb.com/blog/rewriting-falkordb-in-rust/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
