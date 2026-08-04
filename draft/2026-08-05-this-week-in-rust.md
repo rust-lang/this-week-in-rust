@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [video] [Rust in the age of Generative AI with Niko, Allen & Zeeshan](https://www.youtube.com/watch?v=2937MGszrak)
 
 ### Rust Walkthroughs
 
