@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [mvis v0.5.0: CI/CD Profiling & Allocation Histograms](https://dev.to/sicklefire/mvis-v050-new-release-5997)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
