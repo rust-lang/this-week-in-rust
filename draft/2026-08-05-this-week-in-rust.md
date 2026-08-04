@@ -249,6 +249,8 @@ Rusty Events between 2026-08-05 - 2026-09-02 🦀
     * [**Rust's extended standard library**](https://www.meetup.com/johannesburg-rust-meetup/events/315750593/)
 
 ### Asia
+* 2026-08-10 | Kuala Lumpur, MY | [Rust Meetup Malaysia](https://forms.gle/hUPPBHEReEGx9oQd7)
+    * [**Rust Malaysia Meetup**](https://forms.gle/hUPPBHEReEGx9oQd7)
 * 2026-08-22 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**August 2026 Rustacean Meetup**](https://hasgeek.com/rustbangalore/august-2026-rustacean-meetup/)
 * 2026-08-22 | Delhi, IN | [Rust Delhi](https://www.meetup.com/rustdelhi)
