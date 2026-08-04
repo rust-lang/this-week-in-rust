@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [BitFun 0.2.15: an open-source desktop AI agent built on a Rust runtime](https://github.com/GCWing/BitFun/releases/tag/v0.2.15)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
