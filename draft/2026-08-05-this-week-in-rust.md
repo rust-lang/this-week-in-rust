@@ -142,7 +142,27 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+
+A lot of optimizations landed this week. Some big improvements to rustdoc in [#159854](https://github.com/rust-lang/rust/pull/159854), one big improvement in control flow graph traversal for `cranelift-codegen`, few more improvements to next-solver benchmarks and various other micro-optimizations, bringing the total to a nice round number of 10 improvements this week.
+
+Triage done by **@panstromek**.
+Revision range: [ad0c9dce..65dd30fb](https://perf.rust-lang.org/?start=ad0c9dce27a22416b65946bc0010edaf22ac6c83&end=65dd30fb9e882a7e8f0be10caca62936db2a98b8&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.3%  | [0.2%, 0.5%]    | 18    |
+| Regressions ❌ <br /> (secondary)  | 2.1%  | [0.1%, 16.8%]   | 64    |
+| Improvements ✅ <br /> (primary)   | -3.3% | [-39.8%, -0.2%] | 97    |
+| Improvements ✅ <br /> (secondary) | -6.1% | [-39.6%, -0.1%] | 111   |
+| All ❌✅ (primary)                 | -2.7% | [-39.8%, 0.5%]  | 115   |
+
+
+1 Regression, 5 Improvements, 11 Mixed; 6 of them in rollups
+32 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/c41ca2a96f74761503b333d9f416eb7012eef858/triage/2026/2026-08-03.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
