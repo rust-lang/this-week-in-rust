@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+[Tail-Call Interpreters in Rust](https://lordgoati.us/blog/tail-call/)
+
 ### Rust Walkthroughs
 
 ### Research
