@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [kache 0.13.0: keying the env vars proc-macros read](https://github.com/kunobi-ninja/kache/releases/tag/v0.13.0)
 
 ### Observations/Thoughts
 
