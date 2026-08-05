@@ -45,9 +45,26 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Announcing `webrtc` v0.20.0: Async-Friendly, Runtime-Agnostic WebRTC on Sans-I/O Core `rtc`](https://webrtc.rs/blog/2026/07/31/announcing-webrtc-v0.20.0.html)
+* [Rewriting FalkorDB in Rust](https://www.falkordb.com/blog/rewriting-falkordb-in-rust/)
+* [Proxelar 0.5.0: sessions, rules, and more ways to capture traffic](https://micheletti.io/proxelar-050/)
+* [mirador 1.0.0: a personal terminal dashboard](https://github.com/jchultarsky/mirador/releases/tag/v1.0.0)
+* [BitFun 0.2.15: an open-source desktop AI agent built on a Rust runtime](https://github.com/GCWing/BitFun/releases/tag/v0.2.15)
+* [mvis v0.5.0: CI/CD Profiling & Allocation Histograms](https://dev.to/sicklefire/mvis-v050-new-release-5997)
+* [multicalc 0.9.0: scientific computation for embedded and robotics systems](https://github.com/kmolan/multicalc-rust/releases/tag/v0.9.0)
+
 ### Observations/Thoughts
 
+* [Sovereign Tech Fellowship for Rust maintenance (June-July 2026 report)](https://kobzol.github.io/rust/2026/08/03/stf-june-july-2026.html)
+* [An old-new take on argument parsing in Rust](https://jmmv.dev/2026/07/hello-getoptsargs.html)
+* [Stateless Servers, Stateful Payloads: Sessions vs Continuations, Measured in Rust](https://dmitrii.app/stateless-servers-stateful-payloads-sessions-vs-continuations-measured-in-rust/)
+* [video] [Rust in the age of Generative AI with Niko, Allen & Zeeshan](https://www.youtube.com/watch?v=2937MGszrak)
+* [audio] [Rust in Production S06 E09: JetBrains with Orhun Parmaksız](https://corrode.dev/podcast/s06e09-jetbrains/)
+
 ### Rust Walkthroughs
+
+* [Branchless Rust: Making a Filter 4x Faster by Removing an `if`](https://www.greyblake.com/blog/branchless-rust/)
+* [Why modern font metrics cannot reproduce Word pagination](https://oxi-dd65f4.gitlab.io/articles/word-pagination-gdi-rounding.html)
 
 ### Research
 
