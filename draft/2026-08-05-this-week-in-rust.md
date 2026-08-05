@@ -41,7 +41,7 @@ and just ask the editors to select the category.
 * [Enabling the next iteration of the borrow checker on nightly](https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/)
 * [Funding team progress update](https://blog.rust-lang.org/inside-rust/2026/08/04/funding-team-progress-update-july-2026/)
 * [rust-lang/rust is adopting an LLM policy](https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/)
-* [All Hands 2026 retrospective | Inside Rust Blog](https://blog.rust-lang.org/inside-rust/2026/07/31/all-hands-2026-retrospective/)
+* [All Hands 2026 retrospective](https://blog.rust-lang.org/inside-rust/2026/07/31/all-hands-2026-retrospective/)
 ### Foundation
 
 ### Newsletters
