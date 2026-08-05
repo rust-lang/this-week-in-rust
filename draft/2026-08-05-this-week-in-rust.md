@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [FamilyClaw v1.3.0: at-most-once external side effects for AI agents, proven by a 60-second crash test](https://github.com/Sisuthros/familyclaw-oss/releases/tag/v1.3.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
