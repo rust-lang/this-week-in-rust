@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [How Firecracker microVMs work under the hood to sandbox untrusted code and AI agents](https://kerkour.com/firecracker-sandboxing-rust)
 
 ### Rust Walkthroughs
 
