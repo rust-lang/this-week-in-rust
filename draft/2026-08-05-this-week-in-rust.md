@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Auto-correcting wrong-layout typing on Wayland is nearly impossible. We did it anyway](https://poltertype.com/blog/wrong-layout-typing-on-wayland/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
