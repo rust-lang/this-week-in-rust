@@ -38,16 +38,25 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-
+* [Enabling the next iteration of the borrow checker on nightly](https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/)
+* [Funding team progress update](https://blog.rust-lang.org/inside-rust/2026/08/04/funding-team-progress-update-july-2026/)
+* [rust-lang/rust is adopting an LLM policy](https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/)
+* [All Hands 2026 retrospective | Inside Rust Blog](https://blog.rust-lang.org/inside-rust/2026/07/31/all-hands-2026-retrospective/)
 ### Foundation
 
 ### Newsletters
-
+* [The Embedded Rustacean Issue #77](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-77)
 ### Project/Tooling Updates
+* [Rewriting FalkorDB in Rust: Make It Work, Make It Stable](https://www.falkordb.com/blog/rewriting-falkordb-in-rust/)
 
 ### Observations/Thoughts
+* [Faster floating point math with Rust’s new API](https://pythonspeed.com/articles/faster-float-math-rust/)
+* [Rust MEMS drivers: 3 reasons to try and adopt our new sensor driver](https://blog.st.com/rust-mems-drivers/)
+* [The Bedrock of Software Design | Alex Fedoseev](https://alex.draftist.io/blog/the-bedrock-of-software-design-ycqvcedsj)
 
+* [How to speed up the Rust compiler in July 2026](https://nnethercote.github.io/2026/07/31/how-to-speed-up-the-rust-compiler-in-july-2026.html)
 ### Rust Walkthroughs
+* [Blinking an LED on STM32 Blue Pill (STM32F103C8T6) with Embedded Rust](https://blog.implrust.com/posts/2026/08/blinky-with-stm32f103c8t6-embedded-rust/)
 
 ### Research
 
