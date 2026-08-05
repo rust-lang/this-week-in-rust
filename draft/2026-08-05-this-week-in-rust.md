@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [kobe 101: lease a Kubernetes cluster, don't create one](https://kunobi.ninja/blog/kobe-101-leasing-kubernetes-clusters)
 
 ### Observations/Thoughts
 
