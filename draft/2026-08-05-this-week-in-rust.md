@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [multicalc 0.9.0](https://github.com/kmolan/multicalc-rust/releases/tag/v0.9.0) - scientific computation for embedded and robotics systems, with a showcase demo of a 2D robot running particle filter localization + EKF sensor fusion + obstacle avoidance over a 1kHz loop rate on a race track. `multicalc` is built and tested from scratch for multiple embedded environments. We are now a 15+ contributors strong community, come join if you like embedded, robotics or numerical methods.
 
 ### Observations/Thoughts
 
