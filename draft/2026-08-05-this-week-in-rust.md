@@ -40,7 +40,8 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
-
+- [RustConf 2026](https://rustconf.com/): Employer-paid ticket pricing increases on August 11 — register now!
+  
 ### Newsletters
 
 ### Project/Tooling Updates
