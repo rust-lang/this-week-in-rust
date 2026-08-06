@@ -68,6 +68,8 @@ and just ask the editors to select the category.
 * [video] [Rust in the age of Generative AI with Niko, Allen & Zeeshan](https://www.youtube.com/watch?v=2937MGszrak)
 * [audio] [Rust in Production S06 E09: JetBrains with Orhun Parmaksız](https://corrode.dev/podcast/s06e09-jetbrains/)
 
+* [Work-Stealing vs. Executor-Per-Thread: Evaluating different HTTP server workloads with Tokio, Smol and Glommio](https://c410-f3r.github.io/thoughts/work-stealing-vs-executor-per-thread-evaluating-different-http-server-workloads-with-tokio-smol-and-glommio/)
+
 ### Rust Walkthroughs
 * [Blinking an LED on STM32 Blue Pill (STM32F103C8T6) with Embedded Rust](https://blog.implrust.com/posts/2026/08/blinky-with-stm32f103c8t6-embedded-rust/)
 
