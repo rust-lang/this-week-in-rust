@@ -42,10 +42,10 @@ and just ask the editors to select the category.
 * [Funding team progress update](https://blog.rust-lang.org/inside-rust/2026/08/04/funding-team-progress-update-july-2026/)
 * [rust-lang/rust is adopting an LLM policy](https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/)
 * [All Hands 2026 retrospective](https://blog.rust-lang.org/inside-rust/2026/07/31/all-hands-2026-retrospective/)
-### Foundation
 
 ### Newsletters
 * [The Embedded Rustacean Issue #77](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-77)
+
 ### Project/Tooling Updates
 * [Kevat 0.4.0 — fast, resumable copy and move to external drives, now with a GUI on all three platforms](https://kevat.app/)
 * [kache 0.13.0: keying the env vars proc-macros read](https://github.com/kunobi-ninja/kache/releases/tag/v0.13.0)
@@ -59,10 +59,7 @@ and just ask the editors to select the category.
 * [multicalc 0.9.0: scientific computation for embedded and robotics systems](https://github.com/kmolan/multicalc-rust/releases/tag/v0.9.0)
 * [Auto-correcting wrong-layout typing on Wayland is nearly impossible. We did it anyway](https://poltertype.com/blog/wrong-layout-typing-on-wayland/)
 * [wimux 0.1.0: a native Windows terminal multiplexer](https://github.com/fabperso/wimux/releases/tag/v0.1.0)
-
-
 * [amtr: a btop-style context-window monitor for Claude Code sessions, and the forensic autopsy of its own 153-hour build](https://github.com/arian-shamaei/anthropometer/tree/main/docs/autopsy)
-
 * [RSigma v0.20.0 release](https://github.com/timescale/rsigma/releases/tag/v0.20.0)
 * [The State of RSigma](https://mostafa.dev/the-state-of-rsigma-7ba0a99020d9), and [Part Two: The Loop](https://mostafa.dev/the-state-of-rsigma-part-two-the-loop-c114f379dd78)
 
@@ -71,7 +68,6 @@ and just ask the editors to select the category.
 * [Faster floating point math with Rust’s new API](https://pythonspeed.com/articles/faster-float-math-rust/)
 * [Rust MEMS drivers: 3 reasons to try and adopt our new sensor driver](https://blog.st.com/rust-mems-drivers/)
 * [The Bedrock of Software Design | Alex Fedoseev](https://alex.draftist.io/blog/the-bedrock-of-software-design-ycqvcedsj)
-
 * [Tail-Call Interpreters in Rust](https://lordgoati.us/blog/tail-call/)
 * [How to speed up the Rust compiler in July 2026](https://nnethercote.github.io/2026/07/31/how-to-speed-up-the-rust-compiler-in-july-2026.html)
 * [Sovereign Tech Fellowship for Rust maintenance (June-July 2026 report)](https://kobzol.github.io/rust/2026/08/03/stf-june-july-2026.html)
@@ -86,15 +82,9 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Blinking an LED on STM32 Blue Pill (STM32F103C8T6) with Embedded Rust](https://blog.implrust.com/posts/2026/08/blinky-with-stm32f103c8t6-embedded-rust/)
-
 * [Branchless Rust: Making a Filter 4x Faster by Removing an `if`](https://www.greyblake.com/blog/branchless-rust/)
 * [Why modern font metrics cannot reproduce Word pagination](https://oxi-dd65f4.gitlab.io/articles/word-pagination-gdi-rounding.html)
-
 * [Building hooklog on a six-day-old framework](https://github.com/JuanMarchetto/hooklog/blob/main/ARTICLE.md)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -233,8 +223,6 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [`vfs`: use component-based path prefix matching for virtual paths](https://github.com/rust-lang/rust-analyzer/pull/22940)
 
 ### Rust Compiler Performance Triage
-
-
 A lot of optimizations landed this week. Some big improvements to rustdoc in [#159854](https://github.com/rust-lang/rust/pull/159854), one big improvement in control flow graph traversal for `cranelift-codegen`, few more improvements to next-solver benchmarks and various other micro-optimizations, bringing the total to a nice round number of 10 improvements this week.
 
 Triage done by **@panstromek**.
@@ -411,7 +399,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1ttbtf5/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -439,4 +427,4 @@ This Week in Rust is edited by:
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1vgv7sn/this_week_in_rust_663)</small>
