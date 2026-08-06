@@ -66,6 +66,7 @@ and just ask the editors to select the category.
 * [Rust MEMS drivers: 3 reasons to try and adopt our new sensor driver](https://blog.st.com/rust-mems-drivers/)
 * [The Bedrock of Software Design | Alex Fedoseev](https://alex.draftist.io/blog/the-bedrock-of-software-design-ycqvcedsj)
 
+* [Tail-Call Interpreters in Rust](https://lordgoati.us/blog/tail-call/)
 * [How to speed up the Rust compiler in July 2026](https://nnethercote.github.io/2026/07/31/how-to-speed-up-the-rust-compiler-in-july-2026.html)
 * [Sovereign Tech Fellowship for Rust maintenance (June-July 2026 report)](https://kobzol.github.io/rust/2026/08/03/stf-june-july-2026.html)
 * [An old-new take on argument parsing in Rust](https://jmmv.dev/2026/07/hello-getoptsargs.html)
