@@ -80,7 +80,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [index_type](https://crates.io/crates/index_type), a crate for providing strongly typed indices for collections.
+
+Thanks to [Roee Shoshani](https://users.rust-lang.org/t/crate-of-the-week/2704/1638) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -134,7 +136,6 @@ If you are a feature implementer and would like your RFC to appear on the above 
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
 
-
 ## Call for Participation; projects and speakers
 
 ### CFP - Projects
@@ -163,7 +164,84 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+630 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-07-28..2026-08-04
+
+#### Compiler
+* [improve CFG traversal](https://github.com/rust-lang/rust/pull/160193)
+* [perf: avoid a heap allocation per basic block in MoveData's location maps](https://github.com/rust-lang/rust/pull/160245)
+* [stabilize passing 128-bit integers via vector registers with `asm!` on x86](https://github.com/rust-lang/rust/pull/159525)
+
+#### Library
+* [a bit optimize four-digit chunks in integer formatting](https://github.com/rust-lang/rust/pull/159130)
+* [add NEON support for `is_ascii` and `eq_ignore_ascii_case`](https://github.com/rust-lang/rust/pull/160143)
+* [add semver check test command for checking API compatibility of stdlib](https://github.com/rust-lang/rust/pull/159671)
+* [allow only implementing `Read::read_buf`](https://github.com/rust-lang/rust/pull/106643)
+* [core: implement bounded random sampling](https://github.com/rust-lang/rust/pull/159592)
+* [iter: specialize `Take::count` using `advance_by`](https://github.com/rust-lang/rust/pull/160139)
+* [iter: specialize `advance_by` method of `Fuse`](https://github.com/rust-lang/rust/pull/160342)
+* [make atomic operations const](https://github.com/rust-lang/rust/pull/160079)
+* [move `std::io::copy` to `alloc::io`](https://github.com/rust-lang/rust/pull/158548)
+* [stabilize `size_of_val_raw, align_of_val_raw, Layout::for_value_raw`](https://github.com/rust-lang/rust/pull/157572)
+
+#### Cargo
+* [add a suggestion when adding `[lints]` to a workspace to use `[workspace.lints]` instead](https://github.com/rust-lang/cargo/pull/17300)
+* [avoid parsing unchanged lockfiles](https://github.com/rust-lang/cargo/pull/17301)
+* [completions: complete paths for cargo run arguments](https://github.com/rust-lang/cargo/pull/17284)
+* [fix `manual_readme` lint for lower-priority README files](https://github.com/rust-lang/cargo/pull/17208)
+* [git: make checkout names independent of git config](https://github.com/rust-lang/cargo/pull/17289)
+* [make `__CARGO_TEST_FORCE_ARGFILE` available in distributed builds](https://github.com/rust-lang/cargo/pull/17293)
+* [pass rustdoc flags to final CCI merge step](https://github.com/rust-lang/cargo/pull/17269)
+* [prevent panic when `package.build` is empty](https://github.com/rust-lang/cargo/pull/17268)
+* [reworked how we enable the new build-dir layout on nightly](https://github.com/rust-lang/cargo/pull/17272)
+* [trim-paths: unambiguous and reversible remap rules](https://github.com/rust-lang/cargo/pull/17302)
+
+#### Rustdoc
+* [label badge for notable traits](https://github.com/rust-lang/rust/pull/157058)
+* [rustdoc-json: make `Stability` compatible with non-self-describing serde formats](https://github.com/rust-lang/rust/pull/160032)
+* [fix ICE when a grapheme cluster joins a Prepend-class character to `_` or `:`](https://github.com/rust-lang/rust/pull/160232)
+* [fix crash when trying to list attributes on an opaque type](https://github.com/rust-lang/rust/pull/160208)
+* [only analyze head of self type when deciding impl inlining](https://github.com/rust-lang/rust/pull/159854)
+
+#### Rustfmt
+* [format `cfg_select!`](https://github.com/rust-lang/rust/pull/154202)
+
+#### Clippy
+* [`manual_div_ceil`: avoid suggestions that change evaluation count](https://github.com/rust-lang/rust-clippy/pull/17468)
+* [fix `no_effect_underscore_binding` false positive on proc-macro generated code](https://github.com/rust-lang/rust-clippy/pull/17473)
+* [add check for image with embedded link to `doc_paragraphs_missing_punctuation`](https://github.com/rust-lang/rust-clippy/pull/16773)
+* [lint for UFCS call in `clone_on_copy`](https://github.com/rust-lang/rust-clippy/pull/16972)
+* [trigger `float_cmp_const` for `assert_eq!` with const floats](https://github.com/rust-lang/rust-clippy/pull/17024)
+
+#### Rust-Analyzer
+* [allow `self` as the last segment of a path](https://github.com/rust-lang/rust-analyzer/pull/23014)
+* [correctly handle unlinked module edge cases](https://github.com/rust-lang/rust-analyzer/pull/22977)
+* [support `CovariantUnsafeCell`](https://github.com/rust-lang/rust-analyzer/pull/22959)
+* [add `-Zjson-target-spec` on cargo calls where needed](https://github.com/rust-lang/rust-analyzer/pull/21846)
+* [add reference for same name param coerce matches](https://github.com/rust-lang/rust-analyzer/pull/23003)
+* [allow diverging rhs in destructuring assignments](https://github.com/rust-lang/rust-analyzer/pull/23017)
+* [avoid panic when checking `Copy` for hrtb closure arguments](https://github.com/rust-lang/rust-analyzer/pull/22938)
+* [detect the rust-analyzer component in a multi-line components array](https://github.com/rust-lang/rust-analyzer/pull/22996)
+* [do not alloc anon consts for bare paths in blocks](https://github.com/rust-lang/rust-analyzer/pull/22965)
+* [don't panic on a self-referential `impl Trait` function](https://github.com/rust-lang/rust-analyzer/pull/22992)
+* [double stack size for threads to 16MiB](https://github.com/rust-lang/rust-analyzer/pull/22956)
+* [exclude unknown types from term search](https://github.com/rust-lang/rust-analyzer/pull/23015)
+* [fix lookup `MACRO_CALL@...` in this Semantics due to include!](https://github.com/rust-lang/rust-analyzer/pull/22933)
+* [fix `ExprScopes` handling of exprs inside patterns](https://github.com/rust-lang/rust-analyzer/pull/23008)
+* [fix glob import shadowing bug](https://github.com/rust-lang/rust-analyzer/pull/22886)
+* [make mir debug execution work fot bitflags items](https://github.com/rust-lang/rust-analyzer/pull/22948)
+* [mark auto traits as coinductive](https://github.com/rust-lang/rust-analyzer/pull/22943)
+* [no hint with similar name raw-ident arg](https://github.com/rust-lang/rust-analyzer/pull/22957)
+* [parse postfix range inside closure in access](https://github.com/rust-lang/rust-analyzer/pull/23004)
+* [recognize format arguments after a backslash in raw strings](https://github.com/rust-lang/rust-analyzer/pull/22993)
+* [resolve assignment lhs in its expression scope](https://github.com/rust-lang/rust-analyzer/pull/23016)
+* [show qualified paths when type names collide in E0308](https://github.com/rust-lang/rust-analyzer/pull/22964)
+* [hir-ty, ide-diagnostics: use E0057/E0061 for arg-count mismatch (was E0107)](https://github.com/rust-lang/rust-analyzer/pull/22947)
+* [perf: avoid having a separate query for defined opaques](https://github.com/rust-lang/rust-analyzer/pull/22966)
+* [perf: save an allocation in lifetime handling](https://github.com/rust-lang/rust-analyzer/pull/23001)
+* [report a config error for postfix snippets with item scope](https://github.com/rust-lang/rust-analyzer/pull/22937)
+* [`vfs`: use component-based path prefix matching for virtual paths](https://github.com/rust-lang/rust-analyzer/pull/22940)
 
 ### Rust Compiler Performance Triage
 
@@ -346,7 +424,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> … but I gave up on the idea as the macro rules were turning into a turing complete rust syntax parser
+
+– [Koosha on rust-users](https://users.rust-lang.org/t/crate-of-the-week/2704/1637)
+
+Thanks to [miro](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1787) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
