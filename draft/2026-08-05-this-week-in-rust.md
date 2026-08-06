@@ -61,6 +61,8 @@ and just ask the editors to select the category.
 
 * [Auto-correcting wrong-layout typing on Wayland is nearly impossible. We did it anyway](https://poltertype.com/blog/wrong-layout-typing-on-wayland/)
 
+* [amtr: a btop-style context-window monitor for Claude Code sessions, and the forensic autopsy of its own 153-hour build](https://github.com/arian-shamaei/anthropometer/tree/main/docs/autopsy)
+
 ### Observations/Thoughts
 * [How Firecracker microVMs work under the hood to sandbox untrusted code and AI agents](https://kerkour.com/firecracker-sandboxing-rust)
 * [Faster floating point math with Rust’s new API](https://pythonspeed.com/articles/faster-float-math-rust/)
