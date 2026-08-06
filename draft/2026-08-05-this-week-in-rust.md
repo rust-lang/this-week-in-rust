@@ -38,15 +38,18 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-
+* [Enabling the next iteration of the borrow checker on nightly](https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/)
+* [Funding team progress update](https://blog.rust-lang.org/inside-rust/2026/08/04/funding-team-progress-update-july-2026/)
+* [rust-lang/rust is adopting an LLM policy](https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/)
+* [All Hands 2026 retrospective](https://blog.rust-lang.org/inside-rust/2026/07/31/all-hands-2026-retrospective/)
 ### Foundation
 
 ### Newsletters
-
+* [The Embedded Rustacean Issue #77](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-77)
 ### Project/Tooling Updates
+* [Rewriting FalkorDB in Rust: Make It Work, Make It Stable](https://www.falkordb.com/blog/rewriting-falkordb-in-rust/)
 
 * [Announcing `webrtc` v0.20.0: Async-Friendly, Runtime-Agnostic WebRTC on Sans-I/O Core `rtc`](https://webrtc.rs/blog/2026/07/31/announcing-webrtc-v0.20.0.html)
-* [Rewriting FalkorDB in Rust](https://www.falkordb.com/blog/rewriting-falkordb-in-rust/)
 * [Proxelar 0.5.0: sessions, rules, and more ways to capture traffic](https://micheletti.io/proxelar-050/)
 * [mirador 1.0.0: a personal terminal dashboard](https://github.com/jchultarsky/mirador/releases/tag/v1.0.0)
 * [BitFun 0.2.15: an open-source desktop AI agent built on a Rust runtime](https://github.com/GCWing/BitFun/releases/tag/v0.2.15)
@@ -54,7 +57,11 @@ and just ask the editors to select the category.
 * [multicalc 0.9.0: scientific computation for embedded and robotics systems](https://github.com/kmolan/multicalc-rust/releases/tag/v0.9.0)
 
 ### Observations/Thoughts
+* [Faster floating point math with Rust’s new API](https://pythonspeed.com/articles/faster-float-math-rust/)
+* [Rust MEMS drivers: 3 reasons to try and adopt our new sensor driver](https://blog.st.com/rust-mems-drivers/)
+* [The Bedrock of Software Design | Alex Fedoseev](https://alex.draftist.io/blog/the-bedrock-of-software-design-ycqvcedsj)
 
+* [How to speed up the Rust compiler in July 2026](https://nnethercote.github.io/2026/07/31/how-to-speed-up-the-rust-compiler-in-july-2026.html)
 * [Sovereign Tech Fellowship for Rust maintenance (June-July 2026 report)](https://kobzol.github.io/rust/2026/08/03/stf-june-july-2026.html)
 * [An old-new take on argument parsing in Rust](https://jmmv.dev/2026/07/hello-getoptsargs.html)
 * [Stateless Servers, Stateful Payloads: Sessions vs Continuations, Measured in Rust](https://dmitrii.app/stateless-servers-stateful-payloads-sessions-vs-continuations-measured-in-rust/)
@@ -62,6 +69,7 @@ and just ask the editors to select the category.
 * [audio] [Rust in Production S06 E09: JetBrains with Orhun Parmaksız](https://corrode.dev/podcast/s06e09-jetbrains/)
 
 ### Rust Walkthroughs
+* [Blinking an LED on STM32 Blue Pill (STM32F103C8T6) with Embedded Rust](https://blog.implrust.com/posts/2026/08/blinky-with-stm32f103c8t6-embedded-rust/)
 
 * [Branchless Rust: Making a Filter 4x Faster by Removing an `if`](https://www.greyblake.com/blog/branchless-rust/)
 * [Why modern font metrics cannot reproduce Word pagination](https://oxi-dd65f4.gitlab.io/articles/word-pagination-gdi-rounding.html)
