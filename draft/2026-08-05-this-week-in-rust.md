@@ -129,6 +129,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 * [Cordial - Unify the two implementations of the profile lock](https://github.com/luohoa97/cordial/issues/6)
 * [Cordial - Fullscreen clips and letterboxes until the workspace is switched away and back](https://github.com/luohoa97/cordial/issues/7)
+* [Dofigen - Extend Dockerfiles](https://github.com/lenra-io/dofigen/issues/481)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
