@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 ### Newsletters
 * [The Embedded Rustacean Issue #77](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-77)
 ### Project/Tooling Updates
+* [kache 0.13.0: keying the env vars proc-macros read](https://github.com/kunobi-ninja/kache/releases/tag/v0.13.0)
 * [kobe 101: lease a Kubernetes cluster, don't create one](https://kunobi.ninja/blog/kobe-101-leasing-kubernetes-clusters)
 * [Rewriting FalkorDB in Rust: Make It Work, Make It Stable](https://www.falkordb.com/blog/rewriting-falkordb-in-rust/)
 
