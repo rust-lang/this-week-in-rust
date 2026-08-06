@@ -51,15 +51,20 @@ and just ask the editors to select the category.
 * [kache 0.13.0: keying the env vars proc-macros read](https://github.com/kunobi-ninja/kache/releases/tag/v0.13.0)
 * [kobe 101: lease a Kubernetes cluster, don't create one](https://kunobi.ninja/blog/kobe-101-leasing-kubernetes-clusters)
 * [Rewriting FalkorDB in Rust: Make It Work, Make It Stable](https://www.falkordb.com/blog/rewriting-falkordb-in-rust/)
-
 * [Announcing `webrtc` v0.20.0: Async-Friendly, Runtime-Agnostic WebRTC on Sans-I/O Core `rtc`](https://webrtc.rs/blog/2026/07/31/announcing-webrtc-v0.20.0.html)
 * [Proxelar 0.5.0: sessions, rules, and more ways to capture traffic](https://micheletti.io/proxelar-050/)
 * [mirador 1.0.0: a personal terminal dashboard](https://github.com/jchultarsky/mirador/releases/tag/v1.0.0)
 * [BitFun 0.2.15: an open-source desktop AI agent built on a Rust runtime](https://github.com/GCWing/BitFun/releases/tag/v0.2.15)
 * [mvis v0.5.0: CI/CD Profiling & Allocation Histograms](https://dev.to/sicklefire/mvis-v050-new-release-5997)
 * [multicalc 0.9.0: scientific computation for embedded and robotics systems](https://github.com/kmolan/multicalc-rust/releases/tag/v0.9.0)
-
 * [Auto-correcting wrong-layout typing on Wayland is nearly impossible. We did it anyway](https://poltertype.com/blog/wrong-layout-typing-on-wayland/)
+* [wimux 0.1.0: a native Windows terminal multiplexer](https://github.com/fabperso/wimux/releases/tag/v0.1.0)
+
+
+* [amtr: a btop-style context-window monitor for Claude Code sessions, and the forensic autopsy of its own 153-hour build](https://github.com/arian-shamaei/anthropometer/tree/main/docs/autopsy)
+
+* [RSigma v0.20.0 release](https://github.com/timescale/rsigma/releases/tag/v0.20.0)
+* [The State of RSigma](https://mostafa.dev/the-state-of-rsigma-7ba0a99020d9), and [Part Two: The Loop](https://mostafa.dev/the-state-of-rsigma-part-two-the-loop-c114f379dd78)
 
 ### Observations/Thoughts
 * [How Firecracker microVMs work under the hood to sandbox untrusted code and AI agents](https://kerkour.com/firecracker-sandboxing-rust)
@@ -74,10 +79,10 @@ and just ask the editors to select the category.
 * [Stateless Servers, Stateful Payloads: Sessions vs Continuations, Measured in Rust](https://dmitrii.app/stateless-servers-stateful-payloads-sessions-vs-continuations-measured-in-rust/)
 * [video] [Rust in the age of Generative AI with Niko, Allen & Zeeshan](https://www.youtube.com/watch?v=2937MGszrak)
 * [audio] [Rust in Production S06 E09: JetBrains with Orhun Parmaksız](https://corrode.dev/podcast/s06e09-jetbrains/)
-
 * [Work-Stealing vs. Executor-Per-Thread: Evaluating different HTTP server workloads with Tokio, Smol and Glommio](https://c410-f3r.github.io/thoughts/work-stealing-vs-executor-per-thread-evaluating-different-http-server-workloads-with-tokio-smol-and-glommio/)
-
 * [Your `#[target_feature(enable = "avx2")]` does nothing on `x86_64-unknown-uefi`](https://github.com/Aefinity-AI/alice-aegis/blob/main/docs/posts/2026-08-05_uefi-soft-float-deletes-your-avx2.md)
+* [Three bugs my AI agents couldn't fix](https://dev.to/fabperso/three-bugs-my-ai-agents-couldnt-fix-13bn)
+
 
 ### Rust Walkthroughs
 * [Blinking an LED on STM32 Blue Pill (STM32F103C8T6) with Embedded Rust](https://blog.implrust.com/posts/2026/08/blinky-with-stm32f103c8t6-embedded-rust/)
