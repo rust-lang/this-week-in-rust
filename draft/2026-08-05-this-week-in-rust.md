@@ -80,6 +80,8 @@ and just ask the editors to select the category.
 * [Branchless Rust: Making a Filter 4x Faster by Removing an `if`](https://www.greyblake.com/blog/branchless-rust/)
 * [Why modern font metrics cannot reproduce Word pagination](https://oxi-dd65f4.gitlab.io/articles/word-pagination-gdi-rounding.html)
 
+* [Building hooklog on a six-day-old framework](https://github.com/JuanMarchetto/hooklog/blob/main/ARTICLE.md)
+
 ### Research
 
 ### Miscellaneous
