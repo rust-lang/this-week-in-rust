@@ -63,6 +63,9 @@ and just ask the editors to select the category.
 
 * [amtr: a btop-style context-window monitor for Claude Code sessions, and the forensic autopsy of its own 153-hour build](https://github.com/arian-shamaei/anthropometer/tree/main/docs/autopsy)
 
+* [RSigma v0.20.0 release](https://github.com/timescale/rsigma/releases/tag/v0.20.0)
+* [The State of RSigma](https://mostafa.dev/the-state-of-rsigma-7ba0a99020d9), and [Part Two: The Loop](https://mostafa.dev/the-state-of-rsigma-part-two-the-loop-c114f379dd78)
+
 ### Observations/Thoughts
 * [How Firecracker microVMs work under the hood to sandbox untrusted code and AI agents](https://kerkour.com/firecracker-sandboxing-rust)
 * [Faster floating point math with Rust’s new API](https://pythonspeed.com/articles/faster-float-math-rust/)
