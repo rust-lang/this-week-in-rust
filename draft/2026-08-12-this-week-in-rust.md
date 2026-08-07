@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [guardflow: validators and a retry-until-valid guard for LLM output](https://github.com/thaicn1712/guardflow) - the Guardrails AI pattern for Rust. `Validator`/`AsyncValidator` cover both free format checks (length, regex, JSON schema) and checks needing a model/API call (an LLM-as-judge, a moderation endpoint), running the async ones only after the free checks pass. `Guard::fix()` gives `on_fail="fix"` semantics (auto-repair instead of reject), and rules can be loaded from a YAML/JSON file instead of Rust code.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
