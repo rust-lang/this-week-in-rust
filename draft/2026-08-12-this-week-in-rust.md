@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [graphflow-stream: token-level streaming for graph-flow agent graphs](https://github.com/thaicn1712/graphflow-stream)
+* [graphflow-stream: token-level streaming for graph-flow agent graphs](https://github.com/thaicn1712/graphflow-stream) - adds ambient `emit_token()`/`emit_started()`/`emit_finished()` calls usable from inside any `graph_flow::Task::run`, so a task or full graph run can stream partial output (e.g. LLM tokens) while still in flight, without changing `graph-flow`'s `Task`/`FlowRunner` API. No new trait to implement; a no-op if nothing is listening.
 
 ### Observations/Thoughts
 
