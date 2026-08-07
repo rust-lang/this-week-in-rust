@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [agentflow: AgentOps for Rust in one crate](https://github.com/thaicn1712/agentflow) - re-exports four independent crates (`graphflow-stream` for streaming graph-flow agent graphs, `guardflow` for retry-until-valid output guards, `schemaflow` for Pandera-style Polars DataFrame validation, `evalflow` for DeepEval-style graded-score test suites) under one `cargo add`, plus `AgentOpsTask` gluing the guard and evaluate steps together for a single `graph_flow::Task`.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
