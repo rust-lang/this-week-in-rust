@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [schemaflow: Pandera-style schema validation for Polars DataFrames](https://github.com/thaicn1712/schemaflow) - declarative `TableSchema`/`ColumnSchema` for validating an in-memory `polars::DataFrame` from Rust code (not a CLI or a separate DataFrame type). Every check (`not_null`, `unique`, range, regex, `is_in`, or a custom Polars `Expr`) compiles to a lazy filtered query, so validation runs at Polars speed instead of a Rust-side row loop, and the report tells you which column/check failed and how many rows.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
