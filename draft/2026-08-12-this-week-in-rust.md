@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [evalflow: DeepEval-style graded-score test suites for LLM output](https://github.com/thaicn1712/evalflow) - `TestSuite`/`TestCase`/`Metric` for scoring LLM output 0.0-1.0 instead of just pass/fail: `ExactMatch`/`Contains`/`F1Score` need no network call, and `CustomAsyncMetric` wraps an async closure for LLM-as-judge checks (answer relevancy, RAG faithfulness, toxicity) without assuming a provider. Aggregates a report with pass rate and per-metric averages across a whole test suite.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
