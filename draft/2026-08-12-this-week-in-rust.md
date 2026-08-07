@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [graphflow-stream: token-level streaming for graph-flow agent graphs](https://github.com/thaicn1712/graphflow-stream)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
