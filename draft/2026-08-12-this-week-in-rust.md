@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [memoryflow](https://github.com/thaicn1712/memoryflow) - long-term semantic memory for graph-flow agents, implementing Mem0's retrieve/inject/extract/resolve (ADD/UPDATE/DELETE/NOOP) loop.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
