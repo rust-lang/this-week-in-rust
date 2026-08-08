@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [actionguard: policy-as-code for AI agent tool calls](https://github.com/thaicn1712/actionguard) - the OPA/Rego pattern (deny-overrides, fail-closed by default) applied to agent tool calls instead of API requests. `Policy` covers free local checks (allow/deny lists, argument regex); `AsyncPolicy` covers checks needing a model call (an LLM-as-judge asking whether an action matches the user's actual intent), only run after sync policies already voted. Complements `guardflow` (validates what an agent *says*) by validating what it's about to *do*, before it does it.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
