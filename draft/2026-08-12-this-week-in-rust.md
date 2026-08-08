@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Umbral - a declarative, plugin-first web framework for Rust](https://dev.to/dalmasonto/umbral-declare-your-data-in-rust-get-migrations-an-admin-and-a-rest-api-for-free-43oh) - declare your data and get managed migrations, a typed ORM, an admin, a REST API, and OpenAPI, where every capability (including auth) is a plugin registered through the same trait your code uses. Early alpha on crates.io, with a runnable [examples/shop](https://github.com/dalmasonto/umbral/tree/main/examples/shop), the project site [umbral website](https://umbralrs.dev/) (built with Umbral), and a live user [pipeline.supercodehive.com](https://pipeline.supercodehive.com/) that streams Chainlink price feeds for Polymarket to surface opening and closing prices across crypto market types.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
