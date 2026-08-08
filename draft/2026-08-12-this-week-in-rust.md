@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [graphflow-stream 0.3.0](https://github.com/thaicn1712/graphflow-stream) - added DynamicMapTask (LangGraph's Send API: fan out over a runtime-determined list) and EnsembleTask (self-consistency voting across N concurrent runs) for graph-flow agent graphs.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
