@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [rollbackflow: checkpoint and rollback for graph-flow agent state](https://github.com/thaicn1712/rollbackflow) - durable execution isn't a framework feature in any Rust agent framework yet, so this fills it in: `Checkpoint::capture` snapshots a `graph_flow::Context` by serializing it (deliberately, since `Context::clone()` shares the same underlying data - a naive clone-based checkpoint would silently mutate alongside the live context). `CheckpointedTask<T>` wraps a `Task`, snapshotting before each run; `restore_session` rolls a `Session`'s context back to a labeled checkpoint in place.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
