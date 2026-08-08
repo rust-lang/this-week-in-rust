@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [cacheflow](https://github.com/thaicn1712/cacheflow) - exact and semantic response caching for graph-flow LLM tasks: skip the repeat LLM call entirely.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
