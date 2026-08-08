@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [traceflow](https://github.com/thaicn1712/traceflow) - lightweight LLM call observability for Rust: latency, tokens, cost, no OpenTelemetry or collector required.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
