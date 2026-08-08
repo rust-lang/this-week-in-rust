@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [agentflow 0.3.0](https://github.com/thaicn1712/agentflow) - "AgentOps for Rust": nine independent crates (orchestrate, guard, act-guard, validate, evaluate, checkpoint, trace, cache, remember) for graph-flow agents, now bundled into one umbrella crate.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
