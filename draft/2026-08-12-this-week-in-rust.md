@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [notepatra-mcp v0.1.127: your editor, readable by your AI](https://notepatra.org/mcp.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
