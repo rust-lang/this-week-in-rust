@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [GRIT 1.1: a checkable 64-byte descriptor and boundary check for block-scaled quantized tensors](https://singhpratech.github.io/grit-datatype/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
