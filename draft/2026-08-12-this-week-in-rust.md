@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [GRIT 1.1: a checkable 64-byte descriptor and boundary check for block-scaled quantized tensors](https://singhpratech.github.io/grit-datatype/)
+* [GRIT 1.1: a checkable 64-byte descriptor and O(1) boundary check for block-scaled quantized tensors (MXFP4/GPTQ/AWQ-style), with a zero-dependency Rust crate and a GGUF/safetensors scanner](https://singhpratech.github.io/grit-datatype/)
 
 ### Observations/Thoughts
 
