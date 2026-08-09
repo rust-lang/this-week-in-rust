@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Typed Conversations: Make Illegal Agent Dialogues Unrepresentable](https://dmitrii.app/typed-conversations-make-illegal-agent-dialogues-unrepresentable/)
+
 ### Rust Walkthroughs
 
 ### Research
