@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [OXVG 0.0.7: introducing an SVG-to-JSX transformer to the OXVG toolchain](https://github.com/noahbald/oxvg/releases/tag/v0.0.7)
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
