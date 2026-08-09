@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [ECQV: implicit certificates, and why I kept them out of the project that motivated them](https://Abdk4Moura.github.io/post.html?post=2026-08-09-ecqv.md)
+
 ### Rust Walkthroughs
 
 ### Research
