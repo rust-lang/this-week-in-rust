@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-**Starting next issue we are making changes to the Project/Tooling Updates Section - see [here](https://github.com/rust-lang/this-week-in-rust/issues/8575) for more details**
+We are making changes to the Project/Tooling Updates Section - see [here](https://github.com/rust-lang/this-week-in-rust/issues/8575) for more details
 
 ### Observations/Thoughts
 
