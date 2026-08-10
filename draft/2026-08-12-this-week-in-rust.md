@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [HTML, JavaScript, CSS should have died long ago](https://dev.to/zionsati/html-javascript-css-should-have-died-long-ago-1mm3)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
