@@ -237,6 +237,8 @@ Rusty Events between 2026-08-12 - 2026-09-09 🦀
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/arkkrcj5)
 * 2026-09-02 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/wqzhftyjcmbdb/)
+* 2026-08-16 | Virtual (Bangalore, IN) | [Embedded Rust](https://discord.com/invite/pvYY69PvyS)
+    * [**Silicon Sundays #2**](https://discord.gg/tpsNpDHC?event=1536322186829242389)
 
 ### Africa
 * 2026-08-11 | Johannesburg, ZA | [Johannesburg Rust Meetup](https://www.meetup.com/johannesburg-rust-meetup)
