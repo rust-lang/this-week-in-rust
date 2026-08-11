@@ -51,6 +51,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Profiling Rust with hotpath-rs: The Complete Guide - From SQL Queries to CPU Sampling](https://hotpath.rs/blog/profiling-rust-guide)
+
 ### Research
 
 ### Miscellaneous
