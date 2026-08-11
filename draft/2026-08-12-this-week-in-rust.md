@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [GRIT 1.1: type-check your quantized tensors](https://singhpratech.github.io/grit-datatype/)
+* [Flodl :Introducing AMD GPU support](https://flodl.dev/blog/making-room)
 
 ### Observations/Thoughts
 
