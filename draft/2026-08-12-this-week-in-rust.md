@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [agentflow: AgentOps for Rust — orchestrate, guard, act-guard, validate, evaluate, checkpoint, trace, cache, remember, in one crate](https://crates.io/crates/agentflow)
 
 ### Observations/Thoughts
 
