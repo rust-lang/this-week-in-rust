@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [GRIT 1.1: type-check your quantized tensors](https://singhpratech.github.io/grit-datatype/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
@@ -235,6 +237,10 @@ Rusty Events between 2026-08-12 - 2026-09-09 🦀
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/313345334/)
 * 2026-08-21 | Virtual (Girona, ES) | [Rust Girona](https://luma.com/rust-girona)
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/arkkrcj5)
+* 2026-08-31 | Virtual (Global) | [Rust Maven](https://luma.com/rust-maven)
+    * [**Workshop: Add tests to an open source Rust project**](https://luma.com/nwfmsdtf)
+* 2026-09-01 | Virtual (Global) | [Rust Maven](https://luma.com/rust-maven)
+    * [**Tauri: Cross-Platform desktop applications with Rust and web technologies**](https://luma.com/d9w26vav)
 * 2026-09-02 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/wqzhftyjcmbdb/)
 
@@ -301,8 +307,8 @@ Rusty Events between 2026-08-12 - 2026-09-09 🦀
     * [**Rust-Atl**](https://www.meetup.com/rust-atl/events/313539331/)
 
 ### Oceania
-* 2026-08-27 | Melbourne, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne/events/)
-    * [**Rust Melbourne August 2026**](https://www.meetup.com/rust-melbourne/events/315039490/)
+* 2026-08-27 | Melbourne, AU | [Rust Melbourne](https://luma.com/rustmelbourne)
+    * [**Rust Melbourne Meetup**](https://luma.com/d0rndgyv)
 
 ### South America
 * 2026-08-08 | São Paulo, SP | [Rust-SP](https://luma.com/calendar/cal-bif2oHITU1aVvsr)
