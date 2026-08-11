@@ -235,6 +235,8 @@ Rusty Events between 2026-08-12 - 2026-09-09 🦀
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/313345334/)
 * 2026-08-21 | Virtual (Girona, ES) | [Rust Girona](https://luma.com/rust-girona)
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/arkkrcj5)
+* 2026-08-31 | Virtual (Global) | [Rust Maven](https://luma.com/rust-maven)
+    * [**Workshop: Add tests to an open source Rust project**](https://luma.com/nwfmsdtf)
 * 2026-09-01 | Virtual (Global) | [Rust Maven](https://luma.com/rust-maven)
     * [**Tauri: Cross-Platform desktop applications with Rust and web technologies**](https://luma.com/d9w26vav)
 * 2026-09-02 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
