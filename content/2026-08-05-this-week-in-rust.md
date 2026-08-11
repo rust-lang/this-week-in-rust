@@ -383,8 +383,8 @@ Rusty Events between 2026-08-05 - 2026-09-02 🦀
     * [**Rust-Atl**](https://www.meetup.com/rust-atl/events/313539331/)
 
 ### Oceania
-* 2026-08-27 | Melbourne, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne/events/)
-    * [**Rust Melbourne August 2026**](https://www.meetup.com/rust-melbourne/events/315039490/)
+* 2026-08-27 | Melbourne, AU | [Rust Melbourne](https://luma.com/rustmelbourne)
+    * [**Rust Melbourne Meetup**](https://luma.com/d0rndgyv)
 
 ### South America
 * 2026-08-08 | São Paulo, SP | [Rust-SP](https://luma.com/calendar/cal-bif2oHITU1aVvsr)
