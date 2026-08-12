@@ -139,6 +139,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+* [Diesel - Improve the documentation of our derives](https://github.com/diesel-rs/diesel/issues/4840)
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
@@ -161,7 +162,28 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This week so many new performance improvements landed that we needed to roll 10 of them up together to keep the bors queue manageable, great work!
+Also new is the LLVM 23 update which caused massive compile-time, run-time, bootstrap time and artifact size improvements.
+These improvements are reduced by the merge of Polonius Alpha on nightly causing a 3.0% regression. There still seems to be some potential to mitigate this regression.
+
+Triage done by **@JonathanBrouwer**.
+Revision range: [65dd30fb..771916f9](https://perf.rust-lang.org/?start=65dd30fb9e882a7e8f0be10caca62936db2a98b8&end=771916f9028e7fe56d2685f2c4f698de5d7d6a45&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 4.6%  | [0.2%, 12.8%]   | 24    |
+| Regressions ❌ <br /> (secondary)  | 4.3%  | [0.2%, 14.3%]   | 30    |
+| Improvements ✅ <br /> (primary)   | -3.3% | [-16.4%, -0.2%] | 251   |
+| Improvements ✅ <br /> (secondary) | -5.2% | [-34.8%, -0.2%] | 308   |
+| All ❌✅ (primary)                 | -2.6% | [-16.4%, 12.8%] | 275   |
+
+
+1 Regression, 4 Improvements, 7 Mixed; 5 of them in rollups
+25 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/e34d7594ad4dfdd6541038f505ec37d4602171f7/triage/2026/2026-08-09.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
@@ -222,22 +244,14 @@ Update CFT, FCP, MCP and RFC sections for TWiR-xxx
 Rusty Events between 2026-08-12 - 2026-09-09 🦀
 
 ### Virtual
-* 2026-08-05 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff)
-    * [**Operating Systems Book Club: Execution and Scheduling**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/315880365/)
-* 2026-08-05 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs)
-    * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/315210367/)
-* 2026-08-07 | Virtual (Girona, ES) | [Rust Girona](https://luma.com/rust-girona)
-    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/ii2jrwva)
-* 2026-08-10 | Hybrid (Kuala Lumpur, Malaysia) | [Rust Malaysia Meetup](https://discord.gg/Uz88bnZA3B)
-    * [**Rust Meetup August 2026**](https://docs.google.com/forms/d/e/1FAIpQLSfwGMGqDit9jn9INA1EROWTbvnjTAZAO1oUQaEwqmao7AYy1A/viewform)
-* 2026-08-11 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
-    * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254776/)
 * 2026-08-13 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/313345333/)
 * 2026-08-13 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris)
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/315619609/)
 * 2026-08-14 | Virtual (Girona, ES) | [Rust Girona](https://luma.com/rust-girona)
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/f2hnzrug)
+* 2026-08-16 | Virtual (Bangalore, IN) | [Embedded Rust](https://discord.com/invite/pvYY69PvyS)
+    * [**Silicon Sundays #2**](https://discord.gg/tpsNpDHC?event=1536322186829242389)
 * 2026-08-18 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc)
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/315604176/)
 * 2026-08-19 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
@@ -252,7 +266,7 @@ Rusty Events between 2026-08-12 - 2026-09-09 🦀
     * [**Fourth Tuesday**](https://www.meetup.com/dallasrust/events/310254775/)
 * 2026-08-27 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/313345334/)
-* 2026-08-21 | Virtual (Girona, ES) | [Rust Girona](https://luma.com/rust-girona)
+* 2026-08-28 | Virtual (Girona, ES) | [Rust Girona](https://luma.com/rust-girona)
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/arkkrcj5)
 * 2026-08-31 | Virtual (Global) | [Rust Maven](https://luma.com/rust-maven)
     * [**Workshop: Add tests to an open source Rust project**](https://luma.com/nwfmsdtf)
@@ -260,14 +274,18 @@ Rusty Events between 2026-08-12 - 2026-09-09 🦀
     * [**Tauri: Cross-Platform desktop applications with Rust and web technologies**](https://luma.com/d9w26vav)
 * 2026-09-02 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/wqzhftyjcmbdb/)
+* 2026-09-04 | Virtual (Girona, ES) | [Rust Girona](https://luma.com/rust-girona)
+    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/sqf4ux01)
+* 2026-09-08 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
+    * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254774/)
+* 2026-09-08 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
+    * [**👋 Community Catch Up**](https://www.meetup.com/women-in-rust/events/315859305/)
 
 ### Africa
-* 2026-08-11 | Johannesburg, ZA | [Johannesburg Rust Meetup](https://www.meetup.com/johannesburg-rust-meetup)
+* 2026-09-08 | Johannesburg, ZA | [Johannesburg Rust Meetup](https://www.meetup.com/johannesburg-rust-meetup/events/)
     * [**Rust's extended standard library**](https://www.meetup.com/johannesburg-rust-meetup/events/315750593/)
 
 ### Asia
-* 2026-08-10 | Hybrid (Kuala Lumpur, MY) | [Rust Malaysia Meetup](https://discord.gg/Uz88bnZA3B)
-    * [**Rust Meetup August 2026**](https://docs.google.com/forms/d/e/1FAIpQLSfwGMGqDit9jn9INA1EROWTbvnjTAZAO1oUQaEwqmao7AYy1A/viewform)
 * 2026-08-22 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
     * [**August 2026 Rustacean Meetup**](https://hasgeek.com/rustbangalore/august-2026-rustacean-meetup/)
 * 2026-08-22 | Delhi, IN | [Rust Delhi](https://www.meetup.com/rustdelhi)
@@ -278,12 +296,6 @@ Rusty Events between 2026-08-12 - 2026-09-09 🦀
     * [**Rust Pune Meetup: August 2026**](https://hasgeek.com/rustpune/meetup-august-2026/)
 
 ### Europe
-* 2026-08-05 | Köln, DE | [Rust Cologne](https://www.meetup.com/rust-cologne-bonn/events/)
-    * [**Rust in August: Don't panic! …or_else?**](https://www.meetup.com/rustcologne/events/315910506/)
-* 2026-08-06 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
-    * [**Rust Berlin on location 🏳️‍🌈 - Edition 016**](https://www.meetup.com/rust-berlin/events/315966137/)
-* 2026-08-06 | Oxford, UK | [Oxford ACCU/Rust Meetup.](https://www.meetup.com/oxford-rust-meetup-group)
-    * [**ACCU/Rust Summer social**](https://www.meetup.com/oxford-rust-meetup-group/events/315863373/)
 * 2026-08-13 | Switzerland, CH | [PostTenebrasLab](https://www.posttenebraslab.ch/wiki/events/start)
     * [**Rust Meetup Geneva**](https://www.posttenebraslab.ch/wiki/events/monthly_meeting/rust_meetup)
 * 2026-08-18 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus)
@@ -292,16 +304,10 @@ Rusty Events between 2026-08-12 - 2026-09-09 🦀
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313816474/)
 * 2026-08-20 | Frankfurt, DE | [Rust Rhein-Main](https://www.meetup.com/rust-rhein-main)
     * [**Building an acoustic camera with egui and embassy**](https://www.meetup.com/rust-rhein-main/events/315855368/)
-* 2026-08-27 | Manchester, GB | [Rust Manchester](https://www.meetup.com/rust-manchester/events/)
+* 2026-08-27 | Manchester, UK | [Rust Manchester](https://www.meetup.com/rust-manchester/events/)
     * [**Rust Manchester August Talks**](https://www.meetup.com/rust-manchester/events/315891530/)
 
 ### North America
-* 2026-08-06 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
-    * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/315590399/)
-* 2026-08-06 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust)
-    * [**Shipping Temporal: How a Global Rust Ecosystem Built Chrome’s Newest Web API**](https://www.meetup.com/stl-rust/events/314701905/)
-* 2026-08-11 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/events/)
-    * [**Rust NYC: 'An intro to wgpu' and 'Let's Talk Generics!'**](https://www.meetup.com/rust-nyc/events/315963710/)
 * 2026-08-13 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust)
     * [**Utah Rust August Meetup**](https://www.meetup.com/utah-rust/events/314696652/)
 * 2026-08-13 | San Diego, CA, US | [San Diego Rust](https://www.meetup.com/san-diego-rust)
@@ -314,6 +320,10 @@ Rusty Events between 2026-08-12 - 2026-09-09 🦀
     * [**Dealing with Dependencies**](https://www.meetup.com/vancouver-rust/events/314105333/)
 * 2026-08-19 | San Francisco, CA, US | [Bay Area Rust](https://luma.com/bayarearust)
     * [**Bay Area Rust August Meetup**](https://luma.com/00f2s7q9)
+* 2026-08-20 | Mountain View, CA, US | [Hacker Dojo](https://www.meetup.com/hackerdojo/events/)
+    * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/315929355/)
+* 2026-08-20 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/events/)
+    * [**Rust NYC: 'Data Shapes Your Memory' and 'Rust in Peace'**](https://www.meetup.com/rust-nyc/events/316056830/)
 * 2026-08-20 | Hybrid (Seattle, WA, US) | [Seattle Rust User Group](https://www.meetup.com/join-srug)
     * [**August, 2026 SRUG (Seattle Rust User Group) Meetup**](https://www.meetup.com/seattle-rust-user-group/events/314520814/)
 * 2026-08-26 | Austin, TX, US | [Rust ATX](https://www.meetup.com/rust-atx)
@@ -322,14 +332,18 @@ Rusty Events between 2026-08-12 - 2026-09-09 🦀
     * [**Rust LA August! Rust in Quantum Computing**](https://www.meetup.com/rust-los-angeles/events/315963062/)
 * 2026-08-27 | Atlanta, GA, US | [Rust Atlanta](https://www.meetup.com/rust-atl/events/)
     * [**Rust-Atl**](https://www.meetup.com/rust-atl/events/313539331/)
+* 2026-09-03 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust/events/)
+    * [**Cryptography + Quantum Computers**](https://www.meetup.com/stl-rust/events/315603673/)
+* 2026-09-08 | Montreal, QC, CA | [Rust Foundation](https://rustfoundation.org/)
+    * [**Rust Teams Health Summit**](https://rustfoundation.org/event/rust-teams-health-summit/)
+* 2026-09-08 - 2026-09-11 | Montreal, QC, CA | [RustConf 2026](https://rustconf.com/)
+    * [**RustConf 2026, Hosted by the Rust Foundation**](https://rustconf.com/schedule/)
+* 2026-09-09 | Montreal, QC, CA | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
+    * [**RustConf Coffee Break Meetup**](https://www.meetup.com/women-in-rust/events/315773005/)
 
 ### Oceania
 * 2026-08-27 | Melbourne, AU | [Rust Melbourne](https://luma.com/rustmelbourne)
     * [**Rust Melbourne Meetup**](https://luma.com/d0rndgyv)
-
-### South America
-* 2026-08-08 | São Paulo, SP | [Rust-SP](https://luma.com/calendar/cal-bif2oHITU1aVvsr)
-    * [**Rust SP - Aug/2026**](https://luma.com/41oiyhtk)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
