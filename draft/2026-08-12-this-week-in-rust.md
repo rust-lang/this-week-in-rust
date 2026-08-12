@@ -47,6 +47,7 @@ and just ask the editors to select the category.
 
 * [GRIT 1.1: type-check your quantized tensors](https://singhpratech.github.io/grit-datatype/)
 * [git-cache-proxy: read-only cache for git](https://rolandsdev.blog/posts/caching-git-clones-across-a-slow-network/)
+* [renew 0.1.1: a deterministic, code-first game engine](https://github.com/renew-engine/renew/releases/tag/v0.1.1)
 
 ### Observations/Thoughts
 
