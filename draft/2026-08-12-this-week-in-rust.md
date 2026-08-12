@@ -50,6 +50,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [TLS Handshakes: Measuring the Performance of 4 Cryptography Libraries](https://c410-f3r.github.io/thoughts/tls-handshakes-measuring-the-performance-of-4-cryptography-libraries/)
+
 ### Rust Walkthroughs
 
 ### Research
