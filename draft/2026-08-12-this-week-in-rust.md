@@ -67,6 +67,7 @@ and just ask the editors to select the category.
 
 * [Profiling Rust with hotpath-rs: The Complete Guide - From SQL Queries to CPU Sampling](https://hotpath.rs/blog/profiling-rust-guide)
 * [A chip-agnostic architecture for bare-metal embedded Rust](https://aaronqian.com/log/2026-08-01-chip-agnostic-architecture-bare-metal-rust/)
+* [Watching an LLM think, in ratatui: what building amtr taught me about terminal rendering](https://arian-shamaei.github.io/anthropometer/building-amtr.html)
 
 ### Research
 
