@@ -39,7 +39,12 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Maintainer spotlight: Anthony Bolden (@Walnut356)](https://blog.rust-lang.org/inside-rust/2026/11/02/maintainer-spotlight-anthony-bolden-walnut356/)
+* [Announcing rustup 1.29.3](https://blog.rust-lang.org/2026/11/03/Rustup-1.29.3/)
+
 ### Foundation
+
+* [Update on Rust Foundation Staffing](https://rustfoundation.org/media/update-on-rust-foundation-staffing/)
 
 ### Newsletters
 
@@ -50,10 +55,27 @@ and just ask the editors to select the category.
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
+* [systemd ❤️ Rust](https://amutable.com/blog/systemd-loves-rust)
+* [sysinfo: fixing performance to retrieve process GPU usage](https://blog.guillaume-gomez.fr/articles/2026-10-30+sysinfo%3A+fixing+performance+to+retrieve+process+GPU+usage)
+* [Towards formal verification: mbrotli and mzstd](https://m-compressors.github.io/2026/formal-verification-mbrotli-mzstd/)
+* [Ruffle: Stable Releases, API, Text... and Everything Else!](https://ruffle.rs/blog/2026/11/04/stable-releases-and-everything-else)
+* [Progress Report #44: rustc_codegen_gcc can now bootstrap rustc on Aarch64!](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-44)
+
 ### Observations/Thoughts
 
+* [Thinking in Traits](https://corrode.dev/blog/thinking-in-traits/)
+* [How to speed up the Rust compiler in November 2026](https://nnethercote.github.io/2026/11/04/how-to-speed-up-the-rust-compiler-in-november-2026.html)
+* [It's the memory latency, stupid · Pivot blog](https://pivotlake.io/blog/its-the-memory-latency-stupid/)
+* [The Missing Future State](https://blog.yoshuawuyts.com/the-future-trait-has-a-missing-state)
+* [Everything you need to know to secure your Rust projects against the wave of cyberattacks](https://kerkour.com/secure-rust-projects)
+* [audio] [Small Crates Behind Big Rust Systems](https://netstack.fm/episodes/small-crates-behind-big-rust-systems)
+* [audio] [Migrating C to Rust with Jonas Kruckenberg](https://rustacean-station.org/episode/jonas-kruckenberg/)
+
 ### Rust Walkthroughs
+
 * [Who Are You? versus Who Owns You? — What Rust Memory Safety and Wireless Addressing Have in Common](https://medium.com/@potto_94870/who-are-you-versus-who-owns-you-what-rust-memory-safety-and-wireless-addressing-have-in-common-b876a81468d5)
+* [video] [Rust Atomics Demystified](https://www.youtube.com/watch?v=R8IeTvTHlxU)
+* [video] [Fix Your Rust Functions](https://www.youtube.com/watch?v=X5Bf_Udenys)
 
 ### Research
 
