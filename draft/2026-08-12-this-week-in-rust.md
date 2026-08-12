@@ -148,7 +148,28 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This week so many new performance improvements landed that we needed to roll 10 of them up together to keep the bors queue manageable, great work!
+Also new is the LLVM 23 update which caused massive compile-time, run-time, bootstrap time and artifact size improvements.
+These improvements are reduced by the merge of Polonius Alpha on nightly causing a 3.0% regression. There still seems to be some potential to mitigate this regression.
+
+Triage done by **@JonathanBrouwer**.
+Revision range: [65dd30fb..771916f9](https://perf.rust-lang.org/?start=65dd30fb9e882a7e8f0be10caca62936db2a98b8&end=771916f9028e7fe56d2685f2c4f698de5d7d6a45&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 4.6%  | [0.2%, 12.8%]   | 24    |
+| Regressions ❌ <br /> (secondary)  | 4.3%  | [0.2%, 14.3%]   | 30    |
+| Improvements ✅ <br /> (primary)   | -3.3% | [-16.4%, -0.2%] | 251   |
+| Improvements ✅ <br /> (secondary) | -5.2% | [-34.8%, -0.2%] | 308   |
+| All ❌✅ (primary)                 | -2.6% | [-16.4%, 12.8%] | 275   |
+
+
+1 Regression, 4 Improvements, 7 Mixed; 5 of them in rollups
+25 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/e34d7594ad4dfdd6541038f505ec37d4602171f7/triage/2026/2026-08-09.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
