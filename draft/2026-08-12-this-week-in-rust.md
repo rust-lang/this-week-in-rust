@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 * [git-cache-proxy: read-only cache for git](https://rolandsdev.blog/posts/caching-git-clones-across-a-slow-network/)
 
 ### Observations/Thoughts
+* [Building scalable backend services with Rust and PostgreSQL](https://kerkour.com/rust-scalable-backend-services)
 
 ### Rust Walkthroughs
 
