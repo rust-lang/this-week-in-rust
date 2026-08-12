@@ -46,16 +46,13 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 * [vairedb 0.1.0 - Cloud Native Distributed Analytical Database](https://github.com/matteobovetti/vairedb/releases/tag/v0.1.0)
-* [Umbral - plugin-first Rust web framework](https://dev.to/dalmasonto/umbral-declare-your-data-in-rust-get-migrations-an-admin-and-a-rest-api-for-free-43oh) - declare your data and get managed migrations, a typed ORM, an admin, a REST API, and OpenAPI, where every capability (including auth) is a plugin registered through the same trait your code uses. Early alpha on crates.io, with a runnable [examples/shop](https://github.com/dalmasonto/umbral/tree/main/examples/shop), the project site [umbral website](https://umbralrs.dev/) (built with Umbral), and a live user [pipeline.supercodehive.com](https://pipeline.supercodehive.com/) that streams Chainlink price feeds for Polymarket to surface opening and closing prices across crypto market types.
 * [OXVG 0.0.7: introducing an SVG-to-JSX transformer to the OXVG toolchain](https://github.com/noahbald/oxvg/releases/tag/v0.0.7)
 * [HTML, JavaScript, CSS should have died long ago](https://dev.to/zionsati/html-javascript-css-should-have-died-long-ago-1mm3)
-* [agentflow: AgentOps for Rust — orchestrate, guard, act-guard, validate, evaluate, checkpoint, trace, cache, remember, in one crate](https://crates.io/crates/agentflow)
 * [Even more formal verification for BPF](https://lwn.net/SubscriberLink/1087069/d25c9e5027849a8a/)
 * [kache 0.14.0: debuggable restores and cross-clone convergence](https://github.com/kunobi-ninja/kache/releases/tag/v0.14.0)
 * [kobe 0.39.0: hardening the cluster-lease lifecycle](https://github.com/kunobi-ninja/kobe/releases/tag/v0.39.0)
 * [renew 0.1.1: a deterministic, code-first game engine](https://github.com/renew-engine/renew/releases/tag/v0.1.1)
 * [Fearless SIMD v0.7: 64-bit integers, improved generics, SSE2, and upcoming v1.0](https://linebender.org/blog/fearless-simd-0-7/)
-
 * [GRIT 1.1: type-check your quantized tensors](https://singhpratech.github.io/grit-datatype/)
 * [git-cache-proxy: read-only cache for git](https://rolandsdev.blog/posts/caching-git-clones-across-a-slow-network/)
 
