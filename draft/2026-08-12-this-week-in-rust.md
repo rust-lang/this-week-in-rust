@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [A chip-agnostic architecture for bare-metal embedded Rust](https://aaronqian.com/log/2026-08-01-chip-agnostic-architecture-bare-metal-rust/)
+
 ### Research
 
 ### Miscellaneous
