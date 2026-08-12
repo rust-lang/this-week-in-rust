@@ -59,6 +59,10 @@ pub struct FetchArgs {
     /// Print the editable merge buffer instead of writing files.
     #[arg(long)]
     pub dry_run: bool,
+
+    /// Continue checking other PRs when fetching one PR fails.
+    #[arg(long)]
+    pub keep_going: bool,
 }
 
 #[derive(Debug, Parser)]
@@ -100,6 +104,7 @@ pub struct SkippedPr {
 
 #[derive(Debug)]
 #[allow(clippy::large_enum_variant)]
+// TODO: this might be cleaner if it was an error type with Ignore/Fatal used as Result<T, SubmissionError>
 enum ClassifiedSubmission {
     Ignore(anyhow::Error),
     Success(Submission),
@@ -163,7 +168,7 @@ async fn run_fetch(args: FetchArgs) -> Result<()> {
 
     for pull in pulls {
         info!("checking PR #{}: {}", pull.number, pull.title);
-        match fetch_submission(
+        let result = fetch_submission(
             &client,
             GITHUB_OWNER,
             GITHUB_REPO,
@@ -172,15 +177,29 @@ async fn run_fetch(args: FetchArgs) -> Result<()> {
             &pull,
         )
         .await
-        .with_context(|| format!("could not fetch PR #{}", pull.number))?
-        {
-            ClassifiedSubmission::Success(submission) => submissions.push(submission),
-            ClassifiedSubmission::Ignore(reason) => skipped.push(SkippedPr {
+        .with_context(|| format!("could not fetch PR #{}", pull.number));
+
+        match result {
+            Ok(ClassifiedSubmission::Success(submission)) => submissions.push(submission),
+            Ok(ClassifiedSubmission::Ignore(reason)) => skipped.push(SkippedPr {
                 pr: pull.number,
                 title: pull.title,
                 reason,
                 url: pull.url,
             }),
+            Err(reason) if args.keep_going => {
+                warn!(
+                    "skipping PR #{} after fetch error due to --keep-going: {reason:#}",
+                    pull.number
+                );
+                skipped.push(SkippedPr {
+                    pr: pull.number,
+                    title: pull.title,
+                    reason,
+                    url: pull.url,
+                });
+            }
+            Err(reason) => return Err(reason.context(format!("fatal error fetching PR {}. You can use --keep-going to skip this PR instead of stopping here.", pull.number))),
         }
     }
 
@@ -223,6 +242,24 @@ async fn fetch_submission(
     let files = fetch_pr_files(client, owner, name, pull.number)
         .await
         .with_context(|| format!("could not fetch changed files for PR #{}", pull.number))?;
+
+    // We do this first so we don't try to fetch non-existent files below
+    if files.len() != 1 {
+        return Ok(ClassifiedSubmission::new_ignore(anyhow!(
+            "changes {} files",
+            files.len()
+        )));
+    }
+
+    if Path::new(&files[0].filename) != draft_rel {
+        // TODO: we could instead guess if you change an old draft you mean to change the latest draft
+        return Ok(ClassifiedSubmission::new_ignore(anyhow!(
+            "changes {file} instead of {draft_rel}",
+            file = files[0].filename,
+            draft_rel = draft_rel.display()
+        )));
+    }
+
     // Use the PR's base to determine what it adds even if main has moved since it was opened.
     let base_text = fetch_file_text(client, owner, name, draft_rel, pull.base_sha)
         .await
@@ -230,15 +267,8 @@ async fn fetch_submission(
     let head_text = fetch_file_text(client, owner, name, draft_rel, pull.head_sha)
         .await
         .with_context(|| format!("could not fetch head draft for PR #{}", pull.number))?;
-    let submission = match classify_submission(
-        pull,
-        &files,
-        draft_rel,
-        current_text,
-        &base_text,
-        &head_text,
-    )
-    .context("submission failed validation")
+    let submission = match classify_submission(pull, current_text, &base_text, &head_text)
+        .context("submission failed validation")
     {
         Ok(submission) => submission,
         Err(reason) => return Ok(ClassifiedSubmission::new_ignore(reason)),
@@ -493,22 +523,7 @@ fn classify_check_runs(check_runs: &ListCheckRuns) -> CiState {
     }
 }
 
-fn classify_pr(
-    pull: &PullSummary,
-    files: &[DiffEntry],
-    draft_rel: &Path,
-    base_text: &str,
-    head_text: &str,
-) -> Result<Submission> {
-    if files.len() != 1 {
-        bail!("changes {} files", files.len());
-    }
-
-    let file = &files[0];
-    if Path::new(&file.filename) != draft_rel {
-        bail!("changes {}, not {}", file.filename, draft_rel.display());
-    }
-
+fn build_submission(pull: &PullSummary, base_text: &str, head_text: &str) -> Result<Submission> {
     let candidate = md::find_single_added_community_list_item(base_text, head_text)?;
     Ok(Submission {
         pr: pull.number,
@@ -525,13 +540,11 @@ fn classify_pr(
 
 fn classify_submission(
     pull: &PullSummary,
-    files: &[DiffEntry],
-    draft_rel: &Path,
     current_text: &str,
     base_text: &str,
     head_text: &str,
 ) -> Result<Submission> {
-    let submission = classify_pr(pull, files, draft_rel, base_text, head_text)?;
+    let submission = build_submission(pull, base_text, head_text)?;
     if md::contains_list_item(current_text, &submission.section, &submission.item) {
         bail!("submission is already present in current draft");
     }
@@ -1059,23 +1072,6 @@ mod tests {
         }
     }
 
-    fn file(patch: &str, additions: u64, deletions: u64) -> DiffEntry {
-        serde_json::from_value(serde_json::json!({
-            "sha": "0123456789abcdef0123456789abcdef01234567",
-            "filename": "draft/2026-06-24-this-week-in-rust.md",
-            "status": "modified",
-            "additions": additions,
-            "deletions": deletions,
-            "changes": additions + deletions,
-            "blob_url": null,
-            "raw_url": null,
-            "contents_url": "https://api.github.com/repos/rust-lang/this-week-in-rust/contents/draft/2026-06-24-this-week-in-rust.md",
-            "patch": patch,
-            "previous_filename": null
-        }))
-        .unwrap()
-    }
-
     fn check_runs(value: serde_json::Value) -> ListCheckRuns {
         serde_json::from_value(value).unwrap()
     }
@@ -1160,17 +1156,10 @@ mod tests {
     }
 
     #[test]
-    fn classifies_one_link_submission() {
+    fn build_one_link_submission() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n### Observations/Thoughts\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Ratatui 0.30.2 is released](https://ratatui.rs/highlights/v0302/)\n\n### Observations/Thoughts\n";
-        let submission = classify_pr(
-            &pull(1),
-            &[file("", 1, 0)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            base,
-            head,
-        )
-        .unwrap();
+        let submission = build_submission(&pull(1), base, head).unwrap();
         assert_eq!(submission.section, "Project/Tooling Updates");
         assert_eq!(
             submission.item,
@@ -1182,14 +1171,7 @@ mod tests {
     fn accepts_item_added_after_existing_item() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing](https://example.com/existing)\n\n### Observations/Thoughts\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing](https://example.com/existing)\n* [New](https://example.com/new)\n\n### Observations/Thoughts\n";
-        let submission = classify_pr(
-            &pull(20),
-            &[file("", 1, 0)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            base,
-            head,
-        )
-        .unwrap();
+        let submission = build_submission(&pull(20), base, head).unwrap();
 
         assert_eq!(submission.item, "* [New](https://example.com/new)");
     }
@@ -1198,14 +1180,7 @@ mod tests {
     fn accepts_item_added_before_existing_item() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing](https://example.com/existing)\n\n### Observations/Thoughts\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [New](https://example.com/new)\n* [Existing](https://example.com/existing)\n\n### Observations/Thoughts\n";
-        let submission = classify_pr(
-            &pull(21),
-            &[file("", 1, 0)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            base,
-            head,
-        )
-        .unwrap();
+        let submission = build_submission(&pull(21), base, head).unwrap();
 
         assert_eq!(submission.item, "* [New](https://example.com/new)");
     }
@@ -1215,15 +1190,7 @@ mod tests {
         let pr_base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n### Observations/Thoughts\n";
         let current = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Already merged](https://example.com/existing)\n\n### Observations/Thoughts\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [New submission](https://example.com/new)\n\n### Observations/Thoughts\n";
-        let submission = classify_submission(
-            &pull(8380),
-            &[file("", 2, 0)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            current,
-            pr_base,
-            head,
-        )
-        .unwrap();
+        let submission = classify_submission(&pull(8380), current, pr_base, head).unwrap();
 
         let buffer = build_edit_buffer(current, &[submission]).unwrap();
         assert!(buffer.contains("[Already merged](https://example.com/existing)"));
@@ -1235,15 +1202,7 @@ mod tests {
         let pr_base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n### Observations/Thoughts\n";
         let current = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Already merged](https://example.com/existing)\n\n### Observations/Thoughts\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Already merged](https://example.com/existing)\n\n### Observations/Thoughts\n";
-        let err = classify_submission(
-            &pull(8372),
-            &[file("", 2, 0)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            current,
-            pr_base,
-            head,
-        )
-        .unwrap_err();
+        let err = classify_submission(&pull(8372), current, pr_base, head).unwrap_err();
 
         assert_eq!(
             err.to_string(),
@@ -1255,14 +1214,7 @@ mod tests {
     fn allows_one_link_plus_blank_line() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n### Observations/Thoughts\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [m-vis 0.4.0-rc1 is released](https://github.com/SickleFire/m-vis)\n\n\n### Observations/Thoughts\n";
-        let submission = classify_pr(
-            &pull(2),
-            &[file("", 2, 0)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            base,
-            head,
-        )
-        .unwrap();
+        let submission = build_submission(&pull(2), base, head).unwrap();
         assert_eq!(submission.pr, 2);
     }
 
@@ -1270,14 +1222,7 @@ mod tests {
     fn accepts_any_community_subsection() {
         let base = "## Updates from Rust Community\n\n### New Section\n\n";
         let head = "## Updates from Rust Community\n\n### New Section\n* [New item](https://example.com/new)\n";
-        let submission = classify_pr(
-            &pull(5),
-            &[file("", 1, 0)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            base,
-            head,
-        )
-        .unwrap();
+        let submission = build_submission(&pull(5), base, head).unwrap();
         assert_eq!(submission.section, "New Section");
     }
 
@@ -1285,14 +1230,7 @@ mod tests {
     fn accepts_first_item_in_empty_section() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [New item](https://example.com/new)\n";
-        let submission = classify_pr(
-            &pull(17),
-            &[file("", 1, 0)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            base,
-            head,
-        )
-        .unwrap();
+        let submission = build_submission(&pull(17), base, head).unwrap();
         assert_eq!(submission.item, "* [New item](https://example.com/new)");
     }
 
@@ -1300,14 +1238,7 @@ mod tests {
     fn ignores_shifted_ranges_for_unchanged_following_content() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\nExisting paragraph after the insertion point.\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [New item](https://example.com/new)\n\nExisting paragraph after the insertion point.\n";
-        let submission = classify_pr(
-            &pull(18),
-            &[file("", 2, 0)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            base,
-            head,
-        )
-        .unwrap();
+        let submission = build_submission(&pull(18), base, head).unwrap();
         assert_eq!(submission.section, "Project/Tooling Updates");
         assert_eq!(submission.item, "* [New item](https://example.com/new)");
     }
@@ -1316,14 +1247,7 @@ mod tests {
     fn normalizes_indented_submission_item_in_edit_buffer() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n  - [New item](https://example.com/new)\n";
-        let submission = classify_pr(
-            &pull(6),
-            &[file("", 1, 0)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            base,
-            head,
-        )
-        .unwrap();
+        let submission = build_submission(&pull(6), base, head).unwrap();
         assert_eq!(submission.item, "- [New item](https://example.com/new)");
 
         let buffer = build_edit_buffer(base, &[submission]).unwrap();
@@ -1334,14 +1258,7 @@ mod tests {
     fn accepts_list_item_with_embedded_link_text() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* Rust 1.88 has a nice writeup at [release notes](https://blog.rust-lang.org/)\n";
-        let submission = classify_pr(
-            &pull(7),
-            &[file("", 1, 0)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            base,
-            head,
-        )
-        .unwrap();
+        let submission = build_submission(&pull(7), base, head).unwrap();
         assert_eq!(
             submission.item,
             "* Rust 1.88 has a nice writeup at [release notes](https://blog.rust-lang.org/)"
@@ -1352,14 +1269,7 @@ mod tests {
     fn accepts_list_item_without_link() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* Rustaceans announced a thing\n";
-        let submission = classify_pr(
-            &pull(8),
-            &[file("", 1, 0)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            base,
-            head,
-        )
-        .unwrap();
+        let submission = build_submission(&pull(8), base, head).unwrap();
         assert_eq!(submission.item, "* Rustaceans announced a thing");
     }
 
@@ -1367,14 +1277,7 @@ mod tests {
     fn classifies_single_multiline_list_item() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [New item](https://example.com/new)\n    * extra detail\n";
-        let submission = classify_pr(
-            &pull(9),
-            &[file("", 2, 0)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            base,
-            head,
-        )
-        .unwrap();
+        let submission = build_submission(&pull(9), base, head).unwrap();
         assert_eq!(
             submission.item,
             "* [New item](https://example.com/new)\n    * extra detail"
@@ -1385,14 +1288,7 @@ mod tests {
     fn allows_whitespace_lines_around_one_added_item() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n### Observations/Thoughts\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n* [New item](https://example.com/new)\n   \n\n### Observations/Thoughts\n";
-        let submission = classify_pr(
-            &pull(13),
-            &[file("", 3, 0)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            base,
-            head,
-        )
-        .unwrap();
+        let submission = build_submission(&pull(13), base, head).unwrap();
         assert_eq!(submission.item, "* [New item](https://example.com/new)");
     }
 
@@ -1400,14 +1296,7 @@ mod tests {
     fn skips_event_blocks() {
         let base = "## Upcoming Events\n\n* 2026-06-25 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/events/)\n";
         let head = "## Upcoming Events\n\n* 2026-06-25 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/events/)\n* 2026-06-25 | Toulouse, FR | [Rust Toulouse](https://www.meetup.com/rust-community-toulouse/)\n    * [**Rust Toulouse Meetup - Bevy & ESP32**](https://www.meetup.com/rust-community-toulouse/events/314947457/)\n";
-        let err = classify_pr(
-            &pull(3),
-            &[file("", 2, 0)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            base,
-            head,
-        )
-        .unwrap_err();
+        let err = build_submission(&pull(3), base, head).unwrap_err();
         assert!(err.to_string().contains("valid community list item"));
     }
 
@@ -1415,14 +1304,7 @@ mod tests {
     fn skips_when_no_new_list_item() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing](https://example.com)\n";
         let head = base;
-        let err = classify_pr(
-            &pull(4),
-            &[file("", 0, 0)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            base,
-            head,
-        )
-        .unwrap_err();
+        let err = build_submission(&pull(4), base, head).unwrap_err();
         assert!(!err.to_string().is_empty());
     }
 
@@ -1430,14 +1312,7 @@ mod tests {
     fn rejects_removed_existing_item_even_with_one_addition() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing](https://example.com/old)\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [New](https://example.com/new)\n";
-        let err = classify_pr(
-            &pull(10),
-            &[file("", 1, 1)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            base,
-            head,
-        )
-        .unwrap_err();
+        let err = build_submission(&pull(10), base, head).unwrap_err();
         assert!(!err.to_string().is_empty());
     }
 
@@ -1445,14 +1320,7 @@ mod tests {
     fn rejects_added_section_with_one_item() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n";
         let head = "## Updates from Rust Community\n\n### New Section\n* [New](https://example.com/new)\n\n### Project/Tooling Updates\n";
-        let err = classify_pr(
-            &pull(11),
-            &[file("", 3, 0)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            base,
-            head,
-        )
-        .unwrap_err();
+        let err = build_submission(&pull(11), base, head).unwrap_err();
         assert!(!err.to_string().is_empty());
     }
 
@@ -1460,14 +1328,7 @@ mod tests {
     fn rejects_existing_item_edit_plus_one_addition() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing](https://example.com/old)\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing changed](https://example.com/old)\n* [New](https://example.com/new)\n";
-        let err = classify_pr(
-            &pull(12),
-            &[file("", 2, 1)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            base,
-            head,
-        )
-        .unwrap_err();
+        let err = build_submission(&pull(12), base, head).unwrap_err();
         assert!(!err.to_string().is_empty());
     }
 
@@ -1475,14 +1336,7 @@ mod tests {
     fn rejects_nested_addition_to_existing_item() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing](https://example.com/old)\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [Existing](https://example.com/old)\n    * extra detail\n";
-        let err = classify_pr(
-            &pull(14),
-            &[file("", 1, 0)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            base,
-            head,
-        )
-        .unwrap_err();
+        let err = build_submission(&pull(14), base, head).unwrap_err();
         assert!(!err.to_string().is_empty());
     }
 
@@ -1490,14 +1344,7 @@ mod tests {
     fn rejects_split_non_whitespace_additions() {
         let base = "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n### Observations/Thoughts\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [New](https://example.com/new)\n\n### Observations/Thoughts\n* [Other](https://example.com/other)\n";
-        let err = classify_pr(
-            &pull(15),
-            &[file("", 2, 0)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            base,
-            head,
-        )
-        .unwrap_err();
+        let err = build_submission(&pull(15), base, head).unwrap_err();
         assert!(err.to_string().contains("multiple items"));
     }
 
@@ -1506,14 +1353,7 @@ mod tests {
         let base =
             "## Updates from Rust Community\n\n### Project/Tooling Updates\n\n## Upcoming Events\n";
         let head = "## Updates from Rust Community\n\n### Project/Tooling Updates\n* [New](https://example.com/new)\n\n## Upcoming Events\nRandom event note\n";
-        let err = classify_pr(
-            &pull(16),
-            &[file("", 2, 0)],
-            Path::new("draft/2026-06-24-this-week-in-rust.md"),
-            base,
-            head,
-        )
-        .unwrap_err();
+        let err = build_submission(&pull(16), base, head).unwrap_err();
         assert!(err.to_string().contains("unexpected"));
     }
 
