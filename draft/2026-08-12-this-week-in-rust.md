@@ -222,6 +222,8 @@ Rusty Events between 2026-08-12 - 2026-09-09 🦀
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/315619609/)
 * 2026-08-14 | Virtual (Girona, ES) | [Rust Girona](https://luma.com/rust-girona)
     * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/f2hnzrug)
+* 2026-08-16 | Virtual (Bangalore, IN) | [Embedded Rust](https://discord.com/invite/pvYY69PvyS)
+    * [**Silicon Sundays #2**](https://discord.gg/tpsNpDHC?event=1536322186829242389)
 * 2026-08-18 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc)
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/315604176/)
 * 2026-08-19 | Hybrid (Vancouver, BC, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
