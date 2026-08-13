@@ -66,6 +66,7 @@ We are making changes to the Project/Tooling Updates Section - see [here](https:
 * [GRIT 1.1: type-check your quantized tensors](https://singhpratech.github.io/grit-datatype/)
 * [floDl: Introducing AMD GPU support](https://flodl.dev/blog/making-room)
 * [git-cache-proxy: read-only cache for git](https://rolandsdev.blog/posts/caching-git-clones-across-a-slow-network/)
+* [agentflow: an AgentOps stack for Rust agents](https://www.thainc.info/blog/agentflow)
 
 ### Observations/Thoughts
 
