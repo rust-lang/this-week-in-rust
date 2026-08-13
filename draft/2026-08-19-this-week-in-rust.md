@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [axioma-core](https://crates.io/crates/axioma-core) — no_std, zero-allocation compression engine for embedded targets
 
 ### Observations/Thoughts
 
