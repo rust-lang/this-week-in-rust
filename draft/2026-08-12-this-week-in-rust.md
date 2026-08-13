@@ -39,12 +39,21 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Call for testing: Restricting trait implementability and field mutability](https://blog.rust-lang.org/inside-rust/2026/08/10/call-for-testing-impl-and-mut-restrictions/)
+
 ### Foundation
+
+* [Rust Team Health Summit: September 8 in Montréal](https://rustfoundation.org/media/rust-teams-health-summit-september-8-in-montreal/)
+* [Catching Up with the Rust Content Team: RustWeek Interviews and a New Changelog Series](https://rustfoundation.org/media/catching-up-with-the-rust-content-team-rustweek-interviews-and-a-new-changelog-series/)
 
 ### Newsletters
 
+* [This Month in Rust OSDev: July 2026](https://rust-osdev.com/this-month/2026-07/)
+
 ### Project/Tooling Updates
 
+* [Bevy's Sixth Birthday](https://bevy.org/news/bevys-sixth-birthday/)
+* [fearless_simd v0.7: 64-bit integers, improved generics, SSE2, and upcoming v1.0](https://linebender.org/blog/fearless-simd-0-7/)
 * [vairedb 0.1.0 - Cloud Native Distributed Analytical Database](https://github.com/matteobovetti/vairedb/releases/tag/v0.1.0)
 * [OXVG 0.0.7: introducing an SVG-to-JSX transformer to the OXVG toolchain](https://github.com/noahbald/oxvg/releases/tag/v0.0.7)
 * [HTML, JavaScript, CSS should have died long ago](https://dev.to/zionsati/html-javascript-css-should-have-died-long-ago-1mm3)
@@ -52,23 +61,32 @@ and just ask the editors to select the category.
 * [kache 0.14.0: debuggable restores and cross-clone convergence](https://github.com/kunobi-ninja/kache/releases/tag/v0.14.0)
 * [kobe 0.39.0: hardening the cluster-lease lifecycle](https://github.com/kunobi-ninja/kobe/releases/tag/v0.39.0)
 * [renew 0.1.1: a deterministic, code-first game engine](https://github.com/renew-engine/renew/releases/tag/v0.1.1)
-* [Fearless SIMD v0.7: 64-bit integers, improved generics, SSE2, and upcoming v1.0](https://linebender.org/blog/fearless-simd-0-7/)
 * [GRIT 1.1: type-check your quantized tensors](https://singhpratech.github.io/grit-datatype/)
 * [git-cache-proxy: read-only cache for git](https://rolandsdev.blog/posts/caching-git-clones-across-a-slow-network/)
 
 ### Observations/Thoughts
 
+* [A Vision for Cargo](https://epage.github.io/blog/2026/08/cargo-vision/)
+* [Cylic trait implementations: motivation](https://smallcultfollowing.com/babysteps/blog/2026/08/10/cyclic-trait-solving/)
+* [Rust SIMD on the GPU](https://www.vectorware.com/blog/simd-on-gpu/)
+* [Rewriting in Rust: Performance, Failures, 2026 Reality Check](https://blog.jetbrains.com/rust/2026/08/10/rewriting-in-rust/)
+* [RangeFrom, Part 1..: History and background](https://erk.dev/2026/08/12/rangefrom-part-1)
 * [Typed Conversations: Make Illegal Agent Dialogues Unrepresentable](https://dmitrii.app/typed-conversations-make-illegal-agent-dialogues-unrepresentable/)
 * [ECQV: implicit certificates, and why I kept them out of the project that motivated them](https://Abdk4Moura.github.io/post.html?post=2026-08-09-ecqv.md)
 * [TLS Handshakes: Measuring the Performance of 4 Cryptography Libraries](https://c410-f3r.github.io/thoughts/tls-handshakes-measuring-the-performance-of-4-cryptography-libraries/)
 * [Building scalable backend services with Rust and PostgreSQL](https://kerkour.com/rust-scalable-backend-services)
+* [PoC for universal hardware-in-the-loop HAL test suite — Tweede golf](https://tweedegolf.nl/en/blog/240/PoC-for-universal-hardware-in-the-loop-HAL-test-suite/)
+* [video] [FLOSS 878 - A Tool With Opinions](https://www.youtube.com/watch?v=ah11nzclXag)
 
 ### Rust Walkthroughs
 
+* [Downcasting Arcs in Rust](https://ashdnazg.github.io/articles/26/Downcasting-Arcs-in-Rust)
 * [Profiling Rust with hotpath-rs: The Complete Guide - From SQL Queries to CPU Sampling](https://hotpath.rs/blog/profiling-rust-guide)
 * [A chip-agnostic architecture for bare-metal embedded Rust](https://aaronqian.com/log/2026-08-01-chip-agnostic-architecture-bare-metal-rust/)
 
 ### Research
+
+* [Rust Coreutils: Rebuilding Unix Foundations in a Modern Language](https://arxiv.org/abs/2608.07135)
 
 ### Miscellaneous
 
