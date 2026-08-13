@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Umbral - plugin-first Rust web framework](https://dev.to/dalmasonto/umbral-declare-your-data-in-rust-get-migrations-an-admin-and-a-rest-api-for-free-43oh)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
