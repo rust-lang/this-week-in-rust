@@ -62,6 +62,7 @@ and just ask the editors to select the category.
 * [kobe 0.39.0: hardening the cluster-lease lifecycle](https://github.com/kunobi-ninja/kobe/releases/tag/v0.39.0)
 * [renew 0.1.1: a deterministic, code-first game engine](https://github.com/renew-engine/renew/releases/tag/v0.1.1)
 * [GRIT 1.1: type-check your quantized tensors](https://singhpratech.github.io/grit-datatype/)
+* [floDl: Introducing AMD GPU support](https://flodl.dev/blog/making-room)
 * [git-cache-proxy: read-only cache for git](https://rolandsdev.blog/posts/caching-git-clones-across-a-slow-network/)
 
 ### Observations/Thoughts
