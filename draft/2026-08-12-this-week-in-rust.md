@@ -39,12 +39,21 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Call for testing: Restricting trait implementability and field mutability](https://blog.rust-lang.org/inside-rust/2026/08/10/call-for-testing-impl-and-mut-restrictions/)
+
 ### Foundation
+
+* [Rust Team Health Summit: September 8 in Montréal](https://rustfoundation.org/media/rust-teams-health-summit-september-8-in-montreal/)
+* [Catching Up with the Rust Content Team: RustWeek Interviews and a New Changelog Series](https://rustfoundation.org/media/catching-up-with-the-rust-content-team-rustweek-interviews-and-a-new-changelog-series/)
 
 ### Newsletters
 
+* [This Month in Rust OSDev: July 2026](https://rust-osdev.com/this-month/2026-07/)
+
 ### Project/Tooling Updates
 
+* [Bevy's Sixth Birthday](https://bevy.org/news/bevys-sixth-birthday/)
+* [fearless_simd v0.7: 64-bit integers, improved generics, SSE2, and upcoming v1.0](https://linebender.org/blog/fearless-simd-0-7/)
 * [vairedb 0.1.0 - Cloud Native Distributed Analytical Database](https://github.com/matteobovetti/vairedb/releases/tag/v0.1.0)
 * [OXVG 0.0.7: introducing an SVG-to-JSX transformer to the OXVG toolchain](https://github.com/noahbald/oxvg/releases/tag/v0.0.7)
 * [HTML, JavaScript, CSS should have died long ago](https://dev.to/zionsati/html-javascript-css-should-have-died-long-ago-1mm3)
@@ -52,29 +61,40 @@ and just ask the editors to select the category.
 * [kache 0.14.0: debuggable restores and cross-clone convergence](https://github.com/kunobi-ninja/kache/releases/tag/v0.14.0)
 * [kobe 0.39.0: hardening the cluster-lease lifecycle](https://github.com/kunobi-ninja/kobe/releases/tag/v0.39.0)
 * [renew 0.1.1: a deterministic, code-first game engine](https://github.com/renew-engine/renew/releases/tag/v0.1.1)
-* [Fearless SIMD v0.7: 64-bit integers, improved generics, SSE2, and upcoming v1.0](https://linebender.org/blog/fearless-simd-0-7/)
 * [GRIT 1.1: type-check your quantized tensors](https://singhpratech.github.io/grit-datatype/)
 * [git-cache-proxy: read-only cache for git](https://rolandsdev.blog/posts/caching-git-clones-across-a-slow-network/)
 
 ### Observations/Thoughts
 
+* [A Vision for Cargo](https://epage.github.io/blog/2026/08/cargo-vision/)
+* [Cylic trait implementations: motivation](https://smallcultfollowing.com/babysteps/blog/2026/08/10/cyclic-trait-solving/)
+* [Rust SIMD on the GPU](https://www.vectorware.com/blog/simd-on-gpu/)
+* [Rewriting in Rust: Performance, Failures, 2026 Reality Check](https://blog.jetbrains.com/rust/2026/08/10/rewriting-in-rust/)
+* [RangeFrom, Part 1..: History and background](https://erk.dev/2026/08/12/rangefrom-part-1)
 * [Typed Conversations: Make Illegal Agent Dialogues Unrepresentable](https://dmitrii.app/typed-conversations-make-illegal-agent-dialogues-unrepresentable/)
 * [ECQV: implicit certificates, and why I kept them out of the project that motivated them](https://Abdk4Moura.github.io/post.html?post=2026-08-09-ecqv.md)
 * [TLS Handshakes: Measuring the Performance of 4 Cryptography Libraries](https://c410-f3r.github.io/thoughts/tls-handshakes-measuring-the-performance-of-4-cryptography-libraries/)
 * [Building scalable backend services with Rust and PostgreSQL](https://kerkour.com/rust-scalable-backend-services)
+* [PoC for universal hardware-in-the-loop HAL test suite — Tweede golf](https://tweedegolf.nl/en/blog/240/PoC-for-universal-hardware-in-the-loop-HAL-test-suite/)
+* [video] [FLOSS 878 - A Tool With Opinions](https://www.youtube.com/watch?v=ah11nzclXag)
 
 ### Rust Walkthroughs
 
+* [Downcasting Arcs in Rust](https://ashdnazg.github.io/articles/26/Downcasting-Arcs-in-Rust)
 * [Profiling Rust with hotpath-rs: The Complete Guide - From SQL Queries to CPU Sampling](https://hotpath.rs/blog/profiling-rust-guide)
 * [A chip-agnostic architecture for bare-metal embedded Rust](https://aaronqian.com/log/2026-08-01-chip-agnostic-architecture-bare-metal-rust/)
 
 ### Research
 
+* [Rust Coreutils: Rebuilding Unix Foundations in a Modern Language](https://arxiv.org/abs/2608.07135)
+
 ### Miscellaneous
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [literator](https://crates.io/crates/literator), a crate for efficiently displaying the items of an iterator without temporary allocations.
+
+Thanks to [Nora](https://users.rust-lang.org/t/crate-of-the-week/2704/1644) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -125,7 +145,106 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+698 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-08-04..2026-08-11
+
+#### Compiler
+* [check the fallback map before queueing child in `visible_parent_map` breadth-first search](https://github.com/rust-lang/rust/pull/160464)
+* [enable polonius alpha on nightly](https://github.com/rust-lang/rust/pull/159343)
+* [improve `canonical_param_env_cache`](https://github.com/rust-lang/rust/pull/160673)
+* [interpret: skip deref-projection validity checks when they are not needed](https://github.com/rust-lang/rust/pull/160399)
+* [optimize crate resolution for large workspace](https://github.com/rust-lang/rust/pull/159763)
+* [optimize handling of solver errors](https://github.com/rust-lang/rust/pull/160160)
+* [optimize `try_evaluate_obligations`](https://github.com/rust-lang/rust/pull/160479)
+* [perf: cache already-checked types in the privacy visitor](https://github.com/rust-lang/rust/pull/160317)
+* [perf: lock-free root fast paths for hygiene queries](https://github.com/rust-lang/rust/pull/160494)
+* [perf: skip irrelevant foreign impls when building the specialization graph](https://github.com/rust-lang/rust/pull/157281)
+* [perf: store the fulfillment engine inline in ObligationCtxt](https://github.com/rust-lang/rust/pull/160268)
+* [shallow resolve ty and const vars to their root vars, attempt 2](https://github.com/rust-lang/rust/pull/158447)
+* [speed up `EverInitializedPlaces`](https://github.com/rust-lang/rust/pull/160033)
+* [split `apply_primary_terminator_effect`](https://github.com/rust-lang/rust/pull/160555)
+* [stabilize `c_variadic_naked_functions`](https://github.com/rust-lang/rust/pull/159746)
+
+#### Library
+* [add fast path to `escape_string_symbol`](https://github.com/rust-lang/rust/pull/160453)
+* [core: generalize `BorrowedCursor::ensure_init`](https://github.com/rust-lang/rust/pull/160432)
+* [hint that memchr returns an in-bounds index](https://github.com/rust-lang/rust/pull/159784)
+* [implement `<OnceCell,OnceLock>::new_init`](https://github.com/rust-lang/rust/pull/160881)
+* [implement `to_string()` on `ByteStr` and `ByteString`](https://github.com/rust-lang/rust/pull/159300)
+* [introduce a `PinSafePointer` trait that generalizes `PinCoerceUnsized`](https://github.com/rust-lang/rust/pull/156935)
+* [mark const ptr methods and free functions as `inline(always)` to match *mut](https://github.com/rust-lang/rust/pull/160816)
+* [optimize `slice::contains` for one-byte BytewiseEq types](https://github.com/rust-lang/rust/pull/160732)
+* [single-pass ASCII lower/upper case conversion](https://github.com/rust-lang/rust/pull/160480)
+* [stabilize `fs_set_times`](https://github.com/rust-lang/rust/pull/160820)
+
+#### Cargo
+* [`docs(changelog)`: Pull the --verbose item](https://github.com/rust-lang/cargo/pull/17315)
+* [`docs(ref)`: Add missing config env variables](https://github.com/rust-lang/cargo/pull/17345)
+* [`feat(log)`: emit build-started JSON message with `run_id`](https://github.com/rust-lang/cargo/pull/16632)
+* [`feat(profile)`: Add built-in profile debug](https://github.com/rust-lang/cargo/pull/17214)
+* [`feat(resolver)`: Report the min-publish-age in the lock message](https://github.com/rust-lang/cargo/pull/17328)
+* [`feat(toml)`: allow overriding inherited default-features in 2024](https://github.com/rust-lang/cargo/pull/17126)
+* [`feat(trim-paths)`: emit unremap files for final artifacts](https://github.com/rust-lang/cargo/pull/17303)
+* [`fix(clean)`: respect target with --doc](https://github.com/rust-lang/cargo/pull/17322)
+* [`fix(diag)`: Ensure diagnostic titles work without snippets](https://github.com/rust-lang/cargo/pull/17304)
+* [`fix(diag)`: Gate `blanket_hint_mostly_unused` with -Zprofile-hint-mostly-unused](https://github.com/rust-lang/cargo/pull/17313)
+* [`fix(diag)`: Remove complexity, perf, and nursery lint groups](https://github.com/rust-lang/cargo/pull/17307)
+* [`fix(git)`: Avoid use of git's core.fsmonitor](https://github.com/rust-lang/cargo/pull/17306)
+* [`fix(lock)`: Use more accurate 'highest, rather than 'latest'](https://github.com/rust-lang/cargo/pull/17317)
+* [`fix(resolver)`: Make min-publish-age relative to --publish-time](https://github.com/rust-lang/cargo/pull/17327)
+* [`fix(trim-paths): /cargo/deps` fallback sources](https://github.com/rust-lang/cargo/pull/17338)
+* [`fix(trim-paths)`: workspace remap under -Zroot-dir](https://github.com/rust-lang/cargo/pull/17337)
+* [`refactor(resolver): resolve()` does not need an optional gctx](https://github.com/rust-lang/cargo/pull/17331)
+* [`revert(compiler)`: forward verbose flag to rustc for local crates](https://github.com/rust-lang/cargo/pull/17314)
+* [`test(trim-paths)`: exercise unremap files with debuggers](https://github.com/rust-lang/cargo/pull/17326)
+* [doc: don't use mergeable info and json together](https://github.com/rust-lang/cargo/pull/17336)
+* [fix funding link](https://github.com/rust-lang/cargo/pull/17344)
+* [refactor: remove unnecessary mut in sources](https://github.com/rust-lang/cargo/pull/17305)
+* [test: handle non-deterministic compilation order](https://github.com/rust-lang/cargo/pull/17347)
+
+#### Rustdoc
+* [Create output file after we checked that the standalone markdown file is valid](https://github.com/rust-lang/rust/pull/160576)
+* [Do not take `doc(cfg())` into account when filtering doctests](https://github.com/rust-lang/rust/pull/159014)
+
+#### Clippy
+* [`cast_possible_truncation`: fix `try_from` suggestion expanding macros](https://github.com/rust-lang/rust-clippy/pull/17530)
+* [don't lint `semicolon_if_nothing_returned` in `#[automatically_derived]` …](https://github.com/rust-lang/rust-clippy/pull/17229)
+* [fix `needless_range_loop` suggests wrongly for nested index](https://github.com/rust-lang/rust-clippy/pull/16634)
+* [`needless_bool`: lint the early-return guard form](https://github.com/rust-lang/rust-clippy/pull/17185)
+* [new lint: nonzero operators and methods](https://github.com/rust-lang/rust-clippy/pull/17499)
+* [`redundant_pattern_matching`: parenthesize guarded `matches!` suggestion](https://github.com/rust-lang/rust-clippy/pull/17287)
+* [`unwrap_or_default`: respect MSRV for raw-pointer Default impls](https://github.com/rust-lang/rust-clippy/pull/17452)
+
+#### Rust-Analyzer
+* [account for trailing line continuations in byte strings](https://github.com/rust-lang/rust-analyzer/pull/23032)
+* [support `#[rustc_must_implement_one_of]` in the assists](https://github.com/rust-lang/rust-analyzer/pull/23042)
+* [add `replace_arith_with_strict` assist](https://github.com/rust-lang/rust-analyzer/pull/23082)
+* [`term_search` exclude useless target type](https://github.com/rust-lang/rust-analyzer/pull/22994)
+* [add parens on some common cases for `type_mismatch`](https://github.com/rust-lang/rust-analyzer/pull/23117)
+* [allow `struct` literals in match guards inside `let` exprs](https://github.com/rust-lang/rust-analyzer/pull/23055)
+* [always allocate anon consts for c-strings/byte-strings literals](https://github.com/rust-lang/rust-analyzer/pull/23021)
+* [avoid array len type mismatch with string panic](https://github.com/rust-lang/rust-analyzer/pull/23019)
+* [avoid escaping bound vars produced by `infer_method_call's skip_binder`](https://github.com/rust-lang/rust-analyzer/pull/23059)
+* [bound macro expansion depth across body and block boundaries](https://github.com/rust-lang/rust-analyzer/pull/22974)
+* [do not consider locals of `async fn` as upvars of the returned coroutine](https://github.com/rust-lang/rust-analyzer/pull/23103)
+* [do not declare the value NS constructor for structs/enum variants if it does not exist](https://github.com/rust-lang/rust-analyzer/pull/23096)
+* [don't panic when a lifetime is passed to an `ident` metavariable](https://github.com/rust-lang/rust-analyzer/pull/22922)
+* [fix 'no entry found for key' panic in VFS](https://github.com/rust-lang/rust-analyzer/pull/23120)
+* [fix upvars query of const block inside closure](https://github.com/rust-lang/rust-analyzer/pull/23040)
+* [fixed positive diagnostic for valid code](https://github.com/rust-lang/rust-analyzer/pull/23020)
+* [initialize `macro_depth` to the file's macro depth in docs.rs and assoc.rs](https://github.com/rust-lang/rust-analyzer/pull/23034)
+* [let `Param::parent_fn` return function for BuiltinDeriveImplMethod methods](https://github.com/rust-lang/rust-analyzer/pull/23071)
+* [normalize associated types in orphan checks](https://github.com/rust-lang/rust-analyzer/pull/23078)
+* [off-by-one in lifetime binders when lowering `dyn Trait<'a>`](https://github.com/rust-lang/rust-analyzer/pull/23107)
+* [optimize memory usage of the item tree](https://github.com/rust-lang/rust-analyzer/pull/23056)
+* [parse inline asm with keyword as operand name](https://github.com/rust-lang/rust-analyzer/pull/23054)
+* [parse or pattern after range pattern](https://github.com/rust-lang/rust-analyzer/pull/23077)
+* [preserve trailing text when `InsertReplaceEdit` is unsupported](https://github.com/rust-lang/rust-analyzer/pull/23028)
+* [remove extra spaces in full function signatures](https://github.com/rust-lang/rust-analyzer/pull/23070)
+* [support macros in `#[doc]` attributes in IDE features](https://github.com/rust-lang/rust-analyzer/pull/22899)
+* [unresolved type variables shouldn't escape impl selection](https://github.com/rust-lang/rust-analyzer/pull/23072)
+* [when searching for a `pub macro`, consider it available to reverse dependencies](https://github.com/rust-lang/rust-analyzer/pull/23036)
 
 ### Rust Compiler Performance Triage
 
@@ -343,7 +462,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> The AI discussion was already put to bed as off topic and derailing. Do not summon the Mods so carelessly, as they are wroth, and filled with cruel vengeance.
+
+– [Simon Buchan on rust-users](https://users.rust-lang.org/t/rust-being-non-standard-affects-compilers/141600/38)
+
+Thanks to [Jonas Fassbender](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1788) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
