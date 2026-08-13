@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+We are making changes to the Project/Tooling Updates Section - see [here](https://github.com/rust-lang/this-week-in-rust/issues/8575) for more details
+
 * [Bevy's Sixth Birthday](https://bevy.org/news/bevys-sixth-birthday/)
 * [fearless_simd v0.7: 64-bit integers, improved generics, SSE2, and upcoming v1.0](https://linebender.org/blog/fearless-simd-0-7/)
 * [vairedb 0.1.0 - Cloud Native Distributed Analytical Database](https://github.com/matteobovetti/vairedb/releases/tag/v0.1.0)
