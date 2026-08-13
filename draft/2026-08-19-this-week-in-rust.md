@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Building a Homebrew-compatible package manager in a day, with an AI](https://github.com/spoodyz/dram/blob/main/docs/building-dram.md)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
