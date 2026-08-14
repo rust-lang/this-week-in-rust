@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [timefork: a copy-on-write time machine for coding agent workspaces](https://github.com/asjad3/timefork)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
