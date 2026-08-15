@@ -133,6 +133,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [sysknife - Expose the read-only actions as MCP tools without exposing AptUpdate](https://github.com/lacs-project/sysknife/issues/216)
 * [sysknife - Record a current Fedora Atomic validation run](https://github.com/lacs-project/sysknife/issues/217)
 * [YantrikDB - Migrate the 7 remaining manual SAVEPOINT sites to SavepointGuard (panic-unwind hole + 7 hand-rolled copies of the unwind rule)](https://github.com/yantrikos/yantrikdb/issues/100)
+* [RustAPI - chore: issue templates, drop missing triage label, MSRV 1.85 (easy)](https://github.com/Tuntii/RustAPI/issues/261)
+* [KayaDB - test: one extra named malformed WAL / command-frame decoder case (easy)](https://github.com/Tuntii/KayaDB/issues/46)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
