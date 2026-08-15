@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [What is LogiSheets? - a Rust and WebAssembly spreadsheet engine for .xlsx](https://docs.logisheets.com/introduction.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
