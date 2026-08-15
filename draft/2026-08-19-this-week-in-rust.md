@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Supervising a Node service from a Rust desktop app](https://github.com/Moresyl/dsh-studio/blob/main/docs/supervising-a-node-service-from-rust.md)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
