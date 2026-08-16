@@ -289,7 +289,7 @@ which are reaching a decision. Express your opinions now.
 * [remove support for the (unstable) #[start] attribute](https://github.com/rust-lang/rust/pull/134299)
 * [fully de-stabilize all custom inner attributes](https://github.com/rust-lang/rust/pull/134276)
 * [Uplift `clippy::double_neg` lint as `double_negations`](https://github.com/rust-lang/rust/pull/126604)
-* [Optimize `Seek::stream`_len impl for File](https://github.com/rust-lang/rust/pull/125087)
+* [Optimize `Seek::stream_len` impl for File](https://github.com/rust-lang/rust/pull/125087)
 * [[rustdoc] Add sans-serif font setting](https://github.com/rust-lang/rust/pull/133636)
 * [Tracking Issue for PathBuf::add_extension and Path::with_added_extension](https://github.com/rust-lang/rust/issues/127292)
 * [Make the wasm_c_abi future compat warning a hard error](https://github.com/rust-lang/rust/pull/133951)
