@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [r3bl-rust-analyzer-mcp-server 1.0.0: Fast, simple MCP server for rust-analyzer](https://github.com/r3bl-org/r3bl-rust-analyzer-mcp-server/releases/tag/v1.0.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
