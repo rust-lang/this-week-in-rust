@@ -45,7 +45,7 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
-* [Code-Infrastructure-as-Code (CIaC) compiler: one declarative source file, five idiomatic targets, whole-system simulation, no infrastructure required](https://github.com/jrcalgo/ciac-compiler/discussions/36)
+* [Code-Infrastructure-as-Code (CIaC) compiler: one source file, five language targets, whole-system simulation, no infrastructure required](https://github.com/jrcalgo/ciac-compiler/discussions/36)
 
 ### Observations/Thoughts
 
