@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [The 22 Rust errors every beginner hits, in the order they hit them](https://dev.to/yetmike/the-22-rust-errors-every-beginner-hits-in-the-order-they-hit-them-13gi)
+
 ### Research
 
 ### Miscellaneous
