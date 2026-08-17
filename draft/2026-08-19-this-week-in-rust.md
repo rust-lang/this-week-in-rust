@@ -45,6 +45,10 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [NeuralAmpModeler-rs](https://github.com/fabiohl/NeuralAmpModeler-rs): A pure-Rust, real-time-safe neural audio engine for executing Neural Amp Modeler models with zero dynamic allocations and SIMD optimizations.
+* [NAM-Audio-Pipe](https://github.com/fabiohl/NAM-Audio-Pipe): A lightweight, standalone low-latency host for Neural Amp Modeler running natively on PipeWire/JACK.
+* [NAM-Plug](https://github.com/fabiohl/NAM-Plug): A modern, native CLAP plugin implementation of Neural Amp Modeler for Linux DAWs.
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
