@@ -87,9 +87,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
-* [clearscreen - Refactor winapi usage to windows-sys](https://github.com/watchexec/clearscreen/issues/10)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
-
+* [clearscreen - Refactor winapi usage to windows-sys](https://github.com/watchexec/clearscreen/issues/10)
 * [rama - support HAR exporter (http) layer in rama](https://github.com/plabayo/rama/issues/357)
 * [rama - add full-stack rama benchmarks](https://github.com/plabayo/rama/issues/374)
 
