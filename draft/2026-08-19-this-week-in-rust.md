@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
++* [Beyond WASI: Running any Rust application in the browser with BrowserPod 3.0](https://labs.leaningtech.com/blog/browserpod-rust)
+
 ### Research
 
 ### Miscellaneous
