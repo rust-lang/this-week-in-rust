@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+[Building a Containerized RESTful API](https://learning-rust.github.io/labs/building-a-containerized-restful-api/)
+
 ### Research
 
 ### Miscellaneous
