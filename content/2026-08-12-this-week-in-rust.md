@@ -70,7 +70,7 @@ We are making changes to the Project/Tooling Updates Section - see [here](https:
 ### Observations/Thoughts
 
 * [A Vision for Cargo](https://epage.github.io/blog/2026/08/cargo-vision/)
-* [Cylic trait implementations: motivation](https://smallcultfollowing.com/babysteps/blog/2026/08/10/cyclic-trait-solving/)
+* [Cyclic trait implementations: motivation](https://smallcultfollowing.com/babysteps/blog/2026/08/10/cyclic-trait-solving/)
 * [Rust SIMD on the GPU](https://www.vectorware.com/blog/simd-on-gpu/)
 * [Rewriting in Rust: Performance, Failures, 2026 Reality Check](https://blog.jetbrains.com/rust/2026/08/10/rewriting-in-rust/)
 * [RangeFrom, Part 1..: History and background](https://erk.dev/2026/08/12/rangefrom-part-1)
