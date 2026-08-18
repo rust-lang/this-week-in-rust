@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Zero-copy wgpu rendering inside an Electron app](https://murlet.com/blog/rendering-wgpu-under-electron/)
+
 ### Rust Walkthroughs
 
 ### Research
