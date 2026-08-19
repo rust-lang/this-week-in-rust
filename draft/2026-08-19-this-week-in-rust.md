@@ -265,6 +265,8 @@ Rusty Events between 2026-08-19 - 2026-09-16 🦀
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313816474/)
 * 2026-08-20 | Frankfurt, DE | [Rust Rhein-Main](https://www.meetup.com/rust-rhein-main)
     * [**Building an acoustic camera with egui and embassy**](https://www.meetup.com/rust-rhein-main/events/315855368/)
+* 2026-08-26 | Dresden, DE | [Rust Dresden](https://github.com/rust-dresden)
+    * [**Third Meetup**](https://pretix.eu/rust-dresden/on-location-3)
 * 2026-08-27 | Manchester, UK | [Rust Manchester](https://www.meetup.com/rust-manchester/events/)
     * [**Rust Manchester August Talks**](https://www.meetup.com/rust-manchester/events/315891530/)
 
