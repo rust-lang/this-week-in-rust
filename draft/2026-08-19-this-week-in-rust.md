@@ -38,20 +38,30 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Experiment in reducing target directory size on nightly](https://blog.rust-lang.org/inside-rust/2026/08/18/reducing-target-dir-size-on-nightly/)
 
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [OxiSH: a modern, memory-safe SSH server](https://dirkjan.ochtman.nl/writing/2026/08/13/announcing-oxish.html)
+* [A critical review of Xilem in 2026](https://hackmd.io/@s_haMSbyTAOWfoXc1aYNUg/Hka74gCwZg)
 
 ### Observations/Thoughts
+* [From Go to Rust](https://rolandsdev.blog/posts/from-go-to-rust/)
+* [What Zig felt like, coming from Rust](https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/)
+* [I want extern "fil-c"](https://domenkozar.com/2026/08/13/i-want-extern-fil-c/)
+* [Four levels of in-place initialization](https://blog.yoshuawuyts.com/four-levels-of-in-place-initialization/)
+* [Protecting the Rust standard library from accidental breakage](https://predr.ag/blog/protecting-the-rust-stdlib-from-breakage/)
 
 ### Rust Walkthroughs
 
 ### Research
+* [GPU Offload in Rust: Portable, Safe, and Fast](https://arxiv.org/pdf/2608.13759)
 
 ### Miscellaneous
+* [Zerocopy with Joshua Liebow-Feeser](https://joshlf.com/posts/netstack-fm-ep-10/)
 
 ## Crate of the Week
 
