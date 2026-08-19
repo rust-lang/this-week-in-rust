@@ -42,14 +42,20 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
+* [The Embedded Rustacean Issue #78](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-78)
 
 ### Project/Tooling Updates
+
+- [rama v0.4.0](https://github.com/plabayo/rama/releases/tag/rama-0.4.0)
 
 ### Observations/Thoughts
 
 * [Zero-copy wgpu rendering inside an Electron app](https://murlet.com/blog/rendering-wgpu-under-electron/)
+* [The Lint That Would Have Caught It Is Off by Default](https://ai2rules.dev/blog/the-lint-that-was-off-by-default/)
 
 ### Rust Walkthroughs
+
+[Building a Containerized RESTful API](https://learning-rust.github.io/labs/building-a-containerized-restful-api/)
 
 ### Research
 
@@ -125,6 +131,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [sysknife - Export the audit chain rows, not just the verify verdict](https://github.com/lacs-project/sysknife/issues/215)
 * [sysknife - Expose the read-only actions as MCP tools without exposing AptUpdate](https://github.com/lacs-project/sysknife/issues/216)
 * [sysknife - Record a current Fedora Atomic validation run](https://github.com/lacs-project/sysknife/issues/217)
+* [YantrikDB - Migrate the 7 remaining manual SAVEPOINT sites to SavepointGuard (panic-unwind hole + 7 hand-rolled copies of the unwind rule)](https://github.com/yantrikos/yantrikdb/issues/100)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
@@ -267,6 +274,8 @@ Rusty Events between 2026-08-19 - 2026-09-16 🦀
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313816474/)
 * 2026-08-20 | Frankfurt, DE | [Rust Rhein-Main](https://www.meetup.com/rust-rhein-main)
     * [**Building an acoustic camera with egui and embassy**](https://www.meetup.com/rust-rhein-main/events/315855368/)
+* 2026-08-26 | Dresden, DE | [Rust Dresden](https://github.com/rust-dresden)
+    * [**Third Meetup**](https://pretix.eu/rust-dresden/on-location-3)
 * 2026-08-27 | Manchester, UK | [Rust Manchester](https://www.meetup.com/rust-manchester/events/)
     * [**Rust Manchester August Talks**](https://www.meetup.com/rust-manchester/events/315891530/)
 
