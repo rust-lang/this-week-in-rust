@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Zero-copy wgpu rendering inside an Electron app](https://murlet.com/blog/rendering-wgpu-under-electron/)
 * [The Lint That Would Have Caught It Is Off by Default](https://ai2rules.dev/blog/the-lint-that-was-off-by-default/)
 
 ### Rust Walkthroughs
