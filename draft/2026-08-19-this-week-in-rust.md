@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [rama v0.4.0](https://github.com/plabayo/rama/releases/tag/rama-0.4.0)
+
 ### Observations/Thoughts
 
 * [The Lint That Would Have Caught It Is Off by Default](https://ai2rules.dev/blog/the-lint-that-was-off-by-default/)
