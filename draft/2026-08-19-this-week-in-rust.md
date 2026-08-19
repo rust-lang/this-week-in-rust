@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Building a Plugin System for Rust: WebAssembly vs Native vs Scripting Language vs Rules Engine](https://kerkour.com/rust-plugin-system)
 
 ### Rust Walkthroughs
 
