@@ -54,6 +54,7 @@ and just ask the editors to select the category.
 * [The Lint That Would Have Caught It Is Off by Default](https://ai2rules.dev/blog/the-lint-that-was-off-by-default/)
 
 ### Rust Walkthroughs
+* [A gentle introduction to Embedded Rust](https://niss36.github.io/blog/01-gentle-intro-to-embedded-rust/)
 
 [Building a Containerized RESTful API](https://learning-rust.github.io/labs/building-a-containerized-restful-api/)
 
