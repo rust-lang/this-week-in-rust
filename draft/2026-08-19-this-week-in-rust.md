@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [I ran two MCP browser tools against live bot detection. Here's the honest table.](https://pitiflautico.github.io/neobrowser/study.html)
+
 ### Rust Walkthroughs
 
 ### Research
