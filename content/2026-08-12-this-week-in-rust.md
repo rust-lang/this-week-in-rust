@@ -130,7 +130,11 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 * [Diesel - Improve the documentation of our derives](https://github.com/diesel-rs/diesel/issues/4840)
-<!-- * [ - ]() -->
+* [pulse_map - Add cargo-fuzz harness for insert/get/remove sequences](https://github.com/ddsha441981/pulse_map/issues/7)
+* [pulse_map - Add 24-hour soak test for ConcurrentPulseMap and ShardedPulseMap](https://github.com/ddsha441981/pulse_map/issues/8)
+* [pulse_map - Add loom tests for MetaWord AtomicU64 CAS correctness](https://github.com/ddsha441981/pulse_map/issues/9)
+* [pulse_map - Add CI job to verify no_std compilation on thumbv7m-none-eabi](https://github.com/ddsha441981/pulse_map/issues/10)
+* [pulse_map - Run Miri on test suite to detect undefined behavior in unsafe code](https://github.com/ddsha441981/pulse_map/issues/11)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
