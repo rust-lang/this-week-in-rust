@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [tokio_with_wasm](https://crates.io/crates/tokio_with_wasm), a crate that lets a single tokio codebase run both natively and in web browsers.
+
+Thanks to [Kim Dong-Hyun](https://users.rust-lang.org/t/crate-of-the-week/2704/1654) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -109,7 +111,6 @@ If you are a feature implementer and would like your RFC to appear on the above 
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
 
-
 ## Call for Participation; projects and speakers
 
 ### CFP - Projects
@@ -140,7 +141,66 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+613 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-08-11..2026-08-18
+
+#### Compiler
+* [inline some hot new-solver functions](https://github.com/rust-lang/rust/pull/160892)
+* [stabilize `-Zprofile-sample-use`](https://github.com/rust-lang/rust/pull/155942)
+* [stabilize `extern "custom"`](https://github.com/rust-lang/rust/pull/158504)
+* [make `ShardedHashMap::with_capacity` split capacity between shards](https://github.com/rust-lang/rust/pull/161127)
+* [three new-solver speedups](https://github.com/rust-lang/rust/pull/160605)
+* [use `TyOrConstInferVar` in the next solver, fix #158441](https://github.com/rust-lang/rust/pull/158436)
+
+#### Library
+* [add `core::num::Complex`](https://github.com/rust-lang/rust/pull/158885)
+* [`Arc`: remove unnecessary `fmt::Display` use for overflow assertion](https://github.com/rust-lang/rust/pull/160731)
+* [core/num: implement feature `float_nan_to`](https://github.com/rust-lang/rust/pull/161250)
+* [core: implement `FusedIterator` for `StepBy`](https://github.com/rust-lang/rust/pull/159963)
+* [experiment: add `core::cmp::smallest` and `core::cmp::largest`](https://github.com/rust-lang/rust/pull/160687)
+* [`Iterator::{min,max}(_by_key)` should use overridden `min`/`max`/`lt`](https://github.com/rust-lang/rust/pull/160203)
+* [`offload!` function-like macro](https://github.com/rust-lang/rust/pull/161055)
+* [optimize CStr backing slice bounds checks](https://github.com/rust-lang/rust/pull/161040)
+* [single-byte ASCII searcher for `StrSearcherImpl(pattern.rs)`](https://github.com/rust-lang/rust/pull/160408)
+
+#### Cargo
+* [`trim-paths`: honor workspace prefix override from env](https://github.com/rust-lang/cargo/pull/17349)
+* [`frontmatter`: Don't panic on a short closing fence before a non-ASCII char](https://github.com/rust-lang/cargo/pull/17274)
+* [`min-publish-age`: remove `registry.min-publish-age`](https://github.com/rust-lang/cargo/pull/17353)
+* [enable `-Zembed-metadata=no` by default on nightly Cargo](https://github.com/rust-lang/cargo/pull/17267)
+* [re-stabilize build-dir layout v2](https://github.com/rust-lang/cargo/pull/17354)
+* [remove unremap file when running cargo clean -p in new build-dir layout](https://github.com/rust-lang/cargo/pull/17356)
+
+#### Rustdoc
+* [add basic `splat` support to `rustdoc`](https://github.com/rust-lang/rust/pull/160882)
+* [add new `unused_footnote_definition` rustdoc lint](https://github.com/rust-lang/rust/pull/137858)
+* [also warn if an invalid `doc` attribute is used on a macro invocation](https://github.com/rust-lang/rust/pull/161003)
+
+#### Clippy
+* [add `option_zip_none` lint](https://github.com/rust-lang/rust-clippy/pull/17465)
+* [clean-up `used_underscore_*`](https://github.com/rust-lang/rust-clippy/pull/17308)
+* [fix ICE on `unnecessary_rest_pattern` for TyAlias](https://github.com/rust-lang/rust-clippy/pull/17557)
+* [fix `unfulfilled_lint_expectations` incorrectly triggered by `#[expect(clippy::let_and_return)]`](https://github.com/rust-lang/rust-clippy/pull/17045)
+* [fix duplicate diagnostics for `min_rust_version_invalid_attr`](https://github.com/rust-lang/rust-clippy/pull/17396)
+* [perf: check fn kind before the expansion walk in `missing_const_for_thread_local`](https://github.com/rust-lang/rust-clippy/pull/17581)
+* [perf: resolve the callee before the expansion walk in `VecArgs::hir`](https://github.com/rust-lang/rust-clippy/pull/17582)
+* [perf: run `in_external_macro` after the cheap checks in five hot lint paths](https://github.com/rust-lang/rust-clippy/pull/17276)
+
+#### Rust-Analyzer
+* [parser: frontmatter error path for UTF-8](https://github.com/rust-lang/rust-analyzer/pull/23159)
+* [avoid panic for mismatched associated type parameters](https://github.com/rust-lang/rust-analyzer/pull/23118)
+* [check original type for `replace_arith_op`](https://github.com/rust-lang/rust-analyzer/pull/22225)
+* [consider loop containing `break expr` to diverge if `expr` is diverging](https://github.com/rust-lang/rust-analyzer/pull/23127)
+* [do not panic when defined in macro from input](https://github.com/rust-lang/rust-analyzer/pull/23122)
+* [don't error on tail comma for some macro](https://github.com/rust-lang/rust-analyzer/pull/23134)
+* [emit E0600 when unary `!`/`-` is applied to unsupported type](https://github.com/rust-lang/rust-analyzer/pull/23147)
+* [every workspace should have a proc-macro server](https://github.com/rust-lang/rust-analyzer/pull/23111)
+* [fix `rustc_private` support for `rustc_proc_macro`](https://github.com/rust-lang/rust-analyzer/pull/23140)
+* [lower range expressions in hir lowering](https://github.com/rust-lang/rust-analyzer/pull/23115)
+* [return an error const to the solver when consteval fails](https://github.com/rust-lang/rust-analyzer/pull/23138)
+* [offer `replace_arith` on references to ints](https://github.com/rust-lang/rust-analyzer/pull/23109)
+* [support Reborrow and CoerceShared built-in derives](https://github.com/rust-lang/rust-analyzer/pull/22325)
 
 ### Rust Compiler Performance Triage
 
@@ -319,7 +379,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> ass-bind is peak
+
+– [Clar Fon on rust-zulip discussion "assumptions on binders" abbreviations](https://rust-lang.zulipchat.com/#narrow/channel/326132-t-types.2Fmeetings/topic/2026-08-11/near/615874481)
+
+Thanks to [Theemathas](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1790) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
