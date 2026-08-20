@@ -52,6 +52,7 @@ and just ask the editors to select the category.
 
 * [Zero-copy wgpu rendering inside an Electron app](https://murlet.com/blog/rendering-wgpu-under-electron/)
 * [The Lint That Would Have Caught It Is Off by Default](https://ai2rules.dev/blog/the-lint-that-was-off-by-default/)
+* [video] [series] [Implementing State Machines (Part 1)](https://youtu.be/q4GdfJNKI-M)
 
 ### Rust Walkthroughs
 * [A gentle introduction to Embedded Rust](https://niss36.github.io/blog/01-gentle-intro-to-embedded-rust/)
