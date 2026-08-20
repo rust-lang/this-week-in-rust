@@ -63,6 +63,16 @@ STRICT_TITLES = [
     'updates from rust community',
 ]
 
+PROJECT_TOOLING_TITLE = 'project/tooling updates'
+
+PROJECT_TOOLING_LINK_ERROR = (
+    "We are no longer accepting pull request submissions for the Project/Tooling Updates "
+    "section (see [here](https://github.com/rust-lang/this-week-in-rust/issues/8575) "
+    "for more details). Our editors monitor [r/rust](https://www.reddit.com/r/rust/) and "
+    "will consider links that are posted there. Please make sure to follow r/rust's "
+    "community rules when you are there!"
+)
+
 
 def is_strict_title(title):
     """ Return True if this title is one that needs strict checks. """
@@ -92,7 +102,7 @@ def check_suspicious(domain, url):
     diagnostics.warn(f"link {url} is to crates.io -- we do not usually include links directly to crates on crates.io; "
       "please double check our guidelines here: https://github.com/rust-lang/this-week-in-rust#projectstooling-updates")
 
-def extract_links(html):
+def extract_links(html, *, deny_project_tooling_links=False):
     """ Return a list of links from this file.
 
     Links will only be returned if they are within a section deemed "strict".
@@ -112,17 +122,26 @@ def extract_links(html):
     # Remember the header level (h2, h3, etc) when we turned on
     # strict_mode.
     header_level = None
+    project_tooling_level = None
 
     for tag in bs4.BeautifulSoup(html, 'html.parser').find_all(tags):
         if tag.name == 'a':
             link = tag.get('href')
             LOG.debug(f'found link tag: {link}')
+            if deny_project_tooling_links and project_tooling_level:
+                diagnostics.error(f'{link}: {PROJECT_TOOLING_LINK_ERROR}')
             if strict_mode:
                 check_truncated_title(tag)
                 trimmed_url = parse_url(link)
                 urls.append(trimmed_url)
         else:
             level = tag.name
+            if project_tooling_level and level <= project_tooling_level:
+                project_tooling_level = None
+            if (deny_project_tooling_links and
+                    str(tag.string).lower() == PROJECT_TOOLING_TITLE):
+                project_tooling_level = level
+
             if header_level and level > header_level:
                 LOG.debug(f'skipping {tag}, overridden at {header_level}')
                 continue
@@ -219,7 +238,8 @@ def parse_url(link):
 
     return reconstituted
 
-def inspect_file(filename, *, tree: Union[pygit2.Tree, None] = None):
+def inspect_file(filename, *, tree: Union[pygit2.Tree, None] = None,
+                 deny_project_tooling_links=False):
     LOG.info(f'inspecting file {filename}')
     if tree:
         if filename in tree:
@@ -231,7 +251,8 @@ def inspect_file(filename, *, tree: Union[pygit2.Tree, None] = None):
     else:
         md_text = open(filename).read()
     html = markdown.markdown(md_text)
-    links = extract_links(html)
+    links = extract_links(
+        html, deny_project_tooling_links=deny_project_tooling_links)
     LOG.debug(f'examining {len(links)} links')
     return links
 
@@ -266,12 +287,17 @@ def get_recent_files(dirs, count):
     return listing
 
 
-def inspect_files(file_list: list[str], *, tree: Union[pygit2.Tree, None] = None):
+def inspect_files(file_list: list[str], *, tree: Union[pygit2.Tree, None] = None,
+                  deny_project_tooling_links=False):
     """ Inspect a set of files, storing errors about duplicate links. """
     linkset = {}
 
     for index, file in enumerate(file_list):
-        links = inspect_file(file, tree=tree)
+        links = inspect_file(
+            file,
+            tree=tree,
+            deny_project_tooling_links=deny_project_tooling_links,
+        )
         LOG.debug(f'found links: {links}')
         for link in links:
             collision = linkset.get(link)
@@ -295,6 +321,9 @@ def main():
                         help="Show only diagnostics which appear after the given git commit")
     parser.add_argument("--show-warnings", default=False, action='store_true',
                         help="Show warnings as well as errors (warnings never affect exit code)")
+    parser.add_argument("--deny-project-tooling-links", default=False,
+                        action='store_true',
+                        help="Reject links in the Project/Tooling Updates section")
     parser.add_argument('--debug', action='store_true')
     args = parser.parse_args()
     if args.debug:
@@ -304,7 +333,10 @@ def main():
     LOG.debug(f'command-line arguments: {args}')
 
     file_list = get_recent_files(args.paths, args.num_recent)
-    inspect_files(file_list)
+    inspect_files(
+        file_list,
+        deny_project_tooling_links=args.deny_project_tooling_links,
+    )
 
     (errors, warnings) = diagnostics.drain_errors_and_warnings()
 
@@ -315,7 +347,11 @@ def main():
             raise ValueError(f'no such commit: {args.since}')
 
         LOG.info(f"inspecting files since commit {args.since}")
-        inspect_files(file_list, tree=tree)
+        inspect_files(
+            file_list,
+            tree=tree,
+            deny_project_tooling_links=args.deny_project_tooling_links,
+        )
         (old_errors, old_warnings) = diagnostics.drain_errors_and_warnings()
         errors = [e for e in errors if e not in old_errors]
         warnings = [w for w in warnings if w not in old_warnings]
