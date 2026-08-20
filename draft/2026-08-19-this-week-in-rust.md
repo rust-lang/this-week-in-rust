@@ -134,6 +134,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [sysknife - Expose the read-only actions as MCP tools without exposing AptUpdate](https://github.com/lacs-project/sysknife/issues/216)
 * [sysknife - Record a current Fedora Atomic validation run](https://github.com/lacs-project/sysknife/issues/217)
 * [YantrikDB - Migrate the 7 remaining manual SAVEPOINT sites to SavepointGuard (panic-unwind hole + 7 hand-rolled copies of the unwind rule)](https://github.com/yantrikos/yantrikdb/issues/100)
+* [RustAPI - chore: issue templates, drop missing triage label, MSRV 1.85 (easy)](https://github.com/Tuntii/RustAPI/issues/261)
+* [KayaDB - test: one extra named malformed WAL / command-frame decoder case (easy)](https://github.com/Tuntii/KayaDB/issues/46)
 * [Cordial - GameActivity.getWaterfallInsets has the wrong JNI descriptor](https://github.com/luohoa97/cordial/issues/11)
 * [Cordial - ro.soc.manufacturer is answered with an empty string](https://github.com/luohoa97/cordial/issues/12)
 * [Cordial - Map which FLog channels take a number and which take a severity name](https://github.com/luohoa97/cordial/issues/13)
