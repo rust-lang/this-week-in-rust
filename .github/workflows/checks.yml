@@ -48,11 +48,20 @@ jobs:
         shell: bash
         env:
           CHECK_OUTPUT_FILE: ${{ runner.temp }}/inspect-links-pr.txt
+          PR_AUTHOR_ASSOCIATION: ${{ github.event.pull_request.author_association }}
         run: |
             set +e
-            python3 tools/inspect_links.py \
-                --since "${{ steps.base.outputs.base }}" \
-                --show-warnings > "$CHECK_OUTPUT_FILE"
+            inspect_links_args=(
+                --since "${{ steps.base.outputs.base }}"
+                --show-warnings
+            )
+            case "$PR_AUTHOR_ASSOCIATION" in
+                OWNER|MEMBER|COLLABORATOR) ;;
+                *) inspect_links_args+=(--deny-project-tooling-links) ;;
+            esac
+
+            python3 tools/inspect_links.py "${inspect_links_args[@]}" \
+                > "$CHECK_OUTPUT_FILE"
             status="$?"
             cat "$CHECK_OUTPUT_FILE"
 
