@@ -3,8 +3,8 @@ on:
   pull_request:
 
   # We avoid running the push event on PR branches so that
-  # they are instead run through pull_request and we get the merge base
-  # for use below.
+  # they are instead run through pull_request and we get the PR base
+  # revision for use below.
   push:
     branches:
       - main
@@ -29,16 +29,6 @@ jobs:
           update-pip: "false"
           update-setuptools: "false"
           update-wheel: "false"
-      - name: Compute PR diff base
-        if: ${{ github.event_name == 'pull_request' }}
-        id: base
-        shell: bash
-        run: |
-            BASE="$(git merge-base \
-                "${{ github.event.pull_request.base.sha }}" \
-                "${{ github.event.pull_request.head.sha }}")"
-
-            echo "base=$BASE" >> "$GITHUB_OUTPUT"
       - name: inspect_links for main
         if: ${{ github.event_name == 'push' }}
         run: python3 tools/inspect_links.py
@@ -73,7 +63,7 @@ jobs:
         run: |
             set +e
             inspect_links_args=(
-                --since "${{ steps.base.outputs.base }}"
+                --since "${{ github.event.pull_request.base.sha }}"
                 --show-warnings
             )
             if [[ "$DENY_PROJECT_TOOLING_LINKS" == true ]]; then
