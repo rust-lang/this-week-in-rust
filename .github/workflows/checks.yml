@@ -3,8 +3,8 @@ on:
   pull_request:
 
   # We avoid running the push event on PR branches so that
-  # they are instead run through pull_request and we get the merge base
-  # for use below.
+  # they are instead run through pull_request and we get the PR base
+  # revision for use below.
   push:
     branches:
       - main
@@ -29,36 +29,46 @@ jobs:
           update-pip: "false"
           update-setuptools: "false"
           update-wheel: "false"
-      - name: Compute PR diff base
-        if: ${{ github.event_name == 'pull_request' }}
-        id: base
-        shell: bash
-        run: |
-            BASE="$(git merge-base \
-                "${{ github.event.pull_request.base.sha }}" \
-                "${{ github.event.pull_request.head.sha }}")"
-
-            echo "base=$BASE" >> "$GITHUB_OUTPUT"
       - name: inspect_links for main
         if: ${{ github.event_name == 'push' }}
         run: python3 tools/inspect_links.py
+      - name: Check PR author permissions
+        if: ${{ github.event_name == 'pull_request' }}
+        id: author_permission
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+        run: |
+            permission="$(
+                gh api \
+                    "repos/$GITHUB_REPOSITORY/collaborators/$PR_AUTHOR/permission" \
+                    --jq '.permission' 2>/dev/null || true
+            )"
+
+            case "$permission" in
+                admin|write) deny_project_tooling_links=false ;;
+                *) deny_project_tooling_links=true ;;
+            esac
+
+            echo "deny_project_tooling_links=$deny_project_tooling_links" \
+                >> "$GITHUB_OUTPUT"
       - name: inspect_links for pull request
         if: ${{ github.event_name == 'pull_request' }}
         id: inspect_links_pr
         shell: bash
         env:
           CHECK_OUTPUT_FILE: ${{ runner.temp }}/inspect-links-pr.txt
-          PR_AUTHOR_ASSOCIATION: ${{ github.event.pull_request.author_association }}
+          DENY_PROJECT_TOOLING_LINKS: ${{ steps.author_permission.outputs.deny_project_tooling_links }}
         run: |
             set +e
             inspect_links_args=(
-                --since "${{ steps.base.outputs.base }}"
+                --since "${{ github.event.pull_request.base.sha }}"
                 --show-warnings
             )
-            case "$PR_AUTHOR_ASSOCIATION" in
-                OWNER|MEMBER|COLLABORATOR) ;;
-                *) inspect_links_args+=(--deny-project-tooling-links) ;;
-            esac
+            if [[ "$DENY_PROJECT_TOOLING_LINKS" == true ]]; then
+                inspect_links_args+=(--deny-project-tooling-links)
+            fi
 
             python3 tools/inspect_links.py "${inspect_links_args[@]}" \
                 > "$CHECK_OUTPUT_FILE"
