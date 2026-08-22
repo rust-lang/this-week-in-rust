@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+- [3 Seconds of compilation shaved by metadata analysis](https://blog.goose.love/posts/three-seconds-of-compilation-shaved-by-metadata-analysis/)
+
 ### Rust Walkthroughs
 
 ### Research
