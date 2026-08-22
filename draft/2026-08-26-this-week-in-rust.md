@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [magpie: a local-first Spotlight-style launcher that searches your GitHub stars, local files, images, and bookmarks](https://github.com/newdee/magpie)
 
 ### Observations/Thoughts
 
