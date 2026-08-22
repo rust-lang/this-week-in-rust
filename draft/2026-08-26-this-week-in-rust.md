@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [implementing the drain algorithm in rust](https://krtffl.dev/posts/drain-algorithm-in-rust/)
 
 ### Rust Walkthroughs
 
