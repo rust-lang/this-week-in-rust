@@ -45,6 +45,9 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rust Glancer: a memory efficient Rust LSP](https://rust-glancer.github.io/blog/hello-world/)
+* [matklad's post on Rust Glancer](https://matklad.github.io/2026/08/21/rust-glancer.html)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
