@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Why Agent Edits Need Semantic Identity: Building SEMAPRAX in Rust](https://wavect.io/blog/semantic-identity-rust-agent-edits/)
+
 ### Rust Walkthroughs
 
 ### Research
