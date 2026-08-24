@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [rust-ace: ACE 6.5.24 (C++, ~764k functions) translated to Rust, byte-identical to native under a 145-scenario differential](https://github.com/byteproof-systems/rust-ace)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
