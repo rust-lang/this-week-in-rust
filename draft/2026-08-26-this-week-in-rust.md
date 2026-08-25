@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [One trie, three jobs, zero benchmarks won](https://akesson.io/wordtree/)
 
 ### Rust Walkthroughs
 
