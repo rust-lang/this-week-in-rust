@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [To Async or Not to Async: Building a Rust MCP Server for rust-analyzer](https://developerlife.com/2026/08/22/to-async-or-not-to-async-rust-mcp-server/)
 
 ### Rust Walkthroughs
 
