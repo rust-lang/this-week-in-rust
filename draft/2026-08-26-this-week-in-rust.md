@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [swift-topomap](https://github.com/swiftlogicsystems/swifttopology), a microarchitectural observability tool.
+
+Thanks to [Ankur Rathore](https://users.rust-lang.org/t/crate-of-the-week/2704/1658) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -109,7 +111,6 @@ If you are a feature implementer and would like your RFC to appear on the above 
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
 
-
 ## Call for Participation; projects and speakers
 
 ### CFP - Projects
@@ -144,7 +145,68 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+593 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-08-18..2026-08-25
+
+#### Compiler
+* [add a cache to the `WfPredicates` visitor](https://github.com/rust-lang/rust/pull/161274)
+* [allow self in const generics](https://github.com/rust-lang/rust/pull/157949)
+* [eliminate some buggy `unreachable!()`s in `expand_`(`option_`)`env()`](https://github.com/rust-lang/rust/pull/159940)
+* [enable `-Znext-solver` on nightly by default](https://github.com/rust-lang/rust/pull/160619)
+* [optimize `DeepRejectCtxt`](https://github.com/rust-lang/rust/pull/161211)
+
+#### Library
+* [add `Arc/Rc::strong_count_from_raw`](https://github.com/rust-lang/rust/pull/159098)
+* [add `Default` implementation for `std::sync::Once`](https://github.com/rust-lang/rust/pull/160136)
+* [add symmetric PartialEq impls for `Vec`, `&[T]`, `&mut [T]` versus `Cow<'_, [T]>`](https://github.com/rust-lang/rust/pull/156160)
+* [core: implement float conversion methods](https://github.com/rust-lang/rust/pull/159954)
+* [make `BorrowedCursor<'a, T>` covariant in `'a` and drop an indirection](https://github.com/rust-lang/rust/pull/160563)
+* [rework `div_ceil` for nonzero integers](https://github.com/rust-lang/rust/pull/160819)
+* [stabilize `bool::toggle`](https://github.com/rust-lang/rust/pull/160299)
+* [stabilize never type](https://github.com/rust-lang/rust/pull/155499)
+
+#### Cargo
+* [`config`: Add build.fingerprint](https://github.com/rust-lang/cargo/pull/17382)
+* [fix `git gc` with `safe.bareRepository=explicit`](https://github.com/rust-lang/cargo/pull/17370)
+* [install cargo tools with locked dependencies](https://github.com/rust-lang/cargo/pull/17377)
+
+#### Rustdoc
+* [add new `invalid_markdown_table` rustdoc lint](https://github.com/rust-lang/rust/pull/159583)
+* [only generate search DOM elements if the search is actually needed](https://github.com/rust-lang/rust/pull/160639)
+* [enable scrolling only on table/code](https://github.com/rust-lang/rust/pull/161340)
+* [fix issue preventing "read more" links from generating](https://github.com/rust-lang/rust/pull/161553)
+
+#### Rustfmt
+* [fix ICE on `for await` loops with separated keyword tokens](https://github.com/rust-lang/rustfmt/pull/7063)
+* [fix brace placement for multiline control flow](https://github.com/rust-lang/rustfmt/pull/7005)
+* [fix comments rewritten too long](https://github.com/rust-lang/rustfmt/pull/6802)
+* [correct the span used when rewriting `ast::TyKind::FnPtr`](https://github.com/rust-lang/rustfmt/pull/7066)
+* [correct visibility and defaultness order on associated impl type alias](https://github.com/rust-lang/rustfmt/pull/7064)
+* [inconsistent formatting of doc comments in macros](https://github.com/rust-lang/rustfmt/pull/7042)
+
+#### Clippy
+* [optimize Clippy with PGO](https://github.com/rust-lang/rust/pull/159642)
+* [`unnecessary_fold`: lint folding over an Option's iterator](https://github.com/rust-lang/rust-clippy/pull/17445)
+* [`unused_trait_names`: make the suggestion nicer](https://github.com/rust-lang/rust-clippy/pull/17589)
+* [avoid `manual_assert_eq` for byte slice-like types](https://github.com/rust-lang/rust-clippy/pull/17575)
+* [don't fire `manual_contains` when both sides use the slice element](https://github.com/rust-lang/rust-clippy/pull/17564)
+* [fix `large_futures` ICE with the next solver](https://github.com/rust-lang/rust-clippy/pull/17601)
+* [avoid `double_must_use` in macro-generated code](https://github.com/rust-lang/rust-clippy/pull/17547)
+* [make `needless_bool` less aggressive for chained `if`s](https://github.com/rust-lang/rust-clippy/pull/17598)
+* [perf: check `first_node_in_macro` before the root macro walk in `useless_format`](https://github.com/rust-lang/rust-clippy/pull/17584)
+* [remove broken suggestion for `blocks_in_conditions`](https://github.com/rust-lang/rust-clippy/pull/17127)
+* [suggest `hypot` for `x.mul_add(x, y * y).sqrt()`](https://github.com/rust-lang/rust-clippy/pull/17600)
+* [suggest `is_ok/is_err` for boolean Result mappings](https://github.com/rust-lang/rust-clippy/pull/17537)
+* [trigger `integer_division_remainder_used` on `DivAssign`/`RemAssign`](https://github.com/rust-lang/rust-clippy/pull/16493)
+
+#### Rust-Analyzer
+* [`hir`: Use expression store of parent body if available](https://github.com/rust-lang/rust-analyzer/pull/23202)
+* [adds-arrow unmap ranges when fn inside macro](https://github.com/rust-lang/rust-analyzer/pull/23216)
+* [allow `asm!` label blocks to diverge](https://github.com/rust-lang/rust-analyzer/pull/23186)
+* [prevent stack overflow for recursive ADT layouts](https://github.com/rust-lang/rust-analyzer/pull/23201)
+* [optimize the heck out of the storage of token trees](https://github.com/rust-lang/rust-analyzer/pull/23079)
+* [use Cargo build directory for flycheck logs](https://github.com/rust-lang/rust-analyzer/pull/23214)
 
 ### Rust Compiler Performance Triage
 
@@ -343,7 +405,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> I care about this community, including its human and social nature. I want others to appreciate those qualities, and I don't want to see them compromised and replaced by excessive machine-generated content.
+
+– [Quine Dot on rust-users](https://users.rust-lang.org/t/use-of-ai-assitance-to-solve-issues-and-validate-to-reply/142029/11)
+
+Thanks to [Jonas Fassbender](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1791) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
