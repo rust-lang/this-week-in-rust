@@ -149,9 +149,7 @@ pretty quiet for performance.
 Triage done by **@simulacrum**.
 Revision range: [8fa1c96c..9a4ad59a](https://perf.rust-lang.org/?start=8fa1c96cfd489e4c27654c144ae871ce2c4db6c6&end=9a4ad59ae3073b013cd62f53f8349ddc61a012e8&absolute=false&stat=instructions%3Au)
 
-2 Regressions, 4 Improvements, 2 Mixed; 2 of them in rollups
-
-28 artifact comparisons made in total
+2 Regressions, 4 Improvements, 2 Mixed; 2 of them in rollups. 28 artifact comparisons made in total.
 
 [Full report here](https://github.com/rust-lang/rustc-perf/blob/main/triage/2026/2026-08-23.md)
 
