@@ -125,6 +125,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [sysknife - Debian's default firewall is nftables, and the catalogue has no nftables vocabulary](https://github.com/lacs-project/sysknife/issues/239)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
+* [stomatopod - Add a Docker Compose healthcheck on /health](https://github.com/kkir/stomatopod/issues/40)
+* [stomatopod - Add a custom GitHub social preview image](https://github.com/kkir/stomatopod/issues/41)
+* [stomatopod - Document the v0.1.0 GHCR tag next to :latest](https://github.com/kkir/stomatopod/issues/42)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 [guidelines]:https://github.com/rust-lang/this-week-in-rust?tab=readme-ov-file#call-for-participation-guidelines
