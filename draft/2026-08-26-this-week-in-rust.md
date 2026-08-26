@@ -293,12 +293,8 @@ Rusty Events between 2026-08-26 - 2026-09-23 🦀
     * [**RUST MEETUP at HACKER DOJO**](https://www.meetup.com/hackerdojo/events/316124372/)
 * 2026-09-03 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust)
     * [**Cryptography + Quantum Computers**](https://www.meetup.com/stl-rust/events/315603673/)
-* 2026-09-08 - 2026-09-11 | Hybrid (Montreal, CA) | [RustConf](https://rustconf.com/)
-    * [**RustConf**](https://rustconf.com/)
-* 2026-09-08 | Montreal, QC, CA | [Rust Foundation](https://rustfoundation.org/)
-    * [**Rust Teams Health Summit**](https://rustfoundation.org/event/rust-teams-health-summit/)
-* 2026-09-08 - 2026-09-11 | Montreal, QC, CA | [RustConf 2026](https://rustconf.com/)
-    * [**RustConf 2026, Hosted by the Rust Foundation**](https://rustconf.com/schedule/)
+* 2026-09-08 - 2026-09-11 | Hybrid (Montreal, CA) | [RustConf 2026](https://rustconf.com/)
+    * [**RustConf 2026**](https://rustconf.com/)
 * 2026-09-09 | Montreal, CA | [Women in Rust](https://www.meetup.com/women-in-rust)
     * [**RustConf Coffee Break Meetup**](https://www.meetup.com/women-in-rust/events/315773005/)
 * 2026-09-10 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust)
@@ -319,8 +315,6 @@ Rusty Events between 2026-08-26 - 2026-09-23 🦀
 ### Oceania
 * 2026-08-27 | Melbourne, AU | [Rust Melbourne](https://www.meetup.com/rust-melbourne)
     * [**Rust Melbourne August 2026**](https://www.meetup.com/rust-melbourne/events/315039490/)
-* 2026-08-27 | Melbourne, AU | [Rust Melbourne](https://luma.com/rustmelbourne)
-    * [**Rust Melbourne Meetup**](https://luma.com/d0rndgyv)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
