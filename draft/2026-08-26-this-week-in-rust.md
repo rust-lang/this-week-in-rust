@@ -38,21 +38,25 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-
+* [Announcing our first Maintainers in Residence](https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/)
+* [Enabling the next-generation trait solver on nightly](https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/)
+* [Supply chain attack on arrayref](https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/)
+* [Rust Function Overloading - Call for Experimentation](https://blog.rust-lang.org/inside-rust/2026/08/19/overloading-experiment/)
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
-
+*  [Intent to Ship: JPEG XL – Mozilla Hacks - the Web developer blog](https://hacks.mozilla.org/2026/08/intent-to-ship-jpeg-xl/)
 ### Observations/Thoughts
-
+* [Scaling Memory Safety: AI-Assisted Rewrites of C/C++ Dependencies to Rust](https://bughunters.google.com/blog/scaling-memory-safety)
+* [Replacing a Rust Enum with a 64-bit Word Made My Interpreter 17% Faster](https://pointersgonewild.com/2026-08-25-replacing-a-rust-enum-with-a-64-bit-word/)
 ### Rust Walkthroughs
 
 ### Research
 
 ### Miscellaneous
-
+* [JetBrains Partners with the Rust Foundation for an AI Livestream](https://rustfoundation.org/media/jetbrains-partners-with-the-rust-foundation-for-an-ai-livestream-series/)
 ## Crate of the Week
 
 <!-- COTW goes here -->
