@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Official
 
+- [Announcing our first Maintainers in Residence](https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/)
+
 ### Foundation
 
 ### Newsletters
