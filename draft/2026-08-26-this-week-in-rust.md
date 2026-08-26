@@ -243,8 +243,6 @@ Rusty Events between 2026-08-26 - 2026-09-23 🦀
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/315619611/)
 * 2026-09-15 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc)
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/fhvsztyjcmbtb/)
-* 2026-09-15 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc)
-    * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/316246678/)
 * 2026-09-16 | Hybrid (Vancouver, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/314233757/)
 * 2026-09-17 | Hybrid (Seattle, WA, US) | [Seattle Rust User Group](https://www.meetup.com/join-srug)
