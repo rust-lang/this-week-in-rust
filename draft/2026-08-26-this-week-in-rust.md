@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [RSSH — an SSH client built to kill every pain point](https://github.com/shihuili1218/rssh/blob/main/docs/article_painpoints_en.md)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
