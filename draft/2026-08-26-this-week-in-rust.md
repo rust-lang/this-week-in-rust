@@ -46,6 +46,7 @@ and just ask the editors to select the category.
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
+* [Fixing Rust's supply chain security: The good, the bad and the ugly](https://kerkour.com/fixing-rust-supply-chain-security)
 
 ### Rust Walkthroughs
 
