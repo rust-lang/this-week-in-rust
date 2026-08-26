@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Safe kernels are fast kernels: tile-rs next to Mojo 1.0](https://yijunyu.github.io/tile-rs-vs-mojo.html)
+
 ### Rust Walkthroughs
 
 ### Research
