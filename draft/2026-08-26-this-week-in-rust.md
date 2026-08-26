@@ -45,6 +45,10 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [crux](https://github.com/Emran-goat/crux) finds the exact commit that changed a program's behavior, then minimizes the flip commit down to the lines that caused it
+
+* [crux](https://github.com/Emran-goat/crux) finds the exact commit that changed a program's behavior, then minimizes the flip commit down to the lines that caused it
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
