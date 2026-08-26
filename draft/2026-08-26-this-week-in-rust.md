@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [Rama 0.4: System proxy and PAC support](https://plabayo.tech/blog/rama-0-4)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
