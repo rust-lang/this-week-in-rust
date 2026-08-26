@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Proving SQLx’s Statement Cache with bpftrace](https://flakm.com/posts/sqlx_caches_til/)
+
 ### Research
 
 ### Miscellaneous
