@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Foremerge: a coordination protocol for parallel coding agents, built above Git](https://github.com/naw103/foremerge)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
