@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Announcing our first Maintainers in Residence](https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/)
+
 ### Foundation
 
 ### Newsletters
@@ -47,7 +49,17 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [3 Seconds of compilation shaved by metadata analysis](https://blog.goose.love/posts/three-seconds-of-compilation-shaved-by-metadata-analysis/)
+* [Your E-Paper Panel Isn't Broken: How Retained State Makes Drivers Look Buggy](https://msj.prose.sh/epaper-retained-state)
+* [To Async or Not to Async: Building a Rust MCP Server for rust-analyzer](https://developerlife.com/2026/08/22/to-async-or-not-to-async-rust-mcp-server/)
+* [One trie, three jobs, zero benchmarks won](https://akesson.io/wordtree/)
+* [Fixing Rust's supply chain security: The good, the bad and the ugly](https://kerkour.com/fixing-rust-supply-chain-security)
+
 ### Rust Walkthroughs
+
+* [Rust errors every beginner hits](https://dev.to/yetmike/the-22-rust-errors-every-beginner-hits-in-the-order-they-hit-them-13gi)
+* [Build a Scientific Calculator in Rust - Understanding Variables and Types](https://blog.sheerluck.dev/posts/understanding-rust-variables-and-types-by-building-a-scientific-calculator/)
+* [Proving SQLx’s Statement Cache with bpftrace](https://flakm.com/posts/sqlx_caches_til/)
 
 ### Research
 
