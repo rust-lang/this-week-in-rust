@@ -38,17 +38,17 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-
 * [Announcing our first Maintainers in Residence](https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/)
-
-### Foundation
-
-### Newsletters
+* [Enabling the next-generation trait solver on nightly](https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/)
+* [Supply chain attack on arrayref](https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/)
+* [Rust Function Overloading - Call for Experimentation](https://blog.rust-lang.org/inside-rust/2026/08/19/overloading-experiment/)
 
 ### Project/Tooling Updates
+*  [Intent to Ship: JPEG XL – Mozilla Hacks - the Web developer blog](https://hacks.mozilla.org/2026/08/intent-to-ship-jpeg-xl/)
 
 ### Observations/Thoughts
-
+* [Scaling Memory Safety: AI-Assisted Rewrites of C/C++ Dependencies to Rust](https://bughunters.google.com/blog/scaling-memory-safety)
+* [Replacing a Rust Enum with a 64-bit Word Made My Interpreter 17% Faster](https://pointersgonewild.com/2026-08-25-replacing-a-rust-enum-with-a-64-bit-word/)
 * [3 Seconds of compilation shaved by metadata analysis](https://blog.goose.love/posts/three-seconds-of-compilation-shaved-by-metadata-analysis/)
 * [Your E-Paper Panel Isn't Broken: How Retained State Makes Drivers Look Buggy](https://msj.prose.sh/epaper-retained-state)
 * [To Async or Not to Async: Building a Rust MCP Server for rust-analyzer](https://developerlife.com/2026/08/22/to-async-or-not-to-async-rust-mcp-server/)
@@ -56,14 +56,13 @@ and just ask the editors to select the category.
 * [Fixing Rust's supply chain security: The good, the bad and the ugly](https://kerkour.com/fixing-rust-supply-chain-security)
 
 ### Rust Walkthroughs
-
 * [Rust errors every beginner hits](https://dev.to/yetmike/the-22-rust-errors-every-beginner-hits-in-the-order-they-hit-them-13gi)
 * [Build a Scientific Calculator in Rust - Understanding Variables and Types](https://blog.sheerluck.dev/posts/understanding-rust-variables-and-types-by-building-a-scientific-calculator/)
 * [Proving SQLx’s Statement Cache with bpftrace](https://flakm.com/posts/sqlx_caches_til/)
 
-### Research
 
 ### Miscellaneous
+* [JetBrains Partners with the Rust Foundation for an AI Livestream](https://rustfoundation.org/media/jetbrains-partners-with-the-rust-foundation-for-an-ai-livestream-series/)
 
 ## Crate of the Week
 
