@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+*  [Supervising AI agents with seccomp-BPF and ptrace](https://grith.ai/blog/supervising-ai-agents-with-seccomp-bpf-and-ptrace)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
