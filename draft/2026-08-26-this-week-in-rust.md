@@ -59,7 +59,7 @@ and just ask the editors to select the category.
 * [Rust errors every beginner hits](https://dev.to/yetmike/the-22-rust-errors-every-beginner-hits-in-the-order-they-hit-them-13gi)
 * [Build a Scientific Calculator in Rust - Understanding Variables and Types](https://blog.sheerluck.dev/posts/understanding-rust-variables-and-types-by-building-a-scientific-calculator/)
 * [Proving SQLx’s Statement Cache with bpftrace](https://flakm.com/posts/sqlx_caches_til/)
-
+* [Beyond WASI: Rust applications in-browser](https://labs.leaningtech.com/blog/browserpod-rust)
 
 ### Miscellaneous
 * [JetBrains Partners with the Rust Foundation for an AI Livestream](https://rustfoundation.org/media/jetbrains-partners-with-the-rust-foundation-for-an-ai-livestream-series/)
