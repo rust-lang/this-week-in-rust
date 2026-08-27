@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+- [dial9 (a profiler and flight recorder for Rust) 0.5](https://dial9-rs.github.io/blog/whats-new-in-dial9-0-5/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
