@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Foundation
 
+- [Welcoming Jess Izen as Engineer in Residence at the Rust Foundation](https://rustfoundation.org/media/welcoming-jess-izen-as-engineer-in-residence-at-the-rust-foundation/)
+
 ### Newsletters
 
 ### Project/Tooling Updates
