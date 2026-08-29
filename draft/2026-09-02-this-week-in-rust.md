@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [pulse_map 0.6.4: cache-line hash table now runs on wasm32 and embedded 32-bit targets](https://github.com/ddsha441981/pulse_map/releases/tag/v0.6.4)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
