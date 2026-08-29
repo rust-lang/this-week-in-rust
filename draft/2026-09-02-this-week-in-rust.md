@@ -45,6 +45,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [The "rnull" Rust block driver](https://lwn.net/SubscriberLink/1090378/b33a6fe3f4033507/)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
