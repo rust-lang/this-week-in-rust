@@ -47,6 +47,9 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Video] [An Agentic VM in Rust](https://www.youtube.com/watch?v=d7jQXm1KcOA)
+* [Video] [Making Progress on AsyncIterator](https://www.youtube.com/watch?v=zQAia_u8WPM)
+
 ### Rust Walkthroughs
 
 ### Research
