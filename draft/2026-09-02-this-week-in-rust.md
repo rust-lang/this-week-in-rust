@@ -49,7 +49,7 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
-* [Software That Must Not Be Wrong: Property Tests for a Pediatric Dosing Calculator](https://rust-blog.github.io/post/favi-child-property-tests) - how a pediatric dosing calculator turns medical requirements into invariants, and why exhaustive enumeration beat proptest
+* [Software That Must Not Be Wrong: Property Tests for a Pediatric Dosing Calculator](https://rust-blog.github.io/post/favi-child-property-tests)
 
 ### Research
 
