@@ -47,6 +47,8 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Launching vizcrush: Three Beliefs My Benchmarks Killed](https://www.debugdiary.dev/log/vizcrush-three-beliefs-my-benchmarks-killed)
+
 ### Rust Walkthroughs
 
 ### Research
