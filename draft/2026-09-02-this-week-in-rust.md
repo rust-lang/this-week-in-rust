@@ -48,6 +48,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Drawing Shapes with GPUI's Canvas](https://hlcfan.github.io/gpui-canvas-shapes.html)
 
 ### Research
 
