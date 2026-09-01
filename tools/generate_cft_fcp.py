@@ -146,11 +146,11 @@ def cft_section(out: list[str], start: datetime.date, end: datetime.date) -> Non
     for name, repo, url in CFT_REPOS:
         items = labeled_search(repo, "call-for-testing", "", start, end)
         if items:
-            out.append(f"##### [{name}]({url})")
+            out.append(f"##### [{name.strip()}]({url})")
             out.extend(bullet(item) for item in items)
             out.append("")
         else:
-            empty.append(f"[{name}]({url})")
+            empty.append(f"[{name.strip()}]({url})")
     if empty:
         out.append(f"*No calls for testing were issued this week by\n{oxford_join(empty)}.*")
         out.append("")
@@ -194,11 +194,11 @@ def fcp_section(out: list[str], start: datetime.date, end: datetime.date) -> Non
     for name, repo, extra, url, suffix in FCP_GROUPS:
         items = labeled_search(repo, "final-comment-period", extra, start, end)
         if items:
-            out.append(f"##### [{name}]({url}){suffix}")
+            out.append(f"##### [{name.strip()}]({url}){suffix}")
             out.extend(f"* {disposition_prefix(i)}[{i['title']}]({i['html_url']})" for i in items)
             out.append("")
         else:
-            empty.append(f"[{name}]({url})")
+            empty.append(f"[{name.strip()}]({url})")
     if empty:
         out.append(f"*No Items entered Final Comment Period this week for\n{oxford_join(empty)}.*")
     out.append("Let us know if you would like your PRs, Tracking Issues or RFCs to be tracked as a part of this list.")
