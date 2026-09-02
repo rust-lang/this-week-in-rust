@@ -120,6 +120,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+<!-- * [ - ]() -->
+* [HookEcho - High-contrast theme: colormaps and stroke widths do not respond to it](https://github.com/d4vid87/hookecho/issues/12)
 * [sysknife - UfwDeleteRule needs a rule number that no action in the catalogue can produce](https://github.com/lacs-project/sysknife/issues/234)
 * [sysknife - peer_pidfd cannot tell a pre-6.5 kernel from a peer that already exited, so the PID-reuse check is off in the reuse case](https://github.com/lacs-project/sysknife/issues/250)
 * [sysknife - The signed trail names which account asked for a change, never which one approved it](https://github.com/lacs-project/sysknife/issues/249)
