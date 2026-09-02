@@ -41,13 +41,25 @@ and just ask the editors to select the category.
 
 ### Foundation
 
+* [Welcoming Jess Izen as Engineer in Residence at the Rust Foundation](https://rustfoundation.org/media/welcoming-jess-izen-as-engineer-in-residence-at-the-rust-foundation/)
+
 ### Newsletters
+
+* [The Embedded Rustacean Issue #79](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-79)
 
 ### Project/Tooling Updates
 
 ### Observations/Thoughts
 
+* [Nine Rules for Compile-Time Work with Rust const fn: Parse files, build tables, and catch mistakes … without a build script  (Part 1)](https://medium.com/@carlmkadie/nine-rules-for-compile-time-work-with-rust-const-fn-part-1-a29f7dd62b2f)
+
 ### Rust Walkthroughs
+
+* [Welcome to the machine: emulating a CPU](https://bitfieldconsulting.com/posts/welcome-to-machine)
+* [Proving my Rust NVR doesn't leak memory (it did)](https://murlet.com/blog/hunting-rust-memory-leaks/)
+* [Software That Must Not Be Wrong: Property Tests for a Pediatric Dosing Calculator](https://rust-blog.github.io/post/favi-child-property-tests)
+* [Drawing Shapes with GPUI's Canvas](https://hlcfan.github.io/gpui-canvas-shapes.html)
+* [Pinning Down Rust’s Pin](https://gmcgoldr.github.io/2026/08/27/pin-in-rust.html)
 
 ### Research
 
