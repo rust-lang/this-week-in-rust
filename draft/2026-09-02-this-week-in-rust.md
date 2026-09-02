@@ -60,6 +60,7 @@ and just ask the editors to select the category.
 * [Software That Must Not Be Wrong: Property Tests for a Pediatric Dosing Calculator](https://rust-blog.github.io/post/favi-child-property-tests)
 * [Drawing Shapes with GPUI's Canvas](https://hlcfan.github.io/gpui-canvas-shapes.html)
 * [Pinning Down Rust’s Pin](https://gmcgoldr.github.io/2026/08/27/pin-in-rust.html)
+* [Proxy Web GUI inspector coming to rama CLI in 0.5](https://plabayo.tech/blog/rama-cli-0-5-proxy-inspector)
 
 ### Research
 
