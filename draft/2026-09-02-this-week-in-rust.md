@@ -55,7 +55,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [buf\_read\_splitter](https://crates.io/crates/buf_read_splitter), a crate to split (separate) a stream into sub-subtreams.
+
+Thanks to [flo](https://users.rust-lang.org/t/crate-of-the-week/2704/1659) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -109,7 +111,6 @@ If you are a feature implementer and would like your RFC to appear on the above 
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
 
-
 ## Call for Participation; projects and speakers
 
 ### CFP - Projects
@@ -138,7 +139,70 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+522 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-08-25..2026-09-01
+
+#### Compiler
+* [compiler: allow safestack to be togglable via `#[sanitize(safestack = "...")]`](https://github.com/rust-lang/rust/pull/161888)
+* [perf: push nominal obligations instead of returning them](https://github.com/rust-lang/rust/pull/160473)
+* [reduce perf impact of scalar size checks](https://github.com/rust-lang/rust/pull/161456)
+* [remove unneeded clone in macro deriving](https://github.com/rust-lang/rust/pull/162004)
+
+#### Library
+* [add custom allocators to `(try_)map` on `Box`, Rc`, Arc`](https://github.com/rust-lang/rust/pull/161617)
+* [add intrinsics for integer minimum and maximum](https://github.com/rust-lang/rust/pull/161081)
+* [add SVE-accelerated `Vec::retain_mut` for aarch64](https://github.com/rust-lang/rust/pull/161034)
+* [alloc `String::retain` optimization](https://github.com/rust-lang/rust/pull/150067)
+* [core: expose volatile atomic operations](https://github.com/rust-lang/rust/pull/161301)
+* [implement `[u8]::split_ascii_whitespace`](https://github.com/rust-lang/rust/pull/161577)
+* [implement `clamp_to`](https://github.com/rust-lang/rust/pull/150075)
+
+#### Cargo
+* [diag: Stabilize cargo-lints](https://github.com/rust-lang/cargo/pull/17298)
+* [resolver: Stabilize min-publish-age](https://github.com/rust-lang/cargo/pull/17335)
+* [run: Printing a new line to avoid overwriting error code after \r](https://github.com/rust-lang/cargo/pull/17373)
+* [trim-paths: custom workspace-relative member paths remap](https://github.com/rust-lang/cargo/pull/17366)
+* [`perf(git)`: Reduce extra work when using git-cli](https://github.com/rust-lang/cargo/pull/17406)
+* [cargo profiling improvements](https://github.com/rust-lang/cargo/pull/17411)
+* [manifest!: implement feature-metadata RFC3416](https://github.com/rust-lang/cargo/pull/15056)
+* [perf: do not build SBOM if user has not set build.sbom](https://github.com/rust-lang/cargo/pull/17412)
+
+#### Rustdoc
+* [correctly handle when a macro generates multiple items in `--generate-macro-expansion`](https://github.com/rust-lang/rust/pull/161876)
+* [fix lint `cargo::non_kebab_case_bins`](https://github.com/rust-lang/rust/pull/161843)
+* [take into account edition information for keyword highlighting](https://github.com/rust-lang/rust/pull/161944)
+
+#### Rustfmt
+* [allow users to set the release channel when running the diff check](https://github.com/rust-lang/rustfmt/pull/7080)
+
+#### Clippy
+* [`fix(cargo_common_metadata)`: stop checking `package.readme`](https://github.com/rust-lang/rust-clippy/pull/17643)
+* [`fix(redundant_clone)`: Make `visit_local_usage` analyse loop bodies instead of giving up on them](https://github.com/rust-lang/rust-clippy/pull/17495)
+* [add comma to `lint_groups_priority` error message](https://github.com/rust-lang/rust-clippy/pull/17663)
+* [fix `--explain` lint lookup being case-mismatched](https://github.com/rust-lang/rust-clippy/pull/17632)
+* [fix false positive for never type impls](https://github.com/rust-lang/rust-clippy/pull/17163)
+* [`missing_transmute_annotations` should not contain fn name in suggestion](https://github.com/rust-lang/rust-clippy/pull/17611)
+* [perf: bail early in `too_many_lines` lint if rule is not enabled](https://github.com/rust-lang/rust-clippy/pull/17605)
+* [perf: skip redundant clone analysis for clone-free functions](https://github.com/rust-lang/rust-clippy/pull/17486)
+
+#### Rust-Analyzer
+* [allow “Extract variable” to be invoked on field names in record expressions](https://github.com/rust-lang/rust-analyzer/pull/23213)
+* [fix HIR lowering of params of trait assoc fns](https://github.com/rust-lang/rust-analyzer/pull/23162)
+* [fix incorrect generic shown on hover](https://github.com/rust-lang/rust-analyzer/pull/23256)
+* [fix `NamedTempFile`](https://github.com/rust-lang/rust-analyzer/pull/23257)
+* [fix some subtle bugs in docs rendering](https://github.com/rust-lang/rust-analyzer/pull/23235)
+* [fix unsafeck of `&raw *`](https://github.com/rust-lang/rust-analyzer/pull/23184)
+* [fix panic on accessing numeric fields in unions](https://github.com/rust-lang/rust-analyzer/pull/23229)
+* [fix panic on deref of unresolved aliases](https://github.com/rust-lang/rust-analyzer/pull/23212)
+* [fix panic when computing `extract_variable` with macros](https://github.com/rust-lang/rust-analyzer/pull/23238)
+* [fix panic when hovering a dyn trait with a binder](https://github.com/rust-lang/rust-analyzer/pull/23250)
+* [print the ABI for fn pointers (if not the default)](https://github.com/rust-lang/rust-analyzer/pull/23245)
+* [push a generic params scope for consts](https://github.com/rust-lang/rust-analyzer/pull/23176)
+* [range pattern inside a parenthesis parsed as tuple pattern](https://github.com/rust-lang/rust-analyzer/pull/23242)
+* [reinfer never type in array repeat expressions](https://github.com/rust-lang/rust-analyzer/pull/23232)
+* [strip leading asterisk decoration from block doc comments](https://github.com/rust-lang/rust-analyzer/pull/22901)
+* [switch from `temp-dir` to a homemade `NamedTempFile` implementation](https://github.com/rust-lang/rust-analyzer/pull/23206)
 
 ### Rust Compiler Performance Triage
 
@@ -323,7 +387,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> I think you are inventing provenance for integers. Please, let's not.
+
+– [Ralf Jung in an RFC discussion](https://github.com/rust-lang/rfcs/pull/4001#discussion_r3825423816)
+
+Thanks to [kleines Filmröllchen](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1792) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
