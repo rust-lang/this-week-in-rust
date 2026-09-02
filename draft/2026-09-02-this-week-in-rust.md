@@ -49,6 +49,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Pinning Down Rust’s Pin](https://gmcgoldr.github.io/2026/08/27/pin-in-rust.html)
+
 ### Research
 
 ### Miscellaneous
