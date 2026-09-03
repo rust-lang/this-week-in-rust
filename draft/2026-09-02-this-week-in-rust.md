@@ -104,6 +104,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+* [Zynlex - Add case-sensitive and whole-word toggles to find-in-page](https://github.com/webtools-dotcom/Zynlex/issues/13)
 <!-- * [ - ]() -->
 * [HookEcho - High-contrast theme: colormaps and stroke widths do not respond to it](https://github.com/d4vid87/hookecho/issues/12)
 * [sysknife - UfwDeleteRule needs a rule number that no action in the catalogue can produce](https://github.com/lacs-project/sysknife/issues/234)
