@@ -51,12 +51,13 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Video] [An Agentic VM in Rust](https://www.youtube.com/watch?v=d7jQXm1KcOA)
+* [Video] [Making Progress on AsyncIterator](https://www.youtube.com/watch?v=zQAia_u8WPM)
 * [Rust concurrency vs Go concurrency: stackless vs stackfull coroutines](https://kerkour.com/rust-vs-go-concurrency)
 * [Nine Rules for Compile-Time Work with Rust const fn: Parse files, build tables, and catch mistakes … without a build script  (Part 1)](https://medium.com/@carlmkadie/nine-rules-for-compile-time-work-with-rust-const-fn-part-1-a29f7dd62b2f)
 
 ### Rust Walkthroughs
 * [Your First GPUI App - Building a Desktop UI in Rust](https://blog.sheerluck.dev/posts/your-first-gpui-app-building-a-desktop-ui-in-rust/)
-
 * [Welcome to the machine: emulating a CPU](https://bitfieldconsulting.com/posts/welcome-to-machine)
 * [Proving my Rust NVR doesn't leak memory (it did)](https://murlet.com/blog/hunting-rust-memory-leaks/)
 * [Software That Must Not Be Wrong: Property Tests for a Pediatric Dosing Calculator](https://rust-blog.github.io/post/favi-child-property-tests)
