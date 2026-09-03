@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [How SyntaxCue Captures System Audio Locally](https://syntaxcue.com/how-syntaxcue-captures-system-audio/)
+
 ### Research
 
 ### Miscellaneous
