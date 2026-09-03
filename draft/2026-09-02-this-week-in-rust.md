@@ -39,8 +39,14 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Announcing rustup 1.29.1](https://blog.rust-lang.org/2026/09/01/Rustup-1.29.1/)
+* [Electing new Project Directors 2026](https://blog.rust-lang.org/inside-rust/2026/08/28/electing-new-project-directors-2026/)
+* [Program management in July–August 2026](https://blog.rust-lang.org/inside-rust/2026/08/31/program-management-2026-jul-aug/)
+
 ### Foundation
 
+* [How the Rust Standard Library Verification Contest Scaled Past Manual Proof Engineering](https://rustfoundation.org/media/how-the-rust-standard-library-verification-contest-scaled-past-manual-proof-engineering/)
+* [Welcoming Rust Program Manager, Tomáš Šedovič, to the Rust Foundation Team!](https://rustfoundation.org/media/welcoming-rust-program-manager-tomas-sedovic-to-the-rust-foundation-team/)
 * [Welcoming Jess Izen as Engineer in Residence at the Rust Foundation](https://rustfoundation.org/media/welcoming-jess-izen-as-engineer-in-residence-at-the-rust-foundation/)
 
 ### Newsletters
@@ -49,14 +55,23 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Wasmi 2.0 - Engineering of the Fastest Wasm Interpreters](https://wasmi-labs.github.io/blog/posts/wasmi-v2.0/)
+* [How I made Rustdoc 33% faster in one week](https://noahlev.org/blog/2026/08/27/making-rustdoc-faster/)
+* [A Self-Baked Async FFI Framework for Rust C# Interop](https://www.scylladb.com/2026/08/31/async-ffi-framework-for-rust-c-interop/)
+
 ### Observations/Thoughts
 
-* [Video] [An Agentic VM in Rust](https://www.youtube.com/watch?v=d7jQXm1KcOA)
-* [Video] [Making Progress on AsyncIterator](https://www.youtube.com/watch?v=zQAia_u8WPM)
+* [Could Cargo's scheduler be better?](https://spirali.github.io/blog/cargo-scheduler/)
+* [How we developed the world's first safety-certified product written in Rust – and why we went bare metal](https://www.sonair.com/journal/how-we-safety-certified-the-worlds-first-rust-implementation)
+* [How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache](https://blog.cloudflare.com/dns-cache-memory-optimization-1111/)
 * [Rust concurrency vs Go concurrency: stackless vs stackfull coroutines](https://kerkour.com/rust-vs-go-concurrency)
 * [Nine Rules for Compile-Time Work with Rust const fn: Parse files, build tables, and catch mistakes … without a build script  (Part 1)](https://medium.com/@carlmkadie/nine-rules-for-compile-time-work-with-rust-const-fn-part-1-a29f7dd62b2f)
+* [video] [An Agentic VM in Rust — by Cristian Sánchez](https://www.youtube.com/watch?v=d7jQXm1KcOA)
+* [video] [Making Progress on AsyncIterator — by Jack O'Connor](https://www.youtube.com/watch?v=zQAia_u8WPM)
 
 ### Rust Walkthroughs
+
+* [The 'rnull' Rust block driver](https://lwn.net/SubscriberLink/1090378/b33a6fe3f4033507/)
 * [Your First GPUI App - Building a Desktop UI in Rust](https://blog.sheerluck.dev/posts/your-first-gpui-app-building-a-desktop-ui-in-rust/)
 * [Welcome to the machine: emulating a CPU](https://bitfieldconsulting.com/posts/welcome-to-machine)
 * [Proving my Rust NVR doesn't leak memory (it did)](https://murlet.com/blog/hunting-rust-memory-leaks/)
@@ -66,7 +81,11 @@ and just ask the editors to select the category.
 
 ### Research
 
+* [Functional State Machines in Rust: Typestate and Newtype Patterns](https://dl.acm.org/doi/10.1145/3830438.3830958)
+
 ### Miscellaneous
+
+* [Ubuntu Rust: How Canonical Is Modernizing Core System Tools](https://blog.jetbrains.com/rust/2026/08/26/ubuntu-rust/)
 
 ## Crate of the Week
 
