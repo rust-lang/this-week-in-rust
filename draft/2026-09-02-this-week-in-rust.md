@@ -192,7 +192,29 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This week continues a steady stream of compile time improvements. Most of the impact this week comes from type system
+micro-optimization in [#160473](https://github.com/rust-lang/rust/pull/160473) and `dead_code` lint propagation 
+fix in [#161571](https://github.com/rust-lang/rust/pull/161571). We've also hit unexpected regression in a standard library 
+refactor, but we expect that to be addressed soon.
+
+Triage done by **@panstromek**.
+Revision range: [9a4ad59a..5321a4f4](https://perf.rust-lang.org/?start=9a4ad59ae3073b013cd62f53f8349ddc61a012e8&end=5321a4f40c957cf3587c055e77461febc2ebc865&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.6%  | [0.2%, 1.8%]   | 27    |
+| Regressions ❌ <br /> (secondary)  | 0.6%  | [0.2%, 1.8%]   | 27    |
+| Improvements ✅ <br /> (primary)   | -0.7% | [-2.4%, -0.1%] | 135   |
+| Improvements ✅ <br /> (secondary) | -0.7% | [-2.2%, -0.1%] | 120   |
+| All ❌✅ (primary)                 | -0.5% | [-2.4%, 1.8%]  | 162   |
+
+
+5 Regressions, 4 Improvements, 4 Mixed; 9 of them in rollups
+39 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/e1439e38ea41334d013d9566c2d20a914e3378c7/triage/2026/2026-08-31.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
