@@ -123,7 +123,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-<!-- * [ - ]() -->
+* [sysknife - action_reference_doc_is_current prints two 44 KB documents instead of the line that differs](https://github.com/lacs-project/sysknife/issues/345)
+* [sysknife - packages/setup claims Node 18 support, and Node 18 has been end-of-life since 2025-04-30](https://github.com/lacs-project/sysknife/issues/327)
+* [sysknife - cargo test fails intermittently on main: a test sets a process-global env var](https://github.com/lacs-project/sysknife/issues/356)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
