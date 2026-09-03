@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 * [What Does a Governed Data Runtime Cost? TeaQL vs Diesel and SeaORM on MusicBrainz](https://teaql.io/blog/musicbrainz-rust-orm-benchmark/)
+* [The undo has to exist before the write does](https://dev.to/mahirhir/the-undo-has-to-exist-before-the-write-does-46on)
 
 ### Rust Walkthroughs
 
