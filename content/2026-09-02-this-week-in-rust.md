@@ -19,24 +19,6 @@ Want TWIR in your inbox? [Subscribe here](https://this-week-in-rust.us11.list-ma
 
 ## Updates from Rust Community
 
-<!--
-
-Dear community contributors:
-Please read README.md for guidance on submissions.
-Each submitted link should be of the form:
-
-* [Title of the linked Page](https://example.com/my_article)
-
-If you add a link to a non-text content please prefix it with `[video]` or `[audio]`:
-
-* [video] [Title of the linked video](https://example.com/my_video_article)
-* [audio] [Title of the linked audio file](https://example.com/my_podcast)
-
-If you don't know which category to use, feel free to submit a PR anyway
-and just ask the editors to select the category.
-
--->
-
 ### Official
 
 * [Announcing rustup 1.29.1](https://blog.rust-lang.org/2026/09/01/Rustup-1.29.1/)
@@ -122,14 +104,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 * [Zynlex - Add case-sensitive and whole-word toggles to find-in-page](https://github.com/webtools-dotcom/Zynlex/issues/13)
-<!-- * [ - ]() -->
 * [HookEcho - High-contrast theme: colormaps and stroke widths do not respond to it](https://github.com/d4vid87/hookecho/issues/12)
 * [sysknife - UfwDeleteRule needs a rule number that no action in the catalogue can produce](https://github.com/lacs-project/sysknife/issues/234)
 * [sysknife - peer_pidfd cannot tell a pre-6.5 kernel from a peer that already exited, so the PID-reuse check is off in the reuse case](https://github.com/lacs-project/sysknife/issues/250)
 * [sysknife - The signed trail names which account asked for a change, never which one approved it](https://github.com/lacs-project/sysknife/issues/249)
-<!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -138,9 +117,6 @@ If you are a Rust project owner and are looking for contributors, please submit 
 ### CFP - Events
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
-
-<!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -399,7 +375,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1vtuq1b/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -427,4 +403,4 @@ This Week in Rust is edited by:
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1w5wisv/this_week_in_rust_667/)</small>
