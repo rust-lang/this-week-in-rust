@@ -49,7 +49,6 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 * [Your First GPUI App - Building a Desktop UI in Rust](https://blog.sheerluck.dev/posts/your-first-gpui-app-building-a-desktop-ui-in-rust/)
-* [video] [Build a Scientific Calculator in Rust - Understanding Variables and Types in Rust](https://www.youtube.com/watch?v=g46VpaqoFa0)
 
 ### Research
 
