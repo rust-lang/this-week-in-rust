@@ -55,6 +55,7 @@ and just ask the editors to select the category.
 * [Nine Rules for Compile-Time Work with Rust const fn: Parse files, build tables, and catch mistakes … without a build script  (Part 1)](https://medium.com/@carlmkadie/nine-rules-for-compile-time-work-with-rust-const-fn-part-1-a29f7dd62b2f)
 
 ### Rust Walkthroughs
+* [Your First GPUI App - Building a Desktop UI in Rust](https://blog.sheerluck.dev/posts/your-first-gpui-app-building-a-desktop-ui-in-rust/)
 
 * [Welcome to the machine: emulating a CPU](https://bitfieldconsulting.com/posts/welcome-to-machine)
 * [Proving my Rust NVR doesn't leak memory (it did)](https://murlet.com/blog/hunting-rust-memory-leaks/)
