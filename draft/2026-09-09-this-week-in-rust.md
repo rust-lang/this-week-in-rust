@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [I Built a Django-Inspired Web Framework in Rust — Here's What I Learned](https://dev.to/seballiot/i-built-a-django-inspired-web-framework-in-rust-heres-what-i-learned-5bbf)
+
 ### Observations/Thoughts
 
 * [What Does a Governed Data Runtime Cost? TeaQL vs Diesel and SeaORM on MusicBrainz](https://teaql.io/blog/musicbrainz-rust-orm-benchmark/)
