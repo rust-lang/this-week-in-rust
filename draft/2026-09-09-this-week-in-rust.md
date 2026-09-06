@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [What Rust's +simd128 Actually Changed in My WebAssembly](https://www.debugdiary.dev/log/rust-simd128-what-changed-in-webassembly)
+
 ### Research
 
 ### Miscellaneous
