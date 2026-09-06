@@ -45,6 +45,7 @@ and just ask the editors to select the category.
 [Rust Trends Issue 81 - Rust 1.98 Ships as the Supply Chain Gets Tested](https://rust-trends.com/newsletter/rust-1-98-ships-as-the-supply-chain-gets-tested/)
 
 ### Project/Tooling Updates
+* [ahoi: reactivity from Rust to JS](https://dev.to/acheul_cb82668412b68f7670/rust-for-rust-js-for-js-introducing-ahoi-3k82)
 
 ### Observations/Thoughts
 
