@@ -145,7 +145,29 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This week we've hit quite a few regressions, both expected and unexpected.
+One of them has already been fixed, with fixes for a few others being discussed.
+One big improvement comes from caching the sanitizer set in `Session`, which fixes a large regression from last week.
+A few minor improvements landed, including a 75% reduction in memory usage while compiling `bevy_render` with the next trait solver.
+
+Triage done by **@JonathanBrouwer**.
+Revision range: [5321a4f4..656a9da1](https://perf.rust-lang.org/?start=5321a4f40c957cf3587c055e77461febc2ebc865&end=656a9da186dacaf3bf8f7f7296a825d256cb4ae3&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.5%  | [0.1%, 1.3%]   | 121   |
+| Regressions ❌ <br /> (secondary)  | 0.6%  | [0.1%, 10.3%]  | 106   |
+| Improvements ✅ <br /> (primary)   | -0.6% | [-1.9%, -0.1%] | 63    |
+| Improvements ✅ <br /> (secondary) | -0.6% | [-2.4%, -0.1%] | 65    |
+| All ❌✅ (primary)                 | 0.1%  | [-1.9%, 1.3%]  | 184   |
+
+
+3 Regressions, 2 Improvements, 8 Mixed; 6 of them in rollups
+33 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/a953e9c59b18feffa9dc06bee4ab30ad5a5700e8/triage/2026/2026-09-07.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
