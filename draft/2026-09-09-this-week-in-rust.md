@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [cordis-di v0.1.0 — a typed, RAII-first plugin & dependency-injection framework for Rust, inspired by Cordis](https://github.com/Ricardo-M-L/cordis-di)
+
 ### Observations/Thoughts
 
 * [What Does a Governed Data Runtime Cost? TeaQL vs Diesel and SeaORM on MusicBrainz](https://teaql.io/blog/musicbrainz-rust-orm-benchmark/)
