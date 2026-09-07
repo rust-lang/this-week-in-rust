@@ -52,6 +52,8 @@ and just ask the editors to select the category.
 
 ### Rust Walkthroughs
 
+* [Keeping changed facts inspectable in a local Rust memory layer](https://github.com/Ricardo-M-L/agent-memory/blob/main/docs/fact-history.md)
+
 ### Research
 
 ### Miscellaneous
@@ -123,6 +125,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+* [agent-memory - exercise offline examples on Windows and macOS (easy–medium)](https://github.com/Ricardo-M-L/agent-memory/issues/1)
+* [agent-memory - document rule-extraction case, punctuation and Unicode behavior (easy)](https://github.com/Ricardo-M-L/agent-memory/issues/2)
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
