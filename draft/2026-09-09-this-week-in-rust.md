@@ -56,6 +56,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Why an ASCII-looking PDF broke only on Windows](https://github.com/Prem5123/BookMCP/blob/main/docs/launch/pdf-line-endings.md)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
