@@ -51,6 +51,7 @@ and just ask the editors to select the category.
 * [What Does a Governed Data Runtime Cost? TeaQL vs Diesel and SeaORM on MusicBrainz](https://teaql.io/blog/musicbrainz-rust-orm-benchmark/)
 
 ### Rust Walkthroughs
+* [Rust Control Flow in Practice - Build a Number Guessing Game](https://blog.sheerluck.dev/posts/understanding-rust-control-flow-by-building-a-number-guessing-game/)
 
 ### Research
 
