@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 * [What Does a Governed Data Runtime Cost? TeaQL vs Diesel and SeaORM on MusicBrainz](https://teaql.io/blog/musicbrainz-rust-orm-benchmark/)
+* [Nine Rules for Compile-Time Work with Rust `const fn`: Parse files, build tables, and catch mistakes … without a build script (Part 2)](https://levelup.gitconnected.com/nine-rules-for-compile-time-work-with-rust-const-fn-part-2-76ccd0e8a965)
 
 ### Rust Walkthroughs
 
