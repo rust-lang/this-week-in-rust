@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 * [What Does a Governed Data Runtime Cost? TeaQL vs Diesel and SeaORM on MusicBrainz](https://teaql.io/blog/musicbrainz-rust-orm-benchmark/)
+* [Stabilizing Rust's never type](https://lwn.net/SubscriberLink/1091015/5009546caa744c57/)
 
 ### Rust Walkthroughs
 
