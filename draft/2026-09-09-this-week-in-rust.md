@@ -18,7 +18,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 Want TWIR in your inbox? [Subscribe here](https://this-week-in-rust.us11.list-manage.com/subscribe?u=fd84c1c757e02889a9b08d289&id=0ed8b72485).
 
 ## Updates from Rust Community
-
+* [TritonX](https://github.com/pulisherij-rgb/TritonX): High-performance matrix compute engine with C-ABI Python bindings and Rayon parallelization.
 <!--
 
 Dear community contributors:
