@@ -56,6 +56,8 @@ and just ask the editors to select the category.
 
 ### Miscellaneous
 
+* [Awesome Rust Migrations](https://github.com/kevincouton/awesome-rust-migrations)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
