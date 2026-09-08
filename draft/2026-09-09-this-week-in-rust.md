@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 
 * [What Does a Governed Data Runtime Cost? TeaQL vs Diesel and SeaORM on MusicBrainz](https://teaql.io/blog/musicbrainz-rust-orm-benchmark/)
+* [A subscribe button does not need a Worker](https://lindfors.no/blog/newsletter-on-my-own-server/)
 
 ### Rust Walkthroughs
 
