@@ -58,7 +58,9 @@ and just ask the editors to select the category.
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [tokio-rcu](https://github.com/roeeshoshani/tokio_rcu), a user-space RCU implementation specifically built around the semantics of async rust and tokio.
+
+Thanks to [Roee Shoshani](https://users.rust-lang.org/t/crate-of-the-week/2704/1662) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -141,7 +143,72 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+613 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-09-01..2026-09-08
+
+#### Compiler
+* [always rerun if we normalize local opaques](https://github.com/rust-lang/rust/pull/161795)
+* [optimize empty token streams](https://github.com/rust-lang/rust/pull/162047)
+* [store LiveLoans more densely packed](https://github.com/rust-lang/rust/pull/161850)
+* [use IndexVec instead of BTreeMap for polonius variances](https://github.com/rust-lang/rust/pull/162422)
+
+#### Library
+* [add custom allocator support to `(try_)map` on `UniqueArc` and `UniqueRc`](https://github.com/rust-lang/rust/pull/161893)
+* [box: fixup `map/try_map` deallocate calls](https://github.com/rust-lang/rust/pull/162285)
+* [stabilize smart pointer map functions](https://github.com/rust-lang/rust/pull/160534)
+
+#### Cargo
+* [`docs(lints)`: how to configure Cargo lints](https://github.com/rust-lang/cargo/pull/17441)
+* [`docs(trim-paths)`: add limitations and polish](https://github.com/rust-lang/cargo/pull/17425)
+* [`docs(trim-paths)`: workspace remap begins with `.`](https://github.com/rust-lang/cargo/pull/17433)
+* [`fix(git)`: Apply pr hint to git-fetch-with-cli](https://github.com/rust-lang/cargo/pull/17437)
+* [`fix(git)`: Make PR dep note cloer to our style guide](https://github.com/rust-lang/cargo/pull/17436)
+* [`fix(git)`: Simplify error message](https://github.com/rust-lang/cargo/pull/17429)
+* [`fix(git)`: Use git's 429 retry, when available](https://github.com/rust-lang/cargo/pull/17422)
+* [`fix(parser)`: Resolve theoretical use-after-free](https://github.com/rust-lang/cargo/pull/17428)
+* [avoid passing search path (-L) args when they are passed as --extern](https://github.com/rust-lang/cargo/pull/17410)
+* [docs: switch from "target triple" to "target tuple"](https://github.com/rust-lang/cargo/pull/17430)
+* [fix relative symlink handling in `write_atomic`](https://github.com/rust-lang/cargo/pull/17362)
+* [fix(trim-paths)!: limit options to `none|object|all`](https://github.com/rust-lang/cargo/pull/17432)
+* [fix(trim-paths)!: remove default scope from release profile](https://github.com/rust-lang/cargo/pull/17424)
+* [fixed stale comment about fingerprint checking method](https://github.com/rust-lang/cargo/pull/17450)
+
+#### Rustdoc
+* [add `--print` option](https://github.com/rust-lang/rust/pull/151618)
+
+#### Rustfmt
+* [fix non-idempotent block doc comment closer rewrite](https://github.com/rust-lang/rustfmt/pull/7017)
+* [prevent infinite loops when parsing items from `cfg_select!` arms](https://github.com/rust-lang/rustfmt/pull/7089)
+
+#### Clippy
+* [`unnecessary_self_imports`: lint nested imports](https://github.com/rust-lang/rust-clippy/pull/17653)
+* [`legacy_numeric_constants`: make fixes machine-applicable](https://github.com/rust-lang/rust-clippy/pull/17490)
+* [`std_instead_of_core`: don't suggest a path that does not resolve](https://github.com/rust-lang/rust-clippy/pull/17648)
+* [`useless_conversion`: ignore `From::from` in generated code](https://github.com/rust-lang/rust-clippy/pull/17583)
+* [`useless_format`: improve suggestion](https://github.com/rust-lang/rust-clippy/pull/16595)
+* [`regex_creation_in_loops`: check MIR loop structure](https://github.com/rust-lang/rust-clippy/pull/17681)
+* [check that intra-doc links are not broken](https://github.com/rust-lang/rust-clippy/pull/17504)
+* [detect integration tests in `is_in_test`](https://github.com/rust-lang/rust-clippy/pull/16786)
+* [do not trigger `integer_division_remainder_used` in macros](https://github.com/rust-lang/rust-clippy/pull/17049)
+* [improve `map_unwrap_or` lint to support `map(f).unwrap_or_default()`](https://github.com/rust-lang/rust-clippy/pull/17644)
+* [move the `clippy_ci_panic_test` integration into a regular test](https://github.com/rust-lang/rust-clippy/pull/17502)
+* [respect inline allows in `needless_pass_by_value`](https://github.com/rust-lang/rust-clippy/pull/17665)
+* [soft rename `clippy::all` to `clippy::default`](https://github.com/rust-lang/rust-clippy/pull/14689)
+
+#### Rust-Analyzer
+* [add diagnostics for missing bodies for free and associated items](https://github.com/rust-lang/rust-analyzer/pull/23262)
+* [fix `NamedTempFile` constructors](https://github.com/rust-lang/rust-analyzer/pull/23292)
+* [accept Self as non-leading path segment in attribute paths](https://github.com/rust-lang/rust-analyzer/pull/23249)
+* [allow inner attributes on blocks in tuple expressions](https://github.com/rust-lang/rust-analyzer/pull/23246)
+* [avoid type unification errors in term search](https://github.com/rust-lang/rust-analyzer/pull/22662)
+* [fix handling of `#[unsafe()]` attrs without inner meta](https://github.com/rust-lang/rust-analyzer/pull/23270)
+* [fix parsing of `self:`: in fn param list](https://github.com/rust-lang/rust-analyzer/pull/23163)
+* [hover `1f64` use float instead of integer](https://github.com/rust-lang/rust-analyzer/pull/23279)
+* [follow symlinks when scanning the sysroot for proc-macro dylibs](https://github.com/rust-lang/rust-analyzer/pull/23297)
+* [install cargo tools with locked dependencies](https://github.com/rust-lang/rust-analyzer/pull/23248)
+* [merge `hir_def::hir::Expr::Unsafe` into `Expr::Block`](https://github.com/rust-lang/rust-analyzer/pull/23271)
+* [render const value in completions label details](https://github.com/rust-lang/rust-analyzer/pull/23266)
 
 ### Rust Compiler Performance Triage
 
@@ -328,7 +395,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> The Demon has access to a Super Turing Machine.
+
+– [Connor Horman on rust zulip](https://rust-lang.zulipchat.com/#narrow/channel/136281-t-opsem/topic/.E2.9C.94.20Can.20IO.20provide.20angelic.20choice/near/621828055)
+
+Thanks to [Theemathas](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1798) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
