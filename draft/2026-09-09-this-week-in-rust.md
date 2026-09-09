@@ -50,6 +50,7 @@ and just ask the editors to select the category.
 
 ### Observations/Thoughts
 
+* [Microcontrollers with good support for Rust](https://kerkour.com/rust-microcontrollers)
 * [What Does a Governed Data Runtime Cost? TeaQL vs Diesel and SeaORM on MusicBrainz](https://teaql.io/blog/musicbrainz-rust-orm-benchmark/)
 * [Stabilizing Rust's never type](https://lwn.net/SubscriberLink/1091015/5009546caa744c57/)
 * [Searching through 150 GiB of Text per Second with SIMD](https://pid7.com/blog/searching-150gb-text-per-second/)
