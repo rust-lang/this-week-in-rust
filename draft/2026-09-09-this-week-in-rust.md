@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [`cargo storage` A CLI/TUI tool for managing Cargo's target/build dirs](https://github.com/ranger-ross/cargo-storage)
+
 ### Observations/Thoughts
 
 * [What Does a Governed Data Runtime Cost? TeaQL vs Diesel and SeaORM on MusicBrainz](https://teaql.io/blog/musicbrainz-rust-orm-benchmark/)
