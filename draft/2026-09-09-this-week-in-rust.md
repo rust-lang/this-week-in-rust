@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Rust debugging survey 2026 results](https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/)
+
 ### Foundation
 
 ### Newsletters
@@ -46,17 +48,30 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [A Decade of Rustls](https://rustls.dev/blog/2026-09-08-a-decade-of-rustls/)
+
 ### Observations/Thoughts
 
 * [What Does a Governed Data Runtime Cost? TeaQL vs Diesel and SeaORM on MusicBrainz](https://teaql.io/blog/musicbrainz-rust-orm-benchmark/)
 * [Stabilizing Rust's never type](https://lwn.net/SubscriberLink/1091015/5009546caa744c57/)
 * [Searching through 150 GiB of Text per Second with SIMD](https://pid7.com/blog/searching-150gb-text-per-second/)
 * [Nine Rules for Compile-Time Work with Rust `const fn`: Parse files, build tables, and catch mistakes … without a build script (Part 2)](https://levelup.gitconnected.com/nine-rules-for-compile-time-work-with-rust-const-fn-part-2-76ccd0e8a965)
+* [A Design Space Exploration of Async/Await](https://cel.cs.brown.edu/blog/design-space-async-await/)
+* [Rust: When Empty Isn't Bottom](https://ettolrach.com/blog/rust_when_empty_isnt_bottom.html)
 
 ### Rust Walkthroughs
 
 * [What Rust's +simd128 Actually Changed in My WebAssembly](https://www.debugdiary.dev/log/rust-simd128-what-changed-in-webassembly)
 * [Rust Control Flow in Practice - Build a Number Guessing Game](https://blog.sheerluck.dev/posts/understanding-rust-control-flow-by-building-a-number-guessing-game/)
+* [Unsizing unsized values](https://hackmd.io/@WorldSEnder/Hkyqni6Ofl)
+* [Game architecture](https://quietism.art/posts/game-architecture/)
+* [Introducing CUDA Rust: Two Tracks for Writing GPU Kernels](https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/)
+* [The State of Allocators in 2026 - 6 Months Later](https://cetra3.github.io/blog/state-of-allocators-2026-part-2/)
+* [Visualizing Rust's Vtables: How dyn Trait Works In Memory](https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/)
+* [Safely generating legal chess moves at 475,000,000 nodes/s](https://bamburac.com/blog/chess-engine/)
+* [Speeding up gearhash on ARM64 (2× faster)](https://sam.dev/blog/gearhash-on-arm64)
+* [Let's build a compressor from scratch](https://ochagavia.nl/blog/lets-build-a-compressor-from-scratch/)
+* [Reverse engineering my e-scooter and rewriting the firmware in rust](https://bensimms.moe/reverse-engineering-scooter/)
 
 ### Research
 
