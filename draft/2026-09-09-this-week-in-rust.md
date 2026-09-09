@@ -41,6 +41,8 @@ and just ask the editors to select the category.
 
 ### Foundation
 
+* [Rust/C++ Interop Initiative: Progress Update, September 2026](https://rustfoundation.org/media/rust-cpp-interop-initiative-progress-update/)
+
 ### Newsletters
 [Rust Trends Issue 81 - Rust 1.98 Ships as the Supply Chain Gets Tested](https://rust-trends.com/newsletter/rust-1-98-ships-as-the-supply-chain-gets-tested/)
 
