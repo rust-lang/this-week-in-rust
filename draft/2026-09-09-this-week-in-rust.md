@@ -50,8 +50,13 @@ and just ask the editors to select the category.
 
 * [What Does a Governed Data Runtime Cost? TeaQL vs Diesel and SeaORM on MusicBrainz](https://teaql.io/blog/musicbrainz-rust-orm-benchmark/)
 * [Stabilizing Rust's never type](https://lwn.net/SubscriberLink/1091015/5009546caa744c57/)
+* [Searching through 150 GiB of Text per Second with SIMD](https://pid7.com/blog/searching-150gb-text-per-second/)
+* [Nine Rules for Compile-Time Work with Rust `const fn`: Parse files, build tables, and catch mistakes … without a build script (Part 2)](https://levelup.gitconnected.com/nine-rules-for-compile-time-work-with-rust-const-fn-part-2-76ccd0e8a965)
 
 ### Rust Walkthroughs
+
+* [What Rust's +simd128 Actually Changed in My WebAssembly](https://www.debugdiary.dev/log/rust-simd128-what-changed-in-webassembly)
+* [Rust Control Flow in Practice - Build a Number Guessing Game](https://blog.sheerluck.dev/posts/understanding-rust-control-flow-by-building-a-number-guessing-game/)
 
 ### Research
 
