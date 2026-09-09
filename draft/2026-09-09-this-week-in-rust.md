@@ -46,6 +46,8 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Rust/C++ Interop Initiative: Progress Update, September 2026](https://rustfoundation.org/media/rust-cpp-interop-initiative-progress-update/)
+
 ### Observations/Thoughts
 
 * [What Does a Governed Data Runtime Cost? TeaQL vs Diesel and SeaORM on MusicBrainz](https://teaql.io/blog/musicbrainz-rust-orm-benchmark/)
