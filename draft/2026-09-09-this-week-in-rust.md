@@ -57,6 +57,7 @@ and just ask the editors to select the category.
 
 * [What Rust's +simd128 Actually Changed in My WebAssembly](https://www.debugdiary.dev/log/rust-simd128-what-changed-in-webassembly)
 * [Rust Control Flow in Practice - Build a Number Guessing Game](https://blog.sheerluck.dev/posts/understanding-rust-control-flow-by-building-a-number-guessing-game/)
+* [Gloo + Yew for persistent webapp state](https://hemomorphic.alexblood.net/posts/gloo-yew-for-persistent-webapp-state/)
 
 ### Research
 
