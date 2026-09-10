@@ -51,6 +51,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Can You Use ESP32 as SWD Programmer for STM32 with Rust?](https://blog.implrust.com/posts/2026/09/swd-protocol-programmer-embedded-rust/)
 
 ### Research
 
