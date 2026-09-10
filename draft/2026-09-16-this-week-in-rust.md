@@ -52,7 +52,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
-* [Rust Projects - Write a Redis Clone - Version 3.0.0](https://rust-projects-write-a-redis-clone.github.io/)
+* [Rust Projects - Write a Redis Clone - Version 3.0.0](https://rust-projects-write-a-redis-clone.github.io/#3.0.0)
 
 ### Research
 
