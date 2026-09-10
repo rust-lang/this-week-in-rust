@@ -354,6 +354,8 @@ Rusty Events between 2026-09-09 - 2026-10-07 🦀
     * [**Rust Meetup @ BlockTech**](https://www.meetup.com/rust-amsterdam-group/events/316162802/)
 * 2026-09-24 | Frankfurt, DE | [Rust Rhein-Main](https://www.meetup.com/rust-rhein-main/events/)
     * [**AI Agentic Coding**](https://www.meetup.com/rust-rhein-main/events/316328297/)
+* 2026-09-28 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
+    * [**Rust Meetup #21**: Maximilian Grauvogl & Marcel Fink - From Bits to Bugs: A Rust generator for SUIT Manifests and Structure-Aware Parser Fuzzing](https://rust-augsburg.github.io/meetup/Meetup_21.html)
 * 2026-09-29 | Manchester, GB | [Rust Manchester](https://www.meetup.com/rust-manchester/events/)
     * [**Rust Manchester September Code Night**](https://www.meetup.com/rust-manchester/events/316200964/)
 * 2026-09-30 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel/events/)
