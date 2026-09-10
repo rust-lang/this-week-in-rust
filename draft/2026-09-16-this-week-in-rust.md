@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [A visual guide to Rust async](https://akesson.io/a-visual-guide-to-rust-async/)
+
 ### Research
 
 ### Miscellaneous
