@@ -209,7 +209,7 @@ Update CFT, FCP, MCP and RFC sections for TWiR-xxx
 Rusty Events between 2026-09-09 - 2026-10-07 🦀
 
 ### Virtual
-* 2026-09-09 | Virtual (Cardiff, GB) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/)
+* 2026-09-09 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/)
     * [**Operating Systems Book Club: Address spaces and Memory API**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/316283651/)
 * 2026-09-10 | Virtual | [Rust 🦀 Maven](https://luma.com/rust-maven)
     * [**Solving Real-World Planning Problems in Rust with SolverForge**](https://luma.com/rfbzk3ae)
@@ -269,7 +269,7 @@ Rusty Events between 2026-09-09 - 2026-10-07 🦀
     * [**Rust Manchester September Code Night**](https://www.meetup.com/rust-manchester/events/316200964/)
 * 2026-09-30 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel/events/)
     * [**Rust Meetup #16 @ ERNI**](https://www.meetup.com/rust-basel/events/315986893/)
-* 2026-10-05 | München, BY, DE | [Rust Munich](https://www.meetup.com/rust-munich/events/)
+* 2026-10-05 | München, DE | [Rust Munich](https://www.meetup.com/rust-munich/events/)
     * [**Rust Munich 2026 / 3**](https://www.meetup.com/rust-munich/events/316244709/)
 
 ### North America
@@ -307,7 +307,7 @@ Rusty Events between 2026-09-09 - 2026-10-07 🦀
     * [**Alewife Rust Lunch, Oct 3**](https://www.meetup.com/bostonrust/events/316378820/)
 
 ### Oceania:
-* 2026-09-29 | Barton, AC, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
+* 2026-09-29 | Barton, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
     * [**September Meetup**](https://www.meetup.com/rust-canberra/events/316398052/)
 
 
