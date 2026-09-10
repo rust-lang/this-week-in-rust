@@ -46,7 +46,8 @@ and just ask the editors to select the category.
 * [Rust/C++ Interop Initiative: Progress Update, September 2026](https://rustfoundation.org/media/rust-cpp-interop-initiative-progress-update/)
 
 ### Newsletters
-[Rust Trends Issue 81 - Rust 1.98 Ships as the Supply Chain Gets Tested](https://rust-trends.com/newsletter/rust-1-98-ships-as-the-supply-chain-gets-tested/)
+
+* [Rust Trends Issue 81 - Rust 1.98 Ships as the Supply Chain Gets Tested](https://rust-trends.com/newsletter/rust-1-98-ships-as-the-supply-chain-gets-tested/)
 
 ### Project/Tooling Updates
 
@@ -76,8 +77,6 @@ and just ask the editors to select the category.
 * [Let's build a compressor from scratch](https://ochagavia.nl/blog/lets-build-a-compressor-from-scratch/)
 * [Reverse engineering my e-scooter and rewriting the firmware in rust](https://bensimms.moe/reverse-engineering-scooter/)
 * [Gloo + Yew for persistent webapp state](https://hemomorphic.alexblood.net/posts/gloo-yew-for-persistent-webapp-state/)
-
-### Research
 
 ### Miscellaneous
 
@@ -348,8 +347,6 @@ Rusty Events between 2026-09-09 - 2026-10-07 🦀
 * 2026-10-07 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/wqzhftyjcnbkb/)
 
-### Africa
-
 ### Europe
 * 2026-10-10 | Geneva, CH | [Rust Geneva](https://www.posttenebraslab.ch/wiki/events/monthly_meeting/rust_meetup)
     * [**Rust Meetup Geneva**](https://www.posttenebraslab.ch/wiki/events/monthly_meeting/rust_meetup)
@@ -370,8 +367,8 @@ Rusty Events between 2026-09-09 - 2026-10-07 🦀
 * 2026-09-24 | Frankfurt, DE | [Rust Rhein-Main](https://www.meetup.com/rust-rhein-main/events/)
     * [**AI Agentic Coding**](https://www.meetup.com/rust-rhein-main/events/316328297/)
 * 2026-09-28 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
-    * [**Rust Meetup #21**: Maximilian Grauvogl & Marcel Fink - From Bits to Bugs: A Rust generator for SUIT Manifests and Structure-Aware Parser Fuzzing](https://rust-augsburg.github.io/meetup/Meetup_21.html)
-* 2026-09-29 | Manchester, GB | [Rust Manchester](https://www.meetup.com/rust-manchester/events/)
+    * [**Rust Meetup #21: Maximilian Grauvogl & Marcel Fink - From Bits to Bugs: A Rust generator for SUIT Manifests and Structure-Aware Parser Fuzzing**](https://rust-augsburg.github.io/meetup/Meetup_21.html)
+* 2026-09-29 | Manchester, UK | [Rust Manchester](https://www.meetup.com/rust-manchester/events/)
     * [**Rust Manchester September Code Night**](https://www.meetup.com/rust-manchester/events/316200964/)
 * 2026-09-30 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel/events/)
     * [**Rust Meetup #16 @ ERNI**](https://www.meetup.com/rust-basel/events/315986893/)
@@ -412,7 +409,7 @@ Rusty Events between 2026-09-09 - 2026-10-07 🦀
 * 2026-10-03 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust/events/)
     * [**Alewife Rust Lunch, Oct 3**](https://www.meetup.com/bostonrust/events/316378820/)
 
-### Oceania:
+### Oceania
 * 2026-09-29 | Barton, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
     * [**September Meetup**](https://www.meetup.com/rust-canberra/events/316398052/)
 
