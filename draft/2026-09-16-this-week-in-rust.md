@@ -42,7 +42,7 @@ and just ask the editors to select the category.
 ### Foundation
 
 ### Newsletters
-
+- [Rust Trends Issue 82 - Even the Linker Is Getting Rewritten in Rust](https://rust-trends.com/newsletter/even-the-linker-is-getting-rewritten-in-rust/)
 ### Project/Tooling Updates
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
