@@ -54,6 +54,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Research
 
+- [Optimizing a single Clippy lint by 3133X](https://blog.goose.love/posts/making-a-clippy-lint-faster-by-3133x/)
+
 ### Miscellaneous
 
 ## Crate of the Week
