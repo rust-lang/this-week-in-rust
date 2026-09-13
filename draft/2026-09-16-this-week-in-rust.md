@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
+- [Does Rust Support Inheritance? Yes, No, and Maybe, All in the Same File](https://msj.prose.sh/does-rust-support-inheritance)
 
 ### Rust Walkthroughs
 
