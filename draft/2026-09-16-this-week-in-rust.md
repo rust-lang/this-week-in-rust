@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Time and Panic Traps in WebAssembly: It Compiles, but It Crashes in the Browser](https://rust-blog.github.io/post/wasm-time-panic-traps)
+
 ### Research
 
 ### Miscellaneous
