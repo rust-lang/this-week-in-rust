@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Rust for validation, Python for the rest](https://github.com/Hacker-lot/conflate/blob/main/docs/RUST-PYTHON.md)
+
 ### Research
 
 ### Miscellaneous
