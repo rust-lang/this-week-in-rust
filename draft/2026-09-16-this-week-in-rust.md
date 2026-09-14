@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [One Lock to Rule Them All](https://flakm.com/posts/sqlx_migration_wrapper_til/)
+
 ### Research
 
 ### Miscellaneous
