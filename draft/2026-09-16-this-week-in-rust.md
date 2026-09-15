@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Teaching git diff to read JSON and YAML](https://dev.to/dimanovikov/teaching-git-diff-to-read-json-and-yaml-12h1)
+
 ### Research
 
 ### Miscellaneous
