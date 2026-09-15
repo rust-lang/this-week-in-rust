@@ -51,6 +51,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [video] [Your First GPUI App - Building a Desktop UI in Rust](https://www.youtube.com/watch?v=NT2XPvtof-Y)
 
 ### Research
 
