@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Shipping Rust static libraries without symbol collisions](https://ai-coustics.com/blog/libpatcher)
+
 ### Rust Walkthroughs
 
 ### Research
