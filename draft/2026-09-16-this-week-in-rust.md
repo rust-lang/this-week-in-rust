@@ -56,6 +56,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Miscellaneous
 
+[Awesome Rust Papers](https://evian-zhang.github.io/awesome-rust-papers/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
