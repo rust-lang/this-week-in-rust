@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Operators of death: checked arithmetic in Rust](https://bitfieldconsulting.com/posts/operators-of-death)
+
 ### Research
 
 ### Miscellaneous
