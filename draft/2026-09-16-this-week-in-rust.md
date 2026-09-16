@@ -58,7 +58,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [zenjpeg](https://lib.rs/crates/zenjpeg), a pure Rust JPEG encoder and decoder.
+
+Thanks to [Kornel](https://users.rust-lang.org/t/crate-of-the-week/2704/1669) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -112,7 +114,6 @@ If you are a feature implementer and would like your RFC to appear on the above 
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
 
-
 ## Call for Participation; projects and speakers
 
 ### CFP - Projects
@@ -141,7 +142,53 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+523 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-09-08..2026-09-15
+
+#### Compiler
+* [garbage-collect old incremental compilation sessions](https://github.com/rust-lang/rust/pull/162240)
+* [less clones and more cleanup for `rustc_builtin_macros`](https://github.com/rust-lang/rust/pull/162234)
+* [perf: read hygiene data once when hashing syntax contexts](https://github.com/rust-lang/rust/pull/162571)
+* [use `DenseBit` for `drop_live_at` in liveness tracing](https://github.com/rust-lang/rust/pull/162488)
+* [use `Box<[Word]>` for word storage in `DenseBitSet`](https://github.com/rust-lang/rust/pull/161957)
+
+#### Library
+* [generalise (most) impls on `Box`](https://github.com/rust-lang/rust/pull/161946)
+* [implement `Thread::os_id`](https://github.com/rust-lang/rust/pull/160219)
+* [reserve items in `Extend` implementations](https://github.com/rust-lang/rust/pull/162495)
+* [stabilize `Vec::from_fn`](https://github.com/rust-lang/rust/pull/162685)
+* [stabilize `core::mem::DropGuard`](https://github.com/rust-lang/rust/pull/161520)
+* [stabilize `unsafe_cell_access`](https://github.com/rust-lang/rust/pull/162504)
+
+#### Cargo
+* [`fix(git)`: For git cli, tell users what config we aren't forwarding on error](https://github.com/rust-lang/cargo/pull/17477)
+* [`fix(install)`: use packaged lockfile by default](https://github.com/rust-lang/cargo/pull/17388)
+* [fix(trim-paths)!: unremap file in one JSON doc](https://github.com/rust-lang/cargo/pull/17476)
+* [lower the lint level of `manual_readme` and `non_kebab_case_bins` to `allow`](https://github.com/rust-lang/cargo/pull/17478)
+* [specify `--edition` in `messages` tests](https://github.com/rust-lang/cargo/pull/17470)
+* [test: add more comprehensive workspace feature unification tests](https://github.com/rust-lang/cargo/pull/17466)
+
+#### Rustfmt
+* [don't treat a raw identifier as a raw string prefix](https://github.com/rust-lang/rustfmt/pull/7110)
+* [fix adjustment of `max_width` within macros](https://github.com/rust-lang/rustfmt/pull/6651)
+* [reserve width for `const ` when formatting inline const blocks](https://github.com/rust-lang/rustfmt/pull/7065)
+
+#### Clippy
+* [`map_clone`: avoid suggestions after type-changing coercions](https://github.com/rust-lang/rust-clippy/pull/17671)
+* [fix `collapsible_match` suggesting wrongly for conditional compiled code](https://github.com/rust-lang/rust-clippy/pull/16942)
+* [enable `manual_swap` in const contexts](https://github.com/rust-lang/rust-clippy/pull/17703)
+
+#### Rust-Analyzer
+* [cache macro-expanded roots when climbing ancestors](https://github.com/rust-lang/rust-analyzer/pull/23359)
+* [do not fill unstable methods in "Implement default members"](https://github.com/rust-lang/rust-analyzer/pull/23318)
+* [do not panic on json with invalid field name](https://github.com/rust-lang/rust-analyzer/pull/23330)
+* [don't panic on doc comments attached to literal expressions](https://github.com/rust-lang/rust-analyzer/pull/23295)
+* [fix `hir::Type` owner mismatches between anon consts](https://github.com/rust-lang/rust-analyzer/pull/23315)
+* [fix panic when trait solver re-enters itself](https://github.com/rust-lang/rust-analyzer/pull/23367)
+* [fix panic when we call `impls_trait` for self type of builtin derive impls for generic types](https://github.com/rust-lang/rust-analyzer/pull/23352)
+* [stop at eager macro recursion overflow](https://github.com/rust-lang/rust-analyzer/pull/23323)
+* [ide: fix doc comment offset calculation](https://github.com/rust-lang/rust-analyzer/pull/23300)
 
 ### Rust Compiler Performance Triage
 
@@ -320,7 +367,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Every so often I am told about some maths fact that I can only assume someone went to prison for discovering
+
+– [Simon Buchan](https://users.rust-lang.org/t/as-str-for-integers/142364/17)
+
+Thanks to [Chayim Refael Friedman](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1799) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
