@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Rust generics: from Static to Dynamic dispatch](https://kerkour.com/rust-generics)
+
 ### Research
 
 ### Miscellaneous
