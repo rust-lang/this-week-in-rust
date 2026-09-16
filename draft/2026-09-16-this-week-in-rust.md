@@ -44,14 +44,19 @@ and just ask the editors to select the category.
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Slint 1.18 Released](https://slint.dev/blog/slint-1.18-released)
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
-
+* [Where Does Rust Belong on Arduino? If it belongs.](https://talmondrlm.medium.com/where-does-rust-belong-on-arduino-if-it-belongs-325cbee63c1a)
+* [CO3: Toward the Optimal FFI](https://mversic.github.io/co3/)
+* [Why building a Rust LSP is hard · Rust Glancer](https://rust-glancer.github.io/blog/why-lsp-is-hard/)
+* [Developing provably correct Rust code with Verus](https://www.amazon.science/blog/developing-provably-correct-rust-code-with-verus)
+* [Principles for fast Tokio applications](https://dial9-rs.github.io/blog/principles-for-fast-tokio-applications/)
 ### Rust Walkthroughs
-
+* [Trying to Make a Loop Auto-Vectorize](https://jsgroth.dev/blog/posts/trying-to-make-a-loop-auto-vectorize/)
 ### Research
 
 ### Miscellaneous
