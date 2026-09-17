@@ -162,7 +162,27 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+There were almost no regressions this week, and several performance improvements! Though some of them
+were reverts of regressions from a previous week. [#162422](https://github.com/rust-lang/rust/pull/162422) improved the performance of Polonius, whose
+performance is getting closer to the previous NLL borrow checker.
+
+Triage done by **@Kobzol**.
+Revision range: [656a9da1..20d35a3a](https://perf.rust-lang.org/?start=656a9da186dacaf3bf8f7f7296a825d256cb4ae3&end=20d35a3ae8f310f2a002e5f6e0bc583830010cd4&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | -     | -              | 0     |
+| Regressions ❌ <br /> (secondary)  | 0.4%  | [0.1%, 0.9%]   | 3     |
+| Improvements ✅ <br /> (primary)   | -0.7% | [-4.4%, -0.1%] | 199   |
+| Improvements ✅ <br /> (secondary) | -0.9% | [-2.7%, -0.1%] | 222   |
+| All ❌✅ (primary)                 | -0.7% | [-4.4%, -0.1%] | 199   |
+
+0 Regressions, 5 Improvements, 5 Mixed; 2 of them in rollups
+40 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/85651591cba06f7122ef35d459ab76b7f583bc48/triage/2026/2026-09-14.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
