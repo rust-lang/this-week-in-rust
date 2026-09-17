@@ -37,16 +37,13 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
 ### Newsletters
 
 * [Rust Trends Issue 82 - Even the Linker Is Getting Rewritten in Rust](https://rust-trends.com/newsletter/even-the-linker-is-getting-rewritten-in-rust/)
 * [The Embedded Rustacean Issue #80](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-80)
 
 ### Project/Tooling Updates
+
 * [Slint 1.18 Released](https://slint.dev/blog/slint-1.18-released)
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
@@ -80,8 +77,6 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 ### Research
 
 * [Optimizing a single Clippy lint by 3133X](https://blog.goose.love/posts/making-a-clippy-lint-faster-by-3133x/)
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -124,6 +119,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+- *No Calls for participation were submitted this week.*
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -135,6 +131,7 @@ Are you a new or experienced speaker looking for a place to share something cool
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+- *No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -377,7 +374,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1vtuq1b/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -405,4 +402,4 @@ This Week in Rust is edited by:
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1wikjqo/this_week_in_rust_669/)</small>
