@@ -226,7 +226,6 @@ Rusty Events between 2026-09-16 - 2026-10-14 🦀
     * [**Rust Deep Learning: Third Sunday**](https://www.meetup.com/dallasrust/events/316133974/)
 * 2026-09-20 | Virtual (Bengaluru, IN) | [Embedded Rust Discord](https://discord.com/invite/pvYY69PvyS)
     * [**Silicon Sundays 3**](https://discord.gg/t9Cb2gjjq7?event=1546754977374932993)
-
 * 2026-09-22 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Fourth Tuesday Rust Bookclub**](https://www.meetup.com/dallasrust/events/310254773/)
 * 2026-09-24 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
