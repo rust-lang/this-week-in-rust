@@ -43,6 +43,9 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [Rust Trends Issue 82 - Even the Linker Is Getting Rewritten in Rust](https://rust-trends.com/newsletter/even-the-linker-is-getting-rewritten-in-rust/)
+* [The Embedded Rustacean Issue #80](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-80)
+
 ### Project/Tooling Updates
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
@@ -50,9 +53,23 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Does Rust Support Inheritance? Yes, No, and Maybe, All in the Same File](https://msj.prose.sh/does-rust-support-inheritance)
+* [Shipping Rust static libraries without symbol collisions](https://ai-coustics.com/blog/libpatcher)
+
 ### Rust Walkthroughs
 
+* [A visual guide to Rust async](https://akesson.io/a-visual-guide-to-rust-async/)
+* [Rust Projects - Write a Redis Clone - Version 3.0.0](https://rust-projects-write-a-redis-clone.github.io/#3.0.0)
+* [Can You Use ESP32 as SWD Programmer for STM32 with Rust?](https://blog.implrust.com/posts/2026/09/swd-protocol-programmer-embedded-rust/)
+* [Time and Panic Traps in WebAssembly: It Compiles, but It Crashes in the Browser](https://rust-blog.github.io/post/wasm-time-panic-traps)
+* [One Lock to Rule Them All](https://flakm.com/posts/sqlx_migration_wrapper_til/)
+* [video] [Your First GPUI App - Building a Desktop UI in Rust](https://www.youtube.com/watch?v=NT2XPvtof-Y)
+* [Operators of death: checked arithmetic in Rust](https://bitfieldconsulting.com/posts/operators-of-death)
+* [Rust generics: from Static to Dynamic dispatch](https://kerkour.com/rust-generics)
+
 ### Research
+
+* [Optimizing a single Clippy lint by 3133X](https://blog.goose.love/posts/making-a-clippy-lint-faster-by-3133x/)
 
 ### Miscellaneous
 
