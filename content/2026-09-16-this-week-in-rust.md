@@ -70,9 +70,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Can You Use ESP32 as SWD Programmer for STM32 with Rust?](https://blog.implrust.com/posts/2026/09/swd-protocol-programmer-embedded-rust/)
 * [Time and Panic Traps in WebAssembly: It Compiles, but It Crashes in the Browser](https://rust-blog.github.io/post/wasm-time-panic-traps)
 * [One Lock to Rule Them All](https://flakm.com/posts/sqlx_migration_wrapper_til/)
-* [video] [Your First GPUI App - Building a Desktop UI in Rust](https://www.youtube.com/watch?v=NT2XPvtof-Y)
 * [Operators of death: checked arithmetic in Rust](https://bitfieldconsulting.com/posts/operators-of-death)
 * [Rust generics: from Static to Dynamic dispatch](https://kerkour.com/rust-generics)
+* [video] [Your First GPUI App - Building a Desktop UI in Rust](https://www.youtube.com/watch?v=NT2XPvtof-Y)
 
 ### Research
 
