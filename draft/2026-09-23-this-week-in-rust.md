@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Why datadiff matches arrays by key instead of computing tree edit distance](https://dev.to/dimanovikov/why-datadiff-matches-arrays-by-key-instead-of-computing-tree-edit-distance-2ehp)
+
 ### Research
 
 ### Miscellaneous
