@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
+[video] [Attaching Context to Rust Errors: Why thiserror's from Breaks and How To Fix It] (https://youtu.be/GvNaGAKpXe4)
 
 ### Rust Walkthroughs
 
