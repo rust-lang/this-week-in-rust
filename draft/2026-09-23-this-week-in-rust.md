@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Solving for faster SHA-1 collision detection](https://sam.dev/blog/faster-sha1-collision-detection)
+
 ### Research
 
 ### Miscellaneous
