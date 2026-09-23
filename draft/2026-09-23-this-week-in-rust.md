@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Rustinion vs Datadog vs Zabbix: a cross-platform device/patch management agent written in Rust](https://errant.solutions/blog/rustinion-vs-datadog-zabbix.html)
+
 ### Rust Walkthroughs
 
 ### Research
