@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Guest Post: Rust Is Tier-1 Language at Microsoft](https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/)
 
 ### Newsletters
 
