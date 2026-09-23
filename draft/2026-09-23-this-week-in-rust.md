@@ -58,7 +58,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [fastlogging-rs](https://github.com/brmmm3/fastlogging-rs), a fast logger which supports 8 different programming languages.
+
+Thanks to [brmmm3](https://users.rust-lang.org/t/crate-of-the-week/2704/1673) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -112,7 +114,6 @@ If you are a feature implementer and would like your RFC to appear on the above 
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
 
-
 ## Call for Participation; projects and speakers
 
 ### CFP - Projects
@@ -143,7 +144,55 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+618 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-09-15..2026-09-22
+
+#### Compiler
+* [A couple polonius constraints perf improvements](https://github.com/rust-lang/rust/pull/163027)
+* [AST lowering cleanups](https://github.com/rust-lang/rust/pull/162747)
+* [an assortment of polonius tweaks](https://github.com/rust-lang/rust/pull/162922)
+* [check `tainted_by_error` in LateLint](https://github.com/rust-lang/rust/pull/147876)
+* [even more cleanups for `rustc_builtin_macros`](https://github.com/rust-lang/rust/pull/162925)
+* [perf: keep the first macro syntax-context mapping inline](https://github.com/rust-lang/rust/pull/162712)
+* [suggest fully qualified path on method name collision](https://github.com/rust-lang/rust/pull/153662)
+
+#### Library
+* [add `Dir::try_clone`](https://github.com/rust-lang/rust/pull/163007)
+* [add case mapping fast paths for Latin-1](https://github.com/rust-lang/rust/pull/162750)
+* [complex conjugate, negation and default](https://github.com/rust-lang/rust/pull/162865)
+* [constify comparison traits on sliced types](https://github.com/rust-lang/rust/pull/147790)
+* [implement const Iterator for Range](https://github.com/rust-lang/rust/pull/156216)
+* [stabilize `CommandExt::show_window`](https://github.com/rust-lang/rust/pull/162856)
+* [stabilize `feature(trim_prefix_suffix)` ({`str`,`[T]`, `Path`}`::trim_prefix` and {`str`, `[T]`}`::trim_suffix`)](https://github.com/rust-lang/rust/pull/160544)
+* [stabilize `windows_process_extensions_main_thread_handle`](https://github.com/rust-lang/rust/pull/160108)
+
+#### Cargo
+* [`build-rs`: make `unstable` compile](https://github.com/rust-lang/cargo/pull/17489)
+* [account for (uplift) hardlinks when calculating clean file size](https://github.com/rust-lang/cargo/pull/17485)
+* [fix: return correct package specs when resolving workspace deps](https://github.com/rust-lang/cargo/pull/17469)
+* [remove -Zasymmetric-token / cargo:paseto](https://github.com/rust-lang/cargo/pull/17486)
+* [report the number of errors with `build.warnings='deny'`](https://github.com/rust-lang/cargo/pull/17479)
+
+#### Rustdoc
+* [Correctly handle `dyn` trait methods linking for jump to def feature](https://github.com/rust-lang/rust/pull/163036)
+* [Correctly handle intra-doc links on inlined same item with different names](https://github.com/rust-lang/rust/pull/162669)
+
+#### Clippy
+* [add `must_use_without_reason` lint](https://github.com/rust-lang/rust-clippy/pull/16592)
+* [fix `const_trait_impl` related infinite loop in `needless_borrows_for_generic_args`](https://github.com/rust-lang/rust-clippy/pull/17731)
+* [generalize `extend_with_drain` to `VecDeque` and `BinaryHeap`](https://github.com/rust-lang/rust-clippy/pull/16778)
+* [lint `suboptimal_flops` for `mul_add`, `custom_abs` and `radians` in const context](https://github.com/rust-lang/rust-clippy/pull/17631)
+* [lint nested `format_args!` for uninlined args](https://github.com/rust-lang/rust-clippy/pull/16885)
+
+#### Rust-Analyzer
+* [prioritise required items in trait autocomplete](https://github.com/rust-lang/rust-analyzer/pull/23407)
+* [support completions inside `cfg!()`](https://github.com/rust-lang/rust-analyzer/pull/23384)
+* [support hover on cfg predicate](https://github.com/rust-lang/rust-analyzer/pull/23390)
+* [complete cfg value in string](https://github.com/rust-lang/rust-analyzer/pull/23395)
+* [correct order deprecated const in builtin ty](https://github.com/rust-lang/rust-analyzer/pull/23405)
+* [not complete attr args when before exists args](https://github.com/rust-lang/rust-analyzer/pull/23399)
+* [watch include roots recursively once, not every directory](https://github.com/rust-lang/rust-analyzer/pull/23375)
 
 ### Rust Compiler Performance Triage
 
@@ -324,7 +373,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> operational pedantics
+
+– [Clar Fon on rust zulip](https://rust-lang.zulipchat.com/#narrow/channel/136281-t-opsem/topic/Looping.20opsem.20into.20libs.20changes/near/626044816)
+
+Thanks to [Jules Bertholet](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1803) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
