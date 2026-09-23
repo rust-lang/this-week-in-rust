@@ -40,6 +40,7 @@ and just ask the editors to select the category.
 ### Official
 
 ### Foundation
+* [Guest Post: Rust Is Tier-1 Language at Microsoft](https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/)
 
 ### Newsletters
 
@@ -53,6 +54,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 ### Rust Walkthroughs
 
 * [Why datadiff matches arrays by key instead of computing tree edit distance](https://dev.to/dimanovikov/why-datadiff-matches-arrays-by-key-instead-of-computing-tree-edit-distance-2ehp)
+* [video] [RustCurious lesson 10: Three Ways to Fix Any Borrowing Error](https://www.youtube.com/watch?v=dLx8usb759E)
 
 ### Research
 
@@ -125,7 +127,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-<!-- * [ - ]() -->
+* [sysknife - A successful automatic rollback renders to the operator as unknown](https://github.com/lacs-project/sysknife/issues/482)
+* [sysknife - sysknife-setup --uninstall deletes .mcp.json whole, taking every other MCP server with it](https://github.com/lacs-project/sysknife/issues/480)
+* [sysknife - audit export publishes request_hash, an unsalted hash over unredacted params, with no statement of its sensitivity](https://github.com/lacs-project/sysknife/issues/268)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
