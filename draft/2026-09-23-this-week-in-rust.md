@@ -52,6 +52,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [video] [Understanding Rust Ownership by Building a Zero-Copy Log Line Parser](https://www.youtube.com/watch?v=ZxxUqoUTgnA)
 
 * [Why datadiff matches arrays by key instead of computing tree edit distance](https://dev.to/dimanovikov/why-datadiff-matches-arrays-by-key-instead-of-computing-tree-edit-distance-2ehp)
 * [video] [RustCurious lesson 10: Three Ways to Fix Any Borrowing Error](https://www.youtube.com/watch?v=dLx8usb759E)
