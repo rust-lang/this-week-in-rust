@@ -57,6 +57,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Why datadiff matches arrays by key instead of computing tree edit distance](https://dev.to/dimanovikov/why-datadiff-matches-arrays-by-key-instead-of-computing-tree-edit-distance-2ehp)
 * [video] [RustCurious lesson 10: Three Ways to Fix Any Borrowing Error](https://www.youtube.com/watch?v=dLx8usb759E)
 
+* [Solving for faster SHA-1 collision detection](https://sam.dev/blog/faster-sha1-collision-detection)
+
 ### Research
 
 ### Miscellaneous
