@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Small and secure Docker images for Rust: Alpine vs Debian vs Scratch](https://kerkour.com/rust-docker)
+
 ### Research
 
 ### Miscellaneous
