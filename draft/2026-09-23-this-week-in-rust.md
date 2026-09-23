@@ -51,6 +51,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Nine Rules for Vibe Validation of Vibe-Coded (Rust) Algorithms](https://levelup.gitconnected.com/nine-rules-for-vibe-validation-of-vibe-coded-algorithms-20db019f5583)
+
 ### Rust Walkthroughs
 * [video] [Understanding Rust Ownership by Building a Zero-Copy Log Line Parser](https://www.youtube.com/watch?v=ZxxUqoUTgnA)
 
