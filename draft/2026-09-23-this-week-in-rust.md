@@ -59,6 +59,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 * [Solving for faster SHA-1 collision detection](https://sam.dev/blog/faster-sha1-collision-detection)
 
+* [Small and secure Docker images for Rust: Alpine vs Debian vs Scratch](https://kerkour.com/rust-docker)
+
 ### Research
 
 ### Miscellaneous
