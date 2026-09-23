@@ -126,6 +126,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [sysknife - A successful automatic rollback renders to the operator as unknown](https://github.com/lacs-project/sysknife/issues/482)
 * [sysknife - sysknife-setup --uninstall deletes .mcp.json whole, taking every other MCP server with it](https://github.com/lacs-project/sysknife/issues/480)
 * [sysknife - audit export publishes request_hash, an unsalted hash over unredacted params, with no statement of its sensitivity](https://github.com/lacs-project/sysknife/issues/268)
+* [Apache Iggy - Python SDK: expose consumer shutdown and offset drain timeout](https://github.com/apache/iggy/issues/4165)
+* [Apache Iggy - Python SDK: expose client disconnect and shutdown lifecycle methods](https://github.com/apache/iggy/issues/4163)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
