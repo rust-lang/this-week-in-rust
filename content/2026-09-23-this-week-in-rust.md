@@ -45,9 +45,8 @@ and just ask the editors to select the category.
 * [Announcing a Maintainer in Residence: Scott Schafer for the Cargo team](https://blog.rust-lang.org/2026/09/22/announcing-a-maintainer-in-residence-scott-schafer-for-the-cargo-team/)
 
 ### Foundation
-* [Guest Post: Rust Is Tier-1 Language at Microsoft](https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/)
 
-### Newsletters
+* [Guest Post: Rust Is Tier-1 Language at Microsoft](https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/)
 
 ### Project/Tooling Updates
 
@@ -64,19 +63,13 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Nine Rules for Vibe Validation of Vibe-Coded (Rust) Algorithms](https://levelup.gitconnected.com/nine-rules-for-vibe-validation-of-vibe-coded-algorithms-20db019f5583)
 
 ### Rust Walkthroughs
-* [video] [Understanding Rust Ownership by Building a Zero-Copy Log Line Parser](https://www.youtube.com/watch?v=ZxxUqoUTgnA)
 
+* [video] [Understanding Rust Ownership by Building a Zero-Copy Log Line Parser](https://www.youtube.com/watch?v=ZxxUqoUTgnA)
 * [Finding Bugs](https://matklad.github.io/2026/09/19/finding-bugs.html)
 * [Why datadiff matches arrays by key instead of computing tree edit distance](https://dev.to/dimanovikov/why-datadiff-matches-arrays-by-key-instead-of-computing-tree-edit-distance-2ehp)
 * [video] [RustCurious lesson 10: Three Ways to Fix Any Borrowing Error](https://www.youtube.com/watch?v=dLx8usb759E)
-
 * [Solving for faster SHA-1 collision detection](https://sam.dev/blog/faster-sha1-collision-detection)
-
 * [Small and secure Docker images for Rust: Alpine vs Debian vs Scratch](https://kerkour.com/rust-docker)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -371,7 +364,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1wo5btb/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -399,4 +392,4 @@ This Week in Rust is edited by:
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1woppw3/this_week_in_rust_670)</small>
