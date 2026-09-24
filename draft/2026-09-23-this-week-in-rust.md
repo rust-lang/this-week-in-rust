@@ -39,6 +39,11 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Be alert: targeted attacks on prominent Rustaceans](https://blog.rust-lang.org/2026/09/17/targeted-attacks/)
+* [GitHub Actions leaking secrets when Miri output is cached](https://blog.rust-lang.org/2026/09/21/github-actions-leaking-secrets-when-miri-output-is-cached/)
+* [Maintainer spotlight: Alejandra González (@blyxyas)](https://blog.rust-lang.org/inside-rust/2026/09/21/maintainer-spotlight-alejandra-gonzalez-blyxyas/)
+* [Announcing a Maintainer in Residence: Scott Schafer for the Cargo team](https://blog.rust-lang.org/2026/09/22/announcing-a-maintainer-in-residence-scott-schafer-for-the-cargo-team/)
+
 ### Foundation
 * [Guest Post: Rust Is Tier-1 Language at Microsoft](https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/)
 
@@ -46,16 +51,22 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Fearless SIMD v1.0 is here](https://linebender.org/blog/fearless-simd-1-0/)
+* [Syncing Rust GCC backend or how to test Murphy's law](https://blog.guillaume-gomez.fr/articles/2026-09-22+Syncing+Rust+GCC+backend+or+how+to+test+Murphy%27s+law)
+* [Benchmarking Wild vs Mold ](https://davidlattimore.github.io/posts/2026/09/18/benchmarking-wild-vs-mold.html)
+
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
 
+* [Arguing about arguments](https://steveklabnik.com/writing/arguing-about-arguments/)
 * [Nine Rules for Vibe Validation of Vibe-Coded (Rust) Algorithms](https://levelup.gitconnected.com/nine-rules-for-vibe-validation-of-vibe-coded-algorithms-20db019f5583)
 
 ### Rust Walkthroughs
 * [video] [Understanding Rust Ownership by Building a Zero-Copy Log Line Parser](https://www.youtube.com/watch?v=ZxxUqoUTgnA)
 
+* [Finding Bugs](https://matklad.github.io/2026/09/19/finding-bugs.html)
 * [Why datadiff matches arrays by key instead of computing tree edit distance](https://dev.to/dimanovikov/why-datadiff-matches-arrays-by-key-instead-of-computing-tree-edit-distance-2ehp)
 * [video] [RustCurious lesson 10: Three Ways to Fix Any Borrowing Error](https://www.youtube.com/watch?v=dLx8usb759E)
 
