@@ -49,7 +49,7 @@ and just ask the editors to select the category.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
-
+- [We Have Named Arguments at Home](https://corrode.dev/blog/named-arguments-at-home/): a reply to [Arguing about arguments](https://steveklabnik.com/writing/arguing-about-arguments/) mentioned in the [last issue](https://this-week-in-rust.org/blog/2026/09/23/this-week-in-rust-670/)
 ### Rust Walkthroughs
 
 ### Research
