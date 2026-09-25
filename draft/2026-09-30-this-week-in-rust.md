@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Rust Reborrowing, Aliasing, and Mutable References](https://developerlife.com/2026/09/25/rust-reborrowing/)
+
 ### Research
 
 ### Miscellaneous
