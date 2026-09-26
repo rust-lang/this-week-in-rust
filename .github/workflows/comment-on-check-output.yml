@@ -85,6 +85,7 @@ jobs:
               sections = [
                   section("Link check", "inspect-links-pr.txt"),
                   section("Markdown check", "inspect-markdown-pr.txt"),
+                  section("Template check", "template-pr.txt"),
               ]
               sections = [item for item in sections if item]
               if not sections:
