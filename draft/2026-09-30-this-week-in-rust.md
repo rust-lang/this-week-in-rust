@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Why I Put a TCP/IP Stack Inside a Rootless Container Engine](https://dev.to/ryo_tanaka_dev/why-i-put-a-tcpip-stack-inside-a-rootless-container-engine-8c)
+
 ### Rust Walkthroughs
 
 ### Research
