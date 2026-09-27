@@ -50,6 +50,10 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Compiling the kernel with gccrs](https://lwn.net/SubscriberLink/1095553/7f34252658f8b8d1/)
+* [Listening to the radio with Rust](https://lwn.net/SubscriberLink/1095721/e1d863e5fd827753/)
+* [Native support for Rust on the GPU](https://lwn.net/SubscriberLink/1095731/a5ecc9da2388b8ec/)
+
 ### Rust Walkthroughs
 
 ### Research
