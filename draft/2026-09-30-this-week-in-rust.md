@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [A very condensed introduction of the basics of Rust](https://liw.fi/distilled-rust/)
+
 ### Research
 
 ### Miscellaneous
