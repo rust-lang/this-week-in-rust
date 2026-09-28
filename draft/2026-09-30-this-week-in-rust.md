@@ -56,6 +56,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Miscellaneous
 
+* [JSON Is No Longer a Blob: Inside GreptimeDB 1.2's New JSON Type](https://greptime.com/blogs/2026-09-23-greptimedb-json2-deep-dive)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
