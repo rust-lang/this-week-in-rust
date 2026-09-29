@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Climbing the Pyramid: Resolution, Blur, and the Coordinates You Lost on the Way Down](https://karhunen-loeve.github.io/03-pyramids-and-scale-space.html)
+
 ### Rust Walkthroughs
 
 ### Research
