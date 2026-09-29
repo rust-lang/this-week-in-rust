@@ -56,6 +56,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Miscellaneous
 
+* [cargo-crap: Triaging Duplicates with TypeSafe AI](https://minikin.me/blog/cargo-crap-triage)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
