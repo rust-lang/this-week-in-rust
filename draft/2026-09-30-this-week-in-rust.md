@@ -304,6 +304,8 @@ Rusty Events between 2026-09-30 - 2026-10-28 🦀
     * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/315783988/)
 * 2026-10-21 | Hybrid (Vancouver, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
     * [**Disposable Agent Sandboxes in Rust**](https://www.meetup.com/vancouver-rust/events/315210233/)
+* 2026-10-21 | San Francisco, CA, US | [Bay Area Rust](https://luma.com/bayarearust)
+    * [**Bay Area Rust**](https://luma.com/ur4pm34i)
 
 ### Oceania
 * 2026-09-29 | Barton, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra)
