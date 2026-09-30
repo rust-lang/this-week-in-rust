@@ -49,8 +49,22 @@ and just ask the editors to select the category.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
+* [Can safe Rust ever beat Google's C Brotli?](https://mnwa.hashnode.dev/can-safe-rust-ever-beat-google-s-c-brotli)
+* [Building a DMA based driver for the RP2350 I2C (safety not included)](https://micro-rust.github.io/posts/001-i2c-dma-handler/)
+* [Advanced soft-bodies for games with the Rapier physics engine](https://dimforge.com/blog/2026/09/25/advanced-soft-bodies-for-games-in-the-rapier-physics-engine/)
+* [Supporting native Rust in Workers with the new Emscripten target for wasm-bindgen](https://blog.cloudflare.com/rust-workers-emscripten-target/)
+* [Rusty thoughts on "Parse, don't validate"](https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate/)
+* [The state of SIMD in Rust in 2026](https://shnatsel.github.io/state-of-simd-rust-2026/)
 
 ### Rust Walkthroughs
+* [How to speed up the Rust compiler in September 2026](https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html)
+* [Building Real-Time Notifications with SSE and Pub/Sub](https://oluseun.dev/blogs/real-time-notifications-sse-pubsub.html)
+* [Green Threads from Scratch](https://dzania.github.io/green-threads-from-scratch/)
+* [A Type Stronger than the Sum of its Components](https://www.schneems.com/2026/09/24/a-type-stronger-than-the-sum-of-its-components/)
+* [Deser: Rethinking Rust Serialization](https://lucumr.pocoo.org/2026/9/29/deser/)
+* [Dropping Swift from our Bevy iOS crates](https://rustunit.com/blog/2026/09-04-bevy-ios-crates-objc2/)
+* [Pining for Arc Downcasting in Rust](https://wolfgirl.dev/blog/2026-09-29-pining-for-arc-downcasting-in-rust/)
+* [Topcoat is pushing the boundary of server applications with Rust](https://tokio.rs/blog/2026-09-24-topcoat-server-applications)
 
 ### Research
 
