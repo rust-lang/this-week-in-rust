@@ -56,6 +56,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Miscellaneous
 
+* [Rust & Linux Community Event – November 20–21, 2026 @ TUXEDO, Augsburg – Help us choose the workshop topic](https://cryptpad.fr/form/#/2/form/view/ppm1DazKFfZxfLB8Fw6-7W0vBC1kFV9KgkHQWqY7UU0/)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
