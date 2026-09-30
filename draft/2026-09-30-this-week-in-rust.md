@@ -51,7 +51,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-* [Making Our GPUI App Interactive with State and Events](https://notes.sheerluck.dev/articles/making-our-gpui-app-interactive-with-state-and-events)
+* [video] [Making Our GPUI App Interactive with State and Events](https://youtu.be/bs8bpAZ10SM)
 
 ### Research
 
