@@ -52,7 +52,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
-* [Building Rust Procedural Macros Without syn, quote, or proc-macro2: Introducing moxy](https://aacebo.hashnode.dev/building-rust-procedural-macros-without-syn-quote-or-proc-macro2-introducing-moxy)
+* [Building Rust Procedural Macros Without syn, quote, or proc-macro2: Introducing moxy](https://aacebo.hashnode.dev/building-rust-procedural-macros-without-syn-quote-or-proc-macro2-moxy)
 
 ### Research
 
