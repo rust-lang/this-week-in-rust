@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+- [Upstream Rust maintenance report (August-September 2026)](https://kobzol.github.io/rust/2026/09/30/stf-august-september-2026.html)
+
 ### Rust Walkthroughs
 
 ### Research
