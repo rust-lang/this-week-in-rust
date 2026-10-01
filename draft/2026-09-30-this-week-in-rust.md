@@ -138,11 +138,12 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+<!-- or if none - *No Calls for participation were submitted this week.* -->
 * [unsynced - strace frontend fails on pwritev2 with offset -1 (current file offset)](https://github.com/zaydmulani09/unsynced/issues/1)
 * [unsynced - Model hard links (link/linkat) instead of warning](https://github.com/zaydmulani09/unsynced/issues/2)
 * [unsynced - Add an ext4 data=writeback persistence profile](https://github.com/zaydmulani09/unsynced/issues/3)
-<!-- or if none - *No Calls for participation were submitted this week.* -->
-
+* [MemoryWhale - Cover friendly errors for incomplete `mw` arguments](https://github.com/wuisabel-gif/MemWhale/issues/253)
+* [MemoryWhale - Lock down `mw --help` output](https://github.com/wuisabel-gif/MemWhale/issues/254)
 * [dataprof - Remote Parquet refusal messages should say to download the file when the server ignores Range](https://github.com/AndreaBozzo/dataprof/issues/840)
 * [dataprof - `ScoreBounds::dimension_scores` docs still list estimated key counts as unbounded](https://github.com/AndreaBozzo/dataprof/issues/827)
 * [dataprof - The progress `finished` event under-counts rows when a row cap stops the incremental engine](https://github.com/AndreaBozzo/dataprof/issues/824)
