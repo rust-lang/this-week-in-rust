@@ -89,7 +89,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [ying-profiler](https://github.com/velvia/ying-profiler), a native Rust sampling memory profiler.
+
+Thanks to [Evan Chan](https://users.rust-lang.org/t/crate-of-the-week/2704/1683) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -146,7 +148,67 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+546 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-09-22..2026-09-29
+
+#### Compiler
+* [computing `crate_hash` from metadata encoding instead of HIR (implements #94878)](https://github.com/rust-lang/rust/pull/154724)
+* [detect missing else in let statement](https://github.com/rust-lang/rust/pull/156949)
+* [give noalias back to refs in closures](https://github.com/rust-lang/rust/pull/162361)
+* [implement forced keywords (`k#`)](https://github.com/rust-lang/rust/pull/161775)
+* [use SmallVec in LocalizedConstraintGraph](https://github.com/rust-lang/rust/pull/163190)
+
+#### Library
+* [add `Div` and `Mul` for `Complex<{float}>`](https://github.com/rust-lang/rust/pull/162832)
+* [alloc: stabilise `Allocator`](https://github.com/rust-lang/rust/pull/156882)
+* [additional `NonZero` conversions](https://github.com/rust-lang/rust/pull/129036)
+* [allow elided (`'static`) lifetimes in `thread_local!`](https://github.com/rust-lang/rust/pull/159564)
+* [implement `PartialEq<VecDeque<U>>` for `Vec<T>`, `&[T]`, `&mut [T]`, `[T; N]`, `&[T; N]` and `&mut [T; N]`](https://github.com/rust-lang/rust/pull/152972)
+* [make dropping an empty BTreeMap free](https://github.com/rust-lang/rust/pull/161791)
+* [stabilize SyncView](https://github.com/rust-lang/rust/pull/163366)
+* [stabilize `Box::take`](https://github.com/rust-lang/rust/pull/160436)
+* [stabilize `Result::into_{ok,err}`](https://github.com/rust-lang/rust/pull/161712)
+* [stabilize `funnel_shifts` (including `const`)](https://github.com/rust-lang/rust/pull/161015)
+* [stabilize `mem::conjure_zst`](https://github.com/rust-lang/rust/pull/161710)
+* [stabilize `vec_try_remove`](https://github.com/rust-lang/rust/pull/163459)
+* [use wrapping arithmetic in `from_str_radix`](https://github.com/rust-lang/rust/pull/163099)
+
+#### Cargo
+* [`builtin-deps`: add builtin dependencies manifest syntax](https://github.com/rust-lang/cargo/pull/17498)
+* [`config`: add build.profile, install.profile](https://github.com/rust-lang/cargo/pull/17215)
+* [`metadata`: mirror package features in `features_v2`](https://github.com/rust-lang/cargo/pull/17517)
+* [`builtin-deps`: fix builtin dependencies manifest validation](https://github.com/rust-lang/cargo/pull/17499)
+* [`diag`: Don't report unused normal deps when static libs are skipped](https://github.com/rust-lang/cargo/pull/17515)
+* [`package`: preserve feature metadata in normalized manifests](https://github.com/rust-lang/cargo/pull/17509)
+
+#### Rustdoc
+* [correctly check that an item is not `doc(hidden)` with `--generate-link-to-definition`](https://github.com/rust-lang/rust/pull/163268)
+* [fix intra doc link resolution when a doc comment is composed of both inner and outer doc comment](https://github.com/rust-lang/rust/pull/162862)
+* [fix invalid jump to def link when `#[rustc_allow_incoherent_impl]` is involved](https://github.com/rust-lang/rust/pull/163133)
+* [fix quadratic naming of duplicate sidebar links](https://github.com/rust-lang/rust/pull/162976)
+
+#### Clippy
+* [`while_let_loop`: detect the pattern when the loop has a label](https://github.com/rust-lang/rust-clippy/pull/17614)
+* [add new `try_from_instead_of_from_str` lint](https://github.com/rust-lang/rust-clippy/pull/17030)
+* [don't suggest `Box::leak` in `nonnull_unchecked_on_box_ptr`](https://github.com/rust-lang/rust-clippy/pull/17752)
+* [fix `collapsible_match` consuming/mutation checking](https://github.com/rust-lang/rust-clippy/pull/16951)
+* [fix `match_str_case` matching str inside or patterns](https://github.com/rust-lang/rust-clippy/pull/17759)
+* [improve doc attr span tracking for proc-macro](https://github.com/rust-lang/rust-clippy/pull/17678)
+
+#### Rust-Analyzer
+* [don't fail extension activation when the server fails to start](https://github.com/rust-lang/rust-analyzer/pull/23386)
+* [add `type_match` relevance for type-alias](https://github.com/rust-lang/rust-analyzer/pull/23406)
+* [coercion safe fn to unsafe fn](https://github.com/rust-lang/rust-analyzer/pull/23416)
+* [complete 'false' in cfg attribute](https://github.com/rust-lang/rust-analyzer/pull/23382)
+* [complete attr value inside string without quotes](https://github.com/rust-lang/rust-analyzer/pull/23414)
+* [const eval cast of single-variant `enum`](https://github.com/rust-lang/rust-analyzer/pull/23185)
+* [deduplicate 'derive' and 'test' attribute macro](https://github.com/rust-lang/rust-analyzer/pull/23413)
+* [do not type match unknown type](https://github.com/rust-lang/rust-analyzer/pull/23408)
+* [don't clear semantic tokens cache on refresh](https://github.com/rust-lang/rust-analyzer/pull/23410)
+* [hover show impl header when impl with trait](https://github.com/rust-lang/rust-analyzer/pull/23365)
+* [panic in async closures with higher-ranked trait bounds](https://github.com/rust-lang/rust-analyzer/pull/23409)
+* [return UB instead of panicking when reading the discriminant of an uninhabited `enum`](https://github.com/rust-lang/rust-analyzer/pull/23421)
 
 ### Rust Compiler Performance Triage
 
@@ -311,7 +373,15 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> The community is obnoxiously helpful. I asked a simple question on the Rust community Discord server. What is the best way to read a file in Rust? I expected a straightforward response. Instead, I got back a 2,000-word essay on the inner workings of IO, buffering, error handling, and ownership, plus links to four different blog posts and three different approaches depending on file size, and a working code example.
+>
+> ...
+>
+> The Rust community has weaponized education against me. I'm now a better engineer than I was yesterday against my will.
+
+– [tris on youtube](https://youtu.be/B2gmKy3pHkw?si=4QRLux5X55fTx8c8&t=196)
+
+Thanks to [MusicalNinjaDad](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1806) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
