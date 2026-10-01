@@ -92,6 +92,17 @@ jobs:
             cat "$CHECK_OUTPUT_FILE"
 
             exit "$status"
+      - name: warn about edits to template
+        if: ${{ !cancelled() && github.event_name == 'pull_request' }}
+        shell: bash
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          CHECK_OUTPUT_FILE: ${{ runner.temp }}/template-pr.txt
+        run: |
+            if ! git diff --quiet "$BASE_SHA" HEAD -- draft/DRAFT_TEMPLATE; then
+                echo "* warning: The draft template has been edited; did you mean to edit the latest draft?" \
+                    | tee "$CHECK_OUTPUT_FILE"
+            fi
       # Upload the check output so the workflow_run workflow can fetch it later.
       # That follow-up workflow has permission to write PR comments, unlike this
       # pull_request workflow which runs on possibly-untrusted forks.
@@ -108,4 +119,5 @@ jobs:
             ${{ runner.temp }}/pr-number.txt
             ${{ runner.temp }}/inspect-links-pr.txt
             ${{ runner.temp }}/inspect-markdown-pr.txt
+            ${{ runner.temp }}/template-pr.txt
           if-no-files-found: ignore
