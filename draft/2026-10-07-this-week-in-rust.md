@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [Rust Trends Issue 83 - NVIDIA Brings Rust to the GPU Kernel](https://rust-trends.com/newsletter/nvidia-brings-rust-to-the-gpu-kernel/)
+
 ### Project/Tooling Updates
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
