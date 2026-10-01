@@ -59,6 +59,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Rust in the kernel? What about Rust without the kernel!](https://kerkour.com/rust-kernel)
 
 ### Rust Walkthroughs
+* [ES] [Domain–Flow–Effects (DFE): an architecture designed for Rust](https://codigolinea.com/domain-flow-effects-dfe-arquitectura-rust/) 
 
 * [Rust Reborrowing, Aliasing, and Mutable References](https://developerlife.com/2026/09/25/rust-reborrowing/)
 * [A very condensed introduction of the basics of Rust](https://liw.fi/distilled-rust/)
