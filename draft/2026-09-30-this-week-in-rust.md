@@ -52,7 +52,12 @@ and just ask the editors to select the category.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
-
+* [Can safe Rust ever beat Google's C Brotli?](https://mnwa.hashnode.dev/can-safe-rust-ever-beat-google-s-c-brotli)
+* [Building a DMA based driver for the RP2350 I2C (safety not included)](https://micro-rust.github.io/posts/001-i2c-dma-handler/)
+* [Advanced soft-bodies for games with the Rapier physics engine](https://dimforge.com/blog/2026/09/25/advanced-soft-bodies-for-games-in-the-rapier-physics-engine/)
+* [Supporting native Rust in Workers with the new Emscripten target for wasm-bindgen](https://blog.cloudflare.com/rust-workers-emscripten-target/)
+* [Rusty thoughts on "Parse, don't validate"](https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate/)
+* [The state of SIMD in Rust in 2026](https://shnatsel.github.io/state-of-simd-rust-2026/)
 * [How do you stop being a Rust novice?](https://www.jochen.fyi/posts/how-do-you-stop-being-a-rust-novice)
 * [We Have Named Arguments at Home](https://corrode.dev/blog/named-arguments-at-home/): a reply to the blog post *Arguing about arguments* mentioned in the last issue)
 * [Upstream Rust maintenance report (August-September 2026)](https://kobzol.github.io/rust/2026/09/30/stf-august-september-2026.html)
@@ -62,11 +67,19 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Native support for Rust on the GPU](https://lwn.net/SubscriberLink/1095731/a5ecc9da2388b8ec/)
 
 ### Rust Walkthroughs
-* [ES] [Domain–Flow–Effects (DFE): an architecture designed for Rust](https://codigolinea.com/domain-flow-effects-dfe-arquitectura-rust/) 
 
+* [How to speed up the Rust compiler in September 2026](https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html)
+* [Building Real-Time Notifications with SSE and Pub/Sub](https://oluseun.dev/blogs/real-time-notifications-sse-pubsub.html)
+* [Green Threads from Scratch](https://dzania.github.io/green-threads-from-scratch/)
+* [A Type Stronger than the Sum of its Components](https://www.schneems.com/2026/09/24/a-type-stronger-than-the-sum-of-its-components/)
+* [Deser: Rethinking Rust Serialization](https://lucumr.pocoo.org/2026/9/29/deser/)
+* [Dropping Swift from our Bevy iOS crates](https://rustunit.com/blog/2026/09-04-bevy-ios-crates-objc2/)
+* [Pining for Arc Downcasting in Rust](https://wolfgirl.dev/blog/2026-09-29-pining-for-arc-downcasting-in-rust/)
+* [Topcoat is pushing the boundary of server applications with Rust](https://tokio.rs/blog/2026-09-24-topcoat-server-applications)
 * [Rust Reborrowing, Aliasing, and Mutable References](https://developerlife.com/2026/09/25/rust-reborrowing/)
 * [A very condensed introduction of the basics of Rust](https://liw.fi/distilled-rust/)
 * [video] [Making Our GPUI App Interactive with State and Events](https://youtu.be/bs8bpAZ10SM)
+* [ES] [Domain–Flow–Effects (DFE): an architecture designed for Rust](https://codigolinea.com/domain-flow-effects-dfe-arquitectura-rust/)
 
 ### Research
 
