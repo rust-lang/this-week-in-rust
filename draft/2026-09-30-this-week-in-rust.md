@@ -212,7 +212,28 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+This week was fairly positive. We had no pure regressions, and most of the results came from a few architectural improvements with mixed or mostly positive impact. Some improvements also come from addressing previously triaged regression caused by missing no_alias annotation for references in closures.
+
+The biggest improvement this week is in rustdoc, from tackling quadratic behaviour when generating sidebar links. This was reported by a user, but the effect didn't show up in our benchmarks, so we added a special stress test for it.
+
+Triage done by **@panstromek**.
+Revision range: [3670d253..c1070d69](https://perf.rust-lang.org/?start=3670d2532bdf51abbe0b8fea22284d7ca340ffe3&end=c1070d69382b8d2f2eb65119c738a77d9e324c9e&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.6%  | [0.2%, 0.8%]    | 8     |
+| Regressions ❌ <br /> (secondary)  | 1.4%  | [0.1%, 5.8%]    | 30    |
+| Improvements ✅ <br /> (primary)   | -0.6% | [-1.7%, -0.2%]  | 192   |
+| Improvements ✅ <br /> (secondary) | -1.5% | [-82.5%, -0.1%] | 101   |
+| All ❌✅ (primary)                 | -0.6% | [-1.7%, 0.8%]   | 200   |
+
+
+0 Regressions, 2 Improvements, 6 Mixed; 3 of them in rollups
+26 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/7409c0adce96db29bbfa5030136401590f768577/triage/2026/2026-09-29.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
