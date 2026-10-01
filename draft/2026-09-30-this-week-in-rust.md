@@ -43,6 +43,9 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [Scientific Computing in Rust #22 (September 2026)](https://scientificcomputing.rs/monthly/2026-09)
+* [The Embedded Rustacean Issue #81](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-81)
+
 ### Project/Tooling Updates
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
@@ -50,11 +53,22 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [How do you stop being a Rust novice?](https://www.jochen.fyi/posts/how-do-you-stop-being-a-rust-novice)
+* [We Have Named Arguments at Home](https://corrode.dev/blog/named-arguments-at-home/): a reply to the blog post *Arguing about arguments* mentioned in the last issue)
+* [Upstream Rust maintenance report (August-September 2026)](https://kobzol.github.io/rust/2026/09/30/stf-august-september-2026.html)
+* [Rust in the kernel? What about Rust without the kernel!](https://kerkour.com/rust-kernel)
+
 ### Rust Walkthroughs
+
+* [Rust Reborrowing, Aliasing, and Mutable References](https://developerlife.com/2026/09/25/rust-reborrowing/)
+* [A very condensed introduction of the basics of Rust](https://liw.fi/distilled-rust/)
+* [video] [Making Our GPUI App Interactive with State and Events](https://youtu.be/bs8bpAZ10SM)
 
 ### Research
 
 ### Miscellaneous
+
+* [DE][Rust & Linux Community Event – November 20–21, 2026 @ TUXEDO, Augsburg – Help us choose the workshop topic](https://cryptpad.fr/form/#/2/form/view/ppm1DazKFfZxfLB8Fw6-7W0vBC1kFV9KgkHQWqY7UU0/)
 
 ## Crate of the Week
 
