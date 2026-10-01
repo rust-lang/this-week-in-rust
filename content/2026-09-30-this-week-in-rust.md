@@ -37,21 +37,16 @@ and just ask the editors to select the category.
 
 -->
 
-### Official
-
-### Foundation
-
 ### Newsletters
 
 * [Scientific Computing in Rust #22 (September 2026)](https://scientificcomputing.rs/monthly/2026-09)
 * [The Embedded Rustacean Issue #81](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-81)
 
-### Project/Tooling Updates
-
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
+
 * [Can safe Rust ever beat Google's C Brotli?](https://mnwa.hashnode.dev/can-safe-rust-ever-beat-google-s-c-brotli)
 * [Building a DMA based driver for the RP2350 I2C (safety not included)](https://micro-rust.github.io/posts/001-i2c-dma-handler/)
 * [Advanced soft-bodies for games with the Rapier physics engine](https://dimforge.com/blog/2026/09/25/advanced-soft-bodies-for-games-in-the-rapier-physics-engine/)
@@ -59,7 +54,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Rusty thoughts on "Parse, don't validate"](https://eli.thegreenplace.net/2026/rusty-thoughts-on-parse-dont-validate/)
 * [The state of SIMD in Rust in 2026](https://shnatsel.github.io/state-of-simd-rust-2026/)
 * [How do you stop being a Rust novice?](https://www.jochen.fyi/posts/how-do-you-stop-being-a-rust-novice)
-* [We Have Named Arguments at Home](https://corrode.dev/blog/named-arguments-at-home/): a reply to the blog post *Arguing about arguments* mentioned in the last issue)
+* [We Have Named Arguments at Home](https://corrode.dev/blog/named-arguments-at-home/): a reply to the blog post *Arguing about arguments* mentioned in the last issue
 * [Upstream Rust maintenance report (August-September 2026)](https://kobzol.github.io/rust/2026/09/30/stf-august-september-2026.html)
 * [Rust in the kernel? What about Rust without the kernel!](https://kerkour.com/rust-kernel)
 * [Compiling the kernel with gccrs](https://lwn.net/SubscriberLink/1095553/7f34252658f8b8d1/)
@@ -80,8 +75,6 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [A very condensed introduction of the basics of Rust](https://liw.fi/distilled-rust/)
 * [video] [Making Our GPUI App Interactive with State and Events](https://youtu.be/bs8bpAZ10SM)
 * [ES] [Domain–Flow–Effects (DFE): an architecture designed for Rust](https://codigolinea.com/domain-flow-effects-dfe-arquitectura-rust/)
-
-### Research
 
 ### Miscellaneous
 
@@ -390,7 +383,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1wo5btb/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
