@@ -43,6 +43,9 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [Scientific Computing in Rust #22 (September 2026)](https://scientificcomputing.rs/monthly/2026-09)
+* [The Embedded Rustacean Issue #81](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-81)
+
 ### Project/Tooling Updates
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
@@ -50,11 +53,23 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [How do you stop being a Rust novice?](https://www.jochen.fyi/posts/how-do-you-stop-being-a-rust-novice)
+* [We Have Named Arguments at Home](https://corrode.dev/blog/named-arguments-at-home/): a reply to the blog post *Arguing about arguments* mentioned in the last issue)
+* [Upstream Rust maintenance report (August-September 2026)](https://kobzol.github.io/rust/2026/09/30/stf-august-september-2026.html)
+* [Rust in the kernel? What about Rust without the kernel!](https://kerkour.com/rust-kernel)
+
 ### Rust Walkthroughs
+* [ES] [Domain–Flow–Effects (DFE): an architecture designed for Rust](https://codigolinea.com/domain-flow-effects-dfe-arquitectura-rust/) 
+
+* [Rust Reborrowing, Aliasing, and Mutable References](https://developerlife.com/2026/09/25/rust-reborrowing/)
+* [A very condensed introduction of the basics of Rust](https://liw.fi/distilled-rust/)
+* [video] [Making Our GPUI App Interactive with State and Events](https://youtu.be/bs8bpAZ10SM)
 
 ### Research
 
 ### Miscellaneous
+
+* [DE][Rust & Linux Community Event – November 20–21, 2026 @ TUXEDO, Augsburg – Help us choose the workshop topic](https://cryptpad.fr/form/#/2/form/view/ppm1DazKFfZxfLB8Fw6-7W0vBC1kFV9KgkHQWqY7UU0/)
 
 ## Crate of the Week
 
@@ -123,11 +138,15 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-<!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
-
+* [unsynced - strace frontend fails on pwritev2 with offset -1 (current file offset)](https://github.com/zaydmulani09/unsynced/issues/1)
+* [unsynced - Model hard links (link/linkat) instead of warning](https://github.com/zaydmulani09/unsynced/issues/2)
+* [unsynced - Add an ext4 data=writeback persistence profile](https://github.com/zaydmulani09/unsynced/issues/3)
 * [MemoryWhale - Cover friendly errors for incomplete `mw` arguments](https://github.com/wuisabel-gif/MemWhale/issues/253)
 * [MemoryWhale - Lock down `mw --help` output](https://github.com/wuisabel-gif/MemWhale/issues/254)
+* [dataprof - Remote Parquet refusal messages should say to download the file when the server ignores Range](https://github.com/AndreaBozzo/dataprof/issues/840)
+* [dataprof - `ScoreBounds::dimension_scores` docs still list estimated key counts as unbounded](https://github.com/AndreaBozzo/dataprof/issues/827)
+* [dataprof - The progress `finished` event under-counts rows when a row cap stops the incremental engine](https://github.com/AndreaBozzo/dataprof/issues/824)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -231,6 +250,8 @@ Rusty Events between 2026-09-30 - 2026-10-28 🦀
     * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/315619617/)
 * 2026-10-10 | Virtual (Gdansk, PL) | [Stacja IT Trójmiasto](https://www.meetup.com/stacja-it-trojmiasto)
     * [**[BEZPŁATNIE] Programowanie w języku Rust**](https://www.meetup.com/stacja-it-trojmiasto/events/316381946/)
+* 2026-10-10 | Hybrid (Kuala Lumpur, Malaysia) | [Rust Malaysia Meetup](https://discord.gg/Uz88bnZA3B)
+    * [**Rust Meetup October 2026**](https://forms.gle/721DxqrPeHXY6omP9)
 * 2026-10-13 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254772/)
 * 2026-10-14 - 2026-10-17 | Hybrid (Barcelona, ES) | [EuroRust](https://eurorust.eu/)
