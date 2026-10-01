@@ -57,6 +57,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [We Have Named Arguments at Home](https://corrode.dev/blog/named-arguments-at-home/): a reply to the blog post *Arguing about arguments* mentioned in the last issue)
 * [Upstream Rust maintenance report (August-September 2026)](https://kobzol.github.io/rust/2026/09/30/stf-august-september-2026.html)
 * [Rust in the kernel? What about Rust without the kernel!](https://kerkour.com/rust-kernel)
+* [Compiling the kernel with gccrs](https://lwn.net/SubscriberLink/1095553/7f34252658f8b8d1/)
+* [Listening to the radio with Rust](https://lwn.net/SubscriberLink/1095721/e1d863e5fd827753/)
+* [Native support for Rust on the GPU](https://lwn.net/SubscriberLink/1095731/a5ecc9da2388b8ec/)
 
 ### Rust Walkthroughs
 * [ES] [Domain–Flow–Effects (DFE): an architecture designed for Rust](https://codigolinea.com/domain-flow-effects-dfe-arquitectura-rust/) 
