@@ -55,7 +55,6 @@ What we are generally looking for includes:
 
 * how-to intros (and advanced deep dives) into Rust concepts and areas
 * Rust walkthroughs that explain concepts in different ways than well known resources like [the Rust book](https://doc.rust-lang.org/stable/book/), [Rustlings](https://github.com/rust-lang/rustlings), and [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)
-* updates on tooling when in long form or framed as a tutorial (for more details, see what we are not looking for below)
 * Rust-related podcast episodes
 * Rust-related screenshots and videos
 * Rust meetup recordings
@@ -84,7 +83,7 @@ If you submit an LLM-written article to TWiR, we request that the LLM authorship
 
 ## Projects/Tooling Updates
 
-We are no longer accepting pull request submissions for the Project/Tooling Updates section (see [here](https://github.com/rust-lang/this-week-in-rust/issues/8575) for more details). Our editors monitor [r/rust](https://www.reddit.com/r/rust/) and will consider links that are posted there. Please make sure to follow r/rust's community rules when you are there!
+We are no longer accepting pull request submissions for the Project/Tooling Updates section (see [here](https://github.com/rust-lang/this-week-in-rust/issues/8575) for more details).
 
 ## Events
 
