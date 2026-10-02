@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Beyond the `&`](https://lwn.net/SubscriberLink/1096028/7524dbcae1be7205/)
+
 ### Rust Walkthroughs
 
 ### Research
