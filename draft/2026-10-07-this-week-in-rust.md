@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Generate PDFs from Rust with HTML and CSS](https://docs.fullbleed.dev/getting-started/rust/)
+
 ### Research
 
 ### Miscellaneous
