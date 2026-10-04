@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Catharsis for Noisy Audio: A Pure-Rust Restoration Toolkit with No ffmpeg and No Black Boxes](https://medium.com/@vbasky/catharsis-for-noisy-audio-a-pure-rust-restoration-toolkit-with-no-ffmpeg-and-no-black-boxes-a6c5c38e4c14)
+
 ### Research
 
 ### Miscellaneous
