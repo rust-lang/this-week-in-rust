@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Reproducing VBA's object lifetimes in Rust with `Rc<()>`](https://oxi-dd65f4.gitlab.io/articles/vba-object-lifetimes-rc.html)
+
 ### Research
 
 ### Miscellaneous
