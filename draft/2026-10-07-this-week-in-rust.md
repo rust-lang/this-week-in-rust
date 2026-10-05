@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+[A dynamic drone fail-safe system that adapts as the situation changes.](https://www.deepcausality.com/tutorials/dynamic-drone-failsafe/)
+
 ### Research
 
 ### Miscellaneous
