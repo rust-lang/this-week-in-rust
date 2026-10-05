@@ -125,6 +125,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+* [ruxen - Expand globs in include](https://github.com/gvozdetsky/ruxen/issues/35)
+* [ruxen - Use nginx's status reason phrases everywhere](https://github.com/gvozdetsky/ruxen/issues/33)
+* [ruxen - Implement proxy_method](https://github.com/gvozdetsky/ruxen/issues/39)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
