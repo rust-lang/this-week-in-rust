@@ -125,6 +125,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+* [issuerd - Add a French (fr) message bundle for login pages and emails](https://github.com/issuerd/issuerd/issues/1)
+* [issuerd - Add proptest suites for issuerd-protocol parsers](https://github.com/issuerd/issuerd/issues/3)
+* [issuerd - Add an additional client installation provider (adapter config download format)](https://github.com/issuerd/issuerd/issues/5)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
