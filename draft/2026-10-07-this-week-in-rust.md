@@ -44,6 +44,7 @@ and just ask the editors to select the category.
 ### Newsletters
 
 * [Rust Trends Issue 83 - NVIDIA Brings Rust to the GPU Kernel](https://rust-trends.com/newsletter/nvidia-brings-rust-to-the-gpu-kernel/)
+* [Rust Trends Issue 84 - Google Puts Agents on the Rust Rewrite](https://rust-trends.com/newsletter/google-puts-agents-on-the-rust-rewrite/)
 
 ### Project/Tooling Updates
 
