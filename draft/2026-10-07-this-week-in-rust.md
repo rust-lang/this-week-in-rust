@@ -228,6 +228,8 @@ Rusty Events between 2026-10-07 - 2026-11-04 🦀
     * [**[BEZPŁATNIE] Programowanie w języku Rust**](https://www.meetup.com/stacja-it-trojmiasto/events/316381946/)
 * 2026-10-10 | Hybrid (Kuala Lumpur, Malaysia) | [Rust Malaysia Meetup](https://discord.gg/Uz88bnZA3B)
     * [**Rust Meetup October 2026**](https://forms.gle/721DxqrPeHXY6omP9)
+* 2026-10-11 | Virtual (Bengaluru, India) | [Embedded Rust Discord](https://discord.com/invite/pvYY69PvyS)
+    * [**Silicon Sundays 4**](https://discord.gg/t9Cb2gjjq7?event=1553055353149718588)
 * 2026-10-13 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254772/)
 * 2026-10-14 - 2026-10-17 | Hybrid (Barcelona, ES) | [EuroRust](https://eurorust.eu/)
