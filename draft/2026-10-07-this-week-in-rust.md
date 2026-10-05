@@ -244,6 +244,8 @@ Rusty Events between 2026-10-07 - 2026-11-04 🦀
     * [**Fourth Tuesday Rust Bookclub**](https://www.meetup.com/dallasrust/events/310254771/)
 * 2026-10-27 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
     * [**Lunch & Learn: Reasoning with Async Rust**](https://www.meetup.com/women-in-rust/events/315297195/)
+* 2026-10-29 | Virtual | [Rust 🦀 Maven](https://luma.com/rust-maven)
+    * [**Creating a hexadecimal editor in Rust**](https://luma.com/q8i3385k)
 
 ### Asia
 * 2026-10-09 | Hybrid (Kuala Lumpur, MY) | [Rust Malaysia Meetup](https://discord.gg/Uz88bnZA3B)
