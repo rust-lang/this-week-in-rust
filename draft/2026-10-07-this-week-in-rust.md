@@ -137,6 +137,8 @@ Are you a new or experienced speaker looking for a place to share something cool
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
+* [**TokioConf 2027**](https://tokio.rs/blog/2026-10-06-tokioconf-2027-cfp) | CFP closes 2026-11-30 | Portland, Oregon, USA | 2027-04-26 - 2027-04-27
+
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 ## Updates from the Rust Project
