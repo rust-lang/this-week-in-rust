@@ -51,6 +51,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+- [A guided playground and capability framework for creating and debugging Rust-based apps on a M5Stack CoreS3 Lite](https://github.com/ERNICommunity/hack-and-hike-2026-rust)
 
 ### Research
 
