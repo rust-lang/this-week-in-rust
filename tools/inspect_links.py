@@ -66,11 +66,10 @@ STRICT_TITLES = [
 PROJECT_TOOLING_TITLE = 'project/tooling updates'
 
 PROJECT_TOOLING_LINK_ERROR = (
-    "We are no longer accepting pull request submissions for the Project/Tooling Updates "
-    "section (see [here](https://github.com/rust-lang/this-week-in-rust/issues/8575) "
-    "for more details). Our editors monitor [r/rust](https://www.reddit.com/r/rust/) and "
-    "will consider links that are posted there. Please make sure to follow r/rust's "
-    "community rules when you are there!"
+    'We are no longer accepting pull request submissions for the Project/Tooling Updates '
+    'section (see [here](https://github.com/rust-lang/this-week-in-rust/issues/8575) '
+    'for more details). This may be a better fit for the weekly '
+    '["What is Everyone Working On This Week?" thread on r/rust](https://www.reddit.com/r/rust/?f=flair_name%3A%22🐝%20activity%20megathread%22).'
 )
 
 
