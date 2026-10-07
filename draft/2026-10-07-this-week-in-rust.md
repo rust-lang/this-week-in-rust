@@ -51,6 +51,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [video] [Build an In-Memory Token-Bucket Rate Limiter in Rust - Structs and Methods](https://youtu.be/0lMNjF0qU7I?si=V1JciTQtu2mLc4VF)
 
 ### Research
 
