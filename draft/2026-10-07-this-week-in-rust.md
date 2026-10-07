@@ -39,10 +39,14 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Announcing Rust 1.99.0](https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/)
+* [Generic Const Args and You](https://blog.rust-lang.org/inside-rust/2026/10/02/generic-const-args-and-you/)
+* [video] [Rust Release Changelog - 1.99.0](https://www.youtube.com/watch?v=SLV9AJxnb1U)
 ### Foundation
+* [A Fond Farewell To Three Rust Foundation Colleagues](https://rustfoundation.org/media/a-fond-farewell-to-three-rust-foundation-colleagues/)
 
 ### Newsletters
-
+* [This Month in Rust OSDev: September 2026](https://rust-osdev.com/this-month/2026-09/index.html)
 * [Rust Trends Issue 83 - NVIDIA Brings Rust to the GPU Kernel](https://rust-trends.com/newsletter/nvidia-brings-rust-to-the-gpu-kernel/)
 * [Rust Trends Issue 84 - Google Puts Agents on the Rust Rewrite](https://rust-trends.com/newsletter/google-puts-agents-on-the-rust-rewrite/)
 
@@ -53,14 +57,22 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 * [Generate PDFs from Rust with HTML and CSS](https://docs.fullbleed.dev/getting-started/rust/)
 * [Catharsis for Noisy Audio: A Pure-Rust Restoration Toolkit with No ffmpeg and No Black Boxes](https://medium.com/@vbasky/catharsis-for-noisy-audio-a-pure-rust-restoration-toolkit-with-no-ffmpeg-and-no-black-boxes-a6c5c38e4c14)
+* [Release mold 3.0.0 · rui314/mold](https://github.com/rui314/mold/releases/tag/v3.0.0)
 
 ### Observations/Thoughts
-
+* [Rust for CPython (Python Language Summit 2026)](https://blog.python.org/2026/09/language-summit-2026-rust-for-cpython/)
 * [Beyond the `&`](https://lwn.net/SubscriberLink/1096028/7524dbcae1be7205/)
 * [The Performance Cost of RwLock in Our Read-Heavy Workload](https://pranitha.dev/posts/rwlock-vs-lockfree/)
+* [The TokioConf 2027 Call For Talk Proposals is now open](https://tokio.rs/blog/2026-10-06-tokioconf-2027-cfp)
+* [Shipping JPEG XL in Chrome](https://developer.chrome.com/blog/jpeg-xl-in-chrome)
+* [The Performance Cost of RwLock in Our Read-Heavy Workload](https://pranitha.dev/posts/rwlock-vs-lockfree/)
+* [Proving Rust Web Application Correctness with Lean 4](https://medium.com/@Koukyosyumei/proving-rust-web-application-correctness-with-lean-4-8889583f1e15)
+* [Hardware-Aware Programming in Rust](https://medium.com/@alan0408yuan/hardware-aware-programming-in-rust-6e68a70c1535?postPublishedType=repub)
 
 ### Rust Walkthroughs
-
+* [The Missing Piece in Rust Error Handling](https://mcmah309.github.io/posts/the-missing-piece-in-rust-error-handling/)
+* [Compiling the kernel with gccrs](https://lwn.net/Articles/1095553/)
+* [Declarative Macros in Rust: A Simple and Practical Introduction](https://sigseis.dev/articles/2026/10/06)
 * [Build a Burglar Alarm with ESP32-C5 That Sends Telegram Alerts](https://iot.implrust.com/burglar-alarm/index.html)
 
 ### Research
