@@ -58,7 +58,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [karatepe](https://codeberg.org/miroo/karatepe), a statically typed localisation language and library.
+
+Thanks to [miro](https://users.rust-lang.org/t/crate-of-the-week/2704/1690) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -112,7 +114,6 @@ If you are a feature implementer and would like your RFC to appear on the above 
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
 
-
 ## Call for Participation; projects and speakers
 
 ### CFP - Projects
@@ -141,7 +142,62 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+653 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-09-29..2026-10-06
+
+#### Compiler
+* [add a single-entry parent `SpanData` cache](https://github.com/rust-lang/rust/pull/163628)
+* [add fast path to generalization](https://github.com/rust-lang/rust/pull/163607)
+* [optimize Cranelift with PGO](https://github.com/rust-lang/rust/pull/163649)
+
+#### Library
+* [add `mul_add_relaxed` methods for floating-point types](https://github.com/rust-lang/rust/pull/151793)
+* [add `std::fs::{Home|Media}Dirs`](https://github.com/rust-lang/rust/pull/158936)
+* [expose `Rc::is_unique`](https://github.com/rust-lang/rust/pull/163489)
+* [stabilize `CStr::display`](https://github.com/rust-lang/rust/pull/163711)
+* [stabilize `debug_closure_helpers`](https://github.com/rust-lang/rust/pull/146099)
+
+#### Cargo
+* [add new peak memory table to cargo timings enabled via `-Zmem-stats`](https://github.com/rust-lang/cargo/pull/17531)
+* [`config`: Proper dotted tuple support with legacy fallback](https://github.com/rust-lang/cargo/pull/17536)
+* [git: default to net.git-fetch-with-cli if git is present](https://github.com/rust-lang/cargo/pull/17329)
+* [improved testsuite file permissions cleanup](https://github.com/rust-lang/cargo/pull/17547)
+* [`lint`: Making the lint name a terminal hyperlink to docs](https://github.com/rust-lang/cargo/pull/17538)
+* [`trim-paths`: stabilize `profile.trim-paths`](https://github.com/rust-lang/cargo/pull/17488)
+* [use trusted publishing for Cargo crates](https://github.com/rust-lang/cargo/pull/17426)
+
+#### Rustdoc
+* [Correctly handle `rustc_allow_incoherent_impl` on primitive methods](https://github.com/rust-lang/rust/pull/163360)
+* [Correctly link to (imported) `enum` variants with "jump to def"](https://github.com/rust-lang/rust/pull/163682)
+* [Fix how `Deref` items are handled](https://github.com/rust-lang/rust/pull/160915)
+
+#### Rustfmt
+* [`items`: format comments after where using `clause_shape` budget](https://github.com/rust-lang/rustfmt/pull/7156)
+* [use saturating arithmetics for `adjust_max_width`](https://github.com/rust-lang/rustfmt/pull/7152)
+
+#### Clippy
+* [`manual_range_patterns`: support char and byte literal](https://github.com/rust-lang/rust-clippy/pull/17817)
+* [`let_unit_value` bail out if initializer is cfg-dependent](https://github.com/rust-lang/rust-clippy/pull/17701)
+* [extend `needless_borrowed_reference` to lint mutable ref patterns](https://github.com/rust-lang/rust-clippy/pull/17012)
+* [fix exponential-time performance bug in `has_non_owning_mutable_access_inner`](https://github.com/rust-lang/rust-clippy/pull/17807)
+* [improve `items_after_test_module`: don't let derive expansions hide trailing items](https://github.com/rust-lang/rust-clippy/pull/17816)
+* [new lint: `unnecessary_as_slice`](https://github.com/rust-lang/rust-clippy/pull/16953)
+* [optimize msrv calls (again)](https://github.com/rust-lang/rust-clippy/pull/17355)
+
+#### Rust-Analyzer
+* [complete 'let' 'letm' in arm expr and closure expr](https://github.com/rust-lang/rust-analyzer/pull/23468)
+* [complete turbofish when fn can't infer param](https://github.com/rust-lang/rust-analyzer/pull/23473)
+* [do not suggest arg-list in expected callable arg](https://github.com/rust-lang/rust-analyzer/pull/23452)
+* [fix `unicode-ident`, take 2](https://github.com/rust-lang/rust-analyzer/pull/23449)
+* [add missing HIR database when running unresolved-references](https://github.com/rust-lang/rust-analyzer/pull/23444)
+* [complete let in macro when expand at macro stmts](https://github.com/rust-lang/rust-analyzer/pull/22982)
+* [don't panic on malformed let-pattern with mismatched or-arm arities](https://github.com/rust-lang/rust-analyzer/pull/23422)
+* [generate variant for self in impl](https://github.com/rust-lang/rust-analyzer/pull/23462)
+* [improve in-block heuristic check in nested ambiguous](https://github.com/rust-lang/rust-analyzer/pull/23467)
+* [name-match ignore leading tailing underscore](https://github.com/rust-lang/rust-analyzer/pull/23456)
+* [transform usage path when extract trait to module](https://github.com/rust-lang/rust-analyzer/pull/23441)
+* [fixed Implement `opaques_with_sub_unified_hidden_type` for the next-sol…](https://github.com/rust-lang/rust-analyzer/pull/23061)
 
 ### Rust Compiler Performance Triage
 
@@ -312,7 +368,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> There ain't no rules here in Quote of the Week - it's survival of the wittest
+
+– [Simon Buchan on rust-users](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1814?u=llogiq)
+
+Thanks to [Jonas Fassbender](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1815) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
