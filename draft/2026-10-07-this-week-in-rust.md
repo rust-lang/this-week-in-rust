@@ -292,6 +292,8 @@ Rusty Events between 2026-10-07 - 2026-11-04 🦀
     * [**EuroRust 2026**](https://eurorust.eu/)
 * 2026-10-20 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig)
     * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313816496/)
+* 2026-10-22 | Toulouse, FR | [Rust Toulouse](https://www.meetup.com/rust-community-toulouse)
+    * [**Rust Toulouse Meetup - Rust & Python interoperability**](https://www.meetup.com/rust-community-toulouse/events/316880185/)
 
 ### North America
 * 2026-10-01 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust)
