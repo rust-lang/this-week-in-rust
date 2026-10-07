@@ -48,9 +48,17 @@ and just ask the editors to select the category.
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
+* [Generate PDFs from Rust with HTML and CSS](https://docs.fullbleed.dev/getting-started/rust/)
+* [Catharsis for Noisy Audio: A Pure-Rust Restoration Toolkit with No ffmpeg and No Black Boxes](https://medium.com/@vbasky/catharsis-for-noisy-audio-a-pure-rust-restoration-toolkit-with-no-ffmpeg-and-no-black-boxes-a6c5c38e4c14)
+
 ### Observations/Thoughts
 
+* [Beyond the `&`](https://lwn.net/SubscriberLink/1096028/7524dbcae1be7205/)
+* [The Performance Cost of RwLock in Our Read-Heavy Workload](https://pranitha.dev/posts/rwlock-vs-lockfree/)
+
 ### Rust Walkthroughs
+
+* [Build a Burglar Alarm with ESP32-C5 That Sends Telegram Alerts](https://iot.implrust.com/burglar-alarm/index.html)
 
 ### Research
 
