@@ -62,6 +62,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 ### Rust Walkthroughs
 
 * [Build a Burglar Alarm with ESP32-C5 That Sends Telegram Alerts](https://iot.implrust.com/burglar-alarm/index.html)
+* [Reproducing VBA's object lifetimes in Rust with `Drop`](https://oxi-dd65f4.gitlab.io/articles/vba-object-lifetimes-rc.html)
 
 ### Research
 
