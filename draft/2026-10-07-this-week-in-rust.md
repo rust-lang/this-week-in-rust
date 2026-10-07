@@ -43,16 +43,27 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [Rust Trends Issue 83 - NVIDIA Brings Rust to the GPU Kernel](https://rust-trends.com/newsletter/nvidia-brings-rust-to-the-gpu-kernel/)
+* [Rust Trends Issue 84 - Google Puts Agents on the Rust Rewrite](https://rust-trends.com/newsletter/google-puts-agents-on-the-rust-rewrite/)
+
 ### Project/Tooling Updates
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
+* [Generate PDFs from Rust with HTML and CSS](https://docs.fullbleed.dev/getting-started/rust/)
+* [Catharsis for Noisy Audio: A Pure-Rust Restoration Toolkit with No ffmpeg and No Black Boxes](https://medium.com/@vbasky/catharsis-for-noisy-audio-a-pure-rust-restoration-toolkit-with-no-ffmpeg-and-no-black-boxes-a6c5c38e4c14)
+
 ### Observations/Thoughts
+
+* [Lies, damned lies, and Rust in the TechEmpower Web Framework Benchmarks](https://kerkour.com/rust-techempower-benchmarks)
+* [Beyond the `&`](https://lwn.net/SubscriberLink/1096028/7524dbcae1be7205/)
+* [The Performance Cost of RwLock in Our Read-Heavy Workload](https://pranitha.dev/posts/rwlock-vs-lockfree/)
 
 ### Rust Walkthroughs
 
-[A dynamic drone fail-safe system that adapts as the situation changes.](https://www.deepcausality.com/tutorials/dynamic-drone-failsafe/)
+* [A dynamic drone fail-safe system that adapts as the situation changes.](https://www.deepcausality.com/tutorials/dynamic-drone-failsafe/)
+* [Build a Burglar Alarm with ESP32-C5 That Sends Telegram Alerts](https://iot.implrust.com/burglar-alarm/index.html)
 
 ### Research
 
@@ -127,6 +138,12 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+* [issuerd - Add a French (fr) message bundle for login pages and emails](https://github.com/issuerd/issuerd/issues/1)
+* [issuerd - Add proptest suites for issuerd-protocol parsers](https://github.com/issuerd/issuerd/issues/3)
+* [issuerd - Add an additional client installation provider (adapter config download format)](https://github.com/issuerd/issuerd/issues/5)
+* [ruxen - Expand globs in include](https://github.com/gvozdetsky/ruxen/issues/35)
+* [ruxen - Use nginx's status reason phrases everywhere](https://github.com/gvozdetsky/ruxen/issues/33)
+* [ruxen - Implement proxy_method](https://github.com/gvozdetsky/ruxen/issues/39)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -138,6 +155,9 @@ Are you a new or experienced speaker looking for a place to share something cool
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+
+* [**RustWeek 2027**](https://sessionize.com/rustweek-2027/) | CFP closes 2027-01-10 | Utrecht, The Netherlands | Event date: 2027-05-24
+* [**TokioConf 2027**](https://tokio.rs/blog/2026-10-06-tokioconf-2027-cfp) | CFP closes 2026-11-30 | Portland, Oregon, USA | 2027-04-26 - 2027-04-27
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -230,6 +250,8 @@ Rusty Events between 2026-10-07 - 2026-11-04 🦀
     * [**[BEZPŁATNIE] Programowanie w języku Rust**](https://www.meetup.com/stacja-it-trojmiasto/events/316381946/)
 * 2026-10-10 | Hybrid (Kuala Lumpur, Malaysia) | [Rust Malaysia Meetup](https://discord.gg/Uz88bnZA3B)
     * [**Rust Meetup October 2026**](https://forms.gle/721DxqrPeHXY6omP9)
+* 2026-10-11 | Virtual (Bengaluru, India) | [Embedded Rust Discord](https://discord.com/invite/pvYY69PvyS)
+    * [**Silicon Sundays 4**](https://discord.gg/t9Cb2gjjq7?event=1553055353149718588)
 * 2026-10-13 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254772/)
 * 2026-10-14 - 2026-10-17 | Hybrid (Barcelona, ES) | [EuroRust](https://eurorust.eu/)
