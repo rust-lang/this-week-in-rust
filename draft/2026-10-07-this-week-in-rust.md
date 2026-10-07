@@ -56,8 +56,6 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Miscellaneous
 
-* [CFP for RustWeek 2027 is now open](https://2027.rustweek.org/blog/2026-10-01-cfp-opened/)
-
 ## Crate of the Week
 
 <!-- COTW goes here -->
