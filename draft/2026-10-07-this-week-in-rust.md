@@ -223,7 +223,29 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A relatively quiet week, but a very positive one nonetheless.
+Highlights are a 3.1% improvement in rustdoc speed from not using the metadata based crate_hash for rustdoc runs,
+a 0.5% improvement from a new fast path in the trait solver,
+and a 0.4% improvement from a cache for the parents of `SpanData`.
+
+Triage done by **@JonathanBrouwer**.
+Revision range: [c1070d69..cc9a14f7](https://perf.rust-lang.org/?start=c1070d69382b8d2f2eb65119c738a77d9e324c9e&end=cc9a14f721fac5226338c61dcec7d5ab785bde82&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.6%  | [0.4%, 1.0%]    | 12    |
+| Regressions ❌ <br /> (secondary)  | 0.4%  | [0.1%, 0.9%]    | 26    |
+| Improvements ✅ <br /> (primary)   | -1.1% | [-6.2%, -0.2%]  | 212   |
+| Improvements ✅ <br /> (secondary) | -1.9% | [-15.7%, -0.1%] | 208   |
+| All ❌✅ (primary)                 | -1.0% | [-6.2%, 1.0%]   | 224   |
+
+
+4 Regressions, 3 Improvements, 1 Mixed; 5 of them in rollups
+33 artifact comparisons made in total
+
+[Full report here](https://github.com/JonathanBrouwer/rustc-perf/blob/b65c7aa3a161fb8590ed262043e822d278f5a7f5/triage/2026/2026-10-05.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
