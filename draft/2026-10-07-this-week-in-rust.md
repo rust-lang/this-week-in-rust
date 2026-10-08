@@ -38,10 +38,10 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-
 * [Announcing Rust 1.99.0](https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/)
 * [Generic Const Args and You](https://blog.rust-lang.org/inside-rust/2026/10/02/generic-const-args-and-you/)
 * [video] [Rust Release Changelog - 1.99.0](https://www.youtube.com/watch?v=SLV9AJxnb1U)
+
 ### Foundation
 * [A Fond Farewell To Three Rust Foundation Colleagues](https://rustfoundation.org/media/a-fond-farewell-to-three-rust-foundation-colleagues/)
 
@@ -75,10 +75,6 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Declarative Macros in Rust: A Simple and Practical Introduction](https://sigseis.dev/articles/2026/10/06)
 * [A dynamic drone fail-safe system that adapts as the situation changes.](https://www.deepcausality.com/tutorials/dynamic-drone-failsafe/)
 * [Build a Burglar Alarm with ESP32-C5 That Sends Telegram Alerts](https://iot.implrust.com/burglar-alarm/index.html)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -388,7 +384,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1wzctie/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
