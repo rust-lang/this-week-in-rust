@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [When is a CSV cell a number?](https://dev.to/dimanovikov/when-is-a-csv-cell-a-number-1790)
+
 ### Research
 
 ### Miscellaneous
