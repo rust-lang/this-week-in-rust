@@ -373,6 +373,8 @@ Rusty Events between 2026-10-07 - 2026-11-04 🦀
     * [**Creating a realtime web Multiuser Dungeon game with Dioxus**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313816496/)
 * 2026-10-22 | Karlsruhe, DE | [Rust Hack & Learn Karlsruhe](https://www.meetup.com/rust-hack-learn-karlsruhe/events/)
     * [**Karlsruhe Rust Hack and Learn Meetup bei BlueYonder**](https://www.meetup.com/rust-hack-learn-karlsruhe/events/316799366/)
+* 2026-10-22 | Toulouse, FR | [Rust Toulouse](https://www.meetup.com/rust-community-toulouse)
+    * [**Rust Toulouse Meetup - Rust & Python interoperability**](https://www.meetup.com/rust-community-toulouse/events/316880185/)
 * 2026-10-27 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/events/)
     * [**Hack Night: Rust meets AI**](https://www.meetup.com/rust-aarhus/events/316796329/)
 * 2026-10-31 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/stockholm-rust/events/)
