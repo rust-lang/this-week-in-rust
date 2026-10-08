@@ -48,6 +48,8 @@ and just ask the editors to select the category.
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
+* [cargo-issafe: lightweight (under 500KiB) CLI that detects unsafe keyword usage in crates and their dependencies](https://github.com/SzilvasiPeter/cargo-issafe/releases/tag/v3.0.0)
+
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
