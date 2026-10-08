@@ -39,18 +39,42 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Announcing Rust 1.99.0](https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/)
+* [Generic Const Args and You](https://blog.rust-lang.org/inside-rust/2026/10/02/generic-const-args-and-you/)
+* [video] [Rust Release Changelog - 1.99.0](https://www.youtube.com/watch?v=SLV9AJxnb1U)
 ### Foundation
+* [A Fond Farewell To Three Rust Foundation Colleagues](https://rustfoundation.org/media/a-fond-farewell-to-three-rust-foundation-colleagues/)
 
 ### Newsletters
+* [This Month in Rust OSDev: September 2026](https://rust-osdev.com/this-month/2026-09/index.html)
+* [Rust Trends Issue 83 - NVIDIA Brings Rust to the GPU Kernel](https://rust-trends.com/newsletter/nvidia-brings-rust-to-the-gpu-kernel/)
+* [Rust Trends Issue 84 - Google Puts Agents on the Rust Rewrite](https://rust-trends.com/newsletter/google-puts-agents-on-the-rust-rewrite/)
 
 ### Project/Tooling Updates
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
+* [Generate PDFs from Rust with HTML and CSS](https://docs.fullbleed.dev/getting-started/rust/)
+* [Catharsis for Noisy Audio: A Pure-Rust Restoration Toolkit with No ffmpeg and No Black Boxes](https://medium.com/@vbasky/catharsis-for-noisy-audio-a-pure-rust-restoration-toolkit-with-no-ffmpeg-and-no-black-boxes-a6c5c38e4c14)
+* [Release mold 3.0.0 · rui314/mold](https://github.com/rui314/mold/releases/tag/v3.0.0)
+
 ### Observations/Thoughts
+* [Rust for CPython (Python Language Summit 2026)](https://blog.python.org/2026/09/language-summit-2026-rust-for-cpython/)
+* [Lies, damned lies, and Rust in the TechEmpower Web Framework Benchmarks](https://kerkour.com/rust-techempower-benchmarks)
+* [Beyond the `&`](https://lwn.net/SubscriberLink/1096028/7524dbcae1be7205/)
+* [The Performance Cost of RwLock in Our Read-Heavy Workload](https://pranitha.dev/posts/rwlock-vs-lockfree/)
+* [The TokioConf 2027 Call For Talk Proposals is now open](https://tokio.rs/blog/2026-10-06-tokioconf-2027-cfp)
+* [Shipping JPEG XL in Chrome](https://developer.chrome.com/blog/jpeg-xl-in-chrome)
+* [Proving Rust Web Application Correctness with Lean 4](https://medium.com/@Koukyosyumei/proving-rust-web-application-correctness-with-lean-4-8889583f1e15)
+* [Hardware-Aware Programming in Rust](https://medium.com/@alan0408yuan/hardware-aware-programming-in-rust-6e68a70c1535?postPublishedType=repub)
 
 ### Rust Walkthroughs
+* [The Missing Piece in Rust Error Handling](https://mcmah309.github.io/posts/the-missing-piece-in-rust-error-handling/)
+* [Compiling the kernel with gccrs](https://lwn.net/Articles/1095553/)
+* [Declarative Macros in Rust: A Simple and Practical Introduction](https://sigseis.dev/articles/2026/10/06)
+* [A dynamic drone fail-safe system that adapts as the situation changes.](https://www.deepcausality.com/tutorials/dynamic-drone-failsafe/)
+* [Build a Burglar Alarm with ESP32-C5 That Sends Telegram Alerts](https://iot.implrust.com/burglar-alarm/index.html)
 
 ### Research
 
@@ -58,7 +82,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [karatepe](https://codeberg.org/miroo/karatepe), a statically typed localisation language and library.
+
+Thanks to [miro](https://users.rust-lang.org/t/crate-of-the-week/2704/1690) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -92,6 +118,12 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+* [issuerd - Add a French (fr) message bundle for login pages and emails](https://github.com/issuerd/issuerd/issues/1)
+* [issuerd - Add proptest suites for issuerd-protocol parsers](https://github.com/issuerd/issuerd/issues/3)
+* [issuerd - Add an additional client installation provider (adapter config download format)](https://github.com/issuerd/issuerd/issues/5)
+* [ruxen - Expand globs in include](https://github.com/gvozdetsky/ruxen/issues/35)
+* [ruxen - Use nginx's status reason phrases everywhere](https://github.com/gvozdetsky/ruxen/issues/33)
+* [ruxen - Implement proxy_method](https://github.com/gvozdetsky/ruxen/issues/39)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -104,15 +136,95 @@ Are you a new or experienced speaker looking for a place to share something cool
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
 
+* [**RustWeek 2027**](https://sessionize.com/rustweek-2027/) | CFP closes 2027-01-10 | Utrecht, The Netherlands | Event date: 2027-05-24
+* [**TokioConf 2027**](https://tokio.rs/blog/2026-10-06-tokioconf-2027-cfp) | CFP closes 2026-11-30 | Portland, Oregon, USA | 2027-04-26 - 2027-04-27
+
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+653 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-09-29..2026-10-06
+
+#### Compiler
+* [add a single-entry parent `SpanData` cache](https://github.com/rust-lang/rust/pull/163628)
+* [add fast path to generalization](https://github.com/rust-lang/rust/pull/163607)
+* [optimize Cranelift with PGO](https://github.com/rust-lang/rust/pull/163649)
+
+#### Library
+* [add `mul_add_relaxed` methods for floating-point types](https://github.com/rust-lang/rust/pull/151793)
+* [add `std::fs::{Home|Media}Dirs`](https://github.com/rust-lang/rust/pull/158936)
+* [expose `Rc::is_unique`](https://github.com/rust-lang/rust/pull/163489)
+* [stabilize `CStr::display`](https://github.com/rust-lang/rust/pull/163711)
+* [stabilize `debug_closure_helpers`](https://github.com/rust-lang/rust/pull/146099)
+
+#### Cargo
+* [add new peak memory table to cargo timings enabled via `-Zmem-stats`](https://github.com/rust-lang/cargo/pull/17531)
+* [`config`: Proper dotted tuple support with legacy fallback](https://github.com/rust-lang/cargo/pull/17536)
+* [git: default to net.git-fetch-with-cli if git is present](https://github.com/rust-lang/cargo/pull/17329)
+* [improved testsuite file permissions cleanup](https://github.com/rust-lang/cargo/pull/17547)
+* [`lint`: Making the lint name a terminal hyperlink to docs](https://github.com/rust-lang/cargo/pull/17538)
+* [`trim-paths`: stabilize `profile.trim-paths`](https://github.com/rust-lang/cargo/pull/17488)
+* [use trusted publishing for Cargo crates](https://github.com/rust-lang/cargo/pull/17426)
+
+#### Rustdoc
+* [Correctly handle `rustc_allow_incoherent_impl` on primitive methods](https://github.com/rust-lang/rust/pull/163360)
+* [Correctly link to (imported) `enum` variants with "jump to def"](https://github.com/rust-lang/rust/pull/163682)
+* [Fix how `Deref` items are handled](https://github.com/rust-lang/rust/pull/160915)
+
+#### Rustfmt
+* [`items`: format comments after where using `clause_shape` budget](https://github.com/rust-lang/rustfmt/pull/7156)
+* [use saturating arithmetics for `adjust_max_width`](https://github.com/rust-lang/rustfmt/pull/7152)
+
+#### Clippy
+* [`manual_range_patterns`: support char and byte literal](https://github.com/rust-lang/rust-clippy/pull/17817)
+* [`let_unit_value` bail out if initializer is cfg-dependent](https://github.com/rust-lang/rust-clippy/pull/17701)
+* [extend `needless_borrowed_reference` to lint mutable ref patterns](https://github.com/rust-lang/rust-clippy/pull/17012)
+* [fix exponential-time performance bug in `has_non_owning_mutable_access_inner`](https://github.com/rust-lang/rust-clippy/pull/17807)
+* [improve `items_after_test_module`: don't let derive expansions hide trailing items](https://github.com/rust-lang/rust-clippy/pull/17816)
+* [new lint: `unnecessary_as_slice`](https://github.com/rust-lang/rust-clippy/pull/16953)
+* [optimize msrv calls (again)](https://github.com/rust-lang/rust-clippy/pull/17355)
+
+#### Rust-Analyzer
+* [complete 'let' 'letm' in arm expr and closure expr](https://github.com/rust-lang/rust-analyzer/pull/23468)
+* [complete turbofish when fn can't infer param](https://github.com/rust-lang/rust-analyzer/pull/23473)
+* [do not suggest arg-list in expected callable arg](https://github.com/rust-lang/rust-analyzer/pull/23452)
+* [fix `unicode-ident`, take 2](https://github.com/rust-lang/rust-analyzer/pull/23449)
+* [add missing HIR database when running unresolved-references](https://github.com/rust-lang/rust-analyzer/pull/23444)
+* [complete let in macro when expand at macro stmts](https://github.com/rust-lang/rust-analyzer/pull/22982)
+* [don't panic on malformed let-pattern with mismatched or-arm arities](https://github.com/rust-lang/rust-analyzer/pull/23422)
+* [generate variant for self in impl](https://github.com/rust-lang/rust-analyzer/pull/23462)
+* [improve in-block heuristic check in nested ambiguous](https://github.com/rust-lang/rust-analyzer/pull/23467)
+* [name-match ignore leading tailing underscore](https://github.com/rust-lang/rust-analyzer/pull/23456)
+* [transform usage path when extract trait to module](https://github.com/rust-lang/rust-analyzer/pull/23441)
+* [fixed Implement `opaques_with_sub_unified_hidden_type` for the next-sol…](https://github.com/rust-lang/rust-analyzer/pull/23061)
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+A relatively quiet week, but a very positive one nonetheless.
+Highlights are a 3.1% improvement in rustdoc speed from not using the metadata based crate_hash for rustdoc runs,
+a 0.5% improvement from a new fast path in the trait solver,
+and a 0.4% improvement from a cache for the parents of `SpanData`.
+
+Triage done by **@JonathanBrouwer**.
+Revision range: [c1070d69..cc9a14f7](https://perf.rust-lang.org/?start=c1070d69382b8d2f2eb65119c738a77d9e324c9e&end=cc9a14f721fac5226338c61dcec7d5ab785bde82&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.6%  | [0.4%, 1.0%]    | 12    |
+| Regressions ❌ <br /> (secondary)  | 0.4%  | [0.1%, 0.9%]    | 26    |
+| Improvements ✅ <br /> (primary)   | -1.1% | [-6.2%, -0.2%]  | 212   |
+| Improvements ✅ <br /> (secondary) | -1.9% | [-15.7%, -0.1%] | 208   |
+| All ❌✅ (primary)                 | -1.0% | [-6.2%, 1.0%]   | 224   |
+
+
+4 Regressions, 3 Improvements, 1 Mixed; 5 of them in rollups
+33 artifact comparisons made in total
+
+[Full report here](https://github.com/JonathanBrouwer/rustc-perf/blob/b65c7aa3a161fb8590ed262043e822d278f5a7f5/triage/2026/2026-10-05.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/main)
 
@@ -174,18 +286,6 @@ You may remove the `call-for-testing` label.  Please feel free to leave the `cal
 Rusty Events between 2026-10-07 - 2026-11-04 🦀
 
 ### Virtual
-* 2026-09-30 | Virtual (Cardiff, UK) | [Rust and C++ Cardiff](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff)
-    * [**Operating Systems Book Club: Segmentation and Introduction to Paging**](https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/events/316486941/)
-* 2026-10-01 | Virtual | [Rust Foundation & JetBrains](https://rustfoundation.org/event/livestream-smarter-coding-agents-for-rust-with-symposium/)
-    * [**Livestream: Smarter Coding Agents for Rust with Symposium**](https://info.jetbrains.com/rustrover-livestream-october01-2026.html#form)
-* 2026-10-02 | Virtual | [Rust Girona](https://luma.com/rust-girona)
-    * [**Sessió setmanal de codificació / Weekly coding session**](https://luma.com/yqxvguts)
-* 2026-10-03 | Virtual (Amsterdam, NL) | [Bevy Game Development](https://www.meetup.com/bevy-game-development/events/)
-    * [**Bevy Meetup #14**](https://www.meetup.com/bevy-game-development/events/316736369/)
-* 2026-10-04 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
-    * [**Rust Deep Learning: First Sunday**](https://www.meetup.com/dallasrust/events/316134009/)
-* 2026-10-06 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
-    * [**👋 Community Catch Up**](https://www.meetup.com/women-in-rust/events/315773044/)
 * 2026-10-07 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs)
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/wqzhftyjcnbkb/)
 * 2026-10-08 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
@@ -214,22 +314,20 @@ Rusty Events between 2026-10-07 - 2026-11-04 🦀
     * [**Fourth Tuesday Rust Bookclub**](https://www.meetup.com/dallasrust/events/310254771/)
 * 2026-10-27 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
     * [**Lunch & Learn: Reasoning with Async Rust**](https://www.meetup.com/women-in-rust/events/315297195/)
+* 2026-11-01 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust/events/)
+    * [**Rust Deep Learning: First Sunday**](https://www.meetup.com/dallasrust/events/316331277/)
+* 2026-11-03 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust/events/)
+    * [**👋 Community Catch Up**](https://www.meetup.com/women-in-rust/events/315773682/)
+* 2026-11-04 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs/events/)
+    * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/wqzhftyjcpbgb/)
 
 ### Asia
 * 2026-10-09 | Hybrid (Kuala Lumpur, MY) | [Rust Malaysia Meetup](https://discord.gg/Uz88bnZA3B)
     * [**Rust Meetup August 2026**](https://forms.gle/721DxqrPeHXY6omP9)
+* 2026-11-03 | Tel Aviv-yafo, IL | [Rust 🦀 TLV](https://www.meetup.com/rust-tlv/events/)
+    * [**In person Rust November 2026 at AWS in Tel Aviv**](https://www.meetup.com/rust-tlv/events/316440864/)
 
 ### Europe
-* 2026-09-30 | Basel, CH | [Rust Basel](https://www.meetup.com/rust-basel)
-    * [**Rust Meetup #16 @ ERNI**](https://www.meetup.com/rust-basel/events/315986893/)
-* 2026-09-30 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin)
-    * [**Rust Berlin Talks: The next generation**](https://www.meetup.com/rust-berlin/events/316661690/)
-* 2026-10-01 | Berlin, DE | [Rust Berlin](https://www.meetup.com/rust-berlin/events/)
-    * [**Rust Berlin on location 🏳️‍🌈 – Edition 018**](https://www.meetup.com/rust-berlin/events/316763107/)
-* 2026-10-01 | Oxford, GB | [Oxford ACCU/Rust Meetup.](https://www.meetup.com/oxford-rust-meetup-group/events/)
-    * [**Embedded Rust for Duffers**](https://www.meetup.com/oxford-rust-meetup-group/events/316708765/)
-* 2026-10-05 | München, DE | [Rust Munich](https://www.meetup.com/rust-munich)
-    * [**Rust Munich 2026 / 3**](https://www.meetup.com/rust-munich/events/316244709/)
 * 2026-10-08 | Oslo, NO | [Rust Oslo](https://www.meetup.com/rust-oslo)
     * [**Rust Hack'n'Learn at Kampen Bistro**](https://www.meetup.com/rust-oslo/events/316564477/)
 * 2026-10-08 | Geneva, CH | [Rust Geneva](https://www.posttenebraslab.ch/wiki/events/monthly_meeting/rust_meetup)
@@ -238,14 +336,18 @@ Rusty Events between 2026-10-07 - 2026-11-04 🦀
     * [**22nd bcnrust session**](https://www.meetup.com/bcnrust/events/316316234/)
 * 2026-10-14 - 2026-10-17 | Hybrid (Barcelona, ES) | [EuroRust](https://eurorust.eu/)
     * [**EuroRust 2026**](https://eurorust.eu/)
-* 2026-10-20 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig)
-    * [**Topic TBD**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313816496/)
+* 2026-10-20 | Leipzig, SN, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/)
+    * [**Creating a realtime web Multiuser Dungeon game with Dioxus**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313816496/)
+* 2026-10-22 | Karlsruhe, DE | [Rust Hack & Learn Karlsruhe](https://www.meetup.com/rust-hack-learn-karlsruhe/events/)
+    * [**Karlsruhe Rust Hack and Learn Meetup bei BlueYonder**](https://www.meetup.com/rust-hack-learn-karlsruhe/events/316799366/)
+* 2026-10-27 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus/events/)
+    * [**Hack Night: Rust meets AI**](https://www.meetup.com/rust-aarhus/events/316796329/)
+* 2026-10-31 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/stockholm-rust/events/)
+    * [**Ferris' Fika Forum #31**](https://www.meetup.com/stockholm-rust/events/316721062/)
+* 2026-11-01 - 2026-11-03 | Italy, IN | [RustLab](https://rustlab.it/)
+    * [**RustLab - The International Conference on Rust in Italy**](https://rustlab.it/schedule)
 
 ### North America
-* 2026-10-01 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust)
-    * [**Building a Minimal, Rootless Container in Rust**](https://www.meetup.com/stl-rust/events/316410027/)
-* 2026-10-03 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust)
-    * [**Alewife Rust Lunch, Oct 3**](https://www.meetup.com/bostonrust/events/316378820/)
 * 2026-10-08 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust/events/)
     * [**Lightning Talks N' Chill**](https://www.meetup.com/utah-rust/events/316708351/)
 * 2026-10-08 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc/events/)
@@ -282,7 +384,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> There ain't no rules here in Quote of the Week - it's survival of the wittest
+
+– [Simon Buchan on rust-users](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1814?u=llogiq)
+
+Thanks to [Jonas Fassbender](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1815) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
