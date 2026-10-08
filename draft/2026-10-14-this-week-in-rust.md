@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Issuerd: a Keycloak-compatible IAM in Rust — one binary, 3,907 OIDC conformance checks, zero failures](https://dev.to/dmandreev/issuerd-a-keycloak-compatible-iam-in-rust-one-binary-3907-oidc-conformance-checks-zero-52g2)
+
 ### Rust Walkthroughs
 
 ### Research
