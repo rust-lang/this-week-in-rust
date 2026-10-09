@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [When small models break tool-call JSON](https://maziluiosif.github.io/oxi/blog/broken-tool-calls/)
+
 ### Research
 
 ### Miscellaneous
