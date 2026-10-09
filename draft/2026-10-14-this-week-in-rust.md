@@ -52,7 +52,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
-* [Recognizing squash and replayed Git patches with Rust](https://github.com/rekurt/git-barber/blob/dd334d13b0de300eace4bee853b5ab9e0ef218fa/docs/patch-equivalence-walkthrough.md)
+* [Recognizing squash and replayed Git patches with Rust](https://github.com/rekurt/git-barber/blob/47d0b26e4e38c4fd03f4a4fcfd430f9429989bea/docs/patch-equivalence-walkthrough.md)
 
 ### Research
 
