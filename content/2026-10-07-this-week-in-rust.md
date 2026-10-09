@@ -64,7 +64,6 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Lies, damned lies, and Rust in the TechEmpower Web Framework Benchmarks](https://kerkour.com/rust-techempower-benchmarks)
 * [Beyond the `&`](https://lwn.net/SubscriberLink/1096028/7524dbcae1be7205/)
 * [The Performance Cost of RwLock in Our Read-Heavy Workload](https://pranitha.dev/posts/rwlock-vs-lockfree/)
-* [The TokioConf 2027 Call For Talk Proposals is now open](https://tokio.rs/blog/2026-10-06-tokioconf-2027-cfp)
 * [Shipping JPEG XL in Chrome](https://developer.chrome.com/blog/jpeg-xl-in-chrome)
 * [Proving Rust Web Application Correctness with Lean 4](https://medium.com/@Koukyosyumei/proving-rust-web-application-correctness-with-lean-4-8889583f1e15)
 * [Hardware-Aware Programming in Rust](https://medium.com/@alan0408yuan/hardware-aware-programming-in-rust-6e68a70c1535?postPublishedType=repub)
