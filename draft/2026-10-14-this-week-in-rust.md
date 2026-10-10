@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
+* [A CMS plugin should not be able to read your users table](https://vyasa.site/blog/a-plugin-should-not-read-your-users-table)
 
 ### Rust Walkthroughs
 
