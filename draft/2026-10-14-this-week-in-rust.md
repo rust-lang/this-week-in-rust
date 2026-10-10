@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Writing a hypermedia app in Rust](https://benjamingeer.eu/en/post/hypermedia-rust/)
+
 ### Research
 
 ### Miscellaneous
