@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [JA] [同じ質問に2回お金を払うのをやめた: LLM の前に置くだけの重複排除プロキシを Rust (Tokio) で作った](https://qiita.com/mattbusel/items/98045dcee4b4420ed981)
+
 ### Research
 
 ### Miscellaneous
