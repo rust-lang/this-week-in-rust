@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [One LOESS to Rule Them All: Rebuilding a Classic Smoother in Rust](https://dev.to/thisisamirv/one-loess-to-rule-them-all-rebuilding-a-classic-smoother-in-rust-31ie)
+
 ### Rust Walkthroughs
 
 ### Research
