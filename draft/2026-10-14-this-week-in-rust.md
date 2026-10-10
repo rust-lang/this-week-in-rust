@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Measure a Rust program with interleaved runs and output checks](https://taktcycles.com/notes/harness-rust.html)
+
 ### Research
 
 ### Miscellaneous
