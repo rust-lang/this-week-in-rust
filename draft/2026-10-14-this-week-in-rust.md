@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
+- [Writing your own e-paper panel or controller in Rust with epdsi](https://dev.to/melastmohican/writing-your-own-e-paper-panel-or-controller-in-rust-with-epdsi-ah7)
 
 ### Rust Walkthroughs
 
