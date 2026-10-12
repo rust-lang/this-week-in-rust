@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [How to Profile Rust Performance using Grafana and Prometheus](https://hotpath.rs/blog/rust-performance-grafana)
+
 ### Research
 
 ### Miscellaneous
