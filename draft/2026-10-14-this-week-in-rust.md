@@ -52,6 +52,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Video] [BAML’s Rust-Powered Telemetry: 1000× Faster & Lossless](https://www.youtube.com/watch?v=XhtLk0gEu40)
+* [Video] [Fuzz Testing a Discrete Event Simulator](https://www.youtube.com/watch?v=yMYBCxrRJyo)
+
 ### Research
 
 ### Miscellaneous
