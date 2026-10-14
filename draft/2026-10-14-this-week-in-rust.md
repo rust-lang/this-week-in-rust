@@ -190,7 +190,28 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+No significant improvements or regressions this week. Most of the PRs marked as improvements had
+a similar perf. result, which was caused by codegen noise in the measurements.
+
+There were some nice wins for memory usage though, thanks to [#163915](https://github.com/rust-lang/rust/pull/163915) and especially [#163887](https://github.com/rust-lang/rust/pull/163887). 
+
+Triage done by **@Kobzol**.
+Revision range: [cc9a14f7..7211ea59](https://perf.rust-lang.org/?start=cc9a14f721fac5226338c61dcec7d5ab785bde82&end=7211ea594cbf137ef6118b1752b959dea7cb9088&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range          | count |
+|:----------------------------------:|:-----:|:--------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.2%  | [0.1%, 0.6%]   | 73    |
+| Regressions ❌ <br /> (secondary)  | 0.3%  | [0.1%, 1.4%]   | 57    |
+| Improvements ✅ <br /> (primary)   | -0.3% | [-1.0%, -0.1%] | 21    |
+| Improvements ✅ <br /> (secondary) | -0.3% | [-1.7%, -0.1%] | 28    |
+| All ❌✅ (primary)                 | 0.1%  | [-1.0%, 0.6%]  | 94    |
+
+3 Regressions, 21 Improvements, 2 Mixed; 1 of them in rollups
+27 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/c0ecdb487d59cfbae4516ca92bef60b4906dd98f/triage/2026/2026-10-11.md).
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/main)
 
