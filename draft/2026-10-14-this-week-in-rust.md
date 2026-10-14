@@ -58,7 +58,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [hotcode](https://github.com/alordash/hotcode), a crate for hot-reloading Rust functions at runtime.
+
+Thanks to [alordash](https://users.rust-lang.org/t/crate-of-the-week/2704/1697) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -112,7 +114,6 @@ If you are a feature implementer and would like your RFC to appear on the above 
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
 
-
 ## Call for Participation; projects and speakers
 
 ### CFP - Projects
@@ -141,7 +142,83 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+603 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-10-06..2026-10-13
+
+#### Compiler
+* [allow unary operand types to be inferred later](https://github.com/rust-lang/rust/pull/159744)
+* [avoid cloning impl trait AST nodes in late resolution](https://github.com/rust-lang/rust/pull/164074)
+* [avoid double-checking `self.bound_vars'` len in ValidateBoundVars' TypeVisitor impl](https://github.com/rust-lang/rust/pull/164206)
+* [check `is_indirect_first_projection` when replacing in RefProp](https://github.com/rust-lang/rust/pull/163778)
+* [implement `clone_from` for `BorrowckDomain`](https://github.com/rust-lang/rust/pull/164089)
+* [MIR move elimination (3/6): PreciseLiveness](https://github.com/rust-lang/rust/pull/163337)
+* [perf: cache FFI safety results in `improper_ctypes` lint](https://github.com/rust-lang/rust/pull/163348)
+* [reserve more capacity for Symbol interner](https://github.com/rust-lang/rust/pull/164150)
+* [skip runtime fma detection when enabled at compile time on `x86_64`](https://github.com/rust-lang/compiler-builtins/pull/1330)
+* [stabilize the WebAssembly `wide-arithmetic` feature](https://github.com/rust-lang/rust/pull/160877)
+* [stabilize `optimize` attribute](https://github.com/rust-lang/rust/pull/157273)
+* [treat union fields as aliasing each other in `value_analysis`](https://github.com/rust-lang/rust/pull/163425)
+
+#### Library
+* [add `fs::rename_noreplace`](https://github.com/rust-lang/rust/pull/162027)
+* [directly deallocates the nodes instead of traversing every element when BTreemap dropping](https://github.com/rust-lang/rust/pull/162931)
+* [fast path for `BTreeMap::Iter::next`](https://github.com/rust-lang/rust/pull/163521)
+* [make `NonNull::{read,write}_volatile` unstably const](https://github.com/rust-lang/rust/pull/164051)
+* [stabilize `ptr::try_cast_aligned`](https://github.com/rust-lang/rust/pull/154170)
+* [vectorized `vec::dedup` pre-scan](https://github.com/rust-lang/rust/pull/162810)
+
+#### Cargo
+* [avoid absolute paths in fingerprints if they are relative to the workspace root](https://github.com/rust-lang/cargo/pull/17573)
+* [fix: cargo installing from a directory source fails for binary packages with no dependencies](https://github.com/rust-lang/cargo/pull/17552)
+* [`config`: Don't process includes for `credentials.toml` files](https://github.com/rust-lang/cargo/pull/17569)
+* [`git`: Add future-incompat warning in prep for removing auto-detection](https://github.com/rust-lang/cargo/pull/17568)
+* [`hints`: support minimum optimization levels](https://github.com/rust-lang/cargo/pull/17368)
+* [`job`: Allow explicit child process breakaway on Windows](https://github.com/rust-lang/cargo/pull/17527)
+* [`layout`: exclude a build-dir created as a parent from backups](https://github.com/rust-lang/cargo/pull/17560)
+* [`mock-std`: Set stable crate versions to 0.0.0](https://github.com/rust-lang/cargo/pull/17565)
+* [`pkgid-spec`: Builtin package spec parsing and formatting](https://github.com/rust-lang/cargo/pull/17539)
+* [refactor: modernize some API usages for 1.99](https://github.com/rust-lang/cargo/pull/17584)
+* [restrict workspace-relative dep-info to workspace packages](https://github.com/rust-lang/cargo/pull/17575)
+* [`rustdoc`: suppress edition unspecified warnings](https://github.com/rust-lang/cargo/pull/17557)
+* [`test`: mark requiring ssh for tests shelling out to it](https://github.com/rust-lang/cargo/pull/17563)
+
+#### Rustdoc
+* [fix more `incoherent_impl` linking](https://github.com/rust-lang/rust/pull/163841)
+* [prefer local paths over remote ones when foreign item is locally reexported](https://github.com/rust-lang/rust/pull/164007)
+* [check reexport chain if inline before hidden](https://github.com/rust-lang/rust/pull/164033)
+
+#### Clippy
+* [configuration: add `too_long_first_doc_paragraph` lint to the `check-private-items` list](https://github.com/rust-lang/rust-clippy/pull/17476)
+* [do not trigger `manual_is_multiple_of` on literal divisors](https://github.com/rust-lang/rust-clippy/pull/16585)
+* [ensure a deprecation warning is emitted for `lint-inconsistent-struct-field-initializers`](https://github.com/rust-lang/rust-clippy/pull/17841)
+* [new lints `deprecated_attributes_without_`{`since`, `note`}](https://github.com/rust-lang/rust-clippy/pull/17609)
+* [fix {`panic`, `todo`, `unimplemented`, `unreachable`}](https://github.com/rust-lang/rust-clippy/pull/17704)
+* [fix `module_name_repetitions` false negative on grouped re-exports](https://github.com/rust-lang/rust-clippy/pull/17848)
+* [fix `needless_lifetimes` linting where clauses lifetimes](https://github.com/rust-lang/rust-clippy/pull/17850)
+* [`manual_filter`: don't lint when the condition needs `&mut` a…](https://github.com/rust-lang/rust-clippy/pull/17810)
+* [`multiple_unsafe_ops_per_block`: fix false positive in with write to union field](https://github.com/rust-lang/rust-clippy/pull/17457)
+* [new lint: `unnecessary_box_pin`](https://github.com/rust-lang/rust-clippy/pull/13598)
+* [skip `try_from_instead_of_from_str` in macro expansions](https://github.com/rust-lang/rust-clippy/pull/17843)
+* [support trailing `::self` for `unnecessary_self_imports`](https://github.com/rust-lang/rust-clippy/pull/17785)
+
+#### Rust-Analyzer
+* [support inline call in macro call](https://github.com/rust-lang/rust-analyzer/pull/23428)
+* [add downcast handling in `enum` closure capture](https://github.com/rust-lang/rust-analyzer/pull/23476)
+* [assist do not add lifetime only turbofish](https://github.com/rust-lang/rust-analyzer/pull/23493)
+* [check call no-paren after path colons](https://github.com/rust-lang/rust-analyzer/pull/23487)
+* [complete cfg key-value in string inside `cfg!()`](https://github.com/rust-lang/rust-analyzer/pull/23507)
+* [complete in top-level after inner-doc](https://github.com/rust-lang/rust-analyzer/pull/23486)
+* [don't source-map `#[doc]` strings that contain escapes](https://github.com/rust-lang/rust-analyzer/pull/23443)
+* [enum niche decoding should match rustc](https://github.com/rust-lang/rust-analyzer/pull/23508)
+* [fix handling of generic params in anon consts](https://github.com/rust-lang/rust-analyzer/pull/23179)
+* [pass rustc path to unstable-book-gen](https://github.com/rust-lang/rust-analyzer/pull/23503)
+* [when the initializer in `let` diverges, allow non-diverging `else`](https://github.com/rust-lang/rust-analyzer/pull/23500)
+* [mini refactors in closure capture inference](https://github.com/rust-lang/rust-analyzer/pull/23482)
+* [perf: querify some things that are called by the solver and are fairly expensive to compute](https://github.com/rust-lang/rust-analyzer/pull/23207)
+* [stabilize optimize attribute](https://github.com/rust-lang/rust-analyzer/pull/22511)
+* [sync target feature implications from `rustc_target`](https://github.com/rust-lang/rust-analyzer/pull/23483)
+* [typeMismatch quickfix position error: `to_owned()`](https://github.com/rust-lang/rust-analyzer/pull/22185)
 
 ### Rust Compiler Performance Triage
 
@@ -316,7 +393,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> I think that there are a nonzero number of people who are experts in the field who would genuinely respond to "how does C work?" with "it doesn't, next question"
+
+– [Clar Fon at the rust-lang zulip](https://rust-lang.zulipchat.com/#narrow/channel/219381-t-libs/topic/optimize_for_size/near/629933186)
+
+Thanks to [kleines Filmröllchen](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1824) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
