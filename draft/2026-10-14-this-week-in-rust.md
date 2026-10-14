@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Porting mosh to Rust, and how I know it matches](https://arunjay.dev/blog/porting-mosh-to-rust/)
+
 ### Rust Walkthroughs
 
 ### Research
