@@ -39,7 +39,11 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Infrastructure Team 2026 Q3 Recap and Q4 Plan](https://blog.rust-lang.org/inside-rust/2026/10/12/infrastructure-team-q3-recap-and-q4-plan/)
+
 ### Foundation
+
+* [Rust Foundation Board Updates | October 2026](https://rustfoundation.org/media/rust-foundation-board-updates-october-2026/)
 
 ### Newsletters
 
@@ -47,20 +51,28 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Bevy 0.20](https://bevy.org/news/bevy-0-20/)
+* [Creusot 0.14.0](https://devlog.creusot.rs/v0-14-0/)
+* [Yagi Signal Lab](https://brian-armstrong.github.io/yagi/lab.html)
+
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
 
 * [All code will converge on Rust](https://mainmatter.com/blog/2026/10/08/all-code-will-converge-on-rust/)
+* [Why 'externalized' proofs of cyclic trait impls does not work](https://smallcultfollowing.com/babysteps/blog/2026/10/10/modular-vs-external-proofs/)
+* [Visualizing crossbeam Epoch Based Reclamation](https://sofiabelen.github.io/projects/visualizing-crossbeam-epoch-based-reclamation/)
 * [How Signal and WhatsApp deploy Rust to billions of Android and iOS devices](https://kerkour.com/rust-ios-android-signal-whatsapp)
+* [video] [RustConf 2025 Interview: Manish Goregaokar, Rust Devtools](https://www.youtube.com/watch?v=l-GaaivVJCE)
 
 ### Rust Walkthroughs
 
+* [Using TrustZone-M in Rust on the Raspberry Pi Pico 2](https://tweedegolf.nl/en/blog/241/using-trustzone-m-in-rust-on-the-raspberry-pi-pico-2/)
 * [Writing a hypermedia app in Rust](https://benjamingeer.eu/en/post/hypermedia-rust/)
-* [video] [RustCurious lesson 11: Reborrowing and Rust's Invisible Lifetimes](https://www.youtube.com/watch?v=zaDvLfljbMk)
 * [Custom structs as Tree Nodes](https://gitlab.gnome.org/World/Rust/markup-rs/xml-tech-stack-in-rust/-/wikis/Papers/Custom-structs-as-Tree-Nodes)
 * [How to Profile Rust Performance using Grafana and Prometheus](https://hotpath.rs/blog/rust-performance-grafana)
+* [video] [RustCurious lesson 11: Reborrowing and Rust's Invisible Lifetimes](https://www.youtube.com/watch?v=zaDvLfljbMk)
 
 ### Research
 
