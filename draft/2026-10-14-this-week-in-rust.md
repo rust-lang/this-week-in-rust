@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [The Embedded Rustacean Issue #82](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-82)
+
 ### Project/Tooling Updates
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
@@ -50,7 +52,15 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [All code will converge on Rust](https://mainmatter.com/blog/2026/10/08/all-code-will-converge-on-rust/)
+* [How Signal and WhatsApp deploy Rust to billions of Android and iOS devices](https://kerkour.com/rust-ios-android-signal-whatsapp)
+
 ### Rust Walkthroughs
+
+* [Writing a hypermedia app in Rust](https://benjamingeer.eu/en/post/hypermedia-rust/)
+* [video] [RustCurious lesson 11: Reborrowing and Rust's Invisible Lifetimes](https://www.youtube.com/watch?v=zaDvLfljbMk)
+* [Custom structs as Tree Nodes](https://gitlab.gnome.org/World/Rust/markup-rs/xml-tech-stack-in-rust/-/wikis/Papers/Custom-structs-as-Tree-Nodes)
+* [How to Profile Rust Performance using Grafana and Prometheus](https://hotpath.rs/blog/rust-performance-grafana)
 
 ### Research
 
