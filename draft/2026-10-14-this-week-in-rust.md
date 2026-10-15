@@ -60,13 +60,19 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [All code will converge on Rust](https://mainmatter.com/blog/2026/10/08/all-code-will-converge-on-rust/)
 * [Why 'externalized' proofs of cyclic trait impls does not work](https://smallcultfollowing.com/babysteps/blog/2026/10/10/modular-vs-external-proofs/)
 * [Visualizing crossbeam Epoch Based Reclamation](https://sofiabelen.github.io/projects/visualizing-crossbeam-epoch-based-reclamation/)
+* [How Signal and WhatsApp deploy Rust to billions of Android and iOS devices](https://kerkour.com/rust-ios-android-signal-whatsapp)
 * [video] [RustConf 2025 Interview: Manish Goregaokar, Rust Devtools](https://www.youtube.com/watch?v=l-GaaivVJCE)
 
 ### Rust Walkthroughs
 
 * [Using TrustZone-M in Rust on the Raspberry Pi Pico 2](https://tweedegolf.nl/en/blog/241/using-trustzone-m-in-rust-on-the-raspberry-pi-pico-2/)
+* [Writing a hypermedia app in Rust](https://benjamingeer.eu/en/post/hypermedia-rust/)
+* [Custom structs as Tree Nodes](https://gitlab.gnome.org/World/Rust/markup-rs/xml-tech-stack-in-rust/-/wikis/Papers/Custom-structs-as-Tree-Nodes)
+* [How to Profile Rust Performance using Grafana and Prometheus](https://hotpath.rs/blog/rust-performance-grafana)
+* [video] [RustCurious lesson 11: Reborrowing and Rust's Invisible Lifetimes](https://www.youtube.com/watch?v=zaDvLfljbMk)
 
 ### Research
 
