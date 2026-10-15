@@ -64,10 +64,10 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Why 'externalized' proofs of cyclic trait impls does not work](https://smallcultfollowing.com/babysteps/blog/2026/10/10/modular-vs-external-proofs/)
 * [Visualizing crossbeam Epoch Based Reclamation](https://sofiabelen.github.io/projects/visualizing-crossbeam-epoch-based-reclamation/)
 * [How Signal and WhatsApp deploy Rust to billions of Android and iOS devices](https://kerkour.com/rust-ios-android-signal-whatsapp)
-* [video] [RustConf 2025 Interview: Manish Goregaokar, Rust Devtools](https://www.youtube.com/watch?v=l-GaaivVJCE)
 * [An update on Rust's project goals](https://lwn.net/SubscriberLink/1098617/d020e93fea8f12d2/)
 * [Analyzing Rust programs with Charon](https://lwn.net/SubscriberLink/1097198/ebf7de6c107d042e/)
 * [Owning C types from Rust code](https://lwn.net/SubscriberLink/1099015/54401bed7cd9c3ef/)
+* [Video] [RustConf 2025 Interview: Manish Goregaokar, Rust Devtools](https://www.youtube.com/watch?v=l-GaaivVJCE)
 
 ### Rust Walkthroughs
 
@@ -76,13 +76,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Writing a hypermedia app in Rust](https://benjamingeer.eu/en/post/hypermedia-rust/)
 * [Custom structs as Tree Nodes](https://gitlab.gnome.org/World/Rust/markup-rs/xml-tech-stack-in-rust/-/wikis/Papers/Custom-structs-as-Tree-Nodes)
 * [How to Profile Rust Performance using Grafana and Prometheus](https://hotpath.rs/blog/rust-performance-grafana)
-* [video] [RustCurious lesson 11: Reborrowing and Rust's Invisible Lifetimes](https://www.youtube.com/watch?v=zaDvLfljbMk)
+* [Video] [RustCurious lesson 11: Reborrowing and Rust's Invisible Lifetimes](https://www.youtube.com/watch?v=zaDvLfljbMk)
 * [Video] [BAML’s Rust-Powered Telemetry: 1000× Faster & Lossless](https://www.youtube.com/watch?v=XhtLk0gEu40)
 * [Video] [Fuzz Testing a Discrete Event Simulator](https://www.youtube.com/watch?v=yMYBCxrRJyo)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -119,9 +115,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-<!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-<!-- * [ - ]() -->
-<!-- or if none - *No Calls for participation were submitted this week.* -->
+*No Calls for participation were submitted this week.*
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -131,8 +125,7 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 Are you a new or experienced speaker looking for a place to share something cool? This section highlights events that are being planned and are accepting submissions to join their event as a speaker.
 
-<!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
-<!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+*No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -397,7 +390,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1wzctie/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
