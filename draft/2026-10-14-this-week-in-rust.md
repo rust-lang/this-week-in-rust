@@ -65,6 +65,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Visualizing crossbeam Epoch Based Reclamation](https://sofiabelen.github.io/projects/visualizing-crossbeam-epoch-based-reclamation/)
 * [How Signal and WhatsApp deploy Rust to billions of Android and iOS devices](https://kerkour.com/rust-ios-android-signal-whatsapp)
 * [video] [RustConf 2025 Interview: Manish Goregaokar, Rust Devtools](https://www.youtube.com/watch?v=l-GaaivVJCE)
+* [An update on Rust's project goals](https://lwn.net/SubscriberLink/1098617/d020e93fea8f12d2/)
+* [Analyzing Rust programs with Charon](https://lwn.net/SubscriberLink/1097198/ebf7de6c107d042e/)
+* [Owning C types from Rust code](https://lwn.net/SubscriberLink/1099015/54401bed7cd9c3ef/)
 
 ### Rust Walkthroughs
 
