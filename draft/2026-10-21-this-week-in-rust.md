@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
+* [Fewer crates.io projects go silent on outside pull requests than npm or PyPI](https://dev.to/pctablet505/fewer-cratesio-projects-go-silent-on-outside-pull-requests-than-npm-or-pypi-56am)
 
 ### Rust Walkthroughs
 
