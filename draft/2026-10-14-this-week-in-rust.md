@@ -76,6 +76,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Custom structs as Tree Nodes](https://gitlab.gnome.org/World/Rust/markup-rs/xml-tech-stack-in-rust/-/wikis/Papers/Custom-structs-as-Tree-Nodes)
 * [How to Profile Rust Performance using Grafana and Prometheus](https://hotpath.rs/blog/rust-performance-grafana)
 * [video] [RustCurious lesson 11: Reborrowing and Rust's Invisible Lifetimes](https://www.youtube.com/watch?v=zaDvLfljbMk)
+* [Video] [BAML’s Rust-Powered Telemetry: 1000× Faster & Lossless](https://www.youtube.com/watch?v=XhtLk0gEu40)
+* [Video] [Fuzz Testing a Discrete Event Simulator](https://www.youtube.com/watch?v=yMYBCxrRJyo)
 
 ### Research
 
