@@ -102,7 +102,7 @@ def check_suspicious(domain, url):
     diagnostics.warn(f"link {url} is to crates.io -- we do not usually include links directly to crates on crates.io; "
       "please double check our guidelines here: https://github.com/rust-lang/this-week-in-rust#projectstooling-updates")
 
-def extract_links(html, *, deny_project_tooling_links=False):
+def extract_links(filename, html, *, deny_project_tooling_links=False):
     """ Return a list of links from this file.
 
     Links will only be returned if they are within a section deemed "strict".
@@ -132,7 +132,7 @@ def extract_links(html, *, deny_project_tooling_links=False):
                 diagnostics.error(f'{link}: {PROJECT_TOOLING_LINK_ERROR}')
             if strict_mode:
                 check_truncated_title(tag)
-                trimmed_url = parse_url(link)
+                trimmed_url = parse_url(filename, link)
                 urls.append(trimmed_url)
         else:
             level = tag.name
@@ -159,7 +159,7 @@ def extract_links(html, *, deny_project_tooling_links=False):
     return urls
 
 
-def scrub_parameters(url, query):
+def scrub_parameters(filename, url, query):
     """ Strip tracking parameters from the URL """
     query_dict = urllib.parse.parse_qs(query)
 
@@ -173,7 +173,7 @@ def scrub_parameters(url, query):
 
     # Store a warning if
     if found_tracking:
-        diagnostics.error(f'found tracking parameters on {url}: {found_tracking}')
+        diagnostics.error(f'found tracking parameters in file {filename} on {url}: {found_tracking}')
 
     # If there are no query parameters left, return the empty string.
     if not filtered_dict:
@@ -183,7 +183,7 @@ def scrub_parameters(url, query):
     return urllib.parse.urlencode(filtered_dict, doseq=True)
 
 
-def parse_url(link):
+def parse_url(filename, link):
     """ Parse a URL and return it in a stripped-down form.
 
     In an effort to detect duplicate URLs, some information is removed:
@@ -206,7 +206,7 @@ def parse_url(link):
     query = parsed_url.query
     if query:
         LOG.debug(f'{parsed_url.geturl()} found query parameters: {query}')
-        query = scrub_parameters(link, query)
+        query = scrub_parameters(filename, link, query)
         if query:
             LOG.debug(
                 f'{parsed_url.geturl()} keeping query parameters: {query}')
@@ -252,7 +252,7 @@ def inspect_file(filename, *, tree: Union[pygit2.Tree, None] = None,
         md_text = open(filename).read()
     html = markdown.markdown(md_text)
     links = extract_links(
-        html, deny_project_tooling_links=deny_project_tooling_links)
+        filename, html, deny_project_tooling_links=deny_project_tooling_links)
     LOG.debug(f'examining {len(links)} links')
     return links
 
