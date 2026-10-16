@@ -61,7 +61,7 @@ and just ask the editors to select the category.
 ### Observations/Thoughts
 * [How Rust and Its Compiler Have Revolutionized Software Engineering and Reliability](https://kerkour.com/rust-software-engineering-reliability)
 * [Async/await on the GPU](https://www.vectorware.com/blog/async-await-on-gpu/)
-* [The Evolution of Async Rust: From Tokio to High-Level Applications](https://www.youtube.com/live/2aZaBZVJWm0?si=ienX-zcIBOtDxhj0)
+* [The Evolution of Async Rust: From Tokio to High-Level Applications](https://www.youtube.com/live/2aZaBZVJWm0)
 
 ### Rust Walkthroughs
 * [Introduction to writing RISC-V contracts in Rust on Polkadot](https://dev.to/badery/introduction-to-writing-risc-v-contracts-in-rust-on-polkadot-29n7)
