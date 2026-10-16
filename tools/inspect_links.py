@@ -56,6 +56,7 @@ TRACKING_PARAMETERS = set([
     'utm_campaign',
     'utm_medium',
     'utm_content',
+    'si',
 ])
 
 # A list of section titles that will trigger strict checks.
