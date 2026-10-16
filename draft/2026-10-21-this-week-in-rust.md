@@ -122,6 +122,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Octomind - Report optional LOCAL_API_KEY status in CLI diagnostics (easy)](https://github.com/Muvon/octomind/issues/145)
+
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
