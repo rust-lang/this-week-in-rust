@@ -18,12 +18,12 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
         with:
           persist-credentials: false
           fetch-depth: 0
       - name: Install Python dependencies
-        uses: py-actions/py-dependency-install@9c419aa98bfb42280bdae2b0a736befd9b01e3b1 # v4
+        uses: py-actions/py-dependency-install@9c419aa98bfb42280bdae2b0a736befd9b01e3b1 # v4.0.0
         with:
           path: "tools/requirements.txt"
           update-pip: "false"
@@ -112,7 +112,7 @@ jobs:
         run: echo "${{ github.event.pull_request.number }}" > "${{ runner.temp }}/pr-number.txt"
       - name: Upload PR check output
         if: ${{ !cancelled() && github.event_name == 'pull_request' }}
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: pr-check-output
           path: |
