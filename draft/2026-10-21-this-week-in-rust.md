@@ -51,6 +51,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 ### Observations/Thoughts
 
 * [What the crates.io download count really measures: 90 days of daily data from 69 crates](https://tensorust.com/articles/crates-io-download-count/)
+
 ### Rust Walkthroughs
 
 ### Research
