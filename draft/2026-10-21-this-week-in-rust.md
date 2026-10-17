@@ -122,6 +122,10 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [Octomind - `octomind config` checks the wrong Cloudflare key name (easy)](https://github.com/Muvon/octomind/issues/148)
+* [Octomind - ACP: @-mentioned files and extra images are dropped (medium, mentor available)](https://github.com/Muvon/octomind/issues/161)
+* [Octomind - Windows: ACP agent stops responding after session/prompt (hard, mentor available)](https://github.com/Muvon/octomind/issues/167)
+
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
