@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Building a Near-Zero CPU Linux Settings Center in Rust](https://dev.to/zius/building-a-near-zero-cpu-linux-settings-center-in-rust-settings-tui-1nh)
+
 ### Research
 
 ### Miscellaneous
