@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [series] [Running 10 million Codex CLIs on one server - LFI processes](https://kapteko.com/running-10-million-codex-clis-on-one-server-lfi-processes/)
+
 ### Research
 
 ### Miscellaneous
