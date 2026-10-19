@@ -124,6 +124,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
+* [sysknife - README says the CLI's approval gate is sysknife approve; the CLI approves in-process after its own prompt](https://github.com/lacs-project/sysknife/issues/560)
+* [sysknife - --dry-run exits 0 for a plan that breaks --max-risk or that this distro cannot run](https://github.com/lacs-project/sysknife/issues/561)
+* [sysknife - Re-running sysknife-setup while the daemon runs fails with ETXTBSY and can leave mismatched binaries](https://github.com/lacs-project/sysknife/issues/563)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
