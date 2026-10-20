@@ -55,6 +55,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 * [series] [Encoding TCP in Rust's Type System, Part 1: A Sequence Number Is Not a `u32`](https://noahkawaguchi.com/blog/typenet-post-1/)
 
+* [series] [Running 10 million Codex CLIs on one server - LFI processes](https://kapteko.com/running-10-million-codex-clis-on-one-server-lfi-processes/)
+
 ### Research
 
 ### Miscellaneous
