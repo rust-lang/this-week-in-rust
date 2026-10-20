@@ -50,9 +50,14 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Why tellus message handlers are synchronous](https://heikoseeberger.de/2026-10-18-why-sync-handlers/)
+
 ### Rust Walkthroughs
+* [Draw and Animate Loading Spinner with GPUI](https://hlcfan.github.io/gpui-canvas-spinner.html)
 
 * [series] [Encoding TCP in Rust's Type System, Part 1: A Sequence Number Is Not a `u32`](https://noahkawaguchi.com/blog/typenet-post-1/)
+
+* [series] [Running 10 million Codex CLIs on one server - LFI processes](https://kapteko.com/running-10-million-codex-clis-on-one-server-lfi-processes/)
 
 ### Research
 
@@ -133,6 +138,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Manguebyte - Check security advisories in the cargo deny job](https://github.com/alessonqueirozdev-hub/manguebyte/issues/24)
 * [Manguebyte - Let a plugin report its tail to hosts](https://github.com/alessonqueirozdev-hub/manguebyte/issues/25)
 * [Manguebyte - Add audio widgets, starting with an on-screen keyboard](https://github.com/alessonqueirozdev-hub/manguebyte/issues/7)
+* [krate - Fix two warnings on the wasm32 and Windows targets (easy)](https://github.com/incyashraj/krate/issues/32)
+* [krate - Linux: follow the person's dark mode and text size (medium)](https://github.com/incyashraj/krate/issues/28)
+* [krate - krate pack: add a --keep-debug flag (medium)](https://github.com/incyashraj/krate/issues/29)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
