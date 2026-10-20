@@ -51,6 +51,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Draw and Animate Loading Spinner with GPUI](https://hlcfan.github.io/gpui-canvas-spinner.html)
 
 ### Research
 
