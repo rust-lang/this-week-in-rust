@@ -128,6 +128,12 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
+* [Manguebyte - Put ParamSmoother under the allocation guard](https://github.com/alessonqueirozdev-hub/manguebyte/issues/22)
+* [Manguebyte - Treat a NaN delay as the shortest delay in DelayLine::read and Delay::set_time](https://github.com/alessonqueirozdev-hub/manguebyte/issues/23)
+* [Manguebyte - Check security advisories in the cargo deny job](https://github.com/alessonqueirozdev-hub/manguebyte/issues/24)
+* [Manguebyte - Let a plugin report its tail to hosts](https://github.com/alessonqueirozdev-hub/manguebyte/issues/25)
+* [Manguebyte - Add audio widgets, starting with an on-screen keyboard](https://github.com/alessonqueirozdev-hub/manguebyte/issues/7)
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 [guidelines]:https://github.com/rust-lang/this-week-in-rust?tab=readme-ov-file#call-for-participation-guidelines
