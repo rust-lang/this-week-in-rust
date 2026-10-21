@@ -50,6 +50,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Cloudflare is rewriting everything in Rust](https://kerkour.com/rust-at-cloudflare)
 * [Why tellus message handlers are synchronous](https://heikoseeberger.de/2026-10-18-why-sync-handlers/)
 
 ### Rust Walkthroughs
