@@ -51,7 +51,12 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 ### Observations/Thoughts
 
 * [Cloudflare is rewriting everything in Rust](https://kerkour.com/rust-at-cloudflare)
+* [What the crates.io download count really measures: 90 days of daily data from 69 crates](https://tensorust.com/articles/crates-io-download-count/)
+* [Safe self-referential data structures in kernel Rust](https://lwn.net/SubscriberLink/1099224/54c55e87a0828522/)
+* [Cross-crate forward declarations in Rust](https://lwn.net/SubscriberLink/1099596/7bfb3ee846a5f102/)
 * [Why tellus message handlers are synchronous](https://heikoseeberger.de/2026-10-18-why-sync-handlers/)
+  
+* [Upstreaming Tyr: Rust, DRM, and the Linux Kernel](https://www.collabora.com/news-and-blog/blog/2026/10/21/upstreaming-tyr-rust-drm-and-the-linux-kernel/)
 
 ### Rust Walkthroughs
 * [Draw and Animate Loading Spinner with GPUI](https://hlcfan.github.io/gpui-canvas-spinner.html)
@@ -61,6 +66,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [series] [Running 10 million Codex CLIs on one server - LFI processes](https://kapteko.com/running-10-million-codex-clis-on-one-server-lfi-processes/)
 
 ### Research
+
+* [An Incremental Approach to JIT Construction](https://doi.org/10.1145/3830440.3832304)
+* [video] [[Scheme'26] An Incremental Approach to JIT Construction](https://www.youtube.com/watch?v=8qwXgappTWQ)
 
 ### Miscellaneous
 
