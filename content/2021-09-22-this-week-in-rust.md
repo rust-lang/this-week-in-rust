@@ -92,7 +92,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust in Qemu, host support matrix](https://www.reddit.com/r/rust/comments/ppya5y/rust_in_qemu_host_support_matrix/)
 * [Chrome - Borrowing Trouble: The Difficulty Of A C++ Borrow Checker](https://docs.google.com/document/u/1/d/e/2PACX-1vSt2VB1zQAJ6JDMaIA9PlmEgBxz2K5Tx6w2JqJNeYCy0gU4aoubdTxlENSKNSrQ2TXqPWcuwtXe6PlO/pub)
 * [picture] [My Rust project was featured in one of Europe's biggest computer magazines (heise c't)](https://www.reddit.com/r/rust/comments/pskqhk/media_my_rust_project_was_featured_in_one_of/)
-* [video] [Wrote a neat little maze solver. Largest solved so far is 125k x 125k. Here's a smaller 512x512](https://www.reddit.com/r/rust/comments/pl7n8a/media_wrote_a_neat_little_maze_solver_largest/?utm_source=share&utm_medium=web2x&context=3)
+* [video] [Wrote a neat little maze solver. Largest solved so far is 125k x 125k. Here's a smaller 512x512](https://www.reddit.com/r/rust/comments/pl7n8a/media_wrote_a_neat_little_maze_solver_largest/?context=3)
 
 ## Crate of the Week
 
