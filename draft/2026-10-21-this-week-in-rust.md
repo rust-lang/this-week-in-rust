@@ -51,10 +51,21 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 ### Observations/Thoughts
 
 * [What the crates.io download count really measures: 90 days of daily data from 69 crates](https://tensorust.com/articles/crates-io-download-count/)
+* [Safe self-referential data structures in kernel Rust](https://lwn.net/SubscriberLink/1099224/54c55e87a0828522/)
+* [Cross-crate forward declarations in Rust](https://lwn.net/SubscriberLink/1099596/7bfb3ee846a5f102/)
+* [Why tellus message handlers are synchronous](https://heikoseeberger.de/2026-10-18-why-sync-handlers/)
 
 ### Rust Walkthroughs
+* [Draw and Animate Loading Spinner with GPUI](https://hlcfan.github.io/gpui-canvas-spinner.html)
+
+* [series] [Encoding TCP in Rust's Type System, Part 1: A Sequence Number Is Not a `u32`](https://noahkawaguchi.com/blog/typenet-post-1/)
+
+* [series] [Running 10 million Codex CLIs on one server - LFI processes](https://kapteko.com/running-10-million-codex-clis-on-one-server-lfi-processes/)
 
 ### Research
+
+* [An Incremental Approach to JIT Construction](https://doi.org/10.1145/3830440.3832304)
+* [video] [[Scheme'26] An Incremental Approach to JIT Construction](https://www.youtube.com/watch?v=8qwXgappTWQ)
 
 ### Miscellaneous
 
@@ -124,9 +135,23 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
+* [ScreenCue - Add a reproducible desktop bug-report issue form](https://github.com/CrioNIK/ScreenCue/issues/1)
+
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
+* [sysknife - README says the CLI's approval gate is sysknife approve; the CLI approves in-process after its own prompt](https://github.com/lacs-project/sysknife/issues/560)
+* [sysknife - --dry-run exits 0 for a plan that breaks --max-risk or that this distro cannot run](https://github.com/lacs-project/sysknife/issues/561)
+* [sysknife - Re-running sysknife-setup while the daemon runs fails with ETXTBSY and can leave mismatched binaries](https://github.com/lacs-project/sysknife/issues/563)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+
+* [Manguebyte - Put ParamSmoother under the allocation guard](https://github.com/alessonqueirozdev-hub/manguebyte/issues/22)
+* [Manguebyte - Treat a NaN delay as the shortest delay in DelayLine::read and Delay::set_time](https://github.com/alessonqueirozdev-hub/manguebyte/issues/23)
+* [Manguebyte - Check security advisories in the cargo deny job](https://github.com/alessonqueirozdev-hub/manguebyte/issues/24)
+* [Manguebyte - Let a plugin report its tail to hosts](https://github.com/alessonqueirozdev-hub/manguebyte/issues/25)
+* [Manguebyte - Add audio widgets, starting with an on-screen keyboard](https://github.com/alessonqueirozdev-hub/manguebyte/issues/7)
+* [krate - Fix two warnings on the wasm32 and Windows targets (easy)](https://github.com/incyashraj/krate/issues/32)
+* [krate - Linux: follow the person's dark mode and text size (medium)](https://github.com/incyashraj/krate/issues/28)
+* [krate - krate pack: add a --keep-debug flag (medium)](https://github.com/incyashraj/krate/issues/29)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 

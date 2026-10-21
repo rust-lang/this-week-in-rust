@@ -58,7 +58,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Is Rust Used Safely by Software Developers?](https://arxiv.org/abs/2007.00752)
 
 ### Miscellaneous
-* [Introducing hyperfunctions: new SQL functions to simplify working with time-series data in PostgreSQL](https://blog.timescale.com/blog/introducing-hyperfunctions-new-sql-functions-to-simplify-working-with-time-series-data-in-postgresql/?utm_source=timescaledb&utm_medium=social&utm_campaign=hyperfunctions-1-0-release&utm_content=blog-introducing-hyperfunctions)
+* [Introducing hyperfunctions: new SQL functions to simplify working with time-series data in PostgreSQL](https://blog.timescale.com/blog/introducing-hyperfunctions-new-sql-functions-to-simplify-working-with-time-series-data-in-postgresql/)
 
 ## Crate of the Week
 

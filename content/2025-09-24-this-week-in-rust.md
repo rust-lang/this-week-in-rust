@@ -66,7 +66,7 @@ and just ask the editors to select the category.
 * [From Rust to Reality: The Hidden Journey of fetch_max](https://questdb.com/blog/rust-fetch-max-compiler-journey/)
 * [Reducing binary size of (Rust) programs with debuginfo](https://kobzol.github.io/rust/2025/09/22/reducing-binary-size-of-rust-programs-with-debuginfo.html)
 * [Axum Backend Series: Models, Migration, DTOs and Repository Pattern](https://blog.0xshadow.dev/posts/backend-engineering-with-axum/axum-model-setup/)
-* [video] [chatting about rust/concurrency](https://www.youtube.com/live/kJnrbbtYfhI?si=9T62OcP3DbpaR4B6)
+* [video] [chatting about rust/concurrency](https://www.youtube.com/live/kJnrbbtYfhI)
 * [video] [Intro to micro:bit and Embedded Rust](https://www.youtube.com/watch?v=IjlbuPZTluU)
 * [video] [(Kernel) Task Switching in Rust](https://www.youtube.com/watch?v=JP4-JJefY_A)
 
