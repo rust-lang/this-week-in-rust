@@ -50,6 +50,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [What the crates.io download count really measures: 90 days of daily data from 69 crates](https://tensorust.com/articles/crates-io-download-count/)
 * [Safe self-referential data structures in kernel Rust](https://lwn.net/SubscriberLink/1099224/54c55e87a0828522/)
 * [Cross-crate forward declarations in Rust](https://lwn.net/SubscriberLink/1099596/7bfb3ee846a5f102/)
 * [Why tellus message handlers are synchronous](https://heikoseeberger.de/2026-10-18-why-sync-handlers/)
