@@ -40,7 +40,7 @@ No official blog posts this week.
 
 * [Returning Rust Iterators](https://depth-first.com/articles/2020/06/22/returning-rust-iterators/)
 * [How to Read Rust Functions, Part 1](https://www.possiblerust.com/guide/how-to-read-rust-functions-part-1)
-* [Parsing PDF Documents in Rust](https://adventures.michaelfbryan.com/posts/parsing-pdfs-in-rust/?utm_source=reddit&utm_medium=social&utm_campaign=parsing-pdf-documents)
+* [Parsing PDF Documents in Rust](https://adventures.michaelfbryan.com/posts/parsing-pdfs-in-rust/)
 * [Building and deploying Rust utilities](https://robert.kra.hn/posts/2021-02-01_cross-compile-rust/)
 * [Learning to Fly: Let's create a simulation in Rust! (pt 2)](https://pwy.io/en/posts/learning-to-fly-pt2/)
 * [Rust made my open source project 1000x faster](https://www.reddit.com/r/rust/comments/lazq0i/rust_made_my_open_source_project_1000x_faster/)

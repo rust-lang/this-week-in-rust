@@ -50,7 +50,7 @@ and just ask the editors to select the category.
 * [Send/Sync Secret That Separates Professional From Amateur](https://blog.cuongle.dev/p/this-sendsync-secret-separates-professional-and-amateur)
 * [hyper HTTP/2 (Didn't) MadeYouReset](https://seanmonstar.com/blog/hyper-http2-didnt-madeyoureset/)
 * [Are we Teaching Rust Effectively?](https://blog.kodewerx.org/2025/08/are-we-teaching-rust-effectively.html)
-* [video] [BaM #29 - Improving the Rust embedded firmware](https://www.youtube.com/live/5Ca6pQQB-mg?si=yHFQMsDbHEXEfpig)
+* [video] [BaM #29 - Improving the Rust embedded firmware](https://www.youtube.com/live/5Ca6pQQB-mg)
 * [video] [David Sankel – Rust and C++ Interop](https://www.youtube.com/watch?v=xihX4RzStYk)
 
 ### Rust Walkthroughs
