@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [Rust Trends Issue 85 - If It Compiles, the Agent Got It Right](https://rust-trends.com/newsletter/if-it-compiles-the-agent-got-it-right/)
+
 ### Project/Tooling Updates
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
