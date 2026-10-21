@@ -65,7 +65,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [eilmeldung](https://crates.io/crates/eilmeldung), a TUI RSS reader.
+
+llogiq is pretty pleased with his choice, despite a lamentable lack of suggestions.
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -119,7 +121,6 @@ If you are a feature implementer and would like your RFC to appear on the above 
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
 
-
 ## Call for Participation; projects and speakers
 
 ### CFP - Projects
@@ -160,7 +161,73 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+601 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-10-13..2026-10-20
+
+#### Compiler
+* [improve diagnostic for literals in lint attributes](https://github.com/rust-lang/rust/pull/164486)
+* [improve diagnostics for non-well-formed associated items](https://github.com/rust-lang/rust/pull/162432)
+* [fix `diagnostic::on_unknown` format placeholder for paths in expressions and type paths](https://github.com/rust-lang/rust/pull/164178)
+* [move `fully_perform` early return earlier](https://github.com/rust-lang/rust/pull/164236)
+* [overhaul span compression](https://github.com/rust-lang/rust/pull/163857)
+* [perf: drop error in `unwrap_failed` instead of `unwrap`](https://github.com/rust-lang/rust/pull/164059)
+* [port lint attributes](https://github.com/rust-lang/rust/pull/162811)
+* [provide context span pointing at trait/item when talking about assoc items](https://github.com/rust-lang/rust/pull/163383)
+* [restore the old behavior for `derive(Default)` on fieldless types](https://github.com/rust-lang/rust/pull/164114)
+* [skip move checks when the size limit is zero](https://github.com/rust-lang/rust/pull/164332)
+* [stabilize `-Zembed-metadata`](https://github.com/rust-lang/rust/pull/163436)
+* [support function args const generics](https://github.com/rust-lang/rust/pull/162727)
+
+#### Library
+* [add `codeview_annotation` intrinsic](https://github.com/rust-lang/rust/pull/160285)
+* [add `core::process::resumable_breakpoint`](https://github.com/rust-lang/rust/pull/163611)
+* [make `std::fs::{File, ReadDir, DirEntry}` always `needs_drop` even when unsupported](https://github.com/rust-lang/rust/pull/162444)
+* [make tuple `PartialOrd` chaining easier on mir-opt](https://github.com/rust-lang/rust/pull/164369)
+* [windows: stabilise `inherit_handles`](https://github.com/rust-lang/rust/pull/161163)
+
+#### Cargo
+* [`build-std`: Add build.build-std.when and crates config keys](https://github.com/rust-lang/cargo/pull/17602)
+* [`prerelease`: support `[patch]` with `-Zprerelease`](https://github.com/rust-lang/cargo/pull/17613)
+* [`config`: Apply dotted tuple support for rustflags](https://github.com/rust-lang/cargo/pull/17594)
+* [`config`: Don't load registry config from credentials.toml](https://github.com/rust-lang/cargo/pull/17599)
+* [`fingerprint`: choose a stable path when source mtimes tie](https://github.com/rust-lang/cargo/pull/17521)
+* [`util-schemas`: compile out the file-path hint where url can't build it](https://github.com/rust-lang/cargo/pull/17600)
+* [shell completion show all the packages having the feature](https://github.com/rust-lang/cargo/pull/17574)
+* [check crate type when pruning `-L` paths](https://github.com/rust-lang/cargo/pull/17589)
+
+#### Rustfmt
+* [config: fix lookup of global config files](https://github.com/rust-lang/rustfmt/pull/7179)
+* [don't remove empty generic args when formatting in a macro context](https://github.com/rust-lang/rustfmt/pull/7181)
+* [enforce comment width in item lists](https://github.com/rust-lang/rustfmt/pull/7174)
+* [fix `cfg_select!` parser recovery handling and parser session error count leak](https://github.com/rust-lang/rustfmt/pull/7171)
+* [fix statement comment wrapping](https://github.com/rust-lang/rustfmt/pull/7170)
+* [prevent rustfmt from removing expression attrs when removing nested parens](https://github.com/rust-lang/rustfmt/pull/7192)
+* [prevent rustfmt from removing necessary blocks in `cfg_select!` arms](https://github.com/rust-lang/rustfmt/pull/7183)
+
+#### Rustdoc
+* [add disambiguators for identically named method in sidebar](https://github.com/rust-lang/rust/pull/162778)
+* [improvements for `rustc_must_implement_one_of`](https://github.com/rust-lang/rust/pull/164266)
+
+#### Clippy
+* [allow `allow_attributes` from inside macros](https://github.com/rust-lang/rust-clippy/pull/17863)
+* [bail all doc lints when attributes come from external macro expansion](https://github.com/rust-lang/rust-clippy/pull/17866)
+* [clear collection reassignment](https://github.com/rust-lang/rust-clippy/pull/16549)
+* [extend `from_str_radix_10` to NonZero types](https://github.com/rust-lang/rust-clippy/pull/17715)
+* [fix `try_from_instead_of_from_str` lint suggestion causes error when `TryFrom::try_from` parameter is not named `value`](https://github.com/rust-lang/rust-clippy/pull/17881)
+* [fix `wildcard_imports` infinite loop on macro generated glob imports](https://github.com/rust-lang/rust-clippy/pull/17828)
+* [fix trailing semicolon with `nonstandard_macro_braces`](https://github.com/rust-lang/rust-clippy/pull/17879)
+* [new lint: `bufreader_stdin`](https://github.com/rust-lang/rust-clippy/pull/17029)
+* [`useless_attribute`: no longer lint `clippy::allow_attributes`](https://github.com/rust-lang/rust-clippy/pull/17865)
+
+#### Rust-Analyzer
+* [`viewMir` panicking in code containing field projections](https://github.com/rust-lang/rust-analyzer/pull/23513)
+* [bail out of `struct_tail_erasing_lifetimes` on infinite structs](https://github.com/rust-lang/rust-analyzer/pull/23504)
+* [build non-ambiguous monikers in crates with multiple targets](https://github.com/rust-lang/rust-analyzer/pull/23173)
+* [emit E0029 for range patterns with inferred invalid types](https://github.com/rust-lang/rust-analyzer/pull/23533)
+* [escape keyword module name completions](https://github.com/rust-lang/rust-analyzer/pull/23518)
+* [improve attribute completions without snippet](https://github.com/rust-lang/rust-analyzer/pull/23523)
+* [ops: resolve `ref-version-mismatch`, `stale-action-refs`, and `unpinned-uses`](https://github.com/rust-lang/rust-analyzer/pull/23488)
 
 ### Rust Compiler Performance Triage
 
@@ -335,7 +402,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> To me it seems the same things that make Rust a desirable target for LLM generated code are the same things that make it desirable for me as a human writing code, that being the fantastic compiler feedback and the first class tooling.
+
+– [Christian Haynes on rust-users](https://users.rust-lang.org/t/recent-explosion-in-rust-rewrites-and-reimplementations-with-llms-thoughts/142939/33)
+
+Thanks to [Moy2010](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1829) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
