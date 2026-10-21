@@ -63,6 +63,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Research
 
+* [An Incremental Approach to JIT Construction](https://doi.org/10.1145/3830440.3832304)
+* [video] [[Scheme'26] An Incremental Approach to JIT Construction](https://www.youtube.com/watch?v=8qwXgappTWQ)
+
 ### Miscellaneous
 
 ## Crate of the Week
