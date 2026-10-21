@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Safe self-referential data structures in kernel Rust](https://lwn.net/SubscriberLink/1099224/54c55e87a0828522/)
+* [Cross-crate forward declarations in Rust](https://lwn.net/SubscriberLink/1099596/7bfb3ee846a5f102/)
 * [Why tellus message handlers are synchronous](https://heikoseeberger.de/2026-10-18-why-sync-handlers/)
 
 ### Rust Walkthroughs
