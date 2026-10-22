@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Bringing Native Vulkan 1.3 & True HDR to Wayland: How We Built Zero-Copy DMA-BUF and ST 2084 PQ in Rust](https://github.com/123llyrr/smithay-renderer-vulkan/discussions/1)
+
 ### Research
 
 ### Miscellaneous
