@@ -115,20 +115,28 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 
 Some of these tasks may also have mentors available, visit the task page for more information.
 
-* [ScreenCue - Add a reproducible desktop bug-report issue form](https://github.com/CrioNIK/ScreenCue/issues/1)
+ScreenCue
 
+* [ScreenCue - Add a reproducible desktop bug-report issue form](https://github.com/CrioNIK/ScreenCue/issues/1)
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
+
+sysknife
+
 * [sysknife - README says the CLI's approval gate is sysknife approve; the CLI approves in-process after its own prompt](https://github.com/lacs-project/sysknife/issues/560)
 * [sysknife - --dry-run exits 0 for a plan that breaks --max-risk or that this distro cannot run](https://github.com/lacs-project/sysknife/issues/561)
 * [sysknife - Re-running sysknife-setup while the daemon runs fails with ETXTBSY and can leave mismatched binaries](https://github.com/lacs-project/sysknife/issues/563)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+
+Manguebyte
 
 * [Manguebyte - Put ParamSmoother under the allocation guard](https://github.com/alessonqueirozdev-hub/manguebyte/issues/22)
 * [Manguebyte - Treat a NaN delay as the shortest delay in DelayLine::read and Delay::set_time](https://github.com/alessonqueirozdev-hub/manguebyte/issues/23)
 * [Manguebyte - Check security advisories in the cargo deny job](https://github.com/alessonqueirozdev-hub/manguebyte/issues/24)
 * [Manguebyte - Let a plugin report its tail to hosts](https://github.com/alessonqueirozdev-hub/manguebyte/issues/25)
 * [Manguebyte - Add audio widgets, starting with an on-screen keyboard](https://github.com/alessonqueirozdev-hub/manguebyte/issues/7)
+
+krate
 
 * [krate - Fix two warnings on the wasm32 and Windows targets (easy)](https://github.com/incyashraj/krate/issues/32)
 * [krate - Linux: follow the person's dark mode and text size (medium)](https://github.com/incyashraj/krate/issues/28)
