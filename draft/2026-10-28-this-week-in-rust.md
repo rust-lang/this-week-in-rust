@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [CO3: The Language of FFI](https://mversic.github.io/co3-the-language-of-ffi/)
+
 ### Rust Walkthroughs
 
 ### Research
