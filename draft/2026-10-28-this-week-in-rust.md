@@ -50,6 +50,10 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Discussing a rewrite of XArray](https://lwn.net/SubscriberLink/1100520/2e0f0241deef5804/)
+* [Rust features in the future](https://lwn.net/SubscriberLink/1099606/0fe2b8d731fd167f/)
+* [Guidelines for panics in kernel code](https://lwn.net/SubscriberLink/1100873/0934a9a322c6df4c/)
+
 ### Rust Walkthroughs
 
 ### Research
