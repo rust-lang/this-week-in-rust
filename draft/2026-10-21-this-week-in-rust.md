@@ -57,6 +57,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Cloudflare is rewriting everything in Rust](https://kerkour.com/rust-at-cloudflare)
 * [What agents mean for Rust (and vice versa)](https://smallcultfollowing.com/babysteps/blog/2026/10/14/agentic-dev-and-rust/)
 * [Black-Box HashDoS: Attacking Hash Tables Without Knowing the Hash Function](https://orlp.net/blog/black-box-hashdos/)
 * [2026 is an exciting year for the Rust compiler (and me)](https://yoyo-code.com/2026-is-exciting-year-for-rust-compiler-and-me/)
