@@ -68,14 +68,14 @@ and just ask the editors to select the category.
 * [Sharing a mutable reference with Python](https://blog.lilyf.org/posts/python-mutable-reference/)
 * [Faster Rust builds on Mac](https://nnethercote.github.io/2025/09/04/faster-rust-builds-on-mac.html)
 * [Rust Performance Tricks](https://davidlattimore.github.io/posts/2025/09/02/rustforge-wild-performance-tricks.html)
-* [video] [Embedded Rust Workshop](https://www.youtube.com/live/PZZfVAaYTP8?si=2nfis0-IrN9aMkti)
+* [video] [Embedded Rust Workshop](https://www.youtube.com/live/PZZfVAaYTP8)
 * [video] [RustCurious 1: Why Rust is Safe: A novel introduction to ownership and borrowing](https://www.youtube.com/watch?v=lVWiHIVXG2c)
 
 ### Miscellaneous
 * [Elements of Rust: A complete map of the Rust type system](https://rustcurious.com/elements/)
 * [filtra.io interview with `tonari` team | Opening Portals With Rust](https://filtra.io/rust/interviews/tonari-aug-25)
 * [audio] [Hyper with Sean McArthur](https://www.youtube.com/watch?v=aw9lvs3PhWQ)
-* [video] [Berkeley Seminar | The quest for performance](https://youtu.be/k_-6KI3m31M?si=JDZTHRDTs-unM34A)
+* [video] [Berkeley Seminar | The quest for performance](https://youtu.be/k_-6KI3m31M)
 
 ## Crate of the Week
 

@@ -53,7 +53,7 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 * [Rust crimes: Enum ints](https://passcod.name/technical/rust-crimes-enum-ints.html)
 * [Scalable server design in Rust with Tokio](https://medium.com/@fujita.tomonori/scalable-server-design-in-rust-with-tokio-4c81a5f350a3)
 * [Running Rust on AWS Lambda on ARM64](https://dev.to/ballpointcarrot/running-rust-on-aws-lambda-on-arm64-4h28)
-* [How to deploy a Rust REST API application on AWS with ease](https://hub.qovery.com/guides/tutorial/how-to-deploy-a-rust-rest-api-application-on-aws-with-ease/?utm_source=twitter.com&utm_medium=social&utm_campaign=because-some-users-asked-how-to-deploy-r&utm_content=54750877)
+* [How to deploy a Rust REST API application on AWS with ease](https://hub.qovery.com/guides/tutorial/how-to-deploy-a-rust-rest-api-application-on-aws-with-ease/)
 * [PT] [Rust - Borrowing?](https://dev.to/higordiego/rust-borrowing-1220)
 * [series] [Build Your Text Editor With Rust!](https://medium.com/@otukof/build-your-text-editor-with-rust-678a463f968b)
 * [video] [Building a Reddit Ticker with Rust and Flutter using Rid and Bloc/Cubit](https://www.youtube.com/watch?v=t6rlp0TXE2I&list=PL4k64WemroGkSMVCGvtksaYvzz4mvOzfK&index=2)

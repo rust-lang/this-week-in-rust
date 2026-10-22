@@ -52,7 +52,7 @@ and just ask the editors to select the category.
 * [Using Kani to Validate Security Boundaries in AWS Firecracker](https://model-checking.github.io/kani-verifier-blog/2023/08/31/using-kani-to-validate-security-boundaries-in-aws-firecracker.html)
 * [Views on Machine Learning in Rust](https://deepcausality.com/blog/views-on-rust-ml/)
 * [video] [5 Strong Opinions On Everyday Rust](https://www.youtube.com/watch?v=8j_FbjiowvE)
-* [video] [Core Flight System Applications in Rust with n2o4](https://www.youtube.com/live/H7q-7CNb7gc?si=zgWjLlaCxNHJfRJq&t=8229)
+* [video] [Core Flight System Applications in Rust with n2o4](https://www.youtube.com/live/H7q-7CNb7gc?t=8229)
 
 ### Rust Walkthroughs
 * [How I finally understood async/await in Rust (part 4: why would I ever want to write a future manually?)](https://hegdenu.net/posts/understanding-async-await-4/)
