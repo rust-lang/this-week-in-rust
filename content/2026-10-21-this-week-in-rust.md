@@ -129,6 +129,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Manguebyte - Check security advisories in the cargo deny job](https://github.com/alessonqueirozdev-hub/manguebyte/issues/24)
 * [Manguebyte - Let a plugin report its tail to hosts](https://github.com/alessonqueirozdev-hub/manguebyte/issues/25)
 * [Manguebyte - Add audio widgets, starting with an on-screen keyboard](https://github.com/alessonqueirozdev-hub/manguebyte/issues/7)
+
 * [krate - Fix two warnings on the wasm32 and Windows targets (easy)](https://github.com/incyashraj/krate/issues/32)
 * [krate - Linux: follow the person's dark mode and text size (medium)](https://github.com/incyashraj/krate/issues/28)
 * [krate - krate pack: add a --keep-debug flag (medium)](https://github.com/incyashraj/krate/issues/29)
