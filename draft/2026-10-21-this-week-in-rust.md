@@ -39,6 +39,9 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Announcing Rust 1.99.1](https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/)
+* [Announcing the GPU notification group and Linker Working Area](https://blog.rust-lang.org/inside-rust/2026/10/20/gpu-target-notification-group/)
+
 ### Foundation
 
 ### Newsletters
@@ -47,23 +50,28 @@ and just ask the editors to select the category.
 
 ### Project/Tooling Updates
 
+* [Introducing tsrs: a Port of TypeScript to Rust](https://blog.cloudflare.com/typescript-rust-port/)
+
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
 
+* [What agents mean for Rust (and vice versa)](https://smallcultfollowing.com/babysteps/blog/2026/10/14/agentic-dev-and-rust/)
+* [Black-Box HashDoS: Attacking Hash Tables Without Knowing the Hash Function](https://orlp.net/blog/black-box-hashdos/)
+* [2026 is an exciting year for the Rust compiler (and me)](https://yoyo-code.com/2026-is-exciting-year-for-rust-compiler-and-me/)
 * [What the crates.io download count really measures: 90 days of daily data from 69 crates](https://tensorust.com/articles/crates-io-download-count/)
 * [Safe self-referential data structures in kernel Rust](https://lwn.net/SubscriberLink/1099224/54c55e87a0828522/)
 * [Cross-crate forward declarations in Rust](https://lwn.net/SubscriberLink/1099596/7bfb3ee846a5f102/)
 * [Why tellus message handlers are synchronous](https://heikoseeberger.de/2026-10-18-why-sync-handlers/)
-  
 * [Upstreaming Tyr: Rust, DRM, and the Linux Kernel](https://www.collabora.com/news-and-blog/blog/2026/10/21/upstreaming-tyr-rust-drm-and-the-linux-kernel/)
 
 ### Rust Walkthroughs
+
+* [I forced a speech model onto the GPU for months. The CPU was faster.](https://altunenes.github.io/posts/reuse/)
+* [Superoptimizing an FPU emulator](https://purplesyringa.moe/blog/superoptimizing-an-fpu-emulator/)
 * [Draw and Animate Loading Spinner with GPUI](https://hlcfan.github.io/gpui-canvas-spinner.html)
-
 * [series] [Encoding TCP in Rust's Type System, Part 1: A Sequence Number Is Not a `u32`](https://noahkawaguchi.com/blog/typenet-post-1/)
-
 * [series] [Running 10 million Codex CLIs on one server - LFI processes](https://kapteko.com/running-10-million-codex-clis-on-one-server-lfi-processes/)
 
 ### Research
