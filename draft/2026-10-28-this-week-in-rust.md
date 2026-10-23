@@ -56,7 +56,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Miscellaneous
 
-* [Announcing Rust Uzbekistan & The Official Uzbek Translation of The Rust Book](https://doc.ferris.uz)
+* [Announcing Rust Uzbekistan & The Official Uzbek Translation of The Rust Book](https://doc.ferris.uz/)
 
 ## Crate of the Week
 
