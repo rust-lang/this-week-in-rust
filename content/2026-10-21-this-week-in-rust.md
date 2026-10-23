@@ -375,7 +375,7 @@ Rusty Events between 2026-10-21 - 2026-11-18 🦀
 * 2026-11-05 | Montréal, CA | [Rust Montréal](https://www.meetup.com/rust-montreal)
     * [**November Monthly Social**](https://www.meetup.com/rust-montreal/events/316919004/)
 * 2026-11-05 | San Francisco, CA | Rust LA: NVIDIA!
-    * [**NVIDIA x Lawrence Harvey | CUDA Rust**](https://www.meetup.com/rust-montreal/events/316919004/](https://luma.com/iqe7wng1)
+    * [**NVIDIA x Lawrence Harvey | CUDA Rust**](https://luma.com/iqe7wng1)
 * 2026-11-05 | Saint Louis, MO, US | [STL Rust](https://www.meetup.com/stl-rust)
     * [**HTMX and Rust**](https://www.meetup.com/stl-rust/events/316896797/)
 * 2026-11-12 | San Diego, CA, US | [San Diego Rust](https://www.meetup.com/san-diego-rust)
