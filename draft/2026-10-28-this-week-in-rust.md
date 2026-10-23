@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [your architecture diagram can't fail a build - cargo-deny can](https://d34dl0ck.me/your-architecture-diagram-cant-fail-a-build/index.html)
+
 ### Research
 
 ### Miscellaneous
