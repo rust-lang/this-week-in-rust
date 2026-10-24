@@ -123,6 +123,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+
+* [AIGovern-Cyber POC009 - Independent reproduction invited: five-cycle scoped knowledge and memory continuity](https://github.com/gjatalegacy-create/AIGovern-Cyber-POC009-Knowledge-Memory/issues/1)
+
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
