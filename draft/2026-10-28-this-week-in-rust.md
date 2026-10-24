@@ -124,7 +124,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 
-* [AIGovern-Cyber POC009 - Independent reproduction invited: five-cycle scoped knowledge and memory continuity](https://github.com/gjatalegacy-create/AIGovern-Cyber-POC009-Knowledge-Memory/issues/1)
+* [ESS-MAI - Independent reproduction: ESS-MAI POC003–009](https://github.com/gjatalegacy-create/ESS-MAI/issues/3)
 
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
