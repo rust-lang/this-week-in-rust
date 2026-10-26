@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [video] [Beyond Vibe Coding: Formal Verification for AI-Generated Python & Rust Software](https://www.youtube.com/watch?v=P9xCUmjkPUM)
+
 ### Research
 
 ### Miscellaneous
