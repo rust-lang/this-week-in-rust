@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [video] [P99 CONF 2026 | Building Ultra-Performant Message Streaming by Piotr Gankiewicz](https://www.youtube.com/watch?v=2j6BzKaODUk)
+
 ### Rust Walkthroughs
 
 ### Research
