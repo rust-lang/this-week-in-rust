@@ -148,7 +148,28 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+Another week of positive changes. Few unexpected improvements from cleanups and a handful of targeted optimizations.
+Apart from instruction count improvements, we also merged a large reduction of query cache size in [#164300](https://github.com/rust-lang/rust/pull/164300).
+Negative changes come mostly from unexpected `doc` regression, which is currently under investigation.
+
+Triage done by **@panstromek**.
+Revision range: [bd4c6cc4..019b59d8](https://perf.rust-lang.org/?start=bd4c6cc4aeef0eb9919c6f73c1e690677e9c6b38&end=019b59d8101bb3e141f1b880684747b4217beeb6&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 0.8%  | [0.2%, 6.8%]    | 25    |
+| Regressions ❌ <br /> (secondary)  | 6.8%  | [0.0%, 189.1%]  | 34    |
+| Improvements ✅ <br /> (primary)   | -0.8% | [-12.6%, -0.1%] | 195   |
+| Improvements ✅ <br /> (secondary) | -1.2% | [-10.6%, -0.1%] | 157   |
+| All ❌✅ (primary)                 | -0.6% | [-12.6%, 6.8%]  | 220   |
+
+
+3 Regressions, 6 Improvements, 3 Mixed
+32 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/5080585bb0dc997cd8aeca17eff036e0c5ddf713/triage/2026/2026-10-26.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
