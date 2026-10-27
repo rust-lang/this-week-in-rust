@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [The heat is on: handling units in Rust](https://bitfieldconsulting.com/posts/heat-is-on)
+
 ### Research
 
 ### Miscellaneous
