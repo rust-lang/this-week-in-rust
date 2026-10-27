@@ -393,7 +393,7 @@ Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/r
 >
 > The Rust community has weaponized education against me. I'm now a better engineer than I was yesterday against my will.
 
-– [tris on youtube](https://youtu.be/B2gmKy3pHkw?si=4QRLux5X55fTx8c8&t=196)
+– [tris on youtube](https://youtu.be/B2gmKy3pHkw?t=196)
 
 Thanks to [MusicalNinjaDad](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1806) for the suggestion!
 

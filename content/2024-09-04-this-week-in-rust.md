@@ -64,7 +64,7 @@ and just ask the editors to select the category.
 * [Why Rust needs scoped generics](http://ais523.me.uk/blog/scoped-generics.html)
 
 ### Rust Walkthroughs
-* [series] [video] [Rust for Beginners in Arabic](https://youtube.com/playlist?list=PLjQ2-_RIGIVBPbV2H0ng0N4nuN7DsPkPa&si=EQrpkGhEsPCUq9Fu)
+* [series] [video] [Rust for Beginners in Arabic](https://youtube.com/playlist?list=PLjQ2-_RIGIVBPbV2H0ng0N4nuN7DsPkPa)
 * [video] [Crafting an Interpreter in Rust #01: Basic Bytecode Chunks](https://tube.xy-space.de/w/weDkpD5BB8mAWcyUQXzxhu)
 * [video] [Crafting an Interpreter in Rust #02: First Virtual Machine](https://tube.xy-space.de/w/1uSn42TmjCUpR2Ta23CgMA)
 * [video] [Explore Linux TTY, process, signals w/ Rust - Part 2/3 (signal, proc, IPC egs)](https://www.youtube.com/watch?v=58_9yjLI4WA)

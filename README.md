@@ -55,7 +55,6 @@ What we are generally looking for includes:
 
 * how-to intros (and advanced deep dives) into Rust concepts and areas
 * Rust walkthroughs that explain concepts in different ways than well known resources like [the Rust book](https://doc.rust-lang.org/stable/book/), [Rustlings](https://github.com/rust-lang/rustlings), and [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)
-* updates on tooling when in long form or framed as a tutorial (for more details, see what we are not looking for below)
 * Rust-related podcast episodes
 * Rust-related screenshots and videos
 * Rust meetup recordings
@@ -76,15 +75,17 @@ What we are generally NOT looking for includes:
 
 ## LLM-written articles
 
-We don't take a position on whether or not you use LLMs. We do care whether articles submitted to TWiR were written by people.
+We expect community links to be articles that were created by humans. We don't accept articles written by LLMs.
+
+TWiR does not have a policy about the use of LLMs to write code, but we do care whether articles submitted to TWiR were written by people. Articles containing excessive LLM output may be declined at the editors discretion.
 
 TWiR exists as part of a broader Rust community: we try to promote interactions within that community, enabling people to share and discover ideas, projects, original thoughts. If the author is an LLM, the truthfulness of its output may be compromised, and that's a problem. But more importantly, there is no community growth happening: there is no author to learn from community feedback, and the reader is not able to connect with a peer.
 
-If you submit an LLM-written article to TWiR, we request that the LLM authorship be disclosed in the article.
+Articles that were machine-translated from another language are allowed.
 
 ## Projects/Tooling Updates
 
-We are no longer accepting pull request submissions for the Project/Tooling Updates section (see [here](https://github.com/rust-lang/this-week-in-rust/issues/8575) for more details). Our editors monitor [r/rust](https://www.reddit.com/r/rust/) and will consider links that are posted there. Please make sure to follow r/rust's community rules when you are there!
+We are no longer accepting pull request submissions for the Project/Tooling Updates section (see [here](https://github.com/rust-lang/this-week-in-rust/issues/8575) for more details).
 
 ## Events
 

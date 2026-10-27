@@ -161,7 +161,7 @@ def cft_section(out: list[str], start: datetime.date, end: datetime.date) -> Non
 def approved_rfcs_section(out: list[str], start: datetime.date, end: datetime.date) -> None:
     out.append("---")
     out.append("")
-    out.append("### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)")
+    out.append("### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/main)")
     out.append("")
     out.append("Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These")
     out.append("are the RFCs that were approved for implementation this week:")
