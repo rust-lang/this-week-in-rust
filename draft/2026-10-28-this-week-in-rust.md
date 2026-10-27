@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Knovum v0.0.3: Building a Local-First Desktop AI Canvas with Tauri 2, Vue 3, and Rust](https://dev.to/zane_bb379d5c3aa0d830cc84/knovum-v003-building-a-local-first-desktop-ai-canvas-with-tauri-2-vue-3-and-rust-3hfj)
+
 ### Research
 
 ### Miscellaneous
