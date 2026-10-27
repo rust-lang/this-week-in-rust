@@ -51,6 +51,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [video] [Rust and the GPU from Native to Web: An Introduction to `wgpu` by Liam Rust](https://www.youtube.com/watch?v=LnxuQKoxvFM)
 
 ### Research
 
