@@ -38,20 +38,25 @@ and just ask the editors to select the category.
 -->
 
 ### Official
-
+* [Variadic Generics Micro Survey results](https://blog.rust-lang.org/inside-rust/2026/10/27/variadic-generics-micro-survey-results/)
+* [How to fund Rust contributors](https://blog.rust-lang.org/2026/10/26/how-to-fund-rust-contributors/)
 ### Foundation
 
 ### Newsletters
 
 ### Project/Tooling Updates
-
+* [Ring Buffers Project Summary - Redox - Your Next(Gen) OS](https://www.redox-os.org/news/nlnet-rb-summary/)
+* [tar-codec: a fast and secure tar parser for the Rust ecosystem](https://astral.sh/blog/tar-codec)
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
+* [Rust Without Shortcuts: What Safety Actually Costs](https://ieeexplore.ieee.org/abstract/document/11723159)
+* [What stable Rust stands on](https://kivooeo.github.io/blog/what-stable-rust-stands-on/)
+* [Where a Flood Goes](https://shieldify.ee/research/where-a-flood-goes/)
 
 ### Rust Walkthroughs
-
+* [Finding panics with Call Graph Analyzer — Tweede golf](https://tweedegolf.nl/en/blog/242/finding-panics-with-call-graph-analyzer/)
 ### Research
 
 ### Miscellaneous
