@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
+* [What distributed systems and end-to-end encrypted apps have in common? CRDTs and Rust!](https://kerkour.com/rust-crdt-love)
 
 ### Rust Walkthroughs
 
