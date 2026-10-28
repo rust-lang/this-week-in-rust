@@ -58,7 +58,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [offline-protocol](https://crates.io/crates/offline-protocol), a crate that supplies mesh-networking/peer discovery for a variety of networks, under AGPL/proprietary license.
+
+Thanks to [Gokul](https://users.rust-lang.org/t/crate-of-the-week/2704/1702) for the self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -112,7 +114,6 @@ If you are a feature implementer and would like your RFC to appear on the above 
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
 
-
 ## Call for Participation; projects and speakers
 
 ### CFP - Projects
@@ -144,7 +145,70 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+609 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-10-20..2026-10-27
+
+#### Compiler
+* [account for missing turbofish in resolve errors](https://github.com/rust-lang/rust/pull/159689)
+* [add various `#[inline]` annotations for simple functions on hot paths that don't get inlined](https://github.com/rust-lang/rust/pull/163845)
+* [deduplicate DefId encodings in the query cache](https://github.com/rust-lang/rust/pull/164300)
+* [`#[inline(always)] + #[target_feature(enable = "....")]` #2](https://github.com/rust-lang/rust/pull/162460)
+* [MIR move elimination \[4/6\]: MoveElimination](https://github.com/rust-lang/rust/pull/163338)
+* [`rustc_builtin_macros` cleanup, part 8](https://github.com/rust-lang/rust/pull/163485)
+* [optimize Span operations, especially the hot `Span::to`](https://github.com/rust-lang/rust/pull/163971)
+* [skip redundant monomorphization checks](https://github.com/rust-lang/rust/pull/164330)
+* [use the span of the doctest code block fence for figuring out the line number](https://github.com/rust-lang/rust/pull/164849)
+
+#### Library
+* [const-stabilize {`BinaryHeap`, `BTreeMap`, `BTreeSet`, `LinkedList`, `VecDeque`)`::`{`len`, `is_empty`}](https://github.com/rust-lang/rust/pull/164643)
+* [core: implement `char::is_xid_`{`start`, `continue`}](https://github.com/rust-lang/rust/pull/164474)
+* [don't try to skip anything in `Skip::advance_by(0)`](https://github.com/rust-lang/rust/pull/164488)
+* [implement `AsMut<T>` and `AsRef<T>` for `!`](https://github.com/rust-lang/rust/pull/161253)
+* [improve bit permutation codegen](https://github.com/rust-lang/rust/pull/164611)
+* [process: improve the output of `Debug` for `ExitStatus` on Unix](https://github.com/rust-lang/rust/pull/163510)
+* [stabilize ExitCodeExt for Windows](https://github.com/rust-lang/rust/pull/164656)
+* [stabilize allocators for `Vec::into_iter`](https://github.com/rust-lang/rust/pull/163499)
+* [stabilize `String::into_chars`](https://github.com/rust-lang/rust/pull/163816)
+* [stabilize `ptr_cast_slice`](https://github.com/rust-lang/rust/pull/162927)
+* [stabilize `slice_split_once`](https://github.com/rust-lang/rust/pull/164641)
+* [stabilize {Rc, `Arc}::is_unique`](https://github.com/rust-lang/rust/pull/163458)
+
+#### Cargo
+* [`timings`: peak memory as a column in unit table](https://github.com/rust-lang/cargo/pull/17631)
+* [stop uplifting rlibs on nightly](https://github.com/rust-lang/cargo/pull/17621)
+* [exclude abspath of path deps from `-Cmetadata` hash](https://github.com/rust-lang/cargo/pull/17624)
+* [test: simplify file content assertions](https://github.com/rust-lang/cargo/pull/17617)
+* [use build-rs for buildscripts](https://github.com/rust-lang/cargo/pull/17637)
+
+#### Rustdoc
+* [include `deprecated` attributes in `rustc_resolve` intra-doc link resolution](https://github.com/rust-lang/rust/pull/164733)
+* [correctly handle inner `deprecated` attribute on modules](https://github.com/rust-lang/rust/pull/164594)
+* [don't panic on a nested use group with no path prefix](https://github.com/rust-lang/rust/pull/164883)
+
+#### Rustfmt
+* [prevent more comment loss in `cfg_select!`](https://github.com/rust-lang/rust/pull/164815)
+* [don't lose comments and attributes between `cfg_select!` predicates, outer/inner blocks, arm body and trailing commas](https://github.com/rust-lang/rustfmt/pull/7211)
+* [fix `cfg_if!` error count leaks](https://github.com/rust-lang/rustfmt/pull/7195)
+
+#### Clippy
+* [`wildcard_imports`: no longer lint in automatically derives and proc macro expansions](https://github.com/rust-lang/rust-clippy/pull/17898)
+* [add `ifs_as_logical_ops` lint](https://github.com/rust-lang/rust-clippy/pull/14904)
+* [add lint for `map_or_else` to `map_or`](https://github.com/rust-lang/rust-clippy/pull/17847)
+* [fix `missing_const_for_fn` false positives in `const impl`](https://github.com/rust-lang/rust-clippy/pull/17892)
+* [fix `double_comparisons` suggestion dropping required parentheses](https://github.com/rust-lang/rust-clippy/pull/17907)
+* [perf: optimise `unconditional_recursion` lint](https://github.com/rust-lang/rust-clippy/pull/17835)
+
+#### Rust-Analyzer
+* [automated sync of target feature implications](https://github.com/rust-lang/rust-analyzer/pull/23484)
+* [fix NamedTempFile issues on windows](https://github.com/rust-lang/rust-analyzer/pull/23424)
+* [complete 'main' 'lib' module in sub module](https://github.com/rust-lang/rust-analyzer/pull/23529)
+* [compute ref-match on undotted self](https://github.com/rust-lang/rust-analyzer/pull/23489)
+* [do not panic when inline call param usages in macro](https://github.com/rust-lang/rust-analyzer/pull/23231)
+* [fix `fetch_semantic` logic bug introduced in #22272](https://github.com/rust-lang/rust-analyzer/pull/23534)
+* [fix status message for clients not supporting `experimental/serverStatusNotification`](https://github.com/rust-lang/rust-analyzer/pull/23552)
+* [use absolute path in `format_smolstr`](https://github.com/rust-lang/rust-analyzer/pull/23540)
+* [search manifest ancestors for the lockfile when fetching cargo metadata](https://github.com/rust-lang/rust-analyzer/pull/23296)
 
 ### Rust Compiler Performance Triage
 
@@ -327,7 +391,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> we're at the 25 minute mark and still bikeshedding tabs vs spaces
+
+– [Josh Triplett in a Library Team meeting](https://hackmd.io/RUHqJ5InQkCBRs5d0WpFBA)
+
+Thanks to [Theemathas](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1836) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
