@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Stop Remote Code Execution with a Sandbox, Rust Zip Case Study](https://cosmonic.com/blog/stopping-remote-code-execution-with-a-sandbox/)
+
 ### Research
 
 ### Miscellaneous
