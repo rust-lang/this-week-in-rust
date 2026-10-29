@@ -52,6 +52,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Discussing a rewrite of XArray](https://lwn.net/SubscriberLink/1100520/2e0f0241deef5804/)
+* [Rust features in the future](https://lwn.net/SubscriberLink/1099606/0fe2b8d731fd167f/)
+* [Guidelines for panics in kernel code](https://lwn.net/SubscriberLink/1100873/0934a9a322c6df4c/)
 * [video] [P99 CONF 2026 | Building Ultra-Performant Message Streaming by Piotr Gankiewicz](https://www.youtube.com/watch?v=2j6BzKaODUk)
 * [What distributed systems and end-to-end encrypted apps have in common? CRDTs and Rust!](https://kerkour.com/rust-crdt-love)
 
