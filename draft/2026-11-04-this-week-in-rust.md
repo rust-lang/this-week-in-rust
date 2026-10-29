@@ -126,10 +126,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
-* [ModelerHarness - Port the tracing step from Python to Rust](https://github.com/endlessGold/ModelerHarness/issues/6)
-* [ModelerHarness - Read depth from tone bands and cross-contours (fix flat heads on real drawings)](https://github.com/endlessGold/ModelerHarness/issues/2)
-* [ModelerHarness - CI: build and run the Blender-free checks on Linux, macOS and Windows](https://github.com/endlessGold/ModelerHarness/issues/8)
-* [ModelerHarness - `mh score`: report watertight and Euler characteristic](https://github.com/endlessGold/ModelerHarness/issues/10)
+* [Plastor - Port the tracing step from Python to Rust](https://github.com/endlessGold/Plastor/issues/6)
+* [Plastor - Read depth from tone bands and cross-contours (fix flat heads on real drawings)](https://github.com/endlessGold/Plastor/issues/2)
+* [Plastor - CI: build and run the Blender-free checks on Linux, macOS and Windows](https://github.com/endlessGold/Plastor/issues/8)
+* [Plastor - `mh score`: report watertight and Euler characteristic](https://github.com/endlessGold/Plastor/issues/10)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
