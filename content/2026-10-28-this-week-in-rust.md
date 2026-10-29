@@ -38,38 +38,38 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+
 * [Variadic Generics Micro Survey results](https://blog.rust-lang.org/inside-rust/2026/10/27/variadic-generics-micro-survey-results/)
 * [How to fund Rust contributors](https://blog.rust-lang.org/2026/10/26/how-to-fund-rust-contributors/)
-### Foundation
 
 ### Newsletters
 
 * [The Embedded Rustacean Issue #83](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-83)
 
 ### Project/Tooling Updates
+
 * [Ring Buffers Project Summary - Redox - Your Next(Gen) OS](https://www.redox-os.org/news/nlnet-rb-summary/)
 * [tar-codec: a fast and secure tar parser for the Rust ecosystem](https://astral.sh/blog/tar-codec)
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
+
 * [Rust Without Shortcuts: What Safety Actually Costs](https://ieeexplore.ieee.org/abstract/document/11723159)
 * [What stable Rust stands on](https://kivooeo.github.io/blog/what-stable-rust-stands-on/)
 * [Where a Flood Goes](https://shieldify.ee/research/where-a-flood-goes/)
-
 * [Discussing a rewrite of XArray](https://lwn.net/SubscriberLink/1100520/2e0f0241deef5804/)
 * [Rust features in the future](https://lwn.net/SubscriberLink/1099606/0fe2b8d731fd167f/)
 * [Guidelines for panics in kernel code](https://lwn.net/SubscriberLink/1100873/0934a9a322c6df4c/)
-* [video] [P99 CONF 2026 | Building Ultra-Performant Message Streaming by Piotr Gankiewicz](https://www.youtube.com/watch?v=2j6BzKaODUk)
 * [What distributed systems and end-to-end encrypted apps have in common? CRDTs and Rust!](https://kerkour.com/rust-crdt-love)
+* [video] [P99 CONF 2026 | Building Ultra-Performant Message Streaming by Piotr Gankiewicz](https://www.youtube.com/watch?v=2j6BzKaODUk)
 
 ### Rust Walkthroughs
-* [video] [Beyond Vibe Coding: Formal Verification for AI-Generated Python & Rust Software](https://www.youtube.com/watch?v=P9xCUmjkPUM)
-* [The heat is on: handling units in Rust](https://bitfieldconsulting.com/posts/heat-is-on)
-* [video] [Rust and the GPU from Native to Web: An Introduction to `wgpu` by Liam Rust](https://www.youtube.com/watch?v=LnxuQKoxvFM)
-* [Finding panics with Call Graph Analyzer](https://tweedegolf.nl/en/blog/242/finding-panics-with-call-graph-analyzer/)
 
-### Research
+* [The heat is on: handling units in Rust](https://bitfieldconsulting.com/posts/heat-is-on)
+* [Finding panics with Call Graph Analyzer](https://tweedegolf.nl/en/blog/242/finding-panics-with-call-graph-analyzer/)
+* [video] [Beyond Vibe Coding: Formal Verification for AI-Generated Python & Rust Software](https://www.youtube.com/watch?v=P9xCUmjkPUM)
+* [video] [Rust and the GPU from Native to Web: An Introduction to `wgpu` by Liam Rust](https://www.youtube.com/watch?v=LnxuQKoxvFM)
 
 ### Miscellaneous
 
@@ -385,7 +385,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1wzctie/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
