@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [The Embedded Rustacean Issue #83](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-83)
+
 ### Project/Tooling Updates
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
@@ -50,11 +52,21 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [video] [P99 CONF 2026 | Building Ultra-Performant Message Streaming by Piotr Gankiewicz](https://www.youtube.com/watch?v=2j6BzKaODUk)
+* [What distributed systems and end-to-end encrypted apps have in common? CRDTs and Rust!](https://kerkour.com/rust-crdt-love)
+
 ### Rust Walkthroughs
+
+* [video] [Beyond Vibe Coding: Formal Verification for AI-Generated Python & Rust Software](https://www.youtube.com/watch?v=P9xCUmjkPUM)
+* [The heat is on: handling units in Rust](https://bitfieldconsulting.com/posts/heat-is-on)
+* [video] [Rust and the GPU from Native to Web: An Introduction to `wgpu` by Liam Rust](https://www.youtube.com/watch?v=LnxuQKoxvFM)
+* [Finding panics with Call Graph Analyzer](https://tweedegolf.nl/en/blog/242/finding-panics-with-call-graph-analyzer/)
 
 ### Research
 
 ### Miscellaneous
+
+* [uz] [Announcing Rust Uzbekistan & The Official Uzbek Translation of The Rust Book](https://doc.ferris.uz/)
 
 ## Crate of the Week
 
