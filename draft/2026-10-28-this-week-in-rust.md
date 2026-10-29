@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [The Embedded Rustacean Issue #83](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-83)
+
 ### Project/Tooling Updates
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
@@ -53,12 +55,21 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Discussing a rewrite of XArray](https://lwn.net/SubscriberLink/1100520/2e0f0241deef5804/)
 * [Rust features in the future](https://lwn.net/SubscriberLink/1099606/0fe2b8d731fd167f/)
 * [Guidelines for panics in kernel code](https://lwn.net/SubscriberLink/1100873/0934a9a322c6df4c/)
+* [video] [P99 CONF 2026 | Building Ultra-Performant Message Streaming by Piotr Gankiewicz](https://www.youtube.com/watch?v=2j6BzKaODUk)
+* [What distributed systems and end-to-end encrypted apps have in common? CRDTs and Rust!](https://kerkour.com/rust-crdt-love)
 
 ### Rust Walkthroughs
+
+* [video] [Beyond Vibe Coding: Formal Verification for AI-Generated Python & Rust Software](https://www.youtube.com/watch?v=P9xCUmjkPUM)
+* [The heat is on: handling units in Rust](https://bitfieldconsulting.com/posts/heat-is-on)
+* [video] [Rust and the GPU from Native to Web: An Introduction to `wgpu` by Liam Rust](https://www.youtube.com/watch?v=LnxuQKoxvFM)
+* [Finding panics with Call Graph Analyzer](https://tweedegolf.nl/en/blog/242/finding-panics-with-call-graph-analyzer/)
 
 ### Research
 
 ### Miscellaneous
+
+* [uz] [Announcing Rust Uzbekistan & The Official Uzbek Translation of The Rust Book](https://doc.ferris.uz/)
 
 ## Crate of the Week
 
@@ -131,6 +142,11 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [sysknife - SetSshdOption reports success while an earlier sshd_config.d drop-in overrides the value it wrote](https://github.com/lacs-project/sysknife/issues/559)
 * [sysknife - On Postgres the daemon anchors the audit chain but every reader reports the anchor unsupported and exits 2](https://github.com/lacs-project/sysknife/issues/558)
 * [sysknife - ci-local.test.sh stays green when the #555 exit fix, the missing-tool default or the opt-out flag is reverted](https://github.com/lacs-project/sysknife/issues/591)
+* [Tabularis - [Feat]: Import connections from pgAdmin 4](https://github.com/TabularisDB/tabularis/issues/1309)
+* [Keepword - Say how many networks have observed a node that isn't located yet](https://git.keepword.net/keepword/keepword/issues/49)
+* [Octomind - `octomind workflow docs` fails with "Is a directory" when `./docs/` exists](https://github.com/Muvon/octomind/issues/242)
+* [Octomind - Workflow loop with `max_iterations = 0` passes validation and never runs](https://github.com/Muvon/octomind/issues/241)
+* [Octomind - ACP: send tool kind, file locations and diffs with tool calls](https://github.com/Muvon/octomind/issues/166)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
