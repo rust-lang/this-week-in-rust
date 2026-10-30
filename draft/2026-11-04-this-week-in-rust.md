@@ -124,8 +124,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
-* [Crossfyre Toolchain - voyage: hackertarget and alienvault keep names that only end like the target](https://github.com/clickswave/crossfyre-toolchain/issues/17)
 * [Crossfyre Toolchain - voyage: remove old source files the build no longer compiles](https://github.com/clickswave/crossfyre-toolchain/issues/18)
+* [Crossfyre Toolchain - voyage: add subdomain.center as a passive source](https://github.com/clickswave/crossfyre-toolchain/issues/31)
+* [Crossfyre Toolchain - voyage: give crt.sh and certspotter a parse function with tests](https://github.com/clickswave/crossfyre-toolchain/issues/32)
+* [Crossfyre Toolchain - crossfyre: add a hidden man command that prints a man page](https://github.com/clickswave/crossfyre-toolchain/issues/34)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
