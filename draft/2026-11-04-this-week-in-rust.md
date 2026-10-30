@@ -126,7 +126,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 * [INVAR - Verify a v0.2.0 release asset on your platform, as a stranger](https://github.com/Ramesh-35/invar/issues/1)
-* [INVAR - Turn the HELLTEST hostile-input probes into committed regression tests](https://github.com/Ramesh-35/invar/issues/2)
+* [INVAR - Turn the HELLTEST hostile-input probes into committed regression tests](https://github.com/Ramesh-35/invar/issues/2
+
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
 [guidelines]:https://github.com/rust-lang/this-week-in-rust?tab=readme-ov-file#call-for-participation-guidelines
