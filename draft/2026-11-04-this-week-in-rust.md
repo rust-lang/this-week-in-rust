@@ -51,6 +51,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [Who Are You? versus Who Owns You? — What Rust Memory Safety and Wireless Addressing Have in Common](https://medium.com/@potto_94870/who-are-you-versus-who-owns-you-what-rust-memory-safety-and-wireless-addressing-have-in-common-b876a81468d5)
 
 ### Research
 
