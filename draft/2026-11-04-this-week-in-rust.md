@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [series] [Userland Linux scheduler in Rust - faster than time](https://kapteko.com/userland-linux-scheduler-in-rust/)
+
 ### Research
 
 ### Miscellaneous
