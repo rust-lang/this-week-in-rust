@@ -49,7 +49,7 @@ and just ask the editors to select the category.
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
-
+* [PageSift 1.0](https://github.com/YOLOW92/pagesift) — a Rust web content engine for AI agents (crawl/extract, PDF/Office, self-built OCR, MCP server) that replaces hand-tuned limits with a statistical kernel.
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
