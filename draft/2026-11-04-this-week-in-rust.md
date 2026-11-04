@@ -58,7 +58,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [tellus](https://crates.io/crates/tellus), a tokio-based actor framework that can be used without writing async code.
+
+Thanks to [Sean Kwak](https://users.rust-lang.org/t/crate-of-the-week/2704/1708) for the partial-self-suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -112,7 +114,6 @@ If you are a feature implementer and would like your RFC to appear on the above 
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
 
-
 ## Call for Participation; projects and speakers
 
 ### CFP - Projects
@@ -141,7 +142,64 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+597 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-10-27..2026-11-03
+
+#### Compiler
+* [GCI: check where-clauses of associated constants for well-formedness](https://github.com/rust-lang/rust/pull/165184)
+* [MIR move elimination (1.5/6): Ensure ZSTs are always initialized](https://github.com/rust-lang/rust/pull/163359)
+* [MIR move elimination (5/6): Storage reconstruction](https://github.com/rust-lang/rust/pull/163339)
+* [check associated const binding types](https://github.com/rust-lang/rust/pull/161131)
+* [destringlyfy lint infrastructure](https://github.com/rust-lang/rust/pull/164607)
+* [expand an early return case in `coerce_unsized`](https://github.com/rust-lang/rust/pull/164341)
+* [new solver opts for `diesel` (part 2)](https://github.com/rust-lang/rust/pull/164234)
+* [new solver opts for diesel (part 3)](https://github.com/rust-lang/rust/pull/165160)
+* [perf: emit field names as a concatenated string in `derive(Debug)` for structs](https://github.com/rust-lang/rust/pull/164726)
+
+#### Library
+* [add `MaybeUninit::from_ref`](https://github.com/rust-lang/rust/pull/165214)
+* [add {`Receiver`, `Sender`, `SyncSender`}`::`{`is_empty,len`}](https://github.com/rust-lang/rust/pull/165248)
+* [add `strict_` methods to `NonZero`](https://github.com/rust-lang/rust/pull/164848)
+* [add `TrySendError::into_inner`](https://github.com/rust-lang/rust/pull/165103)
+* [core: constify `resumable_breakpoint` and re-export it in `std`](https://github.com/rust-lang/rust/pull/164608)
+* [ensure the display impl of uXX is small with `optimize_for_size`](https://github.com/rust-lang/rust/pull/165284)
+* [implement `Duration::display_seconds`](https://github.com/rust-lang/rust/pull/165181)
+* [implement `Fn` traits for safe functions of any ABI](https://github.com/rust-lang/rust/pull/160186)
+* [implement `Vec::retain_unstable` ACP](https://github.com/rust-lang/rust/pull/164155)
+* [implement `advance_back_by` on `Fuse`](https://github.com/rust-lang/rust/pull/165132)
+* [make `IoSlice` and `IoSliceMut` methods unstably const](https://github.com/rust-lang/rust/pull/144090)
+* [move lang item collection to the resolver](https://github.com/rust-lang/rust/pull/163525)
+* [specialize vec `extend_with`](https://github.com/rust-lang/rust/pull/163757)
+* [optimize large elements for slice rotating](https://github.com/rust-lang/rust/pull/162754)
+
+#### Cargo
+* [windows: Delay-load system DLLs that most commands don't use](https://github.com/rust-lang/cargo/pull/17623)
+* [fix manifest schema generation: `TomlOptLevel` and `StringOrVec`](https://github.com/rust-lang/cargo/pull/17660)
+* [warn about conflicting proc-macro manifest settings](https://github.com/rust-lang/cargo/pull/17641)
+
+#### Rustdoc
+* [add unstable option `--crate-list-heading` to customize the sidebar crate list](https://github.com/rust-lang/rust/pull/138143)
+* [improve `ItemKind`](https://github.com/rust-lang/rust/pull/162916)
+* [notable trait badge and popover enhancements](https://github.com/rust-lang/rust/pull/160370)
+
+#### Rustfmt
+* [have `cfg_select!` double-brace concise formatting respect `control_brace_style`](https://github.com/rust-lang/rustfmt/pull/7214)
+
+#### Clippy
+* [don't report missing safety doc for `#[target_feature(enable)]` attributed functions](https://github.com/rust-lang/rust-clippy/pull/17051)
+* [fix ICE in `arbitrary_source_item_ordering`](https://github.com/rust-lang/rust-clippy/pull/17941)
+* [fix `assert_is_empty` false positive with constant context](https://github.com/rust-lang/rust-clippy/pull/17950)
+* [fix `borrowed_box` suggestion for trait objects to mention `.as_ref()` at call sites](https://github.com/rust-lang/rust-clippy/pull/17794)
+* [fix `manual_inspect` suggestions for mutating closures](https://github.com/rust-lang/rust-clippy/pull/17741)
+* [fix: signed abs rounding error in remainder identity check](https://github.com/rust-lang/rust-clippy/pull/17963)
+
+#### Rust-Analyzer
+* [fix LSP panic on unbound function when generics are present](https://github.com/rust-lang/rust-analyzer/pull/23602)
+* [fix lowering of `yield` in `async gen`](https://github.com/rust-lang/rust-analyzer/pull/23586)
+* [fix: suggest reference after dereferences](https://github.com/rust-lang/rust-analyzer/pull/23562)
+* [panic `Expr not in lookup` due to projection types](https://github.com/rust-lang/rust-analyzer/pull/23495)
+* [perf: provide `ThinMap`, a map that uses `ThinVec` when the length is small](https://github.com/rust-lang/rust-analyzer/pull/23228)
 
 ### Rust Compiler Performance Triage
 
@@ -318,7 +376,11 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Think about how your contributions may be received before you send them. This kind of thought, true thought, with real emotion and reasoning, is the only thing that you, a human, are guaranteed to be able to contribute.
+
+– [Jubilee on rust-users](https://users.rust-lang.org/t/tips-for-your-first-pull-request/143356/3)
+
+Thanks to [Jonas Fassbender](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1838) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
