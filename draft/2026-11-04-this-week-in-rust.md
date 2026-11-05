@@ -62,6 +62,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Progress Report #44: rustc_codegen_gcc can now bootstrap rustc on Aarch64!](https://blog.antoyo.xyz/rustc_codegen_gcc-progress-report-44)
 
 ### Observations/Thoughts
+* [Everything you need to know to secure your Rust projects against the waves of cyberattacks](https://kerkour.com/secure-rust-projects)
 
 * [Thinking in Traits](https://corrode.dev/blog/thinking-in-traits/)
 * [How to speed up the Rust compiler in November 2026](https://nnethercote.github.io/2026/11/04/how-to-speed-up-the-rust-compiler-in-november-2026.html)
