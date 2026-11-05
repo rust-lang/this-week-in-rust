@@ -155,6 +155,20 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
+This week a 0.4% increase in instructions is traded for a 33% reduction in `rmeta` size on some real benchmarks.
+Even with that regression, this week's average is still very positive thanks to a refactoring around `AttrTokenStream`,
+by using `Symbol`s instead of `String`s in the lint infrastructure,
+and by avoiding an extra AST walk for lang item collection, among other things.
+A lot of noise this week, which is mostly caused by two large rollups whose base PR was noise.
+
+Triage done by **@JonathanBrouwer**.
+Revision range: [019b59d8..4c46afa6](https://perf.rust-lang.org/?start=019b59d8101bb3e141f1b880684747b4217beeb6&end=4c46afa63688fb473618f9b3553d70b0c15a88eb&absolute=false&stat=instructions%3Au)
+
+3 Regressions, 11 Improvements, 27 Mixed; 2 of them in rollups
+195 artifact comparisons made in total
+
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/87c69dbbcdc5f571ebe50dc0107c846b6a102422/triage/2026/2026-11-02.md)
+
 <!-- Perf results go here -->
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
