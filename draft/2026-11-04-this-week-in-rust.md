@@ -73,6 +73,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [series] [Userland Linux scheduler in Rust - faster than time](https://kapteko.com/userland-linux-scheduler-in-rust/)
 * [Who Are You? versus Who Owns You? — What Rust Memory Safety and Wireless Addressing Have in Common](https://medium.com/@potto_94870/who-are-you-versus-who-owns-you-what-rust-memory-safety-and-wireless-addressing-have-in-common-b876a81468d5)
 * [video] [Rust Atomics Demystified](https://www.youtube.com/watch?v=R8IeTvTHlxU)
 * [video] [Fix Your Rust Functions](https://www.youtube.com/watch?v=X5Bf_Udenys)
