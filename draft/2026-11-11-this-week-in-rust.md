@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
+* [I snuck into the Rust Foundation's secret meeting; here's what you need to know.](https://rust-lang.zulipchat.com/#narrow/channel/122651-general/topic/I.20snuck.20into.20the.20Rust.20Foundation.27s.20secret.20meeting)
 
 ### Rust Walkthroughs
 
