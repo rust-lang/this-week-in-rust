@@ -125,6 +125,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Plastor - Read depth from tone bands and cross-contours (fix flat heads on real drawings)](https://github.com/endlessGold/Plastor/issues/2)
 * [Plastor - CI: build and run the Blender-free checks on Linux, macOS and Windows](https://github.com/endlessGold/Plastor/issues/8)
 * [Plastor - `mh score`: report watertight and Euler characteristic](https://github.com/endlessGold/Plastor/issues/10)
+* [Quill - Show the service message for chats started through a free messages link](https://github.com/shinycake/quill/issues/1351)
+* [Quill - Apply the free messages token when opening a link that carries one](https://github.com/shinycake/quill/issues/1352)
+* [Quill - Try Quill on real Windows and Linux machines and report what breaks](https://github.com/shinycake/quill/issues/1353)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
