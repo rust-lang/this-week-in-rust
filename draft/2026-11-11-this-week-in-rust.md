@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Pointer Provenance in Rust vs C++: Pointers Are Not Just Glorified Ints](https://sofiabelen.github.io/projects/pointer-provenance-in-rust-vs-cpp/)
+
 ### Research
 
 ### Miscellaneous
