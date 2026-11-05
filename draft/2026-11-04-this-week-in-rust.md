@@ -72,6 +72,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [audio] [Small Crates Behind Big Rust Systems](https://netstack.fm/episodes/small-crates-behind-big-rust-systems)
 * [audio] [Migrating C to Rust with Jonas Kruckenberg](https://rustacean-station.org/episode/jonas-kruckenberg/)
 
+* [Building fine-grained version control for agents with Rust and Durable Objects](https://delta.dev/blog/fine-grained-version-control-for-agents)
+
 ### Rust Walkthroughs
 
 * [series] [Userland Linux scheduler in Rust - faster than time](https://kapteko.com/userland-linux-scheduler-in-rust/)
