@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Tokio, channels and poisoned locks](https://www.reymom.xyz/blog/rust/2026-11-06-tokio-channels-and-poisoned-locks)
+
 ### Research
 
 ### Miscellaneous
