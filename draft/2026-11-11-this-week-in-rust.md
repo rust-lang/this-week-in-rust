@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [RSPHP Part 1: Bindings](https://scherzer.dev/Blog/20261106-rsphp-bindings)
+
 ### Research
 
 ### Miscellaneous
