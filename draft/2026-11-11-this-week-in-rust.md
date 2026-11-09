@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Building Delta’s thread UI on hard mode](https://delta.dev/blog/building-a-thread-ui-on-hard-mode)
+
 ### Research
 
 ### Miscellaneous
