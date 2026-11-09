@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Breaking a Rust actor cluster on purpose, and what it taught us](https://heikoseeberger.de/2026-11-09-chaos-verifier/)
+
 ### Rust Walkthroughs
 
 ### Research
