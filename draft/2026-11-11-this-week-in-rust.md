@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
+* [Kova: Defeating Rust's Orphan Rules and Monomorphization Bloat in a Macro-Free SQL ORM](https://github.com/edvong/kova)
 
 ### Rust Walkthroughs
 
