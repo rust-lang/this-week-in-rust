@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [IDBD in Rust: A Learning Rate for Every Input](https://minikin.me/blog/idbd-in-rust/)
+
 ### Rust Walkthroughs
 
 ### Research
