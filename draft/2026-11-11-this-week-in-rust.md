@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Rust Benchmarking: How to Detect Performance Regressions in CI](https://hotpath.rs/blog/rust-performance-benchmarking)
+
 ### Research
 
 ### Miscellaneous
