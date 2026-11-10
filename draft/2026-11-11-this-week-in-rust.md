@@ -50,6 +50,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [series] [Apache Iggy's migration journey to clustering powered by Viewstamped Replication (part 3)](https://iggy.apache.org/blogs/2026/10/27/vsr-clustering-part-3/)
 ### Rust Walkthroughs
 
 ### Research
