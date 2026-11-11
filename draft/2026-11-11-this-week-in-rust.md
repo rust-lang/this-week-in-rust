@@ -123,10 +123,14 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+* [Klicky - Cover silence and signed sample boundaries in audio-normalization tests](https://github.com/Muneer320/klicky/issues/116)
 <!-- * [ - ]() -->
 * [Octomind - `parallel = "true"` in a workflow step fails with "missing field `role`"](https://github.com/Muvon/octomind/issues/296)
 * [Octomind - `schedule` accepts `when="13am"` and fires at 13:00](https://github.com/Muvon/octomind/issues/295)
 * [Octomind - `octomind configure` saves a pasted API key with spaces around it](https://github.com/Muvon/octomind/issues/299)
+* [sysknife - publish-mcp.yml runs an unpinned mcp-publisher with id-token: write, and pinned-dependencies.test.sh never reads that file](https://github.com/lacs-project/sysknife/issues/702)
+* [sysknife - MCP plan and execute results do not name the host they came from](https://github.com/lacs-project/sysknife/issues/621)
+* [sysknife - dev-stories.sh runs the stories against the sysknife on PATH, not the binary it builds](https://github.com/lacs-project/sysknife/issues/659)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
