@@ -128,6 +128,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [Octomind - `parallel = "true"` in a workflow step fails with "missing field `role`"](https://github.com/Muvon/octomind/issues/296)
 * [Octomind - `schedule` accepts `when="13am"` and fires at 13:00](https://github.com/Muvon/octomind/issues/295)
 * [Octomind - `octomind configure` saves a pasted API key with spaces around it](https://github.com/Muvon/octomind/issues/299)
+
+* [Umbera - Fuzz target for pdf_strip_metadata](https://github.com/UmberaAPP/UMBERA/issues/3)
+* [Umbera - Add NIST ACVP known-answer tests for ML-KEM-1024](https://github.com/UmberaAPP/UMBERA/issues/2)
 * [sysknife - publish-mcp.yml runs an unpinned mcp-publisher with id-token: write, and pinned-dependencies.test.sh never reads that file](https://github.com/lacs-project/sysknife/issues/702)
 * [sysknife - MCP plan and execute results do not name the host they came from](https://github.com/lacs-project/sysknife/issues/621)
 * [sysknife - dev-stories.sh runs the stories against the sysknife on PATH, not the binary it builds](https://github.com/lacs-project/sysknife/issues/659)
