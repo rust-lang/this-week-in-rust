@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Catching Panics in Production](https://xd009642.github.io/2026/11/10/Catching-Panics-in-Production/)
+
 ### Rust Walkthroughs
 
 ### Research
