@@ -125,6 +125,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 * [Klicky - Cover silence and signed sample boundaries in audio-normalization tests](https://github.com/Muneer320/klicky/issues/116)
 <!-- * [ - ]() -->
+
+* [Umbera - Fuzz target for pdf_strip_metadata](https://github.com/UmberaAPP/UMBERA/issues/3)
+* [Umbera - Add NIST ACVP known-answer tests for ML-KEM-1024](https://github.com/UmberaAPP/UMBERA/issues/2)
 * [sysknife - publish-mcp.yml runs an unpinned mcp-publisher with id-token: write, and pinned-dependencies.test.sh never reads that file](https://github.com/lacs-project/sysknife/issues/702)
 * [sysknife - MCP plan and execute results do not name the host they came from](https://github.com/lacs-project/sysknife/issues/621)
 * [sysknife - dev-stories.sh runs the stories against the sysknife on PATH, not the binary it builds](https://github.com/lacs-project/sysknife/issues/659)
