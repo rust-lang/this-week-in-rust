@@ -125,6 +125,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 * [Klicky - Cover silence and signed sample boundaries in audio-normalization tests](https://github.com/Muneer320/klicky/issues/116)
 <!-- * [ - ]() -->
+* [Octomind - `parallel = "true"` in a workflow step fails with "missing field `role`"](https://github.com/Muvon/octomind/issues/296)
+* [Octomind - `schedule` accepts `when="13am"` and fires at 13:00](https://github.com/Muvon/octomind/issues/295)
+* [Octomind - `octomind configure` saves a pasted API key with spaces around it](https://github.com/Muvon/octomind/issues/299)
 
 * [Umbera - Fuzz target for pdf_strip_metadata](https://github.com/UmberaAPP/UMBERA/issues/3)
 * [Umbera - Add NIST ACVP known-answer tests for ML-KEM-1024](https://github.com/UmberaAPP/UMBERA/issues/2)
