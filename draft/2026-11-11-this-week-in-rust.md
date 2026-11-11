@@ -39,6 +39,8 @@ and just ask the editors to select the category.
 
 ### Official
 
+- [Google Summer of Code 2026 results](https://blog.rust-lang.org/2026/11/11/gsoc-2026-results)
+
 ### Foundation
 
 ### Newsletters
