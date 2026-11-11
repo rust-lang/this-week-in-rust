@@ -232,6 +232,8 @@ Rusty Events between 2026-11-11 - 2026-12-09 🦀
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/316907781/)
 * 2026-11-24 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Fourth Tuesday Rust Bookclub**](https://www.meetup.com/dallasrust/events/310254769/)
+* 2026-11-26 | Virtual | [betterCode() Rust](https://rust.bettercode.eu/)
+    * [**betterCode() Rust 2026**](https://rust.bettercode.eu/)
 * 2026-12-01 | Virtual | [Rust 🦀 Maven](https://luma.com/rust-maven)
     * [**Cursed Rust**](https://luma.com/omlooqv8)
 * 2026-12-01 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
@@ -240,6 +242,8 @@ Rusty Events between 2026-11-11 - 2026-12-09 🦀
     * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/wqzhftyjcqbdb/)
 * 2026-12-03 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/316907782/)
+* 2026-12-04 | Hybrid (Moscow, RU) | [RustCon RU](https://rustcon.ru/)
+    * [**RustCon 2026**](https://rustcon.ru/)
 * 2026-12-06 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Rust Deep Learning: First Sunday**](https://www.meetup.com/dallasrust/events/316331278/)
 * 2026-12-08 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
@@ -282,6 +286,8 @@ Rusty Events between 2026-11-11 - 2026-12-09 🦀
     * [**Rust meetup #90**](https://www.meetup.com/rust-paris/events/316865676/)
 * 2026-12-02 | Frankfurt, DE | [Rust Rhein-Main](https://www.meetup.com/rust-rhein-main)
     * [**From Curiosity to Capability: Build Your Own Device Swarm**](https://www.meetup.com/rust-rhein-main/events/317186779/)
+* 2026-12-04 | Hybrid (Moscow, RU) | [RustCon RU](https://rustcon.ru/)
+    * [**RustCon 2026**](https://rustcon.ru/)
 
 ### North America
 * 2026-11-12 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust)
