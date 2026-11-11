@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Skipping Cloud Vendor SDKs: How ScopeDB Accesses Object Storage with Apache OpenDAL](https://opendal.apache.org/blog/2026/11/11/scopedb-on-opendal/)
+
 ### Rust Walkthroughs
 
 ### Research
