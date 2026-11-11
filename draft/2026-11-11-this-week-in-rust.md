@@ -270,7 +270,7 @@ Rusty Events between 2026-11-11 - 2026-12-09 🦀
     * [**Talk Night at EIVA**](https://www.meetup.com/rust-aarhus/events/316938696/)
 * 2026-11-19 | Bergen, NO | [Rust Bergen](https://www.meetup.com/bergen-rust-new-technology/events/)
     * [**Rust: FFI with C++, and Intro to Async**](https://www.meetup.com/de-de/bergen-rust-new-technology/events/317045463/)
-* 2026-11-20 and 2026-11-21 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
+* 2026-11-20 - 2026-11-21 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
     * [**Embedded Rust mit Embassy - Workshop und Projekttag**](https://my.tuxedocomputers.com/event/embedded-rust-mit-embassy-workshop-und-projekttag-28/register)
 * 2026-11-26 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/events/)
     * [**Rust meetup #73 sponsored by Adapt!**](https://www.meetup.com/copenhagen-rust-community/events/317181792/)
@@ -313,7 +313,7 @@ Rusty Events between 2026-11-11 - 2026-12-09 🦀
 * 2026-11-07 | Planalto Paulista, BR | [Rust São Paulo Meetup](https://www.meetup.com/rust-sao-paulo-meetup)
     * [**Encontro do Rust-SP - Agora no Luma**](https://www.meetup.com/rust-sao-paulo-meetup/events/316812852/)
 
-### Oceania:
+### Oceania
 * 2026-11-24 | Barton, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra/events/)
     * [**November Meetup**](https://www.meetup.com/rust-canberra/events/316907340/)
 
