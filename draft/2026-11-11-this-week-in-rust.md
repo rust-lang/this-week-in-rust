@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
+* [Securing Rust's supply chain with an extended standard library](https://kerkour.com/rust-supply-chain-security-stdx)
 
 ### Rust Walkthroughs
 
