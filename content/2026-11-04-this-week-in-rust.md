@@ -117,8 +117,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
-* [INVAR - Turn the HELLTEST hostile-input probes into committed regression tests](https://github.com/Ramesh-35/invar/issues/2
-
+* [INVAR - Turn the HELLTEST hostile-input probes into committed regression tests](https://github.com/Ramesh-35/invar/issues/2)
 * [Plastor - Port the tracing step from Python to Rust](https://github.com/endlessGold/Plastor/issues/6)
 * [Plastor - Read depth from tone bands and cross-contours (fix flat heads on real drawings)](https://github.com/endlessGold/Plastor/issues/2)
 * [Plastor - CI: build and run the Blender-free checks on Linux, macOS and Windows](https://github.com/endlessGold/Plastor/issues/8)
