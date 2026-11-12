@@ -62,6 +62,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 * [Catching Panics in Production](https://xd009642.github.io/2026/11/10/Catching-Panics-in-Production/)
 
+* [Skipping Cloud Vendor SDKs: How ScopeDB Accesses Object Storage with Apache OpenDAL](https://opendal.apache.org/blog/2026/11/11/scopedb-on-opendal/)
+
 ### Rust Walkthroughs
 
 * [RSPHP Part 1: Bindings](https://scherzer.dev/Blog/20261106-rsphp-bindings)
