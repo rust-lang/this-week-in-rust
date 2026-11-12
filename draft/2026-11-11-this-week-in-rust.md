@@ -64,6 +64,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 * [Skipping Cloud Vendor SDKs: How ScopeDB Accesses Object Storage with Apache OpenDAL](https://opendal.apache.org/blog/2026/11/11/scopedb-on-opendal/)
 
+* [Memory Safety Bugs in Rust Standard Library](https://forge-blog.github.io/posts/rust-std-memory-safety/)
+
 ### Rust Walkthroughs
 
 * [RSPHP Part 1: Bindings](https://scherzer.dev/Blog/20261106-rsphp-bindings)
