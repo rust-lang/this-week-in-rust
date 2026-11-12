@@ -52,6 +52,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [series] [Apache Iggy's migration journey to clustering powered by Viewstamped Replication (part 3)](https://iggy.apache.org/blogs/2026/10/27/vsr-clustering-part-3/)
 * [I snuck into the Rust Foundation's secret meeting; here's what you need to know.](https://rust-lang.zulipchat.com/#narrow/channel/122651-general/topic/I.20snuck.20into.20the.20Rust.20Foundation.27s.20secret.20meeting)
 * [Breaking a Rust actor cluster on purpose, and what it taught us](https://heikoseeberger.de/2026-11-09-chaos-verifier/)
 
