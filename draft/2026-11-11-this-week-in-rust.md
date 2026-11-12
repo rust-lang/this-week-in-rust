@@ -61,6 +61,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [RSPHP Part 1: Bindings](https://scherzer.dev/Blog/20261106-rsphp-bindings)
 * [Pointer Provenance in Rust vs C++: Pointers Are Not Just Glorified Ints](https://sofiabelen.github.io/projects/pointer-provenance-in-rust-vs-cpp/)
 * [Tokio, channels and poisoned locks](https://www.reymom.xyz/blog/rust/2026-11-06-tokio-channels-and-poisoned-locks)
 * [video] [RustCurious lesson 12: Lifetimes](https://www.youtube.com/watch?v=h3okIDxOZIA)
