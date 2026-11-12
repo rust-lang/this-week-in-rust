@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [The Embedded Rustacean Issue #84](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-84)
+
 ### Project/Tooling Updates
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
@@ -50,7 +52,14 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [I snuck into the Rust Foundation's secret meeting; here's what you need to know.](https://rust-lang.zulipchat.com/#narrow/channel/122651-general/topic/I.20snuck.20into.20the.20Rust.20Foundation.27s.20secret.20meeting)
+* [Breaking a Rust actor cluster on purpose, and what it taught us](https://heikoseeberger.de/2026-11-09-chaos-verifier/)
+
 ### Rust Walkthroughs
+
+* [Pointer Provenance in Rust vs C++: Pointers Are Not Just Glorified Ints](https://sofiabelen.github.io/projects/pointer-provenance-in-rust-vs-cpp/)
+* [Tokio, channels and poisoned locks](https://www.reymom.xyz/blog/rust/2026-11-06-tokio-channels-and-poisoned-locks)
+* [video] [RustCurious lesson 12: Lifetimes](https://www.youtube.com/watch?v=h3okIDxOZIA)
 
 ### Research
 
