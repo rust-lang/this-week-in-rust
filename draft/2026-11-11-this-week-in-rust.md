@@ -58,7 +58,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [iddqd](https://docs.rs/iddqd), a library of maps where keys are borrowed from values.
+
+Thanks to [Miro](https://users.rust-lang.org/t/crate-of-the-week/2704/1715) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -112,7 +114,6 @@ If you are a feature implementer and would like your RFC to appear on the above 
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
 
-
 ## Call for Participation; projects and speakers
 
 ### CFP - Projects
@@ -151,7 +152,97 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+659 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-11-03..2026-11-10
+
+#### Compiler
+* [add enclosing item context when pointing at `FnMut` bound](https://github.com/rust-lang/rust/pull/163241)
+* [add `let_underscore_drop_guard` lint](https://github.com/rust-lang/rust/pull/164414)
+* [don't emit no-op `&T` → `&T` reborrows](https://github.com/rust-lang/rust/pull/164014)
+* [lint: do not emit `unreachable_code` on become with diverging callee](https://github.com/rust-lang/rust/pull/165539)
+* [make inline attributes apply to the generated `poll` in async fn](https://github.com/rust-lang/rust/pull/149245)
+* [next solver unsize coercion diagnostics](https://github.com/rust-lang/rust/pull/165404)
+* [reborrow: Allow multiple lifetimes](https://github.com/rust-lang/rust/pull/163284)
+* [restore the fast path of `QueryTypeOp`](https://github.com/rust-lang/rust/pull/165672)
+* [reuse CanonicalVarKinds if no new variables were added](https://github.com/rust-lang/rust/pull/164304)
+* [`rustc_builtin_macros` cleanup, part 9](https://github.com/rust-lang/rust/pull/165161)
+* [skip `reachable_set` calculation during metadata encoding when unused](https://github.com/rust-lang/rust/pull/165602)
+* [support mutable captures in move expressions](https://github.com/rust-lang/rust/pull/165571)
+
+#### Library
+* [`Move` trait feature gate](https://github.com/rust-lang/rust/pull/165569)
+* [`String::retain`: convert only the untouched UTF-8 tail](https://github.com/rust-lang/rust/pull/163624)
+* [add `BTreeMap::allocator` and `BTreeSet::allocator`](https://github.com/rust-lang/rust/pull/165463)
+* [add `core::arch::{x86, x86_64}::x87_f80`](https://github.com/rust-lang/rust/pull/163992)
+* [add `Discriminant::ord`](https://github.com/rust-lang/rust/pull/165443)
+* [add `LinkedList::allocator`](https://github.com/rust-lang/rust/pull/165697)
+* [drop array elements in order after a partial move](https://github.com/rust-lang/rust/pull/165037)
+* [expose `str::split_at_[mut_]unchecked` and `OsStr::split_at_unchecked`](https://github.com/rust-lang/rust/pull/165546)
+* [implement `read_le/read_be` for f16 and f128](https://github.com/rust-lang/rust/pull/165330)
+* [implement `bit` and `set_bit` for integral types](https://github.com/rust-lang/rust/pull/147696)
+* [optimize memset/memcpy size](https://github.com/rust-lang/compiler-builtins/pull/1333)
+
+#### Cargo
+* [`config`: Expose config merging, reading, and schemas in a crate](https://github.com/rust-lang/cargo/pull/17705)
+* [`schema`: Expose SBOM types](https://github.com/rust-lang/cargo/pull/17683)
+* [`doc`: do not suggest cargo fix for rustdoc warnings](https://github.com/rust-lang/cargo/pull/17702)
+* [`profile`: preserve inherited strip](https://github.com/rust-lang/cargo/pull/17678)
+* [`registry`: handle HTTP 410/451 for missing crates](https://github.com/rust-lang/cargo/pull/17665)
+* [`schema`: Improve deserialization errors and performance](https://github.com/rust-lang/cargo/pull/17697)
+* [`parse`: Trade remote manifest diagnostic quality for performance](https://github.com/rust-lang/cargo/pull/17701)
+* [clean `/out` dir before compilation](https://github.com/rust-lang/cargo/pull/17675)
+* [dont strip if any transtive dep has debuginfo on](https://github.com/rust-lang/cargo/pull/17689)
+* [strip host deps whose debuginfo was weakened already](https://github.com/rust-lang/cargo/pull/17691)
+
+#### Rustdoc
+* [Avoid re-HIR-ty-lowering tys & const args where possible](https://github.com/rust-lang/rust/pull/163217)
+* [frontend: Properly clear search state when sidebar link is clicked](https://github.com/rust-lang/rust/pull/165726)
+* [Allow `.` to be used the same as `:`: in the search](https://github.com/rust-lang/rust/pull/164036)
+* [Render `Deref` methods on aliased items](https://github.com/rust-lang/rust/pull/163571)
+* [fix invalid clean of paths when they end with `self`](https://github.com/rust-lang/rust/pull/165357)
+* [improve performance by skipping unneeded intermediate JSON serializations](https://github.com/rust-lang/rust/pull/165495)
+* [make implementors collapseable if there is more than one line of docs](https://github.com/rust-lang/rust/pull/165427)
+* [suggest reference definitions for unresolved links](https://github.com/rust-lang/rust/pull/165660)
+
+#### Rustfmt
+* [allow reading args from `@path`](https://github.com/rust-lang/rustfmt/pull/7220)
+* [fix unclosed trailing block comments with `wrap_comments=true` or `normalize_comments=true`](https://github.com/rust-lang/rustfmt/pull/7217)
+* [formatting empty where clauses when there are return types](https://github.com/rust-lang/rustfmt/pull/6167)
+* [remove each comment's leading whitespace in `comment::rewrite_comment`](https://github.com/rust-lang/rustfmt/pull/5392)
+
+#### Clippy
+* [`while_let_loop`: lint only wildcard `break` patterns and special cases](https://github.com/rust-lang/rust-clippy/pull/17906)
+* [add `is_lint_allowed` to `future_not_send`](https://github.com/rust-lang/rust-clippy/pull/17813)
+* [extend `assert_is_empty` to support `BinaryHeap`](https://github.com/rust-lang/rust-clippy/pull/17961)
+* [extend `unnecessary_to_owned` to cover `vec.contains(&str.to_string())`](https://github.com/rust-lang/rust-clippy/pull/17920)
+* [fix `collapsible_match` suggestion producing non-exhaustive match](https://github.com/rust-lang/rust-clippy/pull/17964)
+* [fix false positives on `duplicated_attributes`](https://github.com/rust-lang/rust-clippy/pull/17655)
+* [improve `future_not_send` for next-solver](https://github.com/rust-lang/rust-clippy/pull/17849)
+* [rename `large_stack_frames` and move it to suspicious](https://github.com/rust-lang/rust-clippy/pull/17749)
+
+#### Rust-Analyzer
+* [disallow ZSTs in `ThinMap`](https://github.com/rust-lang/rust-analyzer/pull/23640)
+* [complete trait `dyn` prefix in type location](https://github.com/rust-lang/rust-analyzer/pull/23478)
+* [offer on wildcard pattern for `destructure_struct_binding`](https://github.com/rust-lang/rust-analyzer/pull/23620)
+* [add macOS, iOS, Android and musl to cfg completion](https://github.com/rust-lang/rust-analyzer/pull/23637)
+* [add support for final associated functions](https://github.com/rust-lang/rust-analyzer/pull/23585)
+* [do not complete dyn Trait in sized location](https://github.com/rust-lang/rust-analyzer/pull/23631)
+* [do not suggest unreachable path of `struct` lit](https://github.com/rust-lang/rust-analyzer/pull/23579)
+* [don't complete transparent after `repr(align(...))` or `repr(packed)`](https://github.com/rust-lang/rust-analyzer/pull/23636)
+* [emit E0158 and E0532 for invalid value items in path patterns](https://github.com/rust-lang/rust-analyzer/pull/23583)
+* [emit assoc item bound only with generics on builtin derive](https://github.com/rust-lang/rust-analyzer/pull/23606)
+* [ensure r-a matches rustc coercion logic](https://github.com/rust-lang/rust-analyzer/pull/23610)
+* [fix where clause position for assoc-type](https://github.com/rust-lang/rust-analyzer/pull/23554)
+* [i28 should be i128 in completion](https://github.com/rust-lang/rust-analyzer/pull/23615)
+* [ide-diagnostics: emit error E0220 for unresolved associated types](https://github.com/rust-lang/rust-analyzer/pull/23619)
+* [match rustc-unicode locations in the rustc problem matcher](https://github.com/rust-lang/rust-analyzer/pull/23598)
+* [nested cast before `<` add parens for `apply_demorgan`](https://github.com/rust-lang/rust-analyzer/pull/23616)
+* [offer gen doc example on re-exported item](https://github.com/rust-lang/rust-analyzer/pull/23592)
+* [out-of-bounds crash due to copypasta](https://github.com/rust-lang/rust-analyzer/pull/23608)
+* [panic on `for<'a>` on types using `#[derive()]`](https://github.com/rust-lang/rust-analyzer/pull/23543)
+* [implement hiding implicit drop hints for types without drop glue](https://github.com/rust-lang/rust-analyzer/pull/23600)
+* [perf: micro-optimizations for lang items](https://github.com/rust-lang/rust-analyzer/pull/23591)
 
 ### Rust Compiler Performance Triage
 
@@ -330,7 +421,15 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> No, actually it is harder. Much harder. Your brain normally runs an error-correction pass on every word you read before that word reaches your conscious attention. This is why it's so easy to miss typos, but the correction doesn't just hide typos from you, it can replace entire phrases with what "ought" to be there. It takes continuous concentration to suppress this effect.
+>
+> \[…\]
+>
+> (Curly brace placement is of course also subject to the error filter, but curly braces go with large changes in indentation, and that's usually a big enough visual flag to get past the filter. In fact that's why Rust requires all blocks to be braced -- the experience with C was that people would think indented statements were braced when they weren't.)
+
+– [Zack Weinberg on rust-internals](https://internals.rust-lang.org/t/yet-another-performance-footgun-in-rust-multithreading-lock-edition/24726/68)
+
+Thanks to [Michael Howell](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1841) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
