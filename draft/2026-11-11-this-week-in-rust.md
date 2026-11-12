@@ -41,27 +41,21 @@ and just ask the editors to select the category.
 
 * [Google Summer of Code 2026 results](https://blog.rust-lang.org/2026/11/11/gsoc-2026-results)
 
-### Foundation
-
 ### Newsletters
 
 * [The Embedded Rustacean Issue #84](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-84)
-
-### Project/Tooling Updates
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
-* [Securing Rust's supply chain with an extended standard library](https://kerkour.com/rust-supply-chain-security-stdx)
 
+* [Securing Rust's supply chain with an extended standard library](https://kerkour.com/rust-supply-chain-security-stdx)
 * [Run Linux applications in hypervisor-isolated micro-VMs with Hyperlight](https://www.cncf.io/blog/2026/11/09/run-linux-applications-in-hypervisor-isolated-micro-vms-with-hyperlight/)
 * [series] [Apache Iggy's migration journey to clustering powered by Viewstamped Replication (part 3)](https://iggy.apache.org/blogs/2026/10/27/vsr-clustering-part-3/)
 * [I snuck into the Rust Foundation's secret meeting; here's what you need to know.](https://rust-lang.zulipchat.com/#narrow/channel/122651-general/topic/I.20snuck.20into.20the.20Rust.20Foundation.27s.20secret.20meeting)
 * [Breaking a Rust actor cluster on purpose, and what it taught us](https://heikoseeberger.de/2026-11-09-chaos-verifier/)
-
 * [Catching Panics in Production](https://xd009642.github.io/2026/11/10/Catching-Panics-in-Production/)
-
 * [Skipping Cloud Vendor SDKs: How ScopeDB Accesses Object Storage with Apache OpenDAL](https://opendal.apache.org/blog/2026/11/11/scopedb-on-opendal/)
 * [Bringing Rust into Ubuntu at Scale: Interview with Jon Seager](https://serokell.io/blog/ubuntu-rust-coreutils-jon-seager)
 * [Rust Benchmarking: How to Detect Performance Regressions in CI](https://hotpath.rs/blog/rust-performance-benchmarking)
@@ -75,10 +69,6 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Pointer Provenance in Rust vs C++: Pointers Are Not Just Glorified Ints](https://sofiabelen.github.io/projects/pointer-provenance-in-rust-vs-cpp/)
 * [Tokio, channels and poisoned locks](https://www.reymom.xyz/blog/rust/2026-11-06-tokio-channels-and-poisoned-locks)
 * [video] [RustCurious lesson 12: Lifetimes](https://www.youtube.com/watch?v=h3okIDxOZIA)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
