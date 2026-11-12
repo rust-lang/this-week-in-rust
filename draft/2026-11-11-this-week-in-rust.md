@@ -68,6 +68,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [video] [Code Matters: Reflections on Rust in the LLM Age — Bryan Cantrill | Rust NYC](https://www.youtube.com/watch?v=5D7QPOIZ7gY)
 * [A Critique of GPUI](https://blog.zortax.de/posts/a-critique-of-gpui)
 * [Memory Safety Bugs in Rust Standard Library](https://forge-blog.github.io/posts/rust-std-memory-safety/)
+* [Rust Declarative Macros: Organization, Scoping, and Common Use-Cases](https://sigseis.dev/articles/2026/11/10)
 
 ### Rust Walkthroughs
 
