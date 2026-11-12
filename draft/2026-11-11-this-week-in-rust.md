@@ -63,6 +63,11 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Catching Panics in Production](https://xd009642.github.io/2026/11/10/Catching-Panics-in-Production/)
 
 * [Skipping Cloud Vendor SDKs: How ScopeDB Accesses Object Storage with Apache OpenDAL](https://opendal.apache.org/blog/2026/11/11/scopedb-on-opendal/)
+* [Bringing Rust into Ubuntu at Scale: Interview with Jon Seager](https://serokell.io/blog/ubuntu-rust-coreutils-jon-seager)
+* [Rust Benchmarking: How to Detect Performance Regressions in CI](https://hotpath.rs/blog/rust-performance-benchmarking)
+* [video] [Code Matters: Reflections on Rust in the LLM Age — Bryan Cantrill | Rust NYC](https://www.youtube.com/watch?v=5D7QPOIZ7gY)
+* [A Critique of GPUI](https://blog.zortax.de/posts/a-critique-of-gpui)
+* [Memory Safety Bugs in Rust Standard Library](https://forge-blog.github.io/posts/rust-std-memory-safety/)
 
 ### Rust Walkthroughs
 
