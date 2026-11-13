@@ -41,33 +41,28 @@ and just ask the editors to select the category.
 
 * [Google Summer of Code 2026 results](https://blog.rust-lang.org/2026/11/11/gsoc-2026-results)
 
-### Foundation
-
 ### Newsletters
 
 * [The Embedded Rustacean Issue #84](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-84)
-
-### Project/Tooling Updates
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
-* [Securing Rust's supply chain with an extended standard library](https://kerkour.com/rust-supply-chain-security-stdx)
 
+* [Securing Rust's supply chain with an extended standard library](https://kerkour.com/rust-supply-chain-security-stdx)
 * [Run Linux applications in hypervisor-isolated micro-VMs with Hyperlight](https://www.cncf.io/blog/2026/11/09/run-linux-applications-in-hypervisor-isolated-micro-vms-with-hyperlight/)
 * [series] [Apache Iggy's migration journey to clustering powered by Viewstamped Replication (part 3)](https://iggy.apache.org/blogs/2026/10/27/vsr-clustering-part-3/)
 * [I snuck into the Rust Foundation's secret meeting; here's what you need to know.](https://rust-lang.zulipchat.com/#narrow/channel/122651-general/topic/I.20snuck.20into.20the.20Rust.20Foundation.27s.20secret.20meeting)
 * [Breaking a Rust actor cluster on purpose, and what it taught us](https://heikoseeberger.de/2026-11-09-chaos-verifier/)
-
 * [Catching Panics in Production](https://xd009642.github.io/2026/11/10/Catching-Panics-in-Production/)
-
 * [Skipping Cloud Vendor SDKs: How ScopeDB Accesses Object Storage with Apache OpenDAL](https://opendal.apache.org/blog/2026/11/11/scopedb-on-opendal/)
 * [Bringing Rust into Ubuntu at Scale: Interview with Jon Seager](https://serokell.io/blog/ubuntu-rust-coreutils-jon-seager)
 * [Rust Benchmarking: How to Detect Performance Regressions in CI](https://hotpath.rs/blog/rust-performance-benchmarking)
 * [video] [Code Matters: Reflections on Rust in the LLM Age — Bryan Cantrill | Rust NYC](https://www.youtube.com/watch?v=5D7QPOIZ7gY)
 * [A Critique of GPUI](https://blog.zortax.de/posts/a-critique-of-gpui)
 * [Memory Safety Bugs in Rust Standard Library](https://forge-blog.github.io/posts/rust-std-memory-safety/)
+* [Rust Declarative Macros: Organization, Scoping, and Common Use-Cases](https://sigseis.dev/articles/2026/11/10)
 
 ### Rust Walkthroughs
 
@@ -75,10 +70,6 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Pointer Provenance in Rust vs C++: Pointers Are Not Just Glorified Ints](https://sofiabelen.github.io/projects/pointer-provenance-in-rust-vs-cpp/)
 * [Tokio, channels and poisoned locks](https://www.reymom.xyz/blog/rust/2026-11-06-tokio-channels-and-poisoned-locks)
 * [video] [RustCurious lesson 12: Lifetimes](https://www.youtube.com/watch?v=h3okIDxOZIA)
-
-### Research
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -126,12 +117,11 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
-* [Klicky - Cover silence and signed sample boundaries in audio-normalization tests](https://github.com/Muneer320/klicky/issues/116)
 <!-- * [ - ]() -->
+* [Klicky - Cover silence and signed sample boundaries in audio-normalization tests](https://github.com/Muneer320/klicky/issues/116)
 * [Octomind - `parallel = "true"` in a workflow step fails with "missing field `role`"](https://github.com/Muvon/octomind/issues/296)
 * [Octomind - `schedule` accepts `when="13am"` and fires at 13:00](https://github.com/Muvon/octomind/issues/295)
 * [Octomind - `octomind configure` saves a pasted API key with spaces around it](https://github.com/Muvon/octomind/issues/299)
-
 * [Umbera - Fuzz target for pdf_strip_metadata](https://github.com/UmberaAPP/UMBERA/issues/3)
 * [Umbera - Add NIST ACVP known-answer tests for ML-KEM-1024](https://github.com/UmberaAPP/UMBERA/issues/2)
 * [sysknife - publish-mcp.yml runs an unpinned mcp-publisher with id-token: write, and pinned-dependencies.test.sh never reads that file](https://github.com/lacs-project/sysknife/issues/702)
@@ -427,7 +417,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1wzctie/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
@@ -459,4 +449,4 @@ This Week in Rust is edited by:
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
-<small>[Discuss on r/rust](REDDIT_LINK_HERE)</small>
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/1xuwet4/this_week_in_rust_677/)</small>
