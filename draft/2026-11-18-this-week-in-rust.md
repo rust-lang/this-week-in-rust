@@ -123,6 +123,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+* [swizzle-runtime - Add /v1/models and OpenAI streaming SSE compatibility tests in crates/swizzle-server](https://github.com/Swizzle-AI/swizzle-runtime/issues/8)
+* [swizzle-runtime - Add shell completion generation (bash, zsh, fish, powershell) to swizzle-cli](https://github.com/Swizzle-AI/swizzle-runtime/issues/9)
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
