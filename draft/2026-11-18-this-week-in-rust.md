@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
+* [We were asked to write a JIT, and wrote a batch size instead](https://nuthatch-indexer.com/blog/we-were-asked-to-write-a-jit/)
 
 ### Rust Walkthroughs
 
