@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Introducing Rotex Through a Million Particles](https://www.voidreg.xyz/blog/introducing-rotex)
+
 ### Rust Walkthroughs
 
 ### Research
