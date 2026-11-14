@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [rusty_h265 0.7.0: Nine Decoder Veins and a Mixed FFmpeg Result](https://remadewithrust.com/learn/rusty-h265-0-7-0-decoder-kernel-campaign/)
+
 ### Rust Walkthroughs
 
 ### Research
