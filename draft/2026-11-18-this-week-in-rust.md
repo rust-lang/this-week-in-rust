@@ -124,6 +124,10 @@ Some of these tasks may also have mentors available, visit the task page for mor
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
+* [rightcommit - Add a Configuring Azure DevOps guide](https://github.com/rightcommit/rightcommit/issues/1)
+* [rightcommit - Add a minimal Local CI workflow example](https://github.com/rightcommit/rightcommit/issues/11)
+* [rightcommit - Document the first workflow after Docker setup](https://github.com/rightcommit/rightcommit/issues/12)
+* [rightcommit - Add a regression test for Local CI Makefile precedence](https://github.com/rightcommit/rightcommit/issues/13)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
