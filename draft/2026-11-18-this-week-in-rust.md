@@ -51,7 +51,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
-
+* [How Thryve works, with two projects in one engine](https://thryveframework.github.io/Thryvals/2026/11/12/how-thryve-works.html)
 ### Research
 
 ### Miscellaneous
