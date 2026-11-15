@@ -129,6 +129,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [sysknife - dev-stories.sh runs the stories against the sysknife on PATH, not the binary it builds](https://github.com/lacs-project/sysknife/issues/659)
 * [Elpis - Add DeepSeek, Mistral or Groq as a built-in provider](https://github.com/MasihMoafi/Elpis/issues/112)
 * [Elpis - Publish and maintain the elpis-bin package on the AUR](https://github.com/MasihMoafi/Elpis/issues/113)
+*  [Velocity-MQ - A zero-GC Rust message queue built with io_uring](https://github.com/developer-yasir/Velocity-MQ/issues/1)
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
