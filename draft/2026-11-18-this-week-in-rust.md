@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
+* [Most Rust projects don't bundle CA roots](https://blog.legoktm.com/2026/11/15/most-rust-projects-dont-bundle-ca-roots.html)
 
 ### Rust Walkthroughs
 
