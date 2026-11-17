@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Rust for Pythonistas: learn to read Rust side by side with Python](https://romanzdk.github.io/rust-for-pythonistas/)
+
 ### Research
 
 ### Miscellaneous
