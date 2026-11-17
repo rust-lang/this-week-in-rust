@@ -126,7 +126,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 * [my μcad fork (for organic 3D & AI-assisted procedural modeling)](https://github.com/Matthias-Fauconneau/mucad) is looking for contributors to help expand a Rust declarative B-Rep CAD language for self-improving procedural 3D asset generation. See the [project plan](https://github.com/blob/main/plan.typ) and an example open issue:
-  * [Add lightweight scatter distribution primitives (curve, surface, volume) with orientation and seed attributes](https://github.com/Matthias-Fauconneau/mucad/issues/1) (medium)
+  * [Add lightweight scatter distribution primitives (curve, surface, volume) with orientation and seed attributes](https://github.com/Matthias-Fauconneau/mucad/issues/1) (hard)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
