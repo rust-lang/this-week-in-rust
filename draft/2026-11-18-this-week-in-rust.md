@@ -43,6 +43,8 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [Rust Trends Issue 87 - Rust 1.100 Ships the Never Type](https://rust-trends.com/newsletter/rust-1-100-ships-the-never-type/)
+
 ### Project/Tooling Updates
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
