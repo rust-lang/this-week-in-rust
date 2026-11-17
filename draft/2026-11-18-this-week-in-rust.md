@@ -128,6 +128,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 * [presswork - Hardware matrix: run the IPP conformance suite against real printers](https://github.com/vindeckyy/presswork/issues/6)
 * [presswork - Expand ipptool conformance matrix to remaining upstream .test files](https://github.com/vindeckyy/presswork/issues/7)
+* [rightcommit - Add a minimal Local CI workflow example](https://github.com/rightcommit/rightcommit/issues/11)
+* [rightcommit - Add a regression test for Local CI Makefile precedence](https://github.com/rightcommit/rightcommit/issues/13)
 
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
