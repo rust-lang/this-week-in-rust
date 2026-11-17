@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Rust in the Linux kernel: lines of code, unsafe and calls into C for every release since v6.1](https://rust-trends.com/linux-rust/)
+
 ### Rust Walkthroughs
 
 ### Research
