@@ -123,6 +123,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+* [AppBridge - [easy] Add CLI subcommand `appbridge delta` to inspect byte savings between two .appbridge bundles](https://github.com/Kolgrim33/appbridge/issues/1)
+* [AppBridge - [medium] Support real Ed25519 asymmetric keypair generation and verification for .appbridge bundles](https://github.com/Kolgrim33/appbridge/issues/2)
 <!-- * [ - ]() -->
 * [presswork - Hardware matrix: run the IPP conformance suite against real printers](https://github.com/vindeckyy/presswork/issues/6)
 * [presswork - Expand ipptool conformance matrix to remaining upstream .test files](https://github.com/vindeckyy/presswork/issues/7)
