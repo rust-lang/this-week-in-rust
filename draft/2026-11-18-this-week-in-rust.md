@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
+* [Modern cryptography is fast, so you have no excuse for continuing to use C and Assembly](https://kerkour.com/rust-fast-cryptography)
 
 ### Rust Walkthroughs
 
