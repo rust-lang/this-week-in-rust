@@ -106,6 +106,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 * [presswork - Hardware matrix: run the IPP conformance suite against real printers](https://github.com/vindeckyy/presswork/issues/6)
 * [presswork - Expand ipptool conformance matrix to remaining upstream .test files](https://github.com/vindeckyy/presswork/issues/7)
+* [Rustidian - Make the AppImage open its demo vault on first launch](https://github.com/MasihMoafi/rustidian/issues/4)
 
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
