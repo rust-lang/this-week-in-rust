@@ -262,7 +262,7 @@ Rusty Events between 2026-11-18 - 2026-12-16 🦀
 ### North America
 * 2026-11-18 | Hybrid (Vancouver, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
     * [**Writing a firmware for Xteink ereader in Rust**](https://www.meetup.com/vancouver-rust/events/315210234/)
-* 2026-11-18 | San Francisco, CA, US) | [Bay Area Rust](https://luma.com/bayarearust)
+* 2026-11-18 | San Francisco, CA, US | [Bay Area Rust](https://luma.com/bayarearust)
     * [**Bay Area Rust - Social Night**](https://luma.com/v0mxbgs8)
 * 2026-11-21 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust)
     * [**Winter Hill Rust Lunch, Nov 21**](https://www.meetup.com/bostonrust/events/316924366/)
