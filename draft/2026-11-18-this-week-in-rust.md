@@ -51,6 +51,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 ### Observations/Thoughts
 
 ### Rust Walkthroughs
+* [video] [Miscompilation in Rust 1.97 with Yoni Peleg](https://www.youtube.com/watch?v=-dNsUB7QRk4)
 
 ### Research
 
