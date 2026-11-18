@@ -111,6 +111,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 * [presswork - Hardware matrix: run the IPP conformance suite against real printers](https://github.com/vindeckyy/presswork/issues/6)
 * [presswork - Expand ipptool conformance matrix to remaining upstream .test files](https://github.com/vindeckyy/presswork/issues/7)
+* [ceynox-watch - [easy] Add more credential locations to the catalog](https://github.com/CeyNova-Labs/ceynox-watch/issues/1)
+* [ceynox-watch - [medium] Attribute Ruby gem builds to their gem](https://github.com/CeyNova-Labs/ceynox-watch/issues/3)
 
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
