@@ -333,6 +333,7 @@ This Week in Rust is edited by:
 * [bnchi](https://github.com/bnchi)
 * [KannanPalani57](https://github.com/KannanPalani57)
 * [tzilist](https://github.com/tzilist)
+* [alex-semenyuk](https://github.com/alex-semenyuk)
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
