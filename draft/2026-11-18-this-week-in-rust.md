@@ -38,21 +38,33 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Enabling the parallel frontend on nightly](https://blog.rust-lang.org/2026/11/16/enabling-parallel-frontend-on-nightly/)
 
 ### Foundation
+* [How Policy Is Shaping Development - Tune in to the Next JetBrains | Rust Foundation Livestream](https://rustfoundation.org/media/how-policy-is-shaping-development-tune-in-to-the-next-jetbrains-rust-foundation-livestream/)
 
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Slint 1.19 Released](https://slint.dev/blog/slint-1.19-released)
+* [Jiff 1.0](https://burntsushi.net/jiff/)
+* [Rust-Native Cross-Language ML Compiler Foundation](https://tvm.apache.org/2026/11/16/rust-native-cross-language-ml-compiler-foundation)
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
+* [How Rust Changed Me As A Developer](https://blog.startifact.com/posts/how-rust-changed-me/)
+* [OpenCode Browse rewrote its browser tool in Rust: 97% less memory](https://bryarworld.com/tutorials/opencode-browse-rust-rewrite/)
 
 ### Rust Walkthroughs
+* [Foreign Function Interface (FFI) in Rust, Part 1: Unsafe Foundations](https://tasarma.github.io/posts/ffi-part1/)
+* [How to Bypass Rust's Orphan Rule](https://edvong.com/bypass-orphan-rule/)
+* [Tokio, channels and poisoned locks](https://www.reymom.xyz/blog/rust/2026-11-06-tokio-channels-and-poisoned-locks)
+* [sccache: Stop compiling the same Rust code again and again](https://korntewin-b.medium.com/sccache-stop-compiling-the-same-rust-code-again-and-again-6ab2b584b3a7)
 
 ### Research
+* [Rust in Peace](https://calif.io/research/rust-in-peace)
 
 ### Miscellaneous
 
