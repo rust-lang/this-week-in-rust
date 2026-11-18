@@ -106,6 +106,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 * [presswork - Hardware matrix: run the IPP conformance suite against real printers](https://github.com/vindeckyy/presswork/issues/6)
 * [presswork - Expand ipptool conformance matrix to remaining upstream .test files](https://github.com/vindeckyy/presswork/issues/7)
+* [ChronoStack - [easy] Accept a plain date and UTC offsets in `advance --to`](https://github.com/Asmodeus14/ChronoStack/issues/30)
+* [ChronoStack - [easy] Add shell completions (`chronostack completions <shell>`)](https://github.com/Asmodeus14/ChronoStack/issues/31)
 
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
