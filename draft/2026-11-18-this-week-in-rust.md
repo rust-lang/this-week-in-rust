@@ -60,7 +60,6 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 ### Rust Walkthroughs
 * [Foreign Function Interface (FFI) in Rust, Part 1: Unsafe Foundations](https://tasarma.github.io/posts/ffi-part1/)
 * [How to Bypass Rust's Orphan Rule](https://edvong.com/bypass-orphan-rule/)
-* [Tokio, channels and poisoned locks](https://www.reymom.xyz/blog/rust/2026-11-06-tokio-channels-and-poisoned-locks)
 * [sccache: Stop compiling the same Rust code again and again](https://korntewin-b.medium.com/sccache-stop-compiling-the-same-rust-code-again-and-again-6ab2b584b3a7)
 
 ### Research
