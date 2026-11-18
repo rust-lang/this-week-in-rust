@@ -107,6 +107,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 * [presswork - Hardware matrix: run the IPP conformance suite against real printers](https://github.com/vindeckyy/presswork/issues/6)
 * [presswork - Expand ipptool conformance matrix to remaining upstream .test files](https://github.com/vindeckyy/presswork/issues/7)
 
+* [Praxi-Bot - Add shell completions and man pages for the Rust CLI (easy)](https://github.com/emreocell/Praxi-Bot/issues/235)
+* [Praxi-Bot - Extend the deterministic natural-language schedule parser (medium)](https://github.com/emreocell/Praxi-Bot/issues/188)
+
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
