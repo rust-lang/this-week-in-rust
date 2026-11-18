@@ -200,6 +200,8 @@ Rusty Events between 2026-11-18 - 2026-12-16 🦀
     * [**Getting Started with Game Development in Rust and Bevy**](https://www.meetup.com/charlottesville-rust-meetup/events/317399210/)
 * 2026-12-01 | Virtual | [Rust 🦀 Maven](https://luma.com/rust-maven)
     * [**Cursed Rust**](https://luma.com/omlooqv8)
+* 2026-12-01 | Virtual | [ERNI](https://www.eventbrite.es/o/erni-30130841744)
+    * [**Memory-safe by design: How Rust strengthens security in medtech**](https://www.eventbrite.es/e/memory-safe-by-design-how-rust-strengthens-security-in-medtech-tickets-2003651953931)
 * 2026-12-01 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
     * [**Christmas Coding Challenge - Kick Off!**](https://www.meetup.com/women-in-rust/events/316993134/)
 * 2026-12-02 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs)
@@ -222,6 +224,10 @@ Rusty Events between 2026-11-18 - 2026-12-16 🦀
     * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/316916636/)
 * 2026-12-16 | Hybrid (Vancouver, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
     * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/315210235/)
+
+### Asia
+* 2026-12-12 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
+    * [**December 2026 Rustacean Meetup**](https://hasgeek.com/rustbangalore/december-2026-rustacean-meetup/)
 
 ### Europe
 * 2026-11-19 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus)
