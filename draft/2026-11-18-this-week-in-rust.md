@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Lessons from Building a Privacy-First AST & Hot-Path Code Review Assistant in Rust](https://altanix.dev/blog/rust-ast-code-review)
+
 ### Rust Walkthroughs
 
 ### Research
