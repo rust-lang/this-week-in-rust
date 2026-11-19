@@ -68,7 +68,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [xdgen](https://github.com/pop-os/xdgen), a crate for translation of AppStream metainfo files via fluent.
+
+Thanks to [Sosthène Guédon](https://users.rust-lang.org/t/crate-of-the-week/2704/1720) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -99,7 +101,6 @@ guidance on which aspect(s) of the feature need testing.
 If you are a feature implementer and would like your RFC to appear on the above list, add the new `call-for-testing`
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
-
 
 ## Call for Participation; projects and speakers
 
@@ -137,7 +138,59 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+616 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-11-10..2026-11-17
+
+#### Compiler
+* [avoid hoisting uninitialized reads in EarlyOtherwiseBranch](https://github.com/rust-lang/rust/pull/164864)
+* [do not suggest `as_deref` for a slice pattern on `Err`](https://github.com/rust-lang/rust/pull/165406)
+* [improve index inference diagnostics](https://github.com/rust-lang/rust/pull/165979)
+* [normalize the simd field type before reading its length](https://github.com/rust-lang/rust/pull/166032)
+* [reflection: reflect attributes from adts, fields, and variants](https://github.com/rust-lang/rust/pull/165810)
+* [some attribute related cleanups](https://github.com/rust-lang/rust/pull/165872)
+* [support nested functions with `#[offload_kernel]`](https://github.com/rust-lang/rust/pull/163077)
+* [use 2 parallel frontend threads by default on the nightly and dev channel](https://github.com/rust-lang/rust/pull/162848)
+
+#### Library
+* [add `allocator()` to `vec_deque::IntoIter` and `vec_deque::Drain`](https://github.com/rust-lang/rust/pull/165902)
+* [alloc: unstably add `Vec::repeat` and `Vec::repeat_in`](https://github.com/rust-lang/rust/pull/164043)
+* [don't overflow when rounding up huge thread stack sizes on unix](https://github.com/rust-lang/rust/pull/165746)
+* [implement `core::ops::FnAddr`](https://github.com/rust-lang/rust/pull/165412)
+* [stabilize `int_from_ascii`](https://github.com/rust-lang/rust/pull/163696)
+
+#### Cargo
+* [`config`: Add a generated schema file](https://github.com/rust-lang/cargo/pull/17708)
+* [`config`: Iterate on config.toml's schema](https://github.com/rust-lang/cargo/pull/17714)
+* [`trim-paths`: sanitize absolute source paths in fingerprint](https://github.com/rust-lang/cargo/pull/17556)
+* [add support for `annotate-snippets`'s `no-graphics` output format](https://github.com/rust-lang/cargo/pull/17735)
+* [compile: switch dev profile to debug=lines-and-tables-only](https://github.com/rust-lang/cargo/pull/17518)
+* [reworked output mtime tracking](https://github.com/rust-lang/cargo/pull/17732)
+* [test: add unordered to `pub_priv::verify_mix_cargo_feature_z`](https://github.com/rust-lang/cargo/pull/17737)
+* [unified invoked.timestamp location for compilation and build script units](https://github.com/rust-lang/cargo/pull/17718)
+
+#### Rustdoc
+* [prevent inlining of foreign items through glob reexports named `_`](https://github.com/rust-lang/rust/pull/165922)
+* [correctly filter deref impls on type aliases](https://github.com/rust-lang/rust/pull/166045)
+
+#### Rustfmt
+* [consistently use "Diff Check" throughout](https://github.com/rust-lang/rustfmt/pull/7251)
+* [don't split link destinations when `wrap_comments` is enabled](https://github.com/rust-lang/rustfmt/pull/7197)
+* [fix idempotency issue with raw strings](https://github.com/rust-lang/rustfmt/pull/6696)
+* [don't leave trailing whitespace before a skipped impl item](https://github.com/rust-lang/rustfmt/pull/6979)
+
+#### Clippy
+* [`missing_errors_doc`: exempt never-like error types](https://github.com/rust-lang/rust-clippy/pull/18060)
+* [extend `assert_is_empty` to cover `VecDeque`](https://github.com/rust-lang/rust-clippy/pull/17946)
+* [fix `single_match`/`single_match_else` suggestion lose semicolon](https://github.com/rust-lang/rust-clippy/pull/18017)
+* [fix incorrect suggestions from `unnecessary_literal_unwrap`](https://github.com/rust-lang/rust-clippy/pull/18049)
+
+#### Rust-Analyzer
+* [`.for` add ref when only ref impls into-iter](https://github.com/rust-lang/rust-analyzer/pull/23654)
+* [complete `fn unsafe` after `const`](https://github.com/rust-lang/rust-analyzer/pull/23647)
+* [do not complete types when trait in type anchor](https://github.com/rust-lang/rust-analyzer/pull/23649)
+* [large u128 values should not const eval to negative floats](https://github.com/rust-lang/rust-analyzer/pull/23638)
+* [replace `builtin #` with forced keywords](https://github.com/rust-lang/rust-analyzer/pull/23665)
 
 ### Rust Compiler Performance Triage
 
@@ -311,7 +364,13 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> **Presenter**: One of the obvious dangers of AI, it may one day rewrite all code in some cryptic programming language no human is capable of understanding, just because AI understands it much better and finds so efficient to work with ...
+>
+> **Voice from the hall**: "Do you mean Rust?"
+
+– Unknown people overheard during a meeting
+
+Thanks to [Bourumir](https://users.rust-lang.org/t/twir-quote-of-the-week/328/1848) for the suggestion!
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
