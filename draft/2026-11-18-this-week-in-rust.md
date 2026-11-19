@@ -267,6 +267,8 @@ Rusty Events between 2026-11-18 - 2026-12-16 🦀
     * [**Writing a firmware for Xteink ereader in Rust**](https://www.meetup.com/vancouver-rust/events/315210234/)
 * 2026-11-19 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/316907781/)
+* 2026-11-22 | Virtual (Bengaluru, India) | [Embedded Rust Discord](https://discord.com/invite/pvYY69PvyS)
+    * [**Silicon Sundays 5: Making a cute robot visor with `no_std` Rust**](https://discord.gg/t9Cb2gjjq7?event=1563494405086904360)
 * 2026-11-24 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Fourth Tuesday Rust Bookclub**](https://www.meetup.com/dallasrust/events/310254769/)
 * 2026-11-26 | Virtual | [betterCode() Rust](https://rust.bettercode.eu/)
