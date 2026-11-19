@@ -44,7 +44,6 @@ and just ask the editors to select the category.
 * [How Policy Is Shaping Development - Tune in to the Next JetBrains | Rust Foundation Livestream](https://rustfoundation.org/media/how-policy-is-shaping-development-tune-in-to-the-next-jetbrains-rust-foundation-livestream/)
 
 ### Newsletters
-
 * [Rust Trends Issue 87 - Rust 1.100 Ships the Never Type](https://rust-trends.com/newsletter/rust-1-100-ships-the-never-type/)
 
 ### Project/Tooling Updates
@@ -58,26 +57,21 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 ### Observations/Thoughts
 * [How Rust Changed Me As A Developer](https://blog.startifact.com/posts/how-rust-changed-me/)
 * [OpenCode Browse rewrote its browser tool in Rust: 97% less memory](https://bryarworld.com/tutorials/opencode-browse-rust-rewrite/)
-
 * [Mutex poisoning is not for everyone](https://bertptrs.nl/2026/11/16/mutex-poisoning-is-not-for-everyone.html)
 * [Rust in the Linux kernel: lines of code, unsafe and calls into C for every release since v6.1](https://rust-trends.com/linux-rust/)
 * [How to Bypass Rust's Orphan Rule](https://edvong.com/bypass-orphan-rule/)
 * [Most Rust projects don't bundle CA roots](https://blog.legoktm.com/2026/11/15/most-rust-projects-dont-bundle-ca-roots.html)
 * [Modern cryptography is fast, so you have no excuse for continuing to use C and Assembly](https://kerkour.com/rust-fast-cryptography)
 
-
 ### Rust Walkthroughs
 * [Foreign Function Interface (FFI) in Rust, Part 1: Unsafe Foundations](https://tasarma.github.io/posts/ffi-part1/)
 * [sccache: Stop compiling the same Rust code again and again](https://korntewin-b.medium.com/sccache-stop-compiling-the-same-rust-code-again-and-again-6ab2b584b3a7)
-* [video] [Miscompilation in Rust 1.97 with Yoni Peleg](https://www.youtube.com/watch?v=-dNsUB7QRk4)
 * [series] [Encoding TCP in Rust's Type System, Part 2: Placeholder Values Are Not Our Friends](https://noahkawaguchi.com/blog/typenet-post-2/)
-
 * [series] [15 million web servers on one VM - smoltcp, DPDK, AF_XDP](https://kapteko.com/15-million-webservers/)
+* [video] [Miscompilation in Rust 1.97 with Yoni Peleg](https://www.youtube.com/watch?v=-dNsUB7QRk4)
 
 ### Research
 * [Rust in Peace](https://calif.io/research/rust-in-peace)
-
-### Miscellaneous
 
 ## Crate of the Week
 
@@ -125,9 +119,9 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+<!-- * [ - ]() -->
 * [AppBridge - [easy] Add CLI subcommand `appbridge delta` to inspect byte savings between two .appbridge bundles](https://github.com/Kolgrim33/appbridge/issues/1)
 * [AppBridge - [medium] Support real Ed25519 asymmetric keypair generation and verification for .appbridge bundles](https://github.com/Kolgrim33/appbridge/issues/2)
-<!-- * [ - ]() -->
 * [presswork - Hardware matrix: run the IPP conformance suite against real printers](https://github.com/vindeckyy/presswork/issues/6)
 * [presswork - Expand ipptool conformance matrix to remaining upstream .test files](https://github.com/vindeckyy/presswork/issues/7)
 * [rightcommit - Add a minimal Local CI workflow example](https://github.com/rightcommit/rightcommit/issues/11)
@@ -146,6 +140,7 @@ Are you a new or experienced speaker looking for a place to share something cool
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+*No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -375,7 +370,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1xzlbqp/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
