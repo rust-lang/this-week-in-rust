@@ -38,19 +38,26 @@ and just ask the editors to select the category.
 -->
 
 ### Official
+* [Enabling the parallel frontend on nightly](https://blog.rust-lang.org/2026/11/16/enabling-parallel-frontend-on-nightly/)
 
 ### Foundation
+* [How Policy Is Shaping Development - Tune in to the Next JetBrains | Rust Foundation Livestream](https://rustfoundation.org/media/how-policy-is-shaping-development-tune-in-to-the-next-jetbrains-rust-foundation-livestream/)
 
 ### Newsletters
 
 * [Rust Trends Issue 87 - Rust 1.100 Ships the Never Type](https://rust-trends.com/newsletter/rust-1-100-ships-the-never-type/)
 
 ### Project/Tooling Updates
+* [Slint 1.19 Released](https://slint.dev/blog/slint-1.19-released)
+* [Jiff 1.0](https://burntsushi.net/jiff/)
+* [Rust-Native Cross-Language ML Compiler Foundation](https://tvm.apache.org/2026/11/16/rust-native-cross-language-ml-compiler-foundation)
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
+* [How Rust Changed Me As A Developer](https://blog.startifact.com/posts/how-rust-changed-me/)
+* [OpenCode Browse rewrote its browser tool in Rust: 97% less memory](https://bryarworld.com/tutorials/opencode-browse-rust-rewrite/)
 
 * [Mutex poisoning is not for everyone](https://bertptrs.nl/2026/11/16/mutex-poisoning-is-not-for-everyone.html)
 * [Rust in the Linux kernel: lines of code, unsafe and calls into C for every release since v6.1](https://rust-trends.com/linux-rust/)
@@ -58,11 +65,13 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Most Rust projects don't bundle CA roots](https://blog.legoktm.com/2026/11/15/most-rust-projects-dont-bundle-ca-roots.html)
 
 ### Rust Walkthroughs
+* [Foreign Function Interface (FFI) in Rust, Part 1: Unsafe Foundations](https://tasarma.github.io/posts/ffi-part1/)
+* [sccache: Stop compiling the same Rust code again and again](https://korntewin-b.medium.com/sccache-stop-compiling-the-same-rust-code-again-and-again-6ab2b584b3a7)
 * [video] [Miscompilation in Rust 1.97 with Yoni Peleg](https://www.youtube.com/watch?v=-dNsUB7QRk4)
-
 * [series] [Encoding TCP in Rust's Type System, Part 2: Placeholder Values Are Not Our Friends](https://noahkawaguchi.com/blog/typenet-post-2/)
 
 ### Research
+* [Rust in Peace](https://calif.io/research/rust-in-peace)
 
 ### Miscellaneous
 
@@ -387,6 +396,7 @@ This Week in Rust is edited by:
 * [bnchi](https://github.com/bnchi)
 * [KannanPalani57](https://github.com/KannanPalani57)
 * [tzilist](https://github.com/tzilist)
+* [alex-semenyuk](https://github.com/alex-semenyuk)
 
 *Email list hosting is sponsored by [The Rust Foundation](https://foundation.rust-lang.org/)*
 
