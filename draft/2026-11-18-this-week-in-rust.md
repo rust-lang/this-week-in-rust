@@ -52,6 +52,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Mutex poisoning is not for everyone](https://bertptrs.nl/2026/11/16/mutex-poisoning-is-not-for-everyone.html)
 * [Rust in the Linux kernel: lines of code, unsafe and calls into C for every release since v6.1](https://rust-trends.com/linux-rust/)
 * [How to Bypass Rust's Orphan Rule](https://edvong.com/bypass-orphan-rule/)
 * [Most Rust projects don't bundle CA roots](https://blog.legoktm.com/2026/11/15/most-rust-projects-dont-bundle-ca-roots.html)
