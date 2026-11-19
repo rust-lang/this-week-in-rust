@@ -123,6 +123,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+* [sysknife - The Ubuntu prompt's only group example is wheel, a group Ubuntu does not have](https://github.com/lacs-project/sysknife/issues/650)
+* [sysknife - InstalledKernels: list installed kernels, the running one, and /boot headroom](https://github.com/lacs-project/sysknife/issues/682)
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
