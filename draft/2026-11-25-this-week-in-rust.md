@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [How the Windows and Linux Port Was Built with Coding Agents](https://www.lokalbot.com/blog/porting-to-windows-and-linux-with-agents)
+
 ### Rust Walkthroughs
 
 ### Research
