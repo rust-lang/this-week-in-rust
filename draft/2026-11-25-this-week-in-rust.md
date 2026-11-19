@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [The semver trick is not backwards compatible if you wait](https://sgued.fr/blog/semver-trick-wait/)
+
 ### Rust Walkthroughs
 
 ### Research
