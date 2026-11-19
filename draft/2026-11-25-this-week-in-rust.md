@@ -123,6 +123,8 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+* [IDE TEA - [easy] Give semantic tokens more contrast in the default theme](https://github.com/fabiocmazzo/idetea/issues/10)
+* [IDE TEA - [easy] Load images in WASM plugin panels](https://github.com/fabiocmazzo/idetea/issues/13)
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
