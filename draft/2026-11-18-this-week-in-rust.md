@@ -66,7 +66,6 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 * [Foreign Function Interface (FFI) in Rust, Part 1: Unsafe Foundations](https://tasarma.github.io/posts/ffi-part1/)
-* [How to Bypass Rust's Orphan Rule](https://edvong.com/bypass-orphan-rule/)
 * [sccache: Stop compiling the same Rust code again and again](https://korntewin-b.medium.com/sccache-stop-compiling-the-same-rust-code-again-and-again-6ab2b584b3a7)
 * [video] [Miscompilation in Rust 1.97 with Yoni Peleg](https://www.youtube.com/watch?v=-dNsUB7QRk4)
 * [series] [Encoding TCP in Rust's Type System, Part 2: Placeholder Values Are Not Our Friends](https://noahkawaguchi.com/blog/typenet-post-2/)
