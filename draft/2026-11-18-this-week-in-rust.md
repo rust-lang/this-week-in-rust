@@ -58,6 +58,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Most Rust projects don't bundle CA roots](https://blog.legoktm.com/2026/11/15/most-rust-projects-dont-bundle-ca-roots.html)
 
 ### Rust Walkthroughs
+* [video] [Miscompilation in Rust 1.97 with Yoni Peleg](https://www.youtube.com/watch?v=-dNsUB7QRk4)
 
 * [series] [Encoding TCP in Rust's Type System, Part 2: Placeholder Values Are Not Our Friends](https://noahkawaguchi.com/blog/typenet-post-2/)
 
