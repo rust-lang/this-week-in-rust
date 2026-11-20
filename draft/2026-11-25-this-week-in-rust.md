@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Longshore: A 36 GB/s Zero-Allocation I/O and Object Storage Layer in Rust](https://serviceradar.cloud/blog/ring-per-core-io-in-longshore)
+
 ### Rust Walkthroughs
 
 ### Research
