@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Rust Projects - Write an Interpreter - Version 1.0.1](https://rust-projects-write-an-interpreter.github.io/) is a hands-on guide to writing a Rust implementation of Lox, the language invented by Robert Nystrom for his book "Crafting Interpreters". The book follows the CodeCrafters challenge of the same name. Readers will start by implementing a simple scanner, moving then to more advanced concepts like parsing expressions and executing statements.
+
 ### Research
 
 ### Miscellaneous
