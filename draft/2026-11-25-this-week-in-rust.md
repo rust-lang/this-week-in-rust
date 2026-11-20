@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [RSPHP Part 2: Build Tools](https://scherzer.dev/Blog/20261120-rsphp-build-tools)
+
 ### Research
 
 ### Miscellaneous
