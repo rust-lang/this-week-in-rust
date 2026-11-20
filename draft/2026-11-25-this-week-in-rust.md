@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [What I found when I pointed a CLI recorder at a second Rust rewrite](https://dev.to/emirmrkaljevic/what-i-found-when-i-pointed-a-cli-recorder-at-a-second-rust-rewrite-282)
+
 ### Rust Walkthroughs
 
 ### Research
