@@ -121,7 +121,8 @@ Always wanted to contribute to open-source projects but did not know where to st
 Every week we highlight some tasks from the Rust community for you to pick and get started!
 
 Some of these tasks may also have mentors available, visit the task page for more information.
-
+* [quercus-engine - Clear stale clip input state in the render driver between jobs](https://github.com/OakVideoEditorCommunity/quercus-engine/issues/14)
+* [quercus-engine - Document the optional-mask contract for plugin and host developers](https://github.com/OakVideoEditorCommunity/quercus-engine/issues/16)
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
