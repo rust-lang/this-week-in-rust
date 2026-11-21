@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [rusty_dds and rusty_alloc: cooking textures and measuring allocator CPU in a game stream](https://mata.network/learn/rusty-dds-and-rusty-alloc-in-a-game-stream/)
+
 ### Rust Walkthroughs
 
 ### Research
