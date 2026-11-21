@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [Why We Abandoned Linear Disk Scans: How 16-Byte Address Crystals Cut AI Agent Latency by 99%](https://dev.to/kotokvit/why-we-abandoned-linear-disk-scans-how-16-byte-address-crystals-cut-ai-agent-latency-by-99-209)
+
 ### Rust Walkthroughs
 
 ### Research
