@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Testing Satellite Software Without a Satellite: Building a `#![no_std]` ECSS PUS-C Simulator & 100x Faster XTCE Decoder in Rust](https://dev.to/maciej_myszkiewicz_c7b148/testing-satellite-software-without-a-satellite-building-a-nostd-ecss-pus-c-simulator-100x-5dij)
+
 ### Research
 
 ### Miscellaneous
@@ -125,6 +127,9 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+
+* [xtce-rs - [Good First Issue / Medium] Add `<ValidRangeSet>` out-of-limits telemetry alarm evaluation in `xtce-decode` and `xtce validate`](https://github.com/RustSpaceLab/xtce-rs/issues/13)
+* [xtce-rs - [Good First Issue / Easy] Add `--format markdown` output mode to `xtce diff` for CI Pull Request summaries](https://github.com/RustSpaceLab/xtce-rs/issues/14)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
