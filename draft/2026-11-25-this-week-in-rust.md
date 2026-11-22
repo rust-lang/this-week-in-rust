@@ -126,7 +126,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
-* [Praxi-Bot - Lift URL query values into workflow parameters](https://github.com/emreocell/Praxi-Bot/issues/490)
+* [Praxi-Bot - Fail CI when the CLI and the CLI reference drift apart](https://github.com/emreocell/Praxi-Bot/issues/462)
 * [Praxi-Bot - Check the data directory is writable and has free space in bot doctor](https://github.com/emreocell/Praxi-Bot/issues/492)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
