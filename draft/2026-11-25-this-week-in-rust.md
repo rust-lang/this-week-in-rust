@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Reclaiming 80 GB of Invisible Dev Bloat: Building nodewipe in Rust](https://dev.to/joker53/reclaiming-80-gb-of-invisible-dev-bloat-building-nodewipe-in-rust-2icg)
+
 ### Research
 
 ### Miscellaneous
