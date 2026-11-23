@@ -146,7 +146,7 @@ If you are an event organizer hoping to expand the reach of your event, please s
 ### Rust Compiler Performance Triage
 
 
-Very positive weeks with many improvements in type system, codegen, debuginfo and encoding. The biggest improvement came
+Very positive week with many improvements in the type system, codegen, debuginfo and encoding. The biggest improvement came
 perhaps surprisingly from Cargo submodule update, because Cargo recently changed
 the default debuginfo level for `dev` profile to `line-tables-only`.
 
