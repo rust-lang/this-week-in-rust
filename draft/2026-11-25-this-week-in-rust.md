@@ -25,6 +25,7 @@ Dear community contributors:
 Please read README.md for guidance on submissions.
 Each submitted link should be of the form:
 
+* [DIYPets v0.4.1 - Lightweight cross-platform Rust desktop mascot engine with 2D/SVG Studio, JuiceFX auto-animator, and native MCP server](https://github.com/smresponsibilities/diypets)
 * [Title of the linked Page](https://example.com/my_article)
 
 If you add a link to a non-text content please prefix it with `[video]` or `[audio]`:
