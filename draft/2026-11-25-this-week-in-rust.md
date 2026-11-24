@@ -1,6 +1,6 @@
-Title: This Week in Rust 678
-Number: 678
-Date: 2026-11-18
+Title: This Week in Rust 679
+Number: 679
+Date: 2026-11-25
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -203,57 +203,53 @@ Update CFT, FCP, MCP and RFC sections for TWiR-xxx
 
 ## Upcoming Events
 
-Rusty Events between 2026-11-18 - 2026-12-16 🦀
+Rusty Events between 2026-11-25 - 2026-12-23 🦀
 
 ### Virtual
-* 2026-11-12 | Virtual (Nürnberg, DE) | [Rust Nuremberg](https://www.meetup.com/rust-noris)
-    * [**Rust Nürnberg online**](https://www.meetup.com/rust-noris/events/315619619/)
-* 2026-11-15 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
-    * [**Rust Deep Learning: Third Sunday**](https://www.meetup.com/dallasrust/events/316563020/)
-* 2026-11-17 | Virtual | [Rust 🦀 Maven](https://luma.com/rust-maven)
-    * [**Miscompilation in Rust 1.97**](https://luma.com/2qfai4a8)
-* 2026-11-17 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
-    * [**Lunch & Learn: The Harness Wore a Trenchcoat - Building a Rust MCP Server**](https://www.meetup.com/women-in-rust/events/315719313/)
-* 2026-11-17 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc)
-    * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/317182776/)
 * 2026-11-18 | Hybrid (Vancouver, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
     * [**Writing a firmware for Xteink ereader in Rust**](https://www.meetup.com/vancouver-rust/events/315210234/)
 * 2026-11-19 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/316907781/)
+* 2026-11-22 | Virtual (Bengaluru, India) | [Embedded Rust Discord](https://discord.com/invite/pvYY69PvyS)
+    * [**Silicon Sundays 5: Making a cute robot visor with `no_std` Rust**](https://discord.gg/t9Cb2gjjq7?event=1563494405086904360)
 * 2026-11-24 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Fourth Tuesday Rust Bookclub**](https://www.meetup.com/dallasrust/events/310254769/)
 * 2026-11-26 | Virtual | [betterCode() Rust](https://rust.bettercode.eu/)
     * [**betterCode() Rust 2026**](https://rust.bettercode.eu/)
+* 2026-11-28 | Virtual (Charlottesville, VA, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup)
+    * [**Getting Started with Game Development in Rust and Bevy**](https://www.meetup.com/charlottesville-rust-meetup/events/317399210/)
 * 2026-12-01 | Virtual | [Rust 🦀 Maven](https://luma.com/rust-maven)
     * [**Cursed Rust**](https://luma.com/omlooqv8)
+* 2026-12-01 | Virtual | [ERNI](https://www.eventbrite.es/o/erni-30130841744)
+    * [**Memory-safe by design: How Rust strengthens security in medtech**](https://www.eventbrite.es/e/memory-safe-by-design-how-rust-strengthens-security-in-medtech-tickets-2003651953931)
 * 2026-12-01 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
     * [**Christmas Coding Challenge - Kick Off!**](https://www.meetup.com/women-in-rust/events/316993134/)
 * 2026-12-02 | Virtual (Indianapolis, IN, US) | [Indy Rust](https://www.meetup.com/indyrs)
-    * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/wqzhftyjcqbdb/)
+    * [**Indy.rs - with Social Distancing**](https://www.meetup.com/indyrs/events/317404144/)
 * 2026-12-03 | Virtual (Berlin, DE) | [Rust Berlin](https://www.meetup.com/rust-berlin)
     * [**Rust Hack and Learn**](https://www.meetup.com/rust-berlin/events/316907782/)
 * 2026-12-04 | Hybrid (Moscow, RU) | [RustCon RU](https://rustcon.ru/)
     * [**RustCon 2026**](https://rustcon.ru/)
+* 2026-12-05 | Virtual (Charlottesville, VA, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup)
+    * [**Entities, Components, and Systems: How Bevy Games Work**](https://www.meetup.com/charlottesville-rust-meetup/events/317399385/)
 * 2026-12-06 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Rust Deep Learning: First Sunday**](https://www.meetup.com/dallasrust/events/316331278/)
 * 2026-12-08 | Virtual (Dallas, TX, US) | [Dallas Rust User Meetup](https://www.meetup.com/dallasrust)
     * [**Second Tuesday**](https://www.meetup.com/dallasrust/events/310254767/)
 * 2026-12-08 | Virtual (London, UK) | [Women in Rust](https://www.meetup.com/women-in-rust)
     * [**👋 Community Catch Up**](https://www.meetup.com/women-in-rust/events/316993086/)
+* 2026-12-12 | Virtual (Charlottesville, VA, US) | [Charlottesville Rust Meetup](https://www.meetup.com/charlottesville-rust-meetup)
+    * [**Building a Game with Rust and Bevy: Putting It All Together**](https://www.meetup.com/charlottesville-rust-meetup/events/317399435/)
+* 2026-12-15 | Virtual (Washington, DC, US) | [Rust DC](https://www.meetup.com/rustdc)
+    * [**Mid-month Rustful**](https://www.meetup.com/rustdc/events/316916636/)
+* 2026-12-16 | Hybrid (Vancouver, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
+    * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/315210235/)
 
 ### Asia
-* 2026-11-14 | Bengaluru, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore/)
-    * [**November 2026 Rustacean Meetup**](https://hasgeek.com/rustbangalore/november-2026-rustacean-meetup/)
+* 2026-12-12 | Bangalore, IN | [Rust Bangalore](https://hasgeek.com/rustbangalore)
+    * [**December 2026 Rustacean Meetup**](https://hasgeek.com/rustbangalore/december-2026-rustacean-meetup/)
 
 ### Europe
-* 2026-11-12 | Frankfurt, DE | [Rust Rhein-Main](https://www.meetup.com/rust-rhein-main)
-    * [**Debugging in Rust**](https://www.meetup.com/rust-rhein-main/events/317175844/)
-* 2026-11-12 | Geneva, CH | [Rust Geneva](https://www.posttenebraslab.ch/wiki/events/monthly_meeting/rust_meetup)
-    * [**Rust Meetup Geneva**](https://www.posttenebraslab.ch/wiki/events/monthly_meeting/rust_meetup)
-* 2026-11-12 | Milano, MI, IT | [Rust Language Milan](https://www.meetup.com/rust-language-milano/events/)
-    * [**From Curiosity to Capability: Build Your Own Device Swarm**](https://www.meetup.com/rust-language-milan/events/317094800/)
-* 2026-11-17 | Leipzig, DE | [Rust - Modern Systems Programming in Leipzig](https://www.meetup.com/rust-modern-systems-programming-in-leipzig)
-    * [**Everlock: Everything Is Git, Protocols Are Just Adapters**](https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313816501/)
 * 2026-11-19 | Aarhus, DK | [Rust Aarhus](https://www.meetup.com/rust-aarhus)
     * [**Talk Night at EIVA**](https://www.meetup.com/rust-aarhus/events/316938696/)
 * 2026-11-19 | Bergen, NO | [Rust Bergen](https://www.meetup.com/bergen-rust-new-technology/events/)
@@ -264,6 +260,8 @@ Rusty Events between 2026-11-18 - 2026-12-16 🦀
     * [**Rust Meetup #17 @ ERNI**](https://www.meetup.com/rust-basel/events/317258865/)
 * 2026-11-25 | Amsterdam, NL | [Rust Developers Amsterdam Group](https://www.meetup.com/rust-amsterdam-group)
     * [**Rust Meetup @ Reclamefolder**](https://www.meetup.com/rust-amsterdam-group/events/317381204/)
+* 2026-11-25 | Dortmund, DE | [Rust Dortmund](https://www.meetup.com/rust-dortmund)
+    * [**On-site Rust Ratatui Workshop in Dortmund**](https://www.meetup.com/rust-dortmund/events/317393392/)
 * 2026-11-26 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community)
     * [**Rust meetup #73 sponsored by Adapt!**](https://www.meetup.com/copenhagen-rust-community/events/317181792/)
 * 2026-11-26 | London, UK | [Rust London User Group](https://www.meetup.com/rust-london-user-group)
@@ -272,6 +270,8 @@ Rusty Events between 2026-11-18 - 2026-12-16 🦀
     * [**Rust Manchester November Code Night**](https://www.meetup.com/rust-manchester/events/317222338/)
 * 2026-11-26 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/stockholm-rust)
     * [**Rust Meetup @Lovable**](https://www.meetup.com/stockholm-rust/events/317161063/)
+* 2026-11-28 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/stockholm-rust)
+    * [**Ferris' Fika Forum #32**](https://www.meetup.com/stockholm-rust/events/317458938/)
 * 2026-12-01 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris)
     * [**Rust meetup #90**](https://www.meetup.com/rust-paris/events/316865676/)
 * 2026-12-02 | Frankfurt, DE | [Rust Rhein-Main](https://www.meetup.com/rust-rhein-main)
@@ -280,32 +280,28 @@ Rusty Events between 2026-11-18 - 2026-12-16 🦀
     * [**RustCon 2026**](https://rustcon.ru/)
 
 ### North America
-* 2026-11-12 | Lehi, UT, US | [Utah Rust](https://www.meetup.com/utah-rust)
-    * [**Rust Game Jam**](https://www.meetup.com/utah-rust/events/317178211/)
-* 2026-11-12 | San Diego, CA, US | [San Diego Rust](https://www.meetup.com/san-diego-rust)
-    * [**San Diego Rust November Meetup - Back in person!**](https://www.meetup.com/san-diego-rust/events/316886787/)
-* 2026-11-14 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust)
-    * [**MIT Rust Lunch, Nov 14**](https://www.meetup.com/bostonrust/events/316924331/)
-* 2026-11-17 | Los Angeles, CA, US | [Rust Los Angeles](https://www.meetup.com/rust-los-angeles)
-    * [**Rust LA November w/ Hadrian!**](https://www.meetup.com/rust-los-angeles/events/316859673/)
-* 2026-11-17 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group)
-    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/315783989/)
 * 2026-11-18 | Hybrid (Vancouver, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
     * [**Writing a firmware for Xteink ereader in Rust**](https://www.meetup.com/vancouver-rust/events/315210234/)
-* 2026-11-18 | San Francisco, CA, US) | [Bay Area Rust](https://luma.com/bayarearust)
+* 2026-11-18 | San Francisco, CA, US | [Bay Area Rust](https://luma.com/bayarearust)
     * [**Bay Area Rust - Social Night**](https://luma.com/v0mxbgs8)
 * 2026-11-21 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust)
     * [**Winter Hill Rust Lunch, Nov 21**](https://www.meetup.com/bostonrust/events/316924366/)
+* 2026-11-21 | Minneapolis, MN, US | [Minneapolis Rust Meetup](https://www.meetup.com/minneapolis-rust-meetup)
+    * [**Minneapolis Rust Meetup Happy Hour**](https://www.meetup.com/minneapolis-rust-meetup/events/317401121/)
 * 2026-11-28 | Boston, MA, US | [Boston Rust Meetup](https://www.meetup.com/bostonrust)
     * [**South Station Rust Lunch, Nov 28**](https://www.meetup.com/bostonrust/events/316924412/)
+* 2026-12-03 | Montréal, CA | [Rust Montréal](https://www.meetup.com/rust-montreal)
+    * [**December Monthly Social**](https://www.meetup.com/rust-montreal/events/317415310/)
 * 2026-12-04 | New York, NY, US | [Rust NYC](https://www.meetup.com/rust-nyc)
     * [**Rust NYC: The UnConf 2026.**](https://www.meetup.com/rust-nyc/events/317259308/)
 * 2026-12-04 | New York, NY, US | [Women in Rust](https://www.meetup.com/women-in-rust)
     * [**👋Women in Rust x Rust NYC UnConf 2026**](https://www.meetup.com/women-in-rust/events/317383331/)
+* 2026-12-15 | San Francisco, CA, US | [San Francisco Rust Study Group](https://www.meetup.com/san-francisco-rust-study-group)
+    * [**Rust Hacking in Person**](https://www.meetup.com/san-francisco-rust-study-group/events/315783990/)
+* 2026-12-16 | Hybrid (Vancouver, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
+    * [**Rust Study/Hack/Hang-out**](https://www.meetup.com/vancouver-rust/events/315210235/)
 
 ### Oceania
-* 2026-11-12 | Brisbane City, AU | [Rust Brisbane](https://www.meetup.com/rust-brisbane)
-    * [**Rust Brisbane • November 2026**](https://www.meetup.com/rust-brisbane/events/317296037/)
 * 2026-11-24 | Barton, AU | [Canberra Rust User Group](https://www.meetup.com/rust-canberra)
     * [**November Meetup**](https://www.meetup.com/rust-canberra/events/316907340/)
 
