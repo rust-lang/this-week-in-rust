@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Rolling upgrades in tellus: old code cannot learn a new shape](https://heikoseeberger.de/2026-11-24-rolling-upgrades/)
+
 ### Research
 
 ### Miscellaneous
