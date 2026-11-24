@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
+* [How to Stop Generic Type Explosion in Rust] (https://edvong.com/stop-generic-type-explosion/)
 
 ### Rust Walkthroughs
 
