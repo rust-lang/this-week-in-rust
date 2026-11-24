@@ -123,6 +123,7 @@ Every week we highlight some tasks from the Rust community for you to pick and g
 Some of these tasks may also have mentors available, visit the task page for more information.
 
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
+* [maintainer-agent - The Rust run deletes the pre-lock log even when folding it into the run's log failed](https://github.com/agentsmith-tools/maintainer-agent/issues/276)
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
 
