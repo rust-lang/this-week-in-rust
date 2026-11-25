@@ -58,7 +58,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ## Crate of the Week
 
-<!-- COTW goes here -->
+This week's crate is [i_overlay](https://crates.io/crates/i_overlay), providing a set of geometrical operations on polygons and line segment chains running completely on integer math.
+
+Thanks to [Mikolaj Wielgus](https://users.rust-lang.org/t/crate-of-the-week/2704/1725) for the suggestion!
 
 [Please submit your suggestions and votes for next week][submit_crate]!
 
@@ -112,7 +114,6 @@ If you are a feature implementer and would like your RFC to appear on the above 
 label to your RFC along with a comment providing testing instructions and/or guidance on which aspect(s) of the feature
 need testing.
 
-
 ## Call for Participation; projects and speakers
 
 ### CFP - Projects
@@ -141,7 +142,71 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ## Updates from the Rust Project
 
-<!-- Rust updates go here -->
+724 pull requests were [merged in the last week][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2026-11-17..2026-11-24
+
+#### Compiler
+* [add lint against duplicate parameter names in fns without body](https://github.com/rust-lang/rust/pull/165366)
+* [add wide pointer visualizer for LLDB](https://github.com/rust-lang/rust/pull/164975)
+* [avoid instantiating `FnSig` when not necessary](https://github.com/rust-lang/rust/pull/165863)
+* [avoid unnecessary LLVM passes when thin LTO buffer is null](https://github.com/rust-lang/rust/pull/166084)
+* [compressed `ParamEnv`s for common marker traits](https://github.com/rust-lang/rust/pull/165460)
+* [`hir_typeck`: propagate async closure output into its body](https://github.com/rust-lang/rust/pull/161708)
+* [inline some attribute parsing code](https://github.com/rust-lang/rust/pull/166385)
+* [perf: remove cache in `DeepResolverIgnoringRegions`](https://github.com/rust-lang/rust/pull/166384)
+* [perf: separate flag computation & intern functions per `TyKind`](https://github.com/rust-lang/rust/pull/165396)
+* [share more debuginfo for inlined functions](https://github.com/rust-lang/rust/pull/166140)
+
+#### Library
+* [core: stabilize `float_bits_const`](https://github.com/rust-lang/rust/pull/166421)
+* [fmt: improve `Debug` for `FormattingOptions`](https://github.com/rust-lang/rust/pull/166259)
+* [implement RangeIntersect on `core::range` types](https://github.com/rust-lang/rust/pull/165618)
+* [stabilize `char::is_case_ignorable`, `char::is_cased`, and the `titlecase` feature](https://github.com/rust-lang/rust/pull/165434)
+* [stabilize unchecked `nonzero_ops`](https://github.com/rust-lang/rust/pull/164485)
+* [unstably constify `std::process::abort`](https://github.com/rust-lang/rust/pull/166194)
+
+#### Cargo
+* [config: Add IncludeConfig](https://github.com/rust-lang/cargo/pull/17782)
+* [config: `--config` use same layers merge as config files](https://github.com/rust-lang/cargo/pull/17780)
+* [config: Handle parsing dotted keys using TOML keys](https://github.com/rust-lang/cargo/pull/17770)
+* [config: Improve config schema by implementing Serialize](https://github.com/rust-lang/cargo/pull/17762)
+* [config: drop redundant config merge error context](https://github.com/rust-lang/cargo/pull/17769)
+* [config: keep winning definition for non-mergeable list](https://github.com/rust-lang/cargo/pull/17766)
+* [config: layer loads to work the same as merged load](https://github.com/rust-lang/cargo/pull/17761)
+* [config: list unmerged config in precedence order](https://github.com/rust-lang/cargo/pull/17773)
+* [context: merge files and `--config` as layers](https://github.com/rust-lang/cargo/pull/17775)
+* [fix git checkout long paths](https://github.com/rust-lang/cargo/pull/17752)
+* [config: really ensure no comments are present](https://github.com/rust-lang/cargo/pull/17774)
+* [support wasm64-unknown-emscripten](https://github.com/rust-lang/cargo/pull/17620)
+
+#### Rustdoc
+* [add emoji icons for unstable and deprecated to search results](https://github.com/rust-lang/rust/pull/153746)
+* [clean inlined assoc items in their own param-env](https://github.com/rust-lang/rust/pull/165699)
+* [fix search index generation: if crate content didn't change, it should generate the same search index](https://github.com/rust-lang/rust/pull/166420)
+
+#### Rustfmt
+* [don't duplicate type bounds when a comment precedes the where clause](https://github.com/rust-lang/rustfmt/pull/6980)
+* [have `cfg_select!` double-brace concise formatting respect `match_block_trailing_comma`](https://github.com/rust-lang/rustfmt/pull/7213)
+
+#### Clippy
+* [add a recursion limit to avoid hang with recursive associated types](https://github.com/rust-lang/rust-clippy/pull/18086)
+* [fix `single_match` suggests wrongly for bool comparisons](https://github.com/rust-lang/rust-clippy/pull/16880)
+* [fix `unused_async_trait_impl` suggestion for implicit unit return type](https://github.com/rust-lang/rust-clippy/pull/18101)
+* [`unusual_byte_groupings`: Don't lint binary literals](https://github.com/rust-lang/rust-clippy/pull/18104)
+
+#### Rust-Analyzer
+* [add `r? @ghost` Josh push PR suffix](https://github.com/rust-lang/rust-analyzer/pull/23681)
+* [show custom iter adapter in chaining inlayHints](https://github.com/rust-lang/rust-analyzer/pull/23549)
+* [fix `extract_type_alias` for const `_` placeholders](https://github.com/rust-lang/rust-analyzer/pull/22211)
+* [accidentally quadratic performance in type inference](https://github.com/rust-lang/rust-analyzer/pull/23678)
+* [allow `notable_trait` attr args](https://github.com/rust-lang/rust-analyzer/pull/23685)
+* [exclude proc macro crates from lang item computations for their dependencies](https://github.com/rust-lang/rust-analyzer/pull/23689)
+* [make sure copied lock files are writable](https://github.com/rust-lang/rust-analyzer/pull/23688)
+* [respect `is_workspace_member` for all crates in rust-project.json](https://github.com/rust-lang/rust-analyzer/pull/23694)
+* [introduce a hack for `PartialEq` lang item attr change in core lib](https://github.com/rust-lang/rust-analyzer/pull/23691)
+* [ops: resolve `artipacked` and `template-injection`](https://github.com/rust-lang/rust-analyzer/pull/23594)
+* [perf: cache the mark when expanding MBE](https://github.com/rust-lang/rust-analyzer/pull/23709)
 
 ### Rust Compiler Performance Triage
 
@@ -318,7 +383,14 @@ Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
 
 # Quote of the Week
 
-<!-- QOTW goes here -->
+> Good news bad news situation.
+>
+> Good news: I have 3 blog posts' worth of work in cargo-semver-checks to publish.
+> Bad news: It means Rust is *way more cursed* than we all ever knew.'
+
+– [Predrag Gruevski on Mastodon](https://hachyderm.io/@predrag/117672539151294123)
+
+Despite a lamentable lack of suggestions, llogiq loves cursed Rust is pretty pleased with his choice.
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
