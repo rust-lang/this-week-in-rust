@@ -49,6 +49,7 @@ and just ask the editors to select the category.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
 ### Observations/Thoughts
+* [How Proton (Mail / VPN...) are rewriting their cross-platform apps in Rust to reduces costs and improve security for millions of people](https://kerkour.com/rust-at-proton)
 
 ### Rust Walkthroughs
 
