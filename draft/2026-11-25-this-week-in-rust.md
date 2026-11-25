@@ -278,6 +278,8 @@ Rusty Events between 2026-11-25 - 2026-12-23 🦀
     * [**From Curiosity to Capability: Build Your Own Device Swarm**](https://www.meetup.com/rust-rhein-main/events/317186779/)
 * 2026-12-04 | Hybrid (Moscow, RU) | [RustCon RU](https://rustcon.ru/)
     * [**RustCon 2026**](https://rustcon.ru/)
+* 2026-12-08 | Dresden, DE | [Rust Dresden](https://github.com/rust-dresden)
+    * [**Meetup 4**](https://pretix.eu/rust-dresden/on-location-4/)
 
 ### North America
 * 2026-11-18 | Hybrid (Vancouver, CA) | [Vancouver Rust](https://www.meetup.com/vancouver-rust)
