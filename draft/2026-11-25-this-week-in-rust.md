@@ -52,6 +52,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Build your own Paint](https://www.buildyourownpaint.com/en)
+
 ### Research
 
 ### Miscellaneous
