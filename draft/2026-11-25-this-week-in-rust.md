@@ -56,6 +56,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [The semver trick is not backwards compatible if you wait](https://sgued.fr/blog/semver-trick-wait/)
 * [How to Stop Generic Type Explosion in Rust] (https://edvong.com/stop-generic-type-explosion/)
 * [How Proton (Mail / VPN...) are rewriting their cross-platform apps in Rust to reduces costs and improve security for millions of people](https://kerkour.com/rust-at-proton)
+* [Compile time improvements for derive(Debug)](https://yoyo-code.com/derive-debug-compile-time-improvements/)
 
 ### Rust Walkthroughs
 
