@@ -131,15 +131,7 @@ The Call for Participation section covers both projects looking for contributors
 
 ### CFP - Projects 
 
-The project section will include good issues for someone looking to get into Rust, or for someone who wants to find a new project to contribute to. Guidelines:
-
-* Ensure that your project has at least one [Open Source Initiative](https://opensource.org/)-approved license.
-* Ensure that the issue tracker for your project is publicly accessible.
-* Create a new issue in your issue tracker and clearly describe the task, and include the difficulty level (easy/medium/hard/tedious), either as a tag/label or somewhere in the title/description.
-* Include a link to your contribution guidelines in the task, and call out any specific requirements for contributors (e.g., copyright waiver).
-* Projects are limited to two GitHub (or other source control) issues submitted to this section per issue of This Week in Rust. Please limit your submissions to two issues.
-* GitHub issues must still be open at the time of publish. If you do not expect the GitHub issue to remain open for at least four days, do not submit it to this section.
-* The GitHub issues we feature in this section must be written for a **human audience**, not an agent audience. The write up in the issue must be comprehensible to a human reader and include 1) What the ask of the human is 2) What the expected outcome is 3) Any guidance on implementing or fixing the issue and 4) Whether mentorship is available.
+As of Issue #680, we have eliminated the CFP - Projects section. Please see [here](https://github.com/rust-lang/this-week-in-rust/issues/9074) for more details.
 
 ### CFP - Events
 
