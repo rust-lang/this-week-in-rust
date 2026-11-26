@@ -285,6 +285,8 @@ Rusty Events between 2026-11-25 - 2026-12-23 🦀
     * [**Rust Meetup @Lovable**](https://www.meetup.com/stockholm-rust/events/317161063/)
 * 2026-11-28 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/stockholm-rust)
     * [**Ferris' Fika Forum #32**](https://www.meetup.com/stockholm-rust/events/317458938/)
+* 2026-11-30 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
+    * [**Rust Meetup #22**: Mert Yildiz: Sleepless in Tokio - Channel your inner actor with Rust](https://rust-augsburg.github.io/meetup/Meetup_22.html)
 * 2026-12-01 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris)
     * [**Rust meetup #90**](https://www.meetup.com/rust-paris/events/316865676/)
 * 2026-12-02 | Frankfurt, DE | [Rust Rhein-Main](https://www.meetup.com/rust-rhein-main)
