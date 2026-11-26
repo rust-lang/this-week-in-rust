@@ -64,7 +64,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Rolling upgrades in tellus: old code cannot learn a new shape](https://heikoseeberger.de/2026-11-24-rolling-upgrades/)
 * [video] [series] [Repository Pattern in Rust: async fn in traits, dyn vs generics, and the Send problem (Axum + SQLx)](https://youtu.be/zbglU7Ppv10)
 * [Build your own Paint](https://www.buildyourownpaint.com/en)
-* [Code Safari: uutils cp](https://youtu.be/Yn4i4tRhOdU)
+* [video] [Code Safari: uutils cp](https://youtu.be/Yn4i4tRhOdU)
 
 ### Research
 
