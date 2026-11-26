@@ -62,9 +62,9 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Rust Projects - Write an Interpreter - Version 1.0.1](https://rust-projects-write-an-interpreter.github.io/)
 * [RSPHP Part 2: Build Tools](https://scherzer.dev/Blog/20261120-rsphp-build-tools)
 * [Rolling upgrades in tellus: old code cannot learn a new shape](https://heikoseeberger.de/2026-11-24-rolling-upgrades/)
-* [video] [series] [Repository Pattern in Rust: async fn in traits, dyn vs generics, and the Send problem (Axum + SQLx)](https://youtu.be/zbglU7Ppv10)
 * [Build your own Paint](https://www.buildyourownpaint.com/en)
-* [video] [Code Safari: uutils cp](https://youtu.be/Yn4i4tRhOdU)
+* [video] [series] [Repository Pattern in Rust: async fn in traits, dyn vs generics, and the Send problem (Axum + SQLx)](https://www.youtube.com/watch?v=zbglU7Ppv10)
+* [video] [Code Safari: uutils cp](https://www.youtube.com/watch?v=Yn4i4tRhOdU)
 
 ### Research
 
