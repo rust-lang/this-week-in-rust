@@ -86,10 +86,6 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [video] [series] [Repository Pattern in Rust: async fn in traits, dyn vs generics, and the Send problem (Axum + SQLx)](https://www.youtube.com/watch?v=zbglU7Ppv10)
 * [video] [Code Safari: uutils cp](https://www.youtube.com/watch?v=Yn4i4tRhOdU)
 
-### Research
-
-### Miscellaneous
-
 ## Crate of the Week
 
 This week's crate is [i_overlay](https://crates.io/crates/i_overlay), providing a set of geometrical operations on polygons and line segment chains running completely on integer math.
@@ -138,6 +134,7 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+- *No Calls for participation were submitted this week.*
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -149,6 +146,7 @@ Are you a new or experienced speaker looking for a place to share something cool
 
 <!-- CFPs go here, use this format: * [**event name**](URL to CFP)| Date CFP closes in YYYY-MM-DD | city,state,country | Date of event in YYYY-MM-DD -->
 <!-- or if none - *No Calls for papers or presentations were submitted this week.* -->
+- *No Calls for papers or presentations were submitted this week.*
 
 If you are an event organizer hoping to expand the reach of your event, please submit a link to the website through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
@@ -221,7 +219,6 @@ If you are an event organizer hoping to expand the reach of your event, please s
 * [perf: cache the mark when expanding MBE](https://github.com/rust-lang/rust-analyzer/pull/23709)
 
 ### Rust Compiler Performance Triage
-
 
 Very positive week with many improvements in the type system, codegen, debuginfo and encoding. The biggest improvement came
 perhaps surprisingly from Cargo submodule update, because Cargo recently changed
@@ -409,7 +406,7 @@ Email the [Rust Community Team][community] for access.
 
 ## Jobs
 
-Please see the latest [Who's Hiring thread on r/rust](INSERT_LINK_HERE)
+Please see the latest [Who's Hiring thread on r/rust](https://www.reddit.com/r/rust/comments/1xzlbqp/official_rrust_whos_hiring_thread_for_jobseekers/)
 
 # Quote of the Week
 
