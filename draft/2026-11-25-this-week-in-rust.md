@@ -43,6 +43,9 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [Scientific Computing in Rust #24 (November 2026)](https://scientificcomputing.rs/monthly/2026-11)
+* [The Embedded Rustacean Issue #85](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-85)
+
 ### Project/Tooling Updates
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
@@ -50,7 +53,17 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [The semver trick is not backwards compatible if you wait](https://sgued.fr/blog/semver-trick-wait/)
+* [How to Stop Generic Type Explosion in Rust] (https://edvong.com/stop-generic-type-explosion/)
+* [How Proton (Mail / VPN...) are rewriting their cross-platform apps in Rust to reduces costs and improve security for millions of people](https://kerkour.com/rust-at-proton)
+
 ### Rust Walkthroughs
+
+* [Rust Projects - Write an Interpreter - Version 1.0.1](https://rust-projects-write-an-interpreter.github.io/)
+* [RSPHP Part 2: Build Tools](https://scherzer.dev/Blog/20261120-rsphp-build-tools)
+* [Rolling upgrades in tellus: old code cannot learn a new shape](https://heikoseeberger.de/2026-11-24-rolling-upgrades/)
+* [video] [series] [Repository Pattern in Rust: async fn in traits, dyn vs generics, and the Send problem (Axum + SQLx)](https://youtu.be/zbglU7Ppv10)
+* [Build your own Paint](https://www.buildyourownpaint.com/en)
 
 ### Research
 
@@ -270,6 +283,8 @@ Rusty Events between 2026-11-25 - 2026-12-23 🦀
     * [**Rust Meetup @Lovable**](https://www.meetup.com/stockholm-rust/events/317161063/)
 * 2026-11-28 | Stockholm, SE | [Stockholm Rust](https://www.meetup.com/stockholm-rust)
     * [**Ferris' Fika Forum #32**](https://www.meetup.com/stockholm-rust/events/317458938/)
+* 2026-11-30 | Augsburg, DE | [Rust Meetup Augsburg](https://rust-augsburg.github.io/meetup)
+    * [**Rust Meetup #22**: Mert Yildiz: Sleepless in Tokio - Channel your inner actor with Rust](https://rust-augsburg.github.io/meetup/Meetup_22.html)
 * 2026-12-01 | Milano, MI, IT | [Rust Language Milan](https://www.meetup.com/rust-language-milano/events/)
     * [**Web Applications in Rust with Dioxus & Axum**](https://www.meetup.com/rust-language-milan/events/317485676/)
 * 2026-12-01 | Paris, FR | [Rust Paris](https://www.meetup.com/rust-paris)
@@ -280,6 +295,8 @@ Rusty Events between 2026-11-25 - 2026-12-23 🦀
     * [**Rust in December: Streaming Glühwein**](https://www.meetup.com/rustcologne/events/317564826/)
 * 2026-12-04 | Hybrid (Moscow, RU) | [RustCon RU](https://rustcon.ru/)
     * [**RustCon 2026**](https://rustcon.ru/)
+* 2026-12-08 | Dresden, DE | [Rust Dresden](https://github.com/rust-dresden)
+    * [**Meetup 4**](https://pretix.eu/rust-dresden/on-location-4/)
 * 2026-12-08 | München, DE | [Rust Munich](https://www.meetup.com/rust-munich/events/)
     * [**Rust Munich 2026 / 4 - Hacking Evening**](https://www.meetup.com/rust-munich/events/317565563/)
 * 2026-12-10 | Copenhagen, DK | [Copenhagen Rust Community](https://www.meetup.com/copenhagen-rust-community/events/)
