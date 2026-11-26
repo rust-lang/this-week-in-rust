@@ -67,7 +67,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [Abolish Lock Poisoning](https://lucumr.pocoo.org/2026/11/25/poisoning/)
 * [Compile time improvements for derive(Debug)](https://yoyo-code.com/derive-debug-compile-time-improvements/)
 * [The semver trick is not backwards compatible if you wait](https://sgued.fr/blog/semver-trick-wait/)
-* [How to Stop Generic Type Explosion in Rust] (https://edvong.com/stop-generic-type-explosion/)
+* [How to Stop Generic Type Explosion in Rust](https://edvong.com/stop-generic-type-explosion/)
 * [How Proton (Mail / VPN...) are rewriting their cross-platform apps in Rust to reduces costs and improve security for millions of people](https://kerkour.com/rust-at-proton)
 * [video] [Rust Release Changelog - 1.100](https://www.youtube.com/watch?v=fP2FiYfyzlk)
 * [video] [From Hardware to Human Interface: Building HID Devices in Rust - Frank Lyaruu](https://www.youtube.com/watch?v=Hhtdf0bQBks)
