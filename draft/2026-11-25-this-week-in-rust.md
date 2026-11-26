@@ -179,7 +179,29 @@ If you are an event organizer hoping to expand the reach of your event, please s
 
 ### Rust Compiler Performance Triage
 
-<!-- Perf results go here -->
+
+Very positive week with many improvements in the type system, codegen, debuginfo and encoding. The biggest improvement came
+perhaps surprisingly from Cargo submodule update, because Cargo recently changed
+the default debuginfo level for `dev` profile to `line-tables-only`.
+
+Triage done by **@panstromek**.
+Revision range: [6ca2b346..5debe6a1](https://perf.rust-lang.org/?start=6ca2b34602bf2f3591ffa7359c166b6409a44b0a&end=5debe6a1244452beced762385f88a51857a915fc&absolute=false&stat=instructions%3Au)
+
+**Summary**:
+
+| (instructions:u)                   | mean  | range           | count |
+|:----------------------------------:|:-----:|:---------------:|:-----:|
+| Regressions ❌ <br /> (primary)    | 1.3%  | [0.2%, 11.1%]   | 65    |
+| Regressions ❌ <br /> (secondary)  | 4.1%  | [0.2%, 12.1%]   | 79    |
+| Improvements ✅ <br /> (primary)   | -5.2% | [-38.3%, -0.2%] | 136   |
+| Improvements ✅ <br /> (secondary) | -3.4% | [-24.3%, -0.1%] | 172   |
+| All ❌✅ (primary)                 | -3.1% | [-38.3%, 11.1%] | 201   |
+
+
+7 Regressions, 8 Improvements, 19 Mixed; 1 of them in rollups
+235 artifact comparisons made in total
+
+[Full report here](https://github.com/panstromek/rustc-perf/blob/e92593db8a8ea7c091e1b6e673349297dd4d6f23/triage/2026/2026-11-23.md)
 
 ### [Approved RFCs](https://github.com/rust-lang/rfcs/commits/master)
 
