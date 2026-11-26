@@ -39,7 +39,12 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Announcing Rust 1.100.0](https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/)
+* [Rust All Hands 2027](https://blog.rust-lang.org/inside-rust/2026/11/23/all-hands-2027/)
+
 ### Foundation
+
+* [Needles, Haystacks, and Numbers Between 0 and 1](https://rustfoundation.org/media/needles-haystacks-and-numbers-between-0-and-1/)
 
 ### Newsletters
 
@@ -51,18 +56,33 @@ and just ask the editors to select the category.
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
 See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575 -->
 
+* [Release: Roto v0.14.0!](https://community.nlnetlabs.nl/t/release-roto-v0-14-0/3511)
+* [October in Servo: video captions and inert content](https://servo.org/blog/2026/11/25/october-in-servo/)
+* [A new name for ntpd-rs: Statime](https://trifectatech.org/blog/new-name-for-ntpd-rs-statime/)
+
 ### Observations/Thoughts
 
+* [Optimizing Rustc's next trait solver](https://donsz.nl/blog/optimizing-rustcs-next-trait-solver)
+* [Advice for the next 100 Rust GUIs](https://linebender.org/blog/next-100-guis/)
+* [Abolish Lock Poisoning](https://lucumr.pocoo.org/2026/11/25/poisoning/)
+* [Compile time improvements for derive(Debug)](https://yoyo-code.com/derive-debug-compile-time-improvements/)
 * [The semver trick is not backwards compatible if you wait](https://sgued.fr/blog/semver-trick-wait/)
 * [How to Stop Generic Type Explosion in Rust] (https://edvong.com/stop-generic-type-explosion/)
 * [How Proton (Mail / VPN...) are rewriting their cross-platform apps in Rust to reduces costs and improve security for millions of people](https://kerkour.com/rust-at-proton)
+* [video] [Rust Release Changelog - 1.100](https://www.youtube.com/watch?v=fP2FiYfyzlk)
+* [video] [From Hardware to Human Interface: Building HID Devices in Rust - Frank Lyaruu](https://www.youtube.com/watch?v=Hhtdf0bQBks)
+* [video] [Tales from the Embedded Rust Frontier - Jonathan Pallant](https://www.youtube.com/watch?v=0M72XNQzkRU)
+* [audio] [Axum with David Pedersen](https://netstack.fm/episodes/axum-with-david-pedersen)
+* [audio] [Embedded Software with Rust with David Cabanis](https://rustacean-station.org/episode/david-cabanis/)
 
 ### Rust Walkthroughs
 
+* [The State of Allocators in 2026 - Finally Stabilised!](https://cetra3.github.io/blog/state-of-allocators-2026-finally-stabilised/)
 * [Rust Projects - Write an Interpreter - Version 1.0.1](https://rust-projects-write-an-interpreter.github.io/)
 * [RSPHP Part 2: Build Tools](https://scherzer.dev/Blog/20261120-rsphp-build-tools)
 * [Rolling upgrades in tellus: old code cannot learn a new shape](https://heikoseeberger.de/2026-11-24-rolling-upgrades/)
 * [Build your own Paint](https://www.buildyourownpaint.com/en)
+* [video] [Nine Rules for Compile-Time Work with const fn by Carl Kadie](https://www.youtube.com/watch?v=KznFsjlPCbo)
 * [video] [series] [Repository Pattern in Rust: async fn in traits, dyn vs generics, and the Send problem (Axum + SQLx)](https://www.youtube.com/watch?v=zbglU7Ppv10)
 * [video] [Code Safari: uutils cp](https://www.youtube.com/watch?v=Yn4i4tRhOdU)
 
