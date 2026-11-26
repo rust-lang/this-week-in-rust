@@ -43,6 +43,9 @@ and just ask the editors to select the category.
 
 ### Newsletters
 
+* [Scientific Computing in Rust #24 (November 2026)](https://scientificcomputing.rs/monthly/2026-11)
+* [The Embedded Rustacean Issue #85](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-85)
+
 ### Project/Tooling Updates
 
 <!-- IMPORTANT NOTE: We are no longer accepting pull request submissions for the Project/Tooling Updates section.
@@ -50,7 +53,17 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [The semver trick is not backwards compatible if you wait](https://sgued.fr/blog/semver-trick-wait/)
+* [How to Stop Generic Type Explosion in Rust] (https://edvong.com/stop-generic-type-explosion/)
+* [How Proton (Mail / VPN...) are rewriting their cross-platform apps in Rust to reduces costs and improve security for millions of people](https://kerkour.com/rust-at-proton)
+
 ### Rust Walkthroughs
+
+* [Rust Projects - Write an Interpreter - Version 1.0.1](https://rust-projects-write-an-interpreter.github.io/)
+* [RSPHP Part 2: Build Tools](https://scherzer.dev/Blog/20261120-rsphp-build-tools)
+* [Rolling upgrades in tellus: old code cannot learn a new shape](https://heikoseeberger.de/2026-11-24-rolling-upgrades/)
+* [video] [series] [Repository Pattern in Rust: async fn in traits, dyn vs generics, and the Send problem (Axum + SQLx)](https://youtu.be/zbglU7Ppv10)
+* [Build your own Paint](https://www.buildyourownpaint.com/en)
 
 ### Research
 
