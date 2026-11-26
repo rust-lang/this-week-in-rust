@@ -39,6 +39,7 @@ and just ask the editors to select the category.
 
 ### Official
 
+* [Announcing Rust 1.100.0](https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/)
 * [Rust All Hands 2027](https://blog.rust-lang.org/inside-rust/2026/11/23/all-hands-2027/)
 
 ### Foundation
