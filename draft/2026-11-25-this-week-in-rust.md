@@ -74,6 +74,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 * [video] [Tales from the Embedded Rust Frontier - Jonathan Pallant](https://www.youtube.com/watch?v=0M72XNQzkRU)
 * [audio] [Axum with David Pedersen](https://netstack.fm/episodes/axum-with-david-pedersen)
 * [audio] [Embedded Software with Rust with David Cabanis](https://rustacean-station.org/episode/david-cabanis/)
+* [Zero-Dependency Rust for Neuro-Symbolic Robotics Guardrails (288.9 ns/op, 0 Allocs) & QUBO Optimization](https://dev.to/nyxsynth/zero-dependency-rust-for-neuro-symbolic-robotics-guardrails-2889-nsop-0-allocs--1f7c)
 
 ### Rust Walkthroughs
 
