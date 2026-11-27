@@ -52,6 +52,7 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Rust Walkthroughs
 
+* [Loco 1.3 for Laravel developers: sessions, retries, unique jobs and notifications, side by side](https://dev.to/axvidev/loco-13-for-laravel-developers-sessions-retries-unique-jobs-and-notifications-side-by-side-4686)
 ### Research
 
 ### Miscellaneous
