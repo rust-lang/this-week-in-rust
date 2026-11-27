@@ -8,9 +8,7 @@ on:
     workflows: ["Correctness Checks"]
     types: [completed]
 
-permissions:
-  actions: read
-  pull-requests: write
+permissions: {}
 
 jobs:
   comment:
@@ -19,6 +17,9 @@ jobs:
     # artifact that contains a PR number and check output.
     if: ${{ github.event.workflow_run.event == 'pull_request' }}
     runs-on: ubuntu-24.04
+    permissions:
+      actions: read # Required by `actions/download-artifact` to download the artifact from the Correctness Checks run.
+      pull-requests: write # Required to read the pull request and comment on it.
     steps:
       - name: Download PR check output
         id: download
