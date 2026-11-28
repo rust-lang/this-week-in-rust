@@ -56,6 +56,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Miscellaneous
 
+* [Rust Open-Source Supply-Chain Review | AI Slop Code Risk Monitor](https://slopcodemonitor.ai/benchmark-language-rust.html)
+
 ## Crate of the Week
 
 <!-- COTW goes here -->
