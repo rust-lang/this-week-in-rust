@@ -50,6 +50,8 @@ See here for details: https://github.com/rust-lang/this-week-in-rust/issues/8575
 
 ### Observations/Thoughts
 
+* [SearchWala Engineering Log: The v7 to v8.2 Rebuild in Rust, Bug by Bug](https://sandeepai369.github.io/SearchWala/)
+
 ### Rust Walkthroughs
 
 ### Research
