@@ -125,6 +125,8 @@ Some of these tasks may also have mentors available, visit the task page for mor
 <!-- CFPs go here, use this format: * [project name - title of issue](URL to issue) -->
 <!-- * [ - ]() -->
 <!-- or if none - *No Calls for participation were submitted this week.* -->
+* [mitts - publish: path dependency with a version is refused (unsupported dependency source)](https://github.com/alex09x/mitts/issues/211)
+* [mitts - Build scripts link with cc, ignoring `target.<host>.linker` and `RUSTFLAGS`](https://github.com/alex09x/mitts/issues/213)
 
 If you are a Rust project owner and are looking for contributors, please submit tasks [here][guidelines] or through a [PR to TWiR](https://github.com/rust-lang/this-week-in-rust) or by reaching out on [Bluesky](https://bsky.app/profile/thisweekinrust.bsky.social) or [Mastodon](https://mastodon.social/@thisweekinrust)!
 
